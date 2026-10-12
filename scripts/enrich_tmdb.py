@@ -151,12 +151,13 @@ for f in films:
         diagnostics.append(trace)
         continue
     m=best[2];entry={"tmdb_id":m["id"],"cast":[p["name"] for p in m.get("credits",{}).get("cast",[])[:3]]}
+    if isinstance(m.get("vote_average"),(int,float)) and m["vote_average"]>0:entry["tmdb_rating"]=round(m["vote_average"],1)
     if m.get("poster_path"):entry["poster"]="https://image.tmdb.org/t/p/w500"+m["poster_path"]
     imdb=m.get("imdb_id")
     if imdb:entry["imdb"]={"url":"https://www.imdb.com/title/"+imdb+"/"}
     # Keep manually verified review links and awards on subsequent refreshes.
     existing=previous.get(str(f["id"]),{})
-    for field in ("awards","letterboxd","reviews"):
+    for field in ("awards","recognition","letterboxd","reviews"):
         if field in existing:entry[field]=existing[field]
     if isinstance(existing.get("imdb"),dict) and existing["imdb"].get("score") and entry.get("imdb"):
         entry["imdb"]["score"]=existing["imdb"]["score"]
