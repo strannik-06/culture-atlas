@@ -5,6 +5,11 @@
     "candidates": 2
   },
   {
+    "id": 27,
+    "title": "Little Amélie or the Character of Rain",
+    "candidates": 0
+  },
+  {
     "id": 39,
     "title": "Young Mothers",
     "candidates": 0
@@ -25,8 +30,13 @@
     "candidates": 0
   },
   {
-    "id": 71,
-    "title": "Atropia",
+    "id": 67,
+    "title": "KPop Demon Hunters",
+    "candidates": 0
+  },
+  {
+    "id": 69,
+    "title": "Zootopia 2",
     "candidates": 0
   },
   {
@@ -37,6 +47,16 @@
   {
     "id": 86,
     "title": "Bring Her Back",
+    "candidates": 0
+  },
+  {
+    "id": 90,
+    "title": "Cover-Up",
+    "candidates": 0
+  },
+  {
+    "id": 91,
+    "title": "The Alabama Solution",
     "candidates": 0
   },
   {
@@ -57,6 +77,11 @@
   {
     "id": 98,
     "title": "In Your Dreams",
+    "candidates": 0
+  },
+  {
+    "id": 99,
+    "title": "The Legend of Hei 2",
     "candidates": 0
   }
 ]

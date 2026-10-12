@@ -1,0 +1,1241 @@
+[
+  {
+    "id": 22,
+    "title": "My Undesirable Friends: Part I",
+    "expected_director": "Julia Loktev",
+    "expected_year": 2025,
+    "searches": [
+      {
+        "query": "My Undesirable Friends: Part I",
+        "total_results": 2,
+        "total_pages": 1,
+        "results": [
+          {
+            "id": 1326015,
+            "title": "My Undesirable Friends: Part I - Last Air in Moscow",
+            "original_title": "My Undesirable Friends: Part I - Last Air in Moscow",
+            "release_date": "2025-08-15",
+            "year_filter": "passed"
+          },
+          {
+            "id": 1594307,
+            "title": "My Undesirable Friends: Part II - Exile",
+            "original_title": "My Undesirable Friends: Part II - Exile",
+            "release_date": "2026-10-09",
+            "year_filter": "passed"
+          }
+        ]
+      },
+      {
+        "query": "My Undesirable Friends",
+        "total_results": 2,
+        "total_pages": 1,
+        "results": [
+          {
+            "id": 1594307,
+            "title": "My Undesirable Friends: Part II - Exile",
+            "original_title": "My Undesirable Friends: Part II - Exile",
+            "release_date": "2026-10-09",
+            "year_filter": "passed"
+          },
+          {
+            "id": 1326015,
+            "title": "My Undesirable Friends: Part I - Last Air in Moscow",
+            "original_title": "My Undesirable Friends: Part I - Last Air in Moscow",
+            "release_date": "2025-08-15",
+            "year_filter": "passed"
+          }
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "id": 1326015,
+        "title": "My Undesirable Friends: Part I - Last Air in Moscow",
+        "release_date": "2025-08-15",
+        "directors": [
+          "Julia Loktev"
+        ],
+        "director_filter": "passed"
+      },
+      {
+        "id": 1594307,
+        "title": "My Undesirable Friends: Part II - Exile",
+        "release_date": "2026-10-09",
+        "directors": [
+          "Julia Loktev"
+        ],
+        "director_filter": "passed"
+      }
+    ],
+    "status": "ambiguous"
+  },
+  {
+    "id": 27,
+    "title": "Little Amélie or the Character of Rain",
+    "expected_director": "Maïlys Vallade & Liane-Cho Han",
+    "expected_year": 2025,
+    "searches": [
+      {
+        "query": "Little Amélie or the Character of Rain",
+        "total_results": 1,
+        "total_pages": 1,
+        "results": [
+          {
+            "id": 682012,
+            "title": "Little Amélie or the Character of Rain",
+            "original_title": "Amélie et la métaphysique des tubes",
+            "release_date": "2025-06-25",
+            "year_filter": "passed"
+          }
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "id": 682012,
+        "title": "Little Amélie or the Character of Rain",
+        "release_date": "2025-06-25",
+        "directors": [
+          "Maïlys Vallade",
+          "Liane-cho Han"
+        ],
+        "director_filter": "rejected"
+      }
+    ],
+    "status": "unmatched"
+  },
+  {
+    "id": 39,
+    "title": "Young Mothers",
+    "expected_director": "Jean-Pierre & Luc Dardenne",
+    "expected_year": 2025,
+    "searches": [
+      {
+        "query": "Young Mothers",
+        "total_results": 5,
+        "total_pages": 1,
+        "results": [
+          {
+            "id": 1242015,
+            "title": "Young Mothers",
+            "original_title": "Jeunes mères",
+            "release_date": "2025-05-23",
+            "year_filter": "passed"
+          },
+          {
+            "id": 682708,
+            "title": "Young Mother's Friend",
+            "original_title": "젊은 엄마 친구",
+            "release_date": "2018-09-28",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 384585,
+            "title": "Young Mothers in the '70s",
+            "original_title": "Elles... Les filles du Plessis",
+            "release_date": "2016-03-08",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 940184,
+            "title": "Young Mother's Friend 2",
+            "original_title": "젊은 엄마 친구 2",
+            "release_date": "2019-12-24",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 1092238,
+            "title": "My Mother's House",
+            "original_title": "젊은엄마네 하숙집",
+            "release_date": "2018-09-06",
+            "year_filter": "rejected"
+          }
+        ]
+      },
+      {
+        "query": "Jeunes mères",
+        "total_results": 1,
+        "total_pages": 1,
+        "results": [
+          {
+            "id": 1242015,
+            "title": "Young Mothers",
+            "original_title": "Jeunes mères",
+            "release_date": "2025-05-23",
+            "year_filter": "passed"
+          }
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "id": 1242015,
+        "title": "Young Mothers",
+        "release_date": "2025-05-23",
+        "directors": [
+          "Jean-Pierre Dardenne",
+          "Luc Dardenne"
+        ],
+        "director_filter": "rejected"
+      }
+    ],
+    "status": "unmatched"
+  },
+  {
+    "id": 44,
+    "title": "Once Upon a Time in Gaza",
+    "expected_director": "Tarzan & Arab Nasser",
+    "expected_year": 2025,
+    "searches": [
+      {
+        "query": "Once Upon a Time in Gaza",
+        "total_results": 1,
+        "total_pages": 1,
+        "results": [
+          {
+            "id": 1309735,
+            "title": "Once Upon a Time in Gaza",
+            "original_title": "كان ياما كان في غزة",
+            "release_date": "2025-06-25",
+            "year_filter": "passed"
+          }
+        ]
+      },
+      {
+        "query": "Il était une fois à Gaza",
+        "total_results": 1,
+        "total_pages": 1,
+        "results": [
+          {
+            "id": 1309735,
+            "title": "Once Upon a Time in Gaza",
+            "original_title": "كان ياما كان في غزة",
+            "release_date": "2025-06-25",
+            "year_filter": "passed"
+          }
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "id": 1309735,
+        "title": "Once Upon a Time in Gaza",
+        "release_date": "2025-06-25",
+        "directors": [
+          "Tarzan Nasser",
+          "Arab Nasser"
+        ],
+        "director_filter": "rejected"
+      }
+    ],
+    "status": "unmatched"
+  },
+  {
+    "id": 55,
+    "title": "Cactus Pears",
+    "expected_director": "Rohan P. Kanawade",
+    "expected_year": 2025,
+    "searches": [
+      {
+        "query": "Cactus Pears",
+        "total_results": 1,
+        "total_pages": 1,
+        "results": [
+          {
+            "id": 1288748,
+            "title": "Cactus Pears",
+            "original_title": "साबर बोंडं",
+            "release_date": "2025-09-19",
+            "year_filter": "passed"
+          }
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "id": 1288748,
+        "title": "Cactus Pears",
+        "release_date": "2025-09-19",
+        "directors": [
+          "Rohan Kanawade"
+        ],
+        "director_filter": "rejected"
+      }
+    ],
+    "status": "unmatched"
+  },
+  {
+    "id": 63,
+    "title": "Mr. Nobody Against Putin",
+    "expected_director": "David Borenstein & Pavel Talankin",
+    "expected_year": 2025,
+    "searches": [
+      {
+        "query": "Mr. Nobody Against Putin",
+        "total_results": 1,
+        "total_pages": 1,
+        "results": [
+          {
+            "id": 1393151,
+            "title": "Mr. Nobody Against Putin",
+            "original_title": "Mr. Nobody mod Putin",
+            "release_date": "2025-06-06",
+            "year_filter": "passed"
+          }
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "id": 1393151,
+        "title": "Mr. Nobody Against Putin",
+        "release_date": "2025-06-06",
+        "directors": [
+          "David Borenstein"
+        ],
+        "director_filter": "rejected"
+      }
+    ],
+    "status": "unmatched"
+  },
+  {
+    "id": 67,
+    "title": "KPop Demon Hunters",
+    "expected_director": "Maggie Kang & Chris Appelhans",
+    "expected_year": 2025,
+    "searches": [
+      {
+        "query": "KPop Demon Hunters",
+        "total_results": 4,
+        "total_pages": 1,
+        "results": [
+          {
+            "id": 803796,
+            "title": "KPop Demon Hunters",
+            "original_title": "KPop Demon Hunters",
+            "release_date": "2025-06-20",
+            "year_filter": "passed"
+          },
+          {
+            "id": 1536501,
+            "title": "Untitled KPop Demon Hunters Sequel",
+            "original_title": "Untitled KPop Demon Hunters Sequel",
+            "release_date": "",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 1546143,
+            "title": "KPop Demon Hunters: Fireplace",
+            "original_title": "KPop Demon Hunters: Fireplace",
+            "release_date": "2025-11-30",
+            "year_filter": "passed"
+          },
+          {
+            "id": 1547729,
+            "title": "Debut: A KPOP Demon Hunters Story",
+            "original_title": "Debut: A KPOP Demon Hunters Story",
+            "release_date": "",
+            "year_filter": "rejected"
+          }
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "id": 803796,
+        "title": "KPop Demon Hunters",
+        "release_date": "2025-06-20",
+        "directors": [
+          "Chris Appelhans",
+          "Maggie Kang"
+        ],
+        "director_filter": "rejected"
+      },
+      {
+        "id": 1546143,
+        "title": "KPop Demon Hunters: Fireplace",
+        "release_date": "2025-11-30",
+        "directors": [],
+        "director_filter": "rejected"
+      }
+    ],
+    "status": "unmatched"
+  },
+  {
+    "id": 69,
+    "title": "Zootopia 2",
+    "expected_director": "Jared Bush & Byron Howard",
+    "expected_year": 2025,
+    "searches": [
+      {
+        "query": "Zootopia 2",
+        "total_results": 1,
+        "total_pages": 1,
+        "results": [
+          {
+            "id": 1084242,
+            "title": "Zootopia 2",
+            "original_title": "Zootopia 2",
+            "release_date": "2025-11-26",
+            "year_filter": "passed"
+          }
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "id": 1084242,
+        "title": "Zootopia 2",
+        "release_date": "2025-11-26",
+        "directors": [
+          "Jared Bush",
+          "Byron Howard"
+        ],
+        "director_filter": "rejected"
+      }
+    ],
+    "status": "unmatched"
+  },
+  {
+    "id": 71,
+    "title": "Atropia",
+    "expected_director": "Hailey Gates",
+    "expected_year": 2025,
+    "searches": [
+      {
+        "query": "Atropia",
+        "total_results": 1,
+        "total_pages": 1,
+        "results": [
+          {
+            "id": 1239288,
+            "title": "Atropia",
+            "original_title": "Atropia",
+            "release_date": "2025-11-15",
+            "year_filter": "passed"
+          }
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "id": 1239288,
+        "title": "Atropia",
+        "release_date": "2025-11-15",
+        "directors": [
+          "Hailey Benton Gates"
+        ],
+        "director_filter": "passed"
+      }
+    ],
+    "status": "matched"
+  },
+  {
+    "id": 78,
+    "title": "Left-Handed Girl",
+    "expected_director": "Shih-Ching Tsou",
+    "expected_year": 2025,
+    "searches": [
+      {
+        "query": "Left-Handed Girl",
+        "total_results": 1,
+        "total_pages": 1,
+        "results": [
+          {
+            "id": 999075,
+            "title": "Left-Handed Girl",
+            "original_title": "左撇子女孩",
+            "release_date": "2025-09-17",
+            "year_filter": "passed"
+          }
+        ]
+      },
+      {
+        "query": "Zuo Pie Zi Nu Hai",
+        "total_results": 0,
+        "total_pages": 1,
+        "results": []
+      }
+    ],
+    "candidates": [
+      {
+        "id": 999075,
+        "title": "Left-Handed Girl",
+        "release_date": "2025-09-17",
+        "directors": [
+          "Tsou Shih-ching"
+        ],
+        "director_filter": "rejected"
+      }
+    ],
+    "status": "unmatched"
+  },
+  {
+    "id": 86,
+    "title": "Bring Her Back",
+    "expected_director": "Danny & Michael Philippou",
+    "expected_year": 2025,
+    "searches": [
+      {
+        "query": "Bring Her Back",
+        "total_results": 1,
+        "total_pages": 1,
+        "results": [
+          {
+            "id": 1151031,
+            "title": "Bring Her Back",
+            "original_title": "Bring Her Back",
+            "release_date": "2025-05-19",
+            "year_filter": "passed"
+          }
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "id": 1151031,
+        "title": "Bring Her Back",
+        "release_date": "2025-05-19",
+        "directors": [
+          "Danny Philippou",
+          "Michael Philippou"
+        ],
+        "director_filter": "rejected"
+      }
+    ],
+    "status": "unmatched"
+  },
+  {
+    "id": 90,
+    "title": "Cover-Up",
+    "expected_director": "Laura Poitras & Mark Obenhaus",
+    "expected_year": 2025,
+    "searches": [
+      {
+        "query": "Cover-Up",
+        "total_results": 49,
+        "total_pages": 3,
+        "results": [
+          {
+            "id": 1516391,
+            "title": "Cover-Up",
+            "original_title": "Cover-Up",
+            "release_date": "2025-12-19",
+            "year_filter": "passed"
+          },
+          {
+            "id": 826649,
+            "title": "Cover Up",
+            "original_title": "Cover Up",
+            "release_date": "2016-10-09",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 1198062,
+            "title": "Cover Up",
+            "original_title": "Cover Up",
+            "release_date": "2023-07-18",
+            "year_filter": "passed"
+          },
+          {
+            "id": 37615,
+            "title": "Cover Up",
+            "original_title": "Cover Up",
+            "release_date": "1949-02-25",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 249786,
+            "title": "Cover Up",
+            "original_title": "La Crime",
+            "release_date": "1983-08-24",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 88067,
+            "title": "Cover-Up",
+            "original_title": "Cover-Up",
+            "release_date": "1991-02-22",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 777415,
+            "title": "Cover Up",
+            "original_title": "Cover Up",
+            "release_date": "2021-10-09",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 897765,
+            "title": "Killer Cover Up",
+            "original_title": "Killer Cover Up",
+            "release_date": "2021-11-12",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 1275802,
+            "title": "Cover Up",
+            "original_title": "Cover Up",
+            "release_date": "2023-12-10",
+            "year_filter": "passed"
+          },
+          {
+            "id": 1586905,
+            "title": "The Cover Up",
+            "original_title": "The Cover Up",
+            "release_date": "",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 494418,
+            "title": "Cover Up Amerikants",
+            "original_title": "Cover Up Amerikants",
+            "release_date": "",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 957033,
+            "title": "Cover-Up",
+            "original_title": "Cover-Up",
+            "release_date": "1986-01-01",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 1271795,
+            "title": "Hindenburg: The Cover Up",
+            "original_title": "Hindenburg: The Cover Up",
+            "release_date": "2022-10-06",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 919646,
+            "title": "Cover-Up '62",
+            "original_title": "Cover-Up '62",
+            "release_date": "2004-10-16",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 1791308,
+            "title": "The Cover Up",
+            "original_title": "The Cover Up",
+            "release_date": "2026-11-03",
+            "year_filter": "passed"
+          },
+          {
+            "id": 808436,
+            "title": "Atomic Cover-up",
+            "original_title": "Atomic Cover-up",
+            "release_date": "2021-03-20",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 1047397,
+            "title": "Sinister Cover-Up",
+            "original_title": "Sinister Cover-Up",
+            "release_date": "2023-06-21",
+            "year_filter": "passed"
+          },
+          {
+            "id": 585520,
+            "title": "UFO Cover-Up?: Live!",
+            "original_title": "UFO Cover-Up?: Live!",
+            "release_date": "1988-10-14",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 1337751,
+            "title": "Route 91: Uncovering the Cover Up",
+            "original_title": "Route 91: Uncovering the Cover Up",
+            "release_date": "2022-01-12",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 1227869,
+            "title": "The Elvis Cover Up",
+            "original_title": "The Elvis Cover Up",
+            "release_date": "1979-01-01",
+            "year_filter": "rejected"
+          }
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "id": 1516391,
+        "title": "Cover-Up",
+        "release_date": "2025-12-19",
+        "directors": [
+          "Laura Poitras",
+          "Mark Obenhaus"
+        ],
+        "director_filter": "rejected"
+      },
+      {
+        "id": 1198062,
+        "title": "Cover Up",
+        "release_date": "2023-07-18",
+        "directors": [
+          "Ember Rain Condron"
+        ],
+        "director_filter": "rejected"
+      },
+      {
+        "id": 1275802,
+        "title": "Cover Up",
+        "release_date": "2023-12-10",
+        "directors": [],
+        "director_filter": "rejected"
+      },
+      {
+        "id": 1791308,
+        "title": "The Cover Up",
+        "release_date": "2026-11-03",
+        "directors": [
+          "Jeremy Torrie"
+        ],
+        "director_filter": "rejected"
+      },
+      {
+        "id": 1047397,
+        "title": "Sinister Cover-Up",
+        "release_date": "2023-06-21",
+        "directors": [
+          "Lindsay Hartley"
+        ],
+        "director_filter": "rejected"
+      }
+    ],
+    "status": "unmatched"
+  },
+  {
+    "id": 91,
+    "title": "The Alabama Solution",
+    "expected_director": "Andrew Jarecki & Charlotte Kaufman",
+    "expected_year": 2025,
+    "searches": [
+      {
+        "query": "The Alabama Solution",
+        "total_results": 1,
+        "total_pages": 1,
+        "results": [
+          {
+            "id": 1413805,
+            "title": "The Alabama Solution",
+            "original_title": "The Alabama Solution",
+            "release_date": "2025-01-28",
+            "year_filter": "passed"
+          }
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "id": 1413805,
+        "title": "The Alabama Solution",
+        "release_date": "2025-01-28",
+        "directors": [
+          "Andrew Jarecki",
+          "Charlotte Kaufman"
+        ],
+        "director_filter": "rejected"
+      }
+    ],
+    "status": "unmatched"
+  },
+  {
+    "id": 93,
+    "title": "Endless Cookie",
+    "expected_director": "Seth & Peter Scriver",
+    "expected_year": 2025,
+    "searches": [
+      {
+        "query": "Endless Cookie",
+        "total_results": 1,
+        "total_pages": 1,
+        "results": [
+          {
+            "id": 1400794,
+            "title": "Endless Cookie",
+            "original_title": "Endless Cookie",
+            "release_date": "2025-06-13",
+            "year_filter": "passed"
+          }
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "id": 1400794,
+        "title": "Endless Cookie",
+        "release_date": "2025-06-13",
+        "directors": [
+          "Seth Scriver",
+          "Peter Scriver"
+        ],
+        "director_filter": "rejected"
+      }
+    ],
+    "status": "unmatched"
+  },
+  {
+    "id": 96,
+    "title": "Elio",
+    "expected_director": "Madeline Sharafian, Domee Shi & Adrian Molina",
+    "expected_year": 2025,
+    "searches": [
+      {
+        "query": "Elio",
+        "total_results": 54,
+        "total_pages": 3,
+        "results": [
+          {
+            "id": 1022787,
+            "title": "Elio",
+            "original_title": "Elio",
+            "release_date": "2025-06-18",
+            "year_filter": "passed"
+          },
+          {
+            "id": 305415,
+            "title": "Elio Petri: Notes About a Filmmaker",
+            "original_title": "Elio Petri... appunti su un autore",
+            "release_date": "2005-09-03",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 1233073,
+            "title": "Intervista a Elio Coppola",
+            "original_title": "Intervista a Elio Coppola",
+            "release_date": "",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 230695,
+            "title": "Elio Berhanyer, maestro del diseño",
+            "original_title": "Elio Berhanyer, maestro del diseño",
+            "release_date": "2013-10-30",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 355149,
+            "title": "Chi ha incastrato Elio e le Storie Tese?",
+            "original_title": "Chi ha incastrato Elio e le Storie Tese?",
+            "release_date": "1992-01-01",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 428599,
+            "title": "Ritmo sbilenco - Un filmino su Elio e le Storie Tese",
+            "original_title": "Ritmo sbilenco - Un filmino su Elio e le Storie Tese",
+            "release_date": "2016-11-23",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 330035,
+            "title": "Elio e le Storie Tese - Live al Teatro Arcimboldi 2009",
+            "original_title": "Elio e le Storie Tese - Live al Teatro Arcimboldi 2009",
+            "release_date": "2009-10-26",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 1103775,
+            "title": "A qualcuno piacerà - Storia e storie di Elio Pandolfi",
+            "original_title": "A qualcuno piacerà - Storia e storie di Elio Pandolfi",
+            "release_date": "2015-08-06",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 422756,
+            "title": "Elio e le Storie Tese: Dei megli dei nostri megli",
+            "original_title": "Elio e le Storie Tese: Dei megli dei nostri megli",
+            "release_date": "2014-11-25",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 1571002,
+            "title": "Elio e le Storie Tese - Piccoli energumeni tour",
+            "original_title": "Elio e le Storie Tese - Piccoli energumeni tour",
+            "release_date": "2016-04-29",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 589605,
+            "title": "Bisio e le storie tese e Elio - Coèsi se vi pare",
+            "original_title": "Bisio e le storie tese e Elio - Coèsi se vi pare",
+            "release_date": "2006-11-01",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 1252511,
+            "title": "Élio contre l'humanité",
+            "original_title": "Élio contre l'humanité",
+            "release_date": "2023-09-29",
+            "year_filter": "passed"
+          },
+          {
+            "id": 1072435,
+            "title": "Un vas d'aigua per a l'Elio",
+            "original_title": "Un vas d'aigua per a l'Elio",
+            "release_date": "2023-11-10",
+            "year_filter": "passed"
+          },
+          {
+            "id": 1355249,
+            "title": "Sam & Eliott",
+            "original_title": "Sam & Eliott",
+            "release_date": "2024-10-22",
+            "year_filter": "passed"
+          },
+          {
+            "id": 418090,
+            "title": "Eliot Ness vs. Al Capone",
+            "original_title": "Eliot Ness contre Al Capone",
+            "release_date": "2009-03-29",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 553443,
+            "title": "Cavalli: Eliogabalo",
+            "original_title": "Cavalli: Eliogabalo",
+            "release_date": "2016-09-14",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 478433,
+            "title": "Buy Me an Eliot",
+            "original_title": "Kupi mi Eliota",
+            "release_date": "1998-05-25",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 998216,
+            "title": "Free Spirit",
+            "original_title": "Free Spirit",
+            "release_date": "2018-01-01",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 1529870,
+            "title": "Eliott",
+            "original_title": "Eliott",
+            "release_date": "2024-06-26",
+            "year_filter": "passed"
+          },
+          {
+            "id": 279765,
+            "title": "The Return of Eliot Ness",
+            "original_title": "The Return of Eliot Ness",
+            "release_date": "1991-11-10",
+            "year_filter": "rejected"
+          }
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "id": 1022787,
+        "title": "Elio",
+        "release_date": "2025-06-18",
+        "directors": [
+          "Madeline Sharafian",
+          "Domee Shi",
+          "Adrian Molina"
+        ],
+        "director_filter": "rejected"
+      },
+      {
+        "id": 1252511,
+        "title": "Élio contre l'humanité",
+        "release_date": "2023-09-29",
+        "directors": [
+          "Bixente Volet"
+        ],
+        "director_filter": "rejected"
+      },
+      {
+        "id": 1072435,
+        "title": "Un vas d'aigua per a l'Elio",
+        "release_date": "2023-11-10",
+        "directors": [
+          "Pere Joan Ventura"
+        ],
+        "director_filter": "rejected"
+      },
+      {
+        "id": 1355249,
+        "title": "Sam & Eliott",
+        "release_date": "2024-10-22",
+        "directors": [
+          "Zian Palau"
+        ],
+        "director_filter": "rejected"
+      },
+      {
+        "id": 1529870,
+        "title": "Eliott",
+        "release_date": "2024-06-26",
+        "directors": [
+          "Joey Karier",
+          "Lucie Smeets"
+        ],
+        "director_filter": "rejected"
+      }
+    ],
+    "status": "unmatched"
+  },
+  {
+    "id": 97,
+    "title": "The Bad Guys 2",
+    "expected_director": "Pierre Perifel & JP Sans",
+    "expected_year": 2025,
+    "searches": [
+      {
+        "query": "The Bad Guys 2",
+        "total_results": 2,
+        "total_pages": 1,
+        "results": [
+          {
+            "id": 1175942,
+            "title": "The Bad Guys 2",
+            "original_title": "The Bad Guys 2",
+            "release_date": "2025-07-24",
+            "year_filter": "passed"
+          },
+          {
+            "id": 551628,
+            "title": "The 8-Bit Philosophy 2 – The Good and the Bad Guys",
+            "original_title": "The 8-Bit Philosophy 2 – The Good and the Bad Guys",
+            "release_date": "2017-03-01",
+            "year_filter": "rejected"
+          }
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "id": 1175942,
+        "title": "The Bad Guys 2",
+        "release_date": "2025-07-24",
+        "directors": [
+          "Pierre Perifel"
+        ],
+        "director_filter": "rejected"
+      }
+    ],
+    "status": "unmatched"
+  },
+  {
+    "id": 98,
+    "title": "In Your Dreams",
+    "expected_director": "Alex Woo",
+    "expected_year": 2025,
+    "searches": [
+      {
+        "query": "In Your Dreams",
+        "total_results": 19,
+        "total_pages": 1,
+        "results": [
+          {
+            "id": 1117857,
+            "title": "In Your Dreams",
+            "original_title": "In Your Dreams",
+            "release_date": "2025-11-07",
+            "year_filter": "passed"
+          },
+          {
+            "id": 425768,
+            "title": "In Your Dreams",
+            "original_title": "In Your Dreams",
+            "release_date": "1997-12-13",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 1073125,
+            "title": "In Your Dreams",
+            "original_title": "Rüyanda Görürsün",
+            "release_date": "2023-02-03",
+            "year_filter": "passed"
+          },
+          {
+            "id": 19573,
+            "title": "In Your Dreams",
+            "original_title": "In Your Dreams",
+            "release_date": "2009-04-14",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 1474364,
+            "title": "In Your Dreams",
+            "original_title": "In Your Dreams",
+            "release_date": "",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 1398066,
+            "title": "In Your Dreams",
+            "original_title": "In Your Dreams",
+            "release_date": "2024-12-05",
+            "year_filter": "passed"
+          },
+          {
+            "id": 836682,
+            "title": "In Your Dreams",
+            "original_title": "In Your Dreams",
+            "release_date": "2020-06-10",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 274521,
+            "title": "In Your Wildest Dreams",
+            "original_title": "In Your Wildest Dreams",
+            "release_date": "1991-01-01",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 61658,
+            "title": "In Your Dreams",
+            "original_title": "Dans tes rêves",
+            "release_date": "2005-04-13",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 486284,
+            "title": "In Your Dreams",
+            "original_title": "以青春的名義",
+            "release_date": "2017-10-31",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 1296345,
+            "title": "In Your Dreams",
+            "original_title": "Dans tes rêves",
+            "release_date": "2004-01-01",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 381783,
+            "title": "In Your Dreams!",
+            "original_title": "Ani ve snu!",
+            "release_date": "2016-04-28",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 184837,
+            "title": "Stevie Nicks: In Your Dreams",
+            "original_title": "Stevie Nicks: In Your Dreams",
+            "release_date": "2013-04-15",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 170841,
+            "title": "In Your Dreams",
+            "original_title": "ابقى قابلني",
+            "release_date": "2009-09-20",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 345310,
+            "title": "In Your Dreams",
+            "original_title": "Drømme kan du gjøre senere",
+            "release_date": "2005-06-16",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 219470,
+            "title": "Please Keep Me in Your Dreams",
+            "original_title": "Please Keep Me in Your Dreams",
+            "release_date": "1937-05-27",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 926406,
+            "title": "The Dreams That Swim In Your Bed",
+            "original_title": "0ae24d51b2173bcc03495fa8ca467210",
+            "release_date": "",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 445129,
+            "title": "Minky Momo in the Bridge Over Dreams",
+            "original_title": "MINKY MOMO in 夢にかける橋",
+            "release_date": "1993-05-21",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 285121,
+            "title": "Heart of a Champion: The Ray Mancini Story",
+            "original_title": "Heart of a Champion: The Ray Mancini Story",
+            "release_date": "1985-05-01",
+            "year_filter": "rejected"
+          }
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "id": 1117857,
+        "title": "In Your Dreams",
+        "release_date": "2025-11-07",
+        "directors": [
+          "Alexander Woo"
+        ],
+        "director_filter": "rejected"
+      },
+      {
+        "id": 1073125,
+        "title": "In Your Dreams",
+        "release_date": "2023-02-03",
+        "directors": [
+          "Cemal Alpan"
+        ],
+        "director_filter": "rejected"
+      },
+      {
+        "id": 1398066,
+        "title": "In Your Dreams",
+        "release_date": "2024-12-05",
+        "directors": [
+          "Ayman Mokhtar"
+        ],
+        "director_filter": "rejected"
+      }
+    ],
+    "status": "unmatched"
+  },
+  {
+    "id": 99,
+    "title": "The Legend of Hei 2",
+    "expected_director": "MTJJ & Gu Jie",
+    "expected_year": 2025,
+    "searches": [
+      {
+        "query": "The Legend of Hei 2",
+        "total_results": 1,
+        "total_pages": 1,
+        "results": [
+          {
+            "id": 1144107,
+            "title": "The Legend of Hei 2",
+            "original_title": "罗小黑战记 2",
+            "release_date": "2025-07-18",
+            "year_filter": "passed"
+          }
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "id": 1144107,
+        "title": "The Legend of Hei 2",
+        "release_date": "2025-07-18",
+        "directors": [
+          "Gu Jie",
+          "MTJJ"
+        ],
+        "director_filter": "rejected"
+      }
+    ],
+    "status": "unmatched"
+  }
+]
