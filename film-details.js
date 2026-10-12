@@ -298,6 +298,18 @@ window.CULTURE_FILM_DETAILS = {
       "url": "https://www.imdb.com/title/tt14883538/"
     }
   },
+  "27": {
+    "tmdb_id": 682012,
+    "cast": [
+      "Loïse Charpentier",
+      "Victoria Grobois",
+      "Yumi Fujimori"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/qoqDvTUVPoZJWw24AjGDt3J4tZN.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt29313285/"
+    }
+  },
   "28": {
     "tmdb_id": 1401281,
     "cast": [
@@ -430,6 +442,18 @@ window.CULTURE_FILM_DETAILS = {
       "url": "https://www.imdb.com/title/tt28834646/"
     }
   },
+  "39": {
+    "tmdb_id": 1242015,
+    "cast": [
+      "Babette Verbeek",
+      "Elsa Houben",
+      "Janaïna Halloy Fokan"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/okfaa71H1P0WC1uzYliOgYS2gte.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt32909489/"
+    }
+  },
   "40": {
     "tmdb_id": 896096,
     "cast": [
@@ -476,6 +500,18 @@ window.CULTURE_FILM_DETAILS = {
     "poster": "https://image.tmdb.org/t/p/w500/zc8n3hm3S2VxFxlNH1MNN28LVMa.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt35715953/"
+    }
+  },
+  "44": {
+    "tmdb_id": 1309735,
+    "cast": [
+      "Nader Abd Alhay",
+      "Majd Eid",
+      "Ramzi Maqdisi"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/pUaPcVkkO3WZSbCusXhvu4u5bpT.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt34734841/"
     }
   },
   "45": {
@@ -705,6 +741,18 @@ window.CULTURE_FILM_DETAILS = {
       "url": "https://www.imdb.com/title/tt35114460/"
     }
   },
+  "67": {
+    "tmdb_id": 803796,
+    "cast": [
+      "Arden Cho",
+      "May Hong",
+      "Ji-young Yoo"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/zT7Lhw3BhJbMkRqm9Zlx2YGMsY0.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt14205554/"
+    }
+  },
   "68": {
     "tmdb_id": 1235137,
     "cast": [
@@ -715,6 +763,18 @@ window.CULTURE_FILM_DETAILS = {
     "poster": "https://image.tmdb.org/t/p/w500/3dTnNYq0TZYkTLqRXgHz3OBxcFA.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt31021863/"
+    }
+  },
+  "69": {
+    "tmdb_id": 1084242,
+    "cast": [
+      "Ginnifer Goodwin",
+      "Jason Bateman",
+      "Ke Huy Quan"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/oJ7g2CifqpStmoYQyaLQgEU32qO.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt26443597/"
     }
   },
   "70": {
@@ -897,6 +957,18 @@ window.CULTURE_FILM_DETAILS = {
       "url": "https://www.imdb.com/title/tt26581740/"
     }
   },
+  "86": {
+    "tmdb_id": 1151031,
+    "cast": [
+      "Billy Barratt",
+      "Sally Hawkins",
+      "Mischa Heywood"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/1Q3GlCXGYWELifxANYZ5OVMRVZl.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt32246771/"
+    }
+  },
   "87": {
     "tmdb_id": 1100988,
     "cast": [
@@ -933,6 +1005,30 @@ window.CULTURE_FILM_DETAILS = {
       "url": "https://www.imdb.com/title/tt34963732/"
     }
   },
+  "90": {
+    "tmdb_id": 1516391,
+    "cast": [
+      "Seymour Hersh",
+      "Jeff Gerth",
+      "David Obst"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/3kVAkwPrNNw3kxe2yJVatj86QKo.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt37660887/"
+    }
+  },
+  "91": {
+    "tmdb_id": 1413805,
+    "cast": [
+      "Robert Earl Council",
+      "Melvin Ray",
+      "Kay Ivey"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/gultnK0rYs4xLLYhxQ9ZnvPfVAn.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt35307139/"
+    }
+  },
   "92": {
     "tmdb_id": 1400780,
     "cast": [
@@ -943,6 +1039,18 @@ window.CULTURE_FILM_DETAILS = {
     "poster": "https://image.tmdb.org/t/p/w500/5AFbcDGT78cLZTyHTSDBohczjuO.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt34966013/"
+    }
+  },
+  "93": {
+    "tmdb_id": 1400794,
+    "cast": [
+      "Seth Scriver",
+      "Peter Scriver",
+      "Kristin Scriver"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/m4QlGRQ8dSXIEPTYvKB54YvMGyE.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt34965172/"
     }
   },
   "94": {
@@ -967,6 +1075,18 @@ window.CULTURE_FILM_DETAILS = {
     "poster": "https://image.tmdb.org/t/p/w500/89wNiexZdvLQ41OQWIsQy4O6jAQ.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt10954718/"
+    }
+  },
+  "96": {
+    "tmdb_id": 1022787,
+    "cast": [
+      "Yonas Kibreab",
+      "Remy Edgerly",
+      "Zoe Saldaña"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/7z8jDiTZZco9moIKpTUImFtTy7o.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt4900148/"
     }
   },
   "100": {
