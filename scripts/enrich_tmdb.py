@@ -27,20 +27,44 @@ VERIFIED_TMDB_IDS={}  # Diagnose these films through normal title search, not pi
 DIRECTOR_ALIASES={
     "Hailey Gates":["Hailey Benton Gates"],
 }
+def name_tokens(name):
+    return re.findall(r"[a-z0-9]+", unicodedata.normalize("NFKD",name.casefold()).replace("-", " ").encode("ascii","ignore").decode())
 def director_equivalent(expected,actual):
-    options=[expected,*DIRECTOR_ALIASES.get(expected,[])]
-    return any(norm(o)==norm(actual) for o in options)
+    for variant in [expected,*DIRECTOR_ALIASES.get(expected,[])]:
+        a,b=name_tokens(variant),name_tokens(actual)
+        if norm(variant)==norm(actual) or (len(a)==1 and a==b):
+            return True
+        if len(a)<2 or len(b)<2:continue
+        # Accommodate reversed Asian name order, middle names/initials, and Alex/Alexander.
+        def given_match(x,y):
+            return x==y or (len(x)==1 and y.startswith(x)) or (len(y)==1 and x.startswith(y)) or (min(len(x),len(y))>=3 and (x.startswith(y) or y.startswith(x)))
+        for i,token in enumerate(a):
+            for j,other in enumerate(b):
+                if token!=other:continue
+                remaining_a=[v for k,v in enumerate(a) if k!=i]
+                remaining_b=[v for k,v in enumerate(b) if k!=j]
+                if any(given_match(x,y) for x in remaining_a for y in remaining_b):
+                    return True
+    return False
 def director_names(raw):
-    parts=[p.strip() for p in re.split(r"\s+&\s+|\s*,\s*",raw) if p.strip()]
-    # "Jean-Pierre & Luc Dardenne" -> "Jean-Pierre Dardenne", "Luc Dardenne"
+    parts=[p.strip() for p in re.split(r"\\s+&\\s+|\\s*,\\s*",raw) if p.strip()]
     if len(parts)>1:
         last=parts[-1].split()
         if len(last)>1:
             surname=last[-1]
             parts=[p+" "+surname if len(p.split())==1 else p for p in parts]
     return parts
+def director_match_count(expected,actual):
+    return sum(any(director_equivalent(w,d) for d in actual) for w in director_names(expected))
 def directors_match(expected,actual):
-    return all(any(director_equivalent(w,d) for d in actual) for w in director_names(expected))
+    return director_match_count(expected,actual)>0
+def title_score(f,m):
+    target=norm(f["title"])
+    titles=[m.get("title",""),m.get("original_title","")]
+    scores=[100 if norm(t)==target else 90 if norm(t).startswith(target) and len(target)>10 else 0 for t in titles]
+    for alias in ALIASES.get(f["id"],[]):
+        scores.extend([80 if norm(t)==norm(alias) else 0 for t in titles])
+    return max(scores)
 def search_terms(f):
     title=f["title"]
     return list(dict.fromkeys([title, re.sub(r"\s*\([^)]*\)","",title).strip(),re.sub(r"\s*:\s*Part\s+[IVX]+$","",title,flags=re.I).strip(),*ALIASES.get(f["id"],[])]))
@@ -105,16 +129,16 @@ for f in films:
         accepted=directors_match(director,directors)
         trace["candidates"].append({"id":movie["id"],"title":movie.get("title"),"release_date":movie.get("release_date"),"directors":directors,"director_filter":"passed" if accepted else "rejected"})
         if not accepted:continue
-        matches.append(movie)
+        matches.append((title_score(f,movie),director_match_count(director,directors),movie))
         time.sleep(.15)
     # Require one unique director-verified match; never pick arbitrarily.
     if len(matches)!=1:
         if str(f["id"]) in previous:details[f["id"]]=previous[str(f["id"])]
         ambiguous.append({"id":f["id"],"title":title,"candidates":len(matches)})
-        trace["status"]="unmatched" if not matches else "ambiguous"
+        trace["status"]="unmatched" if not matches or (best and best[0]<80) else "ambiguous"
         diagnostics.append(trace)
         continue
-    m=matches[0];entry={"tmdb_id":m["id"],"cast":[p["name"] for p in m.get("credits",{}).get("cast",[])[:3]]}
+    m=best[2];entry={"tmdb_id":m["id"],"cast":[p["name"] for p in m.get("credits",{}).get("cast",[])[:3]]}
     if m.get("poster_path"):entry["poster"]="https://image.tmdb.org/t/p/w500"+m["poster_path"]
     imdb=m.get("imdb_id")
     if imdb:entry["imdb"]={"url":"https://www.imdb.com/title/"+imdb+"/"}
@@ -125,8 +149,8 @@ for f in films:
     if isinstance(existing.get("imdb"),dict) and existing["imdb"].get("score") and entry.get("imdb"):
         entry["imdb"]["score"]=existing["imdb"]["score"]
     details[f["id"]]=entry
-    if f["id"] in (39,71,78):
-        trace["status"]="matched"
+    if f["id"] in (39,71,78,22,55,63,97,98,99):
+        trace["status"]="matched"\n        trace["selected_tmdb_id"]=m["id"]
         diagnostics.append(trace)
     print(f'{f["id"]:3} {title}: matched TMDB {m["id"]}')
 (root/"film-details.js").write_text("// Film data matched against TMDB title, year and director. Reviews and awards require independent verification.\nwindow.CULTURE_FILM_DETAILS = "+json.dumps(details,ensure_ascii=False,indent=2)+";\n")
