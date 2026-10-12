@@ -22,6 +22,19 @@ ALIASES={
   78:["Left-Handed Girl","Zuo Pie Zi Nu Hai"],86:["Bring Her Back"],
   93:["Endless Cookie"],96:["Elio"],97:["The Bad Guys 2"],98:["In Your Dreams"]
 }
+# Explicit TMDB IDs verified by a human. Prefer IDs over fuzzy title searches.
+VERIFIED_TMDB_IDS={39:1242015}
+def director_names(raw):
+    parts=[p.strip() for p in re.split(r"\\s+&\\s+|\\s*,\\s*",raw) if p.strip()]
+    # "Jean-Pierre & Luc Dardenne" -> "Jean-Pierre Dardenne", "Luc Dardenne"
+    if len(parts)>1:
+        last=parts[-1].split()
+        if len(last)>1:
+            surname=last[-1]
+            parts=[p+" "+surname if len(p.split())==1 else p for p in parts]
+    return parts
+def directors_match(expected,actual):
+    return all(any(norm(w)==norm(d) for d in actual) for w in director_names(expected))
 def search_terms(f):
     title=f["title"]
     return list(dict.fromkeys([title, re.sub(r"\\s*\\([^)]*\\)","",title).strip(),re.sub(r"\\s*:\\s*Part\\s+[IVX]+$","",title,flags=re.I).strip(),*ALIASES.get(f["id"],[])]))
@@ -35,8 +48,16 @@ details={};ambiguous=[]
 for f in films:
     title=f["title"];director=f["director"];year=f["year"]
     # TMDB searches alternate-language titles; verify identity by director.
-    candidates={}
-    for term in search_terms(f):
+    if f["id"] in VERIFIED_TMDB_IDS:
+        movie=api("movie/"+str(VERIFIED_TMDB_IDS[f["id"]]),{"append_to_response":"credits,external_ids"})
+        found=[p["name"] for p in movie.get("credits",{}).get("crew",[]) if p.get("job")=="Director"]
+        if not directors_match(director,found):
+            raise RuntimeError(f"Manual TMDB ID for {title} has unexpected directors: {found}")
+        candidates={movie["id"]:movie}
+    else:
+        candidates={}
+
+    for term in ([] if f["id"] in VERIFIED_TMDB_IDS else search_terms(f)):
         if not term:continue
         for item in api("search/movie",{"query":term,"include_adult":"false"}).get("results",[])[:20]:
             release=item.get("release_date","")[:4]
@@ -46,8 +67,8 @@ for f in films:
     # Fallback: identify director by name and inspect their movie directing credits.
     # Useful for translated titles, documentaries, and festival films.
     if not candidates:
-        director_names=[x.strip() for x in re.split(r"\\s+&\\s+",director)]
-        for director_name in director_names:
+        director_names_list=director_names(director)
+        for director_name in director_names_list:
             people=api("search/person",{"query":director_name}).get("results",[])[:8]
             for person in people:
                 if norm(person.get("name",""))!=norm(director_name):continue
@@ -63,8 +84,7 @@ for f in films:
     for item in candidates.values():
         movie=api("movie/"+str(item["id"]),{"append_to_response":"credits,external_ids"})
         directors=[p["name"] for p in movie.get("credits",{}).get("crew",[]) if p.get("job")=="Director"]
-        wanted=[x.strip() for x in director.split("&")]
-        if not all(any(norm(w)==norm(d) for d in directors) for w in wanted):continue
+        if not directors_match(director,directors):continue
         matches.append(movie)
         time.sleep(.15)
     # Require one unique director-verified match; never pick arbitrarily.
