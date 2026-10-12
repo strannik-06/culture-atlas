@@ -7098,12 +7098,12 @@
   },
   {
     "id": 161,
-    "title": "The Story of Souleymane",
+    "title": "Souleymane's Story",
     "expected_director": "Boris Lojkine",
     "expected_year": 2024,
     "searches": [
       {
-        "query": "The Story of Souleymane",
+        "query": "Souleymane's Story",
         "total_results": 1,
         "total_pages": 1,
         "results": [
@@ -7128,7 +7128,8 @@
         "director_filter": "passed"
       }
     ],
-    "status": "unmatched"
+    "status": "matched",
+    "selected_tmdb_id": 1158996
   },
   {
     "id": 162,
@@ -7195,20 +7196,20 @@
   },
   {
     "id": 163,
-    "title": "The Other Profile",
+    "title": "Filmlovers!",
     "expected_director": "Arnaud Desplechin",
     "expected_year": 2024,
     "searches": [
       {
-        "query": "The Other Profile",
+        "query": "Filmlovers!",
         "total_results": 1,
         "total_pages": 1,
         "results": [
           {
-            "id": 1091356,
-            "title": "The Other Profile",
-            "original_title": "Le vrai du faux",
-            "release_date": "2023-06-07",
+            "id": 1084808,
+            "title": "Filmlovers!",
+            "original_title": "Spectateurs !",
+            "release_date": "2025-01-15",
             "year_filter": "passed"
           }
         ]
@@ -7216,16 +7217,17 @@
     ],
     "candidates": [
       {
-        "id": 1091356,
-        "title": "The Other Profile",
-        "release_date": "2023-06-07",
+        "id": 1084808,
+        "title": "Filmlovers!",
+        "release_date": "2025-01-15",
         "directors": [
-          "Armel Hostiou"
+          "Arnaud Desplechin"
         ],
-        "director_filter": "rejected"
+        "director_filter": "passed"
       }
     ],
-    "status": "unmatched"
+    "status": "matched",
+    "selected_tmdb_id": 1084808
   },
   {
     "id": 164,
