@@ -68,7 +68,8 @@
         "director_filter": "passed"
       }
     ],
-    "status": "ambiguous"
+    "status": "matched",
+    "selected_tmdb_id": 1326015
   },
   {
     "id": 39,

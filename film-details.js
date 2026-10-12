@@ -252,6 +252,18 @@ window.CULTURE_FILM_DETAILS = {
       "url": "https://www.imdb.com/title/tt36580119/"
     }
   },
+  "22": {
+    "tmdb_id": 1326015,
+    "cast": [
+      "Anna Nemzer",
+      "Ksenia Mironova",
+      "Sofya Groysman"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/290La7BM5CLhLTwa7QsJQVGthok.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt33075192/"
+    }
+  },
   "23": {
     "tmdb_id": 1081077,
     "cast": [
