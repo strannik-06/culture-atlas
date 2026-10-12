@@ -31,7 +31,7 @@ def director_equivalent(expected,actual):
     options=[expected,*DIRECTOR_ALIASES.get(expected,[])]
     return any(norm(o)==norm(actual) for o in options)
 def director_names(raw):
-    parts=[p.strip() for p in re.split(r"\\s+&\\s+|\\s*,\\s*",raw) if p.strip()]
+    parts=[p.strip() for p in re.split(r"\s+&\s+|\s*,\s*",raw) if p.strip()]
     # "Jean-Pierre & Luc Dardenne" -> "Jean-Pierre Dardenne", "Luc Dardenne"
     if len(parts)>1:
         last=parts[-1].split()
@@ -43,12 +43,12 @@ def directors_match(expected,actual):
     return all(any(director_equivalent(w,d) for d in actual) for w in director_names(expected))
 def search_terms(f):
     title=f["title"]
-    return list(dict.fromkeys([title, re.sub(r"\\s*\\([^)]*\\)","",title).strip(),re.sub(r"\\s*:\\s*Part\\s+[IVX]+$","",title,flags=re.I).strip(),*ALIASES.get(f["id"],[])]))
+    return list(dict.fromkeys([title, re.sub(r"\s*\([^)]*\)","",title).strip(),re.sub(r"\s*:\s*Part\s+[IVX]+$","",title,flags=re.I).strip(),*ALIASES.get(f["id"],[])]))
 
 previous={}
 old=root/"film-details.js"
 if old.exists():
-    match=re.search(r"window\\.CULTURE_FILM_DETAILS\\s*=\\s*(\\{.*\\});",old.read_text(),re.S)
+    match=re.search(r"window\.CULTURE_FILM_DETAILS\s*=\s*(\{.*\});",old.read_text(),re.S)
     if match:previous=json.loads(match.group(1))
 details={};ambiguous=[];diagnostics=[]
 for f in films:
