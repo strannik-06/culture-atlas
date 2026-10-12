@@ -150,7 +150,8 @@ for f in films:
         entry["imdb"]["score"]=existing["imdb"]["score"]
     details[f["id"]]=entry
     if f["id"] in (39,71,78,22,55,63,97,98,99):
-        trace["status"]="matched"\n        trace["selected_tmdb_id"]=m["id"]
+        trace["status"]="matched"
+        trace["selected_tmdb_id"]=m["id"]
         diagnostics.append(trace)
     print(f'{f["id"]:3} {title}: matched TMDB {m["id"]}')
 (root/"film-details.js").write_text("// Film data matched against TMDB title, year and director. Reviews and awards require independent verification.\nwindow.CULTURE_FILM_DETAILS = "+json.dumps(details,ensure_ascii=False,indent=2)+";\n")
