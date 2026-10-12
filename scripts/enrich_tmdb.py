@@ -23,7 +23,13 @@ ALIASES={
   93:["Endless Cookie"],96:["Elio"],97:["The Bad Guys 2"],98:["In Your Dreams"]
 }
 # Explicit TMDB IDs verified by a human. Prefer IDs over fuzzy title searches.
-VERIFIED_TMDB_IDS={39:1242015}
+VERIFIED_TMDB_IDS={39:1242015,71:1239288,78:999075}
+DIRECTOR_ALIASES={
+    "Hailey Gates":["Hailey Benton Gates"],
+}
+def director_equivalent(expected,actual):
+    options=[expected,*DIRECTOR_ALIASES.get(expected,[])]
+    return any(norm(o)==norm(actual) for o in options)
 def director_names(raw):
     parts=[p.strip() for p in re.split(r"\\s+&\\s+|\\s*,\\s*",raw) if p.strip()]
     # "Jean-Pierre & Luc Dardenne" -> "Jean-Pierre Dardenne", "Luc Dardenne"
@@ -34,7 +40,7 @@ def director_names(raw):
             parts=[p+" "+surname if len(p.split())==1 else p for p in parts]
     return parts
 def directors_match(expected,actual):
-    return all(any(norm(w)==norm(d) for d in actual) for w in director_names(expected))
+    return all(any(director_equivalent(w,d) for d in actual) for w in director_names(expected))
 def search_terms(f):
     title=f["title"]
     return list(dict.fromkeys([title, re.sub(r"\\s*\\([^)]*\\)","",title).strip(),re.sub(r"\\s*:\\s*Part\\s+[IVX]+$","",title,flags=re.I).strip(),*ALIASES.get(f["id"],[])]))
@@ -69,9 +75,29 @@ for f in films:
     if not candidates:
         director_names_list=director_names(director)
         for director_name in director_names_list:
+            director_search_names=[director_name,*DIRECTOR_ALIASES.get(director_name,[])]
+            people_by_id={}
+            for search_name in director_search_names:
+                for person in api("search/person",{"query":search_name}).get("results",[])[:8]:
+                    people_by_id[person["id"]]=person
+            people=list(people_by_id.values())
+            # The candidate list is inspected below, with exact/alias director checks.
+            for person in people:
+                if not director_equivalent(director_name,person.get("name","")):continue
+                credits=api("person/"+str(person["id"])+"/movie_credits")
+                for movie in credits.get("crew",[]):
+                    if movie.get("job")!="Director":continue
+                    release=movie.get("release_date","")[:4]
+                    if not release or not release.isdigit() or abs(int(release)-year)>2:continue
+                    candidates[movie["id"]]=movie
+                time.sleep(.12)
+            time.sleep(.12)
+        # Search fallback ends here.
+        director_names_list=[] 
+        for director_name in director_names_list:
             people=api("search/person",{"query":director_name}).get("results",[])[:8]
             for person in people:
-                if norm(person.get("name",""))!=norm(director_name):continue
+                if not director_equivalent(director_name,person.get("name","")):continue
                 credits=api("person/"+str(person["id"])+"/movie_credits")
                 for movie in credits.get("crew",[]):
                     if movie.get("job")!="Director":continue
