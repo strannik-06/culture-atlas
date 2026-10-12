@@ -6,6 +6,7 @@ import json, os, re, time, unicodedata, urllib.parse, urllib.request, pathlib
 root=pathlib.Path(__file__).resolve().parents[1]
 html=(root/"index.html").read_text()
 films=json.loads(re.search(r"const films=(\[.*?\]);",html,re.S).group(1))
+films+=json.loads((root/"films-2024.json").read_text())
 key=os.environ["TMDB_API_KEY"]
 def api(path,params=None):
     q=urllib.parse.urlencode({"api_key":key,**(params or {})})
@@ -160,7 +161,7 @@ for f in films:
     if isinstance(existing.get("imdb"),dict) and existing["imdb"].get("score") and entry.get("imdb"):
         entry["imdb"]["score"]=existing["imdb"]["score"]
     details[f["id"]]=entry
-    if f["id"] in (39,71,78,22,55,63,97,98,99):
+    if f["year"]==2024 or f["id"] in (39,71,78,22,55,63,97,98,99):
         trace["status"]="matched"
         trace["selected_tmdb_id"]=m["id"]
         diagnostics.append(trace)
