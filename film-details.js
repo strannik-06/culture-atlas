@@ -1,6 +1,7 @@
 // Film data matched against TMDB title, year and director. Reviews and awards require independent verification.
 window.CULTURE_FILM_DETAILS = {
   "1": {
+    "tmdb_id": 1456349,
     "cast": [
       "Vahid Mobasseri",
       "Mariam Afshari",
@@ -12,6 +13,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "2": {
+    "tmdb_id": 1124566,
     "cast": [
       "Renate Reinsve",
       "Stellan Skarsgård",
@@ -23,6 +25,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "3": {
+    "tmdb_id": 1220564,
     "cast": [
       "Wagner Moura",
       "Alice Carvalho",
@@ -34,6 +37,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "4": {
+    "tmdb_id": 1054867,
     "cast": [
       "Leonardo DiCaprio",
       "Sean Penn",
@@ -45,6 +49,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "5": {
+    "tmdb_id": 1233413,
     "cast": [
       "Michael B. Jordan",
       "Hailee Steinfeld",
@@ -56,6 +61,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "6": {
+    "tmdb_id": 1221061,
     "cast": [
       "Luise Heyer",
       "Lena Urzendowsky",
@@ -66,7 +72,20 @@ window.CULTURE_FILM_DETAILS = {
       "url": "https://www.imdb.com/title/tt28690468/"
     }
   },
+  "7": {
+    "tmdb_id": 1151272,
+    "cast": [
+      "Sergi López",
+      "Bruno Núñez",
+      "Stefania Gadda"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/bzBtsLi17rK4G6kDvOXfUZfAhca.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt32298285/"
+    }
+  },
   "8": {
+    "tmdb_id": 878608,
     "cast": [
       "Jackson Yee",
       "Shu Qi",
@@ -78,6 +97,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "9": {
+    "tmdb_id": 1480382,
     "cast": [
       "Hind Rajab",
       "Motaz Malhees",
@@ -89,6 +109,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "10": {
+    "tmdb_id": 639988,
     "cast": [
       "Lee Byung-hun",
       "Son Ye-jin",
@@ -100,6 +121,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "11": {
+    "tmdb_id": 1352624,
     "cast": [
       "Josh O'Connor",
       "Alana Haim",
@@ -111,6 +133,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "12": {
+    "tmdb_id": 970947,
     "cast": [
       "Vincent Cassel",
       "Diane Kruger",
@@ -122,6 +145,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "13": {
+    "tmdb_id": 1410189,
     "cast": [
       "Eszter Tompa",
       "Gabriel Spahiu",
@@ -133,6 +157,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "14": {
+    "tmdb_id": 1143440,
     "cast": [
       "Marion Cotillard",
       "Clara Pacini",
@@ -144,6 +169,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "15": {
+    "tmdb_id": 1159206,
     "cast": [
       "Tom Waits",
       "Adam Driver",
@@ -155,6 +181,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "16": {
+    "tmdb_id": 1429348,
     "cast": [
       "Benjamin Voisin",
       "Rebecca Marder",
@@ -166,6 +193,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "17": {
+    "tmdb_id": 1258509,
     "cast": [
       "Saga Garðarsdóttir",
       "Sverrir Gudnason",
@@ -177,6 +205,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "18": {
+    "tmdb_id": 858024,
     "cast": [
       "Jessie Buckley",
       "Paul Mescal",
@@ -188,6 +217,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "19": {
+    "tmdb_id": 1241983,
     "cast": [
       "Joel Edgerton",
       "Felicity Jones",
@@ -199,6 +229,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "20": {
+    "tmdb_id": 1205515,
     "cast": [
       "Eva Victor",
       "Naomi Ackie",
@@ -210,6 +241,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "21": {
+    "tmdb_id": 1464883,
     "cast": [
       "Baneen Ahmed Nayyef",
       "Sajad Mohamad Qasem",
@@ -221,6 +253,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "23": {
+    "tmdb_id": 1081077,
     "cast": [
       "Leni Riefenstahl",
       "Horst Kettner",
@@ -232,6 +265,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "24": {
+    "tmdb_id": 1400789,
     "cast": [
       "Mstyslav Chernov"
     ],
@@ -241,6 +275,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "25": {
+    "tmdb_id": 1400782,
     "cast": [
       "Susan Lorincz",
       "Ajike Owens",
@@ -252,6 +287,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "26": {
+    "tmdb_id": 804370,
     "cast": [
       "Margot Ringard Oldra",
       "Oscar Tresanini",
@@ -263,6 +299,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "27": {
+    "tmdb_id": 682012,
     "cast": [
       "Loïse Charpentier",
       "Victoria Grobois",
@@ -274,6 +311,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "28": {
+    "tmdb_id": 1401281,
     "cast": [
       "Amanda Seyfried",
       "Lewis Pullman",
@@ -285,6 +323,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "29": {
+    "tmdb_id": 1465563,
     "cast": [
       "Ubeimar Rios",
       "Rebeca Andrade",
@@ -296,6 +335,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "30": {
+    "tmdb_id": 975324,
     "cast": [
       "Andrés Roca Rey",
       "Roberto Domínguez",
@@ -306,7 +346,20 @@ window.CULTURE_FILM_DETAILS = {
       "url": "https://www.imdb.com/title/tt26245982/"
     }
   },
+  "31": {
+    "tmdb_id": 1228682,
+    "cast": [
+      "Ella Øverbye",
+      "Selome Emnetu",
+      "Anne Marit Jacobsen"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/ctBhKsd2AGlubApDf7VogbFKRlG.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt30810787/"
+    }
+  },
   "32": {
+    "tmdb_id": 1172265,
     "cast": [
       "Denise Weinberg",
       "Rodrigo Santoro",
@@ -317,7 +370,20 @@ window.CULTURE_FILM_DETAILS = {
       "url": "https://www.imdb.com/title/tt35340614/"
     }
   },
+  "33": {
+    "tmdb_id": 1339361,
+    "cast": [
+      "Mara Bestelli",
+      "Marcelo Subiotto",
+      "Anika Bootz"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/hR1CSU5TBlWVmslKA5t8gQkYHuy.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt35499146/"
+    }
+  },
   "34": {
+    "tmdb_id": 1421153,
     "cast": [
       "Wang Shang",
       "Zhang Chuwen",
@@ -329,6 +395,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "35": {
+    "tmdb_id": 1160360,
     "cast": [
       "Rose Byrne",
       "Conan O'Brien",
@@ -340,6 +407,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "36": {
+    "tmdb_id": 1299655,
     "cast": [
       "Ethan Hawke",
       "Bobby Cannavale",
@@ -351,6 +419,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "37": {
+    "tmdb_id": 1303613,
     "cast": [
       "Miriam Garlo",
       "Álvaro Cervantes",
@@ -362,6 +431,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "38": {
+    "tmdb_id": 1019871,
     "cast": [
       "Jara Sofija Ostan",
       "Mina Švajger",
@@ -373,6 +443,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "40": {
+    "tmdb_id": 896096,
     "cast": [
       "Tamara Cortés",
       "Matías Catalán",
@@ -384,6 +455,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "41": {
+    "tmdb_id": 1432605,
     "cast": [
       "Ṣọpẹ́ Dìrísù",
       "Chibuike Marvellous Egbo",
@@ -395,6 +467,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "42": {
+    "tmdb_id": 1287141,
     "cast": [
       "Harry Melling",
       "Alexander Skarsgård",
@@ -406,6 +479,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "43": {
+    "tmdb_id": 1283320,
     "cast": [
       "Frank Dillane",
       "Megan Northam",
@@ -417,6 +491,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "45": {
+    "tmdb_id": 1397364,
     "cast": [
       "Toni Servillo",
       "Anna Ferzetti",
@@ -428,6 +503,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "46": {
+    "tmdb_id": 1168719,
     "cast": [
       "Tony Leung Chiu-wai",
       "Luna Wedler",
@@ -438,7 +514,28 @@ window.CULTURE_FILM_DETAILS = {
       "url": "https://www.imdb.com/title/tt27811632/"
     }
   },
+  "47": {
+    "tmdb_id": 1457188,
+    "cast": [],
+    "poster": "https://image.tmdb.org/t/p/w500/xbmmOezxwLIOdjq7adujO6RyjTs.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt36874833/"
+    }
+  },
+  "48": {
+    "tmdb_id": 1517123,
+    "cast": [
+      "Victor Prieto Simental",
+      "Osvaldo Sánchez",
+      "Mariano López Sosa"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/u169hcLX3OsM9eRs4wtIzi0ymGZ.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt37660509/"
+    }
+  },
   "49": {
+    "tmdb_id": 760329,
     "cast": [
       "Dwayne Johnson",
       "Emily Blunt",
@@ -450,6 +547,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "50": {
+    "tmdb_id": 1317288,
     "cast": [
       "Timothée Chalamet",
       "Gwyneth Paltrow",
@@ -461,6 +559,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "51": {
+    "tmdb_id": 701387,
     "cast": [
       "Emma Stone",
       "Jesse Plemons",
@@ -472,6 +571,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "52": {
+    "tmdb_id": 1062722,
     "cast": [
       "Oscar Isaac",
       "Jacob Elordi",
@@ -483,6 +583,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "53": {
+    "tmdb_id": 1443576,
     "cast": [
       "Blanca Soroa",
       "Patricia López Arnaiz",
@@ -494,6 +595,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "54": {
+    "tmdb_id": 1457842,
     "cast": [],
     "poster": "https://image.tmdb.org/t/p/w500/fFsXzjNvzmsNdwNwGpiLaIIpavF.jpg",
     "imdb": {
@@ -501,6 +603,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "56": {
+    "tmdb_id": 1159539,
     "cast": [
       "Ben Whishaw",
       "Rebecca Hall"
@@ -511,6 +614,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "57": {
+    "tmdb_id": 1254808,
     "cast": [
       "Guillaume Marbeck",
       "Zoey Deutch",
@@ -522,6 +626,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "58": {
+    "tmdb_id": 1033148,
     "cast": [
       "Jennifer Lawrence",
       "Robert Pattinson",
@@ -533,6 +638,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "59": {
+    "tmdb_id": 1233575,
     "cast": [
       "Cate Blanchett",
       "Michael Fassbender",
@@ -544,6 +650,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "60": {
+    "tmdb_id": 648878,
     "cast": [
       "Joaquin Phoenix",
       "Deirdre O'Connell",
@@ -555,6 +662,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "61": {
+    "tmdb_id": 1122099,
     "cast": [
       "Tom Basden",
       "Tim Key",
@@ -566,6 +674,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "62": {
+    "tmdb_id": 1098534,
     "cast": [
       "Damian Lewis",
       "George Orwell",
@@ -577,6 +686,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "64": {
+    "tmdb_id": 1400783,
     "cast": [],
     "poster": "https://image.tmdb.org/t/p/w500/6H0TJFuihYtXeXc5WhrT5kyVtnv.jpg",
     "imdb": {
@@ -584,6 +694,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "65": {
+    "tmdb_id": 1517130,
     "cast": [
       "Nikola Conev",
       "Jana Coneva",
@@ -595,6 +706,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "66": {
+    "tmdb_id": 1406657,
     "cast": [
       "Mana Ashida",
       "Masaki Okada",
@@ -606,6 +718,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "67": {
+    "tmdb_id": 803796,
     "cast": [
       "Arden Cho",
       "May Hong",
@@ -617,6 +730,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "68": {
+    "tmdb_id": 1235137,
     "cast": [
       "Jack Corbett",
       "Grace Kuhlenschmidt",
@@ -628,6 +742,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "69": {
+    "tmdb_id": 1084242,
     "cast": [
       "Ginnifer Goodwin",
       "Jason Bateman",
@@ -639,6 +754,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "70": {
+    "tmdb_id": 1370814,
     "cast": [
       "Everett Blunck",
       "Kayo Martin",
@@ -650,6 +766,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "72": {
+    "tmdb_id": 1245347,
     "cast": [
       "Dylan O'Brien",
       "James Sweeney",
@@ -661,6 +778,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "73": {
+    "tmdb_id": 524635,
     "cast": [
       "Imogen Poots",
       "Thora Birch",
@@ -672,6 +790,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "74": {
+    "tmdb_id": 891584,
     "cast": [
       "Paul Mescal",
       "Josh O'Connor",
@@ -683,6 +802,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "75": {
+    "tmdb_id": 1137350,
     "cast": [
       "Benicio del Toro",
       "Mia Threapleton",
@@ -694,6 +814,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "76": {
+    "tmdb_id": 1242434,
     "cast": [
       "Denzel Washington",
       "Jeffrey Wright",
@@ -705,6 +826,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "77": {
+    "tmdb_id": 1432596,
     "cast": [
       "Karim Daoud Anaya",
       "Hiam Abbass",
@@ -716,6 +838,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "79": {
+    "tmdb_id": 961077,
     "cast": [
       "Nadia Melliti",
       "Park Ji-min",
@@ -727,6 +850,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "80": {
+    "tmdb_id": 1103551,
     "cast": [
       "Cleo Diára",
       "Sérgio Coragem",
@@ -738,6 +862,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "81": {
+    "tmdb_id": 800367,
     "cast": [
       "André Holland",
       "Gemma Chan",
@@ -749,6 +874,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "82": {
+    "tmdb_id": 1264573,
     "cast": [
       "Théodore Pellerin",
       "Archie Madekwe",
@@ -760,6 +886,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "83": {
+    "tmdb_id": 1284120,
     "cast": [
       "Lea Myren",
       "Ane Dahl Torp",
@@ -771,6 +898,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "84": {
+    "tmdb_id": 604079,
     "cast": [
       "Cooper Hoffman",
       "David Jonsson",
@@ -782,6 +910,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "85": {
+    "tmdb_id": 1078605,
     "cast": [
       "Julia Garner",
       "Josh Brolin",
@@ -793,6 +922,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "87": {
+    "tmdb_id": 1100988,
     "cast": [
       "Aaron Taylor-Johnson",
       "Alfie Williams",
@@ -804,6 +934,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "88": {
+    "tmdb_id": 842924,
     "cast": [
       "Tom Hiddleston",
       "Benjamin Pajak",
@@ -815,6 +946,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "89": {
+    "tmdb_id": 1400382,
     "cast": [
       "Chris Hansen",
       "Mark de Rond",
@@ -826,6 +958,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "90": {
+    "tmdb_id": 1516391,
     "cast": [
       "Seymour Hersh",
       "Jeff Gerth",
@@ -837,6 +970,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "91": {
+    "tmdb_id": 1413805,
     "cast": [
       "Robert Earl Council",
       "Melvin Ray",
@@ -848,6 +982,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "92": {
+    "tmdb_id": 1400780,
     "cast": [
       "Andrea Gibson",
       "Megan Falley",
@@ -859,6 +994,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "94": {
+    "tmdb_id": 870360,
     "cast": [
       "Eric Bauza",
       "Candi Milo",
@@ -870,6 +1006,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "95": {
+    "tmdb_id": 774370,
     "cast": [
       "Peter Hastings",
       "Pete Davidson",
@@ -881,6 +1018,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "99": {
+    "tmdb_id": 1144107,
     "cast": [
       "Shan Xin",
       "Liu Mingyue",
@@ -892,6 +1030,7 @@ window.CULTURE_FILM_DETAILS = {
     }
   },
   "100": {
+    "tmdb_id": 1218925,
     "cast": [
       "Kikunosuke Toya",
       "Shiori Izawa",
