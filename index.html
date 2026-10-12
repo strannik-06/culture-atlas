@@ -82,12 +82,13 @@ function render(){
  $('empty').hidden=shown.length>0;
  $('grid').innerHTML=shown.map(f=>{const p=progress[f.id]||{},d=filmDetails[f.id]||{},cast=Array.isArray(d.cast)?d.cast.slice(0,3).join(', '):'',poster=typeof d.poster==='string'&&/^https:\/\/image\.tmdb\.org\/t\/p\//.test(d.poster)?d.poster:null;
  const ratings=signedInUser?(externalRatings[f.id]||{}):{};
- const sourceNames=[['tmdb','TMDB'],['imdb','IMDb'],['letterboxd','Letterboxd'],['ebert','Ebert'],['indiewire','IndieWire'],['lwl','LWL'],['guardian','Guardian']];
+ const sourceNames=[['ebert','Ebert'],['indiewire','IndieWire'],['lwl','LWL'],['guardian','Guardian']];
  const sources=signedInUser?sourceNames.map(([source,name])=>{
   const item=ratings[source],url=item?.url,score=item?.score;
   return typeof url==='string'&&/^https:\/\//.test(url)&&typeof score==='string'?'<a class="external-score" href="'+escapeHTML(url)+'" target="_blank" rel="noopener noreferrer" title="'+escapeHTML(name)+'">'+escapeHTML(name)+' '+escapeHTML(score)+' ↗</a>':'';
  }).join(''):'';
- const tmdbRating='';
+ const tmdbRating=typeof d.tmdb_rating==='number'&&Number.isFinite(d.tmdb_rating)&&d.tmdb_rating>0&&d.tmdb_id?
+ '<a class="external-score" href="https://www.themoviedb.org/movie/'+encodeURIComponent(d.tmdb_id)+'" target="_blank" rel="noopener noreferrer" title="TMDB community rating (last metadata refresh)">TMDB '+Math.round(d.tmdb_rating*10)+'% ↗</a>':'';
  const recognition=(window.CULTURE_FILM_RECOGNITION||{})[f.id]||d.recognition||d.awards||'';
  const rating=Number(p.rating)||0;
 
