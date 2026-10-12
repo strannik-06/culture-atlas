@@ -60,8 +60,16 @@ def directors_match(expected,actual):
     return director_match_count(expected,actual)>0
 def title_score(f,m):
     target=norm(f["title"])
+    target_words=re.findall(r"[a-z0-9]+",unicodedata.normalize("NFKD",f["title"].casefold()))
     titles=[m.get("title",""),m.get("original_title","")]
-    scores=[100 if norm(t)==target else 90 if norm(t).startswith(target) and len(target)>10 else 0 for t in titles]
+    scores=[]
+    for title in titles:
+        candidate_words=re.findall(r"[a-z0-9]+",unicodedata.normalize("NFKD",title.casefold()))
+        # Compare whole words: "Part I" must NOT match "Part II".
+        exact=norm(title)==target
+        prefix=(len(target_words)>1 and len(candidate_words)>len(target_words)
+                and candidate_words[:len(target_words)]==target_words)
+        scores.append(100 if exact else 90 if prefix else 0)
     for alias in ALIASES.get(f["id"],[]):
         scores.extend([80 if norm(t)==norm(alias) else 0 for t in titles])
     return max(scores)
