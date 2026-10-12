@@ -1,0 +1,555 @@
+[
+  {
+    "id": 22,
+    "title": "My Undesirable Friends: Part I",
+    "expected_director": "Julia Loktev",
+    "expected_year": 2025,
+    "searches": [
+      {
+        "query": "My Undesirable Friends: Part I",
+        "total_results": 2,
+        "total_pages": 1,
+        "results": [
+          {
+            "id": 1326015,
+            "title": "My Undesirable Friends: Part I - Last Air in Moscow",
+            "original_title": "My Undesirable Friends: Part I - Last Air in Moscow",
+            "release_date": "2025-08-15",
+            "year_filter": "passed"
+          },
+          {
+            "id": 1594307,
+            "title": "My Undesirable Friends: Part II - Exile",
+            "original_title": "My Undesirable Friends: Part II - Exile",
+            "release_date": "2026-10-09",
+            "year_filter": "passed"
+          }
+        ]
+      },
+      {
+        "query": "My Undesirable Friends",
+        "total_results": 2,
+        "total_pages": 1,
+        "results": [
+          {
+            "id": 1594307,
+            "title": "My Undesirable Friends: Part II - Exile",
+            "original_title": "My Undesirable Friends: Part II - Exile",
+            "release_date": "2026-10-09",
+            "year_filter": "passed"
+          },
+          {
+            "id": 1326015,
+            "title": "My Undesirable Friends: Part I - Last Air in Moscow",
+            "original_title": "My Undesirable Friends: Part I - Last Air in Moscow",
+            "release_date": "2025-08-15",
+            "year_filter": "passed"
+          }
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "id": 1326015,
+        "title": "My Undesirable Friends: Part I - Last Air in Moscow",
+        "release_date": "2025-08-15",
+        "directors": [
+          "Julia Loktev"
+        ],
+        "director_filter": "passed"
+      },
+      {
+        "id": 1594307,
+        "title": "My Undesirable Friends: Part II - Exile",
+        "release_date": "2026-10-09",
+        "directors": [
+          "Julia Loktev"
+        ],
+        "director_filter": "passed"
+      }
+    ],
+    "status": "matched",
+    "selected_tmdb_id": 1326015
+  },
+  {
+    "id": 39,
+    "title": "Young Mothers",
+    "expected_director": "Jean-Pierre & Luc Dardenne",
+    "expected_year": 2025,
+    "searches": [
+      {
+        "query": "Young Mothers",
+        "total_results": 5,
+        "total_pages": 1,
+        "results": [
+          {
+            "id": 1242015,
+            "title": "Young Mothers",
+            "original_title": "Jeunes mères",
+            "release_date": "2025-05-23",
+            "year_filter": "passed"
+          },
+          {
+            "id": 682708,
+            "title": "Young Mother's Friend",
+            "original_title": "젊은 엄마 친구",
+            "release_date": "2018-09-28",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 384585,
+            "title": "Young Mothers in the '70s",
+            "original_title": "Elles... Les filles du Plessis",
+            "release_date": "2016-03-08",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 940184,
+            "title": "Young Mother's Friend 2",
+            "original_title": "젊은 엄마 친구 2",
+            "release_date": "2019-12-24",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 1092238,
+            "title": "My Mother's House",
+            "original_title": "젊은엄마네 하숙집",
+            "release_date": "2018-09-06",
+            "year_filter": "rejected"
+          }
+        ]
+      },
+      {
+        "query": "Jeunes mères",
+        "total_results": 1,
+        "total_pages": 1,
+        "results": [
+          {
+            "id": 1242015,
+            "title": "Young Mothers",
+            "original_title": "Jeunes mères",
+            "release_date": "2025-05-23",
+            "year_filter": "passed"
+          }
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "id": 1242015,
+        "title": "Young Mothers",
+        "release_date": "2025-05-23",
+        "directors": [
+          "Jean-Pierre Dardenne",
+          "Luc Dardenne"
+        ],
+        "director_filter": "passed"
+      }
+    ],
+    "status": "matched",
+    "selected_tmdb_id": 1242015
+  },
+  {
+    "id": 55,
+    "title": "Cactus Pears",
+    "expected_director": "Rohan P. Kanawade",
+    "expected_year": 2025,
+    "searches": [
+      {
+        "query": "Cactus Pears",
+        "total_results": 1,
+        "total_pages": 1,
+        "results": [
+          {
+            "id": 1288748,
+            "title": "Cactus Pears",
+            "original_title": "साबर बोंडं",
+            "release_date": "2025-09-19",
+            "year_filter": "passed"
+          }
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "id": 1288748,
+        "title": "Cactus Pears",
+        "release_date": "2025-09-19",
+        "directors": [
+          "Rohan Kanawade"
+        ],
+        "director_filter": "passed"
+      }
+    ],
+    "status": "matched",
+    "selected_tmdb_id": 1288748
+  },
+  {
+    "id": 63,
+    "title": "Mr. Nobody Against Putin",
+    "expected_director": "David Borenstein & Pavel Talankin",
+    "expected_year": 2025,
+    "searches": [
+      {
+        "query": "Mr. Nobody Against Putin",
+        "total_results": 1,
+        "total_pages": 1,
+        "results": [
+          {
+            "id": 1393151,
+            "title": "Mr. Nobody Against Putin",
+            "original_title": "Mr. Nobody mod Putin",
+            "release_date": "2025-06-06",
+            "year_filter": "passed"
+          }
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "id": 1393151,
+        "title": "Mr. Nobody Against Putin",
+        "release_date": "2025-06-06",
+        "directors": [
+          "David Borenstein"
+        ],
+        "director_filter": "passed"
+      }
+    ],
+    "status": "matched",
+    "selected_tmdb_id": 1393151
+  },
+  {
+    "id": 71,
+    "title": "Atropia",
+    "expected_director": "Hailey Gates",
+    "expected_year": 2025,
+    "searches": [
+      {
+        "query": "Atropia",
+        "total_results": 1,
+        "total_pages": 1,
+        "results": [
+          {
+            "id": 1239288,
+            "title": "Atropia",
+            "original_title": "Atropia",
+            "release_date": "2025-11-15",
+            "year_filter": "passed"
+          }
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "id": 1239288,
+        "title": "Atropia",
+        "release_date": "2025-11-15",
+        "directors": [
+          "Hailey Benton Gates"
+        ],
+        "director_filter": "passed"
+      }
+    ],
+    "status": "matched",
+    "selected_tmdb_id": 1239288
+  },
+  {
+    "id": 78,
+    "title": "Left-Handed Girl",
+    "expected_director": "Shih-Ching Tsou",
+    "expected_year": 2025,
+    "searches": [
+      {
+        "query": "Left-Handed Girl",
+        "total_results": 1,
+        "total_pages": 1,
+        "results": [
+          {
+            "id": 999075,
+            "title": "Left-Handed Girl",
+            "original_title": "左撇子女孩",
+            "release_date": "2025-09-17",
+            "year_filter": "passed"
+          }
+        ]
+      },
+      {
+        "query": "Zuo Pie Zi Nu Hai",
+        "total_results": 0,
+        "total_pages": 1,
+        "results": []
+      }
+    ],
+    "candidates": [
+      {
+        "id": 999075,
+        "title": "Left-Handed Girl",
+        "release_date": "2025-09-17",
+        "directors": [
+          "Tsou Shih-ching"
+        ],
+        "director_filter": "passed"
+      }
+    ],
+    "status": "matched",
+    "selected_tmdb_id": 999075
+  },
+  {
+    "id": 97,
+    "title": "The Bad Guys 2",
+    "expected_director": "Pierre Perifel & JP Sans",
+    "expected_year": 2025,
+    "searches": [
+      {
+        "query": "The Bad Guys 2",
+        "total_results": 2,
+        "total_pages": 1,
+        "results": [
+          {
+            "id": 1175942,
+            "title": "The Bad Guys 2",
+            "original_title": "The Bad Guys 2",
+            "release_date": "2025-07-24",
+            "year_filter": "passed"
+          },
+          {
+            "id": 551628,
+            "title": "The 8-Bit Philosophy 2 – The Good and the Bad Guys",
+            "original_title": "The 8-Bit Philosophy 2 – The Good and the Bad Guys",
+            "release_date": "2017-03-01",
+            "year_filter": "rejected"
+          }
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "id": 1175942,
+        "title": "The Bad Guys 2",
+        "release_date": "2025-07-24",
+        "directors": [
+          "Pierre Perifel"
+        ],
+        "director_filter": "passed"
+      }
+    ],
+    "status": "matched",
+    "selected_tmdb_id": 1175942
+  },
+  {
+    "id": 98,
+    "title": "In Your Dreams",
+    "expected_director": "Alex Woo",
+    "expected_year": 2025,
+    "searches": [
+      {
+        "query": "In Your Dreams",
+        "total_results": 19,
+        "total_pages": 1,
+        "results": [
+          {
+            "id": 1117857,
+            "title": "In Your Dreams",
+            "original_title": "In Your Dreams",
+            "release_date": "2025-11-07",
+            "year_filter": "passed"
+          },
+          {
+            "id": 425768,
+            "title": "In Your Dreams",
+            "original_title": "In Your Dreams",
+            "release_date": "1997-12-13",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 1073125,
+            "title": "In Your Dreams",
+            "original_title": "Rüyanda Görürsün",
+            "release_date": "2023-02-03",
+            "year_filter": "passed"
+          },
+          {
+            "id": 19573,
+            "title": "In Your Dreams",
+            "original_title": "In Your Dreams",
+            "release_date": "2009-04-14",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 1474364,
+            "title": "In Your Dreams",
+            "original_title": "In Your Dreams",
+            "release_date": "",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 1398066,
+            "title": "In Your Dreams",
+            "original_title": "In Your Dreams",
+            "release_date": "2024-12-05",
+            "year_filter": "passed"
+          },
+          {
+            "id": 836682,
+            "title": "In Your Dreams",
+            "original_title": "In Your Dreams",
+            "release_date": "2020-06-10",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 274521,
+            "title": "In Your Wildest Dreams",
+            "original_title": "In Your Wildest Dreams",
+            "release_date": "1991-01-01",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 61658,
+            "title": "In Your Dreams",
+            "original_title": "Dans tes rêves",
+            "release_date": "2005-04-13",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 486284,
+            "title": "In Your Dreams",
+            "original_title": "以青春的名義",
+            "release_date": "2017-10-31",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 1296345,
+            "title": "In Your Dreams",
+            "original_title": "Dans tes rêves",
+            "release_date": "2004-01-01",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 381783,
+            "title": "In Your Dreams!",
+            "original_title": "Ani ve snu!",
+            "release_date": "2016-04-28",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 184837,
+            "title": "Stevie Nicks: In Your Dreams",
+            "original_title": "Stevie Nicks: In Your Dreams",
+            "release_date": "2013-04-15",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 170841,
+            "title": "In Your Dreams",
+            "original_title": "ابقى قابلني",
+            "release_date": "2009-09-20",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 345310,
+            "title": "In Your Dreams",
+            "original_title": "Drømme kan du gjøre senere",
+            "release_date": "2005-06-16",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 219470,
+            "title": "Please Keep Me in Your Dreams",
+            "original_title": "Please Keep Me in Your Dreams",
+            "release_date": "1937-05-27",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 926406,
+            "title": "The Dreams That Swim In Your Bed",
+            "original_title": "0ae24d51b2173bcc03495fa8ca467210",
+            "release_date": "",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 445129,
+            "title": "Minky Momo in the Bridge Over Dreams",
+            "original_title": "MINKY MOMO in 夢にかける橋",
+            "release_date": "1993-05-21",
+            "year_filter": "rejected"
+          },
+          {
+            "id": 285121,
+            "title": "Heart of a Champion: The Ray Mancini Story",
+            "original_title": "Heart of a Champion: The Ray Mancini Story",
+            "release_date": "1985-05-01",
+            "year_filter": "rejected"
+          }
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "id": 1117857,
+        "title": "In Your Dreams",
+        "release_date": "2025-11-07",
+        "directors": [
+          "Alexander Woo"
+        ],
+        "director_filter": "passed"
+      },
+      {
+        "id": 1073125,
+        "title": "In Your Dreams",
+        "release_date": "2023-02-03",
+        "directors": [
+          "Cemal Alpan"
+        ],
+        "director_filter": "rejected"
+      },
+      {
+        "id": 1398066,
+        "title": "In Your Dreams",
+        "release_date": "2024-12-05",
+        "directors": [
+          "Ayman Mokhtar"
+        ],
+        "director_filter": "rejected"
+      }
+    ],
+    "status": "matched",
+    "selected_tmdb_id": 1117857
+  },
+  {
+    "id": 99,
+    "title": "The Legend of Hei 2",
+    "expected_director": "MTJJ & Gu Jie",
+    "expected_year": 2025,
+    "searches": [
+      {
+        "query": "The Legend of Hei 2",
+        "total_results": 1,
+        "total_pages": 1,
+        "results": [
+          {
+            "id": 1144107,
+            "title": "The Legend of Hei 2",
+            "original_title": "罗小黑战记 2",
+            "release_date": "2025-07-18",
+            "year_filter": "passed"
+          }
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "id": 1144107,
+        "title": "The Legend of Hei 2",
+        "release_date": "2025-07-18",
+        "directors": [
+          "Gu Jie",
+          "MTJJ"
+        ],
+        "director_filter": "passed"
+      }
+    ],
+    "status": "matched",
+    "selected_tmdb_id": 1144107
+  }
+]

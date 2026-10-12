@@ -252,6 +252,18 @@ window.CULTURE_FILM_DETAILS = {
       "url": "https://www.imdb.com/title/tt36580119/"
     }
   },
+  "22": {
+    "tmdb_id": 1326015,
+    "cast": [
+      "Anna Nemzer",
+      "Ksenia Mironova",
+      "Sofya Groysman"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/290La7BM5CLhLTwa7QsJQVGthok.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt33075192/"
+    }
+  },
   "23": {
     "tmdb_id": 1081077,
     "cast": [
@@ -442,6 +454,18 @@ window.CULTURE_FILM_DETAILS = {
       "url": "https://www.imdb.com/title/tt28834646/"
     }
   },
+  "39": {
+    "tmdb_id": 1242015,
+    "cast": [
+      "Babette Verbeek",
+      "Elsa Houben",
+      "Janaïna Halloy Fokan"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/okfaa71H1P0WC1uzYliOgYS2gte.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt32909489/"
+    }
+  },
   "40": {
     "tmdb_id": 896096,
     "cast": [
@@ -488,6 +512,18 @@ window.CULTURE_FILM_DETAILS = {
     "poster": "https://image.tmdb.org/t/p/w500/zc8n3hm3S2VxFxlNH1MNN28LVMa.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt35715953/"
+    }
+  },
+  "44": {
+    "tmdb_id": 1309735,
+    "cast": [
+      "Nader Abd Alhay",
+      "Majd Eid",
+      "Ramzi Maqdisi"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/pUaPcVkkO3WZSbCusXhvu4u5bpT.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt34734841/"
     }
   },
   "45": {
@@ -602,6 +638,18 @@ window.CULTURE_FILM_DETAILS = {
       "url": "https://www.imdb.com/title/tt37676219/"
     }
   },
+  "55": {
+    "tmdb_id": 1288748,
+    "cast": [
+      "Bhushaan Manoj",
+      "Suraaj Suman",
+      "Jayshri Jagtap"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/qCucYfx1K2bDpRXlPczbKCGb5FX.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt29310002/"
+    }
+  },
   "56": {
     "tmdb_id": 1159539,
     "cast": [
@@ -685,6 +733,18 @@ window.CULTURE_FILM_DETAILS = {
       "url": "https://www.imdb.com/title/tt27052428/"
     }
   },
+  "63": {
+    "tmdb_id": 1393151,
+    "cast": [
+      "Pavel Talankin",
+      "Vladimir Putin",
+      "Roman Abalin"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/ss4NEGmPxgm4D73iMFeyjbE1m9b.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt34965515/"
+    }
+  },
   "64": {
     "tmdb_id": 1400783,
     "cast": [],
@@ -765,6 +825,18 @@ window.CULTURE_FILM_DETAILS = {
       "url": "https://www.imdb.com/title/tt32792934/"
     }
   },
+  "71": {
+    "tmdb_id": 1239288,
+    "cast": [
+      "Alia Shawkat",
+      "Zahra Alzubaidi",
+      "Callum Turner"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/qurd8tG5E2T20QihO0ysaJCzAjL.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt31122579/"
+    }
+  },
   "72": {
     "tmdb_id": 1245347,
     "cast": [
@@ -835,6 +907,18 @@ window.CULTURE_FILM_DETAILS = {
     "poster": "https://image.tmdb.org/t/p/w500/ajeiriNRFPLESjGZ0vdp4MVardZ.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt29271622/"
+    }
+  },
+  "78": {
+    "tmdb_id": 999075,
+    "cast": [
+      "Ma Shih-yuan",
+      "Janel Tsai",
+      "Nina Ye"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/hfuxIKRCNsecLmoDdO0HJ1YUvv1.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt27722618/"
     }
   },
   "79": {
@@ -921,6 +1005,18 @@ window.CULTURE_FILM_DETAILS = {
       "url": "https://www.imdb.com/title/tt26581740/"
     }
   },
+  "86": {
+    "tmdb_id": 1151031,
+    "cast": [
+      "Billy Barratt",
+      "Sally Hawkins",
+      "Mischa Heywood"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/1Q3GlCXGYWELifxANYZ5OVMRVZl.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt32246771/"
+    }
+  },
   "87": {
     "tmdb_id": 1100988,
     "cast": [
@@ -993,6 +1089,18 @@ window.CULTURE_FILM_DETAILS = {
       "url": "https://www.imdb.com/title/tt34966013/"
     }
   },
+  "93": {
+    "tmdb_id": 1400794,
+    "cast": [
+      "Seth Scriver",
+      "Peter Scriver",
+      "Kristin Scriver"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/m4QlGRQ8dSXIEPTYvKB54YvMGyE.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt34965172/"
+    }
+  },
   "94": {
     "tmdb_id": 870360,
     "cast": [
@@ -1015,6 +1123,42 @@ window.CULTURE_FILM_DETAILS = {
     "poster": "https://image.tmdb.org/t/p/w500/89wNiexZdvLQ41OQWIsQy4O6jAQ.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt10954718/"
+    }
+  },
+  "96": {
+    "tmdb_id": 1022787,
+    "cast": [
+      "Yonas Kibreab",
+      "Remy Edgerly",
+      "Zoe Saldaña"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/7z8jDiTZZco9moIKpTUImFtTy7o.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt4900148/"
+    }
+  },
+  "97": {
+    "tmdb_id": 1175942,
+    "cast": [
+      "Sam Rockwell",
+      "Marc Maron",
+      "Awkwafina"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/26oSPnq0ct59l07QOXZKyzsiRtN.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt30017619/"
+    }
+  },
+  "98": {
+    "tmdb_id": 1117857,
+    "cast": [
+      "Jolie Hoang-Rappaport",
+      "Elias Janssen",
+      "Simu Liu"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/ug0TqgmByPCEYzR9lQWQmyAa7sw.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt27604215/"
     }
   },
   "99": {
