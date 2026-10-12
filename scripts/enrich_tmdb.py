@@ -131,11 +131,14 @@ for f in films:
         if not accepted:continue
         matches.append((title_score(f,movie),director_match_count(director,directors),movie))
         time.sleep(.15)
-    # Require one unique director-verified match; never pick arbitrarily.
-    if len(matches)!=1:
+    # Prefer exact title and director overlap; refuse ambiguous ties.
+    matches.sort(key=lambda x:(x[0],x[1]),reverse=True)
+    best=matches[0] if matches else None
+    tied=bool(best and len(matches)>1 and matches[1][:2]==best[:2])
+    if not best or best[0]<80 or tied:
         if str(f["id"]) in previous:details[f["id"]]=previous[str(f["id"])]
         ambiguous.append({"id":f["id"],"title":title,"candidates":len(matches)})
-        trace["status"]="unmatched" if not matches or (best and best[0]<80) else "ambiguous"
+        trace["status"]="ambiguous" if tied else "unmatched"
         diagnostics.append(trace)
         continue
     m=best[2];entry={"tmdb_id":m["id"],"cast":[p["name"] for p in m.get("credits",{}).get("cast",[])[:3]]}
