@@ -626,6 +626,18 @@ window.CULTURE_FILM_DETAILS = {
       "url": "https://www.imdb.com/title/tt37676219/"
     }
   },
+  "55": {
+    "tmdb_id": 1288748,
+    "cast": [
+      "Bhushaan Manoj",
+      "Suraaj Suman",
+      "Jayshri Jagtap"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/qCucYfx1K2bDpRXlPczbKCGb5FX.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt29310002/"
+    }
+  },
   "56": {
     "tmdb_id": 1159539,
     "cast": [
@@ -707,6 +719,18 @@ window.CULTURE_FILM_DETAILS = {
     "poster": "https://image.tmdb.org/t/p/w500/qG1LjcK8ohi4mSJ9j8KHUs5svbe.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt27052428/"
+    }
+  },
+  "63": {
+    "tmdb_id": 1393151,
+    "cast": [
+      "Pavel Talankin",
+      "Vladimir Putin",
+      "Roman Abalin"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/ss4NEGmPxgm4D73iMFeyjbE1m9b.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt34965515/"
     }
   },
   "64": {
@@ -871,6 +895,18 @@ window.CULTURE_FILM_DETAILS = {
     "poster": "https://image.tmdb.org/t/p/w500/ajeiriNRFPLESjGZ0vdp4MVardZ.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt29271622/"
+    }
+  },
+  "78": {
+    "tmdb_id": 999075,
+    "cast": [
+      "Ma Shih-yuan",
+      "Janel Tsai",
+      "Nina Ye"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/hfuxIKRCNsecLmoDdO0HJ1YUvv1.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt27722618/"
     }
   },
   "79": {
@@ -1087,6 +1123,42 @@ window.CULTURE_FILM_DETAILS = {
     "poster": "https://image.tmdb.org/t/p/w500/7z8jDiTZZco9moIKpTUImFtTy7o.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt4900148/"
+    }
+  },
+  "97": {
+    "tmdb_id": 1175942,
+    "cast": [
+      "Sam Rockwell",
+      "Marc Maron",
+      "Awkwafina"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/26oSPnq0ct59l07QOXZKyzsiRtN.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt30017619/"
+    }
+  },
+  "98": {
+    "tmdb_id": 1117857,
+    "cast": [
+      "Jolie Hoang-Rappaport",
+      "Elias Janssen",
+      "Simu Liu"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/ug0TqgmByPCEYzR9lQWQmyAa7sw.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt27604215/"
+    }
+  },
+  "99": {
+    "tmdb_id": 1144107,
+    "cast": [
+      "Shan Xin",
+      "Liu Mingyue",
+      "Zhu Jing"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/dRCUBiTKtsmju3fmSS4MK0ywcqR.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt37284198/"
     }
   },
   "100": {

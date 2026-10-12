@@ -145,7 +145,8 @@
         "director_filter": "passed"
       }
     ],
-    "status": "matched"
+    "status": "matched",
+    "selected_tmdb_id": 1242015
   },
   {
     "id": 55,
@@ -176,10 +177,11 @@
         "directors": [
           "Rohan Kanawade"
         ],
-        "director_filter": "rejected"
+        "director_filter": "passed"
       }
     ],
-    "status": "unmatched"
+    "status": "matched",
+    "selected_tmdb_id": 1288748
   },
   {
     "id": 63,
@@ -210,10 +212,11 @@
         "directors": [
           "David Borenstein"
         ],
-        "director_filter": "rejected"
+        "director_filter": "passed"
       }
     ],
-    "status": "unmatched"
+    "status": "matched",
+    "selected_tmdb_id": 1393151
   },
   {
     "id": 71,
@@ -247,7 +250,8 @@
         "director_filter": "passed"
       }
     ],
-    "status": "matched"
+    "status": "matched",
+    "selected_tmdb_id": 1239288
   },
   {
     "id": 78,
@@ -284,10 +288,11 @@
         "directors": [
           "Tsou Shih-ching"
         ],
-        "director_filter": "rejected"
+        "director_filter": "passed"
       }
     ],
-    "status": "unmatched"
+    "status": "matched",
+    "selected_tmdb_id": 999075
   },
   {
     "id": 97,
@@ -325,10 +330,11 @@
         "directors": [
           "Pierre Perifel"
         ],
-        "director_filter": "rejected"
+        "director_filter": "passed"
       }
     ],
-    "status": "unmatched"
+    "status": "matched",
+    "selected_tmdb_id": 1175942
   },
   {
     "id": 98,
@@ -485,7 +491,7 @@
         "directors": [
           "Alexander Woo"
         ],
-        "director_filter": "rejected"
+        "director_filter": "passed"
       },
       {
         "id": 1073125,
@@ -506,7 +512,8 @@
         "director_filter": "rejected"
       }
     ],
-    "status": "unmatched"
+    "status": "matched",
+    "selected_tmdb_id": 1117857
   },
   {
     "id": 99,
@@ -538,9 +545,10 @@
           "Gu Jie",
           "MTJJ"
         ],
-        "director_filter": "rejected"
+        "director_filter": "passed"
       }
     ],
-    "status": "unmatched"
+    "status": "matched",
+    "selected_tmdb_id": 1144107
   }
 ]
