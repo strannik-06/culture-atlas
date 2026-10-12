@@ -23,7 +23,7 @@ ALIASES={
   93:["Endless Cookie"],96:["Elio"],97:["The Bad Guys 2"],98:["In Your Dreams"]
 }
 # Explicit TMDB IDs verified by a human. Prefer IDs over fuzzy title searches.
-VERIFIED_TMDB_IDS={39:1242015,71:1239288,78:999075}
+VERIFIED_TMDB_IDS={}  # Diagnose these films through normal title search, not pinned IDs
 DIRECTOR_ALIASES={
     "Hailey Gates":["Hailey Benton Gates"],
 }
@@ -50,9 +50,10 @@ old=root/"film-details.js"
 if old.exists():
     match=re.search(r"window\\.CULTURE_FILM_DETAILS\\s*=\\s*(\\{.*\\});",old.read_text(),re.S)
     if match:previous=json.loads(match.group(1))
-details={};ambiguous=[]
+details={};ambiguous=[];diagnostics=[]
 for f in films:
     title=f["title"];director=f["director"];year=f["year"]
+    trace={"id":f["id"],"title":title,"expected_director":director,"expected_year":year,"searches":[],"candidates":[]}
     # TMDB searches alternate-language titles; verify identity by director.
     if f["id"] in VERIFIED_TMDB_IDS:
         movie=api("movie/"+str(VERIFIED_TMDB_IDS[f["id"]]),{"append_to_response":"credits,external_ids"})
@@ -65,9 +66,14 @@ for f in films:
 
     for term in ([] if f["id"] in VERIFIED_TMDB_IDS else search_terms(f)):
         if not term:continue
-        for item in api("search/movie",{"query":term,"include_adult":"false"}).get("results",[])[:20]:
+        response=api("search/movie",{"query":term,"include_adult":"false"})
+        search_trace={"query":term,"total_results":response.get("total_results"),"total_pages":response.get("total_pages"),"results":[]}
+        trace["searches"].append(search_trace)
+        for item in response.get("results",[])[:20]:
             release=item.get("release_date","")[:4]
-            if not release or not release.isdigit() or abs(int(release)-year)>2:continue
+            accepted=bool(release and release.isdigit() and abs(int(release)-year)<=2)
+            search_trace["results"].append({"id":item["id"],"title":item.get("title"),"original_title":item.get("original_title"),"release_date":item.get("release_date"),"year_filter":"passed" if accepted else "rejected"})
+            if not accepted:continue
             candidates[item["id"]]=item
         time.sleep(.12)
     # Fallback: identify director by name and inspect their movie directing credits.
@@ -96,13 +102,17 @@ for f in films:
     for item in candidates.values():
         movie=api("movie/"+str(item["id"]),{"append_to_response":"credits,external_ids"})
         directors=[p["name"] for p in movie.get("credits",{}).get("crew",[]) if p.get("job")=="Director"]
-        if not directors_match(director,directors):continue
+        accepted=directors_match(director,directors)
+        trace["candidates"].append({"id":movie["id"],"title":movie.get("title"),"release_date":movie.get("release_date"),"directors":directors,"director_filter":"passed" if accepted else "rejected"})
+        if not accepted:continue
         matches.append(movie)
         time.sleep(.15)
     # Require one unique director-verified match; never pick arbitrarily.
     if len(matches)!=1:
         if str(f["id"]) in previous:details[f["id"]]=previous[str(f["id"])]
         ambiguous.append({"id":f["id"],"title":title,"candidates":len(matches)})
+        trace["status"]="unmatched" if not matches else "ambiguous"
+        diagnostics.append(trace)
         continue
     m=matches[0];entry={"tmdb_id":m["id"],"cast":[p["name"] for p in m.get("credits",{}).get("cast",[])[:3]]}
     if m.get("poster_path"):entry["poster"]="https://image.tmdb.org/t/p/w500"+m["poster_path"]
@@ -115,7 +125,11 @@ for f in films:
     if isinstance(existing.get("imdb"),dict) and existing["imdb"].get("score") and entry.get("imdb"):
         entry["imdb"]["score"]=existing["imdb"]["score"]
     details[f["id"]]=entry
+    if f["id"] in (39,71,78):
+        trace["status"]="matched"
+        diagnostics.append(trace)
     print(f'{f["id"]:3} {title}: matched TMDB {m["id"]}')
 (root/"film-details.js").write_text("// Film data matched against TMDB title, year and director. Reviews and awards require independent verification.\nwindow.CULTURE_FILM_DETAILS = "+json.dumps(details,ensure_ascii=False,indent=2)+";\n")
+(root/"tmdb-diagnostics.json").write_text(json.dumps(diagnostics,ensure_ascii=False,indent=2)+"\n")
 (root/"tmdb-unmatched.json").write_text(json.dumps(ambiguous,ensure_ascii=False,indent=2)+"\n")
 print(f"Matched {len(details)}/{len(films)} films; {len(ambiguous)} need manual review.")
