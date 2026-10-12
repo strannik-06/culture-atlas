@@ -92,20 +92,6 @@ for f in films:
                     candidates[movie["id"]]=movie
                 time.sleep(.12)
             time.sleep(.12)
-        # Search fallback ends here.
-        director_names_list=[] 
-        for director_name in director_names_list:
-            people=api("search/person",{"query":director_name}).get("results",[])[:8]
-            for person in people:
-                if not director_equivalent(director_name,person.get("name","")):continue
-                credits=api("person/"+str(person["id"])+"/movie_credits")
-                for movie in credits.get("crew",[]):
-                    if movie.get("job")!="Director":continue
-                    release=movie.get("release_date","")[:4]
-                    if not release or not release.isdigit() or abs(int(release)-year)>2:continue
-                    candidates[movie["id"]]=movie
-                time.sleep(.12)
-            time.sleep(.12)
     matches=[]
     for item in candidates.values():
         movie=api("movie/"+str(item["id"]),{"append_to_response":"credits,external_ids"})
