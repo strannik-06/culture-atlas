@@ -7,6 +7,7 @@ window.CULTURE_FILM_DETAILS = {
       "Mariam Afshari",
       "Ebrahim Azizi"
     ],
+    "tmdb_rating": 7.1,
     "poster": "https://image.tmdb.org/t/p/w500/eNYGj2DG3n8OrVPTfYunpPW9uas.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt36491653/"
@@ -19,6 +20,7 @@ window.CULTURE_FILM_DETAILS = {
       "Stellan Skarsgård",
       "Inga Ibsdotter Lilleaas"
     ],
+    "tmdb_rating": 7.5,
     "poster": "https://image.tmdb.org/t/p/w500/AcbS8VMysrTpG9r4dgK1oyLsKYn.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt27714581/"
@@ -31,6 +33,7 @@ window.CULTURE_FILM_DETAILS = {
       "Alice Carvalho",
       "Gabriel Leone"
     ],
+    "tmdb_rating": 7.2,
     "poster": "https://image.tmdb.org/t/p/w500/rZqolYhxMEe6TZZTjSmFw9crDTD.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt27847051/"
@@ -43,6 +46,7 @@ window.CULTURE_FILM_DETAILS = {
       "Sean Penn",
       "Chase Infiniti"
     ],
+    "tmdb_rating": 7.3,
     "poster": "https://image.tmdb.org/t/p/w500/lbBWwxBht4JFP5PsuJ5onpMqugW.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt30144839/"
@@ -55,6 +59,7 @@ window.CULTURE_FILM_DETAILS = {
       "Hailee Steinfeld",
       "Miles Caton"
     ],
+    "tmdb_rating": 7.5,
     "poster": "https://image.tmdb.org/t/p/w500/fWPgbnt2LSqkQ6cdQc0SZN9CpLm.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt31193180/"
@@ -67,6 +72,7 @@ window.CULTURE_FILM_DETAILS = {
       "Lena Urzendowsky",
       "Claudia Geisler-Bading"
     ],
+    "tmdb_rating": 7.0,
     "poster": "https://image.tmdb.org/t/p/w500/5hLiXAqZ3xTHExOIsxYANIswBjZ.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt28690468/"
@@ -79,6 +85,7 @@ window.CULTURE_FILM_DETAILS = {
       "Bruno Núñez",
       "Stefania Gadda"
     ],
+    "tmdb_rating": 6.8,
     "poster": "https://image.tmdb.org/t/p/w500/bzBtsLi17rK4G6kDvOXfUZfAhca.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt32298285/"
@@ -91,6 +98,7 @@ window.CULTURE_FILM_DETAILS = {
       "Shu Qi",
       "Mark Chao You-ting"
     ],
+    "tmdb_rating": 7.1,
     "poster": "https://image.tmdb.org/t/p/w500/4asJAxshXzQriox6tnIoEnWN1nu.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt29002950/"
@@ -103,6 +111,7 @@ window.CULTURE_FILM_DETAILS = {
       "Motaz Malhees",
       "Saja Kilani"
     ],
+    "tmdb_rating": 8.1,
     "poster": "https://image.tmdb.org/t/p/w500/q7M8kQB46T11vmDMD6E239jsqTz.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt36943034/"
@@ -115,6 +124,7 @@ window.CULTURE_FILM_DETAILS = {
       "Son Ye-jin",
       "Park Hee-soon"
     ],
+    "tmdb_rating": 7.5,
     "poster": "https://image.tmdb.org/t/p/w500/vc2S0dvgpsM0XfSiXZDMVkRCSSU.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt1527793/"
@@ -127,6 +137,7 @@ window.CULTURE_FILM_DETAILS = {
       "Alana Haim",
       "Hope Davis"
     ],
+    "tmdb_rating": 5.7,
     "poster": "https://image.tmdb.org/t/p/w500/oPaEQ3m4zHOzIAstgXCZZtzcHTL.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt33455099/"
@@ -139,6 +150,7 @@ window.CULTURE_FILM_DETAILS = {
       "Diane Kruger",
       "Guy Pearce"
     ],
+    "tmdb_rating": 5.8,
     "poster": "https://image.tmdb.org/t/p/w500/xXoueIHdllGo5m0ChKvSATJYWBw.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt20212786/"
@@ -151,6 +163,7 @@ window.CULTURE_FILM_DETAILS = {
       "Gabriel Spahiu",
       "Adonis Tanța"
     ],
+    "tmdb_rating": 6.5,
     "poster": "https://image.tmdb.org/t/p/w500/zilOI4BxPxKK3BbyJSHEdOTiTaJ.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt35492581/"
@@ -163,6 +176,7 @@ window.CULTURE_FILM_DETAILS = {
       "Clara Pacini",
       "August Diehl"
     ],
+    "tmdb_rating": 5.7,
     "poster": "https://image.tmdb.org/t/p/w500/b68s4eH45pRE8giLVM5tFUgVDcj.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt28171985/"
@@ -175,6 +189,7 @@ window.CULTURE_FILM_DETAILS = {
       "Adam Driver",
       "Mayim Bialik"
     ],
+    "tmdb_rating": 6.4,
     "poster": "https://image.tmdb.org/t/p/w500/96O3Ol3f2veMxAxYqsML8rOumB9.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt31189315/"
@@ -187,6 +202,7 @@ window.CULTURE_FILM_DETAILS = {
       "Rebecca Marder",
       "Pierre Lottin"
     ],
+    "tmdb_rating": 6.8,
     "poster": "https://image.tmdb.org/t/p/w500/c7p06jlv8Lp2B5HjUhmFRTRaqJS.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt36243564/"
@@ -199,6 +215,7 @@ window.CULTURE_FILM_DETAILS = {
       "Sverrir Gudnason",
       "Ída Mekkín Hlynsdóttir"
     ],
+    "tmdb_rating": 6.3,
     "poster": "https://image.tmdb.org/t/p/w500/cW1T0oQcyVfcRR0e4cevno9Zc2h.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt33381401/"
@@ -211,6 +228,7 @@ window.CULTURE_FILM_DETAILS = {
       "Paul Mescal",
       "Emily Watson"
     ],
+    "tmdb_rating": 7.7,
     "poster": "https://image.tmdb.org/t/p/w500/vbeyOZm2bvBXcbgPD3v6o94epPX.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt14905854/"
@@ -223,6 +241,7 @@ window.CULTURE_FILM_DETAILS = {
       "Felicity Jones",
       "Nathaniel Arcand"
     ],
+    "tmdb_rating": 7.3,
     "poster": "https://image.tmdb.org/t/p/w500/jnaOmD9PmAkNjgVtCn17o7clOYe.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt29768334/"
@@ -235,6 +254,7 @@ window.CULTURE_FILM_DETAILS = {
       "Naomi Ackie",
       "Louis Cancelmi"
     ],
+    "tmdb_rating": 6.9,
     "poster": "https://image.tmdb.org/t/p/w500/n8wZEQen5hDNRGzm4fY4sxWe5xe.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt32843349/"
@@ -247,6 +267,7 @@ window.CULTURE_FILM_DETAILS = {
       "Sajad Mohamad Qasem",
       "Waheed Thabet Khreibat"
     ],
+    "tmdb_rating": 7.4,
     "poster": "https://image.tmdb.org/t/p/w500/uSrozVUxIUaer6FIUHHFtOdbqj8.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt36580119/"
@@ -259,6 +280,7 @@ window.CULTURE_FILM_DETAILS = {
       "Ksenia Mironova",
       "Sofya Groysman"
     ],
+    "tmdb_rating": 7.2,
     "poster": "https://image.tmdb.org/t/p/w500/290La7BM5CLhLTwa7QsJQVGthok.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt33075192/"
@@ -271,6 +293,7 @@ window.CULTURE_FILM_DETAILS = {
       "Horst Kettner",
       "Adolf Hitler"
     ],
+    "tmdb_rating": 7.2,
     "poster": "https://image.tmdb.org/t/p/w500/yl4AbKmwXR8bPVsbPyldD50yN8Y.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt32249940/"
@@ -281,6 +304,7 @@ window.CULTURE_FILM_DETAILS = {
     "cast": [
       "Mstyslav Chernov"
     ],
+    "tmdb_rating": 8.1,
     "poster": "https://image.tmdb.org/t/p/w500/s1TC3QebWWWJ6CceqbBgAvJde8t.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt34964205/"
@@ -293,6 +317,7 @@ window.CULTURE_FILM_DETAILS = {
       "Ajike Owens",
       "Pamela Dias"
     ],
+    "tmdb_rating": 6.8,
     "poster": "https://image.tmdb.org/t/p/w500/2NE7yN45zo19o4LJr6JFxDWmh2b.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt34962891/"
@@ -305,6 +330,7 @@ window.CULTURE_FILM_DETAILS = {
       "Oscar Tresanini",
       "Nathanaël Perrot"
     ],
+    "tmdb_rating": 7.6,
     "poster": "https://image.tmdb.org/t/p/w500/mWlvHFxTDhq9O5WSOHywa32QIez.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt14883538/"
@@ -317,6 +343,7 @@ window.CULTURE_FILM_DETAILS = {
       "Victoria Grobois",
       "Yumi Fujimori"
     ],
+    "tmdb_rating": 7.9,
     "poster": "https://image.tmdb.org/t/p/w500/qoqDvTUVPoZJWw24AjGDt3J4tZN.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt29313285/"
@@ -329,6 +356,7 @@ window.CULTURE_FILM_DETAILS = {
       "Lewis Pullman",
       "Thomasin McKenzie"
     ],
+    "tmdb_rating": 6.3,
     "poster": "https://image.tmdb.org/t/p/w500/hBGg3IGRM7LM6ydMmDrl8mEx33Y.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt34819091/"
@@ -341,6 +369,7 @@ window.CULTURE_FILM_DETAILS = {
       "Rebeca Andrade",
       "Guillermo Cardona"
     ],
+    "tmdb_rating": 8.8,
     "poster": "https://image.tmdb.org/t/p/w500/o0MRVa3XMUUIxiSCZYaJ1jGXdk.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt36544524/"
@@ -353,6 +382,7 @@ window.CULTURE_FILM_DETAILS = {
       "Roberto Domínguez",
       "Francisco Manuel \"Viruta\" Durán"
     ],
+    "tmdb_rating": 6.9,
     "poster": "https://image.tmdb.org/t/p/w500/uxmv9ySlP0KKiGZcWsU0wzy9goL.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt26245982/"
@@ -365,6 +395,7 @@ window.CULTURE_FILM_DETAILS = {
       "Selome Emnetu",
       "Anne Marit Jacobsen"
     ],
+    "tmdb_rating": 6.9,
     "poster": "https://image.tmdb.org/t/p/w500/ctBhKsd2AGlubApDf7VogbFKRlG.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt30810787/"
@@ -377,6 +408,7 @@ window.CULTURE_FILM_DETAILS = {
       "Rodrigo Santoro",
       "Miriam Socarrás"
     ],
+    "tmdb_rating": 6.9,
     "poster": "https://image.tmdb.org/t/p/w500/ua8XnJ450rhBTxkY2wpD2ITw7BJ.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt35340614/"
@@ -389,6 +421,7 @@ window.CULTURE_FILM_DETAILS = {
       "Marcelo Subiotto",
       "Anika Bootz"
     ],
+    "tmdb_rating": 7.0,
     "poster": "https://image.tmdb.org/t/p/w500/hR1CSU5TBlWVmslKA5t8gQkYHuy.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt35499146/"
@@ -401,6 +434,7 @@ window.CULTURE_FILM_DETAILS = {
       "Zhang Chuwen",
       "Zhang Yanrong"
     ],
+    "tmdb_rating": 6.9,
     "poster": "https://image.tmdb.org/t/p/w500/4O5NYbAJa0qPJGZ3i49I5wynlZ2.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt31079597/"
@@ -413,6 +447,7 @@ window.CULTURE_FILM_DETAILS = {
       "Conan O'Brien",
       "A$AP Rocky"
     ],
+    "tmdb_rating": 6.3,
     "poster": "https://image.tmdb.org/t/p/w500/va0TQ9WprMXRqQAzY56vyqY0Yd5.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt18382850/"
@@ -425,6 +460,7 @@ window.CULTURE_FILM_DETAILS = {
       "Bobby Cannavale",
       "Andrew Scott"
     ],
+    "tmdb_rating": 6.6,
     "poster": "https://image.tmdb.org/t/p/w500/dVU7SNc6dgStTVdtbPLQncWxsyZ.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt32536315/"
@@ -437,6 +473,7 @@ window.CULTURE_FILM_DETAILS = {
       "Álvaro Cervantes",
       "Elena Irureta"
     ],
+    "tmdb_rating": 7.2,
     "poster": "https://image.tmdb.org/t/p/w500/ykB9bwUHT1AV04KjYPLhfgMwYdD.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt26923797/"
@@ -449,6 +486,7 @@ window.CULTURE_FILM_DETAILS = {
       "Mina Švajger",
       "Saša Tabaković"
     ],
+    "tmdb_rating": 6.8,
     "poster": "https://image.tmdb.org/t/p/w500/etH5TJk18eua1i4xke8E2rYEpqB.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt28834646/"
@@ -461,6 +499,7 @@ window.CULTURE_FILM_DETAILS = {
       "Elsa Houben",
       "Janaïna Halloy Fokan"
     ],
+    "tmdb_rating": 6.5,
     "poster": "https://image.tmdb.org/t/p/w500/okfaa71H1P0WC1uzYliOgYS2gte.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt32909489/"
@@ -473,6 +512,7 @@ window.CULTURE_FILM_DETAILS = {
       "Matías Catalán",
       "Pedro Muñoz"
     ],
+    "tmdb_rating": 6.4,
     "poster": "https://image.tmdb.org/t/p/w500/xfPhni21LIEmuV8HiDfrLhcmTwr.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt22237964/"
@@ -485,6 +525,7 @@ window.CULTURE_FILM_DETAILS = {
       "Chibuike Marvellous Egbo",
       "Godwin Egbo"
     ],
+    "tmdb_rating": 7.2,
     "poster": "https://image.tmdb.org/t/p/w500/aF8AFFh3LJpF8An0KUM8SdTwfVt.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt35695538/"
@@ -497,6 +538,7 @@ window.CULTURE_FILM_DETAILS = {
       "Alexander Skarsgård",
       "Lesley Sharp"
     ],
+    "tmdb_rating": 6.5,
     "poster": "https://image.tmdb.org/t/p/w500/7Pd6ChSQjSXy4snJiorSdzg2cG3.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt32321317/"
@@ -509,6 +551,7 @@ window.CULTURE_FILM_DETAILS = {
       "Megan Northam",
       "Karyna Khymchuk"
     ],
+    "tmdb_rating": 6.8,
     "poster": "https://image.tmdb.org/t/p/w500/zc8n3hm3S2VxFxlNH1MNN28LVMa.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt35715953/"
@@ -521,6 +564,7 @@ window.CULTURE_FILM_DETAILS = {
       "Majd Eid",
       "Ramzi Maqdisi"
     ],
+    "tmdb_rating": 5.4,
     "poster": "https://image.tmdb.org/t/p/w500/pUaPcVkkO3WZSbCusXhvu4u5bpT.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt34734841/"
@@ -533,6 +577,7 @@ window.CULTURE_FILM_DETAILS = {
       "Anna Ferzetti",
       "Massimo Venturiello"
     ],
+    "tmdb_rating": 7.3,
     "poster": "https://image.tmdb.org/t/p/w500/lnPGzi7BNc17WtxXso16CjNjT5K.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt34886821/"
@@ -545,6 +590,7 @@ window.CULTURE_FILM_DETAILS = {
       "Luna Wedler",
       "Enzo Brumm"
     ],
+    "tmdb_rating": 7.2,
     "poster": "https://image.tmdb.org/t/p/w500/mZjkRpTFfcdsTmtIAzKVM87I94R.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt27811632/"
@@ -553,6 +599,7 @@ window.CULTURE_FILM_DETAILS = {
   "47": {
     "tmdb_id": 1457188,
     "cast": [],
+    "tmdb_rating": 6.1,
     "poster": "https://image.tmdb.org/t/p/w500/xbmmOezxwLIOdjq7adujO6RyjTs.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt36874833/"
@@ -565,6 +612,7 @@ window.CULTURE_FILM_DETAILS = {
       "Osvaldo Sánchez",
       "Mariano López Sosa"
     ],
+    "tmdb_rating": 8.4,
     "poster": "https://image.tmdb.org/t/p/w500/u169hcLX3OsM9eRs4wtIzi0ymGZ.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt37660509/"
@@ -577,6 +625,7 @@ window.CULTURE_FILM_DETAILS = {
       "Emily Blunt",
       "Ryan Bader"
     ],
+    "tmdb_rating": 6.4,
     "poster": "https://image.tmdb.org/t/p/w500/cwwvrdYeIrARXdiv09GIO6XWK5l.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt11214558/"
@@ -589,6 +638,7 @@ window.CULTURE_FILM_DETAILS = {
       "Gwyneth Paltrow",
       "Odessa A'zion"
     ],
+    "tmdb_rating": 7.4,
     "poster": "https://image.tmdb.org/t/p/w500/lYWEXbQgRTR4ZQleSXAgRbxAjvq.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt32916440/"
@@ -601,6 +651,7 @@ window.CULTURE_FILM_DETAILS = {
       "Jesse Plemons",
       "Aidan Delbis"
     ],
+    "tmdb_rating": 7.3,
     "poster": "https://image.tmdb.org/t/p/w500/18Kbb0qeCxwzna0W6a9gEMZuizF.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt12300742/"
@@ -613,6 +664,7 @@ window.CULTURE_FILM_DETAILS = {
       "Jacob Elordi",
       "Christoph Waltz"
     ],
+    "tmdb_rating": 7.6,
     "poster": "https://image.tmdb.org/t/p/w500/g4JtvGlQO7DByTI6frUobqvSL3R.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt1312221/"
@@ -625,6 +677,7 @@ window.CULTURE_FILM_DETAILS = {
       "Patricia López Arnaiz",
       "Miguel Garcés"
     ],
+    "tmdb_rating": 6.9,
     "poster": "https://image.tmdb.org/t/p/w500/3682SbY3rsNKsQzFpPUKrWdGmmx.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt35513027/"
@@ -633,6 +686,7 @@ window.CULTURE_FILM_DETAILS = {
   "54": {
     "tmdb_id": 1457842,
     "cast": [],
+    "tmdb_rating": 6.2,
     "poster": "https://image.tmdb.org/t/p/w500/fFsXzjNvzmsNdwNwGpiLaIIpavF.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt37676219/"
@@ -645,6 +699,7 @@ window.CULTURE_FILM_DETAILS = {
       "Suraaj Suman",
       "Jayshri Jagtap"
     ],
+    "tmdb_rating": 8.0,
     "poster": "https://image.tmdb.org/t/p/w500/qCucYfx1K2bDpRXlPczbKCGb5FX.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt29310002/"
@@ -656,6 +711,7 @@ window.CULTURE_FILM_DETAILS = {
       "Ben Whishaw",
       "Rebecca Hall"
     ],
+    "tmdb_rating": 5.6,
     "poster": "https://image.tmdb.org/t/p/w500/awq1O9RRi6JW74fDmGXJJGD5le8.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt34250044/"
@@ -668,6 +724,7 @@ window.CULTURE_FILM_DETAILS = {
       "Zoey Deutch",
       "Aubry Dullin"
     ],
+    "tmdb_rating": 7.2,
     "poster": "https://image.tmdb.org/t/p/w500/AfE7DZ0DPgme6I58dlYp1Bo9xeN.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt31688586/"
@@ -680,6 +737,7 @@ window.CULTURE_FILM_DETAILS = {
       "Robert Pattinson",
       "Sissy Spacek"
     ],
+    "tmdb_rating": 6.1,
     "poster": "https://image.tmdb.org/t/p/w500/kajpShbFhOdpl6yCrLezMrr9tB4.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt9362736/"
@@ -692,6 +750,7 @@ window.CULTURE_FILM_DETAILS = {
       "Michael Fassbender",
       "Tom Burke"
     ],
+    "tmdb_rating": 6.4,
     "poster": "https://image.tmdb.org/t/p/w500/hHPovtU4b96LHcoeEwRkGHI5btw.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt30988739/"
@@ -704,6 +763,7 @@ window.CULTURE_FILM_DETAILS = {
       "Deirdre O'Connell",
       "Emma Stone"
     ],
+    "tmdb_rating": 6.5,
     "poster": "https://image.tmdb.org/t/p/w500/4GIqZUgPZ146BhibsPHMHef2nXX.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt31176520/"
@@ -716,6 +776,7 @@ window.CULTURE_FILM_DETAILS = {
       "Tim Key",
       "Carey Mulligan"
     ],
+    "tmdb_rating": 7.3,
     "poster": "https://image.tmdb.org/t/p/w500/haS6bnqDqZoi5sYcCPJWaj2yMbB.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt27674982/"
@@ -728,6 +789,7 @@ window.CULTURE_FILM_DETAILS = {
       "George Orwell",
       "George W. Bush"
     ],
+    "tmdb_rating": 7.2,
     "poster": "https://image.tmdb.org/t/p/w500/qG1LjcK8ohi4mSJ9j8KHUs5svbe.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt27052428/"
@@ -740,6 +802,7 @@ window.CULTURE_FILM_DETAILS = {
       "Vladimir Putin",
       "Roman Abalin"
     ],
+    "tmdb_rating": 7.3,
     "poster": "https://image.tmdb.org/t/p/w500/ss4NEGmPxgm4D73iMFeyjbE1m9b.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt34965515/"
@@ -748,6 +811,7 @@ window.CULTURE_FILM_DETAILS = {
   "64": {
     "tmdb_id": 1400783,
     "cast": [],
+    "tmdb_rating": 7.0,
     "poster": "https://image.tmdb.org/t/p/w500/6H0TJFuihYtXeXc5WhrT5kyVtnv.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt34963731/"
@@ -760,6 +824,7 @@ window.CULTURE_FILM_DETAILS = {
       "Jana Coneva",
       "Aleksandra Coneva"
     ],
+    "tmdb_rating": 7.1,
     "poster": "https://image.tmdb.org/t/p/w500/pr4kRAXsQE97CpHv3s5L0cW9w38.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt37660542/"
@@ -772,6 +837,7 @@ window.CULTURE_FILM_DETAILS = {
       "Masaki Okada",
       "Yutaka Matsushige"
     ],
+    "tmdb_rating": 7.0,
     "poster": "https://image.tmdb.org/t/p/w500/2O2tOyS4kvO9GtFPHpWmbXvfRQv.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt35114460/"
@@ -784,6 +850,7 @@ window.CULTURE_FILM_DETAILS = {
       "May Hong",
       "Ji-young Yoo"
     ],
+    "tmdb_rating": 8.0,
     "poster": "https://image.tmdb.org/t/p/w500/zT7Lhw3BhJbMkRqm9Zlx2YGMsY0.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt14205554/"
@@ -796,6 +863,7 @@ window.CULTURE_FILM_DETAILS = {
       "Grace Kuhlenschmidt",
       "Elsie Fisher"
     ],
+    "tmdb_rating": 7.0,
     "poster": "https://image.tmdb.org/t/p/w500/3dTnNYq0TZYkTLqRXgHz3OBxcFA.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt31021863/"
@@ -808,6 +876,7 @@ window.CULTURE_FILM_DETAILS = {
       "Jason Bateman",
       "Ke Huy Quan"
     ],
+    "tmdb_rating": 7.7,
     "poster": "https://image.tmdb.org/t/p/w500/oJ7g2CifqpStmoYQyaLQgEU32qO.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt26443597/"
@@ -820,6 +889,7 @@ window.CULTURE_FILM_DETAILS = {
       "Kayo Martin",
       "Joel Edgerton"
     ],
+    "tmdb_rating": 6.4,
     "poster": "https://image.tmdb.org/t/p/w500/b0RWuqzgvyfiIYU4QfgJHhmxZF4.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt32792934/"
@@ -832,6 +902,7 @@ window.CULTURE_FILM_DETAILS = {
       "Zahra Alzubaidi",
       "Callum Turner"
     ],
+    "tmdb_rating": 5.7,
     "poster": "https://image.tmdb.org/t/p/w500/qurd8tG5E2T20QihO0ysaJCzAjL.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt31122579/"
@@ -844,6 +915,7 @@ window.CULTURE_FILM_DETAILS = {
       "James Sweeney",
       "Aisling Franciosi"
     ],
+    "tmdb_rating": 7.2,
     "poster": "https://image.tmdb.org/t/p/w500/9vaw9Az5tPLMjNLj426KgKsp0k8.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt31322753/"
@@ -856,6 +928,7 @@ window.CULTURE_FILM_DETAILS = {
       "Thora Birch",
       "Jim Belushi"
     ],
+    "tmdb_rating": 6.7,
     "poster": "https://image.tmdb.org/t/p/w500/pU3GZI6C9lxzxUnBccIQLThDLVY.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt8667404/"
@@ -868,6 +941,7 @@ window.CULTURE_FILM_DETAILS = {
       "Josh O'Connor",
       "Chris Cooper"
     ],
+    "tmdb_rating": 7.0,
     "poster": "https://image.tmdb.org/t/p/w500/55of0Vy7m32hSRZKsCyyDjZn4AC.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt15799524/"
@@ -880,6 +954,7 @@ window.CULTURE_FILM_DETAILS = {
       "Mia Threapleton",
       "Michael Cera"
     ],
+    "tmdb_rating": 6.5,
     "poster": "https://image.tmdb.org/t/p/w500/iXxIUVqpQAlyy98UjUlzjkMYuj6.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt30840798/"
@@ -892,6 +967,7 @@ window.CULTURE_FILM_DETAILS = {
       "Jeffrey Wright",
       "Ilfenesh Hadera"
     ],
+    "tmdb_rating": 5.5,
     "poster": "https://image.tmdb.org/t/p/w500/RFQtinuiHhOnbmJaCn3uzegCYF.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt31194612/"
@@ -904,6 +980,7 @@ window.CULTURE_FILM_DETAILS = {
       "Hiam Abbass",
       "Robert Aramayo"
     ],
+    "tmdb_rating": 7.7,
     "poster": "https://image.tmdb.org/t/p/w500/ajeiriNRFPLESjGZ0vdp4MVardZ.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt29271622/"
@@ -916,6 +993,7 @@ window.CULTURE_FILM_DETAILS = {
       "Janel Tsai",
       "Nina Ye"
     ],
+    "tmdb_rating": 7.3,
     "poster": "https://image.tmdb.org/t/p/w500/hfuxIKRCNsecLmoDdO0HJ1YUvv1.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt27722618/"
@@ -928,6 +1006,7 @@ window.CULTURE_FILM_DETAILS = {
       "Park Ji-min",
       "Amina Ben Mohamed"
     ],
+    "tmdb_rating": 6.6,
     "poster": "https://image.tmdb.org/t/p/w500/gzTNITDGOjgrd3QPJfuqSYCjDls.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt28326501/"
@@ -940,6 +1019,7 @@ window.CULTURE_FILM_DETAILS = {
       "Sérgio Coragem",
       "Jonathan Guilherme"
     ],
+    "tmdb_rating": 7.1,
     "poster": "https://image.tmdb.org/t/p/w500/z07ldMMncBpgIdSF87kFReaCBRG.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt36642485/"
@@ -952,6 +1032,7 @@ window.CULTURE_FILM_DETAILS = {
       "Gemma Chan",
       "May Calamawy"
     ],
+    "tmdb_rating": 6.1,
     "poster": "https://image.tmdb.org/t/p/w500/o8ebppnru8hDxlgCFaLSMomhhlS.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt14127944/"
@@ -964,6 +1045,7 @@ window.CULTURE_FILM_DETAILS = {
       "Archie Madekwe",
       "Havana Rose Liu"
     ],
+    "tmdb_rating": 6.4,
     "poster": "https://image.tmdb.org/t/p/w500/3rbY3fjXQpt4sQLQvKD7CT6oJsS.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt13651462/"
@@ -976,6 +1058,7 @@ window.CULTURE_FILM_DETAILS = {
       "Ane Dahl Torp",
       "Thea Sofie Loch Næss"
     ],
+    "tmdb_rating": 7.3,
     "poster": "https://image.tmdb.org/t/p/w500/rayAREIKtSinuov10GvrZHyXfXH.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt29344903/"
@@ -988,6 +1071,7 @@ window.CULTURE_FILM_DETAILS = {
       "David Jonsson",
       "Garrett Wareing"
     ],
+    "tmdb_rating": 6.8,
     "poster": "https://image.tmdb.org/t/p/w500/wobVTa99eW0ht6c1rNNzLkazPtR.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt10374610/"
@@ -1000,6 +1084,7 @@ window.CULTURE_FILM_DETAILS = {
       "Josh Brolin",
       "Alden Ehrenreich"
     ],
+    "tmdb_rating": 7.3,
     "poster": "https://image.tmdb.org/t/p/w500/cpf7vsRZ0MYRQcnLWteD5jK9ymT.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt26581740/"
@@ -1012,6 +1097,7 @@ window.CULTURE_FILM_DETAILS = {
       "Sally Hawkins",
       "Mischa Heywood"
     ],
+    "tmdb_rating": 7.3,
     "poster": "https://image.tmdb.org/t/p/w500/1Q3GlCXGYWELifxANYZ5OVMRVZl.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt32246771/"
@@ -1024,6 +1110,7 @@ window.CULTURE_FILM_DETAILS = {
       "Alfie Williams",
       "Ralph Fiennes"
     ],
+    "tmdb_rating": 6.6,
     "poster": "https://image.tmdb.org/t/p/w500/n5FygjEppOvac6yEaowi26nTyw3.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt10548174/"
@@ -1036,6 +1123,7 @@ window.CULTURE_FILM_DETAILS = {
       "Benjamin Pajak",
       "Nick Offerman"
     ],
+    "tmdb_rating": 7.3,
     "poster": "https://image.tmdb.org/t/p/w500/reMosvnsgjXk1fU40KYx5vKjzGS.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt12908150/"
@@ -1048,6 +1136,7 @@ window.CULTURE_FILM_DETAILS = {
       "Mark de Rond",
       "Dani Jayden"
     ],
+    "tmdb_rating": 6.5,
     "poster": "https://image.tmdb.org/t/p/w500/jq9BGaBpGmlrJJsFEMAVlfpLkYh.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt34963732/"
@@ -1060,6 +1149,7 @@ window.CULTURE_FILM_DETAILS = {
       "Jeff Gerth",
       "David Obst"
     ],
+    "tmdb_rating": 7.1,
     "poster": "https://image.tmdb.org/t/p/w500/3kVAkwPrNNw3kxe2yJVatj86QKo.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt37660887/"
@@ -1072,6 +1162,7 @@ window.CULTURE_FILM_DETAILS = {
       "Melvin Ray",
       "Kay Ivey"
     ],
+    "tmdb_rating": 6.9,
     "poster": "https://image.tmdb.org/t/p/w500/gultnK0rYs4xLLYhxQ9ZnvPfVAn.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt35307139/"
@@ -1084,6 +1175,7 @@ window.CULTURE_FILM_DETAILS = {
       "Megan Falley",
       "Heather Mann"
     ],
+    "tmdb_rating": 7.2,
     "poster": "https://image.tmdb.org/t/p/w500/5AFbcDGT78cLZTyHTSDBohczjuO.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt34966013/"
@@ -1096,6 +1188,7 @@ window.CULTURE_FILM_DETAILS = {
       "Peter Scriver",
       "Kristin Scriver"
     ],
+    "tmdb_rating": 6.8,
     "poster": "https://image.tmdb.org/t/p/w500/m4QlGRQ8dSXIEPTYvKB54YvMGyE.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt34965172/"
@@ -1108,6 +1201,7 @@ window.CULTURE_FILM_DETAILS = {
       "Candi Milo",
       "Peter MacNicol"
     ],
+    "tmdb_rating": 7.5,
     "poster": "https://image.tmdb.org/t/p/w500/s2lB1kaYCdGSnZX5meQCiOR6HfX.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt15352542/"
@@ -1120,6 +1214,7 @@ window.CULTURE_FILM_DETAILS = {
       "Pete Davidson",
       "Lil Rel Howery"
     ],
+    "tmdb_rating": 7.4,
     "poster": "https://image.tmdb.org/t/p/w500/89wNiexZdvLQ41OQWIsQy4O6jAQ.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt10954718/"
@@ -1132,6 +1227,7 @@ window.CULTURE_FILM_DETAILS = {
       "Remy Edgerly",
       "Zoe Saldaña"
     ],
+    "tmdb_rating": 6.9,
     "poster": "https://image.tmdb.org/t/p/w500/7z8jDiTZZco9moIKpTUImFtTy7o.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt4900148/"
@@ -1144,6 +1240,7 @@ window.CULTURE_FILM_DETAILS = {
       "Marc Maron",
       "Awkwafina"
     ],
+    "tmdb_rating": 7.6,
     "poster": "https://image.tmdb.org/t/p/w500/26oSPnq0ct59l07QOXZKyzsiRtN.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt30017619/"
@@ -1156,6 +1253,7 @@ window.CULTURE_FILM_DETAILS = {
       "Elias Janssen",
       "Simu Liu"
     ],
+    "tmdb_rating": 6.9,
     "poster": "https://image.tmdb.org/t/p/w500/ug0TqgmByPCEYzR9lQWQmyAa7sw.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt27604215/"
@@ -1168,6 +1266,7 @@ window.CULTURE_FILM_DETAILS = {
       "Liu Mingyue",
       "Zhu Jing"
     ],
+    "tmdb_rating": 9.0,
     "poster": "https://image.tmdb.org/t/p/w500/dRCUBiTKtsmju3fmSS4MK0ywcqR.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt37284198/"
@@ -1180,6 +1279,7 @@ window.CULTURE_FILM_DETAILS = {
       "Shiori Izawa",
       "Tomori Kusunoki"
     ],
+    "tmdb_rating": 8.5,
     "poster": "https://image.tmdb.org/t/p/w500/pHyxb2RV5wLlboAwm9ZJ9qTVEDw.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt30472557/"
@@ -1192,6 +1292,7 @@ window.CULTURE_FILM_DETAILS = {
       "Mark Eydelshteyn",
       "Yura Borisov"
     ],
+    "tmdb_rating": 7.1,
     "poster": "https://image.tmdb.org/t/p/w500/cgXk2tNYhJZLXdBDO5DidAVzQ82.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt28607951/"
@@ -1204,6 +1305,7 @@ window.CULTURE_FILM_DETAILS = {
       "Felicity Jones",
       "Guy Pearce"
     ],
+    "tmdb_rating": 6.9,
     "poster": "https://image.tmdb.org/t/p/w500/vP7Yd6couiAaw9jgMd5cjMRj3hQ.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt8999762/"
@@ -1216,6 +1318,7 @@ window.CULTURE_FILM_DETAILS = {
       "Divya Prabha",
       "Chhaya Kadam"
     ],
+    "tmdb_rating": 6.8,
     "poster": "https://image.tmdb.org/t/p/w500/ruImrzB4POsrgwCMozmOBV67zs5.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt32086077/"
@@ -1228,6 +1331,7 @@ window.CULTURE_FILM_DETAILS = {
       "Margaret Qualley",
       "Dennis Quaid"
     ],
+    "tmdb_rating": 7.1,
     "poster": "https://image.tmdb.org/t/p/w500/lqoMzCcZYEFK729d6qzt349fB4o.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt17526714/"
@@ -1240,6 +1344,7 @@ window.CULTURE_FILM_DETAILS = {
       "Misagh Zare",
       "Mahsa Rostami"
     ],
+    "tmdb_rating": 7.5,
     "poster": "https://image.tmdb.org/t/p/w500/ifOazNzv2cNJ5CQjMV7cPXG2Lmy.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt32178949/"
@@ -1252,6 +1357,7 @@ window.CULTURE_FILM_DETAILS = {
       "Parfait Vaiayinon",
       "Didier Sedoha Nassangade"
     ],
+    "tmdb_rating": 6.5,
     "poster": "https://image.tmdb.org/t/p/w500/9d8KvJ3OjUq9rwuM743QPQO48aL.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt31015216/"
@@ -1260,6 +1366,7 @@ window.CULTURE_FILM_DETAILS = {
   "107": {
     "tmdb_id": 823219,
     "cast": [],
+    "tmdb_rating": 8.1,
     "poster": "https://image.tmdb.org/t/p/w500/z2sG41PxfL1hnL1mHbxzSREUtOf.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt4772188/"
@@ -1272,6 +1379,7 @@ window.CULTURE_FILM_DETAILS = {
       "Tilda Swinton",
       "John Turturro"
     ],
+    "tmdb_rating": 6.7,
     "poster": "https://image.tmdb.org/t/p/w500/qMibLyArrlBJ87AoqQBeVaFeRXp.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt29439114/"
@@ -1284,6 +1392,7 @@ window.CULTURE_FILM_DETAILS = {
       "Fernanda Montenegro",
       "Selton Mello"
     ],
+    "tmdb_rating": 7.9,
     "poster": "https://image.tmdb.org/t/p/w500/gZnsMbhCvhzAQlKaVpeFRHYjGyb.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt14961016/"
@@ -1296,6 +1405,7 @@ window.CULTURE_FILM_DETAILS = {
       "Kieran Culkin",
       "Will Sharpe"
     ],
+    "tmdb_rating": 6.8,
     "poster": "https://image.tmdb.org/t/p/w500/yaTFjMNh8D78dDHrglivOTv5YOx.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt21823606/"
@@ -1308,6 +1418,7 @@ window.CULTURE_FILM_DETAILS = {
       "Brandon Wilson",
       "Aunjanue Ellis-Taylor"
     ],
+    "tmdb_rating": 6.6,
     "poster": "https://image.tmdb.org/t/p/w500/lu2vmmtStmTNMmSZl2LgrrQpLZo.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt23055660/"
@@ -1320,6 +1431,7 @@ window.CULTURE_FILM_DETAILS = {
       "Yuval Abraham",
       "Farisa Abu Aram"
     ],
+    "tmdb_rating": 8.0,
     "poster": "https://image.tmdb.org/t/p/w500/bVlXZnI24U4QPlGvggUbeShMhz8.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt30953759/"
@@ -1332,6 +1444,7 @@ window.CULTURE_FILM_DETAILS = {
       "Michele Austin",
       "David Webber"
     ],
+    "tmdb_rating": 6.4,
     "poster": "https://image.tmdb.org/t/p/w500/eEj1TGrGc4IQ8bscFC17Ggdg6ft.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt11891850/"
@@ -1344,6 +1457,7 @@ window.CULTURE_FILM_DETAILS = {
       "Trine Dyrholm",
       "Besir Zeciri"
     ],
+    "tmdb_rating": 7.6,
     "poster": "https://image.tmdb.org/t/p/w500/2xkyx8v9G3ePxe1IcFugFQkXHzQ.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt10236164/"
@@ -1356,6 +1470,7 @@ window.CULTURE_FILM_DETAILS = {
       "Pedro Pascal",
       "Kit Connor"
     ],
+    "tmdb_rating": 8.3,
     "poster": "https://image.tmdb.org/t/p/w500/wTnV3PCVW5O92JMrFvvrRcV39RU.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt29623480/"
@@ -1368,6 +1483,7 @@ window.CULTURE_FILM_DETAILS = {
       "Stanley Tucci",
       "John Lithgow"
     ],
+    "tmdb_rating": 7.2,
     "poster": "https://image.tmdb.org/t/p/w500/m5x8D0bZ3eKqIVWZ5y7TnZ2oTVg.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt20215234/"
@@ -1380,6 +1496,7 @@ window.CULTURE_FILM_DETAILS = {
       "Karla Sofía Gascón",
       "Selena Gomez"
     ],
+    "tmdb_rating": 6.4,
     "poster": "https://image.tmdb.org/t/p/w500/7seqaCaaXDNUHOx4DqwpoOH8pPa.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt20221436/"
@@ -1392,6 +1509,7 @@ window.CULTURE_FILM_DETAILS = {
       "Bastien Bouillon",
       "Anaïs Demoustier"
     ],
+    "tmdb_rating": 7.9,
     "poster": "https://image.tmdb.org/t/p/w500/sAT1P3FGhtJ68anUyJScnMu8t1l.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt26446278/"
@@ -1404,6 +1522,7 @@ window.CULTURE_FILM_DETAILS = {
       "Amanda Collin",
       "Simon Bennebjerg"
     ],
+    "tmdb_rating": 7.7,
     "poster": "https://image.tmdb.org/t/p/w500/okVwls2laPGOsLKKhXQCEiTBwpw.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt20561198/"
@@ -1416,6 +1535,7 @@ window.CULTURE_FILM_DETAILS = {
       "Ryo Nishikawa",
       "Ryuji Kosaka"
     ],
+    "tmdb_rating": 6.8,
     "poster": "https://image.tmdb.org/t/p/w500/lvJflmoOKkb8NLJz7VwFEzmd4d7.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt28490044/"
@@ -1428,6 +1548,7 @@ window.CULTURE_FILM_DETAILS = {
       "Tokio Emoto",
       "Arisa Nakano"
     ],
+    "tmdb_rating": 7.8,
     "poster": "https://image.tmdb.org/t/p/w500/tvUHVSTJV9ITON3oyHaWp7oaAc8.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt27503384/"
@@ -1440,6 +1561,7 @@ window.CULTURE_FILM_DETAILS = {
       "Sandra Hüller",
       "Johann Karthaus"
     ],
+    "tmdb_rating": 7.0,
     "poster": "https://image.tmdb.org/t/p/w500/hUu9zyZmDd8VZegKi1iK1Vk0RYS.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt7160372/"
@@ -1452,6 +1574,7 @@ window.CULTURE_FILM_DETAILS = {
       "Juliette Binoche",
       "Patrick d'Assumçao"
     ],
+    "tmdb_rating": 7.1,
     "poster": "https://image.tmdb.org/t/p/w500/pYwK6rg0pmxDxzdtECABUsf49Eu.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt19760052/"
@@ -1464,6 +1587,7 @@ window.CULTURE_FILM_DETAILS = {
       "George MacKay",
       "Guslagie Malanda"
     ],
+    "tmdb_rating": 6.3,
     "poster": "https://image.tmdb.org/t/p/w500/96Jb7yjDkzluBqQZ21j54CJdYeM.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt14407336/"
@@ -1476,6 +1600,7 @@ window.CULTURE_FILM_DETAILS = {
       "Ovidiu Pîrșan",
       "Nina Hoss"
     ],
+    "tmdb_rating": 6.9,
     "poster": "https://image.tmdb.org/t/p/w500/y2H7SMzSO0f8KHjCqavUhVfRX0Z.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt18162096/"
@@ -1488,6 +1613,7 @@ window.CULTURE_FILM_DETAILS = {
       "Esteban Bigliardi",
       "Margarita Molfino"
     ],
+    "tmdb_rating": 6.4,
     "poster": "https://image.tmdb.org/t/p/w500/3AWh0IKlyjIdG8IX5N8a9eE7Yey.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt18558306/"
@@ -1500,6 +1626,7 @@ window.CULTURE_FILM_DETAILS = {
       "Jose Coronado",
       "Ana Torrent"
     ],
+    "tmdb_rating": 7.0,
     "poster": "https://image.tmdb.org/t/p/w500/czUKm6JUutIg55EcRJ7CRAAzFMU.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt21284358/"
@@ -1512,6 +1639,7 @@ window.CULTURE_FILM_DETAILS = {
       "Carol Duarte",
       "Alba Rohrwacher"
     ],
+    "tmdb_rating": 7.3,
     "poster": "https://image.tmdb.org/t/p/w500/dV6SYHmmFLXQU7oKRfK4pOFCX6M.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt14561712/"
@@ -1524,6 +1652,7 @@ window.CULTURE_FILM_DETAILS = {
       "Maja Ostaszewska",
       "Behi Djanati Atai"
     ],
+    "tmdb_rating": 7.4,
     "poster": "https://image.tmdb.org/t/p/w500/oV5UYkwCq1ZnPhjc6y53LxhRcue.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt27722543/"
@@ -1536,6 +1665,7 @@ window.CULTURE_FILM_DETAILS = {
       "Merve Dizdar",
       "Musab Ekici"
     ],
+    "tmdb_rating": 7.6,
     "poster": "https://image.tmdb.org/t/p/w500/mUFpdQSFAch1fMUb9MqHoESpmLS.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt13231544/"
@@ -1548,6 +1678,7 @@ window.CULTURE_FILM_DETAILS = {
       "Lynn Downey",
       "Kane Distler"
     ],
+    "tmdb_rating": 6.7,
     "poster": "https://image.tmdb.org/t/p/w500/80yak1h7YcNpMOsfSbThfwKYKK4.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt21651430/"
@@ -1560,6 +1691,7 @@ window.CULTURE_FILM_DETAILS = {
       "Mike Faist",
       "Josh O'Connor"
     ],
+    "tmdb_rating": 6.9,
     "poster": "https://image.tmdb.org/t/p/w500/H6vke7zGiuLsz4v4RPeReb9rsv.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt16426418/"
@@ -1572,6 +1704,7 @@ window.CULTURE_FILM_DETAILS = {
       "Drew Starkey",
       "Jason Schwartzman"
     ],
+    "tmdb_rating": 6.5,
     "poster": "https://image.tmdb.org/t/p/w500/xe4b2TMciLKA1C0JlhWxb4ENLln.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt24176060/"
@@ -1584,6 +1717,7 @@ window.CULTURE_FILM_DETAILS = {
       "Jack Haven",
       "Ian Foreman"
     ],
+    "tmdb_rating": 6.2,
     "poster": "https://image.tmdb.org/t/p/w500/w1qReOE0sSv17QmDFywtxueLfBU.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt15574270/"
@@ -1596,6 +1730,7 @@ window.CULTURE_FILM_DETAILS = {
       "Katy O'Brian",
       "Ed Harris"
     ],
+    "tmdb_rating": 6.6,
     "poster": "https://image.tmdb.org/t/p/w500/xImj8RLe39YK0lyVu9kXv7ApN8p.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt19637052/"
@@ -1608,6 +1743,7 @@ window.CULTURE_FILM_DETAILS = {
       "Ralph Ineson",
       "Sonia Braga"
     ],
+    "tmdb_rating": 6.8,
     "poster": "https://image.tmdb.org/t/p/w500/tnsDyNNkOxYUyjD8CNJoAla6YvY.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt5672290/"
@@ -1620,6 +1756,7 @@ window.CULTURE_FILM_DETAILS = {
       "Nicolas Cage",
       "Blair Underwood"
     ],
+    "tmdb_rating": 6.5,
     "poster": "https://image.tmdb.org/t/p/w500/1EwNyiiNFd863H4e8nWEzutnZD7.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt23468450/"
@@ -1632,6 +1769,7 @@ window.CULTURE_FILM_DETAILS = {
       "Nicholas Hoult",
       "Bill Skarsgård"
     ],
+    "tmdb_rating": 6.7,
     "poster": "https://image.tmdb.org/t/p/w500/d0B8xDdqBZlzlPEzES8lu5LlNQn.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt5040012/"
@@ -1644,6 +1782,7 @@ window.CULTURE_FILM_DETAILS = {
       "Sophie Thatcher",
       "Chloe East"
     ],
+    "tmdb_rating": 7.0,
     "poster": "https://image.tmdb.org/t/p/w500/fr96XzlzsONrQrGfdLMiwtQjott.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt28015403/"
@@ -1656,6 +1795,7 @@ window.CULTURE_FILM_DETAILS = {
       "Gwilym Lee",
       "Steve Wall"
     ],
+    "tmdb_rating": 6.7,
     "poster": "https://image.tmdb.org/t/p/w500/3Z9c1tbUhP0QruRjczPHnbx3U2D.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt26470109/"
@@ -1668,6 +1808,7 @@ window.CULTURE_FILM_DETAILS = {
       "Maria Hofstätter",
       "David Scheid"
     ],
+    "tmdb_rating": 6.6,
     "poster": "https://image.tmdb.org/t/p/w500/txVfrmwFOKB5qczM0ENYSqKMnSv.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt29141112/"
@@ -1680,6 +1821,7 @@ window.CULTURE_FILM_DETAILS = {
       "Andrea Pavlovic",
       "Cameron Love"
     ],
+    "tmdb_rating": 5.5,
     "poster": "https://image.tmdb.org/t/p/w500/hPfWHgq07nXbeldwEGxWB4JqwtE.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt30321146/"
@@ -1692,6 +1834,7 @@ window.CULTURE_FILM_DETAILS = {
       "Jan Bluthardt",
       "Marton Csokas"
     ],
+    "tmdb_rating": 5.7,
     "poster": "https://image.tmdb.org/t/p/w500/4bGP5cnSZbfBJfIidZNSEIKnav7.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt12349832/"
@@ -1704,6 +1847,7 @@ window.CULTURE_FILM_DETAILS = {
       "Kim Go-eun",
       "Yoo Hai-jin"
     ],
+    "tmdb_rating": 7.7,
     "poster": "https://image.tmdb.org/t/p/w500/6dasJ58GGFcC62H9KuukAryltUp.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt27802490/"
@@ -1716,6 +1860,7 @@ window.CULTURE_FILM_DETAILS = {
       "Estefanía de los Santos",
       "Josep Maria Riera"
     ],
+    "tmdb_rating": 7.0,
     "poster": "https://image.tmdb.org/t/p/w500/r8S7cc676EfgfUDVQKPrqRlbRFz.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt21874760/"
@@ -1728,6 +1873,7 @@ window.CULTURE_FILM_DETAILS = {
       "Renate Reinsve",
       "Adam Pearson"
     ],
+    "tmdb_rating": 6.9,
     "poster": "https://image.tmdb.org/t/p/w500/lZZKTEvo92u1J5pm7QoEA5yN3du.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt21097228/"
@@ -1740,6 +1886,7 @@ window.CULTURE_FILM_DETAILS = {
       "Jeremy Strong",
       "Martin Donovan"
     ],
+    "tmdb_rating": 6.8,
     "poster": "https://image.tmdb.org/t/p/w500/549Hdul2BgPnZMhqFxp6npp2opr.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt8368368/"
@@ -1752,6 +1899,7 @@ window.CULTURE_FILM_DETAILS = {
       "Danielle Deadwyler",
       "Samuel L. Jackson"
     ],
+    "tmdb_rating": 5.9,
     "poster": "https://image.tmdb.org/t/p/w500/cgampq63AqCrza6bnvmWqCcvCzY.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt15507512/"
@@ -1764,6 +1912,7 @@ window.CULTURE_FILM_DETAILS = {
       "Clarence Maclin",
       "Sean San Jose"
     ],
+    "tmdb_rating": 7.4,
     "poster": "https://image.tmdb.org/t/p/w500/ig5ju3Tt56UGoBrc6IlkUS6ahfE.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt28479262/"
@@ -1776,6 +1925,7 @@ window.CULTURE_FILM_DETAILS = {
       "Natasha Lyonne",
       "Elizabeth Olsen"
     ],
+    "tmdb_rating": 6.8,
     "poster": "https://image.tmdb.org/t/p/w500/yTIHBPLQyzhgz1c2spak3btJxsg.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt28491891/"
@@ -1788,6 +1938,7 @@ window.CULTURE_FILM_DETAILS = {
       "Joan Chen",
       "Shirley Chen"
     ],
+    "tmdb_rating": 7.2,
     "poster": "https://image.tmdb.org/t/p/w500/3UCTNaZgxW6BbeHMMTe6uL07MpV.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt30319503/"
@@ -1800,6 +1951,7 @@ window.CULTURE_FILM_DETAILS = {
       "James Le Gros",
       "Danny McCarthy"
     ],
+    "tmdb_rating": 6.6,
     "poster": "https://image.tmdb.org/t/p/w500/yesxQtWrG5vCrNsnG3TrXiOfpOZ.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt30319516/"
@@ -1812,6 +1964,7 @@ window.CULTURE_FILM_DETAILS = {
       "Zoe Ziegler",
       "Will Patton"
     ],
+    "tmdb_rating": 6.2,
     "poster": "https://image.tmdb.org/t/p/w500/i4qK3vQS4MD8OKhIkqSe3UK6OuH.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt28366692/"
@@ -1824,6 +1977,7 @@ window.CULTURE_FILM_DETAILS = {
       "Paapa Essiedu",
       "Nabil Elouahabi"
     ],
+    "tmdb_rating": 6.8,
     "poster": "https://image.tmdb.org/t/p/w500/zfRR2CkbvYrLuOPQFm8vBaENyMy.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt11687002/"
@@ -1836,6 +1990,7 @@ window.CULTURE_FILM_DETAILS = {
       "Franz Rogowski",
       "Barry Keoghan"
     ],
+    "tmdb_rating": 7.2,
     "poster": "https://image.tmdb.org/t/p/w500/wKshd6n8EKrwbE2fLOUqC4TSG6O.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt28277817/"
@@ -1848,6 +2003,7 @@ window.CULTURE_FILM_DETAILS = {
       "Elizabeth Chisela",
       "Esther Singini"
     ],
+    "tmdb_rating": 7.6,
     "poster": "https://image.tmdb.org/t/p/w500/6lMOpD8XVLKaB5uCsJXt1Fo7XNh.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt32083311/"
@@ -1860,6 +2016,7 @@ window.CULTURE_FILM_DETAILS = {
       "Giuseppe De Domenico",
       "Roberta Rovelli"
     ],
+    "tmdb_rating": 7.0,
     "poster": "https://image.tmdb.org/t/p/w500/aeCwM7c1Y1IAu3Oqqj5A2tSziWR.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt28618488/"
@@ -1872,6 +2029,7 @@ window.CULTURE_FILM_DETAILS = {
       "Kakha Kintsurashvili",
       "Merab Ninidze"
     ],
+    "tmdb_rating": 6.8,
     "poster": "https://image.tmdb.org/t/p/w500/9DJadZoQfmSzxe3E5uB7dISfc3L.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt31350080/"
@@ -1884,6 +2042,7 @@ window.CULTURE_FILM_DETAILS = {
       "Crista Alfaiate",
       "Cláudio da Silva"
     ],
+    "tmdb_rating": 6.6,
     "poster": "https://image.tmdb.org/t/p/w500/k9PgWa20m1JqVXNNe7GeW9AQoc3.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt27180099/"
@@ -1896,6 +2055,7 @@ window.CULTURE_FILM_DETAILS = {
       "Catherine Frot",
       "Jean-Baptiste Durand"
     ],
+    "tmdb_rating": 6.4,
     "poster": "https://image.tmdb.org/t/p/w500/7LVCXVdsGPPXRYGu5SRqgfVP96h.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt32085997/"
@@ -1908,6 +2068,7 @@ window.CULTURE_FILM_DETAILS = {
       "Nina Meurisse",
       "Alpha Oumar Sow"
     ],
+    "tmdb_rating": 7.5,
     "poster": "https://image.tmdb.org/t/p/w500/ns8tSpfBL63Y5Pi84C6Dzr3vlm4.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt32086046/"
@@ -1920,6 +2081,7 @@ window.CULTURE_FILM_DETAILS = {
       "Saba Vahedyousefi",
       "Matthew Rankin"
     ],
+    "tmdb_rating": 7.0,
     "poster": "https://image.tmdb.org/t/p/w500/wS5pdSFLjzFzBCwa8kTE368jb4U.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt31691389/"
@@ -1932,6 +2094,7 @@ window.CULTURE_FILM_DETAILS = {
       "Dominique Païni",
       "Clément Hervieu-Léger"
     ],
+    "tmdb_rating": 5.6,
     "poster": "https://image.tmdb.org/t/p/w500/pLRYPH6Yzj5ezrINCoeAuYS9Drz.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt30416258/"
@@ -1944,6 +2107,7 @@ window.CULTURE_FILM_DETAILS = {
       "Tong Liya",
       "Jia Zhangke"
     ],
+    "tmdb_rating": 7.1,
     "poster": "https://image.tmdb.org/t/p/w500/dWssO0oGC6b3PtN5uarGuVp66Uv.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt28131427/"
@@ -1956,6 +2120,7 @@ window.CULTURE_FILM_DETAILS = {
       "Zhubin Li",
       "Pan Jianlin"
     ],
+    "tmdb_rating": 6.7,
     "poster": "https://image.tmdb.org/t/p/w500/vRUsEXHm9iJgXuf8k4BiTLCnUb0.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt27958252/"
@@ -1968,6 +2133,7 @@ window.CULTURE_FILM_DETAILS = {
       "Michelle Wai Si-Nga",
       "Michael Hui Koon-Man"
     ],
+    "tmdb_rating": 7.9,
     "poster": "https://image.tmdb.org/t/p/w500/9Ret10DkYVs45Ooa8yvU23x3L5i.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt31648020/"
@@ -1980,6 +2146,7 @@ window.CULTURE_FILM_DETAILS = {
       "Louis Koo",
       "Sammo Hung"
     ],
+    "tmdb_rating": 7.0,
     "poster": "https://image.tmdb.org/t/p/w500/h0tunBO4tMjvKVVG7fXqHgwOr5C.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt20316748/"
@@ -1992,6 +2159,7 @@ window.CULTURE_FILM_DETAILS = {
       "Francis Ng Chun-Yu",
       "Julian Cheung"
     ],
+    "tmdb_rating": 7.1,
     "poster": "https://image.tmdb.org/t/p/w500/n3ZnFqp988MWfIkT8OHofEJfjlt.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt30024043/"
@@ -2004,6 +2172,7 @@ window.CULTURE_FILM_DETAILS = {
       "Jackson Yee",
       "Zhu Yawen"
     ],
+    "tmdb_rating": 6.3,
     "poster": "https://image.tmdb.org/t/p/w500/4W58wirZhbzcw2lNzRS2ErKnOGS.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt16194408/"
@@ -2016,6 +2185,7 @@ window.CULTURE_FILM_DETAILS = {
       "Tandin Sonam",
       "Deki Lhamo"
     ],
+    "tmdb_rating": 7.2,
     "poster": "https://image.tmdb.org/t/p/w500/nhGaCXeBvFo7495aIZr261l6kb0.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt15560314/"
@@ -2028,6 +2198,7 @@ window.CULTURE_FILM_DETAILS = {
       "Kani Kusruti",
       "Kesav Binoy Kiron"
     ],
+    "tmdb_rating": 7.1,
     "poster": "https://image.tmdb.org/t/p/w500/psklilaTgyczbHidamDlpFWodb0.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt18277182/"
@@ -2040,6 +2211,7 @@ window.CULTURE_FILM_DETAILS = {
       "Sunita Rajwar",
       "Naval Shukla"
     ],
+    "tmdb_rating": 6.9,
     "poster": "https://image.tmdb.org/t/p/w500/qkqRCBU4JmOlGdPTxFxlSPCPrfp.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt30444418/"
@@ -2052,6 +2224,7 @@ window.CULTURE_FILM_DETAILS = {
       "Ashok Pathak",
       "Chhaya Kadam"
     ],
+    "tmdb_rating": 6.2,
     "poster": "https://image.tmdb.org/t/p/w500/6KV57QMXZXxkZB3LQHiUpPD2q16.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt32060445/"
@@ -2064,6 +2237,7 @@ window.CULTURE_FILM_DETAILS = {
       "Mo Chara",
       "DJ Próvaí"
     ],
+    "tmdb_rating": 7.3,
     "poster": "https://image.tmdb.org/t/p/w500/gEbQi5QWUg3CQ9R5dwvPBvbOX17.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt27367464/"
@@ -2076,6 +2250,7 @@ window.CULTURE_FILM_DETAILS = {
       "Benjamin Voisin",
       "Stefan Crepon"
     ],
+    "tmdb_rating": 6.5,
     "poster": "https://image.tmdb.org/t/p/w500/CLpEUf9FutbFkLX3PGaKKEqXjf.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt28601337/"
@@ -2088,6 +2263,7 @@ window.CULTURE_FILM_DETAILS = {
       "Pierre Lottin",
       "Sarah Suco"
     ],
+    "tmdb_rating": 7.3,
     "poster": "https://image.tmdb.org/t/p/w500/6lATJ42bWGAIQ0cG2dzSZD8bNcL.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt30327451/"
@@ -2100,6 +2276,7 @@ window.CULTURE_FILM_DETAILS = {
       "Maïwène Barthélémy",
       "Luna Garret"
     ],
+    "tmdb_rating": 6.9,
     "poster": "https://image.tmdb.org/t/p/w500/A3C3TbcB5hIm4aPPU3eZJrMxBYc.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt32086034/"
@@ -2112,6 +2289,7 @@ window.CULTURE_FILM_DETAILS = {
       "Grégory Gadebois",
       "Denis Podalydès"
     ],
+    "tmdb_rating": 7.7,
     "poster": "https://image.tmdb.org/t/p/w500/9bcxbzKTE0bPQCHw5AvXo3in57m.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt10462154/"
@@ -2124,6 +2302,7 @@ window.CULTURE_FILM_DETAILS = {
       "Kodi Smit-McPhee",
       "Jacki Weaver"
     ],
+    "tmdb_rating": 8.1,
     "poster": "https://image.tmdb.org/t/p/w500/woaN8CbloH0akyX0E72ayxlJAB4.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt23770030/"
@@ -2136,6 +2315,7 @@ window.CULTURE_FILM_DETAILS = {
       "Mizuki Yoshida",
       "Yoichiro Saito"
     ],
+    "tmdb_rating": 8.2,
     "poster": "https://image.tmdb.org/t/p/w500/4f2EcNkp1Mvp9wE5w7HKxcmACWg.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt31711040/"
@@ -2148,6 +2328,7 @@ window.CULTURE_FILM_DETAILS = {
       "Akari Takaishi",
       "Taisei Kido"
     ],
+    "tmdb_rating": 6.9,
     "poster": "https://image.tmdb.org/t/p/w500/gOWDvzglcQZOQPqGfVF6hfOhMNT.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt23951384/"
@@ -2160,6 +2341,7 @@ window.CULTURE_FILM_DETAILS = {
       "Maya Hawke",
       "Kensington Tallman"
     ],
+    "tmdb_rating": 7.5,
     "poster": "https://image.tmdb.org/t/p/w500/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt22022452/"
@@ -2172,6 +2354,7 @@ window.CULTURE_FILM_DETAILS = {
       "Peter Kay",
       "Lauren Patel"
     ],
+    "tmdb_rating": 7.5,
     "poster": "https://image.tmdb.org/t/p/w500/jUWFSBxTOiCinPdTOh3IDUXVemZ.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt17163970/"
@@ -2184,6 +2367,7 @@ window.CULTURE_FILM_DETAILS = {
       "Brian Tyree Henry",
       "Scarlett Johansson"
     ],
+    "tmdb_rating": 8.0,
     "poster": "https://image.tmdb.org/t/p/w500/iRCgqpdVE4wyLQvGYU3ZP7pAtUc.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt8864596/"
@@ -2196,6 +2380,7 @@ window.CULTURE_FILM_DETAILS = {
       "Rio Suzuki",
       "Sakura Ando"
     ],
+    "tmdb_rating": 7.6,
     "poster": "https://image.tmdb.org/t/p/w500/j2a9eQaoI91EuKnhGbE8yvPfmyV.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt16369708/"
@@ -2208,6 +2393,7 @@ window.CULTURE_FILM_DETAILS = {
       "Robert Steen",
       "Trude Steen"
     ],
+    "tmdb_rating": 8.1,
     "poster": "https://image.tmdb.org/t/p/w500/73vRLcc0syVTMXmXyztUWaPJiK3.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt19811010/"
@@ -2220,6 +2406,7 @@ window.CULTURE_FILM_DETAILS = {
       "Louis Armstrong",
       "Nikita Khrushchev"
     ],
+    "tmdb_rating": 7.8,
     "poster": "https://image.tmdb.org/t/p/w500/eZOB9UurVQjpdIp72L49pyd3anw.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt14452174/"
@@ -2232,6 +2419,7 @@ window.CULTURE_FILM_DETAILS = {
       "Willie Sellars",
       "Charlene Belleau"
     ],
+    "tmdb_rating": 7.0,
     "poster": "https://image.tmdb.org/t/p/w500/9Xx4o4MVSDv0pojOzoHMH5y85hB.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt30319854/"
@@ -2242,6 +2430,7 @@ window.CULTURE_FILM_DETAILS = {
     "cast": [
       "Chad Morris"
     ],
+    "tmdb_rating": 7.0,
     "poster": "https://image.tmdb.org/t/p/w500/nPX9mJE3fe3WIRoLNQqJ0uhwUfU.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt12336480/"
@@ -2254,6 +2443,7 @@ window.CULTURE_FILM_DETAILS = {
       "Harper Steele",
       "Tim Meadows"
     ],
+    "tmdb_rating": 7.3,
     "poster": "https://image.tmdb.org/t/p/w500/1xbYcoEb9gqezNnLgjWcZI5Hlsl.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt30321133/"
@@ -2266,6 +2456,7 @@ window.CULTURE_FILM_DETAILS = {
       "Will Reeve",
       "Alexandra Reeve Givens"
     ],
+    "tmdb_rating": 8.1,
     "poster": "https://image.tmdb.org/t/p/w500/73WchlI0Hj4HQd0T2KOztKquOek.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt27902121/"
@@ -2277,6 +2468,7 @@ window.CULTURE_FILM_DETAILS = {
       "Shiori Ito",
       "Shinzo Abe"
     ],
+    "tmdb_rating": 7.6,
     "poster": "https://image.tmdb.org/t/p/w500/wX95ps6Haijvt7evwSwqx1gs88e.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt30227076/"
@@ -2289,6 +2481,7 @@ window.CULTURE_FILM_DETAILS = {
       "Talal Derki",
       "Ibrahim Nash'at"
     ],
+    "tmdb_rating": 7.9,
     "poster": "https://image.tmdb.org/t/p/w500/iNKYd8wr1jBM8ZH1FERGHSNOU7a.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt28494712/"
@@ -2300,6 +2493,7 @@ window.CULTURE_FILM_DETAILS = {
       "LaKeith Stanfield",
       "Raoul Peck"
     ],
+    "tmdb_rating": 7.6,
     "poster": "https://image.tmdb.org/t/p/w500/nEqDYZtw9GlzmwvmflY6b2mfwd7.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt27760132/"
@@ -2312,6 +2506,7 @@ window.CULTURE_FILM_DETAILS = {
       "Austin Butler",
       "Tom Hardy"
     ],
+    "tmdb_rating": 6.7,
     "poster": "https://image.tmdb.org/t/p/w500/ApMuukdDAOR2rgaFDZIcjfigi64.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt21454134/"
@@ -2324,6 +2519,7 @@ window.CULTURE_FILM_DETAILS = {
       "Wagner Moura",
       "Cailee Spaeny"
     ],
+    "tmdb_rating": 6.8,
     "poster": "https://image.tmdb.org/t/p/w500/sh7Rg8Er3tFcN9BpKIPOMvALgZd.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt17279496/"
@@ -2336,6 +2532,7 @@ window.CULTURE_FILM_DETAILS = {
       "Chris Hemsworth",
       "Tom Burke"
     ],
+    "tmdb_rating": 7.4,
     "poster": "https://image.tmdb.org/t/p/w500/iADOJ8Zymht2JPMoy3R7xceZprc.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt12037194/"
@@ -2348,6 +2545,7 @@ window.CULTURE_FILM_DETAILS = {
       "Zendaya",
       "Rebecca Ferguson"
     ],
+    "tmdb_rating": 8.1,
     "poster": "https://image.tmdb.org/t/p/w500/6izwz7rsy95ARzTR3poZ8H6c5pp.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt15239678/"
@@ -2360,6 +2558,7 @@ window.CULTURE_FILM_DETAILS = {
       "Emily Blunt",
       "Aaron Taylor-Johnson"
     ],
+    "tmdb_rating": 6.9,
     "poster": "https://image.tmdb.org/t/p/w500/e7olqFmzcIX5c23kX4zSmLPJi8c.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt1684562/"
@@ -2372,6 +2571,7 @@ window.CULTURE_FILM_DETAILS = {
       "Ariana Grande",
       "Michelle Yeoh"
     ],
+    "tmdb_rating": 6.9,
     "poster": "https://image.tmdb.org/t/p/w500/xDGbZ0JJ3mYaGKy4Nzd9Kph6M9L.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt1262426/"
