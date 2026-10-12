@@ -43,6 +43,22 @@ for f in films:
             if not release or not release.isdigit() or abs(int(release)-year)>2:continue
             candidates[item["id"]]=item
         time.sleep(.12)
+    # Fallback: identify director by name and inspect their movie directing credits.
+    # Useful for translated titles, documentaries, and festival films.
+    if not candidates:
+        director_names=[x.strip() for x in re.split(r"\\s+&\\s+",director)]
+        for director_name in director_names:
+            people=api("search/person",{"query":director_name}).get("results",[])[:8]
+            for person in people:
+                if norm(person.get("name",""))!=norm(director_name):continue
+                credits=api("person/"+str(person["id"])+"/movie_credits")
+                for movie in credits.get("crew",[]):
+                    if movie.get("job")!="Director":continue
+                    release=movie.get("release_date","")[:4]
+                    if not release or not release.isdigit() or abs(int(release)-year)>2:continue
+                    candidates[movie["id"]]=movie
+                time.sleep(.12)
+            time.sleep(.12)
     matches=[]
     for item in candidates.values():
         movie=api("movie/"+str(item["id"]),{"append_to_response":"credits,external_ids"})
