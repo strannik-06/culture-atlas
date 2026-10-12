@@ -8,7 +8,7 @@ window.CULTURE_FILM_RECOGNITION = {
   "9": "2025 Venice · Grand Jury Prize",
   "13": "2025 Berlin · Silver Bear for Best Screenplay",
   "39": "2025 Cannes · Best Screenplay",
-  "45": "2025 Venice · Best Screenplay",
+  "45": "2025 Venice · In Competition",
   "101": "2024 Cannes · Palme d’Or winner; 2025 Oscars · Best Picture winner",
   "102": "2024 Venice · Silver Lion for Best Director; 2025 Oscars · 10 nominations",
   "103": "2024 Cannes · Grand Prix winner",
@@ -35,5 +35,5 @@ window.CULTURE_FILM_RECOGNITION = {
   "187": "2025 Oscars · Best Documentary Feature nominee",
   "188": "2025 Oscars · Best Documentary Feature nominee",
   "192": "2025 Oscars · Best Documentary Feature nominee",
-  "198": "2025 Oscars · 2 wins, including Cinematography"
+  "198": "2025 Oscars · 2 wins (Sound and Visual Effects)"
 };
