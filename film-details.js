@@ -1566,7 +1566,7 @@ window.CULTURE_FILM_DETAILS = {
       "Bas Rutten",
       "Oleksandr Usyk"
     ],
-    "tmdb_rating": 6.4,
+    "tmdb_rating": 6.355,
     "poster": "https://image.tmdb.org/t/p/w500/cwwvrdYeIrARXdiv09GIO6XWK5l.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt11214558/"
@@ -1664,7 +1664,7 @@ window.CULTURE_FILM_DETAILS = {
       "Mia Goth",
       "Felix Kammerer"
     ],
-    "tmdb_rating": 7.606,
+    "tmdb_rating": 7.6,
     "poster": "https://image.tmdb.org/t/p/w500/g4JtvGlQO7DByTI6frUobqvSL3R.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt1312221/"
@@ -1686,7 +1686,7 @@ window.CULTURE_FILM_DETAILS = {
     "original_language": "en",
     "director": "Guillermo del Toro",
     "backdrop": "https://image.tmdb.org/t/p/w1280/hpXBJxLD2SEf8l2CspmSeiHrBKX.jpg",
-    "tmdb_votes": 3943
+    "tmdb_votes": 3944
   },
   "53": {
     "tmdb_id": 1443576,
@@ -1912,7 +1912,7 @@ window.CULTURE_FILM_DETAILS = {
       "Micheal Ward",
       "Pedro Pascal"
     ],
-    "tmdb_rating": 6.5,
+    "tmdb_rating": 6.464,
     "poster": "https://image.tmdb.org/t/p/w500/4GIqZUgPZ146BhibsPHMHef2nXX.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt31176520/"
@@ -2220,7 +2220,7 @@ window.CULTURE_FILM_DETAILS = {
     "original_language": "en",
     "director": "Jared Bush, Byron Howard",
     "backdrop": "https://image.tmdb.org/t/p/w1280/lgotja3xMoJZbynwHfcQcJAEMWH.jpg",
-    "tmdb_votes": 3545
+    "tmdb_votes": 3546
   },
   "70": {
     "tmdb_id": 1370814,
@@ -2726,7 +2726,7 @@ window.CULTURE_FILM_DETAILS = {
       "Austin Abrams",
       "Benedict Wong"
     ],
-    "tmdb_rating": 7.264,
+    "tmdb_rating": 7.3,
     "poster": "https://image.tmdb.org/t/p/w500/cpf7vsRZ0MYRQcnLWteD5jK9ymT.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt26581740/"
@@ -2775,7 +2775,7 @@ window.CULTURE_FILM_DETAILS = {
       "US"
     ],
     "original_language": "en",
-    "director": "Michael Philippou, Danny Philippou",
+    "director": "Danny Philippou, Michael Philippou",
     "backdrop": "https://image.tmdb.org/t/p/w1280/2IIKts2A9vnUdM9tTC76B8tDmuZ.jpg",
     "tmdb_votes": 2007
   },
@@ -3038,7 +3038,7 @@ window.CULTURE_FILM_DETAILS = {
       "Isla Fisher",
       "Lucas Hopkins Calderon"
     ],
-    "tmdb_rating": 7.4,
+    "tmdb_rating": 7.378,
     "poster": "https://image.tmdb.org/t/p/w500/89wNiexZdvLQ41OQWIsQy4O6jAQ.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt10954718/"
@@ -3241,7 +3241,7 @@ window.CULTURE_FILM_DETAILS = {
       "Karren Karagulian",
       "Vache Tovmasyan"
     ],
-    "tmdb_rating": 7.076,
+    "tmdb_rating": 7.074,
     "poster": "https://image.tmdb.org/t/p/w500/cgXk2tNYhJZLXdBDO5DidAVzQ82.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt28607951/"
@@ -3262,7 +3262,7 @@ window.CULTURE_FILM_DETAILS = {
     "original_language": "en",
     "director": "Sean Baker",
     "backdrop": "https://image.tmdb.org/t/p/w1280/spGbtEo5sglgOb7OBevxzm5Agj8.jpg",
-    "tmdb_votes": 3531
+    "tmdb_votes": 3532
   },
   "102": {
     "tmdb_id": 549509,
@@ -3590,7 +3590,7 @@ window.CULTURE_FILM_DETAILS = {
       "Nasser Adra",
       "Harun Abu Aram"
     ],
-    "tmdb_rating": 8.018,
+    "tmdb_rating": 8,
     "poster": "https://image.tmdb.org/t/p/w500/bVlXZnI24U4QPlGvggUbeShMhz8.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt30953759/"
@@ -3719,7 +3719,7 @@ window.CULTURE_FILM_DETAILS = {
       "Isabella Rossellini",
       "Lucian Msamati"
     ],
-    "tmdb_rating": 7.2,
+    "tmdb_rating": 7.189,
     "poster": "https://image.tmdb.org/t/p/w500/m5x8D0bZ3eKqIVWZ5y7TnZ2oTVg.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt20215234/"
@@ -4696,7 +4696,7 @@ window.CULTURE_FILM_DETAILS = {
       "Miles G. Jackson",
       "Patrick Wang"
     ],
-    "tmdb_rating": 6.906,
+    "tmdb_rating": 6.905,
     "poster": "https://image.tmdb.org/t/p/w500/lZZKTEvo92u1J5pm7QoEA5yN3du.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt21097228/"
@@ -4716,7 +4716,7 @@ window.CULTURE_FILM_DETAILS = {
     "original_language": "en",
     "director": "Aaron Schimberg",
     "backdrop": "https://image.tmdb.org/t/p/w1280/xSqaVqkbeSaPmeEyurWBaTSkgL9.jpg",
-    "tmdb_votes": 528
+    "tmdb_votes": 529
   },
   "147": {
     "tmdb_id": 1182047,
@@ -7048,7 +7048,7 @@ window.CULTURE_FILM_DETAILS = {
     ],
     "poster": "https://image.tmdb.org/t/p/w500/llWl3GtNoXosbvYboelmoT459NM.jpg",
     "backdrop": "https://image.tmdb.org/t/p/w1280/otugS74HEHdca4aTCtt8HtXvPYV.jpg",
-    "tmdb_rating": 7.1,
+    "tmdb_rating": 7.063,
     "tmdb_votes": 1586,
     "imdb": {
       "url": "https://www.imdb.com/title/tt11563598/"
@@ -7244,6 +7244,366 @@ window.CULTURE_FILM_DETAILS = {
     "tmdb_votes": 319,
     "imdb": {
       "url": "https://www.imdb.com/title/tt31193791/"
+    }
+  },
+  "227": {
+    "tmdb_id": 1256192,
+    "title": "Ari",
+    "original_title": "Ari",
+    "overview": "Right in the middle of a school inspector’s visit, Ari, a 27-year-old student teacher, collapses. Angry with him for being a failure, his father kicks him out of the house. Emotionally raw, and alone in the city, Ari reluctantly forces himself to rekindle his relationships with old friends. As his memories of the previous months successively ebb and flow, Ari discovers that other people aren’t doing as well as he imagined, and that perhaps he has been sleepwalking through his own life.",
+    "runtime": 88,
+    "release_date": "2025-12-28",
+    "genres": [
+      "Drama",
+      "TV Movie"
+    ],
+    "countries": [
+      "FR",
+      "BE"
+    ],
+    "original_language": "fr",
+    "director": "Léonor Serraille",
+    "cast": [
+      "Andranic Manet",
+      "Pascal Rénéric",
+      "Théo Delezenne",
+      "Ryad Ferrad",
+      "Éva Lallier"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/vSg1KqHmxgS4NznZkDI6FnZ2ikC.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/mccHZJMj3pHfHtbmG48txYdgamR.jpg",
+    "tmdb_rating": 5.5,
+    "tmdb_votes": 3,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt31869782/"
+    }
+  },
+  "228": {
+    "tmdb_id": 1266809,
+    "title": "The Safe House",
+    "original_title": "La Cache",
+    "overview": "An eccentric family portrait set during the May 1968 protests in Paris. A nine-year-old boy stays with his grandparents and uncles while his parents protest. When an illustrious guest seeks refuge in the apartment, the family’s dynamics change.",
+    "runtime": 90,
+    "release_date": "2025-03-19",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "countries": [
+      "FR",
+      "LU",
+      "CH"
+    ],
+    "original_language": "fr",
+    "director": "Lionel Baier",
+    "cast": [
+      "Dominique Reymond",
+      "Michel Blanc",
+      "William Lebghil",
+      "Aurélien Gabrielli",
+      "Liliane Rovère"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/eJNtuAp38xxFv7s0Ix7PABaFZus.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/sJY1nxg2sa6Gfjh0ROwt68yeq65.jpg",
+    "tmdb_rating": 5.7,
+    "tmdb_votes": 66,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt31566788/"
+    }
+  },
+  "229": {
+    "tmdb_id": 1134463,
+    "title": "Dreams",
+    "original_title": "Dreams: Sueños",
+    "overview": "A powerful socialite and a promising ballet dancer begin a dangerous affair. When he secretly crosses the US-Mexico border, she takes desperate measures to protect their future together.",
+    "runtime": 98,
+    "release_date": "2025-07-10",
+    "genres": [
+      "Romance",
+      "Thriller",
+      "Drama"
+    ],
+    "countries": [
+      "MX",
+      "US",
+      "GB"
+    ],
+    "original_language": "es",
+    "director": "Michel Franco",
+    "cast": [
+      "Jessica Chastain",
+      "Isaac Hernández",
+      "Rupert Friend",
+      "Marshall Bell",
+      "Eligio Meléndez"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/zJCOHBvy4O6nIslbbxJ8tICn53d.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/de3Nk3aylnE8Z4z7lGmVq9IG7qt.jpg",
+    "tmdb_rating": 6.142,
+    "tmdb_votes": 102,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt31710990/"
+    }
+  },
+  "230": {
+    "tmdb_id": 1418849,
+    "title": "What Does That Nature Say to You",
+    "original_title": "그 자연이 네게 뭐라고 하니",
+    "overview": "A young poet drops his girlfriend off at her parents' house and is amazed by its size. He bumps into her father, meets her mother and sister, and they all end up spending a long day together; fueled by conversation, food and libations.",
+    "runtime": 109,
+    "release_date": "2025-05-14",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "original_language": "ko",
+    "director": "Hong Sang-soo",
+    "cast": [
+      "Ha Seong-guk",
+      "Kwon Hae-hyo",
+      "Cho Yun-hee",
+      "Kang So-yi",
+      "Park Mi-so"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/jnW2xfpB8BnHuHOiT7XA8EBSW9F.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/fZ6cXVESqUp2mq9NkYykrjz3EEG.jpg",
+    "tmdb_rating": 7.2,
+    "tmdb_votes": 14,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt35499025/"
+    }
+  },
+  "231": {
+    "tmdb_id": 933490,
+    "title": "Hot Milk",
+    "original_title": "Hot Milk",
+    "overview": "Rose and her daughter Sofia travel to the Spanish seaside town of Almería to consult with the shamanic Dr. Gomez, a physician who could possibly hold the cure to Rose’s mystery illness, which has left her bound to a wheelchair. But in the sultry atmosphere of this sun-bleached town Sofia, who has been trapped by her mother’s illness all her life, finally starts to shed her inhibitions, enticed by the persuasive charms of enigmatic traveller Ingrid.",
+    "runtime": 93,
+    "release_date": "2025-05-28",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "GB",
+      "GR",
+      "AU"
+    ],
+    "original_language": "en",
+    "director": "Rebecca Lenkiewicz",
+    "cast": [
+      "Emma Mackey",
+      "Fiona Shaw",
+      "Vincent Perez",
+      "Vicky Krieps",
+      "Patsy Ferran"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/rIIPeDBAr3eSKPaqCawxFywUHAU.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/hBi7KXBAo258ai6tOFPU526CWWE.jpg",
+    "tmdb_rating": 5.9,
+    "tmdb_votes": 100,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt17538632/"
+    }
+  },
+  "232": {
+    "tmdb_id": 1421148,
+    "title": "Mother's Baby",
+    "original_title": "Mother's Baby",
+    "overview": "A woman navigates the complex journey of motherhood while confronting her deepest fears and anxieties.",
+    "runtime": 108,
+    "release_date": "2025-09-18",
+    "genres": [
+      "Thriller",
+      "Horror"
+    ],
+    "countries": [
+      "AT",
+      "CH",
+      "DE"
+    ],
+    "original_language": "de",
+    "director": "Johanna Moder",
+    "cast": [
+      "Marie Leuenberger",
+      "Hans Löw",
+      "Claes Bang",
+      "Julia Franz Richter",
+      "Nina Fog"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/9iYiU8PK7nFTNfSEmI1BYJ66Hp.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/6qQfRmIQ0p4sgFhVRqC8ItJO27E.jpg",
+    "tmdb_rating": 5.5,
+    "tmdb_votes": 8,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt26757241/"
+    }
+  },
+  "233": {
+    "tmdb_id": 1013446,
+    "title": "Reflection in a Dead Diamond",
+    "original_title": "Reflet dans un diamant mort",
+    "overview": "When the mysterious woman in the room next door disappears, a debonair 70-year-old ex-spy living in a luxury hotel on the Côte d'Azur is confronted by the demons and darlings of a lurid past in which moviemaking, memories and madness collide.",
+    "runtime": 87,
+    "release_date": "2025-06-25",
+    "genres": [
+      "Action",
+      "Thriller",
+      "Mystery"
+    ],
+    "countries": [
+      "BE",
+      "FR",
+      "IT",
+      "LU"
+    ],
+    "original_language": "fr",
+    "director": "Bruno Forzani, Hélène Cattet",
+    "cast": [
+      "Fabio Testi",
+      "Yannick Renier",
+      "Koen De Bouw",
+      "Maria de Medeiros",
+      "Thi-Mai Nguyen"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/5CdRxBu7jRDHjthkAL8vE0GdKUD.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/AePlQ3osZShJmbNj8tzQ3NoMTQF.jpg",
+    "tmdb_rating": 6.1,
+    "tmdb_votes": 93,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt32263401/"
+    }
+  },
+  "234": {
+    "tmdb_id": 1275332,
+    "title": "Girls on Wire",
+    "original_title": "想飞的女孩",
+    "overview": "Tian Tian, the single mother of a five-year-old daughter, kills a drug dealer and is then pursued for vengeance. The only person she can turn to for help is her female cousin, Fang Di.",
+    "runtime": 115,
+    "release_date": "2025-03-08",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "original_language": "zh",
+    "director": "Vivian Qu",
+    "cast": [
+      "Liu Haocun",
+      "Wen Qi",
+      "Zhang Youhao",
+      "Liu Yitie",
+      "Peng Jing"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/aUSPIgV8DTMlKkOdDiBDTfrm5yf.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/vL2VgxcmiQuYRkOnYc20Z34gbQs.jpg",
+    "tmdb_rating": 5.5,
+    "tmdb_votes": 7,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt32120173/"
+    }
+  },
+  "235": {
+    "tmdb_id": 1421157,
+    "title": "Timestamp",
+    "original_title": "Стрічка часу",
+    "overview": "Despite the war, school life continues in Ukraine, with pupils and teachers striving to continue learning even under constant threat. The film is a mosaic of the everyday lives of teachers and students from different corners of Ukraine.",
+    "runtime": 125,
+    "release_date": "2025-09-10",
+    "genres": [
+      "Documentary"
+    ],
+    "countries": [
+      "UA",
+      "LU",
+      "NL",
+      "FR"
+    ],
+    "original_language": "uk",
+    "director": "Kateryna Gornostai",
+    "cast": [
+      "Olha Bryhynets",
+      "Borys Khovriak",
+      "Mykola Kolomiiets",
+      "Valeriia Hukova",
+      "Mykola Shpak"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/b49YNh0qTTBbxS7IP4sWdypTKoP.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/zZRJD5mVrpEFGbPcgLMWtqscbS5.jpg",
+    "tmdb_rating": 7,
+    "tmdb_votes": 7,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt35499036/"
+    }
+  },
+  "236": {
+    "tmdb_id": 1416893,
+    "title": "What Marielle Knows",
+    "original_title": "Was Marielle weiß",
+    "overview": "Julia and Tobias face hilarious and cringe-worthy moments when their young daughter Marielle unexpectedly gains mind-reading powers. As family secrets come to light, they struggle to maintain privacy and normalcy in their daily lives.",
+    "runtime": 86,
+    "release_date": "2025-04-17",
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Fantasy"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "original_language": "de",
+    "director": "Frédéric Hambalek",
+    "cast": [
+      "Laeni Geiseler",
+      "Julia Jentsch",
+      "Felix Kramer",
+      "Mehmet Ateşçi",
+      "Moritz von Treuenfels"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/70dTYnks9hqZlNKrMPKuzgb3qwF.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/tL18mh0HDI1M2ACSHZi0IVVXFAZ.jpg",
+    "tmdb_rating": 6.5,
+    "tmdb_votes": 20,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt35500283/"
+    }
+  },
+  "237": {
+    "tmdb_id": 1189738,
+    "title": "Yunan",
+    "original_title": "Yunan",
+    "overview": "Munir travels to a remote island to contemplate a drastic action. He is haunted by a cryptic parable passed down to him by his mother. In the silence of his isolated island sanctuary, he encounters the enigmatic Valeska and her rough-hewn but loyal son, Karl. Although few words are spoken, simple acts of kindness begin to overcome their mutual distrust. Munir’s heavy burden is gradually eased and his desire for life reignited",
+    "runtime": 125,
+    "release_date": "2025-11-13",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "CA",
+      "FR",
+      "DE",
+      "IT",
+      "JO",
+      "PS",
+      "QA"
+    ],
+    "original_language": "de",
+    "director": "Ameer Fakher Eldin",
+    "cast": [
+      "Georges Khabbaz",
+      "Hanna Schygulla",
+      "Tom Wlaschiha",
+      "Sibel Kekilli",
+      "Ali Suliman"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/x6bVdhVTgKWSZFinb4A78lfWzPD.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/5mVwgp05MLQqFbFJiIbdoQjjWfO.jpg",
+    "tmdb_rating": 0,
+    "tmdb_votes": 0,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt24022322/"
     }
   }
 };
