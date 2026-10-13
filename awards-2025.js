@@ -868,11 +868,11 @@ window.CULTURE_AWARDS = [
         "winner": 101,
         "nominees": [
           101,
+          117,
           113,
           154,
           104,
-          200,
-          117
+          200
         ]
       },
       {
@@ -880,11 +880,11 @@ window.CULTURE_AWARDS = [
         "winner": 110,
         "nominees": [
           110,
-          102,
-          116,
+          220,
+          101,
+          149,
           147,
-          200,
-          149
+          102
         ]
       },
       {
@@ -893,10 +893,9 @@ window.CULTURE_AWARDS = [
         "nominees": [
           117,
           116,
+          226,
           102,
-          104,
-          200,
-          101
+          200
         ]
       }
     ],
@@ -1148,6 +1147,13 @@ window.CULTURE_AWARDS = [
         "id": 200,
         "title": "Wicked",
         "director": "Jon M. Chu",
+        "year": 2024,
+        "awards": []
+      },
+      {
+        "id": 226,
+        "title": "The Last Showgirl",
+        "director": "",
         "year": 2024,
         "awards": []
       }
