@@ -1,5 +1,4 @@
-// Canonical film identity registry. Numeric IDs must remain stable for Supabase film_progress.
-// TMDB matches 201-218 sourced from October 2026 matching audit; unresolved IDs remain null.
+// Canonical film identity registry. Numeric IDs remain stable for Supabase film_progress.
 window.CULTURE_CATALOG = [
   {
     "id": 1,
@@ -1758,7 +1757,7 @@ window.CULTURE_CATALOG = [
     "title": "A Complete Unknown",
     "director": "",
     "year": 2025,
-    "tmdb_id": null,
+    "tmdb_id": 661539,
     "imdb_id": null
   },
   {
@@ -1766,7 +1765,7 @@ window.CULTURE_CATALOG = [
     "title": "September 5",
     "director": "",
     "year": 2025,
-    "tmdb_id": null,
+    "tmdb_id": 1211472,
     "imdb_id": null
   },
   {
@@ -1774,15 +1773,15 @@ window.CULTURE_CATALOG = [
     "title": "Porcelain War",
     "director": "",
     "year": 2025,
-    "tmdb_id": null,
+    "tmdb_id": 1214527,
     "imdb_id": null
   },
   {
     "id": 223,
     "title": "Blitz",
-    "director": "",
+    "director": "Steve McQueen",
     "year": 2025,
-    "tmdb_id": null,
+    "tmdb_id": 896151,
     "imdb_id": null
   },
   {
@@ -1790,7 +1789,7 @@ window.CULTURE_CATALOG = [
     "title": "Gladiator II",
     "director": "",
     "year": 2025,
-    "tmdb_id": null,
+    "tmdb_id": 558449,
     "imdb_id": null
   },
   {
@@ -1798,7 +1797,7 @@ window.CULTURE_CATALOG = [
     "title": "Lee",
     "director": "",
     "year": 2025,
-    "tmdb_id": null,
+    "tmdb_id": 832964,
     "imdb_id": null
   },
   {
@@ -1806,7 +1805,7 @@ window.CULTURE_CATALOG = [
     "title": "The Last Showgirl",
     "director": "",
     "year": 2024,
-    "tmdb_id": null,
+    "tmdb_id": 1235499,
     "imdb_id": null
   }
 ];
