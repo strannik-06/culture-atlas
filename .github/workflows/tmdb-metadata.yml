@@ -16,10 +16,10 @@ jobs:
           node --check scripts/refresh-tmdb.mjs
           node --check scripts/validate-catalog.mjs
           node scripts/validate-catalog.mjs
-      - name: Audit metadata and TMDB identities (read-only)
+      - name: Validate identities and generate metadata snapshot (only if clean)
         env:
           TMDB_READ_ACCESS_TOKEN: ${{ secrets.TMDB_READ_ACCESS_TOKEN }}
-        run: node scripts/refresh-tmdb.mjs
+        run: node scripts/refresh-tmdb.mjs --apply
       - name: Upload metadata validation report
         if: always()
         uses: actions/upload-artifact@v4
@@ -27,3 +27,10 @@ jobs:
           name: tmdb-metadata-validation
           path: tmdb-metadata-report.json
           if-no-files-found: warn
+      - name: Upload generated metadata snapshot
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tmdb-film-details-snapshot
+          path: film-details.js
+          if-no-files-found: error
