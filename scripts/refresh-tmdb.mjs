@@ -27,7 +27,7 @@ for(const film of catalog){
   if(!response.ok){report.failed.push({id:film.id,tmdb_id:film.tmdb_id,status:response.status});continue}
   const movie=await response.json();
   const directors=(movie.credits?.crew||[]).filter(c=>c.job==='Director').map(c=>c.name);
-  const normalize=s=>String(s||'').normalize('NFKD').replace(/[\\u0300-\\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
+  const normalize=s=>String(s||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
   const names=[film.title,...(film.alternate_titles||[])];
   const titleMatches=names.some(n=>[movie.title,movie.original_title].some(t=>normalize(n)===normalize(t)||normalize(t).startsWith(normalize(n)+' ')));
   const directorAliases={78:['Tsou Shih-ching'],98:['Alexander Woo'],166:['Anselm Chan Mau-Yin'],169:['Dante Lam Chiu-yin']};
