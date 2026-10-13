@@ -174,13 +174,13 @@ window.addEventListener('resize',()=>{if(!ratingPopover.hidden)closeRatingPopove
 $('account-toggle').addEventListener('click',()=>{const panel=$('account');panel.hidden=!panel.hidden;$('account-toggle').setAttribute('aria-expanded',String(!panel.hidden))});
 document.addEventListener('click',e=>{if(!$('account').hidden&&!$('account').contains(e.target)&&!$('account-toggle').contains(e.target)){$('account').hidden=true;$('account-toggle').setAttribute('aria-expanded','false')}});
 
-$('export').addEventListener('click',()=>{const rows=[['id','title','director','year','priority','genre','watched','rating'],...films.map(f=>[f.id,f.title,f.director,f.year,tiers[f.tier],f.genre,!!progress[f.id]?.watched,progress[f.id]?.rating||''])];const csv=rows.map(r=>r.map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(',')).join('\r\n');const a=document.createElement('a');const url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));a.href=url;a.download='culture-atlas-films-all-years.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)});
+$('export').addEventListener('click',()=>{const rows=[['id','title','director','year','priority','genre','watched','rating'],...allRateableFilms.map(f=>[f.id,f.title,f.director,f.year||2025,tiers[f.tier]||'Awards only',f.genre||'',!!progress[f.id]?.watched,progress[f.id]?.rating||''])];const csv=rows.map(r=>r.map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(',')).join('\r\n');const a=document.createElement('a');const url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));a.href=url;a.download='culture-atlas-films-all-years.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)});
 $('import-ratings').addEventListener('change',async e=>{
  const file=e.target.files?.[0];if(!file)return;
  try{
   const parsed=JSON.parse(await file.text());
   if(parsed.format!=='culture-atlas-progress-v1'||!parsed.ratings||typeof parsed.ratings!=='object'||Array.isArray(parsed.ratings))throw Error('Unsupported ratings file.');
-  const validIds=new Set(films.map(f=>String(f.id)));
+  const validIds=new Set(allRateableFilms.map(f=>String(f.id)));
   const entries=Object.entries(parsed.ratings).filter(([id,rating])=>validIds.has(id)&&typeof rating==='number'&&rating>=0.5&&rating<=10&&Number.isInteger(rating*2));
   if(!entries.length)throw Error('No matching film ratings found.');
   if(!confirm('Import '+entries.length+' ratings? Existing ratings for these films will be replaced. Other films will be unchanged.'))return;
