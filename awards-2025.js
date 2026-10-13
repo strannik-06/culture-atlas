@@ -533,7 +533,24 @@ window.CULTURE_AWARDS = [
           149,
           116,
           147
-        ]
+        ],
+        "nomineeNames": {
+          "102": [
+            "Adrien Brody"
+          ],
+          "116": [
+            "Ralph Fiennes"
+          ],
+          "147": [
+            "Sebastian Stan"
+          ],
+          "149": [
+            "Colman Domingo"
+          ],
+          "220": [
+            "Timothée Chalamet"
+          ]
+        }
       },
       {
         "name": "Leading Actress",
@@ -544,7 +561,24 @@ window.CULTURE_AWARDS = [
           117,
           104,
           109
-        ]
+        ],
+        "nomineeNames": {
+          "101": [
+            "Mikey Madison"
+          ],
+          "104": [
+            "Demi Moore"
+          ],
+          "109": [
+            "Fernanda Torres"
+          ],
+          "117": [
+            "Karla Sofía Gascón"
+          ],
+          "200": [
+            "Cynthia Erivo"
+          ]
+        }
       },
       {
         "name": "Supporting Actor",
@@ -555,7 +589,24 @@ window.CULTURE_AWARDS = [
           220,
           102,
           147
-        ]
+        ],
+        "nomineeNames": {
+          "101": [
+            "Yura Borisov"
+          ],
+          "102": [
+            "Guy Pearce"
+          ],
+          "110": [
+            "Kieran Culkin"
+          ],
+          "147": [
+            "Jeremy Strong"
+          ],
+          "220": [
+            "Edward Norton"
+          ]
+        }
       },
       {
         "name": "Supporting Actress",
@@ -566,7 +617,24 @@ window.CULTURE_AWARDS = [
           200,
           102,
           116
-        ]
+        ],
+        "nomineeNames": {
+          "102": [
+            "Felicity Jones"
+          ],
+          "116": [
+            "Isabella Rossellini"
+          ],
+          "117": [
+            "Zoe Saldaña"
+          ],
+          "200": [
+            "Ariana Grande"
+          ],
+          "220": [
+            "Monica Barbaro"
+          ]
+        }
       },
       {
         "name": "Original Screenplay",
@@ -938,7 +1006,27 @@ window.CULTURE_AWARDS = [
           139,
           149,
           147
-        ]
+        ],
+        "nomineeNames": {
+          "102": [
+            "Adrien Brody"
+          ],
+          "116": [
+            "Ralph Fiennes"
+          ],
+          "139": [
+            "Hugh Grant"
+          ],
+          "147": [
+            "Sebastian Stan"
+          ],
+          "149": [
+            "Colman Domingo"
+          ],
+          "220": [
+            "Timothée Chalamet"
+          ]
+        }
       },
       {
         "name": "Leading Actress",
@@ -950,7 +1038,27 @@ window.CULTURE_AWARDS = [
           154,
           104,
           200
-        ]
+        ],
+        "nomineeNames": {
+          "101": [
+            "Mikey Madison"
+          ],
+          "104": [
+            "Demi Moore"
+          ],
+          "113": [
+            "Marianne Jean-Baptiste"
+          ],
+          "117": [
+            "Karla Sofía Gascón"
+          ],
+          "154": [
+            "Saoirse Ronan"
+          ],
+          "200": [
+            "Cynthia Erivo"
+          ]
+        }
       },
       {
         "name": "Supporting Actor",
@@ -962,7 +1070,27 @@ window.CULTURE_AWARDS = [
           149,
           147,
           102
-        ]
+        ],
+        "nomineeNames": {
+          "101": [
+            "Yura Borisov"
+          ],
+          "102": [
+            "Guy Pearce"
+          ],
+          "110": [
+            "Kieran Culkin"
+          ],
+          "147": [
+            "Jeremy Strong"
+          ],
+          "149": [
+            "Clarence Maclin"
+          ],
+          "220": [
+            "Edward Norton"
+          ]
+        }
       },
       {
         "name": "Supporting Actress",
@@ -973,7 +1101,25 @@ window.CULTURE_AWARDS = [
           226,
           102,
           200
-        ]
+        ],
+        "nomineeNames": {
+          "102": [
+            "Felicity Jones"
+          ],
+          "116": [
+            "Isabella Rossellini"
+          ],
+          "117": [
+            "Zoe Saldaña",
+            "Selena Gomez"
+          ],
+          "200": [
+            "Ariana Grande"
+          ],
+          "226": [
+            "Jamie Lee Curtis"
+          ]
+        }
       }
     ],
     "films": [
@@ -1592,7 +1738,27 @@ window.CULTURE_AWARDS = [
           109,
           225
         ],
-        "winner": 109
+        "winner": 109,
+        "nomineeNames": {
+          "108": [
+            "Tilda Swinton"
+          ],
+          "109": [
+            "Fernanda Torres"
+          ],
+          "225": [
+            "Kate Winslet"
+          ],
+          "226": [
+            "Pamela Anderson"
+          ],
+          "238": [
+            "Angelina Jolie"
+          ],
+          "239": [
+            "Nicole Kidman"
+          ]
+        }
       },
       {
         "name": "Leading Actor – Drama",
@@ -1604,7 +1770,27 @@ window.CULTURE_AWARDS = [
           116,
           147
         ],
-        "winner": 102
+        "winner": 102,
+        "nomineeNames": {
+          "102": [
+            "Adrien Brody"
+          ],
+          "116": [
+            "Ralph Fiennes"
+          ],
+          "133": [
+            "Daniel Craig"
+          ],
+          "147": [
+            "Sebastian Stan"
+          ],
+          "149": [
+            "Colman Domingo"
+          ],
+          "220": [
+            "Timothée Chalamet"
+          ]
+        }
       },
       {
         "name": "Leading Actress – Musical or Comedy",
@@ -1616,7 +1802,27 @@ window.CULTURE_AWARDS = [
           104,
           132
         ],
-        "winner": 104
+        "winner": 104,
+        "nomineeNames": {
+          "101": [
+            "Mikey Madison"
+          ],
+          "104": [
+            "Demi Moore"
+          ],
+          "117": [
+            "Karla Sofía Gascón"
+          ],
+          "132": [
+            "Zendaya"
+          ],
+          "200": [
+            "Cynthia Erivo"
+          ],
+          "240": [
+            "Amy Adams"
+          ]
+        }
       },
       {
         "name": "Leading Actor – Musical or Comedy",
@@ -1628,7 +1834,27 @@ window.CULTURE_AWARDS = [
           243,
           146
         ],
-        "winner": 146
+        "winner": 146,
+        "nomineeNames": {
+          "110": [
+            "Jesse Eisenberg"
+          ],
+          "139": [
+            "Hugh Grant"
+          ],
+          "146": [
+            "Sebastian Stan"
+          ],
+          "241": [
+            "Gabriel LaBelle"
+          ],
+          "242": [
+            "Jesse Plemons"
+          ],
+          "243": [
+            "Glen Powell"
+          ]
+        }
       },
       {
         "name": "Supporting Actress",
@@ -1639,7 +1865,25 @@ window.CULTURE_AWARDS = [
           104,
           116
         ],
-        "winner": 117
+        "winner": 117,
+        "nomineeNames": {
+          "102": [
+            "Felicity Jones"
+          ],
+          "104": [
+            "Margaret Qualley"
+          ],
+          "116": [
+            "Isabella Rossellini"
+          ],
+          "117": [
+            "Selena Gomez",
+            "Zoe Saldaña"
+          ],
+          "200": [
+            "Ariana Grande"
+          ]
+        }
       },
       {
         "name": "Supporting Actor",
@@ -1651,7 +1895,27 @@ window.CULTURE_AWARDS = [
           147,
           224
         ],
-        "winner": 110
+        "winner": 110,
+        "nomineeNames": {
+          "101": [
+            "Yura Borisov"
+          ],
+          "102": [
+            "Guy Pearce"
+          ],
+          "110": [
+            "Kieran Culkin"
+          ],
+          "147": [
+            "Jeremy Strong"
+          ],
+          "220": [
+            "Edward Norton"
+          ],
+          "224": [
+            "Denzel Washington"
+          ]
+        }
       },
       {
         "name": "Director",
