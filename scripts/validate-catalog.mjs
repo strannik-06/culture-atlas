@@ -42,5 +42,11 @@ for(const event of awards)for(const category of event.categories||[]){
  for(const id of category.nominees||[])if(!ids.has(id))errors.push(event.event+' '+event.year+': unknown nominee '+id);
  if(category.winner!=null&&!ids.has(category.winner))errors.push(event.event+' '+event.year+': unknown winner '+category.winner);
 }
+// Canonical film director is required whenever a film appears in awards.
+for(const event of awards)for(const film of event.films){
+ const canonical=catalog.find(f=>f.id===film.id);
+ if(!String(canonical?.director||'').trim())errors.push(event.event+' '+event.year+': missing canonical director for film '+film.id);
+ if(!String(film.director||'').trim())errors.push(event.event+' '+event.year+': missing award director for film '+film.id);
+}
 console.log('Canonical films: '+catalog.length+'; Top 100 references: '+(top2025.length+top2024.length)+'; award events: '+awards.length+'; errors: '+errors.length);
 if(errors.length){for(const e of errors)console.error(e);process.exitCode=1}
