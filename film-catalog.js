@@ -1,5 +1,5 @@
-// Generated canonical film identities; do not reuse numeric IDs (Supabase film_progress references them).
-// Update using scripts/enrich-tmdb.mjs after matching ambiguous titles.
+// Canonical film identity registry. Numeric IDs must remain stable for Supabase film_progress.
+// TMDB matches 201-218 sourced from October 2026 matching audit; unresolved IDs remain null.
 window.CULTURE_CATALOG = [
   {
     "id": 1,
@@ -1606,7 +1606,7 @@ window.CULTURE_CATALOG = [
     "title": "Alpha",
     "director": "Julia Ducournau",
     "year": null,
-    "tmdb_id": null,
+    "tmdb_id": 1284460,
     "imdb_id": null
   },
   {
@@ -1614,7 +1614,7 @@ window.CULTURE_CATALOG = [
     "title": "Renoir",
     "director": "Chie Hayakawa",
     "year": null,
-    "tmdb_id": null,
+    "tmdb_id": 1392527,
     "imdb_id": null
   },
   {
@@ -1630,7 +1630,7 @@ window.CULTURE_CATALOG = [
     "title": "Two Prosecutors",
     "director": "Sergei Loznitsa",
     "year": null,
-    "tmdb_id": null,
+    "tmdb_id": 1257406,
     "imdb_id": null
   },
   {
@@ -1638,7 +1638,7 @@ window.CULTURE_CATALOG = [
     "title": "Fuori",
     "director": "Mario Martone",
     "year": null,
-    "tmdb_id": null,
+    "tmdb_id": 1310830,
     "imdb_id": null
   },
   {
@@ -1646,7 +1646,7 @@ window.CULTURE_CATALOG = [
     "title": "Case 137",
     "director": "Dominik Moll",
     "year": null,
-    "tmdb_id": null,
+    "tmdb_id": 1294698,
     "imdb_id": null
   },
   {
@@ -1654,7 +1654,7 @@ window.CULTURE_CATALOG = [
     "title": "Woman and Child",
     "director": "Saeed Roustaee",
     "year": null,
-    "tmdb_id": null,
+    "tmdb_id": 1430386,
     "imdb_id": null
   },
   {
@@ -1662,7 +1662,7 @@ window.CULTURE_CATALOG = [
     "title": "Eagles of the Republic",
     "director": "Tarik Saleh",
     "year": null,
-    "tmdb_id": null,
+    "tmdb_id": 1220566,
     "imdb_id": null
   },
   {
@@ -1670,7 +1670,7 @@ window.CULTURE_CATALOG = [
     "title": "Romería",
     "director": "Carla Simón",
     "year": null,
-    "tmdb_id": null,
+    "tmdb_id": 1182861,
     "imdb_id": null
   },
   {
@@ -1678,7 +1678,7 @@ window.CULTURE_CATALOG = [
     "title": "The Wizard of the Kremlin",
     "director": "Olivier Assayas",
     "year": 2025,
-    "tmdb_id": null,
+    "tmdb_id": 1291659,
     "imdb_id": null
   },
   {
@@ -1686,7 +1686,7 @@ window.CULTURE_CATALOG = [
     "title": "Jay Kelly",
     "director": "Noah Baumbach",
     "year": 2025,
-    "tmdb_id": null,
+    "tmdb_id": 1069905,
     "imdb_id": null
   },
   {
@@ -1694,7 +1694,7 @@ window.CULTURE_CATALOG = [
     "title": "A House of Dynamite",
     "director": "Kathryn Bigelow",
     "year": 2025,
-    "tmdb_id": null,
+    "tmdb_id": 1290159,
     "imdb_id": null
   },
   {
@@ -1702,7 +1702,7 @@ window.CULTURE_CATALOG = [
     "title": "The Sun Rises on Us All",
     "director": "Cai Shangjun",
     "year": 2025,
-    "tmdb_id": null,
+    "tmdb_id": 1329673,
     "imdb_id": null
   },
   {
@@ -1710,7 +1710,7 @@ window.CULTURE_CATALOG = [
     "title": "Elisa",
     "director": "Leonardo Di Costanzo",
     "year": 2025,
-    "tmdb_id": null,
+    "tmdb_id": 1438959,
     "imdb_id": null
   },
   {
@@ -1718,7 +1718,7 @@ window.CULTURE_CATALOG = [
     "title": "At Work",
     "director": "Valérie Donzelli",
     "year": 2025,
-    "tmdb_id": null,
+    "tmdb_id": 1430820,
     "imdb_id": null
   },
   {
@@ -1726,7 +1726,7 @@ window.CULTURE_CATALOG = [
     "title": "Duse",
     "director": "Pietro Marcello",
     "year": 2025,
-    "tmdb_id": null,
+    "tmdb_id": 1291202,
     "imdb_id": null
   },
   {
@@ -1742,7 +1742,7 @@ window.CULTURE_CATALOG = [
     "title": "Orphan",
     "director": "László Nemes",
     "year": 2025,
-    "tmdb_id": null,
+    "tmdb_id": 803208,
     "imdb_id": null
   },
   {
