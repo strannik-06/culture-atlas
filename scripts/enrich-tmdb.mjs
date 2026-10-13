@@ -29,8 +29,15 @@ const audit={matched:[],unresolved:[],alreadyLinked:0};
 const seen=new Map(catalog.filter(f=>f.tmdb_id).map(f=>[f.tmdb_id,f.id]));
 for(const film of catalog){
  if(film.tmdb_id){audit.alreadyLinked++;continue}
- const result=await api('search/movie',{query:film.title,include_adult:'false'});
- const candidates=(result.results||[]).filter(c=>norm(c.title)===norm(film.title)||norm(c.original_title)===norm(film.title));
+ const titles=[film.title,...(film.alternate_titles||[])];
+ const candidateMap=new Map();
+ for(const title of titles){
+  const result=await api('search/movie',{query:title,include_adult:'false'});
+  for(const candidate of result.results||[]){
+   if(titles.some(t=>norm(candidate.title)===norm(t)||norm(candidate.original_title)===norm(t)))candidateMap.set(candidate.id,candidate);
+  }
+ }
+ const candidates=[...candidateMap.values()];
  const matches=[];
  for(const candidate of candidates.slice(0,5)){
   const year=Number((candidate.release_date||'').slice(0,4));
