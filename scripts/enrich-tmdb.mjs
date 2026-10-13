@@ -29,8 +29,15 @@ const audit={matched:[],unresolved:[],alreadyLinked:0};
 const seen=new Map(catalog.filter(f=>f.tmdb_id).map(f=>[f.tmdb_id,f.id]));
 for(const film of catalog){
  if(film.tmdb_id){audit.alreadyLinked++;continue}
- const result=await api('search/movie',{query:film.title,include_adult:'false'});
- const candidates=(result.results||[]).filter(c=>norm(c.title)===norm(film.title)||norm(c.original_title)===norm(film.title));
+ const titles=[film.title,...(film.alternate_titles||[])];
+ const candidateMap=new Map();
+ for(const title of titles){
+  const result=await api('search/movie',{query:title,include_adult:'false'});
+  for(const candidate of result.results||[]){
+   if(titles.some(t=>norm(candidate.title)===norm(t)||norm(candidate.original_title)===norm(t)))candidateMap.set(candidate.id,candidate);
+  }
+ }
+ const candidates=[...candidateMap.values()];
  const matches=[];
  for(const candidate of candidates.slice(0,5)){
   const year=Number((candidate.release_date||'').slice(0,4));
@@ -42,7 +49,7 @@ for(const film of catalog){
   await wait(250);
  }
  // Without a director, only accept a unique title match within two years of the listed year.
- const safeMatches=film.director?matches:matches.filter(m=>film.year&&m.year&&Math.abs(film.year-m.year)<=2);
+ const safeMatches=film.director?matches:matches.filter(m=>film.year&&m.year&&Math.abs(film.year-m.year)<=1);
  if(safeMatches.length===1&&!seen.has(safeMatches[0].tmdb_id)){
   const match=safeMatches[0];audit.matched.push({id:film.id,title:film.title,...match});
   if(apply){film.tmdb_id=match.tmdb_id;film.imdb_id=match.imdb_id}
@@ -51,7 +58,7 @@ for(const film of catalog){
  await wait(300);
 }
 const report=path.join(root,'tmdb-match-report.json');
-fs.writeFileSync(report,JSON.stringify(audit,null,2)+'\\n');
-if(apply)fs.writeFileSync(file,prefix+JSON.stringify(catalog,null,2)+';\\n');
+fs.writeFileSync(report,JSON.stringify(audit,null,2)+'\n');
+if(apply)fs.writeFileSync(file,prefix+JSON.stringify(catalog,null,2)+';\n');
 console.log(JSON.stringify({alreadyLinked:audit.alreadyLinked,matched:audit.matched.length,unresolved:audit.unresolved.length,applied:apply,report},null,2));
 if(audit.unresolved.length)process.exitCode=2;
