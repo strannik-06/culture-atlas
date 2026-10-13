@@ -149,7 +149,7 @@ window.CULTURE_FILM_DETAILS = {
       "Jack O'Connell",
       "Wunmi Mosaku"
     ],
-    "tmdb_rating": 7.5,
+    "tmdb_rating": 7.509,
     "poster": "https://image.tmdb.org/t/p/w500/fWPgbnt2LSqkQ6cdQc0SZN9CpLm.jpg",
     "imdb": {
       "url": "https://www.imdb.com/title/tt31193180/"
@@ -170,7 +170,7 @@ window.CULTURE_FILM_DETAILS = {
     "original_language": "en",
     "director": "Ryan Coogler",
     "backdrop": "https://image.tmdb.org/t/p/w1280/nAxGnGHOsfzufThz20zgmRwKur3.jpg",
-    "tmdb_votes": 5326
+    "tmdb_votes": 5327
   },
   "6": {
     "tmdb_id": 1221061,
@@ -7604,6 +7604,235 @@ window.CULTURE_FILM_DETAILS = {
     "tmdb_votes": 0,
     "imdb": {
       "url": "https://www.imdb.com/title/tt24022322/"
+    }
+  },
+  "238": {
+    "tmdb_id": 1038263,
+    "title": "Maria",
+    "original_title": "Maria",
+    "overview": "Maria Callas, the world's greatest opera singer, lives the last days of her life in 1970s Paris, as she confronts her identity and life.",
+    "runtime": 123,
+    "release_date": "2024-11-27",
+    "genres": [
+      "History",
+      "Drama",
+      "Music"
+    ],
+    "countries": [
+      "DE",
+      "IT",
+      "US",
+      "CL"
+    ],
+    "original_language": "en",
+    "director": "Pablo Larraín",
+    "cast": [
+      "Angelina Jolie",
+      "Pierfrancesco Favino",
+      "Alba Rohrwacher",
+      "Haluk Bilginer",
+      "Kodi Smit-McPhee"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/3oQRG0bwPUqE4N4n8z2kAzr7e40.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/9iw4a6AQkxUO3EuRn59Vgrqf0zO.jpg",
+    "tmdb_rating": 6.5,
+    "tmdb_votes": 498,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt22893404/"
+    }
+  },
+  "239": {
+    "tmdb_id": 1097549,
+    "title": "Babygirl",
+    "original_title": "Babygirl",
+    "overview": "A high-powered CEO puts her career and family on the line when she begins a torrid affair with her much younger intern.",
+    "runtime": 115,
+    "release_date": "2024-12-25",
+    "genres": [
+      "Romance",
+      "Thriller"
+    ],
+    "countries": [
+      "US",
+      "NL"
+    ],
+    "original_language": "en",
+    "director": "Halina Reijn",
+    "cast": [
+      "Nicole Kidman",
+      "Harris Dickinson",
+      "Antonio Banderas",
+      "Esther-Rose McGregor",
+      "Sophie Wilde"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/ilwO6elz3mLV9CToT7C8pjVeKX0.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/s7vWRjcfRVMW8tBIxhC3UhKxRoo.jpg",
+    "tmdb_rating": 5.727,
+    "tmdb_votes": 1313,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt30057084/"
+    }
+  },
+  "240": {
+    "tmdb_id": 728949,
+    "title": "Nightbitch",
+    "original_title": "Nightbitch",
+    "overview": "A woman, thrown into the stay-at-home routine of raising a toddler in the suburbs, slowly embraces the feral power deeply rooted in motherhood, as she becomes increasingly aware of the bizarre and undeniable signs that she may be turning into a dog.",
+    "runtime": 98,
+    "release_date": "2024-12-06",
+    "genres": [
+      "Comedy",
+      "Horror"
+    ],
+    "countries": [
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Marielle Heller",
+    "cast": [
+      "Amy Adams",
+      "Scoot McNairy",
+      "Arleigh Snowden",
+      "Emmett Snowden",
+      "Jessica Harper"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/h49Pie8gM2jK0UHGFRjfPB3YTd.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/2ICMZZVcwboF8Z9V7aaJY3CVh9w.jpg",
+    "tmdb_rating": 5.7,
+    "tmdb_votes": 409,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt12810074/"
+    }
+  },
+  "241": {
+    "tmdb_id": 1120911,
+    "title": "Saturday Night",
+    "original_title": "Saturday Night",
+    "overview": "At 11:30pm on October 11, 1975, a ferocious troupe of young comedians and writers changed television forever. This is the story of what happened behind the scenes in the 90 minutes leading up to the first broadcast of Saturday Night Live.",
+    "runtime": 109,
+    "release_date": "2024-09-27",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "countries": [
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Jason Reitman",
+    "cast": [
+      "Gabriel LaBelle",
+      "Rachel Sennott",
+      "Cory Michael Smith",
+      "Ella Hunt",
+      "Dylan O'Brien"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/oCf5O6uxooTvRwKVnLHwGqZUifq.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/9ewYb0LIBJNds8ZMoobKYUd647g.jpg",
+    "tmdb_rating": 6.7,
+    "tmdb_votes": 412,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt27657135/"
+    }
+  },
+  "242": {
+    "tmdb_id": 1029955,
+    "title": "Kinds of Kindness",
+    "original_title": "Kinds of Kindness",
+    "overview": "A triptych fable following a man without choice who tries to take control of his own life; a policeman who is alarmed that his wife who was missing-at-sea has returned and seems a different person; and a woman determined to find a specific someone with a special ability, who is destined to become a prodigious spiritual leader.",
+    "runtime": 164,
+    "release_date": "2024-05-30",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "countries": [
+      "IE",
+      "GB",
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Yorgos Lanthimos",
+    "cast": [
+      "Emma Stone",
+      "Jesse Plemons",
+      "Willem Dafoe",
+      "Margaret Qualley",
+      "Hong Chau"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/50lPmjIpDs8gKfgK7fPIeKzpllh.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/dNplOw9U5IzlY7nNiaMS0JSVobp.jpg",
+    "tmdb_rating": 6.479,
+    "tmdb_votes": 1374,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt22408160/"
+    }
+  },
+  "243": {
+    "tmdb_id": 974635,
+    "title": "Hit Man",
+    "original_title": "Hit Man",
+    "overview": "A mild-mannered professor moonlighting as a fake hit man in police stings ignites a chain reaction of trouble when he falls for a potential client.",
+    "runtime": 116,
+    "release_date": "2024-05-16",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Crime"
+    ],
+    "countries": [
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Richard Linklater",
+    "cast": [
+      "Glen Powell",
+      "Adria Arjona",
+      "Austin Amelio",
+      "Retta",
+      "Sanjay Rao"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/oil3EZwKFp3CWxZnfGfGglesvm9.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/nv6F6tz7r61DUhE7zgHwLJFcTYp.jpg",
+    "tmdb_rating": 6.772,
+    "tmdb_votes": 1800,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt20215968/"
+    }
+  },
+  "244": {
+    "tmdb_id": 1241982,
+    "title": "Moana 2",
+    "original_title": "Moana 2",
+    "overview": "After receiving an unexpected call from her wayfinding ancestors, Moana journeys alongside Maui and a new crew to the far seas of Oceania and into dangerous, long-lost waters for an adventure unlike anything she's ever faced.",
+    "runtime": 100,
+    "release_date": "2024-11-21",
+    "genres": [
+      "Adventure",
+      "Animation",
+      "Comedy",
+      "Family",
+      "Fantasy"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "original_language": "en",
+    "director": "David G. Derrick Jr., Jason Hand, Dana Ledoux Miller",
+    "cast": [
+      "Auliʻi Cravalho",
+      "Dwayne Johnson",
+      "Hualālai Chung",
+      "Rose Matafeo",
+      "David Fane"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/aLVkiINlIeCkcZIzb7XHzPYgO6L.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/vYqt6kb4lcF8wwqsMMaULkP9OEn.jpg",
+    "tmdb_rating": 6.994,
+    "tmdb_votes": 3318,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt13622970/"
     }
   }
 };

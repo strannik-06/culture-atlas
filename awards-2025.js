@@ -1235,5 +1235,448 @@ window.CULTURE_AWARDS = [
         "awards": []
       }
     ]
+  },
+  {
+    "event": "Golden Globes",
+    "year": 2025,
+    "section": "Major Film Categories",
+    "dates": "5 January 2025",
+    "awardsDate": "5 January 2025",
+    "source": "https://goldenglobes.com/articles/nominations-announced-for-82nd-annual-golden-globes/",
+    "awardsSource": "https://goldenglobes.com/articles/the-82nd-golden-globe-awards-winners/",
+    "resultsUrl": "https://goldenglobes.com/articles/the-82nd-golden-globe-awards-winners/",
+    "films": [
+      {
+        "id": 102,
+        "title": "The Brutalist",
+        "director": "Brady Corbet",
+        "year": 2024,
+        "awards": [
+          "Best Motion Picture – Drama",
+          "Leading Actor – Drama",
+          "Director"
+        ]
+      },
+      {
+        "id": 220,
+        "title": "A Complete Unknown",
+        "director": "",
+        "year": 2025,
+        "awards": []
+      },
+      {
+        "id": 116,
+        "title": "Conclave",
+        "director": "Edward Berger",
+        "year": 2024,
+        "awards": [
+          "Screenplay"
+        ]
+      },
+      {
+        "id": 198,
+        "title": "Dune: Part Two",
+        "director": "Denis Villeneuve",
+        "year": 2024,
+        "awards": []
+      },
+      {
+        "id": 111,
+        "title": "Nickel Boys",
+        "director": "RaMell Ross",
+        "year": 2024,
+        "awards": []
+      },
+      {
+        "id": 221,
+        "title": "September 5",
+        "director": "",
+        "year": 2025,
+        "awards": []
+      },
+      {
+        "id": 101,
+        "title": "Anora",
+        "director": "Sean Baker",
+        "year": 2024,
+        "awards": []
+      },
+      {
+        "id": 132,
+        "title": "Challengers",
+        "director": "Luca Guadagnino",
+        "year": 2024,
+        "awards": []
+      },
+      {
+        "id": 117,
+        "title": "Emilia Pérez",
+        "director": "Jacques Audiard",
+        "year": 2024,
+        "awards": [
+          "Best Motion Picture – Musical or Comedy",
+          "Best Motion Picture – Non-English Language",
+          "Supporting Actress"
+        ]
+      },
+      {
+        "id": 110,
+        "title": "A Real Pain",
+        "director": "Jesse Eisenberg",
+        "year": 2024,
+        "awards": [
+          "Supporting Actor"
+        ]
+      },
+      {
+        "id": 104,
+        "title": "The Substance",
+        "director": "Coralie Fargeat",
+        "year": 2024,
+        "awards": [
+          "Leading Actress – Musical or Comedy"
+        ]
+      },
+      {
+        "id": 200,
+        "title": "Wicked",
+        "director": "Jon M. Chu",
+        "year": 2024,
+        "awards": []
+      },
+      {
+        "id": 107,
+        "title": "Flow",
+        "director": "Gints Zilbalodis",
+        "year": 2024,
+        "awards": [
+          "Best Motion Picture – Animated"
+        ]
+      },
+      {
+        "id": 182,
+        "title": "Inside Out 2",
+        "director": "Kelsey Mann",
+        "year": 2024,
+        "awards": []
+      },
+      {
+        "id": 179,
+        "title": "Memoir of a Snail",
+        "director": "Adam Elliot",
+        "year": 2024,
+        "awards": []
+      },
+      {
+        "id": 244,
+        "title": "Moana 2",
+        "director": "David G. Derrick Jr., Jason Hand, Dana Ledoux Miller",
+        "year": 2024,
+        "awards": []
+      },
+      {
+        "id": 183,
+        "title": "Wallace & Gromit: Vengeance Most Fowl",
+        "director": "Nick Park & Merlin Crossingham",
+        "year": 2024,
+        "awards": []
+      },
+      {
+        "id": 115,
+        "title": "The Wild Robot",
+        "director": "Chris Sanders",
+        "year": 2024,
+        "awards": []
+      },
+      {
+        "id": 103,
+        "title": "All We Imagine as Light",
+        "director": "Payal Kapadia",
+        "year": 2024,
+        "awards": []
+      },
+      {
+        "id": 114,
+        "title": "The Girl with the Needle",
+        "director": "Magnus von Horn",
+        "year": 2024,
+        "awards": []
+      },
+      {
+        "id": 109,
+        "title": "I'm Still Here",
+        "director": "Walter Salles",
+        "year": 2024,
+        "awards": [
+          "Leading Actress – Drama"
+        ]
+      },
+      {
+        "id": 105,
+        "title": "The Seed of the Sacred Fig",
+        "director": "Mohammad Rasoulof",
+        "year": 2024,
+        "awards": []
+      },
+      {
+        "id": 157,
+        "title": "Vermiglio",
+        "director": "Maura Delpero",
+        "year": 2024,
+        "awards": []
+      },
+      {
+        "id": 226,
+        "title": "The Last Showgirl",
+        "director": "",
+        "year": 2024,
+        "awards": []
+      },
+      {
+        "id": 238,
+        "title": "Maria",
+        "director": "Pablo Larraín",
+        "year": 2024,
+        "awards": []
+      },
+      {
+        "id": 239,
+        "title": "Babygirl",
+        "director": "Halina Reijn",
+        "year": 2024,
+        "awards": []
+      },
+      {
+        "id": 108,
+        "title": "The Room Next Door",
+        "director": "Pedro Almodóvar",
+        "year": 2024,
+        "awards": []
+      },
+      {
+        "id": 225,
+        "title": "Lee",
+        "director": "",
+        "year": 2025,
+        "awards": []
+      },
+      {
+        "id": 133,
+        "title": "Queer",
+        "director": "Luca Guadagnino",
+        "year": 2024,
+        "awards": []
+      },
+      {
+        "id": 149,
+        "title": "Sing Sing",
+        "director": "Greg Kwedar",
+        "year": 2024,
+        "awards": []
+      },
+      {
+        "id": 147,
+        "title": "The Apprentice",
+        "director": "Ali Abbasi",
+        "year": 2024,
+        "awards": []
+      },
+      {
+        "id": 240,
+        "title": "Nightbitch",
+        "director": "Marielle Heller",
+        "year": 2024,
+        "awards": []
+      },
+      {
+        "id": 139,
+        "title": "Heretic",
+        "director": "Scott Beck & Bryan Woods",
+        "year": 2024,
+        "awards": []
+      },
+      {
+        "id": 241,
+        "title": "Saturday Night",
+        "director": "Jason Reitman",
+        "year": 2024,
+        "awards": []
+      },
+      {
+        "id": 242,
+        "title": "Kinds of Kindness",
+        "director": "Yorgos Lanthimos",
+        "year": 2024,
+        "awards": []
+      },
+      {
+        "id": 243,
+        "title": "Hit Man",
+        "director": "Richard Linklater",
+        "year": 2024,
+        "awards": []
+      },
+      {
+        "id": 146,
+        "title": "A Different Man",
+        "director": "Aaron Schimberg",
+        "year": 2024,
+        "awards": [
+          "Leading Actor – Musical or Comedy"
+        ]
+      },
+      {
+        "id": 224,
+        "title": "Gladiator II",
+        "director": "",
+        "year": 2025,
+        "awards": []
+      }
+    ],
+    "categories": [
+      {
+        "name": "Best Motion Picture – Drama",
+        "nominees": [
+          102,
+          220,
+          116,
+          198,
+          111,
+          221
+        ],
+        "winner": 102
+      },
+      {
+        "name": "Best Motion Picture – Musical or Comedy",
+        "nominees": [
+          101,
+          132,
+          117,
+          110,
+          104,
+          200
+        ],
+        "winner": 117
+      },
+      {
+        "name": "Best Motion Picture – Animated",
+        "nominees": [
+          107,
+          182,
+          179,
+          244,
+          183,
+          115
+        ],
+        "winner": 107
+      },
+      {
+        "name": "Best Motion Picture – Non-English Language",
+        "nominees": [
+          103,
+          117,
+          114,
+          109,
+          105,
+          157
+        ],
+        "winner": 117
+      },
+      {
+        "name": "Leading Actress – Drama",
+        "nominees": [
+          226,
+          238,
+          239,
+          108,
+          109,
+          225
+        ],
+        "winner": 109
+      },
+      {
+        "name": "Leading Actor – Drama",
+        "nominees": [
+          102,
+          220,
+          133,
+          149,
+          116,
+          147
+        ],
+        "winner": 102
+      },
+      {
+        "name": "Leading Actress – Musical or Comedy",
+        "nominees": [
+          240,
+          200,
+          117,
+          101,
+          104,
+          132
+        ],
+        "winner": 104
+      },
+      {
+        "name": "Leading Actor – Musical or Comedy",
+        "nominees": [
+          110,
+          139,
+          241,
+          242,
+          243,
+          146
+        ],
+        "winner": 146
+      },
+      {
+        "name": "Supporting Actress",
+        "nominees": [
+          117,
+          200,
+          102,
+          104,
+          116
+        ],
+        "winner": 117
+      },
+      {
+        "name": "Supporting Actor",
+        "nominees": [
+          101,
+          110,
+          220,
+          102,
+          147,
+          224
+        ],
+        "winner": 110
+      },
+      {
+        "name": "Director",
+        "nominees": [
+          117,
+          101,
+          116,
+          102,
+          104,
+          103
+        ],
+        "winner": 102
+      },
+      {
+        "name": "Screenplay",
+        "nominees": [
+          117,
+          101,
+          102,
+          110,
+          104,
+          116
+        ],
+        "winner": 116
+      }
+    ]
   }
 ];
