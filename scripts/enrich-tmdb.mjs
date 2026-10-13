@@ -44,7 +44,10 @@ for(const film of catalog){
   // Award ceremony year is not necessarily original release year. Never reject solely on year.
   const detail=await api('movie/'+candidate.id,{append_to_response:'credits,external_ids'});
   const directors=(detail.credits?.crew||[]).filter(c=>c.job==='Director').map(c=>c.name);
-  if(film.director&&!directors.some(d=>norm(d)===norm(film.director)))continue;
+  // Match each named co-director against TMDB's separate director credits.
+  // Do not accept a partial match: all listed directors must be represented.
+  const expectedDirectors=String(film.director||'').split(/\\s*(?:,|\\s+&\\s+|\\s+and\\s+)\\s*/i).map(norm).filter(Boolean);
+  if(expectedDirectors.length&&!expectedDirectors.every(expected=>directors.some(actual=>norm(actual)===expected)))continue;
   matches.push({tmdb_id:candidate.id,title:detail.title,year,directors,imdb_id:detail.imdb_id||detail.external_ids?.imdb_id||null});
   await wait(250);
  }
