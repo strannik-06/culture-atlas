@@ -1,0 +1,41 @@
+name: TMDB catalogue audit
+on:
+  workflow_dispatch:
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate JavaScript syntax
+        run: |
+          node --check scripts/enrich-tmdb.mjs
+          node --check scripts/refresh-tmdb.mjs
+      - name: Verify TMDB token configured
+        env:
+          TMDB_READ_ACCESS_TOKEN: ${{ secrets.TMDB_READ_ACCESS_TOKEN }}
+        run: |
+          if [ -z "$TMDB_READ_ACCESS_TOKEN" ]; then
+            echo "::error::Missing TMDB_READ_ACCESS_TOKEN repository secret"
+            exit 1
+          fi
+      - name: Audit missing TMDB matches (no file changes)
+        id: matching
+        continue-on-error: true
+        env:
+          TMDB_READ_ACCESS_TOKEN: ${{ secrets.TMDB_READ_ACCESS_TOKEN }}
+        run: node scripts/enrich-tmdb.mjs
+      - name: Upload matching audit
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tmdb-matching-audit
+          path: tmdb-match-report.json
+          if-no-files-found: warn
+      - name: Report audit status
+        if: steps.matching.outcome == 'failure'
+        run: echo "::warning::Some films need manual review or the TMDB request failed. Inspect the audit artifact."
