@@ -67,7 +67,7 @@ async function updateAuth(session){
  if(signedInUser){
   await loadCloudProgress(signedInUser);
   if(supabaseClient){
-   const {data,error}=await supabaseClient.from('external_ratings').select('film_id,source,score_display,source_url').gte('film_id',1).lte('film_id',6);
+   const {data,error}=await supabaseClient.from('external_ratings').select('film_id,source,score_display,source_url').in('film_id',allRateableFilms.map(f=>f.id));
    if(request===externalRatingsRequest&&signedInUser){
     if(error){console.warn('External ratings unavailable:',error.message)}
     else for(const row of data||[]){
@@ -92,6 +92,12 @@ const genres=[...new Set(films.map(f=>f.genre))].sort();genres.forEach(g=>{const
 async function save(id){try{localStorage.setItem(key,JSON.stringify(progress))}catch{setAuthMessage('Browser storage is unavailable.')}render();if(!signedInUser||!supabaseClient)return;
  const p=progress[id]||{};const {error}=await supabaseClient.from('film_progress').upsert({user_id:signedInUser.id,film_id:Number(id),watched:!!p.watched,rating:p.rating||null},{onConflict:'user_id,film_id'});
  if(error)setAuthMessage('Cloud save failed: '+error.message);else setAuthMessage('Saved to your account.');}
+function filmPrizes(f,context=''){const d=filmDetails[f.id]||{},label=awardHighlights.get(f.id)||(window.CULTURE_FILM_RECOGNITION||{})[f.id]||d.recognition||d.awards||'';return context||(label?'<div class="recognition">'+escapeHTML(label)+'</div>':'');}
+function filmScores(f){const d=filmDetails[f.id]||{},ratings=externalRatings[f.id]||{};
+ const sources=[['ebert','Ebert'],['indiewire','IndieWire'],['lwl','LWL'],['guardian','Guardian']].map(([source,name])=>{const item=ratings[source],url=item?.url,score=item?.score;return typeof url==='string'&&/^https:\/\//.test(url)&&typeof score==='string'&&score.trim()?'<a class="external-score" href="'+escapeHTML(url)+'" target="_blank" rel="noopener noreferrer" title="'+escapeHTML(name)+'">'+escapeHTML(name)+' '+escapeHTML(score)+' ↗</a>':'';}).join('');
+ const tmdb=typeof d.tmdb_rating==='number'&&Number.isFinite(d.tmdb_rating)&&d.tmdb_rating>0&&d.tmdb_id?'<a class="external-score" href="https://www.themoviedb.org/movie/'+encodeURIComponent(d.tmdb_id)+'" target="_blank" rel="noopener noreferrer" title="TMDB community rating (last metadata refresh)">TMDB '+Math.round(d.tmdb_rating*10)+'% ↗</a>':'';
+ return tmdb||sources?'<div class="sources">'+tmdb+sources+'</div>':'';
+}
 function render(){
  const q=$('search').value.toLocaleLowerCase(),year=$('year').value,tier=$('tier').value,genre=$('genre').value,status=$('status').value;
  const selected=films.filter(f=>!year||String(f.year)===year);
@@ -102,18 +108,9 @@ function render(){
  $('total').textContent=selected.length;$('seen').textContent=watched;$('progress').style.width=(selected.length?100*watched/selected.length:0)+'%';$('avg').textContent=ratings.length?(ratings.reduce((a,b)=>a+b,0)/ratings.length).toFixed(1):'—';
  $('empty').hidden=shown.length>0;
  $('grid').innerHTML=shown.map(f=>{const p=progress[f.id]||{},d=filmDetails[f.id]||{},cast=Array.isArray(d.cast)?d.cast.slice(0,3).join(', '):'',poster=typeof d.poster==='string'&&/^https:\/\/image\.tmdb\.org\/t\/p\//.test(d.poster)?d.poster:null;
- const ratings=signedInUser?(externalRatings[f.id]||{}):{};
- const sourceNames=[['ebert','Ebert'],['indiewire','IndieWire'],['lwl','LWL'],['guardian','Guardian']];
- const sources=signedInUser?sourceNames.map(([source,name])=>{
-  const item=ratings[source],url=item?.url,score=item?.score;
-  return typeof url==='string'&&/^https:\/\//.test(url)&&typeof score==='string'?'<a class="external-score" href="'+escapeHTML(url)+'" target="_blank" rel="noopener noreferrer" title="'+escapeHTML(name)+'">'+escapeHTML(name)+' '+escapeHTML(score)+' ↗</a>':'';
- }).join(''):'';
- const tmdbRating=typeof d.tmdb_rating==='number'&&Number.isFinite(d.tmdb_rating)&&d.tmdb_rating>0&&d.tmdb_id?
- '<a class="external-score" href="https://www.themoviedb.org/movie/'+encodeURIComponent(d.tmdb_id)+'" target="_blank" rel="noopener noreferrer" title="TMDB community rating (last metadata refresh)">TMDB '+Math.round(d.tmdb_rating*10)+'% ↗</a>':'';
- const recognition=awardHighlights.get(f.id)||(window.CULTURE_FILM_RECOGNITION||{})[f.id]||d.recognition||d.awards||'';
  const rating=Number(p.rating)||0;
 
- return '<article class="film '+((p.watched||p.rating)?'watched':'')+'"><div class="poster"><span class="tier">'+escapeHTML(tiers[f.tier])+'</span>'+(poster?'<img loading="lazy" alt="Poster for '+escapeHTML(f.title)+'" src="'+escapeHTML(poster)+'">':'<span class="initial" aria-hidden="true">'+escapeHTML(f.title[0])+'</span>')+'</div><div class="body"><h3>'+escapeHTML(f.title)+'</h3><div class="meta">'+escapeHTML(f.director)+' · '+displayReleaseYear(f)+'</div>'+(cast?'<div class="cast">'+escapeHTML(cast)+'</div>':'')+'<div class="chips"><span class="chip">'+escapeHTML(f.genre)+'</span></div><div class="recognition">'+escapeHTML(recognition)+'</div><div class="sources">'+tmdbRating+sources+'</div><div class="controls"><div class="star-control"><button type="button" class="star-trigger" aria-label="Set personal rating for '+escapeHTML(f.title)+'" aria-expanded="false" data-open-stars="'+f.id+'">'+(rating?'★ <span class="value">'+rating.toFixed(1)+'/10</span>':'☆ <span class="value">Rate</span>')+'</button></div></div></div></article>'}).join('');
+ return '<article class="film '+((p.watched||p.rating)?'watched':'')+'"><div class="poster"><span class="tier">'+escapeHTML(tiers[f.tier])+'</span>'+(poster?'<img loading="lazy" alt="Poster for '+escapeHTML(f.title)+'" src="'+escapeHTML(poster)+'">':'<span class="initial" aria-hidden="true">'+escapeHTML(f.title[0])+'</span>')+'</div><div class="body"><h3>'+escapeHTML(f.title)+'</h3><div class="meta">'+escapeHTML(f.director)+' · '+displayReleaseYear(f)+'</div>'+(cast?'<div class="cast">'+escapeHTML(cast)+'</div>':'')+'<div class="chips"><span class="chip">'+escapeHTML(f.genre)+'</span></div>'+filmPrizes(f)+filmScores(f)+'<div class="controls"><div class="star-control"><button type="button" class="star-trigger" aria-label="Set personal rating for '+escapeHTML(f.title)+'" aria-expanded="false" data-open-stars="'+f.id+'">'+(rating?'★ <span class="value">'+rating.toFixed(1)+'/10</span>':'☆ <span class="value">Rate</span>')+'</button></div></div></div></article>'}).join('');
  renderAwards();
  renderMyRatings();
 }
@@ -150,7 +147,7 @@ function renderAwards(){
   const people=category?.nomineeNames?.[f.id]||[];
   const performerSuffix=people.length?' · '+people.map(escapeHTML).join(' · '):'';
   const prize=category?(isWinner?'<div class="award-prize">🏆 '+escapeHTML(category.name)+performerSuffix+'</div>':'<div class="award-not-listed">'+escapeHTML(category.name)+' nominee'+performerSuffix+'</div>'):(f.awards?.length?'<div class="award-prize">🏆 '+escapeHTML(f.awards.join(' · '))+'</div>':'<div class="award-not-listed">'+(event?.categories?.length?'Nominated':'In Competition')+'</div>');
-  return '<article class="film '+(p.watched||p.rating?'watched':'')+'"><div class="poster">'+(poster?'<img loading="lazy" alt="Poster for '+escapeHTML(f.title)+'" src="'+escapeHTML(poster)+'">':'<span class="initial" aria-hidden="true">'+escapeHTML(f.title[0])+'</span>')+'</div><div class="body"><h3>'+escapeHTML(f.title)+'</h3><div class="meta">'+escapeHTML(f.director||d.director||'')+' · '+escapeHTML(displayReleaseYear(f))+'</div>'+prize+'<div class="controls"><div class="star-control"><button type="button" class="star-trigger" aria-label="Set personal rating for '+escapeHTML(f.title)+'" data-open-stars="'+f.id+'">'+(rating?'★ <span class="value">'+rating.toFixed(1)+'/10</span>':'☆ <span class="value">Rate</span>')+'</button></div></div></div></article>';
+  return '<article class="film '+(p.watched||p.rating?'watched':'')+'"><div class="poster">'+(poster?'<img loading="lazy" alt="Poster for '+escapeHTML(f.title)+'" src="'+escapeHTML(poster)+'">':'<span class="initial" aria-hidden="true">'+escapeHTML(f.title[0])+'</span>')+'</div><div class="body"><h3>'+escapeHTML(f.title)+'</h3><div class="meta">'+escapeHTML(f.director||d.director||'')+' · '+escapeHTML(displayReleaseYear(f))+'</div>'+filmPrizes(f,prize)+filmScores(f)+'<div class="controls"><div class="star-control"><button type="button" class="star-trigger" aria-label="Set personal rating for '+escapeHTML(f.title)+'" data-open-stars="'+f.id+'">'+(rating?'★ <span class="value">'+rating.toFixed(1)+'/10</span>':'☆ <span class="value">Rate</span>')+'</button></div></div></div></article>';
  }).join('');
 }
 configureAwardSelectors();
@@ -163,7 +160,7 @@ function renderMyRatings(){
  $('ratings-empty').hidden=rows.length!==0;
  $('ratings-grid').innerHTML=rows.map(f=>{
   const d=filmDetails[f.id]||{},rating=Number(progress[f.id]?.rating),poster=typeof d.poster==='string'&&d.poster.startsWith('https://image.tmdb.org/t/p/')?d.poster:null;
-  return '<article class="film watched"><div class="poster">'+(poster?'<img loading="lazy" alt="Poster for '+escapeHTML(f.title)+'" src="'+escapeHTML(poster)+'">':'<span class="initial" aria-hidden="true">'+escapeHTML(f.title[0])+'</span>')+'</div><div class="body"><h3>'+escapeHTML(f.title)+'</h3><div class="meta">'+escapeHTML(f.director)+' · '+escapeHTML(displayReleaseYear(f))+'</div><div class="controls"><div class="star-control"><button type="button" class="star-trigger" data-open-stars="'+f.id+'" aria-label="Change rating for '+escapeHTML(f.title)+'">★ <span class="value">'+rating.toFixed(1)+'/10</span></button></div></div></div></article>';
+  return '<article class="film watched"><div class="poster">'+(poster?'<img loading="lazy" alt="Poster for '+escapeHTML(f.title)+'" src="'+escapeHTML(poster)+'">':'<span class="initial" aria-hidden="true">'+escapeHTML(f.title[0])+'</span>')+'</div><div class="body"><h3>'+escapeHTML(f.title)+'</h3><div class="meta">'+escapeHTML(f.director)+' · '+escapeHTML(displayReleaseYear(f))+'</div>'+filmPrizes(f)+filmScores(f)+'<div class="controls"><div class="star-control"><button type="button" class="star-trigger" data-open-stars="'+f.id+'" aria-label="Change rating for '+escapeHTML(f.title)+'">★ <span class="value">'+rating.toFixed(1)+'/10</span></button></div></div></div></article>';
  }).join('');
 }
 function switchView(view){
