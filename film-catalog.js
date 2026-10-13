@@ -1,4 +1,4 @@
-// Canonical film identity registry. Numeric IDs remain stable for Supabase film_progress; legacy ID 203 aliases ID 57.
+// Canonical film identity registry. Numeric IDs are independent of collections and remain stable for Supabase film_progress.
 window.CULTURE_CATALOG = [
   {
     "id": 1,
