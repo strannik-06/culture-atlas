@@ -66,17 +66,17 @@ async function updateAuth(session){
  const request=++externalRatingsRequest;
  if(signedInUser){
   await loadCloudProgress(signedInUser);
-  if(supabaseClient){
-   const {data,error}=await supabaseClient.from('external_ratings').select('film_id,source,score_display,source_url').in('film_id',allRateableFilms.map(f=>f.id));
-   if(request===externalRatingsRequest&&signedInUser){
-    if(error){console.warn('External ratings unavailable:',error.message)}
-    else for(const row of data||[]){
-     if(!externalRatings[row.film_id])externalRatings[row.film_id]={};
-     externalRatings[row.film_id][row.source]={score:row.score_display,url:row.source_url};
-    }
+ }
+ if(supabaseClient){
+  const {data,error}=await supabaseClient.from('external_ratings').select('film_id,source,score_display,source_url').in('film_id',allRateableFilms.map(f=>f.id));
+  if(request===externalRatingsRequest){
+   if(error){console.warn('External ratings unavailable:',error.message)}
+   else for(const row of data||[]){
+    if(!externalRatings[row.film_id])externalRatings[row.film_id]={};
+    externalRatings[row.film_id][row.source]={score:row.score_display,url:row.source_url};
    }
   }
- }else render();
+ }
  render();
 }
 async function initAuth(){
