@@ -31,7 +31,13 @@ for(const film of catalog){
   const names=[film.title,...(film.alternate_titles||[])];
   const titleMatches=names.some(n=>[movie.title,movie.original_title].some(t=>normalize(n)===normalize(t)||normalize(t).startsWith(normalize(n)+' ')));
   const credited=normalize(film.director);
-  const directorMatches=!film.director||directors.some(d=>normalize(d)===credited)||directors.every(d=>credited.includes(normalize(d).split(' ').at(-1)));
+  const directorAliases={78:['Tsou Shih-ching'],166:['Anselm Chan Mau-Yin'],169:['Dante Lam Chiu-yin']};
+  const creditedNames=[film.director,...(directorAliases[film.id]||[])].filter(Boolean).map(normalize);
+  const directorMatches=!film.director||directors.every(d=>{
+   const normalized=normalize(d);
+   return creditedNames.some(name=>name===normalized||name.includes(normalized)||normalized.includes(name))||
+    credited.split(/\\s*(?:&|,)\\s*/).some(part=>{const words=normalize(part).split(' ');return words.length>1&&words.every(w=>normalized.split(' ').includes(w))});
+  });
   const imdbMatches=!film.imdb_id||!movie.external_ids?.imdb_id||film.imdb_id===movie.external_ids.imdb_id;
   const releaseYear=Number(String(movie.release_date||'').slice(0,4));
   const yearMatches=!film.year||!releaseYear||Math.abs(film.year-releaseYear)<=1;

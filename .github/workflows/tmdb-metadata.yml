@@ -11,8 +11,11 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Validate script syntax
-        run: node --check scripts/refresh-tmdb.mjs
+      - name: Validate catalogue and script syntax
+        run: |
+          node --check scripts/refresh-tmdb.mjs
+          node --check scripts/validate-catalog.mjs
+          node scripts/validate-catalog.mjs
       - name: Audit metadata and TMDB identities (read-only)
         env:
           TMDB_READ_ACCESS_TOKEN: ${{ secrets.TMDB_READ_ACCESS_TOKEN }}

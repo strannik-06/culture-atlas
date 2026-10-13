@@ -1,4 +1,4 @@
-// Canonical film identity registry. Numeric IDs remain stable for Supabase film_progress.
+// Canonical film identity registry. Numeric IDs are independent of collections and remain stable for Supabase film_progress.
 window.CULTURE_CATALOG = [
   {
     "id": 1,
@@ -1615,17 +1615,6 @@ window.CULTURE_CATALOG = [
     "year": null,
     "tmdb_id": 1392527,
     "imdb_id": null
-  },
-  {
-    "id": 203,
-    "title": "Nouvelle Vague",
-    "director": "Richard Linklater",
-    "year": null,
-    "tmdb_id": 1254808,
-    "imdb_id": "tt31688586",
-    "alternate_titles": [
-      "New Wave"
-    ]
   },
   {
     "id": 204,

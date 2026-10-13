@@ -71,8 +71,8 @@ window.CULTURE_AWARDS = [
         ]
       },
       {
-        "id": 203,
-        "title": "New Wave",
+        "id": 57,
+        "title": "Nouvelle Vague",
         "director": "Richard Linklater",
         "awards": []
       },
