@@ -1,5 +1,3 @@
-// Curated official award selections and major categories. Film IDs are shared across events.
-// Berlinale 2025 currently includes verified major prize winners, not the complete competition; see docs/berlinale-2025-competition-audit.md.
 window.CULTURE_AWARDS = [
   {
     "event": "Cannes",
@@ -337,9 +335,8 @@ window.CULTURE_AWARDS = [
     "dates": "13–23 February 2025",
     "awardsDate": "22 February 2025",
     "resultsUrl": "https://www.berlinale.de/en/archive/awards-juries/awards.html/o%3Ddesc/p%3D1/rp%3D40",
-    "section": "Major Competition Prize Winners",
-    "scope": "winners",
-    "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/o%3Ddesc/p%3D1/rp%3D40",
+    "section": "Main Competition",
+    "source": "https://www.berlinale.de/en/2025/topics/competition-2025-2.html",
     "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/o%3Ddesc/p%3D1/rp%3D40",
     "films": [
       {
@@ -413,6 +410,83 @@ window.CULTURE_AWARDS = [
         "awards": [
           "Outstanding Artistic Contribution"
         ]
+      },
+      {
+        "id": 227,
+        "title": "Ari",
+        "director": "Léonor Serraille",
+        "year": 2025,
+        "awards": []
+      },
+      {
+        "id": 228,
+        "title": "The Safe House",
+        "director": "Lionel Baier",
+        "year": 2025,
+        "awards": []
+      },
+      {
+        "id": 229,
+        "title": "Dreams",
+        "director": "Michel Franco",
+        "year": 2025,
+        "awards": []
+      },
+      {
+        "id": 230,
+        "title": "What Does that Nature Say to You",
+        "director": "Hong Sang-soo",
+        "year": 2025,
+        "awards": []
+      },
+      {
+        "id": 231,
+        "title": "Hot Milk",
+        "director": "Rebecca Lenkiewicz",
+        "year": 2025,
+        "awards": []
+      },
+      {
+        "id": 232,
+        "title": "Mother's Baby",
+        "director": "Johanna Moder",
+        "year": 2025,
+        "awards": []
+      },
+      {
+        "id": 233,
+        "title": "Reflection in a Dead Diamond",
+        "director": "Hélène Cattet, Bruno Forzani",
+        "year": 2025,
+        "awards": []
+      },
+      {
+        "id": 234,
+        "title": "Girls on Wire",
+        "director": "Vivian Qu",
+        "year": 2025,
+        "awards": []
+      },
+      {
+        "id": 235,
+        "title": "Timestamp",
+        "director": "Kateryna Gornostai",
+        "year": 2025,
+        "awards": []
+      },
+      {
+        "id": 236,
+        "title": "What Marielle Knows",
+        "director": "Frédéric Hambalek",
+        "year": 2025,
+        "awards": []
+      },
+      {
+        "id": 237,
+        "title": "Yunan",
+        "director": "Ameer Fakher Eldin",
+        "year": 2025,
+        "awards": []
       }
     ]
   },

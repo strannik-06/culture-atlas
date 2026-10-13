@@ -1,4 +1,3 @@
-// Canonical film identity registry. Numeric IDs are independent of collections and remain stable for Supabase film_progress.
 window.CULTURE_CATALOG = [
   {
     "id": 1,
@@ -1806,5 +1805,114 @@ window.CULTURE_CATALOG = [
     "year": 2024,
     "tmdb_id": 1235499,
     "imdb_id": null
+  },
+  {
+    "id": 227,
+    "title": "Ari",
+    "director": "Léonor Serraille",
+    "year": 2025,
+    "alternate_titles": [
+      "Arï"
+    ],
+    "tmdb_id": 1256192,
+    "imdb_id": "tt31869782"
+  },
+  {
+    "id": 228,
+    "title": "The Safe House",
+    "director": "Lionel Baier",
+    "year": 2025,
+    "alternate_titles": [
+      "La cache"
+    ],
+    "tmdb_id": 1266809,
+    "imdb_id": "tt31566788"
+  },
+  {
+    "id": 229,
+    "title": "Dreams",
+    "director": "Michel Franco",
+    "year": 2025,
+    "tmdb_id": 1134463,
+    "imdb_id": "tt31710990"
+  },
+  {
+    "id": 230,
+    "title": "What Does that Nature Say to You",
+    "director": "Hong Sang-soo",
+    "year": 2025,
+    "alternate_titles": [
+      "Geu jayeoni nege mworago hani"
+    ],
+    "tmdb_id": 1418849,
+    "imdb_id": "tt35499025"
+  },
+  {
+    "id": 231,
+    "title": "Hot Milk",
+    "director": "Rebecca Lenkiewicz",
+    "year": 2025,
+    "tmdb_id": 933490,
+    "imdb_id": "tt17538632"
+  },
+  {
+    "id": 232,
+    "title": "Mother's Baby",
+    "director": "Johanna Moder",
+    "year": 2025,
+    "tmdb_id": 1421148,
+    "imdb_id": "tt26757241"
+  },
+  {
+    "id": 233,
+    "title": "Reflection in a Dead Diamond",
+    "director": "Hélène Cattet, Bruno Forzani",
+    "year": 2025,
+    "alternate_titles": [
+      "Reflet dans un diamant mort"
+    ],
+    "tmdb_id": 1013446,
+    "imdb_id": "tt32263401"
+  },
+  {
+    "id": 234,
+    "title": "Girls on Wire",
+    "director": "Vivian Qu",
+    "year": 2025,
+    "alternate_titles": [
+      "Xiang fei de nv hai"
+    ],
+    "tmdb_id": 1275332,
+    "imdb_id": "tt32120173"
+  },
+  {
+    "id": 235,
+    "title": "Timestamp",
+    "director": "Kateryna Gornostai",
+    "year": 2025,
+    "alternate_titles": [
+      "Strichka chasu"
+    ],
+    "tmdb_id": 1421157,
+    "imdb_id": "tt35499036"
+  },
+  {
+    "id": 236,
+    "title": "What Marielle Knows",
+    "director": "Frédéric Hambalek",
+    "year": 2025,
+    "alternate_titles": [
+      "Was Marielle weiß"
+    ],
+    "tmdb_id": 1416893,
+    "imdb_id": "tt35500283"
+  },
+  {
+    "id": 237,
+    "title": "Yunan",
+    "director": "Ameer Fakher Eldin",
+    "year": 2025,
+    "tmdb_id": 1189738,
+    "imdb_id": "tt24022322"
   }
 ];
