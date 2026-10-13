@@ -1621,8 +1621,8 @@ window.CULTURE_CATALOG = [
     "title": "Nouvelle Vague",
     "director": "Richard Linklater",
     "year": null,
-    "tmdb_id": null,
-    "imdb_id": null,
+    "tmdb_id": 1254808,
+    "imdb_id": "tt31688586",
     "alternate_titles": [
       "New Wave"
     ]
@@ -1737,7 +1737,7 @@ window.CULTURE_CATALOG = [
     "director": "Franco Maresco",
     "year": 2025,
     "tmdb_id": null,
-    "imdb_id": null,
+    "imdb_id": "tt30874362",
     "alternate_titles": [
       "A Film Made for Bene",
       "Bravo Bene!"
