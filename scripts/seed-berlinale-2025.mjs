@@ -27,7 +27,7 @@ for(const [title,director,alternate_titles] of missing){
  if(catalog.some(f=>f.title===title&&f.director===director))throw Error('Already in catalogue: '+title);
  const film={id:next++,title,director,year:2025,...(alternate_titles?{alternate_titles}:{})};
  catalog.push(film);
- berlinale.films.push({id:film.id,title,director,year:2025,awards:[]});
+ berlinale.films.push({id:film.id,awards:[]});
 }
 if(berlinale.films.length!==19)throw Error('Expected 19 films');
 berlinale.section='Main Competition';delete berlinale.scope;
