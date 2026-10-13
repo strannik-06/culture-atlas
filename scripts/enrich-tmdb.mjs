@@ -12,7 +12,7 @@ const catalog=JSON.parse(text.slice(text.indexOf(prefix)+prefix.length).trim().r
 const token=process.env.TMDB_READ_ACCESS_TOKEN;
 if(!token)throw Error('Set TMDB_READ_ACCESS_TOKEN (do not commit tokens to GitHub)');
 const apply=process.argv.includes('--apply');
-const norm=s=>String(s||'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
+const norm=s=>String(s||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
 const wait=ms=>new Promise(r=>setTimeout(r,ms));
 async function api(endpoint,params={}){
  const url=new URL('https://api.themoviedb.org/3/'+endpoint);
@@ -46,7 +46,7 @@ for(const film of catalog){
   const directors=(detail.credits?.crew||[]).filter(c=>c.job==='Director').map(c=>c.name);
   // Match each named co-director against TMDB's separate director credits.
   // Do not accept a partial match: all listed directors must be represented.
-  const expectedDirectors=String(film.director||'').split(/\\s*(?:,|\\s+&\\s+|\\s+and\\s+)\\s*/i).map(norm).filter(Boolean);
+  const expectedDirectors=String(film.director||'').split(/\s*(?:,|\s+&\s+|\s+and\s+)\s*/i).map(norm).filter(Boolean);
   if(expectedDirectors.length&&!expectedDirectors.every(expected=>directors.some(actual=>norm(actual)===expected)))continue;
   matches.push({tmdb_id:candidate.id,title:detail.title,year,directors,imdb_id:detail.imdb_id||detail.external_ids?.imdb_id||null});
   await wait(250);
