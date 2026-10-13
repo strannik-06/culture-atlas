@@ -1194,7 +1194,7 @@ window.CULTURE_AWARDS = [
       {
         "id": 223,
         "title": "Blitz",
-        "director": "",
+        "director": "Steve McQueen",
         "year": 2025,
         "awards": []
       },
