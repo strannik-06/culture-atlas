@@ -1,0 +1,50 @@
+name: Propose complete Berlinale 2025 Competition
+on:
+  workflow_dispatch:
+jobs:
+  propose:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Seed 11 missing official Competition films
+        run: node scripts/seed-berlinale-2025.mjs
+      - name: Match all new identities with TMDB (never guess)
+        env:
+          TMDB_READ_ACCESS_TOKEN: ${{ secrets.TMDB_READ_ACCESS_TOKEN }}
+        run: node scripts/enrich-tmdb.mjs --apply
+      - name: Validate canonical references
+        run: node scripts/validate-catalog.mjs
+      - name: Generate and validate enriched metadata
+        env:
+          TMDB_READ_ACCESS_TOKEN: ${{ secrets.TMDB_READ_ACCESS_TOKEN }}
+        run: node scripts/refresh-tmdb.mjs --apply
+      - name: Upload identity matching audit
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: berlinale-2025-tmdb-matching
+          path: tmdb-match-report.json
+          if-no-files-found: warn
+      - name: Create Berlinale data PR (only if every identity validates)
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: generated/berlinale-2025-complete
+          delete-branch: true
+          add-paths: |
+            film-catalog.js
+            awards-2025.js
+            film-details.js
+          title: Complete Berlinale 2025 Main Competition (19 films)
+          commit-message: Add 11 verified Berlinale 2025 Competition films
+          body: |
+            Adds 11 missing official Competition films to the canonical catalogue and
+            Berlinale 2025, preserving eight existing winners and IDs.
+            Every new TMDB match must be unambiguous and the full metadata audit
+            must pass before this PR can be created. Review before merging.
