@@ -11,7 +11,7 @@
 <main class="shell"><nav class="film-subnav" aria-label="Films sections"><button class="film-subtab active" type="button" data-view="films">Top 100</button><button class="film-subtab" type="button" data-view="awards">Awards</button><button class="film-subtab" type="button" data-view="ratings">My ratings</button></nav><section class="hero" id="films-hero"><div class="eyebrow">Your curated cultural collection</div><h1>Cinema worth exploring.</h1><p>A personal atlas of remarkable films, from festival discoveries to animation and documentaries. Explore the 2024 and 2025 selections, keep track of what you've seen and rate your favorites.</p></section>
 <div id="films-view"><section class="stats"><div class="stat"><strong id="total">100</strong><small>Films selected</small></div><div class="stat"><strong id="seen">0</strong><small>Films watched</small><div class="bar"><i id="progress" style="width:0%"></i></div></div><div class="stat"><strong id="avg">—</strong><small>Average personal rating</small></div></section>
 <section id="account" class="account-panel" hidden><strong>Personal sync</strong><p id="auth-status" style="color:#b7bcc9;margin:9px 0">Checking sign-in…</p><form id="login-form" style="display:none;gap:10px;flex-wrap:wrap"><input id="email" type="email" required placeholder="Email address for magic link" aria-label="Email address"><button class="action" type="submit">Send sign-in link</button></form><div id="account-tools" hidden><button id="export" class="action" type="button">Export progress ↓</button><label class="action" for="import-ratings" style="cursor:pointer;display:inline-block">Import ratings ↑</label><input id="import-ratings" type="file" accept=".json,application/json" hidden></div><button id="logout" class="action" type="button" hidden>Sign out</button><p id="auth-message" role="status" style="color:#eeb66c;font-size:13px"></p></section><section class="filters" aria-label="Filter films"><select id="year" aria-label="Film year"><option value="2025">2025</option><option value="2024">2024</option><option value="">All years</option></select><input id="search" type="search" placeholder="Search films or directors…" aria-label="Search films or directors"><select id="tier" aria-label="Priority"><option value="">All priorities</option><option value="1">Must See (30)</option><option value="2">Strong Recommendations (40)</option><option value="3">Worth Exploring (30)</option></select><select id="genre" aria-label="Genre"><option value="">All genres</option></select><select id="status" aria-label="Watch status"><option value="">All films</option><option value="unwatched">Unwatched</option><option value="watched">Watched</option></select></section>
-<div class="count" id="count" aria-live="polite"></div><div class="grid" id="grid"></div><div class="empty" id="empty" hidden>No films match these filters.</div></div><section id="awards-view" hidden><div class="hero"><div class="eyebrow">Festivals & prizes</div><h1>Awards atlas.</h1><p>Explore official selections, winners and nominees. Your ratings are shared with the film collection.</p></div><div class="filters"><select id="award-event" aria-label="Award event"><option value="Cannes">Cannes</option></select><select id="award-year" aria-label="Award year"><option value="2025">2025</option></select><select id="award-filter" aria-label="Award result"><option value="all">All competition films</option><option value="winners">Prize winners</option></select></div><p class="count" id="awards-count"></p><div id="awards-grid" class="grid"></div><p class="meta">Source: <a href="https://www.festival-cannes.com/en/press/press-releases/the-films-of-the-official-selection-2025/" target="_blank" rel="noopener noreferrer">Official Cannes selection</a> · <a href="https://www.festival-cannes.com/en/retrospective/2025/awards/" target="_blank" rel="noopener noreferrer">Official prizes</a>. Additional festivals and categories coming later.</p></section><section id="ratings-view" hidden><div class="hero"><div class="eyebrow">Your personal collection</div><h1>My ratings.</h1><p>Every film you have rated, including films from the Awards section.</p></div><div class="filters"><input id="ratings-search" type="search" placeholder="Search rated films or directors…" aria-label="Search my ratings"><select id="ratings-sort" aria-label="Sort ratings"><option value="rating">Highest rated first</option><option value="title">Title A–Z</option><option value="year">Year newest first</option></select></div><div class="count" id="ratings-count"></div><div class="grid" id="ratings-grid"></div><div class="empty" id="ratings-empty" hidden>No rated films yet. Rate a film in Top 100 or Awards to see it here.</div></section>
+<div class="count" id="count" aria-live="polite"></div><div class="grid" id="grid"></div><div class="empty" id="empty" hidden>No films match these filters.</div></div><section id="awards-view" hidden><div class="hero"><div class="eyebrow">Festivals & prizes</div><h1>Awards atlas.</h1><p>Explore official selections, winners and nominees. Your ratings are shared with the film collection.</p></div><div class="filters"><select id="award-event" aria-label="Award event"></select><select id="award-year" aria-label="Award year"></select><select id="award-category" aria-label="Award category"><option value="all">All major categories</option></select><select id="award-filter" aria-label="Award result"><option value="all">All nominees / selections</option><option value="winners">Winners only</option></select></div><p class="count" id="awards-count"></p><div id="awards-grid" class="grid"></div><p class="meta" id="awards-source"></p></section><section id="ratings-view" hidden><div class="hero"><div class="eyebrow">Your personal collection</div><h1>My ratings.</h1><p>Every film you have rated, including films from the Awards section.</p></div><div class="filters"><input id="ratings-search" type="search" placeholder="Search rated films or directors…" aria-label="Search my ratings"><select id="ratings-sort" aria-label="Sort ratings"><option value="rating">Highest rated first</option><option value="title">Title A–Z</option><option value="year">Year newest first</option></select></div><div class="count" id="ratings-count"></div><div class="grid" id="ratings-grid"></div><div class="empty" id="ratings-empty" hidden>No rated films yet. Rate a film in Top 100 or Awards to see it here.</div></section>
 </main><footer><div class="shell">Culture Atlas · Films prototype · Your progress is saved in your browser until you sign in; signed-in progress syncs with Supabase. These are curated 2024 and 2025 viewing lists; some films premiered earlier or have different local release years. Film metadata from TMDB; critic reviews shown only when verified. Books and music are planned.</div></footer>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script><script src="film-details.js"></script><script src="films-2024.js"></script><script src="film-recognition.js"></script><script src="awards-2025.js"></script>
 <script>
@@ -19,10 +19,15 @@ const films=[{"id":1,"title":"It Was Just an Accident","director":"Jafar Panahi"
 films.push(...(window.CULTURE_FILMS_2024||[]));
 const filmDetails=window.CULTURE_FILM_DETAILS||{};
 const awardEvents=window.CULTURE_AWARDS||[];
-const awardOnlyFilms=awardEvents.flatMap(e=>e.films).filter(f=>!films.some(x=>x.id===f.id));
+const awardFilmMap=new Map();
+for(const event of awardEvents)for(const film of event.films)if(!awardFilmMap.has(film.id))awardFilmMap.set(film.id,film);
+const awardOnlyFilms=[...awardFilmMap.values()].filter(f=>!films.some(x=>x.id===f.id));
 const allRateableFilms=[...films,...awardOnlyFilms];
 const awardHighlights=new Map();
-for(const event of awardEvents)for(const film of event.films)if(film.awards?.length)awardHighlights.set(film.id,event.year+' '+event.event+' · '+film.awards.join('; '));
+for(const event of awardEvents)for(const film of event.films)if(film.awards?.length){
+ const line=event.year+' '+event.event+' · '+film.awards.join('; ');
+ awardHighlights.set(film.id,[awardHighlights.get(film.id),line].filter(Boolean).join(' · '));
+}
 let externalRatings={};
 let externalRatingsRequest=0;
 const key='culture-atlas:films:v1';
@@ -104,17 +109,36 @@ function render(){
  renderMyRatings();
 }
 let currentView='films';
+function configureAwardSelectors(){
+ const eventSelect=$('award-event'),yearSelect=$('award-year');
+ eventSelect.innerHTML=[...new Set(awardEvents.map(e=>e.event))].map(v=>'<option value="'+escapeHTML(v)+'">'+escapeHTML(v)+'</option>').join('');
+ yearSelect.innerHTML=[...new Set(awardEvents.map(e=>e.year))].sort((a,b)=>b-a).map(v=>'<option value="'+v+'">'+v+'</option>').join('');
+}
+function configureAwardCategories(){
+ const event=awardEvents.find(e=>e.event===$('award-event').value&&String(e.year)===$('award-year').value);
+ const previous=$('award-category').value;
+ $('award-category').innerHTML='<option value="all">'+(event?.categories?.length?'All major categories':'All competition films')+'</option>'+
+ (event?.categories||[]).map((c,i)=>'<option value="'+i+'">'+escapeHTML(c.name)+'</option>').join('');
+ if([...$('award-category').options].some(o=>o.value===previous))$('award-category').value=previous;
+}
 function renderAwards(){
  const event=awardEvents.find(e=>e.event===$('award-event').value&&String(e.year)===$('award-year').value);
- const rows=event?.films||[];
- const shown=$('award-filter').value==='winners'?rows.filter(f=>f.awards?.length):rows;
- $('awards-count').textContent=shown.length+' of '+rows.length+' '+(event?.section||'')+' films';
+ const categoryValue=$('award-category').value;
+ const category=categoryValue==='all'?null:event?.categories?.[Number(categoryValue)];
+ const candidates=category?event.films.filter(f=>category.nominees.includes(f.id)):(event?.films||[]);
+ const shown=$('award-filter').value==='winners'?candidates.filter(f=>category?f.id===category.winner:f.awards?.length):candidates;
+ $('awards-count').textContent=shown.length+' of '+candidates.length+' '+(category?.name||event?.section||'')+' films'+(event?.scope==='winners'?' · major winners only':'');
+ const source=event?.source,awardsSource=event?.awardsSource;
+ $('awards-source').innerHTML=source?'Official sources: <a href="'+escapeHTML(source)+'" target="_blank" rel="noopener noreferrer">Selections / nominees</a>'+(awardsSource&&awardsSource!==source?' · <a href="'+escapeHTML(awardsSource)+'" target="_blank" rel="noopener noreferrer">Prize results</a>':''):'';
  $('awards-grid').innerHTML=shown.map(f=>{
   const p=progress[f.id]||{},rating=Number(p.rating)||0,d=filmDetails[f.id]||{},poster=typeof d.poster==='string'&&d.poster.startsWith('https://image.tmdb.org/t/p/')?d.poster:null;
-  const prize=f.awards?.length?'<div class="award-prize">🏆 '+escapeHTML(f.awards.join(' · '))+'</div>':'<div class="award-not-listed">In Competition</div>';
-  return '<article class="film '+(p.watched||p.rating?'watched':'')+'"><div class="poster">'+(poster?'<img loading="lazy" alt="Poster for '+escapeHTML(f.title)+'" src="'+escapeHTML(poster)+'">':'<span class="initial" aria-hidden="true">'+escapeHTML(f.title[0])+'</span>')+'</div><div class="body"><h3>'+escapeHTML(f.title)+'</h3><div class="meta">'+escapeHTML(f.director)+' · 2025</div>'+prize+'<div class="controls"><div class="star-control"><button type="button" class="star-trigger" aria-label="Set personal rating for '+escapeHTML(f.title)+'" data-open-stars="'+f.id+'">'+(rating?'★ <span class="value">'+rating.toFixed(1)+'/10</span>':'☆ <span class="value">Rate</span>')+'</button></div></div></div></article>';
+  const isWinner=category?f.id===category.winner:!!f.awards?.length;
+  const prize=category?(isWinner?'<div class="award-prize">🏆 '+escapeHTML(category.name)+' winner</div>':'<div class="award-not-listed">'+escapeHTML(category.name)+' nominee</div>'):(f.awards?.length?'<div class="award-prize">🏆 '+escapeHTML(f.awards.join(' · '))+'</div>':'<div class="award-not-listed">'+(event?.categories?.length?'Nominated':'In Competition')+'</div>');
+  return '<article class="film '+(p.watched||p.rating?'watched':'')+'"><div class="poster">'+(poster?'<img loading="lazy" alt="Poster for '+escapeHTML(f.title)+'" src="'+escapeHTML(poster)+'">':'<span class="initial" aria-hidden="true">'+escapeHTML(f.title[0])+'</span>')+'</div><div class="body"><h3>'+escapeHTML(f.title)+'</h3><div class="meta">'+escapeHTML(f.director||'')+' · '+escapeHTML(f.year||2025)+'</div>'+prize+'<div class="controls"><div class="star-control"><button type="button" class="star-trigger" aria-label="Set personal rating for '+escapeHTML(f.title)+'" data-open-stars="'+f.id+'">'+(rating?'★ <span class="value">'+rating.toFixed(1)+'/10</span>':'☆ <span class="value">Rate</span>')+'</button></div></div></div></article>';
  }).join('');
 }
+configureAwardSelectors();
+configureAwardCategories();
 function renderMyRatings(){
  const q=$('ratings-search').value.trim().toLocaleLowerCase(),sort=$('ratings-sort').value;
  const rows=allRateableFilms.filter(f=>{const rating=Number(progress[f.id]?.rating);return rating>=0.5&&rating<=10&&(!q||(f.title+' '+f.director).toLocaleLowerCase().includes(q))});
@@ -138,7 +162,9 @@ function switchView(view){
 }
 document.querySelectorAll('.film-subtab').forEach(tab=>tab.addEventListener('click',()=>switchView(tab.dataset.view)));
 ['ratings-search','ratings-sort'].forEach(id=>$(id).addEventListener(id==='ratings-search'?'input':'change',renderMyRatings));
-['award-event','award-year','award-filter'].forEach(id=>$(id).addEventListener('change',renderAwards));
+$('award-event').addEventListener('change',()=>{configureAwardCategories();renderAwards()});
+$('award-year').addEventListener('change',()=>{configureAwardCategories();renderAwards()});
+['award-category','award-filter'].forEach(id=>$(id).addEventListener('change',renderAwards));
 ['search','year','tier','genre','status'].forEach(id=>$(id).addEventListener(id==='search'?'input':'change',render));
 // Keep the rating popover outside the card grid so no card can clip it.
 const ratingPopover=document.createElement('div');
