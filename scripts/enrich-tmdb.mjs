@@ -41,7 +41,9 @@ for(const film of catalog){
   matches.push({tmdb_id:candidate.id,title:detail.title,year,directors,imdb_id:detail.imdb_id||detail.external_ids?.imdb_id||null});
   await wait(250);
  }
- // Without a director, only accept a unique title match within two years of the listed year.\n const safeMatches=film.director?matches:matches.filter(m=>film.year&&m.year&&Math.abs(film.year-m.year)<=2);\n if(safeMatches.length===1&&!seen.has(safeMatches[0].tmdb_id)){
+ // Without a director, only accept a unique title match within two years of the listed year.
+ const safeMatches=film.director?matches:matches.filter(m=>film.year&&m.year&&Math.abs(film.year-m.year)<=2);
+ if(safeMatches.length===1&&!seen.has(safeMatches[0].tmdb_id)){
   const match=safeMatches[0];audit.matched.push({id:film.id,title:film.title,...match});
   if(apply){film.tmdb_id=match.tmdb_id;film.imdb_id=match.imdb_id}
   seen.set(match.tmdb_id,film.id);
