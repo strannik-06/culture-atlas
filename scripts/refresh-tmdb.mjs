@@ -30,14 +30,20 @@ for(const film of catalog){
   const normalize=s=>String(s||'').normalize('NFKD').replace(/[\\u0300-\\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
   const names=[film.title,...(film.alternate_titles||[])];
   const titleMatches=names.some(n=>[movie.title,movie.original_title].some(t=>normalize(n)===normalize(t)||normalize(t).startsWith(normalize(n)+' ')));
-  const credited=normalize(film.director);
-  const directorAliases={78:['Tsou Shih-ching'],166:['Anselm Chan Mau-Yin'],169:['Dante Lam Chiu-yin']};
+  const directorAliases={78:['Tsou Shih-ching'],98:['Alexander Woo'],166:['Anselm Chan Mau-Yin'],169:['Dante Lam Chiu-yin']};
   const creditedNames=[film.director,...(directorAliases[film.id]||[])].filter(Boolean).map(normalize);
-  const directorMatches=!film.director||directors.every(d=>{
+  const creditedParts=String(film.director||'').split(/\s*(?:&|,)\s*/).map(normalize).filter(Boolean);
+  const creditedTokens=creditedParts.map(part=>part.split(' '));
+  // Shared family names are often omitted in the first half of a paired credit:
+  // "Jean-Pierre & Luc Dardenne" vs "Jean-Pierre Dardenne", "Luc Dardenne".
+  const sharedSurnames=new Set(creditedTokens.filter(words=>words.length>1).map(words=>words.at(-1)));
+  const directorMatches=!film.director||(directors.length>0&&directors.every(d=>{
    const normalized=normalize(d);
+   const tokens=normalized.split(' ');
    return creditedNames.some(name=>name===normalized||name.includes(normalized)||normalized.includes(name))||
-    credited.split(/\\s*(?:&|,)\\s*/).some(part=>{const words=normalize(part).split(' ');return words.length>1&&words.every(w=>normalized.split(' ').includes(w))});
-  });
+    creditedTokens.some(words=>words.length>0&&words.every(w=>tokens.includes(w))&&
+      (words.length>1||[...sharedSurnames].some(surname=>tokens.includes(surname))));
+  }));
   const imdbMatches=!film.imdb_id||!movie.external_ids?.imdb_id||film.imdb_id===movie.external_ids.imdb_id;
   const releaseYear=Number(String(movie.release_date||'').slice(0,4));
   const yearMatches=!film.year||!releaseYear||Math.abs(film.year-releaseYear)<=1;
