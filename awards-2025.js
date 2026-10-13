@@ -717,7 +717,7 @@ window.CULTURE_AWARDS = [
       {
         "id": 220,
         "title": "A Complete Unknown",
-        "director": "",
+        "director": "James Mangold",
         "year": 2025,
         "awards": []
       },
@@ -802,7 +802,7 @@ window.CULTURE_AWARDS = [
       {
         "id": 221,
         "title": "September 5",
-        "director": "",
+        "director": "Tim Fehlbaum",
         "year": 2025,
         "awards": []
       },
@@ -848,7 +848,7 @@ window.CULTURE_AWARDS = [
       {
         "id": 222,
         "title": "Porcelain War",
-        "director": "",
+        "director": "Brendan Bellomo, Slava Leontyev",
         "year": 2025,
         "awards": []
       },
@@ -1137,7 +1137,7 @@ window.CULTURE_AWARDS = [
       {
         "id": 220,
         "title": "A Complete Unknown",
-        "director": "",
+        "director": "James Mangold",
         "year": 2025,
         "awards": []
       },
@@ -1201,7 +1201,7 @@ window.CULTURE_AWARDS = [
       {
         "id": 224,
         "title": "Gladiator II",
-        "director": "",
+        "director": "Ridley Scott",
         "year": 2025,
         "awards": []
       },
@@ -1222,7 +1222,7 @@ window.CULTURE_AWARDS = [
       {
         "id": 225,
         "title": "Lee",
-        "director": "",
+        "director": "Ellen Kuras",
         "year": 2025,
         "awards": []
       },
@@ -1376,7 +1376,7 @@ window.CULTURE_AWARDS = [
       {
         "id": 226,
         "title": "The Last Showgirl",
-        "director": "",
+        "director": "Gia Coppola",
         "year": 2024,
         "awards": []
       }
@@ -1406,7 +1406,7 @@ window.CULTURE_AWARDS = [
       {
         "id": 220,
         "title": "A Complete Unknown",
-        "director": "",
+        "director": "James Mangold",
         "year": 2025,
         "awards": []
       },
@@ -1436,7 +1436,7 @@ window.CULTURE_AWARDS = [
       {
         "id": 221,
         "title": "September 5",
-        "director": "",
+        "director": "Tim Fehlbaum",
         "year": 2025,
         "awards": []
       },
@@ -1574,7 +1574,7 @@ window.CULTURE_AWARDS = [
       {
         "id": 226,
         "title": "The Last Showgirl",
-        "director": "",
+        "director": "Gia Coppola",
         "year": 2024,
         "awards": []
       },
@@ -1602,7 +1602,7 @@ window.CULTURE_AWARDS = [
       {
         "id": 225,
         "title": "Lee",
-        "director": "",
+        "director": "Ellen Kuras",
         "year": 2025,
         "awards": []
       },
@@ -1674,7 +1674,7 @@ window.CULTURE_AWARDS = [
       {
         "id": 224,
         "title": "Gladiator II",
-        "director": "",
+        "director": "Ridley Scott",
         "year": 2025,
         "awards": []
       }
