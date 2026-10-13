@@ -11,7 +11,7 @@ if(events.some(e=>e.event==='Golden Globes'&&e.year===2025))throw Error('Golden 
 const additions=[
  ['Maria','Pablo Larraín'],['Babygirl','Halina Reijn'],['Nightbitch','Marielle Heller'],
  ['Saturday Night','Jason Reitman'],['Kinds of Kindness','Yorgos Lanthimos'],
- ['Hit Man','Richard Linklater'],['Moana 2','David Derrick Jr., Jason Hand, Dana Ledoux Miller']
+ ['Hit Man','Richard Linklater'],['Moana 2','David G. Derrick Jr., Jason Hand, Dana Ledoux Miller']
 ];
 let next=Math.max(...catalog.map(f=>f.id))+1;
 for(const [title,director] of additions){
