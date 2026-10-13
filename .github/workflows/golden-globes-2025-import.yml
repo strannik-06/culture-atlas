@@ -1,0 +1,50 @@
+name: Propose Golden Globes 2025
+on:
+  workflow_dispatch:
+jobs:
+  propose:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Seed official major film nominees and winners
+        run: node scripts/seed-golden-globes-2025.mjs
+      - name: Verify new TMDB identities
+        env:
+          TMDB_READ_ACCESS_TOKEN: ${{ secrets.TMDB_READ_ACCESS_TOKEN }}
+        run: node scripts/enrich-tmdb.mjs --apply
+      - name: Validate canonical catalogue
+        run: node scripts/validate-catalog.mjs
+      - name: Validate and enrich film metadata
+        env:
+          TMDB_READ_ACCESS_TOKEN: ${{ secrets.TMDB_READ_ACCESS_TOKEN }}
+        run: node scripts/refresh-tmdb.mjs --apply
+      - name: Upload TMDB match audit
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: golden-globes-2025-matching
+          path: tmdb-match-report.json
+          if-no-files-found: warn
+      - name: Create reviewable data PR
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: generated/golden-globes-2025
+          delete-branch: true
+          add-paths: |
+            film-catalog.js
+            awards-2025.js
+            film-details.js
+          title: Add Golden Globes 2025 major film nominees and winners
+          commit-message: Import verified Golden Globes 2025 major film awards
+          body: |
+            Official 82nd Golden Globes major film categories, 5 January 2025.
+            Nominees and winners sourced from Golden Globes' official announcements.
+            Canonical film identities and metadata must pass validation before this PR is created.
+            Review before merging.
