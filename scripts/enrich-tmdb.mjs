@@ -12,7 +12,7 @@ const catalog=JSON.parse(text.slice(text.indexOf(prefix)+prefix.length).trim().r
 const token=process.env.TMDB_READ_ACCESS_TOKEN;
 if(!token)throw Error('Set TMDB_READ_ACCESS_TOKEN (do not commit tokens to GitHub)');
 const apply=process.argv.includes('--apply');
-const norm=s=>String(s||'').normalize('NFKD').replace(/[^\\x00-\\x7F]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
+const norm=s=>String(s||'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
 const wait=ms=>new Promise(r=>setTimeout(r,ms));
 async function api(endpoint,params={}){
  const url=new URL('https://api.themoviedb.org/3/'+endpoint);
