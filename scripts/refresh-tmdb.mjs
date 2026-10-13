@@ -30,7 +30,7 @@ for(const film of catalog){
   const normalize=s=>String(s||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
   const names=[film.title,...(film.alternate_titles||[])];
   const titleMatches=names.some(n=>[movie.title,movie.original_title].some(t=>normalize(n)===normalize(t)||normalize(t).startsWith(normalize(n)+' ')));
-  const directorAliases={78:['Tsou Shih-ching'],98:['Alexander Woo'],166:['Anselm Chan Mau-Yin'],169:['Dante Lam Chiu-yin']};
+  const directorAliases={55:['Rohan Kanawade'],78:['Tsou Shih-ching'],98:['Alexander Woo'],166:['Anselm Chan Mau-Yin'],169:['Dante Lam Chiu-yin']};
   const creditedNames=[film.director,...(directorAliases[film.id]||[])].filter(Boolean).map(normalize);
   const creditedParts=String(film.director||'').split(/\s*(?:&|,)\s*/).map(normalize).filter(Boolean);
   const creditedTokens=creditedParts.map(part=>part.split(' '));
