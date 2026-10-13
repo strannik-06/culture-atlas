@@ -33,9 +33,9 @@ const categories=[
  ['Director',['Emilia Pérez','Anora','Conclave','The Brutalist','The Substance','All We Imagine as Light'],'The Brutalist'],
  ['Screenplay',['Emilia Pérez','Anora','The Brutalist','A Real Pain','The Substance','Conclave'],'Conclave']
 ];
-// A category can nominate the same film twice for two different performers.
-const extraNominees={'Supporting Actress':{'Emilia Pérez':2}};
-const cat=categories.map(([name,titles,winner])=>({name,nominees:titles.flatMap(title=>Array(extraNominees[name]?.[title]||1).fill(id(title))),winner:id(winner)}));
+// Film-centric UI lists each nominated film once per category, even if multiple actors
+// from the same film were nominated (e.g. Emilia Pérez supporting actresses).
+const cat=categories.map(([name,titles,winner])=>({name,nominees:titles.map(id),winner:id(winner)}));
 const filmIds=[...new Set(cat.flatMap(c=>c.nominees))];
 const filmRefs=filmIds.map(filmId=>{const f=catalog.find(x=>x.id===filmId);return {id:f.id,title:f.title,director:f.director,year:f.year,awards:cat.filter(c=>c.winner===filmId).map(c=>c.name)}});
 events.push({event:'Golden Globes',year:2025,section:'Major Film Categories',dates:'5 January 2025',awardsDate:'5 January 2025',source:'https://goldenglobes.com/articles/nominations-announced-for-82nd-annual-golden-globes/',awardsSource:'https://goldenglobes.com/articles/the-82nd-golden-globe-awards-winners/',resultsUrl:'https://goldenglobes.com/articles/the-82nd-golden-globe-awards-winners/',films:filmRefs,categories:cat});
