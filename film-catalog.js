@@ -1914,5 +1914,61 @@ window.CULTURE_CATALOG = [
     "year": 2025,
     "tmdb_id": 1189738,
     "imdb_id": "tt24022322"
+  },
+  {
+    "id": 238,
+    "title": "Maria",
+    "director": "Pablo Larraín",
+    "year": 2024,
+    "tmdb_id": 1038263,
+    "imdb_id": "tt22893404"
+  },
+  {
+    "id": 239,
+    "title": "Babygirl",
+    "director": "Halina Reijn",
+    "year": 2024,
+    "tmdb_id": 1097549,
+    "imdb_id": "tt30057084"
+  },
+  {
+    "id": 240,
+    "title": "Nightbitch",
+    "director": "Marielle Heller",
+    "year": 2024,
+    "tmdb_id": 728949,
+    "imdb_id": "tt12810074"
+  },
+  {
+    "id": 241,
+    "title": "Saturday Night",
+    "director": "Jason Reitman",
+    "year": 2024,
+    "tmdb_id": 1120911,
+    "imdb_id": "tt27657135"
+  },
+  {
+    "id": 242,
+    "title": "Kinds of Kindness",
+    "director": "Yorgos Lanthimos",
+    "year": 2024,
+    "tmdb_id": 1029955,
+    "imdb_id": "tt22408160"
+  },
+  {
+    "id": 243,
+    "title": "Hit Man",
+    "director": "Richard Linklater",
+    "year": 2024,
+    "tmdb_id": 974635,
+    "imdb_id": "tt20215968"
+  },
+  {
+    "id": 244,
+    "title": "Moana 2",
+    "director": "David G. Derrick Jr., Jason Hand, Dana Ledoux Miller",
+    "year": 2024,
+    "tmdb_id": 1241982,
+    "imdb_id": "tt13622970"
   }
 ];
