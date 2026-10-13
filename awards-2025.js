@@ -1,5 +1,5 @@
 // Curated official award selections and major categories. Film IDs are shared across events.
-// Berlinale 2025 currently includes verified major prize winners, not the complete competition.
+// Berlinale 2025 currently includes verified major prize winners, not the complete competition; see docs/berlinale-2025-competition-audit.md.
 window.CULTURE_AWARDS = [
   {
     "event": "Cannes",
@@ -186,7 +186,7 @@ window.CULTURE_AWARDS = [
         "director": "Kaouther Ben Hania",
         "year": 2025,
         "awards": [
-          "Grand Jury Prize"
+          "Silver Bear Grand Jury Prize"
         ]
       },
       {
@@ -366,7 +366,7 @@ window.CULTURE_AWARDS = [
         "director": "Iván Fund",
         "year": 2025,
         "awards": [
-          "Jury Prize"
+          "Silver Bear Jury Prize"
         ]
       },
       {
