@@ -37,7 +37,7 @@ const categories=[
 // from the same film were nominated (e.g. Emilia Pérez supporting actresses).
 const cat=categories.map(([name,titles,winner])=>({name,nominees:titles.map(id),winner:id(winner)}));
 const filmIds=[...new Set(cat.flatMap(c=>c.nominees))];
-const filmRefs=filmIds.map(filmId=>{const f=catalog.find(x=>x.id===filmId);return {id:f.id,title:f.title,director:f.director,year:f.year,awards:cat.filter(c=>c.winner===filmId).map(c=>c.name)}});
+const filmRefs=filmIds.map(filmId=>({id:filmId,awards:cat.filter(c=>c.winner===filmId).map(c=>c.name)}));
 events.push({event:'Golden Globes',year:2025,section:'Major Film Categories',dates:'5 January 2025',awardsDate:'5 January 2025',source:'https://goldenglobes.com/articles/nominations-announced-for-82nd-annual-golden-globes/',awardsSource:'https://goldenglobes.com/articles/the-82nd-golden-globe-awards-winners/',resultsUrl:'https://goldenglobes.com/articles/the-82nd-golden-globe-awards-winners/',films:filmRefs,categories:cat});
 write('film-catalog.js','CULTURE_CATALOG',catalog);write('awards-2025.js','CULTURE_AWARDS',events);
 console.log('Golden Globes 2025: '+cat.length+' categories, '+filmRefs.length+' unique films, '+additions.length+' new catalogue identities');
