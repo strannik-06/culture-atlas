@@ -42,7 +42,7 @@ for(const film of catalog){
   await wait(250);
  }
  // Without a director, only accept a unique title match within two years of the listed year.
- const safeMatches=film.director?matches:matches.filter(m=>film.year&&m.year&&Math.abs(film.year-m.year)<=2);
+ const safeMatches=film.director?matches:matches.filter(m=>film.year&&m.year&&Math.abs(film.year-m.year)<=1);
  if(safeMatches.length===1&&!seen.has(safeMatches[0].tmdb_id)){
   const match=safeMatches[0];audit.matched.push({id:film.id,title:film.title,...match});
   if(apply){film.tmdb_id=match.tmdb_id;film.imdb_id=match.imdb_id}
@@ -51,7 +51,7 @@ for(const film of catalog){
  await wait(300);
 }
 const report=path.join(root,'tmdb-match-report.json');
-fs.writeFileSync(report,JSON.stringify(audit,null,2)+'\\n');
-if(apply)fs.writeFileSync(file,prefix+JSON.stringify(catalog,null,2)+';\\n');
+fs.writeFileSync(report,JSON.stringify(audit,null,2)+'\n');
+if(apply)fs.writeFileSync(file,prefix+JSON.stringify(catalog,null,2)+';\n');
 console.log(JSON.stringify({alreadyLinked:audit.alreadyLinked,matched:audit.matched.length,unresolved:audit.unresolved.length,applied:apply,report},null,2));
 if(audit.unresolved.length)process.exitCode=2;
