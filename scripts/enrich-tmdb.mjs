@@ -34,18 +34,18 @@ for(const film of catalog){
  const matches=[];
  for(const candidate of candidates.slice(0,5)){
   const year=Number((candidate.release_date||'').slice(0,4));
-  if(film.year&&year&&Math.abs(film.year-year)>1)continue;
+  // Award ceremony year is not necessarily original release year. Never reject solely on year.
   const detail=await api('movie/'+candidate.id,{append_to_response:'credits,external_ids'});
   const directors=(detail.credits?.crew||[]).filter(c=>c.job==='Director').map(c=>c.name);
-  if(!film.director||!directors.some(d=>norm(d)===norm(film.director)))continue;
+  if(film.director&&!directors.some(d=>norm(d)===norm(film.director)))continue;
   matches.push({tmdb_id:candidate.id,title:detail.title,year,directors,imdb_id:detail.imdb_id||detail.external_ids?.imdb_id||null});
   await wait(250);
  }
- if(matches.length===1&&!seen.has(matches[0].tmdb_id)){
-  const match=matches[0];audit.matched.push({id:film.id,title:film.title,...match});
+ // Without a director, only accept a unique title match within two years of the listed year.\n const safeMatches=film.director?matches:matches.filter(m=>film.year&&m.year&&Math.abs(film.year-m.year)<=2);\n if(safeMatches.length===1&&!seen.has(safeMatches[0].tmdb_id)){
+  const match=safeMatches[0];audit.matched.push({id:film.id,title:film.title,...match});
   if(apply){film.tmdb_id=match.tmdb_id;film.imdb_id=match.imdb_id}
   seen.set(match.tmdb_id,film.id);
- }else audit.unresolved.push({id:film.id,title:film.title,director:film.director,year:film.year,reason:matches.length===0?'No unique title/year/director match':matches.length>1?'Multiple plausible matches':'TMDB ID already linked',candidates:matches});
+ }else audit.unresolved.push({id:film.id,title:film.title,director:film.director,year:film.year,reason:safeMatches.length===0?'No sufficiently confident title/director/year match':safeMatches.length>1?'Multiple plausible matches':'TMDB ID already linked',candidates:matches});
  await wait(300);
 }
 const report=path.join(root,'tmdb-match-report.json');
