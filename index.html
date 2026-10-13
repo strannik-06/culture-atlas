@@ -149,6 +149,7 @@ function commitRating(value){
  closeRatingPopover();save(id);
 }
 $('grid').addEventListener('click',e=>{const trigger=e.target.closest('[data-open-stars]');if(trigger)openRatingPopover(trigger,trigger.dataset.openStars)});
+$('awards-grid').addEventListener('click',e=>{const trigger=e.target.closest('[data-open-stars]');if(trigger)openRatingPopover(trigger,trigger.dataset.openStars)});
 ratingPopover.addEventListener('pointermove',e=>{
  const button=e.target.closest('.star-choice');if(!button||!activeFilm)return;
  previewRating=pointerRating(e,button);paintStars(previewRating);
