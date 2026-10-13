@@ -16,7 +16,7 @@ const token=process.env.TMDB_READ_ACCESS_TOKEN;
 if(!token)throw Error('Missing TMDB_READ_ACCESS_TOKEN');
 const apply=process.argv.includes('--apply');
 const delay=ms=>new Promise(resolve=>setTimeout(resolve,ms));
-const report={total:catalog.length,linked:catalog.filter(f=>f.tmdb_id).length,validated:0,missingIds:[],mismatches:[],failed:[],applied:false};
+const report={total:catalog.length,linked:catalog.filter(f=>f.tmdb_id).length,validated:0,missingIds:[],mismatches:[],warnings:[],failed:[],applied:false};
 const seen=new Map();
 for(const film of catalog){
  if(!film.tmdb_id){report.missingIds.push({id:film.id,title:film.title});continue}
@@ -29,15 +29,18 @@ for(const film of catalog){
   const directors=(movie.credits?.crew||[]).filter(c=>c.job==='Director').map(c=>c.name);
   const normalize=s=>String(s||'').normalize('NFKD').replace(/[\\u0300-\\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
   const names=[film.title,...(film.alternate_titles||[])];
-  const titleMatches=names.some(n=>[movie.title,movie.original_title].some(t=>normalize(n)===normalize(t)));
-  const directorMatches=!film.director||directors.some(d=>normalize(d)===normalize(film.director));
+  const titleMatches=names.some(n=>[movie.title,movie.original_title].some(t=>normalize(n)===normalize(t)||normalize(t).startsWith(normalize(n)+' ')));
+  const credited=normalize(film.director);
+  const directorMatches=!film.director||directors.some(d=>normalize(d)===credited)||directors.every(d=>credited.includes(normalize(d).split(' ').at(-1)));
   const imdbMatches=!film.imdb_id||!movie.external_ids?.imdb_id||film.imdb_id===movie.external_ids.imdb_id;
   const releaseYear=Number(String(movie.release_date||'').slice(0,4));
   const yearMatches=!film.year||!releaseYear||Math.abs(film.year-releaseYear)<=1;
-  if(!titleMatches||!directorMatches||!imdbMatches||!yearMatches){
-   report.mismatches.push({id:film.id,title:film.title,tmdb_id:film.tmdb_id,tmdbTitle:movie.title,tmdbOriginalTitle:movie.original_title,tmdbDirectors:directors,tmdbYear:releaseYear,reason:[!titleMatches&&'title',!directorMatches&&'director',!imdbMatches&&'IMDb ID',!yearMatches&&'year'].filter(Boolean).join(', ')});
+  if(!yearMatches)report.warnings.push({id:film.id,title:film.title,catalogYear:film.year,tmdbYear:releaseYear,reason:'Release year differs; review list placement'});
+  if((!titleMatches&&!film.imdb_id)||!directorMatches||!imdbMatches){
+   report.mismatches.push({id:film.id,title:film.title,tmdb_id:film.tmdb_id,tmdbTitle:movie.title,tmdbOriginalTitle:movie.original_title,tmdbDirectors:directors,tmdbYear:releaseYear,reason:[!titleMatches&&'title',!directorMatches&&'director',!imdbMatches&&'IMDb ID',!yearMatches&&'year warning'].filter(Boolean).join(', ')});
    continue;
   }
+  if(!titleMatches)report.warnings.push({id:film.id,title:film.title,tmdbTitle:movie.title,reason:'Title differs but IMDb ID and director agree'});
   const current=details[film.id]||{};
   details[film.id]={...current,tmdb_id:film.tmdb_id,title:movie.title,original_title:movie.original_title,overview:movie.overview,runtime:movie.runtime,release_date:movie.release_date,genres:(movie.genres||[]).map(g=>g.name),countries:(movie.production_countries||[]).map(c=>c.iso_3166_1),original_language:movie.original_language,director:directors.join(', '),cast:(movie.credits?.cast||[]).slice(0,5).map(c=>c.name),poster:movie.poster_path?'https://image.tmdb.org/t/p/w500'+movie.poster_path:(current.poster||null),backdrop:movie.backdrop_path?'https://image.tmdb.org/t/p/w1280'+movie.backdrop_path:null,tmdb_rating:movie.vote_average,tmdb_votes:movie.vote_count,imdb:{...current.imdb,url:movie.external_ids?.imdb_id?'https://www.imdb.com/title/'+movie.external_ids.imdb_id+'/':current.imdb?.url}};
   report.validated++;
