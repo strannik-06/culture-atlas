@@ -1753,7 +1753,7 @@ window.CULTURE_CATALOG = [
   {
     "id": 220,
     "title": "A Complete Unknown",
-    "director": "",
+    "director": "James Mangold",
     "year": 2025,
     "tmdb_id": 661539,
     "imdb_id": null
@@ -1761,7 +1761,7 @@ window.CULTURE_CATALOG = [
   {
     "id": 221,
     "title": "September 5",
-    "director": "",
+    "director": "Tim Fehlbaum",
     "year": 2025,
     "tmdb_id": 1211472,
     "imdb_id": null
@@ -1769,7 +1769,7 @@ window.CULTURE_CATALOG = [
   {
     "id": 222,
     "title": "Porcelain War",
-    "director": "",
+    "director": "Brendan Bellomo, Slava Leontyev",
     "year": 2025,
     "tmdb_id": 1214527,
     "imdb_id": null
@@ -1785,7 +1785,7 @@ window.CULTURE_CATALOG = [
   {
     "id": 224,
     "title": "Gladiator II",
-    "director": "",
+    "director": "Ridley Scott",
     "year": 2025,
     "tmdb_id": 558449,
     "imdb_id": null
@@ -1793,7 +1793,7 @@ window.CULTURE_CATALOG = [
   {
     "id": 225,
     "title": "Lee",
-    "director": "",
+    "director": "Ellen Kuras",
     "year": 2025,
     "tmdb_id": 832964,
     "imdb_id": null
@@ -1801,7 +1801,7 @@ window.CULTURE_CATALOG = [
   {
     "id": 226,
     "title": "The Last Showgirl",
-    "director": "",
+    "director": "Gia Coppola",
     "year": 2024,
     "tmdb_id": 1235499,
     "imdb_id": null
