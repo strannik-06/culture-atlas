@@ -334,6 +334,9 @@ window.CULTURE_AWARDS = [
   {
     "event": "Berlinale",
     "year": 2025,
+    "dates": "13–23 February 2025",
+    "awardsDate": "22 February 2025",
+    "resultsUrl": "https://www.berlinale.de/en/archive/awards-juries/awards.html/o%3Ddesc/p%3D1/rp%3D40",
     "section": "Major Competition Prize Winners",
     "scope": "winners",
     "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/o%3Ddesc/p%3D1/rp%3D40",
