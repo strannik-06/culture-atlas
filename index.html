@@ -26,7 +26,7 @@ const awardEvents=window.CULTURE_AWARDS||[];
 const canonicalFilms=window.CULTURE_CATALOG||[];
 const canonicalById=new Map(canonicalFilms.map(f=>[f.id,f]));
 // Lists own membership, priority and prizes; the master catalogue owns film identity.
-function resolveFilm(reference){const canonical=canonicalById.get(reference.id);if(!canonical)throw Error('Unknown canonical film ID '+reference.id);return {...reference,...canonical,genre:reference.genre,tier:reference.tier};}
+function resolveFilm(reference){const canonical=canonicalById.get(reference.id);if(!canonical)throw Error('Unknown canonical film ID '+reference.id);return {...canonical,...reference,genre:reference.genre??canonical.genre,tier:reference.tier??canonical.tier};}
 for(let i=0;i<films.length;i++)films[i]=resolveFilm(films[i]);
 for(const event of awardEvents)event.films=event.films.map(resolveFilm);
 const curatedIds=new Set(films.map(f=>f.id));

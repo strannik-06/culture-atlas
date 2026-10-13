@@ -46,7 +46,7 @@ for(const event of awards)for(const category of event.categories||[]){
 for(const event of awards)for(const film of event.films){
  const canonical=catalog.find(f=>f.id===film.id);
  if(!String(canonical?.director||'').trim())errors.push(event.event+' '+event.year+': missing canonical director for film '+film.id);
- if(!String(film.director||'').trim())errors.push(event.event+' '+event.year+': missing award director for film '+film.id);
+ for(const key of ['title','director','year','genre','tier'])if(Object.hasOwn(film,key))errors.push(event.event+' '+event.year+': duplicated '+key+' for film '+film.id);
 }
 console.log('Canonical films: '+catalog.length+'; Top 100 references: '+(top2025.length+top2024.length)+'; award events: '+awards.length+'; errors: '+errors.length);
 if(errors.length){for(const e of errors)console.error(e);process.exitCode=1}
