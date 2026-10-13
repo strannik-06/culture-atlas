@@ -1618,11 +1618,14 @@ window.CULTURE_CATALOG = [
   },
   {
     "id": 203,
-    "title": "New Wave",
+    "title": "Nouvelle Vague",
     "director": "Richard Linklater",
     "year": null,
     "tmdb_id": null,
-    "imdb_id": null
+    "imdb_id": null,
+    "alternate_titles": [
+      "New Wave"
+    ]
   },
   {
     "id": 204,
@@ -1730,11 +1733,15 @@ window.CULTURE_CATALOG = [
   },
   {
     "id": 217,
-    "title": "A Film Made for Bene",
+    "title": "Un film fatto per Bene",
     "director": "Franco Maresco",
     "year": 2025,
     "tmdb_id": null,
-    "imdb_id": null
+    "imdb_id": null,
+    "alternate_titles": [
+      "A Film Made for Bene",
+      "Bravo Bene!"
+    ]
   },
   {
     "id": 218,
@@ -1749,8 +1756,11 @@ window.CULTURE_CATALOG = [
     "title": "Girl",
     "director": "Shu Qi",
     "year": 2025,
-    "tmdb_id": null,
-    "imdb_id": null
+    "tmdb_id": 1357759,
+    "imdb_id": null,
+    "alternate_titles": [
+      "女孩"
+    ]
   },
   {
     "id": 220,
