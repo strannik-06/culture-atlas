@@ -36,6 +36,9 @@ for(const event of awardEvents)for(const film of event.films)if(film.awards?.len
 let externalRatings={};
 let externalRatingsRequest=0;
 const key='culture-atlas:films:v1';
+// Legacy award-only ID 203 referred to the same film as Top 100 ID 57.
+// Never overwrite an existing canonical rating with a legacy rating.
+function unifyLegacyFilmProgress(entries){if(entries['203']&&!entries['57'])entries['57']={...entries['203']};return entries;}
 const supabaseClient=window.supabase?.createClient('https://ufqaidyshfkbymbrzdff.supabase.co','sb_publishable_9b7QEa7HYWqEUMbXtZx4HQ_2SyOvY27',{auth:{flowType:'pkce',detectSessionInUrl:true}});
 let signedInUser=null;
 let syncBusy=false;
@@ -45,6 +48,7 @@ async function loadCloudProgress(user){
  const {data,error}=await supabaseClient.from('film_progress').select('film_id,watched,rating').eq('user_id',user.id);
  if(error){setAuthMessage('Cloud sync unavailable. Check that supabase/schema.sql has been run in the SQL Editor. '+error.message);return}
  const remote={};for(const row of data)remote[row.film_id]={watched:row.watched,rating:row.rating};
+ unifyLegacyFilmProgress(remote);
  // Preserve local-only progress and import it once into the signed-in account.
  const pending=Object.entries(progress).filter(([id,p])=>!Object.prototype.hasOwnProperty.call(remote,id)&&(p.watched||p.rating));
  if(pending.length){const records=pending.map(([id,p])=>({user_id:user.id,film_id:Number(id),watched:!!p.watched,rating:p.rating||null}));
@@ -52,7 +56,7 @@ async function loadCloudProgress(user){
  if(importError){setAuthMessage('Could not import browser progress: '+importError.message);return}
  for(const [id,p] of pending)remote[id]=p;
  setAuthMessage('Imported '+pending.length+' film entries from this browser.');}
- progress=remote;try{localStorage.setItem(key,JSON.stringify(progress))}catch{}render();
+ progress=unifyLegacyFilmProgress(remote);try{localStorage.setItem(key,JSON.stringify(progress))}catch{}render();
 }
 async function updateAuth(session){
  signedInUser=session?.user||null;
@@ -81,7 +85,7 @@ async function initAuth(){
  const {data,error}=await supabaseClient.auth.getSession();if(error)setAuthMessage(error.message);await updateAuth(data?.session);
 }
 
-let progress={};try{const parsed=JSON.parse(localStorage.getItem(key)||'{}');if(parsed&&typeof parsed==='object'&&!Array.isArray(parsed))progress=parsed}catch{}
+let progress={};try{const parsed=JSON.parse(localStorage.getItem(key)||'{}');if(parsed&&typeof parsed==='object'&&!Array.isArray(parsed))progress=unifyLegacyFilmProgress(parsed)}catch{}
 const $=id=>document.getElementById(id),tiers={1:'Must See',2:'Strong Recommendation',3:'Worth Exploring'};
 const escapeHTML=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const genres=[...new Set(films.map(f=>f.genre))].sort();genres.forEach(g=>{const o=document.createElement('option');o.value=g;o.textContent=g[0].toUpperCase()+g.slice(1);$('genre').append(o)});
