@@ -1,0 +1,34 @@
+name: Retry unmatched via director credits
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Download previous unmatched search
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          run_id="$(gh run list --workflow unmatched-historical-search.yml --status success --limit 1 --json databaseId --jq '.[0].databaseId')"
+          test -n "$run_id"
+          mkdir -p /tmp/previous
+          gh run download "$run_id" --name unmatched-historical-search-review --dir /tmp/previous
+      - name: Search director credits for missing titles
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: node scripts/search-unmatched-by-director.mjs /tmp/previous/unmatched-search-candidates.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: unmatched-director-search-review
+          path: |
+            unmatched-director-candidates.json
+            unmatched-director-review.csv
+          retention-days: 30
