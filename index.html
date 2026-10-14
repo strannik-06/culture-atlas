@@ -13,12 +13,16 @@
 .film-detail-inner{padding:28px}.film-detail-close{float:right;background:transparent;color:inherit;border:1px solid #6a7180;border-radius:8px;padding:6px 12px;cursor:pointer}
 .film-detail-layout{display:grid;grid-template-columns:180px 1fr;gap:24px;clear:both}.film-detail-poster{width:100%;border-radius:9px}.film-detail-dialog h2{margin:0 0 10px}.film-detail-dialog h3{margin:22px 0 10px}.film-detail-dialog p{line-height:1.6}.film-detail-meta{color:#b8bec9}.film-detail-dialog .review-links{margin-top:10px}
 @media(max-width:580px){.film-detail-inner{padding:18px}.film-detail-layout{grid-template-columns:1fr}.film-detail-poster{width:135px}}
+ .ratings-pagination{display:flex;justify-content:center;align-items:center;gap:1rem;margin:2rem 0 3rem;color:var(--muted,#aeb1bd)}
+ .ratings-pagination[hidden]{display:none}
+ .ratings-pagination button{background:#202536;color:inherit;border:1px solid #485067;border-radius:8px;padding:.7rem 1rem;cursor:pointer}
+ .ratings-pagination button:disabled{opacity:.4;cursor:not-allowed}
 </style></head><body>
 <header><div class="shell top"><div class="brand">CULTURE <b>ATLAS</b></div><nav class="nav"><span class="active">Films</span><span class="soon" title="Coming later">Books</span><span class="soon" title="Coming later">Music</span></nav><button id="account-toggle" class="action account-toggle" type="button" aria-controls="account" aria-expanded="false">Account ▾</button></div></header>
 <main class="shell"><nav class="film-subnav" aria-label="Films sections"><button class="film-subtab active" type="button" data-view="films">Top 100</button><button class="film-subtab" type="button" data-view="awards">Awards</button><button class="film-subtab" type="button" data-view="ratings">My ratings</button></nav><section class="hero" id="films-hero"><div class="eyebrow">Your curated cultural collection</div><h1>Cinema worth exploring.</h1><p>A personal atlas of remarkable films, from festival discoveries to animation and documentaries. Explore the 2024 and 2025 selections, keep track of what you've seen and rate your favorites.</p></section>
 <div id="films-view"><section class="stats"><div class="stat"><strong id="total">100</strong><small>Films selected</small></div><div class="stat"><strong id="seen">0</strong><small>Films watched</small><div class="bar"><i id="progress" style="width:0%"></i></div></div><div class="stat"><strong id="avg">—</strong><small>Average personal rating</small></div></section>
 <section id="account" class="account-panel" hidden><strong>Personal sync</strong><p id="auth-status" style="color:#b7bcc9;margin:9px 0">Checking sign-in…</p><button id="google-login" class="action" type="button" style="display:none;margin:10px 0">Continue with Google</button><form id="login-form" style="display:none;gap:10px;flex-wrap:wrap"><input id="email" type="email" required placeholder="Email address for magic link" aria-label="Email address"><button class="action" type="submit">Send sign-in link</button></form><div id="account-tools" hidden><button id="export" class="action" type="button">Export progress ↓</button><label class="action" for="import-ratings" style="cursor:pointer;display:inline-block">Import ratings ↑</label><input id="import-ratings" type="file" accept=".json,application/json" hidden></div><button id="logout" class="action" type="button" hidden>Sign out</button><p id="auth-message" role="status" style="color:#eeb66c;font-size:13px"></p></section><section class="filters" aria-label="Filter films"><select id="year" aria-label="Film year"><option value="2025">2025</option><option value="2024">2024</option><option value="">All years</option></select><input id="search" type="search" placeholder="Search films or directors…" aria-label="Search films or directors"><select id="tier" aria-label="Priority"><option value="">All priorities</option><option value="1">Must See (30)</option><option value="2">Strong Recommendations (40)</option><option value="3">Worth Exploring (30)</option></select><select id="genre" aria-label="Genre"><option value="">All genres</option></select><select id="status" aria-label="Watch status"><option value="">All films</option><option value="unwatched">Unwatched</option><option value="watched">Watched</option></select></section>
-<div class="count" id="count" aria-live="polite"></div><div class="grid" id="grid"></div><div class="empty" id="empty" hidden>No films match these filters.</div></div><section id="awards-view" hidden><div class="hero"><div class="eyebrow">Festivals & prizes</div><h1>Awards atlas.</h1><p>Explore official selections, winners and nominees. Your ratings are shared with the film collection.</p></div><div class="filters"><select id="award-event" aria-label="Award event"></select><select id="award-year" aria-label="Award year"></select><select id="award-category" aria-label="Award category"><option value="all">All major categories</option></select><select id="award-filter" aria-label="Award result"><option value="all">All nominees / selections</option><option value="winners">Winners only</option></select></div><p class="count" id="awards-count"></p><p class="meta" id="awards-event-details" aria-live="polite"></p><div id="awards-grid" class="grid"></div><p class="meta" id="awards-source"></p></section><section id="ratings-view" hidden><div class="hero"><div class="eyebrow">Your personal collection</div><h1>My ratings.</h1><p>Every film you have rated, including films from the Awards section.</p></div><div class="filters"><input id="ratings-search" type="search" placeholder="Search rated films or directors…" aria-label="Search my ratings"><select id="ratings-sort" aria-label="Sort ratings"><option value="rating">Highest rated first</option><option value="title">Title A–Z</option><option value="year">Year newest first</option></select></div><div class="count" id="ratings-count"></div><div class="grid" id="ratings-grid"></div><div class="empty" id="ratings-empty" hidden>No rated films yet. Rate a film in Top 100 or Awards to see it here.</div></section>
+<div class="count" id="count" aria-live="polite"></div><div class="grid" id="grid"></div><div class="empty" id="empty" hidden>No films match these filters.</div></div><section id="awards-view" hidden><div class="hero"><div class="eyebrow">Festivals & prizes</div><h1>Awards atlas.</h1><p>Explore official selections, winners and nominees. Your ratings are shared with the film collection.</p></div><div class="filters"><select id="award-event" aria-label="Award event"></select><select id="award-year" aria-label="Award year"></select><select id="award-category" aria-label="Award category"><option value="all">All major categories</option></select><select id="award-filter" aria-label="Award result"><option value="all">All nominees / selections</option><option value="winners">Winners only</option></select></div><p class="count" id="awards-count"></p><p class="meta" id="awards-event-details" aria-live="polite"></p><div id="awards-grid" class="grid"></div><p class="meta" id="awards-source"></p></section><section id="ratings-view" hidden><div class="hero"><div class="eyebrow">Your personal collection</div><h1>My ratings.</h1><p>Every film you have rated, including films from the Awards section.</p></div><div class="filters"><input id="ratings-search" type="search" placeholder="Search rated films or directors…" aria-label="Search my ratings"><select id="ratings-sort" aria-label="Sort ratings"><option value="rating">Highest rated first</option><option value="title">Title A–Z</option><option value="year">Year newest first</option></select></div><div class="count" id="ratings-count"></div><div class="grid" id="ratings-grid"></div><nav id="ratings-pagination" class="ratings-pagination" aria-label="Rated films pages" hidden></nav><div class="empty" id="ratings-empty" hidden>No rated films yet. Rate a film in Top 100 or Awards to see it here.</div></section>
 </main><dialog id="film-detail-dialog" class="film-detail-dialog" aria-label="Film details"><div class="film-detail-inner"><button type="button" class="film-detail-close" aria-label="Close film details">Close ×</button><div id="film-detail-content"></div></div></dialog><footer><div class="shell">Culture Atlas · Films prototype · Your progress is saved in your browser until you sign in; signed-in progress syncs with Supabase. These are curated 2024 and 2025 viewing lists; some films premiered earlier or have different local release years. Film metadata from TMDB; critic reviews shown only when verified. Books and music are planned.</div></footer>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script><script src="film-details.js"></script><script src="editorial-ratings.js"></script><script src="critic-reviews.js"></script><script src="films-2024.js"></script><script src="film-recognition.js"></script><script src="awards-2025.js"></script><script src="film-catalog.js"></script>
 <script>
@@ -46,6 +50,8 @@ for(const event of awardEvents)for(const film of event.films)if(film.awards?.len
 }
 let externalRatings={};
 let externalRatingsRequest=0;
+let ratingsPage=1;
+const RATINGS_PAGE_SIZE=48;
 const key='culture-atlas:films:v1';
 const supabaseClient=window.supabase?.createClient('https://ufqaidyshfkbymbrzdff.supabase.co','sb_publishable_9b7QEa7HYWqEUMbXtZx4HQ_2SyOvY27',{auth:{flowType:'pkce',detectSessionInUrl:true}});
 let signedInUser=null;
@@ -53,9 +59,14 @@ let syncBusy=false;
 function setAuthMessage(message){$('auth-message').textContent=message}
 async function loadCloudProgress(user){
  if(!supabaseClient)return;
- const {data,error}=await supabaseClient.from('film_progress').select('film_id,watched,rating').eq('user_id',user.id);
- if(error){setAuthMessage('Cloud sync unavailable. Check that supabase/schema.sql has been run in the SQL Editor. '+error.message);return}
- const remote={};for(const row of data)remote[row.film_id]={watched:row.watched,rating:row.rating};
+ const remote={};
+ const batchSize=500;
+ for(let offset=0;;offset+=batchSize){
+  const {data,error}=await supabaseClient.from('film_progress').select('film_id,watched,rating').eq('user_id',user.id).order('film_id',{ascending:true}).range(offset,offset+batchSize-1);
+  if(error){setAuthMessage('Cloud sync unavailable; no progress was replaced. '+error.message);return}
+  for(const row of data)remote[row.film_id]={watched:row.watched,rating:row.rating};
+  if(data.length<batchSize)break;
+ }
  // Preserve local-only progress and import it once into the signed-in account.
  const pending=Object.entries(progress).filter(([id,p])=>!Object.prototype.hasOwnProperty.call(remote,id)&&(p.watched||p.rating));
  if(pending.length){const records=pending.map(([id,p])=>({user_id:user.id,film_id:Number(id),watched:!!p.watched,rating:p.rating||null}));
@@ -171,9 +182,15 @@ function renderMyRatings(){
  const q=$('ratings-search').value.trim().toLocaleLowerCase(),sort=$('ratings-sort').value;
  const rows=allRateableFilms.filter(f=>{const rating=Number(progress[f.id]?.rating);return rating>=0.5&&rating<=10&&(!q||(f.title+' '+f.director).toLocaleLowerCase().includes(q))});
  rows.sort((a,b)=>sort==='title'?a.title.localeCompare(b.title):sort==='year'?(Number(displayReleaseYear(b)||0)-Number(displayReleaseYear(a)||0)||a.title.localeCompare(b.title)):(Number(progress[b.id]?.rating)-Number(progress[a.id]?.rating)||a.title.localeCompare(b.title)));
+ const totalPages=Math.max(1,Math.ceil(rows.length/RATINGS_PAGE_SIZE));
+ ratingsPage=Math.max(1,Math.min(ratingsPage,totalPages));
  $('ratings-count').textContent=rows.length+' rated film'+(rows.length===1?'':'s');
+ const pagination=$('ratings-pagination');
+ pagination.hidden=rows.length<=RATINGS_PAGE_SIZE;
+ pagination.innerHTML=rows.length<=RATINGS_PAGE_SIZE?'':'<button type="button" data-ratings-page="prev" '+(ratingsPage===1?'disabled':'')+'>← Previous</button><span>Page '+ratingsPage+' of '+totalPages+'</span><button type="button" data-ratings-page="next" '+(ratingsPage===totalPages?'disabled':'')+'>Next →</button>';
+ const visibleRows=rows.slice((ratingsPage-1)*RATINGS_PAGE_SIZE,ratingsPage*RATINGS_PAGE_SIZE);
  $('ratings-empty').hidden=rows.length!==0;
- $('ratings-grid').innerHTML=rows.map(f=>{
+ $('ratings-grid').innerHTML=visibleRows.map(f=>{
   const d=filmDetails[f.id]||{},rating=Number(progress[f.id]?.rating),poster=typeof d.poster==='string'&&d.poster.startsWith('https://image.tmdb.org/t/p/')?d.poster:null;
   return '<article tabindex="0" role="button" aria-label="View details for '+escapeHTML(f.title)+'" data-film-id="'+f.id+'" class="film watched"><div class="poster">'+(poster?'<img loading="lazy" alt="Poster for '+escapeHTML(f.title)+'" src="'+escapeHTML(poster)+'">':'<span class="initial" aria-hidden="true">'+escapeHTML(f.title[0])+'</span>')+'</div><div class="body"><h3>'+escapeHTML(f.title)+'</h3><div class="meta">'+escapeHTML(f.director)+' · '+escapeHTML(displayReleaseYear(f))+'</div>'+filmPrizes(f)+filmTmdbScore(f)+'<div class="controls"><div class="star-control"><button type="button" class="star-trigger" data-open-stars="'+f.id+'" aria-label="Change rating for '+escapeHTML(f.title)+'">★ <span class="value">'+rating.toFixed(1)+'/10</span></button></div></div></div></article>';
  }).join('');
@@ -214,7 +231,14 @@ function switchView(view){
  render();
 }
 document.querySelectorAll('.film-subtab').forEach(tab=>tab.addEventListener('click',()=>switchView(tab.dataset.view)));
-['ratings-search','ratings-sort'].forEach(id=>$(id).addEventListener(id==='ratings-search'?'input':'change',renderMyRatings));
+['ratings-search','ratings-sort'].forEach(id=>$(id).addEventListener(id==='ratings-search'?'input':'change',()=>{ratingsPage=1;renderMyRatings()}));
+$('ratings-pagination').addEventListener('click',event=>{
+ const action=event.target.closest('button[data-ratings-page]')?.dataset.ratingsPage;
+ if(!action)return;
+ ratingsPage+=action==='next'?1:-1;
+ renderMyRatings();
+ $('ratings-count').scrollIntoView({behavior:'smooth',block:'start'});
+});
 $('award-event').addEventListener('change',()=>{configureAwardCategories();renderAwards()});
 $('award-year').addEventListener('change',()=>{configureAwardCategories();renderAwards()});
 ['award-category','award-filter'].forEach(id=>$(id).addEventListener('change',renderAwards));
