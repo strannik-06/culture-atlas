@@ -22,9 +22,15 @@ jobs:
         run: |
           test -n "$TMDB_API_KEY"
           node scripts/prepare-ratings-import.mjs /tmp/personal-ratings-prepared.csv --tmdb
+      - name: Verify directors and retry unmatched titles
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: node scripts/review-ratings-matches.mjs ratings-import-report.json /tmp/personal-ratings-prepared.csv
       - name: Upload matching report
         uses: actions/upload-artifact@v4
         with:
           name: personal-ratings-tmdb-candidates
-          path: ratings-import-report.json
+          path: |
+            ratings-import-report.json
+            ratings-import-review-v2.json
           retention-days: 30
