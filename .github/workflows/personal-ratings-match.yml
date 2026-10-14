@@ -1,0 +1,30 @@
+name: Personal ratings TMDB matching (read-only)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  match:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify ratings source exists
+        run: test -s imports/personal-ratings-cleaned.csv
+      - name: Convert cleaned source
+        run: node scripts/convert-ratings-export.mjs imports/personal-ratings-cleaned.csv /tmp/personal-ratings-prepared.csv
+      - name: Generate candidate report (no database writes)
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: |
+          test -n "$TMDB_API_KEY"
+          node scripts/prepare-ratings-import.mjs /tmp/personal-ratings-prepared.csv --tmdb
+      - name: Upload matching report
+        uses: actions/upload-artifact@v4
+        with:
+          name: personal-ratings-tmdb-candidates
+          path: ratings-import-report.json
+          retention-days: 30
