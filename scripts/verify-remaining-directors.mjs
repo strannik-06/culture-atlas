@@ -7,7 +7,10 @@ function parseCsv(s){const out=[];let row=[],field='',quoted=false;for(let i=0;i
 const translit={а:'a',б:'b',в:'v',г:'g',д:'d',е:'e',ё:'yo',ж:'zh',з:'z',и:'i',й:'y',к:'k',л:'l',м:'m',н:'n',о:'o',п:'p',р:'r',с:'s',т:'t',у:'u',ф:'f',х:'kh',ц:'ts',ч:'ch',ш:'sh',щ:'shch',ъ:'',ы:'y',ь:'',э:'e',ю:'yu',я:'ya'};
 function norm(s){return String(s??'').toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[а-яё]/g,c=>translit[c]??c).replace(/[^a-z0-9]+/g,' ').trim().replace(/\s+/g,' ');}
 function dist(a,b){const p=Array.from({length:b.length+1},(_,i)=>i);for(let i=1;i<=a.length;i++){let prev=p[0];p[0]=i;for(let j=1;j<=b.length;j++){const old=p[j];p[j]=Math.min(p[j]+1,p[j-1]+1,prev+(a[i-1]===b[j-1]?0:1));prev=old;}}return p[b.length];}
-function tokenSimilarity(a,b){if(a===b)return 1;const d=dist(a,b);return 1-d/Math.max(a.length,b.length,1);}
+// Normalize common cross-language transliteration variants conservatively.
+// This is only supporting evidence; film title, year and uniqueness still gate approval.
+function phonetic(s){return s.replace(/sch/g,'sh').replace(/tch/g,'ch').replace(/dzh/g,'j').replace(/zh/g,'j').replace(/kh/g,'h').replace(/ph/g,'f').replace(/ck/g,'k').replace(/qu/g,'k').replace(/ou/g,'u').replace(/w/g,'v').replace(/y/g,'i').replace(/j/g,'i').replace(/ks/g,'x').replace(/ii/g,'i').replace(/([a-z])\\1+/g,'$1');}
+function tokenSimilarity(a,b){if(a===b)return 1;const d=dist(a,b);const p=phonetic(a),q=phonetic(b);const pd=dist(p,q);return Math.max(1-d/Math.max(a.length,b.length,1),1-pd/Math.max(p.length,q.length,1));}
 // Confirmed identities from the owner's manual review; never used as general fuzzy rules.
 const confirmed=new Map([
  ['гарленд алекс|alex garland',1],
