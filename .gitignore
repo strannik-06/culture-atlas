@@ -2,3 +2,6 @@ editorial-ratings-candidates.json
 tmdb-metadata-report.json
 .env
 .env.*
+
+ratings-import-report.json
+culture_atlas_import_source.csv
