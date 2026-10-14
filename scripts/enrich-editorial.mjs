@@ -28,7 +28,7 @@ function validate(row){
  const domain=sources[row.source].domain;
  if(host!==domain&&!host.endsWith('.'+domain))throw Error('Wrong publisher domain for '+row.source+': '+host);
  if(typeof row.score_display!=='string'||!row.score_display.trim())throw Error('Missing score: do not invent or infer');
- if(!/^([0-5](?:\\.5)?\\s*\\/\\s*5|[0-4](?:\\.5)?\\s*\\/\\s*4|[0-9]{1,2}\\s*\\/\\s*10|[A-F][+-]?)$/.test(row.score_display.trim()))throw Error('Unsupported score format: '+row.score_display);
+ if(!/^([0-5](?:\.5)?\s*\/\s*5|[0-4](?:\.5)?\s*\/\s*4|[0-9]{1,2}\s*\/\s*10|[A-F][+-]?)$/.test(row.score_display.trim()))throw Error('Unsupported score format: '+row.score_display);
  if(row.verified!==true)throw Error('Review identity and score must be verified before publication');
 }
 if(process.argv.includes('--discover')){
@@ -37,7 +37,7 @@ if(process.argv.includes('--discover')){
  const completed=new Set(old.map(r=>r.film_id+':'+r.source));
  const published=new Set(approved.map(r=>r.film_id+':'+r.source));
  const results=[...old];let failures=0;
- const selected=process.argv.includes('--all')?catalog:catalog.filter(f=>!old.some(r=>r.film_id===f.id));
+ const selected=catalog; // Resume missing film/source searches on subsequent runs.
  for(const film of selected)for(const [source,info] of Object.entries(sources)){
   if(completed.has(film.id+':'+source)||published.has(film.id+':'+source))continue;
   const query='"'+film.title+'" '+(film.year||'')+' '+(film.director||'')+' film review site:'+info.domain;
