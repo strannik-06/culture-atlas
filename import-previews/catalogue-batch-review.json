@@ -1,0 +1,115 @@
+{
+  "summary": {
+    "previous_catalogue": 243,
+    "added": 1209,
+    "total": 1452,
+    "ratings_prepared": 1210,
+    "held_for_review": 12,
+    "owner_imdb_mappings": 3,
+    "existing_progress_rows": 57
+  },
+  "held": [
+    {
+      "source_row": "24",
+      "title": "Obsession",
+      "year": 2026,
+      "tmdb_id": 1339713,
+      "reason": "Current-year release: verify screening and film identity before importing"
+    },
+    {
+      "source_row": "39",
+      "title": "Marc by Sofia",
+      "year": 2026,
+      "tmdb_id": 1517069,
+      "reason": "Current-year release: verify screening and film identity before importing"
+    },
+    {
+      "source_row": "48",
+      "title": "Broken English",
+      "year": 2026,
+      "tmdb_id": 1517161,
+      "reason": "Current-year release: verify screening and film identity before importing"
+    },
+    {
+      "source_row": "52",
+      "title": "Ghost Elephants",
+      "year": 2026,
+      "tmdb_id": 1451867,
+      "reason": "Current-year release: verify screening and film identity before importing"
+    },
+    {
+      "source_row": "55",
+      "title": "Rose of Nevada",
+      "year": 2026,
+      "tmdb_id": 1399525,
+      "reason": "Current-year release: verify screening and film identity before importing"
+    },
+    {
+      "source_row": "68",
+      "title": "Our Land",
+      "year": 2026,
+      "tmdb_id": 661603,
+      "reason": "Current-year release: verify screening and film identity before importing"
+    },
+    {
+      "source_row": "69",
+      "title": "Remake",
+      "year": 2026,
+      "tmdb_id": 1329909,
+      "reason": "Current-year release: verify screening and film identity before importing"
+    },
+    {
+      "source_row": "77",
+      "title": "Kim Novak's Vertigo",
+      "year": 2026,
+      "tmdb_id": 1485975,
+      "reason": "Current-year release: verify screening and film identity before importing"
+    },
+    {
+      "source_row": "87",
+      "title": "In the Hand of Dante",
+      "year": 2026,
+      "tmdb_id": 1020047,
+      "reason": "Current-year release: verify screening and film identity before importing"
+    },
+    {
+      "source_row": "89",
+      "title": "The Christophers",
+      "year": 2026,
+      "tmdb_id": 1400357,
+      "reason": "Current-year release: verify screening and film identity before importing"
+    },
+    {
+      "source_row": "92",
+      "title": "Dead Man's Wire",
+      "year": 2026,
+      "tmdb_id": 1263012,
+      "reason": "Current-year release: verify screening and film identity before importing"
+    },
+    {
+      "source_row": "93",
+      "title": "Good Luck, Have Fun, Don't Die",
+      "year": 2026,
+      "tmdb_id": 1119449,
+      "reason": "Current-year release: verify screening and film identity before importing"
+    }
+  ],
+  "owner_imdb_mappings": [
+    {
+      "title": "Cardiogram of Love",
+      "tmdb_id": 895256,
+      "imdb_id": "tt4516948"
+    },
+    {
+      "title": "Infant",
+      "tmdb_id": 695633,
+      "imdb_id": "tt3065590"
+    },
+    {
+      "title": "Two Kilometers from the New Year",
+      "tmdb_id": 558068,
+      "imdb_id": "tt3449464"
+    }
+  ],
+  "warning": "Catalogue proposal only. Ratings are NOT written to Supabase. Remaining 924 historical source entries excluded."
+}
