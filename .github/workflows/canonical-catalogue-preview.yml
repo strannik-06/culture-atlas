@@ -1,0 +1,38 @@
+name: Preview canonical film catalogue additions
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Retrieve latest successful staging artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          run_id="$(gh run list --workflow personal-ratings-stage.yml --status success --limit 1 --json databaseId --jq '.[0].databaseId')"
+          test -n "$run_id"
+          mkdir -p /tmp/staging
+          gh run download "$run_id" --name personal-ratings-staging-preview --dir /tmp/staging
+          test -s /tmp/staging/personal-ratings-staging-preview.json
+      - name: Fetch canonical English TMDB metadata and propose IDs
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: |
+          test -n "$TMDB_API_KEY"
+          node scripts/preview-canonical-import.mjs /tmp/staging/personal-ratings-staging-preview.json
+      - name: Upload read-only catalogue proposal
+        uses: actions/upload-artifact@v4
+        with:
+          name: canonical-catalogue-import-preview
+          path: |
+            canonical-catalogue-preview.json
+            proposed-film-catalogue-additions.json
+          retention-days: 30
