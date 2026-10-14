@@ -26,16 +26,16 @@ for(const row of input.rows){
 }
 const staged=[],duplicates=[],conflicts=[],resolved_duplicates=[];
 const decisions=[
- {title:'The Croods',ratings:[7,6.5],keep:6.5},
- {title:'Mr. Nobody',ratings:[6.5,7],keep:7},
- {title:'The King of Kong',ratings:[5.5,6],keep:6},
- {title:'Fantastic Four',ratings:[4.5,4.5],keep:4.5}
+ {tmdb_id:49519,title:'The Croods',ratings:[7,6.5],keep:6.5},
+ {tmdb_id:31011,title:'Mr. Nobody',ratings:[6.5,7],keep:7},
+ {tmdb_id:13958,title:'The King of Kong',ratings:[5.5,6],keep:6},
+ {tmdb_id:166424,title:'Fantastic Four',ratings:[4.5,4.5],keep:4.5}
 ];
 const normalizeTitle=s=>String(s).toLowerCase().replace(/[^a-z0-9]/g,'');
 for(const [tmdbId,rows] of groups){
  if(rows.length>1){
   const ratings=rows.map(r=>r.rating).sort((a,b)=>a-b);
-  const decision=decisions.find(d=>normalizeTitle(d.title)===normalizeTitle(rows[0].title)&&
+  const decision=decisions.find(d=>d.tmdb_id===Number(tmdbId)&&
     d.ratings.length===ratings.length&&d.ratings.slice().sort((a,b)=>a-b).every((v,i)=>v===ratings[i]));
   if(!decision){
    duplicates.push({tmdb_id:tmdbId,title:rows[0].title,entries:rows.map(r=>({source_row:r.source_row,rating:r.rating}))});
