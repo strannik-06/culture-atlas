@@ -24,18 +24,36 @@ for(const row of input.rows){
  if(!groups.has(id))groups.set(id,[]);
  groups.get(id).push({source_row:row.source_row,source_title:row.source_title,source_director:row.source_director,rating:row.rating,notes:row.notes||'',tmdb_id:id,title:top.title,year:Number(top.year),director:(top.directors||[]).join(', ')});
 }
-const staged=[],duplicates=[],conflicts=[];
+const staged=[],duplicates=[],conflicts=[],resolved_duplicates=[];
+const decisions=[
+ {title:'The Croods',ratings:[7,6.5],keep:6.5},
+ {title:'Mr. Nobody',ratings:[6.5,7],keep:7},
+ {title:'The King of Kong',ratings:[5.5,6],keep:6},
+ {title:'Fantastic Four',ratings:[4.5,4.5],keep:4.5}
+];
+const normalizeTitle=s=>String(s).toLowerCase().replace(/[^a-z0-9]/g,'');
 for(const [tmdbId,rows] of groups){
  if(rows.length>1){
-  duplicates.push({tmdb_id:tmdbId,title:rows[0].title,entries:rows.map(r=>({source_row:r.source_row,rating:r.rating}))});
-  // Even identical ratings need explicit deduplication review before insertion.
+  const ratings=rows.map(r=>r.rating).sort((a,b)=>a-b);
+  const decision=decisions.find(d=>normalizeTitle(d.title)===normalizeTitle(rows[0].title)&&
+    d.ratings.length===ratings.length&&d.ratings.slice().sort((a,b)=>a-b).every((v,i)=>v===ratings[i]));
+  if(!decision){
+   duplicates.push({tmdb_id:tmdbId,title:rows[0].title,entries:rows.map(r=>({source_row:r.source_row,rating:r.rating}))});
+   continue;
+  }
+  const chosen=rows.findLast(r=>r.rating===decision.keep);
+  const combinedNotes=[...new Set(rows.map(r=>r.notes?.trim()).filter(Boolean))].join('\n');
+  const row={...chosen,notes:combinedNotes},existing=byTmdb.get(tmdbId);
+  if(existing&&existing.title!==row.title)conflicts.push({tmdb_id:tmdbId,existing_title:existing.title,matched_title:row.title,reason:'catalog_title_differs_check_identity'});
+  staged.push({...row,film_id:existing?.id??null,action:existing?'existing_catalog_id':'new_catalog_entry',watched:true,watched_date:null});
+  resolved_duplicates.push({tmdb_id:tmdbId,title:row.title,selected_rating:decision.keep,source_rows:rows.map(r=>r.source_row),discarded_ratings:rows.filter(r=>r!==chosen).map(r=>r.rating)});
   continue;
  }
  const row=rows[0],existing=byTmdb.get(tmdbId);
  if(existing&&existing.title!==row.title)conflicts.push({tmdb_id:tmdbId,existing_title:existing.title,matched_title:row.title,reason:'catalog_title_differs_check_identity'});
  staged.push({...row,film_id:existing?.id??null,action:existing?'existing_catalog_id':'new_catalog_entry',watched:true,watched_date:null});
 }
-const summary={total_source_rows:input.rows.length,staged:staged.length,existing_catalog:staged.filter(r=>r.film_id).length,new_catalog:staged.filter(r=>!r.film_id).length,duplicate_groups:duplicates.length,quarantined:exceptions.length,catalog_title_differences:conflicts.length,notes:staged.filter(r=>r.notes).length,half_point_ratings:staged.filter(r=>r.rating%1!==0).length};
-const output={summary,staged,duplicate_groups:duplicates,quarantined:exceptions,catalog_title_differences:conflicts,warning:'Preview only. Existing Supabase film_progress cannot be compared without an authenticated export; do not insert before conflict reconciliation.'};
+const summary={total_source_rows:input.rows.length,staged:staged.length,existing_catalog:staged.filter(r=>r.film_id).length,new_catalog:staged.filter(r=>!r.film_id).length,duplicate_groups:duplicates.length,resolved_duplicate_groups:resolved_duplicates.length,quarantined:exceptions.length,catalog_title_differences:conflicts.length,notes:staged.filter(r=>r.notes).length,half_point_ratings:staged.filter(r=>r.rating%1!==0).length};
+const output={summary,staged,duplicate_groups:duplicates,resolved_duplicate_groups:resolved_duplicates,quarantined:exceptions,catalog_title_differences:conflicts,warning:'Preview only. Existing Supabase film_progress cannot be compared without an authenticated export; do not insert before conflict reconciliation.'};
 fs.writeFileSync('personal-ratings-staging-preview.json',JSON.stringify(output,null,2)+'\n');
 console.log(JSON.stringify(summary,null,2));
