@@ -9,7 +9,7 @@ for(const r of rows){
  const year=Number(r.candidate_year||r.source_year);
  if(r.match_status==='catalog_identity_review'||r.catalog_film_id){buckets.existing_catalogue.push(r);continue}
  if(/\b(tv series|mini.series|сериал|мини-сериал|т\/с)\b/i.test(r.source_title)||r.candidate_media_type==='tv'){buckets.tv_or_series.push(r);continue}
- if(year>=new Date().getUTCFullYear()){buckets.current_year_review.push(r);continue}
+ // Release year alone is never grounds to hold a genuine watched-film rating.
  if(r.match_status==='unmatched'||!r.candidate_tmdb_id){buckets.search_needed.push(r);continue}
  if(r.review_reasons.includes('Director not verified')&&Number(r.candidate_title_score)>=.65&&Math.abs(Number(r.source_year)-Number(r.candidate_year))<=1&&r.candidate_media_type==='movie'){buckets.director_verification_needed.push(r);continue}
  buckets.other_identity_review.push(r);
