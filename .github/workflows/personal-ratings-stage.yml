@@ -1,0 +1,31 @@
+name: Preview historical ratings import
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  stage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Download latest successful TMDB matching report
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          run_id="$(gh run list --workflow personal-ratings-match.yml --status success --limit 1 --json databaseId --jq '.[0].databaseId')"
+          test -n "$run_id"
+          mkdir -p /tmp/matching
+          gh run download "$run_id" --name personal-ratings-tmdb-candidates --dir /tmp/matching
+          test -s /tmp/matching/ratings-import-review-v2.json
+      - name: Generate read-only staging preview
+        run: node scripts/stage-personal-ratings.mjs /tmp/matching/ratings-import-review-v2.json
+      - name: Upload preview
+        uses: actions/upload-artifact@v4
+        with:
+          name: personal-ratings-staging-preview
+          path: personal-ratings-staging-preview.json
+          retention-days: 30
