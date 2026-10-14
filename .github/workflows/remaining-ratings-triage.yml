@@ -1,0 +1,31 @@
+name: Triage remaining historical ratings
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Download latest remaining ratings review
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          run_id="$(gh run list --workflow remaining-ratings-review.yml --status success --limit 1 --json databaseId --jq '.[0].databaseId')"
+          test -n "$run_id"
+          mkdir -p /tmp/review
+          gh run download "$run_id" --name remaining-historical-ratings-review --dir /tmp/review
+      - name: Produce focused queues
+        run: node scripts/triage-remaining-ratings.mjs /tmp/review/remaining-ratings-review.csv
+      - uses: actions/upload-artifact@v4
+        with:
+          name: remaining-historical-ratings-triage
+          path: |
+            remaining-*.csv
+            remaining-triage-summary.json
+          retention-days: 30
