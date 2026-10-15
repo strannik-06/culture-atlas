@@ -311,20 +311,40 @@ $('audit-catalog-file').addEventListener('change',async e=>{
   const parseCsv=text=>{const out=[];let row=[],field='',quoted=false;for(let i=0;i<text.length;i++){const c=text[i];if(quoted){if(c==='"'&&text[i+1]==='"'){field+='"';i++}else if(c==='"')quoted=false;else field+=c;}else if(c==='"')quoted=true;else if(c===','){row.push(field);field='';}else if(c==='\n'){row.push(field);out.push(row);row=[];field='';}else if(c!=='\r')field+=c;}if(field||row.length){row.push(field);out.push(row);}const headers=(out.shift()||[]).map(x=>x.replace(/^\uFEFF/,''));return out.filter(r=>r.some(Boolean)).map(r=>Object.fromEntries(headers.map((h,i)=>[h,r[i]??''])));};
   const input=parseCsv(await file.text());
   if(!input.length||!input.every(r=>'source_row'in r&&'catalog_film_id'in r))throw Error('Choose remaining-existing_catalogue.csv (source_row and catalog_film_id required).');
-  const ids=[...new Set(input.map(r=>Number(r.catalog_film_id)).filter(n=>Number.isSafeInteger(n)&&n>0))];
+  const normalize=s=>String(s||'').normalize('NFKD').replace(/[\\u0300-\\u036f]/g,'').toLowerCase().replace(/[^\\p{L}\\p{N}]+/gu,' ').trim();
+  const catalogue=window.CULTURE_CATALOG||[];
+  const byId=new Map(catalogue.map(f=>[Number(f.id),f]));
+  const byTitleYear=new Map();
+  for(const f of catalogue){const k=normalize(f.title)+'|'+f.year;if(!byTitleYear.has(k))byTitleYear.set(k,[]);byTitleYear.get(k).push(f);}
+  const resolved=input.map(r=>{
+   const existingId=Number(r.catalog_film_id),existing=byId.get(existingId);
+   const matches=byTitleYear.get(normalize(r.source_title)+'|'+Number(r.source_year))||[];
+   let film=null,identity_status='';
+   if(existing){film=existing;identity_status=matches.length&&!matches.some(m=>m.id===existing.id)?'catalog_id_title_conflict':'catalog_id_verified';}
+   else if(matches.length===1){film=matches[0];identity_status='title_year_unique';}
+   else if(matches.length>1){const directorMatches=matches.filter(f=>normalize(f.director)===normalize(r.source_director));if(directorMatches.length===1){film=directorMatches[0];identity_status='title_year_director_unique';}else identity_status='ambiguous_title_year';}
+   else identity_status='unmatched_catalogue';
+   return {...r,resolved_catalog_id:film?.id??'',resolved_catalog_title:film?.title??'',resolved_tmdb_id:film?.tmdb_id??'',identity_status};
+  });
+  const ids=[...new Set(resolved.map(r=>Number(r.resolved_catalog_id)).filter(n=>Number.isSafeInteger(n)&&n>0))];
   const found=new Map();
   for(let i=0;i<ids.length;i+=100){
-   const {data,error}=await supabaseClient.from('film_progress').select('film_id,watched,rating').in('film_id',ids.slice(i,i+100));
+   const {data,error}=await supabaseClient.from('film_progress').select('film_id,watched,rating').eq('user_id',signedInUser.id).in('film_id',ids.slice(i,i+100));
    if(error)throw Error(error.message);
    for(const p of data||[])found.set(Number(p.film_id),p);
   }
-  const cols=['source_row','source_title','source_year','catalog_film_id','catalog_title','candidate_tmdb_id','audit_status','existing_watched','existing_rating','next_step'];
+  const cols=['source_row','source_title','source_year','source_director','historical_rating','catalog_film_id','resolved_catalog_id','resolved_catalog_title','resolved_tmdb_id','identity_status','audit_status','existing_watched','existing_rating','next_step'];
   const csvEsc=v=>'"'+String(v??'').replace(/"/g,'""')+'"';
-  const results=input.map(r=>{const id=Number(r.catalog_film_id),p=found.get(id);return {...r,audit_status:!Number.isSafeInteger(id)||id<=0?'missing_catalog_id':p?'progress_exists':'no_progress_record',existing_watched:p?String(!!p.watched):'',existing_rating:p?.rating??'',next_step:p?'review_existing_progress_do_not_overwrite':'identity_review_before_import'};});
-  const output='\uFEFF'+cols.join(',')+'\r\n'+results.map(r=>cols.map(c=>csvEsc(r[c])).join(',')).join('\r\n');
+  const results=resolved.map(r=>{const id=Number(r.resolved_catalog_id),p=found.get(id);return {...r,audit_status:!id?'identity_unresolved':p?'progress_exists':'no_progress_record',existing_watched:p?String(!!p.watched):'',existing_rating:p?.rating??'',next_step:!id||r.identity_status==='catalog_id_title_conflict'?'manual_identity_review':r.source_title==='Black Bag'?'preserve_app_rating':'historical_rating_authoritative'};});
+  const blackBag=catalogue.find(f=>normalize(f.title)==='black bag'&&f.year===2025);
+  if(blackBag&&!results.some(r=>Number(r.resolved_catalog_id)===blackBag.id)){
+   const p=found.get(blackBag.id);
+   results.push({source_row:'',source_title:'Black Bag',source_year:2025,resolved_catalog_id:blackBag.id,resolved_catalog_title:blackBag.title,resolved_tmdb_id:blackBag.tmdb_id,identity_status:'app_only_exception',audit_status:p?'progress_exists':'not_checked',existing_watched:p?String(!!p.watched):'',existing_rating:p?.rating??'',next_step:'preserve_app_rating'});
+  }
+  const output='\\uFEFF'+cols.join(',')+'\\r\\n'+results.map(r=>cols.map(c=>csvEsc(r[c])).join(',')).join('\\r\\n');
   const blob=new Blob([output],{type:'text/csv;charset=utf-8'}),link=document.createElement('a'),href=URL.createObjectURL(blob);link.href=href;link.download='existing-catalog-progress-audit.csv';link.click();setTimeout(()=>URL.revokeObjectURL(href),1000);
-  const existing=results.filter(r=>r.audit_status==='progress_exists').length;
-  setAuthMessage('Read-only audit downloaded: '+results.length+' rows; '+existing+' have progress records. No data changed.');
+  const existing=results.filter(r=>r.audit_status==='progress_exists').length;const resolvedCount=resolved.filter(r=>r.resolved_catalog_id).length;
+  setAuthMessage('Read-only audit downloaded: '+resolvedCount+'/'+input.length+' identities resolved; '+existing+' progress records. No data changed.');
  }catch(error){setAuthMessage('Catalogue audit failed: '+error.message);}
  finally{e.target.value='';}
 });
