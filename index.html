@@ -351,20 +351,39 @@ $('audit-catalog-file').addEventListener('change',async e=>{
 $('import-ratings').addEventListener('change',async e=>{
  const file=e.target.files?.[0];if(!file)return;
  try{
+  if(!signedInUser||!supabaseClient)throw Error('Sign in first. Historical import requires a live account check.');
   const parsed=JSON.parse(await file.text());
   if(parsed.format!=='culture-atlas-progress-v1'||!parsed.ratings||typeof parsed.ratings!=='object'||Array.isArray(parsed.ratings))throw Error('Unsupported ratings file.');
   const validIds=new Set(allRateableFilms.map(f=>String(f.id)));
-  const entries=Object.entries(parsed.ratings).filter(([id,rating])=>validIds.has(id)&&typeof rating==='number'&&rating>=0.5&&rating<=10&&Number.isInteger(rating*2));
-  if(!entries.length)throw Error('No matching film ratings found.');
-  if(!confirm('Import '+entries.length+' ratings? Existing ratings for these films will be replaced. Other films will be unchanged.'))return;
-  for(const [id,rating] of entries)progress[id]={...(progress[id]||{}),rating,watched:true};
+  const entries=Object.entries(parsed.ratings);
+  if(!entries.length||entries.some(([id,rating])=>!validIds.has(id)||typeof rating!=='number'||rating<0.5||rating>10||!Number.isInteger(rating*2)))throw Error('File contains invalid or unknown film IDs or ratings. No changes made.');
+  // Query the database directly before the import: browser state may be stale.
+  const remote=new Map();
+  for(let offset=0;;offset+=500){
+   const {data,error}=await supabaseClient.from('film_progress').select('film_id,watched,rating').eq('user_id',signedInUser.id).order('film_id',{ascending:true}).range(offset,offset+499);
+   if(error)throw Error('Cannot verify existing cloud ratings: '+error.message);
+   for(const row of data)remote.set(String(row.film_id),row);
+   if(data.length<500)break;
+  }
+  const existing=entries.filter(([id])=>remote.has(id)||!!progress[id]?.rating||!!progress[id]?.watched);
+  const missing=entries.filter(([id])=>!remote.has(id)&&!progress[id]?.rating&&!progress[id]?.watched);
+  const conflicting=existing.filter(([id,rating])=>remote.has(id)&&remote.get(id).rating!=null&&Number(remote.get(id).rating)!==rating);
+  const summary='Historical import preview (no changes yet): '+entries.length+' input; '+missing.length+' missing; '+existing.length+' already present; '+conflicting.length+' differing ratings. Existing entries will NEVER be overwritten. Proceed with '+missing.length+' new ratings?';
+  if(!missing.length){setAuthMessage(summary);return}
+  if(!confirm(summary))return;
+  // Insert-only protects existing rows even if another session writes between preview and submit.
+  const inserted=[];
+  for(let offset=0;offset<missing.length;offset+=100){
+   const batch=missing.slice(offset,offset+100);
+   const rows=batch.map(([id,rating])=>({user_id:signedInUser.id,film_id:Number(id),rating,watched:true}));
+   const {data,error}=await supabaseClient.from('film_progress').insert(rows).select('film_id');
+   if(error){setAuthMessage('Stopped after '+inserted.length+' inserts: '+error.message+'. Re-export and reconcile before retrying.');return}
+   inserted.push(...data.map(x=>String(x.film_id)));
+  }
+  const insertedSet=new Set(inserted);
+  for(const [id,rating] of missing)if(insertedSet.has(id))progress[id]={...(progress[id]||{}),rating,watched:true};
   localStorage.setItem(key,JSON.stringify(progress));render();
-  if(signedInUser&&supabaseClient){
-   const rows=entries.map(([id,rating])=>({user_id:signedInUser.id,film_id:Number(id),rating,watched:true}));
-   const {error}=await supabaseClient.from('film_progress').upsert(rows,{onConflict:'user_id,film_id'});
-   if(error){setAuthMessage('Imported locally, but cloud sync failed: '+error.message);return}
-   setAuthMessage('Imported and synced '+entries.length+' ratings to your account.');
-  }else setAuthMessage('Imported '+entries.length+' ratings into this browser. Sign in to sync them to your account.');
+  setAuthMessage('Inserted '+inserted.length+' new ratings. Existing ratings were not overwritten.');
  }catch(error){setAuthMessage('Import failed: '+error.message)}
  finally{e.target.value=''}
 });
