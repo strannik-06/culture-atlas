@@ -1,0 +1,36 @@
+name: Audit existing catalogue ratings (read-only)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Download latest triage
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          run_id="$(gh run list --workflow remaining-ratings-triage.yml --status success --limit 1 --json databaseId --jq '.[0].databaseId')"
+          test -n "$run_id"
+          mkdir -p /tmp/triage
+          gh run download "$run_id" --name remaining-historical-ratings-triage --dir /tmp/triage
+      - name: Compare against authenticated user's progress (SELECT only)
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+          SUPABASE_USER_ACCESS_TOKEN: ${{ secrets.SUPABASE_USER_ACCESS_TOKEN }}
+        run: node scripts/audit-existing-catalog-ratings.mjs /tmp/triage/remaining-existing_catalogue.csv
+      - uses: actions/upload-artifact@v4
+        with:
+          name: existing-catalog-progress-audit
+          path: |
+            existing-catalog-progress-audit.csv
+            existing-catalog-progress-summary.json
+          retention-days: 7
