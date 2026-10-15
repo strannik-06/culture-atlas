@@ -21170,5 +21170,122 @@ window.CULTURE_CATALOG = [
     "imdb_id": "tt0009018",
     "original_title": "A Dog's Life",
     "original_language": "en"
+  },
+  {
+    "id": 2165,
+    "title": "Titane",
+    "director": "Julia Ducournau",
+    "year": 2021,
+    "tmdb_id": 630240,
+    "imdb_id": "tt10944760",
+    "original_title": "Titane"
+  },
+  {
+    "id": 2166,
+    "title": "Ice",
+    "director": "Oleg Trofim",
+    "year": 2018,
+    "tmdb_id": 440630,
+    "imdb_id": "tt5844488",
+    "original_title": "Лёд"
+  },
+  {
+    "id": 2167,
+    "title": "Standing Up",
+    "director": "D.J. Caruso",
+    "year": 2013,
+    "tmdb_id": 179154,
+    "imdb_id": "tt1905042",
+    "original_title": "Standing Up"
+  },
+  {
+    "id": 2168,
+    "title": "The Ghost Writer",
+    "director": "Roman Polanski",
+    "year": 2010,
+    "tmdb_id": 11439,
+    "imdb_id": "tt1139328",
+    "original_title": "The Ghost Writer"
+  },
+  {
+    "id": 2169,
+    "title": "The Return",
+    "director": "Andrey Zvyagintsev",
+    "year": 2003,
+    "tmdb_id": 11190,
+    "imdb_id": "tt0376968",
+    "original_title": "Возвращение"
+  },
+  {
+    "id": 2170,
+    "title": "Head in the Clouds",
+    "director": "John Duigan",
+    "year": 2004,
+    "tmdb_id": 18804,
+    "imdb_id": "tt0338097",
+    "original_title": "Head in the Clouds"
+  },
+  {
+    "id": 2171,
+    "title": "Pi",
+    "director": "Darren Aronofsky",
+    "year": 1998,
+    "tmdb_id": 473,
+    "imdb_id": "tt0138704",
+    "original_title": "Pi"
+  },
+  {
+    "id": 2172,
+    "title": "Blind Chance",
+    "director": "Krzysztof Kieślowski",
+    "year": 1987,
+    "tmdb_id": 127,
+    "imdb_id": "tt0084549",
+    "original_title": "Przypadek"
+  },
+  {
+    "id": 2173,
+    "title": "Mirror",
+    "director": "Andrei Tarkovsky",
+    "year": 1975,
+    "tmdb_id": 1396,
+    "imdb_id": "tt0072443",
+    "original_title": "Зеркало"
+  },
+  {
+    "id": 2174,
+    "title": "Foontic at the Сircus",
+    "director": "Anatoliy Solin",
+    "year": 1988,
+    "tmdb_id": 222013,
+    "imdb_id": null,
+    "original_title": "Фунтик в цирке"
+  },
+  {
+    "id": 2175,
+    "title": "Lost and Found: Film 3",
+    "director": "Oleg Churkin",
+    "year": 1983,
+    "tmdb_id": 1003805,
+    "imdb_id": null,
+    "original_title": "Бюро находок (Фильм 3)"
+  },
+  {
+    "id": 2176,
+    "title": "Lost and Found: Film 1",
+    "director": "Oleg Churkin",
+    "year": 1982,
+    "tmdb_id": 198788,
+    "imdb_id": null,
+    "original_title": "Бюро находок (Фильм 1)"
+  },
+  {
+    "id": 2177,
+    "title": "Lost and Found: Film 2",
+    "director": "Oleg Churkin",
+    "year": 1982,
+    "tmdb_id": 1003796,
+    "imdb_id": null,
+    "original_title": "Бюро находок (Фильм 2)"
   }
 ];
