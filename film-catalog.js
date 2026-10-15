@@ -14060,5 +14060,15 @@ window.CULTURE_CATALOG = [
     "imdb_id": "tt3449464",
     "original_title": "В двух километрах от Нового года",
     "original_language": "ru"
+  },
+  {
+    "id": 1454,
+    "title": "The Intouchables",
+    "director": "Olivier Nakache, Éric Toledano",
+    "year": 2011,
+    "tmdb_id": 77338,
+    "imdb_id": "tt1675434",
+    "original_title": "Intouchables",
+    "original_language": "fr"
   }
 ];
