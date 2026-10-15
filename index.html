@@ -326,7 +326,8 @@ $('audit-catalog-file').addEventListener('change',async e=>{
    else identity_status='unmatched_catalogue';
    return {...r,resolved_catalog_id:film?.id??'',resolved_catalog_title:film?.title??'',resolved_tmdb_id:film?.tmdb_id??'',identity_status};
   });
-  const ids=[...new Set(resolved.map(r=>Number(r.resolved_catalog_id)).filter(n=>Number.isSafeInteger(n)&&n>0))];
+  const blackBag=catalogue.find(f=>normalize(f.title)==='black bag'&&f.year===2025);
+  const ids=[...new Set([...resolved.map(r=>Number(r.resolved_catalog_id)),blackBag?.id].filter(n=>Number.isSafeInteger(n)&&n>0))];
   const found=new Map();
   for(let i=0;i<ids.length;i+=100){
    const {data,error}=await supabaseClient.from('film_progress').select('film_id,watched,rating').eq('user_id',signedInUser.id).in('film_id',ids.slice(i,i+100));
@@ -336,7 +337,6 @@ $('audit-catalog-file').addEventListener('change',async e=>{
   const cols=['source_row','source_title','source_year','source_director','historical_rating','catalog_film_id','resolved_catalog_id','resolved_catalog_title','resolved_tmdb_id','identity_status','audit_status','existing_watched','existing_rating','next_step'];
   const csvEsc=v=>'"'+String(v??'').replace(/"/g,'""')+'"';
   const results=resolved.map(r=>{const id=Number(r.resolved_catalog_id),p=found.get(id);return {...r,audit_status:!id?'identity_unresolved':p?'progress_exists':'no_progress_record',existing_watched:p?String(!!p.watched):'',existing_rating:p?.rating??'',next_step:!id||r.identity_status==='catalog_id_title_conflict'?'manual_identity_review':r.source_title==='Black Bag'?'preserve_app_rating':'historical_rating_authoritative'};});
-  const blackBag=catalogue.find(f=>normalize(f.title)==='black bag'&&f.year===2025);
   if(blackBag&&!results.some(r=>Number(r.resolved_catalog_id)===blackBag.id)){
    const p=found.get(blackBag.id);
    results.push({source_row:'',source_title:'Black Bag',source_year:2025,resolved_catalog_id:blackBag.id,resolved_catalog_title:blackBag.title,resolved_tmdb_id:blackBag.tmdb_id,identity_status:'app_only_exception',audit_status:p?'progress_exists':'not_checked',existing_watched:p?String(!!p.watched):'',existing_rating:p?.rating??'',next_step:'preserve_app_rating'});
