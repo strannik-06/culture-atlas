@@ -1,0 +1,25 @@
+name: Preview 714 historical catalogue additions
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Prepare metadata from existing identities
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: |
+          test -s imports/historical-714-tmdb-ids.csv
+          node scripts/preview-historical-catalogue-ids.mjs imports/historical-714-tmdb-ids.csv
+      - uses: actions/upload-artifact@v4
+        with:
+          name: historical-714-catalogue-metadata-preview
+          path: historical-catalogue-714-preview.json
+          retention-days: 30
