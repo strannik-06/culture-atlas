@@ -1,10 +1,10 @@
 -- Culture Atlas: personal film progress
--- Run in Supabase Dashboard > SQL Editor. Safe to rerun.
+-- Reference schema for fresh installations. The live database already supports half-point ratings.\n-- Do not infer live schema state from this file; inspect Supabase for migrations.
 create table if not exists public.film_progress (
   user_id uuid not null references auth.users(id) on delete cascade,
   film_id integer not null check (film_id > 0),
   watched boolean not null default false,
-  rating smallint check (rating between 1 and 10),
+  rating numeric(3,1) constraint film_progress_rating_check\n    check (rating is null or (rating >= 0.5 and rating <= 10 and rating * 2 = trunc(rating * 2))),
   updated_at timestamptz not null default now(),
   primary key (user_id, film_id)
 );
