@@ -1,0 +1,41 @@
+name: Propose 710 historical catalogue films
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+  pull-requests: write
+  actions: read
+jobs:
+  propose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Download verified metadata preview
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          run_id="$(gh run list --workflow preview-historical-714.yml --status success --limit 1 --json databaseId --jq '.[0].databaseId')"
+          test -n "$run_id"
+          mkdir -p /tmp/historical
+          gh run download "$run_id" --name historical-714-catalogue-metadata-preview --dir /tmp/historical
+          test -s /tmp/historical/historical-catalogue-714-preview.json
+      - name: Prepare additions and validate catalogue
+        run: |
+          node scripts/apply-historical-catalogue-preview.mjs /tmp/historical/historical-catalogue-714-preview.json
+          node scripts/validate-catalog.mjs
+      - name: Open catalogue-only PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          branch="import/historical-710-${{ github.run_id }}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$branch"
+          git add film-catalog.js import-previews/historical-714-catalogue-review.json
+          git commit -m "Propose 710 verified historical catalogue entries"
+          git push origin "$branch"
+          gh pr create --base main --head "$branch" --title "Add 710 historical films to canonical catalogue" --body "Catalogue-only additions from the 714-ID metadata preview. Four incomplete TMDB records are held and documented. No Supabase changes; no personal ratings or notes committed. Review and merge when ready."
