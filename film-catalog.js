@@ -21287,5 +21287,14 @@ window.CULTURE_CATALOG = [
     "tmdb_id": 1003796,
     "imdb_id": null,
     "original_title": "Бюро находок (Фильм 2)"
+  },
+  {
+    "id": 2178,
+    "title": "Spirits of the Dead",
+    "director": "Roger Vadim; Louis Malle; Federico Fellini",
+    "year": 1968,
+    "tmdb_id": 41225,
+    "imdb_id": "tt0063715",
+    "original_title": "Histoires extraordinaires"
   }
 ];
