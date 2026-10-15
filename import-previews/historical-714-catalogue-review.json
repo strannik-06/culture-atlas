@@ -1,0 +1,31 @@
+{
+  "summary": {
+    "previous": 1453,
+    "added": 710,
+    "total": 2163,
+    "held": 4
+  },
+  "held": [
+    {
+      "tmdb_id": 222013,
+      "title": "Foontic at the Сircus",
+      "reason": "Missing metadata, director, IMDb ID, or duplicate IMDb identity"
+    },
+    {
+      "tmdb_id": 1003805,
+      "title": "Lost and Found: Film 3",
+      "reason": "Missing metadata, director, IMDb ID, or duplicate IMDb identity"
+    },
+    {
+      "tmdb_id": 198788,
+      "title": "Lost and Found: Film 1",
+      "reason": "Missing metadata, director, IMDb ID, or duplicate IMDb identity"
+    },
+    {
+      "tmdb_id": 1003796,
+      "title": "Lost and Found: Film 2",
+      "reason": "Missing metadata, director, IMDb ID, or duplicate IMDb identity"
+    }
+  ],
+  "warning": "Catalogue-only. No Supabase writes. Personal ratings and notes not included."
+}
