@@ -1,0 +1,30 @@
+name: Recover original historical auto-matches
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Download original successful staging artifact (no rematching)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p /tmp/original-staging
+          gh run download 38617425067 --name personal-ratings-staging-preview --dir /tmp/original-staging
+          test -f /tmp/original-staging/personal-ratings-staging-preview.json
+      - name: Recover original matched film IDs against current catalogue
+        run: node scripts/reuse-original-staging.mjs /tmp/original-staging/personal-ratings-staging-preview.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: original-auto-matches-recovered
+          path: |
+            original-auto-matches-recovered.csv
+            original-auto-matches-recovered-summary.json
+          retention-days: 30
