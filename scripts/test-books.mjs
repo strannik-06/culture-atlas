@@ -147,7 +147,7 @@ test('Full page boots with film scripts and shared Account menu still works unde
       w.document.querySelector('[data-section="tv"]').click();
       assert.equal(w.document.getElementById('tv-view').hidden,false);
       assert.equal(w.document.getElementById('books-view').hidden,true);
-      assert.equal(w.document.querySelectorAll('[data-tv-edit]').length,43);
+      assert.equal(w.document.querySelectorAll('[data-tv-edit]').length,w.CULTURE_TV_CATALOG.length);
       w.document.querySelector('[data-section="films"]').click();
       w.document.querySelector('[data-view="awards"]').click();
       assert.equal(w.document.getElementById('awards-view').hidden,false);

@@ -1313,5 +1313,199 @@ window.CULTURE_TV_CATALOG = [
       }
     ],
     "poster_path": "/evPwhhd8nnlLEaKlj35HtWDPOLk.jpg"
+  },
+  {
+    "id": "tv:99952",
+    "work_type": "tv",
+    "series_kind": "miniseries",
+    "title": "Dunno on the Moon",
+    "original_title": "Незнайка на Луне",
+    "year": 1997,
+    "first_air_date": "1997-12-01",
+    "tmdb_id": 99952,
+    "imdb_id": "tt0219207",
+    "original_language": "ru",
+    "creators": [],
+    "directors": [
+      {
+        "id": 1279071,
+        "name": "Yuriy Butyrin"
+      },
+      {
+        "id": 126964,
+        "name": "Alexander Lyutkevich"
+      }
+    ],
+    "poster_path": "/nJYMFzMH14nuf3RQOsOqgf6QjYn.jpg"
+  },
+  {
+    "work_type": "tv",
+    "creators": [
+      {
+        "id": 196178,
+        "name": "Mark Shirrefs"
+      },
+      {
+        "id": 1224718,
+        "name": "John Thomson"
+      }
+    ],
+    "directors": [],
+    "poster_path": "/loc9hb3ybciLZNmDzvWMJSFmJ0E.jpg",
+    "original_language": "en",
+    "id": "tv:1455:season:1",
+    "series_kind": "season",
+    "title": "Spellbinder — Season 1",
+    "original_title": "Чародей — сезон 1",
+    "year": 1995,
+    "first_air_date": "1995-01-09",
+    "tmdb_id": 1455,
+    "tmdb_media_type": "tv",
+    "season_number": 1,
+    "imdb_id": "tt0112174",
+    "scope_label": "Season 1 · 26 episodes"
+  },
+  {
+    "work_type": "tv",
+    "creators": [
+      {
+        "id": 196178,
+        "name": "Mark Shirrefs"
+      },
+      {
+        "id": 1224718,
+        "name": "John Thomson"
+      }
+    ],
+    "directors": [],
+    "poster_path": "/loc9hb3ybciLZNmDzvWMJSFmJ0E.jpg",
+    "original_language": "en",
+    "id": "tv:1455:season:2",
+    "series_kind": "season",
+    "title": "Spellbinder: Land of the Dragon Lord — Season 2",
+    "original_title": "Чародей: Страна Великого Дракона — сезон 2",
+    "year": 1997,
+    "first_air_date": "1997-09-01",
+    "tmdb_id": 1455,
+    "tmdb_media_type": "tv",
+    "season_number": 2,
+    "imdb_id": "tt0118476",
+    "scope_label": "Season 2 · 26 episodes"
+  },
+  {
+    "work_type": "tv",
+    "creators": [],
+    "directors": [
+      {
+        "id": 240351,
+        "name": "Igor Maslennikov"
+      }
+    ],
+    "poster_path": "/zHCBBn2asb00aOOfzsThnuCIzun.jpg",
+    "original_language": "ru",
+    "id": "tv:movie:126850",
+    "series_kind": "episode",
+    "title": "The Adventures of Sherlock Holmes and Dr. Watson: Mortal Fight",
+    "original_title": "Приключения Шерлока Холмса и доктора Ватсона: Смертельная схватка",
+    "year": 1980,
+    "first_air_date": "1980-09-09",
+    "tmdb_id": 126850,
+    "tmdb_media_type": "movie",
+    "imdb_id": "tt0229922",
+    "scope_label": "Individual Sherlock Holmes installment"
+  },
+  {
+    "work_type": "tv",
+    "creators": [],
+    "directors": [
+      {
+        "id": 240351,
+        "name": "Igor Maslennikov"
+      }
+    ],
+    "poster_path": "/uSVz0PDiOpwMN475oVcNz7vB4W0.jpg",
+    "original_language": "ru",
+    "id": "tv:movie:126846",
+    "series_kind": "episode",
+    "title": "The Adventures of Sherlock Holmes and Dr. Watson: King of Blackmailers",
+    "original_title": "Приключения Шерлока Холмса и доктора Ватсона: Король шантажа",
+    "year": 1980,
+    "first_air_date": "1980-09-08",
+    "tmdb_id": 126846,
+    "tmdb_media_type": "movie",
+    "imdb_id": "tt0459944",
+    "scope_label": "Individual Sherlock Holmes installment"
+  },
+  {
+    "work_type": "tv",
+    "creators": [],
+    "directors": [
+      {
+        "id": 240351,
+        "name": "Igor Maslennikov"
+      }
+    ],
+    "poster_path": "/iEduiYp2RCIUOhLEUjHp8XChKFb.jpg",
+    "original_language": "ru",
+    "id": "tv:movie:126854",
+    "series_kind": "episode",
+    "title": "The Adventures of Sherlock Holmes and Dr. Watson: Hunting the Tiger",
+    "original_title": "Приключения Шерлока Холмса и доктора Ватсона: Охота на тигра",
+    "year": 1980,
+    "first_air_date": "1980-09-10",
+    "tmdb_id": 126854,
+    "tmdb_media_type": "movie",
+    "imdb_id": "tt0459945",
+    "scope_label": "Individual Sherlock Holmes installment"
+  },
+  {
+    "work_type": "tv",
+    "creators": [],
+    "directors": [
+      {
+        "id": 239125,
+        "name": "Vladimir Popkov"
+      }
+    ],
+    "poster_path": null,
+    "original_language": "ru",
+    "id": "tv:imdb:tt4324832",
+    "series_kind": "miniseries",
+    "title": "Hearts of Three 2",
+    "original_title": "Сердца трёх 2",
+    "year": 1993,
+    "first_air_date": null,
+    "tmdb_id": null,
+    "imdb_id": "tt4324832",
+    "identity_status": "manual_verified",
+    "evidence_urls": [
+      "https://www.imdb.com/title/tt4324832/",
+      "https://ruskino.ru/mov/2337"
+    ],
+    "scope_label": "Complete 1993 sequel"
+  },
+  {
+    "work_type": "tv",
+    "creators": [],
+    "directors": [],
+    "poster_path": null,
+    "original_language": "ru",
+    "id": "tv:local:good-night-little-ones-tatarskiy-opening",
+    "series_kind": "opening",
+    "title": "Good Night, Little Ones! — Tatarskiy opening",
+    "original_title": "Спокойной ночи, малыши! — заставка Александра Татарского",
+    "year": 1981,
+    "first_air_date": null,
+    "tmdb_id": null,
+    "imdb_id": null,
+    "identity_status": "manual_verified",
+    "evidence_urls": [
+      "https://spokoinoinochi.ru/story/1982-pervaya-multiplikaczionnaya-plastilinovaya-zastavka-v-peredache-spokojnoj-nochi-malyshi/",
+      "https://animator.ru/db/?fid=5308&p=show_film"
+    ],
+    "credit_names": [
+      "Aleksandr Tatarskiy"
+    ],
+    "scope_label": "Plasticine opening only · production 1981, first broadcast 1982"
   }
 ];

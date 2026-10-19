@@ -1,0 +1,20 @@
+{
+  "base_commit": "cc2add7e9f3d8004218332ae76903982318be7c0",
+  "source": "Remaining sequel identity; metadata only, no progress access.",
+  "entries": [
+    {
+      "source_rows": "1457",
+      "title": "Сердца трёх 2",
+      "director": "Владимир Попков",
+      "year": 1993,
+      "imdb_id_hint": "tt4324832",
+      "search_titles": [
+        "Сердца трех 2",
+        "Сердца трёх 2",
+        "Serdtsa tryokh-2",
+        "Hearts of Three 2"
+      ],
+      "search_movies": true
+    }
+  ]
+}

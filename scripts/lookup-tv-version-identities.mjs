@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Read-only TMDB evidence collector. Outputs metadata only, never progress.
 import fs from 'node:fs';
-const seeds=JSON.parse(fs.readFileSync('imports/tv-version-56-seeds.json','utf8'));
+const seeds=JSON.parse(fs.readFileSync(process.argv[2]||'imports/tv-version-56-seeds.json','utf8'));
 const apiKey=process.env.TMDB_API_KEY;
 const token=process.env.TMDB_READ_ACCESS_TOKEN;
 if(!apiKey&&!token)throw Error('Configure a TMDB API key or read-access token');
@@ -58,7 +58,7 @@ for(const seed of seeds.entries){
  console.log('TV_SOURCE_EVIDENCE '+JSON.stringify(entries.at(-1)));
 }
 const report={generated_at:new Date().toISOString(),base_commit:seeds.base_commit,source_count:entries.length,entries,errors,warning:'Candidate metadata only. Search, title/year and inherited IDs never approve identity or rating scope. No Supabase or progress access.'};
-fs.writeFileSync('tv-version-56-tmdb-evidence.json',JSON.stringify(report,null,2)+'\n');
+fs.writeFileSync(process.argv[3]||'tv-version-56-tmdb-evidence.json',JSON.stringify(report,null,2)+'\n');
 console.log('TV_LOOKUP_ERRORS '+JSON.stringify(errors));
 console.log(JSON.stringify({source_count:entries.length,candidates:entries.reduce((n,r)=>n+r.candidates.length,0),errors:errors.length}));
 if(errors.some(e=>[401,403].includes(e.status)))process.exitCode=1;

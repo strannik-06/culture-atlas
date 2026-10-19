@@ -33,7 +33,7 @@ def main():
         scope='whole_work' if review['rating_scope'].startswith('owner_confirmed_') else 'unspecified'
         ratings.append({'work_key':work['id'],'rating':rating,'rating_scope':scope,'notes':row['notes'] or '','watched_date':None})
         ledger.append({'source_rows':review['source_rows'],'source_title':row['source_title'],'title':work['title'],**ratings[-1]})
-    assert len(ratings)==len({r['work_key'] for r in ratings})==len(catalogue)==43
+    assert len(ratings)==len({r['work_key'] for r in ratings})==43
     assert next(r for r in ratings if r['work_key']=='tv:42699')['rating']==10
     output.mkdir(parents=True,exist_ok=True)
     (output/'culture-atlas-43-tv-ratings.json').write_text(json.dumps({'format':'culture-atlas-tv-progress-v1','ratings':ratings,'replace_dekalog_episode':True},ensure_ascii=False,indent=2)+'\n')
