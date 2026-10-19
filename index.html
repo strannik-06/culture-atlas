@@ -77,13 +77,13 @@ async function loadCloudProgress(user){
   for(const row of data)remote[row.film_id]={watched:row.watched,rating:row.rating};
   if(data.length<batchSize)break;
  }
- // Preserve local-only progress and import it once into the signed-in account.
- const pending=Object.entries(progress).filter(([id,p])=>!Object.prototype.hasOwnProperty.call(remote,id)&&(p.watched||p.rating));
- if(pending.length){const records=pending.map(([id,p])=>({user_id:user.id,film_id:Number(id),watched:!!p.watched,rating:p.rating||null}));
- const {error:importError}=await supabaseClient.from('film_progress').upsert(records,{onConflict:'user_id,film_id'});
- if(importError){setAuthMessage('Could not import browser progress: '+importError.message);return}
- for(const [id,p] of pending)remote[id]=p;
- setAuthMessage('Imported '+pending.length+' film entries from this browser.');}
+ // A successful cloud read is authoritative, including deleted progress.
+ // Never upload missing browser-cache rows here: that resurrects deleted ratings
+ // and can copy a previous account's cache into the account signing in.
+ // Retain one local recovery snapshot; importing it requires an explicit action.
+ try{const backupKey=key+':before-cloud:'+user.id;
+  if(Object.keys(progress).length&&localStorage.getItem(backupKey)===null)localStorage.setItem(backupKey,JSON.stringify(progress));
+ }catch{}
  progress=remote;try{localStorage.setItem(key,JSON.stringify(progress))}catch{}render();
 }
 async function updateAuth(session){

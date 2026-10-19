@@ -18,4 +18,5 @@ jobs:
           node --check work-identities.js
           node scripts/validate-work-catalog.mjs
           node --test tests/work-identities.test.mjs
+          node --test tests/film-progress-sync.test.mjs
           python3 -m unittest discover -s tests -p 'test_reviewed_ratings.py'
