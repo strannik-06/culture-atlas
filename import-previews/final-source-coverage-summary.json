@@ -1,0 +1,96 @@
+{
+  "source_entries": 2150,
+  "catalogue_tv_rating_targets": 51,
+  "final_source_rows_resolved": 9,
+  "final_new_rating_targets": 8,
+  "existing_movie_aliases_resolved_without_new_rating": 4,
+  "coverage_counts": {
+    "consolidated": 2,
+    "duplicate_identity": 10,
+    "present": 2082,
+    "present_existing_film_alias": 4,
+    "present_tv_catalogue": 52
+  },
+  "unresolved_source_rows": [],
+  "resolutions": [
+    {
+      "source_rows": "1276",
+      "source_title": "Незнайка на Луне 2",
+      "work_key": "tv:99952",
+      "decision": "combined_equal_parts"
+    },
+    {
+      "source_rows": "1359",
+      "source_title": "Незнайка на Луне",
+      "work_key": "tv:99952",
+      "decision": "combined_equal_parts"
+    },
+    {
+      "source_rows": "1371",
+      "source_title": "Чародей: Страна Великого Дракона (сериал)",
+      "work_key": "tv:1455:season:2",
+      "decision": "verified_season"
+    },
+    {
+      "source_rows": "1416",
+      "source_title": "Чародей (сериал)",
+      "work_key": "tv:1455:season:1",
+      "decision": "verified_season"
+    },
+    {
+      "source_rows": "1457",
+      "source_title": "Сердца трёх 2",
+      "work_key": "tv:imdb:tt4324832",
+      "decision": "owner_confirmed_manual_identity"
+    },
+    {
+      "source_rows": "1618",
+      "source_title": "Гостья из будущего (мини-сериал)",
+      "work_key": "movie:1955",
+      "decision": "existing_movie_alias_no_new_rating"
+    },
+    {
+      "source_rows": "1639",
+      "source_title": "Доктор Айболит (мультсериал)",
+      "work_key": "movie:1967",
+      "decision": "existing_movie_alias_no_new_rating"
+    },
+    {
+      "source_rows": "1699",
+      "source_title": "Спокойной ночи, малыши (заставка)",
+      "work_key": "tv:local:good-night-little-ones-tatarskiy-opening",
+      "decision": "owner_confirmed_manual_identity"
+    },
+    {
+      "source_rows": "1710",
+      "source_title": "Шерлок Холмс и доктор Ватсон: Смертельная схватка",
+      "work_key": "tv:movie:126850",
+      "decision": "verified_installment"
+    },
+    {
+      "source_rows": "1711",
+      "source_title": "Шерлок Холмс и доктор Ватсон: Король шантажа",
+      "work_key": "tv:movie:126846",
+      "decision": "verified_installment"
+    },
+    {
+      "source_rows": "1712",
+      "source_title": "Шерлок Холмс и доктор Ватсон: Охота на тигра",
+      "work_key": "tv:movie:126854",
+      "decision": "verified_installment"
+    },
+    {
+      "source_rows": "1780",
+      "source_title": "Приключения капитана Врунгеля (мультсериал)",
+      "work_key": "movie:2016",
+      "decision": "existing_movie_alias_no_new_rating"
+    },
+    {
+      "source_rows": "1853",
+      "source_title": "Большая перемена (мини-сериал)",
+      "work_key": "movie:2047",
+      "decision": "existing_movie_alias_no_new_rating"
+    }
+  ],
+  "note": "Final reviewed overlay supersedes historical held decisions. Source coverage only; production progress is not read and counts are not independently verified."
+}

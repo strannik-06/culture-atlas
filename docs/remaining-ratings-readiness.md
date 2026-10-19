@@ -1,5 +1,7 @@
 # Remaining historical ratings: review boundary
 
+**Current completion:** the final eight-rating batch resolves every remaining source identity. See [final audit and import instructions](remaining-version-audit.md); the counts below describe the earlier readiness snapshot.
+
 Prepared after merged PR #89 (`ceb9024d3a34ebee574176418e6ac4355aa4dfa3`). This is an offline preparation step, with no Supabase access or rating writes.
 
 ## Catalogue follow-up

@@ -1,6 +1,6 @@
 # TV ratings and historical import
 
-This adds a top-level TV Series section with Catalogue/My ratings tabs, series/miniseries filters, title/creator/director search, sorting, half-point stars, rating scope, private notes and an optional watched date. Films and Books keep their own ratings. The original 43 TV identities and all existing numeric film IDs remain unchanged. A supplementary catalogue review adds Dunno on the Moon as the 44th TV identity.
+This adds a top-level TV Series section with Catalogue/My ratings tabs, series/miniseries filters, title/creator/director search, sorting, half-point stars, rating scope, private notes and an optional watched date. Films and Books keep their own ratings. The original 43 TV identities and all existing numeric film IDs remain unchanged. The final historical batch adds eight rating targets, bringing TV to 51, including explicit seasons, installments and two manually verified identities.
 
 ## Setup and review boundary
 
@@ -14,7 +14,7 @@ No production migration or import is run by this PR. After setup, authenticated 
 
 ## Storage and privacy
 
-`public.tv_progress` is keyed by `(user_id, work_key)`, where `work_key` is `tv:<TMDB TV ID>`. `movie:` keys and bare numbers are rejected. It stores a numeric half-point score, `rating_scope`, notes, optional watched date and an update version. Row-level security restricts all access to the signed-in owner; anonymous users cannot read TV ratings or call the write functions.
+`public.tv_progress` is keyed by `(user_id, work_key)`. Whole-show keys remain `tv:<TMDB TV ID>`; the additive scoped-identity migration also accepts explicit seasons, reviewed movie-provider TV installments, IMDb-based records and manual local identities. `movie:` keys and bare numbers are rejected. It stores a numeric half-point score, `rating_scope`, notes, optional watched date and an update version. Row-level security restricts all access to the signed-in owner; anonymous users cannot read TV ratings or call the write functions.
 
 Functions use caller privileges (`security invoker`) and an empty search path. The current user comes from `auth.uid()`, never a submitted user ID. Interactive saves/removals compare the last update version: stale editors fail instead of silently overwriting or recreating removed ratings. No TV progress is copied into browser local storage or uploaded during a cloud read. Account switches clear displayed private state; late responses from an old session are ignored.
 
@@ -26,7 +26,7 @@ The format is `culture-atlas-tv-progress-v1`, with a `ratings` array of `work_ke
 
 Client validation rejects unknown catalogue keys, film aliases, duplicate work keys, invalid half-points, oversized notes and invalid dates. It refreshes current progress before confirmation and checks the current account again before sending the write. The database validates the whole batch, inserts missing rows with `ON CONFLICT DO NOTHING`, and reports actual inserted keys. Existing TV ratings, notes, dates and scopes are never updated by an import, including concurrent inserts after the preview. A failing statement or correction rolls the entire batch back.
 
-`rating_scope` is either `whole_work` or `unspecified`. An unspecified scope does not mean all seasons have been watched. The private source proposal contains **6 owner-confirmed whole-work ratings and 37 unspecified scopes**. All historical watched dates remain null. Original notes and exact half-point scores are preserved. Individual season/episode rating targets are not supported in this first version and remain deferred.
+`rating_scope` is either `whole_work` or `unspecified`. An unspecified scope does not mean all seasons have been watched. The private source proposal contains **6 owner-confirmed whole-work ratings and 37 unspecified scopes**. All historical watched dates remain null. Original notes and exact half-point scores are preserved. The final historical extension supports explicitly reviewed season, installment and opening cards. Their whole-work scope refers to the selected card, not a wider parent.
 
 The proposal is reproducible without network/database access:
 
@@ -64,7 +64,7 @@ Each alias shares the verified IMDb identity of the target. Rating edits use **V
 
 ## Remaining source cases
 
-The original 43-row import remains reproducible and excludes all later additions. The supplementary [remaining-case audit](remaining-version-audit.md) uses the owner-permitted combined Dunno identity. Six version entries and one opening remain deferred. No new production migration or rating import is part of that catalogue review.
+All remaining nine source rows are resolved into eight targets in the [final audit](remaining-version-audit.md). The original 43-row import remains reproducible and excludes these later additions. Apply the new scoped-identity SQL once, then use the single private eight-rating import file. No production writes are performed by development tooling.
 
 ## Validation and limits
 

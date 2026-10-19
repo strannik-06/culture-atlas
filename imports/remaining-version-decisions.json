@@ -1,50 +1,149 @@
 {
   "base_commit": "cc2add7e9f3d8004218332ae76903982318be7c0",
-  "evidence": "tv-version-56-tmdb-evidence.json",
-  "evidence_workflow_run_id": 39279871694,
-  "scope_authority": "Owner confirmed separate parts and permitted considering a combined identity if a second-part TMDB record could not be found. Both exact source scores must agree; no averaging.",
+  "recorded_at": "2026-10-19",
+  "owner_decisions": [
+    "Separate Dunno part scores may use combined identity if no second-part record; both must match.",
+    "Include Hearts of Three 2 as manually verified IMDb-based record.",
+    "Opening is the classic Tatarskiy plasticine Спят усталые игрушки opening."
+  ],
+  "evidence_files": [
+    "tv-version-56-tmdb-evidence.json",
+    "remaining-version-tmdb-evidence.json"
+  ],
   "entries": [
     {
       "source_rows": [
         "1276",
         "1359"
       ],
-      "decision": "verified_combined_tv_identity",
       "accepted_work_key": "tv:99952",
-      "imdb_id": "tt0219207",
-      "reason": "Only full 12-episode identity found by expanded movie/TV searches. Source parts 2 and 1 cover the complete work; use the owner-permitted combined fallback, conditional on equal scores and notes."
+      "decision": "combined_equal_parts",
+      "rating_scope": "whole_work",
+      "expected_sources": [
+        {
+          "source_rows": "1276",
+          "source_title": "Незнайка на Луне 2",
+          "source_year": "1999"
+        },
+        {
+          "source_rows": "1359",
+          "source_title": "Незнайка на Луне",
+          "source_year": "1997"
+        }
+      ],
+      "reason": "Both separately rated parts map once to the complete 12-episode cycle; owner-permitted fallback requires equal scores and notes."
     },
     {
       "source_rows": [
-        "1371",
         "1416"
       ],
-      "decision": "season_rating_support_required",
-      "reason": "TV/1455 includes both 26-episode seasons; standalone TV/313262 repeats the 1997 story but contains only one episode in the evidence. Preserve distinct source scores; do not assign either to the full parent."
+      "accepted_work_key": "tv:1455:season:1",
+      "decision": "verified_season",
+      "rating_scope": "whole_work",
+      "expected_sources": [
+        {
+          "source_rows": "1416",
+          "source_title": "Чародей (сериал)",
+          "source_year": "1995"
+        }
+      ],
+      "reason": "1995 production is season 1 only (26 episodes)."
+    },
+    {
+      "source_rows": [
+        "1371"
+      ],
+      "accepted_work_key": "tv:1455:season:2",
+      "decision": "verified_season",
+      "rating_scope": "whole_work",
+      "expected_sources": [
+        {
+          "source_rows": "1371",
+          "source_title": "Чародей: Страна Великого Дракона (сериал)",
+          "source_year": "1997"
+        }
+      ],
+      "reason": "1997 Land of the Dragon Lord is season 2 only (26 episodes); do not use incomplete standalone TV/313262."
+    },
+    {
+      "source_rows": [
+        "1710"
+      ],
+      "accepted_work_key": "tv:movie:126850",
+      "decision": "verified_installment",
+      "rating_scope": "whole_work",
+      "expected_sources": [
+        {
+          "source_rows": "1710",
+          "source_title": "Шерлок Холмс и доктор Ватсон: Смертельная схватка",
+          "source_year": "1980"
+        }
+      ],
+      "reason": "Exact named installment, IMDb tt0229922; external provider record is TMDB movie/126850, canonical work remains a TV installment."
+    },
+    {
+      "source_rows": [
+        "1711"
+      ],
+      "accepted_work_key": "tv:movie:126846",
+      "decision": "verified_installment",
+      "rating_scope": "whole_work",
+      "expected_sources": [
+        {
+          "source_rows": "1711",
+          "source_title": "Шерлок Холмс и доктор Ватсон: Король шантажа",
+          "source_year": "1980"
+        }
+      ],
+      "reason": "Exact named installment, IMDb tt0459944; external provider record is TMDB movie/126846."
+    },
+    {
+      "source_rows": [
+        "1712"
+      ],
+      "accepted_work_key": "tv:movie:126854",
+      "decision": "verified_installment",
+      "rating_scope": "whole_work",
+      "expected_sources": [
+        {
+          "source_rows": "1712",
+          "source_title": "Шерлок Холмс и доктор Ватсон: Охота на тигра",
+          "source_year": "1980"
+        }
+      ],
+      "reason": "Exact named installment, IMDb tt0459945; external provider record is TMDB movie/126854."
     },
     {
       "source_rows": [
         "1457"
       ],
-      "decision": "unresolved_tmdb_identity",
-      "imdb_id": "tt4324832",
-      "reason": "Distinct 1993 sequel IMDb tt4324832 found. TMDB find by IMDb and four expanded movie/TV title queries returned no candidates; do not map to 1992 TV/65923."
-    },
-    {
-      "source_rows": [
-        "1710",
-        "1711",
-        "1712"
+      "accepted_work_key": "tv:imdb:tt4324832",
+      "decision": "owner_confirmed_manual_identity",
+      "rating_scope": "whole_work",
+      "expected_sources": [
+        {
+          "source_rows": "1457",
+          "source_title": "Сердца трёх 2",
+          "source_year": "1993"
+        }
       ],
-      "decision": "episode_rating_support_required",
-      "reason": "Exact named installments are verified as TMDB movie records 126850, 126846 and 126854, with IMDb tt0229922, tt0459944 and tt0459945. Current show-level TV storage cannot represent the individual scopes; do not merge into a parent rating."
+      "reason": "Owner approved distinct 1993 sequel using IMDb tt4324832 despite absent TMDB match."
     },
     {
       "source_rows": [
         "1699"
       ],
-      "decision": "unresolved_opening_sequence",
-      "reason": "The specific Tatarskiy opening is not the whole Good Night, Little Ones! show. No safe standalone TMDB/IMDb pair; no substitution."
+      "accepted_work_key": "tv:local:good-night-little-ones-tatarskiy-opening",
+      "decision": "owner_confirmed_manual_identity",
+      "rating_scope": "whole_work",
+      "expected_sources": [
+        {
+          "source_rows": "1699",
+          "source_title": "Спокойной ночи, малыши (заставка)",
+          "source_year": "1981"
+        }
+      ],
+      "reason": "Owner confirmed classic plasticine Спят усталые игрушки opening; production 1981, programme official history dates broadcast to 1982. Opening only, not full programme."
     }
   ]
 }

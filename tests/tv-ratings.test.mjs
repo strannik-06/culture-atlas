@@ -5,11 +5,12 @@ import {PGlite} from '@electric-sql/pglite';
 import {Window} from 'happy-dom';
 const root=new URL('../',import.meta.url);
 const sql=await fs.readFile(new URL('supabase/migrations/20261019_tv_ratings.sql',root),'utf8');
+const scopedSQL=await fs.readFile(new URL('supabase/migrations/20261019_tv_scoped_identities.sql',root),'utf8');
 const source=await fs.readFile(new URL('tv.js',root),'utf8');
 const markup=await fs.readFile(new URL('index.html',root),'utf8');
 const a='00000000-0000-0000-0000-000000000001',b='00000000-0000-0000-0000-000000000002';
 const entry=(key,rating=8,scope='unspecified')=>({work_key:key,rating,rating_scope:scope,notes:'Private note',watched_date:null});
-const setupSQL=async()=>{
+const setupSQL=async(withScopes=true)=>{
  const db=new PGlite();
  await db.exec(`create role anon;create role authenticated;create schema auth;create table auth.users(id uuid primary key);insert into auth.users values ('${a}'),('${b}');
  create function auth.uid() returns uuid language sql stable as $$ select nullif(current_setting('request.jwt.claim.sub',true),'')::uuid $$;grant usage on schema auth to anon,authenticated;
@@ -17,7 +18,7 @@ const setupSQL=async()=>{
  alter table film_progress enable row level security;grant select,insert,update,delete on film_progress to authenticated;
  create policy own_films on film_progress for all to authenticated using(auth.uid()=user_id) with check(auth.uid()=user_id);
  insert into film_progress(user_id,film_id,watched,rating) values('${a}',1920,true,10),('${a}',31,true,7),('${b}',1920,true,9);`);
- await db.exec(sql);await db.exec(sql);return db;
+ await db.exec(sql);await db.exec(sql);if(withScopes){await db.exec(scopedSQL);await db.exec(scopedSQL);}return db;
 };
 const importSQL=(db,items,replace=false)=>db.query('select public.import_tv_ratings($1::jsonb,$2) as result',[JSON.stringify(items),replace]);
 
@@ -87,7 +88,7 @@ const settle=async()=>{for(let i=0;i<10;i++)await new Promise(resolve=>setTimeou
 test('UI: navigation, catalogue aliases, half-point stars and private save',async()=>{
  const h=await setupUI(),w=h.window,d=w.document;
  try{
-  await w.CultureTV.setSession(null);assert.equal(d.querySelectorAll('[data-tv-edit]').length,44);assert.equal(d.querySelectorAll('[data-linked-film]').length,4);assert.equal(h.writes.length,0);
+  await w.CultureTV.setSession(null);assert.equal(d.querySelectorAll('[data-tv-edit]').length,51);assert.equal(d.querySelectorAll('[data-linked-film]').length,4);assert.equal(h.writes.length,0);
   d.querySelector('[data-section="tv"]').click();assert.equal(d.querySelector('#tv-view').hidden,false);assert.equal(d.querySelector('#cinema-area').hidden,true);assert.equal(d.querySelector('#books-view').hidden,true);
   d.querySelector('[data-section="books"]').click();assert.equal(d.querySelector('#tv-view').hidden,true);assert.equal(d.querySelector('#books-view').hidden,false);
   d.querySelector('[data-section="tv"]').click();await w.CultureTV.setSession({id:a});
@@ -121,7 +122,7 @@ test('reviewed aliases resolve to the existing film key without adding another c
  const h=await setupUI(),w=h.window;
  try{
   const r=w.CULTURE_WORK_IDENTITIES.createRegistry(w.CULTURE_CATALOG,w.CULTURE_TV_CATALOG,w.CULTURE_TV_FILM_ALIASES);
-  assert.equal(r.byExternalId('tv',5904).work_key,'movie:1955');assert.equal(r.list().length,2296);assert.equal(r.list('tv').length,44);
+  assert.equal(r.byExternalId('tv',5904).work_key,'movie:1955');assert.equal(r.list().length,2303);assert.equal(r.list('tv').length,51);
   assert.throws(()=>w.CULTURE_WORK_IDENTITIES.createRegistry(w.CULTURE_CATALOG,w.CULTURE_TV_CATALOG,[{media_type:'tv',tmdb_id:5904,work_key:'movie:1955',imdb_id:'ttWRONG'}]));
  }finally{await w.happyDOM.close();}
 });
@@ -134,5 +135,48 @@ test('UI: a refresh cannot silently advance the version of an open editor',async
   h.setPersisted([{...old,rating:9,updated_at:'2026-10-19T18:01:00Z'}]);await w.CultureTV.setSession({id:a});
   d.querySelector('#tv-rating-form').dispatchEvent(new w.Event('submit',{bubbles:true,cancelable:true}));await settle();
   assert.equal(h.writes[0].args.p_expected_updated_at,old.updated_at);
+ }finally{await w.happyDOM.close();}
+});
+
+test('scoped migration preserves prior ratings; final eight targets import atomically and skip existing records',async()=>{
+ const db=await setupSQL(false);
+ try{
+  await db.exec('set role authenticated');await db.query("select set_config('request.jwt.claim.sub',$1,false)",[a]);
+  await importSQL(db,[{...entry('tv:99952',9),notes:'Existing personal note',watched_date:'2020-01-02'},entry('tv:42699',10,'whole_work')]);
+  const before=(await db.query('select * from tv_progress order by work_key')).rows;
+  await db.exec('reset role');await db.exec(scopedSQL);await db.exec(scopedSQL);await db.exec('set role authenticated');
+  assert.deepEqual((await db.query('select * from tv_progress order by work_key')).rows,before);
+  const keys=['tv:99952','tv:1455:season:1','tv:1455:season:2','tv:movie:126850','tv:movie:126846','tv:movie:126854','tv:imdb:tt4324832','tv:local:good-night-little-ones-tatarskiy-opening'];
+  const batch=keys.map(key=>entry(key,7.5,'whole_work'));
+  const result=(await importSQL(db,batch)).rows[0].result;
+  assert.equal(result.inserted_keys.length,7);assert.equal(result.skipped_existing,1);assert.equal(result.dekalog_episode_removed,false);
+  assert.deepEqual((await db.query("select * from tv_progress where work_key='tv:99952'")).rows[0],before.find(row=>row.work_key==='tv:99952'));
+  assert.equal((await importSQL(db,batch)).rows[0].result.inserted_keys.length,0);
+  for(const key of ['tv:1455:season:0','tv:movie:0','tv:imdb:4324832','tv:local:','tv:local:../secret','movie:31']){
+   await assert.rejects(importSQL(db,[entry('tv:888'),entry(key)]));
+   assert.equal((await db.query("select * from tv_progress where work_key='tv:888'")).rows.length,0);
+  }
+  await db.query("select set_config('request.jwt.claim.sub',$1,false)",[b]);
+  assert.equal((await db.query('select * from tv_progress')).rows.length,0);
+  await assert.rejects(db.query('insert into tv_progress(user_id,work_key,rating) values($1,$2,8)',[a,'tv:imdb:tt4324832']),/row-level security/);
+ }finally{await db.close();}
+});
+
+test('UI shows exact season/installment scope and honest manual reference links',async()=>{
+ const h=await setupUI(),w=h.window,d=w.document;
+ try{
+  await w.CultureTV.setSession({id:a});
+  const card=key=>d.querySelector(`[data-tv-edit="${key}"]`).closest('article');
+  assert.match(card('tv:1455:season:1').textContent,/Season 1 · 26 episodes/);
+  assert.match(card('tv:1455:season:2').querySelector('a').href,/\/tv\/1455\/season\/2$/);
+  assert.match(card('tv:movie:126850').querySelector('a').href,/\/movie\/126850$/);
+  const manual=card('tv:imdb:tt4324832');assert.match(manual.querySelector('a').href,/imdb.com\/title\/tt4324832/);assert.doesNotMatch(manual.innerHTML,/themoviedb.org/);
+  const opening=card('tv:local:good-night-little-ones-tatarskiy-opening');assert.match(opening.textContent,/Opening sequence/);assert.match(opening.textContent,/Aleksandr Tatarskiy/);assert.doesNotMatch(opening.innerHTML,/themoviedb.org/);
+  d.querySelector('[data-tv-edit="tv:1455:season:1"]').click();assert.equal(d.querySelector('#tv-scope [value="whole_work"]').textContent,'Complete selected season');
+  d.querySelector('[data-tv-edit="tv:movie:126850"]').click();assert.equal(d.querySelector('#tv-scope [value="whole_work"]').textContent,'This installment');
+  const catalogue=w.CULTURE_TV_CATALOG;
+  const batch=catalogue.slice(-8).map(work=>entry(work.id,7.5,'whole_work'));
+  assert.equal(w.CultureTV.validateImport({format:'culture-atlas-tv-progress-v1',ratings:batch},catalogue).ratings.length,8);
+  assert.throws(()=>w.CultureTV.validateImport({format:'culture-atlas-tv-progress-v1',ratings:[entry('tv:1455')]},catalogue),/Unknown/);
  }finally{await w.happyDOM.close();}
 });

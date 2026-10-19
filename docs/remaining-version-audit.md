@@ -1,52 +1,59 @@
-# Remaining historical version cases
+# Final historical version resolution
 
-Supplement to the completed 43-TV import, based on merged PR #94 (`cc2add7e9f3d8004218332ae76903982318be7c0`). The owner reports that setup/import worked. No fresh production export has been inspected and no production writes are performed here.
+This completes the remaining historical source identities in the same PR. It supersedes the earlier held-case recommendations. Base: merged PR #94 (`cc2add7e9f3d8004218332ae76903982318be7c0`). The owner reports the earlier TV setup/import worked; no production access is used here.
 
-## Catalogue addition for review
+## All remaining identities resolved
 
-Add **Dunno on the Moon / Незнайка на Луне**, TV/99952, IMDb `tt0219207`, as a single 12-episode miniseries. Metadata comes from the existing official TMDB API receipt, workflow run [39279871694](https://github.com/strannik-06/culture-atlas/actions/runs/39279871694). Expanded Russian/English movie and TV queries found the full-cycle identity but no distinct second-part identity. This is a bounded search result, not proof that another record can never exist.
+| Source rows | Rating target | Resolution |
+| --- | --- | --- |
+| 1276, 1359 | `tv:99952` — Dunno on the Moon, complete cycle | Owner allowed a combined fallback if no separate second-part identity was found. Both part scores and notes agree exactly; preserve one score without averaging. |
+| 1416 | `tv:1455:season:1` — Spellbinder, season 1 (1995) | Preserve its own rating for the first 26 episodes. |
+| 1371 | `tv:1455:season:2` — Land of the Dragon Lord, season 2 (1997) | Preserve its separate rating for the second 26 episodes. Do not use incomplete duplicate TV/313262. |
+| 1710 | `tv:movie:126850` — Mortal Fight | Exact named TV installment, IMDb `tt0229922`; retain actual TMDB movie-provider namespace. |
+| 1711 | `tv:movie:126846` — King of Blackmailers | Exact named TV installment, IMDb `tt0459944`. |
+| 1712 | `tv:movie:126854` — Hunting the Tiger | Exact named TV installment, IMDb `tt0459945`. |
+| 1457 | `tv:imdb:tt4324832` — Hearts of Three 2 (1993) | Owner approved a manual IMDb-based record for the distinct sequel; no invented TMDB ID. |
+| 1699 | `tv:local:good-night-little-ones-tatarskiy-opening` | Owner confirmed the classic plasticine opening. Standalone opening card, not the whole programme or The Plasticine Crow. |
 
-The owner confirmed separate ratings for parts 1 and 2 and allowed considering a combined identity when the second part could not be found. Both source scores are exactly equal. The supplementary proposal preserves that score once for the full cycle, without averaging, summing or choosing between scores. Both source row references remain in the decision ledger. The proposal generator refuses differing part scores or notes and does not infer a viewing date.
+**Nine source rows become eight rating targets. Zero identities remain deferred.** The four existing movie/TV overlaps remain aliases of their original films and require no new rating. The 699 older reviewed matches remain present works.
 
-This adds one canonical TV work: **2,252 films + 44 TV works = 2,296 catalogue works**. Four existing-film TV aliases still add no works. Existing catalogue entries and rating storage are unchanged.
+No new exact duplicates are added. The Dunno rows are complementary parts with an explicit many-to-one resolution. Spellbinder seasons have separate keys and are not registered as two copies of the parent show. Existing film and TV objects are unchanged. The catalogue now contains **2,252 films + 51 TV rating targets = 2,303 canonical targets**.
 
-## Audit of all nine source rows
+## Evidence and owner decisions
 
-| Source rows | Identity | Outcome | Remaining work |
-| --- | --- | --- | --- |
-| 1276, 1359 | Dunno on the Moon, parts 2 and 1 | Two source parts → one verified combined TV identity, using owner-permitted fallback | Review catalogue PR, then import one supplementary rating through the website |
-| 1371, 1416 | Spellbinder: Land of the Dragon Lord (1997); Spellbinder (1995) | Season scope required | Preserve two ratings using season targets; do not put the 1995 rating on the two-season parent |
-| 1457 | Hearts of Three 2 (1993) | Distinct IMDb identity found; TMDB unresolved | IMDb `tt4324832`; TMDB find and four expanded movie/TV searches returned no candidates |
-| 1710 | Sherlock Holmes: Mortal Fight (1980) | Exact installment identity verified; rating target deferred | TMDB movie/126850, IMDb `tt0229922`; needs individual installment support |
-| 1711 | Sherlock Holmes: King of Blackmailers (1980) | Exact installment identity verified; rating target deferred | TMDB movie/126846, IMDb `tt0459944`; needs individual installment support |
-| 1712 | Sherlock Holmes: Hunting the Tiger (1980) | Exact installment identity verified; rating target deferred | TMDB movie/126854, IMDb `tt0459945`; needs individual installment support |
-| 1699 | Good Night, Little Ones! — Tatarskiy opening | Unresolved standalone opening identity | Do not substitute the whole programme or The Plasticine Crow |
+The [official TMDB API receipt](../imports/tv-version-56-tmdb-evidence.json), [workflow run 39279871694](https://github.com/strannik-06/culture-atlas/actions/runs/39279871694), verifies Dunno's 12-episode identity, the two 26-episode Spellbinder seasons, and the three individual Sherlock installments. Expanded Russian/English movie and TV searches found no distinct Dunno part-two record; this is a bounded search result, not proof of permanent absence.
 
-There are **no new exact catalogue duplicates** in this batch. The two Dunno rows describe complementary parts, not duplicate source rows; their many-to-one resolution is explicit. The potentially overlapping Spellbinder provider records are held rather than added as competing whole-series rating targets.
+The [Australian Children's Television Foundation](https://actf.com.au/shows/id/13) explicitly describes the 1997 production as Series 2 and links the 1995 Series 1. The canonical season keys refer to TV/1455's season paths; a generic provider lookup for TV/1455 does not silently return one season.
 
-After this catalogue addition, **six version rows and one opening remain deferred**. The previous four movie/TV overlaps are already resolved as aliases, and the 699 older reviewed matches are not missing works.
+The [IMDb sequel record](https://www.imdb.com/title/tt4324832/) and [Russian film catalogue](https://ruskino.ru/mov/2337) distinguish the 1993 Popkov sequel from 1992's IMDb `tt0963997` / TV/65923. The new [read-only lookup](https://github.com/strannik-06/culture-atlas/actions/runs/39306362860) found no TMDB match via IMDb or four title variants, without lookup errors. The owner explicitly chose to retain this sequel using a manual IMDb identity.
 
-## Why Spellbinder remains held
+The [programme's official history](https://spokoinoinochi.ru/story/1982-pervaya-multiplikaczionnaya-plastilinovaya-zastavka-v-peredache-spokojnoj-nochi-malyshi/) identifies the plasticine opening and Tatarskiy, dating first broadcast to 1982. The [animation database](https://animator.ru/db/?fid=5308&p=show_film) records the 1981 production. Both facts are retained in the scope label; no exact premiere date or external ID is invented. The owner confirmed this is the rated opening.
 
-The [Australian Children's Television Foundation](https://actf.com.au/shows/id/13) explicitly labels the 1997 production **Series 2 — Land of the Dragon Lord** and links the 1995 Series 1. The official TMDB receipt has TV/1455 with both 26-episode seasons. A separate TV/313262 carries the 1997 IMDb identity `tt0118476` but only one episode in that snapshot. Adding both as ordinary whole-series works would create overlapping scopes. Season-specific rating targets are the appropriate next implementation step; this does not require another owner clarification of the already distinct source entries.
+The [final decisions](../imports/remaining-version-decisions.json) pin source titles/years and all nine source references. The generator rejects source drift, duplicate targets, invalid half-points and conflicting combined-part scores/notes.
 
-## Unresolved sequel evidence
+## Complete source coverage
 
-The [IMDb sequel record](https://www.imdb.com/title/tt4324832/) identifies the 1993 title separately from 1992's IMDb `tt0963997` / TV/65923. The new [read-only workflow](https://github.com/strannik-06/culture-atlas/actions/runs/39306362860) searched TMDB by the sequel IMDb ID and four title variants, in both media types, without candidates or lookup errors. The normalized receipt is committed as `imports/remaining-version-tmdb-evidence.json`. Missing TMDB identity is not an owner memory issue: retain the source row until a valid record or an approved alternative identity scheme is available.
+The [final coverage summary](../import-previews/final-source-coverage-summary.json) applies these decisions and the four existing-film aliases over the earlier 2,150-row source ledger. It leaves no unresolved or deferred source row. Existing duplicate/consolidated source outcomes remain explicit and are not new missing films.
 
-## Review and later import
+Reproduce without network or account access:
 
-1. Review and merge the catalogue PR; wait for deployment.
-2. Generate the separate private proposal:
+```sh
+python3 scripts/audit-final-source-coverage.py --check
+python3 scripts/prepare-final-tv-import.py --output /private/path/final-import
+```
 
-   ```sh
-   python3 scripts/prepare-dunno-tv-import.py --output /private/path/dunno-review
-   ```
+Historical ledgers and `build-tv-version-audit.py` reproduce earlier snapshots, not the current catalogue. Do not use that historical builder to overwrite later additions. The original 43-row proposal remains byte-identical after this PR.
 
-3. Review its single combined rating and import through **TV Series → Import TV ratings** in the owner's browser. The existing import skips existing ratings; the proposal disables the already completed Dekalog correction. No additional SQL migration is needed.
+## One final setup and import
 
-Starting from the previous expected total of 2,131 distinct ratings, a missing Dunno rating would add **one**, giving **2,132** (2,088 films + 44 TV), assuming no other edits. This is a forecast, not an independent production count.
+1. Review and merge this PR, then wait for Pages deployment.
+2. Run **only** the new [scoped-identity migration](../supabase/migrations/20261019_tv_scoped_identities.sql), after the already installed TV setup. It broadens accepted TV identity keys and replaces the import validator. It changes no rating rows, policies or film/Books tables, and can be run twice safely.
+3. Reload the website, open **TV Series**, choose **Refresh**, then **Import TV ratings** and select `culture-atlas-final-8-ratings.json` from the private package.
+4. The preview should show eight missing ratings if none were added manually. Confirm once. Existing rows, including differing scores/notes/dates, are skipped without overwrite. The Dekalog correction is disabled in this final file.
+5. Expect **51 TV ratings + 2,088 film ratings = 2,139 distinct ratings**, assuming the previous 2,131 total and no intervening edits. Film and TV counts remain separate. This is a forecast, not an independent production count.
 
-The initial `prepare-reviewed-tv-import.py` still produces exactly its original 43 identities even as the catalogue grows. Historical `build-tv-version-audit.py` reproduces the earlier 43-work snapshot; it is not a current catalogue rebuild command and must not be used to overwrite later additions.
+The private package contains the eight-row review, JSON, new SQL and these instructions. No production SQL or import is run by development tooling. Season, installment and opening cards describe exactly what their score covers; `whole_work` means the complete selected card, not its wider parent series.
 
-The remaining engineering work is season/installment rating support with explicit identity scope, without changing the 44 show keys or existing progress. No further viewing-scope decision is needed for this batch. The opening may need a future owner decision if no standalone identity becomes available; no replacement is proposed now.
+## Validation
+
+Tests cover existing-row preservation across repeated migration installation; all new key forms; malformed-key rejection and transaction rollback; repeated imports and conflicting existing rows; cross-account RLS; season/provider namespace separation; duplicate prevention; correct reference links; precise scope labels; and exact source scores and notes. The actual private 43-row import followed by this eight-row import is also exercised locally against the migrations, verifying all original 43 rows remain unchanged and a repeated final import inserts zero rows.
