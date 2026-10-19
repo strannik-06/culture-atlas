@@ -23,3 +23,11 @@
 - Preserve half-points, notes, and unknown viewing dates.
 - Every source row gets an audit outcome (linked, excluded, duplicate, or unresolved).
 - No Supabase writes from catalogue/metadata PRs.
+
+## Catalogue phase implemented
+
+`tv-catalog.js` introduces reviewed TV identities; `work-identities.js` provides a shared registry with explicit keys. Movie keys use `movie:<existing internal film ID>` while TV keys/IDs use `tv:<TMDB TV ID>`. This separates the namespaces without allocating film integers to TV or changing existing progress IDs. Creators and directors are separate role-bearing arrays using TMDB person IDs.
+
+The registry rejects duplicate work/external identities and cross-media IMDb overlaps. Existing movie records that duplicate a proposed TV work remain held for a future reviewed migration/alias strategy. The current film browser and account sync do not consume the TV catalogue yet. No TV progress storage is implemented, and TV keys must not enter film_progress.
+
+See [the TV/version identity audit](tv-version-identity-audit.md) for the batch, decisions and remaining scope questions.

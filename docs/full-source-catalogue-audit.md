@@ -1,6 +1,6 @@
 # Full spreadsheet catalogue coverage audit
 
-> Historical PR #87 snapshot. For the subsequent 699-link review and current coverage, see [the legacy identity audit](legacy-699-identity-audit.md) and [current ledger](../import-previews/current-source-catalogue-ledger.csv).
+> Historical PR #87 snapshot. For subsequent work, see [the 699-link review](legacy-699-identity-audit.md), [latest TV/version audit](tv-version-identity-audit.md) and [current ledger](../import-previews/tv-version-source-catalogue-ledger.csv).
 
 This proposal adds 20 verified movie identities to the catalogue merged in PR #86. It accounts for every normalized spreadsheet entry, but does not certify every older identity link for a rating import. No Supabase data or ratings were read or modified by this workflow.
 
