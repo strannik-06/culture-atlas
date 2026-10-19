@@ -11,7 +11,7 @@
     if (!['movie', 'tv'].includes(type)) throw new TypeError('Explicit movie or tv media type required');
     return type + ':' + positiveId(id);
   }
-  function createRegistry(films, series) {
+  function createRegistry(films, series, aliases = []) {
     const works = new Map(), external = new Map(), imdb = new Map();
     function add(work, key, type) {
       if (works.has(key)) throw new Error('Duplicate work key ' + key);
@@ -29,6 +29,15 @@
     for (const show of series) {
       if (show.work_type !== 'tv' || show.id !== tvKey(show.tmdb_id)) throw new Error('TV catalogue requires an explicit namespaced identity');
       add(show, show.id, 'tv');
+    }
+    for (const alias of aliases) {
+      const target = works.get(alias.work_key);
+      const ext = externalKey(alias.media_type, alias.tmdb_id);
+      if (!target || target.work_type !== 'movie' || alias.media_type !== 'tv'
+          || !alias.imdb_id || target.imdb_id !== alias.imdb_id || external.has(ext)) {
+        throw new Error('Invalid or conflicting reviewed movie/TV alias');
+      }
+      external.set(ext, target);
     }
     return Object.freeze({
       get(key) {

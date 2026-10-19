@@ -28,6 +28,10 @@
 
 `tv-catalog.js` introduces reviewed TV identities; `work-identities.js` provides a shared registry with explicit keys. Movie keys use `movie:<existing internal film ID>` while TV keys/IDs use `tv:<TMDB TV ID>`. This separates the namespaces without allocating film integers to TV or changing existing progress IDs. Creators and directors are separate role-bearing arrays using TMDB person IDs.
 
-The registry rejects duplicate work/external identities and cross-media IMDb overlaps. Existing movie records that duplicate a proposed TV work remain held for a future reviewed migration/alias strategy. The current film browser and account sync do not consume the TV catalogue yet. No TV progress storage is implemented, and TV keys must not enter film_progress.
+The registry rejects duplicate work/external identities and cross-media IMDb overlaps. Four reviewed TV external aliases now resolve to existing canonical movie keys without adding another work. TV keys never enter film_progress.
+
+## TV ratings phase
+
+The TV Series section consumes the catalogue and reviewed aliases. A manually installed migration adds private `tv_progress` storage, optimistic interactive edits, and an atomic insert-only import. The whole-cycle Dekalog correction verifies its TV rating before removing the mistaken episode assignment. Catalogue installation does not execute a migration or import. Film progress and Books storage remain separate. See [TV ratings setup and import](tv-ratings.md) for the review boundary, tests and remaining version cases.
 
 See [the TV/version identity audit](tv-version-identity-audit.md) for the batch, decisions and remaining scope questions.
