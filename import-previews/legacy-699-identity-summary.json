@@ -4,7 +4,10 @@
   "catalogue_entries": 2251,
   "flagged_links_reviewed": 699,
   "verified_existing_identities": 698,
-  "scope_mismatches_deferred": 1,
+  "whole_cycle_pending_tv_identity": 1,
+  "owner_confirmed_whole_cycle_source_rows": [
+    "1532"
+  ],
   "remaining_link_review_flags": 0,
   "coverage_counts": {
     "consolidated": 2,
@@ -31,7 +34,7 @@
   },
   "baseline_ledger_sha256": "c76e338c654f1e4f8cdbc695df8ce265b3ba8645313ef4b404be0cea5e622e41",
   "catalogue_sha256": "b7f2e875abefa844bb89772c02ec8c40df17f2f5c8da3a9f1a46f4a6c3141e73",
-  "review_sha256": "91819690c5191731a57dd4cd4b740f2ffb0d264e5c8654b6db20def88c897db9",
+  "review_sha256": "57a5b0fc3977783a199073116e8709294e7e25139d76a1419de025036bd8f3da",
   "metadata_evidence_sha256": "09c6642963ce08024afc1d0e7429263810a1287cc5296c131a3f466cc5803d61",
   "warning": "698 reviewed source-to-record identities, not a fresh TMDB/IMDb revalidation or rating-import approval. Unflagged baseline links outside this review remain at their original evidence level. No Supabase or progress access."
 }

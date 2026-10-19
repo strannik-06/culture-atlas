@@ -1,13 +1,13 @@
 # Review of the 699 flagged historical film links
 
-After PR #87 merged, 699 source-to-catalogue links still had review flags. This audit examines that entire set and accepts **698 existing film identities**. It rejects the remaining automatic mapping because an unqualified series title was mapped to one episode. The catalogue stays at **2,251 films**; no catalogue objects, IDs, ratings or Supabase data change.
+After PR #87 merged, 699 source-to-catalogue links still had review flags. This audit examines that entire set and accepts **698 existing film identities**. It rejects the remaining automatic mapping because the owner confirmed that the source rates the whole ten-part Dekalog cycle, while the old target was one episode. The catalogue stays at **2,251 films**; no catalogue objects, IDs, ratings or Supabase data change.
 
 ## Review result
 
 | Outcome within the original flagged set | Source entries |
 | --- | ---: |
 | Existing film identity reviewed and accepted | 698 |
-| Series-versus-episode scope deferred | 1 |
+| Owner-confirmed whole cycle awaiting TV identity | 1 |
 | Flagged entries not examined by this pass | 0 |
 | Total | 699 |
 
@@ -29,13 +29,13 @@ Examples of credit differences that do not imply different films: Dorota Kobiela
 
 **Eight existing records have no IMDb ID:** catalogue IDs 210, 211, 212, 213, 215, 218, 219 and 220. Their source-to-film identities can be established from titles/directors and public evidence, but the missing external-ID fields remain a separate metadata task. This audit does not invent identifiers.
 
-## Owner decision: Dekalog
+## Owner-confirmed scope: Dekalog
 
-Source row **1532** says **Декалог**, Krzysztof Kieślowski, 1989. Its old movie candidate is **Decalogue V**, catalogue ID **1920**, TMDB **118665**, IMDb **tt0094987**. The title of the source does not establish that it means episode five.
+Source row **1532** says **Декалог**, Krzysztof Kieślowski, 1989. Its old movie candidate is **Decalogue V**, catalogue ID **1920**, TMDB **118665**, IMDb **tt0094987**. The owner confirmed on 2026-10-19 that this rating covers the whole ten-part cycle, not episode five.
 
 The [Criterion edition](https://www.criterion.com/films/28661-dekalog) and [Kieślowski archive filmography](https://kieslowski.com.pl/filmografia/) distinguish the ten-part cycle. The current ledger therefore removes the active movie mapping while preserving the old episode candidate in the historical review/evidence. The existing catalogue episode is not deleted or renamed.
 
-**Decision needed:** does the spreadsheet entry's rating cover the whole ten-part Dekalog, or specifically episode V? Do not reuse the owner's whole-miniseries confirmation for Naval Cadets, Charge! for this different work. Do not transfer this rating to A Short Film About Killing, which also has a separate source entry and theatrical identity.
+**Scope resolved:** the owner explicitly confirmed the whole ten-part Dekalog cycle. Do not ask for this confirmation again. Whole-cycle TV identity verification and catalogue implementation remain pending. Do not transfer this rating to A Short Film About Killing, which also has a separate source entry and theatrical identity.
 
 This audit cannot establish whether the old mapping ever affected a stored rating: it never accesses Supabase or progress exports. That question belongs in a separately authorized, read-only rating reconciliation.
 
@@ -54,7 +54,7 @@ The 20 additions from merged PR #87 now count as present. Dekalog increases TV/v
 
 The 56 TV/version entries are not a count of 56 missing series: some overlap with catalogue movies, episodes or compilations. They require the right work/version and rating scope before linking. No TV support changes are included here.
 
-There are now **zero remaining flags on active links from the original 699-row queue**: 698 were accepted and one moved to the explicit scope queue. This is not a claim that every unflagged baseline entry was newly and independently verified. The current ledger's `identity_audit_status` distinguishes reviewed rows from `outside_699_review`; older unflagged entries retain their original evidence level. Duplicate identities still require rating-conflict handling.
+There are now **zero remaining flags on active links from the original 699-row queue**: 698 were accepted and one moved to the TV identity queue with owner-confirmed whole-cycle scope. This is not a claim that every unflagged baseline entry was newly and independently verified. The current ledger's `identity_audit_status` distinguishes reviewed rows from `outside_699_review`; older unflagged entries retain their original evidence level. Duplicate identities still require rating-conflict handling.
 
 ## Reproduction and review boundary
 

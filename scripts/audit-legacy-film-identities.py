@@ -74,7 +74,7 @@ def main():
         assert r['previous_catalogue_id'] == prev['catalogue_id']
         f = by_id[r['previous_catalogue_id']]
         assert all(str(f[k] if f[k] is not None else '') == r[target] for k, target in [('title', 'catalogue_title'), ('director', 'catalogue_director'), ('year', 'catalogue_year'), ('tmdb_id', 'tmdb_id'), ('imdb_id', 'imdb_id')])
-        assert r['decision'] in {'verified_existing_identity', 'defer_series_episode_scope'}
+        assert r['decision'] in {'verified_existing_identity', 'confirmed_whole_cycle_pending_tv_identity'}
         assert all(r[k] for k in ['title_review', 'director_review', 'year_review', 'evidence_basis', 'evidence_refs', 'rationale'])
         if 'saved_tmdb_details' in r['evidence_basis']:
             m = movies[r['tmdb_id']]
@@ -84,8 +84,8 @@ def main():
             assert 'public_title_director_corroboration' in r['evidence_basis'] and 'https://' in r['evidence_refs']
         decisions[sr] = r
     counts = collections.Counter(r['decision'] for r in review)
-    assert counts == {'verified_existing_identity': 698, 'defer_series_episode_scope': 1}
-    assert decisions['1532']['decision'] == 'defer_series_episode_scope'
+    assert counts == {'verified_existing_identity': 698, 'confirmed_whole_cycle_pending_tv_identity': 1}
+    assert decisions['1532']['decision'] == 'confirmed_whole_cycle_pending_tv_identity'
     current = []
     for prev in old:
         r = dict(prev)
@@ -121,7 +121,8 @@ def main():
     summary = {
         'base_commit': BASE, 'source_entries': len(current), 'catalogue_entries': len(films),
         'flagged_links_reviewed': len(review), 'verified_existing_identities': counts['verified_existing_identity'],
-        'scope_mismatches_deferred': counts['defer_series_episode_scope'],
+        'whole_cycle_pending_tv_identity': counts['confirmed_whole_cycle_pending_tv_identity'],
+        'owner_confirmed_whole_cycle_source_rows': ['1532'],
         'remaining_link_review_flags': sum(r['identity_review_required'] == 'true' for r in current),
         'coverage_counts': dict(sorted(collections.Counter(r['coverage_status'] for r in current).items())),
         'year_discrepancies_retained': len(year_rows),
