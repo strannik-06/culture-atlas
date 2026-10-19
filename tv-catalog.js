@@ -900,6 +900,30 @@ window.CULTURE_TV_CATALOG = [
     "poster_path": "/s8HucykFaEdO9iGwGnQUtOVNnxv.jpg"
   },
   {
+    "id": "tv:261326",
+    "work_type": "tv",
+    "series_kind": "miniseries",
+    "title": "The Adventures of Sherlock Holmes and Dr. Watson: The twentieth century begins",
+    "original_title": "Приключения Шерлока Холмса и доктора Ватсона: Двадцатый век начинается",
+    "year": 1988,
+    "first_air_date": "1988-03-12",
+    "tmdb_id": 261326,
+    "imdb_id": "tt0091942",
+    "original_language": "ru",
+    "creators": [
+      {
+        "id": 240351,
+        "name": "Igor Maslennikov"
+      },
+      {
+        "id": 25167,
+        "name": "Arthur Conan Doyle"
+      }
+    ],
+    "directors": [],
+    "poster_path": "/dnflldbBdfXZl17QCdcdSk2V0be.jpg"
+  },
+  {
     "id": "tv:65484",
     "work_type": "tv",
     "series_kind": "miniseries",
@@ -992,6 +1016,36 @@ window.CULTURE_TV_CATALOG = [
       }
     ],
     "poster_path": "/2gLLftWX1ecorSXq2jBMosQAcKx.jpg"
+  },
+  {
+    "id": "tv:261323",
+    "work_type": "tv",
+    "series_kind": "miniseries",
+    "title": "The Adventures of Sherlock Holmes and Dr. Watson: The Treasures of Agra",
+    "original_title": "Приключения Шерлока Холмса и доктора Ватсона: Сокровища Агры",
+    "year": 1983,
+    "first_air_date": "1983-06-25",
+    "tmdb_id": 261323,
+    "imdb_id": "tt0086333",
+    "original_language": "ru",
+    "creators": [],
+    "directors": [],
+    "poster_path": "/9gUuk4D0rf0llwLq4KTTvli2JgX.jpg"
+  },
+  {
+    "id": "tv:261313",
+    "work_type": "tv",
+    "series_kind": "miniseries",
+    "title": "The Adventures of Sherlock Holmes and Dr. Watson: The Hound of the Baskervilles",
+    "original_title": "Приключения Шерлока Холмса и доктора Ватсона: Собака Баскервилей",
+    "year": 1981,
+    "first_air_date": "1981-07-25",
+    "tmdb_id": 261313,
+    "imdb_id": "tt0083100",
+    "original_language": "ru",
+    "creators": [],
+    "directors": [],
+    "poster_path": "/c8xDG2h0ea0Ojqtmh56zkSHjcZN.jpg"
   },
   {
     "id": "tv:43189",

@@ -21962,5 +21962,13 @@ window.CULTURE_CATALOG = [
     "tmdb_id": 77304,
     "imdb_id": "tt0756316",
     "original_title": "Малыш и Карлсон"
+  },
+  {
+    "id": 2253,
+    "title": "Scenes from a Marriage",
+    "director": "Ingmar Bergman",
+    "year": 1974,
+    "tmdb_id": 133919,
+    "imdb_id": "tt6725014"
   }
 ];
