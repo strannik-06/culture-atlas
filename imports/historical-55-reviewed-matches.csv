@@ -39,7 +39,7 @@ source_row,tmdb_movie_id,decision,reason
 1492,11044,candidate_reviewed,Matching title and director; verify source year exceptions
 1502,37265,verified_identity,"Tinto Brass live-action film, release 1992 versus source 1991. Replaces incorrect Stephen Medcalf opera film TMDB 267111; official TMDB search/watch link and IMDb/Letterboxd identify movie/37265."
 1526,50270,corrected_nonfirst_candidate,Original top-ranked TMDB candidate mismatched historical director or year
-1570,,defer_tv_miniseries,"Druzhinina four-part miniseries, IMDb tt0125111; route to future TV catalogue, not TMDB movie search."
+1570,,defer_tv_miniseries,"Druzhinina four-part miniseries Midshipmen, Onwards!, IMDb tt0125111 (production 1987; broadcast 1988). Owner confirmed on 2026-10-19 that the source rating covers the entire miniseries. Deferred only for TV catalogue implementation and TV identity verification; no movie ID assigned."
 1629,77985,candidate_reviewed,Matching title and director; verify source year exceptions
 1653,11368,candidate_reviewed,Matching title and director; verify source year exceptions
 1667,27925,candidate_reviewed,Matching title and director; verify source year exceptions

@@ -5,7 +5,7 @@
   "originally_deferred": 7,
   "verified_additions": 54,
   "existing_duplicates": 0,
-  "total_unresolved": 1,
+  "total_unresolved": 0,
   "catalogue_before": 2177,
   "catalogue_after": 2231,
   "proposed_id_range": [
@@ -29,5 +29,12 @@
   ],
   "rejected_point_blank_mapping_resolved": true,
   "followup_evidence": "imports/historical-55-followup-evidence.json",
-  "originally_reviewed_candidates": 48
+  "originally_reviewed_candidates": 48,
+  "pending_tv_catalogue": 1,
+  "owner_decisions_pending": 0,
+  "confirmed_miniseries_rating_scope": {
+    "source_row": "1570",
+    "scope": "entire_miniseries",
+    "confirmed_date": "2026-10-19"
+  }
 }

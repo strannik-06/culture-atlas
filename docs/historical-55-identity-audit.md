@@ -44,7 +44,7 @@ Evidence for these corrections:
 
 **Source row 1570, Гардемарины, вперед!** is identified as Svetlana Druzhinina's four-part miniseries, [Midshipmen, Onwards! / IMDb tt0125111](https://www.imdb.com/title/tt0125111/), produced in 1987 and broadcast in 1988. Its identity is no longer an unknown movie. It remains held because the repository's [film/TV architecture](film-tv-catalogue-architecture.md) requires miniseries to remain in TV rather than receive movie IDs.
 
-Owner clarification useful before future TV progress import: does the original historical rating cover **the entire four-part miniseries**, rather than one episode or a film-length edit? This does not block the 54 movie additions. No TV ID, canonical movie ID or rating-import mapping is invented for it. TV catalogue implementation remains separate.
+Owner confirmed on October 19, 2026 that the historical rating applies to **the entire four-part miniseries**. No further owner identity/scope decision is pending. This does not block the 54 movie additions. No TV ID, canonical movie ID or rating-import mapping is invented for it. TV catalogue implementation remains separate.
 
 ## Year and media-type handling
 

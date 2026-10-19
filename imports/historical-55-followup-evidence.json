@@ -126,6 +126,8 @@
     "source_year": 1987,
     "broadcast_year": 1988,
     "source_url": "https://www.imdb.com/title/tt0125111/",
-    "action": "Do not add a movie identity; preserve for TV catalogue. Ask whether the historical rating covers the full four-part miniseries."
+    "action": "Owner confirmed the historical rating covers the full four-part miniseries. Preserve for TV catalogue implementation and TV identity verification; do not add a movie identity or import TV progress in this catalogue PR.",
+    "rating_scope": "entire_miniseries",
+    "owner_confirmed_date": "2026-10-19"
   }
 }
