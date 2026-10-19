@@ -1,0 +1,20 @@
+name: TV ratings validation
+on:
+  pull_request:
+    paths: ['tv*', 'work-identities.js', 'index.html', 'supabase/migrations/20261019_tv_ratings.sql', 'tests/tv-ratings.test.mjs', 'package*.json', '.github/workflows/tv-ratings-validation.yml']
+  push:
+    branches: [main]
+    paths: ['tv*', 'work-identities.js', 'index.html', 'supabase/migrations/20261019_tv_ratings.sql', 'tests/tv-ratings.test.mjs', 'package*.json', '.github/workflows/tv-ratings-validation.yml']
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: node --check tv.js
+      - run: node scripts/validate-work-catalog.mjs
+      - run: node --test tests/tv-ratings.test.mjs

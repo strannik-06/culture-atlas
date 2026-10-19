@@ -135,13 +135,19 @@ test('Full page boots with film scripts and shared Account menu still works unde
       w.document.write(markup.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,''));
       w.HTMLElement.prototype.scrollIntoView=()=>{};
       w.supabase={createClient:()=>({...client,auth:{onAuthStateChange(){},getSession:async()=>({data:{session:null}})}})};
-      for(const name of ['film-details.js','editorial-ratings.js','critic-reviews.js','films-2024.js','film-recognition.js','awards-2025.js','film-catalog.js','books.js']) w.eval(await readFile(new URL('../'+name,import.meta.url),'utf8'));
+      for(const [,name] of markup.matchAll(/<script src="([^"]+)"/g)) {
+        if(!/^https?:/.test(name)) w.eval(await readFile(new URL('../'+name,import.meta.url),'utf8'));
+      }
       const inline=[...markup.matchAll(/<script>([\s\S]*?)<\/script>/g)].at(-1)[1];
       w.eval(inline);await flush();
       assert.equal(w.document.querySelectorAll('#grid article').length,100);
       w.document.querySelector('[data-section="books"]').click();
       w.document.getElementById('account-toggle').click();
       assert.equal(w.document.getElementById('account').hidden,false);
+      w.document.querySelector('[data-section="tv"]').click();
+      assert.equal(w.document.getElementById('tv-view').hidden,false);
+      assert.equal(w.document.getElementById('books-view').hidden,true);
+      assert.equal(w.document.querySelectorAll('[data-tv-edit]').length,43);
       w.document.querySelector('[data-section="films"]').click();
       w.document.querySelector('[data-view="awards"]').click();
       assert.equal(w.document.getElementById('awards-view').hidden,false);

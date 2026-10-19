@@ -11,9 +11,10 @@ function readCatalog(file,name){
 }
 const films=readCatalog('film-catalog.js','CULTURE_CATALOG');
 const series=readCatalog('tv-catalog.js','CULTURE_TV_CATALOG');
+const aliases=readCatalog('tv-film-aliases.js','CULTURE_TV_FILM_ALIASES');
 const window={};
 vm.runInNewContext(fs.readFileSync(path.join(root,'work-identities.js'),'utf8'),{window});
-const registry=window.CULTURE_WORK_IDENTITIES.createRegistry(films,series);
+const registry=window.CULTURE_WORK_IDENTITIES.createRegistry(films,series,aliases);
 for(const show of series){
  if(!show.title||!show.original_title||!['series','miniseries','unknown'].includes(show.series_kind))throw Error('Missing TV identity fields: '+show.id);
  if(!/^tt\d{6,}$/.test(show.imdb_id)||!/^\d{4}-\d{2}-\d{2}$/.test(show.first_air_date)||show.year!==Number(show.first_air_date.slice(0,4)))throw Error('Invalid TV external ID or date: '+show.id);
