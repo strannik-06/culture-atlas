@@ -26,7 +26,7 @@ async function details(type,id){
   const crew=d.aggregate_credits?.crew||d.credits?.crew||[];
   const directors=crew.filter(p=>p.job==='Director'||p.jobs?.some(j=>j.job==='Director')).map(p=>({id:p.id,name:p.name}));
   const byId=new Map(directors.map(p=>[p.id,p]));
-  return {media_type:type,tmdb_id:d.id,title:d.name||d.title,original_title:d.original_name||d.original_title,release_date:d.first_air_date||d.release_date||null,imdb_id:d.external_ids?.imdb_id||d.imdb_id||null,original_language:d.original_language,series_type:d.type||null,episode_count:d.number_of_episodes||null,season_count:d.number_of_seasons||null,creators:(d.created_by||[]).map(p=>({id:p.id,name:p.name})),directors:[...byId.values()],seasons:(d.seasons||[]).filter(s=>s.season_number>0).map(s=>({season_number:s.season_number,title:s.name,air_date:s.air_date,episode_count:s.episode_count})),poster_path:d.poster_path||null};
+  return {media_type:type,tmdb_id:d.id,title:d.name||d.title,original_title:d.original_name||d.original_title,release_date:d.first_air_date||d.release_date||null,imdb_id:d.external_ids?.imdb_id||d.imdb_id||null,original_language:d.original_language,series_type:d.type||null,runtime:d.runtime||null,episode_count:d.number_of_episodes||null,season_count:d.number_of_seasons||null,creators:(d.created_by||[]).map(p=>({id:p.id,name:p.name})),directors:[...byId.values()],seasons:(d.seasons||[]).filter(s=>s.season_number>0).map(s=>({season_number:s.season_number,title:s.name,air_date:s.air_date,episode_count:s.episode_count})),poster_path:d.poster_path||null};
  })());
  return cache.get(key);
 }
@@ -36,6 +36,7 @@ for(const seed of seeds.entries){
  const add=(type,id,route)=>{const key=type+':'+id;if(!candidates.has(key))candidates.set(key,{type,id,routes:[]});candidates.get(key).routes.push(route);};
  if(seed.legacy_media_type&&seed.legacy_tmdb_id)add(seed.legacy_media_type,seed.legacy_tmdb_id,'legacy_candidate');
  if(seed.tv_id_hint)add('tv',seed.tv_id_hint,'public_tv_hint');
+ if(seed.movie_id_hint)add('movie',seed.movie_id_hint,'movie_identity_hint');
  if(seed.imdb_id_hint){
   const found=await request('find/'+seed.imdb_id_hint,{external_source:'imdb_id'});
   for(const type of ['tv','movie'])for(const f of found?.[type+'_results']||[])add(type,f.id,'imdb_lookup');

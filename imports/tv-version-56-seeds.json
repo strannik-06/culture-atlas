@@ -223,8 +223,11 @@
       "imdb_id_hint": null,
       "search_titles": [
         "Незнайка на Луне 2",
+        "Незнайка на Луне - 2",
+        "Dunno on the Moon 2",
         "Незнайка на Луне"
-      ]
+      ],
+      "search_movies": true
     },
     {
       "source_rows": "1295",
@@ -244,7 +247,8 @@
       "legacy_media_type": "tv",
       "legacy_tmdb_id": 99952,
       "tv_id_hint": null,
-      "imdb_id_hint": null
+      "imdb_id_hint": null,
+      "search_movies": true
     },
     {
       "source_rows": "1371",
@@ -333,7 +337,13 @@
       "legacy_media_type": "movie",
       "legacy_tmdb_id": 126868,
       "tv_id_hint": null,
-      "imdb_id_hint": null
+      "imdb_id_hint": "tt0091942",
+      "search_movies": true,
+      "search_titles": [
+        "Двадцатый век начинается",
+        "The Twentieth Century Approaches",
+        "The Twentieth Century Begins"
+      ]
     },
     {
       "source_rows": "1607",
@@ -393,7 +403,12 @@
       "legacy_media_type": "movie",
       "legacy_tmdb_id": 126395,
       "tv_id_hint": null,
-      "imdb_id_hint": null
+      "imdb_id_hint": "tt0086333",
+      "search_movies": true,
+      "search_titles": [
+        "Сокровища Агры",
+        "The Treasures of Agra"
+      ]
     },
     {
       "source_rows": "1690",
@@ -403,7 +418,12 @@
       "legacy_media_type": "movie",
       "legacy_tmdb_id": 84254,
       "tv_id_hint": null,
-      "imdb_id_hint": null
+      "imdb_id_hint": "tt0083100",
+      "search_movies": true,
+      "search_titles": [
+        "Собака Баскервилей",
+        "The Hound of the Baskervilles"
+      ]
     },
     {
       "source_rows": "1710",
@@ -533,7 +553,13 @@
       "legacy_media_type": "tv",
       "legacy_tmdb_id": 65170,
       "tv_id_hint": null,
-      "imdb_id_hint": null
+      "imdb_id_hint": null,
+      "movie_id_hint": 5279,
+      "search_movies": true,
+      "search_titles": [
+        "Сцены из супружеской жизни",
+        "Scenes from a Marriage"
+      ]
     },
     {
       "source_rows": "1832",
