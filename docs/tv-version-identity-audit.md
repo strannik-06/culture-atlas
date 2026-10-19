@@ -1,14 +1,14 @@
 # TV and version identity audit
 
-This batch reviews all **56 deferred TV/version source entries** from merged PR #88 and adds **40 verified TV catalogue identities**. The 2,251 existing film records, numeric IDs and film progress are unchanged. Combined catalogue identities: **2,291 works**. No Supabase data or ratings were read or written.
+This batch reviews all **56 deferred TV/version source entries** from merged PR #88 and adds **43 verified TV catalogue identities** and the owner-confirmed theatrical Scenes from a Marriage (film 2253). The 2,251 existing film records, numeric IDs and film progress are unchanged. Combined catalogue identities: **2,295 works**. See the [remaining rating preparation](remaining-ratings-readiness.md). No Supabase data or ratings were read or written.
 
 This is the first catalogue/identity phase of the [film/TV architecture](film-tv-catalogue-architecture.md). It adds TV records and pure cross-media identity helpers, plus validation and tests. **TV browsing, account storage and rating imports are not activated.** No changes to index.html or the current film sync path are included.
 
 ## Live evidence and decisions
 
-The repository's existing TMDB credentials were used by a read-only GitHub Actions workflow to fetch TV search results, external identifiers, details, creator/director credits and seasons. The [successful final lookup](https://github.com/strannik-06/culture-atlas/actions/runs/39276957833) ran at commit recorded in [the metadata evidence](../imports/tv-version-56-tmdb-evidence.json). The metadata-only results were recovered from the job logs with per-source JSON records; an artifact is also retained by the workflow. No personal rating, notes, watched dates or critic-rating payloads are collected.
+The repository's existing TMDB credentials were used by a read-only GitHub Actions workflow to fetch TV search results, external identifiers, details, creator/director credits and seasons. The [successful final lookup](https://github.com/strannik-06/culture-atlas/actions/runs/39279871694) ran at commit recorded in [the metadata evidence](../imports/tv-version-56-tmdb-evidence.json). The metadata-only results were recovered from the job logs with per-source JSON records; an artifact is also retained by the workflow. No personal rating, notes, watched dates or critic-rating payloads are collected.
 
-The lookup is a candidate collector, not an approval algorithm. [All 56 reviewed decisions](../imports/tv-version-56-reviewed-identities.csv) identify accepted records and explain the held alternatives. The 40 catalogue records each have a verified TMDB TV identity and an IMDb ID. These are work identities, not confirmation that every source rating covers all current or future seasons.
+The lookup is a candidate collector, not an approval algorithm. [All 56 reviewed decisions](../imports/tv-version-56-reviewed-identities.csv) identify accepted records and explain the held alternatives. The 43 TV catalogue records each have a verified TMDB TV identity and an IMDb ID. These are work identities, not confirmation that every source rating covers all current or future seasons.
 
 One lookup error is retained: a movie ID returned while resolving Guest from the Future, movie/37452, returned HTTP 404. It is never used as a target. The valid TV/5904 and existing film/20894 records share IMDb tt0086723 and are held for cross-media handling instead.
 
@@ -54,9 +54,12 @@ Display years follow the first-air-date snapshot. Original production years rema
 | 1517 | Twin Peaks (1990) | `tv:1920` | series |
 | 1532 | Dekalog (1989) | `tv:42699` | miniseries |
 | 1570 | Naval Cadets, Charge! (1988) | `tv:43090` | miniseries |
+| 1595 | The Twentieth Century Begins (1988) | `tv:261326` | miniseries |
 | 1607 | In Search of Captain Grant (1985) | `tv:65484` | miniseries |
 | 1624 | The Return of the Prodigal Parrot (1984) | `tv:99974` | unknown |
 | 1625 | The Octopus (1984) | `tv:12822` | series |
+| 1656 | The Treasures of Agra (1983) | `tv:261323` | miniseries |
+| 1690 | The Hound of the Baskervilles (1981) | `tv:261313` | miniseries |
 | 1716 | Berlin Alexanderplatz (1980) | `tv:43189` | miniseries |
 | 1722 | The Adventures of the Electronic (1980) | `tv:65518` | miniseries |
 | 1724 | The Meeting Place Cannot Be Changed (1979) | `tv:75182` | miniseries |
@@ -76,27 +79,23 @@ The owner's confirmations are preserved explicitly:
 
 No further scope confirmation is needed for either work. Creating their catalogue identities does not authorize importing their ratings.
 
-## Sixteen source entries still held
+## Twelve source entries still held
 
-These are not sixteen missing films. Four already overlap with canonical movie records; other cases concern individual episodes, edit versions or provider parent/season inconsistencies. No held row receives an active new TV target.
+These are not twelve missing films. Four already overlap with canonical movie records; other cases concern individual episodes, edit versions or provider parent/season inconsistencies. No held row receives an active new TV target.
 
 | Source row | Source entry | Reason / next step |
 | --- | --- | --- |
-| 1276 | Незнайка на Луне 2 | Owner confirms a separate part-2 rating and permits considering a combined identity if no second-part TMDB identity is found. Part-specific identity lookup pending; preserve both source rows and ratings. |
-| 1359 | Незнайка на Луне | Owner confirms this rates part 1 separately from source 1276. Part-specific identity lookup pending; preserve both source rows and ratings. Do not assign either part rating to the whole parent. |
+| 1276 | Незнайка на Луне 2 | Owner confirms separate part ratings. Expanded Russian/English movie and TV searches found only the same complete 12-episode TV/99952, IMDb tt0219207, and no standalone part-2 identity. A combined identity is a permitted fallback for review, but neither part rating is promoted to the parent or combined automatically. |
+| 1359 | Незнайка на Луне | Owner confirms separate part ratings. Expanded Russian/English movie and TV searches found only the same complete 12-episode TV/99952, IMDb tt0219207, and no standalone part-2 identity. A combined identity is a permitted fallback for review, but neither part rating is promoted to the parent or combined automatically. |
 | 1371 | Чародей: Страна Великого Дракона (сериал) | Dragon Lord has a separate IMDb identity, but TV/1455 includes the 1997 story as season 2 while TV/313262 is an incomplete one-episode duplicate. Resolve the parent/season model before creating competing work records. |
 | 1416 | Чародей (сериал) | TMDB/1455 currently combines 1995 and 1997 stories into two seasons. Preserve the two source ratings; do not silently map both to one show. |
 | 1457 | Сердца трёх 2 | No safe standalone TMDB identity for the source Hearts of Three 2 was found. Do not substitute the five-part 1992 series. |
-| 1595 | Шерлок Холмс и доктор Ватсон: Двадцатый век начинается | Owner confirms both parts together. Whole-work TMDB identity verification pending; the previously suggested movie record represents only one part and remains rejected. |
 | 1618 | Гостья из будущего (мини-сериал) | TV/5904 and existing film 1955 share IMDb tt0086723. Same work already represented; preserve the film ID and any progress pending a reviewed cross-media migration or alias strategy. |
 | 1639 | Доктор Айболит (мультсериал) | TV/69135 and existing film 1967 share IMDb tt0218940. Do not add a second canonical rating target. |
-| 1656 | Шерлок Холмс и доктор Ватсон: Сокровища Агры | Owner confirms both parts together. Whole-work TMDB identity verification pending; the previously suggested movie record represents only one part and remains rejected. |
-| 1690 | Шерлок Холмс и доктор Ватсон: Собака Баскервилей | Owner confirms both parts together. Whole-work TMDB identity verification pending; the previously suggested movie record represents only one part and remains rejected. |
 | 1710 | Шерлок Холмс и доктор Ватсон: Смертельная схватка | Named Mortal Fight installment is identified as movie/126850, but is part of the Soviet Sherlock Holmes TV cycle. Initial TV model is show-level only; no episode rating target is created. |
 | 1711 | Шерлок Холмс и доктор Ватсон: Король шантажа | Named King of Blackmailers installment is identified as movie/126846. Preserve the episode scope; do not promote its rating to the whole TV cycle. |
 | 1712 | Шерлок Холмс и доктор Ватсон: Охота на тигра | Named Hunting the Tiger installment is identified as movie/126854. Preserve the episode scope; do not promote its rating to the whole TV cycle. |
 | 1780 | Приключения капитана Врунгеля (мультсериал) | TV/80706 and existing film 2016 share IMDb tt0219263. The source production year 1976 differs from broadcast 1980; preserve existing progress and identity until cross-media handling is reviewed. |
-| 1824 | Сцены из супружеской жизни | Owner confirms the theatrical edit. TV/65170 is rejected for this source; theatrical movie identity verification pending. |
 | 1853 | Большая перемена (мини-сериал) | TV/85252 and existing film 2047 share IMDb tt0068304. Same work, different provider media classification; preserve current progress. |
 
 The decision list preserves source row 1479's five-part Hearts of Three identity, but never assumes that it resolves the separate Hearts of Three 2 entry. Likewise, the two Dunno rows and two Spellbinder rows keep separate source ratings and are not consolidated.
@@ -105,12 +104,12 @@ The [owner clarification record](../imports/tv-version-owner-clarifications.json
 
 | Sources | Owner-confirmed scope | Catalogue action |
 | --- | --- | --- |
-| 1276 / 1359, Незнайка на Луне 2 / Незнайка на Луне | Part 2 / part 1, rated separately | Check part-specific identities. Owner permits considering one identity if part 2 is unavailable; preserve both source rows and ratings. |
+| 1276 / 1359, Незнайка на Луне 2 / Незнайка на Луне | Part 2 / part 1, rated separately | Lookup found only the whole twelve-part TV parent. A combined identity remains a permitted fallback for review; both ratings stay separate. |
 | 1625, Спрут | Wider series | Add `tv:12822`, IMDb tt0086779. |
-| 1824, Сцены из супружеской жизни | Theatrical edit | Reject the six-part TV candidate; verify the movie record. |
-| 1595 / 1656 / 1690, named Sherlock Holmes works | Both parts together for each title | Reject single-part targets; verify whole-work identities. |
+| 1824, Сцены из супружеской жизни | Theatrical edit | Add theatrical movie/133919 as film 2253; reject the six-part TV candidate. |
+| 1595 / 1656 / 1690, named Sherlock Holmes works | Both parts together for each title | Add TV/261326, TV/261323 and TV/261313 respectively; reject single-part targets. |
 
-No further owner scope decision is needed for these entries. The fresh read-only lookup is [queued in GitHub Actions](https://github.com/strannik-06/culture-atlas/actions/runs/39279243967). Until its evidence is reviewed, the part and theatrical identities remain held. The previous successful snapshot continues to support the 40 accepted TV identities.
+No further owner scope decision is needed for these entries. The completed lookup verifies the three two-part miniseries and the theatrical Scenes from a Marriage. Dunno has no standalone second-part identity in the expanded search; the conditional combined-identity fallback is recorded without merging ratings.
 
 The remaining Spellbinder provider split, Hearts sequel identity and cross-media migration are research/model tasks, not permission requests to overwrite ratings.
 
@@ -130,11 +129,11 @@ The TV catalogue is intentionally not loaded into the film-only browser or accou
 
 | Current source outcome | Entries |
 | --- | ---: |
-| Present movie links | 2,081 |
-| Present TV catalogue links | 40 |
+| Present movie links | 2,082 |
+| Present TV catalogue links | 43 |
 | Repeated movie identity | 10 |
 | Consolidated movie identity | 2 |
-| Deferred TV/version entries | 16 |
+| Deferred TV/version entries | 12 |
 | Unresolved standalone opening | 1 |
 | **Total normalized source entries** | **2,150** |
 
@@ -158,6 +157,6 @@ node --test tests/work-identities.test.mjs
 git diff --check
 ```
 
-The audit builder requires the pinned baseline commit, preserves all source metadata, verifies the 40 accepted IDs against the saved live evidence, checks cross-media IMDb overlaps and requires the film catalogue to be byte-for-byte unchanged. `--check` performs no file writes. Historical PR #87/#88 ledgers remain reproducible snapshots; this audit writes a new current ledger.
+The audit builder requires the pinned baseline commit, preserves all source metadata, verifies the 43 accepted TV IDs and theatrical film against the saved live evidence, checks cross-media IMDb overlaps and requires all 2,251 baseline film objects and IDs to remain unchanged, allowing only the explicitly verified theatrical film addition. `--check` performs no file writes. Historical PR #87/#88 ledgers remain reproducible snapshots; this audit writes a new current ledger.
 
 Stop for PR review. No Supabase migration, database access, rating payload, rating overwrite or TV progress implementation is included. A rating conflict report and explicit import approval remain separate steps.

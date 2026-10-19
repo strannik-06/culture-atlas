@@ -1,7 +1,7 @@
 {
-  "workflow_run_id": 39276957833,
-  "workflow_job_id": 118143693326,
-  "workflow_commit": "de4f2ff9adf6ea2c36a6cd418ffd52bc9f6563c1",
+  "workflow_run_id": 39279871694,
+  "workflow_job_id": 118151933039,
+  "workflow_commit": "c07bcecbaff5e72d6adad676b04ab1532ef5e756",
   "retrieved_at": "2026-10-19",
   "base_commit": "e3316643f3aa5200afe5451710b8661a6f1b51bf",
   "source_count": 56,
@@ -25,6 +25,7 @@
           "imdb_id": "tt16294384",
           "original_language": "en",
           "series_type": "Miniseries",
+          "runtime": null,
           "episode_count": 7,
           "season_count": 1,
           "creators": [
@@ -63,6 +64,7 @@
           "imdb_id": null,
           "original_language": "az",
           "series_type": "Scripted",
+          "runtime": null,
           "episode_count": 31,
           "season_count": 1,
           "creators": [
@@ -123,6 +125,7 @@
           "imdb_id": "tt10919420",
           "original_language": "ko",
           "series_type": "Scripted",
+          "runtime": null,
           "episode_count": 22,
           "season_count": 3,
           "creators": [
@@ -172,6 +175,7 @@
           "imdb_id": "tt28104766",
           "original_language": "en",
           "series_type": "Reality",
+          "runtime": null,
           "episode_count": 19,
           "season_count": 2,
           "creators": [],
@@ -216,6 +220,7 @@
           "imdb_id": "tt10048342",
           "original_language": "en",
           "series_type": "Miniseries",
+          "runtime": null,
           "episode_count": 7,
           "season_count": 1,
           "creators": [
@@ -269,6 +274,7 @@
           "imdb_id": "tt8968158",
           "original_language": "ru",
           "series_type": "Scripted",
+          "runtime": null,
           "episode_count": 12,
           "season_count": 1,
           "creators": [
@@ -319,6 +325,7 @@
           "imdb_id": "tt9378362",
           "original_language": "ru",
           "series_type": "Miniseries",
+          "runtime": null,
           "episode_count": 9,
           "season_count": 1,
           "creators": [
@@ -368,6 +375,7 @@
           "imdb_id": "tt5580146",
           "original_language": "en",
           "series_type": "Miniseries",
+          "runtime": null,
           "episode_count": 10,
           "season_count": 1,
           "creators": [
@@ -410,6 +418,7 @@
           "imdb_id": null,
           "original_language": "ru",
           "series_type": "Documentary",
+          "runtime": null,
           "episode_count": 9,
           "season_count": 1,
           "creators": [],
@@ -469,6 +478,7 @@
           "imdb_id": "tt4354616",
           "original_language": "en",
           "series_type": "Miniseries",
+          "runtime": null,
           "episode_count": 6,
           "season_count": 1,
           "creators": [
@@ -518,6 +528,7 @@
           "imdb_id": "tt3655448",
           "original_language": "it",
           "series_type": "Miniseries",
+          "runtime": null,
           "episode_count": 10,
           "season_count": 1,
           "creators": [
@@ -568,6 +579,7 @@
           "imdb_id": "tt5135336",
           "original_language": "ru",
           "series_type": "Scripted",
+          "runtime": null,
           "episode_count": 40,
           "season_count": 3,
           "creators": [],
@@ -615,6 +627,7 @@
           "imdb_id": "tt2372236",
           "original_language": "ru",
           "series_type": "Miniseries",
+          "runtime": null,
           "episode_count": 24,
           "season_count": 2,
           "creators": [
@@ -669,6 +682,7 @@
           "imdb_id": "tt3895144",
           "original_language": "ja",
           "series_type": "Scripted",
+          "runtime": null,
           "episode_count": 13,
           "season_count": 1,
           "creators": [
@@ -705,6 +719,7 @@
           "imdb_id": "tt5157074",
           "original_language": "ja",
           "series_type": "Scripted",
+          "runtime": null,
           "episode_count": 13,
           "season_count": 2,
           "creators": [],
@@ -749,6 +764,7 @@
           "imdb_id": "tt2465266",
           "original_language": "ru",
           "series_type": "Scripted",
+          "runtime": null,
           "episode_count": 16,
           "season_count": 1,
           "creators": [],
@@ -792,6 +808,7 @@
           "imdb_id": "tt2930610",
           "original_language": "ru",
           "series_type": "Scripted",
+          "runtime": null,
           "episode_count": 120,
           "season_count": 6,
           "creators": [
@@ -882,6 +899,7 @@
           "imdb_id": "tt1726576",
           "original_language": "en",
           "series_type": "Miniseries",
+          "runtime": null,
           "episode_count": 6,
           "season_count": 1,
           "creators": [
@@ -922,6 +940,7 @@
           "imdb_id": "tt2845786",
           "original_language": "en",
           "series_type": "Documentary",
+          "runtime": null,
           "episode_count": 95,
           "season_count": 12,
           "creators": [],
@@ -1047,6 +1066,7 @@
           "imdb_id": "tt1722638",
           "original_language": "en",
           "series_type": null,
+          "runtime": 49,
           "episode_count": null,
           "season_count": null,
           "creators": [],
@@ -1075,6 +1095,7 @@
           "imdb_id": "tt1475582",
           "original_language": "en",
           "series_type": "Scripted",
+          "runtime": null,
           "episode_count": 12,
           "season_count": 4,
           "creators": [
@@ -1173,6 +1194,7 @@
           "imdb_id": "tt1744910",
           "original_language": "ru",
           "series_type": "Scripted",
+          "runtime": null,
           "episode_count": 48,
           "season_count": 4,
           "creators": [
@@ -1234,6 +1256,7 @@
           "imdb_id": "tt0904208",
           "original_language": "en",
           "series_type": "Scripted",
+          "runtime": null,
           "episode_count": 84,
           "season_count": 7,
           "creators": [
@@ -1398,6 +1421,7 @@
           "imdb_id": "tt1202543",
           "original_language": "ru",
           "series_type": "Scripted",
+          "runtime": null,
           "episode_count": 86,
           "season_count": 5,
           "creators": [
@@ -1473,6 +1497,7 @@
           "imdb_id": "tt0403783",
           "original_language": "ru",
           "series_type": "Miniseries",
+          "runtime": null,
           "episode_count": 10,
           "season_count": 1,
           "creators": [
@@ -1510,6 +1535,7 @@
           "imdb_id": "tt0110476",
           "original_language": "ru",
           "series_type": "Miniseries",
+          "runtime": null,
           "episode_count": 4,
           "season_count": 1,
           "creators": [
@@ -1558,6 +1584,7 @@
           "imdb_id": null,
           "original_language": "et",
           "series_type": null,
+          "runtime": 143,
           "episode_count": null,
           "season_count": null,
           "creators": [],
@@ -1590,6 +1617,7 @@
           "imdb_id": "tt0366028",
           "original_language": "ru",
           "series_type": "Miniseries",
+          "runtime": null,
           "episode_count": 10,
           "season_count": 1,
           "creators": [
@@ -1638,6 +1666,7 @@
           "imdb_id": "tt0369179",
           "original_language": "en",
           "series_type": "Scripted",
+          "runtime": null,
           "episode_count": 262,
           "season_count": 12,
           "creators": [
@@ -1840,6 +1869,7 @@
           "imdb_id": "tt0337898",
           "original_language": "ru",
           "series_type": "Scripted",
+          "runtime": null,
           "episode_count": 15,
           "season_count": 1,
           "creators": [],
@@ -1871,6 +1901,7 @@
           "imdb_id": "tt0272376",
           "original_language": "en",
           "series_type": "Scripted",
+          "runtime": null,
           "episode_count": 88,
           "season_count": 4,
           "creators": [
@@ -2029,6 +2060,7 @@
           "imdb_id": "tt0394150",
           "original_language": "ru",
           "series_type": "Scripted",
+          "runtime": null,
           "episode_count": 10,
           "season_count": 1,
           "creators": [],
@@ -2072,6 +2104,7 @@
           "imdb_id": "tt0259127",
           "original_language": "en",
           "series_type": "Miniseries",
+          "runtime": null,
           "episode_count": 2,
           "season_count": 1,
           "creators": [],
@@ -2108,8 +2141,11 @@
       "imdb_id_hint": null,
       "search_titles": [
         "Незнайка на Луне 2",
+        "Незнайка на Луне - 2",
+        "Dunno on the Moon 2",
         "Незнайка на Луне"
       ],
+      "search_movies": true,
       "candidates": [
         {
           "media_type": "tv",
@@ -2120,6 +2156,7 @@
           "imdb_id": "tt0219207",
           "original_language": "ru",
           "series_type": "Scripted",
+          "runtime": null,
           "episode_count": 12,
           "season_count": 1,
           "creators": [],
@@ -2167,6 +2204,7 @@
           "imdb_id": "tt0216466",
           "original_language": "ru",
           "series_type": "Miniseries",
+          "runtime": null,
           "episode_count": 18,
           "season_count": 1,
           "creators": [],
@@ -2200,6 +2238,7 @@
       "legacy_tmdb_id": 99952,
       "tv_id_hint": null,
       "imdb_id_hint": null,
+      "search_movies": true,
       "candidates": [
         {
           "media_type": "tv",
@@ -2210,6 +2249,7 @@
           "imdb_id": "tt0219207",
           "original_language": "ru",
           "series_type": "Scripted",
+          "runtime": null,
           "episode_count": 12,
           "season_count": 1,
           "creators": [],
@@ -2262,6 +2302,7 @@
           "imdb_id": "tt0118476",
           "original_language": "en",
           "series_type": "Scripted",
+          "runtime": null,
           "episode_count": 1,
           "season_count": 1,
           "creators": [
@@ -2310,6 +2351,7 @@
           "imdb_id": "tt0112174",
           "original_language": "en",
           "series_type": "Scripted",
+          "runtime": null,
           "episode_count": 52,
           "season_count": 2,
           "creators": [
@@ -2379,6 +2421,7 @@
           "imdb_id": "tt0963997",
           "original_language": "ru",
           "series_type": "Miniseries",
+          "runtime": null,
           "episode_count": 5,
           "season_count": 1,
           "creators": [
@@ -2427,6 +2470,7 @@
           "imdb_id": "tt0098936",
           "original_language": "en",
           "series_type": "Scripted",
+          "runtime": null,
           "episode_count": 48,
           "season_count": 3,
           "creators": [
@@ -2543,6 +2587,7 @@
           "imdb_id": "tt0094987",
           "original_language": "pl",
           "series_type": null,
+          "runtime": 57,
           "episode_count": null,
           "season_count": null,
           "creators": [],
@@ -2567,6 +2612,7 @@
           "imdb_id": "tt0092337",
           "original_language": "pl",
           "series_type": "Miniseries",
+          "runtime": null,
           "episode_count": 10,
           "season_count": 1,
           "creators": [],
@@ -2612,6 +2658,7 @@
           "imdb_id": "tt0125111",
           "original_language": "ru",
           "series_type": "Scripted",
+          "runtime": null,
           "episode_count": 4,
           "season_count": 1,
           "creators": [],
@@ -2645,6 +2692,7 @@
           "imdb_id": "tt0125111",
           "original_language": "ru",
           "series_type": null,
+          "runtime": 290,
           "episode_count": null,
           "season_count": null,
           "creators": [],
@@ -2670,7 +2718,13 @@
       "legacy_media_type": "movie",
       "legacy_tmdb_id": 126868,
       "tv_id_hint": null,
-      "imdb_id_hint": null,
+      "imdb_id_hint": "tt0091942",
+      "search_movies": true,
+      "search_titles": [
+        "Двадцатый век начинается",
+        "The Twentieth Century Approaches",
+        "The Twentieth Century Begins"
+      ],
       "candidates": [
         {
           "media_type": "movie",
@@ -2681,6 +2735,7 @@
           "imdb_id": "tt6245582",
           "original_language": "ru",
           "series_type": null,
+          "runtime": 71,
           "episode_count": null,
           "season_count": null,
           "creators": [],
@@ -2693,7 +2748,101 @@
           "seasons": [],
           "poster_path": "/wedNiWBLOtGVNtJzE64w18AH45U.jpg",
           "lookup_routes": [
-            "legacy_candidate"
+            "legacy_candidate",
+            "title_year_search",
+            "title_year_search"
+          ]
+        },
+        {
+          "media_type": "tv",
+          "tmdb_id": 261326,
+          "title": "The Adventures of Sherlock Holmes and Dr. Watson: The twentieth century begins",
+          "original_title": "Приключения Шерлока Холмса и доктора Ватсона: Двадцатый век начинается",
+          "release_date": "1988-03-12",
+          "imdb_id": "tt0091942",
+          "original_language": "ru",
+          "series_type": "Miniseries",
+          "runtime": null,
+          "episode_count": 2,
+          "season_count": 1,
+          "creators": [
+            {
+              "id": 240351,
+              "name": "Igor Maslennikov"
+            },
+            {
+              "id": 25167,
+              "name": "Arthur Conan Doyle"
+            }
+          ],
+          "directors": [],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "The Adventures of Sherlock Holmes and Dr. Watson: The twentieth century begins",
+              "air_date": "1988-03-12",
+              "episode_count": 2
+            }
+          ],
+          "poster_path": "/dnflldbBdfXZl17QCdcdSk2V0be.jpg",
+          "lookup_routes": [
+            "imdb_lookup",
+            "title_year_search",
+            "title_year_search",
+            "title_year_search"
+          ]
+        },
+        {
+          "media_type": "movie",
+          "tmdb_id": 270393,
+          "title": "Sherlock Holmes in the 20th Century",
+          "original_title": "Шерлок Холмс в XX веке",
+          "release_date": "1987-04-01",
+          "imdb_id": "tt0091942",
+          "original_language": "ru",
+          "series_type": null,
+          "runtime": 149,
+          "episode_count": null,
+          "season_count": null,
+          "creators": [],
+          "directors": [
+            {
+              "id": 240351,
+              "name": "Igor Maslennikov"
+            }
+          ],
+          "seasons": [],
+          "poster_path": "/nivYCAN2wtrrNh5zHnV1xNRjSvx.jpg",
+          "lookup_routes": [
+            "imdb_lookup",
+            "title_year_search",
+            "title_year_search"
+          ]
+        },
+        {
+          "media_type": "movie",
+          "tmdb_id": 126867,
+          "title": "The Adventures of Sherlock Holmes and Dr. Watson: The Twentieth Century Begins - Part 1",
+          "original_title": "Приключения Шерлока Холмса и доктора Ватсона: Двадцатый век начинается. Часть 1",
+          "release_date": "1988-03-12",
+          "imdb_id": "tt6245566",
+          "original_language": "ru",
+          "series_type": null,
+          "runtime": 77,
+          "episode_count": null,
+          "season_count": null,
+          "creators": [],
+          "directors": [
+            {
+              "id": 240351,
+              "name": "Igor Maslennikov"
+            }
+          ],
+          "seasons": [],
+          "poster_path": "/hxQBfysbcMrh4M8m9sTsSt5RL2r.jpg",
+          "lookup_routes": [
+            "title_year_search",
+            "title_year_search"
           ]
         }
       ]
@@ -2717,6 +2866,7 @@
           "imdb_id": "tt0088635",
           "original_language": "ru",
           "series_type": "Miniseries",
+          "runtime": null,
           "episode_count": 7,
           "season_count": 1,
           "creators": [],
@@ -2760,6 +2910,7 @@
           "imdb_id": "tt0086723",
           "original_language": "ru",
           "series_type": "Miniseries",
+          "runtime": null,
           "episode_count": 5,
           "season_count": 1,
           "creators": [],
@@ -2792,6 +2943,7 @@
           "imdb_id": "tt0086723",
           "original_language": "ru",
           "series_type": null,
+          "runtime": 334,
           "episode_count": null,
           "season_count": null,
           "creators": [],
@@ -2828,6 +2980,7 @@
           "imdb_id": "tt0212593",
           "original_language": "ru",
           "series_type": "Scripted",
+          "runtime": null,
           "episode_count": 8,
           "season_count": 1,
           "creators": [
@@ -2884,6 +3037,7 @@
           "imdb_id": "tt0086779",
           "original_language": "it",
           "series_type": "Scripted",
+          "runtime": null,
           "episode_count": 48,
           "season_count": 10,
           "creators": [
@@ -3002,6 +3156,7 @@
           "imdb_id": "tt0218940",
           "original_language": "ru",
           "series_type": "Scripted",
+          "runtime": null,
           "episode_count": 7,
           "season_count": 1,
           "creators": [
@@ -3039,6 +3194,7 @@
           "imdb_id": "tt0218940",
           "original_language": "ru",
           "series_type": null,
+          "runtime": 66,
           "episode_count": null,
           "season_count": null,
           "creators": [],
@@ -3063,8 +3219,13 @@
       "year": 1983,
       "legacy_media_type": "movie",
       "legacy_tmdb_id": 126395,
-      "tv_id_hint": null,
-      "imdb_id_hint": null,
+      "tv_id_hint": 261323,
+      "imdb_id_hint": "tt0086333",
+      "search_movies": true,
+      "search_titles": [
+        "Сокровища Агры",
+        "The Treasures of Agra"
+      ],
       "candidates": [
         {
           "media_type": "movie",
@@ -3075,6 +3236,7 @@
           "imdb_id": "tt6256870",
           "original_language": "ru",
           "series_type": null,
+          "runtime": 72,
           "episode_count": null,
           "season_count": null,
           "creators": [],
@@ -3087,7 +3249,92 @@
           "seasons": [],
           "poster_path": "/hCPEC1WFrhNzPLeUWQ03mZHeSLT.jpg",
           "lookup_routes": [
-            "legacy_candidate"
+            "legacy_candidate",
+            "title_year_search",
+            "title_year_search"
+          ]
+        },
+        {
+          "media_type": "tv",
+          "tmdb_id": 261323,
+          "title": "The Adventures of Sherlock Holmes and Dr. Watson: The Treasures of Agra",
+          "original_title": "Приключения Шерлока Холмса и доктора Ватсона: Сокровища Агры",
+          "release_date": "1983-06-25",
+          "imdb_id": "tt0086333",
+          "original_language": "ru",
+          "series_type": "Miniseries",
+          "runtime": null,
+          "episode_count": 2,
+          "season_count": 1,
+          "creators": [],
+          "directors": [],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "The Adventures of Sherlock Holmes and Dr. Watson: The Treasures of Agra",
+              "air_date": "1983-06-25",
+              "episode_count": 2
+            }
+          ],
+          "poster_path": "/9gUuk4D0rf0llwLq4KTTvli2JgX.jpg",
+          "lookup_routes": [
+            "public_tv_hint",
+            "imdb_lookup",
+            "title_year_search",
+            "title_year_search"
+          ]
+        },
+        {
+          "media_type": "movie",
+          "tmdb_id": 127608,
+          "title": "The Adventures of Sherlock Holmes and Dr. Watson: The Treasures of Agra",
+          "original_title": "Приключения Шерлока Холмса и доктора Ватсона: Сокровища Агры",
+          "release_date": "1983-06-25",
+          "imdb_id": "tt0086333",
+          "original_language": "ru",
+          "series_type": null,
+          "runtime": 151,
+          "episode_count": null,
+          "season_count": null,
+          "creators": [],
+          "directors": [
+            {
+              "id": 240351,
+              "name": "Igor Maslennikov"
+            }
+          ],
+          "seasons": [],
+          "poster_path": "/1WXKw7sR2ZlBtOAWY2IXdmc2fEa.jpg",
+          "lookup_routes": [
+            "imdb_lookup",
+            "title_year_search",
+            "title_year_search"
+          ]
+        },
+        {
+          "media_type": "movie",
+          "tmdb_id": 126866,
+          "title": "The Adventures of Sherlock Holmes and Dr. Watson: The Treasures of Agra - Part 2",
+          "original_title": "Приключения Шерлока Холмса и доктора Ватсона: Сокровища Агры. Часть 2",
+          "release_date": "1983-06-26",
+          "imdb_id": "tt6256878",
+          "original_language": "ru",
+          "series_type": null,
+          "runtime": 73,
+          "episode_count": null,
+          "season_count": null,
+          "creators": [],
+          "directors": [
+            {
+              "id": 240351,
+              "name": "Igor Maslennikov"
+            }
+          ],
+          "seasons": [],
+          "poster_path": "/gkk08aJndujZvMBEkPbzfJgMZui.jpg",
+          "lookup_routes": [
+            "title_year_search",
+            "title_year_search"
           ]
         }
       ]
@@ -3100,7 +3347,12 @@
       "legacy_media_type": "movie",
       "legacy_tmdb_id": 84254,
       "tv_id_hint": null,
-      "imdb_id_hint": null,
+      "imdb_id_hint": "tt0083100",
+      "search_movies": true,
+      "search_titles": [
+        "Собака Баскервилей",
+        "The Hound of the Baskervilles"
+      ],
       "candidates": [
         {
           "media_type": "movie",
@@ -3111,6 +3363,7 @@
           "imdb_id": "tt0083100",
           "original_language": "ru",
           "series_type": null,
+          "runtime": 74,
           "episode_count": null,
           "season_count": null,
           "creators": [],
@@ -3123,7 +3376,177 @@
           "seasons": [],
           "poster_path": "/5W1OR1Tv7JAbphYNYrUgWvkL24I.jpg",
           "lookup_routes": [
-            "legacy_candidate"
+            "legacy_candidate",
+            "imdb_lookup",
+            "title_year_search",
+            "title_year_search"
+          ]
+        },
+        {
+          "media_type": "tv",
+          "tmdb_id": 261313,
+          "title": "The Adventures of Sherlock Holmes and Dr. Watson: The Hound of the Baskervilles",
+          "original_title": "Приключения Шерлока Холмса и доктора Ватсона: Собака Баскервилей",
+          "release_date": "1981-07-25",
+          "imdb_id": "tt0083100",
+          "original_language": "ru",
+          "series_type": "Miniseries",
+          "runtime": null,
+          "episode_count": 2,
+          "season_count": 1,
+          "creators": [],
+          "directors": [],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "1981-07-25",
+              "episode_count": 2
+            }
+          ],
+          "poster_path": "/c8xDG2h0ea0Ojqtmh56zkSHjcZN.jpg",
+          "lookup_routes": [
+            "imdb_lookup",
+            "title_year_search",
+            "title_year_search"
+          ]
+        },
+        {
+          "media_type": "movie",
+          "tmdb_id": 925348,
+          "title": "The Adventures of Sherlock Holmes and Dr. Watson: The Hound of the Baskervilles",
+          "original_title": "Приключения Шерлока Холмса и доктора Ватсона: Собака Баскервилей",
+          "release_date": "1981-07-25",
+          "imdb_id": null,
+          "original_language": "ru",
+          "series_type": null,
+          "runtime": 154,
+          "episode_count": null,
+          "season_count": null,
+          "creators": [],
+          "directors": [
+            {
+              "id": 240351,
+              "name": "Igor Maslennikov"
+            }
+          ],
+          "seasons": [],
+          "poster_path": "/6CJgfcOcuRz8F31nWxddoXi4eeZ.jpg",
+          "lookup_routes": [
+            "title_year_search",
+            "title_year_search"
+          ]
+        },
+        {
+          "media_type": "movie",
+          "tmdb_id": 493844,
+          "title": "The Adventures of Sherlock Holmes and Dr. Watson: The Hound of the Baskervilles - Part 2",
+          "original_title": "Приключения Шерлока Холмса и доктора Ватсона: Собака Баскервилей. Часть 2",
+          "release_date": "1981-07-26",
+          "imdb_id": "tt9418428",
+          "original_language": "ru",
+          "series_type": null,
+          "runtime": 72,
+          "episode_count": null,
+          "season_count": null,
+          "creators": [],
+          "directors": [
+            {
+              "id": 240351,
+              "name": "Igor Maslennikov"
+            }
+          ],
+          "seasons": [],
+          "poster_path": "/haaRz24WcSslZNVZaxGRupujqLh.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        },
+        {
+          "media_type": "movie",
+          "tmdb_id": 107918,
+          "title": "Sherlock Holmes and the Baskerville Curse",
+          "original_title": "Sherlock Holmes and the Baskerville Curse",
+          "release_date": "1983-01-01",
+          "imdb_id": "tt0272842",
+          "original_language": "en",
+          "series_type": null,
+          "runtime": 75,
+          "episode_count": null,
+          "season_count": null,
+          "creators": [],
+          "directors": [
+            {
+              "id": 1064855,
+              "name": "Ryszard Słapczyński"
+            }
+          ],
+          "seasons": [],
+          "poster_path": "/a1oMe9mpgyiXZQsFRsp06C2f1uM.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        },
+        {
+          "media_type": "tv",
+          "tmdb_id": 44225,
+          "title": "The Hound of the Baskervilles",
+          "original_title": "The Hound of the Baskervilles",
+          "release_date": "1982-10-03",
+          "imdb_id": "tt0174399",
+          "original_language": "en",
+          "series_type": "Miniseries",
+          "runtime": null,
+          "episode_count": 4,
+          "season_count": 1,
+          "creators": [
+            {
+              "id": 30920,
+              "name": "Alexander Baron"
+            }
+          ],
+          "directors": [
+            {
+              "id": 1223017,
+              "name": "Peter Duguid"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Miniseries",
+              "air_date": "1982-10-03",
+              "episode_count": 4
+            }
+          ],
+          "poster_path": "/yu2VprCkGLtQ1Py0G8sF0jW7zZL.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        },
+        {
+          "media_type": "movie",
+          "tmdb_id": 83579,
+          "title": "The Hound of the Baskervilles",
+          "original_title": "The Hound of the Baskervilles",
+          "release_date": "1983-11-03",
+          "imdb_id": "tt0085692",
+          "original_language": "en",
+          "series_type": null,
+          "runtime": 100,
+          "episode_count": null,
+          "season_count": null,
+          "creators": [],
+          "directors": [
+            {
+              "id": 100979,
+              "name": "Douglas Hickox"
+            }
+          ],
+          "seasons": [],
+          "poster_path": "/knEO4TxWPv9M2WwydYU9k0rXua5.jpg",
+          "lookup_routes": [
+            "title_year_search"
           ]
         }
       ]
@@ -3147,6 +3570,7 @@
           "imdb_id": "tt0229922",
           "original_language": "ru",
           "series_type": null,
+          "runtime": 65,
           "episode_count": null,
           "season_count": null,
           "creators": [],
@@ -3183,6 +3607,7 @@
           "imdb_id": "tt0459944",
           "original_language": "ru",
           "series_type": null,
+          "runtime": 63,
           "episode_count": null,
           "season_count": null,
           "creators": [],
@@ -3219,6 +3644,7 @@
           "imdb_id": "tt0459945",
           "original_language": "ru",
           "series_type": null,
+          "runtime": 65,
           "episode_count": null,
           "season_count": null,
           "creators": [],
@@ -3255,6 +3681,7 @@
           "imdb_id": "tt0080196",
           "original_language": "de",
           "series_type": "Scripted",
+          "runtime": null,
           "episode_count": 14,
           "season_count": 1,
           "creators": [
@@ -3303,6 +3730,7 @@
           "imdb_id": "tt0078673",
           "original_language": "ru",
           "series_type": "Miniseries",
+          "runtime": null,
           "episode_count": 3,
           "season_count": 1,
           "creators": [],
@@ -3346,6 +3774,7 @@
           "imdb_id": "tt0078655",
           "original_language": "ru",
           "series_type": "Miniseries",
+          "runtime": null,
           "episode_count": 5,
           "season_count": 1,
           "creators": [
@@ -3394,6 +3823,7 @@
           "imdb_id": "tt0076998",
           "original_language": "ru",
           "series_type": "Miniseries",
+          "runtime": null,
           "episode_count": 3,
           "season_count": 1,
           "creators": [
@@ -3443,6 +3873,7 @@
           "imdb_id": "tt0075468",
           "original_language": "ru",
           "series_type": "Miniseries",
+          "runtime": null,
           "episode_count": 4,
           "season_count": 1,
           "creators": [
@@ -3491,6 +3922,7 @@
           "imdb_id": "tt0219263",
           "original_language": "ru",
           "series_type": "Scripted",
+          "runtime": null,
           "episode_count": 13,
           "season_count": 1,
           "creators": [],
@@ -3522,6 +3954,7 @@
           "imdb_id": "tt0219263",
           "original_language": "ru",
           "series_type": null,
+          "runtime": 117,
           "episode_count": null,
           "season_count": null,
           "creators": [],
@@ -3558,6 +3991,7 @@
           "imdb_id": "tt0073570",
           "original_language": "ru",
           "series_type": "Miniseries",
+          "runtime": null,
           "episode_count": 2,
           "season_count": 1,
           "creators": [],
@@ -3602,6 +4036,7 @@
           "imdb_id": "tt1074757",
           "original_language": "ru",
           "series_type": "Scripted",
+          "runtime": null,
           "episode_count": 11,
           "season_count": 1,
           "creators": [
@@ -3650,6 +4085,7 @@
           "imdb_id": "tt0281423",
           "original_language": "ru",
           "series_type": "Miniseries",
+          "runtime": null,
           "episode_count": 3,
           "season_count": 1,
           "creators": [],
@@ -3683,6 +4119,12 @@
       "legacy_tmdb_id": 65170,
       "tv_id_hint": null,
       "imdb_id_hint": null,
+      "movie_id_hint": 133919,
+      "search_movies": true,
+      "search_titles": [
+        "Сцены из супружеской жизни",
+        "Scenes from a Marriage"
+      ],
       "candidates": [
         {
           "media_type": "tv",
@@ -3693,6 +4135,7 @@
           "imdb_id": "tt0070644",
           "original_language": "sv",
           "series_type": "Miniseries",
+          "runtime": null,
           "episode_count": 6,
           "season_count": 1,
           "creators": [
@@ -3718,6 +4161,34 @@
           "poster_path": "/7emUsAq0IUDC2b2bcyHh60rI7Kx.jpg",
           "lookup_routes": [
             "legacy_candidate",
+            "title_year_search",
+            "title_year_search"
+          ]
+        },
+        {
+          "media_type": "movie",
+          "tmdb_id": 133919,
+          "title": "Scenes from a Marriage",
+          "original_title": "Scener ur ett äktenskap",
+          "release_date": "1974-09-15",
+          "imdb_id": "tt6725014",
+          "original_language": "sv",
+          "series_type": null,
+          "runtime": 169,
+          "episode_count": null,
+          "season_count": null,
+          "creators": [],
+          "directors": [
+            {
+              "id": 6648,
+              "name": "Ingmar Bergman"
+            }
+          ],
+          "seasons": [],
+          "poster_path": "/ArKEdvJesIktFX8OAhcdKAOLl6I.jpg",
+          "lookup_routes": [
+            "movie_identity_hint",
+            "title_year_search",
             "title_year_search"
           ]
         }
@@ -3742,6 +4213,7 @@
           "imdb_id": "tt0069600",
           "original_language": "ru",
           "series_type": "Miniseries",
+          "runtime": null,
           "episode_count": 3,
           "season_count": 1,
           "creators": [],
@@ -3785,6 +4257,7 @@
           "imdb_id": "tt0381507",
           "original_language": "ru",
           "series_type": "Scripted",
+          "runtime": null,
           "episode_count": 5,
           "season_count": 2,
           "creators": [
@@ -3843,6 +4316,7 @@
           "imdb_id": "tt0068304",
           "original_language": "ru",
           "series_type": "Miniseries",
+          "runtime": null,
           "episode_count": 4,
           "season_count": 1,
           "creators": [
@@ -3888,6 +4362,7 @@
           "imdb_id": "tt0068304",
           "original_language": "ru",
           "series_type": null,
+          "runtime": 268,
           "episode_count": null,
           "season_count": null,
           "creators": [],
@@ -3924,6 +4399,7 @@
           "imdb_id": "tt0234355",
           "original_language": "ru",
           "series_type": "Scripted",
+          "runtime": null,
           "episode_count": 20,
           "season_count": 1,
           "creators": [
@@ -3968,5 +4444,5 @@
       "status": 404
     }
   ],
-  "warning": "Live TMDB candidate metadata. No source-to-work or rating approval inferred. No Supabase access."
+  "warning": "Live TMDB candidate metadata only. No rating approval or Supabase access."
 }

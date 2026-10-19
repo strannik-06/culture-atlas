@@ -44,9 +44,16 @@ def main():
     assert len(reviews) == len({r['source_rows'] for r in reviews}) == len(pending) == 56
     assert set(by_source) == set(pending) == {r['source_rows'] for r in reviews}
     film_bytes = at_base('film-catalog.js')
-    assert (ROOT / 'film-catalog.js').read_bytes() == film_bytes, 'Film IDs and metadata must remain unchanged'
-    films = json.loads(film_bytes.decode().split(' = ', 1)[1].strip().removesuffix(';'))
-    assert len(films) == 2251
+    baseline_films = json.loads(film_bytes.decode().split(' = ', 1)[1].strip().removesuffix(';'))
+    films = json.loads((ROOT / 'film-catalog.js').read_text().split(' = ', 1)[1].strip().removesuffix(';'))
+    assert len(baseline_films) == 2251
+    assert films[:2251] == baseline_films, 'Existing film IDs and metadata must remain unchanged'
+    assert len(films) == 2252 and films[-1]['id'] == 2253 and films[-1]['tmdb_id'] == 133919
+    movie = next(c for c in by_source['1824']['candidates'] if c['media_type'] == 'movie' and c['tmdb_id'] == 133919)
+    assert movie['runtime'] == 169 and movie['imdb_id'] == 'tt6725014'
+    assert [d['name'] for d in movie['directors']] == ['Ingmar Bergman']
+    expected_movie = {'id': 2253, 'title': movie['title'], 'director': 'Ingmar Bergman', 'year': int(movie['release_date'][:4]), 'tmdb_id': 133919, 'imdb_id': movie['imdb_id']}
+    assert films[-1] == expected_movie
     imdb_films = {f['imdb_id']: f for f in films if f.get('imdb_id')}
     known_ids = {str(f['id']) for f in films}
     tv = []
@@ -69,6 +76,10 @@ def main():
                     'directors': f['directors'], 'poster_path': f['poster_path']}
             tv.append(item)
             chosen[sr] = item
+        elif r['decision'] == 'verified_new_movie_identity':
+            assert sr == '1824' and r['accepted_work_key'] == 'movie:2253'
+            assert r['rating_scope'] == 'owner_confirmed_theatrical_edit'
+            chosen[sr] = films[-1]
         else:
             assert not r['accepted_work_key'] and not r['accepted_tmdb_tv_id'], 'Pending candidate promoted to active work'
             if r['existing_film_id']:
@@ -76,7 +87,7 @@ def main():
                 for tid in r['candidate_tmdb_tv_ids'].split(';'):
                     f = next(c for c in by_source[sr]['candidates'] if c['media_type'] == 'tv' and str(c['tmdb_id']) == tid)
                     assert str(imdb_films[f['imdb_id']]['id']) == r['existing_film_id']
-    assert len(tv) == len({f['id'] for f in tv}) == len({f['imdb_id'] for f in tv}) == 40
+    assert len(tv) == len({f['id'] for f in tv}) == len({f['imdb_id'] for f in tv}) == 43
     assert chosen['1532']['id'] == 'tv:42699' and chosen['1570']['id'] == 'tv:43090'
     assert chosen['673']['id'] == 'tv:19885' and chosen['1057']['id'] == 'tv:68187'
     decisions = {r['source_rows']: r for r in reviews}
@@ -101,7 +112,12 @@ def main():
             r['identity_audit_evidence'] = d['evidence_ref']
             r['reason'] = d['reason']
             f = chosen.get(r['source_rows'])
-            if f:
+            if f and d['decision'] == 'verified_new_movie_identity':
+                r.update(coverage_status='present', catalogue_id=f['id'], catalogue_title=f['title'],
+                         catalogue_director=f['director'], catalogue_year=f['year'], tmdb_media_type='movie',
+                         tmdb_id=f['tmdb_id'], imdb_id=f['imdb_id'], identity_review_required='false',
+                         link_basis='reviewed_live_tmdb_theatrical_identity', work_key='movie:' + str(f['id']), work_type='movie')
+            elif f:
                 r.update(coverage_status='present_tv_catalogue', catalogue_id=f['id'], catalogue_title=f['title'],
                          catalogue_director='; '.join(p['name'] for p in f['directors']), catalogue_year=f['year'],
                          tmdb_media_type='tv', tmdb_id=f['tmdb_id'], imdb_id=f['imdb_id'],
@@ -109,11 +125,11 @@ def main():
         ledger.append(r)
     assert len(ledger) == 2150
     summary = {'base_commit': BASE, 'source_entries': len(ledger), 'deferred_sources_reviewed': 56,
-               'film_entries_unchanged': len(films), 'new_tv_entries': len(tv), 'combined_work_entries': len(films) + len(tv),
+               'film_entries_preserved': len(baseline_films), 'new_movie_entries': 1, 'film_entries': len(films), 'new_tv_entries': len(tv), 'combined_work_entries': len(films) + len(tv),
                'review_decisions': dict(sorted(collections.Counter(r['decision'] for r in reviews).items())),
                'coverage_counts': dict(sorted(collections.Counter(r['coverage_status'] for r in ledger).items())),
                'workflow_run_id': evidence['workflow_run_id'], 'lookup_errors': evidence['errors'],
-               'film_catalogue_sha256': hashlib.sha256(film_bytes).hexdigest(),
+               'film_catalogue_sha256': hashlib.sha256((ROOT / 'film-catalog.js').read_bytes()).hexdigest(),
                'review_sha256': hashlib.sha256(review_path.read_bytes()).hexdigest(),
                'evidence_sha256': hashlib.sha256(evidence_path.read_bytes()).hexdigest(),
                'warning': 'Catalogue identity only. TV UI and progress storage are not activated; no ratings or Supabase access. Held candidates are not active targets.'}
