@@ -1,0 +1,25 @@
+{
+  "workflow_run_id": 39306362860,
+  "workflow_job_id": 118244370756,
+  "workflow_commit": "6f9a3fb57c30f1004245dcdb2725fbc4600eeac3",
+  "retrieved_at": "2026-10-19T18:54:34.178Z",
+  "entries": [
+    {
+      "source_rows": "1457",
+      "title": "Сердца трёх 2",
+      "director": "Владимир Попков",
+      "year": 1993,
+      "imdb_id_hint": "tt4324832",
+      "search_titles": [
+        "Сердца трех 2",
+        "Сердца трёх 2",
+        "Serdtsa tryokh-2",
+        "Hearts of Three 2"
+      ],
+      "search_movies": true,
+      "candidates": []
+    }
+  ],
+  "errors": [],
+  "warning": "Read-only metadata lookup. No progress queried or modified."
+}

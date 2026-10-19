@@ -1,0 +1,50 @@
+{
+  "base_commit": "cc2add7e9f3d8004218332ae76903982318be7c0",
+  "evidence": "tv-version-56-tmdb-evidence.json",
+  "evidence_workflow_run_id": 39279871694,
+  "scope_authority": "Owner confirmed separate parts and permitted considering a combined identity if a second-part TMDB record could not be found. Both exact source scores must agree; no averaging.",
+  "entries": [
+    {
+      "source_rows": [
+        "1276",
+        "1359"
+      ],
+      "decision": "verified_combined_tv_identity",
+      "accepted_work_key": "tv:99952",
+      "imdb_id": "tt0219207",
+      "reason": "Only full 12-episode identity found by expanded movie/TV searches. Source parts 2 and 1 cover the complete work; use the owner-permitted combined fallback, conditional on equal scores and notes."
+    },
+    {
+      "source_rows": [
+        "1371",
+        "1416"
+      ],
+      "decision": "season_rating_support_required",
+      "reason": "TV/1455 includes both 26-episode seasons; standalone TV/313262 repeats the 1997 story but contains only one episode in the evidence. Preserve distinct source scores; do not assign either to the full parent."
+    },
+    {
+      "source_rows": [
+        "1457"
+      ],
+      "decision": "unresolved_tmdb_identity",
+      "imdb_id": "tt4324832",
+      "reason": "Distinct 1993 sequel IMDb tt4324832 found. TMDB find by IMDb and four expanded movie/TV title queries returned no candidates; do not map to 1992 TV/65923."
+    },
+    {
+      "source_rows": [
+        "1710",
+        "1711",
+        "1712"
+      ],
+      "decision": "episode_rating_support_required",
+      "reason": "Exact named installments are verified as TMDB movie records 126850, 126846 and 126854, with IMDb tt0229922, tt0459944 and tt0459945. Current show-level TV storage cannot represent the individual scopes; do not merge into a parent rating."
+    },
+    {
+      "source_rows": [
+        "1699"
+      ],
+      "decision": "unresolved_opening_sequence",
+      "reason": "The specific Tatarskiy opening is not the whole Good Night, Little Ones! show. No safe standalone TMDB/IMDb pair; no substitution."
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # TV ratings and historical import
 
-This adds a top-level TV Series section with Catalogue/My ratings tabs, series/miniseries filters, title/creator/director search, sorting, half-point stars, rating scope, private notes and an optional watched date. Films and Books keep their own ratings. The 43 TV identities and all existing numeric film IDs remain unchanged.
+This adds a top-level TV Series section with Catalogue/My ratings tabs, series/miniseries filters, title/creator/director search, sorting, half-point stars, rating scope, private notes and an optional watched date. Films and Books keep their own ratings. The original 43 TV identities and all existing numeric film IDs remain unchanged. A supplementary catalogue review adds Dunno on the Moon as the 44th TV identity.
 
 ## Setup and review boundary
 
@@ -64,7 +64,7 @@ Each alias shares the verified IMDb identity of the target. Rating edits use **V
 
 ## Remaining source cases
 
-No new identity choices are inferred for the three named Sherlock installments, two Spellbinder entries, two separately rated Dunno parts, Hearts of Three 2 or the Good Night, Little Ones! opening. These eight version entries and one opening remain outside the 43-row import. The Dunno combined-identity fallback remains recorded for separate review; its part scores are not merged.
+The original 43-row import remains reproducible and excludes all later additions. The supplementary [remaining-case audit](remaining-version-audit.md) uses the owner-permitted combined Dunno identity. Six version entries and one opening remain deferred. No new production migration or rating import is part of that catalogue review.
 
 ## Validation and limits
 

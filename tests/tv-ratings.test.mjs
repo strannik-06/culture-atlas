@@ -87,7 +87,7 @@ const settle=async()=>{for(let i=0;i<10;i++)await new Promise(resolve=>setTimeou
 test('UI: navigation, catalogue aliases, half-point stars and private save',async()=>{
  const h=await setupUI(),w=h.window,d=w.document;
  try{
-  await w.CultureTV.setSession(null);assert.equal(d.querySelectorAll('[data-tv-edit]').length,43);assert.equal(d.querySelectorAll('[data-linked-film]').length,4);assert.equal(h.writes.length,0);
+  await w.CultureTV.setSession(null);assert.equal(d.querySelectorAll('[data-tv-edit]').length,44);assert.equal(d.querySelectorAll('[data-linked-film]').length,4);assert.equal(h.writes.length,0);
   d.querySelector('[data-section="tv"]').click();assert.equal(d.querySelector('#tv-view').hidden,false);assert.equal(d.querySelector('#cinema-area').hidden,true);assert.equal(d.querySelector('#books-view').hidden,true);
   d.querySelector('[data-section="books"]').click();assert.equal(d.querySelector('#tv-view').hidden,true);assert.equal(d.querySelector('#books-view').hidden,false);
   d.querySelector('[data-section="tv"]').click();await w.CultureTV.setSession({id:a});
@@ -121,7 +121,7 @@ test('reviewed aliases resolve to the existing film key without adding another c
  const h=await setupUI(),w=h.window;
  try{
   const r=w.CULTURE_WORK_IDENTITIES.createRegistry(w.CULTURE_CATALOG,w.CULTURE_TV_CATALOG,w.CULTURE_TV_FILM_ALIASES);
-  assert.equal(r.byExternalId('tv',5904).work_key,'movie:1955');assert.equal(r.list().length,2295);assert.equal(r.list('tv').length,43);
+  assert.equal(r.byExternalId('tv',5904).work_key,'movie:1955');assert.equal(r.list().length,2296);assert.equal(r.list('tv').length,44);
   assert.throws(()=>w.CULTURE_WORK_IDENTITIES.createRegistry(w.CULTURE_CATALOG,w.CULTURE_TV_CATALOG,[{media_type:'tv',tmdb_id:5904,work_key:'movie:1955',imdb_id:'ttWRONG'}]));
  }finally{await w.happyDOM.close();}
 });

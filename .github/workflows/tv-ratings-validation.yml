@@ -1,10 +1,10 @@
 name: TV ratings validation
 on:
   pull_request:
-    paths: ['tv*', 'work-identities.js', 'index.html', 'supabase/migrations/20261019_tv_ratings.sql', 'tests/tv-ratings.test.mjs', 'package*.json', '.github/workflows/tv-ratings-validation.yml']
+    paths: ['tv*', 'work-identities.js', 'index.html', 'supabase/migrations/20261019_tv_ratings.sql', 'tests/tv-ratings.test.mjs', 'tests/test_dunno_import.py', 'scripts/prepare-dunno-tv-import.py', 'package*.json', '.github/workflows/tv-ratings-validation.yml']
   push:
     branches: [main]
-    paths: ['tv*', 'work-identities.js', 'index.html', 'supabase/migrations/20261019_tv_ratings.sql', 'tests/tv-ratings.test.mjs', 'package*.json', '.github/workflows/tv-ratings-validation.yml']
+    paths: ['tv*', 'work-identities.js', 'index.html', 'supabase/migrations/20261019_tv_ratings.sql', 'tests/tv-ratings.test.mjs', 'tests/test_dunno_import.py', 'scripts/prepare-dunno-tv-import.py', 'package*.json', '.github/workflows/tv-ratings-validation.yml']
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -18,3 +18,4 @@ jobs:
       - run: node --check tv.js
       - run: node scripts/validate-work-catalog.mjs
       - run: node --test tests/tv-ratings.test.mjs
+      - run: python3 -m unittest discover -s tests -p 'test_dunno_import.py'

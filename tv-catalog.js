@@ -1313,5 +1313,29 @@ window.CULTURE_TV_CATALOG = [
       }
     ],
     "poster_path": "/evPwhhd8nnlLEaKlj35HtWDPOLk.jpg"
+  },
+  {
+    "id": "tv:99952",
+    "work_type": "tv",
+    "series_kind": "miniseries",
+    "title": "Dunno on the Moon",
+    "original_title": "Незнайка на Луне",
+    "year": 1997,
+    "first_air_date": "1997-12-01",
+    "tmdb_id": 99952,
+    "imdb_id": "tt0219207",
+    "original_language": "ru",
+    "creators": [],
+    "directors": [
+      {
+        "id": 1279071,
+        "name": "Yuriy Butyrin"
+      },
+      {
+        "id": 126964,
+        "name": "Alexander Lyutkevich"
+      }
+    ],
+    "poster_path": "/nJYMFzMH14nuf3RQOsOqgf6QjYn.jpg"
   }
 ];
