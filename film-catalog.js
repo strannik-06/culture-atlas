@@ -21296,5 +21296,428 @@ window.CULTURE_CATALOG = [
     "tmdb_id": 41225,
     "imdb_id": "tt0063715",
     "original_title": "Histoires extraordinaires"
+  },
+  {
+    "id": 2179,
+    "title": "Before Sunset",
+    "director": "Richard Linklater",
+    "year": 2004,
+    "tmdb_id": 80,
+    "imdb_id": "tt0381681",
+    "original_title": "Before Sunset"
+  },
+  {
+    "id": 2180,
+    "title": "Marriage Story",
+    "director": "Noah Baumbach",
+    "year": 2019,
+    "tmdb_id": 492188,
+    "imdb_id": "tt7653254",
+    "original_title": "Marriage Story"
+  },
+  {
+    "id": 2181,
+    "title": "Mamma Mia! Here We Go Again",
+    "director": "Ol Parker",
+    "year": 2018,
+    "tmdb_id": 458423,
+    "imdb_id": "tt6911608",
+    "original_title": "Mamma Mia! Here We Go Again"
+  },
+  {
+    "id": 2182,
+    "title": "Ocean's Eight",
+    "director": "Gary Ross",
+    "year": 2018,
+    "tmdb_id": 402900,
+    "imdb_id": "tt5164214",
+    "original_title": "Ocean's Eight"
+  },
+  {
+    "id": 2183,
+    "title": "Despicable Me 3",
+    "director": "Kyle Balda, Pierre Coffin",
+    "year": 2017,
+    "tmdb_id": 324852,
+    "imdb_id": "tt3469046",
+    "original_title": "Despicable Me 3"
+  },
+  {
+    "id": 2184,
+    "title": "Star Wars: The Last Jedi",
+    "director": "Rian Johnson",
+    "year": 2017,
+    "tmdb_id": 181808,
+    "imdb_id": "tt2527336",
+    "original_title": "Star Wars: The Last Jedi"
+  },
+  {
+    "id": 2185,
+    "title": "The Bookshop",
+    "director": "Isabel Coixet",
+    "year": 2017,
+    "tmdb_id": 444539,
+    "imdb_id": "tt3127022",
+    "original_title": "The Bookshop"
+  },
+  {
+    "id": 2186,
+    "title": "Star Wars: The Force Awakens",
+    "director": "J.J. Abrams",
+    "year": 2015,
+    "tmdb_id": 140607,
+    "imdb_id": "tt2488496",
+    "original_title": "Star Wars: The Force Awakens"
+  },
+  {
+    "id": 2187,
+    "title": "The Hunger Games: Mockingjay - Part 2",
+    "director": "Francis Lawrence",
+    "year": 2015,
+    "tmdb_id": 131634,
+    "imdb_id": "tt1951266",
+    "original_title": "The Hunger Games: Mockingjay - Part 2"
+  },
+  {
+    "id": 2188,
+    "title": "Transformers: Age of Extinction",
+    "director": "Michael Bay",
+    "year": 2014,
+    "tmdb_id": 91314,
+    "imdb_id": "tt2109248",
+    "original_title": "Transformers: Age of Extinction"
+  },
+  {
+    "id": 2189,
+    "title": "Wild",
+    "director": "Jean-Marc Vallée",
+    "year": 2014,
+    "tmdb_id": 228970,
+    "imdb_id": "tt2305051",
+    "original_title": "Wild"
+  },
+  {
+    "id": 2190,
+    "title": "The Hunger Games: Mockingjay - Part 1",
+    "director": "Francis Lawrence",
+    "year": 2014,
+    "tmdb_id": 131631,
+    "imdb_id": "tt1951265",
+    "original_title": "The Hunger Games: Mockingjay - Part 1"
+  },
+  {
+    "id": 2191,
+    "title": "The Theory of Everything",
+    "director": "James Marsh",
+    "year": 2014,
+    "tmdb_id": 266856,
+    "imdb_id": "tt2980516",
+    "original_title": "The Theory of Everything"
+  },
+  {
+    "id": 2192,
+    "title": "American Reunion",
+    "director": "Jon Hurwitz, Hayden Schlossberg",
+    "year": 2012,
+    "tmdb_id": 71552,
+    "imdb_id": "tt1605630",
+    "original_title": "American Reunion"
+  },
+  {
+    "id": 2193,
+    "title": "Interstate 60",
+    "director": "Bob Gale",
+    "year": 2002,
+    "tmdb_id": 20312,
+    "imdb_id": "tt0165832",
+    "original_title": "Interstate 60"
+  },
+  {
+    "id": 2194,
+    "title": "The Ages of Love",
+    "director": "Giovanni Veronesi",
+    "year": 2011,
+    "tmdb_id": 58219,
+    "imdb_id": "tt1712187",
+    "original_title": "Manuale d'amore 3"
+  },
+  {
+    "id": 2195,
+    "title": "The Mechanic",
+    "director": "Simon West",
+    "year": 2011,
+    "tmdb_id": 27582,
+    "imdb_id": "tt0472399",
+    "original_title": "The Mechanic"
+  },
+  {
+    "id": 2196,
+    "title": "Transformers: Revenge of the Fallen",
+    "director": "Michael Bay",
+    "year": 2009,
+    "tmdb_id": 8373,
+    "imdb_id": "tt1055369",
+    "original_title": "Transformers: Revenge of the Fallen"
+  },
+  {
+    "id": 2197,
+    "title": "Troy",
+    "director": "Wolfgang Petersen",
+    "year": 2004,
+    "tmdb_id": 652,
+    "imdb_id": "tt0332452",
+    "original_title": "Troy"
+  },
+  {
+    "id": 2198,
+    "title": "Hoodwinked!",
+    "director": "Cory Edwards",
+    "year": 2005,
+    "tmdb_id": 10982,
+    "imdb_id": "tt0443536",
+    "original_title": "Hoodwinked!"
+  },
+  {
+    "id": 2199,
+    "title": "Monamour",
+    "director": "Tinto Brass",
+    "year": 2005,
+    "tmdb_id": 27063,
+    "imdb_id": "tt0480919",
+    "original_title": "Monamour"
+  },
+  {
+    "id": 2200,
+    "title": "Gopher Broke",
+    "director": "Jeff Fowler",
+    "year": 2004,
+    "tmdb_id": 25223,
+    "imdb_id": "tt0438064",
+    "original_title": "Gopher Broke"
+  },
+  {
+    "id": 2201,
+    "title": "Just Married",
+    "director": "Shawn Levy",
+    "year": 2003,
+    "tmdb_id": 12090,
+    "imdb_id": "tt0305711",
+    "original_title": "Just Married"
+  },
+  {
+    "id": 2202,
+    "title": "Dogville",
+    "director": "Lars von Trier",
+    "year": 2003,
+    "tmdb_id": 553,
+    "imdb_id": "tt0276919",
+    "original_title": "Dogville"
+  },
+  {
+    "id": 2203,
+    "title": "Black Hawk Down",
+    "director": "Ridley Scott",
+    "year": 2001,
+    "tmdb_id": 855,
+    "imdb_id": "tt0265086",
+    "original_title": "Black Hawk Down"
+  },
+  {
+    "id": 2204,
+    "title": "Memento",
+    "director": "Christopher Nolan",
+    "year": 2000,
+    "tmdb_id": 77,
+    "imdb_id": "tt0209144",
+    "original_title": "Memento"
+  },
+  {
+    "id": 2205,
+    "title": "American History X",
+    "director": "Tony Kaye",
+    "year": 1998,
+    "tmdb_id": 73,
+    "imdb_id": "tt0120586",
+    "original_title": "American History X"
+  },
+  {
+    "id": 2206,
+    "title": "Frivolous Lola",
+    "director": "Tinto Brass",
+    "year": 1998,
+    "tmdb_id": 50124,
+    "imdb_id": "tt0174931",
+    "original_title": "Monella"
+  },
+  {
+    "id": 2207,
+    "title": "From Dusk Till Dawn",
+    "director": "Robert Rodriguez",
+    "year": 1996,
+    "tmdb_id": 755,
+    "imdb_id": "tt0116367",
+    "original_title": "From Dusk Till Dawn"
+  },
+  {
+    "id": 2208,
+    "title": "The Master and Margarita",
+    "director": "Yuriy Kara",
+    "year": 2011,
+    "tmdb_id": 63163,
+    "imdb_id": "tt0110476",
+    "original_title": "Мастер и Маргарита"
+  },
+  {
+    "id": 2209,
+    "title": "The Voyeur",
+    "director": "Tinto Brass",
+    "year": 1994,
+    "tmdb_id": 27066,
+    "imdb_id": "tt0111573",
+    "original_title": "L'uomo che guarda"
+  },
+  {
+    "id": 2210,
+    "title": "Arizona Dream",
+    "director": "Emir Kusturica",
+    "year": 1993,
+    "tmdb_id": 11044,
+    "imdb_id": "tt0106307",
+    "original_title": "Arizona Dream"
+  },
+  {
+    "id": 2211,
+    "title": "Paprika",
+    "director": "Tinto Brass",
+    "year": 1991,
+    "tmdb_id": 50270,
+    "imdb_id": "tt0098063",
+    "original_title": "Paprika"
+  },
+  {
+    "id": 2212,
+    "title": "Maria's Lovers",
+    "director": "Andrei Konchalovsky",
+    "year": 1984,
+    "tmdb_id": 77985,
+    "imdb_id": "tt0087682",
+    "original_title": "Maria's Lovers"
+  },
+  {
+    "id": 2213,
+    "title": "Blood Simple",
+    "director": "Joel Coen",
+    "year": 1984,
+    "tmdb_id": 11368,
+    "imdb_id": "tt0086979",
+    "original_title": "Blood Simple"
+  },
+  {
+    "id": 2214,
+    "title": "Tears Were Falling",
+    "director": "Georgiy Daneliya",
+    "year": 1982,
+    "tmdb_id": 27925,
+    "imdb_id": "tt0084696",
+    "original_title": "Слёзы капали"
+  },
+  {
+    "id": 2215,
+    "title": "The House That Swift Built",
+    "director": "Mark Zakharov",
+    "year": 1985,
+    "tmdb_id": 27939,
+    "imdb_id": "tt0085452",
+    "original_title": "Дом, который построил Свифт"
+  },
+  {
+    "id": 2216,
+    "title": "There Once Was a Singing Blackbird",
+    "director": "Otar Iosseliani",
+    "year": 1970,
+    "tmdb_id": 83235,
+    "imdb_id": "tt0151035",
+    "original_title": "იყო შაშვი მგალობელი"
+  },
+  {
+    "id": 2217,
+    "title": "Trial on the Road",
+    "director": "Aleksei German",
+    "year": 1986,
+    "tmdb_id": 71762,
+    "imdb_id": "tt0067625",
+    "original_title": "Проверка на дорогах"
+  },
+  {
+    "id": 2218,
+    "title": "It's a Mad, Mad, Mad, Mad World",
+    "director": "Stanley Kramer",
+    "year": 1963,
+    "tmdb_id": 11576,
+    "imdb_id": "tt0057193",
+    "original_title": "It's a Mad, Mad, Mad, Mad World"
+  },
+  {
+    "id": 2219,
+    "title": "Through a Glass Darkly",
+    "director": "Ingmar Bergman",
+    "year": 1961,
+    "tmdb_id": 11602,
+    "imdb_id": "tt0055499",
+    "original_title": "Såsom i en spegel"
+  },
+  {
+    "id": 2220,
+    "title": "One Hundred and One Dalmatians",
+    "director": "Wolfgang Reitherman, Clyde Geronimi, Hamilton Luske",
+    "year": 1961,
+    "tmdb_id": 12230,
+    "imdb_id": "tt0055254",
+    "original_title": "One Hundred and One Dalmatians"
+  },
+  {
+    "id": 2221,
+    "title": "Hiroshima Mon Amour",
+    "director": "Alain Resnais",
+    "year": 1959,
+    "tmdb_id": 5544,
+    "imdb_id": "tt0052893",
+    "original_title": "Hiroshima mon amour"
+  },
+  {
+    "id": 2222,
+    "title": "Peter Pan",
+    "director": "Clyde Geronimi, Wilfred Jackson, Hamilton Luske",
+    "year": 1953,
+    "tmdb_id": 10693,
+    "imdb_id": "tt0046183",
+    "original_title": "Peter Pan"
+  },
+  {
+    "id": 2223,
+    "title": "Rope",
+    "director": "Alfred Hitchcock",
+    "year": 1948,
+    "tmdb_id": 1580,
+    "imdb_id": "tt0040746",
+    "original_title": "Rope"
+  },
+  {
+    "id": 2224,
+    "title": "Pinocchio",
+    "director": "Hamilton Luske, Ben Sharpsteen, Jack Kinney, Bill Roberts, T. Hee, Norman Ferguson, Wilfred Jackson",
+    "year": 1940,
+    "tmdb_id": 10895,
+    "imdb_id": "tt0032910",
+    "original_title": "Pinocchio"
+  },
+  {
+    "id": 2225,
+    "title": "Snow White and the Seven Dwarfs",
+    "director": "David Hand",
+    "year": 1937,
+    "tmdb_id": 408,
+    "imdb_id": "tt0029583",
+    "original_title": "Snow White and the Seven Dwarfs"
   }
 ];
