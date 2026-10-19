@@ -21719,5 +21719,68 @@ window.CULTURE_CATALOG = [
     "tmdb_id": 408,
     "imdb_id": "tt0029583",
     "original_title": "Snow White and the Seven Dwarfs"
+  },
+  {
+    "id": 2226,
+    "title": "Double Tap",
+    "director": "Greg Yaitanes",
+    "year": 1997,
+    "tmdb_id": 213439,
+    "imdb_id": "tt0119012",
+    "original_title": "Double Tap"
+  },
+  {
+    "id": 2227,
+    "title": "Dolls",
+    "director": "Takeshi Kitano",
+    "year": 2002,
+    "tmdb_id": 870,
+    "imdb_id": "tt0330229",
+    "original_title": "ドールズ"
+  },
+  {
+    "id": 2228,
+    "title": "To the Sea!",
+    "director": "Yaroslav Chevazhevsky",
+    "year": 2009,
+    "tmdb_id": 63540,
+    "imdb_id": "tt1366920",
+    "original_title": "На море!"
+  },
+  {
+    "id": 2229,
+    "title": "Khottabych",
+    "director": "Pyotr Tochilin",
+    "year": 2006,
+    "tmdb_id": 57775,
+    "imdb_id": "tt0466043",
+    "original_title": "Хоттабыч"
+  },
+  {
+    "id": 2230,
+    "title": "Private",
+    "director": "Tinto Brass",
+    "year": 2003,
+    "tmdb_id": 30287,
+    "imdb_id": "tt0372909",
+    "original_title": "Fallo!"
+  },
+  {
+    "id": 2231,
+    "title": "Naval Cadets III",
+    "director": "Svetlana Druzhinina",
+    "year": 1992,
+    "tmdb_id": 63538,
+    "imdb_id": "tt0135427",
+    "original_title": "Гардемарины III"
+  },
+  {
+    "id": 2232,
+    "title": "All Ladies Do It",
+    "director": "Tinto Brass",
+    "year": 1992,
+    "tmdb_id": 37265,
+    "imdb_id": "tt0104014",
+    "original_title": "Così fan tutte"
   }
 ];

@@ -1,56 +1,56 @@
 source_row,tmdb_movie_id,decision,reason
-123,80,candidate_reviewed,"Matching title and director; verify source year exceptions"
-237,492188,candidate_reviewed,"Matching title and director; verify source year exceptions"
-291,458423,candidate_reviewed,"Matching title and director; verify source year exceptions"
-294,402900,candidate_reviewed,"Matching title and director; verify source year exceptions"
-324,324852,candidate_reviewed,"Matching title and director; verify source year exceptions"
-326,181808,candidate_reviewed,"Matching title and director; verify source year exceptions"
-331,444539,candidate_reviewed,"Matching title and director; verify source year exceptions"
-382,140607,candidate_reviewed,"Matching title and director; verify source year exceptions"
-405,131634,candidate_reviewed,"Matching title and director; verify source year exceptions"
-455,91314,candidate_reviewed,"Matching title and director; verify source year exceptions"
-456,228970,corrected_nonfirst_candidate,"Original top-ranked TMDB candidate mismatched historical director or year"
-474,131631,candidate_reviewed,"Matching title and director; verify source year exceptions"
-476,266856,candidate_reviewed,"Matching title and director; verify source year exceptions"
-584,71552,candidate_reviewed,"Matching title and director; verify source year exceptions"
-603,20312,candidate_reviewed,"Matching title and director; verify source year exceptions"
-651,58219,candidate_reviewed,"Matching title and director; verify source year exceptions"
-708,27582,candidate_reviewed,"Matching title and director; verify source year exceptions"
-715,8373,candidate_reviewed,"Matching title and director; verify source year exceptions"
-785,,defer_manual_identity,"Takeshi Kitano Dolls not in search results"
-809,,defer_manual_identity,"Russian film Na more 2008 not in search results"
-926,,defer_manual_identity,"Russian Hottabych 2006 not in search results"
-940,652,candidate_reviewed,"Matching title and director; verify source year exceptions"
-944,10982,candidate_reviewed,"Matching title and director; verify source year exceptions"
-990,27063,corrected_nonfirst_candidate,"Original top-ranked TMDB candidate mismatched historical director or year"
-1034,25223,candidate_reviewed,"Matching title and director; verify source year exceptions"
-1080,12090,candidate_reviewed,"Matching title and director; verify source year exceptions"
-1091,553,candidate_reviewed,"Matching title and director; verify source year exceptions"
-1096,,defer_manual_identity,"Tinto Brass Fallo 2003 not confirmed"
-1193,855,candidate_reviewed,"Matching title and director; verify source year exceptions"
-1238,77,candidate_reviewed,"Matching title and director; verify source year exceptions"
-1325,73,candidate_reviewed,"Matching title and director; verify source year exceptions"
-1343,50124,candidate_reviewed,"Matching title and director; verify source year exceptions"
-1377,56125,corrected_nonfirst_candidate,"Original top-ranked TMDB candidate mismatched historical director or year"
-1417,755,candidate_reviewed,"Matching title and director; verify source year exceptions"
-1438,63163,corrected_nonfirst_candidate,"Original top-ranked TMDB candidate mismatched historical director or year"
-1464,27066,candidate_reviewed,"Matching title and director; verify source year exceptions"
-1472,,defer_manual_identity,"Vivat Midshipmen 1992 not found"
-1492,11044,candidate_reviewed,"Matching title and director; verify source year exceptions"
-1502,,defer_manual_identity,"Tinto Brass Cosi fan tutte 1991 not confirmed"
-1526,50270,corrected_nonfirst_candidate,"Original top-ranked TMDB candidate mismatched historical director or year"
-1570,,defer_manual_identity,"Midshipmen Forward 1987 not found"
-1629,77985,candidate_reviewed,"Matching title and director; verify source year exceptions"
-1653,11368,candidate_reviewed,"Matching title and director; verify source year exceptions"
-1667,27925,candidate_reviewed,"Matching title and director; verify source year exceptions"
-1669,27939,candidate_reviewed,"Matching title and director; verify source year exceptions"
-1850,83235,candidate_reviewed,"Matching title and director; verify source year exceptions"
-1864,71762,candidate_reviewed,"Matching title and director; verify source year exceptions"
-1995,11576,candidate_reviewed,"Matching title and director; verify source year exceptions"
-2021,11602,candidate_reviewed,"Matching title and director; verify source year exceptions"
-2023,12230,candidate_reviewed,"Matching title and director; verify source year exceptions"
-2039,5544,candidate_reviewed,"Matching title and director; verify source year exceptions"
-2083,10693,candidate_reviewed,"Matching title and director; verify source year exceptions"
-2103,1580,candidate_reviewed,"Matching title and director; verify source year exceptions"
-2118,10895,candidate_reviewed,"Matching title and director; verify source year exceptions"
-2124,408,candidate_reviewed,"Matching title and director; verify source year exceptions"
+123,80,candidate_reviewed,Matching title and director; verify source year exceptions
+237,492188,candidate_reviewed,Matching title and director; verify source year exceptions
+291,458423,candidate_reviewed,Matching title and director; verify source year exceptions
+294,402900,candidate_reviewed,Matching title and director; verify source year exceptions
+324,324852,candidate_reviewed,Matching title and director; verify source year exceptions
+326,181808,candidate_reviewed,Matching title and director; verify source year exceptions
+331,444539,candidate_reviewed,Matching title and director; verify source year exceptions
+382,140607,candidate_reviewed,Matching title and director; verify source year exceptions
+405,131634,candidate_reviewed,Matching title and director; verify source year exceptions
+455,91314,candidate_reviewed,Matching title and director; verify source year exceptions
+456,228970,corrected_nonfirst_candidate,Original top-ranked TMDB candidate mismatched historical director or year
+474,131631,candidate_reviewed,Matching title and director; verify source year exceptions
+476,266856,candidate_reviewed,Matching title and director; verify source year exceptions
+584,71552,candidate_reviewed,Matching title and director; verify source year exceptions
+603,20312,candidate_reviewed,Matching title and director; verify source year exceptions
+651,58219,candidate_reviewed,Matching title and director; verify source year exceptions
+708,27582,candidate_reviewed,Matching title and director; verify source year exceptions
+715,8373,candidate_reviewed,Matching title and director; verify source year exceptions
+785,870,verified_identity,"Correct Kitano film, not Stuart Gordon Dolls (1987). Source year 2008 is not release year; festival and linked identities identify 2002."
+809,63540,verified_identity,"Original Russian title and director identify Na more!/To the Sea! (2009), not Alamar. Source 2008 is production-year attribution; January 2009 theatrical release retained."
+926,57775,verified_identity,"Tochilin film of 2006; stylized source title }{отт@бь)ч is an alias. Not Old Khottabych (1956), Hottabych and His Team (2016), or later adaptation."
+940,652,candidate_reviewed,Matching title and director; verify source year exceptions
+944,10982,candidate_reviewed,Matching title and director; verify source year exceptions
+990,27063,corrected_nonfirst_candidate,Original top-ranked TMDB candidate mismatched historical director or year
+1034,25223,candidate_reviewed,Matching title and director; verify source year exceptions
+1080,12090,candidate_reviewed,Matching title and director; verify source year exceptions
+1091,553,candidate_reviewed,Matching title and director; verify source year exceptions
+1096,30287,verified_identity,"Stored October 15 rank-2 detail result explicitly gives original_title Fallo!, Tinto Brass, 2003 and IMDb tt0372909; current alias listing independently confirms Private/Fallo! is the same work."
+1193,855,candidate_reviewed,Matching title and director; verify source year exceptions
+1238,77,candidate_reviewed,Matching title and director; verify source year exceptions
+1325,73,candidate_reviewed,Matching title and director; verify source year exceptions
+1343,50124,candidate_reviewed,Matching title and director; verify source year exceptions
+1377,213439,owner_confirmed_corrected_identity,"Owner confirmed Double Tap (1997) on 2026-10-19. Replaces incorrect Point Blank / Matt Earl Beesley / TMDB 56125; title, director, year and IMDb/TMDB crosswalk agree."
+1417,755,candidate_reviewed,Matching title and director; verify source year exceptions
+1438,63163,corrected_nonfirst_candidate,Original top-ranked TMDB candidate mismatched historical director or year
+1464,27066,candidate_reviewed,Matching title and director; verify source year exceptions
+1472,63538,verified_identity,"Original source is Gardemariny 3 (1992), not Vivat, Midshipmen! (1991). Confirmed feature/movie identity movie/63538; broadcasts may be split into two parts, but this record represents the whole third film."
+1492,11044,candidate_reviewed,Matching title and director; verify source year exceptions
+1502,37265,verified_identity,"Tinto Brass live-action film, release 1992 versus source 1991. Replaces incorrect Stephen Medcalf opera film TMDB 267111; official TMDB search/watch link and IMDb/Letterboxd identify movie/37265."
+1526,50270,corrected_nonfirst_candidate,Original top-ranked TMDB candidate mismatched historical director or year
+1570,,defer_tv_miniseries,"Druzhinina four-part miniseries, IMDb tt0125111; route to future TV catalogue, not TMDB movie search."
+1629,77985,candidate_reviewed,Matching title and director; verify source year exceptions
+1653,11368,candidate_reviewed,Matching title and director; verify source year exceptions
+1667,27925,candidate_reviewed,Matching title and director; verify source year exceptions
+1669,27939,candidate_reviewed,Matching title and director; verify source year exceptions
+1850,83235,candidate_reviewed,Matching title and director; verify source year exceptions
+1864,71762,candidate_reviewed,Matching title and director; verify source year exceptions
+1995,11576,candidate_reviewed,Matching title and director; verify source year exceptions
+2021,11602,candidate_reviewed,Matching title and director; verify source year exceptions
+2023,12230,candidate_reviewed,Matching title and director; verify source year exceptions
+2039,5544,candidate_reviewed,Matching title and director; verify source year exceptions
+2083,10693,candidate_reviewed,Matching title and director; verify source year exceptions
+2103,1580,candidate_reviewed,Matching title and director; verify source year exceptions
+2118,10895,candidate_reviewed,Matching title and director; verify source year exceptions
+2124,408,candidate_reviewed,Matching title and director; verify source year exceptions

@@ -1,0 +1,131 @@
+{
+  "review_date": "2026-10-19",
+  "method": "Owner confirmation for row 1377; original source title/director comparison; linked TMDB/IMDb crosswalks and film/festival records. TMDB web/API detail refresh unavailable; web crosswalks are not represented as live TMDB API results.",
+  "original_snapshot": "imports/historical-48-tmdb-evidence.csv remains unchanged, including the rejected historical Point Blank result.",
+  "corrections": [
+    {
+      "source_row": "1377",
+      "title": "Double Tap",
+      "original_title": "Double Tap",
+      "director": "Greg Yaitanes",
+      "year": 1997,
+      "tmdb_id": 213439,
+      "imdb_id": "tt0119012",
+      "reason": "Owner confirmed Double Tap (1997) on 2026-10-19. Replaces incorrect Point Blank / Matt Earl Beesley / TMDB 56125; title, director, year and IMDb/TMDB crosswalk agree.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1148174",
+        "https://cinegraph.org/movies/double-tap-1997",
+        "https://letterboxd.com/film/double-tap-1997/"
+      ],
+      "proposed_catalogue_id": 2226
+    },
+    {
+      "source_row": "785",
+      "title": "Dolls",
+      "original_title": "ドールズ",
+      "director": "Takeshi Kitano",
+      "year": 2002,
+      "tmdb_id": 870,
+      "imdb_id": "tt0330229",
+      "reason": "Correct Kitano film, not Stuart Gordon Dolls (1987). Source year 2008 is not release year; festival and linked identities identify 2002.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q260208",
+        "https://letterboxd.com/film/dolls-2002/",
+        "https://www.viennale.at/en/films/dolls"
+      ],
+      "proposed_catalogue_id": 2227
+    },
+    {
+      "source_row": "809",
+      "title": "To the Sea!",
+      "original_title": "На море!",
+      "director": "Yaroslav Chevazhevsky",
+      "year": 2009,
+      "tmdb_id": 63540,
+      "imdb_id": "tt1366920",
+      "reason": "Original Russian title and director identify Na more!/To the Sea! (2009), not Alamar. Source 2008 is production-year attribution; January 2009 theatrical release retained.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q4310981",
+        "https://letterboxd.com/film/to-the-sea/",
+        "https://www.imdb.com/title/tt1366920",
+        "https://www.domkino.tv/announce/11741"
+      ],
+      "proposed_catalogue_id": 2228
+    },
+    {
+      "source_row": "926",
+      "title": "Khottabych",
+      "original_title": "Хоттабыч",
+      "director": "Pyotr Tochilin",
+      "year": 2006,
+      "tmdb_id": 57775,
+      "imdb_id": "tt0466043",
+      "reason": "Tochilin film of 2006; stylized source title }{отт@бь)ч is an alias. Not Old Khottabych (1956), Hottabych and His Team (2016), or later adaptation.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1968484",
+        "https://letterboxd.com/film/khottabych/",
+        "https://www.imdb.com/title/tt0466043/"
+      ],
+      "proposed_catalogue_id": 2229
+    },
+    {
+      "source_row": "1096",
+      "title": "Private",
+      "original_title": "Fallo!",
+      "director": "Tinto Brass",
+      "year": 2003,
+      "tmdb_id": 30287,
+      "imdb_id": "tt0372909",
+      "reason": "Stored October 15 rank-2 detail result explicitly gives original_title Fallo!, Tinto Brass, 2003 and IMDb tt0372909; current alias listing independently confirms Private/Fallo! is the same work.",
+      "sources": [
+        "https://letterboxd.com/film/private-2003/",
+        "https://www.wikidata.org/wiki/Q3738711"
+      ],
+      "proposed_catalogue_id": 2230
+    },
+    {
+      "source_row": "1472",
+      "title": "Naval Cadets III",
+      "original_title": "Гардемарины III",
+      "director": "Svetlana Druzhinina",
+      "year": 1992,
+      "tmdb_id": 63538,
+      "imdb_id": "tt0135427",
+      "reason": "Original source is Gardemariny 3 (1992), not Vivat, Midshipmen! (1991). Confirmed feature/movie identity movie/63538; broadcasts may be split into two parts, but this record represents the whole third film.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q4133646",
+        "https://letterboxd.com/film/naval-cadets-iii/",
+        "https://www.imdb.com/title/tt0135427/"
+      ],
+      "proposed_catalogue_id": 2231
+    },
+    {
+      "source_row": "1502",
+      "title": "All Ladies Do It",
+      "original_title": "Così fan tutte",
+      "director": "Tinto Brass",
+      "year": 1992,
+      "tmdb_id": 37265,
+      "imdb_id": "tt0104014",
+      "reason": "Tinto Brass live-action film, release 1992 versus source 1991. Replaces incorrect Stephen Medcalf opera film TMDB 267111; official TMDB search/watch link and IMDb/Letterboxd identify movie/37265.",
+      "sources": [
+        "https://www.themoviedb.org/movie/37265-cosi-fan-tutte/watch",
+        "https://www.imdb.com/title/tt0104014/",
+        "https://letterboxd.com/film/all-ladies-do-it/"
+      ],
+      "proposed_catalogue_id": 2232
+    }
+  ],
+  "remaining_hold": {
+    "source_row": "1570",
+    "title": "Midshipmen, Onwards!",
+    "director": "Svetlana Druzhinina",
+    "work_type": "tv",
+    "series_kind": "miniseries",
+    "imdb_id": "tt0125111",
+    "source_year": 1987,
+    "broadcast_year": 1988,
+    "source_url": "https://www.imdb.com/title/tt0125111/",
+    "action": "Do not add a movie identity; preserve for TV catalogue. Ask whether the historical rating covers the full four-part miniseries."
+  }
+}
