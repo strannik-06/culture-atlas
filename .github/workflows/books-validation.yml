@@ -1,0 +1,19 @@
+name: Books validation
+on:
+  pull_request:
+    paths: ['books.js', 'books.css', 'index.html', 'supabase/migrations/20261019_books_search_ratings.sql', 'scripts/test-books.mjs', 'package*.json', '.github/workflows/books-validation.yml']
+  push:
+    branches: [main]
+    paths: ['books.js', 'books.css', 'index.html', 'supabase/migrations/20261019_books_search_ratings.sql', 'scripts/test-books.mjs', 'package*.json', '.github/workflows/books-validation.yml']
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: node --check books.js
+      - run: npm test
