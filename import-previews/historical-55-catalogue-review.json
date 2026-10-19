@@ -1,0 +1,40 @@
+{
+  "base_commit": "b657cfaf13a110b8508985e7e3b8f69af6ff2446",
+  "source_pr": 85,
+  "reviewed_candidates": 55,
+  "originally_deferred": 7,
+  "verified_additions": 54,
+  "existing_duplicates": 0,
+  "total_unresolved": 0,
+  "catalogue_before": 2177,
+  "catalogue_after": 2231,
+  "proposed_id_range": [
+    2179,
+    2232
+  ],
+  "source_evidence": "historical-55-tmdb-candidates.csv from saved 2026-10-15 workflow artifact",
+  "source_evidence_sha256": "0c867f1eec63eda728d3ddac4e7d1dcd3997c81f0a43fb88338d926517040ba7",
+  "selected_evidence_sha256": "46625da4cd2c98ef533c86ffe0e56e3d6d303a9a93ece651951de096461c702b",
+  "verification": "Owner confirmation for row 1377; original source title/director comparison; linked TMDB/IMDb crosswalks and film/festival records. TMDB web/API detail refresh unavailable; web crosswalks are not represented as live TMDB API results.",
+  "scope": "Catalogue only. No Supabase access or ratings import. Existing catalogue records unchanged.",
+  "pending_existing_identity": {
+    "catalogue_id": 2178,
+    "tmdb_movie_id": 41225,
+    "title": "Spirits of the Dead",
+    "action": "Already present; separate owner-approved rating import remains pending."
+  },
+  "original_deferrals_resolved": 6,
+  "owner_confirmed_corrections": [
+    "1377"
+  ],
+  "rejected_point_blank_mapping_resolved": true,
+  "followup_evidence": "imports/historical-55-followup-evidence.json",
+  "originally_reviewed_candidates": 48,
+  "pending_tv_catalogue": 1,
+  "owner_decisions_pending": 0,
+  "confirmed_miniseries_rating_scope": {
+    "source_row": "1570",
+    "scope": "entire_miniseries",
+    "confirmed_date": "2026-10-19"
+  }
+}

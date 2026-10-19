@@ -1,0 +1,49 @@
+source_row,search_title,source_year,rank,tmdb_id,tmdb_title,original_title,release_year,director,imdb_id,status
+123,Before Sunset,2024,1,80,Before Sunset,Before Sunset,2004,Richard Linklater,tt0381681,candidate_requires_director_year_review
+237,Marriage Story,2019,1,492188,Marriage Story,Marriage Story,2019,Noah Baumbach,tt7653254,candidate_requires_director_year_review
+291,Mamma Mia! Here We Go Again,2018,1,458423,Mamma Mia! Here We Go Again,Mamma Mia! Here We Go Again,2018,Ol Parker,tt6911608,candidate_requires_director_year_review
+294,Ocean's Eight,2018,1,402900,Ocean's Eight,Ocean's Eight,2018,Gary Ross,tt5164214,candidate_requires_director_year_review
+324,Despicable Me 3,2017,1,324852,Despicable Me 3,Despicable Me 3,2017,Kyle Balda; Pierre Coffin,tt3469046,candidate_requires_director_year_review
+326,Star Wars: The Last Jedi,2017,1,181808,Star Wars: The Last Jedi,Star Wars: The Last Jedi,2017,Rian Johnson,tt2527336,candidate_requires_director_year_review
+331,The Bookshop,2017,1,444539,The Bookshop,The Bookshop,2017,Isabel Coixet,tt3127022,candidate_requires_director_year_review
+382,Star Wars: The Force Awakens,2015,1,140607,Star Wars: The Force Awakens,Star Wars: The Force Awakens,2015,J.J. Abrams,tt2488496,candidate_requires_director_year_review
+405,The Hunger Games: Mockingjay - Part 2,2015,1,131634,The Hunger Games: Mockingjay - Part 2,The Hunger Games: Mockingjay - Part 2,2015,Francis Lawrence,tt1951266,candidate_requires_director_year_review
+455,Transformers: Age of Extinction,2014,1,91314,Transformers: Age of Extinction,Transformers: Age of Extinction,2014,Michael Bay,tt2109248,candidate_requires_director_year_review
+456,Wild,2014,4,228970,Wild,Wild,2014,Jean-Marc Vallée,tt2305051,candidate_requires_director_year_review
+474,The Hunger Games: Mockingjay - Part 1,2014,1,131631,The Hunger Games: Mockingjay - Part 1,The Hunger Games: Mockingjay - Part 1,2014,Francis Lawrence,tt1951265,candidate_requires_director_year_review
+476,The Theory of Everything,2014,1,266856,The Theory of Everything,The Theory of Everything,2014,James Marsh,tt2980516,candidate_requires_director_year_review
+584,American Reunion,2012,1,71552,American Reunion,American Reunion,2012,Jon Hurwitz; Hayden Schlossberg,tt1605630,candidate_requires_director_year_review
+603,Interstate 60,2011,1,20312,Interstate 60,Interstate 60,2002,Bob Gale,tt0165832,candidate_requires_director_year_review
+651,The Ages of Love,2011,1,58219,The Ages of Love,Manuale d'amore 3,2011,Giovanni Veronesi,tt1712187,candidate_requires_director_year_review
+708,The Mechanic,2010,1,27582,The Mechanic,The Mechanic,2011,Simon West,tt0472399,candidate_requires_director_year_review
+715,Transformers: Revenge of the Fallen,2009,1,8373,Transformers: Revenge of the Fallen,Transformers: Revenge of the Fallen,2009,Michael Bay,tt1055369,candidate_requires_director_year_review
+940,Troy,2006,1,652,Troy,Troy,2004,Wolfgang Petersen,tt0332452,candidate_requires_director_year_review
+944,Hoodwinked!,2005,1,10982,Hoodwinked!,Hoodwinked!,2005,Cory Edwards,tt0443536,candidate_requires_director_year_review
+990,Monamour,2005,3,27063,Monamour,Monamour,2005,Tinto Brass,tt0480919,candidate_requires_director_year_review
+1034,Gopher Broke,2004,1,25223,Gopher Broke,Gopher Broke,2004,Jeff Fowler,tt0438064,candidate_requires_director_year_review
+1080,Just Married,2003,1,12090,Just Married,Just Married,2003,Shawn Levy,tt0305711,candidate_requires_director_year_review
+1091,Dogville,2003,1,553,Dogville,Dogville,2003,Lars von Trier,tt0276919,candidate_requires_director_year_review
+1193,Black Hawk Down,2001,1,855,Black Hawk Down,Black Hawk Down,2001,Ridley Scott,tt0265086,candidate_requires_director_year_review
+1238,Memento,2000,1,77,Memento,Memento,2000,Christopher Nolan,tt0209144,candidate_requires_director_year_review
+1325,American History X,1998,1,73,American History X,American History X,1998,Tony Kaye,tt0120586,candidate_requires_director_year_review
+1343,Monella,1998,1,50124,Frivolous Lola,Monella,1998,Tinto Brass,tt0174931,candidate_requires_director_year_review
+1377,Point Blank,1997,4,56125,Point Blank,Point Blank,1998,Matt Earl Beesley,tt0175047,candidate_requires_director_year_review
+1417,From Dusk Till Dawn,1995,1,755,From Dusk Till Dawn,From Dusk Till Dawn,1996,Robert Rodriguez,tt0116367,candidate_requires_director_year_review
+1438,The Master and Margarita,1994,5,63163,The Master and Margarita,Мастер и Маргарита,2011,Yuriy Kara,tt0110476,candidate_requires_director_year_review
+1464,The Voyeur,1993,1,27066,The Voyeur,L'uomo che guarda,1994,Tinto Brass,tt0111573,candidate_requires_director_year_review
+1492,Arizona Dream,1991,1,11044,Arizona Dream,Arizona Dream,1993,Emir Kusturica,tt0106307,candidate_requires_director_year_review
+1526,Paprika,1990,2,50270,Paprika,Paprika,1991,Tinto Brass,tt0098063,candidate_requires_director_year_review
+1629,Maria's Lovers,1984,1,77985,Maria's Lovers,Maria's Lovers,1984,Andrei Konchalovsky,tt0087682,candidate_requires_director_year_review
+1653,Blood Simple,1983,1,11368,Blood Simple,Blood Simple,1985,Joel Coen,tt0086979,candidate_requires_director_year_review
+1667,Tears Were Falling,1982,1,27925,Tears Were Falling,Слёзы капали,1983,Georgiy Daneliya,tt0084696,candidate_requires_director_year_review
+1669,The House That Swift Built,1982,1,27939,The House That Swift Built,"Дом, который построил Свифт",1985,Mark Zakharov,tt0085452,candidate_requires_director_year_review
+1850,Once Upon a Time There Was a Singing Blackbird,1972,1,83235,There Once Was a Singing Blackbird,იყო შაშვი მგალობელი,1970,Otar Iosseliani,tt0151035,candidate_requires_director_year_review
+1864,Trial on the Road,1971,1,71762,Trial on the Road,Проверка на дорогах,1986,Aleksei German,tt0067625,candidate_requires_director_year_review
+1995,"It's a Mad, Mad, Mad, Mad World",1963,1,11576,"It's a Mad, Mad, Mad, Mad World","It's a Mad, Mad, Mad, Mad World",1963,Stanley Kramer,tt0057193,candidate_requires_director_year_review
+2021,Through a Glass Darkly,1961,1,11602,Through a Glass Darkly,Såsom i en spegel,1961,Ingmar Bergman,tt0055499,candidate_requires_director_year_review
+2023,One Hundred and One Dalmatians,1961,1,12230,One Hundred and One Dalmatians,One Hundred and One Dalmatians,1961,Wolfgang Reitherman; Clyde Geronimi; Hamilton Luske,tt0055254,candidate_requires_director_year_review
+2039,Hiroshima Mon Amour,1959,1,5544,Hiroshima Mon Amour,Hiroshima mon amour,1959,Alain Resnais,tt0052893,candidate_requires_director_year_review
+2083,Peter Pan,1953,1,10693,Peter Pan,Peter Pan,1953,Clyde Geronimi; Wilfred Jackson; Hamilton Luske,tt0046183,candidate_requires_director_year_review
+2103,Rope,1948,1,1580,Rope,Rope,1948,Alfred Hitchcock,tt0040746,candidate_requires_director_year_review
+2118,Pinocchio,1940,1,10895,Pinocchio,Pinocchio,1940,Hamilton Luske; Ben Sharpsteen; Jack Kinney; Bill Roberts; T. Hee; Norman Ferguson; Wilfred Jackson,tt0032910,candidate_requires_director_year_review
+2124,Snow White and the Seven Dwarfs,1937,1,408,Snow White and the Seven Dwarfs,Snow White and the Seven Dwarfs,1938,David Hand,tt0029583,candidate_requires_director_year_review
