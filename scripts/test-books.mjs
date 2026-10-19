@@ -175,3 +175,30 @@ test('Books UI: signed-out save, API failures and account changes during save ne
     assert.doesNotMatch($('book-sync-status').textContent,/Saved/);
   } finally { await window.happyDOM.close(); }
 });
+
+test('Search regression: Tehran title retries without The, keeps selection explicit and caches the result',async()=>{
+  const {window,state,$,flush,submit}=await setup();
+  try {
+    const queries=[];
+    window.fetch=async url=>{
+      const q=new URL(url).searchParams.get('q');queries.push(q);
+      return {ok:true,json:async()=>({docs:q.startsWith('The ')?[]:[{key:'/works/OL42426263W',title:'Nights Are Quiet in Tehran',author_name:['Shida Bazyar','Ruth Martin'],first_publish_year:2025}]})};
+    };
+    $('book-query').value='The nights are quiet in Tehran';submit('book-search-form');
+    await new Promise(resolve=>setTimeout(resolve,1100));await flush();
+    assert.deepEqual(queries,['The nights are quiet in Tehran','nights are quiet in Tehran']);
+    assert.match($('book-search-status').textContent,/Found using a shorter search/);
+    assert.equal($('book-search-results').querySelectorAll('article').length,1);
+    assert.match($('book-search-results').textContent,/Shida Bazyar/);
+    assert.equal($('book-query').value,'The nights are quiet in Tehran');
+    assert.equal(state.calls.length,0);assert.equal($('book-editor').hidden,true);
+    $('book-search-results').querySelector('button').click();
+    assert.equal($('book-selected-title').textContent,'Nights Are Quiet in Tehran');
+    assert.equal($('book-editor').hidden,false);
+    submit('book-search-form');await flush();
+    assert.equal(queries.length,2);
+    // A successful original query must not trigger broader searches.
+    $('book-query').value='Shida Bazyar';submit('book-search-form');await flush();
+    assert.deepEqual(queries,['The nights are quiet in Tehran','nights are quiet in Tehran','Shida Bazyar']);
+  } finally {await window.happyDOM.close();}
+});

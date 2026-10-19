@@ -5,8 +5,20 @@
   const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const formats = {kindle:'Kindle', audio:'Audio', unknown:'Not specified'};
   const workPattern = /^\/works\/OL\d+W$/;
+  // Open Library's all-word search can miss a work if an article is absent
+  // from its stored title. Relax only empty searches, never replace a match.
+  function searchVariants(query) {
+    const variants=[query];
+    const withoutArticle=query.replace(/^(?:the|an?)\s+/iu,'').trim();
+    if(withoutArticle && withoutArticle!==query) variants.push(withoutArticle);
+    const commonWords=new Set(['the','a','an','and','of','in','on','for','to','is','are','и','в','на','о']);
+    const words=query.split(/\s+/).filter(word=>!commonWords.has(word.toLocaleLowerCase()));
+    const shorter=words.join(' ');
+    if(words.length>=2 && !variants.includes(shorter)) variants.push(shorter);
+    return variants;
+  }
   function normaliseBook(doc) {
-    if (!workPattern.test(doc.key) || typeof doc.title !== 'string' || !doc.title.trim()) return null;
+    if (!doc || !workPattern.test(doc.key) || typeof doc.title !== 'string' || !doc.title.trim()) return null;
     const authors = (Array.isArray(doc.author_name) ? doc.author_name : []).filter(a => typeof a === 'string' && a.trim()).slice(0,20);
     if (!authors.length) return null;
     return {open_library_work_id:doc.key, title:doc.title, authors,
@@ -82,20 +94,34 @@
     $('book-search-submit').disabled=true; $('book-search-results').setAttribute('aria-busy','true');
     message('book-search-status','Searching Open Library…'); results=[]; render();
     try {
-      let docs=cache.get(query.toLocaleLowerCase());
-      if(!docs) {
-        const params=new URLSearchParams({q:query,limit:'20',fields:'key,title,author_name,first_publish_year,cover_i'});
-        const response=await fetch(`https://openlibrary.org/search.json?${params}`,{signal:controller.signal});
-        if(!response.ok) throw Error(response.status===429?'Open Library is busy. Please wait a moment and search again.':'Book search is unavailable. Please try again shortly.');
-        const payload=await response.json();
-        if(!Array.isArray(payload.docs)) throw Error('Book search returned an unexpected response. Please try again.');
-        docs=payload.docs;
+      let cached=cache.get(query.toLocaleLowerCase());
+      if(!cached) {
+        let docs=[],matchedQuery=query;
+        const variants=searchVariants(query);
+        for(const [index,variant] of variants.entries()) {
+          if(controller.signal.aborted) throw new DOMException('Search cancelled','AbortError');
+          if(sequence!==searchSequence) return;
+          const started=Date.now();
+          const params=new URLSearchParams({q:variant,limit:'20',fields:'key,title,author_name,first_publish_year,cover_i'});
+          const response=await fetch(`https://openlibrary.org/search.json?${params}`,{signal:controller.signal});
+          if(!response.ok) throw Error(response.status===429?'Open Library is busy. Please wait a moment and search again.':'Book search is unavailable. Please try again shortly.');
+          const payload=await response.json();
+          if(!Array.isArray(payload.docs)) throw Error('Book search returned an unexpected response. Please try again.');
+          docs=payload.docs; matchedQuery=variant;
+          if(docs.some(doc=>normaliseBook(doc))) break;
+          // Keep fallback calls within Open Library's anonymous request limit.
+          if(index<variants.length-1) await new Promise(resolve=>setTimeout(resolve,Math.max(0,1000-(Date.now()-started))));
+        }
+        cached={docs,matchedQuery};
+        if(controller.signal.aborted) throw new DOMException('Search cancelled','AbortError');
+        if(sequence!==searchSequence) return;
         if(cache.size>=20) cache.delete(cache.keys().next().value);
-        cache.set(query.toLocaleLowerCase(),docs);
+        cache.set(query.toLocaleLowerCase(),cached);
       }
       if(sequence!==searchSequence) return;
-      results=[...new Map(docs.map(normaliseBook).filter(Boolean).map(b=>[b.open_library_work_id,b])).values()];
-      message('book-search-status',results.length?`${results.length} results. Check the author and year before selecting a book.`:'No matches found. Try a shorter title, add the author, or use a transliterated title.');
+      results=[...new Map(cached.docs.map(normaliseBook).filter(Boolean).map(b=>[b.open_library_work_id,b])).values()];
+      const relaxed=cached.matchedQuery!==query?'Found using a shorter search. ':'';
+      message('book-search-status',results.length?`${relaxed}${results.length} results. Check the author and year before selecting a book.`:'No matches found. Try adding the author, or use a transliterated title.');
       render();
     } catch(error) {
       if(sequence===searchSequence) message('book-search-status',error.name==='AbortError'?'Search timed out. Please try again.':error.message);

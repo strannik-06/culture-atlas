@@ -19,6 +19,12 @@ produces a clear setup message; failed saves keep the form and never claim succe
 
 - Open Library Search API, on explicit submit, up to 20 work results. No API key.
   Session-memory query cache, abortable requests and throttling/error messages.
+  If a search has no usable results, retry without a leading English article,
+  then without common connecting words (at most three queries in total, paced
+  to one per second). Stop at the first usable results and let the reader check
+  the match. Errors and throttling are not treated as empty results.
+  This handles `The nights are quiet in Tehran`, whose API work title omits
+  the initial `The` (`/works/OL42426263W`), without a book-specific exception.
 - Each work has our own `books.id` and a unique Open Library work ID. Exact work
   IDs are reused; duplicate works in Open Library still require later review.
 - `book_progress` stores each account's half-point 0.5–10 score, reading format,
