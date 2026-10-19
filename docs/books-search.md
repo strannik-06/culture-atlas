@@ -9,6 +9,9 @@
 3. Open Books → Add book, search a title with its author, select the correct
    result, choose a rating and Kindle/Audio (or Not specified), add optional
    notes, and save. Sign in through the existing Account menu first.
+   The star picker matches Films: click a star's left/right half for half/whole
+   points, or use arrow keys in 0.5 steps and Enter to choose. Clear rating
+   clears the draft; Save book & rating still requires a chosen score.
 4. The book appears in Catalogue and My ratings. Open Edit rating to change
    the score, format or notes. Refresh or use another signed-in device to verify sync.
 

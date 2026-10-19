@@ -31,6 +31,72 @@
   let client, user=null, generation=0, books=[], progress=new Map(), results=[], selected=null;
   let searchController, searchSequence=0, saving=false, loading=false, activeTab='ratings', visible=48;
   const cache = new Map();
+  let starPicker, starPreview=null;
+  function paintBookStars(value) {
+    starPicker?.querySelectorAll('.star-choice').forEach((button,index)=>{
+      button.querySelector('.star-fill').style.width=`${Math.max(0,Math.min(1,value-index))*100}%`;
+    });
+    if(starPicker) starPicker.querySelector('.rating-preview').textContent=value?`${value.toFixed(1)} / 10`:'Not rated';
+  }
+  function updateRatingTrigger() {
+    const value=Number($('book-rating').value)||0;
+    $('book-rating-trigger').innerHTML=value?`★ <span class="value">${value.toFixed(1)}/10</span>`:'☆ <span class="value">Rate</span>';
+    $('book-rating-trigger').setAttribute('aria-label',value?`Change personal book rating, currently ${value}/10`:'Set personal book rating');
+    paintBookStars(value);
+  }
+  function closeBookStars(restoreFocus=false) {
+    if(starPicker) starPicker.hidden=true;
+    starPreview=null; $('book-rating-trigger').setAttribute('aria-expanded','false');
+    if(restoreFocus) $('book-rating-trigger').focus({preventScroll:true});
+  }
+  function initBookStars() {
+    starPicker=document.createElement('div');
+    starPicker.id='book-star-picker';starPicker.className='star-picker';starPicker.hidden=true;
+    starPicker.setAttribute('role','dialog');starPicker.setAttribute('aria-label','Choose a personal book rating');
+    starPicker.innerHTML='<div class="star-choices" role="group" aria-label="Choose a rating out of ten">'+Array.from({length:10},(_,i)=>`<button type="button" class="star-choice" data-index="${i}" aria-label="${i+1} stars"><span class="star-empty">★</span><span class="star-fill">★</span></button>`).join('')+'</div><span class="rating-preview" aria-live="polite"></span><button type="button" class="clear-rating">Clear rating</button>';
+    document.body.append(starPicker);
+    const trigger=$('book-rating-trigger');
+    trigger.addEventListener('click',()=>{
+      if(!starPicker.hidden) {closeBookStars();return;}
+      starPreview=null;starPicker.hidden=false;trigger.setAttribute('aria-expanded','true');
+      paintBookStars(Number($('book-rating').value)||0);
+      const rect=trigger.getBoundingClientRect(),width=Math.min(300,window.innerWidth-20),height=starPicker.offsetHeight;
+      starPicker.style.left=Math.max(10,Math.min(window.innerWidth-width-10,rect.left))+'px';
+      starPicker.style.top=(rect.top>=height+12?rect.top-height-8:Math.min(window.innerHeight-height-10,rect.bottom+8))+'px';
+      starPicker.querySelectorAll('.star-choice')[Math.max(0,Math.ceil(Number($('book-rating').value)||1)-1)].focus({preventScroll:true});
+    });
+    const pointerValue=(event,button)=>{
+      const rect=button.getBoundingClientRect();
+      return Number(button.dataset.index)+(event.clientX-rect.left<rect.width/2?.5:1);
+    };
+    const commit=value=>{
+      if(saving) return;
+      $('book-rating').value=value===null?'':String(value);
+      updateRatingTrigger();closeBookStars(true);
+    };
+    starPicker.addEventListener('pointermove',event=>{
+      const button=event.target.closest('.star-choice');if(!button)return;
+      starPreview=pointerValue(event,button);paintBookStars(starPreview);
+    });
+    starPicker.querySelector('.star-choices').addEventListener('pointerleave',()=>{starPreview=null;paintBookStars(Number($('book-rating').value)||0);});
+    starPicker.addEventListener('click',event=>{
+      const button=event.target.closest('.star-choice');
+      if(button) commit(event.detail===0?(starPreview??Number(button.dataset.index)+1):pointerValue(event,button));
+      else if(event.target.closest('.clear-rating')) commit(null);
+    });
+    starPicker.addEventListener('keydown',event=>{
+      if(event.key==='Escape') {event.preventDefault();closeBookStars(true);return;}
+      if(['ArrowLeft','ArrowDown','ArrowRight','ArrowUp'].includes(event.key)) {
+        event.preventDefault();starPreview=Math.max(.5,Math.min(10,(starPreview??(Number($('book-rating').value)||0))+(['ArrowRight','ArrowUp'].includes(event.key)?.5:-.5)));paintBookStars(starPreview);
+      }
+      if((event.key==='Enter'||event.key===' ')&&starPreview!==null) {event.preventDefault();commit(starPreview);}
+      if(event.key==='Tab') closeBookStars(true);
+    });
+    document.addEventListener('pointerdown',event=>{if(!starPicker.hidden&&!starPicker.contains(event.target)&&!trigger.contains(event.target)) closeBookStars();});
+    window.addEventListener('scroll',()=>closeBookStars(),{passive:true});
+    window.addEventListener('resize',()=>closeBookStars());
+    updateRatingTrigger();
+  }
   function message(id, text) { $(id).textContent=text; }
   function errorMessage(error) {
     if (['42P01','42883','PGRST202','PGRST205'].includes(error?.code)) return 'Books storage is not ready yet. The Books database migration needs to be applied.';
@@ -64,11 +130,14 @@
   }
   function closeEditor() {
     if(saving) return;
-    selected=null; $('book-editor').hidden=true; $('book-rating-form').reset();
+    closeBookStars();
+    selected=null; $('book-editor').hidden=true; $('book-rating-form').reset(); $('book-rating').value='';
+    updateRatingTrigger();
     message('book-save-status','');
   }
   function choose(workId) {
     if(saving) return;
+    closeBookStars();
     selected=books.find(b=>b.open_library_work_id===workId)||results.find(b=>b.open_library_work_id===workId);
     if(!selected) return;
     const p=progress.get(workId);
@@ -76,12 +145,13 @@
     message('book-selected-title',selected.title);
     message('book-selected-author',selected.authors.join(', '));
     $('book-rating').value=p?String(p.rating):'';
+    updateRatingTrigger();
     $('book-format').value=p?.reading_format||'';
     $('book-notes').value=p?.notes||'';
     message('book-save-status',user?'': 'Sign in using Account to save this book.');
     $('book-editor').hidden=false;
     $('book-editor').scrollIntoView({behavior:'smooth',block:'start'});
-    $('book-rating').focus({preventScroll:true});
+    $('book-rating-trigger').focus({preventScroll:true});
   }
   async function search(event) {
     event.preventDefault();
@@ -146,8 +216,10 @@
     user=nextUser||null; const version=++generation;
     loading=true;
     if(changed) {
+      closeBookStars();
       progress=new Map(); selected=null;
-      $('book-editor').hidden=true; $('book-rating-form').reset(); message('book-save-status','');
+      $('book-editor').hidden=true; $('book-rating-form').reset(); $('book-rating').value=''; message('book-save-status','');
+      updateRatingTrigger();
     }
     render();
     if(!client) { loading=false;message('book-sync-status','Cloud connection is unavailable. Reload the page to try again.');return; }
@@ -171,7 +243,7 @@
     const rating=Number($('book-rating').value),format=$('book-format').value,notes=$('book-notes').value;
     if(!validRating(rating)||!Object.hasOwn(formats,format)||notes.length>10000) { message('book-save-status','Choose a rating and reading format, with notes up to 10,000 characters.');return; }
     const version=generation,book=selected;
-    saving=true;
+    closeBookStars();saving=true;
     for(const el of $('book-rating-form').elements) el.disabled=true;
     message('book-save-status','Saving book and rating…');
     try {
@@ -195,7 +267,7 @@
     client=supabaseClient;
     // Account UI must remain reachable while the Films area is hidden.
     document.body.append($('account'));
-    $('book-rating').innerHTML='<option value="">Choose rating</option>'+Array.from({length:20},(_,i)=>{const n=(i+1)/2;return `<option value="${n}">${n}/10</option>`;}).join('');
+    initBookStars();
     $('book-search-form').addEventListener('submit',search);
     $('book-rating-form').addEventListener('submit',save);
     $('book-cancel').addEventListener('click',closeEditor);
@@ -207,6 +279,7 @@
     $('book-more').addEventListener('click',()=>{visible+=48;render();});
     for(const button of document.querySelectorAll('[data-section]')) button.addEventListener('click',()=>{
       const isBooks=button.dataset.section==='books';
+      closeBookStars();
       $('cinema-area').hidden=isBooks; $('books-view').hidden=!isBooks;
       for(const tab of document.querySelectorAll('[data-section]')) {tab.classList.toggle('active',tab===button);tab.setAttribute('aria-pressed',String(tab===button));}
       document.title=`Culture Atlas · ${isBooks?'Books':'Films'}`;
