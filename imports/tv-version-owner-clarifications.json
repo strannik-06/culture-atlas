@@ -1,0 +1,35 @@
+{
+  "recorded_at": "2026-10-19",
+  "source": "Owner clarification in development conversation",
+  "decisions": [
+    {
+      "source_rows": [
+        "1276",
+        "1359"
+      ],
+      "scope": "Separate second and first parts respectively",
+      "fallback": "Owner permits considering one combined identity if no second-part TMDB record can be found; preserve both source ratings pending import review."
+    },
+    {
+      "source_rows": [
+        "1625"
+      ],
+      "scope": "Wider series, not first season only"
+    },
+    {
+      "source_rows": [
+        "1824"
+      ],
+      "scope": "Theatrical edit, not six-part television version"
+    },
+    {
+      "source_rows": [
+        "1595",
+        "1656",
+        "1690"
+      ],
+      "scope": "Each rating covers both parts of its named work together"
+    }
+  ],
+  "boundary": "Scope decisions only. No rating import, overwrite, averaging or Supabase modification authorized."
+}

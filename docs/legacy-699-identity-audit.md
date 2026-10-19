@@ -1,5 +1,7 @@
 # Review of the 699 flagged historical film links
 
+> Historical PR #88 snapshot. The subsequent [TV/version audit](tv-version-identity-audit.md) contains the latest coverage and resolves the confirmed whole-cycle TV identities.
+
 After PR #87 merged, 699 source-to-catalogue links still had review flags. This audit examines that entire set and accepts **698 existing film identities**. It rejects the remaining automatic mapping because the owner confirmed that the source rates the whole ten-part Dekalog cycle, while the old target was one episode. The catalogue stays at **2,251 films**; no catalogue objects, IDs, ratings or Supabase data change.
 
 ## Review result

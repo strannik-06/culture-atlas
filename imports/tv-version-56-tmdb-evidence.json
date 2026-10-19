@@ -1,0 +1,3972 @@
+{
+  "workflow_run_id": 39276957833,
+  "workflow_job_id": 118143693326,
+  "workflow_commit": "de4f2ff9adf6ea2c36a6cd418ffd52bc9f6563c1",
+  "retrieved_at": "2026-10-19",
+  "base_commit": "e3316643f3aa5200afe5451710b8661a6f1b51bf",
+  "source_count": 56,
+  "entries": [
+    {
+      "source_rows": "108",
+      "title": "Disclaimer (TV Series)",
+      "director": "Cuarón Alfonso",
+      "year": 2024,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": 147050,
+      "imdb_id_hint": "tt16294384",
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 147050,
+          "title": "Disclaimer",
+          "original_title": "Disclaimer",
+          "release_date": "2024-10-11",
+          "imdb_id": "tt16294384",
+          "original_language": "en",
+          "series_type": "Miniseries",
+          "episode_count": 7,
+          "season_count": 1,
+          "creators": [
+            {
+              "id": 11218,
+              "name": "Alfonso Cuarón"
+            }
+          ],
+          "directors": [
+            {
+              "id": 11218,
+              "name": "Alfonso Cuarón"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Miniseries",
+              "air_date": "2024-10-11",
+              "episode_count": 7
+            }
+          ],
+          "poster_path": "/m0ZB5DEJKare7NTdeR1UQpHYy4c.jpg",
+          "lookup_routes": [
+            "public_tv_hint",
+            "imdb_lookup",
+            "title_year_search"
+          ]
+        },
+        {
+          "media_type": "tv",
+          "tmdb_id": 289698,
+          "title": "Disclaimer",
+          "original_title": "İmtina: Bir Həyat Hekayəsi",
+          "release_date": "2024-12-13",
+          "imdb_id": null,
+          "original_language": "az",
+          "series_type": "Scripted",
+          "episode_count": 31,
+          "season_count": 1,
+          "creators": [
+            {
+              "id": 2069647,
+              "name": "Rovshan Isakh"
+            },
+            {
+              "id": 5390289,
+              "name": "Vuqar Amir Ayaz"
+            },
+            {
+              "id": 5390305,
+              "name": "Elkhan Khanalizade"
+            }
+          ],
+          "directors": [
+            {
+              "id": 2069647,
+              "name": "Rovshan Isakh"
+            },
+            {
+              "id": 5390289,
+              "name": "Vuqar Amir Ayaz"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "2024-12-13",
+              "episode_count": 31
+            }
+          ],
+          "poster_path": "/uwcnP1Y8QL2cyvs95OJHEZR6OvT.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "209",
+      "title": "Игра в кальмара",
+      "director": "Хван Дон-хёк",
+      "year": 2021,
+      "legacy_media_type": "tv",
+      "legacy_tmdb_id": 93405,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 93405,
+          "title": "Squid Game",
+          "original_title": "오징어 게임",
+          "release_date": "2021-09-17",
+          "imdb_id": "tt10919420",
+          "original_language": "ko",
+          "series_type": "Scripted",
+          "episode_count": 22,
+          "season_count": 3,
+          "creators": [
+            {
+              "id": 1294471,
+              "name": "Hwang Dong-hyuk"
+            }
+          ],
+          "directors": [
+            {
+              "id": 1294471,
+              "name": "Hwang Dong-hyuk"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "2021-09-17",
+              "episode_count": 9
+            },
+            {
+              "season_number": 2,
+              "title": "Season 2",
+              "air_date": "2024-12-26",
+              "episode_count": 7
+            },
+            {
+              "season_number": 3,
+              "title": "Season 3",
+              "air_date": "2025-06-27",
+              "episode_count": 6
+            }
+          ],
+          "poster_path": "/1QdXdRYfktUSONkl1oD5gc6Be0s.jpg",
+          "lookup_routes": [
+            "legacy_candidate",
+            "title_year_search"
+          ]
+        },
+        {
+          "media_type": "tv",
+          "tmdb_id": 204082,
+          "title": "Squid Game: The Challenge",
+          "original_title": "Squid Game: The Challenge",
+          "release_date": "2023-11-22",
+          "imdb_id": "tt28104766",
+          "original_language": "en",
+          "series_type": "Reality",
+          "episode_count": 19,
+          "season_count": 2,
+          "creators": [],
+          "directors": [],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "2023-11-22",
+              "episode_count": 10
+            },
+            {
+              "season_number": 2,
+              "title": "Season 2",
+              "air_date": "2025-11-04",
+              "episode_count": 9
+            }
+          ],
+          "poster_path": "/eAjXAgdjPMZH9Ugub7XYPowFoS1.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "228",
+      "title": "Ход королевы",
+      "director": "Фрэнк Скотт",
+      "year": 2020,
+      "legacy_media_type": "tv",
+      "legacy_tmdb_id": 87739,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 87739,
+          "title": "The Queen's Gambit",
+          "original_title": "The Queen's Gambit",
+          "release_date": "2020-10-23",
+          "imdb_id": "tt10048342",
+          "original_language": "en",
+          "series_type": "Miniseries",
+          "episode_count": 7,
+          "season_count": 1,
+          "creators": [
+            {
+              "id": 2199,
+              "name": "Scott Frank"
+            },
+            {
+              "id": 589662,
+              "name": "Allan Scott"
+            }
+          ],
+          "directors": [
+            {
+              "id": 2199,
+              "name": "Scott Frank"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Limited Series",
+              "air_date": "2020-10-23",
+              "episode_count": 7
+            }
+          ],
+          "poster_path": "/zU0htwkhNvBQdVSIKB9s6hgVeFK.jpg",
+          "lookup_routes": [
+            "legacy_candidate",
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "259",
+      "title": "Домашний арест (сериал)",
+      "director": "Буслов Петр",
+      "year": 2018,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": 81712,
+      "imdb_id_hint": "tt8968158",
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 81712,
+          "title": "House Arrest",
+          "original_title": "Домашний Арест",
+          "release_date": "2018-08-16",
+          "imdb_id": "tt8968158",
+          "original_language": "ru",
+          "series_type": "Scripted",
+          "episode_count": 12,
+          "season_count": 1,
+          "creators": [
+            {
+              "id": 1250808,
+              "name": "Semyon Slepakov"
+            }
+          ],
+          "directors": [
+            {
+              "id": 137442,
+              "name": "Pyotr Buslov"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "2018-08-16",
+              "episode_count": 12
+            }
+          ],
+          "poster_path": "/qCEY9RtEaGeywEAd9eVVNBBGKck.jpg",
+          "lookup_routes": [
+            "public_tv_hint",
+            "imdb_lookup",
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "275",
+      "title": "Звоните ДиКаприо! (сериал)",
+      "director": "Крыжовников Жора",
+      "year": 2018,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": "tt9378362",
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 83344,
+          "title": "Call DiCaprio!",
+          "original_title": "Звоните ДиКаприо!",
+          "release_date": "2018-10-20",
+          "imdb_id": "tt9378362",
+          "original_language": "ru",
+          "series_type": "Miniseries",
+          "episode_count": 9,
+          "season_count": 1,
+          "creators": [
+            {
+              "id": 1265105,
+              "name": "Zhora Kryzhovnikov"
+            }
+          ],
+          "directors": [
+            {
+              "id": 1265105,
+              "name": "Zhora Kryzhovnikov"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "2018-10-20",
+              "episode_count": 9
+            }
+          ],
+          "poster_path": "/sLqNqAt9sLg3llcJ5YitKZDLlix.jpg",
+          "lookup_routes": [
+            "imdb_lookup",
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "306",
+      "title": "Маньяк (сериал)",
+      "director": "Фукунага Кэри",
+      "year": 2018,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": 73411,
+      "imdb_id_hint": "tt5580146",
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 73411,
+          "title": "Maniac",
+          "original_title": "Maniac",
+          "release_date": "2018-09-21",
+          "imdb_id": "tt5580146",
+          "original_language": "en",
+          "series_type": "Miniseries",
+          "episode_count": 10,
+          "season_count": 1,
+          "creators": [
+            {
+              "id": 1348547,
+              "name": "Patrick Somerville"
+            },
+            {
+              "id": 87257,
+              "name": "Cary Joji Fukunaga"
+            }
+          ],
+          "directors": [
+            {
+              "id": 87257,
+              "name": "Cary Joji Fukunaga"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Limited Series",
+              "air_date": "2018-09-21",
+              "episode_count": 10
+            }
+          ],
+          "poster_path": "/kCNl4QPstAqChFD0NnLpbDFG8ul.jpg",
+          "lookup_routes": [
+            "public_tv_hint",
+            "imdb_lookup",
+            "title_year_search"
+          ]
+        },
+        {
+          "media_type": "tv",
+          "tmdb_id": 249656,
+          "title": "Maniacs",
+          "original_title": "Маньяки",
+          "release_date": "2020-05-22",
+          "imdb_id": null,
+          "original_language": "ru",
+          "series_type": "Documentary",
+          "episode_count": 9,
+          "season_count": 1,
+          "creators": [],
+          "directors": [
+            {
+              "id": 3122458,
+              "name": "Ilya Khlistunov"
+            },
+            {
+              "id": 2058479,
+              "name": "Aleksey Zuev"
+            },
+            {
+              "id": 4605000,
+              "name": "Alexander Saltykov"
+            },
+            {
+              "id": 2519517,
+              "name": "Pavel Sergatskov"
+            },
+            {
+              "id": 2862968,
+              "name": "Alexander Valeev"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "2020-05-22",
+              "episode_count": 9
+            }
+          ],
+          "poster_path": "/gAslGlDYj7SaLWnLIaorCaZbx4U.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "355",
+      "title": "Кризис в шести сценах (т/с)",
+      "director": "Аллен Вуди",
+      "year": 2016,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": "tt4354616",
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 67443,
+          "title": "Crisis in Six Scenes",
+          "original_title": "Crisis in Six Scenes",
+          "release_date": "2016-09-30",
+          "imdb_id": "tt4354616",
+          "original_language": "en",
+          "series_type": "Miniseries",
+          "episode_count": 6,
+          "season_count": 1,
+          "creators": [
+            {
+              "id": 1243,
+              "name": "Woody Allen"
+            }
+          ],
+          "directors": [
+            {
+              "id": 1243,
+              "name": "Woody Allen"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "2016-09-30",
+              "episode_count": 6
+            }
+          ],
+          "poster_path": "/fNb2QVOiqxmfDhn4r5F1zZRQog1.jpg",
+          "lookup_routes": [
+            "imdb_lookup",
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "372",
+      "title": "Молодой Папа (мини-сериал)",
+      "director": "Соррентино Паоло",
+      "year": 2016,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": 62699,
+      "imdb_id_hint": "tt3655448",
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 62699,
+          "title": "The Young Pope",
+          "original_title": "The Young Pope",
+          "release_date": "2016-10-21",
+          "imdb_id": "tt3655448",
+          "original_language": "it",
+          "series_type": "Miniseries",
+          "episode_count": 10,
+          "season_count": 1,
+          "creators": [
+            {
+              "id": 56194,
+              "name": "Paolo Sorrentino"
+            }
+          ],
+          "directors": [
+            {
+              "id": 56194,
+              "name": "Paolo Sorrentino"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Miniseries",
+              "air_date": "2016-10-21",
+              "episode_count": 10
+            }
+          ],
+          "poster_path": "/if5zvE8rUMIsw4qyvJERPJUBZDA.jpg",
+          "lookup_routes": [
+            "public_tv_hint",
+            "imdb_lookup",
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "390",
+      "title": "Метод (сериал)",
+      "director": "Быков Юрий",
+      "year": 2015,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 64446,
+          "title": "Method",
+          "original_title": "Метод",
+          "release_date": "2015-10-18",
+          "imdb_id": "tt5135336",
+          "original_language": "ru",
+          "series_type": "Scripted",
+          "episode_count": 40,
+          "season_count": 3,
+          "creators": [],
+          "directors": [
+            {
+              "id": 229351,
+              "name": "Yury Bykov"
+            },
+            {
+              "id": 107721,
+              "name": "Alexander Voitinsky"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "2015-10-18",
+              "episode_count": 16
+            },
+            {
+              "season_number": 2,
+              "title": "Season 2",
+              "air_date": "2020-11-08",
+              "episode_count": 16
+            },
+            {
+              "season_number": 3,
+              "title": "Season 3",
+              "air_date": "2025-11-20",
+              "episode_count": 8
+            }
+          ],
+          "poster_path": "/mlgSXHwOpKRAvdtYysyHLWBIXaa.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        },
+        {
+          "media_type": "tv",
+          "tmdb_id": 79472,
+          "title": "Freud's Method",
+          "original_title": "Метод Фрейда",
+          "release_date": "2013-01-08",
+          "imdb_id": "tt2372236",
+          "original_language": "ru",
+          "series_type": "Miniseries",
+          "episode_count": 24,
+          "season_count": 2,
+          "creators": [
+            {
+              "id": 1634575,
+              "name": "Alexey Krasovsky"
+            },
+            {
+              "id": 2041813,
+              "name": "Vladimir Dyachenko"
+            },
+            {
+              "id": 2041814,
+              "name": "Larisa Leonenko"
+            }
+          ],
+          "directors": [
+            {
+              "id": 2041812,
+              "name": "Michael Vaynberg"
+            },
+            {
+              "id": 2041890,
+              "name": "Ivan Stakhanov"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "2013-01-08",
+              "episode_count": 12
+            },
+            {
+              "season_number": 2,
+              "title": "Season 2",
+              "air_date": "2015-05-28",
+              "episode_count": 12
+            }
+          ],
+          "poster_path": "/hvJu6Nqq14eqNfwxlVUP6XiqQBR.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        },
+        {
+          "media_type": "tv",
+          "tmdb_id": 66716,
+          "title": "Celestial Method",
+          "original_title": "天体のメソッド",
+          "release_date": "2014-10-05",
+          "imdb_id": "tt3895144",
+          "original_language": "ja",
+          "series_type": "Scripted",
+          "episode_count": 13,
+          "season_count": 1,
+          "creators": [
+            {
+              "id": 1565219,
+              "name": "Naoki Hisaya"
+            }
+          ],
+          "directors": [
+            {
+              "id": 1278991,
+              "name": "Masayuki Sakoi"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "2014-10-05",
+              "episode_count": 13
+            }
+          ],
+          "poster_path": "/4XuJtgmoIafSOjQY6ULswfwOoma.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        },
+        {
+          "media_type": "tv",
+          "tmdb_id": 66608,
+          "title": "Criminologist Himura and Mystery Writer Arisugawa",
+          "original_title": "臨床犯罪学者 火村英生の推理",
+          "release_date": "2016-01-17",
+          "imdb_id": "tt5157074",
+          "original_language": "ja",
+          "series_type": "Scripted",
+          "episode_count": 13,
+          "season_count": 2,
+          "creators": [],
+          "directors": [],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "2016-01-17",
+              "episode_count": 10
+            },
+            {
+              "season_number": 2,
+              "title": "Season 2",
+              "air_date": "2019-09-29",
+              "episode_count": 3
+            }
+          ],
+          "poster_path": "/7Z9ogiaMwrZFpsiWpGLYUmarsSn.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "511",
+      "title": "Шерлок Холмс (сериал)",
+      "director": "Кавун Андрей",
+      "year": 2013,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 64368,
+          "title": "Sherlock Holmes",
+          "original_title": "Шерлок Холмс",
+          "release_date": "2013-11-18",
+          "imdb_id": "tt2465266",
+          "original_language": "ru",
+          "series_type": "Scripted",
+          "episode_count": 16,
+          "season_count": 1,
+          "creators": [],
+          "directors": [
+            {
+              "id": 3033323,
+              "name": "Andrey Kavun"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "2013-11-18",
+              "episode_count": 16
+            }
+          ],
+          "poster_path": "/1PXfeZPSGDMHjaHXlWzkAcIMHfp.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "559",
+      "title": "Кухня (сериал)",
+      "director": "Дьяченко Дмитрий",
+      "year": 2012,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 45994,
+          "title": "The Kitchen",
+          "original_title": "Кухня",
+          "release_date": "2012-10-22",
+          "imdb_id": "tt2930610",
+          "original_language": "ru",
+          "series_type": "Scripted",
+          "episode_count": 120,
+          "season_count": 6,
+          "creators": [
+            {
+              "id": 1257132,
+              "name": "Vasily Kutsenko"
+            },
+            {
+              "id": 1257133,
+              "name": "Igor Tudvasev"
+            },
+            {
+              "id": 1257134,
+              "name": "Dimitry Jan"
+            },
+            {
+              "id": 1257135,
+              "name": "Pavel Danilov"
+            },
+            {
+              "id": 1257005,
+              "name": "Vitaly Shlyappo"
+            }
+          ],
+          "directors": [
+            {
+              "id": 1827490,
+              "name": "Anton Fedotov"
+            },
+            {
+              "id": 115122,
+              "name": "Dmitriy Dyachenko"
+            },
+            {
+              "id": 1265105,
+              "name": "Zhora Kryzhovnikov"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "2012-10-22",
+              "episode_count": 20
+            },
+            {
+              "season_number": 2,
+              "title": "Season 2",
+              "air_date": "2013-03-25",
+              "episode_count": 20
+            },
+            {
+              "season_number": 3,
+              "title": "Season 3",
+              "air_date": "2014-03-03",
+              "episode_count": 20
+            },
+            {
+              "season_number": 4,
+              "title": "Season 4",
+              "air_date": "2014-10-13",
+              "episode_count": 20
+            },
+            {
+              "season_number": 5,
+              "title": "Season 5",
+              "air_date": "2015-09-06",
+              "episode_count": 20
+            },
+            {
+              "season_number": 6,
+              "title": "Season 6",
+              "air_date": "2016-02-29",
+              "episode_count": 20
+            }
+          ],
+          "poster_path": "/swsQXJvk5mgYyp4tJGj6YKQcj13.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        },
+        {
+          "media_type": "tv",
+          "tmdb_id": 34003,
+          "title": "Whites",
+          "original_title": "Whites",
+          "release_date": "2010-09-28",
+          "imdb_id": "tt1726576",
+          "original_language": "en",
+          "series_type": "Miniseries",
+          "episode_count": 6,
+          "season_count": 1,
+          "creators": [
+            {
+              "id": 23776,
+              "name": "Matt King"
+            },
+            {
+              "id": 1196073,
+              "name": "Oliver Lansley"
+            }
+          ],
+          "directors": [
+            {
+              "id": 1220300,
+              "name": "David Kerr"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Series 1",
+              "air_date": "2010-09-28",
+              "episode_count": 6
+            }
+          ],
+          "poster_path": "/ad7sgrs2nuPw49tQtJYJ9LjZT7S.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        },
+        {
+          "media_type": "tv",
+          "tmdb_id": 56305,
+          "title": "Anthony Bourdain: Parts Unknown",
+          "original_title": "Anthony Bourdain: Parts Unknown",
+          "release_date": "2013-04-14",
+          "imdb_id": "tt2845786",
+          "original_language": "en",
+          "series_type": "Documentary",
+          "episode_count": 95,
+          "season_count": 12,
+          "creators": [],
+          "directors": [
+            {
+              "id": 1237043,
+              "name": "Tom Vitale"
+            },
+            {
+              "id": 2736963,
+              "name": "Michael Steed"
+            },
+            {
+              "id": 1260795,
+              "name": "Sally Freeman"
+            },
+            {
+              "id": 1851622,
+              "name": "Jared Andrukanis"
+            },
+            {
+              "id": 3587354,
+              "name": "Nick Brigden"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "2013-04-14",
+              "episode_count": 8
+            },
+            {
+              "season_number": 2,
+              "title": "Season 2",
+              "air_date": "2013-09-15",
+              "episode_count": 8
+            },
+            {
+              "season_number": 3,
+              "title": "Season 3",
+              "air_date": "2014-04-13",
+              "episode_count": 8
+            },
+            {
+              "season_number": 4,
+              "title": "Season 4",
+              "air_date": "2014-09-28",
+              "episode_count": 8
+            },
+            {
+              "season_number": 5,
+              "title": "Season 5",
+              "air_date": "2015-04-26",
+              "episode_count": 8
+            },
+            {
+              "season_number": 6,
+              "title": "Season 6",
+              "air_date": "2015-09-28",
+              "episode_count": 8
+            },
+            {
+              "season_number": 7,
+              "title": "Season 7",
+              "air_date": "2016-04-24",
+              "episode_count": 7
+            },
+            {
+              "season_number": 8,
+              "title": "Season 8",
+              "air_date": "2016-09-25",
+              "episode_count": 9
+            },
+            {
+              "season_number": 9,
+              "title": "Season 9",
+              "air_date": "2017-04-30",
+              "episode_count": 8
+            },
+            {
+              "season_number": 10,
+              "title": "Season 10",
+              "air_date": "2017-10-01",
+              "episode_count": 8
+            },
+            {
+              "season_number": 11,
+              "title": "Season 11",
+              "air_date": "2018-04-29",
+              "episode_count": 8
+            },
+            {
+              "season_number": 12,
+              "title": "Season 12",
+              "air_date": "2018-09-23",
+              "episode_count": 7
+            }
+          ],
+          "poster_path": "/qg7lcydNf8DBVFIFK3XEuccv1jf.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "673",
+      "title": "Шерлок",
+      "director": "МакГиган Пол",
+      "year": 2010,
+      "legacy_media_type": "movie",
+      "legacy_tmdb_id": 43956,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "movie",
+          "tmdb_id": 43956,
+          "title": "Tom and Jerry Meet Sherlock Holmes",
+          "original_title": "Tom and Jerry Meet Sherlock Holmes",
+          "release_date": "2010-08-24",
+          "imdb_id": "tt1722638",
+          "original_language": "en",
+          "series_type": null,
+          "episode_count": null,
+          "season_count": null,
+          "creators": [],
+          "directors": [
+            {
+              "id": 562307,
+              "name": "Jeff Siergey"
+            },
+            {
+              "id": 92317,
+              "name": "Spike Brandt"
+            }
+          ],
+          "seasons": [],
+          "poster_path": "/8YLgPSsiDrZMO4yxycMZNcdE5iW.jpg",
+          "lookup_routes": [
+            "legacy_candidate"
+          ]
+        },
+        {
+          "media_type": "tv",
+          "tmdb_id": 19885,
+          "title": "Sherlock",
+          "original_title": "Sherlock",
+          "release_date": "2010-07-25",
+          "imdb_id": "tt1475582",
+          "original_language": "en",
+          "series_type": "Scripted",
+          "episode_count": 12,
+          "season_count": 4,
+          "creators": [
+            {
+              "id": 34546,
+              "name": "Mark Gatiss"
+            },
+            {
+              "id": 146459,
+              "name": "Steven Moffat"
+            }
+          ],
+          "directors": [
+            {
+              "id": 2291,
+              "name": "Paul McGuigan"
+            },
+            {
+              "id": 42274,
+              "name": "Nick Hurran"
+            },
+            {
+              "id": 1230430,
+              "name": "Toby Haynes"
+            },
+            {
+              "id": 1216417,
+              "name": "Euros Lyn"
+            },
+            {
+              "id": 136505,
+              "name": "Benjamin Caron"
+            },
+            {
+              "id": 113273,
+              "name": "Jeremy Lovering"
+            },
+            {
+              "id": 1231927,
+              "name": "Colm McCarthy"
+            },
+            {
+              "id": 56891,
+              "name": "Rachel Talalay"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Series 1",
+              "air_date": "2010-07-25",
+              "episode_count": 3
+            },
+            {
+              "season_number": 2,
+              "title": "Series 2",
+              "air_date": "2012-01-01",
+              "episode_count": 3
+            },
+            {
+              "season_number": 3,
+              "title": "Series 3",
+              "air_date": "2014-01-01",
+              "episode_count": 3
+            },
+            {
+              "season_number": 4,
+              "title": "Series 4",
+              "air_date": "2017-01-01",
+              "episode_count": 3
+            }
+          ],
+          "poster_path": "/7WTsnHkbA0FaG6R9twfFde0I9hl.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "687",
+      "title": "Агент особого назначения (сериал)",
+      "director": "Статский Константин",
+      "year": 2010,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 86869,
+          "title": "Агент особого назначения",
+          "original_title": "Агент особого назначения",
+          "release_date": "2010-10-02",
+          "imdb_id": "tt1744910",
+          "original_language": "ru",
+          "series_type": "Scripted",
+          "episode_count": 48,
+          "season_count": 4,
+          "creators": [
+            {
+              "id": 1267221,
+              "name": "Yury Epstein"
+            }
+          ],
+          "directors": [],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "2010-10-02",
+              "episode_count": 12
+            },
+            {
+              "season_number": 2,
+              "title": "Season 2",
+              "air_date": null,
+              "episode_count": 12
+            },
+            {
+              "season_number": 3,
+              "title": "Season 3",
+              "air_date": null,
+              "episode_count": 16
+            },
+            {
+              "season_number": 4,
+              "title": "Season 4",
+              "air_date": null,
+              "episode_count": 8
+            }
+          ],
+          "poster_path": "/c30SZzH8fxHsGLNxRl6WuTMhdYq.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "843",
+      "title": "Блудливая Калифорния (сериал)",
+      "director": "Кэздан Джейк",
+      "year": 2007,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 1215,
+          "title": "Californication",
+          "original_title": "Californication",
+          "release_date": "2007-08-13",
+          "imdb_id": "tt0904208",
+          "original_language": "en",
+          "series_type": "Scripted",
+          "episode_count": 84,
+          "season_count": 7,
+          "creators": [
+            {
+              "id": 1222585,
+              "name": "Tom Kapinos"
+            }
+          ],
+          "directors": [
+            {
+              "id": 77458,
+              "name": "David Von Ancken"
+            },
+            {
+              "id": 111338,
+              "name": "Adam Bernstein"
+            },
+            {
+              "id": 21053,
+              "name": "John Dahl"
+            },
+            {
+              "id": 86203,
+              "name": "Bart Freundlich"
+            },
+            {
+              "id": 7145,
+              "name": "Michael Lehmann"
+            },
+            {
+              "id": 12640,
+              "name": "David Duchovny"
+            },
+            {
+              "id": 204250,
+              "name": "Seith Mann"
+            },
+            {
+              "id": 1282191,
+              "name": "Michael Weaver"
+            },
+            {
+              "id": 1214396,
+              "name": "Scott Winant"
+            },
+            {
+              "id": 2042,
+              "name": "Stephen Hopkins"
+            },
+            {
+              "id": 1212689,
+              "name": "Ken Whittingham"
+            },
+            {
+              "id": 1214641,
+              "name": "Millicent Shelton"
+            },
+            {
+              "id": 51851,
+              "name": "Jake Kasdan"
+            },
+            {
+              "id": 15045,
+              "name": "Michael Lembeck"
+            },
+            {
+              "id": 87673,
+              "name": "Beth McCarthy-Miller"
+            },
+            {
+              "id": 30368,
+              "name": "Jon Kasdan"
+            },
+            {
+              "id": 7036,
+              "name": "Eric Stoltz"
+            },
+            {
+              "id": 9994,
+              "name": "Helen Hunt"
+            },
+            {
+              "id": 211892,
+              "name": "Daniel Ducovny"
+            },
+            {
+              "id": 19014,
+              "name": "Scott Z. Burns"
+            },
+            {
+              "id": 1212609,
+              "name": "Tucker Gates"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "2007-08-13",
+              "episode_count": 12
+            },
+            {
+              "season_number": 2,
+              "title": "Season 2",
+              "air_date": "2008-09-28",
+              "episode_count": 12
+            },
+            {
+              "season_number": 3,
+              "title": "Season 3",
+              "air_date": "2009-09-27",
+              "episode_count": 12
+            },
+            {
+              "season_number": 4,
+              "title": "Season 4",
+              "air_date": "2011-01-09",
+              "episode_count": 12
+            },
+            {
+              "season_number": 5,
+              "title": "Season 5",
+              "air_date": "2012-01-08",
+              "episode_count": 12
+            },
+            {
+              "season_number": 6,
+              "title": "Season 6",
+              "air_date": "2013-01-13",
+              "episode_count": 12
+            },
+            {
+              "season_number": 7,
+              "title": "Season 7",
+              "air_date": "2014-04-13",
+              "episode_count": 12
+            }
+          ],
+          "poster_path": "/jPqOY8cq9KXQN4bD7zJGHCNvcb4.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "890",
+      "title": "Наша Russia (сериал)",
+      "director": "Буслов Петр",
+      "year": 2006,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 30729,
+          "title": "Our Russia",
+          "original_title": "Наша Russia",
+          "release_date": "2006-11-04",
+          "imdb_id": "tt1202543",
+          "original_language": "ru",
+          "series_type": "Scripted",
+          "episode_count": 86,
+          "season_count": 5,
+          "creators": [
+            {
+              "id": 1250803,
+              "name": "Garik Martirosyan"
+            },
+            {
+              "id": 1250808,
+              "name": "Semyon Slepakov"
+            },
+            {
+              "id": 235105,
+              "name": "Maxim Pezhemsky"
+            }
+          ],
+          "directors": [],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "2006-11-04",
+              "episode_count": 9
+            },
+            {
+              "season_number": 2,
+              "title": "Season 2",
+              "air_date": "2007-03-09",
+              "episode_count": 12
+            },
+            {
+              "season_number": 3,
+              "title": "Season 3",
+              "air_date": "2007-10-06",
+              "episode_count": 23
+            },
+            {
+              "season_number": 4,
+              "title": "Season 4",
+              "air_date": "2008-11-15",
+              "episode_count": 18
+            },
+            {
+              "season_number": 5,
+              "title": "Season 5",
+              "air_date": "2010-12-31",
+              "episode_count": 24
+            }
+          ],
+          "poster_path": "/aXbMtH2D875eNPOvOOdsQX4y4NT.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "952",
+      "title": "Мастер и Маргарита",
+      "director": "Бортко Владимир",
+      "year": 2005,
+      "legacy_media_type": "tv",
+      "legacy_tmdb_id": 6395,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 6395,
+          "title": "The Master and Margarita",
+          "original_title": "Мастер и Маргарита",
+          "release_date": "2005-12-19",
+          "imdb_id": "tt0403783",
+          "original_language": "ru",
+          "series_type": "Miniseries",
+          "episode_count": 10,
+          "season_count": 1,
+          "creators": [
+            {
+              "id": 82516,
+              "name": "Vladimir Bortko"
+            }
+          ],
+          "directors": [
+            {
+              "id": 82516,
+              "name": "Vladimir Bortko"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "2005-12-19",
+              "episode_count": 10
+            }
+          ],
+          "poster_path": "/fdHbRajsZmrs7TNmPF3NjjYCMaM.jpg",
+          "lookup_routes": [
+            "legacy_candidate",
+            "title_year_search"
+          ]
+        },
+        {
+          "media_type": "tv",
+          "tmdb_id": 294160,
+          "title": "Мастер и Маргарита",
+          "original_title": "Мастер и Маргарита",
+          "release_date": "2006-07-01",
+          "imdb_id": "tt0110476",
+          "original_language": "ru",
+          "series_type": "Miniseries",
+          "episode_count": 4,
+          "season_count": 1,
+          "creators": [
+            {
+              "id": 236543,
+              "name": "Yuriy Kara"
+            }
+          ],
+          "directors": [
+            {
+              "id": 236543,
+              "name": "Yuriy Kara"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "2006-07-01",
+              "episode_count": 4
+            }
+          ],
+          "poster_path": "/A1STqHdErOu8as0Azd8NzEvO6eI.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1057",
+      "title": "Идиот",
+      "director": "Бортко Владимир",
+      "year": 2003,
+      "legacy_media_type": "movie",
+      "legacy_tmdb_id": 1536386,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "movie",
+          "tmdb_id": 1536386,
+          "title": "The Idiot",
+          "original_title": "Idioot",
+          "release_date": "2003-04-01",
+          "imdb_id": null,
+          "original_language": "et",
+          "series_type": null,
+          "episode_count": null,
+          "season_count": null,
+          "creators": [],
+          "directors": [
+            {
+              "id": 4183490,
+              "name": "Yuriy Eryomin"
+            },
+            {
+              "id": 5651344,
+              "name": "Larissa Tscherkassova"
+            },
+            {
+              "id": 5651346,
+              "name": "Olga Martonova"
+            }
+          ],
+          "seasons": [],
+          "poster_path": "/fSG0EMQXEvGhcjb6zO9hNPd5GpT.jpg",
+          "lookup_routes": [
+            "legacy_candidate"
+          ]
+        },
+        {
+          "media_type": "tv",
+          "tmdb_id": 68187,
+          "title": "The Idiot",
+          "original_title": "Идиот",
+          "release_date": "2003-05-12",
+          "imdb_id": "tt0366028",
+          "original_language": "ru",
+          "series_type": "Miniseries",
+          "episode_count": 10,
+          "season_count": 1,
+          "creators": [
+            {
+              "id": 82516,
+              "name": "Vladimir Bortko"
+            }
+          ],
+          "directors": [
+            {
+              "id": 82516,
+              "name": "Vladimir Bortko"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Miniseries",
+              "air_date": "2003-05-12",
+              "episode_count": 10
+            }
+          ],
+          "poster_path": "/iDOXfnOMozgNm6XIYmnyICOFqjO.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1094",
+      "title": "Два с половиной человека (сериал)",
+      "director": "Цвик Джоэл",
+      "year": 2003,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 2691,
+          "title": "Two and a Half Men",
+          "original_title": "Two and a Half Men",
+          "release_date": "2003-09-22",
+          "imdb_id": "tt0369179",
+          "original_language": "en",
+          "series_type": "Scripted",
+          "episode_count": 262,
+          "season_count": 12,
+          "creators": [
+            {
+              "id": 1218744,
+              "name": "Lee Aronsohn"
+            },
+            {
+              "id": 160172,
+              "name": "Chuck Lorre"
+            }
+          ],
+          "directors": [
+            {
+              "id": 55195,
+              "name": "James Widdoes"
+            },
+            {
+              "id": 150641,
+              "name": "Gary Halvorson"
+            },
+            {
+              "id": 160172,
+              "name": "Chuck Lorre"
+            },
+            {
+              "id": 1218744,
+              "name": "Lee Aronsohn"
+            },
+            {
+              "id": 1222077,
+              "name": "Pamela Fryman"
+            },
+            {
+              "id": 1212911,
+              "name": "Jeff Melman"
+            },
+            {
+              "id": 153968,
+              "name": "Rob Schiller"
+            },
+            {
+              "id": 151192,
+              "name": "Ted Wass"
+            },
+            {
+              "id": 1213790,
+              "name": "Andy Ackerman"
+            },
+            {
+              "id": 1215073,
+              "name": "Andrew D. Weyman"
+            },
+            {
+              "id": 69718,
+              "name": "Jon Cryer"
+            },
+            {
+              "id": 84843,
+              "name": "Robert Berlinger"
+            },
+            {
+              "id": 59635,
+              "name": "Jerry Zaks"
+            },
+            {
+              "id": 1214817,
+              "name": "Jean Sagal"
+            },
+            {
+              "id": 1212807,
+              "name": "Asaad Kelada"
+            },
+            {
+              "id": 1212755,
+              "name": "Gail Mancuso"
+            },
+            {
+              "id": 1224119,
+              "name": "Eddie Gorodetsky"
+            },
+            {
+              "id": 2694278,
+              "name": "J.D. Lobue"
+            },
+            {
+              "id": 1232373,
+              "name": "Mark Roberts"
+            },
+            {
+              "id": 51760,
+              "name": "Jay Sandrich"
+            },
+            {
+              "id": 54644,
+              "name": "Joel Zwick"
+            },
+            {
+              "id": 157437,
+              "name": "James Burrows"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "2003-09-22",
+              "episode_count": 24
+            },
+            {
+              "season_number": 2,
+              "title": "Season 2",
+              "air_date": "2004-09-20",
+              "episode_count": 24
+            },
+            {
+              "season_number": 3,
+              "title": "Season 3",
+              "air_date": "2005-09-19",
+              "episode_count": 24
+            },
+            {
+              "season_number": 4,
+              "title": "Season 4",
+              "air_date": "2006-09-18",
+              "episode_count": 24
+            },
+            {
+              "season_number": 5,
+              "title": "Season 5",
+              "air_date": "2007-09-24",
+              "episode_count": 19
+            },
+            {
+              "season_number": 6,
+              "title": "Season 6",
+              "air_date": "2008-09-22",
+              "episode_count": 24
+            },
+            {
+              "season_number": 7,
+              "title": "Season 7",
+              "air_date": "2009-09-21",
+              "episode_count": 22
+            },
+            {
+              "season_number": 8,
+              "title": "Season 8",
+              "air_date": "2010-09-20",
+              "episode_count": 16
+            },
+            {
+              "season_number": 9,
+              "title": "Season 9",
+              "air_date": "2011-09-19",
+              "episode_count": 24
+            },
+            {
+              "season_number": 10,
+              "title": "Season 10",
+              "air_date": "2012-09-27",
+              "episode_count": 23
+            },
+            {
+              "season_number": 11,
+              "title": "Season 11",
+              "air_date": "2013-09-26",
+              "episode_count": 22
+            },
+            {
+              "season_number": 12,
+              "title": "Season 12",
+              "air_date": "2014-10-30",
+              "episode_count": 16
+            }
+          ],
+          "poster_path": "/xgfjxyV3g1S68opzuvG6G87muDp.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1143",
+      "title": "Бригада (сериал)",
+      "director": "Сидоров Алексей",
+      "year": 2002,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 30877,
+          "title": "Brigada",
+          "original_title": "Бригада",
+          "release_date": "2002-09-23",
+          "imdb_id": "tt0337898",
+          "original_language": "ru",
+          "series_type": "Scripted",
+          "episode_count": 15,
+          "season_count": 1,
+          "creators": [],
+          "directors": [
+            {
+              "id": 143660,
+              "name": "Alexey Sidorov"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "2002-09-23",
+              "episode_count": 15
+            }
+          ],
+          "poster_path": "/ss5Z7r6Z1B5wFadd4Ku78mnig6y.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        },
+        {
+          "media_type": "tv",
+          "tmdb_id": 2222,
+          "title": "The Division",
+          "original_title": "The Division",
+          "release_date": "2001-01-07",
+          "imdb_id": "tt0272376",
+          "original_language": "en",
+          "series_type": "Scripted",
+          "episode_count": 88,
+          "season_count": 4,
+          "creators": [
+            {
+              "id": 51552,
+              "name": "Deborah Joy LeVine"
+            }
+          ],
+          "directors": [
+            {
+              "id": 97847,
+              "name": "Aaron Lipstadt"
+            },
+            {
+              "id": 115447,
+              "name": "Andy Wolk"
+            },
+            {
+              "id": 1213575,
+              "name": "Patrick R. Norris"
+            },
+            {
+              "id": 1214045,
+              "name": "Martha Mitchell"
+            },
+            {
+              "id": 1212230,
+              "name": "Janice Cooke"
+            },
+            {
+              "id": 111944,
+              "name": "Bobby Roth"
+            },
+            {
+              "id": 34396,
+              "name": "Roxann Dawson"
+            },
+            {
+              "id": 51696,
+              "name": "Artie Mandelberg"
+            },
+            {
+              "id": 56891,
+              "name": "Rachel Talalay"
+            },
+            {
+              "id": 14995,
+              "name": "Alan Myerson"
+            },
+            {
+              "id": 121639,
+              "name": "Nancy McKeon"
+            },
+            {
+              "id": 152076,
+              "name": "Sarah Pia Anderson"
+            },
+            {
+              "id": 67576,
+              "name": "Jesús Salvador Treviño"
+            },
+            {
+              "id": 80609,
+              "name": "Jerry London"
+            },
+            {
+              "id": 155598,
+              "name": "Leslie Libman"
+            },
+            {
+              "id": 101767,
+              "name": "Robert Butler"
+            },
+            {
+              "id": 68457,
+              "name": "James Frawley"
+            },
+            {
+              "id": 78997,
+              "name": "Leon Ichaso"
+            },
+            {
+              "id": 2454154,
+              "name": "Ellie Kanner"
+            },
+            {
+              "id": 87038,
+              "name": "Joanna Kerns"
+            },
+            {
+              "id": 1215026,
+              "name": "Marita Grabiak"
+            },
+            {
+              "id": 69791,
+              "name": "Charles Haid"
+            },
+            {
+              "id": 15959,
+              "name": "Richard Compton"
+            },
+            {
+              "id": 1214850,
+              "name": "Eyal Gordin"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "2001-01-07",
+              "episode_count": 22
+            },
+            {
+              "season_number": 2,
+              "title": "Season 2",
+              "air_date": "2002-01-06",
+              "episode_count": 22
+            },
+            {
+              "season_number": 3,
+              "title": "Season 3",
+              "air_date": "2003-01-05",
+              "episode_count": 22
+            },
+            {
+              "season_number": 4,
+              "title": "Season 4",
+              "air_date": "2004-01-11",
+              "episode_count": 22
+            }
+          ],
+          "poster_path": "/5FE02HHz3Uv9T0yThBq1SahJ4yV.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1222",
+      "title": "Бандитский Петербург 2: Адвокат",
+      "director": "Бортко Владимир",
+      "year": 2000,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 334721,
+          "title": "Banditskiy Peterburg: Advokat",
+          "original_title": "Бандитский Петербург. Адвокат",
+          "release_date": "2000-05-10",
+          "imdb_id": "tt0394150",
+          "original_language": "ru",
+          "series_type": "Scripted",
+          "episode_count": 10,
+          "season_count": 1,
+          "creators": [],
+          "directors": [
+            {
+              "id": 82516,
+              "name": "Vladimir Bortko"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "2000-05-10",
+              "episode_count": 10
+            }
+          ],
+          "poster_path": "/2uYAjKzEUHYl8IumRBrlrmSVemI.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1235",
+      "title": "Аттила-завоеватель",
+      "director": "Лоури Дик",
+      "year": 2000,
+      "legacy_media_type": "tv",
+      "legacy_tmdb_id": 16072,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 16072,
+          "title": "Attila",
+          "original_title": "Attila",
+          "release_date": "2001-01-30",
+          "imdb_id": "tt0259127",
+          "original_language": "en",
+          "series_type": "Miniseries",
+          "episode_count": 2,
+          "season_count": 1,
+          "creators": [],
+          "directors": [
+            {
+              "id": 33880,
+              "name": "Dick Lowry"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Miniseries",
+              "air_date": "2001-01-30",
+              "episode_count": 2
+            }
+          ],
+          "poster_path": "/e8sSkLQ9CMH9nckLk5RSc0gxOfh.jpg",
+          "lookup_routes": [
+            "legacy_candidate",
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1276",
+      "title": "Незнайка на Луне 2",
+      "director": "Бутырин Юрий",
+      "year": 1999,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "search_titles": [
+        "Незнайка на Луне 2",
+        "Незнайка на Луне"
+      ],
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 99952,
+          "title": "Dunno on the Moon",
+          "original_title": "Незнайка на Луне",
+          "release_date": "1997-12-01",
+          "imdb_id": "tt0219207",
+          "original_language": "ru",
+          "series_type": "Scripted",
+          "episode_count": 12,
+          "season_count": 1,
+          "creators": [],
+          "directors": [
+            {
+              "id": 1279071,
+              "name": "Yuriy Butyrin"
+            },
+            {
+              "id": 126964,
+              "name": "Alexander Lyutkevich"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "1997-12-01",
+              "episode_count": 12
+            }
+          ],
+          "poster_path": "/nJYMFzMH14nuf3RQOsOqgf6QjYn.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1295",
+      "title": "Досье детектива Дубровского (сериал)",
+      "director": "Муратов Александр",
+      "year": 1999,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 94974,
+          "title": "D.D.D. Detective Dubrovsky's Dossier",
+          "original_title": "Д.Д.Д. Досье детектива Дубровского",
+          "release_date": "1999-09-06",
+          "imdb_id": "tt0216466",
+          "original_language": "ru",
+          "series_type": "Miniseries",
+          "episode_count": 18,
+          "season_count": 1,
+          "creators": [],
+          "directors": [
+            {
+              "id": 264013,
+              "name": "Aleksandr Muratov"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "1999-09-06",
+              "episode_count": 18
+            }
+          ],
+          "poster_path": "/g2SNwu8KD2asgNpxuajDfREqhQU.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1359",
+      "title": "Незнайка на Луне",
+      "director": "Бутырин Юрий",
+      "year": 1997,
+      "legacy_media_type": "tv",
+      "legacy_tmdb_id": 99952,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 99952,
+          "title": "Dunno on the Moon",
+          "original_title": "Незнайка на Луне",
+          "release_date": "1997-12-01",
+          "imdb_id": "tt0219207",
+          "original_language": "ru",
+          "series_type": "Scripted",
+          "episode_count": 12,
+          "season_count": 1,
+          "creators": [],
+          "directors": [
+            {
+              "id": 1279071,
+              "name": "Yuriy Butyrin"
+            },
+            {
+              "id": 126964,
+              "name": "Alexander Lyutkevich"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "1997-12-01",
+              "episode_count": 12
+            }
+          ],
+          "poster_path": "/nJYMFzMH14nuf3RQOsOqgf6QjYn.jpg",
+          "lookup_routes": [
+            "legacy_candidate",
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1371",
+      "title": "Чародей: Страна Великого Дракона (сериал)",
+      "director": "Прайс Ноэль",
+      "year": 1997,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": "tt0118476",
+      "search_titles": [
+        "Чародей: Страна Великого Дракона",
+        "Spellbinder: Land of the Dragon Lord"
+      ],
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 313262,
+          "title": "Spellbinder: Land of the Dragon Lord",
+          "original_title": "Spellbinder: Land of the Dragon Lord",
+          "release_date": "1997-09-01",
+          "imdb_id": "tt0118476",
+          "original_language": "en",
+          "series_type": "Scripted",
+          "episode_count": 1,
+          "season_count": 1,
+          "creators": [
+            {
+              "id": 196178,
+              "name": "Mark Shirrefs"
+            },
+            {
+              "id": 5987543,
+              "name": "John Thomson"
+            }
+          ],
+          "directors": [],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "1997-09-01",
+              "episode_count": 1
+            }
+          ],
+          "poster_path": "/goB0HTe6aMjlyZLbVWULbcjBTcF.jpg",
+          "lookup_routes": [
+            "imdb_lookup",
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1416",
+      "title": "Чародей (сериал)",
+      "director": "Прайс Ноэль",
+      "year": 1995,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 1455,
+          "title": "Spellbinder",
+          "original_title": "Spellbinder",
+          "release_date": "1995-01-09",
+          "imdb_id": "tt0112174",
+          "original_language": "en",
+          "series_type": "Scripted",
+          "episode_count": 52,
+          "season_count": 2,
+          "creators": [
+            {
+              "id": 196178,
+              "name": "Mark Shirrefs"
+            },
+            {
+              "id": 1224718,
+              "name": "John Thomson"
+            }
+          ],
+          "directors": [],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "1995-01-09",
+              "episode_count": 26
+            },
+            {
+              "season_number": 2,
+              "title": "Season 2",
+              "air_date": "1997-09-01",
+              "episode_count": 26
+            }
+          ],
+          "poster_path": "/loc9hb3ybciLZNmDzvWMJSFmJ0E.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1457",
+      "title": "Сердца трёх 2",
+      "director": "Попков Владимир",
+      "year": 1993,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "search_titles": [
+        "Сердца трех 2",
+        "Сердца трёх 2"
+      ],
+      "search_movies": true,
+      "candidates": []
+    },
+    {
+      "source_rows": "1479",
+      "title": "Сердца трёх (мини-сериал)",
+      "director": "Попков Владимир",
+      "year": 1992,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 65923,
+          "title": "The Hearts of Three",
+          "original_title": "Сердца трёх",
+          "release_date": "1992-10-01",
+          "imdb_id": "tt0963997",
+          "original_language": "ru",
+          "series_type": "Miniseries",
+          "episode_count": 5,
+          "season_count": 1,
+          "creators": [
+            {
+              "id": 239125,
+              "name": "Vladimir Popkov"
+            }
+          ],
+          "directors": [
+            {
+              "id": 239125,
+              "name": "Vladimir Popkov"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "1992-10-01",
+              "episode_count": 5
+            }
+          ],
+          "poster_path": "/jjVJPQMmDNLqxDt3ZWSnZUawjCe.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1517",
+      "title": "Твин Пикс (сериал)",
+      "director": "Линч Дэвид",
+      "year": 1990,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 1920,
+          "title": "Twin Peaks",
+          "original_title": "Twin Peaks",
+          "release_date": "1990-04-08",
+          "imdb_id": "tt0098936",
+          "original_language": "en",
+          "series_type": "Scripted",
+          "episode_count": 48,
+          "season_count": 3,
+          "creators": [
+            {
+              "id": 58837,
+              "name": "Mark Frost"
+            },
+            {
+              "id": 5602,
+              "name": "David Lynch"
+            }
+          ],
+          "directors": [
+            {
+              "id": 5602,
+              "name": "David Lynch"
+            },
+            {
+              "id": 15798,
+              "name": "Lesli Linka Glatter"
+            },
+            {
+              "id": 8750,
+              "name": "Caleb Deschanel"
+            },
+            {
+              "id": 6592,
+              "name": "Duwayne Dunham"
+            },
+            {
+              "id": 15858,
+              "name": "Tim Hunter"
+            },
+            {
+              "id": 1213162,
+              "name": "Todd Holland"
+            },
+            {
+              "id": 1077195,
+              "name": "Tina Rathborne"
+            },
+            {
+              "id": 15868,
+              "name": "Uli Edel"
+            },
+            {
+              "id": 13488,
+              "name": "Graeme Clifford"
+            },
+            {
+              "id": 15890,
+              "name": "James Foley"
+            },
+            {
+              "id": 15901,
+              "name": "Jonathan Sanger"
+            },
+            {
+              "id": 15912,
+              "name": "Stephen Gyllenhaal"
+            },
+            {
+              "id": 58837,
+              "name": "Mark Frost"
+            },
+            {
+              "id": 3092,
+              "name": "Diane Keaton"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "1990-04-08",
+              "episode_count": 8
+            },
+            {
+              "season_number": 2,
+              "title": "Season 2",
+              "air_date": "1990-09-30",
+              "episode_count": 22
+            },
+            {
+              "season_number": 3,
+              "title": "The Return",
+              "air_date": "2017-05-21",
+              "episode_count": 18
+            }
+          ],
+          "poster_path": "/lA9CNSdo50iQPZ8A2fyVpMvJZAf.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1532",
+      "title": "Декалог",
+      "director": "Кесьлёвский Кшиштоф",
+      "year": 1989,
+      "legacy_media_type": "movie",
+      "legacy_tmdb_id": 118665,
+      "tv_id_hint": 42699,
+      "imdb_id_hint": "tt0092337",
+      "candidates": [
+        {
+          "media_type": "movie",
+          "tmdb_id": 118665,
+          "title": "Decalogue V",
+          "original_title": "Dekalog, pięć",
+          "release_date": "1989-09-06",
+          "imdb_id": "tt0094987",
+          "original_language": "pl",
+          "series_type": null,
+          "episode_count": null,
+          "season_count": null,
+          "creators": [],
+          "directors": [
+            {
+              "id": 1126,
+              "name": "Krzysztof Kieślowski"
+            }
+          ],
+          "seasons": [],
+          "poster_path": "/tZktBR66C8WIJHJkqMlj6MgowDK.jpg",
+          "lookup_routes": [
+            "legacy_candidate"
+          ]
+        },
+        {
+          "media_type": "tv",
+          "tmdb_id": 42699,
+          "title": "Dekalog",
+          "original_title": "Dekalog",
+          "release_date": "1989-12-10",
+          "imdb_id": "tt0092337",
+          "original_language": "pl",
+          "series_type": "Miniseries",
+          "episode_count": 10,
+          "season_count": 1,
+          "creators": [],
+          "directors": [
+            {
+              "id": 1126,
+              "name": "Krzysztof Kieślowski"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Miniseries",
+              "air_date": "1989-12-10",
+              "episode_count": 10
+            }
+          ],
+          "poster_path": "/16BknQDA9XzguaFr5nO1JyHaVBb.jpg",
+          "lookup_routes": [
+            "public_tv_hint",
+            "imdb_lookup",
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1570",
+      "title": "Гардемарины, вперед!",
+      "director": "Дружинина Светлана",
+      "year": 1987,
+      "legacy_media_type": "tv",
+      "legacy_tmdb_id": 43090,
+      "tv_id_hint": null,
+      "imdb_id_hint": "tt0125111",
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 43090,
+          "title": "Naval Cadets, Charge!",
+          "original_title": "Гардемарины, вперёд!",
+          "release_date": "1988-01-01",
+          "imdb_id": "tt0125111",
+          "original_language": "ru",
+          "series_type": "Scripted",
+          "episode_count": 4,
+          "season_count": 1,
+          "creators": [],
+          "directors": [
+            {
+              "id": 86895,
+              "name": "Svetlana Druzhinina"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "1988-01-01",
+              "episode_count": 4
+            }
+          ],
+          "poster_path": "/s8HucykFaEdO9iGwGnQUtOVNnxv.jpg",
+          "lookup_routes": [
+            "legacy_candidate",
+            "imdb_lookup",
+            "title_year_search"
+          ]
+        },
+        {
+          "media_type": "movie",
+          "tmdb_id": 63536,
+          "title": "Naval Cadets, Charge!",
+          "original_title": "Гардемарины, вперед!",
+          "release_date": "1988-06-06",
+          "imdb_id": "tt0125111",
+          "original_language": "ru",
+          "series_type": null,
+          "episode_count": null,
+          "season_count": null,
+          "creators": [],
+          "directors": [
+            {
+              "id": 86895,
+              "name": "Svetlana Druzhinina"
+            }
+          ],
+          "seasons": [],
+          "poster_path": "/aILrAI1k6c3tCaQYUX2bClvMSdI.jpg",
+          "lookup_routes": [
+            "imdb_lookup"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1595",
+      "title": "Шерлок Холмс и доктор Ватсон: Двадцатый век начинается",
+      "director": "Масленников Игорь",
+      "year": 1986,
+      "legacy_media_type": "movie",
+      "legacy_tmdb_id": 126868,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "movie",
+          "tmdb_id": 126868,
+          "title": "The Adventures of Sherlock Holmes and Dr. Watson: The Twentieth Century Begins - Part 2",
+          "original_title": "Приключения Шерлока Холмса и доктора Ватсона: Двадцатый век начинается. Часть 2",
+          "release_date": "1988-03-13",
+          "imdb_id": "tt6245582",
+          "original_language": "ru",
+          "series_type": null,
+          "episode_count": null,
+          "season_count": null,
+          "creators": [],
+          "directors": [
+            {
+              "id": 240351,
+              "name": "Igor Maslennikov"
+            }
+          ],
+          "seasons": [],
+          "poster_path": "/wedNiWBLOtGVNtJzE64w18AH45U.jpg",
+          "lookup_routes": [
+            "legacy_candidate"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1607",
+      "title": "В поисках капитана Гранта (мини-сериал)",
+      "director": "Говорухин Станислав",
+      "year": 1985,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 65484,
+          "title": "In Search of Captain Grant",
+          "original_title": "В поисках капитана Гранта",
+          "release_date": "1985-05-13",
+          "imdb_id": "tt0088635",
+          "original_language": "ru",
+          "series_type": "Miniseries",
+          "episode_count": 7,
+          "season_count": 1,
+          "creators": [],
+          "directors": [
+            {
+              "id": 39787,
+              "name": "Stanislav Govorukhin"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Miniseries",
+              "air_date": "1985-05-13",
+              "episode_count": 7
+            }
+          ],
+          "poster_path": "/8BDG6C7cYWYJvL6GpkMjpc5NOfL.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1618",
+      "title": "Гостья из будущего (мини-сериал)",
+      "director": "Арсенов Павел",
+      "year": 1984,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": "tt0086723",
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 5904,
+          "title": "Guest from the Future",
+          "original_title": "Гостья из будущего",
+          "release_date": "1985-03-25",
+          "imdb_id": "tt0086723",
+          "original_language": "ru",
+          "series_type": "Miniseries",
+          "episode_count": 5,
+          "season_count": 1,
+          "creators": [],
+          "directors": [
+            {
+              "id": 239729,
+              "name": "Pavel Arsenov"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "1985-03-25",
+              "episode_count": 5
+            }
+          ],
+          "poster_path": "/ahjecMDcBkcxxaKqsH66sJwapAC.jpg",
+          "lookup_routes": [
+            "imdb_lookup",
+            "title_year_search"
+          ]
+        },
+        {
+          "media_type": "movie",
+          "tmdb_id": 20894,
+          "title": "Guest from the Future",
+          "original_title": "Гостья из будущего",
+          "release_date": "1984-07-07",
+          "imdb_id": "tt0086723",
+          "original_language": "ru",
+          "series_type": null,
+          "episode_count": null,
+          "season_count": null,
+          "creators": [],
+          "directors": [
+            {
+              "id": 239729,
+              "name": "Pavel Arsenov"
+            }
+          ],
+          "seasons": [],
+          "poster_path": "/nAYREETmvDPPf3nZJDmMdANyGWp.jpg",
+          "lookup_routes": [
+            "imdb_lookup"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1624",
+      "title": "Возвращение блудного попугая (мини-сериал)",
+      "director": "Давыдов Александр, Караваев Валентин",
+      "year": 1984,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 99974,
+          "title": "The Return of the Prodigal Parrot",
+          "original_title": "Возвращение блудного попугая",
+          "release_date": "1984-10-07",
+          "imdb_id": "tt0212593",
+          "original_language": "ru",
+          "series_type": "Scripted",
+          "episode_count": 8,
+          "season_count": 1,
+          "creators": [
+            {
+              "id": 1118734,
+              "name": "Valentin Karavaev"
+            },
+            {
+              "id": 1239748,
+              "name": "Aleksandr Kurlyandskiy"
+            }
+          ],
+          "directors": [
+            {
+              "id": 1118734,
+              "name": "Valentin Karavaev"
+            },
+            {
+              "id": 1076753,
+              "name": "Aleksandr Davydov"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "1984-10-07",
+              "episode_count": 8
+            }
+          ],
+          "poster_path": "/czgoSWHdBmXq1zyvVop2mF5YPO0.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1625",
+      "title": "Спрут (мини-сериал)",
+      "director": "Дамиани Дамиано",
+      "year": 1984,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 12822,
+          "title": "The Octopus",
+          "original_title": "La Piovra",
+          "release_date": "1984-03-11",
+          "imdb_id": "tt0086779",
+          "original_language": "it",
+          "series_type": "Scripted",
+          "episode_count": 48,
+          "season_count": 10,
+          "creators": [
+            {
+              "id": 50933,
+              "name": "Nicola Badalucco"
+            },
+            {
+              "id": 239904,
+              "name": "Lucio Battistrada"
+            }
+          ],
+          "directors": [
+            {
+              "id": 1068835,
+              "name": "Luigi Perelli"
+            },
+            {
+              "id": 35256,
+              "name": "Damiano Damiani"
+            },
+            {
+              "id": 234731,
+              "name": "Florestano Vancini"
+            },
+            {
+              "id": 234495,
+              "name": "Giacomo Battiato"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "1984-03-11",
+              "episode_count": 6
+            },
+            {
+              "season_number": 2,
+              "title": "Season 2",
+              "air_date": "1986-01-12",
+              "episode_count": 6
+            },
+            {
+              "season_number": 3,
+              "title": "Season 3",
+              "air_date": "1987-04-05",
+              "episode_count": 7
+            },
+            {
+              "season_number": 4,
+              "title": "Season 4",
+              "air_date": "1989-03-05",
+              "episode_count": 6
+            },
+            {
+              "season_number": 5,
+              "title": "Season 5",
+              "air_date": "1990-08-14",
+              "episode_count": 5
+            },
+            {
+              "season_number": 6,
+              "title": "Season 6",
+              "air_date": "1992-11-30",
+              "episode_count": 6
+            },
+            {
+              "season_number": 7,
+              "title": "Season 7",
+              "air_date": "1995-03-05",
+              "episode_count": 6
+            },
+            {
+              "season_number": 8,
+              "title": "Season 8",
+              "air_date": "1997-10-05",
+              "episode_count": 2
+            },
+            {
+              "season_number": 9,
+              "title": "Season 9",
+              "air_date": "1998-03-09",
+              "episode_count": 2
+            },
+            {
+              "season_number": 10,
+              "title": "Season 10",
+              "air_date": "2001-01-10",
+              "episode_count": 2
+            }
+          ],
+          "poster_path": "/2gLLftWX1ecorSXq2jBMosQAcKx.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1639",
+      "title": "Доктор Айболит (мультсериал)",
+      "director": "Черкасский Давид",
+      "year": 1984,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": "tt0218940",
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 69135,
+          "title": "Doctor Aybolit",
+          "original_title": "Доктор Айболит",
+          "release_date": "1984-01-01",
+          "imdb_id": "tt0218940",
+          "original_language": "ru",
+          "series_type": "Scripted",
+          "episode_count": 7,
+          "season_count": 1,
+          "creators": [
+            {
+              "id": 142228,
+              "name": "Davyd Cherkaskyi"
+            }
+          ],
+          "directors": [
+            {
+              "id": 142228,
+              "name": "Davyd Cherkaskyi"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "1984-01-01",
+              "episode_count": 7
+            }
+          ],
+          "poster_path": "/tJSYMc6zOHiNNE0RUlf5BS6jl1P.jpg",
+          "lookup_routes": [
+            "imdb_lookup",
+            "title_year_search"
+          ]
+        },
+        {
+          "media_type": "movie",
+          "tmdb_id": 198951,
+          "title": "Doctor Aybolit",
+          "original_title": "Доктор Айболит",
+          "release_date": "1986-06-06",
+          "imdb_id": "tt0218940",
+          "original_language": "ru",
+          "series_type": null,
+          "episode_count": null,
+          "season_count": null,
+          "creators": [],
+          "directors": [
+            {
+              "id": 142228,
+              "name": "Davyd Cherkaskyi"
+            }
+          ],
+          "seasons": [],
+          "poster_path": "/A5SgsexwvAMed07n8hclAIxQnic.jpg",
+          "lookup_routes": [
+            "imdb_lookup"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1656",
+      "title": "Шерлок Холмс и доктор Ватсон: Сокровища Агры",
+      "director": "Масленников Игорь",
+      "year": 1983,
+      "legacy_media_type": "movie",
+      "legacy_tmdb_id": 126395,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "movie",
+          "tmdb_id": 126395,
+          "title": "The Adventures of Sherlock Holmes and Dr. Watson: The Treasures of Agra - Part 1",
+          "original_title": "Приключения Шерлока Холмса и доктора Ватсона: Сокровища Агры. Часть 1",
+          "release_date": "1983-06-25",
+          "imdb_id": "tt6256870",
+          "original_language": "ru",
+          "series_type": null,
+          "episode_count": null,
+          "season_count": null,
+          "creators": [],
+          "directors": [
+            {
+              "id": 240351,
+              "name": "Igor Maslennikov"
+            }
+          ],
+          "seasons": [],
+          "poster_path": "/hCPEC1WFrhNzPLeUWQ03mZHeSLT.jpg",
+          "lookup_routes": [
+            "legacy_candidate"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1690",
+      "title": "Шерлок Холмс и доктор Ватсон: Собака Баскервилей",
+      "director": "Масленников Игорь",
+      "year": 1981,
+      "legacy_media_type": "movie",
+      "legacy_tmdb_id": 84254,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "movie",
+          "tmdb_id": 84254,
+          "title": "The Adventures of Sherlock Holmes and Dr. Watson: The Hound of the Baskervilles - Part 1",
+          "original_title": "Приключения Шерлока Холмса и доктора Ватсона: Собака Баскервилей. Часть 1",
+          "release_date": "1981-07-25",
+          "imdb_id": "tt0083100",
+          "original_language": "ru",
+          "series_type": null,
+          "episode_count": null,
+          "season_count": null,
+          "creators": [],
+          "directors": [
+            {
+              "id": 240351,
+              "name": "Igor Maslennikov"
+            }
+          ],
+          "seasons": [],
+          "poster_path": "/5W1OR1Tv7JAbphYNYrUgWvkL24I.jpg",
+          "lookup_routes": [
+            "legacy_candidate"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1710",
+      "title": "Шерлок Холмс и доктор Ватсон: Смертельная схватка",
+      "director": "Масленников Игорь",
+      "year": 1980,
+      "legacy_media_type": "movie",
+      "legacy_tmdb_id": 126850,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "movie",
+          "tmdb_id": 126850,
+          "title": "The Adventures of Sherlock Holmes and Dr. Watson: Mortal Fight",
+          "original_title": "Приключения Шерлока Холмса и доктора Ватсона: Смертельная схватка",
+          "release_date": "1980-09-09",
+          "imdb_id": "tt0229922",
+          "original_language": "ru",
+          "series_type": null,
+          "episode_count": null,
+          "season_count": null,
+          "creators": [],
+          "directors": [
+            {
+              "id": 240351,
+              "name": "Igor Maslennikov"
+            }
+          ],
+          "seasons": [],
+          "poster_path": "/zHCBBn2asb00aOOfzsThnuCIzun.jpg",
+          "lookup_routes": [
+            "legacy_candidate"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1711",
+      "title": "Шерлок Холмс и доктор Ватсон: Король шантажа",
+      "director": "Масленников Игорь",
+      "year": 1980,
+      "legacy_media_type": "movie",
+      "legacy_tmdb_id": 126846,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "movie",
+          "tmdb_id": 126846,
+          "title": "The Adventures of Sherlock Holmes and Dr. Watson: King of Blackmailers",
+          "original_title": "Приключения Шерлока Холмса и доктора Ватсона: Король шантажа",
+          "release_date": "1980-09-08",
+          "imdb_id": "tt0459944",
+          "original_language": "ru",
+          "series_type": null,
+          "episode_count": null,
+          "season_count": null,
+          "creators": [],
+          "directors": [
+            {
+              "id": 240351,
+              "name": "Igor Maslennikov"
+            }
+          ],
+          "seasons": [],
+          "poster_path": "/uSVz0PDiOpwMN475oVcNz7vB4W0.jpg",
+          "lookup_routes": [
+            "legacy_candidate"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1712",
+      "title": "Шерлок Холмс и доктор Ватсон: Охота на тигра",
+      "director": "Масленников Игорь",
+      "year": 1980,
+      "legacy_media_type": "movie",
+      "legacy_tmdb_id": 126854,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "movie",
+          "tmdb_id": 126854,
+          "title": "The Adventures of Sherlock Holmes and Dr. Watson: Hunting the Tiger",
+          "original_title": "Приключения Шерлока Холмса и доктора Ватсона: Охота на тигра",
+          "release_date": "1980-09-10",
+          "imdb_id": "tt0459945",
+          "original_language": "ru",
+          "series_type": null,
+          "episode_count": null,
+          "season_count": null,
+          "creators": [],
+          "directors": [
+            {
+              "id": 240351,
+              "name": "Igor Maslennikov"
+            }
+          ],
+          "seasons": [],
+          "poster_path": "/iEduiYp2RCIUOhLEUjHp8XChKFb.jpg",
+          "lookup_routes": [
+            "legacy_candidate"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1716",
+      "title": "Берлин, Александерплац (мини-сериал)",
+      "director": "Фассбиндер Райнер Вернер",
+      "year": 1980,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 43189,
+          "title": "Berlin Alexanderplatz",
+          "original_title": "Berlin Alexanderplatz",
+          "release_date": "1980-10-12",
+          "imdb_id": "tt0080196",
+          "original_language": "de",
+          "series_type": "Scripted",
+          "episode_count": 14,
+          "season_count": 1,
+          "creators": [
+            {
+              "id": 2725,
+              "name": "Rainer Werner Fassbinder"
+            }
+          ],
+          "directors": [
+            {
+              "id": 2725,
+              "name": "Rainer Werner Fassbinder"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Limited Series",
+              "air_date": "1980-10-12",
+              "episode_count": 14
+            }
+          ],
+          "poster_path": "/A7g70KrSxtNl2BmFJQbPZXG5ZLd.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1722",
+      "title": "Приключения Электроника (мини-сериал)",
+      "director": "Бромберг Константин",
+      "year": 1979,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 65518,
+          "title": "The Adventures of the Electronic",
+          "original_title": "Приключения Электроника",
+          "release_date": "1980-05-02",
+          "imdb_id": "tt0078673",
+          "original_language": "ru",
+          "series_type": "Miniseries",
+          "episode_count": 3,
+          "season_count": 1,
+          "creators": [],
+          "directors": [
+            {
+              "id": 127397,
+              "name": "Konstantin Bromberg"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "1980-05-02",
+              "episode_count": 3
+            }
+          ],
+          "poster_path": "/oTirPHlqh2TDmT7dsqeOfHXtmR.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1724",
+      "title": "Место встречи изменить нельзя (мини-сериал)",
+      "director": "Говорухин Станислав",
+      "year": 1979,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 75182,
+          "title": "The Meeting Place Cannot Be Changed",
+          "original_title": "Место встречи изменить нельзя",
+          "release_date": "1979-11-11",
+          "imdb_id": "tt0078655",
+          "original_language": "ru",
+          "series_type": "Miniseries",
+          "episode_count": 5,
+          "season_count": 1,
+          "creators": [
+            {
+              "id": 39787,
+              "name": "Stanislav Govorukhin"
+            }
+          ],
+          "directors": [
+            {
+              "id": 39787,
+              "name": "Stanislav Govorukhin"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Miniseries",
+              "air_date": "1979-11-11",
+              "episode_count": 5
+            }
+          ],
+          "poster_path": "/pfzPMCnWbLsfQd1T5DDFP5OpE9v.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1742",
+      "title": "Д`Артаньян и три мушкетера",
+      "director": "Юнгвальд-Хилькевич Георгий",
+      "year": 1979,
+      "legacy_media_type": "tv",
+      "legacy_tmdb_id": 76829,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 76829,
+          "title": "D'Artagnan and Three Musketeers",
+          "original_title": "Д’Артаньян и три мушкетера",
+          "release_date": "1979-12-25",
+          "imdb_id": "tt0076998",
+          "original_language": "ru",
+          "series_type": "Miniseries",
+          "episode_count": 3,
+          "season_count": 1,
+          "creators": [
+            {
+              "id": 128302,
+              "name": "Georgi Yungvald-Khilkevich"
+            }
+          ],
+          "directors": [
+            {
+              "id": 128302,
+              "name": "Georgi Yungvald-Khilkevich"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Miniseries",
+              "air_date": "1979-12-25",
+              "episode_count": 3
+            }
+          ],
+          "poster_path": "/suMh5FvfImCMN3RjWNEUttpFOJ4.jpg",
+          "lookup_routes": [
+            "legacy_candidate",
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1771",
+      "title": "12 стульев (мини-сериал)",
+      "director": "Захаров Марк",
+      "year": 1976,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 44210,
+          "title": "The Twelve Chairs",
+          "original_title": "12 стульев",
+          "release_date": "1977-01-02",
+          "imdb_id": "tt0075468",
+          "original_language": "ru",
+          "series_type": "Miniseries",
+          "episode_count": 4,
+          "season_count": 1,
+          "creators": [
+            {
+              "id": 99280,
+              "name": "Mark Zakharov"
+            }
+          ],
+          "directors": [
+            {
+              "id": 99280,
+              "name": "Mark Zakharov"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Miniseries",
+              "air_date": "1977-01-02",
+              "episode_count": 4
+            }
+          ],
+          "poster_path": "/yB4x1IFqEIgdGdpigGuPtIhTHrP.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1780",
+      "title": "Приключения капитана Врунгеля (мультсериал)",
+      "director": "Черкасский Давид",
+      "year": 1976,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": "tt0219263",
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 80706,
+          "title": "Adventures of Captain Vrungel",
+          "original_title": "Приключения капитана Врунгеля",
+          "release_date": "1980-03-24",
+          "imdb_id": "tt0219263",
+          "original_language": "ru",
+          "series_type": "Scripted",
+          "episode_count": 13,
+          "season_count": 1,
+          "creators": [],
+          "directors": [
+            {
+              "id": 142228,
+              "name": "Davyd Cherkaskyi"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "1980-03-24",
+              "episode_count": 13
+            }
+          ],
+          "poster_path": "/nPUmE2C9EwMrlZhTVOTHSsiSVUp.jpg",
+          "lookup_routes": [
+            "imdb_lookup"
+          ]
+        },
+        {
+          "media_type": "movie",
+          "tmdb_id": 74535,
+          "title": "Adventures of Captain Vrungel",
+          "original_title": "Приключения капитана Врунгеля",
+          "release_date": "1980-03-24",
+          "imdb_id": "tt0219263",
+          "original_language": "ru",
+          "series_type": null,
+          "episode_count": null,
+          "season_count": null,
+          "creators": [],
+          "directors": [
+            {
+              "id": 142228,
+              "name": "Davyd Cherkaskyi"
+            }
+          ],
+          "seasons": [],
+          "poster_path": "/mTKUENSIX7Ylam8XTHw05Ec67Uw.jpg",
+          "lookup_routes": [
+            "imdb_lookup"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1793",
+      "title": "Приключения Буратино",
+      "director": "Нечаев Леонид",
+      "year": 1975,
+      "legacy_media_type": "tv",
+      "legacy_tmdb_id": 279648,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 279648,
+          "title": "The Adventures of Buratino",
+          "original_title": "Приключения Буратино",
+          "release_date": "1975-12-31",
+          "imdb_id": "tt0073570",
+          "original_language": "ru",
+          "series_type": "Miniseries",
+          "episode_count": 2,
+          "season_count": 1,
+          "creators": [],
+          "directors": [
+            {
+              "id": 98837,
+              "name": "Leonid Nechayev"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "1975-12-31",
+              "episode_count": 2
+            }
+          ],
+          "poster_path": "/wnfBuPp7w1yEIJGX0LuHM4qGlud.jpg",
+          "lookup_routes": [
+            "legacy_candidate",
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1796",
+      "title": "Приключения кота Леопольда (сериал)",
+      "director": "Резников Анатолий",
+      "year": 1975,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 43624,
+          "title": "Leopold the Cat",
+          "original_title": "Приключения кота Леопольда",
+          "release_date": "1975-03-12",
+          "imdb_id": "tt1074757",
+          "original_language": "ru",
+          "series_type": "Scripted",
+          "episode_count": 11,
+          "season_count": 1,
+          "creators": [
+            {
+              "id": 1627825,
+              "name": "Arkadiy Khayt"
+            }
+          ],
+          "directors": [
+            {
+              "id": 1327672,
+              "name": "Anatoliy Reznikov"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "1975-03-12",
+              "episode_count": 11
+            }
+          ],
+          "poster_path": "/s3lyiTdbo3v2WXHuIK7GPqv8Ki1.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1809",
+      "title": "Бронзовая птица (мини-сериал)",
+      "director": "Калинин Николай",
+      "year": 1974,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 308436,
+          "title": "The Bronze Bird",
+          "original_title": "Бронзовая птица",
+          "release_date": "1975-01-02",
+          "imdb_id": "tt0281423",
+          "original_language": "ru",
+          "series_type": "Miniseries",
+          "episode_count": 3,
+          "season_count": 1,
+          "creators": [],
+          "directors": [
+            {
+              "id": 581106,
+              "name": "Nikolai Kalinin"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "1975-01-02",
+              "episode_count": 3
+            }
+          ],
+          "poster_path": "/snTTE0K88D4QRDmcK05O9gr16YR.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1824",
+      "title": "Сцены из супружеской жизни",
+      "director": "Бергман Ингмар",
+      "year": 1973,
+      "legacy_media_type": "tv",
+      "legacy_tmdb_id": 65170,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 65170,
+          "title": "Scenes from a Marriage",
+          "original_title": "Scener ur ett äktenskap",
+          "release_date": "1973-04-11",
+          "imdb_id": "tt0070644",
+          "original_language": "sv",
+          "series_type": "Miniseries",
+          "episode_count": 6,
+          "season_count": 1,
+          "creators": [
+            {
+              "id": 6648,
+              "name": "Ingmar Bergman"
+            }
+          ],
+          "directors": [
+            {
+              "id": 6648,
+              "name": "Ingmar Bergman"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Miniseries",
+              "air_date": "1973-04-10",
+              "episode_count": 6
+            }
+          ],
+          "poster_path": "/7emUsAq0IUDC2b2bcyHh60rI7Kx.jpg",
+          "lookup_routes": [
+            "legacy_candidate",
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1832",
+      "title": "Кортик (мини-сериал)",
+      "director": "Калинин Николай",
+      "year": 1973,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 308435,
+          "title": "Kortik",
+          "original_title": "Кортик",
+          "release_date": "1974-06-04",
+          "imdb_id": "tt0069600",
+          "original_language": "ru",
+          "series_type": "Miniseries",
+          "episode_count": 3,
+          "season_count": 1,
+          "creators": [],
+          "directors": [
+            {
+              "id": 581106,
+              "name": "Nikolai Kalinin"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "1974-06-04",
+              "episode_count": 3
+            }
+          ],
+          "poster_path": "/cvz1oNZ9LJDxxZbTSgWTQBhu94b.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1834",
+      "title": "Приключения Мюнхгаузена (мультсериал)",
+      "director": "Лернер Натан, Солин Анатолий",
+      "year": 1973,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 72562,
+          "title": "The Adventures of Munchausen",
+          "original_title": "Приключения Мюнхаузена",
+          "release_date": "1973-01-01",
+          "imdb_id": "tt0381507",
+          "original_language": "ru",
+          "series_type": "Scripted",
+          "episode_count": 5,
+          "season_count": 2,
+          "creators": [
+            {
+              "id": 1840004,
+              "name": "Roman Sef"
+            }
+          ],
+          "directors": [
+            {
+              "id": 1554497,
+              "name": "Anatoliy Solin"
+            },
+            {
+              "id": 1204585,
+              "name": "Natan Lerner"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "1973-01-01",
+              "episode_count": 4
+            },
+            {
+              "season_number": 2,
+              "title": "Season 2",
+              "air_date": "1995-01-01",
+              "episode_count": 1
+            }
+          ],
+          "poster_path": "/u07dZ9tCma1nql1D2GJImgjGiBo.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1853",
+      "title": "Большая перемена (мини-сериал)",
+      "director": "Коренев Алексей",
+      "year": 1972,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": "tt0068304",
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 85252,
+          "title": "The Long Recess",
+          "original_title": "Большая перемена",
+          "release_date": "1973-04-29",
+          "imdb_id": "tt0068304",
+          "original_language": "ru",
+          "series_type": "Miniseries",
+          "episode_count": 4,
+          "season_count": 1,
+          "creators": [
+            {
+              "id": 237275,
+              "name": "Aleksei Korenev"
+            },
+            {
+              "id": 1330435,
+              "name": "Georgi Sadovnikov"
+            }
+          ],
+          "directors": [
+            {
+              "id": 1130360,
+              "name": "Anatoliy Mukasey"
+            },
+            {
+              "id": 237275,
+              "name": "Aleksei Korenev"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "1973-04-29",
+              "episode_count": 4
+            }
+          ],
+          "poster_path": "/mFRkEcH9vaSqXeoq02nOeZwhfrh.jpg",
+          "lookup_routes": [
+            "imdb_lookup",
+            "title_year_search"
+          ]
+        },
+        {
+          "media_type": "movie",
+          "tmdb_id": 75262,
+          "title": "The Long Recess",
+          "original_title": "Большая перемена",
+          "release_date": "1972-06-06",
+          "imdb_id": "tt0068304",
+          "original_language": "ru",
+          "series_type": null,
+          "episode_count": null,
+          "season_count": null,
+          "creators": [],
+          "directors": [
+            {
+              "id": 237275,
+              "name": "Aleksei Korenev"
+            }
+          ],
+          "seasons": [],
+          "poster_path": "/cp2ixGFZadxL9RC3rCQk5OHmXEo.jpg",
+          "lookup_routes": [
+            "imdb_lookup"
+          ]
+        }
+      ]
+    },
+    {
+      "source_rows": "1895",
+      "title": "Ну, погоди! (мультсериал)",
+      "director": "Бутырин Юрий",
+      "year": 1969,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null,
+      "candidates": [
+        {
+          "media_type": "tv",
+          "tmdb_id": 6138,
+          "title": "Well, Just You Wait!",
+          "original_title": "Ну, погоди!",
+          "release_date": "1969-06-14",
+          "imdb_id": "tt0234355",
+          "original_language": "ru",
+          "series_type": "Scripted",
+          "episode_count": 20,
+          "season_count": 1,
+          "creators": [
+            {
+              "id": 1627825,
+              "name": "Arkadiy Khayt"
+            },
+            {
+              "id": 1239748,
+              "name": "Aleksandr Kurlyandskiy"
+            },
+            {
+              "id": 1239746,
+              "name": "Felix Kandel"
+            }
+          ],
+          "directors": [
+            {
+              "id": 630423,
+              "name": "Vyacheslav Kotyonochkin"
+            }
+          ],
+          "seasons": [
+            {
+              "season_number": 1,
+              "title": "Season 1",
+              "air_date": "1969-06-14",
+              "episode_count": 20
+            }
+          ],
+          "poster_path": "/evPwhhd8nnlLEaKlj35HtWDPOLk.jpg",
+          "lookup_routes": [
+            "title_year_search"
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "endpoint": "movie/37452",
+      "status": 404
+    }
+  ],
+  "warning": "Live TMDB candidate metadata. No source-to-work or rating approval inferred. No Supabase access."
+}
