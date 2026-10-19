@@ -402,7 +402,7 @@
       "year": 1983,
       "legacy_media_type": "movie",
       "legacy_tmdb_id": 126395,
-      "tv_id_hint": null,
+      "tv_id_hint": 261323,
       "imdb_id_hint": "tt0086333",
       "search_movies": true,
       "search_titles": [
@@ -554,7 +554,7 @@
       "legacy_tmdb_id": 65170,
       "tv_id_hint": null,
       "imdb_id_hint": null,
-      "movie_id_hint": 5279,
+      "movie_id_hint": 133919,
       "search_movies": true,
       "search_titles": [
         "Сцены из супружеской жизни",
