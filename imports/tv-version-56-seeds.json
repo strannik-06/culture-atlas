@@ -1,0 +1,566 @@
+{
+  "base_commit": "e3316643f3aa5200afe5451710b8661a6f1b51bf",
+  "source": "Merged PR #88 deferred TV/version rows; no ratings or notes. Hints are candidates, not identity approval.",
+  "entries": [
+    {
+      "source_rows": "108",
+      "title": "Disclaimer (TV Series)",
+      "director": "Cuarón Alfonso",
+      "year": 2024,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": 147050,
+      "imdb_id_hint": "tt16294384"
+    },
+    {
+      "source_rows": "209",
+      "title": "Игра в кальмара",
+      "director": "Хван Дон-хёк",
+      "year": 2021,
+      "legacy_media_type": "tv",
+      "legacy_tmdb_id": 93405,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "228",
+      "title": "Ход королевы",
+      "director": "Фрэнк Скотт",
+      "year": 2020,
+      "legacy_media_type": "tv",
+      "legacy_tmdb_id": 87739,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "259",
+      "title": "Домашний арест (сериал)",
+      "director": "Буслов Петр",
+      "year": 2018,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": 81712,
+      "imdb_id_hint": "tt8968158"
+    },
+    {
+      "source_rows": "275",
+      "title": "Звоните ДиКаприо! (сериал)",
+      "director": "Крыжовников Жора",
+      "year": 2018,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": "tt9378362"
+    },
+    {
+      "source_rows": "306",
+      "title": "Маньяк (сериал)",
+      "director": "Фукунага Кэри",
+      "year": 2018,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": 73411,
+      "imdb_id_hint": "tt5580146"
+    },
+    {
+      "source_rows": "355",
+      "title": "Кризис в шести сценах (т/с)",
+      "director": "Аллен Вуди",
+      "year": 2016,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": "tt4354616"
+    },
+    {
+      "source_rows": "372",
+      "title": "Молодой Папа (мини-сериал)",
+      "director": "Соррентино Паоло",
+      "year": 2016,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": 62699,
+      "imdb_id_hint": "tt3655448"
+    },
+    {
+      "source_rows": "390",
+      "title": "Метод (сериал)",
+      "director": "Быков Юрий",
+      "year": 2015,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "511",
+      "title": "Шерлок Холмс (сериал)",
+      "director": "Кавун Андрей",
+      "year": 2013,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "559",
+      "title": "Кухня (сериал)",
+      "director": "Дьяченко Дмитрий",
+      "year": 2012,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "673",
+      "title": "Шерлок",
+      "director": "МакГиган Пол",
+      "year": 2010,
+      "legacy_media_type": "movie",
+      "legacy_tmdb_id": 43956,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "687",
+      "title": "Агент особого назначения (сериал)",
+      "director": "Статский Константин",
+      "year": 2010,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "843",
+      "title": "Блудливая Калифорния (сериал)",
+      "director": "Кэздан Джейк",
+      "year": 2007,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "890",
+      "title": "Наша Russia (сериал)",
+      "director": "Буслов Петр",
+      "year": 2006,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "952",
+      "title": "Мастер и Маргарита",
+      "director": "Бортко Владимир",
+      "year": 2005,
+      "legacy_media_type": "tv",
+      "legacy_tmdb_id": 6395,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "1057",
+      "title": "Идиот",
+      "director": "Бортко Владимир",
+      "year": 2003,
+      "legacy_media_type": "movie",
+      "legacy_tmdb_id": 1536386,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "1094",
+      "title": "Два с половиной человека (сериал)",
+      "director": "Цвик Джоэл",
+      "year": 2003,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "1143",
+      "title": "Бригада (сериал)",
+      "director": "Сидоров Алексей",
+      "year": 2002,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "1222",
+      "title": "Бандитский Петербург 2: Адвокат",
+      "director": "Бортко Владимир",
+      "year": 2000,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "1235",
+      "title": "Аттила-завоеватель",
+      "director": "Лоури Дик",
+      "year": 2000,
+      "legacy_media_type": "tv",
+      "legacy_tmdb_id": 16072,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "1276",
+      "title": "Незнайка на Луне 2",
+      "director": "Бутырин Юрий",
+      "year": 1999,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "1295",
+      "title": "Досье детектива Дубровского (сериал)",
+      "director": "Муратов Александр",
+      "year": 1999,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "1359",
+      "title": "Незнайка на Луне",
+      "director": "Бутырин Юрий",
+      "year": 1997,
+      "legacy_media_type": "tv",
+      "legacy_tmdb_id": 99952,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "1371",
+      "title": "Чародей: Страна Великого Дракона (сериал)",
+      "director": "Прайс Ноэль",
+      "year": 1997,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "1416",
+      "title": "Чародей (сериал)",
+      "director": "Прайс Ноэль",
+      "year": 1995,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "1457",
+      "title": "Сердца трёх 2",
+      "director": "Попков Владимир",
+      "year": 1993,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "1479",
+      "title": "Сердца трёх (мини-сериал)",
+      "director": "Попков Владимир",
+      "year": 1992,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "1517",
+      "title": "Твин Пикс (сериал)",
+      "director": "Линч Дэвид",
+      "year": 1990,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "1532",
+      "title": "Декалог",
+      "director": "Кесьлёвский Кшиштоф",
+      "year": 1989,
+      "legacy_media_type": "movie",
+      "legacy_tmdb_id": 118665,
+      "tv_id_hint": 42699,
+      "imdb_id_hint": "tt0092337"
+    },
+    {
+      "source_rows": "1570",
+      "title": "Гардемарины, вперед!",
+      "director": "Дружинина Светлана",
+      "year": 1987,
+      "legacy_media_type": "tv",
+      "legacy_tmdb_id": 43090,
+      "tv_id_hint": null,
+      "imdb_id_hint": "tt0125111"
+    },
+    {
+      "source_rows": "1595",
+      "title": "Шерлок Холмс и доктор Ватсон: Двадцатый век начинается",
+      "director": "Масленников Игорь",
+      "year": 1986,
+      "legacy_media_type": "movie",
+      "legacy_tmdb_id": 126868,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "1607",
+      "title": "В поисках капитана Гранта (мини-сериал)",
+      "director": "Говорухин Станислав",
+      "year": 1985,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "1618",
+      "title": "Гостья из будущего (мини-сериал)",
+      "director": "Арсенов Павел",
+      "year": 1984,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "1624",
+      "title": "Возвращение блудного попугая (мини-сериал)",
+      "director": "Давыдов Александр, Караваев Валентин",
+      "year": 1984,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "1625",
+      "title": "Спрут (мини-сериал)",
+      "director": "Дамиани Дамиано",
+      "year": 1984,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "1639",
+      "title": "Доктор Айболит (мультсериал)",
+      "director": "Черкасский Давид",
+      "year": 1984,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "1656",
+      "title": "Шерлок Холмс и доктор Ватсон: Сокровища Агры",
+      "director": "Масленников Игорь",
+      "year": 1983,
+      "legacy_media_type": "movie",
+      "legacy_tmdb_id": 126395,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "1690",
+      "title": "Шерлок Холмс и доктор Ватсон: Собака Баскервилей",
+      "director": "Масленников Игорь",
+      "year": 1981,
+      "legacy_media_type": "movie",
+      "legacy_tmdb_id": 84254,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "1710",
+      "title": "Шерлок Холмс и доктор Ватсон: Смертельная схватка",
+      "director": "Масленников Игорь",
+      "year": 1980,
+      "legacy_media_type": "movie",
+      "legacy_tmdb_id": 126850,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "1711",
+      "title": "Шерлок Холмс и доктор Ватсон: Король шантажа",
+      "director": "Масленников Игорь",
+      "year": 1980,
+      "legacy_media_type": "movie",
+      "legacy_tmdb_id": 126846,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "1712",
+      "title": "Шерлок Холмс и доктор Ватсон: Охота на тигра",
+      "director": "Масленников Игорь",
+      "year": 1980,
+      "legacy_media_type": "movie",
+      "legacy_tmdb_id": 126854,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "1716",
+      "title": "Берлин, Александерплац (мини-сериал)",
+      "director": "Фассбиндер Райнер Вернер",
+      "year": 1980,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "1722",
+      "title": "Приключения Электроника (мини-сериал)",
+      "director": "Бромберг Константин",
+      "year": 1979,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "1724",
+      "title": "Место встречи изменить нельзя (мини-сериал)",
+      "director": "Говорухин Станислав",
+      "year": 1979,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "1742",
+      "title": "Д`Артаньян и три мушкетера",
+      "director": "Юнгвальд-Хилькевич Георгий",
+      "year": 1979,
+      "legacy_media_type": "tv",
+      "legacy_tmdb_id": 76829,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "1771",
+      "title": "12 стульев (мини-сериал)",
+      "director": "Захаров Марк",
+      "year": 1976,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "1780",
+      "title": "Приключения капитана Врунгеля (мультсериал)",
+      "director": "Черкасский Давид",
+      "year": 1976,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "1793",
+      "title": "Приключения Буратино",
+      "director": "Нечаев Леонид",
+      "year": 1975,
+      "legacy_media_type": "tv",
+      "legacy_tmdb_id": 279648,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "1796",
+      "title": "Приключения кота Леопольда (сериал)",
+      "director": "Резников Анатолий",
+      "year": 1975,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "1809",
+      "title": "Бронзовая птица (мини-сериал)",
+      "director": "Калинин Николай",
+      "year": 1974,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "1824",
+      "title": "Сцены из супружеской жизни",
+      "director": "Бергман Ингмар",
+      "year": 1973,
+      "legacy_media_type": "tv",
+      "legacy_tmdb_id": 65170,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "1832",
+      "title": "Кортик (мини-сериал)",
+      "director": "Калинин Николай",
+      "year": 1973,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "1834",
+      "title": "Приключения Мюнхгаузена (мультсериал)",
+      "director": "Лернер Натан, Солин Анатолий",
+      "year": 1973,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "1853",
+      "title": "Большая перемена (мини-сериал)",
+      "director": "Коренев Алексей",
+      "year": 1972,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    },
+    {
+      "source_rows": "1895",
+      "title": "Ну, погоди! (мультсериал)",
+      "director": "Бутырин Юрий",
+      "year": 1969,
+      "legacy_media_type": "",
+      "legacy_tmdb_id": null,
+      "tv_id_hint": null,
+      "imdb_id_hint": null
+    }
+  ]
+}
