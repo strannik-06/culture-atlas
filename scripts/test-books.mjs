@@ -1,0 +1,177 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {PGlite} from '@electric-sql/pglite';
+import {Window} from 'happy-dom';
+
+const userA='00000000-0000-0000-0000-000000000001';
+const userB='00000000-0000-0000-0000-000000000002';
+const migration=await readFile(new URL('../supabase/migrations/20261019_books_search_ratings.sql',import.meta.url),'utf8');
+const source=await readFile(new URL('../books.js',import.meta.url),'utf8');
+const markup=await readFile(new URL('../index.html',import.meta.url),'utf8');
+const work={open_library_work_id:'/works/OL35708581W',title:'Orbital',authors:['Samantha Harvey'],first_publish_year:2023,cover_id:14541972};
+
+test('Postgres: atomic save, unique catalogue works, private notes, validation and role grants',async()=>{
+  const db=new PGlite();
+  try {
+    await db.exec(`create role anon;create role authenticated;create schema auth;
+      create table auth.users(id uuid primary key);
+      insert into auth.users values ('${userA}'),('${userB}');
+      create function auth.uid() returns uuid language sql stable as
+        $$ select nullif(current_setting('request.jwt.claim.sub',true),'')::uuid $$;
+      grant usage on schema auth to anon,authenticated;`);
+    await db.exec(migration);
+    await db.exec(migration); // repeat installation is safe
+    const save=(rating=8,format='kindle',notes='Private note',title='Orbital',id=work.open_library_work_id)=>db.query(
+      'select public.save_book_rating($1,$2,$3::text[],$4,$5,$6,$7,$8) as saved',
+      [id,title,work.authors,2023,work.cover_id,rating,format,notes]);
+    await db.exec(`set role anon`);
+    await assert.rejects(save(),/permission denied/);
+    await db.exec(`set role authenticated`);
+    await assert.rejects(save(),/Sign in/);
+    await db.query("select set_config('request.jwt.claim.sub',$1,false)",[userA]);
+    const first=(await save()).rows[0].saved;
+    assert.equal(first.progress.rating,8);
+    assert.equal(first.progress.user_id,userA);
+    assert.equal(first.book.title,'Orbital');
+    await save(8.5,'audio','Changed note','Untrusted new title');
+    assert.equal((await db.query('select count(*)::integer as n from public.books')).rows[0].n,1);
+    assert.equal((await db.query('select title from public.books')).rows[0].title,'Orbital');
+    const updated=(await db.query('select * from public.book_progress')).rows[0];
+    assert.equal(Number(updated.rating),8.5);assert.equal(updated.reading_format,'audio');assert.equal(updated.notes,'Changed note');
+    for(const rating of [0,10.5,7.25,null]) await assert.rejects(save(rating),/Choose a half-point/);
+    await assert.rejects(save(8,'paper'),/Choose a half-point/);
+    await assert.rejects(save(8,'kindle','x'.repeat(10001),'Bad','/works/OL999999W'),/Choose a half-point/);
+    assert.equal((await db.query('select count(*)::integer as n from public.books')).rows[0].n,1);
+    // Force the second insert to fail AFTER the catalogue insert: both roll back.
+    await db.exec('reset role; alter table public.book_progress add constraint test_forced_failure check (notes <> \'fail-after-book\'); set role authenticated;');
+    await assert.rejects(save(8,'audio','fail-after-book','Rollback work','/works/OL999999W'),/test_forced_failure/);
+    assert.equal((await db.query('select count(*)::integer as n from public.books')).rows[0].n,1);
+    await assert.rejects(db.query("insert into public.books(open_library_work_id,title,authors) values ('/works/OL1W','No',ARRAY['No'])"),/permission denied/);
+    await assert.rejects(db.query('update public.book_progress set notes=\'No\''),/permission denied/);
+    await db.query("select set_config('request.jwt.claim.sub',$1,false)",[userB]);
+    assert.equal((await db.query('select * from public.book_progress')).rows.length,0);
+    await save(6,'kindle','Other account');
+    assert.equal((await db.query('select * from public.book_progress')).rows.length,1);
+    assert.equal((await db.query('select count(*)::integer as n from public.books')).rows[0].n,1);
+    await db.query("select set_config('request.jwt.claim.sub',$1,false)",[userA]);
+    assert.equal((await db.query('select notes from public.book_progress')).rows[0].notes,'Changed note');
+  } finally { await db.close(); }
+});
+
+async function setup() {
+  const window=new Window({url:'https://example.test/culture-atlas/',settings:{disableCSSFileLoading:true,disableJavaScriptFileLoading:true,enableJavaScriptEvaluation:true}});
+  window.document.write(markup.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,''));
+  window.HTMLElement.prototype.scrollIntoView=()=>{};
+  const state={books:[],ratings:[],calls:[],fail:false,pending:null};
+  const client={from(table) {
+    let id;
+    const q={select(){return q;},order(){return q;},range(){return q;},in(){return q;},eq(_field,value){id=value;return q;},then(resolve,reject){return Promise.resolve({data:table==='books'?state.books:state.ratings.filter(r=>r.user_id===id),error:null}).then(resolve,reject);}};
+    return q;
+  },async rpc(name,payload){
+    state.calls.push({name,payload});
+    if(state.pending) await state.pending;
+    if(state.fail)return {error:{message:'Network unavailable'}};
+    const book={id:1,...work};
+    const p={book_id:1,user_id:userA,rating:payload.p_rating,reading_format:payload.p_format,notes:payload.p_notes,updated_at:new Date().toISOString()};
+    state.books=[book];state.ratings=[p];return {data:{book,progress:p},error:null};
+  }};
+  window.eval(source);
+  window.CultureBooks.init(client);
+  const $=id=>window.document.getElementById(id);
+  const flush=()=>new Promise(resolve=>setTimeout(resolve,10));
+  const submit=id=>$(id).dispatchEvent(new window.Event('submit',{bubbles:true,cancelable:true}));
+  return {window,state,$,flush,submit,client};
+}
+
+test('Books UI: search → select → save → edit; errors preserve form; sign-out clears private data',async()=>{
+  const {window,state,$,flush,submit}=await setup();
+  try {
+    await window.CultureBooks.setSession({id:userA});
+    window.document.querySelector('[data-section="books"]').click();
+    assert.equal($('cinema-area').hidden,true);assert.equal($('books-view').hidden,false);
+    assert.equal($('account').parentElement,window.document.body);
+    window.document.querySelector('[data-book-tab="search"]').click();
+    let fetches=0;
+    window.fetch=async()=>{fetches++;return {ok:true,json:async()=>({docs:[{key:work.open_library_work_id,title:work.title,author_name:work.authors,cover_i:work.cover_id,first_publish_year:2023},{key:'/books/OL1M',title:'Invalid edition',author_name:['No']}]})};};
+    $('book-query').value='Orbital Samantha Harvey';submit('book-search-form');await flush();
+    assert.equal($('book-search-results').querySelectorAll('article').length,1);
+    assert.equal(state.books.length,0);assert.equal(state.calls.length,0);
+    $('book-search-results').querySelector('button').click();
+    $('book-rating').value='8.5';$('book-format').value='audio';$('book-notes').value='<img src=x onerror=alert(1)>';
+    state.fail=true;submit('book-rating-form');await flush();
+    assert.equal($('book-editor').hidden,false);assert.match($('book-save-status').textContent,/Network unavailable/);
+    assert.equal($('book-notes').value,'<img src=x onerror=alert(1)>');
+    state.fail=false;submit('book-rating-form');await flush();
+    assert.equal($('book-editor').hidden,true);assert.equal(state.books.length,1);
+    assert.equal($('book-ratings-grid').querySelectorAll('article').length,1);
+    assert.equal($('book-ratings-grid').querySelector('.book-notes').textContent,'<img src=x onerror=alert(1)>');
+    assert.equal($('book-ratings-grid').querySelector('.book-notes img'),null);
+    assert.match($('book-ratings-grid').textContent,/8.5\/10/);assert.match($('book-ratings-grid').textContent,/Audio/);
+    $('book-ratings-grid').querySelector('button').click();
+    assert.equal($('book-rating').value,'8.5');assert.equal($('book-format').value,'audio');
+    $('book-rating').value='9';submit('book-rating-form');submit('book-rating-form');await flush();
+    assert.equal(state.calls.length,3); // failure + success + one edit, no double submit
+    await window.CultureBooks.setSession({id:userA});
+    assert.match($('book-ratings-grid').textContent,/9\/10/);
+    window.document.querySelector('[data-book-tab="search"]').click();submit('book-search-form');await flush();
+    assert.equal(fetches,1); // cached explicit repeat
+    $('book-search-results').querySelector('button').click();
+    await window.CultureBooks.setSession(null);
+    assert.equal($('book-editor').hidden,true);assert.equal($('book-notes').value,'');
+    assert.equal($('book-ratings-grid').querySelectorAll('article').length,0);
+    assert.doesNotMatch($('book-search-results').textContent,/Your rating/);
+    assert.equal(window.localStorage.length,0);
+    window.document.querySelector('[data-section="films"]').click();assert.equal($('cinema-area').hidden,false);
+  } finally { await window.happyDOM.close(); }
+});
+
+test('Full page boots with film scripts and shared Account menu still works under Books',async()=>{
+  const {window,$,flush,client}=await setup();
+  try {
+    // A fresh window is needed because the real inline app initializes Books.
+    const w=new Window({url:'https://example.test/culture-atlas/',settings:{disableCSSFileLoading:true,disableJavaScriptFileLoading:true,enableJavaScriptEvaluation:true}});
+    try {
+      w.document.write(markup.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,''));
+      w.HTMLElement.prototype.scrollIntoView=()=>{};
+      w.supabase={createClient:()=>({...client,auth:{onAuthStateChange(){},getSession:async()=>({data:{session:null}})}})};
+      for(const name of ['film-details.js','editorial-ratings.js','critic-reviews.js','films-2024.js','film-recognition.js','awards-2025.js','film-catalog.js','books.js']) w.eval(await readFile(new URL('../'+name,import.meta.url),'utf8'));
+      const inline=[...markup.matchAll(/<script>([\s\S]*?)<\/script>/g)].at(-1)[1];
+      w.eval(inline);await flush();
+      assert.equal(w.document.querySelectorAll('#grid article').length,100);
+      w.document.querySelector('[data-section="books"]').click();
+      w.document.getElementById('account-toggle').click();
+      assert.equal(w.document.getElementById('account').hidden,false);
+      w.document.querySelector('[data-section="films"]').click();
+      w.document.querySelector('[data-view="awards"]').click();
+      assert.equal(w.document.getElementById('awards-view').hidden,false);
+      assert.equal(w.document.getElementById('cinema-area').hidden,false);
+    } finally {await w.happyDOM.close();}
+  } finally {await window.happyDOM.close();}
+});
+
+test('Books UI: signed-out save, API failures and account changes during save never expose old notes',async()=>{
+  const {window,state,$,flush,submit}=await setup();
+  try {
+    await window.CultureBooks.setSession(null);
+    window.fetch=async()=>({ok:false,status:429});
+    $('book-query').value='Orbital';submit('book-search-form');await flush();
+    assert.match($('book-search-status').textContent,/busy/);
+    window.fetch=async()=>({ok:true,json:async()=>({docs:[]})});
+    submit('book-search-form');await flush();assert.match($('book-search-status').textContent,/No matches/);
+    $('book-query').value='Other query';
+    window.fetch=async()=>({ok:true,json:async()=>({docs:[{key:work.open_library_work_id,title:work.title,author_name:work.authors}]})});
+    submit('book-search-form');await flush();$('book-search-results').querySelector('button').click();
+    $('book-rating').value='7';$('book-format').value='kindle';submit('book-rating-form');await flush();
+    assert.equal(state.calls.length,0);assert.match($('book-save-status').textContent,/Sign in/);
+    await window.CultureBooks.setSession({id:userA});
+    $('book-search-results').querySelector('button').click();$('book-rating').value='7';$('book-format').value='kindle';$('book-notes').value='private A';
+    let resolve;state.pending=new Promise(r=>{resolve=r;});
+    submit('book-rating-form');await flush();
+    await window.CultureBooks.setSession({id:userB});
+    assert.equal($('book-editor').hidden,true);assert.equal($('book-notes').value,'');
+    resolve();await flush();
+    assert.doesNotMatch($('book-ratings-grid').textContent,/private A/);
+    assert.doesNotMatch($('book-sync-status').textContent,/Saved/);
+  } finally { await window.happyDOM.close(); }
+});

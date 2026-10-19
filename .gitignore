@@ -5,3 +5,4 @@ tmdb-metadata-report.json
 
 ratings-import-report.json
 culture_atlas_import_source.csv
+node_modules/
