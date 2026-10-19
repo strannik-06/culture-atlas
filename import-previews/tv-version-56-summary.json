@@ -3,24 +3,23 @@
   "source_entries": 2150,
   "deferred_sources_reviewed": 56,
   "film_entries_unchanged": 2251,
-  "new_tv_entries": 39,
-  "combined_work_entries": 2290,
+  "new_tv_entries": 40,
+  "combined_work_entries": 2291,
   "review_decisions": {
     "episode_or_part_review": 6,
     "existing_movie_overlap": 4,
     "part_scope_review": 2,
     "season_identity_review": 2,
-    "season_scope_review": 1,
     "theatrical_tv_version_review": 1,
     "unresolved_sequel_identity": 1,
-    "verified_new_tv_identity": 39
+    "verified_new_tv_identity": 40
   },
   "coverage_counts": {
     "consolidated": 2,
-    "deferred_tv_or_version_review": 17,
+    "deferred_tv_or_version_review": 16,
     "duplicate_identity": 10,
     "present": 2081,
-    "present_tv_catalogue": 39,
+    "present_tv_catalogue": 40,
     "unresolved_identity": 1
   },
   "workflow_run_id": 39276957833,
@@ -31,7 +30,7 @@
     }
   ],
   "film_catalogue_sha256": "b7f2e875abefa844bb89772c02ec8c40df17f2f5c8da3a9f1a46f4a6c3141e73",
-  "review_sha256": "1c9cac0bd359ed3e068f625dfb791b62adce8f5006fe6f19826ee130e35382d0",
+  "review_sha256": "ef1eee7dccb3fd230a4fae9918009ecacb1c50a123aa055f6936a7c0777bd7cd",
   "evidence_sha256": "5e0402cee435af23c00eb13705d695c697ce351b447cb9597b4abad8465125db",
   "warning": "Catalogue identity only. TV UI and progress storage are not activated; no ratings or Supabase access. Held candidates are not active targets."
 }

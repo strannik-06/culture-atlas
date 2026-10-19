@@ -76,12 +76,18 @@ def main():
                 for tid in r['candidate_tmdb_tv_ids'].split(';'):
                     f = next(c for c in by_source[sr]['candidates'] if c['media_type'] == 'tv' and str(c['tmdb_id']) == tid)
                     assert str(imdb_films[f['imdb_id']]['id']) == r['existing_film_id']
-    assert len(tv) == len({f['id'] for f in tv}) == len({f['imdb_id'] for f in tv}) == 39
+    assert len(tv) == len({f['id'] for f in tv}) == len({f['imdb_id'] for f in tv}) == 40
     assert chosen['1532']['id'] == 'tv:42699' and chosen['1570']['id'] == 'tv:43090'
     assert chosen['673']['id'] == 'tv:19885' and chosen['1057']['id'] == 'tv:68187'
     decisions = {r['source_rows']: r for r in reviews}
     assert decisions['1532']['rating_scope'] == 'owner_confirmed_whole_cycle'
     assert decisions['1570']['rating_scope'] == 'owner_confirmed_whole_four_part_miniseries'
+    assert decisions['1625']['rating_scope'] == 'owner_confirmed_wider_series'
+    clarifications = json.loads((ROOT / 'imports/tv-version-owner-clarifications.json').read_text())
+    for decision in clarifications['decisions']:
+        for sr in decision['source_rows']:
+            assert decisions[sr]['rating_scope'].startswith('owner_confirmed_')
+            assert 'tv-version-owner-clarifications.json' in decisions[sr]['evidence_ref']
     ledger = []
     for prev in baseline:
         r = dict(prev)

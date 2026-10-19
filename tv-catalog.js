@@ -953,6 +953,47 @@ window.CULTURE_TV_CATALOG = [
     "poster_path": "/czgoSWHdBmXq1zyvVop2mF5YPO0.jpg"
   },
   {
+    "id": "tv:12822",
+    "work_type": "tv",
+    "series_kind": "series",
+    "title": "The Octopus",
+    "original_title": "La Piovra",
+    "year": 1984,
+    "first_air_date": "1984-03-11",
+    "tmdb_id": 12822,
+    "imdb_id": "tt0086779",
+    "original_language": "it",
+    "creators": [
+      {
+        "id": 50933,
+        "name": "Nicola Badalucco"
+      },
+      {
+        "id": 239904,
+        "name": "Lucio Battistrada"
+      }
+    ],
+    "directors": [
+      {
+        "id": 1068835,
+        "name": "Luigi Perelli"
+      },
+      {
+        "id": 35256,
+        "name": "Damiano Damiani"
+      },
+      {
+        "id": 234731,
+        "name": "Florestano Vancini"
+      },
+      {
+        "id": 234495,
+        "name": "Giacomo Battiato"
+      }
+    ],
+    "poster_path": "/2gLLftWX1ecorSXq2jBMosQAcKx.jpg"
+  },
+  {
     "id": "tv:43189",
     "work_type": "tv",
     "series_kind": "miniseries",
