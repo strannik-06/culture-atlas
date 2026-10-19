@@ -9,6 +9,9 @@
 3. Open Books → Add book, search a title with its author, select the correct
    result, choose a rating and Kindle/Audio (or Not specified), add optional
    notes, and save. Sign in through the existing Account menu first.
+   The star picker matches Films: click a star's left/right half for half/whole
+   points, or use arrow keys in 0.5 steps and Enter to choose. Clear rating
+   clears the draft; Save book & rating still requires a chosen score.
 4. The book appears in Catalogue and My ratings. Open Edit rating to change
    the score, format or notes. Refresh or use another signed-in device to verify sync.
 
@@ -19,6 +22,12 @@ produces a clear setup message; failed saves keep the form and never claim succe
 
 - Open Library Search API, on explicit submit, up to 20 work results. No API key.
   Session-memory query cache, abortable requests and throttling/error messages.
+  If a search has no usable results, retry without a leading English article,
+  then without common connecting words (at most three queries in total, paced
+  to one per second). Stop at the first usable results and let the reader check
+  the match. Errors and throttling are not treated as empty results.
+  This handles `The nights are quiet in Tehran`, whose API work title omits
+  the initial `The` (`/works/OL42426263W`), without a book-specific exception.
 - Each work has our own `books.id` and a unique Open Library work ID. Exact work
   IDs are reused; duplicate works in Open Library still require later review.
 - `book_progress` stores each account's half-point 0.5–10 score, reading format,

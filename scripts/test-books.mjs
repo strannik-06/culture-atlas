@@ -175,3 +175,67 @@ test('Books UI: signed-out save, API failures and account changes during save ne
     assert.doesNotMatch($('book-sync-status').textContent,/Saved/);
   } finally { await window.happyDOM.close(); }
 });
+
+test('Search regression: Tehran title retries without The, keeps selection explicit and caches the result',async()=>{
+  const {window,state,$,flush,submit}=await setup();
+  try {
+    const queries=[];
+    window.fetch=async url=>{
+      const q=new URL(url).searchParams.get('q');queries.push(q);
+      return {ok:true,json:async()=>({docs:q.startsWith('The ')?[]:[{key:'/works/OL42426263W',title:'Nights Are Quiet in Tehran',author_name:['Shida Bazyar','Ruth Martin'],first_publish_year:2025}]})};
+    };
+    $('book-query').value='The nights are quiet in Tehran';submit('book-search-form');
+    await new Promise(resolve=>setTimeout(resolve,1100));await flush();
+    assert.deepEqual(queries,['The nights are quiet in Tehran','nights are quiet in Tehran']);
+    assert.match($('book-search-status').textContent,/Found using a shorter search/);
+    assert.equal($('book-search-results').querySelectorAll('article').length,1);
+    assert.match($('book-search-results').textContent,/Shida Bazyar/);
+    assert.equal($('book-query').value,'The nights are quiet in Tehran');
+    assert.equal(state.calls.length,0);assert.equal($('book-editor').hidden,true);
+    $('book-search-results').querySelector('button').click();
+    assert.equal($('book-selected-title').textContent,'Nights Are Quiet in Tehran');
+    assert.equal($('book-editor').hidden,false);
+    submit('book-search-form');await flush();
+    assert.equal(queries.length,2);
+    // A successful original query must not trigger broader searches.
+    $('book-query').value='Shida Bazyar';submit('book-search-form');await flush();
+    assert.deepEqual(queries,['The nights are quiet in Tehran','nights are quiet in Tehran','Shida Bazyar']);
+  } finally {await window.happyDOM.close();}
+});
+
+test('Book star picker: half points, keyboard, clear, draft-only changes and existing rating editing',async()=>{
+  const {window,state,$,flush,submit}=await setup();
+  try {
+    state.books=[{id:1,...work}];
+    state.ratings=[{user_id:userA,book_id:1,rating:7,reading_format:'kindle',notes:'Keep these notes',updated_at:new Date().toISOString()}];
+    await window.CultureBooks.setSession({id:userA});
+    $('book-ratings-grid').querySelector('button').click();
+    const trigger=$('book-rating-trigger'),picker=$('book-star-picker');
+    assert.equal($('book-rating').type,'hidden');assert.match(trigger.textContent,/7.0\/10/);
+    trigger.click();assert.equal(picker.hidden,false);assert.equal(trigger.getAttribute('aria-expanded'),'true');
+    const eighth=picker.querySelectorAll('.star-choice')[7];
+    eighth.getBoundingClientRect=()=>({left:100,width:30});
+    eighth.dispatchEvent(new window.MouseEvent('click',{bubbles:true,detail:1,clientX:105}));
+    assert.equal($('book-rating').value,'7.5');assert.equal(picker.hidden,true);
+    assert.match(trigger.textContent,/7.5\/10/);assert.equal(state.calls.length,0);
+    assert.equal($('book-notes').value,'Keep these notes');
+    trigger.click();
+    picker.dispatchEvent(new window.KeyboardEvent('keydown',{key:'ArrowRight',bubbles:true}));
+    assert.match(picker.querySelector('.rating-preview').textContent,/8.0/);
+    picker.dispatchEvent(new window.KeyboardEvent('keydown',{key:'Enter',bubbles:true}));
+    assert.equal($('book-rating').value,'8');
+    trigger.click();picker.querySelector('.clear-rating').click();
+    assert.equal($('book-rating').value,'');assert.match(trigger.textContent,/Rate/);
+    submit('book-rating-form');await flush();assert.equal(state.calls.length,0);
+    trigger.click();picker.querySelectorAll('.star-choice')[8].click();
+    assert.equal($('book-rating').value,'9');
+    trigger.click();picker.dispatchEvent(new window.KeyboardEvent('keydown',{key:'ArrowLeft',bubbles:true}));
+    picker.dispatchEvent(new window.KeyboardEvent('keydown',{key:'Escape',bubbles:true}));
+    assert.equal($('book-rating').value,'9'); // Escape discards preview
+    submit('book-rating-form');await flush();
+    assert.equal(state.calls.length,1);assert.equal(state.calls[0].payload.p_rating,9);
+    $('book-ratings-grid').querySelector('button').click();assert.match(trigger.textContent,/9.0\/10/);
+    trigger.click();await window.CultureBooks.setSession(null);
+    assert.equal(picker.hidden,true);assert.equal($('book-rating').value,'');
+  } finally {await window.happyDOM.close();}
+});
