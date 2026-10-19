@@ -220,7 +220,11 @@
       "legacy_media_type": "",
       "legacy_tmdb_id": null,
       "tv_id_hint": null,
-      "imdb_id_hint": null
+      "imdb_id_hint": null,
+      "search_titles": [
+        "Незнайка на Луне 2",
+        "Незнайка на Луне"
+      ]
     },
     {
       "source_rows": "1295",
@@ -250,7 +254,11 @@
       "legacy_media_type": "",
       "legacy_tmdb_id": null,
       "tv_id_hint": null,
-      "imdb_id_hint": null
+      "imdb_id_hint": "tt0123816",
+      "search_titles": [
+        "Чародей: Страна Великого Дракона",
+        "Spellbinder: Land of the Dragon Lord"
+      ]
     },
     {
       "source_rows": "1416",
@@ -270,7 +278,12 @@
       "legacy_media_type": "",
       "legacy_tmdb_id": null,
       "tv_id_hint": null,
-      "imdb_id_hint": null
+      "imdb_id_hint": null,
+      "search_titles": [
+        "Сердца трех 2",
+        "Сердца трёх 2"
+      ],
+      "search_movies": true
     },
     {
       "source_rows": "1479",
@@ -340,7 +353,7 @@
       "legacy_media_type": "",
       "legacy_tmdb_id": null,
       "tv_id_hint": null,
-      "imdb_id_hint": null
+      "imdb_id_hint": "tt0086723"
     },
     {
       "source_rows": "1624",
@@ -370,7 +383,7 @@
       "legacy_media_type": "",
       "legacy_tmdb_id": null,
       "tv_id_hint": null,
-      "imdb_id_hint": null
+      "imdb_id_hint": "tt0218940"
     },
     {
       "source_rows": "1656",
@@ -480,7 +493,7 @@
       "legacy_media_type": "",
       "legacy_tmdb_id": null,
       "tv_id_hint": null,
-      "imdb_id_hint": null
+      "imdb_id_hint": "tt0219263"
     },
     {
       "source_rows": "1793",
@@ -550,7 +563,7 @@
       "legacy_media_type": "",
       "legacy_tmdb_id": null,
       "tv_id_hint": null,
-      "imdb_id_hint": null
+      "imdb_id_hint": "tt0068304"
     },
     {
       "source_rows": "1895",

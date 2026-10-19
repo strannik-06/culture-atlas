@@ -40,10 +40,14 @@ for(const seed of seeds.entries){
   const found=await request('find/'+seed.imdb_id_hint,{external_source:'imdb_id'});
   for(const type of ['tv','movie'])for(const f of found?.[type+'_results']||[])add(type,f.id,'imdb_lookup');
  }
- const query=seed.title.replace(/\s*\([^)]*\)\s*/g,' ').trim();
- const found=await request('search/tv',{query,include_adult:false});
- const results=(found?.results||[]).filter(f=>Math.abs(Number((f.first_air_date||'').slice(0,4))-seed.year)<=2).slice(0,4);
- for(const f of results)add('tv',f.id,'title_year_search');
+ for(const title of seed.search_titles||[seed.title]){
+  const query=title.replace(/\s*\([^)]*\)\s*/g,' ').trim();
+  for(const type of seed.search_movies?['tv','movie']:['tv']){
+   const found=await request('search/'+type,{query,include_adult:false});
+   const results=(found?.results||[]).filter(f=>Math.abs(Number((f.first_air_date||f.release_date||'').slice(0,4))-seed.year)<=2).slice(0,4);
+   for(const f of results)add(type,f.id,'title_year_search');
+  }
+ }
  const evidence=[];
  for(const c of candidates.values()){
   const d=await details(c.type,c.id);
@@ -54,5 +58,6 @@ for(const seed of seeds.entries){
 }
 const report={generated_at:new Date().toISOString(),base_commit:seeds.base_commit,source_count:entries.length,entries,errors,warning:'Candidate metadata only. Search, title/year and inherited IDs never approve identity or rating scope. No Supabase or progress access.'};
 fs.writeFileSync('tv-version-56-tmdb-evidence.json',JSON.stringify(report,null,2)+'\n');
+console.log('TV_LOOKUP_ERRORS '+JSON.stringify(errors));
 console.log(JSON.stringify({source_count:entries.length,candidates:entries.reduce((n,r)=>n+r.candidates.length,0),errors:errors.length}));
 if(errors.some(e=>[401,403].includes(e.status)))process.exitCode=1;
