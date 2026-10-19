@@ -591,6 +591,18 @@
       "tmdb_id": 210161,
       "reason": "Source is hockey (1995), catalogue 1872. Historical workbook incorrectly reused football (1970) movie 210140; reject that mapping. Both films already exist separately; future ratings conflict audit must use the corrected identity.",
       "evidence_url": "https://www.themoviedb.org/movie/210161"
+    },
+    {
+      "source_row": "849",
+      "tmdb_id": 20714,
+      "reason": "Owner confirmed 12 means Nikita Mikhalkov’s feature; source miniseries label is incorrect.",
+      "evidence_url": "https://www.themoviedb.org/movie/20714"
+    },
+    {
+      "source_row": "928",
+      "tmdb_id": 53129,
+      "reason": "Owner confirmed The Turkish Gambit means the theatrical film, not the extended TV version.",
+      "evidence_url": "https://www.themoviedb.org/movie/53129"
     }
   ],
   "additions": [
@@ -934,6 +946,16 @@
       "status": "unresolved_identity",
       "reason": "1981 Aleksandr Tatarskiy animated opening sequence for Good Night, Little Ones!; not the whole TV show. Source work identified, but no safely verified standalone movie/IMDb pair. Do not link to programme or Plasticine Crow.",
       "evidence_url": "https://dates.gnpbu.ru/4-9/Spokojnoj_nochi/spokojnoj_nochi.html"
+    }
+  },
+  "owner_confirmed_movie_scope": {
+    "849": {
+      "catalogue_id": 708,
+      "confirmation": "Owner confirmed 12 means Nikita Mikhalkov’s feature; source miniseries label is incorrect."
+    },
+    "928": {
+      "catalogue_id": 796,
+      "confirmation": "Owner confirmed The Turkish Gambit means the theatrical film, not the extended TV version."
     }
   }
 }

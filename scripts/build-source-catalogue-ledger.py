@@ -87,7 +87,7 @@ def main():
         f = None; basis = ''; reason = ''; status = ''; review = False
         is_tv = bool(re.search(r'сериал|TV Series|т/с', src['source_title'], re.I)) or sr in explicit_tv
         # Owner-reviewed movie correction for Kara overrides a mistaken legacy TV candidate.
-        if sr == '1438': is_tv = False
+        if sr == '1438' or sr in evidence.get('owner_confirmed_movie_scope', {}): is_tv = False
         if is_tv:
             status = 'deferred_tv_or_version_review'; basis = 'source_media_type'
             reason = 'Series/miniseries/episode or source TV-version label: verify media type and scope; do not create or map a movie identity automatically.'
@@ -144,7 +144,7 @@ def main():
         else: (ROOT/name).write_text(content)
     assert sum(counts.values()) == 2150
     checks = {r['source_rows']: r for r in ledger}
-    for sr, cid in [('118', 31), ('620', 1454), ('1405', 1872)]:
+    for sr, cid in [('118', 31), ('620', 1454), ('1405', 1872), ('849', 708), ('928', 796)]:
         assert checks[sr]['catalogue_id'] == cid, 'Known false match returned: ' + sr
     assert checks['1570']['catalogue_id'] == '' and checks['1570']['coverage_status'] == 'deferred_tv_or_version_review'
     assert checks['1699']['catalogue_id'] == '' and checks['1699']['coverage_status'] == 'unresolved_identity'

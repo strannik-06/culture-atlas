@@ -10,9 +10,9 @@ Baseline: `ef78222e1e952e33f33d779153db65a4b2a6707e`, 2,231 films. Proposed cata
 | --- | ---: |
 | Present in catalogue | 2,062 |
 | Proposed verified addition | 20 |
-| Repeated identity in separate source entries | 8 |
+| Repeated identity in separate source entries | 10 |
 | Consolidated source identity | 2 |
-| TV, episode or version review | 57 |
+| TV, episode or version review | 55 |
 | Unresolved standalone identity | 1 |
 | **Total normalized source entries** | **2,150** |
 
@@ -77,22 +77,24 @@ All source entries remain traceable. No rating has been selected, overwritten or
 | 512 | The Croods | 528, 546 |
 | 624 | Mr. Nobody | 718, 761 |
 | 703 | The King of Kong | 836, 874 |
+| 708 | 12 | 848, 849 |
 | 726 | No Reservations | 867, 875 |
+| 796 | The Turkish Gambit | 928, 985 |
 | 832 | Mindhunters | 1035, 1046 |
 | 1063 | Four Rooms | 1419, 1421 |
 | 1349 | Shakespeare-Wallah | 1958, 1975 |
 
-The second Four Rooms entry is owner-confirmed as the same film and classified as consolidated. The other eight second entries are classified as duplicate identities. Spirits of the Dead, source rows 1919;1923, is already one consolidated normalized entry mapped to ID 2178; its historical rating remains pending. Identity duplication alone does not settle any rating conflict.
+The second Four Rooms entry is owner-confirmed as the same film and classified as consolidated. The other ten second entries are classified as duplicate identities. Spirits of the Dead, source rows 1919;1923, is already one consolidated normalized entry mapped to ID 2178; its historical rating remains pending. Identity duplication alone does not settle any rating conflict.
 
-## Remaining decisions and exclusions
+## Scope confirmations, remaining decisions and exclusions
 
-**57 entries need TV, episode or version review.** This is not a count of 57 missing series: some source labels conflict with movie records already in the catalogue. Each is listed in the ledger without an active movie mapping, even where an older candidate exists.
+**55 entries need TV, episode or version review.** This is not a count of 55 missing series: some source labels conflict with movie records already in the catalogue. Each is listed in the ledger without an active movie mapping, even where an older candidate exists.
 
 | Source row(s) | Case | Next step |
 | --- | --- | --- |
 | 1570 | Гардемарины, вперед! / Naval Cadets, Charge! | Owner already confirmed the rating covers the entire four-part miniseries. Verify and implement a series identity in the TV workflow; do not ask for scope confirmation again. |
-| 849 | 12 (мини-сериал), 2007, Nikita Mikhalkov | Confirm whether the miniseries label is an error and the source means the feature already at ID 708. |
-| 928 | Турецкий гамбит (мини-сериал), 2006 | Clarify extended TV version versus theatrical film already at ID 796. |
+| 849 | 12 (мини-сериал), 2007, Nikita Mikhalkov | Resolved: owner confirmed the feature at ID 708. Source label was incorrect; linked in the ledger. |
+| 928 | Турецкий гамбит (мини-сериал), 2006 | Resolved: owner confirmed the theatrical film at ID 796. Linked in the ledger. |
 | 1276, 1359 | Незнайка на Луне, including a “2” entry | Establish whole-series versus part scope before consolidating progress. |
 
 Other series and episode/version entries stay deferred rather than creating movie duplicates or renumbering existing anthology records. This proposal does not change TV support.

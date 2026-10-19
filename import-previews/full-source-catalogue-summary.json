@@ -11,8 +11,8 @@
   ],
   "coverage_counts": {
     "consolidated": 2,
-    "deferred_tv_or_version_review": 57,
-    "duplicate_identity": 8,
+    "deferred_tv_or_version_review": 55,
+    "duplicate_identity": 10,
     "present": 2062,
     "proposed_addition": 20,
     "unresolved_identity": 1
@@ -39,9 +39,17 @@
       "836",
       "874"
     ],
+    "708": [
+      "848",
+      "849"
+    ],
     "726": [
       "867",
       "875"
+    ],
+    "796": [
+      "928",
+      "985"
     ],
     "832": [
       "1035",
