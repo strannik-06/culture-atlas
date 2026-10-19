@@ -1,0 +1,961 @@
+{
+  "base_commit": "ef78222e1e952e33f33d779153db65a4b2a6707e",
+  "legacy_audit_original_sha256": "34f0978acb9be9338fb5146480da05de176945a9775eefc06f8e49319b6d677b",
+  "verification_method": "Original source comparison and current public title/director/year/IMDb/TMDB cross-references. No fresh authenticated TMDB API detail request. No Supabase access.",
+  "owner_reviewed_workbook_links": [
+    {
+      "source_row": "229",
+      "media_type": "movie",
+      "tmdb_id": 574082,
+      "evidence_url": "https://www.themoviedb.org/movie/574082-fireball-visitors-from-darker-worlds",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "302",
+      "media_type": "movie",
+      "tmdb_id": 490132,
+      "evidence_url": "https://www.themoviedb.org/movie/490132-green-book",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "428",
+      "media_type": "movie",
+      "tmdb_id": 273248,
+      "evidence_url": "https://www.themoviedb.org/movie/273248-the-hateful-eight",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "468",
+      "media_type": "movie",
+      "tmdb_id": 255756,
+      "evidence_url": "https://www.themoviedb.org/movie/255756",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "517",
+      "media_type": "movie",
+      "tmdb_id": 238407,
+      "evidence_url": "https://www.themoviedb.org/movie/238407-aningaaq",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "578",
+      "media_type": "movie",
+      "tmdb_id": 68718,
+      "evidence_url": "https://www.themoviedb.org/movie/68718-django-unchained",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "601",
+      "media_type": "movie",
+      "tmdb_id": 346415,
+      "evidence_url": "https://www.themoviedb.org/movie/346415-etude-empirique-sur-l-influence-du-son-sur-la-persistance-retinienne",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "609",
+      "media_type": "movie",
+      "tmdb_id": 83564,
+      "evidence_url": "https://www.themoviedb.org/movie/83564-la-luna",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "617",
+      "media_type": "movie",
+      "tmdb_id": 98857,
+      "evidence_url": "https://www.themoviedb.org/movie/98857-scrat-s-continental-crack-up-part-2",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "668",
+      "media_type": "movie",
+      "tmdb_id": 37058,
+      "evidence_url": "https://www.themoviedb.org/movie/37058-i-m-here",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "677",
+      "media_type": "movie",
+      "tmdb_id": 55692,
+      "evidence_url": "https://www.themoviedb.org/movie/55692-scrat-s-continental-crack-up",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "828",
+      "media_type": "movie",
+      "tmdb_id": 6418,
+      "evidence_url": "https://www.themoviedb.org/movie/6418-hotel-chevalier",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "895",
+      "media_type": "movie",
+      "tmdb_id": 341445,
+      "evidence_url": "https://www.themoviedb.org/movie/341445-one-hundredth-of-a-second",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "914",
+      "media_type": "movie",
+      "tmdb_id": 53215,
+      "evidence_url": "https://www.themoviedb.org/movie/53215-kiwi",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "917",
+      "media_type": "movie",
+      "tmdb_id": 46247,
+      "evidence_url": "https://www.themoviedb.org/movie/46247-no-time-for-nuts",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "919",
+      "media_type": "movie",
+      "tmdb_id": 13060,
+      "evidence_url": "https://www.themoviedb.org/movie/13060-lifted",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1001",
+      "media_type": "movie",
+      "tmdb_id": 48278,
+      "evidence_url": "https://www.themoviedb.org/movie/48278-lo-sguardo-di-michelangelo",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1020",
+      "media_type": "movie",
+      "tmdb_id": 25126,
+      "evidence_url": "https://www.themoviedb.org/movie/25126-six-shooter",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1032",
+      "media_type": "movie",
+      "tmdb_id": 11193,
+      "evidence_url": "https://www.themoviedb.org/movie/11193-true",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1082",
+      "media_type": "movie",
+      "tmdb_id": 9282,
+      "evidence_url": "https://www.themoviedb.org/movie/9282-11-14",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1092",
+      "media_type": "movie",
+      "tmdb_id": 9567,
+      "evidence_url": "https://www.themoviedb.org/movie/9567-tears-of-the-sun",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1126",
+      "media_type": "movie",
+      "tmdb_id": 608,
+      "evidence_url": "https://www.themoviedb.org/movie/608-men-in-black-ii",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1140",
+      "media_type": "movie",
+      "tmdb_id": 17963,
+      "evidence_url": "https://www.themoviedb.org/movie/17963-gone-nutty",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1237",
+      "media_type": "movie",
+      "tmdb_id": 162787,
+      "evidence_url": "https://www.themoviedb.org/movie/162787-the-second-death",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1243",
+      "media_type": "movie",
+      "tmdb_id": 1636,
+      "evidence_url": "https://www.themoviedb.org/movie/1636-bedazzled",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1256",
+      "media_type": "movie",
+      "tmdb_id": 13930,
+      "evidence_url": "https://www.themoviedb.org/movie/13930-for-the-birds",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1276",
+      "media_type": "tv",
+      "tmdb_id": 99952,
+      "evidence_url": "https://www.themoviedb.org/tv/99952",
+      "owner_comment": "might need to combine with another one with title Незнайка на Луне"
+    },
+    {
+      "source_row": "1281",
+      "media_type": "movie",
+      "tmdb_id": 497,
+      "evidence_url": "https://www.themoviedb.org/movie/497-the-green-mile",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1298",
+      "media_type": "movie",
+      "tmdb_id": 10563,
+      "evidence_url": "https://www.themoviedb.org/movie/10563-three-to-tango",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1368",
+      "media_type": "movie",
+      "tmdb_id": 43629,
+      "evidence_url": "https://www.themoviedb.org/movie/43629-doodlebug",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1370",
+      "media_type": "movie",
+      "tmdb_id": 13929,
+      "evidence_url": "https://www.themoviedb.org/movie/13929-geri-s-game",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1371",
+      "media_type": "tv",
+      "tmdb_id": 313262,
+      "evidence_url": "https://www.themoviedb.org/tv/313262-spellbinder-land-of-the-dragon-lord",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1405",
+      "media_type": "movie",
+      "tmdb_id": 210140,
+      "evidence_url": "https://www.themoviedb.org/movie/210140",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1406",
+      "media_type": "movie",
+      "tmdb_id": 49473,
+      "evidence_url": "https://www.themoviedb.org/movie/49473-koza",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1415",
+      "media_type": "movie",
+      "tmdb_id": 9323,
+      "evidence_url": "https://www.themoviedb.org/movie/9323-ghost-in-the-shell",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1421",
+      "media_type": "movie",
+      "tmdb_id": 5,
+      "evidence_url": "https://www.themoviedb.org/movie/5-four-rooms",
+      "owner_comment": "need to make sure we don't create a duplicate with Четыре комнаты, its the same one"
+    },
+    {
+      "source_row": "1481",
+      "media_type": "movie",
+      "tmdb_id": 38143,
+      "evidence_url": "https://www.themoviedb.org/movie/38143",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1539",
+      "media_type": "movie",
+      "tmdb_id": 207,
+      "evidence_url": "https://www.themoviedb.org/movie/207-dead-poets-society",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1568",
+      "media_type": "movie",
+      "tmdb_id": 210159,
+      "evidence_url": "https://www.themoviedb.org/movie/210159-yak-kozaky-inoplanetian-zustrichaly",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1612",
+      "media_type": "movie",
+      "tmdb_id": 306051,
+      "evidence_url": "https://www.themoviedb.org/movie/306051",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1622",
+      "media_type": "movie",
+      "tmdb_id": 322622,
+      "evidence_url": "https://www.themoviedb.org/movie/322622-yak-petryk-p-yatochkin-slonykiv-rakhuvav",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1626",
+      "media_type": "movie",
+      "tmdb_id": 210158,
+      "evidence_url": "https://www.themoviedb.org/movie/210158",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1633",
+      "media_type": "movie",
+      "tmdb_id": 77762,
+      "evidence_url": "https://www.themoviedb.org/movie/77762",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1636",
+      "media_type": "movie",
+      "tmdb_id": 196649,
+      "evidence_url": "https://www.themoviedb.org/movie/196649",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1639",
+      "media_type": "movie",
+      "tmdb_id": 198951,
+      "evidence_url": "https://www.themoviedb.org/movie/198951",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1657",
+      "media_type": "movie",
+      "tmdb_id": 165095,
+      "evidence_url": "https://www.themoviedb.org/movie/165095",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1674",
+      "media_type": "movie",
+      "tmdb_id": 84810,
+      "evidence_url": "https://www.themoviedb.org/movie/84810",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1713",
+      "media_type": "movie",
+      "tmdb_id": 77759,
+      "evidence_url": "https://www.themoviedb.org/movie/77759",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1726",
+      "media_type": "movie",
+      "tmdb_id": 210157,
+      "evidence_url": "https://www.themoviedb.org/movie/210157-yak-kozaky-mushketeram-dopomahaly",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1735",
+      "media_type": "movie",
+      "tmdb_id": 36079,
+      "evidence_url": "https://www.themoviedb.org/movie/36079",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1748",
+      "media_type": "movie",
+      "tmdb_id": 210155,
+      "evidence_url": "https://www.themoviedb.org/movie/210155",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1753",
+      "media_type": "movie",
+      "tmdb_id": 77294,
+      "evidence_url": "https://www.themoviedb.org/movie/77294-troe-iz-prostokvashino",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1760",
+      "media_type": "movie",
+      "tmdb_id": 179851,
+      "evidence_url": "https://www.themoviedb.org/movie/179851-z-punktu-widzenia-nocnego-portiera",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1780",
+      "media_type": "movie",
+      "tmdb_id": 74535,
+      "evidence_url": "https://www.themoviedb.org/movie/74535-priklyucheniya-kapitana-vrungelya",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1789",
+      "media_type": "movie",
+      "tmdb_id": 210152,
+      "evidence_url": "https://www.themoviedb.org/movie/210152",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1794",
+      "media_type": "movie",
+      "tmdb_id": 36129,
+      "evidence_url": "https://www.themoviedb.org/movie/36129",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1795",
+      "media_type": "movie",
+      "tmdb_id": 453504,
+      "evidence_url": "https://www.themoviedb.org/movie/453504",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1830",
+      "media_type": "movie",
+      "tmdb_id": 210149,
+      "evidence_url": "https://www.themoviedb.org/movie/210149",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1855",
+      "media_type": "movie",
+      "tmdb_id": 173631,
+      "evidence_url": "https://www.themoviedb.org/movie/173631-bremer-freiheit",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1887",
+      "media_type": "movie",
+      "tmdb_id": 210140,
+      "evidence_url": "https://www.themoviedb.org/movie/210140",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1895",
+      "media_type": "tv",
+      "tmdb_id": 6138,
+      "evidence_url": "https://www.themoviedb.org/tv/6138-nu-pogodi",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1902",
+      "media_type": "movie",
+      "tmdb_id": 210861,
+      "evidence_url": "https://www.themoviedb.org/movie/210861",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1906",
+      "media_type": "movie",
+      "tmdb_id": 213299,
+      "evidence_url": "https://www.themoviedb.org/movie/213299",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1930",
+      "media_type": "movie",
+      "tmdb_id": 150949,
+      "evidence_url": "https://www.themoviedb.org/movie/150949",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "1959",
+      "media_type": "movie",
+      "tmdb_id": 36265,
+      "evidence_url": "https://www.themoviedb.org/movie/36265-simon-del-desierto",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "2072",
+      "media_type": "movie",
+      "tmdb_id": 803,
+      "evidence_url": "https://www.themoviedb.org/movie/803-nuit-et-brouillard",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "2093",
+      "media_type": "movie",
+      "tmdb_id": 45966,
+      "evidence_url": "https://www.themoviedb.org/movie/45966-day-of-the-fight",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "2094",
+      "media_type": "movie",
+      "tmdb_id": 45970,
+      "evidence_url": "https://www.themoviedb.org/movie/45970-flying-padre",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "2102",
+      "media_type": "movie",
+      "tmdb_id": 46984,
+      "evidence_url": "https://www.themoviedb.org/movie/46984-de-naede-faergen",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "2130",
+      "media_type": "movie",
+      "tmdb_id": 44494,
+      "evidence_url": "https://www.themoviedb.org/movie/44494-zero-de-conduite-jeunes-diables-au-college",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "2132",
+      "media_type": "movie",
+      "tmdb_id": 49836,
+      "evidence_url": "https://www.themoviedb.org/movie/49836-taris-roi-de-l-eau",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "2137",
+      "media_type": "movie",
+      "tmdb_id": 47831,
+      "evidence_url": "https://www.themoviedb.org/movie/47831-a-propos-de-nice",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "2138",
+      "media_type": "movie",
+      "tmdb_id": 626,
+      "evidence_url": "https://www.themoviedb.org/movie/626-un-chien-andalou",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "2148",
+      "media_type": "movie",
+      "tmdb_id": 53429,
+      "evidence_url": "https://www.themoviedb.org/movie/53429-pay-day",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "2151",
+      "media_type": "movie",
+      "tmdb_id": 42510,
+      "evidence_url": "https://www.themoviedb.org/movie/42510-the-idle-class",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "2153",
+      "media_type": "movie",
+      "tmdb_id": 53423,
+      "evidence_url": "https://www.themoviedb.org/movie/53423-shoulder-arms",
+      "owner_comment": ""
+    },
+    {
+      "source_row": "2154",
+      "media_type": "movie",
+      "tmdb_id": 36208,
+      "evidence_url": "https://www.themoviedb.org/movie/36208-a-dog-s-life",
+      "owner_comment": ""
+    }
+  ],
+  "existing_alias_corrections": [
+    {
+      "source_row": "118",
+      "tmdb_id": 1228682,
+      "reason": "Source director Dag Johan Haugerud identifies Dreams (Sex Love), catalogue 31; reject same-title Michel Franco film 229.",
+      "evidence_url": "https://www.thefilmgeezers.com/uk-releases/current/dreams/1228682/"
+    },
+    {
+      "source_row": "203",
+      "tmdb_id": 517088,
+      "reason": "В роли Рикардо is Being the Ricardos; Aaron Sorkin and 2021 agree.",
+      "evidence_url": "https://www.imdb.com/title/tt4995540/"
+    },
+    {
+      "source_row": "266",
+      "tmdb_id": 378107,
+      "reason": "Еще один день жизни is Another Day of Life; both source directors and year agree.",
+      "evidence_url": "https://www.imdb.com/title/tt2967856/"
+    },
+    {
+      "source_row": "620",
+      "tmdb_id": 77338,
+      "reason": "1+1 is The Intouchables, Nakache/Toledano; reject old Twilight candidate movie 50619 and catalogue 561.",
+      "evidence_url": "https://en.unifrance.org/movie/31884/the-intouchables"
+    },
+    {
+      "source_row": "1064",
+      "tmdb_id": 22,
+      "reason": "Russian source title is Pirates of the Caribbean: The Curse of the Black Pearl; Gore Verbinski and 2003 agree.",
+      "evidence_url": "https://www.imdb.com/title/tt0325980/"
+    },
+    {
+      "source_row": "1329",
+      "tmdb_id": 36107,
+      "reason": "Еще (short) is More (1998), Mark Osborne; not a missing feature or a same-title unrelated work.",
+      "evidence_url": "https://www.imdb.com/title/tt0188913/"
+    },
+    {
+      "source_row": "1924",
+      "tmdb_id": 56693,
+      "reason": "Диллинджер мертв is Dillinger Is Dead, Marco Ferreri; source 1968 versus catalogue release 1969.",
+      "evidence_url": "https://www.imdb.com/title/tt0062893/"
+    },
+    {
+      "source_row": "1405",
+      "tmdb_id": 210161,
+      "reason": "Source is hockey (1995), catalogue 1872. Historical workbook incorrectly reused football (1970) movie 210140; reject that mapping. Both films already exist separately; future ratings conflict audit must use the corrected identity.",
+      "evidence_url": "https://www.themoviedb.org/movie/210161"
+    },
+    {
+      "source_row": "849",
+      "tmdb_id": 20714,
+      "reason": "Owner confirmed 12 means Nikita Mikhalkov’s feature; source miniseries label is incorrect.",
+      "evidence_url": "https://www.themoviedb.org/movie/20714"
+    },
+    {
+      "source_row": "928",
+      "tmdb_id": 53129,
+      "reason": "Owner confirmed The Turkish Gambit means the theatrical film, not the extended TV version.",
+      "evidence_url": "https://www.themoviedb.org/movie/53129"
+    }
+  ],
+  "additions": [
+    {
+      "source_row": "2",
+      "film": {
+        "title": "Minotaur",
+        "director": "Andrey Zvyagintsev",
+        "year": 2026,
+        "tmdb_id": 848700,
+        "imdb_id": "tt37118301",
+        "original_title": "Минотавр"
+      },
+      "verification_date": "2026-10-19",
+      "evidence_urls": [
+        "https://www.festival-cannes.com/en/f/minotaur/",
+        "https://www.wikidata.org/wiki/Q137612975"
+      ],
+      "reason": "Verified title, year, director and TMDB/IMDb cross-reference; absent from baseline catalogue. Owner already confirmed all 2026 source entries were watched; no release-year exclusion."
+    },
+    {
+      "source_row": "3",
+      "film": {
+        "title": "NAZA",
+        "director": "Yuval Abraham, Rachel Szor",
+        "year": 2026,
+        "tmdb_id": 1755291,
+        "imdb_id": "tt44766123",
+        "original_title": "NAZA"
+      },
+      "verification_date": "2026-10-19",
+      "evidence_urls": [
+        "https://www.theguardian.com/gnm-press-office/2026/aug/24/naza-a-new-film-directed-by-yuval-abraham-and-rachel-szor-produced-by-the-guardian",
+        "https://www.imdb.com/title/tt44766123",
+        "https://palimearchive.com/entity/naza/"
+      ],
+      "reason": "Verified title, year, director and TMDB/IMDb cross-reference; absent from baseline catalogue. Owner already confirmed all 2026 source entries were watched; no release-year exclusion."
+    },
+    {
+      "source_row": "4",
+      "film": {
+        "title": "The Drama",
+        "director": "Kristoffer Borgli",
+        "year": 2026,
+        "tmdb_id": 1325734,
+        "imdb_id": "tt33071426",
+        "original_title": "The Drama"
+      },
+      "verification_date": "2026-10-19",
+      "evidence_urls": [
+        "https://cinegraph.org/movies/the-drama-2026",
+        "https://www.imdb.com/title/tt33071426/"
+      ],
+      "reason": "Verified title, year, director and TMDB/IMDb cross-reference; absent from baseline catalogue. Owner already confirmed all 2026 source entries were watched; no release-year exclusion."
+    },
+    {
+      "source_row": "5",
+      "film": {
+        "title": "28 Years Later: The Bone Temple",
+        "director": "Nia DaCosta",
+        "year": 2026,
+        "tmdb_id": 1272837,
+        "imdb_id": "tt32141377",
+        "original_title": "28 Years Later: The Bone Temple"
+      },
+      "verification_date": "2026-10-19",
+      "evidence_urls": [
+        "https://cinegraph.org/movies/28-years-later-the-bone-temple-2026"
+      ],
+      "reason": "Verified title, year, director and TMDB/IMDb cross-reference; absent from baseline catalogue. Owner already confirmed all 2026 source entries were watched; no release-year exclusion."
+    },
+    {
+      "source_row": "6",
+      "film": {
+        "title": "The Devil Wears Prada 2",
+        "director": "David Frankel",
+        "year": 2026,
+        "tmdb_id": 1314481,
+        "imdb_id": "tt33612209",
+        "original_title": "The Devil Wears Prada 2"
+      },
+      "verification_date": "2026-10-19",
+      "evidence_urls": [
+        "https://cinegraph.org/movies/the-devil-wears-prada-2-2026"
+      ],
+      "reason": "Verified title, year, director and TMDB/IMDb cross-reference; absent from baseline catalogue. Owner already confirmed all 2026 source entries were watched; no release-year exclusion."
+    },
+    {
+      "source_row": "7",
+      "film": {
+        "title": "Toy Story 5",
+        "director": "Andrew Stanton, McKenna Harris",
+        "year": 2026,
+        "tmdb_id": 1084244,
+        "imdb_id": "tt29355505",
+        "original_title": "Toy Story 5"
+      },
+      "verification_date": "2026-10-19",
+      "evidence_urls": [
+        "https://cinegraph.org/movies/toy-story-5-2026",
+        "https://www.pixar.com/collins"
+      ],
+      "reason": "Verified title, year, director and TMDB/IMDb cross-reference; absent from baseline catalogue. Owner already confirmed all 2026 source entries were watched; no release-year exclusion. Pixar identifies McKenna Harris as co-director; preserve alongside Andrew Stanton."
+    },
+    {
+      "source_row": "8",
+      "film": {
+        "title": "Digger",
+        "director": "Alejandro G. Iñárritu",
+        "year": 2026,
+        "tmdb_id": 1248832,
+        "imdb_id": "tt31450459",
+        "original_title": "Digger"
+      },
+      "verification_date": "2026-10-19",
+      "evidence_urls": [
+        "https://cinegraph.org/movies/digger-2026",
+        "https://www.digger.movie/"
+      ],
+      "reason": "Verified title, year, director and TMDB/IMDb cross-reference; absent from baseline catalogue. Owner already confirmed all 2026 source entries were watched; no release-year exclusion."
+    },
+    {
+      "source_row": "9",
+      "film": {
+        "title": "Project Hail Mary",
+        "director": "Phil Lord, Christopher Miller",
+        "year": 2026,
+        "tmdb_id": 687163,
+        "imdb_id": "tt12042730",
+        "original_title": "Project Hail Mary"
+      },
+      "verification_date": "2026-10-19",
+      "evidence_urls": [
+        "https://cinegraph.org/movies/project-hail-mary-2026"
+      ],
+      "reason": "Verified title, year, director and TMDB/IMDb cross-reference; absent from baseline catalogue. Owner already confirmed all 2026 source entries were watched; no release-year exclusion."
+    },
+    {
+      "source_row": "10",
+      "film": {
+        "title": "Pressure",
+        "director": "Anthony Maras",
+        "year": 2026,
+        "tmdb_id": 1318413,
+        "imdb_id": "tt32547691",
+        "original_title": "Pressure"
+      },
+      "verification_date": "2026-10-19",
+      "evidence_urls": [
+        "https://www.wikidata.org/wiki/Q127698549",
+        "https://cinegraph.org/movies/pressure-unknown"
+      ],
+      "reason": "Verified title, year, director and TMDB/IMDb cross-reference; absent from baseline catalogue. Owner already confirmed all 2026 source entries were watched; no release-year exclusion."
+    },
+    {
+      "source_row": "11",
+      "film": {
+        "title": "The Odyssey",
+        "director": "Christopher Nolan",
+        "year": 2026,
+        "tmdb_id": 1368337,
+        "imdb_id": "tt33764258",
+        "original_title": "The Odyssey"
+      },
+      "verification_date": "2026-10-19",
+      "evidence_urls": [
+        "https://cinegraph.org/movies/the-odyssey-2026"
+      ],
+      "reason": "Verified title, year, director and TMDB/IMDb cross-reference; absent from baseline catalogue. Owner already confirmed all 2026 source entries were watched; no release-year exclusion."
+    },
+    {
+      "source_row": "12",
+      "film": {
+        "title": "Backrooms",
+        "director": "Kane Parsons",
+        "year": 2026,
+        "tmdb_id": 1083381,
+        "imdb_id": "tt26657236",
+        "original_title": "Backrooms"
+      },
+      "verification_date": "2026-10-19",
+      "evidence_urls": [
+        "https://cinegraph.org/movies/backrooms-2026"
+      ],
+      "reason": "Verified title, year, director and TMDB/IMDb cross-reference; absent from baseline catalogue. Owner already confirmed all 2026 source entries were watched; no release-year exclusion."
+    },
+    {
+      "source_row": "13",
+      "film": {
+        "title": "Disclosure Day",
+        "director": "Steven Spielberg",
+        "year": 2026,
+        "tmdb_id": 1275779,
+        "imdb_id": "tt15047880",
+        "original_title": "Disclosure Day"
+      },
+      "verification_date": "2026-10-19",
+      "evidence_urls": [
+        "https://cinegraph.org/movies/disclosure-day-2026"
+      ],
+      "reason": "Verified title, year, director and TMDB/IMDb cross-reference; absent from baseline catalogue. Owner already confirmed all 2026 source entries were watched; no release-year exclusion."
+    },
+    {
+      "source_row": "14",
+      "film": {
+        "title": "The Invite",
+        "director": "Olivia Wilde",
+        "year": 2026,
+        "tmdb_id": 950028,
+        "imdb_id": "tt14173636",
+        "original_title": "The Invite"
+      },
+      "verification_date": "2026-10-19",
+      "evidence_urls": [
+        "https://cinegraph.org/movies/the-invite-2026",
+        "https://a24films.com/films/the-invite"
+      ],
+      "reason": "Verified title, year, director and TMDB/IMDb cross-reference; absent from baseline catalogue. Owner already confirmed all 2026 source entries were watched; no release-year exclusion."
+    },
+    {
+      "source_row": "554",
+      "film": {
+        "title": "Moms Are Simply Waiting for Us",
+        "director": "Sarik Andreasyan",
+        "year": 2012,
+        "tmdb_id": 460313,
+        "imdb_id": "tt2601120",
+        "original_title": "Мамы ждут нас"
+      },
+      "verification_date": "2026-10-19",
+      "evidence_urls": [
+        "https://letterboxd.com/film/moms-are-simply-waiting-for-us/",
+        "https://www.imdb.com/title/tt2601120/"
+      ],
+      "reason": "Verified title, year, director and TMDB/IMDb cross-reference; absent from baseline catalogue. Separate four-minute film; do not collapse into Mommies (catalogue 1601)."
+    },
+    {
+      "source_row": "1428",
+      "film": {
+        "title": "Coffee and Cigarettes III",
+        "director": "Jim Jarmusch",
+        "year": 1993,
+        "tmdb_id": 472693,
+        "imdb_id": "tt0106584",
+        "original_title": "Coffee and Cigarettes III"
+      },
+      "verification_date": "2026-10-19",
+      "evidence_urls": [
+        "https://cinegraph.org/movies/coffee-and-cigarettes-iii-1997",
+        "https://www.festival-cannes.com/en/f/coffee-and-cigarettes-somewhere-in-california/"
+      ],
+      "reason": "Verified title, year, director and TMDB/IMDb cross-reference; absent from baseline catalogue. Standalone short identity, distinct from anthology catalogue 872; do not reuse anthology rating. Use 1993 Cannes short-film year, not source 1995 or secondary URL slug 1997."
+    },
+    {
+      "source_row": "1541",
+      "film": {
+        "title": "Coffee and Cigarettes II",
+        "director": "Jim Jarmusch",
+        "year": 1989,
+        "tmdb_id": 263912,
+        "imdb_id": "tt0090862",
+        "original_title": "Coffee and Cigarettes II"
+      },
+      "verification_date": "2026-10-19",
+      "evidence_urls": [
+        "https://cinegraph.org/movies/coffee-and-cigarettes-ii-1989",
+        "https://letterboxd.com/film/coffee-and-cigarettes-ii/"
+      ],
+      "reason": "Verified title, year, director and TMDB/IMDb cross-reference; absent from baseline catalogue. Standalone short identity, distinct from anthology catalogue 872; do not reuse anthology rating."
+    },
+    {
+      "source_row": "1602",
+      "film": {
+        "title": "Coffee and Cigarettes",
+        "director": "Jim Jarmusch",
+        "year": 1986,
+        "tmdb_id": 68540,
+        "imdb_id": "tt0090861",
+        "original_title": "Coffee and Cigarettes"
+      },
+      "verification_date": "2026-10-19",
+      "evidence_urls": [
+        "https://cinegraph.org/movies/coffee-and-cigarettes-1986"
+      ],
+      "reason": "Verified title, year, director and TMDB/IMDb cross-reference; absent from baseline catalogue. Standalone short identity, distinct from anthology catalogue 872; do not reuse anthology rating."
+    },
+    {
+      "source_row": "1704",
+      "film": {
+        "title": "Tryam! Hello!",
+        "director": "Yuriy Butyrin",
+        "year": 1980,
+        "tmdb_id": 383282,
+        "imdb_id": "tt5498058",
+        "original_title": "Трям! Здравствуйте!"
+      },
+      "verification_date": "2026-10-19",
+      "evidence_urls": [
+        "https://www.wikidata.org/wiki/Q4464680",
+        "https://letterboxd.com/film/tryam-hello/"
+      ],
+      "reason": "Verified title, year, director and TMDB/IMDb cross-reference; absent from baseline catalogue."
+    },
+    {
+      "source_row": "1899",
+      "film": {
+        "title": "The Bremen Town Musicians",
+        "director": "Inessa Kovalevskaya",
+        "year": 1969,
+        "tmdb_id": 33108,
+        "imdb_id": "tt0211281",
+        "original_title": "Бременские музыканты"
+      },
+      "verification_date": "2026-10-19",
+      "evidence_urls": [
+        "https://www.wikidata.org/wiki/Q4096274",
+        "https://letterboxd.com/film/the-bremen-town-musicians/"
+      ],
+      "reason": "Verified title, year, director and TMDB/IMDb cross-reference; absent from baseline catalogue."
+    },
+    {
+      "source_row": "1922",
+      "film": {
+        "title": "Junior and Karlson",
+        "director": "Boris Stepantsev",
+        "year": 1968,
+        "tmdb_id": 77304,
+        "imdb_id": "tt0756316",
+        "original_title": "Малыш и Карлсон"
+      },
+      "verification_date": "2026-10-19",
+      "evidence_urls": [
+        "https://www.wikidata.org/wiki/Q4279279",
+        "https://www.imdb.com/title/tt0756316/"
+      ],
+      "reason": "Verified title, year, director and TMDB/IMDb cross-reference; absent from baseline catalogue."
+    }
+  ],
+  "special_cases": {
+    "1699": {
+      "status": "unresolved_identity",
+      "reason": "1981 Aleksandr Tatarskiy animated opening sequence for Good Night, Little Ones!; not the whole TV show. Source work identified, but no safely verified standalone movie/IMDb pair. Do not link to programme or Plasticine Crow.",
+      "evidence_url": "https://dates.gnpbu.ru/4-9/Spokojnoj_nochi/spokojnoj_nochi.html"
+    }
+  },
+  "owner_confirmed_movie_scope": {
+    "849": {
+      "catalogue_id": 708,
+      "confirmation": "Owner confirmed 12 means Nikita Mikhalkov’s feature; source miniseries label is incorrect."
+    },
+    "928": {
+      "catalogue_id": 796,
+      "confirmation": "Owner confirmed The Turkish Gambit means the theatrical film, not the extended TV version."
+    }
+  }
+}

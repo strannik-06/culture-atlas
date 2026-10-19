@@ -21782,5 +21782,185 @@ window.CULTURE_CATALOG = [
     "tmdb_id": 37265,
     "imdb_id": "tt0104014",
     "original_title": "Così fan tutte"
+  },
+  {
+    "id": 2233,
+    "title": "Minotaur",
+    "director": "Andrey Zvyagintsev",
+    "year": 2026,
+    "tmdb_id": 848700,
+    "imdb_id": "tt37118301",
+    "original_title": "Минотавр"
+  },
+  {
+    "id": 2234,
+    "title": "NAZA",
+    "director": "Yuval Abraham, Rachel Szor",
+    "year": 2026,
+    "tmdb_id": 1755291,
+    "imdb_id": "tt44766123",
+    "original_title": "NAZA"
+  },
+  {
+    "id": 2235,
+    "title": "The Drama",
+    "director": "Kristoffer Borgli",
+    "year": 2026,
+    "tmdb_id": 1325734,
+    "imdb_id": "tt33071426",
+    "original_title": "The Drama"
+  },
+  {
+    "id": 2236,
+    "title": "28 Years Later: The Bone Temple",
+    "director": "Nia DaCosta",
+    "year": 2026,
+    "tmdb_id": 1272837,
+    "imdb_id": "tt32141377",
+    "original_title": "28 Years Later: The Bone Temple"
+  },
+  {
+    "id": 2237,
+    "title": "The Devil Wears Prada 2",
+    "director": "David Frankel",
+    "year": 2026,
+    "tmdb_id": 1314481,
+    "imdb_id": "tt33612209",
+    "original_title": "The Devil Wears Prada 2"
+  },
+  {
+    "id": 2238,
+    "title": "Toy Story 5",
+    "director": "Andrew Stanton, McKenna Harris",
+    "year": 2026,
+    "tmdb_id": 1084244,
+    "imdb_id": "tt29355505",
+    "original_title": "Toy Story 5"
+  },
+  {
+    "id": 2239,
+    "title": "Digger",
+    "director": "Alejandro G. Iñárritu",
+    "year": 2026,
+    "tmdb_id": 1248832,
+    "imdb_id": "tt31450459",
+    "original_title": "Digger"
+  },
+  {
+    "id": 2240,
+    "title": "Project Hail Mary",
+    "director": "Phil Lord, Christopher Miller",
+    "year": 2026,
+    "tmdb_id": 687163,
+    "imdb_id": "tt12042730",
+    "original_title": "Project Hail Mary"
+  },
+  {
+    "id": 2241,
+    "title": "Pressure",
+    "director": "Anthony Maras",
+    "year": 2026,
+    "tmdb_id": 1318413,
+    "imdb_id": "tt32547691",
+    "original_title": "Pressure"
+  },
+  {
+    "id": 2242,
+    "title": "The Odyssey",
+    "director": "Christopher Nolan",
+    "year": 2026,
+    "tmdb_id": 1368337,
+    "imdb_id": "tt33764258",
+    "original_title": "The Odyssey"
+  },
+  {
+    "id": 2243,
+    "title": "Backrooms",
+    "director": "Kane Parsons",
+    "year": 2026,
+    "tmdb_id": 1083381,
+    "imdb_id": "tt26657236",
+    "original_title": "Backrooms"
+  },
+  {
+    "id": 2244,
+    "title": "Disclosure Day",
+    "director": "Steven Spielberg",
+    "year": 2026,
+    "tmdb_id": 1275779,
+    "imdb_id": "tt15047880",
+    "original_title": "Disclosure Day"
+  },
+  {
+    "id": 2245,
+    "title": "The Invite",
+    "director": "Olivia Wilde",
+    "year": 2026,
+    "tmdb_id": 950028,
+    "imdb_id": "tt14173636",
+    "original_title": "The Invite"
+  },
+  {
+    "id": 2246,
+    "title": "Moms Are Simply Waiting for Us",
+    "director": "Sarik Andreasyan",
+    "year": 2012,
+    "tmdb_id": 460313,
+    "imdb_id": "tt2601120",
+    "original_title": "Мамы ждут нас"
+  },
+  {
+    "id": 2247,
+    "title": "Coffee and Cigarettes III",
+    "director": "Jim Jarmusch",
+    "year": 1993,
+    "tmdb_id": 472693,
+    "imdb_id": "tt0106584",
+    "original_title": "Coffee and Cigarettes III"
+  },
+  {
+    "id": 2248,
+    "title": "Coffee and Cigarettes II",
+    "director": "Jim Jarmusch",
+    "year": 1989,
+    "tmdb_id": 263912,
+    "imdb_id": "tt0090862",
+    "original_title": "Coffee and Cigarettes II"
+  },
+  {
+    "id": 2249,
+    "title": "Coffee and Cigarettes",
+    "director": "Jim Jarmusch",
+    "year": 1986,
+    "tmdb_id": 68540,
+    "imdb_id": "tt0090861",
+    "original_title": "Coffee and Cigarettes"
+  },
+  {
+    "id": 2250,
+    "title": "Tryam! Hello!",
+    "director": "Yuriy Butyrin",
+    "year": 1980,
+    "tmdb_id": 383282,
+    "imdb_id": "tt5498058",
+    "original_title": "Трям! Здравствуйте!"
+  },
+  {
+    "id": 2251,
+    "title": "The Bremen Town Musicians",
+    "director": "Inessa Kovalevskaya",
+    "year": 1969,
+    "tmdb_id": 33108,
+    "imdb_id": "tt0211281",
+    "original_title": "Бременские музыканты"
+  },
+  {
+    "id": 2252,
+    "title": "Junior and Karlson",
+    "director": "Boris Stepantsev",
+    "year": 1968,
+    "tmdb_id": 77304,
+    "imdb_id": "tt0756316",
+    "original_title": "Малыш и Карлсон"
   }
 ];
