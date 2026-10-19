@@ -1,0 +1,2151 @@
+source_rows,match_status,suggested_type,tmdb_id,tmdb_title,tmdb_year,tmdb_directors
+2,high_confidence_candidate,movie,848700,Minotaur,2026,Andrey Zvyagintsev
+3,high_confidence_candidate,movie,1755291,NAZA,2026,Yuval Abraham; Rachel Szor
+4,high_confidence_candidate,movie,1325734,The Drama,2026,Kristoffer Borgli
+5,high_confidence_candidate,movie,1272837,28 Years Later: The Bone Temple,2026,Nia DaCosta
+6,high_confidence_candidate,movie,1314481,The Devil Wears Prada 2,2026,David Frankel
+7,high_confidence_candidate,movie,1084244,Toy Story 5,2026,Andrew Stanton
+8,high_confidence_candidate,movie,1248832,Digger,2026,Alejandro G. Iñárritu
+9,high_confidence_candidate,movie,687163,Project Hail Mary,2026,Phil Lord; Christopher Miller
+10,high_confidence_candidate,movie,1318413,Pressure,2026,Anthony Maras
+11,high_confidence_candidate,movie,1368337,The Odyssey,2026,Christopher Nolan
+12,high_confidence_candidate,movie,1083381,Backrooms,2026,Kane Parsons
+13,high_confidence_candidate,movie,1275779,Disclosure Day,2026,Steven Spielberg
+14,high_confidence_candidate,movie,950028,The Invite,2026,Olivia Wilde
+15,high_confidence_candidate,movie,1510562,Past Future Continuous,2025,Firouzeh Khosrovani; Morteza Ahmadvand
+16,catalog_identity_review,,,,,
+17,catalog_identity_review,,,,,
+18,high_confidence_candidate,movie,1517124,Ferdinando Scianna - Il fotografo dell'ombra,2025,Roberto Andò
+19,catalog_identity_review,,,,,
+20,high_confidence_candidate,movie,1245993,Caught Stealing,2025,Darren Aronofsky
+21,catalog_identity_review,,,,,
+22,catalog_identity_review,,,,,
+23,high_confidence_candidate,movie,1518732,Inside Amir,2025,Amir Azizi
+24,high_confidence_candidate,movie,1339713,Obsession,2026,Curry Barker
+25,high_confidence_candidate,movie,1520513,Laguna,2025,Šarūnas Bartas
+26,catalog_identity_review,,,,,
+27,catalog_identity_review,,,,,
+28,catalog_identity_review,,,,,
+29,catalog_identity_review,,,,,
+30,catalog_identity_review,,,,,
+31,catalog_identity_review,,,,,
+32,catalog_identity_review,,,,,
+33,catalog_identity_review,,,,,
+34,catalog_identity_review,,,,,
+35,catalog_identity_review,,,,,
+36,catalog_identity_review,,,,,
+37,high_confidence_candidate,movie,1242419,Roofman,2025,Derek Cianfrance
+38,catalog_identity_review,,,,,
+39,high_confidence_candidate,movie,1517069,Marc by Sofia,2026,Sofia Coppola
+40,catalog_identity_review,,,,,
+41,high_confidence_candidate,movie,1364608,Anemone,2025,Ronan Day-Lewis
+42,catalog_identity_review,,,,,
+43,catalog_identity_review,,,,,
+44,catalog_identity_review,,,,,
+45,catalog_identity_review,,,,,
+46,catalog_identity_review,,,,,
+47,catalog_identity_review,,,,,
+48,high_confidence_candidate,movie,1517161,Broken English,2026,Jane Pollard; Iain Forsyth
+49,catalog_identity_review,,,,,
+50,high_confidence_candidate,movie,1265063,After the Hunt,2025,Luca Guadagnino
+51,high_confidence_candidate,movie,1061474,Superman,2025,James Gunn
+52,high_confidence_candidate,movie,1451867,Ghost Elephants,2026,Werner Herzog
+53,catalog_identity_review,,,,,
+54,catalog_identity_review,,,,,
+55,high_confidence_candidate,movie,1399525,Rose of Nevada,2026,Mark Jenkin
+56,high_confidence_candidate,movie,1295400,The Last Viking,2025,Anders Thomas Jensen
+57,high_confidence_candidate,movie,1266798,Dog 51,2025,Cédric Jimenez
+58,high_confidence_candidate,movie,812583,Wake Up Dead Man: A Knives Out Mystery,2025,Rian Johnson
+59,high_confidence_candidate,movie,1317149,I Swear,2025,Kirk Jones
+60,high_confidence_candidate,movie,696506,Mickey 17,2025,Bong Joon Ho
+61,catalog_identity_review,,,,,
+62,catalog_identity_review,,,,,
+63,catalog_identity_review,,,,,
+64,catalog_identity_review,,,,,
+65,catalog_identity_review,,,,,
+66,high_confidence_candidate,movie,1257406,Two Prosecutors,2025,Sergei Loznitsa
+67,catalog_identity_review,,,,,
+68,high_confidence_candidate,movie,661603,Our Land,2026,Lucrecia Martel
+69,high_confidence_candidate,movie,1329909,Remake,2026,Ross McElwee
+70,high_confidence_candidate,movie,575265,Mission: Impossible - The Final Reckoning,2025,Christopher McQuarrie
+71,high_confidence_candidate,movie,1242404,Steve,2025,Tim Mielants
+72,high_confidence_candidate,movie,1517075,Back Home,2025,Tsai Ming-liang
+73,high_confidence_candidate,movie,1292123,Mother,2025,Teona Strugar Mitevska; Vuk Mitevski
+74,catalog_identity_review,,,,,
+75,catalog_identity_review,,,,,
+76,catalog_identity_review,,,,,
+77,high_confidence_candidate,movie,1485975,Kim Novak's Vertigo,2026,Alexandre O. Philippe
+78,catalog_identity_review,,,,,
+79,catalog_identity_review,,,,,
+80,catalog_identity_review,,,,,
+81,catalog_identity_review,,,,,
+82,catalog_identity_review,,,,,
+83,catalog_identity_review,,,,,
+84,catalog_identity_review,,,,,
+85,high_confidence_candidate,movie,1035259,The Naked Gun,2025,Akiva Schaffer
+86,catalog_identity_review,,,,,
+87,high_confidence_candidate,movie,1020047,In the Hand of Dante,2026,Julian Schnabel
+88,high_confidence_candidate,movie,1037264,The Disappearance of Josef Mengele,2025,Kirill Serebrennikov
+89,high_confidence_candidate,movie,1400357,The Christophers,2026,Steven Soderbergh
+90,catalog_identity_review,,,,,
+91,catalog_identity_review,,,,,
+92,high_confidence_candidate,movie,1263012,Dead Man's Wire,2026,Gus Van Sant
+93,high_confidence_candidate,movie,1119449,"Good Luck, Have Fun, Don't Die",2026,Gore Verbinski
+94,catalog_identity_review,,,,,
+95,catalog_identity_review,,,,,
+96,catalog_identity_review,,,,,
+97,catalog_identity_review,,,,,
+98,high_confidence_candidate,movie,1195100,Marco: The Invented Truth,2024,Aitor Arregi; Jon Garaño
+99,catalog_identity_review,,,,,
+100,high_confidence_candidate,movie,1003722,Quiet Life,2025,Alexandros Avranas
+101,catalog_identity_review,,,,,
+102,catalog_identity_review,,,,,
+103,high_confidence_candidate,movie,1103678,And Their Children After Them,2024,Zoran Boukherma; Ludovic Boukherma
+104,high_confidence_candidate,movie,917496,Beetlejuice Beetlejuice,2024,Tim Burton
+105,high_confidence_candidate,movie,957304,Drive-Away Dolls,2024,Ethan Coen
+106,high_confidence_candidate,movie,592831,Megalopolis,2024,Francis Ford Coppola
+107,catalog_identity_review,,,,,
+108,unmatched,,,,,
+109,catalog_identity_review,,,,,
+110,high_confidence_candidate,movie,929831,The Empire,2024,Bruno Dumont
+111,catalog_identity_review,,,,,
+112,catalog_identity_review,,,,,
+113,catalog_identity_review,,,,,
+114,catalog_identity_review,,,,,
+115,catalog_identity_review,,,,,
+116,catalog_identity_review,,,,,
+117,catalog_identity_review,,,,,
+118,catalog_identity_review,,,,,
+119,high_confidence_candidate,movie,1295035,Super Happy Forever,2024,Igarashi Kohei
+120,catalog_identity_review,,,,,
+121,high_confidence_candidate,movie,1082195,The Order,2024,Justin Kurzel
+122,catalog_identity_review,,,,,
+123,review_required,movie,80,Before Sunset,2004,Richard Linklater
+124,catalog_identity_review,,,,,
+125,high_confidence_candidate,movie,1102493,Small Things Like These,2024,Tim Mielants
+126,high_confidence_candidate,movie,1137245,Three Friends,2024,Emmanuel Mouret
+127,high_confidence_candidate,movie,1320276,The New Year That Never Came,2024,Bogdan Mureșanu
+128,high_confidence_candidate,movie,889737,Joker: Folie à Deux,2024,Todd Phillips
+129,high_confidence_candidate,movie,1321365,Homegrown,2024,Michael Premo
+130,catalog_identity_review,,,,,
+131,high_confidence_candidate,movie,1025011,"Pooja, Sir",2025,Deepak Rauniyar
+132,catalog_identity_review,,,,,
+133,high_confidence_candidate,movie,1257407,When the Light Breaks,2024,Rúnar Rúnarsson
+134,catalog_identity_review,,,,,
+135,high_confidence_candidate,movie,730251,Happyend,2024,Neo Sora
+136,high_confidence_candidate,movie,1109255,Parthenope,2024,Paolo Sorrentino
+137,high_confidence_candidate,movie,1309748,January 2,2025,Zsófia Szilágyi
+138,catalog_identity_review,,,,,
+139,catalog_identity_review,,,,,
+140,high_confidence_candidate,movie,877817,Wolfs,2024,Jon Watts
+141,catalog_identity_review,,,,,
+142,catalog_identity_review,,,,,
+143,high_confidence_candidate,movie,964980,Air,2023,Ben Affleck
+144,high_confidence_candidate,movie,859235,Coup de chance,2023,Woody Allen
+145,high_confidence_candidate,movie,747188,Asteroid City,2023,Wes Anderson
+146,high_confidence_candidate,movie,1058032,Here,2024,Bas Devos
+147,high_confidence_candidate,movie,930564,Saltburn,2023,Emerald Fennell
+148,high_confidence_candidate,movie,979097,Memory,2023,Michel Franco
+149,high_confidence_candidate,movie,937746,Io Capitano,2023,Matteo Garrone
+150,high_confidence_candidate,movie,346698,Barbie,2023,Greta Gerwig
+151,catalog_identity_review,,,,,
+152,catalog_identity_review,,,,,
+153,high_confidence_candidate,movie,1056360,American Fiction,2023,Cord Jefferson
+154,high_confidence_candidate,movie,986280,Fallen Leaves,2023,Aki Kaurismäki
+155,high_confidence_candidate,movie,1111750,Goodbye Julia,2023,Mohamed Kordofani
+156,high_confidence_candidate,movie,792307,Poor Things,2023,Yorgos Lanthimos
+157,catalog_identity_review,,,,,
+158,high_confidence_candidate,movie,575264,Mission: Impossible - Dead Reckoning Part One,2023,Christopher McQuarrie
+159,high_confidence_candidate,movie,872585,Oppenheimer,2023,Christopher Nolan
+160,high_confidence_candidate,movie,840430,The Holdovers,2023,Alexander Payne
+161,high_confidence_candidate,movie,900379,Afire,2023,Christian Petzold
+162,catalog_identity_review,,,,,
+163,high_confidence_candidate,movie,466420,Killers of the Flower Moon,2023,Martin Scorsese
+164,high_confidence_candidate,movie,666277,Past Lives,2023,Celine Song
+165,high_confidence_candidate,movie,1081593,Housekeeping for Beginners,2024,Goran Stolevski
+166,high_confidence_candidate,movie,884605,No Hard Feelings,2023,Gene Stupnitsky
+167,high_confidence_candidate,movie,915935,Anatomy of a Fall,2023,Justine Triet
+168,catalog_identity_review,,,,,
+169,high_confidence_candidate,movie,785084,Кит,2022,Darren Aronofsky
+170,high_confidence_candidate,movie,744594,Белый шум,2022,Noah Baumbach
+171,high_confidence_candidate,movie,49046,На Западном фронте без перемен,2022,Edward Berger
+172,review_required,movie,780609,Род мужской,2022,Alex Garland
+173,review_required,movie,791177,Целиком и полностью,2022,Luca Guadagnino
+174,high_confidence_candidate,movie,555604,Пиноккио Гильермо дель Торо,2022,Mark Gustafson; Guillermo del Toro
+175,review_required,movie,661374,Достать ножи: Стеклянная луковица,2022,Rian Johnson
+176,high_confidence_candidate,movie,766475,"Смотрите, как они бегут",2022,Tom George
+177,high_confidence_candidate,movie,806368,Сын,2022,Florian Zeller
+178,high_confidence_candidate,movie,361743,Топ Ган: Мэверик,2022,Joseph Kosinski
+179,review_required,movie,718930,Быстрее пули,2022,David Leitch
+180,high_confidence_candidate,movie,674324,Банши Инишерина,2022,Martin McDonagh
+181,review_required,movie,579974,RRR: Рядом ревёт революция,2022,S. S. Rajamouli
+182,high_confidence_candidate,movie,916224,"Судзумэ, закрывающая двери",2022,Makoto Shinkai
+183,review_required,movie,804095,Фабельманы,2022,Steven Spielberg
+184,review_required,movie,619730,"Не беспокойся, дорогая",2022,Olivia Wilde
+185,review_required,movie,776503,CODA: Ребенок глухих родителей,2021,Sian Heder
+186,review_required,movie,615777,Вавилон,2022,Damien Chazelle
+187,high_confidence_candidate,movie,497828,Треугольник печали,2022,Ruben Östlund
+188,high_confidence_candidate,movie,685691,"BARDO, False Chronicle of a Handful of Truths",2022,Alejandro G. Iñárritu
+189,high_confidence_candidate,movie,752623,The Lost City,2022,Aaron Nee; Adam Nee
+190,high_confidence_candidate,movie,718032,Лакричная пицца,2021,Paul Thomas Anderson
+191,high_confidence_candidate,movie,542178,Французский вестник. Приложение к газете «Либерти. Канзас ивнинг сан»,2021,Wes Anderson
+192,high_confidence_candidate,movie,777270,Белфаст,2021,Kenneth Branagh
+193,high_confidence_candidate,movie,438631,Дюна,2021,Denis Villeneuve
+194,review_required,movie,793998,Событие,2021,Audrey Diwan
+195,high_confidence_candidate,movie,790496,Безумное кино для взрослых,2021,Radu Jude
+196,review_required,movie,749274,Мужские слезы,2021,Clint Eastwood
+197,review_required,movie,545611,Всё везде и сразу,2022,Daniel Scheinert; Daniel Kwan
+198,high_confidence_candidate,movie,588182,Купе номер 6,2021,Juho Kuosmanen
+199,review_required,movie,600583,Власть пса,2021,Jane Campion
+200,high_confidence_candidate,movie,646380,Не смотрите наверх,2021,Adam McKay
+201,review_required,movie,460465,Мортал Комбат,2021,Simon McQuoid
+202,review_required,movie,746131,"Париж, 13-й округ",2021,Jacques Audiard
+203,unmatched,,,,,
+204,high_confidence_candidate,movie,660120,Худший человек на свете,2021,Joachim Trier
+205,review_required,movie,634649,Человек-паук: Нет пути домой,2021,Jon Watts
+206,review_required,movie,672208,Герой,2021,Asghar Farhadi
+207,high_confidence_candidate,movie,370172,007: Не время умирать,2021,Cary Joji Fukunaga
+208,high_confidence_candidate,movie,758866,Сядь за руль моей машины,2021,Ryusuke Hamaguchi
+209,review_required,tv,93405,Игра в кальмара,2021,Hwang Dong-hyuk
+210,review_required,movie,524434,Вечные,2021,Chloé Zhao
+211,high_confidence_candidate,movie,497698,Чёрная вдова,2021,Cate Shortland
+212,high_confidence_candidate,movie,606876,Фестиваль Рифкина,2020,Woody Allen
+213,high_confidence_candidate,movie,663870,Рыцари справедливости,2020,Anders Thomas Jensen
+214,high_confidence_candidate,movie,580175,Ещё по одной,2020,Thomas Vinterberg
+215,review_required,movie,581032,Новости со всех концов света,2020,Paul Greengrass
+216,review_required,movie,508442,Душа,2020,Pete Docter
+217,review_required,movie,714194,Атака титанов: Хроника,2020,Masashi Koizuka; Tetsuro Araki
+218,high_confidence_candidate,movie,424277,Аннетт,2021,Leos Carax
+219,review_required,movie,575417,Последняя капля,2020,Sofia Coppola
+220,high_confidence_candidate,movie,664601,Гунда,2021,Viktor Kossakovsky
+221,review_required,movie,642208,Супернова,2020,Harry Macqueen
+222,high_confidence_candidate,movie,667869,Вся жизнь впереди,2020,Edoardo Ponti
+223,review_required,movie,667935,Зла не существует,2020,Mohammad Rasoulof
+224,high_confidence_candidate,movie,664300,"Шалом, папик!",2021,Emma Seligman
+225,high_confidence_candidate,movie,556984,Суд над чикагской семеркой,2020,Aaron Sorkin
+226,high_confidence_candidate,movie,582014,"Девушка, подающая надежды",2020,Emerald Fennell
+227,high_confidence_candidate,movie,614560,Манк,2020,David Fincher
+228,review_required,tv,87739,Ход королевы,2020,Scott Frank
+229,unmatched,,,,,
+230,high_confidence_candidate,movie,584006,Марафон желаний,2020,Dasha Charusha
+231,review_required,movie,581734,Земля кочевников,2021,Chloé Zhao
+232,high_confidence_candidate,movie,475303,Дождливый день в Нью-Йорке,2019,Woody Allen
+233,high_confidence_candidate,movie,519010,Боль и слава,2019,Pedro Almodóvar
+234,high_confidence_candidate,movie,299537,Капитан Марвел,2019,Ryan Fleck; Anna Boden
+235,high_confidence_candidate,movie,530385,Солнцестояние,2019,Ari Aster
+236,high_confidence_candidate,movie,517148,Дылда,2019,Kantemir Balagov
+237,review_required,movie,492188,История о супружестве,2019,Noah Baumbach
+238,high_confidence_candidate,movie,515195,Yesterday,2019,Danny Boyle
+239,review_required,movie,515001,Кролик Джоджо,2019,Taika Waititi
+240,high_confidence_candidate,movie,522373,Молодой Ахмед,2019,Jean-Pierre Dardenne; Luc Dardenne
+241,review_required,movie,546554,Достать ножи,2019,Rian Johnson
+242,review_required,movie,301528,История игрушек 4,2019,Josh Cooley
+243,high_confidence_candidate,movie,609031,Мои мысли тихие,2020,Antonio Lukich
+244,high_confidence_candidate,movie,502033,Звук металла,2020,Darius Marder
+245,review_required,movie,551332,Два Папы,2019,Fernando Meirelles
+246,high_confidence_candidate,movie,508965,Клаус,2019,Sergio Pablos
+247,review_required,movie,496243,Паразиты,2019,Bong Joon Ho
+248,review_required,movie,504582,Свистуны,2019,Corneliu Porumboiu
+249,high_confidence_candidate,movie,299534,Мстители: Финал,2019,Anthony Russo; Joe Russo
+250,high_confidence_candidate,movie,575299,Верность,2019,Nigina Sayfullaeva
+251,high_confidence_candidate,movie,398978,Ирландец,2019,Martin Scorsese
+252,review_required,movie,531428,Портрет девушки в огне,2019,Céline Sciamma
+253,high_confidence_candidate,movie,466272,Однажды в… Голливуде,2019,Quentin Tarantino
+254,review_required,movie,429617,Человек-паук: Вдали от дома,2019,Jon Watts
+255,high_confidence_candidate,movie,475557,Джокер,2019,Todd Phillips
+256,high_confidence_candidate,movie,575828,Холоп,2019,Klim Shipenko
+257,high_confidence_candidate,movie,535581,The Dead Don't Die,2019,Jim Jarmusch
+258,high_confidence_candidate,movie,399174,Остров собак,2018,Wes Anderson
+259,unmatched,,,,,
+260,high_confidence_candidate,movie,513349,Завод,2018,Yury Bykov
+261,high_confidence_candidate,movie,443009,"Не волнуйся, он далеко не уйдёт",2018,Gus Van Sant
+262,high_confidence_candidate,movie,493655,Довлатов,2018,Aleksei German Jr.
+263,high_confidence_candidate,movie,297725,"Человек, который убил Дон Кихота",2018,Terry Gilliam
+264,high_confidence_candidate,movie,446021,Ничего хорошего в отеле «Эль рояль»,2018,Drew Goddard
+265,high_confidence_candidate,movie,519185,Айка,2018,Sergei Dvortsevoy
+266,unmatched,,,,,
+267,review_required,movie,543580,Они никогда не станут старше,2018,Peter Jackson
+268,high_confidence_candidate,movie,527248,Хрусталь,2018,Darya Zhuk
+269,review_required,movie,504172,Наркокурьер,2018,Clint Eastwood
+270,review_required,movie,453201,Поезд на Париж,2018,Clint Eastwood
+271,review_required,movie,338952,Фантастические твари: Преступления Грин-де-Вальда,2018,David Yates
+272,high_confidence_candidate,movie,399035,Пассажир,2018,Jaume Collet-Serra
+273,review_required,movie,460668,Красотка на всю голову,2018,Abby Kohn; Marc Silverstein
+274,high_confidence_candidate,movie,505192,Магазинные воришки,2018,Hirokazu Kore-eda
+275,unmatched,,,,,
+276,review_required,movie,426426,Рома,2018,Alfonso Cuarón
+277,review_required,movie,284054,Чёрная Пантера,2018,Ryan Coogler
+278,review_required,movie,332562,Звезда родилась,2018,Bradley Cooper
+279,high_confidence_candidate,movie,517814,Капернаум,2018,Nadine Labaki
+280,high_confidence_candidate,movie,375262,Фаворитка,2018,Yorgos Lanthimos
+281,review_required,movie,487558,Чёрный клановец,2018,Spike Lee
+282,review_required,movie,383498,Дэдпул 2,2018,David Leitch
+283,high_confidence_candidate,movie,526999,Дикое поле,2018,Yaroslav Lodygin
+284,high_confidence_candidate,movie,341735,Чайка,2018,Michael Mayer
+285,high_confidence_candidate,movie,429197,Власть,2018,Adam McKay
+286,review_required,movie,353081,Миссия невыполнима: Последствия,2018,Christopher McQuarrie
+287,high_confidence_candidate,movie,514899,Сердце мира,2018,Natalya Meshchaninova
+288,high_confidence_candidate,movie,507076,Экстаз,2018,Gaspar Noé
+289,review_required,movie,440161,Братья Систерс,2018,Jacques Audiard
+290,review_required,movie,440298,Холодная война,2018,Paweł Pawlikowski
+291,review_required,movie,458423,Mamma Mia! Here We Go Again,2018,Ol Parker
+292,high_confidence_candidate,movie,363088,Человек-муравей и Оса,2018,Peyton Reed
+293,review_required,movie,481432,Счастливый Лазарь,2018,Alice Rohrwacher
+294,review_required,movie,402900,Восемь подруг Оушена,2018,Gary Ross
+295,high_confidence_candidate,movie,299536,Мстители: Война бесконечности,2018,Anthony Russo; Joe Russo
+296,high_confidence_candidate,movie,502897,Лето,2018,Kirill Serebrennikov
+297,high_confidence_candidate,movie,516561,История одного назначения,2018,Avdotya Smirnova
+298,high_confidence_candidate,movie,400535,Убийца 2. Против всех,2018,Stefano Sollima
+299,review_required,movie,333339,Первому игроку приготовиться,2018,Steven Spielberg
+300,high_confidence_candidate,movie,338970,Tomb Raider: Лара Крофт,2018,Roar Uthaug
+301,review_required,movie,477887,Нуреев. Белый ворон,2018,Ralph Fiennes
+302,unmatched,,,,,
+303,high_confidence_candidate,movie,496916,Война Анны,2018,Aleksey Fedorchenko
+304,high_confidence_candidate,movie,546630,100 вещей и ничего лишнего,2018,Florian David Fitz
+305,high_confidence_candidate,movie,398173,"Дом, который построил Джек",2018,Lars von Trier
+306,unmatched,,,,,
+307,high_confidence_candidate,movie,487850,Асако 1 и 2,2018,Ryusuke Hamaguchi
+308,high_confidence_candidate,movie,401847,Сможете ли вы меня простить?,2018,Marielle Heller
+309,review_required,movie,437586,Середина 90-х,2018,Jonah Hill
+310,review_required,movie,369972,Человек на Луне,2018,Damien Chazelle
+311,high_confidence_candidate,movie,429189,Колесо чудес,2017,Woody Allen
+312,high_confidence_candidate,movie,400617,Призрачная нить,2017,Paul Thomas Anderson
+313,review_required,movie,354912,Тайна Коко,2017,Lee Unkrich
+314,high_confidence_candidate,movie,381283,Мама!,2017,Darren Aronofsky
+315,high_confidence_candidate,movie,452008,Теснота,2017,Kantemir Balagov
+316,review_required,movie,473334,Моё поколение,2017,David Batty
+317,review_required,movie,284053,Тор: Рагнарёк,2017,Taika Waititi
+318,high_confidence_candidate,movie,335984,Бегущий по лезвию 2049,2017,Denis Villeneuve
+319,high_confidence_candidate,movie,465871,Мария до Каллас,2017,Tom Volf
+320,review_required,movie,283995,Стражи Галактики. Часть 2,2017,James Gunn
+321,high_confidence_candidate,movie,391713,Леди Бёрд,2017,Greta Gerwig
+322,high_confidence_candidate,movie,389015,Тоня против всех,2017,Craig Gillespie
+323,review_required,movie,398818,Назови меня своим именем,2017,Luca Guadagnino
+324,review_required,movie,324852,Гадкий я 3,2017,Kyle Balda; Pierre Coffin
+325,high_confidence_candidate,movie,399055,Форма воды,2017,Guillermo del Toro
+326,review_required,movie,181808,Звёздные войны: Эпизод 8 - Последние джедаи,2017,Rian Johnson
+327,high_confidence_candidate,movie,429174,Loveless,2017,Andrey Zvyagintsev
+328,high_confidence_candidate,movie,402897,Смерть Сталина,2017,Armando Iannucci
+329,high_confidence_candidate,movie,447061,День красных носов,2017,Richard Curtis; Mat Whitecross
+330,review_required,movie,337676,"Мектуб, моя любовь",2018,Abdellatif Kechiche
+331,review_required,movie,444539,Букшоп,2017,Isabel Coixet
+332,review_required,movie,399019,Роковое искушение,2017,Sofia Coppola
+333,review_required,movie,353486,Джуманджи: Зов Джунглей,2017,Jake Kasdan
+334,high_confidence_candidate,movie,399057,Убийство священного оленя,2017,Yorgos Lanthimos
+335,high_confidence_candidate,movie,359940,"Три билборда на границе Эббинга, Миссури",2017,Martin McDonagh
+336,high_confidence_candidate,movie,444431,Фокстрот,2017,Samuel Maoz
+337,high_confidence_candidate,movie,374720,Дюнкерк,2017,Christopher Nolan
+338,review_required,movie,387426,Окча,2017,Bong Joon Ho
+339,high_confidence_candidate,movie,339988,Сфера,2017,James Ponsoldt
+340,review_required,movie,398181,Тебя никогда здесь не было,2017,Lynne Ramsay
+341,high_confidence_candidate,movie,315837,Призрак в доспехах,2017,Rupert Sanders
+342,review_required,movie,446354,Секретное досье,2017,Steven Spielberg
+343,review_required,movie,385332,Конченая,2018,Vaughn Stein
+344,high_confidence_candidate,movie,441957,Урфин Джюс и его деревянные солдаты,2017,Vladimir Toropchin; Fedor Dmitriev; Darina Shmidt
+345,review_required,movie,362058,Снежная королева 3. Огонь и лед,2016,Alexey Tsitsilin
+346,review_required,movie,315635,Человек-паук: Возвращение домой,2017,Jon Watts
+347,review_required,movie,339877,"Ван Гог. С любовью, Винсент",2017,Hugh Welchman; DK Welchman
+348,high_confidence_candidate,movie,466287,Как Витька Чеснок вёз Лёху Штыря в дом инвалидов,2017,Alexandr Khant
+349,high_confidence_candidate,movie,457842,Аритмия,2017,Boris Khlebnikov
+350,review_required,movie,390043,Телохранитель киллера,2017,Patrick Hughes
+351,high_confidence_candidate,movie,401246,Квадрат,2017,Ruben Östlund
+352,high_confidence_candidate,movie,473334,My Generation,2017,David Batty
+353,high_confidence_candidate,movie,374475,Тони Эрдманн,2016,Maren Ade
+354,high_confidence_candidate,movie,339397,Светская жизнь,2016,Woody Allen
+355,unmatched,,,,,
+356,high_confidence_candidate,movie,223702,Полный расколбас,2016,Conrad Vernon; Greg Tiernan
+357,review_required,movie,337674,Она,2016,Paul Verhoeven
+358,high_confidence_candidate,movie,329865,Прибытие,2016,Denis Villeneuve
+359,review_required,movie,337703,Красная черепаха,2016,Michael Dudok de Wit
+360,review_required,movie,284052,Доктор Стрэндж,2016,Scott Derrickson
+361,review_required,movie,376867,Лунный свет,2016,Barry Jenkins
+362,high_confidence_candidate,movie,381341,Идеальные незнакомцы,2016,Paolo Genovese
+363,review_required,movie,259316,Фантастические твари и где они обитают,2016,David Yates
+364,review_required,movie,270487,Да здравствует Цезарь!,2016,Joel Coen; Ethan Coen
+365,high_confidence_candidate,movie,334541,Манчестер у моря,2016,Kenneth Lonergan
+366,high_confidence_candidate,movie,374473,"Я, Дэниел Блэйк",2016,Ken Loach
+367,high_confidence_candidate,movie,293660,Дэдпул,2016,Tim Miller
+368,high_confidence_candidate,movie,334533,Капитан Фантастик,2016,Matt Ross
+369,high_confidence_candidate,movie,271110,Первый мститель: Противостояние,2016,Joe Russo; Anthony Russo
+370,high_confidence_candidate,movie,392817,Ученик,2016,Kirill Serebrennikov
+371,high_confidence_candidate,movie,372058,Твоё имя,2016,Makoto Shinkai
+372,unmatched,,,,,
+373,high_confidence_candidate,movie,274870,Пассажиры,2016,Morten Tyldum
+374,high_confidence_candidate,movie,270010,Голограмма для короля,2016,Tom Tykwer
+375,review_required,movie,375315,Коммивояжер,2016,Asghar Farhadi
+376,high_confidence_candidate,movie,340666,Под покровом ночи,2016,Tom Ford
+377,high_confidence_candidate,movie,325789,Афера под прикрытием,2016,Brad Furman
+378,review_required,movie,313369,Ла-Ла Ленд,2016,Damien Chazelle
+379,review_required,movie,296096,До встречи с тобой,2016,Thea Sharrock
+380,high_confidence_candidate,movie,269149,Zootopia,2016,Byron Howard; Rich Moore
+381,high_confidence_candidate,movie,370755,Paterson,2016,Jim Jarmusch
+382,review_required,movie,140607,Звёздные войны: Эпизод 7 - Пробуждение силы,2015,J.J. Abrams
+383,review_required,movie,264644,Комната,2015,Lenny Abrahamson
+384,high_confidence_candidate,movie,282984,Иррациональный человек,2015,Woody Allen
+385,high_confidence_candidate,movie,241257,Затмение,2015,Alejandro Amenábar
+386,review_required,movie,271718,Девушка без комплексов,2015,Judd Apatow
+387,high_confidence_candidate,movie,211672,Миньоны,2015,Kyle Balda; Pierre Coffin
+388,high_confidence_candidate,movie,376716,День выборов 2,2016,Aleksandr Barshak
+389,review_required,movie,158852,Земля будущего,2015,Brad Bird
+390,unmatched,,,,,
+391,high_confidence_candidate,movie,330764,Новейший завет,2015,Jaco Van Dormael
+392,high_confidence_candidate,movie,76757,Восхождение Юпитер,2015,Lana Wachowski; Lilly Wachowski
+393,high_confidence_candidate,movie,273481,Убийца,2015,Denis Villeneuve
+394,high_confidence_candidate,movie,250734,Вдали от обезумевшей толпы,2015,Thomas Vinterberg
+395,review_required,movie,207703,Kingsman: Секретная служба,2015,Matthew Vaughn
+396,high_confidence_candidate,movie,314405,Страшные сказки,2015,Matteo Garrone
+397,high_confidence_candidate,movie,320005,Под электрическими облаками,2015,Aleksei German Jr.
+398,high_confidence_candidate,movie,308369,"Я, Эрл и умирающая девушка",2015,Alfonso Gomez-Rejon
+399,review_required,movie,150540,Головоломка,2015,Pete Docter
+400,high_confidence_candidate,movie,325388,14+,2015,Andrey Zaytsev
+401,high_confidence_candidate,movie,291270,Аномализа,2015,Duke Johnson; Charlie Kaufman
+402,high_confidence_candidate,movie,253412,Эверест,2015,Baltasar Kormákur
+403,review_required,movie,167073,Бруклин,2015,John Crowley
+404,high_confidence_candidate,movie,254320,Лобстер,2015,Yorgos Lanthimos
+405,review_required,movie,131634,Голодные игры: Сойка-пересмешница. Часть 2,2015,Francis Lawrence
+406,review_required,movie,257211,Стажёр,2015,Nancy Meyers
+407,high_confidence_candidate,movie,314365,В центре внимания,2015,Tom McCarthy
+408,review_required,movie,177677,Миссия невыполнима: Племя изгоев,2015,Christopher McQuarrie
+409,high_confidence_candidate,movie,214756,Третий лишний 2,2015,Seth MacFarlane
+410,review_required,movie,86835,Рыцарь кубков,2015,Terrence Malick
+411,high_confidence_candidate,movie,371778,Про любовь,2015,Anna Melikyan
+412,high_confidence_candidate,movie,206647,007: Спектр,2015,Sam Mendes
+413,high_confidence_candidate,movie,390376,Тряпичный союз,2016,Mikhail Mestetskiy
+414,high_confidence_candidate,movie,76341,Безумный Макс: Дорога Ярости,2015,George Miller
+415,high_confidence_candidate,movie,315872,Моя мама,2015,Nanni Moretti
+416,high_confidence_candidate,movie,336050,Сын Саула,2015,László Nemes
+417,review_required,movie,314402,Дипан,2015,Jacques Audiard
+418,high_confidence_candidate,movie,309809,Маленький принц,2015,Mark Osborne
+419,review_required,movie,320006,Такси,2015,Jafar Panahi
+420,high_confidence_candidate,movie,364427,Орлеан,2015,Andrei Proshkin
+421,review_required,movie,274479,Джой,2015,David O. Russell
+422,high_confidence_candidate,movie,102899,Человек-муравей,2015,Peyton Reed
+423,review_required,movie,203801,Агенты А.Н.К.Л.,2015,Guy Ritchie
+424,high_confidence_candidate,movie,370902,Страна ОЗ,2015,Vasiliy Sigarev
+425,review_required,movie,286217,Марсианин,2015,Ridley Scott
+426,high_confidence_candidate,movie,310593,Молодость,2015,Paolo Sorrentino
+427,review_required,movie,296098,Шпионский мост,2015,Steven Spielberg
+428,unmatched,,,,,
+429,high_confidence_candidate,movie,166424,Фантастическая Четвёрка,2015,Josh Trank
+430,review_required,movie,135397,Мир юрского периода,2015,Colin Trevorrow
+431,review_required,movie,99861,Мстители: Эра Альтрона,2015,Joss Whedon
+432,review_required,movie,238713,Шпион,2015,Paul Feig
+433,high_confidence_candidate,movie,283587,Безродные звери,2015,Cary Joji Fukunaga
+434,high_confidence_candidate,movie,371899,Синдром Петрушки,2015,Elena Hazanova
+435,high_confidence_candidate,movie,258480,Кэрол,2015,Todd Haynes
+436,high_confidence_candidate,movie,306819,Девушка из Дании,2015,Tom Hooper
+437,review_required,movie,311291,45 лет,2015,Andrew Haigh
+438,high_confidence_candidate,movie,262500,"Дивергент, глава 2: Инсургент",2015,Robert Schwentke
+439,high_confidence_candidate,movie,320007,Виктория,2015,Sebastian Schipper
+440,high_confidence_candidate,movie,336804,Мустанг,2015,Deniz Gamze Ergüven
+441,high_confidence_candidate,movie,250124,The Diary of a Teenage Girl,2015,Marielle Heller
+442,high_confidence_candidate,movie,281957,The Revenant,2015,Alejandro G. Iñárritu
+443,high_confidence_candidate,movie,166424,Fantastic Four,2015,Josh Trank
+444,review_required,movie,313556,Ёлки 1914,2014,Timur Bekmambetov; Alexandr Karpilovsky; Dmitry Kiselyov; Alexander Kott; Olga Kharina; Zaur Zaseyev; Yury Bykov; Ekaterina Telegina; Andrey Kavun
+445,high_confidence_candidate,movie,229297,Магия лунного света,2014,Woody Allen
+446,high_confidence_candidate,movie,171274,Врождённый порок,2014,Paul Thomas Anderson
+447,high_confidence_candidate,movie,120467,Отель «Гранд Будапешт»,2014,Wes Anderson
+448,high_confidence_candidate,movie,110390,"Голубь сидел на ветке, размышляя о бытии",2014,Roy Andersson
+449,high_confidence_candidate,movie,86834,Ной,2014,Darren Aronofsky
+450,high_confidence_candidate,movie,87093,Большие глаза,2014,Tim Burton
+451,high_confidence_candidate,movie,240832,Люси,2014,Luc Besson
+452,review_required,movie,248507,Любовь от всех болезней,2014,Dany Boon
+453,high_confidence_candidate,movie,285700,Дурак,2014,Yury Bykov
+454,high_confidence_candidate,movie,255898,Ещё один год,2014,Oksana Bychkova
+455,review_required,movie,91314,Трансформеры 4: Эпоха истребления,2014,Michael Bay
+456,review_required,movie,228970,Дикая,2014,Jean-Marc Vallée
+457,high_confidence_candidate,movie,274388,Скорый «Москва-Россия»,2014,Igor Voloshin
+458,review_required,movie,118340,Стражи Галактики,2014,James Gunn
+459,review_required,movie,264660,Из машины,2015,Alex Garland
+460,high_confidence_candidate,movie,114982,"Прощай, речь",2014,Jean-Luc Godard
+461,high_confidence_candidate,movie,221902,"Два дня, одна ночь",2014,Jean-Pierre Dardenne; Luc Dardenne
+462,review_required,movie,82702,Как приручить дракона 2,2014,Dean DeBlois
+463,high_confidence_candidate,movie,265169,Зимняя спячка,2014,Nuri Bilge Ceylan
+464,high_confidence_candidate,movie,205587,Судья,2014,David Dobkin
+465,high_confidence_candidate,movie,267481,Кухня в Париже,2014,Dmitriy Dyachenko
+466,high_confidence_candidate,movie,265180,Leviathan,2014,Andrey Zvyagintsev
+467,review_required,movie,190859,Снайпер,2014,Clint Eastwood
+468,unmatched,,,,,
+469,review_required,movie,283703,Белые ночи почтальона Алексея Тряпицына,2014,Andrei Konchalovsky
+470,high_confidence_candidate,movie,157849,Самый опасный человек,2014,Anton Corbijn
+471,unmatched,,,,,
+472,review_required,movie,137113,Грань будущего,2014,Doug Liman
+473,high_confidence_candidate,movie,187017,Мачо и ботан 2,2014,Phil Lord; Christopher Miller
+474,review_required,movie,131631,Голодные игры: Сойка-пересмешница. Часть 1,2014,Francis Lawrence
+475,high_confidence_candidate,movie,262958,Зал Джимми,2014,Ken Loach
+476,review_required,movie,932801,Теория всего,2023,Timm Kröger
+477,high_confidence_candidate,movie,278718,Звезда,2014,Anna Melikyan
+478,high_confidence_candidate,movie,257059,Комбинат «Надежда»,2014,Natalya Meshchaninova
+479,high_confidence_candidate,movie,87492,Охотник на лис,2014,Bennett Miller
+480,high_confidence_candidate,movie,157336,Интерстеллар,2014,Christopher Nolan
+481,high_confidence_candidate,movie,278095,Подарок с характером,2014,Karen Oganesyan
+482,high_confidence_candidate,movie,228967,Интервью,2014,Evan Goldberg; Seth Rogen
+483,high_confidence_candidate,movie,189,"Город грехов 2: Женщина, ради которой стоит убивать",2014,Frank Miller; Robert Rodriguez
+484,high_confidence_candidate,movie,100402,Первый мститель: Другая война,2014,Joe Russo; Anthony Russo
+485,high_confidence_candidate,movie,321015,Как меня зовут,2014,Nigina Sayfullaeva
+486,review_required,movie,172385,Рио 2,2014,Carlos Saldanha
+487,high_confidence_candidate,movie,127585,Люди Икс: Дни минувшего будущего,2014,Bryan Singer
+488,high_confidence_candidate,movie,285021,Класс коррекции,2014,Ivan I. Tverdovsky
+489,high_confidence_candidate,movie,205596,Игра в имитацию,2014,Morten Tyldum
+490;493,high_confidence_candidate,movie,177572,Город героев,2014,Chris Williams; Don Hall
+491,high_confidence_candidate,movie,297789,Ангелы революции,2014,Aleksey Fedorchenko
+492,high_confidence_candidate,movie,210577,Исчезнувшая,2014,David Fincher
+494,high_confidence_candidate,movie,180299,Рейд 2,2014,Gareth Evans
+495,high_confidence_candidate,movie,194662,Birdman or (The Unexpected Virtue of Ignorance),2014,Alejandro G. Iñárritu
+496,high_confidence_candidate,movie,85350,Boyhood,2014,Richard Linklater
+497,review_required,movie,87818,Movie 43,2013,Steven Brill; Steve Carr; Griffin Dunne; Elizabeth Banks; Peter Farrelly; Brett Ratner; James Duffy; Patrik Forsberg; James Gunn; Will Graham; Jonathan van Tulleken; Rusty Cundieff
+498,high_confidence_candidate,movie,160588,Жасмин,2013,Woody Allen
+499,review_required,movie,109445,Холодное сердце,2013,Jennifer Lee; Chris Buck
+500,review_required,movie,68721,Железный человек 3,2013,Shane Black
+501,review_required,movie,254721,Крестный путь,2014,Dietrich Brüggemann
+502,high_confidence_candidate,movie,191717,Майор,2013,Yury Bykov
+503,high_confidence_candidate,movie,152532,Далласский клуб покупателей,2013,Jean-Marc Vallée
+504,high_confidence_candidate,movie,146233,Пленницы,2013,Denis Villeneuve
+505,high_confidence_candidate,movie,181886,Враг,2014,Denis Villeneuve
+506,high_confidence_candidate,movie,44865,Великий мастер,2013,Wong Kar-Wai
+507,high_confidence_candidate,movie,110402,Трудно быть богом,2014,Aleksei German
+508,high_confidence_candidate,movie,157834,Теорема Зеро,2013,Terry Gilliam
+509,review_required,movie,152601,Она,2013,Spike Jonze
+510,high_confidence_candidate,movie,253192,"Быстрее, чем кролики",2014,Dmitriy Dyachenko
+511,unmatched,,,,,
+512,high_confidence_candidate,movie,122906,Бойфренд из будущего,2013,Richard Curtis
+513,review_required,movie,152584,Жизнь Адель,2013,Abdellatif Kechiche
+514,review_required,movie,248747,Ёлки 3,2013,Dmitry Kiselyov; Alexander Kott; Olga Kharina; Alexandr Karpilovsky; Zaur Zaseyev; Anton Megerdichev; Levan Gabriadze; Ekaterina Telegina
+515,review_required,movie,96936,Элитное общество,2013,Sofia Coppola
+516,review_required,movie,49047,Гравитация,2013,Alfonso Cuarón
+517,unmatched,,,,,
+518,review_required,movie,101299,Голодные игры: И вспыхнет пламя,2013,Francis Lawrence
+519,review_required,movie,157832,Голгофа,2014,John Michael McDonagh
+520,review_required,movie,209276,От звонка до звонка,2014,David Mackenzie
+521,review_required,movie,76203,12 лет рабства,2013,Steve McQueen
+522,review_required,movie,149870,Ветер крепчает,2013,Hayao Miyazaki
+523,review_required,movie,209274,Ида,2013,Paweł Pawlikowski
+524,high_confidence_candidate,movie,197082,Венера в мехах,2013,Roman Polanski
+525,review_required,movie,129670,Небраска,2013,Alexander Payne
+526,review_required,movie,168672,Афера по-американски,2013,David O. Russell
+527,review_required,movie,93456,Гадкий я 2,2013,Chris Renaud; Pierre Coffin
+528,high_confidence_candidate,movie,49519,Семейка Крудс,2013,Kirk DeMicco; Chris Sanders
+529,high_confidence_candidate,movie,198375,Сад изящных слов,2013,Makoto Shinkai
+530,high_confidence_candidate,movie,106646,Волк с Уолл-стрит,2013,Martin Scorsese
+531,review_required,movie,62211,Университет монстров,2013,Dan Scanlon
+532,high_confidence_candidate,movie,179144,Великая красота,2013,Paolo Sorrentino
+533,review_required,movie,206487,Патруль времени,2014,Peter Spierig; Michael Spierig
+534,high_confidence_candidate,movie,149871,Сказание о принцессе Кагуя,2013,Isao Takahata
+535,high_confidence_candidate,movie,250895,Иван Царевич и Серый Волк 2,2013,Vladimir Toropchin
+536,high_confidence_candidate,movie,238628,Мандарины,2013,Zaza Urushadze
+537,review_required,movie,116711,Эпик,2013,Chris Wedge
+538,high_confidence_candidate,movie,258216,Нимфоманка: Часть 1,2013,Lars von Trier
+539,review_required,movie,205220,Филомена,2013,Stephen Frears
+540,high_confidence_candidate,movie,96721,Гонка,2013,Ron Howard
+541,review_required,movie,367412,Одержимость,2013,Damien Chazelle
+542,unmatched,,,,,
+543,high_confidence_candidate,movie,152603,Only Lovers Left Alive,2013,Jim Jarmusch
+544,high_confidence_candidate,movie,157005,Google and the World Brain,2013,Ben Lewis
+545,high_confidence_candidate,movie,132344,Before Midnight,2013,Richard Linklater
+546,high_confidence_candidate,movie,49519,The Croods,2013,Kirk DeMicco; Chris Sanders
+547,high_confidence_candidate,movie,76338,Thor: The Dark World,2013,Alan Taylor
+548,review_required,movie,126319,Эрнест и Селестина: Приключения мышки и медведя,2012,Stéphane Aubier; Vincent Patar; Benjamin Renner
+549,review_required,movie,99247,Мамы,2012,Dmitriy Dyuzhev; Evgeniy Abyzov; Sarik Andreasyan; Eldar Salavatov; Tikhon Kornev; Alan Badoev; Ashot Keshchyan; Karen Oganesyan; Kirill Kozlov
+550,review_required,movie,159447,"С новым годом, мамы!",2012,Sarik Andreasyan; Anton Bormatov; Dmitry Grachev; Klim Poplavskiy; Artyom Aksenenko
+551,high_confidence_candidate,movie,81836,Римские приключения,2012,Woody Allen
+552,high_confidence_candidate,movie,68722,Мастер,2012,Paul Thomas Anderson
+553,high_confidence_candidate,movie,83666,Королевство полной луны,2012,Wes Anderson
+554,unmatched,,,,,
+555,high_confidence_candidate,movie,102197,Шпион,2012,Aleksey Andrianov
+556,high_confidence_candidate,movie,68734,Операция «Арго»,2012,Ben Affleck
+557,high_confidence_candidate,movie,103663,Охота,2012,Thomas Vinterberg
+558,review_required,movie,59967,Петля времени,2012,Rian Johnson
+559,unmatched,,,,,
+560,review_required,movie,41154,Люди в чёрном 3,2012,Barry Sonnenfeld
+561,high_confidence_candidate,movie,103328,Корпорация «Святые моторы»,2012,Leos Carax
+562,review_required,movie,84203,Козы,2012,Christopher Neil
+563,high_confidence_candidate,movie,50620,Сумерки. Сага. Рассвет: Часть 2,2012,Bill Condon
+564,review_required,movie,86829,Внутри Льюина Дэвиса,2013,Joel Coen; Ethan Coen
+565,high_confidence_candidate,movie,504484,Проклятие,2012,Zhora Kryzhovnikov
+566,review_required,movie,87827,Жизнь Пи,2012,Ang Lee
+567,high_confidence_candidate,movie,72197,Пираты! Банда неудачников,2012,Peter Lord
+568,high_confidence_candidate,movie,64688,Мачо и ботан,2012,Phil Lord; Christopher Miller
+569,high_confidence_candidate,movie,86838,Семь психопатов,2012,Martin McDonagh
+570,high_confidence_candidate,movie,72105,Третий лишний,2012,Seth MacFarlane
+571,high_confidence_candidate,movie,57800,Ледниковый период 4: Континентальный дрейф,2012,Michael Thurmeier; Steve Martino
+572,high_confidence_candidate,movie,37724,007: Координаты «Скайфолл»,2012,Sam Mendes
+573,review_required,movie,103740,За холмами,2012,Cristian Mungiu
+574,high_confidence_candidate,movie,49026,Тёмный рыцарь: Возрождение легенды,2012,Christopher Nolan
+575,review_required,movie,82693,Мой парень – псих,2012,David O. Russell
+576,high_confidence_candidate,movie,70160,Голодные игры,2012,Gary Ross
+577,high_confidence_candidate,movie,96821,Цезарь должен умереть,2012,Paolo Taviani; Vittorio Taviani
+578,unmatched,,,,,
+579,high_confidence_candidate,movie,152742,Лучшее предложение,2013,Giuseppe Tornatore
+580,high_confidence_candidate,movie,83542,Облачный атлас,2012,Lilly Wachowski; Lana Wachowski; Tom Tykwer
+581,review_required,movie,24428,Мстители,2012,Joss Whedon
+582,high_confidence_candidate,movie,154922,Три богатыря на дальних берегах,2012,Konstantin Feoktistov
+583,review_required,movie,86837,Любовь,2012,Michael Haneke
+584,review_required,movie,71552,Американский пирог 4: Все в сборе,2012,Jon Hurwitz; Hayden Schlossberg
+585,high_confidence_candidate,movie,247849,Одноклассники.ru: НаCLICKай удачу,2013,Pavel Hoodyakov
+586,review_required,movie,84892,Хорошо быть тихоней,2012,Stephen Chbosky
+587,high_confidence_candidate,movie,152155,Со мною вот что происходит,2012,Victor Shamirov
+588,high_confidence_candidate,movie,62177,Brave,2012,Mark Andrews; Brenda Chapman
+589,high_confidence_candidate,movie,49527,Man on a Ledge,2012,Asger Leth
+590,high_confidence_candidate,movie,52520,Underworld: Awakening,2012,Måns Mårlind; Björn Stein
+591,high_confidence_candidate,movie,72570,The Vow,2012,Michael Sucsy
+592,high_confidence_candidate,movie,72387,Safe,2012,Boaz Yakin
+593,high_confidence_candidate,movie,59436,Полночь в Париже,2011,Woody Allen
+594,high_confidence_candidate,movie,49517,"Шпион, выйди вон!",2011,Tomas Alfredson
+595,high_confidence_candidate,movie,61293,Служебный роман. Наше время,2011,Sarik Andreasyan
+596,review_required,movie,51876,Области тьмы,2011,Neil Burger
+597,review_required,movie,56292,Миссия невыполнима: Протокол Фантом,2011,Brad Bird
+598,high_confidence_candidate,movie,79733,"Высоцкий. Спасибо, что живой",2011,Pyotr Buslov
+599,review_required,movie,38356,Трансформеры 3: Тёмная сторона Луны,2011,Michael Bay
+600,high_confidence_candidate,movie,44896,Ранго,2011,Gore Verbinski
+601,unmatched,,,,,
+602,review_required,movie,49538,Люди Икс: Первый класс,2011,Matthew Vaughn
+603,review_required,movie,20312,Трасса 60,2002,Bob Gale
+604,high_confidence_candidate,movie,63375,Generation П,2011,Victor Ginzburg
+605,high_confidence_candidate,movie,74879,Однажды в Анатолии,2011,Nuri Bilge Ceylan
+606,review_required,movie,64685,Жутко громко и запредельно близко,2011,Stephen Daldry
+607,high_confidence_candidate,movie,83456,О чём ещё говорят мужчины,2011,Dmitriy Dyachenko
+608,review_required,movie,12445,Гарри Поттер и Дары Смерти: Часть II,2011,David Yates
+609,unmatched,,,,,
+610,review_required,movie,85317,Ёлки 2,2011,Dmitry Kiselyov; Aleksandr Baranov; Alexander Kott; Levan Gabriadze
+611,high_confidence_candidate,movie,50619,Сумерки. Сага. Рассвет: Часть 1,2011,Bill Condon
+612,review_required,movie,74465,Мы купили зоопарк,2011,Cameron Crowe
+613,review_required,movie,52449,Очень плохая училка,2011,Jake Kasdan
+614,review_required,movie,74308,Учитель на замену,2011,Tony Kaye
+615,high_confidence_candidate,movie,49013,Тачки 2,2011,John Lasseter
+616,review_required,movie,67913,Однажды в Ирландии,2011,John Michael McDonagh
+617,unmatched,,,,,
+618,high_confidence_candidate,movie,60308,"Человек, который изменил всё",2011,Bennett Miller
+619,high_confidence_candidate,movie,417859,Кот в сапогах,2011,Chris Miller
+620,review_required,movie,50619,The Twilight Saga: Breaking Dawn - Part 1,2011,Bill Condon
+621,review_required,movie,59440,Воин,2011,Gavin O'Connor
+622,high_confidence_candidate,movie,79728,Пеликан,2011,Olivier Horlait
+623,high_confidence_candidate,movie,72113,Резня,2011,Roman Polanski
+624,high_confidence_candidate,movie,64690,Драйв,2011,Nicolas Winding Refn
+625,review_required,movie,58574,Шерлок Холмс: Игра теней,2011,Guy Ritchie
+626,review_required,movie,46195,Рио,2011,Carlos Saldanha
+627,high_confidence_candidate,movie,44826,Хранитель времени,2011,Martin Scorsese
+628,high_confidence_candidate,movie,77560,Фауст,2011,Aleksandr Sokurov
+629,review_required,movie,50014,Прислуга,2011,Tate Taylor
+630,high_confidence_candidate,movie,70670,Охотники за головами,2011,Morten Tyldum
+631,high_confidence_candidate,movie,83865,Иван Царевич и Серый Волк,2011,Vladimir Toropchin
+632,review_required,movie,48988,Безбрачная неделя,2011,Bobby Farrelly; Peter Farrelly
+633,review_required,movie,60243,Развод Надера и Симин,2011,Asghar Farhadi
+634,review_required,movie,55721,Девичник в Вегасе,2011,Paul Feig
+635,high_confidence_candidate,movie,50646,Эта дурацкая любовь,2011,Glenn Ficarra; John Requa
+636,high_confidence_candidate,movie,45243,Мальчишник 2: Из Вегаса в Бангкок,2011,Todd Phillips
+637,high_confidence_candidate,movie,65754,Девушка с татуировкой дракона,2011,David Fincher
+638,high_confidence_candidate,movie,62215,Меланхолия,2011,Lars von Trier
+639,review_required,movie,74643,Артист,2011,Michel Hazanavicius
+640,review_required,movie,76758,Цветы войны,2011,Zhang Yimou
+641,high_confidence_candidate,movie,94329,Рейд,2012,Gareth Evans
+642,review_required,movie,45772,Гномео и Джульетта,2011,Kelly Asbury
+643,high_confidence_candidate,movie,10195,Thor,2011,Kenneth Branagh
+644,high_confidence_candidate,movie,50546,Just Go with It,2011,Dennis Dugan
+645,high_confidence_candidate,movie,50544,Friends with Benefits,2011,Will Gluck
+646,high_confidence_candidate,movie,80389,Get the Gringo,2012,Adrian Grünberg
+647,high_confidence_candidate,movie,1771,Captain America: The First Avenger,2011,Joe Johnston
+648,high_confidence_candidate,movie,49021,Killer Elite,2011,Gary McKendry
+649,high_confidence_candidate,movie,49530,In Time,2011,Andrew Niccol
+650,high_confidence_candidate,movie,38050,The Adjustment Bureau,2011,George Nolfi
+651,review_required,movie,58219,The Ages of Love,2011,Giovanni Veronesi
+652,high_confidence_candidate,movie,38031,Ты встретишь таинственного незнакомца,2010,Woody Allen
+653,review_required,movie,10193,История игрушек: Большой побег,2010,Lee Unkrich
+654,high_confidence_candidate,movie,44214,Чёрный лебедь,2010,Darren Aronofsky
+655,high_confidence_candidate,movie,57809,Ёлки,2010,Timur Bekmambetov; Yaroslav Chevazhevsky; Ignas Jonynas; Dmitry Kiselyov; Alexander Voitinsky; Alexander Andryuschenko
+656,high_confidence_candidate,movie,12155,Алиса в стране чудес,2010,Tim Burton
+657,review_required,movie,42888,Как знать…,2010,James L. Brooks
+658,review_required,movie,52077,Таможня дает добро,2010,Dany Boon
+659,high_confidence_candidate,movie,59426,Жить,2010,Yury Bykov
+660,review_required,movie,39451,Знакомство с Факерами 2,2010,Paul Weitz
+661,review_required,movie,37056,Письма к Джульетте,2010,Gary Winick
+662,high_confidence_candidate,movie,39253,Выкрутасы,2011,Levan Gabriadze
+663,high_confidence_candidate,movie,60189,Любовь-морковь 3,2011,Sergey Ginzburg
+664,high_confidence_candidate,movie,52939,Три богатыря и Шамаханская царица,2010,Sergey Glezin
+665,high_confidence_candidate,movie,39013,Зимняя кость,2010,Debra Granik
+666,high_confidence_candidate,movie,64645,Свадьба по обмену,2011,Dmitry Grachev
+667,high_confidence_candidate,movie,38757,Рапунцель: Запутанная история,2010,Byron Howard; Nathan Greno
+668,unmatched,,,,,
+669,high_confidence_candidate,movie,35428,О чём говорят мужчины,2010,Dmitriy Dyachenko
+670,review_required,movie,12444,Гарри Поттер и Дары Смерти: Часть I,2010,David Yates
+671,high_confidence_candidate,movie,57209,Неадекватные люди,2010,Roman Karimov
+672,review_required,movie,44264,Железная хватка,2010,Ethan Coen; Joel Coen
+673,review_required,movie,43956,Том и Джерри: Шерлок Холмс,2010,Spike Brandt; Jeff Siergey
+674,high_confidence_candidate,movie,38055,Мегамозг,2010,Tom McGrath
+675,review_required,movie,51999,Последняя любовь на Земле,2011,David Mackenzie
+676,review_required,movie,8967,Древо жизни,2011,Terrence Malick
+677,unmatched,,,,,
+678,review_required,movie,38357,Доброе утро,2010,Roger Michell
+679,high_confidence_candidate,movie,27205,Начало,2010,Christopher Nolan
+680,high_confidence_candidate,movie,31059,Наша Russia: Яйца Судьбы,2010,Gleb Orlov
+681,high_confidence_candidate,movie,22538,Скотт Пилигрим против всех,2010,Edgar Wright
+682,review_required,movie,41630,"Больше, чем секс",2011,Ivan Reitman
+683,review_required,movie,45317,Боец,2010,David O. Russell
+684,review_required,movie,20352,Гадкий я,2010,Pierre Coffin; Chris Renaud
+685,high_confidence_candidate,movie,10191,Как приручить дракона,2010,Chris Sanders; Dean DeBlois
+686,review_required,movie,24021,Сумерки. Сага. Затмение,2010,David Slade
+687,unmatched,,,,,
+688,review_required,movie,10138,Железный человек 2,2010,Jon Favreau
+689,high_confidence_candidate,movie,41733,Впритык,2010,Todd Phillips
+690,high_confidence_candidate,movie,37799,Социальная сеть,2010,David Fincher
+691,high_confidence_candidate,movie,37710,Турист,2010,Florian Henckel von Donnersmarck
+692,high_confidence_candidate,movie,45269,Король говорит!,2010,Tom Hooper
+693,review_required,movie,38575,Каратэ-пацан,2010,Harald Zwart
+694,review_required,movie,43347,Любовь и другие лекарства,2010,Edward Zwick
+695,high_confidence_candidate,movie,63283,Ирония любви,2010,Aleksandr Chernyaev
+696,high_confidence_candidate,movie,10140,The Chronicles of Narnia: The Voyage of the Dawn Treader,2010,Michael Apted
+697,high_confidence_candidate,movie,38408,Life As We Know It,2010,Greg Berlanti
+698,high_confidence_candidate,movie,38073,Going the Distance,2010,Nanette Burstein
+699,high_confidence_candidate,movie,37735,Easy A,2010,Will Gluck
+700,high_confidence_candidate,movie,45156,A Little Bit of Heaven,2011,Nicole Kassell
+701,high_confidence_candidate,movie,38745,Gulliver's Travels,2010,Rob Letterman
+702,high_confidence_candidate,movie,53314,The Song of Lunch,2010,Niall MacCormick
+703,high_confidence_candidate,movie,34806,The Back-Up Plan,2010,Alan Poul
+704,high_confidence_candidate,movie,23514,The Rum Diary,2011,Bruce Robinson
+705,high_confidence_candidate,movie,27578,The Expendables,2010,Sylvester Stallone
+706,high_confidence_candidate,movie,58232,Chalet Girl,2011,Phil Traill
+707,high_confidence_candidate,movie,27022,The Sorcerer's Apprentice,2010,Jon Turteltaub
+708,review_required,movie,10781,The Texas Chainsaw Massacre: The Beginning,2006,Jonathan Liebesman
+709,review_required,movie,33613,"Девушка, которая взрывала воздушные замки",2009,Daniel Alfredson
+710,review_required,movie,24253,"Девушка, которая играла с огнём",2009,Daniel Alfredson
+711,high_confidence_candidate,movie,10315,Бесподобный мистер Фокс,2009,Wes Anderson
+712,high_confidence_candidate,movie,18122,Обитаемый остров: Схватка,2009,Fyodor Bondarchuk
+713,high_confidence_candidate,movie,17935,Тарас Бульба,2009,Vladimir Bortko
+714,unmatched,,,,,
+715,review_required,movie,8373,Трансформеры 2: Месть Падших,2009,Michael Bay
+716,high_confidence_candidate,movie,24686,Любовь в большом городе,2009,Maryus  Vaysberg
+717,review_required,movie,18239,Сумерки. Сага. Новолуние,2009,Chris Weitz
+718,high_confidence_candidate,movie,31011,Господин Никто,2009,Jaco Van Dormael
+719,review_required,movie,10521,Война невест,2009,Gary Winick
+720,high_confidence_candidate,movie,71245,Ласковый май,2009,Vladimir Vinogradov
+721,high_confidence_candidate,movie,63286,Пикап: Съём без правил,2009,Feliks Gerchikov
+722,high_confidence_candidate,movie,8054,Воображариум доктора Парнаса,2009,Terry Gilliam
+723,review_required,movie,16523,"Там, где живут чудовища",2009,Spike Jonze
+724,review_required,movie,14160,Вверх,2009,Pete Docter
+725,high_confidence_candidate,movie,26280,Я убил свою маму,2009,Xavier Dolan
+726,review_required,movie,27936,Неудачники,2009,Jean-Pierre Jeunet
+727,high_confidence_candidate,movie,17979,Рождественская История,2009,Robert Zemeckis
+728,review_required,movie,767,Гарри Поттер и Принц-полукровка,2009,David Yates
+729,high_confidence_candidate,movie,10198,Принцесса и лягушка,2009,Ron Clements; John Musker
+730,review_required,movie,12573,Серьёзный человек,2009,Joel Coen; Ethan Coen
+731,review_required,movie,19995,Аватар,2009,James Cameron
+732,high_confidence_candidate,movie,38810,Клык,2009,Yorgos Lanthimos
+733,review_required,movie,18360,Ночь в музее 2,2009,Shawn Levy
+734,high_confidence_candidate,movie,13804,Форсаж 4,2009,Justin Lin
+735,review_required,movie,44147,Дикая штучка,2010,Jonathan Lynn
+736,high_confidence_candidate,movie,22794,"Облачно, возможны осадки в виде фрикаделек",2009,Phil Lord; Christopher Miller
+737,high_confidence_candidate,movie,20943,Голая правда,2009,Robert Luketic
+738,high_confidence_candidate,movie,11322,Джонни Д.,2009,Michael Mann
+739,high_confidence_candidate,movie,16325,Подарок,2009,Greg Marcks
+740,high_confidence_candidate,movie,52628,Картахена,2009,Alain Monne
+741,review_required,movie,39376,Сказки Золотого века,2009,Cristian Mungiu; Ioana Uricaru; Constantin Popescu Jr.; Răzvan Marculescu; Hanno Höfer
+742,high_confidence_candidate,movie,15472,Девушка с татуировкой дракона,2009,Niels Arden Oplev
+743,review_required,movie,113649,Призрак,2010,Kim Jho Gwang-soo; Yeo Myeong-jun; Jo Eun-kyung; Hong Dong-myung
+744,review_required,movie,22947,Мне бы в небо,2009,Jason Reitman
+745,review_required,movie,10528,Шерлок Холмс,2009,Guy Ritchie
+746,high_confidence_candidate,movie,29361,Антикиллер Д.К.: Любовь без памяти,2009,Eldar Salavatov
+747,review_required,movie,8355,Ледниковый период 3: Эра динозавров,2009,Carlos Saldanha
+748,high_confidence_candidate,movie,11324,Остров проклятых,2010,Martin Scorsese
+749,high_confidence_candidate,movie,16869,Бесславные ублюдки,2009,Quentin Tarantino
+750,high_confidence_candidate,movie,18785,Мальчишник в Вегасе,2009,Todd Phillips
+751,high_confidence_candidate,movie,18240,Предложение,2009,Anne Fletcher
+752,high_confidence_candidate,movie,17609,Антихрист,2009,Lars von Trier
+753,review_required,movie,37903,Белая лента,2009,Michael Haneke
+754,review_required,movie,20453,Три идиота,2009,Rajkumar Hirani
+755,review_required,movie,2080,Люди Икс: Начало. Росомаха,2009,Gavin Hood
+756,high_confidence_candidate,movie,20504,Книга Илая,2010,Allen Hughes; Albert Hughes
+757,review_required,movie,22881,Невидимая сторона,2009,John Lee Hancock
+758,high_confidence_candidate,movie,24803,Джули и Джулия: Готовим счастье по рецепту,2009,Nora Ephron
+759,high_confidence_candidate,movie,64050,Возвращение мушкетёров или Сокровища кардинала Мазарини,2009,Georgi Yungvald-Khilkevich
+760,high_confidence_candidate,movie,25643,Love Happens,2009,Brandon Camp
+761,high_confidence_candidate,movie,31011,Mr. Nobody,2009,Jaco Van Dormael
+762,high_confidence_candidate,movie,28211,Chloe,2010,Atom Egoyan
+763,high_confidence_candidate,movie,20048,Confessions of a Shopaholic,2009,P.J. Hogan
+764,high_confidence_candidate,movie,45958,Biutiful,2010,Alejandro G. Iñárritu
+765,high_confidence_candidate,movie,16004,Love n' Dancing,2009,Robert Iscove
+766,high_confidence_candidate,movie,23488,Dorian Gray,2009,Oliver Parker
+767,high_confidence_candidate,movie,36781,Love and Dance,2009,Bruce Parramore
+768,high_confidence_candidate,movie,26123,American Pie Presents: The Book of Love,2009,John Putch
+769,high_confidence_candidate,movie,25195,Leap Year,2010,Anand Tucker
+770,high_confidence_candidate,movie,2454,Хроники Нарнии: Принц Каспиан,2008,Andrew Adamson
+771,high_confidence_candidate,movie,5038,Вики Кристина Барселона,2008,Woody Allen
+772,high_confidence_candidate,movie,12163,Рестлер,2008,Darren Aronofsky
+773,high_confidence_candidate,movie,895256,Кардиограмма любви,2008,Oksana Bayrak
+774,high_confidence_candidate,movie,50530, ,2008,Evgeniy Bedarev
+775,high_confidence_candidate,movie,12405,Миллионер из трущоб,2008,Danny Boyle
+776,high_confidence_candidate,movie,16911,Обитаемый остров,2009,Fyodor Bondarchuk
+777,review_required,movie,8265,Бобро поржаловать,2008,Dany Boon
+778,review_required,movie,10761,Друг невесты,2008,Paul Weiland
+779,high_confidence_candidate,movie,12428,Бумажный солдат,2008,Aleksei German Jr.
+780,high_confidence_candidate,movie,31418,"Все умрут, а я останусь",2008,Valeriya Gai Germanika
+781,review_required,movie,10362,Любовники,2008,James Gray
+782,high_confidence_candidate,movie,8905,Три обезьяны,2008,Nuri Bilge Ceylan
+783,high_confidence_candidate,movie,25936,День радио,2008,Dmitriy Dyachenko
+784,review_required,movie,13223,Гран Торино,2008,Clint Eastwood
+785,review_required,movie,113614,新・赤い密室 壊れた人形たち,2000,Daisuke Yamanouchi
+786,high_confidence_candidate,movie,1735,Мумия: Гробница Императора Драконов,2008,Rob Cohen
+787,review_required,movie,4944,После прочтения сжечь,2008,Ethan Coen; Joel Coen
+788,high_confidence_candidate,movie,13506,Адмиралъ,2008,Andrey Kravchuk
+789,high_confidence_candidate,movie,8908,Марадона глазами Кустурицы,2008,Emir Kusturica
+790,high_confidence_candidate,movie,1724,Невероятный Халк,2008,Louis Leterrier
+791,high_confidence_candidate,movie,12222,Хортон,2008,Steve Martino; Jimmy Hayward
+792,high_confidence_candidate,movie,4148,Дорога перемен,2008,Sam Mendes
+793,high_confidence_candidate,movie,11321,Семь жизней,2008,Gabriele Muccino
+794,high_confidence_candidate,movie,155,Тёмный рыцарь,2008,Christopher Nolan
+795,review_required,movie,62732,Любовь-морковь 2,2008,Maxim Pezhemsky
+796,high_confidence_candidate,movie,10201,Всегда говори «ДА»,2008,Peyton Reed
+797,high_confidence_candidate,movie,14400,Ларго Винч: Начало,2008,Jérôme Salle
+798,review_required,movie,12113,Совокупность лжи,2008,Ridley Scott
+799,review_required,movie,217,Индиана Джонс и Королевство хрустального черепа,2008,Steven Spielberg
+800,high_confidence_candidate,movie,9870,В пролёте,2008,Nicholas Stoller
+801,review_required,movie,10681,ВАЛЛ·И,2008,Andrew Stanton
+802,review_required,movie,38336,Стиляги,2008,Valery Todorovsky
+803,review_required,movie,1726,Железный человек,2008,Jon Favreau
+804,high_confidence_candidate,movie,6557,27 свадеб,2008,Anne Fletcher
+805,high_confidence_candidate,movie,10764,007: Квант милосердия,2008,Marc Forster
+806,review_required,movie,14306,Марли и я,2008,David Frankel
+807,high_confidence_candidate,movie,28178,Хатико: Самый верный друг,2009,Lasse Hallström
+808,review_required,movie,8966,Сумерки,2008,Catherine Hardwicke
+809,review_required,movie,62698,Lusitania: Murder on the Atlantic,2007,Christopher Spencer
+810,high_confidence_candidate,movie,8328,Шаг вперёд 2: Улицы,2008,Jon M. Chu
+811,high_confidence_candidate,movie,16899,Лёгкое поведение,2008,Stephan Elliott
+812,high_confidence_candidate,movie,8960,Hancock,2008,Peter Berg
+813,high_confidence_candidate,movie,12689,"Angus, Thongs and Perfect Snogging",2008,Gurinder Chadha
+814,high_confidence_candidate,movie,12184,The Other Boleyn Girl,2008,Justin Chadwick
+815,high_confidence_candidate,movie,27283,Сафо,2008,Robert Crombie
+816,high_confidence_candidate,movie,8848,The Bank Job,2008,Roger Donaldson
+817,high_confidence_candidate,movie,16538,"I Love You, Man",2009,John Hamburg
+818,high_confidence_candidate,movie,10184,He's Just Not That Into You,2009,Ken Kwapis
+819,high_confidence_candidate,movie,13387,Transporter 3,2008,Olivier Megaton
+820,high_confidence_candidate,movie,19238,Table for Three,2009,Michael Samonek
+821,high_confidence_candidate,movie,13051,Max Payne,2008,John Moore
+822,high_confidence_candidate,movie,15709,Changing Sides,2009,Pascale Pouzadoux
+823,high_confidence_candidate,movie,12437,Underworld: Rise of the Lycans,2009,Patrick Tatopoulos
+824,high_confidence_candidate,movie,13092,How to Lose Friends & Alienate People,2008,Robert B. Weide
+825,high_confidence_candidate,movie,12620,The House Bunny,2008,Fred Wolf
+826,high_confidence_candidate,movie,4787,Мечта Кассандры,2007,Woody Allen
+827,high_confidence_candidate,movie,7345,Нефть,2007,Paul Thomas Anderson
+828,unmatched,,,,,
+829,high_confidence_candidate,movie,4538,Поезд на Дарджилинг. Отчаянные путешественники,2007,Wes Anderson
+830,review_required,movie,4964,Немножко беременна,2007,Judd Apatow
+831,high_confidence_candidate,movie,71349,В ожидании чуда,2007,Evgeniy Bedarev
+832,high_confidence_candidate,movie,27046,Ирония судьбы. Продолжение,2007,Timur Bekmambetov
+833,review_required,movie,2062,Рататуй,2007,Brad Bird
+834,review_required,movie,1858,Трансформеры,2007,Michael Bay
+835,high_confidence_candidate,movie,285,Пираты Карибского моря: На краю света,2007,Gore Verbinski
+836,high_confidence_candidate,movie,13958,Король Конга,2007,Seth Gordon
+837,review_required,movie,2503,Ультиматум Борна,2007,Paul Greengrass
+838,review_required,movie,675,Гарри Поттер и Орден Феникса,2007,David Yates
+839,review_required,movie,64264,Глянец,2007,Andrei Konchalovsky
+840,review_required,movie,6977,Старикам тут не место,2007,Joel Coen; Ethan Coen
+841,review_required,movie,2335,Такси 4,2007,Gérard Krawczyk
+842,high_confidence_candidate,movie,62737,Самый лучший фильм,2008,Kirill Kuzin
+843,unmatched,,,,,
+844,high_confidence_candidate,movie,6023,P.S. Я люблю тебя,2007,Richard LaGravenese
+845,review_required,movie,6479,Я - легенда,2007,Francis Lawrence
+846,high_confidence_candidate,movie,8321,Залечь на дно в Брюгге,2008,Martin McDonagh
+847,high_confidence_candidate,movie,13159,Крутая Джорджия,2007,Garry Marshall
+848,high_confidence_candidate,movie,20714,12,2007,Nikita Mikhalkov
+849,unmatched,,,,,
+850,review_required,movie,2009,"4 месяца, 3 недели и 2 дня",2007,Cristian Mungiu
+851,review_required,movie,5176,Поезд на Юму,2007,James Mangold
+852,review_required,movie,2196,Смерть на похоронах,2007,Frank Oz
+853,high_confidence_candidate,movie,2011,Персиполис,2007,Vincent Paronnaud; Marjane Satrapi
+854,high_confidence_candidate,movie,4638,Типа крутые легавые,2007,Edgar Wright
+855,review_required,movie,7326,Джуно,2007,Jason Reitman
+856,high_confidence_candidate,movie,5174,Час пик 3,2007,Brett Ratner
+857,high_confidence_candidate,movie,63262,"Карнавальная ночь 2, или 50 лет спустя",2007,Eldar Ryazanov
+858,high_confidence_candidate,movie,35,Симпсоны в кино,2007,David Silverman
+859,review_required,movie,4982,Гангстер,2007,Ridley Scott
+860,high_confidence_candidate,movie,1979,Фантастическая четвёрка: Вторжение Серебряного сёрфера,2007,Tim Story
+861,high_confidence_candidate,movie,1991,Доказательство смерти,2007,Quentin Tarantino
+862,high_confidence_candidate,movie,451172,Илья Муромец и Соловей Разбойник,2007,Vladimir Toropchin
+863,high_confidence_candidate,movie,1571,Крепкий орешек 4.0,2007,Len Wiseman
+864,high_confidence_candidate,movie,1949,Зодиак,2007,David Fincher
+865,high_confidence_candidate,movie,20963,День выборов,2007,Oleg Fomin
+866,review_required,movie,13483,Наркоз,2007,Joby Harold
+867,review_required,movie,3638,Вкус жизни,2007,Scott Hicks
+868,high_confidence_candidate,movie,27379,Код апокалипсиса,2007,Vadim Shmelyov
+869,high_confidence_candidate,movie,50032,Stuart: A Life Backwards,2007,David Attwood
+870,high_confidence_candidate,movie,1407,La Vie en Rose,2007,Olivier Dahan
+871,high_confidence_candidate,movie,3563,I Now Pronounce You Chuck & Larry,2007,Dennis Dugan
+872,high_confidence_candidate,movie,144097,All I Want for Christmas,2007,Harvey Frost
+873,high_confidence_candidate,movie,20497,Ballet Shoes,2008,Sandra Goldbacher
+874,high_confidence_candidate,movie,13958,The King of Kong: A Fistful of Quarters,2007,Seth Gordon
+875,high_confidence_candidate,movie,3638,No Reservations,2007,Scott Hicks
+876,high_confidence_candidate,movie,4523,Enchanted,2007,Kevin Lima
+877,high_confidence_candidate,movie,13161,Big Stan,2007,Rob Schneider
+878,high_confidence_candidate,movie,8277,American Pie Presents: Beta House,2007,Andrew Waller
+879,review_required,movie,2266,"Париж, я люблю тебя",2006,Olivier Assayas; Frédéric Auburtin; Gurinder Chadha; Sylvain Chomet; Isabel Coixet; Wes Craven; Alfonso Cuarón; Gérard Depardieu; Christopher Doyle; Richard LaGravenese; Vincenzo Natali; Alexander Payne; Walter Salles; Oliver Schmitz; Nobuhiro Suwa; Daniela Thomas; Tom Tykwer; Gus Van Sant; Joel Coen; Ethan Coen; Bruno Podalydès
+880,high_confidence_candidate,movie,956,Миссия невыполнима 3,2006,J.J. Abrams
+881,high_confidence_candidate,movie,2044,Дом у озера,2006,Alejandro Agresti
+882,high_confidence_candidate,movie,512,Сенсация,2006,Woody Allen
+883,high_confidence_candidate,movie,1381,Фонтан,2006,Darren Aronofsky
+884,high_confidence_candidate,movie,62678,Сволочи,2006,Aleksandr Atanesyan
+885,high_confidence_candidate,movie,62726,Аврора,2006,Oksana Bayrak
+886,high_confidence_candidate,movie,695633,Инфант,2006,Oksana Bayrak
+887,high_confidence_candidate,movie,65839,Мне не больно,2006,Aleksei Balabanov
+888,high_confidence_candidate,movie,11619,Смывайся,2006,David Bowers; Sam Fell
+889,review_required,movie,1491,Иллюзионист,2006,Neil Burger
+890,unmatched,,,,,
+891,high_confidence_candidate,movie,64736,Питер FM,2006,Oksana Bychkova
+892,high_confidence_candidate,movie,58,Пираты Карибского моря: Сундук мертвеца,2006,Gore Verbinski
+893,review_required,movie,9075,Чёрная книга,2006,Paul Verhoeven
+894,high_confidence_candidate,movie,9676,Чёрная орхидея,2006,Brian De Palma
+895,unmatched,,,,,
+896,high_confidence_candidate,movie,18421,Времена года,2006,Nuri Bilge Ceylan
+897,review_required,movie,1251,Письма с Иводзимы,2006,Clint Eastwood
+898,review_required,movie,3683,Флаги наших отцов,2006,Clint Eastwood
+899,high_confidence_candidate,movie,39170,Князь Владимир,2006,Yuri Kulakov
+900,high_confidence_candidate,movie,36557,007: Казино Рояль,2006,Martin Campbell
+901,high_confidence_candidate,movie,920,Тачки,2006,John Lasseter
+902,high_confidence_candidate,movie,13334,Волкодав из рода Серых Псов,2006,Nikolay Lebedev
+903,review_required,movie,1593,Ночь в Музее,2006,Shawn Levy
+904,review_required,movie,388,Не пойман — не вор,2006,Spike Lee
+905,high_confidence_candidate,movie,1116,"Ветер, который качает вереск",2006,Ken Loach
+906,review_required,movie,9950,Признайте меня виновным,2006,Sidney Lumet
+907,review_required,movie,1581,Отпуск по обмену,2006,Nancy Meyers
+908,high_confidence_candidate,movie,33534,Добрыня Никитич и Змей Горыныч,2006,Ilya Maksimov
+909,high_confidence_candidate,movie,7913,Цвет шафрана,2006,Rakeysh Omprakash Mehra
+910,high_confidence_candidate,movie,64033,Граф Монтенегро,2006,Marina Migunova; Tatyana Makovchik
+911,high_confidence_candidate,movie,9836,Делай ноги,2006,George Miller
+912,high_confidence_candidate,movie,1402,В погоне за счастьем,2006,Gabriele Muccino
+913,high_confidence_candidate,movie,1124,Престиж,2006,Christopher Nolan
+914,unmatched,,,,,
+915,high_confidence_candidate,movie,10025,Поцелуй на удачу,2006,Donald Petrie
+916,high_confidence_candidate,movie,86,Элементарные частицы,2006,Oskar Roehler
+917,unmatched,,,,,
+918,high_confidence_candidate,movie,9767,Развод по-американски,2006,Peyton Reed
+919,unmatched,,,,,
+920,high_confidence_candidate,movie,1819,"Он, я и его друзья",2006,Anthony Russo; Joe Russo
+921,high_confidence_candidate,movie,36668,Люди Икс: Последняя битва,2006,Brett Ratner
+922,review_required,movie,950,Ледниковый период 2: Глобальное потепление,2006,Carlos Saldanha
+923,high_confidence_candidate,movie,1422,Отступники,2006,Martin Scorsese
+924,review_required,movie,9726,Хороший год,2006,Ridley Scott
+925,high_confidence_candidate,movie,62731,Любовь-морковь,2007,Aleksandr Strizhenov
+926,review_required,movie,57775,Хоттабыч,2006,Pyotr Tochilin
+927,high_confidence_candidate,movie,1427,Парфюмер: История одного убийцы,2006,Tom Tykwer
+928,unmatched,,,,,
+929,high_confidence_candidate,movie,9762,Шаг вперёд,2006,Anne Fletcher
+930,review_required,movie,25527,Триумф: История Рона Кларка,2006,Randa Haines
+931,high_confidence_candidate,movie,591,Код Да Винчи,2006,Ron Howard
+932,high_confidence_candidate,movie,1265,Мост в Терабитию,2007,Gábor Csupó
+933,high_confidence_candidate,movie,6877,Failure to Launch,2006,Tom Dey
+934,high_confidence_candidate,movie,10123,French for Beginners,2006,Christian Ditter
+935,high_confidence_candidate,movie,350,The Devil Wears Prada,2006,David Frankel
+936,high_confidence_candidate,movie,37725,It's a Boy Girl Thing,2006,Nick Hurran
+937,high_confidence_candidate,movie,1164,Babel,2006,Alejandro G. Iñárritu
+938,high_confidence_candidate,movie,1948,Crank,2006,Brian Taylor; Mark Neveldine
+939,high_confidence_candidate,movie,8275,American Pie Presents: The Naked Mile,2006,Joe Nussbaum
+940,review_required,movie,12154,3 Men and a Baby,1987,Leonard Nimoy
+941,high_confidence_candidate,movie,1969,Bandidas,2006,Joachim Rønning; Espen Sandberg
+942,high_confidence_candidate,movie,9978,Stormbreaker,2006,Geoffrey Sax
+943,high_confidence_candidate,movie,11565,Big Momma's House 2,2006,John Whitesell
+944,review_required,movie,10982,Hoodwinked!,2005,Cory Edwards
+945,high_confidence_candidate,movie,411,"Хроники Нарнии: Лев, Колдунья и Волшебный Шкаф",2005,Andrew Adamson
+946,high_confidence_candidate,movie,116,Матч Поинт,2005,Woody Allen
+947,high_confidence_candidate,movie,20994,Жмурки,2005,Aleksei Balabanov
+948,high_confidence_candidate,movie,2269,Дневной дозор,2006,Timur Bekmambetov
+949,high_confidence_candidate,movie,118,Чарли и шоколадная фабрика,2005,Tim Burton
+950,high_confidence_candidate,movie,11227,Ангел-А,2005,Luc Besson
+951,high_confidence_candidate,movie,14097,9 рота,2005,Fyodor Bondarchuk
+952,review_required,tv,6395,Мастер и Маргарита,2005,Vladimir Bortko
+953,review_required,movie,1635,Остров,2005,Michael Bay
+954,high_confidence_candidate,movie,4442,Братья Гримм,2005,Terry Gilliam
+955,high_confidence_candidate,movie,11490,Дитя,2005,Luc Dardenne; Jean-Pierre Dardenne
+956,high_confidence_candidate,movie,953,Мадагаскар,2005,Eric Darnell; Tom McGrath
+957,review_required,movie,9910,Деньги на двоих,2005,D.J. Caruso
+958,review_required,movie,7457,Альфа Дог,2006,Nick Cassavetes
+959,high_confidence_candidate,movie,59521,Побег,2005,Egor Konchalovsky
+960,high_confidence_candidate,movie,1656,Легенда Зорро,2005,Martin Campbell
+961,review_required,movie,787,Мистер и миссис Смит,2005,Doug Liman
+962,review_required,movie,142,Горбатая гора,2005,Ang Lee
+963,review_required,movie,1895,Звёздные войны: Эпизод 3 - Месть Ситхов,2005,George Lucas
+964,high_confidence_candidate,movie,4379,Если свекровь - монстр,2005,Robert Luketic
+965,review_required,movie,186,Счастливое число Слевина,2006,Paul McGuigan
+966,high_confidence_candidate,movie,272,Бэтмен: Начало,2005,Christopher Nolan
+967,review_required,movie,674,Гарри Поттер и Кубок огня,2005,Mike Newell
+968,high_confidence_candidate,movie,1544,Представь нас вместе,2006,Ol Parker
+969,review_required,movie,10040,Мисс Конгениальность 2: Прекрасна и опасна,2005,John Pasquin
+970,review_required,movie,31032,Смерть господина Лазареску,2005,Cristi Puiu
+971,review_required,movie,9388,Здесь курят,2005,Jason Reitman
+972,review_required,movie,10851,Револьвер,2005,Guy Ritchie
+973,high_confidence_candidate,movie,187,Город грехов,2005,Robert Rodriguez; Frank Miller
+974,review_required,movie,9928,Роботы,2005,Chris Wedge
+975,high_confidence_candidate,movie,386626,Последний уик-энд,2005,Pavel Sanaev
+976,high_confidence_candidate,movie,56372,Бой с тенью,2005,Alexey Sidorov
+977,review_required,movie,1495,Царство небесное,2005,Ridley Scott
+978,review_required,movie,9509,Гнев,2004,Tony Scott
+979,review_required,movie,9913,Ключ от всех дверей,2005,Iain Softley
+980,high_confidence_candidate,movie,9738,Фантастическая четвёрка,2005,Tim Story
+981,high_confidence_candidate,movie,62999,От 180 и выше,2005,Aleksandr Strizhenov
+982,high_confidence_candidate,movie,834,Другой мир 2: Эволюция,2006,Len Wiseman
+983,review_required,movie,16320,Миссия «Серенити»,2005,Joss Whedon
+984,high_confidence_candidate,movie,9007,Между небом и землёй,2005,Mark Waters
+985,high_confidence_candidate,movie,53129,Турецкий гамбит,2005,Dzhanik Fayziev
+986,high_confidence_candidate,movie,9681,Казанова,2005,Lasse Hallström
+987,high_confidence_candidate,movie,10022,Лысый Нянька: Спецзадание,2005,Adam Shankman
+988,high_confidence_candidate,movie,59529,Статский советник,2005,Filipp Yankovsky
+989,high_confidence_candidate,movie,7873,Harsh Times,2005,David Ayer
+990,review_required,movie,80670,"Siberia, Monamour",2011,Slava Ross
+991,high_confidence_candidate,movie,308,Broken Flowers,2005,Jim Jarmusch
+992,high_confidence_candidate,movie,6961,The Wedding Date,2005,Clare Kilner
+993,high_confidence_candidate,movie,9335,Transporter 2,2005,Louis Leterrier
+994,high_confidence_candidate,movie,8274,American Pie Presents: Band Camp,2005,Steve Rash
+995,high_confidence_candidate,movie,2026,Hostage,2005,Florent-Emilio Siri
+996,high_confidence_candidate,movie,11679,xXx: State of the Union,2005,Lee Tamahori
+997,high_confidence_candidate,movie,8488,Hitch,2005,Andy Tennant
+998,high_confidence_candidate,movie,809,Шрек 2,2004,Conrad Vernon; Kelly Asbury; Andrew Adamson
+999,high_confidence_candidate,movie,363,Головой о стену,2004,Fatih Akin
+1000,high_confidence_candidate,movie,421,Водная жизнь,2004,Wes Anderson
+1001,unmatched,,,,,
+1002,high_confidence_candidate,movie,558068,В двух километрах от Нового года,2004,Oksana Bayrak
+1003,high_confidence_candidate,movie,623620,Ангел пролетел,2004,Gennadi Baisak
+1004,high_confidence_candidate,movie,62778,Даже не думай 2: Тень независимости,2004,Ruslan Baltzer
+1005,high_confidence_candidate,movie,3040,Ночной дозор,2004,Timur Bekmambetov
+1006,review_required,movie,9806,Суперсемейка,2004,Brad Bird
+1007,high_confidence_candidate,movie,33065,Алёша Попович и Тугарин Змей,2004,Konstantin Bronzit
+1008,high_confidence_candidate,movie,844,2046,2004,Wong Kar-Wai
+1009,high_confidence_candidate,movie,615,Страсти Христовы,2004,Mel Gibson
+1010,review_required,movie,38,Вечное сияние чистого разума,2004,Michel Gondry
+1011,review_required,movie,2502,Превосходство Борна,2004,Paul Greengrass
+1012,review_required,movie,10591,Соседка,2004,Luke Greenfield
+1013,review_required,movie,15775,Если только,2004,Gil Junger
+1014,review_required,movie,10555,Подводная Братва,2004,Bibo Bergeron; Rob Letterman; Vicky Jenson
+1015,review_required,movie,70,Малышка на миллион,2004,Clint Eastwood
+1016,review_required,movie,11036,Дневник памяти,2004,Nick Cassavetes
+1017,review_required,movie,10204,Вокруг света за 80 дней,2004,Frank Coraci
+1018,review_required,movie,5516,Игры джентльменов,2004,Ethan Coen; Joel Coen
+1019,review_required,movie,673,Гарри Поттер и узник Азкабана,2004,Alfonso Cuarón
+1020,unmatched,,,,,
+1021,review_required,movie,4935,Ходячий замок,2004,Hayao Miyazaki
+1022,high_confidence_candidate,movie,10045,13-й район,2004,Pierre Morel
+1023,review_required,movie,2288,Близость,2004,Mike Nichols
+1024,high_confidence_candidate,movie,2048,"Я, робот",2004,Alex Proyas
+1025,high_confidence_candidate,movie,747,Зомби по имени Шон,2004,Edgar Wright
+1026,review_required,movie,693,Знакомство с Факерами,2004,Jay Roach
+1027,review_required,movie,558,Человек-паук 2,2004,Sam Raimi
+1028,high_confidence_candidate,movie,2567,Авиатор,2004,Martin Scorsese
+1029,high_confidence_candidate,movie,24653,Последствия любви,2004,Paolo Sorrentino
+1030,review_required,movie,594,Терминал,2004,Steven Spielberg
+1031,high_confidence_candidate,movie,393,Убить Билла 2,2004,Quentin Tarantino
+1032,unmatched,,,,,
+1033,high_confidence_candidate,movie,10625,Дрянные девчонки,2004,Mark Waters
+1034,review_required,movie,25223,Провал суслика,2004,Jeff Fowler
+1035,review_required,movie,16617,Охотники за разумом,2004,Renny Harlin
+1036,high_confidence_candidate,movie,42952,72 метра,2004,Vladimir Khotinenko
+1037,review_required,movie,8920,Гарфилд,2004,Peter Hewitt
+1038,high_confidence_candidate,movie,4380,Давайте потанцуем,2004,Peter Chelsom
+1039,high_confidence_candidate,movie,64483,Водитель для Веры,2004,Pavel Chukhray
+1040,review_required,movie,9833,Призрак оперы,2004,Joel Schumacher
+1041,high_confidence_candidate,movie,435,Послезавтра,2004,Roland Emmerich
+1042,high_confidence_candidate,movie,15184,A Good Woman,2004,Mike Barker
+1043,high_confidence_candidate,movie,14844,Chasing Liberty,2004,Andy Cadiff
+1044,high_confidence_candidate,movie,13700,Home on the Range,2004,John Sanford; Will Finn
+1045,high_confidence_candidate,movie,11025,New York Minute,2004,Dennie Gordon
+1046,high_confidence_candidate,movie,16617,Mindhunters,2004,Renny Harlin
+1047,high_confidence_candidate,movie,9893,Sleepover,2004,Joe Nussbaum
+1048,high_confidence_candidate,movie,11430,The Lion King 1½,2004,Bradley Raymond
+1049,high_confidence_candidate,movie,9352,EuroTrip,2004,Jeff Schaffer; David Mandel; Alec Berg
+1050,high_confidence_candidate,movie,1824,50 First Dates,2004,Peter Segal
+1051,high_confidence_candidate,movie,1966,Alexander,2004,Oliver Stone
+1052,high_confidence_candidate,movie,10739,Кое-что еще,2003,Woody Allen
+1053,review_required,movie,12,В поисках Немо,2003,Andrew Stanton
+1054,high_confidence_candidate,movie,337690,"Снежная любовь, или Сон в зимнюю ночь",2003,Oksana Bayrak
+1055,high_confidence_candidate,movie,55650,Сарабанда,2003,Ingmar Bergman
+1056,high_confidence_candidate,movie,1278,Мечтатели,2003,Bernardo Bertolucci
+1057,review_required,movie,1536386,Идиот,2003,Yuriy Eryomin; Larissa Tscherkassova; Olga Martonova
+1058,high_confidence_candidate,movie,401,Страна садов,2004,Zach Braff
+1059,high_confidence_candidate,movie,62276,Бумер,2003,Pyotr Buslov
+1060,review_required,movie,8961,Плохие парни 2,2003,Michael Bay
+1061,high_confidence_candidate,movie,604,Матрица: Перезагрузка,2003,Lana Wachowski; Lilly Wachowski
+1062,high_confidence_candidate,movie,605,Матрица: Революция,2003,Lana Wachowski; Lilly Wachowski
+1063,high_confidence_candidate,movie,7229,Невезучие,2003,Francis Veber
+1064,unmatched,,,,,
+1065,high_confidence_candidate,movie,48785,Последний поезд,2004,Aleksei German Jr.
+1066,review_required,movie,122,Властелин колец: возвращение короля,2003,Peter Jackson
+1067,high_confidence_candidate,movie,14411,Синдбад: Легенда семи морей,2003,Tim Johnson; Patrick Gilmore
+1068,review_required,movie,8273,Американский пирог 3: Свадьба,2003,Jesse Dylan
+1069,review_required,movie,122,The Lord of the Rings: The Return of the King,2003,Peter Jackson
+1070,review_required,movie,322,Таинственная река,2003,Clint Eastwood
+1071,high_confidence_candidate,movie,508,Реальная любовь,2003,Richard Curtis
+1072,high_confidence_candidate,movie,113,"Весна, лето, осень, зима... и снова весна",2003,Kim Ki-duk
+1073,high_confidence_candidate,movie,246,Затойчи,2003,Takeshi Kitano
+1074,high_confidence_candidate,movie,41957,Антикиллер 2: Антитеррор,2003,Egor Konchalovsky
+1075,review_required,movie,153,Трудности перевода,2003,Sofia Coppola
+1076,high_confidence_candidate,movie,93440,Тише!,2003,Viktor Kossakovsky
+1077,review_required,movie,11775,Невыносимая жестокость,2003,Joel Coen
+1078,review_required,movie,37559,Фанфан-тюльпан,2003,Gérard Krawczyk
+1079,review_required,movie,2334,Такси 3,2003,Gérard Krawczyk
+1080,review_required,movie,35063,Молодожены,2007,Meghna Gulzar
+1081,high_confidence_candidate,movie,2056,Станционный смотритель,2003,Tom McCarthy
+1082,unmatched,,,,,
+1083,high_confidence_candidate,movie,313823,Тимур & его коммандо$,2004,Igor Maslennikov
+1084,high_confidence_candidate,movie,9919,Как отделаться от парня за 10 дней,2003,Donald Petrie
+1085,high_confidence_candidate,movie,10720,К чёрту любовь,2003,Peyton Reed
+1086,high_confidence_candidate,movie,36658,Люди Икс 2,2003,Bryan Singer
+1087,high_confidence_candidate,movie,24,Убить Билла,2003,Quentin Tarantino
+1088,high_confidence_candidate,movie,277,Другой мир,2003,Len Wiseman
+1089,high_confidence_candidate,movie,10330,Чумовая пятница,2003,Mark Waters
+1090,review_required,movie,14527,Защита от дурака,2003,William Phillips
+1091,review_required,movie,553,Догвилль,2003,Lars von Trier
+1092,unmatched,,,,,
+1093,review_required,movie,10147,Плохой Санта,2003,Terry Zwigoff
+1094,unmatched,,,,,
+1095,high_confidence_candidate,movie,9358,Пункт назначения 2,2003,David R. Ellis
+1096,review_required,movie,1624002,The Ruling,2010,Héctor Valdez
+1097,high_confidence_candidate,movie,1954,The Butterfly Effect,2004,Eric Bress; J. Mackye Gruber
+1098,high_confidence_candidate,movie,10572,Michel Vaillant,2003,Louis-Pascal Couvelaire
+1099,high_confidence_candidate,movie,60672,Crimson Rivers II: Angels of the Apocalypse,2004,Olivier Dahan
+1100,high_confidence_candidate,movie,11572,Kaena: The Prophecy,2003,Chris Delaporte; Pascal Pinon
+1101,review_required,movie,79141,Three Little Birds Are Sitting...,2003,Nikolaos Spanos
+1102,high_confidence_candidate,movie,10735,What a Girl Wants,2003,Dennie Gordon
+1103,high_confidence_candidate,movie,10327,"Legally Blonde 2: Red, White & Blonde",2003,Charles Herman-Wurmfeld
+1104,high_confidence_candidate,movie,18113,National Lampoon Presents Dorm Daze,2003,Scott Hillenbrand; David Hillenbrand
+1105,high_confidence_candidate,movie,9486,Johnny English,2003,Peter Howitt
+1106,high_confidence_candidate,movie,470,21 Grams,2003,Alejandro G. Iñárritu
+1107,high_confidence_candidate,movie,883,Coffee and Cigarettes,2004,Jim Jarmusch
+1108,high_confidence_candidate,movie,296,Terminator 3: Rise of the Machines,2003,Jonathan Mostow
+1109,high_confidence_candidate,movie,9902,Wrong Turn,2003,Rob Schmidt
+1110,high_confidence_candidate,movie,9506,Anger Management,2003,Peter Segal
+1111,high_confidence_candidate,movie,310,Bruce Almighty,2003,Tom Shadyac
+1112,high_confidence_candidate,movie,9620,Paycheck,2003,John Woo
+1113,high_confidence_candidate,movie,2830,My Boss's Daughter,2003,David Zucker
+1114,review_required,movie,1926,11 сентября,2002,Amos Gitai; Alejandro G. Iñárritu; Shōhei Imamura; Ken Loach; Samira Makhmalbaf; Mira Nair; Idrissa Ouedraogo; Sean Penn; Danis Tanović; Youssef Chahine; Claude Lelouch
+1115,high_confidence_candidate,movie,94052,Азазель,2002,Alexander Adabashyan
+1116,high_confidence_candidate,movie,8051,"Любовь, сбивающая с ног",2002,Paul Thomas Anderson
+1117,high_confidence_candidate,movie,1576,Обитель зла,2002,Paul W. S. Anderson
+1118,high_confidence_candidate,movie,82737,Война,2002,Aleksei Balabanov
+1119,high_confidence_candidate,movie,26841,Даже не думай,2003,Ruslan Baltzer
+1120,high_confidence_candidate,movie,170,28 дней спустя,2002,Danny Boyle
+1121,high_confidence_candidate,movie,565,Звонок,2002,Gore Verbinski
+1122,high_confidence_candidate,movie,31026,Отчуждение,2002,Nuri Bilge Ceylan
+1123,review_required,movie,121,Властелин колец: две крепости,2002,Peter Jackson
+1124,review_required,movie,2757,Адаптация,2002,Spike Jonze
+1125,high_confidence_candidate,movie,10771,Смокинг,2002,Kevin Donovan
+1126,unmatched,,,,,
+1127,high_confidence_candidate,movie,9016,Планета сокровищ,2002,Ron Clements; John Musker
+1128,high_confidence_candidate,movie,41955,Антикиллер,2002,Egor Konchalovsky
+1129,high_confidence_candidate,movie,7451,Три икса,2002,Rob Cohen
+1130,review_required,movie,672,Гарри Поттер и Тайная комната,2002,Chris Columbus
+1131,review_required,movie,2501,Идентификация Борна,2002,Doug Liman
+1132,high_confidence_candidate,movie,54474,Звезда,2002,Nikolay Lebedev
+1133,review_required,movie,2642,Любовь с уведомлением,2002,Marc Lawrence
+1134,review_required,movie,1894,Звёздные войны: Эпизод 2 - Атака клонов,2002,George Lucas
+1135,high_confidence_candidate,movie,4147,Проклятый путь,2002,Sam Mendes
+1136,high_confidence_candidate,movie,12093,Лиля навсегда,2002,Lukas Moodysson
+1137,high_confidence_candidate,movie,320,Бессонница,2002,Christopher Nolan
+1138,high_confidence_candidate,movie,423,Пианист,2002,Roman Polanski
+1139,review_required,movie,557,Человек-паук,2002,Sam Raimi
+1140,unmatched,,,,,
+1141,review_required,movie,425,Ледниковый период,2002,Chris Wedge
+1142,high_confidence_candidate,movie,11544,Лило и Стич,2002,Chris Sanders; Dean DeBlois
+1143,unmatched,,,,,
+1144,high_confidence_candidate,movie,3131,Банды Нью-Йорка,2002,Martin Scorsese
+1145,high_confidence_candidate,movie,2103,Солярис,2002,Steven Soderbergh
+1146,review_required,movie,640,"Поймай меня, если сможешь",2002,Steven Spielberg
+1147,review_required,movie,180,Особое мнение,2002,Steven Spielberg
+1148,high_confidence_candidate,movie,7299,Эквилибриум,2002,Kurt Wimmer
+1149,high_confidence_candidate,movie,4547,Комната страха,2002,David Fincher
+1150,review_required,movie,65,8 миля,2002,Curtis Hanson
+1151,review_required,movie,79,Герой,2002,Zhang Yimou
+1152,high_confidence_candidate,movie,10229,Спеши любить,2002,Adam Shankman
+1153,review_required,movie,1817,Телефонная будка,2003,Joel Schumacher
+1154,review_required,movie,9023,Спирит: Душа прерий,2002,Kelly Asbury; Lorna Cook
+1155,high_confidence_candidate,movie,236018,В движении,2002,Filipp Yankovsky
+1156,high_confidence_candidate,movie,9645,Ghost Ship,2002,Steve Beck
+1157,high_confidence_candidate,movie,11852,The Hot Chick,2002,Tom Brady
+1158,high_confidence_candidate,movie,2022,Mr. Deeds,2002,Steven Brill
+1159,high_confidence_candidate,movie,24080,You Stupid Man,2002,Brian Burns
+1160,high_confidence_candidate,movie,11812,The Sweetest Thing,2002,Roger Kumble
+1161,high_confidence_candidate,movie,4108,The Transporter,2002,Corey Yuen; Louis Leterrier
+1162,high_confidence_candidate,movie,9039,Trapped,2002,Luis Mandoki
+1163,high_confidence_candidate,movie,9557,Boat Trip,2002,Mort Nathan
+1164,high_confidence_candidate,movie,11891,Kung Pow: Enter the Fist,2002,Steve Oedekerk
+1165,high_confidence_candidate,movie,14874,Try Seventeen,2002,Jeffrey Porter
+1166,high_confidence_candidate,movie,36669,Die Another Day,2002,Lee Tamahori
+1167,high_confidence_candidate,movie,7303,Maid in Manhattan,2002,Wayne Wang
+1168,high_confidence_candidate,movie,808,Шрек,2001,Andrew Adamson; Vicky Jenson
+1169,high_confidence_candidate,movie,2779,Проклятие нефритового скорпиона,2001,Woody Allen
+1170,high_confidence_candidate,movie,1933,Другие,2001,Alejandro Amenábar
+1171,high_confidence_candidate,movie,9428,Семейка Тененбаум,2001,Wes Anderson
+1172,review_required,movie,585,Корпорация монстров,2001,Pete Docter
+1173,high_confidence_candidate,movie,49943,Сёстры,2001,Sergei Bodrov Jr.
+1174,review_required,movie,676,Перл Харбор,2001,Michael Bay
+1175,review_required,movie,120,Властелин колец: братство кольца,2001,Peter Jackson
+1176,review_required,movie,194,Амели,2001,Jean-Pierre Jeunet
+1177,high_confidence_candidate,movie,141,Донни Дарко,2001,Richard Kelly
+1178,high_confidence_candidate,movie,9799,Форсаж,2001,Rob Cohen
+1179,review_required,movie,10778,"Человек, которого не было",2001,Joel Coen; Ethan Coen
+1180,review_required,movie,671,Гарри Поттер и философский камень,2001,Chris Columbus
+1181,review_required,movie,1903,Ванильное небо,2001,Cameron Crowe
+1182,review_required,movie,1018,Малхолланд Драйв,2001,David Lynch
+1183,high_confidence_candidate,movie,8835,Блондинка в законе,2001,Robert Luketic
+1184,review_required,movie,634,Дневник Бриджит Джонс,2001,Sharon Maguire
+1185,review_required,movie,129,Унесённые призраками,2001,Hayao Miyazaki
+1186,review_required,movie,11232,Кейт и Лео,2001,James Mangold
+1187,review_required,movie,11371,Медвежатник,2001,Frank Oz
+1188,high_confidence_candidate,movie,1958,8 женщин,2002,François Ozon
+1189,high_confidence_candidate,movie,5279,Госфорд парк,2001,Robert Altman
+1190,review_required,movie,2770,Американский пирог 2,2001,J.B. Rogers
+1191,high_confidence_candidate,movie,5175,Час пик 2,2001,Brett Ratner
+1192,high_confidence_candidate,movie,9705,Пароль «Рыба-меч»,2001,Dominic Sena
+1193,review_required,movie,215763,Черный ястреб,1996,Albert Pyun
+1194,high_confidence_candidate,movie,161,Одиннадцать друзей Оушена,2001,Steven Soderbergh
+1195,high_confidence_candidate,movie,1734,Мумия возвращается,2001,Stephen Sommers
+1196,review_required,movie,167,Планета Ка-Пэкс,2001,Iain Softley
+1197,review_required,movie,644,Искусственный разум,2001,Steven Spielberg
+1198,high_confidence_candidate,movie,9398,Образцовый самец,2001,Ben Stiller
+1199,review_required,movie,9889,Любовь зла,2001,Bobby Farrelly; Peter Farrelly
+1200,review_required,movie,12610,Осмосис Джонс,2001,Bobby Farrelly; Peter Farrelly
+1201,review_required,movie,2034,Тренировочный день,2001,Antoine Fuqua
+1202,high_confidence_candidate,movie,453,Игры разума,2001,Ron Howard
+1203,high_confidence_candidate,movie,768,Из Ада,2001,Albert Hughes; Allen Hughes
+1204,review_required,movie,1548,Призрачный мир,2001,Terry Zwigoff
+1205,review_required,movie,8346,Моя большая греческая свадьба,2002,Joel Zwick
+1206,high_confidence_candidate,movie,9778,Интуиция,2001,Peter Chelsom
+1207,high_confidence_candidate,movie,2018,Свадебный переполох,2001,Adam Shankman
+1208,high_confidence_candidate,movie,2057,Original Sin,2001,Michael Cristofer
+1209,high_confidence_candidate,movie,11397,Not Another Teen Movie,2001,Joel Gallen
+1210,high_confidence_candidate,movie,9476,A Knight's Tale,2001,Brian Helgeland
+1211,high_confidence_candidate,movie,11469,Black Knight,2001,Gil Junger
+1212,high_confidence_candidate,movie,1921,Sweet November,2001,Pat O'Connor
+1213,high_confidence_candidate,movie,2637,The Mothman Prophecies,2002,Mark Pellington
+1214,high_confidence_candidate,movie,9597,Vidocq,2001,Pitof
+1215,high_confidence_candidate,movie,35831,"Belphegor, Phantom of the Louvre",2001,Jean-Paul Salomé
+1216,high_confidence_candidate,movie,3716,Солнце Ацтеков,2000,Fatih Akin
+1217,high_confidence_candidate,movie,34070,Песни со второго этажа,2000,Roy Andersson
+1218,review_required,movie,853,Враг у ворот,2001,Jean-Jacques Annaud
+1219,high_confidence_candidate,movie,641,Реквием по мечте,2000,Darren Aronofsky
+1220,high_confidence_candidate,movie,20993,Брат 2,2000,Aleksei Balabanov
+1221,high_confidence_candidate,movie,32708,Свобода,2000,Šarūnas Bartas
+1222,unmatched,,,,,
+1223,high_confidence_candidate,movie,18079,Девять королев,2000,Fabián Bielinsky
+1224,review_required,movie,9532,Пункт назначения,2000,James Wong
+1225,high_confidence_candidate,movie,843,Любовное настроение,2000,Wong Kar-Wai
+1226,review_required,movie,955,Миссия невыполнима 2,2000,John Woo
+1227,high_confidence_candidate,movie,2067,Миссия на Марс,2000,Brian De Palma
+1228,high_confidence_candidate,movie,11688,Похождения императора,2000,Mark Dindal
+1229,review_required,movie,71,Билли Эллиот,2000,Stephen Daldry
+1230,high_confidence_candidate,movie,327,Брат Якудзы,2000,Takeshi Kitano
+1231,review_required,movie,134,"О, где же ты, брат?",2000,Joel Coen
+1232,review_required,movie,2332,Такси 2,2000,Gérard Krawczyk
+1233,review_required,movie,786,Почти знаменит,2000,Cameron Crowe
+1234,high_confidence_candidate,movie,7443,Побег из курятника,2000,Nick Park; Peter Lord
+1235,review_required,tv,16072,Аттила-завоеватель,2001,Dick Lowry
+1236,review_required,movie,3981,Чего хотят женщины,2000,Nancy Meyers
+1237,unmatched,,,,,
+1238,review_required,movie,77,Мементо,2000,Christopher Nolan
+1239,high_confidence_candidate,movie,1493,Мисс Конгениальность,2000,Donald Petrie
+1240,review_required,movie,107,Большой куш,2000,Guy Ritchie
+1241,review_required,movie,1597,Знакомство с родителями,2000,Jay Roach
+1242,high_confidence_candidate,movie,10862,Чужой билет,2000,Don Roos
+1243,unmatched,,,,,
+1244,high_confidence_candidate,movie,5994,Семьянин,2000,Brett Ratner
+1245,high_confidence_candidate,movie,9679,Угнать за 60 секунд,2000,Dominic Sena
+1246,high_confidence_candidate,movie,36657,Люди Икс,2000,Bryan Singer
+1247,review_required,movie,98,Гладиатор,2000,Ridley Scott
+1248,high_confidence_candidate,movie,462,Эрин Брокович,2000,Steven Soderbergh
+1249,high_confidence_candidate,movie,23160,Гармонии Веркмейстера,2001,Béla Tarr
+1250,high_confidence_candidate,movie,10867,Малена,2000,Giuseppe Tornatore
+1251,high_confidence_candidate,movie,9301,Принцесса и воин,2000,Tom Tykwer
+1252,review_required,movie,2123,"Я, снова я и Ирэн",2000,Peter Farrelly; Bobby Farrelly
+1253,high_confidence_candidate,movie,16,Танцующая в темноте,2000,Lars von Trier
+1254,high_confidence_candidate,movie,392,Шоколад,2000,Lasse Hallström
+1255,review_required,movie,1359,Американский психопат,2000,Mary Harron
+1256,unmatched,,,,,
+1257,high_confidence_candidate,movie,2024,Патриот,2000,Roland Emmerich
+1258,high_confidence_candidate,movie,10501,The Road to El Dorado,2000,Bibo Bergeron; Don Paul
+1259,unmatched,,,,,
+1260,high_confidence_candidate,movie,10641,Autumn in New York,2000,Joan Chen
+1261,high_confidence_candidate,movie,10035,100 Girls,2000,Michael Davis
+1262,high_confidence_candidate,movie,55,Amores Perros,2000,Alejandro G. Iñárritu
+1263,high_confidence_candidate,movie,60670,The Crimson Rivers,2000,Mathieu Kassovitz
+1264,high_confidence_candidate,movie,5458,Cruel Intentions 2,2000,Roger Kumble
+1265,high_confidence_candidate,movie,10567,Dinosaur,2000,Ralph Zondag; Eric Leighton
+1266,high_confidence_candidate,movie,8859,"Dude, Where's My Car?",2000,Danny Leiner
+1267,high_confidence_candidate,movie,4327,Charlie's Angels,2000,McG
+1268,high_confidence_candidate,movie,6282,Coyote Ugly,2000,David McNally
+1269,high_confidence_candidate,movie,4958,The Legend of Bagger Vance,2000,Robert Redford
+1270,high_confidence_candidate,movie,34729,Our Lips Are Sealed,2000,Craig Shapiro
+1271,high_confidence_candidate,movie,99,Всё о моей матери,1999,Pedro Almodóvar
+1272,high_confidence_candidate,movie,334,Магнолия,1999,Paul Thomas Anderson
+1273,high_confidence_candidate,movie,863,История игрушек 2,1999,John Lasseter
+1274,review_required,movie,10386,Стальной гигант,1999,Brad Bird
+1275,high_confidence_candidate,movie,2668,Сонная лощина,1999,Tim Burton
+1276,unmatched,,,,,
+1277,review_required,movie,2105,Американский пирог,1999,Paul Weitz
+1278,high_confidence_candidate,movie,603,Матрица,1999,Lana Wachowski; Lilly Wachowski
+1279,review_required,movie,318,Отель «Миллион долларов»,2000,Wim Wenders
+1280,high_confidence_candidate,movie,71186,Ворошиловский стрелок,1999,Stanislav Govorukhin
+1281,unmatched,,,,,
+1282,review_required,movie,4951,10 причин моей ненависти,1999,Gil Junger
+1283,review_required,movie,492,Быть Джоном Малковичем,1999,Spike Jonze
+1284,high_confidence_candidate,movie,4291,Кикуджиро,1999,Takeshi Kitano
+1285,review_required,movie,1443,Девственницы-самоубийцы,2000,Sofia Coppola
+1286,review_required,movie,345,С широко закрытыми глазами,1999,Stanley Kubrick
+1287,review_required,movie,404,Простая история,1999,David Lynch
+1288,review_required,movie,1893,Звёздные войны: Эпизод 1 - Скрытая угроза,1999,George Lucas
+1289,review_required,movie,1911,13-й воин,1999,John McTiernan
+1290,high_confidence_candidate,movie,9008,Свой человек,1999,Michael Mann
+1291,high_confidence_candidate,movie,4806,Сбежавшая невеста,1999,Garry Marshall
+1292,high_confidence_candidate,movie,14,Красота по-американски,1999,Sam Mendes
+1293,review_required,movie,1213,Талантливый мистер Рипли,1999,Anthony Minghella
+1294,review_required,movie,509,Ноттинг Хилл,1999,Roger Michell
+1295,unmatched,,,,,
+1296,high_confidence_candidate,movie,11001,Бриллиантовый полицейский,1999,Les Mayfield
+1297,high_confidence_candidate,movie,622,Девятые врата,1999,Roman Polanski
+1298,unmatched,,,,,
+1299,high_confidence_candidate,movie,1832,Догма,1999,Kevin Smith
+1300,high_confidence_candidate,movie,564,Мумия,1999,Stephen Sommers
+1301,review_required,movie,2787,Чёрная дыра,2000,David Twohy
+1302,high_confidence_candidate,movie,550,Бойцовский клуб,1999,David Fincher
+1303,review_required,movie,12276,Дорога домой,1999,Zhang Yimou
+1304,review_required,movie,745,Шестое чувство,1999,M. Night Shyamalan
+1305,high_confidence_candidate,movie,1844,Entrapment,1999,Jon Amiel
+1306,high_confidence_candidate,movie,36643,The World Is Not Enough,1999,Michael Apted
+1307,high_confidence_candidate,movie,9032,Big Daddy,1999,Dennis Dugan
+1308,high_confidence_candidate,movie,11355,Never Been Kissed,1999,Raja Gosnell
+1309,high_confidence_candidate,movie,4816,Ghost Dog: The Way of the Samurai,1999,Jim Jarmusch
+1310,high_confidence_candidate,movie,1542,Office Space,1999,Mike Judge
+1311,high_confidence_candidate,movie,796,Cruel Intentions,1999,Roger Kumble
+1312,high_confidence_candidate,movie,2900,The Astronaut's Wife,1999,Rand Ravich
+1313,high_confidence_candidate,movie,2020,The Bachelor,1999,Gary Sinyor
+1314,high_confidence_candidate,movie,11545,Академия Рашмор,1998,Wes Anderson
+1315,high_confidence_candidate,movie,84002,Про уродов и людей,1998,Aleksei Balabanov
+1316,high_confidence_candidate,movie,233880,На краю земли,1999,Konstantin Bronzit
+1317,review_required,movie,95,Армагеддон,1998,Michael Bay
+1318,high_confidence_candidate,movie,100784,"Хрусталёв, машину!",1999,Aleksei German
+1319,high_confidence_candidate,movie,1878,Страх и ненависть в Лас-Вегасе,1998,Terry Gilliam
+1320,high_confidence_candidate,movie,8916,Муравей Антц,1998,Eric Darnell; Tim Johnson
+1321,high_confidence_candidate,movie,944,Смертельное оружие 4,1998,Richard Donner
+1322,review_required,movie,10663,Маменькин сыночек,1998,Frank Coraci
+1323,review_required,movie,115,Большой Лебовски,1998,Joel Coen; Ethan Coen
+1324,high_confidence_candidate,movie,1075,"Чёрная кошка, белый кот",1998,Emir Kusturica
+1325,review_required,movie,73,Американская история X,1998,Tony Kaye
+1326,high_confidence_candidate,movie,9487,Приключения Флика,1998,John Lasseter
+1327,review_required,movie,45712,Глория,1999,Sidney Lumet
+1328,high_confidence_candidate,movie,11660,Преследование,1999,Christopher Nolan
+1329,unmatched,,,,,
+1330,review_required,movie,100,"Карты, деньги, два ствола",1998,Guy Ritchie
+1331,review_required,movie,10239,Осенняя сказка,1998,Éric Rohmer
+1332,high_confidence_candidate,movie,2109,Час пик,1998,Brett Ratner
+1333,high_confidence_candidate,movie,666,Центральный вокзал,1998,Walter Salles
+1334,high_confidence_candidate,movie,795,Город ангелов,1998,Brad Silberling
+1335,review_required,movie,9798,Враг государства,1998,Tony Scott
+1336,review_required,movie,857,Спасти рядового Райана,1998,Steven Spielberg
+1337,high_confidence_candidate,movie,10376,Легенда о пианисте,1998,Giuseppe Tornatore
+1338,high_confidence_candidate,movie,104,"Беги, Лола, беги",1998,Tom Tykwer
+1339,review_required,movie,37165,Шоу Трумана,1998,Peter Weir
+1340,high_confidence_candidate,movie,452,Идиоты,1998,Lars von Trier
+1341,review_required,movie,53084,Классик,1998,Giorgi Shengelia
+1342,high_confidence_candidate,movie,9489,Вам письмо,1998,Nora Ephron
+1343,review_required,movie,525520,The Diary 3,2000,Nicolas Weber
+1344,high_confidence_candidate,movie,13761,Pocahontas II: Journey to a New World,1998,Tom Ellery; Bradley Raymond
+1345,high_confidence_candidate,movie,617,Wild Things,1998,John McNaughton
+1346,high_confidence_candidate,movie,2330,Taxi,1998,Gérard Pirès
+1347,high_confidence_candidate,movie,9732,The Lion King II: Simba's Pride,1998,Darrell Rooney
+1348,high_confidence_candidate,movie,12538,Senseless,1998,Penelope Spheeris
+1349,high_confidence_candidate,movie,3050,Doctor Dolittle,1998,Betty Thomas
+1350,high_confidence_candidate,movie,12159,What Dreams May Come,1998,Vincent Ward
+1351,high_confidence_candidate,movie,11622,Blast from the Past,1999,Hugh Wilson
+1352,high_confidence_candidate,movie,1902,Открой глаза,1997,Alejandro Amenábar
+1353,review_required,movie,978,Семь лет в Тибете,1997,Jean-Jacques Annaud
+1354,review_required,movie,9619,Пик Данте,1997,Roger Donaldson
+1355,high_confidence_candidate,movie,20992,Брат,1997,Aleksei Balabanov
+1356,high_confidence_candidate,movie,637,Жизнь прекрасна,1997,Roberto Benigni
+1357,high_confidence_candidate,movie,18,Пятый элемент,1997,Luc Besson
+1358,review_required,movie,2898,Лучше не бывает,1997,James L. Brooks
+1359,review_required,tv,99952,Незнайка на Луне,1997,Yuriy Butyrin; Alexander Lyutkevich
+1360,high_confidence_candidate,movie,489,Умница Уилл Хантинг,1997,Gus Van Sant
+1361,review_required,movie,607,Люди в чёрном,1997,Barry Sonnenfeld
+1362,high_confidence_candidate,movie,30020,Вкус вишни,1997,Abbas Kiarostami
+1363,high_confidence_candidate,movie,5910,Фейерверк,1997,Takeshi Kitano
+1364,high_confidence_candidate,movie,11970,Геркулес,1997,Ron Clements; John Musker
+1365,review_required,movie,597,Титаник,1997,James Cameron
+1366,high_confidence_candidate,movie,586,Плутовство,1997,Barry Levinson
+1367,review_required,movie,128,Принцесса Мононоке,1997,Hayao Miyazaki
+1368,unmatched,,,,,
+1369,review_required,movie,9366,Донни Браско,1997,Mike Newell
+1370,unmatched,,,,,
+1371,unmatched,,,,,
+1372,high_confidence_candidate,movie,184,Джеки Браун,1997,Quentin Tarantino
+1373,high_confidence_candidate,movie,781,В зимней спячке,1997,Tom Tykwer
+1374,high_confidence_candidate,movie,2649,Игра,1997,David Fincher
+1375,review_required,movie,10234,Забавные игры,1997,Michael Haneke
+1376,review_required,movie,1813,Адвокат дьявола,1997,Taylor Hackford
+1377,review_required,movie,338967,Zомбилэнд: Контрольный выстрел,2019,Ruben Fleischer
+1378,review_required,movie,158,Достучаться до небес,1997,Thomas Jahn
+1379,high_confidence_candidate,movie,10351,Wishmaster,1997,Robert Kurtzman
+1380,high_confidence_candidate,movie,1624,Liar Liar,1997,Tom Shadyac
+1381,high_confidence_candidate,movie,714,Tomorrow Never Dies,1997,Roger Spottiswoode
+1382,high_confidence_candidate,movie,9299,Дипломная работа,1996,Alejandro Amenábar
+1383,high_confidence_candidate,movie,8052,Роковая восьмерка,1997,Paul Thomas Anderson
+1384,high_confidence_candidate,movie,138522,Нас мало,1996,Šarūnas Bartas
+1385,review_required,movie,9802,Скала,1996,Michael Bay
+1386,high_confidence_candidate,movie,954,Миссия невыполнима,1996,Brian De Palma
+1387,review_required,movie,37563,Летняя сказка,1996,Éric Rohmer
+1388,high_confidence_candidate,movie,9894,Кабельщик,1996,Ben Stiller
+1389,high_confidence_candidate,movie,10545,Горбун из Нотр Дама,1996,Gary Trousdale; Kirk Wise
+1390,high_confidence_candidate,movie,145,Рассекая волны,1996,Lars von Trier
+1391,review_required,movie,11412,Долгий поцелуй на ночь,1996,Renny Harlin
+1392,high_confidence_candidate,movie,9879,Striptease,1996,Andrew Bergman
+1393,high_confidence_candidate,movie,10280,Thinner,1996,Tom Holland
+1394,high_confidence_candidate,movie,16299,The Stupids,1996,John Landis
+1395,high_confidence_candidate,movie,9268,Eraser,1996,Chuck Russell
+1396,high_confidence_candidate,movie,9103,The Quest,1996,Jean-Claude Van Damme
+1397,high_confidence_candidate,movie,13685,Бутылочная ракета,1996,Wes Anderson
+1398,unmatched,,,,,
+1399,high_confidence_candidate,movie,14553,Ускользающая красота,1996,Bernardo Bertolucci
+1400,review_required,movie,9737,Плохие парни,1995,Michael Bay
+1401,high_confidence_candidate,movie,33517,За облаками,1995,Michelangelo Antonioni
+1402,high_confidence_candidate,movie,9501,Плачущий убийца,1995,Christophe Gans
+1403,high_confidence_candidate,movie,197,Храброе сердце,1995,Mel Gibson
+1404,high_confidence_candidate,movie,63,12 обезьян,1995,Terry Gilliam
+1405,unmatched,,,,,
+1406,unmatched,,,,,
+1407,review_required,movie,688,Мосты округа Мэдисон,1995,Clint Eastwood
+1408,review_required,movie,11008,Майор Пэйн,1995,Nick Castle
+1409,review_required,movie,275,Фарго,1996,Joel Coen
+1410,review_required,movie,10474,Дневник баскетболиста,1995,Scott Kalvert
+1411,high_confidence_candidate,movie,710,007: Золотой глаз,1995,Martin Campbell
+1412,high_confidence_candidate,movie,862,История игрушек,1995,John Lasseter
+1413,review_required,movie,1572,Крепкий орешек 3: Возмездие,1995,John McTiernan
+1414,high_confidence_candidate,movie,949,Схватка,1995,Michael Mann
+1415,unmatched,,,,,
+1416,unmatched,,,,,
+1417,review_required,movie,755,От заката до рассвета,1996,Robert Rodriguez
+1418,high_confidence_candidate,movie,8068,Отчаянный,1995,Robert Rodriguez
+1419,high_confidence_candidate,movie,5,Четыре комнаты,1995,Allison Anders; Alexandre Rockwell; Robert Rodriguez; Quentin Tarantino
+1420,high_confidence_candidate,movie,524,Казино,1995,Martin Scorsese
+1421,unmatched,,,,,
+1422,high_confidence_candidate,movie,33542,Разборка в Бронксе,1995,Stanley Tong Gwai-Lai
+1423,high_confidence_candidate,movie,807,Семь,1995,David Fincher
+1424,review_required,movie,37557,Шанхайская триада,1995,Zhang Yimou
+1425,high_confidence_candidate,movie,11862,Отец невесты 2,1995,Charles Shyer
+1426,high_confidence_candidate,movie,10530,Pocahontas,1995,Mike Gabriel; Eric Goldberg
+1427,high_confidence_candidate,movie,922,Dead Man,1995,Jim Jarmusch
+1428,unmatched,,,,,
+1429,high_confidence_candidate,movie,76,Before Sunrise,1995,Richard Linklater
+1430,high_confidence_candidate,movie,8587,Король Лев,1994,Roger Allers; Rob Minkoff
+1431,high_confidence_candidate,movie,422190,Волшебник Изумрудного города,1994,Pavel Arsenov
+1432,high_confidence_candidate,movie,110808,Несколько любовных историй,1994,Andrei Benkendorf
+1433,high_confidence_candidate,movie,101,Леон,1994,Luc Besson
+1434,high_confidence_candidate,movie,11104,Чунгкингский экспресс,1994,Wong Kar-Wai
+1435,high_confidence_candidate,movie,278,Побег из Шоушенка,1994,Frank Darabont
+1436,review_required,movie,628,Интервью с вампиром,1994,Neil Jordan
+1437,high_confidence_candidate,movie,13,Форрест Гамп,1994,Robert Zemeckis
+1438,review_required,tv,294160,Мастер и Маргарита,2006,Yuriy Kara
+1439,review_required,movie,110,Три цвета: Красный,1994,Krzysztof Kieślowski
+1440,high_confidence_candidate,movie,47104,Сквозь оливы,1994,Abbas Kiarostami
+1441,review_required,movie,11934,Подручный Хадсакера,1994,Joel Coen; Ethan Coen
+1442,review_required,movie,36955,Правдивая ложь,1994,James Cameron
+1443,high_confidence_candidate,movie,50797,Утомлённые солнцем,1994,Nikita Mikhalkov
+1444,high_confidence_candidate,movie,2292,Клерки,1994,Kevin Smith
+1445,high_confidence_candidate,movie,680,Криминальное чтиво,1994,Quentin Tarantino
+1446,review_required,movie,8467,Тупой и ещё тупее,1994,Peter Farrelly
+1447,high_confidence_candidate,movie,214157,Гагарин,1994,Aleksey Kharitidi
+1448,review_required,movie,4476,Легенды осени,1994,Edward Zwick
+1449,high_confidence_candidate,movie,83614,Ты у меня одна,1993,Dmitriy Astrakhan
+1450,high_confidence_candidate,movie,9800,Филадельфия,1993,Jonathan Demme
+1451,review_required,movie,5503,Беглец,1993,Andrew Davis
+1452,unmatched,,,,,
+1453,review_required,movie,109,Три цвета: Белый,1994,Krzysztof Kieślowski
+1454,review_required,movie,108,Три цвета: Синий,1993,Krzysztof Kieślowski
+1455,review_required,movie,712,Четыре свадьбы и одни похороны,1994,Mike Newell
+1456,high_confidence_candidate,movie,10439,Фокус Покус,1993,Kenny Ortega
+1457,unmatched,,,,,
+1458,review_required,movie,137,День сурка,1993,Harold Ramis
+1459,review_required,movie,424,Список Шиндлера,1993,Steven Spielberg
+1460,review_required,movie,329,Парк юрского периода,1993,Steven Spielberg
+1461,high_confidence_candidate,movie,19223,Простая формальность,1994,Giuseppe Tornatore
+1462,high_confidence_candidate,movie,858,Неспящие в Сиэттле,1993,Nora Ephron
+1463,high_confidence_candidate,movie,64046,"Тайна королевы Анны, или Мушкетёры 30 лет спустя",1994,Georgi Yungvald-Khilkevich
+1464,review_required,movie,443998,Enrico Mattei,2009,Giorgio Capitani
+1465,high_confidence_candidate,movie,10057,The Three Musketeers,1993,Stephen Herek
+1466,high_confidence_candidate,movie,3049,Ace Ventura: Pet Detective,1994,Tom Shadyac
+1467,high_confidence_candidate,movie,28384,Мужья и жены,1992,Woody Allen
+1468,high_confidence_candidate,movie,9475,Запах женщины,1992,Martin Brest
+1469,review_required,movie,402,Основной инстинкт,1992,Paul Verhoeven
+1470,review_required,movie,619,Телохранитель,1992,Mick Jackson
+1471,high_confidence_candidate,movie,943,Смертельное оружие 3,1992,Richard Donner
+1472,review_required,movie,63538,Гардемарины III,1992,Svetlana Druzhinina
+1473,review_required,movie,33,Непрощённый,1992,Clint Eastwood
+1474,high_confidence_candidate,movie,812,Аладдин,1992,John Musker; Ron Clements
+1475,review_required,movie,772,Один дома 2: Затерянный в Нью-Йорке,1992,Chris Columbus
+1476,review_required,movie,713,Пианино,1993,Jane Campion
+1477,review_required,movie,10377,Мой кузен Винни,1992,Jonathan Lynn
+1478,high_confidence_candidate,movie,11012,Ущерб,1992,Louis Malle
+1479,unmatched,,,,,
+1480,review_required,movie,10241,Зимняя сказка,1992,Éric Rohmer
+1481,unmatched,,,,,
+1482,high_confidence_candidate,movie,64044,Мушкетеры 20 лет спустя,1993,Georgi Yungvald-Khilkevich
+1483,high_confidence_candidate,movie,5550,RoboCop 3,1993,Fred Dekker
+1484,high_confidence_candidate,movie,88860,Три дня,1992,Šarūnas Bartas
+1485,review_required,movie,1089,На гребне волны,1991,Kathryn Bigelow
+1486,high_confidence_candidate,movie,468,Мой личный штат Айдахо,1991,Gus Van Sant
+1487,high_confidence_candidate,movie,177,Король-рыбак,1991,Terry Gilliam
+1488,high_confidence_candidate,movie,63537,"Виват, гардемарины!",1991,Svetlana Druzhinina
+1489,high_confidence_candidate,movie,2767,Любовники с Нового Моста,1991,Leos Carax
+1490,review_required,movie,1600,Двойная жизнь Вероники,1991,Krzysztof Kieślowski
+1491,review_required,movie,290,Бартон Финк,1991,Joel Coen; Ethan Coen
+1492,review_required,movie,11044,Аризонская мечта,1993,Emir Kusturica
+1493,review_required,movie,280,Терминатор 2: Судный день,1991,James Cameron
+1494,high_confidence_candidate,movie,143380,Гений,1992,Viktor Sergeev
+1495,high_confidence_candidate,movie,500,Бешеные псы,1992,Quentin Tarantino
+1496,high_confidence_candidate,movie,10020,Красавица и Чудовище,1991,Gary Trousdale; Kirk Wise
+1497,high_confidence_candidate,movie,9065,Европа,1991,Lars von Trier
+1498,review_required,movie,11894,Кудряшка Сью,1991,John Hughes
+1499,high_confidence_candidate,movie,10975,Доспехи Бога 2: Операция Кондор,1991,Jackie Chan
+1500,review_required,movie,10404,Подними красный фонарь,1991,Zhang Yimou
+1501,high_confidence_candidate,movie,11846,Отец невесты,1991,Charles Shyer
+1502,review_required,movie,267111,Così fan tutte,1992,Stephen Medcalf
+1503,high_confidence_candidate,movie,48129,Run,1991,Geoff Burrowes
+1504,high_confidence_candidate,movie,13888,Return to the Blue Lagoon,1991,William A. Graham
+1505,high_confidence_candidate,movie,339,Night on Earth,1991,Jim Jarmusch
+1506,high_confidence_candidate,movie,9292,Hudson Hawk,1991,Michael Lehmann
+1507,unmatched,,,,,
+1508,high_confidence_candidate,movie,162,Эдвард руки-ножницы,1990,Tim Burton
+1509,review_required,movie,861,Вспомнить всё,1990,Paul Verhoeven
+1510,high_confidence_candidate,movie,274,Молчание ягнят,1991,Jonathan Demme
+1511,high_confidence_candidate,movie,196,Назад в будущее 3,1990,Robert Zemeckis
+1512,high_confidence_candidate,movie,5549,Робокоп 2,1990,Irvin Kershner
+1513,high_confidence_candidate,movie,30017,Крупный план,1990,Abbas Kiarostami
+1514,high_confidence_candidate,movie,242,Крёстный отец 3,1990,Francis Ford Coppola
+1515,review_required,movie,379,Перекресток Миллера,1990,Joel Coen
+1516,review_required,movie,771,Один дома,1990,Chris Columbus
+1517,unmatched,,,,,
+1518,review_required,movie,483,Дикие сердцем,1990,David Lynch
+1519,high_confidence_candidate,movie,114,Красотка,1990,Garry Marshall
+1520,high_confidence_candidate,movie,11005,Пробуждение,1990,Penny Marshall
+1521,review_required,movie,951,Детсадовский полицейский,1990,Ivan Reitman
+1522,high_confidence_candidate,movie,769,Славные парни,1990,Martin Scorsese
+1523,review_required,movie,1573,Крепкий орешек 2,1990,Renny Harlin
+1524,review_required,movie,251,Привидение,1990,Jerry Zucker
+1525,review_required,movie,41821,Цзюй Доу,1990,Zhang Yimou
+1526,review_required,movie,4977,Paprika,2006,Satoshi Kon
+1527,high_confidence_candidate,movie,48524,Слишком красивая для тебя,1989,Bertrand Blier
+1528,unmatched,,,,,
+1529,review_required,movie,7452,"Повар, вор, его жена и её любовник",1989,Peter Greenaway
+1530,high_confidence_candidate,movie,942,Смертельное оружие 2,1989,Richard Donner
+1531,high_confidence_candidate,movie,165,Назад в будущее 2,1989,Robert Zemeckis
+1532,review_required,movie,118665,"Декалог, пять",1989,Krzysztof Kieślowski
+1533,high_confidence_candidate,movie,12622,Жестокий полицейский,1989,Takeshi Kitano
+1534,high_confidence_candidate,movie,10144,Русалочка,1989,Ron Clements; John Musker
+1535,review_required,movie,16859,Ведьмина служба доставки,1989,Hayao Miyazaki
+1536,high_confidence_candidate,movie,639,Когда Гарри встретил Салли,1989,Rob Reiner
+1537,review_required,movie,28213,Весенняя сказка,1990,Éric Rohmer
+1538,review_required,movie,89,Индиана Джонс и последний крестовый поход,1989,Steven Spielberg
+1539,unmatched,,,,,
+1540,high_confidence_candidate,movie,709,Licence to Kill,1989,John Glen
+1541,unmatched,,,,,
+1542,high_confidence_candidate,movie,11305,Mystery Train,1989,Jim Jarmusch
+1543,high_confidence_candidate,movie,9354,"Honey, I Shrunk the Kids",1989,Joe Johnston
+1544,review_required,movie,47795,Пейзаж в тумане,1988,Theo Angelopoulos
+1545,high_confidence_candidate,movie,43680,Собачье сердце,1988,Vladimir Bortko
+1546,high_confidence_candidate,movie,9647,Новая рождественская сказка,1988,Richard Donner
+1547,high_confidence_candidate,movie,10868,Обвиняемые,1988,Jonathan Kaplan
+1548,review_required,movie,31056,Короткий фильм о любви,1988,Krzysztof Kieślowski
+1549,high_confidence_candidate,movie,20123,Время цыган,1988,Emir Kusturica
+1550,high_confidence_candidate,movie,380,Человек дождя,1988,Barry Levinson
+1551,review_required,movie,562,Крепкий орешек,1988,John McTiernan
+1552,high_confidence_candidate,movie,2280,Большой,1988,Penny Marshall
+1553,review_required,movie,8392,Мой сосед Тоторо,1988,Hayao Miyazaki
+1554,high_confidence_candidate,movie,20847,Игла,1989,Rashid Nugmanov
+1555,unmatched,,,,,
+1556,high_confidence_candidate,movie,12477,Могила светлячков,1988,Isao Takahata
+1557,unmatched,,,,,
+1558,high_confidence_candidate,movie,11216,Новый кинотеатр «Парадизо»,1988,Giuseppe Tornatore
+1559,high_confidence_candidate,movie,169344,Остров ржавого генерала,1988,Valentin Khovenko
+1560,high_confidence_candidate,movie,10753,Полицейская история 2,1988,Jackie Chan
+1561,review_required,movie,49418,Остров сокровищ,1988,Davyd Cherkaskyi
+1562,high_confidence_candidate,movie,9602,Coming to America,1988,John Landis
+1563,review_required,movie,101468,Потрясающие приключения мышкетеров,1988,Victor Antonescu
+1564,high_confidence_candidate,movie,88,Грязные танцы,1987,Emile Ardolino
+1565,high_confidence_candidate,movie,115232,Лиловый шар,1988,Pavel Arsenov
+1566,review_required,movie,144,Небо над Берлином,1987,Wim Wenders
+1567,review_required,movie,5548,Робокоп,1987,Paul Verhoeven
+1568,unmatched,,,,,
+1569,high_confidence_candidate,movie,941,Смертельное оружие,1987,Richard Donner
+1570,review_required,tv,43090,"Гардемарины, вперёд!",1988,Svetlana Druzhinina
+1571,unmatched,,,,,
+1572,review_required,movie,10754,Короткий фильм об убийстве,1988,Krzysztof Kieślowski
+1573,review_required,movie,378,Воспитание Аризоны,1987,Joel Coen
+1574,review_required,movie,600,Цельнометаллическая оболочка,1987,Stanley Kubrick
+1575,review_required,movie,106,Хищник,1987,John McTiernan
+1576,high_confidence_candidate,movie,10780,За бортом,1987,Garry Marshall
+1577,unmatched,,,,,
+1578,high_confidence_candidate,movie,45227,Человек с бульвара Капуцинов,1987,Alla Surikova
+1579,review_required,movie,42006,Красный гаолян,1988,Zhang Yimou
+1580,unmatched,,,,,
+1581,high_confidence_candidate,movie,10937,Пьянь,1987,Barbet Schroeder
+1582,high_confidence_candidate,movie,865,The Running Man,1987,Paul Michael Glaser
+1583,high_confidence_candidate,movie,708,The Living Daylights,1987,John Glen
+1584,high_confidence_candidate,movie,61218,Рождественский подарок,1986,Pupi Avati
+1585,high_confidence_candidate,movie,5143,Ханна и ее сестры,1986,Woody Allen
+1586,review_required,movie,192,Имя розы,1986,Jean-Jacques Annaud
+1587,high_confidence_candidate,movie,30163,Беглецы,1986,Francis Veber
+1588,high_confidence_candidate,movie,20874,Кин-дза-дза!,1986,Georgiy Daneliya
+1589,unmatched,,,,,
+1590,unmatched,,,,,
+1591,high_confidence_candidate,movie,64131,Дурная кровь,1986,Leos Carax
+1592,high_confidence_candidate,movie,9994,Великий мышиный сыщик,1986,Ron Clements; Burny Mattinson; David Michener; John Musker
+1593,review_required,movie,679,Чужие,1986,James Cameron
+1594,review_required,movie,793,Синий бархат,1986,David Lynch
+1595,review_required,movie,126868,Приключения Шерлока Холмса и доктора Ватсона: Двадцатый век начинается. Часть 2,1988,Igor Maslennikov
+1596,high_confidence_candidate,movie,11873,Цвет денег,1986,Martin Scorsese
+1597,review_required,movie,744,Лучший стрелок,1986,Tony Scott
+1598,unmatched,,,,,
+1599,unmatched,,,,,
+1600,high_confidence_candidate,movie,10974,Доспехи Бога,1986,Jackie Chan
+1601,high_confidence_candidate,movie,1554,Down by Law,1986,Jim Jarmusch
+1602,unmatched,,,,,
+1603,high_confidence_candidate,movie,24657,The Sacrifice,1986,Andrei Tarkovsky
+1604,high_confidence_candidate,movie,10849,Пурпурная роза Каира,1985,Woody Allen
+1605,unmatched,,,,,
+1606,high_confidence_candidate,movie,68,Бразилия,1985,Terry Gilliam
+1607,unmatched,,,,,
+1608,high_confidence_candidate,movie,105,Назад в будущее,1985,Robert Zemeckis
+1609,high_confidence_candidate,movie,25237,Иди и смотри,1985,Elem Klimov
+1610,high_confidence_candidate,movie,21042,Папа в командировке,1985,Emir Kusturica
+1611,high_confidence_candidate,movie,9355,Безумный Макс 3: Под куполом грома,1985,George Miller; George Ogilvie
+1612,unmatched,,,,,
+1613,unmatched,,,,,
+1614,review_required,movie,9281,Свидетель,1985,Peter Weir
+1615,high_confidence_candidate,movie,9056,Полицейская история,1985,Jackie Chan
+1616,high_confidence_candidate,movie,707,A View to a Kill,1985,John Glen
+1617,high_confidence_candidate,movie,10999,Commando,1985,Mark L. Lester
+1618,unmatched,,,,,
+1619,unmatched,,,,,
+1620,unmatched,,,,,
+1621,review_required,movie,655,"Париж, Техас",1984,Wim Wenders
+1622,unmatched,,,,,
+1623,high_confidence_candidate,movie,83491,Мой друг Иван Лапшин,1985,Aleksei German
+1624,unmatched,,,,,
+1625,unmatched,,,,,
+1626,unmatched,,,,,
+1627,high_confidence_candidate,movie,27940,Формула любви,1984,Mark Zakharov
+1628,unmatched,,,,,
+1629,review_required,movie,77985,Любовники Марии,1984,Andrei Konchalovsky
+1630,review_required,movie,218,Терминатор,1984,James Cameron
+1631,high_confidence_candidate,movie,32334,Любовь и голуби,1984,Vladimir Menshov
+1632,high_confidence_candidate,movie,258985,Пеппи Длинныйчулок,1984,Margarita Mikaelyan
+1633,unmatched,,,,,
+1634,review_required,movie,620,Охотники за привидениями,1984,Ivan Reitman
+1635,high_confidence_candidate,movie,66091,Жестокий романс,1984,Eldar Ryazanov
+1636,unmatched,,,,,
+1637,review_required,movie,87,Индиана Джонс и Храм Судьбы,1984,Steven Spielberg
+1638,high_confidence_candidate,movie,279,Амадей,1984,Miloš Forman
+1639,unmatched,,,,,
+1640,unmatched,,,,,
+1641,high_confidence_candidate,movie,469,Stranger Than Paradise,1984,Jim Jarmusch
+1642,high_confidence_candidate,movie,5968,The Woman in Red,1984,Gene Wilder
+1643,high_confidence_candidate,movie,11030,Зелиг,1983,Woody Allen
+1644,unmatched,,,,,
+1645,high_confidence_candidate,movie,42112,Деньги,1983,Robert Bresson
+1646,high_confidence_candidate,movie,10484,Папаши,1983,Francis Veber
+1647,unmatched,,,,,
+1648,high_confidence_candidate,movie,111,Лицо со шрамом,1983,Brian De Palma
+1649,unmatched,,,,,
+1650,high_confidence_candidate,movie,77060,"Мэри Поппинс, до свидания",1983,Leonid Kvinikhidze
+1651,high_confidence_candidate,movie,36670,007: Никогда не говори «никогда»,1983,Irvin Kershner
+1652,high_confidence_candidate,movie,232,Бойцовая рыбка,1983,Francis Ford Coppola
+1653,review_required,movie,11368,Просто кровь,1985,Joel Coen
+1654,high_confidence_candidate,movie,311,Однажды в Америке,1984,Sergio Leone
+1655,high_confidence_candidate,movie,1892,Звёздные войны: Эпизод 6 - Возвращение Джедая,1983,Richard Marquand
+1656,review_required,movie,126395,Приключения Шерлока Холмса и доктора Ватсона: Сокровища Агры. Часть 1,1983,Igor Maslennikov
+1657,unmatched,,,,,
+1658,high_confidence_candidate,movie,42106,Кармен,1983,Carlos Saura
+1659,unmatched,,,,,
+1660,unmatched,,,,,
+1661,high_confidence_candidate,movie,56477,Мы из джаза,1983,Karen Shakhnazarov
+1662,high_confidence_candidate,movie,700,Octopussy,1983,John Glen
+1663,high_confidence_candidate,movie,1394,Nostalgia,1983,Andrei Tarkovsky
+1664,high_confidence_candidate,movie,5961,Фанни и Александр,1982,Ingmar Bergman
+1665,high_confidence_candidate,movie,41977,Чародеи,1982,Konstantin Bromberg
+1666,high_confidence_candidate,movie,71051,Спортлото-82,1982,Leonid Gaidai
+1667,review_required,movie,1037386,Слезы капали в фо-бо,2022,Sergey Filatov
+1668,high_confidence_candidate,movie,530461,Без году неделя,1982,Nikolay Zaseev-Rudenko
+1669,review_required,movie,27939,"Дом, который построил Свифт",1985,Mark Zakharov
+1670,unmatched,,,,,
+1671,high_confidence_candidate,movie,59455,Миллион - не деньги,1982,Édouard Molinaro
+1672,unmatched,,,,,
+1673,review_required,movie,9576,Тутси,1982,Sydney Pollack
+1674,unmatched,,,,,
+1675,review_required,movie,78,Бегущий по лезвию,1982,Ridley Scott
+1676,review_required,movie,601,Инопланетянин,1982,Steven Spielberg
+1677,high_confidence_candidate,movie,79595,Баллада о доблестном рыцаре Айвенго,1983,Sergei Tarasov
+1678,high_confidence_candidate,movie,2262,Тоска Вероники Фосс,1982,Rainer Werner Fassbinder
+1679,review_required,movie,9343,Фицкарральдо,1982,Werner Herzog
+1680,unmatched,,,,,
+1681,unmatched,,,,,
+1682,unmatched,,,,,
+1683,high_confidence_candidate,movie,91653,Пёс в сапогах,1981,Yefim Gamburg
+1684,review_required,movie,68797,Знахарь,1982,Jerzy Hoffman
+1685,high_confidence_candidate,movie,160984,"Не бойся, я с тобой!",1981,Yuli Gusman
+1686,review_required,movie,37765,Туз,1981,Castellano; Pipolo
+1687,unmatched,,,,,
+1688,review_required,movie,315144,Безнадежный случай,1980,Ovidio G. Assonitis
+1689,review_required,movie,1672,Профессионал,1981,Georges Lautner
+1690,review_required,movie,84254,Приключения Шерлока Холмса и доктора Ватсона: Собака Баскервилей. Часть 1,1981,Igor Maslennikov
+1691,high_confidence_candidate,movie,8810,Безумный Макс 2: Воин дороги,1981,George Miller
+1692,high_confidence_candidate,movie,83620,Родня,1982,Nikita Mikhalkov
+1693,unmatched,,,,,
+1694,high_confidence_candidate,movie,391467,"Раз ковбой, два ковбой...",1981,Anatoliy Reznikov
+1695,high_confidence_candidate,movie,854232,...Три синих синих озера малинового цвета...,1981,Robert Sahakyants
+1696,high_confidence_candidate,movie,42139,Кровавая свадьба,1981,Carlos Saura
+1697,review_required,movie,85,Индиана Джонс: В поисках утраченного ковчега,1981,Steven Spielberg
+1698,unmatched,,,,,
+1699,unmatched,,,,,
+1700,unmatched,,,,,
+1701,high_confidence_candidate,movie,699,For Your Eyes Only,1981,John Glen
+1702,high_confidence_candidate,movie,11337,Звездные воспоминания,1980,Woody Allen
+1703,unmatched,,,,,
+1704,unmatched,,,,,
+1705,review_required,movie,10986,Укрощение строптивого,1980,Pipolo; Franco Castellano
+1706,high_confidence_candidate,movie,1891,Звёздные войны: Эпизод 5 - Империя наносит ответный удар,1980,Irvin Kershner
+1707,review_required,movie,694,Сияние,1980,Stanley Kubrick
+1708,high_confidence_candidate,movie,11953,Кагемуся: Тень воина,1980,Akira Kurosawa
+1709,review_required,movie,1955,Человек-слон,1980,David Lynch
+1710,review_required,movie,126850,Приключения Шерлока Холмса и доктора Ватсона: Смертельная схватка,1980,Igor Maslennikov
+1711,review_required,movie,126846,Приключения Шерлока Холмса и доктора Ватсона: Король шантажа,1980,Igor Maslennikov
+1712,review_required,movie,126854,Приключения Шерлока Холмса и доктора Ватсона: Охота на тигра,1980,Igor Maslennikov
+1713,unmatched,,,,,
+1714,high_confidence_candidate,movie,37175,О бедном гусаре замолвите слово,1980,Eldar Ryazanov
+1715,high_confidence_candidate,movie,1578,Бешеный бык,1980,Martin Scorsese
+1716,unmatched,,,,,
+1717,high_confidence_candidate,movie,5689,The Blue Lagoon,1980,Randal Kleiser
+1718,high_confidence_candidate,movie,696,Манхэттен,1979,Woody Allen
+1719,unmatched,,,,,
+1720,high_confidence_candidate,movie,12102,Крамер против Крамера,1979,Robert Benton
+1721,high_confidence_candidate,movie,38438,Холодные закуски,1979,Bertrand Blier
+1722,unmatched,,,,,
+1723,review_required,movie,117483,Барышни из Вилько,1979,Andrzej Wajda
+1724,unmatched,,,,,
+1725,high_confidence_candidate,movie,27924,Осенний марафон,1979,Georgiy Daneliya
+1726,unmatched,,,,,
+1727,high_confidence_candidate,movie,27935,Обыкновенное чудо,1978,Mark Zakharov
+1728,high_confidence_candidate,movie,27937,Тот самый Мюнхгаузен,1979,Mark Zakharov
+1729,review_required,movie,42164,Кинолюбитель,1979,Krzysztof Kieślowski
+1730,high_confidence_candidate,movie,28,Апокалипсис сегодня,1979,Francis Ford Coppola
+1731,high_confidence_candidate,movie,584549,Шерлок Холмс и доктор Ватсон: Знакомство,1980,Igor Maslennikov
+1732,high_confidence_candidate,movie,610470,Шерлок Холмс и доктор Ватсон: Кровавая надпись,1980,Igor Maslennikov
+1733,high_confidence_candidate,movie,21028,Москва слезам не верит,1980,Vladimir Menshov
+1734,high_confidence_candidate,movie,9659,Безумный Макс,1979,George Miller
+1735,unmatched,,,,,
+1736,high_confidence_candidate,movie,11121,Тэсс,1979,Roman Polanski
+1737,high_confidence_candidate,movie,56547,Гараж,1979,Eldar Ryazanov
+1738,high_confidence_candidate,movie,10734,Побег из Алькатраса,1979,Don Siegel
+1739,review_required,movie,348,Чужой,1979,Ridley Scott
+1740,high_confidence_candidate,movie,661,Замужество Марии Браун,1979,Rainer Werner Fassbinder
+1741,review_required,movie,659,Жестяной барабан,1979,Volker Schlöndorff
+1742,review_required,tv,76829,Д’Артаньян и три мушкетера,1979,Georgi Yungvald-Khilkevich
+1743,high_confidence_candidate,movie,698,Moonraker,1979,Lewis Gilbert
+1744,high_confidence_candidate,movie,1398,Stalker,1979,Andrei Tarkovsky
+1745,high_confidence_candidate,movie,12761,Осенняя соната,1978,Ingmar Bergman
+1746,unmatched,,,,,
+1747,high_confidence_candidate,movie,149381,Новые приключения капитана Врунгеля,1978,Gennadi Vasilyev
+1748,unmatched,,,,,
+1749,review_required,movie,10516,Жандарм и инопланетяне,1979,Jean Girault
+1750,unmatched,,,,,
+1751,high_confidence_candidate,movie,65089,31 июня,1978,Leonid Kvinikhidze
+1752,review_required,movie,16642,Дни жатвы,1978,Terrence Malick
+1753,unmatched,,,,,
+1754,high_confidence_candidate,movie,42203,Отчаяние,1978,Rainer Werner Fassbinder
+1755,high_confidence_candidate,movie,37177,Собака на сене,1977,Yan Frid
+1756,high_confidence_candidate,movie,703,Энни Холл,1977,Woody Allen
+1757,high_confidence_candidate,movie,4267,Приготовьте ваши носовые платки,1978,Bertrand Blier
+1758,high_confidence_candidate,movie,5781,Этот смутный объект желания,1977,Luis Buñuel
+1759,review_required,movie,11222,Американский друг,1977,Wim Wenders
+1760,unmatched,,,,,
+1761,review_required,movie,985,Голова-ластик,1977,David Lynch
+1762,review_required,movie,11,Звёздные войны: Эпизод 4 - Новая надежда,1977,George Lucas
+1763,high_confidence_candidate,movie,20944,Про Красную Шапочку,1977,Leonid Nechayev
+1764,high_confidence_candidate,movie,41662,3 женщины,1977,Robert Altman
+1765,high_confidence_candidate,movie,31139,Служебный роман,1977,Eldar Ryazanov
+1766,review_required,movie,19067,Дуэлянты,1977,Ridley Scott
+1767,high_confidence_candidate,movie,691,The Spy Who Loved Me,1977,Lewis Gilbert
+1768,review_required,movie,224,Человек из мрамора,1977,Andrzej Wajda
+1769,high_confidence_candidate,movie,56648,Игрушка,1976,Francis Veber
+1770,high_confidence_candidate,movie,133008,Двадцать дней без войны,1976,Aleksei German
+1771,unmatched,,,,,
+1772,high_confidence_candidate,movie,133700,Розыгрыш,1977,Vladimir Menshov
+1773,high_confidence_candidate,movie,38837,Неоконченная пьеса для механического пианино,1977,Nikita Mikhalkov
+1774,high_confidence_candidate,movie,5879,Империя чувств,1976,Nagisa Ōshima
+1775,high_confidence_candidate,movie,11482,Жилец,1976,Roman Polanski
+1776,unmatched,,,,,
+1777,high_confidence_candidate,movie,19413,"Отвратительные, грязные, злые",1976,Ettore Scola
+1778,high_confidence_candidate,movie,103,Таксист,1976,Martin Scorsese
+1779,unmatched,,,,,
+1780,unmatched,,,,,
+1781,high_confidence_candidate,movie,74949,The Fruit Is Ripe,1977,Sigi Rothemund
+1782,high_confidence_candidate,movie,761,Крылышко или ножка,1976,Claude Zidi
+1783,high_confidence_candidate,movie,11686,Любовь и смерть,1975,Woody Allen
+1784,review_required,movie,689,Комедианты,1975,Theo Angelopoulos
+1785,high_confidence_candidate,movie,9652,Профессия: Репортер,1975,Michelangelo Antonioni
+1786,review_required,movie,20017,Ложное движение,1975,Wim Wenders
+1787,high_confidence_candidate,movie,762,Монти Пайтон и священный Грааль,1975,Terry Gilliam; Terry Jones
+1788,high_confidence_candidate,movie,20870,Афоня,1975,Georgiy Daneliya
+1789,unmatched,,,,,
+1790,high_confidence_candidate,movie,66086,Новогодние приключения Маши и Вити,1975,Igor Usov; Gennadi Kazansky
+1791,review_required,movie,3175,Барри Линдон,1975,Stanley Kubrick
+1792,high_confidence_candidate,movie,73100,Раба любви,1976,Nikita Mikhalkov
+1793,review_required,tv,279648,Приключения Буратино,1975,Leonid Nechayev
+1794,unmatched,,,,,
+1795,unmatched,,,,,
+1796,unmatched,,,,,
+1797,high_confidence_candidate,movie,43430,"Ирония судьбы, или С легким паром!",1976,Eldar Ryazanov
+1798,high_confidence_candidate,movie,51857,Выкорми ворона,1976,Carlos Saura
+1799,review_required,movie,578,Челюсти,1975,Steven Spielberg
+1800,review_required,movie,11020,Пикник у Висячей скалы,1975,Peter Weir
+1801,high_confidence_candidate,movie,510,Пролетая над гнездом кукушки,1975,Miloš Forman
+1802,high_confidence_candidate,movie,28209,Emmanuelle: The Joys of a Woman,1975,Francis Giacobetti
+1803,high_confidence_candidate,movie,266892,Не болит голова у дятла,1975,Dinara Asanova
+1804,high_confidence_candidate,movie,4031,Вальсирующие,1974,Bertrand Blier
+1805,unmatched,,,,,
+1806,high_confidence_candidate,movie,5558,Призрак свободы,1974,Luis Buñuel
+1807,review_required,movie,2204,Алиса в городах,1974,Wim Wenders
+1808,review_required,movie,56142,Семейный портрет в интерьере,1974,Luchino Visconti
+1809,unmatched,,,,,
+1810,unmatched,,,,,
+1811,unmatched,,,,,
+1812,high_confidence_candidate,movie,240,Крёстный отец 2,1974,Francis Ford Coppola
+1813,review_required,movie,4176,Убийство в «Восточном экспрессе»,1974,Sidney Lumet
+1814,high_confidence_candidate,movie,38361,"Свой среди чужих, чужой среди своих",1974,Nikita Mikhalkov
+1815,high_confidence_candidate,movie,47406,Цветок тысяча и одной ночи,1974,Pier Paolo Pasolini
+1816,high_confidence_candidate,movie,829,Китайский квартал,1974,Roman Polanski
+1817,high_confidence_candidate,movie,10939,Возвращение высокого блондина,1974,Yves Robert
+1818,high_confidence_candidate,movie,54236,Кузина Анхелика,1974,Carlos Saura
+1819,review_required,movie,11710,"Каждый за себя, а Бог против всех",1974,Werner Herzog
+1820,review_required,movie,682,007: Человек с золотым пистолетом,1974,Guy Hamilton
+1821,unmatched,,,,,
+1822,high_confidence_candidate,movie,24402,Emmanuelle,1974,Just Jaeckin
+1823,review_required,movie,173113,Ghost of the Mirror,1974,Sung Tsun Shou
+1824,review_required,tv,65170,Сцены из супружеской жизни,1973,Ingmar Bergman
+1825,high_confidence_candidate,movie,37129,В бой идут одни старики,1974,Leonid Bykov
+1826,review_required,movie,8703,Три орешка для Золушки,1973,Václav Vorlíček
+1827,high_confidence_candidate,movie,20803,Иван Васильевич меняет профессию,1973,Leonid Gaidai
+1828,high_confidence_candidate,movie,72201,Двенадцать месяцев,1973,Anatoliy Granik
+1829,high_confidence_candidate,movie,59803,Маугли,1973,Roman Davydov
+1830,unmatched,,,,,
+1831,review_required,movie,19562,Великолепный,1973,Philippe de Broca
+1832,unmatched,,,,,
+1833,review_required,movie,76329,С Новым годом!,1973,Claude Lelouch
+1834,unmatched,,,,,
+1835,unmatched,,,,,
+1836,review_required,movie,9040,Серпико,1973,Sidney Lumet
+1837,review_required,movie,3133,Пустоши,1973,Terrence Malick
+1838,high_confidence_candidate,movie,55368,Лакомб Люсьен,1974,Louis Malle
+1839,review_required,movie,11577,Пэт Гэрретт и Билли Кид,1973,Sam Peckinpah
+1840,high_confidence_candidate,movie,57778,Невероятные приключения итальянцев в России,1974,Eldar Ryazanov
+1841,unmatched,,,,,
+1842,high_confidence_candidate,movie,7857,Амаркорд,1973,Federico Fellini
+1843,high_confidence_candidate,movie,10102,Большая жратва,1973,Marco Ferreri
+1844,unmatched,,,,,
+1845,review_required,movie,253,007: Живи и дай умереть,1973,Guy Hamilton
+1846,review_required,movie,4495,Дух улья,1973,Víctor Erice
+1847,high_confidence_candidate,movie,10238,Шепоты и крики,1972,Ingmar Bergman
+1848,high_confidence_candidate,movie,1643,Последнее танго в Париже,1972,Bernardo Bertolucci
+1849,high_confidence_candidate,movie,4593,Скромное обаяние буржуазии,1972,Luis Buñuel
+1850,review_required,movie,83235,Жил певчий дрозд,1970,Otar Iosseliani
+1851,unmatched,,,,,
+1852,high_confidence_candidate,movie,238,Крёстный отец,1972,Francis Ford Coppola
+1853,unmatched,,,,,
+1854,high_confidence_candidate,movie,12089,Высокий блондин в чёрном ботинке,1972,Yves Robert
+1855,unmatched,,,,,
+1856,high_confidence_candidate,movie,10310,Горькие слезы Петры Фон Кант,1972,Rainer Werner Fassbinder
+1857,review_required,movie,2000,"Агирре, гнев божий",1972,Werner Herzog
+1858,unmatched,,,,,
+1859,high_confidence_candidate,movie,42759,The Call of the Wild,1972,Ken Annakin
+1860,high_confidence_candidate,movie,593,Solaris,1972,Andrei Tarkovsky
+1861,high_confidence_candidate,movie,25188,Последний киносеанс,1971,Peter Bogdanovich
+1862,review_required,movie,6619,Смерть в Венеции,1971,Luchino Visconti
+1863,high_confidence_candidate,movie,31648,12 стульев,1971,Leonid Gaidai
+1864,review_required,movie,71762,Проверка на дорогах,1986,Aleksei German
+1865,unmatched,,,,,
+1866,review_required,movie,185,Заводной апельсин,1971,Stanley Kubrick
+1867,high_confidence_candidate,movie,336,За пригоршню динамита,1971,Sergio Leone
+1868,review_required,movie,36194,Посредник,1971,Joseph Losey
+1869,review_required,movie,42529,В.Р. Мистерия организма,1971,Dušan Makavejev
+1870,high_confidence_candidate,movie,148822,Долгие проводы,1971,Kira Muratova
+1871,unmatched,,,,,
+1872,review_required,movie,994,Соломенные псы,1971,Sam Peckinpah
+1873,high_confidence_candidate,movie,20871,Джентльмены удачи,1971,Aleksandr Sery
+1874,high_confidence_candidate,movie,984,Грязный Гарри,1971,Don Siegel
+1875,review_required,movie,839,Дуэль,1971,Steven Spielberg
+1876,review_required,movie,42513,Две англичанки и континент,1971,François Truffaut
+1877,review_required,movie,14257,Мания величия,1971,Gérard Oury
+1878,high_confidence_candidate,movie,59881,Отрыв,1971,Miloš Forman
+1879,unmatched,,,,,
+1880,review_required,movie,681,007: Бриллианты навсегда,1971,Guy Hamilton
+1881,high_confidence_candidate,movie,149894,Тайна железной двери,1970,Mikhail Yuzovskiy
+1882,high_confidence_candidate,movie,11914,На древо взгромоздясь,1971,Serge Korber
+1883,high_confidence_candidate,movie,31304,Шведская история любви,1970,Roy Andersson
+1884,high_confidence_candidate,movie,8416,Конформист,1971,Bernardo Bertolucci
+1885,high_confidence_candidate,movie,35838,Тристана,1970,Luis Buñuel
+1886,unmatched,,,,,
+1887,unmatched,,,,,
+1888,high_confidence_candidate,movie,65594,"Корона Российской империи, или Снова неуловимые",1971,Edmond Keosayan
+1889,review_required,movie,23330,Баллада о Кэйбле Хоге,1970,Sam Peckinpah
+1890,review_required,movie,2860,Колено Клер,1970,Éric Rohmer
+1891,unmatched,,,,,
+1892,review_required,movie,9062,История любви,1970,Arthur Hiller
+1893,high_confidence_candidate,movie,2998,Забриски Пойнт,1970,Michelangelo Antonioni
+1894,high_confidence_candidate,movie,42602,Страсть,1969,Ingmar Bergman
+1895,unmatched,,,,,
+1896,review_required,movie,41876,Гибель богов,1969,Luchino Visconti
+1897,unmatched,,,,,
+1898,unmatched,,,,,
+1899,unmatched,,,,,
+1900,high_confidence_candidate,movie,2462,Замороженный,1969,Édouard Molinaro
+1901,high_confidence_candidate,movie,20848,Белое солнце пустыни,1969,Vladimir Motyl
+1902,unmatched,,,,,
+1903,high_confidence_candidate,movie,651,Военно-полевой госпиталь М.Э.Ш.,1970,Robert Altman
+1904,review_required,movie,576,Дикая банда,1969,Sam Peckinpah
+1905,review_required,movie,28145,"Загнанных лошадей пристреливают, не правда ли?",1969,Sydney Pollack
+1906,unmatched,,,,,
+1907,review_required,movie,48831,Ночь у Мод,1969,Éric Rohmer
+1908,unmatched,,,,,
+1909,high_confidence_candidate,movie,624,Беспечный ездок,1969,Dennis Hopper
+1910,high_confidence_candidate,movie,668,On Her Majesty's Secret Service,1969,Peter R. Hunt
+1911,high_confidence_candidate,movie,26372,Стыд,1968,Ingmar Bergman
+1912,high_confidence_candidate,movie,20873,Бриллиантовая рука,1969,Leonid Gaidai
+1913,unmatched,,,,,
+1914,high_confidence_candidate,movie,27922,Не горюй!,1968,Georgiy Daneliya
+1915,high_confidence_candidate,movie,65591,Новые приключения неуловимых,1968,Edmond Keosayan
+1916,review_required,movie,48404,Леди Гамильтон,1968,Christian-Jaque
+1917,review_required,movie,62,2001 год: Космическая одиссея,1968,Stanley Kubrick
+1918,high_confidence_candidate,movie,335,Однажды на Диком Западе,1968,Sergio Leone
+1919;1923,unmatched,,,,,
+1920,high_confidence_candidate,movie,83440,Короткие встречи,1967,Kira Muratova
+1921,high_confidence_candidate,movie,5335,Теорема,1968,Pier Paolo Pasolini
+1922,unmatched,,,,,
+1924,unmatched,,,,,
+1925,high_confidence_candidate,movie,64714,Золотой телёнок,1968,Mikhail Shveitser
+1926,high_confidence_candidate,movie,1561,Мушетт,1967,Robert Bresson
+1927,high_confidence_candidate,movie,649,Дневная красавица,1967,Luis Buñuel
+1928,high_confidence_candidate,movie,91276,Крепкий орешек,1968,Teodor Vulfovich
+1929,unmatched,,,,,
+1930,unmatched,,,,,
+1931,high_confidence_candidate,movie,5511,Самурай,1967,Jean-Pierre Melville
+1932,review_required,movie,37247,Выпускник,1967,Mike Nichols
+1933,high_confidence_candidate,movie,42691,Царь Эдип,1967,Pier Paolo Pasolini
+1934,high_confidence_candidate,movie,475,Бонни и Клайд,1967,Arthur Penn
+1935,high_confidence_candidate,movie,14497,"Огонь, вода и медные трубы",1968,Aleksandr Rou
+1936,high_confidence_candidate,movie,20898,Волшебная лампа Аладдина,1968,Boris Rytsarev
+1937,review_required,movie,17887,Босиком по парку,1967,Gene Saks
+1938,high_confidence_candidate,movie,20879,Свадьба в Малиновке,1967,Andrei Tutyshkin
+1939,high_confidence_candidate,movie,11396,Искатели приключений,1967,Robert Enrico
+1940,high_confidence_candidate,movie,667,You Only Live Twice,1967,Lewis Gilbert
+1941,high_confidence_candidate,movie,1052,Фотоувеличение,1966,Michelangelo Antonioni
+1942,high_confidence_candidate,movie,64759,Три толстяка,1966,Aleksey Batalov; Iosif Shapiro
+1943,high_confidence_candidate,movie,797,Персона,1966,Ingmar Bergman
+1944,high_confidence_candidate,movie,20878,"Кавказская пленница, или Новые приключения Шурика",1967,Leonid Gaidai
+1945,high_confidence_candidate,movie,4710,Мужское-женское,1966,Jean-Luc Godard
+1946,high_confidence_candidate,movie,128412,Листопад,1966,Otar Iosseliani
+1947,high_confidence_candidate,movie,41979,Неуловимые мстители,1967,Edmond Keosayan
+1948,high_confidence_candidate,movie,429,"Хороший, плохой, злой",1966,Sergio Leone
+1949,review_required,movie,74544,Несчастный случай,1967,Joseph Losey
+1950,review_required,movie,396,Кто боится Вирджинии Вульф?,1966,Mike Nichols
+1951,high_confidence_candidate,movie,39768,Берегись автомобиля,1966,Eldar Ryazanov
+1952,review_required,movie,1714,451º по Фаренгейту,1966,François Truffaut
+1953,review_required,movie,3001,Как украсть миллион,1966,William Wyler
+1954,review_required,movie,8290,Большая прогулка,1966,Gérard Oury
+1955,unmatched,,,,,
+1956,high_confidence_candidate,movie,1875,Фантомас против Скотланд-Ярда,1967,André Hunebelle
+1957,high_confidence_candidate,movie,895,Andrei Rublev,1966,Andrei Tarkovsky
+1958,review_required,movie,109600,Господин Шекспир,1965,James Ivory
+1959,unmatched,,,,,
+1960,high_confidence_candidate,movie,20875,Операция «Ы» и другие приключения Шурика,1965,Leonid Gaidai
+1961,high_confidence_candidate,movie,8072,Альфавиль,1965,Jean-Luc Godard
+1962,high_confidence_candidate,movie,2786,Безумный Пьеро,1965,Jean-Luc Godard
+1963,high_confidence_candidate,movie,30080,Корабль дураков,1965,Stanley Kramer
+1964,high_confidence_candidate,movie,3780,Красная борода,1965,Akira Kurosawa
+1965,high_confidence_candidate,movie,938,На несколько долларов больше,1965,Sergio Leone
+1966,high_confidence_candidate,movie,11481,Отвращение,1965,Roman Polanski
+1967,high_confidence_candidate,movie,53194,Обыкновенный фашизм,1965,Mikhail Romm
+1968,high_confidence_candidate,movie,207919,Иностранка,1965,Konstantin Zhuk; Aleksandr Sery
+1969,unmatched,,,,,
+1970,high_confidence_candidate,movie,15121,Звуки музыки,1965,Robert Wise
+1971,high_confidence_candidate,movie,39387,Любовные похождения блондинки,1965,Miloš Forman
+1972,unmatched,,,,,
+1973,high_confidence_candidate,movie,1870,Фантомас разбушевался,1965,André Hunebelle
+1974,review_required,movie,660,007: Шаровая молния,1965,Terence Young
+1975,high_confidence_candidate,movie,109600,Shakespeare-Wallah,1965,James Ivory
+1976,high_confidence_candidate,movie,26638,Красная пустыня,1964,Michelangelo Antonioni
+1977,high_confidence_candidate,movie,36245,Дневник горничной,1964,Luis Buñuel
+1978,high_confidence_candidate,movie,8073,Банда аутсайдеров,1964,Jean-Luc Godard
+1979,high_confidence_candidate,movie,49687,Брак по-итальянски,1964,Vittorio De Sica
+1980,high_confidence_candidate,movie,34181,Гертруда,1964,Carl Theodor Dreyer
+1981,review_required,movie,4727,Жандарм из Сен-Тропе,1964,Jean Girault
+1982,review_required,movie,10604,Грек Зорба,1964,Mihalis Kakogiannis
+1983,high_confidence_candidate,movie,20886,"Добро пожаловать, или Посторонним вход воспрещен",1964,Elem Klimov
+1984,review_required,movie,935,"Доктор Стрейнджлав, или Как я научился не волноваться и полюбил атомную бомбу",1964,Stanley Kubrick
+1985,high_confidence_candidate,movie,391,За пригоршню долларов,1964,Sergio Leone
+1986,high_confidence_candidate,movie,24192,Евангелие от Матфея,1965,Pier Paolo Pasolini
+1987,review_required,movie,26782,Тени забытых предков,1965,Sergei Parajanov
+1988,review_required,movie,1719,Нежная кожа,1964,François Truffaut
+1989,high_confidence_candidate,movie,46982,Черный Петр,1964,Miloš Forman
+1990,unmatched,,,,,
+1991,review_required,movie,658,007: Голдфингер,1964,Guy Hamilton
+1992,high_confidence_candidate,movie,1871,Фантомас,1964,André Hunebelle
+1993,high_confidence_candidate,movie,11506,Молчание,1963,Ingmar Bergman
+1994,review_required,movie,1040,Леопард,1963,Luchino Visconti
+1995,review_required,movie,11576,"Этот безумный, безумный, безумный, безумный мир",1963,Stanley Kramer
+1996,high_confidence_candidate,movie,12493,Рай и ад,1963,Akira Kurosawa
+1997,review_required,movie,42987,Слуга,1963,Joseph Losey
+1998,high_confidence_candidate,movie,2593,Затухающий огонёк,1963,Louis Malle
+1999,high_confidence_candidate,movie,73267,Три плюс два,1963,Genrikh Oganisyan
+2000,high_confidence_candidate,movie,422,8 с половиной,1963,Federico Fellini
+2001,review_required,movie,571,Птицы,1963,Alfred Hitchcock
+2002,review_required,movie,657,007: Из России с любовью,1963,Terence Young
+2003,high_confidence_candidate,movie,21135,Затмение,1962,Michelangelo Antonioni
+2004,high_confidence_candidate,movie,29455,Причастие,1963,Ingmar Bergman
+2005,high_confidence_candidate,movie,48764,Процесс Жанны д'Арк,1963,Robert Bresson
+2006,high_confidence_candidate,movie,29264,Ангел-истребитель,1962,Luis Buñuel
+2007,high_confidence_candidate,movie,1626,Жить своей жизнью,1962,Jean-Luc Godard
+2008,high_confidence_candidate,movie,22187,Дикая собака Динго,1962,Yuli Karasik
+2009,review_required,movie,802,Лолита,1962,Stanley Kubrick
+2010,high_confidence_candidate,movie,20977,Королева бензоколонки,1963,Aleksey Mishurin; Mykola Litus
+2011,high_confidence_candidate,movie,595,Убить пересмешника,1962,Robert Mulligan
+2012,high_confidence_candidate,movie,47796,Мама Рома,1962,Pier Paolo Pasolini
+2013,high_confidence_candidate,movie,63304,Гусарская баллада,1963,Eldar Ryazanov
+2014,review_required,movie,1628,Жюль и Джим,1962,François Truffaut
+2015,high_confidence_candidate,movie,3009,Процесс,1962,Orson Welles
+2016,unmatched,,,,,
+2017,review_required,movie,646,007: Доктор Ноу,1962,Terence Young
+2018,high_confidence_candidate,movie,5636,Treasure of Silver Lake,1962,Harald Reinl
+2019,high_confidence_candidate,movie,31442,Ivan's Childhood,1962,Andrei Tarkovsky
+2020,high_confidence_candidate,movie,41050,Ночь,1961,Michelangelo Antonioni
+2021,review_required,movie,737666,Cквозь тёмное стекло,2020,Lauren Fash
+2022,high_confidence_candidate,movie,4497,Виридиана,1962,Luis Buñuel
+2023,review_required,movie,12230,101 далматинец,1961,Wolfgang Reitherman; Clyde Geronimi; Hamilton Luske
+2024,high_confidence_candidate,movie,11878,Телохранитель,1961,Akira Kurosawa
+2025,review_required,movie,4024,В прошлом году в Мариенбаде,1961,Alain Resnais
+2026,high_confidence_candidate,movie,45210,Полосатый рейс,1961,Vladimir Fetin
+2027,review_required,movie,164,Завтрак у Тиффани,1961,Blake Edwards
+2028,high_confidence_candidate,movie,5165,Приключение,1960,Michelangelo Antonioni
+2029,high_confidence_candidate,movie,11656,Девичий источник,1960,Ingmar Bergman
+2030,review_required,movie,8422,Рокко и его братья,1960,Luchino Visconti
+2031,high_confidence_candidate,movie,269,На последнем дыхании,1960,Jean-Luc Godard
+2032,high_confidence_candidate,movie,10363,На ярком солнце,1960,René Clément
+2033,review_required,movie,24014,Займемся любовью,1960,George Cukor
+2034,review_required,movie,539,Психо,1960,Alfred Hitchcock
+2035,high_confidence_candidate,movie,38311,Каток и скрипка,1961,Andrei Tarkovsky
+2036,high_confidence_candidate,movie,88564,Судьба человека,1959,Sergei Bondarchuk
+2037,high_confidence_candidate,movie,690,Карманник,1959,Robert Bresson
+2038,high_confidence_candidate,movie,35124,Назарин,1959,Luis Buñuel
+2039,review_required,movie,5544,"Хиросима, любовь моя",1959,Alain Resnais
+2040,review_required,movie,147,Четыреста ударов,1959,François Truffaut
+2041,review_required,movie,239,В джазе только девушки,1959,Billy Wilder
+2042,high_confidence_candidate,movie,439,Сладкая жизнь,1960,Federico Fellini
+2043,review_required,movie,213,На север через северо-запад,1959,Alfred Hitchcock
+2044,high_confidence_candidate,movie,29453,Лицо,1958,Ingmar Bergman
+2045,review_required,movie,5055,Пепел и алмаз,1958,Andrzej Wajda
+2046,high_confidence_candidate,movie,2574,Любовники,1958,Louis Malle
+2047,high_confidence_candidate,movie,208408,Идиот,1958,Ivan Pyryev
+2048,unmatched,,,,,
+2049,high_confidence_candidate,movie,1480,Печать зла,1958,Orson Welles
+2050,review_required,movie,426,Головокружение,1958,Alfred Hitchcock
+2051,high_confidence_candidate,movie,45590,Сегодня увольнения не будет...,1959,Andrei Tarkovsky; Aleksandr Gordon
+2052,high_confidence_candidate,movie,41054,Крик,1957,Michelangelo Antonioni
+2053,high_confidence_candidate,movie,614,Земляничная поляна,1957,Ingmar Bergman
+2054,high_confidence_candidate,movie,490,Седьмая печать,1957,Ingmar Bergman
+2055,review_required,movie,43231,Белые ночи,1957,Luchino Visconti
+2056,high_confidence_candidate,movie,38360,Летят журавли,1957,Mikhail Kalatozov
+2057,review_required,movie,975,Тропы славы,1957,Stanley Kubrick
+2058,high_confidence_candidate,movie,3777,Трон в крови,1957,Akira Kurosawa
+2059,review_required,movie,826,Мост через реку Квай,1957,David Lean
+2060,review_required,movie,389,12 разгневанных мужчин,1957,Sidney Lumet
+2061,high_confidence_candidate,movie,1093,Лифт на эшафот,1958,Louis Malle
+2062,unmatched,,,,,
+2063,high_confidence_candidate,movie,19426,Ночи Кабирии,1957,Federico Fellini
+2064,high_confidence_candidate,movie,15244,"Приговоренный к смерти бежал, или Дух веет, где хочет",1956,Robert Bresson
+2065,review_required,movie,247,Убийство,1956,Stanley Kubrick
+2066,high_confidence_candidate,movie,63258,Карнавальная ночь,1956,Eldar Ryazanov
+2067,high_confidence_candidate,movie,3114,Искатели,1956,John Ford
+2068,high_confidence_candidate,movie,54970,Весна на Заречной улице,1956,Feliks Mironer; Marlen Khutsiyev
+2069,high_confidence_candidate,movie,48775,Убийцы,1956,Marika Beiku; Andrei Tarkovsky; Aleksandr Gordon
+2070,high_confidence_candidate,movie,48035,Слово,1955,Carl Theodor Dreyer
+2071;2074,high_confidence_candidate,movie,79846,Заколдованный мальчик,1955,Vladimir Polkovnikov; Aleksandra Snezhko-Blotskaya
+2072,unmatched,,,,,
+2073,review_required,movie,221,Бунтарь без идеала,1955,Nicholas Ray
+2075,high_confidence_candidate,movie,654,В порту,1954,Elia Kazan
+2076,review_required,movie,827,Дьяволицы,1955,Henri-Georges Clouzot
+2077,high_confidence_candidate,movie,346,Семь Самураев,1954,Akira Kurosawa
+2078,high_confidence_candidate,movie,405,Дорога,1954,Federico Fellini
+2079,review_required,movie,567,Окно во двор,1954,Alfred Hitchcock
+2080,review_required,movie,521,В случае убийства набирайте «М»,1954,Alfred Hitchcock
+2081,high_confidence_candidate,movie,47721,Вечер шутов,1953,Ingmar Bergman
+2082,high_confidence_candidate,movie,43344,Он,1953,Luis Buñuel
+2083,review_required,movie,10693,Питер Пэн,1953,Clyde Geronimi; Wilfred Jackson; Hamilton Luske
+2084,review_required,movie,204,Плата за страх,1953,Henri-Georges Clouzot
+2085,review_required,movie,18148,Токийская повесть,1953,Yasujirō Ozu
+2086,review_required,movie,804,Римские каникулы,1953,William Wyler
+2087,high_confidence_candidate,movie,24004,Мы не женаты,1952,Edmund Goulding
+2088,review_required,movie,62547,Фанфан-тюльпан,1952,Christian-Jaque
+2089,high_confidence_candidate,movie,3782,Жить,1952,Akira Kurosawa
+2090,high_confidence_candidate,movie,43361,Белый шейх,1952,Federico Fellini
+2091,high_confidence_candidate,movie,306041,Каштанка,1952,Mikhail Tsekhanovskiy
+2092,high_confidence_candidate,movie,28971,Огни рампы,1952,Charlie Chaplin
+2093,unmatched,,,,,
+2094,unmatched,,,,,
+2095,high_confidence_candidate,movie,24774,Идиот,1951,Akira Kurosawa
+2096,review_required,movie,45218,Река,1951,Jean Renoir
+2097,review_required,movie,845,Незнакомцы в поезде,1951,Alfred Hitchcock
+2098,high_confidence_candidate,movie,43376,Дневник сельского священника,1951,Robert Bresson
+2099,high_confidence_candidate,movie,548,Расёмон,1950,Akira Kurosawa
+2100,high_confidence_candidate,movie,43389,Огни варьете,1950,Federico Fellini; Alberto Lattuada
+2101,high_confidence_candidate,movie,5156,Похитители велосипедов,1948,Vittorio De Sica
+2102,unmatched,,,,,
+2103,review_required,movie,1427856,Веревка,1989,Lyubov Apraksina
+2104,high_confidence_candidate,movie,3766,Леди из Шанхая,1947,Orson Welles
+2105,high_confidence_candidate,movie,30588,Месье Верду,1947,Charlie Chaplin
+2106,high_confidence_candidate,movie,42651,Золушка,1947,Mikhail Shapiro; Nadezhda Kosheverova
+2107,high_confidence_candidate,movie,25736,Почтальон всегда звонит дважды,1946,Tay Garnett
+2108,review_required,movie,1585,Эта замечательная жизнь,1946,Frank Capra
+2109,review_required,movie,303,Дурная слава,1946,Alfred Hitchcock
+2110,high_confidence_candidate,movie,4736,The Idiot,1946,Georges Lampin
+2111,review_required,movie,9797,Иван Грозный,1944,Sergei Eisenstein
+2112,review_required,movie,5155,Одержимость,1943,Luchino Visconti
+2113,high_confidence_candidate,movie,41391,День гнева,1943,Carl Theodor Dreyer
+2114,review_required,movie,29084,Ворон,1943,Henri-Georges Clouzot
+2115,review_required,movie,289,Касабланка,1943,Michael Curtiz
+2116,high_confidence_candidate,movie,43798,Леди Гамильтон,1941,Alexander Korda
+2117,high_confidence_candidate,movie,15,Гражданин Кейн,1941,Orson Welles
+2118,review_required,movie,10895,Пиноккио,1940,Hamilton Luske; Ben Sharpsteen; Jack Kinney; Bill Roberts; T. Hee; Norman Ferguson; Wilfred Jackson
+2119,review_required,movie,223,Ребекка,1940,Alfred Hitchcock
+2120,high_confidence_candidate,movie,914,Великий диктатор,1940,Charlie Chaplin
+2121,review_required,movie,27053,День начинается,1939,Marcel Carné
+2122,review_required,movie,776,Правила игры,1939,Jean Renoir
+2123,review_required,movie,10907,Приключения Робин Гуда,1938,William Keighley; Michael Curtiz
+2124,review_required,movie,408,Белоснежка и Семь Гномов,1938,David Hand
+2125,review_required,movie,777,Великая иллюзия,1937,Jean Renoir
+2126,high_confidence_candidate,movie,14615,Ярость,1936,Fritz Lang
+2127,high_confidence_candidate,movie,3082,Новые времена,1936,Charlie Chaplin
+2128,review_required,movie,119819,Зов предков,1935,William A. Wellman
+2129,high_confidence_candidate,movie,43904,Аталанта,1934,Jean Vigo
+2130,unmatched,,,,,
+2131,high_confidence_candidate,movie,779,Вампир: Сон Алена Грея,1932,Carl Theodor Dreyer
+2132,unmatched,,,,,
+2133,high_confidence_candidate,movie,832,М убийца,1931,Fritz Lang
+2134,review_required,movie,26614,Сука,1931,Jean Renoir
+2135,high_confidence_candidate,movie,901,Огни большого города,1931,Charlie Chaplin
+2136,high_confidence_candidate,movie,5729,Золотой век,1930,Luis Buñuel
+2137,unmatched,,,,,
+2138,unmatched,,,,,
+2139,high_confidence_candidate,movie,26317,Человек с киноаппаратом,1929,Dziga Vertov
+2140,high_confidence_candidate,movie,780,Страсти Жанны д`Арк,1928,Carl Theodor Dreyer
+2141,high_confidence_candidate,movie,28978,Цирк,1928,Charlie Chaplin
+2142,high_confidence_candidate,movie,19,Метрополис,1927,Fritz Lang
+2143,high_confidence_candidate,movie,631,Восход солнца,1927,F. W. Murnau
+2144,high_confidence_candidate,movie,962,Золотая лихорадка,1925,Charlie Chaplin
+2145,review_required,movie,643,Броненосец Потёмкин,1925,Sergei Eisenstein
+2146,high_confidence_candidate,movie,5991,Последний человек,1924,F. W. Murnau
+2147,high_confidence_candidate,movie,653,"Носферату, симфония ужаса",1922,F. W. Murnau
+2148,unmatched,,,,,
+2149,high_confidence_candidate,movie,29267,Усталая смерть,1921,Fritz Lang
+2150,high_confidence_candidate,movie,10098,Малыш,1921,Charlie Chaplin
+2151,unmatched,,,,,
+2152,review_required,movie,58129,Возница,1921,Victor Sjöström
+2153,unmatched,,,,,
+2154,unmatched,,,,,

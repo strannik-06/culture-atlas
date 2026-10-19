@@ -1,0 +1,62 @@
+{
+  "base_commit": "ef78222e1e952e33f33d779153db65a4b2a6707e",
+  "source_entries": 2150,
+  "original_sheet_rows_represented": 2153,
+  "catalogue_before": 2231,
+  "verified_additions": 20,
+  "catalogue_after": 2251,
+  "new_id_range": [
+    2233,
+    2252
+  ],
+  "coverage_counts": {
+    "consolidated": 2,
+    "deferred_tv_or_version_review": 57,
+    "duplicate_identity": 8,
+    "present": 2062,
+    "proposed_addition": 20,
+    "unresolved_identity": 1
+  },
+  "links_requiring_identity_review": 699,
+  "shared_identity_groups": {
+    "407": [
+      "316",
+      "352"
+    ],
+    "454": [
+      "429",
+      "443"
+    ],
+    "512": [
+      "528",
+      "546"
+    ],
+    "624": [
+      "718",
+      "761"
+    ],
+    "703": [
+      "836",
+      "874"
+    ],
+    "726": [
+      "867",
+      "875"
+    ],
+    "832": [
+      "1035",
+      "1046"
+    ],
+    "1063": [
+      "1419",
+      "1421"
+    ],
+    "1349": [
+      "1958",
+      "1975"
+    ]
+  },
+  "source_metadata_sha256": "97bedd3f97132211425147b4c146e07a88edb22e2d5b401a5a01160a1f7f8a8d",
+  "legacy_evidence_sha256": "1b2f679e19384b74f2e89c57409c58c01a31f51b257b15fb7c20a6fc0a0c8497",
+  "warning": "Coverage inventory, not a ratings-import approval. Legacy/unique-title links retain their evidence level. TV/version and unresolved rows have no automatic movie mapping. No Supabase or progress access."
+}
