@@ -1,0 +1,72 @@
+{
+  "format": "culture-atlas-film-metadata-overrides-v1",
+  "entries": [
+    {
+      "id": 1451,
+      "tmdb_id": 895256,
+      "fields": {
+        "poster": "assets/film-posters/1451.jpg",
+        "poster_kind": "production_still",
+        "poster_source_url": "https://film.ua/en/production/filmsandseries/projects/207",
+        "runtime": 90
+      },
+      "source_urls": [
+        "https://film.ua/en/production/filmsandseries/projects/207"
+      ],
+      "note": "Official production still used as cover; producer specifies 90 minutes."
+    },
+    {
+      "id": 2175,
+      "tmdb_id": 1003805,
+      "fields": {
+        "poster": "assets/film-posters/2175.jpg",
+        "poster_source_url": "https://www.kinopoisk.ru/film/257394/",
+        "genres": [
+          "Animation"
+        ],
+        "countries": [
+          "SU"
+        ]
+      },
+      "source_urls": [
+        "https://www.kinopoisk.ru/film/257394/",
+        "https://www.kinonews.ru/movie_349251/byuro-nahodok-film-3"
+      ],
+      "note": "Verified cover explicitly identifies Film 3; no substitution with another part."
+    },
+    {
+      "id": 2176,
+      "tmdb_id": 198788,
+      "fields": {
+        "genres": [
+          "Animation"
+        ],
+        "countries": [
+          "SU"
+        ],
+        "runtime": 9
+      },
+      "source_urls": [
+        "https://www.kinopoisk.ru/film/257392/",
+        "https://ru.wikipedia.org/wiki/Бюро_находок_(мультфильм)"
+      ],
+      "note": "Part 1; 9 min 16 sec is represented in whole minutes."
+    },
+    {
+      "id": 2177,
+      "tmdb_id": 1003796,
+      "fields": {
+        "genres": [
+          "Animation"
+        ],
+        "countries": [
+          "SU"
+        ]
+      },
+      "source_urls": [
+        "https://www.kinopoisk.ru/film/257393/"
+      ],
+      "note": "Part 2; retains its own existing cover and runtime."
+    }
+  ]
+}

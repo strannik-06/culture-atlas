@@ -123,6 +123,7 @@ const genres=[...new Set(films.map(f=>f.genre))].sort();genres.forEach(g=>{const
 async function save(id){try{localStorage.setItem(key,JSON.stringify(progress))}catch{setAuthMessage('Browser storage is unavailable.')}render();if(!signedInUser||!supabaseClient)return;
  const p=progress[id]||{};const {error}=await supabaseClient.from('film_progress').upsert({user_id:signedInUser.id,film_id:Number(id),watched:!!p.watched,rating:p.rating||null},{onConflict:'user_id,film_id'});
  if(error)setAuthMessage('Cloud save failed: '+error.message);else setAuthMessage('Saved to your account.');}
+function filmPoster(d){const p=d.poster;return typeof p==='string'&&(p.startsWith('https://image.tmdb.org/t/p/')||/^assets\/film-posters\/[1-9][0-9]*\.jpg$/.test(p))?p:null;}
 function filmPrizes(f,context=''){const d=filmDetails[f.id]||{},label=awardHighlights.get(f.id)||(window.CULTURE_FILM_RECOGNITION||{})[f.id]||d.recognition||d.awards||'';return context||(label?'<div class="recognition">'+escapeHTML(label)+'</div>':'');}
 function curatedReviews(f){
  const items=(window.CULTURE_CRITIC_REVIEWS||{})[f.id]||[];
@@ -146,7 +147,7 @@ function render(){
  const ratings=selected.map(f=>Number(progress[f.id]?.rating)).filter(n=>n>=0.5&&n<=10);
  $('total').textContent=selected.length;$('seen').textContent=watched;$('progress').style.width=(selected.length?100*watched/selected.length:0)+'%';$('avg').textContent=ratings.length?(ratings.reduce((a,b)=>a+b,0)/ratings.length).toFixed(1):'—';
  $('empty').hidden=shown.length>0;
- $('grid').innerHTML=shown.map(f=>{const p=progress[f.id]||{},d=filmDetails[f.id]||{},cast=Array.isArray(d.cast)?d.cast.slice(0,3).join(', '):'',poster=typeof d.poster==='string'&&/^https:\/\/image\.tmdb\.org\/t\/p\//.test(d.poster)?d.poster:null;
+ $('grid').innerHTML=shown.map(f=>{const p=progress[f.id]||{},d=filmDetails[f.id]||{},cast=Array.isArray(d.cast)?d.cast.slice(0,3).join(', '):'',poster=filmPoster(d);
  const rating=Number(p.rating)||0;
 
  return '<article tabindex="0" role="button" aria-label="View details for '+escapeHTML(f.title)+'" data-film-id="'+f.id+'" class="film '+((p.watched||p.rating)?'watched':'')+'"><div class="poster"><span class="tier">'+escapeHTML(tiers[f.tier])+'</span>'+(poster?'<img loading="lazy" alt="Poster for '+escapeHTML(f.title)+'" src="'+escapeHTML(poster)+'">':'<span class="initial" aria-hidden="true">'+escapeHTML(f.title[0])+'</span>')+'</div><div class="body"><h3>'+escapeHTML(f.title)+'</h3><div class="meta">'+escapeHTML(f.director)+' · '+displayReleaseYear(f)+'</div>'+(cast?'<div class="cast">'+escapeHTML(cast)+'</div>':'')+'<div class="chips"><span class="chip">'+escapeHTML(f.genre)+'</span></div>'+filmPrizes(f)+filmTmdbScore(f)+'<div class="controls"><div class="star-control"><button type="button" class="star-trigger" aria-label="Set personal rating for '+escapeHTML(f.title)+'" aria-expanded="false" data-open-stars="'+f.id+'">'+(rating?'★ <span class="value">'+rating.toFixed(1)+'/10</span>':'☆ <span class="value">Rate</span>')+'</button></div></div></div></article>'}).join('');
@@ -181,7 +182,7 @@ function renderAwards(){
  const source=event?.source,awardsSource=event?.awardsSource;
  $('awards-source').innerHTML=source?'Official sources: <a href="'+escapeHTML(source)+'" target="_blank" rel="noopener noreferrer">Selections / nominees</a>'+(awardsSource&&awardsSource!==source?' · <a href="'+escapeHTML(awardsSource)+'" target="_blank" rel="noopener noreferrer">Prize results</a>':''):'';
  $('awards-grid').innerHTML=shown.map(f=>{
-  const p=progress[f.id]||{},rating=Number(p.rating)||0,d=filmDetails[f.id]||{},poster=typeof d.poster==='string'&&d.poster.startsWith('https://image.tmdb.org/t/p/')?d.poster:null;
+  const p=progress[f.id]||{},rating=Number(p.rating)||0,d=filmDetails[f.id]||{},poster=filmPoster(d);
   const isWinner=category?f.id===category.winner:!!f.awards?.length;
   const people=category?.nomineeNames?.[f.id]||[];
   const performerSuffix=people.length?' · '+people.map(escapeHTML).join(' · '):'';
@@ -204,19 +205,19 @@ function renderMyRatings(){
  const visibleRows=rows.slice((ratingsPage-1)*RATINGS_PAGE_SIZE,ratingsPage*RATINGS_PAGE_SIZE);
  $('ratings-empty').hidden=rows.length!==0;
  $('ratings-grid').innerHTML=visibleRows.map(f=>{
-  const d=filmDetails[f.id]||{},rating=Number(progress[f.id]?.rating)||0,poster=typeof d.poster==='string'&&d.poster.startsWith('https://image.tmdb.org/t/p/')?d.poster:null;
+  const d=filmDetails[f.id]||{},rating=Number(progress[f.id]?.rating)||0,poster=filmPoster(d);
   return '<article tabindex="0" role="button" aria-label="View details for '+escapeHTML(f.title)+'" data-film-id="'+f.id+'" class="film '+(rating?'watched':'')+'"><div class="poster">'+(poster?'<img loading="lazy" alt="Poster for '+escapeHTML(f.title)+'" src="'+escapeHTML(poster)+'">':'<span class="initial" aria-hidden="true">'+escapeHTML(f.title[0])+'</span>')+'</div><div class="body"><h3>'+escapeHTML(f.title)+'</h3><div class="meta">'+escapeHTML(f.director)+' · '+escapeHTML(displayReleaseYear(f))+'</div>'+filmPrizes(f)+filmTmdbScore(f)+'<div class="controls"><div class="star-control"><button type="button" class="star-trigger" data-open-stars="'+f.id+'" aria-label="Change rating for '+escapeHTML(f.title)+'">★ <span class="value">'+(rating?rating.toFixed(1)+'/10':'Rate')+'</span></button></div></div></div></article>';
  }).join('');
 }
 function openFilmDetails(id){
  const f=canonicalById.get(Number(id))||allRateableFilms.find(f=>f.id===Number(id));if(!f)return;
- const d=filmDetails[f.id]||{},poster=typeof d.poster==='string'&&d.poster.startsWith('https://image.tmdb.org/t/p/')?d.poster:null;
+ const d=filmDetails[f.id]||{},poster=filmPoster(d);
  const meta=[displayReleaseYear(f),d.runtime?d.runtime+' min':'',Array.isArray(d.genres)?d.genres.join(', '):'',Array.isArray(d.countries)?d.countries.join(', '):''].filter(Boolean).join(' · ');
  const cast=Array.isArray(d.cast)?d.cast.join(', '):'';
  const personal=Number(progress[f.id]?.rating)||0;
  const ratingLabel=personal?'Your rating: '+personal.toFixed(1)+'/10':'Not rated yet';
  const dialog=$('film-detail-dialog');
- $('film-detail-content').innerHTML='<div class="film-detail-layout"><div>'+(poster?'<img class="film-detail-poster" src="'+escapeHTML(poster)+'" alt="Poster for '+escapeHTML(f.title)+'">':'')+'</div><div><h2>'+escapeHTML(f.title)+'</h2><div class="film-detail-meta">'+escapeHTML(f.director||d.director||'')+' · '+escapeHTML(meta)+'</div>'+(d.original_title&&d.original_title!==f.title?'<p class="film-detail-meta">Original title: '+escapeHTML(d.original_title)+'</p>':'')+'<p>'+escapeHTML(d.overview||'No synopsis available.')+'</p>'+(cast?'<h3>Cast</h3><p>'+escapeHTML(cast)+'</p>':'')+'<h3>Awards</h3>'+(filmPrizes(f)||'<p class="film-detail-meta">No recorded prizes.</p>')+'<h3>Ratings</h3><p>'+escapeHTML(ratingLabel)+'</p>'+filmScores(f)+'<h3>Critics’ reviews</h3>'+curatedReviews(f)+'</div></div>';
+ $('film-detail-content').innerHTML='<div class="film-detail-layout"><div>'+(poster?'<img class="film-detail-poster" src="'+escapeHTML(poster)+'" alt="Poster for '+escapeHTML(f.title)+'">':'')+(d.poster_source_url&&/^https:\/\//.test(d.poster_source_url)?'<p class="film-detail-meta"><a href="'+escapeHTML(d.poster_source_url)+'" target="_blank" rel="noopener noreferrer">Cover source ↗</a></p>':'')+'</div><div><h2>'+escapeHTML(f.title)+'</h2><div class="film-detail-meta">'+escapeHTML(f.director||d.director||'')+' · '+escapeHTML(meta)+'</div>'+(d.original_title&&d.original_title!==f.title?'<p class="film-detail-meta">Original title: '+escapeHTML(d.original_title)+'</p>':'')+'<p>'+escapeHTML(d.overview||'No synopsis available.')+'</p>'+(cast?'<h3>Cast</h3><p>'+escapeHTML(cast)+'</p>':'')+'<h3>Awards</h3>'+(filmPrizes(f)||'<p class="film-detail-meta">No recorded prizes.</p>')+'<h3>Ratings</h3><p>'+escapeHTML(ratingLabel)+'</p>'+filmScores(f)+'<h3>Critics’ reviews</h3>'+curatedReviews(f)+'</div></div>';
  dialog.showModal();
 }
 const detailDialog=$('film-detail-dialog');

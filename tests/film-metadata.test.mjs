@@ -22,7 +22,17 @@ test('checked-in metadata stays attached to canonical identities and its complet
  const fs=await import('node:fs');const vm=await import('node:vm');const c={window:{}};vm.createContext(c);
  for(const file of ['film-catalog.js','film-details.js'])vm.runInContext(fs.readFileSync(new URL('../'+file,import.meta.url),'utf8'),c);
  const films=c.window.CULTURE_CATALOG,details=c.window.CULTURE_FILM_DETAILS,known=new Map(films.map(f=>[String(f.id),f]));
- for(const[id,d]of Object.entries(details)){assert.ok(known.has(id),'Unknown metadata ID '+id);if(d.tmdb_id)assert.equal(d.tmdb_id,known.get(id).tmdb_id);if(d.poster)assert.match(d.poster,/^https:\/\/image\.tmdb\.org\/t\/p\//);}
+ for(const[id,d]of Object.entries(details)){assert.ok(known.has(id),'Unknown metadata ID '+id);if(d.tmdb_id)assert.equal(d.tmdb_id,known.get(id).tmdb_id);if(d.poster?.startsWith('assets/film-posters/'))assert.ok(fs.existsSync(new URL('../'+d.poster,import.meta.url)));if(d.poster)assert.match(d.poster,/^(https:\/\/image\.tmdb\.org\/t\/p\/|assets\/film-posters\/[1-9][0-9]*\.jpg$)/);}
  const file=new URL('../imports/film-metadata-completion.json',import.meta.url);
  if(fs.existsSync(file)){const report=JSON.parse(fs.readFileSync(file));assert.equal(report.total,films.length);for(const field of fields)assert.equal(report.after[field],films.filter(f=>present(details[f.id]?.[field])).length);}
+});
+test('manual source supplements are identity-checked, additive and keep original provenance',async()=>{
+ const override={id:1,tmdb_id:10,fields:{poster:'assets/film-posters/1.jpg',runtime:90},source_urls:['https://publisher.test/film'],note:'Producer source'};
+ const result=await complete({films:[film],details:{1:{overview:'Curated text'}},overrides:[override],api:async()=>movie});
+ assert.equal(result.details[1].poster,'assets/film-posters/1.jpg');assert.equal(result.details[1].runtime,90);assert.equal(result.details[1].overview,'Curated text');assert.equal(result.report.manual_sources.length,1);
+ await assert.rejects(complete({films:[film],details:{},overrides:[{...override,tmdb_id:11}],api:async()=>movie}),/identity differs/);
+});
+test('missing English synopsis uses the verified original-language record without replacing existing text',async()=>{
+ const result=await complete({films:[film],details:{},api:async(endpoint,params)=>params.language==='ru'?{id:10,overview:'Русское описание'}:{...movie,overview:'',original_language:'ru'}});
+ assert.equal(result.details[1].overview,'Русское описание');assert.equal(result.details[1].overview_language,'ru');
 });

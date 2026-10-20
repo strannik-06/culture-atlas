@@ -19,8 +19,15 @@ export function mergeMetadata(film,current,movie,poster=null){
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const read=(file,name)=>{const c={window:{}};vm.createContext(c);vm.runInContext(fs.readFileSync(path.join(root,file),'utf8'),c);return JSON.parse(JSON.stringify(c.window[name]));};
 const coverage=(films,details)=>Object.fromEntries(fields.map(k=>[k,films.filter(f=>present(details[f.id]?.[k])).length]));
-export async function complete({films,details,api,progress=()=>{}}){
+export async function complete({films,details,api,overrides=[],progress=()=>{}}){
  const report={format:'culture-atlas-metadata-completion-v1',generated_at:new Date().toISOString(),total:films.length,before:coverage(films,details),requested:0,updated:[],unresolved:[],unavailable:[]};
+ report.manual_sources=[];
+ for(const entry of overrides){
+  const film=films.find(f=>f.id===entry.id);if(!film||film.tmdb_id!==entry.tmdb_id)throw Error('Manual metadata identity differs');
+  const current=details[film.id]||{},merged={...current};for(const[k,v]of Object.entries(entry.fields))if(!present(merged[k])&&present(v))merged[k]=v;
+  details[film.id]=merged;report.manual_sources.push({id:entry.id,fields:Object.keys(entry.fields),source_urls:entry.source_urls,note:entry.note});
+  if(JSON.stringify(current)!==JSON.stringify(merged))report.updated.push(film.id);
+ }
  const targets=films.filter(f=>fields.some(k=>!present(details[f.id]?.[k])));let next=0,done=0;
  await Promise.all(Array.from({length:5},async()=>{
   while(next<targets.length){
@@ -30,8 +37,11 @@ export async function complete({films,details,api,progress=()=>{}}){
     const current=details[film.id]||{},movie=await api('movie/'+film.tmdb_id,{append_to_response:'credits,external_ids'});
     // Check identity before making optional image requests, too.
     let merged=mergeMetadata(film,current,movie);
+    if(!present(merged.overview)&&movie.original_language&&movie.original_language!=='en'){
+     try{const localised=await api('movie/'+film.tmdb_id,{language:movie.original_language});if(localised.id===film.tmdb_id&&present(localised.overview)){merged.overview=localised.overview;merged.overview_language=movie.original_language;}}catch{/* Report missing synopsis rather than inventing one. */}
+    }
     if(!present(merged.poster)){
-     try{const images=await api('movie/'+film.tmdb_id+'/images');const posters=(images.posters||[]).filter(p=>p.file_path).sort((a,b)=>(b.iso_639_1==='en')-(a.iso_639_1==='en')||(b.vote_count||0)-(a.vote_count||0));if(posters.length)merged=mergeMetadata(film,current,movie,posters[0].file_path);}catch{/* Missing image alternatives are reported below. */}
+     try{const images=await api('movie/'+film.tmdb_id+'/images');const posters=(images.posters||[]).filter(p=>p.file_path).sort((a,b)=>(b.iso_639_1==='en')-(a.iso_639_1==='en')||(b.vote_count||0)-(a.vote_count||0));if(posters.length)merged=mergeMetadata(film,merged,movie,posters[0].file_path);}catch{/* Missing image alternatives are reported below. */}
     }
     details[film.id]=merged;
     if(JSON.stringify(merged)!==JSON.stringify(current))report.updated.push(film.id);
@@ -40,7 +50,7 @@ export async function complete({films,details,api,progress=()=>{}}){
    done++;if(done%100===0||done===targets.length)progress({processed:done,total:targets.length,unresolved:report.unresolved.length});
   }
  }));
- report.updated.sort((a,b)=>a-b);report.unresolved.sort((a,b)=>a.id-b.id);report.unavailable.sort((a,b)=>a.id-b.id);report.after=coverage(films,details);return {details,report};
+ report.updated=[...new Set(report.updated)].sort((a,b)=>a-b);report.unresolved.sort((a,b)=>a.id-b.id);report.unavailable.sort((a,b)=>a.id-b.id);report.after=coverage(films,details);return {details,report};
 }
 async function main(){
  const token=process.env.TMDB_READ_ACCESS_TOKEN,key=process.env.TMDB_API_KEY;if(!token&&!key)throw Error('Configure TMDB_API_KEY or TMDB_READ_ACCESS_TOKEN in repository Actions secrets.');
@@ -54,7 +64,12 @@ async function main(){
   }
  };
  const films=read('film-catalog.js','CULTURE_CATALOG'),details=read('film-details.js','CULTURE_FILM_DETAILS');
- const result=await complete({films,details,api,progress:p=>console.log(JSON.stringify(p))});
+ const overridePath=path.join(root,'imports/film-metadata-overrides.json'),overrides=fs.existsSync(overridePath)?JSON.parse(fs.readFileSync(overridePath)).entries:[];
+ await api('configuration');
+ const reportPath=path.join(root,'imports/film-metadata-completion.json'),previous=fs.existsSync(reportPath)?JSON.parse(fs.readFileSync(reportPath)):null;
+ const result=await complete({films,details,api,overrides,progress:p=>console.log(JSON.stringify(p))});
+ result.report.initial_before=previous?.initial_before||previous?.before||result.report.before;
+ result.report.updated_total=[...new Set([...(previous?.updated_total||previous?.updated||[]),...result.report.updated])].sort((a,b)=>a-b);
  fs.writeFileSync(path.join(root,'film-details.js'),'// TMDB metadata snapshot; missing fields filled by scripts/complete-film-metadata.mjs.\nwindow.CULTURE_FILM_DETAILS = '+JSON.stringify(result.details,null,2)+';\n');
  fs.writeFileSync(path.join(root,'imports/film-metadata-completion.json'),JSON.stringify(result.report,null,2)+'\n');
  console.log(JSON.stringify({updated:result.report.updated.length,before:result.report.before,after:result.report.after,unresolved:result.report.unresolved.length,unavailable:result.report.unavailable.length},null,2));

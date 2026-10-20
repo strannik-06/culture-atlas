@@ -183,6 +183,9 @@ test('Full page boots with film scripts and shared Account menu still works unde
       const inline=[...markup.matchAll(/<script>([\s\S]*?)<\/script>/g)].at(-1)[1];
       w.eval(inline);await flush();
       assert.equal(w.document.querySelectorAll('#grid article').length,100);
+      assert.equal(w.eval("filmPoster({poster:'assets/film-posters/1451.jpg'})"),'assets/film-posters/1451.jpg');
+      assert.equal(w.eval("filmPoster({poster:'assets/film-posters/../../secret.jpg'})"),null);
+      assert.equal(w.eval("filmPoster({poster:'https://unknown.test/image.jpg'})"),null);
       w.document.querySelector('[data-section="books"]').click();
       w.document.getElementById('account-toggle').click();
       assert.equal(w.document.getElementById('account').hidden,false);
