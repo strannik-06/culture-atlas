@@ -14,6 +14,7 @@ jobs:
       - run: |
           node --check scripts/validate-catalog.mjs
           node scripts/validate-catalog.mjs
+          node --test tests/film-metadata.test.mjs
           node --check tv-catalog.js
           node --check work-identities.js
           node scripts/validate-work-catalog.mjs
