@@ -1,0 +1,25 @@
+name: Series tab identity evidence
+on:
+  push:
+    branches: [feat/series-season-import]
+    paths: [imports/series-tab-seeds.json, scripts/lookup-tv-version-identities.mjs, .github/workflows/series-tab-evidence.yml]
+permissions:
+  contents: read
+jobs:
+  lookup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Read-only show and season evidence
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          TMDB_READ_ACCESS_TOKEN: ${{ secrets.TMDB_READ_ACCESS_TOKEN }}
+        run: node scripts/lookup-tv-version-identities.mjs imports/series-tab-seeds.json series-tab-evidence.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: series-tab-evidence
+          path: series-tab-evidence.json
