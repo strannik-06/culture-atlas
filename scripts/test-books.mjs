@@ -204,6 +204,9 @@ test('Full page boots with film scripts and shared Account menu still works unde
       w.document.getElementById('ratings-search').value='Spirits of the Dead';
       w.document.getElementById('ratings-search').dispatchEvent(new w.Event('input'));
       assert.equal(w.document.querySelectorAll('#ratings-grid article').length,1);
+      w.document.getElementById('ratings-search').value='Cardiogram of Love';
+      w.document.getElementById('ratings-search').dispatchEvent(new w.Event('input'));
+      assert.equal(w.document.querySelector('#ratings-grid img').getAttribute('src'),'assets/film-posters/1451.jpg');
       const addFilm=[...w.document.querySelectorAll('#cinema-area button')].find(b=>b.textContent==='Add film');addFilm.click();
       assert.equal(w.document.getElementById('media-dialog').open,true);
       assert.match(w.document.getElementById('media-status').textContent,/Sign in/);
