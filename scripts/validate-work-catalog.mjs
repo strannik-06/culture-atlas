@@ -19,7 +19,7 @@ for(const show of series){
  if(!show.title||!show.original_title||!['series','miniseries','unknown','season','episode','opening'].includes(show.series_kind))throw Error('Missing TV identity fields: '+show.id);
  if(show.imdb_id !== null && !/^tt\d{6,}$/.test(show.imdb_id))throw Error('Invalid IMDb ID: '+show.id);
  if(!Number.isInteger(show.year) || (show.first_air_date !== null && (!/^\d{4}-\d{2}-\d{2}$/.test(show.first_air_date)||show.year!==Number(show.first_air_date.slice(0,4)))))throw Error('Invalid TV date: '+show.id);
- if(show.identity_status !== 'manual_verified' && (!show.imdb_id || !show.first_air_date))throw Error('Provider identity needs IMDb and date: '+show.id);
+ if(show.identity_status !== 'manual_verified' && ((!show.imdb_id && show.series_kind !== 'season') || !show.first_air_date))throw Error('Provider identity needs IMDb and date: '+show.id);
  for(const group of ['creators','directors']){
   if(!Array.isArray(show[group]))throw Error('TV credits must be role-separated arrays');
   for(const person of show[group])if(!Number.isSafeInteger(person.id)||person.id<=0||!person.name)throw Error('Invalid person credit: '+show.id);

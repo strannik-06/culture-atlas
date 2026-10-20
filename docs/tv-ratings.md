@@ -1,5 +1,7 @@
 # TV ratings and historical import
 
+**Latest extension:** see [the separate series-tab import and general season controls](series-tab-import.md). The original import counts below describe earlier completed batches.
+
 This adds a top-level TV Series section with Catalogue/My ratings tabs, series/miniseries filters, title/creator/director search, sorting, half-point stars, rating scope, private notes and an optional watched date. Films and Books keep their own ratings. The original 43 TV identities and all existing numeric film IDs remain unchanged. The final historical batch adds eight rating targets, bringing TV to 51, including explicit seasons, installments and two manually verified identities.
 
 ## Setup and review boundary
