@@ -220,5 +220,5 @@
     });
     render();message('Sign in using your account menu to save and import TV ratings.');
   }
-  window.CultureTV={init,setSession,validRating,validateImport,previewImport};
+  window.CultureTV={init,setSession,validRating,validateImport,previewImport,setCatalogue:extra=>{const known=new Set(shows.map(w=>w.id));for(const w of extra)if(!known.has(w.id)){shows.push(w);known.add(w.id);}render();}};
 })();

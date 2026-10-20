@@ -194,6 +194,16 @@ test('Full page boots with film scripts and shared Account menu still works unde
       w.document.querySelector('[data-view="awards"]').click();
       assert.equal(w.document.getElementById('awards-view').hidden,false);
       assert.equal(w.document.getElementById('cinema-area').hidden,false);
+      w.document.querySelector('[data-view="catalogue"]').click();
+      assert.equal(w.document.getElementById('ratings-view').hidden,false);
+      assert.match(w.document.getElementById('ratings-count').textContent,/2252 films/);
+      assert.doesNotMatch(w.document.getElementById('ratings-grid').textContent,/NaN/);
+      w.document.getElementById('ratings-search').value='Spirits of the Dead';
+      w.document.getElementById('ratings-search').dispatchEvent(new w.Event('input'));
+      assert.equal(w.document.querySelectorAll('#ratings-grid article').length,1);
+      const addFilm=[...w.document.querySelectorAll('#cinema-area button')].find(b=>b.textContent==='Add film');addFilm.click();
+      assert.equal(w.document.getElementById('media-dialog').open,true);
+      assert.match(w.document.getElementById('media-status').textContent,/Sign in/);
     } finally {await w.happyDOM.close();}
   } finally {await window.happyDOM.close();}
 });

@@ -1,0 +1,23 @@
+name: Deploy media search
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: supabase/setup-cli@v1
+        with:
+          version: latest
+      - name: Set TMDB server secret and deploy authenticated endpoint
+        env:
+          SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+          SUPABASE_PROJECT_REF: ${{ secrets.SUPABASE_PROJECT_REF }}
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: |
+          test -n "$SUPABASE_PROJECT_REF" && test -n "$TMDB_API_KEY"
+          supabase secrets set "TMDB_API_KEY=$TMDB_API_KEY" --project-ref "$SUPABASE_PROJECT_REF"
+          supabase functions deploy media-search --project-ref "$SUPABASE_PROJECT_REF"
