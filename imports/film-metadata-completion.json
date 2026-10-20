@@ -1,8 +1,423 @@
 {
   "format": "culture-atlas-metadata-completion-v1",
-  "generated_at": "2026-10-20T15:49:29.548Z",
+  "generated_at": "2026-10-20T15:58:07.766Z",
   "total": 2252,
   "before": {
+    "poster": 2250,
+    "overview": 2247,
+    "runtime": 2237,
+    "release_date": 2252,
+    "genres": 2249,
+    "countries": 2247,
+    "cast": 2225
+  },
+  "requested": 45,
+  "updated": [
+    1451,
+    1951,
+    1957,
+    1969,
+    1981,
+    1990,
+    2175,
+    2176,
+    2177
+  ],
+  "unresolved": [],
+  "unavailable": [
+    {
+      "id": 47,
+      "title": "Below the Clouds",
+      "tmdb_id": 1457188,
+      "fields": [
+        "cast"
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Good Valley Stories",
+      "tmdb_id": 1457842,
+      "fields": [
+        "cast"
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Seeds",
+      "tmdb_id": 1400783,
+      "fields": [
+        "cast"
+      ]
+    },
+    {
+      "id": 107,
+      "title": "Flow",
+      "tmdb_id": 823219,
+      "fields": [
+        "cast"
+      ]
+    },
+    {
+      "id": 245,
+      "title": "Past Future Continuous",
+      "tmdb_id": 1510562,
+      "fields": [
+        "cast"
+      ]
+    },
+    {
+      "id": 333,
+      "title": "Gunda",
+      "tmdb_id": 664601,
+      "fields": [
+        "cast"
+      ]
+    },
+    {
+      "id": 592,
+      "title": "Three Heroes and the Shamakhan Queen",
+      "tmdb_id": 52939,
+      "fields": [
+        "runtime"
+      ]
+    },
+    {
+      "id": 625,
+      "title": "Tender May",
+      "tmdb_id": 71245,
+      "fields": [
+        "runtime"
+      ]
+    },
+    {
+      "id": 747,
+      "title": "Dobrinya and the Dragon",
+      "tmdb_id": 33534,
+      "fields": [
+        "runtime"
+      ]
+    },
+    {
+      "id": 811,
+      "title": "Angel flew",
+      "tmdb_id": 623620,
+      "fields": [
+        "runtime"
+      ]
+    },
+    {
+      "id": 814,
+      "title": "Alesha Popovich and Tugarin the Dragon",
+      "tmdb_id": 33065,
+      "fields": [
+        "runtime"
+      ]
+    },
+    {
+      "id": 839,
+      "title": "Snow Love, or A Dream on a Winter Night",
+      "tmdb_id": 337690,
+      "fields": [
+        "countries"
+      ]
+    },
+    {
+      "id": 853,
+      "title": "Hush!",
+      "tmdb_id": 93440,
+      "fields": [
+        "cast"
+      ]
+    },
+    {
+      "id": 1082,
+      "title": "Gagarin",
+      "tmdb_id": 214157,
+      "fields": [
+        "cast"
+      ]
+    },
+    {
+      "id": 1193,
+      "title": "SportLotto - 82",
+      "tmdb_id": 71051,
+      "fields": [
+        "runtime"
+      ]
+    },
+    {
+      "id": 1194,
+      "title": "Almost a Year",
+      "tmdb_id": 530461,
+      "fields": [
+        "runtime"
+      ]
+    },
+    {
+      "id": 1299,
+      "title": "Crown of Russian Empire, or the Elusives Again",
+      "tmdb_id": 65594,
+      "fields": [
+        "runtime"
+      ]
+    },
+    {
+      "id": 1310,
+      "title": "The New Adventures of the Elusive Avengers",
+      "tmdb_id": 65591,
+      "fields": [
+        "runtime"
+      ]
+    },
+    {
+      "id": 1323,
+      "title": "Wedding in Malinovka",
+      "tmdb_id": 20879,
+      "fields": [
+        "runtime"
+      ]
+    },
+    {
+      "id": 1332,
+      "title": "The Elusive Revengers",
+      "tmdb_id": 41979,
+      "fields": [
+        "runtime"
+      ]
+    },
+    {
+      "id": 1452,
+      "title": "Infant",
+      "tmdb_id": 695633,
+      "fields": [
+        "runtime",
+        "countries"
+      ]
+    },
+    {
+      "id": 1616,
+      "title": "Empirical Study on the Influence of Sound on the Persistence of Vision",
+      "tmdb_id": 346415,
+      "fields": [
+        "cast"
+      ]
+    },
+    {
+      "id": 1716,
+      "title": "Kiwi!",
+      "tmdb_id": 53215,
+      "fields": [
+        "cast"
+      ]
+    },
+    {
+      "id": 1718,
+      "title": "Lifted",
+      "tmdb_id": 13060,
+      "fields": [
+        "cast"
+      ]
+    },
+    {
+      "id": 1849,
+      "title": "More",
+      "tmdb_id": 36107,
+      "fields": [
+        "cast"
+      ]
+    },
+    {
+      "id": 1872,
+      "title": "How the Cossacks Played Hockey",
+      "tmdb_id": 210161,
+      "fields": [
+        "cast"
+      ]
+    },
+    {
+      "id": 1888,
+      "title": "Memorial Prayer",
+      "tmdb_id": 602121,
+      "fields": [
+        "runtime"
+      ]
+    },
+    {
+      "id": 1934,
+      "title": "How the Cossacks Met Aliens",
+      "tmdb_id": 210159,
+      "fields": [
+        "cast"
+      ]
+    },
+    {
+      "id": 1942,
+      "title": "How the Monkeys Ate Lunch",
+      "tmdb_id": 253183,
+      "fields": [
+        "cast"
+      ]
+    },
+    {
+      "id": 1968,
+      "title": "Careful, Monkeys!",
+      "tmdb_id": 198803,
+      "fields": [
+        "cast"
+      ]
+    },
+    {
+      "id": 1969,
+      "title": "Moomin Valley: Autumn is Coming to Moomin Valley",
+      "tmdb_id": 198937,
+      "fields": [
+        "cast"
+      ]
+    },
+    {
+      "id": 2003,
+      "title": "How the Cossacks Became Olympians",
+      "tmdb_id": 210155,
+      "fields": [
+        "cast"
+      ]
+    },
+    {
+      "id": 2019,
+      "title": "How the Cossacks Bought Salt",
+      "tmdb_id": 210152,
+      "fields": [
+        "cast"
+      ]
+    },
+    {
+      "id": 2035,
+      "title": "How the Cossacks Rescued Brides",
+      "tmdb_id": 210149,
+      "fields": [
+        "cast"
+      ]
+    },
+    {
+      "id": 2056,
+      "title": "Red, Red, Freckled",
+      "tmdb_id": 419927,
+      "fields": [
+        "cast"
+      ]
+    },
+    {
+      "id": 2064,
+      "title": "How the Cossacks Played Football",
+      "tmdb_id": 210140,
+      "fields": [
+        "cast"
+      ]
+    },
+    {
+      "id": 2072,
+      "title": "The Seasons",
+      "tmdb_id": 210861,
+      "fields": [
+        "cast"
+      ]
+    },
+    {
+      "id": 2083,
+      "title": "How the Cossacks Were Cooking Kulish",
+      "tmdb_id": 150949,
+      "fields": [
+        "cast"
+      ]
+    },
+    {
+      "id": 2091,
+      "title": "Man in the Frame",
+      "tmdb_id": 90014,
+      "fields": [
+        "cast"
+      ]
+    },
+    {
+      "id": 2157,
+      "title": "À propos de Nice",
+      "tmdb_id": 47831,
+      "fields": [
+        "cast"
+      ]
+    },
+    {
+      "id": 2246,
+      "title": "Moms Are Simply Waiting for Us",
+      "tmdb_id": 460313,
+      "fields": [
+        "cast"
+      ]
+    }
+  ],
+  "manual_sources": [
+    {
+      "id": 1451,
+      "fields": [
+        "poster",
+        "poster_kind",
+        "poster_source_url",
+        "runtime"
+      ],
+      "source_urls": [
+        "https://film.ua/en/production/filmsandseries/projects/207"
+      ],
+      "note": "Official production still used as cover; producer specifies 90 minutes."
+    },
+    {
+      "id": 2175,
+      "fields": [
+        "poster",
+        "poster_source_url",
+        "genres",
+        "countries"
+      ],
+      "source_urls": [
+        "https://www.kinopoisk.ru/film/257394/",
+        "https://www.kinonews.ru/movie_349251/byuro-nahodok-film-3"
+      ],
+      "note": "Verified cover explicitly identifies Film 3; no substitution with another part."
+    },
+    {
+      "id": 2176,
+      "fields": [
+        "genres",
+        "countries",
+        "runtime"
+      ],
+      "source_urls": [
+        "https://www.kinopoisk.ru/film/257392/",
+        "https://ru.wikipedia.org/wiki/Бюро_находок_(мультфильм)"
+      ],
+      "note": "Part 1; 9 min 16 sec is represented in whole minutes."
+    },
+    {
+      "id": 2177,
+      "fields": [
+        "genres",
+        "countries"
+      ],
+      "source_urls": [
+        "https://www.kinopoisk.ru/film/257393/"
+      ],
+      "note": "Part 2; retains its own existing cover and runtime."
+    }
+  ],
+  "after": {
+    "poster": 2252,
+    "overview": 2252,
+    "runtime": 2239,
+    "release_date": 2252,
+    "genres": 2252,
+    "countries": 2250,
+    "cast": 2225
+  },
+  "initial_before": {
     "poster": 243,
     "overview": 243,
     "runtime": 243,
@@ -11,8 +426,7 @@
     "countries": 243,
     "cast": 239
   },
-  "requested": 2013,
-  "updated": [
+  "updated_total": [
     245,
     246,
     247,
@@ -2022,417 +2436,5 @@
     2251,
     2252,
     2253
-  ],
-  "unresolved": [],
-  "unavailable": [
-    {
-      "id": 47,
-      "title": "Below the Clouds",
-      "tmdb_id": 1457188,
-      "fields": [
-        "cast"
-      ]
-    },
-    {
-      "id": 54,
-      "title": "Good Valley Stories",
-      "tmdb_id": 1457842,
-      "fields": [
-        "cast"
-      ]
-    },
-    {
-      "id": 64,
-      "title": "Seeds",
-      "tmdb_id": 1400783,
-      "fields": [
-        "cast"
-      ]
-    },
-    {
-      "id": 107,
-      "title": "Flow",
-      "tmdb_id": 823219,
-      "fields": [
-        "cast"
-      ]
-    },
-    {
-      "id": 245,
-      "title": "Past Future Continuous",
-      "tmdb_id": 1510562,
-      "fields": [
-        "cast"
-      ]
-    },
-    {
-      "id": 333,
-      "title": "Gunda",
-      "tmdb_id": 664601,
-      "fields": [
-        "cast"
-      ]
-    },
-    {
-      "id": 592,
-      "title": "Three Heroes and the Shamakhan Queen",
-      "tmdb_id": 52939,
-      "fields": [
-        "runtime"
-      ]
-    },
-    {
-      "id": 625,
-      "title": "Tender May",
-      "tmdb_id": 71245,
-      "fields": [
-        "runtime"
-      ]
-    },
-    {
-      "id": 747,
-      "title": "Dobrinya and the Dragon",
-      "tmdb_id": 33534,
-      "fields": [
-        "runtime"
-      ]
-    },
-    {
-      "id": 811,
-      "title": "Angel flew",
-      "tmdb_id": 623620,
-      "fields": [
-        "runtime"
-      ]
-    },
-    {
-      "id": 814,
-      "title": "Alesha Popovich and Tugarin the Dragon",
-      "tmdb_id": 33065,
-      "fields": [
-        "runtime"
-      ]
-    },
-    {
-      "id": 839,
-      "title": "Snow Love, or A Dream on a Winter Night",
-      "tmdb_id": 337690,
-      "fields": [
-        "countries"
-      ]
-    },
-    {
-      "id": 853,
-      "title": "Hush!",
-      "tmdb_id": 93440,
-      "fields": [
-        "cast"
-      ]
-    },
-    {
-      "id": 1082,
-      "title": "Gagarin",
-      "tmdb_id": 214157,
-      "fields": [
-        "cast"
-      ]
-    },
-    {
-      "id": 1193,
-      "title": "SportLotto - 82",
-      "tmdb_id": 71051,
-      "fields": [
-        "runtime"
-      ]
-    },
-    {
-      "id": 1194,
-      "title": "Almost a Year",
-      "tmdb_id": 530461,
-      "fields": [
-        "runtime"
-      ]
-    },
-    {
-      "id": 1299,
-      "title": "Crown of Russian Empire, or the Elusives Again",
-      "tmdb_id": 65594,
-      "fields": [
-        "runtime"
-      ]
-    },
-    {
-      "id": 1310,
-      "title": "The New Adventures of the Elusive Avengers",
-      "tmdb_id": 65591,
-      "fields": [
-        "runtime"
-      ]
-    },
-    {
-      "id": 1323,
-      "title": "Wedding in Malinovka",
-      "tmdb_id": 20879,
-      "fields": [
-        "runtime"
-      ]
-    },
-    {
-      "id": 1332,
-      "title": "The Elusive Revengers",
-      "tmdb_id": 41979,
-      "fields": [
-        "runtime"
-      ]
-    },
-    {
-      "id": 1451,
-      "title": "Cardiogram of Love",
-      "tmdb_id": 895256,
-      "fields": [
-        "poster",
-        "runtime"
-      ]
-    },
-    {
-      "id": 1452,
-      "title": "Infant",
-      "tmdb_id": 695633,
-      "fields": [
-        "runtime",
-        "countries"
-      ]
-    },
-    {
-      "id": 1616,
-      "title": "Empirical Study on the Influence of Sound on the Persistence of Vision",
-      "tmdb_id": 346415,
-      "fields": [
-        "cast"
-      ]
-    },
-    {
-      "id": 1716,
-      "title": "Kiwi!",
-      "tmdb_id": 53215,
-      "fields": [
-        "cast"
-      ]
-    },
-    {
-      "id": 1718,
-      "title": "Lifted",
-      "tmdb_id": 13060,
-      "fields": [
-        "cast"
-      ]
-    },
-    {
-      "id": 1849,
-      "title": "More",
-      "tmdb_id": 36107,
-      "fields": [
-        "cast"
-      ]
-    },
-    {
-      "id": 1872,
-      "title": "How the Cossacks Played Hockey",
-      "tmdb_id": 210161,
-      "fields": [
-        "cast"
-      ]
-    },
-    {
-      "id": 1888,
-      "title": "Memorial Prayer",
-      "tmdb_id": 602121,
-      "fields": [
-        "runtime"
-      ]
-    },
-    {
-      "id": 1934,
-      "title": "How the Cossacks Met Aliens",
-      "tmdb_id": 210159,
-      "fields": [
-        "cast"
-      ]
-    },
-    {
-      "id": 1942,
-      "title": "How the Monkeys Ate Lunch",
-      "tmdb_id": 253183,
-      "fields": [
-        "cast"
-      ]
-    },
-    {
-      "id": 1951,
-      "title": "Treasure",
-      "tmdb_id": 407084,
-      "fields": [
-        "overview"
-      ]
-    },
-    {
-      "id": 1957,
-      "title": "A gift for the Elephant",
-      "tmdb_id": 248759,
-      "fields": [
-        "overview"
-      ]
-    },
-    {
-      "id": 1968,
-      "title": "Careful, Monkeys!",
-      "tmdb_id": 198803,
-      "fields": [
-        "cast"
-      ]
-    },
-    {
-      "id": 1969,
-      "title": "Moomin Valley: Autumn is Coming to Moomin Valley",
-      "tmdb_id": 198937,
-      "fields": [
-        "overview",
-        "cast"
-      ]
-    },
-    {
-      "id": 1981,
-      "title": "Moomin Valley: Summer in Moomin Valley",
-      "tmdb_id": 198936,
-      "fields": [
-        "overview"
-      ]
-    },
-    {
-      "id": 1990,
-      "title": "Moominvalley: It's All in the Bag",
-      "tmdb_id": 198933,
-      "fields": [
-        "overview"
-      ]
-    },
-    {
-      "id": 2003,
-      "title": "How the Cossacks Became Olympians",
-      "tmdb_id": 210155,
-      "fields": [
-        "cast"
-      ]
-    },
-    {
-      "id": 2019,
-      "title": "How the Cossacks Bought Salt",
-      "tmdb_id": 210152,
-      "fields": [
-        "cast"
-      ]
-    },
-    {
-      "id": 2035,
-      "title": "How the Cossacks Rescued Brides",
-      "tmdb_id": 210149,
-      "fields": [
-        "cast"
-      ]
-    },
-    {
-      "id": 2056,
-      "title": "Red, Red, Freckled",
-      "tmdb_id": 419927,
-      "fields": [
-        "cast"
-      ]
-    },
-    {
-      "id": 2064,
-      "title": "How the Cossacks Played Football",
-      "tmdb_id": 210140,
-      "fields": [
-        "cast"
-      ]
-    },
-    {
-      "id": 2072,
-      "title": "The Seasons",
-      "tmdb_id": 210861,
-      "fields": [
-        "cast"
-      ]
-    },
-    {
-      "id": 2083,
-      "title": "How the Cossacks Were Cooking Kulish",
-      "tmdb_id": 150949,
-      "fields": [
-        "cast"
-      ]
-    },
-    {
-      "id": 2091,
-      "title": "Man in the Frame",
-      "tmdb_id": 90014,
-      "fields": [
-        "cast"
-      ]
-    },
-    {
-      "id": 2157,
-      "title": "À propos de Nice",
-      "tmdb_id": 47831,
-      "fields": [
-        "cast"
-      ]
-    },
-    {
-      "id": 2175,
-      "title": "Lost and Found: Film 3",
-      "tmdb_id": 1003805,
-      "fields": [
-        "poster",
-        "genres",
-        "countries"
-      ]
-    },
-    {
-      "id": 2176,
-      "title": "Lost and Found: Film 1",
-      "tmdb_id": 198788,
-      "fields": [
-        "runtime",
-        "genres",
-        "countries"
-      ]
-    },
-    {
-      "id": 2177,
-      "title": "Lost and Found: Film 2",
-      "tmdb_id": 1003796,
-      "fields": [
-        "genres",
-        "countries"
-      ]
-    },
-    {
-      "id": 2246,
-      "title": "Moms Are Simply Waiting for Us",
-      "tmdb_id": 460313,
-      "fields": [
-        "cast"
-      ]
-    }
-  ],
-  "after": {
-    "poster": 2250,
-    "overview": 2247,
-    "runtime": 2237,
-    "release_date": 2252,
-    "genres": 2249,
-    "countries": 2247,
-    "cast": 2225
-  }
+  ]
 }
