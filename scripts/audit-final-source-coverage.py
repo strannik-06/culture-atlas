@@ -39,7 +39,7 @@ def build():
             resolutions.append({'source_rows': sr, 'source_title': row['source_title'], 'work_key': row['work_key'], 'decision': 'existing_movie_alias_no_new_rating'})
     unresolved = [row['source_rows'] for row in ledger if row['coverage_status'] not in ('present', 'present_tv_catalogue', 'present_existing_film_alias', 'duplicate_identity', 'consolidated')]
     assert len(ledger) == 2150 and len(resolutions) == 13 and not unresolved
-    return {'source_entries': len(ledger), 'catalogue_tv_rating_targets': len(catalogue),
+    return {'source_entries': len(ledger), 'catalogue_tv_rating_targets': 43 + len(plan['entries']),
             'final_source_rows_resolved': 9, 'final_new_rating_targets': 8,
             'existing_movie_aliases_resolved_without_new_rating': 4,
             'coverage_counts': dict(sorted(Counter(row['coverage_status'] for row in ledger).items())),

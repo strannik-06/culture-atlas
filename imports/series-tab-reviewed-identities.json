@@ -1,0 +1,632 @@
+{
+  "source_library_file": "libfile_07805bb5711c81918f551f23f9aedd73",
+  "source_sheet": "series",
+  "workflow_run_id": 39421497934,
+  "owner_decisions": [
+    "Disclaimer: use series-tab 7.5 instead of existing 7.0; preserve its notes/date/scope.",
+    "Squid Game: keep existing overall 7.5 and add seasons independently.",
+    "Older House of Cards, Lie to Me and How I Met Your Mother are the US versions."
+  ],
+  "entries": [
+    {
+      "source_rows": "2",
+      "source_query": "The Marvelous Mrs. Maisel",
+      "show_key": "tv:70796",
+      "tmdb_id": 70796,
+      "imdb_id": "tt5788792",
+      "first_air_date": "2017-03-16",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "3",
+      "source_query": "Fleabag",
+      "show_key": "tv:67070",
+      "tmdb_id": 67070,
+      "imdb_id": "tt5687612",
+      "first_air_date": "2016-07-21",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "4",
+      "source_query": "Fauda",
+      "show_key": "tv:69557",
+      "tmdb_id": 69557,
+      "imdb_id": "tt4565380",
+      "first_air_date": "2015-02-15",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "5",
+      "source_query": "BoJack Horseman",
+      "show_key": "tv:61222",
+      "tmdb_id": 61222,
+      "imdb_id": "tt3398228",
+      "first_air_date": "2014-08-22",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "6",
+      "source_query": "Please Like Me",
+      "show_key": "tv:61350",
+      "tmdb_id": 61350,
+      "imdb_id": "tt2155025",
+      "first_air_date": "2013-02-28",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "7,15,41",
+      "source_query": "Rick and Morty",
+      "show_key": "tv:60625",
+      "tmdb_id": 60625,
+      "imdb_id": "tt2861424",
+      "first_air_date": "2013-12-02",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "8,32",
+      "source_query": "MobLand",
+      "show_key": "tv:247718",
+      "tmdb_id": 247718,
+      "imdb_id": "tt31510819",
+      "first_air_date": "2025-03-30",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "9,44,55",
+      "source_query": "Silo",
+      "show_key": "tv:125988",
+      "tmdb_id": 125988,
+      "imdb_id": "tt14688458",
+      "first_air_date": "2023-05-04",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "10,53",
+      "source_query": "Sugar",
+      "show_key": "tv:203744",
+      "tmdb_id": 203744,
+      "imdb_id": "tt16418808",
+      "first_air_date": "2024-04-04",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "11,58,74,78",
+      "source_query": "Ted Lasso",
+      "show_key": "tv:97546",
+      "tmdb_id": 97546,
+      "imdb_id": "tt10986410",
+      "first_air_date": "2020-08-14",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "12",
+      "source_query": "Widow's Bay",
+      "show_key": "tv:270476",
+      "tmdb_id": 270476,
+      "imdb_id": "tt33332385",
+      "first_air_date": "2026-04-28",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "13",
+      "source_query": "The Testaments",
+      "show_key": "tv:287527",
+      "tmdb_id": 287527,
+      "imdb_id": "tt10970762",
+      "first_air_date": "2026-04-08",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "14",
+      "source_query": "A Knight of Seven Kingdoms",
+      "show_key": "tv:224372",
+      "tmdb_id": 224372,
+      "imdb_id": "tt27497448",
+      "first_air_date": "2026-01-18",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "16,37,51,56,64",
+      "source_query": "The Bear",
+      "show_key": "tv:136315",
+      "tmdb_id": 136315,
+      "imdb_id": "tt14452776",
+      "first_air_date": "2022-06-23",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "17",
+      "source_query": "Half man",
+      "show_key": "tv:257994",
+      "tmdb_id": 257994,
+      "imdb_id": "tt32767294",
+      "first_air_date": "2026-04-28",
+      "season_one_is_whole_miniseries": true,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "18,59",
+      "source_query": "Beef",
+      "show_key": "tv:154385",
+      "tmdb_id": 154385,
+      "imdb_id": "tt14403178",
+      "first_air_date": "2023-04-06",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "19",
+      "source_query": "Spider Noir",
+      "show_key": "tv:220102",
+      "tmdb_id": 220102,
+      "imdb_id": "tt30460310",
+      "first_air_date": "2026-05-25",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "20",
+      "source_query": "Cape Fear",
+      "show_key": "tv:277439",
+      "tmdb_id": 277439,
+      "imdb_id": "tt34675596",
+      "first_air_date": "2026-06-04",
+      "season_one_is_whole_miniseries": true,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "21",
+      "source_query": "Lord of the Flies",
+      "show_key": "tv:270572",
+      "tmdb_id": 270572,
+      "imdb_id": "tt27557666",
+      "first_air_date": "2026-02-08",
+      "season_one_is_whole_miniseries": true,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "22",
+      "source_query": "Rooster",
+      "show_key": "tv:254953",
+      "tmdb_id": 254953,
+      "imdb_id": "tt32420734",
+      "first_air_date": "2026-03-08",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "23,30",
+      "source_query": "The Pitt",
+      "show_key": "tv:250307",
+      "tmdb_id": 250307,
+      "imdb_id": "tt31938062",
+      "first_air_date": "2025-01-09",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "24,47,61",
+      "source_query": "Shrinking",
+      "show_key": "tv:136311",
+      "tmdb_id": 136311,
+      "imdb_id": "tt15677150",
+      "first_air_date": "2023-01-26",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "25,45",
+      "source_query": "Fallout",
+      "show_key": "tv:106379",
+      "tmdb_id": 106379,
+      "imdb_id": "tt12637874",
+      "first_air_date": "2024-04-10",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "26,65",
+      "source_query": "Andor",
+      "show_key": "tv:83867",
+      "tmdb_id": 83867,
+      "imdb_id": "tt9253284",
+      "first_air_date": "2022-09-21",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "27,70",
+      "source_query": "Severance",
+      "show_key": "tv:95396",
+      "tmdb_id": 95396,
+      "imdb_id": "tt11280740",
+      "first_air_date": "2022-02-17",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "28,63",
+      "source_query": "The Rehearsal",
+      "show_key": "tv:204284",
+      "tmdb_id": 204284,
+      "imdb_id": "tt10802170",
+      "first_air_date": "2022-07-15",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "29",
+      "source_query": "Adolescence",
+      "show_key": "tv:249042",
+      "tmdb_id": 249042,
+      "imdb_id": "tt31806037",
+      "first_air_date": "2025-03-13",
+      "season_one_is_whole_miniseries": true,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "31",
+      "source_query": "Pluribus",
+      "show_key": "tv:225171",
+      "tmdb_id": 225171,
+      "imdb_id": "tt22202452",
+      "first_air_date": "2025-11-06",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "33",
+      "source_query": "Murderbot",
+      "show_key": "tv:241554",
+      "tmdb_id": 241554,
+      "imdb_id": "tt30444310",
+      "first_air_date": "2025-05-15",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "34",
+      "source_query": "The Studio",
+      "show_key": "tv:247767",
+      "tmdb_id": 247767,
+      "imdb_id": "tt23649128",
+      "first_air_date": "2025-03-25",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "35,67,71",
+      "source_query": "The White Lotus",
+      "show_key": "tv:111803",
+      "tmdb_id": 111803,
+      "imdb_id": "tt13406094",
+      "first_air_date": "2021-07-11",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "36",
+      "source_query": "Paradise",
+      "show_key": "tv:245927",
+      "tmdb_id": 245927,
+      "imdb_id": "tt27444205",
+      "first_air_date": "2025-01-26",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "38,57",
+      "source_query": "The Last of Us",
+      "show_key": "tv:100088",
+      "tmdb_id": 100088,
+      "imdb_id": "tt3581920",
+      "first_air_date": "2023-01-15",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "39,52,60,68,72",
+      "source_query": "Only Murders in the Building",
+      "show_key": "tv:107113",
+      "tmdb_id": 107113,
+      "imdb_id": "tt11691774",
+      "first_air_date": "2021-08-31",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "40",
+      "source_query": "The Chair Company",
+      "show_key": "tv:271267",
+      "tmdb_id": 271267,
+      "imdb_id": "tt31987295",
+      "first_air_date": "2025-10-12",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "42,54,73",
+      "source_query": "Squid Game",
+      "show_key": "tv:93405",
+      "tmdb_id": 93405,
+      "imdb_id": "tt10919420",
+      "first_air_date": "2021-09-17",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "43,77",
+      "source_query": "Nine Perfect Strangers",
+      "show_key": "tv:88989",
+      "tmdb_id": 88989,
+      "imdb_id": "tt8760932",
+      "first_air_date": "2021-08-18",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "46",
+      "source_query": "Ripley",
+      "show_key": "tv:94028",
+      "tmdb_id": 94028,
+      "imdb_id": "tt11016042",
+      "first_air_date": "2024-04-04",
+      "season_one_is_whole_miniseries": true,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "48",
+      "source_query": "The Penguin",
+      "show_key": "tv:194764",
+      "tmdb_id": 194764,
+      "imdb_id": "tt15435876",
+      "first_air_date": "2024-09-19",
+      "season_one_is_whole_miniseries": true,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "49",
+      "source_query": "Baby Reindeer",
+      "show_key": "tv:241259",
+      "tmdb_id": 241259,
+      "imdb_id": "tt13649112",
+      "first_air_date": "2024-04-11",
+      "season_one_is_whole_miniseries": true,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "50",
+      "source_query": "Disclaimer",
+      "show_key": "tv:147050",
+      "tmdb_id": 147050,
+      "imdb_id": "tt16294384",
+      "first_air_date": "2024-10-11",
+      "season_one_is_whole_miniseries": true,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "62,69,79",
+      "source_query": "Upload",
+      "show_key": "tv:86248",
+      "tmdb_id": 86248,
+      "imdb_id": "tt7826376",
+      "first_air_date": "2020-04-30",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "66,85",
+      "source_query": "Euphoria",
+      "show_key": "tv:85552",
+      "tmdb_id": 85552,
+      "imdb_id": "tt8772296",
+      "first_air_date": "2019-06-16",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "75",
+      "source_query": "WandaVision",
+      "show_key": "tv:85271",
+      "tmdb_id": 85271,
+      "imdb_id": "tt9140560",
+      "first_air_date": "2021-01-15",
+      "season_one_is_whole_miniseries": true,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "76,84",
+      "source_query": "The Morning Show",
+      "show_key": "tv:90282",
+      "tmdb_id": 90282,
+      "imdb_id": "tt7203552",
+      "first_air_date": "2019-11-01",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "80",
+      "source_query": "The Queen's Gambit",
+      "show_key": "tv:87739",
+      "tmdb_id": 87739,
+      "imdb_id": "tt10048342",
+      "first_air_date": "2020-10-23",
+      "season_one_is_whole_miniseries": true,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "81",
+      "source_query": "The Last Dance",
+      "show_key": "tv:79525",
+      "tmdb_id": 79525,
+      "imdb_id": "tt8420184",
+      "first_air_date": "2020-04-19",
+      "season_one_is_whole_miniseries": true,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "82,86",
+      "source_query": "The Boys",
+      "show_key": "tv:76479",
+      "tmdb_id": 76479,
+      "imdb_id": "tt1190634",
+      "first_air_date": "2019-07-25",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "83",
+      "source_query": "Chernobyl",
+      "show_key": "tv:87108",
+      "tmdb_id": 87108,
+      "imdb_id": "tt7366338",
+      "first_air_date": "2019-05-06",
+      "season_one_is_whole_miniseries": true,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "87",
+      "source_query": "Black Mirror",
+      "show_key": "tv:42009",
+      "tmdb_id": 42009,
+      "imdb_id": "tt2085059",
+      "first_air_date": "2011-12-04",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "88",
+      "source_query": "Love, Death & Robots",
+      "show_key": "tv:86831",
+      "tmdb_id": 86831,
+      "imdb_id": "tt9561862",
+      "first_air_date": "2019-03-15",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "89",
+      "source_query": "Fargo",
+      "show_key": "tv:60622",
+      "tmdb_id": 60622,
+      "imdb_id": "tt2802850",
+      "first_air_date": "2014-04-15",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "90",
+      "source_query": "True detective",
+      "show_key": "tv:46648",
+      "tmdb_id": 46648,
+      "imdb_id": "tt2356777",
+      "first_air_date": "2014-01-12",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "91",
+      "source_query": "House of Cards",
+      "show_key": "tv:1425",
+      "tmdb_id": 1425,
+      "imdb_id": "tt1856010",
+      "first_air_date": "2013-02-01",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "92",
+      "source_query": "Sherlock",
+      "show_key": "tv:19885",
+      "tmdb_id": 19885,
+      "imdb_id": "tt1475582",
+      "first_air_date": "2010-07-25",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "93",
+      "source_query": "Game of Thrones",
+      "show_key": "tv:1399",
+      "tmdb_id": 1399,
+      "imdb_id": "tt0944947",
+      "first_air_date": "2011-04-17",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "94",
+      "source_query": "Lie to Me",
+      "show_key": "tv:8358",
+      "tmdb_id": 8358,
+      "imdb_id": "tt1235099",
+      "first_air_date": "2009-01-21",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "95",
+      "source_query": "How I Met Your Mother",
+      "show_key": "tv:1100",
+      "tmdb_id": 1100,
+      "imdb_id": "tt0460649",
+      "first_air_date": "2005-09-19",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "96",
+      "source_query": "Two and a Half Men",
+      "show_key": "tv:2691",
+      "tmdb_id": 2691,
+      "imdb_id": "tt0369179",
+      "first_air_date": "2003-09-22",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "97",
+      "source_query": "Westworld",
+      "show_key": "tv:63247",
+      "tmdb_id": 63247,
+      "imdb_id": "tt0475784",
+      "first_air_date": "2016-10-02",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "98",
+      "source_query": "House, M.D.",
+      "show_key": "tv:1408",
+      "tmdb_id": 1408,
+      "imdb_id": "tt0412142",
+      "first_air_date": "2004-11-16",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    },
+    {
+      "source_rows": "99",
+      "source_query": "Breaking Bad",
+      "show_key": "tv:1396",
+      "tmdb_id": 1396,
+      "imdb_id": "tt0903747",
+      "first_air_date": "2008-01-20",
+      "season_one_is_whole_miniseries": false,
+      "reason": "Reviewed title, IMDb identity, original premiere and requested seasons. Owner confirmed US adaptations for House of Cards, Lie to Me and How I Met Your Mother."
+    }
+  ]
+}

@@ -1,0 +1,744 @@
+{
+  "base_commit": "ec6b9ec",
+  "source_library_file": "libfile_07805bb5711c81918f551f23f9aedd73",
+  "source_sheet": "series",
+  "source_sha256": "be01a272a5784abf246153d1faba38fd9872afb10b6752c69b772e6e8a97dcac",
+  "entries": [
+    {
+      "source_rows": "2",
+      "title": "The Marvelous Mrs. Maisel",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "The Marvelous Mrs. Maisel"
+      ],
+      "requested_seasons": []
+    },
+    {
+      "source_rows": "3",
+      "title": "Fleabag",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "Fleabag"
+      ],
+      "requested_seasons": []
+    },
+    {
+      "source_rows": "4",
+      "title": "Fauda",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "Fauda"
+      ],
+      "requested_seasons": []
+    },
+    {
+      "source_rows": "5",
+      "title": "BoJack Horseman",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "BoJack Horseman"
+      ],
+      "requested_seasons": []
+    },
+    {
+      "source_rows": "6",
+      "title": "Please Like Me",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "Please Like Me"
+      ],
+      "requested_seasons": []
+    },
+    {
+      "source_rows": "7,15,41",
+      "title": "Rick and Morty",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "Rick and Morty"
+      ],
+      "requested_seasons": [
+        8,
+        9
+      ]
+    },
+    {
+      "source_rows": "8,32",
+      "title": "MobLand",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "MobLand"
+      ],
+      "requested_seasons": [
+        1,
+        2
+      ]
+    },
+    {
+      "source_rows": "9,44,55",
+      "title": "Silo",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "Silo"
+      ],
+      "requested_seasons": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "source_rows": "10,53",
+      "title": "Sugar",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "Sugar"
+      ],
+      "requested_seasons": [
+        1,
+        2
+      ]
+    },
+    {
+      "source_rows": "11,58,74,78",
+      "title": "Ted Lasso",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "Ted Lasso"
+      ],
+      "requested_seasons": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "source_rows": "12",
+      "title": "Widow's Bay",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "Widow's Bay"
+      ],
+      "requested_seasons": [
+        1
+      ]
+    },
+    {
+      "source_rows": "13",
+      "title": "The Testaments",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "The Testaments"
+      ],
+      "requested_seasons": [
+        1
+      ]
+    },
+    {
+      "source_rows": "14",
+      "title": "A Knight of Seven Kingdoms",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "A Knight of Seven Kingdoms",
+        "A Knight of the Seven Kingdoms"
+      ],
+      "requested_seasons": [
+        1
+      ]
+    },
+    {
+      "source_rows": "16,37,51,56,64",
+      "title": "The Bear",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "The Bear"
+      ],
+      "requested_seasons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "source_rows": "17",
+      "title": "Half man",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "Half man",
+        "Half Man"
+      ],
+      "requested_seasons": []
+    },
+    {
+      "source_rows": "18,59",
+      "title": "Beef",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "Beef"
+      ],
+      "requested_seasons": [
+        1,
+        2
+      ]
+    },
+    {
+      "source_rows": "19",
+      "title": "Spider Noir",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "Spider Noir",
+        "Spider-Noir"
+      ],
+      "requested_seasons": [
+        1
+      ]
+    },
+    {
+      "source_rows": "20",
+      "title": "Cape Fear",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "Cape Fear"
+      ],
+      "requested_seasons": []
+    },
+    {
+      "source_rows": "21",
+      "title": "Lord of the Flies",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "Lord of the Flies"
+      ],
+      "requested_seasons": []
+    },
+    {
+      "source_rows": "22",
+      "title": "Rooster",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "Rooster"
+      ],
+      "requested_seasons": [
+        1
+      ]
+    },
+    {
+      "source_rows": "23,30",
+      "title": "The Pitt",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "The Pitt"
+      ],
+      "requested_seasons": [
+        1,
+        2
+      ]
+    },
+    {
+      "source_rows": "24,47,61",
+      "title": "Shrinking",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "Shrinking"
+      ],
+      "requested_seasons": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "source_rows": "25,45",
+      "title": "Fallout",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "Fallout"
+      ],
+      "requested_seasons": [
+        1,
+        2
+      ]
+    },
+    {
+      "source_rows": "26,65",
+      "title": "Andor",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "Andor"
+      ],
+      "requested_seasons": [
+        1,
+        2
+      ]
+    },
+    {
+      "source_rows": "27,70",
+      "title": "Severance",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "Severance"
+      ],
+      "requested_seasons": [
+        1,
+        2
+      ]
+    },
+    {
+      "source_rows": "28,63",
+      "title": "The Rehearsal",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "The Rehearsal"
+      ],
+      "requested_seasons": [
+        1,
+        2
+      ]
+    },
+    {
+      "source_rows": "29",
+      "title": "Adolescence",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "Adolescence"
+      ],
+      "requested_seasons": []
+    },
+    {
+      "source_rows": "31",
+      "title": "Pluribus",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "Pluribus"
+      ],
+      "requested_seasons": [
+        1
+      ]
+    },
+    {
+      "source_rows": "33",
+      "title": "Murderbot",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "Murderbot"
+      ],
+      "requested_seasons": [
+        1
+      ]
+    },
+    {
+      "source_rows": "34",
+      "title": "The Studio",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "The Studio"
+      ],
+      "requested_seasons": [
+        1
+      ]
+    },
+    {
+      "source_rows": "35,67,71",
+      "title": "The White Lotus",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "The White Lotus"
+      ],
+      "requested_seasons": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "source_rows": "36",
+      "title": "Paradise",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "Paradise"
+      ],
+      "requested_seasons": [
+        1
+      ]
+    },
+    {
+      "source_rows": "38,57",
+      "title": "The Last of Us",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "The Last of Us"
+      ],
+      "requested_seasons": [
+        1,
+        2
+      ]
+    },
+    {
+      "source_rows": "39,52,60,68,72",
+      "title": "Only Murders in the Building",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "Only Murders in the Building"
+      ],
+      "requested_seasons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "source_rows": "40",
+      "title": "The Chair Company",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "The Chair Company"
+      ],
+      "requested_seasons": [
+        1
+      ]
+    },
+    {
+      "source_rows": "42,54,73",
+      "title": "Squid Game",
+      "year": null,
+      "tv_id_hint": 93405,
+      "search_titles": [
+        "Squid Game"
+      ],
+      "requested_seasons": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "source_rows": "43,77",
+      "title": "Nine Perfect Strangers",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "Nine Perfect Strangers"
+      ],
+      "requested_seasons": [
+        1,
+        2
+      ]
+    },
+    {
+      "source_rows": "46",
+      "title": "Ripley",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "Ripley"
+      ],
+      "requested_seasons": [
+        1
+      ]
+    },
+    {
+      "source_rows": "48",
+      "title": "The Penguin",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "The Penguin"
+      ],
+      "requested_seasons": [
+        1
+      ]
+    },
+    {
+      "source_rows": "49",
+      "title": "Baby Reindeer",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "Baby Reindeer"
+      ],
+      "requested_seasons": []
+    },
+    {
+      "source_rows": "50",
+      "title": "Disclaimer",
+      "year": null,
+      "tv_id_hint": 147050,
+      "search_titles": [
+        "Disclaimer"
+      ],
+      "requested_seasons": []
+    },
+    {
+      "source_rows": "62,69,79",
+      "title": "Upload",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "Upload"
+      ],
+      "requested_seasons": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "source_rows": "66,85",
+      "title": "Euphoria",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "Euphoria"
+      ],
+      "requested_seasons": [
+        1,
+        2
+      ]
+    },
+    {
+      "source_rows": "75",
+      "title": "WandaVision",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "WandaVision"
+      ],
+      "requested_seasons": []
+    },
+    {
+      "source_rows": "76,84",
+      "title": "The Morning Show",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "The Morning Show"
+      ],
+      "requested_seasons": [
+        1,
+        2
+      ]
+    },
+    {
+      "source_rows": "80",
+      "title": "The Queen's Gambit",
+      "year": null,
+      "tv_id_hint": 87739,
+      "search_titles": [
+        "The Queen's Gambit"
+      ],
+      "requested_seasons": [
+        1
+      ]
+    },
+    {
+      "source_rows": "81",
+      "title": "The Last Dance",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "The Last Dance"
+      ],
+      "requested_seasons": []
+    },
+    {
+      "source_rows": "82,86",
+      "title": "The Boys",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "The Boys"
+      ],
+      "requested_seasons": [
+        1,
+        2
+      ]
+    },
+    {
+      "source_rows": "83",
+      "title": "Chernobyl",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "Chernobyl"
+      ],
+      "requested_seasons": []
+    },
+    {
+      "source_rows": "87",
+      "title": "Black Mirror",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "Black Mirror"
+      ],
+      "requested_seasons": []
+    },
+    {
+      "source_rows": "88",
+      "title": "Love, Death & Robots",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "Love, Death & Robots"
+      ],
+      "requested_seasons": []
+    },
+    {
+      "source_rows": "89",
+      "title": "Fargo",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "Fargo"
+      ],
+      "requested_seasons": [
+        1
+      ]
+    },
+    {
+      "source_rows": "90",
+      "title": "True detective",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "True detective"
+      ],
+      "requested_seasons": [
+        1
+      ]
+    },
+    {
+      "source_rows": "91",
+      "title": "House of Cards",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "House of Cards"
+      ],
+      "requested_seasons": []
+    },
+    {
+      "source_rows": "92",
+      "title": "Sherlock",
+      "year": null,
+      "tv_id_hint": 19885,
+      "search_titles": [
+        "Sherlock"
+      ],
+      "requested_seasons": []
+    },
+    {
+      "source_rows": "93",
+      "title": "Game of Thrones",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "Game of Thrones"
+      ],
+      "requested_seasons": [
+        1
+      ]
+    },
+    {
+      "source_rows": "94",
+      "title": "Lie to Me",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "Lie to Me"
+      ],
+      "requested_seasons": []
+    },
+    {
+      "source_rows": "95",
+      "title": "How I Met Your Mother",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "How I Met Your Mother"
+      ],
+      "requested_seasons": []
+    },
+    {
+      "source_rows": "96",
+      "title": "Two and a Half Men",
+      "year": null,
+      "tv_id_hint": 2691,
+      "search_titles": [
+        "Two and a Half Men"
+      ],
+      "requested_seasons": []
+    },
+    {
+      "source_rows": "97",
+      "title": "Westworld",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "Westworld"
+      ],
+      "requested_seasons": []
+    },
+    {
+      "source_rows": "98",
+      "title": "House, M.D.",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "House, M.D."
+      ],
+      "requested_seasons": []
+    },
+    {
+      "source_rows": "99",
+      "title": "Breaking Bad",
+      "year": null,
+      "tv_id_hint": null,
+      "search_titles": [
+        "Breaking Bad"
+      ],
+      "requested_seasons": [
+        1
+      ]
+    }
+  ]
+}
