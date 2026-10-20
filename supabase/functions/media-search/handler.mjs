@@ -21,11 +21,27 @@ export function createHandler(env, fetcher=fetch) {
    const db=async(path,options={})=>{const r=await fetcher(base+'/rest/v1/'+path,{...options,headers:{apikey:service,Authorization:'Bearer '+service,'Content-Type':'application/json',...options.headers}});if(!r.ok){const err=await r.json().catch(()=>({}));throw new SafeError(err.code==='40001'?'This rating changed. Select the result again before saving.':'Unable to save or load the catalogue. Check the media migrations and try again.');}return r.json();};
    const tmdb=async(path,query={})=>{const token=env('TMDB_READ_ACCESS_TOKEN'),key=env('TMDB_API_KEY');if(!token&&!key)throw new SafeError('Film and TV search needs its TMDB server key configured.');const url=new URL('https://api.themoviedb.org/3/'+path);for(const[k,v]of Object.entries(query))url.searchParams.set(k,String(v));if(!token)url.searchParams.set('api_key',key);const r=await fetcher(url,{headers:token?{Authorization:'Bearer '+token}:{},signal:AbortSignal.timeout(15000)});if(!r.ok)throw new SafeError(r.status===429?'Search is busy. Try again shortly.':'TMDB could not load this title. Try again.');return r.json();};
    if(body.action==='search'){
-    if(typeof body.query!=='string'||body.query.trim().length<2||body.query.length>200)return respond({error:'Enter a title of 2–200 characters.'},400);
+    const page=body.page??1,mode=body.mode??'title';
+    if(!Number.isSafeInteger(page)||page<1||page>500||!['title','director'].includes(mode)||mode==='director'&&type!=='movie')return respond({error:'Invalid search mode or page.'},400);
     if(body.year&&!/^\d{4}$/.test(String(body.year)))return respond({error:'Use a four-digit year.'},400);
-    const query={query:body.query.trim(),include_adult:false};if(body.year)query[type==='movie'?'primary_release_year':'first_air_date_year']=body.year;
+    const validQuery=typeof body.query==='string'&&body.query.trim().length>=2&&body.query.length<=200;
+    if(mode==='director'&&body.person_id!=null){
+     if(!Number.isSafeInteger(body.person_id)||body.person_id<1)return respond({error:'Invalid director.'},400);
+     const person=await tmdb('person/'+body.person_id),credits=await tmdb('person/'+body.person_id+'/movie_credits');
+     const seen=new Set(),films=(credits.crew||[]).filter(x=>{
+      if(x.job!=='Director'||x.adult||seen.has(x.id)||body.year&&String(x.release_date||'').slice(0,4)!==String(body.year))return false;
+      seen.add(x.id);return true;
+     }).sort((a,b)=>String(b.release_date||'').localeCompare(String(a.release_date||''))||String(a.title).localeCompare(String(b.title)));
+     return respond({kind:'works',director:person.name,page,total_pages:Math.max(1,Math.ceil(films.length/20)),results:films.slice((page-1)*20,page*20).map(x=>({id:x.id,title:x.title,original_title:x.original_title,date:x.release_date,poster_path:x.poster_path,director:person.name}))});
+    }
+    if(!validQuery)return respond({error:'Enter a title or director name of 2–200 characters.'},400);
+    if(mode==='director'){
+     const result=await tmdb('search/person',{query:body.query.trim(),include_adult:false,page});
+     return respond({kind:'people',page,total_pages:Math.min(500,result.total_pages||1),results:(result.results||[]).slice(0,20).map(x=>({id:x.id,title:x.name,poster_path:x.profile_path,department:x.known_for_department,known_for:(x.known_for||[]).map(w=>w.title||w.name).filter(Boolean).slice(0,3)}))});
+    }
+    const query={query:body.query.trim(),include_adult:false,page};if(body.year)query[type==='movie'?'primary_release_year':'first_air_date_year']=body.year;
     const result=await tmdb('search/'+type,query);
-    return respond({results:(result.results||[]).slice(0,20).map(x=>({id:x.id,title:x.title||x.name,original_title:x.original_title||x.original_name,date:x.release_date||x.first_air_date,poster_path:x.poster_path,overview:x.overview}))});
+    return respond({kind:'works',page,total_pages:Math.min(500,result.total_pages||1),results:(result.results||[]).slice(0,20).map(x=>({id:x.id,title:x.title||x.name,original_title:x.original_title||x.original_name,date:x.release_date||x.first_air_date,poster_path:x.poster_path,overview:x.overview}))});
    }
    if(!Number.isSafeInteger(body.id)||body.id<1||body.season!=null&&(!Number.isSafeInteger(body.season)||body.season<1||type!=='tv'))return respond({error:'Invalid title or season'},400);
    const detail=await tmdb(type+'/'+body.id,{append_to_response:'credits,external_ids'});

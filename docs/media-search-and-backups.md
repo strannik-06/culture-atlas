@@ -4,7 +4,8 @@ This change extends the existing static site. It requires one-time Supabase and 
 
 ## What changes on the website
 
-- **Films → Add film**, **TV Series → Add series**: search TMDB by title, optionally year; select a result, check title/year/director or creators and the TMDB source, then save a half-point score, notes and optional watched date.
+- **Films → Add film**, **TV Series → Add series**: search TMDB by title, optionally year. Each result shows a small poster, year, director/creators and your existing rating. Credits and private progress load progressively, with editing disabled until the record has loaded. Rate and save directly in each card using the same ten-star, half-point picker as the other sections. Save one card without clearing the list or other drafts. New ratings default to your local current date; existing dates (including unknown dates) are preserved. Notes stay collapsed until clicked. Films never show TV scope/season controls.
+- **Films → Add film → Director**: search a name, explicitly choose the correct person, then browse their directed films. Acting and producing credits are excluded, repeat credits are deduplicated, and **Show more results** appends pages without clearing drafts. Title searches also support more results.
 - For TV, choose **Whole series** or a specific numbered season. Their ratings stay independent. A complete, ended one-season miniseries reuses the whole-work identity, matching our earlier import decisions. Specials (season 0) are outside this first version.
 - Existing catalogue records and the four historical film/TV aliases are reused. Root IMDb matches also reuse existing records across provider namespaces. Film and TV IDs are never assumed interchangeable.
 - Existing scores/notes/dates load before editing. Save requires the version loaded by that editor; another-device edits cause a reload message, never a silent overwrite. A failed save keeps the draft.
@@ -104,6 +105,6 @@ Review this SQL before running it. Recover into a staging project first, using t
 
 ## Validation
 
-`node --test tests/media.test.mjs` covers seeded identities, RLS/grants, service-only snapshots, rollback, root aliases, dynamic season targets, stale edits, verified Edge authentication, server-side TMDB refetch, existing private progress and UI account changes.
+`node --test tests/media.test.mjs` covers seeded identities, RLS/grants, service-only snapshots, rollback, root aliases, dynamic season targets, stale edits, verified Edge authentication, server-side TMDB refetch, existing private progress, inline card saves, independent drafts, local date defaults, collapsed notes, TV controls, director filmographies/pagination and UI account changes.
 
 `python3 -m unittest discover -s tests -p test_backup.py` covers encryption/decryption, wrong key/tampering, manifest counts, required storage read-back, offline extraction and insert-only recovery output. Existing Books, TV, film sync and catalogue tests continue to run.
