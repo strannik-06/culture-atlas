@@ -28,6 +28,34 @@
   function validRating(value) {
     return typeof value === 'number' && Number.isFinite(value) && value >= .5 && value <= 10 && Number.isInteger(value*2);
   }
+  const normaliseText=value=>String(value).normalize('NFKD').replace(/\p{M}/gu,'').toLocaleLowerCase().replace(/[^\p{L}\p{N}]+/gu,' ').trim();
+  const withoutArticle=value=>value.replace(/^(the|an?) /u,'');
+  function containsWords(text,words) {
+    const available=text.split(' ');
+    return words.every(word=>{const i=available.indexOf(word);if(i<0)return false;available.splice(i,1);return true;});
+  }
+  function rankBooks(docs,query,author='',isbn=false) {
+    const target=normaliseText(query),titleTarget=withoutArticle(target);
+    const words=titleTarget.split(' ').filter(word=>!['of','in','on','for','to','and','is','are','и','в','на','о'].includes(word));
+    const authorWords=normaliseText(author).split(' ').filter(Boolean);
+    const unique=new Map();
+    for(const doc of docs) {
+      const book=normaliseBook(doc);if(!book)continue;
+      const title=normaliseText(book.title),authors=normaliseText(book.authors.join(' '));
+      if(authorWords.length&&!containsWords(authors,authorWords))continue;
+      const score=isbn?100:title===target?100:withoutArticle(title)===titleTarget?95:title.startsWith(target+' ')?85:(' '+title+' ').includes(' '+titleTarget+' ')?70:words.length&&containsWords(title,words)?50:words.length&&containsWords(title+' '+authors,words)?30:0;
+      if(!score)continue;
+      book.search_match=score>=95?'Exact title match':score>=50?'Title match':'Title / author match';
+      if(!unique.has(book.open_library_work_id))unique.set(book.open_library_work_id,{book,score});
+    }
+    return [...unique.values()].sort((a,b)=>b.score-a.score||Number(!!b.book.cover_id)-Number(!!a.book.cover_id)).map(row=>row.book).slice(0,20);
+  }
+  function searchPlan(query,author) {
+    const isbn=query.replace(/[\s-]/g,'');
+    if(/^(?:\d{13}|\d{9}[\dXx])$/.test(isbn))return [{params:{isbn},text:query,isbn:true}];
+    const quote=value=>'"'+value.replace(/[\\"]/g,'\\$&')+'"';
+    return [...searchVariants(query).map(text=>({params:{q:'title_suggest:'+quote(text),...(author?{author}: {})},text})),{params:{q:query,...(author?{author}: {})},text:query}];
+  }
   let client, user=null, generation=0, books=[], progress=new Map(), results=[], selected=null;
   let searchController, searchSequence=0, saving=false, loading=false, activeTab='ratings', visible=48;
   const cache = new Map();
@@ -105,7 +133,7 @@
   function card(book, result=false) {
     const p=progress.get(book.open_library_work_id), known=books.find(b=>b.open_library_work_id===book.open_library_work_id);
     const cover=Number.isSafeInteger(Number(book.cover_id)) && Number(book.cover_id)>0;
-    return `<article class="film book-card"><div class="poster"><span class="cover-fallback">Cover unavailable</span>${cover?`<img loading="lazy" src="https://covers.openlibrary.org/b/id/${Number(book.cover_id)}-M.jpg?default=false" alt="Cover of ${escape(book.title)}">`:''}</div><div class="body"><h3>${escape(book.title)}</h3><p class="meta">${escape(book.authors.join(', '))}</p><p class="meta">${escape(book.first_publish_year??'Year unavailable')}</p>${p?`<p class="book-score">Your rating: ${escape(p.rating)}/10</p><p class="meta">${escape(formats[p.reading_format]||formats.unknown)}</p>${!result&&p.notes?`<p class="book-notes">${escape(p.notes)}</p>`:''}`:''}<a class="meta" href="https://openlibrary.org${escape(book.open_library_work_id)}" target="_blank" rel="noopener noreferrer">Open Library ↗</a><button type="button" class="action" data-book-work="${escape(book.open_library_work_id)}">${p?'Edit rating':known?'Rate book':'Select & rate'}</button></div></article>`;
+    return `<article class="film book-card"><div class="poster"><span class="cover-fallback">Cover unavailable</span>${cover?`<img loading="lazy" src="https://covers.openlibrary.org/b/id/${Number(book.cover_id)}-M.jpg?default=false" alt="Cover of ${escape(book.title)}">`:''}</div><div class="body"><h3>${escape(book.title)}</h3>${result&&book.search_match?`<p class="meta">${escape(book.search_match)}</p>`:''}<p class="meta">${escape(book.authors.join(', '))}</p><p class="meta">${escape(book.first_publish_year??'Year unavailable')}</p>${p?`<p class="book-score">Your rating: ${escape(p.rating)}/10</p><p class="meta">${escape(formats[p.reading_format]||formats.unknown)}</p>${!result&&p.notes?`<p class="book-notes">${escape(p.notes)}</p>`:''}`:''}<a class="meta" href="https://openlibrary.org${escape(book.open_library_work_id)}" target="_blank" rel="noopener noreferrer">Open Library ↗</a><button type="button" class="action" data-book-work="${escape(book.open_library_work_id)}">${p?'Edit rating':known?'Rate book':'Select & rate'}</button></div></article>`;
   }
   function render() {
     const rated=books.filter(b=>progress.has(b.open_library_work_id)).sort((a,b)=>new Date(progress.get(b.open_library_work_id).updated_at)-new Date(progress.get(a.open_library_work_id).updated_at));
@@ -156,6 +184,8 @@
   async function search(event) {
     event.preventDefault();
     const query=$('book-query').value.trim();
+    const author=$('book-author').value.trim();
+    const cacheKey=query.toLocaleLowerCase()+'\0'+author.toLocaleLowerCase();
     if(query.length<2) { message('book-search-status','Enter at least two characters: a title, author or ISBN.');return; }
     searchController?.abort();
     const sequence=++searchSequence;
@@ -164,34 +194,34 @@
     $('book-search-submit').disabled=true; $('book-search-results').setAttribute('aria-busy','true');
     message('book-search-status','Searching Open Library…'); results=[]; render();
     try {
-      let cached=cache.get(query.toLocaleLowerCase());
+      let cached=cache.get(cacheKey);
       if(!cached) {
-        let docs=[],matchedQuery=query;
-        const variants=searchVariants(query);
-        for(const [index,variant] of variants.entries()) {
+        let candidates=[],matchedQuery=query;
+        const plan=searchPlan(query,author);
+        for(const [index,stage] of plan.entries()) {
           if(controller.signal.aborted) throw new DOMException('Search cancelled','AbortError');
           if(sequence!==searchSequence) return;
           const started=Date.now();
-          const params=new URLSearchParams({q:variant,limit:'20',fields:'key,title,author_name,first_publish_year,cover_i'});
+          const params=new URLSearchParams({...stage.params,limit:'50',fields:'key,title,author_name,first_publish_year,cover_i'});
           const response=await fetch(`https://openlibrary.org/search.json?${params}`,{signal:controller.signal});
           if(!response.ok) throw Error(response.status===429?'Open Library is busy. Please wait a moment and search again.':'Book search is unavailable. Please try again shortly.');
           const payload=await response.json();
           if(!Array.isArray(payload.docs)) throw Error('Book search returned an unexpected response. Please try again.');
-          docs=payload.docs; matchedQuery=variant;
-          if(docs.some(doc=>normaliseBook(doc))) break;
+          candidates=rankBooks(payload.docs,query,author,stage.isbn);matchedQuery=stage.text;
+          if(candidates.length) break;
           // Keep fallback calls within Open Library's anonymous request limit.
-          if(index<variants.length-1) await new Promise(resolve=>setTimeout(resolve,Math.max(0,1000-(Date.now()-started))));
+          if(index<plan.length-1) await new Promise(resolve=>setTimeout(resolve,Math.max(0,1000-(Date.now()-started))));
         }
-        cached={docs,matchedQuery};
+        cached={candidates,matchedQuery};
         if(controller.signal.aborted) throw new DOMException('Search cancelled','AbortError');
         if(sequence!==searchSequence) return;
         if(cache.size>=20) cache.delete(cache.keys().next().value);
-        cache.set(query.toLocaleLowerCase(),cached);
+        cache.set(cacheKey,cached);
       }
       if(sequence!==searchSequence) return;
-      results=[...new Map(cached.docs.map(normaliseBook).filter(Boolean).map(b=>[b.open_library_work_id,b])).values()];
-      const relaxed=cached.matchedQuery!==query?'Found using a shorter search. ':'';
-      message('book-search-status',results.length?`${relaxed}${results.length} results. Check the author and year before selecting a book.`:'No matches found. Try adding the author, or use a transliterated title.');
+      results=cached.candidates;
+      const relaxed=cached.matchedQuery.toLocaleLowerCase()!==query.toLocaleLowerCase()?'Found using a shorter search. ':'';
+      message('book-search-status',results.length?`${relaxed}${results.length} results, with exact title matches first. Check the author and year before selecting a book.`:'No close matches found. Try the Author field, an ISBN, or a transliterated title.');
       render();
     } catch(error) {
       if(sequence===searchSequence) message('book-search-status',error.name==='AbortError'?'Search timed out. Please try again.':error.message);
@@ -286,5 +316,5 @@
     });
     render();
   }
-  window.CultureBooks={init,setSession,normaliseBook,validRating};
+  window.CultureBooks={init,setSession,normaliseBook,validRating,rankBooks};
 })();

@@ -11,6 +11,48 @@ const source=await readFile(new URL('../books.js',import.meta.url),'utf8');
 const markup=await readFile(new URL('../index.html',import.meta.url),'utf8');
 const work={open_library_work_id:'/works/OL35708581W',title:'Orbital',authors:['Samantha Harvey'],first_publish_year:2023,cover_id:14541972};
 
+test('Title relevance: Booker novels rank first, repeated words count, stems do not count as exact titles',async()=>{
+  const {window}=await setup();
+  try {
+    const john=[
+      {key:'/works/OL23204W',title:'Of Mice and Men',author_name:['John Steinbeck']},
+      {key:'/works/OL45341670W',title:'John of John',author_name:['Douglas Stuart'],first_publish_year:2026},
+      {key:'/works/OL45691929W',title:'John of John',author_name:['Douglas Stuart'],first_publish_year:2026,cover_i:15234094},
+      {key:'/works/OL99W',title:'John',author_name:['Someone Else']},
+    ];
+    const rows=window.CultureBooks.rankBooks(john,'John of John');
+    assert.equal(rows.length,2);assert.equal(rows[0].open_library_work_id,'/works/OL45691929W');
+    assert.equal(rows[0].search_match,'Exact title match');
+    const disappearers=[{key:'/works/OL39905W',title:'The Disappearing Floor',author_name:['Leslie McFarlane']},{key:'/works/OL45862992W',title:'The Disappearers',author_name:['Marlon James'],cover_i:15243723,first_publish_year:2026}];
+    const d=window.CultureBooks.rankBooks(disappearers,'The Disappearers');
+    assert.equal(d.length,1);assert.equal(d[0].authors[0],'Marlon James');
+    assert.equal(window.CultureBooks.rankBooks(disappearers,'The Disappearers','Other Author').length,0);
+  } finally {await window.happyDOM.close();}
+});
+
+test('Search submits title phrases and isolates author-filtered cache entries',async()=>{
+  const {window,$,flush,submit}=await setup();
+  try {
+    const requests=[];
+    window.fetch=async url=>{
+      const p=new URL(url).searchParams;requests.push(p);
+      const john=p.get('q').includes('John of John');
+      return {ok:true,json:async()=>({docs:john?[{key:'/works/OL45691929W',title:'John of John',author_name:['Douglas Stuart'],cover_i:15234094,first_publish_year:2026}]:[{key:'/works/OL45862992W',title:'The Disappearers',author_name:['Marlon James'],cover_i:15243723,first_publish_year:2026}]})};
+    };
+    $('book-query').value='John of John';submit('book-search-form');await flush();
+    assert.equal(requests[0].get('q'),'title_suggest:"John of John"');
+    assert.match($('book-search-results').textContent,/Douglas Stuart/);
+    assert.doesNotMatch($('book-search-results').textContent,/Steinbeck/);
+    $('book-query').value='The Disappearers';submit('book-search-form');await flush();
+    assert.equal(requests[1].get('q'),'title_suggest:"The Disappearers"');
+    assert.match($('book-search-results').textContent,/Marlon James/);
+    $('book-author').value='Marlon James';submit('book-search-form');await flush();
+    assert.equal(requests.length,3);assert.equal(requests[2].get('author'),'Marlon James');
+    submit('book-search-form');await flush();assert.equal(requests.length,3);
+    assert.equal($('book-editor').hidden,true); // reader still chooses explicitly
+  } finally {await window.happyDOM.close();}
+});
+
 test('Postgres: atomic save, unique catalogue works, private notes, validation and role grants',async()=>{
   const db=new PGlite();
   try {
@@ -164,8 +206,8 @@ test('Books UI: signed-out save, API failures and account changes during save ne
     $('book-query').value='Orbital';submit('book-search-form');await flush();
     assert.match($('book-search-status').textContent,/busy/);
     window.fetch=async()=>({ok:true,json:async()=>({docs:[]})});
-    submit('book-search-form');await flush();assert.match($('book-search-status').textContent,/No matches/);
-    $('book-query').value='Other query';
+    submit('book-search-form');await new Promise(resolve=>setTimeout(resolve,1100));await flush();assert.match($('book-search-status').textContent,/No close matches/);
+    $('book-query').value='Orbital Samantha Harvey';
     window.fetch=async()=>({ok:true,json:async()=>({docs:[{key:work.open_library_work_id,title:work.title,author_name:work.authors}]})});
     submit('book-search-form');await flush();$('book-search-results').querySelector('button').click();
     $('book-rating').value='7';$('book-format').value='kindle';submit('book-rating-form');await flush();
@@ -188,11 +230,11 @@ test('Search regression: Tehran title retries without The, keeps selection expli
     const queries=[];
     window.fetch=async url=>{
       const q=new URL(url).searchParams.get('q');queries.push(q);
-      return {ok:true,json:async()=>({docs:q.startsWith('The ')?[]:[{key:'/works/OL42426263W',title:'Nights Are Quiet in Tehran',author_name:['Shida Bazyar','Ruth Martin'],first_publish_year:2025}]})};
+      return {ok:true,json:async()=>({docs:q.startsWith('title_suggest:"The ')?[]:[{key:'/works/OL42426263W',title:'Nights Are Quiet in Tehran',author_name:['Shida Bazyar','Ruth Martin'],first_publish_year:2025}]})};
     };
     $('book-query').value='The nights are quiet in Tehran';submit('book-search-form');
     await new Promise(resolve=>setTimeout(resolve,1100));await flush();
-    assert.deepEqual(queries,['The nights are quiet in Tehran','nights are quiet in Tehran']);
+    assert.deepEqual(queries,['title_suggest:"The nights are quiet in Tehran"','title_suggest:"nights are quiet in Tehran"']);
     assert.match($('book-search-status').textContent,/Found using a shorter search/);
     assert.equal($('book-search-results').querySelectorAll('article').length,1);
     assert.match($('book-search-results').textContent,/Shida Bazyar/);
@@ -205,7 +247,7 @@ test('Search regression: Tehran title retries without The, keeps selection expli
     assert.equal(queries.length,2);
     // A successful original query must not trigger broader searches.
     $('book-query').value='Shida Bazyar';submit('book-search-form');await flush();
-    assert.deepEqual(queries,['The nights are quiet in Tehran','nights are quiet in Tehran','Shida Bazyar']);
+    assert.deepEqual(queries,['title_suggest:"The nights are quiet in Tehran"','title_suggest:"nights are quiet in Tehran"','title_suggest:"Shida Bazyar"']);
   } finally {await window.happyDOM.close();}
 });
 

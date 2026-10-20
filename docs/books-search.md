@@ -20,14 +20,24 @@ produces a clear setup message; failed saves keep the form and never claim succe
 
 ## Design
 
-- Open Library Search API, on explicit submit, up to 20 work results. No API key.
-  Session-memory query cache, abortable requests and throttling/error messages.
-  If a search has no usable results, retry without a leading English article,
-  then without common connecting words (at most three queries in total, paced
-  to one per second). Stop at the first usable results and let the reader check
-  the match. Errors and throttling are not treated as empty results.
-  This handles `The nights are quiet in Tehran`, whose API work title omits
-  the initial `The` (`/works/OL42426263W`), without a book-specific exception.
+- Open Library Search API, on explicit submit, with an optional Author field.
+  Search `title_suggest` as a quoted phrase first: this avoids the stemming and
+  author-name popularity that bury recent novels in general `q` results.
+  Request up to 50 candidates and show up to 20 relevant results. Rank literal
+  exact titles first, then article-insensitive titles, subtitles, and title/author
+  token matches. Repeated words count separately; `Disappearers` does not match
+  `Disappearing`. Prefer a cover when equally ranked duplicate work records exist,
+  but never automatically merge works or choose a rating target.
+- If no relevant candidates remain, retry title variants without an initial
+  article/common connecting words, then general title/author search. At most four
+  queries, paced to one request per second, with cancellation, timeout and an
+  in-memory cache keyed by both query and author. HTTP errors do not trigger
+  broader searches. ISBNs use the ISBN filter directly. Author filtering is also
+  checked against returned authors. No external API key or new SQL is needed.
+- Live API regressions verified: `John of John` by Douglas Stuart
+  (`/works/OL45691929W`, cover 15234094); `The Disappearers` by Marlon James
+  (`/works/OL45862992W`, cover 15243723); article retry for
+  `The nights are quiet in Tehran` (`/works/OL42426263W`).
 - Each work has our own `books.id` and a unique Open Library work ID. Exact work
   IDs are reused; duplicate works in Open Library still require later review.
 - `book_progress` stores each account's half-point 0.5–10 score, reading format,
