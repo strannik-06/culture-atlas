@@ -5,7 +5,7 @@
  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const today=()=>{const d=new Date();return [d.getFullYear(),String(d.getMonth()+1).padStart(2,'0'),String(d.getDate()).padStart(2,'0')].join('-');};
  const imagePath=p=>typeof p==='string'&&/^\/[a-zA-Z0-9_./-]+$/.test(p)?'https://image.tmdb.org/t/p/w185'+p:null;
- let client,user=null,generation=0,request=0,type='movie',hooks={},cards=new Map(),searchBody=null,page=0,totalPages=0,searchBusy=false;
+ let client,user=null,generation=0,request=0,type='movie',hooks={},cards=new Map(),peopleSeen=new Set(),searchBody=null,page=0,totalPages=0,searchBusy=false;
  let picker,active=null,preview=null;
  const status=s=>$('media-status').textContent=s;
  const alive=(turn,serial)=>turn===generation&&serial===request;
@@ -26,17 +26,16 @@
   hooks.onCatalogue(works);
  }
  function closeStars(){if(active)active.element.querySelector('[data-stars]')?.setAttribute('aria-expanded','false');if(picker)picker.hidden=true;active=null;preview=null;}
- function reset(){closeStars();request++;cards.clear();searchBody=null;page=0;totalPages=0;searchBusy=false;$('media-results').replaceChildren();$('media-more').hidden=true;$('media-search-submit').disabled=false;}
+ function reset(){closeStars();request++;cards.clear();peopleSeen.clear();searchBody=null;page=0;totalPages=0;searchBusy=false;$('media-results').replaceChildren();$('media-more').hidden=true;$('media-search-submit').disabled=false;}
  function open(kind){
-  type=kind;reset();$('media-search-form').reset();$('media-mode').hidden=kind!=='movie';
-  $('media-heading').textContent=kind==='movie'?'Find a film':'Find a TV series';$('media-query').placeholder=kind==='movie'?'Film title or director…':'Series title…';
-  $('media-dialog').showModal();status(user?'Search by title, or choose Director to browse a filmography.':'Sign in using the account menu to search and save.');$('media-query').focus();
+  type=kind;reset();$('media-search-form').reset();
+  $('media-heading').textContent=kind==='movie'?'Find a film':'Find a TV series';$('media-query').placeholder=kind==='movie'?'Title or director, e.g. Dune 2021':'Series title and year…';
+  $('media-dialog').showModal();status(user?(kind==='movie'?'Search a title or director; add a release year if you like.':'Search a series title; add a release year if you like.'):'Sign in using the account menu to search and save.');$('media-query').focus();
  }
  function capture(card){
   if(!card.draft)return;
   card.draft.notes=card.element.querySelector('[data-notes]').value;
   card.draft.date=card.element.querySelector('[data-date]').value||null;
-  card.draft.scope=card.element.querySelector('[data-scope]')?.value||card.draft.scope;
  }
  function notice(card,message){card.element.querySelector('[data-status]').textContent=message;}
  function paint(value){
@@ -79,9 +78,7 @@
   const credits=m.director||(m.creators||[]).map(x=>x.name).join(', ')||'Credits not listed';
   card.element.querySelector('[data-credit]').textContent=credits;
   card.element.querySelector('[data-title]').textContent=m.title;
-  const badge=card.element.querySelector('[data-badge]');badge.textContent=p?.rating?'Rated '+Number(p.rating).toFixed(1)+'/10':card.data.existing?'In catalogue · Not rated':'Not rated';badge.classList.toggle('is-rated',!!p?.rating);
-  const scopeNeeded=type==='tv'&&season===null&&card.data.existing?.work_type!=='movie';
-  card.element.querySelector('[data-editor]').innerHTML=`${type==='tv'?`<label class="media-target">Rate<select data-season aria-label="Series or season for ${esc(m.title)}"><option value="">Whole series</option>${seasons.map(s=>`<option value="${s.number}" ${season===s.number?'selected':''}>${esc(s.name)}${s.date?' · '+esc(s.date.slice(0,4)):''}</option>`).join('')}</select></label>`:''}<form class="media-rating-form"><fieldset><legend class="sr-only">Your rating for ${esc(m.title)}</legend><div class="media-quick-fields"><button data-stars type="button" class="star-trigger" aria-label="Set personal rating for ${esc(m.title)}" aria-haspopup="dialog" aria-controls="media-star-picker" aria-expanded="false"></button><label>Watched<input data-date type="date" value="${esc(d.date||'')}" aria-label="Watched date for ${esc(m.title)}"></label><button data-save type="submit" class="action">${p?.rating?'Save changes':'Save rating'}</button></div>${scopeNeeded?`<label class="media-scope">Rating covers<select data-scope><option value="whole_work" ${d.scope==='whole_work'?'selected':''}>Whole work / series</option><option value="unspecified" ${d.scope==='unspecified'?'selected':''}>Seasons or parts not specified</option></select></label>`:''}<details class="media-notes"><summary>${p?.notes?'Notes (saved)':'Add notes'}</summary><label><span class="sr-only">Your notes for ${esc(m.title)}</span><textarea data-notes maxlength="10000" placeholder="Your thoughts…">${esc(d.notes)}</textarea></label></details></fieldset></form>`;
+  card.element.querySelector('[data-editor]').innerHTML=`${type==='tv'?`<label class="media-target">Rate<select data-season aria-label="Series or season for ${esc(m.title)}"><option value="">${d.scope==='unspecified'?'Series (scope not specified)':'Whole series'}</option>${seasons.map(s=>`<option value="${s.number}" ${season===s.number?'selected':''}>${esc(s.name)}${s.date?' · '+esc(s.date.slice(0,4)):''}</option>`).join('')}</select></label>`:''}<form class="media-rating-form"><fieldset><legend class="sr-only">Your rating for ${esc(m.title)}</legend><div class="media-quick-fields"><button data-stars type="button" class="star-trigger" aria-label="Set personal rating for ${esc(m.title)}" aria-haspopup="dialog" aria-controls="media-star-picker" aria-expanded="false"></button><label>Watched<input data-date type="date" value="${esc(d.date||'')}" aria-label="Watched date for ${esc(m.title)}"></label><button data-save type="submit" class="action">${p?.rating?'Save changes':'Save rating'}</button></div><details class="media-notes"><summary>${p?.notes?'Notes (saved)':'Add notes'}</summary><label><span class="sr-only">Your notes for ${esc(m.title)}</span><textarea data-notes maxlength="10000" placeholder="Your thoughts…">${esc(d.notes)}</textarea></label></details></fieldset></form>`;
   card.element.querySelector('[data-source]').href='https://www.themoviedb.org/'+type+'/'+card.id+(season?'/season/'+season:'');
   setRating(card,d.rating);notice(card,p?.rating?'Edit your existing rating here.':'Choose stars and save.');
   card.element.querySelector('[data-stars]').onclick=()=>openStars(card);
@@ -103,7 +100,7 @@
  function makeCard(result){
   const element=document.createElement('article');element.className='media-card';element.dataset.mediaId=result.id;
   const poster=imagePath(result.poster_path);
-  element.innerHTML=`<div class="media-poster">${poster?`<img src="${esc(poster)}" loading="lazy" alt="Poster for ${esc(result.title)}">`:'<span aria-hidden="true">'+esc((result.title||'?')[0])+'</span>'}</div><div class="media-card-body"><div class="media-card-heading"><h3 data-title>${esc(result.title)}</h3><span data-badge class="media-badge">Checking rating…</span></div><p class="meta media-identity">${esc(result.date?.slice(0,4)||'Year unknown')}${result.original_title&&result.original_title!==result.title?' · '+esc(result.original_title):''}</p><p data-credit class="meta">${esc(result.director||'Loading credits…')}</p><div data-editor></div><p data-status class="meta" role="status" aria-live="polite"></p><a data-source target="_blank" rel="noopener noreferrer" class="meta">TMDB ↗</a></div>`;
+  element.innerHTML=`<div class="media-poster">${poster?`<img src="${esc(poster)}" loading="lazy" alt="Poster for ${esc(result.title)}">`:'<span aria-hidden="true">'+esc((result.title||'?')[0])+'</span>'}</div><div class="media-card-body"><div class="media-card-heading"><h3 data-title>${esc(result.title)}</h3></div><p class="meta media-identity">${esc(result.date?.slice(0,4)||'Year unknown')}${result.original_title&&result.original_title!==result.title?' · '+esc(result.original_title):''}</p><p data-credit class="meta">${esc(result.director||'Loading credits…')}</p><div data-editor></div><p data-status class="meta" role="status" aria-live="polite"></p><a data-source target="_blank" rel="noopener noreferrer" class="meta">TMDB ↗</a></div>`;
   element.querySelector('img')?.addEventListener('error',e=>{e.target.hidden=true;});
   const card={id:result.id,element,season:null,busy:false,version:0,data:null,draft:null,drafts:new Map()};cards.set(result.id,card);$('media-results').append(element);return card;
  }
@@ -130,25 +127,29 @@
   if(searchBusy)return;if(!append)reset();const turn=generation,serial=request;searchBusy=true;$('media-search-submit').disabled=true;$('media-more').disabled=true;status('Searching…');
   try{
    const data=await call({...body,action:'search',type});if(!alive(turn,serial))return;searchBody=body;page=data.page||1;totalPages=data.total_pages||1;
-   if(data.kind==='people'){
-    for(const person of data.results){const article=document.createElement('article');article.className='media-person';const poster=imagePath(person.poster_path);article.innerHTML=`${poster?`<img src="${esc(poster)}" alt="${esc(person.title)}" loading="lazy">`:''}<div><h3>${esc(person.title)}</h3><p class="meta">${esc([person.department,...person.known_for||[]].filter(Boolean).join(' · '))}</p><button class="action" type="button">Show directed films</button></div>`;article.querySelector('button').onclick=()=>search({mode:'director',person_id:person.id,year:$('media-year').value||null,page:1});$('media-results').append(article);}
-    status(data.results.length?'Choose the director to see their films.':'No people found. Try another spelling.');
-   }else{
-    const list=data.results.filter(r=>!cards.has(r.id)).map(makeCard);status(data.results.length?(data.director?'Films directed by '+data.director+'. ':'')+'Rate films directly below. Each card saves separately.':'No results. Try another title or remove the year.');
-    void hydrate(list,turn,serial);
+   const list=[];
+   for(const result of data.results){
+    if(data.kind==='people'||result.kind==='person'){
+     if(peopleSeen.has(result.id))continue;peopleSeen.add(result.id);
+     const person=result,article=document.createElement('article');article.className='media-person';const poster=imagePath(person.poster_path);
+     article.innerHTML=`${poster?`<img src="${esc(poster)}" alt="${esc(person.title)}" loading="lazy">`:''}<div><h3>${esc(person.title)}</h3><p class="meta">${esc([person.department,...person.known_for||[]].filter(Boolean).join(' · '))}</p><button class="action" type="button">Show directed films</button></div>`;
+     article.querySelector('button').onclick=()=>search({mode:'director',person_id:person.id,year:data.year||body.year||null,page:1});$('media-results').append(article);
+    }else if(!cards.has(result.id))list.push(makeCard(result));
    }
+   status(data.results.length?(data.director?'Films directed by '+data.director+'. ':'')+(type==='movie'?'Rate a film below, or choose a director to browse their films.':'Rate the series or a season below.'):'No results. Try another spelling or remove the year.');
+   void hydrate(list,turn,serial);
    $('media-more').hidden=page>=totalPages;
   }catch(e){if(alive(turn,serial))status(e.message);}finally{if(alive(turn,serial)){searchBusy=false;$('media-search-submit').disabled=false;$('media-more').disabled=false;}}
  }
  function init(c,callbacks){
   client=c;hooks=callbacks;const dialog=document.createElement('dialog');dialog.id='media-dialog';dialog.setAttribute('aria-labelledby','media-heading');
-  dialog.innerHTML='<button id="media-close" type="button" class="action">Close</button><h2 id="media-heading"></h2><form id="media-search-form" class="media-search-fields"><select id="media-mode" aria-label="Search by"><option value="title">Title</option><option value="director">Director</option></select><input id="media-query" type="search" required minlength="2" maxlength="200" placeholder="Title…" aria-label="Film, TV title or director"><input id="media-year" type="number" min="1800" max="2999" placeholder="Year" aria-label="Release year (optional)"><button id="media-search-submit" type="submit" class="action">Search</button></form><p id="media-status" role="status" aria-live="polite"></p><div id="media-results"></div><button id="media-more" type="button" class="action" hidden>Show more results</button><p class="meta media-attribution"><a href="https://www.themoviedb.org" target="_blank" rel="noopener noreferrer"><img src="assets/tmdb-logo.svg" width="80" alt="TMDB"></a> This product uses the TMDB API but is not endorsed or certified by TMDB.</p>';
+  dialog.innerHTML='<button id="media-close" type="button" class="action">Close</button><h2 id="media-heading"></h2><form id="media-search-form" class="media-search-fields"><input id="media-query" type="search" required minlength="2" maxlength="200" placeholder="Title…" aria-label="Film, TV title or director"><button id="media-search-submit" type="submit" class="action">Search</button></form><p id="media-status" role="status" aria-live="polite"></p><div id="media-results"></div><button id="media-more" type="button" class="action" hidden>Show more results</button><p class="meta media-attribution"><a href="https://www.themoviedb.org" target="_blank" rel="noopener noreferrer"><img src="assets/tmdb-logo.svg" width="80" alt="TMDB"></a> This product uses the TMDB API but is not endorsed or certified by TMDB.</p>';
   document.body.append(dialog);initStars(dialog);
   for(const[k,container,label]of [['movie','#cinema-area .film-subnav','Add film'],['tv','#tv-view .film-subnav','Add series']]){const b=document.createElement('button');b.type='button';b.className='film-subtab';b.textContent=label;b.onclick=()=>open(k);document.querySelector(container)?.append(b);}
   $('media-close').onclick=()=>{dialog.close();reset();};dialog.addEventListener('cancel',reset);
-  $('media-search-form').onsubmit=e=>{e.preventDefault();search({mode:type==='movie'?$('media-mode').value:'title',query:$('media-query').value,year:$('media-year').value||null,page:1});};
+  $('media-search-form').onsubmit=e=>{e.preventDefault();search({mode:'smart',query:$('media-query').value,page:1});};
   $('media-more').onclick=()=>search({...searchBody,page:page+1},true);
-  $('media-mode').onchange=()=>{reset();$('media-query').placeholder=$('media-mode').value==='director'?'Director name…':'Film title…';};
+
   if(client)loadCatalogue().catch(e=>console.warn(e.message));
  }
  function setSession(next){user=next;generation++;reset();status(user?'Ready to search.':'Sign in to search and save.');}
