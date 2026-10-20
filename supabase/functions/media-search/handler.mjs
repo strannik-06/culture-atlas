@@ -1,5 +1,12 @@
 // Dependency-free handler, also exercised under Node with mocked HTTP services.
 class SafeError extends Error {}
+export function parseSearchQuery(input){
+ const original=input.trim().replace(/\s+/g,' '),match=original.match(/^(.*?)\s+\(?((?:18|19|20|21)\d{2})\)?$/);
+ return match&&match[1].trim()?{query:match[1].trim(),year:match[2],original}:{query:original,year:null,original};
+}
+const normal=s=>String(s??'').normalize('NFKD').replace(/\p{M}/gu,'').toLowerCase().replace(/[^\p{L}\p{N}]+/gu,' ').trim();
+const work=x=>({kind:'work',id:x.id,title:x.title||x.name,original_title:x.original_title||x.original_name,date:x.release_date||x.first_air_date,poster_path:x.poster_path});
+const person=x=>({kind:'person',id:x.id,title:x.name,poster_path:x.profile_path,department:x.known_for_department,known_for:(x.known_for||[]).map(w=>w.title||w.name).filter(Boolean).slice(0,3)});
 export function createHandler(env, fetcher=fetch) {
  const base=env('SUPABASE_URL'),anon=env('SUPABASE_ANON_KEY'),service=env('SUPABASE_SERVICE_ROLE_KEY');
  const origin=env('MEDIA_ALLOWED_ORIGIN')||'https://strannik-06.github.io';
@@ -22,7 +29,7 @@ export function createHandler(env, fetcher=fetch) {
    const tmdb=async(path,query={})=>{const token=env('TMDB_READ_ACCESS_TOKEN'),key=env('TMDB_API_KEY');if(!token&&!key)throw new SafeError('Film and TV search needs its TMDB server key configured.');const url=new URL('https://api.themoviedb.org/3/'+path);for(const[k,v]of Object.entries(query))url.searchParams.set(k,String(v));if(!token)url.searchParams.set('api_key',key);const r=await fetcher(url,{headers:token?{Authorization:'Bearer '+token}:{},signal:AbortSignal.timeout(15000)});if(!r.ok)throw new SafeError(r.status===429?'Search is busy. Try again shortly.':'TMDB could not load this title. Try again.');return r.json();};
    if(body.action==='search'){
     const page=body.page??1,mode=body.mode??'title';
-    if(!Number.isSafeInteger(page)||page<1||page>500||!['title','director'].includes(mode)||mode==='director'&&type!=='movie')return respond({error:'Invalid search mode or page.'},400);
+    if(!Number.isSafeInteger(page)||page<1||page>500||!['title','director','smart'].includes(mode)||mode==='director'&&type!=='movie')return respond({error:'Invalid search mode or page.'},400);
     if(body.year&&!/^\d{4}$/.test(String(body.year)))return respond({error:'Use a four-digit year.'},400);
     const validQuery=typeof body.query==='string'&&body.query.trim().length>=2&&body.query.length<=200;
     if(mode==='director'&&body.person_id!=null){
@@ -35,6 +42,38 @@ export function createHandler(env, fetcher=fetch) {
      return respond({kind:'works',director:person.name,page,total_pages:Math.max(1,Math.ceil(films.length/20)),results:films.slice((page-1)*20,page*20).map(x=>({id:x.id,title:x.title,original_title:x.original_title,date:x.release_date,poster_path:x.poster_path,director:person.name}))});
     }
     if(!validQuery)return respond({error:'Enter a title or director name of 2–200 characters.'},400);
+    if(mode==='smart'){
+     const parsed=parseSearchQuery(body.query),query={query:parsed.query,include_adult:false,page};
+     if(parsed.year)query[type==='movie'?'primary_release_year':'first_air_date_year']=parsed.year;
+     const [titles,people,literal]=await Promise.all([
+      tmdb('search/'+type,query),
+      type==='movie'?tmdb('search/person',{query:parsed.query,include_adult:false,page}):Promise.resolve({results:[],total_pages:1}),
+      parsed.year?tmdb('search/'+type,{query:parsed.original,include_adult:false,page}):Promise.resolve({results:[]})
+     ]);
+     // Numeric titles such as Blade Runner 2049 must not become a year filter.
+     const exactLiteral=(literal.results||[]).some(x=>normal(x.title||x.name)===normal(parsed.original));
+     let films=(exactLiteral?literal.results:titles.results)||[],names=people.results||[],year=exactLiteral?null:parsed.year;
+     if(type==='movie'&&page===1&&!films.length&&!names.some(p=>normal(parsed.query).split(' ').every(w=>normal(p.name).split(' ').includes(w)))){
+      // A combined title + director query: bounded name probes, then genuine directing credits.
+      const words=parsed.query.split(' '),terms=new Set();
+      if(words.length>=2&&words.length<=8)for(let n=1;n<=Math.min(3,words.length-1);n++){terms.add(words.slice(0,n).join(' '));terms.add(words.slice(-n).join(' '));}
+      const probes=await Promise.all([...terms].map(term=>tmdb('search/person',{query:term,include_adult:false}).catch(()=>({results:[]}))));
+      const seen=new Set(),candidates=[...names,...probes.flatMap(p=>p.results||[])].filter(p=>{
+       const matched=normal(parsed.query).split(' ').filter(w=>normal(p.name).split(' ').includes(w));
+       if(seen.has(p.id)||!matched.length||matched.length===words.length||p.known_for_department!=='Directing'&&matched.length<2)return false;
+       seen.add(p.id);return true;
+      }).sort((a,b)=>normal(b.name).split(' ').filter(w=>normal(parsed.query).split(' ').includes(w)).length-normal(a.name).split(' ').filter(w=>normal(parsed.query).split(' ').includes(w)).length).slice(0,2);
+      const matched=await Promise.all(candidates.map(async p=>{
+       const remaining=normal(parsed.query).split(' ').filter(w=>!normal(p.name).split(' ').includes(w));
+       const credits=await tmdb('person/'+p.id+'/movie_credits');
+       return {person:p,films:(credits.crew||[]).filter(x=>x.job==='Director'&&!x.adult&&(!year||String(x.release_date||'').slice(0,4)===year)&&remaining.every(w=>normal((x.title||'')+' '+(x.original_title||'')).split(' ').includes(w)))};
+      }));
+      names=matched.filter(x=>x.films.length).map(x=>x.person);films=matched.flatMap(x=>x.films);
+     }
+     const seenFilms=new Set(),works=films.filter(x=>{if(seenFilms.has(x.id))return false;seenFilms.add(x.id);return true;}).slice(0,20).map(work);
+     const directors=names.slice(0,5).map(person),nameQuery=names.some(p=>normal(parsed.query).split(' ').every(w=>normal(p.name).split(' ').includes(w)));
+     return respond({kind:'mixed',year,page,total_pages:Math.min(500,Math.max((exactLiteral?literal:titles).total_pages||1,people.total_pages||1)),results:nameQuery?[...directors,...works]:[...works,...directors]});
+    }
     if(mode==='director'){
      const result=await tmdb('search/person',{query:body.query.trim(),include_adult:false,page});
      return respond({kind:'people',page,total_pages:Math.min(500,result.total_pages||1),results:(result.results||[]).slice(0,20).map(x=>({id:x.id,title:x.name,poster_path:x.profile_path,department:x.known_for_department,known_for:(x.known_for||[]).map(w=>w.title||w.name).filter(Boolean).slice(0,3)}))});

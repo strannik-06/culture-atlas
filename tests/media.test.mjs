@@ -4,7 +4,7 @@ import fs from 'node:fs/promises';
 import {PGlite} from '@electric-sql/pglite';
 import {Window} from 'happy-dom';
 import {spawnSync} from 'node:child_process';
-import {createHandler} from '../supabase/functions/media-search/handler.mjs';
+import {createHandler,parseSearchQuery} from '../supabase/functions/media-search/handler.mjs';
 const read=p=>fs.readFile(new URL('../'+p,import.meta.url),'utf8');
 const user='00000000-0000-0000-0000-000000000001',other='00000000-0000-0000-0000-000000000002';
 
@@ -73,9 +73,9 @@ async function setupMediaUI(){
  const results=[{id:10,title:'Rated film',date:'2026-01-01',poster_path:'/poster.jpg'},{id:11,title:'Unrated film',date:'2025-01-01'}];
  const client={from:()=>({select(){return this;},eq(){return this;},order(){return this;},range:async()=>({data:[],error:null})}),functions:{invoke:async(name,{body})=>{
   writes.push(body);if(state.pending)return state.pending;
-  if(body.action==='search')return {data:body.mode==='director'&&!body.person_id?{kind:'people',results:[{id:22,title:'A director',department:'Directing',known_for:['Film A']}]}:{kind:'works',page:body.page||1,total_pages:2,results:body.page===2?[{id:12,title:'Next page film'}]:results}};
+  if(body.action==='search')return {data:body.mode==='smart'&&body.query==='A director'?{kind:'mixed',results:[{kind:'person',id:22,title:'A director',department:'Directing',known_for:['Film A']},...results]}:{kind:'works',page:body.page||1,total_pages:2,results:body.page===2?[{id:12,title:'Next page film'}]:results}};
   if(body.action==='details'&&state.pendingDetails)return state.pendingDetails;
-  if(body.action==='details')return {data:{metadata:{title:body.type==='tv'?'TV show':'Film '+body.id,year:2026,director:'A director'},seasons:[{number:1,name:'Season 1'},{number:2,name:'Season 2'}],existing:body.id===10?{work_type:body.type}:null,progress:body.id===10&&!body.season?{rating:7,notes:'existing private note',watched_date:null,updated_at:'v1'}:null}};
+  if(body.action==='details')return {data:{metadata:{title:body.type==='tv'?'TV show':'Film '+body.id,year:2026,director:'A director'},seasons:[{number:1,name:'Season 1'},{number:2,name:'Season 2'}],existing:body.id===10?{work_type:body.type}:null,progress:body.id===10&&!body.season?{rating:7,notes:'existing private note',watched_date:null,rating_scope:'unspecified',updated_at:'v1'}:null}};
   if(state.fail)return {error:{context:{json:async()=>({error:typeof state.fail==='string'?state.fail:'Server unavailable'})}}};
   state.saved.push(body);return {data:{work_key:body.type==='tv'?'tv:'+body.id+(body.season?':season:'+body.season:''):'movie:1',progress:{rating:body.rating,notes:body.notes,watched_date:body.date,rating_scope:body.scope,updated_at:'v2'}}};
  }}};
@@ -95,14 +95,14 @@ test('UI: cards show posters, directors and existing ratings; star saves keep ot
  const h=await setupMediaUI(),{w,d,state,writes,settle,search,card,submit,rate}=h;
  try{
   await search();const rated=card(10),fresh=card(11);
-  assert.equal(d.querySelectorAll('.media-card').length,2);assert.match(rated.querySelector('img').src,/image.tmdb.org/);assert.equal(rated.querySelector('[data-credit]').textContent,'A director');assert.match(rated.querySelector('[data-badge]').textContent,/Rated 7.0/);
+  assert.equal(d.querySelectorAll('.media-card').length,2);assert.match(rated.querySelector('img').src,/image.tmdb.org/);assert.equal(rated.querySelector('[data-credit]').textContent,'A director');assert.equal(rated.querySelector('[data-badge]'),null);assert.match(rated.querySelector('[data-stars]').textContent,/7.0/);
   assert.equal(rated.querySelector('[data-notes]').value,'existing private note');assert.equal(rated.querySelector('details').open,false);
   assert.equal(rated.querySelector('[data-date]').value,''); // An old unknown viewing date is preserved.
   assert.equal(d.querySelectorAll('[data-season], [data-scope], select[data-rating]').length,0);
   const now=new Date(),today=[now.getFullYear(),String(now.getMonth()+1).padStart(2,'0'),String(now.getDate()).padStart(2,'0')].join('-');assert.equal(fresh.querySelector('[data-date]').value,today);
   fresh.querySelector('[data-notes]').value='Other draft';rate(fresh,8.5);
   rate(rated,7.5);state.fail=true;submit(rated);await settle();assert.equal(rated.querySelector('[data-notes]').value,'existing private note');assert.equal(writes.at(-1).expected_updated_at,'v1');assert.equal(rated.querySelector('fieldset').disabled,false);
-  state.fail=false;submit(rated);await settle();assert.equal(state.refreshes,1);assert.equal(fresh.querySelector('[data-notes]').value,'Other draft');assert.match(fresh.querySelector('[data-stars]').textContent,/8.5/);assert.match(rated.querySelector('[data-badge]').textContent,/Rated 7.5/);
+  state.fail=false;submit(rated);await settle();assert.equal(state.refreshes,1);assert.equal(fresh.querySelector('[data-notes]').value,'Other draft');assert.match(fresh.querySelector('[data-stars]').textContent,/8.5/);assert.match(rated.querySelector('[data-stars]').textContent,/7.5/);
   fresh.querySelector('[data-date]').value='2026-10-01';fresh.querySelector('[data-date]').dispatchEvent(new w.Event('input'));submit(fresh);await settle();assert.equal(state.saved.at(-1).date,'2026-10-01');assert.equal(state.saved.at(-1).notes,'Other draft');assert.equal(state.saved.at(-1).rating,8.5);
   d.querySelector('#media-more').click();await settle();assert.equal(d.querySelectorAll('.media-card').length,3);assert.equal(rated.querySelector('[data-notes]').value,'existing private note');
   let resolve;state.pending=new Promise(r=>{resolve=r;});d.querySelector('#media-search-form').dispatchEvent(new w.Event('submit',{cancelable:true}));w.CultureMedia.setSession({id:other});resolve({data:{results:[{id:99,title:'Old account'}]}});await settle();assert.equal(d.querySelector('#media-results').children.length,0);assert.equal(d.querySelector('[data-notes]'),null);
@@ -111,11 +111,11 @@ test('UI: cards show posters, directors and existing ratings; star saves keep ot
 test('UI: TV-only controls, independent season drafts, explicit director selection and pagination',async()=>{
  const h=await setupMediaUI(),{w,d,state,writes,settle,search,card,submit,rate}=h;
  try{
-  await search('tv');const tv=card(10);assert.ok(tv.querySelector('[data-season]'));assert.ok(tv.querySelector('[data-scope]'));
+  await search('tv');const tv=card(10);assert.ok(tv.querySelector('[data-season]'));assert.equal(tv.querySelector('[data-scope]'),null);assert.match(tv.querySelector('[data-season] option').textContent,/scope not specified/);
   tv.querySelector('[data-notes]').value='Whole-series draft';rate(tv,8);
   tv.querySelector('[data-season]').value='2';tv.querySelector('[data-season]').dispatchEvent(new w.Event('change'));await settle();assert.equal(tv.querySelector('[data-scope]'),null);assert.equal(tv.querySelector('[data-notes]').value,'');rate(tv,9);submit(tv);await settle();assert.equal(state.saved.at(-1).season,2);assert.equal(state.saved.at(-1).rating,9);
-  tv.querySelector('[data-season]').value='';tv.querySelector('[data-season]').dispatchEvent(new w.Event('change'));await settle();assert.equal(tv.querySelector('[data-notes]').value,'Whole-series draft');assert.match(tv.querySelector('[data-stars]').textContent,/8.0/);
-  d.querySelector('#media-close').click();d.querySelector('#cinema-area button').click();d.querySelector('#media-mode').value='director';d.querySelector('#media-query').value='A director';d.querySelector('#media-search-form').dispatchEvent(new w.Event('submit',{cancelable:true}));await settle();assert.match(d.querySelector('.media-person').textContent,/A director/);assert.equal(d.querySelector('.media-card'),null);
+  tv.querySelector('[data-season]').value='';tv.querySelector('[data-season]').dispatchEvent(new w.Event('change'));await settle();assert.equal(tv.querySelector('[data-notes]').value,'Whole-series draft');assert.match(tv.querySelector('[data-stars]').textContent,/8.0/);submit(tv);await settle();assert.equal(state.saved.at(-1).scope,'unspecified');
+  d.querySelector('#media-close').click();d.querySelector('#cinema-area button').click();assert.equal(d.querySelector('#media-mode'),null);assert.equal(d.querySelector('#media-year'),null);d.querySelector('#media-query').value='A director';d.querySelector('#media-search-form').dispatchEvent(new w.Event('submit',{cancelable:true}));await settle();assert.match(d.querySelector('.media-person').textContent,/A director/);assert.equal(d.querySelectorAll('.media-card').length,2);
   d.querySelector('.media-person button').click();await settle();assert.ok(writes.some(x=>x.action==='search'&&x.person_id===22));assert.equal(d.querySelectorAll('.media-card').length,2);
   d.querySelector('#media-more').click();await settle();assert.equal(writes.filter(x=>x.action==='search').at(-1).person_id,22);assert.equal(writes.filter(x=>x.action==='search').at(-1).page,2);
  }finally{await w.happyDOM.close();}
@@ -142,4 +142,27 @@ test('Edge: director search lists only directed films, deduplicates credits and 
  assert.equal((await call({mode:'director',query:'Director'})).data.kind,'people');
  const films=await call({mode:'director',person_id:22,year:2026});assert.equal(films.data.results.length,1);assert.equal(films.data.results[0].title,'Directed');assert.equal(films.data.director,'Director');
  assert.equal((await call({mode:'director',person_id:'22'})).status,400);assert.equal((await call({mode:'director',person_id:22,type:'tv'})).status,400);assert.equal((await call({query:'Title',page:501})).status,400);
+});
+
+test('Smart search: one query combines films/directors, parses years, and keeps numeric film titles intact',async()=>{
+ const calls=[];
+ const person={id:22,name:'Steven Soderbergh',known_for_department:'Directing'};
+ const film={id:10,title:'Black Bag',release_date:'2025-03-12'};
+ const handler=createHandler(k=>({SUPABASE_URL:'https://example.supabase.co',SUPABASE_ANON_KEY:'anon',SUPABASE_SERVICE_ROLE_KEY:'service',TMDB_API_KEY:'key'})[k],async raw=>{
+  const url=new URL(raw);calls.push(url);
+  if(url.pathname.includes('/auth/'))return Response.json({id:user});
+  const q=url.searchParams.get('query');
+  if(url.pathname.endsWith('search/person'))return Response.json({results:['Steven Soderbergh','Soderbergh'].includes(q)?[person]:[],total_pages:1});
+  if(url.pathname.endsWith('movie_credits'))return Response.json({crew:[{...film,job:'Director'},{...film,job:'Director'},{id:33,title:'Black Bag',job:'Actor'},{id:34,title:'Other',job:'Director'}]});
+  if(url.pathname.endsWith('search/movie'))return Response.json({results:q==='Black Bag'?[film]:q==='Blade Runner 2049'?[{id:11,title:q,release_date:'2017-01-01'}]:q==='Steven Soderbergh'?[{id:12,title:'A documentary about Steven Soderbergh'}]:[],total_pages:1});
+  if(url.pathname.endsWith('search/tv'))return Response.json({results:[{id:13,name:'TV title',first_air_date:'2020-01-01'}],total_pages:1});
+  throw Error('Unexpected request');
+ });
+ const search=async(query,type='movie')=>{const r=await handler(new Request('https://edge.test',{method:'POST',headers:{Authorization:'Bearer valid'},body:JSON.stringify({action:'search',mode:'smart',type,query})}));assert.equal(r.status,200);return r.json();};
+ const dated=await search('Black Bag 2025');assert.equal(dated.year,'2025');assert.equal(dated.results[0].title,'Black Bag');assert.ok(calls.some(u=>u.searchParams.get('primary_release_year')==='2025'));
+ const mixed=await search('Steven Soderbergh');assert.equal(mixed.results[0].kind,'person');assert.ok(mixed.results.some(x=>x.kind==='work'));
+ const combined=await search('Black Bag Soderbergh 2025');assert.equal(combined.results.filter(x=>x.kind==='work').length,1);assert.equal(combined.results.find(x=>x.kind==='work').id,10);assert.equal(combined.results.find(x=>x.kind==='person').id,22);
+ const numbered=await search('Blade Runner 2049');assert.equal(numbered.year,null);assert.equal(numbered.results[0].title,'Blade Runner 2049');
+ assert.equal(parseSearchQuery('1984').year,null);assert.equal(parseSearchQuery('2001 A Space Odyssey').year,null);assert.equal(parseSearchQuery('Dune (2021)').year,'2021');
+ const tv=await search('TV title 2020','tv');assert.equal(tv.results[0].title,'TV title');assert.ok(calls.some(u=>u.searchParams.get('first_air_date_year')==='2020'));
 });
