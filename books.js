@@ -133,7 +133,7 @@
   function card(book, result=false) {
     const p=progress.get(book.open_library_work_id), known=books.find(b=>b.open_library_work_id===book.open_library_work_id);
     const cover=Number.isSafeInteger(Number(book.cover_id)) && Number(book.cover_id)>0;
-    return `<article class="film book-card"><div class="poster"><span class="cover-fallback">Cover unavailable</span>${cover?`<img loading="lazy" src="https://covers.openlibrary.org/b/id/${Number(book.cover_id)}-M.jpg?default=false" alt="Cover of ${escape(book.title)}">`:''}</div><div class="body"><h3>${escape(book.title)}</h3>${result&&book.search_match?`<p class="meta">${escape(book.search_match)}</p>`:''}<p class="meta">${escape(book.authors.join(', '))}</p><p class="meta">${escape(book.first_publish_year??'Year unavailable')}</p>${p?`<p class="book-score">Your rating: ${escape(p.rating)}/10</p><p class="meta">${escape(formats[p.reading_format]||formats.unknown)}</p>${!result&&p.notes?`<p class="book-notes">${escape(p.notes)}</p>`:''}`:''}<a class="meta" href="https://openlibrary.org${escape(book.open_library_work_id)}" target="_blank" rel="noopener noreferrer">Open Library ↗</a><button type="button" class="action" data-book-work="${escape(book.open_library_work_id)}">${p?'Edit rating':known?'Rate book':'Select & rate'}</button></div></article>`;
+    return `<article class="film book-card"><div class="poster"><span class="cover-fallback">Cover unavailable</span>${cover?`<img loading="lazy" src="https://covers.openlibrary.org/b/id/${Number(book.cover_id)}-M.jpg?default=false" alt="Cover of ${escape(book.title)}">`:''}</div><div class="body"><h3><a href="#/books/${escape(book.open_library_work_id.split('/').pop())}">${escape(book.title)}</a></h3>${result&&book.search_match?`<p class="meta">${escape(book.search_match)}</p>`:''}<p class="meta">${escape(book.authors.join(', '))}</p><p class="meta">${escape(book.first_publish_year??'Year unavailable')}</p>${p?`<p class="book-score">Your rating: ${escape(p.rating)}/10</p><p class="meta">${escape(formats[p.reading_format]||formats.unknown)}</p>${!result&&p.notes?`<p class="book-notes">${escape(p.notes)}</p>`:''}`:''}<a class="meta" href="https://openlibrary.org${escape(book.open_library_work_id)}" target="_blank" rel="noopener noreferrer">Open Library ↗</a><button type="button" class="action" data-book-work="${escape(book.open_library_work_id)}">${p?'Edit rating':known?'Rate book':'Select & rate'}</button></div></article>`;
   }
   function render() {
     const rated=books.filter(b=>progress.has(b.open_library_work_id)).sort((a,b)=>new Date(progress.get(b.open_library_work_id).updated_at)-new Date(progress.get(a.open_library_work_id).updated_at));
@@ -165,6 +165,7 @@
   }
   function choose(workId) {
     if(saving) return;
+    if(window.CultureRouter?.openBook(workId))return;
     closeBookStars();
     selected=books.find(b=>b.open_library_work_id===workId)||results.find(b=>b.open_library_work_id===workId);
     if(!selected) return;
@@ -262,6 +263,7 @@
       progress=new Map(ratings.filter(p=>byId.has(p.book_id)).map(p=>[byId.get(p.book_id),p]));
       message('book-sync-status',user?'Books and ratings synced to your account.':'Sign in using Account to save ratings, reading format and notes.');
       render();
+      window.CultureRouter?.refresh({reloadEntity:true});
     } catch(error) { if(version===generation) message('book-sync-status',errorMessage(error)); }
     finally { if(version===generation) loading=false; }
   }
@@ -284,7 +286,7 @@
       books=[data.book,...books.filter(b=>b.id!==data.book.id)];
       progress.set(data.book.open_library_work_id,data.progress);
       message('book-sync-status',`Saved “${data.book.title}” to the catalogue and your ratings.`);
-      saving=false; closeEditor(); switchTab('ratings');
+      saving=false; closeEditor(); switchTab('ratings');window.CultureRouter?.navigate({section:'books',view:'ratings'});
     } catch(error) {
       if(version===generation) message('book-save-status',`Could not save: ${errorMessage(error)} Your form has been kept.`);
     } finally {
@@ -293,6 +295,25 @@
       if(version!==generation) closeEditor();
     }
   }
+  const workLoads=new Map();
+  // A shared URL can name a book which has not been saved to our catalogue yet.
+  // Resolve public metadata only; selecting or opening a URL never saves a rating.
+  async function ensureWork(workId){
+    if(workLoads.has(workId))return workLoads.get(workId);
+    const pending=(async()=>{
+      if(!workPattern.test(workId))return;
+      const response=await fetch('https://openlibrary.org'+workId+'.json');if(!response.ok)throw Error('Book metadata is unavailable.');
+      const doc=await response.json();if(!doc.title||!Array.isArray(doc.authors))return;
+      const authors=await Promise.all(doc.authors.slice(0,10).map(async item=>{
+        const key=item.author?.key;if(!/^\/authors\/OL\d+A$/.test(key||''))return null;
+        const response=await fetch('https://openlibrary.org'+key+'.json');if(!response.ok)return null;
+        return (await response.json()).name;
+      }));
+      const names=authors.filter(name=>typeof name==='string'&&name.trim());if(!names.length)return;
+      const book={open_library_work_id:workId,title:doc.title,authors:names,cover_id:doc.covers?.find(id=>Number.isSafeInteger(id)&&id>0)||null,first_publish_year:null};
+      if(!results.some(b=>b.open_library_work_id===workId))results.push(book);
+    })();workLoads.set(workId,pending);return pending;
+  }
   function init(supabaseClient) {
     client=supabaseClient;
     // Account UI must remain reachable while the Films area is hidden.
@@ -300,7 +321,7 @@
     initBookStars();
     $('book-search-form').addEventListener('submit',search);
     $('book-rating-form').addEventListener('submit',save);
-    $('book-cancel').addEventListener('click',closeEditor);
+    $('book-cancel').addEventListener('click',()=>{closeEditor();window.CultureRouter?.closeDetail('book');});
     $('books-view').addEventListener('click',event=>{
       const tab=event.target.closest('[data-book-tab]'); if(tab) { if(!saving) { closeEditor();switchTab(tab.dataset.bookTab); }return; }
       const choice=event.target.closest('[data-book-work]'); if(choice) choose(choice.dataset.bookWork);
@@ -316,5 +337,8 @@
     });
     render();
   }
-  window.CultureBooks={init,setSession,normaliseBook,validRating,rankBooks};
+  window.CultureBooks={init,setSession,normaliseBook,validRating,rankBooks,
+    route:{switchTab,closeEditor,choose,ensureWork,has:id=>books.some(b=>b.open_library_work_id===id)||results.some(b=>b.open_library_work_id===id),title:()=>selected?.title,
+      getVisible:()=>visible,setVisible:n=>{visible=n;render();},search:()=>search({preventDefault(){}})}
+  };
 })();
