@@ -170,10 +170,10 @@ test('UI shows exact season/installment scope and honest manual reference links'
   const card=key=>d.querySelector(`[data-tv-edit="${key}"]`).closest('article');
   d.querySelector('#tv-kind').value='season';d.querySelector('#tv-kind').dispatchEvent(new w.Event('change'));
   assert.match(card('tv:1455:season:1').textContent,/Season 1 · 26 episodes/);
-  assert.match(card('tv:1455:season:2').querySelector('a').href,/\/tv\/1455\/season\/2$/);
+  assert.match(card('tv:1455:season:2').querySelector('.sources a').href,/\/tv\/1455\/season\/2$/);
   d.querySelector('#tv-kind').value='';d.querySelector('#tv-kind').dispatchEvent(new w.Event('change'));
-  assert.match(card('tv:movie:126850').querySelector('a').href,/\/movie\/126850$/);
-  const manual=card('tv:imdb:tt4324832');assert.match(manual.querySelector('a').href,/imdb.com\/title\/tt4324832/);assert.doesNotMatch(manual.innerHTML,/themoviedb.org/);
+  assert.match(card('tv:movie:126850').querySelector('.sources a').href,/\/movie\/126850$/);
+  const manual=card('tv:imdb:tt4324832');assert.match(manual.querySelector('.sources a').href,/imdb.com\/title\/tt4324832/);assert.doesNotMatch(manual.innerHTML,/themoviedb.org/);
   const opening=card('tv:local:good-night-little-ones-tatarskiy-opening');assert.match(opening.textContent,/Opening sequence/);assert.match(opening.textContent,/Aleksandr Tatarskiy/);assert.doesNotMatch(opening.innerHTML,/themoviedb.org/);
   d.querySelector('[data-tv-edit="tv:1455:season:1"]').click();assert.equal(d.querySelector('#tv-scope [value="whole_work"]').textContent,'Complete selected season');
   d.querySelector('[data-tv-edit="tv:movie:126850"]').click();assert.equal(d.querySelector('#tv-scope [value="whole_work"]').textContent,'This installment');

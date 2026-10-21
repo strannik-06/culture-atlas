@@ -6,7 +6,7 @@
  const today=()=>{const d=new Date();return [d.getFullYear(),String(d.getMonth()+1).padStart(2,'0'),String(d.getDate()).padStart(2,'0')].join('-');};
  const imagePath=p=>typeof p==='string'&&/^\/[a-zA-Z0-9_./-]+$/.test(p)?'https://image.tmdb.org/t/p/w185'+p:null;
  let client,user=null,generation=0,request=0,type='movie',hooks={},cards=new Map(),peopleSeen=new Set(),searchBody=null,page=0,totalPages=0,searchBusy=false;
- let picker,active=null,preview=null;
+ let picker,active=null,preview=null,routeSignature=null;
  const status=s=>$('media-status').textContent=s;
  const alive=(turn,serial)=>turn===generation&&serial===request;
  async function call(body){
@@ -26,8 +26,9 @@
   hooks.onCatalogue(works);
  }
  function closeStars(){if(active)active.element.querySelector('[data-stars]')?.setAttribute('aria-expanded','false');if(picker)picker.hidden=true;active=null;preview=null;}
- function reset(){closeStars();request++;cards.clear();peopleSeen.clear();searchBody=null;page=0;totalPages=0;searchBusy=false;$('media-results').replaceChildren();$('media-more').hidden=true;$('media-search-submit').disabled=false;}
+ function reset(){routeSignature=null;closeStars();request++;cards.clear();peopleSeen.clear();searchBody=null;page=0;totalPages=0;searchBusy=false;$('media-results').replaceChildren();$('media-more').hidden=true;$('media-search-submit').disabled=false;}
  function open(kind){
+  if(window.CultureRouter?.openSearch(kind))return;
   type=kind;reset();$('media-search-form').reset();
   $('media-heading').textContent=kind==='movie'?'Find a film':'Find a TV series';$('media-query').placeholder=kind==='movie'?'Title or director, e.g. Dune 2021':'Series title and year…';
   $('media-dialog').showModal();status(user?(kind==='movie'?'Search a title or director; add a release year if you like.':'Search a series title; add a release year if you like.'):'Sign in using the account menu to search and save.');$('media-query').focus();
@@ -124,7 +125,7 @@
   }}
  }
  async function search(body,append=false){
-  if(searchBusy)return;if(!append)reset();const turn=generation,serial=request;searchBusy=true;$('media-search-submit').disabled=true;$('media-more').disabled=true;status('Searching…');
+  if(searchBusy)return;if(!append){window.CultureRouter?.searchChanged(body);reset();routeSignature=JSON.stringify([type,body.mode==='director'?'':body.query||'',body.mode==='director'?body.person_id:0,body.year||null]);}const turn=generation,serial=request;searchBusy=true;$('media-search-submit').disabled=true;$('media-more').disabled=true;status('Searching…');
   try{
    const data=await call({...body,action:'search',type});if(!alive(turn,serial))return;searchBody=body;page=data.page||1;totalPages=data.total_pages||1;
    const list=[];
@@ -145,13 +146,21 @@
   client=c;hooks=callbacks;const dialog=document.createElement('dialog');dialog.id='media-dialog';dialog.setAttribute('aria-labelledby','media-heading');
   dialog.innerHTML='<button id="media-close" type="button" class="action">Close</button><h2 id="media-heading"></h2><form id="media-search-form" class="media-search-fields"><input id="media-query" type="search" required minlength="2" maxlength="200" placeholder="Title…" aria-label="Film, TV title or director"><button id="media-search-submit" type="submit" class="action">Search</button></form><p id="media-status" role="status" aria-live="polite"></p><div id="media-results"></div><button id="media-more" type="button" class="action" hidden>Show more results</button><p class="meta media-attribution"><a href="https://www.themoviedb.org" target="_blank" rel="noopener noreferrer"><img src="assets/tmdb-logo.svg" width="80" alt="TMDB"></a> This product uses the TMDB API but is not endorsed or certified by TMDB.</p>';
   document.body.append(dialog);initStars(dialog);
-  for(const[k,container,label]of [['movie','#cinema-area .film-subnav','Add film'],['tv','#tv-view .film-subnav','Add series']]){const b=document.createElement('button');b.type='button';b.className='film-subtab';b.textContent=label;b.onclick=()=>open(k);document.querySelector(container)?.append(b);}
-  $('media-close').onclick=()=>{dialog.close();reset();};dialog.addEventListener('cancel',reset);
+  for(const[k,container,label]of [['movie','#cinema-area .film-subnav','Add film'],['tv','#tv-view .film-subnav','Add series']]){const b=document.createElement('button');b.type='button';b.className='film-subtab';b.dataset.mediaType=k;b.textContent=label;b.onclick=()=>open(k);document.querySelector(container)?.append(b);}
+  $('media-close').onclick=()=>{if(window.CultureRouter)window.CultureRouter.closeSearch();else{dialog.close();reset();}};dialog.addEventListener('cancel',event=>{if(window.CultureRouter){event.preventDefault();window.CultureRouter.closeSearch();}else reset();});
   $('media-search-form').onsubmit=e=>{e.preventDefault();search({mode:'smart',query:$('media-query').value,page:1});};
   $('media-more').onclick=()=>search({...searchBody,page:page+1},true);
 
   if(client)loadCatalogue().catch(e=>console.warn(e.message));
  }
- function setSession(next){user=next;generation++;reset();status(user?'Ready to search.':'Sign in to search and save.');}
- window.CultureMedia={init,setSession};
+ function setSession(next){user=next;generation++;reset();status(user?'Ready to search.':'Sign in to search and save.');window.CultureRouter?.refresh();}
+ window.CultureMedia={init,setSession,route:{open,getType:()=>type,close:()=>{closeStars();$('media-dialog').close();reset();},
+  restore:params=>{const query=params.q||'',person=Number(params.director)||0;const signature=JSON.stringify([type,query,person,params.year||null]);
+   $('media-query').value=query;
+   if(user&&(query.length>=2||person)&&signature!==routeSignature){
+    if(searchBusy)reset();
+    search(person?{mode:'director',person_id:person,year:params.year||null,page:1}:{mode:'smart',query,page:1});
+   }
+  }
+ }};
 })();
