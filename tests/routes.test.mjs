@@ -15,7 +15,8 @@ async function boot(hash='',options={}){
  w.HTMLDialogElement.prototype.close=function(){this.open=false;this.dispatchEvent(new w.Event('close'));};
  const state={books:[],media:[],...options},calls=[];if(options.returnRoute)w.sessionStorage.setItem('culture-atlas:return-route',options.returnRoute);
  w.fetch=async url=>{calls.push(String(url));return {ok:true,json:async()=>({docs:[{key:'/works/OL42W',title:'A shared book',author_name:['Author']} ]})};};
- const client={from(table){let filter;const q={select(){return q;},order(){return q;},range(){return q;},in(){return q;},eq(k,v){filter=v;return q;},then(resolve,reject){return Promise.resolve({data:table==='books'?state.books:table==='media_catalogue'?state.media:[],error:null}).then(resolve,reject);}};return q;},auth:{onAuthStateChange(){},getSession:async()=>{state.authHash=w.location.hash;if(state.authGate)await state.authGate;return {data:{session:state.user?{user:state.user}:null}};}}};
+ const client={from(table){let filter;const q={select(){return q;},order(){return q;},range(){return q;},in(){return q;},eq(k,v){filter=v;return q;},then(resolve,reject){return Promise.resolve({data:table==='books'?state.books:table==='media_catalogue'?state.media:table==='tv_progress'?(state.tvRows||[]):[],error:null}).then(resolve,reject);}};return q;},auth:{onAuthStateChange(){},getSession:async()=>{state.authHash=w.location.hash;if(state.authGate)await state.authGate;return {data:{session:state.user?{user:state.user}:null}};}}};
+ state.rpcCalls=[];client.rpc=async(name,payload)=>{state.rpcCalls.push({name,payload});return {error:{message:'Changed on another device'}};};
  state.invocations=[];client.functions={invoke:async(_name,{body})=>{state.invocations.push(body);return {data:{results:[],page:1,total_pages:1}};}};
  w.supabase={createClient:()=>client};
  for(const s of sources)w.eval(s);
@@ -111,5 +112,16 @@ test('Authenticated search URLs restore the correct media type without repeating
   a.w.CultureRouter.navigate({section:'tv',view:'search',params:{q:'Dark'}});await tick();assert.equal(a.state.invocations.at(-1).type,'tv');assert.match(a.$('media-heading').textContent,/TV series/);
   a.w.CultureRouter.navigate({section:'films',view:'search',params:{director:'525',year:'2010'}});await tick();const body=a.state.invocations.at(-1);assert.equal(body.type,'movie');assert.equal(body.person_id,525);assert.equal(body.year,'2010');
   a.w.CultureRouter.refresh();await tick();assert.equal(a.state.invocations.length,3);
+ }finally{await a.close();}
+});
+
+test('A background TV refresh preserves the open draft and its loaded version',async()=>{
+ const user={id:'test-user',email:'test@example.test'};
+ const a=await boot('#/tv/147050',{user,tvRows:[{work_key:'tv:147050',rating:7,rating_scope:'whole_work',notes:'original',updated_at:'v1'}]});
+ try{
+  await tick();assert.equal(a.$('tv-notes').value,'original');a.$('tv-notes').value='unsaved draft';
+  a.state.tvRows=[{work_key:'tv:147050',rating:9,rating_scope:'whole_work',notes:'remote change',updated_at:'v2'}];
+  await a.w.CultureTV.setSession(user);await tick();assert.equal(a.$('tv-notes').value,'unsaved draft');assert.equal(a.$('tv-rating').value,'7');
+  a.$('tv-rating-form').dispatchEvent(new a.w.Event('submit',{bubbles:true,cancelable:true}));await tick();assert.equal(a.state.rpcCalls.at(-1).payload.p_expected_updated_at,'v1');
  }finally{await a.close();}
 });

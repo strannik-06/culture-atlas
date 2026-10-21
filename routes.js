@@ -52,7 +52,7 @@
  }
  function start(app){
   const $=id=>document.getElementById(id);
-  let applying=false,current,entityShown=null,lastLocation='',refreshQueued=false,reloadEntity=false;
+  let applying=false,current,entityShown=null,lastLocation='',refreshQueued=false;
   let authPending=/^#(?:access_token|error|refresh_token)=/.test(location.hash)||new URLSearchParams(location.search).has('code');
   let overlayReturn=null;
   const resolving=new Set();
@@ -64,7 +64,8 @@
   function title(r){const name={films:'Films',tv:'TV Series',books:'Books'}[r.section];document.title='Culture Atlas · '+name+' · '+({top100:'Top 100',ratings:'My ratings',catalogue:'Catalogue',search:'Search',awards:'Awards'}[r.view]);}
   function showEntity(r,force=false){
    if(!r.entity)return;
-   const key=entityKey(r),reopen=key!==entityShown||force||(r.section==='tv'&&$('tv-editor').hidden)||(r.section==='books'&&$('book-editor').hidden);
+   const hydrate=r.section==='tv'?app.tv.route.needsHydration():r.section==='books'?app.books.route.needsHydration():false;
+   const key=entityKey(r),reopen=key!==entityShown||force||hydrate||(r.section==='tv'&&$('tv-editor').hidden)||(r.section==='books'&&$('book-editor').hidden);
    if(!reopen)return;
    let exists=false;
    if(r.section==='films'){exists=app.hasFilm(r.entity);if(exists){app.openFilm(r.entity);document.title=app.filmTitle(r.entity)+' · Culture Atlas';}}
@@ -147,7 +148,7 @@
    closeDetail:kind=>{if(!applying&&current?.entity&&{film:'films',tv:'tv',book:'books'}[kind]===current.section)closeOverlay();},
    closeSearch:()=>{if(!applying&&current?.view==='search'&&current.section!=='books')closeOverlay();},
    searchChanged:body=>{if(applying||current?.view!=='search')return;const params=body.mode==='director'?{director:String(body.person_id),...(body.year?{year:String(body.year)}:{})}:{q:body.query||''};const r={...current,params};history.replaceState({...history.state,atlas:true},'',format(r));current=parse(location.hash);lastLocation=location.href;},
-   refresh:(options={})=>{reloadEntity||=!!options.reloadEntity;if(refreshQueued)return;refreshQueued=true;queueMicrotask(()=>{refreshQueued=false;if(!current||authPending)return;applying=true;try{const force=reloadEntity;reloadEntity=false;if(current.section==='films'&&['ratings','catalogue'].includes(current.view)){app.setPage(Number(current.params.page)||1);app.renderRatings();}showEntity(current,current.section==='films'||force);if(current.view==='search'&&current.section!=='books')app.media.route.restore(current.params);}finally{applying=false;}});},
+   refresh:()=>{if(refreshQueued)return;refreshQueued=true;queueMicrotask(()=>{refreshQueued=false;if(!current||authPending)return;applying=true;try{if(current.section==='films'&&['ratings','catalogue'].includes(current.view)){app.setPage(Number(current.params.page)||1);app.renderRatings();}showEntity(current,current.section==='films');if(current.view==='search'&&current.section!=='books')app.media.route.restore(current.params);}finally{applying=false;}});},
    authRedirect:()=>{try{sessionStorage.setItem('culture-atlas:return-route',location.hash);}catch{}return location.origin+location.pathname;},
    authReady:()=>{if(!authPending)return;authPending=false;let hash;try{hash=sessionStorage.getItem('culture-atlas:return-route');sessionStorage.removeItem('culture-atlas:return-route');}catch{}const route=parse(hash)||{section:'films',view:'top100'};history.replaceState({atlas:true},'',format(route));lastLocation=location.href;apply(parse(location.hash));},
    get current(){return current;},get applying(){return applying;}

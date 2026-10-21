@@ -57,6 +57,7 @@
     return [...searchVariants(query).map(text=>({params:{q:'title_suggest:'+quote(text),...(author?{author}: {})},text})),{params:{q:query,...(author?{author}: {})},text:query}];
   }
   let client, user=null, generation=0, books=[], progress=new Map(), results=[], selected=null;
+  let editorHydrated=false;
   let searchController, searchSequence=0, saving=false, loading=false, activeTab='ratings', visible=48;
   const cache = new Map();
   let starPicker, starPreview=null;
@@ -169,6 +170,7 @@
     closeBookStars();
     selected=books.find(b=>b.open_library_work_id===workId)||results.find(b=>b.open_library_work_id===workId);
     if(!selected) return;
+    editorHydrated=!loading;
     const p=progress.get(workId);
     $('book-rating-form').reset();
     message('book-selected-title',selected.title);
@@ -263,7 +265,7 @@
       progress=new Map(ratings.filter(p=>byId.has(p.book_id)).map(p=>[byId.get(p.book_id),p]));
       message('book-sync-status',user?'Books and ratings synced to your account.':'Sign in using Account to save ratings, reading format and notes.');
       render();
-      window.CultureRouter?.refresh({reloadEntity:true});
+      window.CultureRouter?.refresh();
     } catch(error) { if(version===generation) message('book-sync-status',errorMessage(error)); }
     finally { if(version===generation) loading=false; }
   }
@@ -338,7 +340,7 @@
     render();
   }
   window.CultureBooks={init,setSession,normaliseBook,validRating,rankBooks,
-    route:{switchTab,closeEditor,choose,ensureWork,has:id=>books.some(b=>b.open_library_work_id===id)||results.some(b=>b.open_library_work_id===id),title:()=>selected?.title,
+    route:{switchTab,closeEditor,choose,ensureWork,needsHydration:()=>!!(selected&&!editorHydrated&&!loading),has:id=>books.some(b=>b.open_library_work_id===id)||results.some(b=>b.open_library_work_id===id),title:()=>selected?.title,
       getVisible:()=>visible,setVisible:n=>{visible=n;render();},search:()=>search({preventDefault(){}})}
   };
 })();

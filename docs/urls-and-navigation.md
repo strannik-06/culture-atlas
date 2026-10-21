@@ -74,7 +74,8 @@ correcting a title cannot break a saved link.
 `node --test tests/routes.test.mjs` exercises full-page navigation, fresh deep-link
 boots, filter/page restoration, history traversal, modal closing, all existing TV
 identity shapes, delayed catalogue loading, unsaved book resolution, authentication
-callbacks and private-state exclusion. CI runs it with the media validation suite.
+callbacks, private-state exclusion and preservation of open drafts/loaded versions
+during a background refresh. CI runs it with the media validation suite.
 These are DOM integration tests; they do not replace a real-browser smoke check.
 
 Manual review: open a film from catalogue page 3, copy the URL into a new tab,

@@ -50,7 +50,7 @@
   }
   let client,user=null,generation=0,loading=false,busy=false,ready=false,current=null,editorVersion=null,tab='catalogue';
   let rows=new Map(),linked=new Map(),shows=[],aliases=[],hooks={};
-  let picker,preview=null;
+  let picker,preview=null,editorHydrated=false;
   function message(text){$('tv-message').textContent=text;}
   function closeStars(){if(picker)picker.hidden=true;$('tv-star-trigger')?.setAttribute('aria-expanded','false');preview=null;}
   function closeEditor(){closeStars();current=null;editorVersion=null;$('tv-editor').hidden=true;$('tv-rating-form').reset();}
@@ -102,7 +102,7 @@
     if(results[1].status==='fulfilled')linked=new Map(results[1].value.map(p=>['movie:'+p.film_id,p]));
     if(results[0].status==='fulfilled'){rows=new Map(results[0].value.map(p=>[p.work_key,p]));ready=true;message(results[1].status==='fulfilled'?'TV ratings synced.':'TV ratings synced; linked film ratings could not be loaded. Choose Refresh to try again.');}
     else message('TV rating storage is unavailable. Run the TV setup SQL from the PR, then choose Refresh.');
-    render();window.CultureRouter?.refresh({reloadEntity:true});
+    render();window.CultureRouter?.refresh();
   }
   async function checkSession(version){
     const {data,error}=await client.auth.getSession();
@@ -137,7 +137,7 @@
   function choose(key){
     if(busy)return;
     if(window.CultureRouter?.openTV(key))return;
-    const w=shows.find(w=>w.id===key);if(!w)return;current=w;
+    const w=shows.find(w=>w.id===key);if(!w)return;current=w;editorHydrated=!!(ready&&user);
     $('tv-selected-meta').textContent=[w.year,kinds[w.series_kind],w.scope_label,...(w.directors?.length?w.directors:w.creators||[]).map(p=>p.name)].filter(Boolean).join(' · ');
     const parent=w.series_kind==='season'?shows.find(p=>p.id==='tv:'+w.tmdb_id):w;
     const targets=parent?[parent,...children(parent)]:[w];
@@ -225,5 +225,5 @@
     });
     render();message('Sign in using your account menu to save and import TV ratings.');
   }
-  window.CultureTV={init,setSession,validRating,validateImport,previewImport,route:{choose,closeEditor,has:key=>shows.some(w=>w.id===key),title:()=>current?.title,switchTab:value=>{tab=value;document.querySelectorAll('[data-tv-tab]').forEach(b=>{b.classList.toggle('active',b.dataset.tvTab===value);b.setAttribute('aria-pressed',String(b.dataset.tvTab===value));});render();}},setCatalogue:extra=>{const known=new Set(shows.map(w=>w.id));for(const w of extra)if(!known.has(w.id)){shows.push(w);known.add(w.id);}render();}};
+  window.CultureTV={init,setSession,validRating,validateImport,previewImport,route:{choose,closeEditor,needsHydration:()=>!!(current&&!editorHydrated&&ready&&user),has:key=>shows.some(w=>w.id===key),title:()=>current?.title,switchTab:value=>{tab=value;document.querySelectorAll('[data-tv-tab]').forEach(b=>{b.classList.toggle('active',b.dataset.tvTab===value);b.setAttribute('aria-pressed',String(b.dataset.tvTab===value));});render();}},setCatalogue:extra=>{const known=new Set(shows.map(w=>w.id));for(const w of extra)if(!known.has(w.id)){shows.push(w);known.add(w.id);}render();}};
 })();
