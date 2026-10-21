@@ -1,0 +1,48 @@
+name: Fill missing film metadata
+on:
+  push:
+    branches: ['feat/complete-film-metadata']
+    paths: ['scripts/complete-film-metadata.mjs', '.github/workflows/complete-film-metadata.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: complete-film-metadata
+  cancel-in-progress: false
+jobs:
+  complete:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test tests/film-metadata.test.mjs
+      - name: Fill only missing metadata from verified TMDB identities
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          TMDB_READ_ACCESS_TOKEN: ${{ secrets.TMDB_READ_ACCESS_TOKEN }}
+        run: node scripts/complete-film-metadata.mjs
+      - name: Validate catalogue and generated metadata
+        run: |
+          node scripts/validate-catalog.mjs
+          node --check film-details.js
+      - name: Save metadata and public audit to the review branch
+        if: github.ref_name == 'feat/complete-film-metadata'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add film-details.js imports/film-metadata-completion.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Fill missing film metadata from verified TMDB identities"
+            git push origin HEAD:"$GITHUB_REF_NAME"
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: film-metadata-completion-audit
+          path: imports/film-metadata-completion.json
+          if-no-files-found: warn
