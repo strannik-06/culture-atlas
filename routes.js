@@ -24,7 +24,7 @@
    const params=Object.fromEntries(new URLSearchParams(query)),head=parts.shift()||defaults[section];
    let view=head,entity;
    if(section==='films'&&positive(head)&&!parts.length)entity=head;
-   else if(section==='books'&&/^OL[1-9]\d*W$/.test(head)&&!parts.length)entity=head;
+   else if(section==='books'&&/^(?:OL[1-9]\d*W|local-[1-9]\d*)$/.test(head)&&!parts.length)entity=head;
    else if(section==='tv'&&positive(head)&&(!parts.length||parts.length===2&&parts[0]==='season'&&/^(0|[1-9]\d*)$/.test(parts[1])))entity=[head,...parts].join('/');
    else if(section==='tv'&&parts.length===1&&((head==='movie'&&positive(parts[0]))||(head==='imdb'&&/^tt\d+$/.test(parts[0]))||(head==='local'&&/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(parts[0]))))entity=[head,...parts].join('/');
    else if(parts.length||!views[section].includes(view))return null;
@@ -70,7 +70,7 @@
    let exists=false;
    if(r.section==='films'){exists=app.hasFilm(r.entity);if(exists){app.openFilm(r.entity);document.title=app.filmTitle(r.entity)+' · Culture Atlas';}}
    if(r.section==='tv'){const work=tvKey(r.entity);exists=app.tv.route.has(work);if(exists){app.tv.route.choose(work);document.title=app.tv.route.title()+' · Culture Atlas';}}
-   if(r.section==='books'){const work='/works/'+r.entity;exists=app.books.route.has(work);if(!exists&&!resolving.has(work)){resolving.add(work);app.books.route.ensureWork(work).catch(()=>{}).finally(()=>api.refresh());}if(exists){app.books.route.choose(work);document.title=app.books.route.title()+' · Culture Atlas';}}
+   if(r.section==='books'){const work=r.entity.startsWith('local-')?r.entity:'/works/'+r.entity;exists=app.books.route.has(work);if(!exists&&!resolving.has(work)){resolving.add(work);app.books.route.ensureWork(work).catch(()=>{}).finally(()=>api.refresh());}if(exists){app.books.route.choose(work);document.title=app.books.route.title()+' · Culture Atlas';}}
    error.hidden=exists;error.textContent=exists?'':'This item is not available in the loaded catalogue. It may still be loading; try refreshing or return to the catalogue.';
    entityShown=exists?key:null;
   }
