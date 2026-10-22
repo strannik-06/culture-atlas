@@ -23,7 +23,7 @@ async function setup(){
 test('Film popup edits stars, date and escaped notes explicitly; failed saves retain the draft',async()=>{
  const a=await setup();try{
   const {w,$,state}=a;w.CultureRouter.openFilm(229);assert.equal($('film-detail-dialog').open,true);assert.equal($('film-detail-form').hidden,true);
-  assert.match($('film-personal-read').textContent,/<em>My private note<\/em>/);assert.equal($('film-personal-read em'),null);
+  assert.match($('film-personal-read').textContent,/<em>My private note<\/em>/);assert.equal($('film-personal-read').querySelector('em'),null);
   $('film-detail-edit').click();assert.equal($('film-detail-edit').textContent,'Save');$('film-detail-notes').value='A changed note';$('film-detail-date').value='2026-10-20';
   $('film-detail-stars').click();const picker=$('film-detail-dialog').querySelector('.star-picker');assert.equal(picker.parentElement,$('film-detail-dialog'));
   picker.dispatchEvent(new w.KeyboardEvent('keydown',{key:'ArrowRight',bubbles:true}));picker.dispatchEvent(new w.KeyboardEvent('keydown',{key:'Enter',bubbles:true}));assert.equal(state.writes.length,0);
