@@ -36,7 +36,36 @@ grant all on public.book_readings to service_role;
 create policy "Users read own book history" on public.book_readings for select to authenticated using ((select auth.uid())=user_id);
 
 create schema if not exists private;
-grant usage on schema private to authenticated;
+grant usage on schema private to authenticated,service_role;
+
+-- Optional, dated Goodreads snapshots; no live Goodreads API or browser scraping.
+alter table public.books
+ add column goodreads_id text unique,
+ add column goodreads_rating numeric,
+ add column goodreads_ratings_count bigint,
+ add column goodreads_observed_on date,
+ add column goodreads_rating_source text,
+ add column goodreads_source_url text,
+ add column cover_url text;
+create function private.valid_book_sources(b public.books) returns boolean
+language sql immutable security invoker set search_path='' as $$
+ select
+ (b.goodreads_id is null or b.goodreads_id ~ '^[1-9][0-9]{0,19}$')
+ and (b.goodreads_ratings_count is null or b.goodreads_ratings_count>=0)
+ and (b.goodreads_rating is null or (
+   b.goodreads_id is not null and b.goodreads_rating between 0 and 5
+   and b.goodreads_ratings_count is not null and b.goodreads_ratings_count>0
+   and b.goodreads_observed_on is not null
+   and b.goodreads_rating_source is not null and b.goodreads_rating_source in ('manual','search_index')
+   and b.goodreads_source_url is not null))
+ and (b.goodreads_rating_source is null or b.goodreads_rating_source in ('manual','search_index'))
+ and (b.goodreads_source_url is null or (length(b.goodreads_source_url)<=2000 and b.goodreads_source_url ~ '^https://www[.]goodreads[.]com/(book/show|author/show|author/list)/[1-9][0-9]*([._/-][^[:space:]]*)?$'))
+ and (b.cover_url is null or (length(b.cover_url)<=2000 and b.cover_url ~ '^https://(i|images)[.]gr-assets[.]com/[^[:space:]]+$'))
+$$;
+revoke all on function private.valid_book_sources(public.books) from public,anon;
+grant execute on function private.valid_book_sources(public.books) to authenticated,service_role;
+alter table public.books add constraint books_sources_valid check (private.valid_book_sources(books));
+
 
 -- Preserve the original search-and-rate API while moving its privileged body out of public.
 alter function public.save_book_rating(text,text,text[],integer,bigint,numeric,text,text) set schema private;
@@ -51,7 +80,7 @@ grant execute on function public.save_book_rating(text,text,text[],integer,bigin
 create function private.import_book_readings(p_payload jsonb,p_apply boolean)
 returns jsonb language plpgsql security definer set search_path='' as $$
 declare
- uid uuid:=auth.uid(); b jsonb; r jsonb; old_book public.books%rowtype;
+ uid uuid:=auth.uid(); metadata public.books%rowtype; b jsonb; r jsonb; old_book public.books%rowtype;
  old_reading public.book_readings%rowtype; checked public.book_readings%rowtype;
  ids jsonb:='{}'; bid bigint; latest jsonb; k text; works text[];
  n_books integer:=0; n_readings integer:=0; n_ratings integer:=0; n_preserved integer:=0;
@@ -67,10 +96,13 @@ begin
  if exists(select 1 from jsonb_array_elements(p_payload->'books') x group by x->>'work_key' having count(*)>1)
    or exists(select 1 from jsonb_array_elements(p_payload->'readings') x group by x->>'source_key' having count(*)>1)
    or exists(select 1 from jsonb_array_elements(p_payload->'books') x where x->>'open_library_work_id' is not null group by x->>'open_library_work_id' having count(*)>1)
+   or exists(select 1 from jsonb_array_elements(p_payload->'books') x where x->>'goodreads_id' is not null group by x->>'goodreads_id' having count(*)>1)
  then raise exception 'Duplicate source or provider identity.'; end if;
 
  for b in select value from jsonb_array_elements(p_payload->'books') loop
    k:=b->>'work_key';
+   metadata:=jsonb_populate_record(null::public.books,b);
+   if not private.valid_book_sources(metadata) then raise exception 'Invalid Goodreads metadata: %',b->>'title'; end if;
    works:=array(select jsonb_array_elements_text(b->'authors'));
    if k is null or k !~ '^manual:[a-f0-9]{24}$' or b->>'title' is null
      or length(btrim(b->>'title')) not between 1 and 1000
@@ -82,19 +114,32 @@ begin
      or (b->>'cover_id' is not null and (b->>'cover_id')::bigint<=0)
      or not exists(select 1 from jsonb_array_elements(p_payload->'readings') x where x->>'source_key'=b->>'latest_source_key' and x->>'work_key'=k)
    then raise exception 'Invalid book metadata or latest reading: %',b->>'title'; end if;
-   select * into old_book from public.books where source_key=k or open_library_work_id=b->>'open_library_work_id' order by id limit 1;
+   select * into old_book from public.books where source_key=k or open_library_work_id=b->>'open_library_work_id' or goodreads_id=b->>'goodreads_id' order by id limit 1;
    if found then
-     if exists(select 1 from public.books where (source_key=k or open_library_work_id=b->>'open_library_work_id') and id<>old_book.id)
+     if exists(select 1 from public.books where (source_key=k or open_library_work_id=b->>'open_library_work_id' or goodreads_id=b->>'goodreads_id') and id<>old_book.id)
+       or (old_book.goodreads_id is not null and b->>'goodreads_id' is not null and old_book.goodreads_id<>b->>'goodreads_id')
+       or (old_book.open_library_work_id is not null and b->>'open_library_work_id' is not null and old_book.open_library_work_id<>b->>'open_library_work_id')
        or old_book.work_scope is distinct from b->>'scope'
        or (old_book.source_key=k and (old_book.title is distinct from b->>'title' or old_book.authors is distinct from works
           or old_book.work_scope is distinct from b->>'scope' or old_book.open_library_work_id is distinct from b->>'open_library_work_id'))
      then raise exception 'Existing book identity changed: %',b->>'title'; end if;
      bid:=old_book.id;
+     if p_apply then
+       update public.books set
+         goodreads_id=coalesce(old_book.goodreads_id,metadata.goodreads_id),
+         goodreads_rating=coalesce(old_book.goodreads_rating,metadata.goodreads_rating),
+         goodreads_ratings_count=case when old_book.goodreads_rating is null then metadata.goodreads_ratings_count else old_book.goodreads_ratings_count end,
+         goodreads_observed_on=case when old_book.goodreads_rating is null then metadata.goodreads_observed_on else old_book.goodreads_observed_on end,
+         goodreads_rating_source=case when old_book.goodreads_rating is null then metadata.goodreads_rating_source else old_book.goodreads_rating_source end,
+         goodreads_source_url=case when old_book.goodreads_rating is null then coalesce(metadata.goodreads_source_url,old_book.goodreads_source_url) else old_book.goodreads_source_url end,
+         cover_url=coalesce(old_book.cover_url,metadata.cover_url)
+       where id=bid;
+     end if;
    else
      n_books:=n_books+1;bid:=null;
      if p_apply then
-       insert into public.books(source_key,open_library_work_id,title,authors,first_publish_year,cover_id,work_scope)
-       values(k,b->>'open_library_work_id',btrim(b->>'title'),works,(b->>'source_publication_year')::integer,(b->>'cover_id')::bigint,b->>'scope')
+       insert into public.books(source_key,open_library_work_id,title,authors,first_publish_year,cover_id,work_scope,goodreads_id,goodreads_rating,goodreads_ratings_count,goodreads_observed_on,goodreads_rating_source,goodreads_source_url,cover_url)
+       values(k,b->>'open_library_work_id',btrim(b->>'title'),works,(b->>'source_publication_year')::integer,(b->>'cover_id')::bigint,b->>'scope',metadata.goodreads_id,metadata.goodreads_rating,metadata.goodreads_ratings_count,metadata.goodreads_observed_on,metadata.goodreads_rating_source,metadata.goodreads_source_url,metadata.cover_url)
        returning id into bid;
      end if;
    end if;
@@ -171,6 +216,36 @@ create function public.update_book_rating(p_book_id bigint,p_rating numeric,p_fo
 language sql security invoker set search_path='' as $$select private.update_book_rating(p_book_id,p_rating,p_format,p_notes)$$;
 revoke all on function public.update_book_rating(bigint,numeric,text,text) from public,anon;
 grant execute on function public.update_book_rating(bigint,numeric,text,text) to authenticated;
+
+-- Goodreads-only additions use the same atomic catalogue + private-rating transaction.
+create function private.save_goodreads_book(p_metadata jsonb,p_rating numeric,p_format text,p_notes text)
+returns jsonb language plpgsql security definer set search_path='' as $$
+declare uid uuid:=auth.uid();b public.books%rowtype;bid bigint;
+begin
+ if uid is null then raise exception 'Sign in to save a book.' using errcode='42501';end if;
+ if p_metadata is null or jsonb_typeof(p_metadata)<>'object' or octet_length(p_metadata::text)>20000 then raise exception 'Invalid Goodreads metadata.';end if;
+ b:=jsonb_populate_record(null::public.books,p_metadata);
+ if b.goodreads_id is null or not private.valid_book_sources(b)
+   or b.title is null or length(btrim(b.title)) not between 1 and 1000
+   or b.authors is null or cardinality(b.authors) not between 1 and 20
+   or exists(select 1 from unnest(b.authors) a where a is null or length(btrim(a)) not between 1 and 500)
+   or (b.first_publish_year is not null and b.first_publish_year not between -5000 and 3000)
+ then raise exception 'Invalid Goodreads metadata.';end if;
+ perform pg_advisory_xact_lock(hashtextextended('goodreads:'||b.goodreads_id,20261022));
+ select id into bid from public.books where goodreads_id=b.goodreads_id;
+ if bid is null then
+   insert into public.books(source_key,title,authors,first_publish_year,goodreads_id,goodreads_rating,goodreads_ratings_count,goodreads_observed_on,goodreads_rating_source,goodreads_source_url,cover_url)
+   values('goodreads:'||b.goodreads_id,btrim(b.title),b.authors,b.first_publish_year,b.goodreads_id,b.goodreads_rating,b.goodreads_ratings_count,b.goodreads_observed_on,b.goodreads_rating_source,b.goodreads_source_url,b.cover_url)
+   returning id into bid;
+ end if;
+ return private.update_book_rating(bid,p_rating,p_format,p_notes);
+end $$;
+revoke all on function private.save_goodreads_book(jsonb,numeric,text,text) from public,anon;
+grant execute on function private.save_goodreads_book(jsonb,numeric,text,text) to authenticated;
+create function public.save_goodreads_book(p_metadata jsonb,p_rating numeric,p_format text,p_notes text) returns jsonb
+language sql security invoker set search_path='' as $$select private.save_goodreads_book(p_metadata,p_rating,p_format,p_notes)$$;
+revoke all on function public.save_goodreads_book(jsonb,numeric,text,text) from public,anon;
+grant execute on function public.save_goodreads_book(jsonb,numeric,text,text) to authenticated;
 
 create or replace function public.culture_backup_snapshot()
 returns jsonb language sql stable security definer set search_path='' as $$

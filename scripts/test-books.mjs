@@ -338,3 +338,36 @@ test('Prepared import UI previews before applying, supports local books and clea
     assert.equal($('book-import-apply').hidden,true);
   } finally {await window.happyDOM.close();}
 });
+
+test('Goodreads cards distinguish saved public ratings, personal scores, exact links and search links',async()=>{
+ const {window,state,$}=await setup();
+ try{
+  state.books=[{id:1,title:'New book',authors:['Author'],goodreads_id:'222519102',goodreads_rating:4.25,goodreads_ratings_count:57,goodreads_observed_on:'2026-10-22',goodreads_rating_source:'search_index',cover_url:'https://i.gr-assets.com/images/a.jpg'}, {id:2,...work}, {id:3,title:'<Unknown & title>',authors:['<Author>'],cover_url:'https://i.gr-assets.com.evil.test/pixel'}];
+  state.ratings=[{user_id:userA,book_id:1,rating:8.5,reading_format:'kindle'}];
+  await window.CultureBooks.setSession({id:userA});
+  const cards=$('book-catalogue-grid').querySelectorAll('article');
+  assert.match(cards[0].textContent,/4.25 \/ 5 · 57 ratings/);assert.match(cards[0].textContent,/Your rating: 8.5\/10/);
+  assert.match(cards[0].textContent,/search-index snapshot/);assert.equal(cards[0].querySelector('.book-goodreads a').href,'https://www.goodreads.com/book/show/222519102');
+  assert.equal(cards[0].querySelector('img').src,'https://i.gr-assets.com/images/a.jpg');
+  assert.match(cards[1].textContent,/Find on Goodreads/);assert.equal(new URL(cards[1].querySelector('.book-goodreads a').href).searchParams.get('q'),'Orbital Samantha Harvey');
+  assert.equal(cards[2].querySelector('img'),null);assert.equal(cards[2].querySelector('unknown'),null);
+ }finally{await window.happyDOM.close();}
+});
+
+test('Goodreads manual fallback selects before saving and uses the shared star, format and notes form',async()=>{
+ const {window,state,$,submit,flush,client}=await setup();
+ try{
+  await window.CultureBooks.setSession({id:userA});
+  $('book-goodreads-url').value='https://www.goodreads.com/book/show/222519102-a-book';
+  $('book-goodreads-title').value='New book';$('book-goodreads-author').value='Author';$('book-goodreads-year').value='2024';
+  submit('book-goodreads-form');assert.equal(state.calls.length,0);assert.equal($('book-editor').hidden,false);
+  $('book-rating').value='8.5';$('book-format').value='audio';$('book-notes').value='My note';
+  client.rpc=async(name,payload)=>{state.calls.push({name,payload});return {data:{book:{id:99,...payload.p_metadata},progress:{book_id:99,rating:payload.p_rating,reading_format:payload.p_format,notes:payload.p_notes}}};};
+  submit('book-rating-form');await flush();
+  assert.equal(state.calls[0].name,'save_goodreads_book');assert.equal(state.calls[0].payload.p_metadata.goodreads_id,'222519102');assert.equal(state.calls[0].payload.p_notes,'My note');
+  assert.match($('book-ratings-grid').textContent,/8.5\/10/);assert.equal($('book-ratings-grid').querySelector('h3 a').getAttribute('href'),'#/books/local-99');
+  $('book-goodreads-url').value='https://www.goodreads.com/book/show/333';submit('book-goodreads-form');
+  assert.equal($('book-selected-title').textContent,'New book');assert.match($('book-goodreads-status').textContent,/already in the catalogue/);
+  $('book-ratings-grid').querySelector('button').click();submit('book-rating-form');await flush();assert.equal(state.calls.at(-1).name,'update_book_rating');
+ }finally{await window.happyDOM.close();}
+});

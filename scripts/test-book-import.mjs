@@ -66,3 +66,30 @@ test('Provider identity reuse preserves the existing rating and rejects repeated
   await assert.rejects(db.query('select public.import_book_readings($1,false)',[JSON.stringify(payload)]),/Duplicate/);
  }finally{await db.close();}
 });
+
+test('Goodreads-only catalogue saves are atomic, reuse identities, preserve shared metadata and validate snapshots',async()=>{
+ const db=await setup();
+ const metadata={title:'A recent book',authors:['Author'],goodreads_id:'222519102',first_publish_year:2024,goodreads_rating:4.25,goodreads_ratings_count:57,goodreads_observed_on:'2026-10-22',goodreads_rating_source:'search_index',goodreads_source_url:'https://www.goodreads.com/book/show/222519102',cover_url:'https://i.gr-assets.com/images/a.jpg'};
+ const save=(m=metadata,rating=8)=>db.query('select public.save_goodreads_book($1,$2,$3,$4) r',[JSON.stringify(m),rating,'audio','Private note']);
+ try{
+  await db.exec('set role anon');await assert.rejects(save(),/permission denied/);
+  await db.exec('set role authenticated');await assert.rejects(save(),/Sign in/);
+  await db.query("select set_config('request.jwt.claim.sub',$1,false)",[uid]);
+  await assert.rejects(save(metadata,7.25),/Invalid rating/);
+  assert.equal((await db.query('select * from public.books')).rows.length,0);
+  for(const bad of [{goodreads_id:'1/evil'},{goodreads_rating:6},{goodreads_ratings_count:-1},{goodreads_observed_on:null},{goodreads_source_url:'https://evil.test/'},{cover_url:'https://i.gr-assets.com.evil.test/pixel'},{cover_url:'javascript:alert(1)'}])await assert.rejects(save({...metadata,...bad}),/Invalid Goodreads/);
+  const saved=(await save()).rows[0].r;
+  assert.equal(saved.book.open_library_work_id,null);assert.equal(saved.book.goodreads_rating,4.25);assert.equal(saved.progress.rating,8);
+  await save({...metadata,title:'Do not replace title'},9);
+  assert.equal((await db.query('select title from public.books')).rows[0].title,metadata.title);
+  assert.equal((await db.query('select * from public.books')).rows.length,1);
+  const payload=fixture();payload.books=[{...book,scope:'work',goodreads_id:metadata.goodreads_id}];
+  const imported=(await db.query('select public.import_book_readings($1,true) r',[JSON.stringify(payload)])).rows[0].r;
+  assert.equal(imported.new_books,0);assert.equal(imported.preserved_ratings,1);
+  assert.equal((await db.query('select rating from public.book_progress')).rows[0].rating,'9.0');
+  const broken=fixture();broken.books=[{...book,goodreads_id:'999',goodreads_rating:9}];
+  await assert.rejects(db.query('select public.import_book_readings($1,false)',[JSON.stringify(broken)]),/Invalid Goodreads/);
+  const duplicate=fixture();duplicate.books=[{...book,goodreads_id:'999'},{...book,work_key:'manual:bbbbbbbbbbbbbbbbbbbbbbbb',goodreads_id:'999'}];
+  await assert.rejects(db.query('select public.import_book_readings($1,false)',[JSON.stringify(duplicate)]),/Duplicate/);
+ }finally{await db.close();}
+});

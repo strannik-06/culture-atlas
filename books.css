@@ -14,3 +14,5 @@
 .book-card .cover-fallback{font-size:16px;opacity:.65}.book-card .poster img{background:#202635}.book-result-count{color:#b7bcc9}
 
 .book-import {margin:20px 0;padding:16px;border:1px solid #383c49;border-radius:12px}.book-import summary{cursor:pointer}.book-import #book-import-preview{max-height:420px;overflow:auto}.book-import table{width:100%;border-collapse:collapse}.book-import th,.book-import td{text-align:left;padding:9px;border-bottom:1px solid #383c49}.book-import small{color:#b7bcc9}#book-reading-history li{margin:14px 0}
+
+.book-search label{display:flex;flex-direction:column;gap:8px;flex:1;min-width:180px}.book-goodreads small{color:#9ea8bb}
