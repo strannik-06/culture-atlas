@@ -118,6 +118,7 @@ async function setup() {
     const p={book_id:1,user_id:userA,rating:payload.p_rating,reading_format:payload.p_format,notes:payload.p_notes,updated_at:new Date().toISOString()};
     state.books=[book];state.ratings=[p];return {data:{book,progress:p},error:null};
   }};
+  window.fetch=async()=>({ok:true,json:async()=>({})});
   window.eval(source);
   window.CultureBooks.init(client);
   const $=id=>window.document.getElementById(id);
@@ -135,7 +136,7 @@ test('Books UI: search → select → save → edit; errors preserve form; sign-
     assert.equal($('account').parentElement,window.document.body);
     window.document.querySelector('[data-book-tab="search"]').click();
     let fetches=0;
-    window.fetch=async()=>{fetches++;return {ok:true,json:async()=>({docs:[{key:work.open_library_work_id,title:work.title,author_name:work.authors,cover_i:work.cover_id,first_publish_year:2023},{key:'/books/OL1M',title:'Invalid edition',author_name:['No']}]})};};
+    window.fetch=async url=>{if(String(url).includes('/search.json'))fetches++;return {ok:true,json:async()=>({docs:[{key:work.open_library_work_id,title:work.title,author_name:work.authors,cover_i:work.cover_id,first_publish_year:2023},{key:'/books/OL1M',title:'Invalid edition',author_name:['No']}]})};};
     $('book-query').value='Orbital Samantha Harvey';submit('book-search-form');await flush();
     assert.equal($('book-search-results').querySelectorAll('article').length,1);
     assert.equal(state.books.length,0);assert.equal(state.calls.length,0);
@@ -145,17 +146,17 @@ test('Books UI: search → select → save → edit; errors preserve form; sign-
     assert.equal($('book-editor').hidden,false);assert.match($('book-save-status').textContent,/Network unavailable/);
     assert.equal($('book-notes').value,'<img src=x onerror=alert(1)>');
     state.fail=false;submit('book-rating-form');await flush();
-    assert.equal($('book-editor').hidden,true);assert.equal(state.books.length,1);
+    assert.equal($('book-editor').open,true);assert.equal($('book-rating-form').hidden,true);assert.equal($('book-detail-edit').textContent,'Edit');assert.equal(state.books.length,1);
     assert.equal($('book-ratings-grid').querySelectorAll('article').length,1);
-    assert.equal($('book-ratings-grid').querySelector('.book-notes').textContent,'<img src=x onerror=alert(1)>');
-    assert.equal($('book-ratings-grid').querySelector('.book-notes img'),null);
-    assert.match($('book-ratings-grid').textContent,/8.5\/10/);assert.match($('book-ratings-grid').textContent,/Audio/);
+    assert.equal($('book-detail-personal').querySelector('.detail-notes').textContent,'<img src=x onerror=alert(1)>');
+    assert.equal($('book-detail-personal').querySelector('.detail-notes img'),null);
+    assert.match($('book-ratings-grid').textContent,/8.5\/10/);assert.match($('book-detail-personal').textContent,/Audio/);
     $('book-ratings-grid').querySelector('button').click();
     assert.equal($('book-rating').value,'8.5');assert.equal($('book-format').value,'audio');
     $('book-rating').value='9';submit('book-rating-form');submit('book-rating-form');await flush();
     assert.equal(state.calls.length,3); // failure + success + one edit, no double submit
     await window.CultureBooks.setSession({id:userA});
-    assert.match($('book-ratings-grid').textContent,/9\/10/);
+    assert.match($('book-ratings-grid').textContent,/9\.0\/10/);
     window.document.querySelector('[data-book-tab="search"]').click();submit('book-search-form');await flush();
     assert.equal(fetches,1); // cached explicit repeat
     $('book-search-results').querySelector('button').click();
@@ -192,7 +193,7 @@ test('Full page boots with film scripts and shared Account menu still works unde
       w.document.querySelector('[data-section="tv"]').click();
       assert.equal(w.document.getElementById('tv-view').hidden,false);
       assert.equal(w.document.getElementById('books-view').hidden,true);
-      assert.equal(w.document.querySelectorAll('[data-tv-edit]').length,w.CULTURE_TV_CATALOG.length);
+      assert.equal(w.document.querySelectorAll('#tv-grid article').length,w.document.querySelectorAll('#tv-grid [data-tv-work]').length);
       w.document.querySelector('[data-section="films"]').click();
       w.document.querySelector('[data-view="awards"]').click();
       assert.equal(w.document.getElementById('awards-view').hidden,false);
@@ -245,6 +246,7 @@ test('Search regression: Tehran title retries without The, keeps selection expli
   try {
     const queries=[];
     window.fetch=async url=>{
+      if(!String(url).includes('/search.json'))return {ok:true,json:async()=>({})};
       const q=new URL(url).searchParams.get('q');queries.push(q);
       return {ok:true,json:async()=>({docs:q.startsWith('title_suggest:"The ')?[]:[{key:'/works/OL42426263W',title:'Nights Are Quiet in Tehran',author_name:['Shida Bazyar','Ruth Martin'],first_publish_year:2025}]})};
     };
@@ -325,11 +327,11 @@ test('Prepared import UI previews before applying, supports local books and clea
     assert.equal($('book-import-apply').hidden,false);
     $('book-import-apply').click();await flush();await flush();
     assert.equal(state.calls[1].payload.p_apply,true);
-    assert.match($('book-ratings-grid').textContent,/July 2022/);
+    assert.doesNotMatch($('book-ratings-grid').textContent,/July 2022/);
     assert.match($('book-ratings-grid').textContent,/Collection/);
     assert.equal($('book-ratings-grid').querySelector('h3 a').getAttribute('href'),'#/books/local-99');
     $('book-ratings-grid').querySelector('button').click();
-    assert.match($('book-reading-history').textContent,/<Private historical note>/);
+    assert.equal($('book-editor').open,true);assert.match($('book-reading-history').textContent,/July 2022/);assert.match($('book-reading-history').textContent,/<Private historical note>/);
     assert.equal($('book-reading-history').querySelector('private'),null);
     $('book-rating-form').dispatchEvent(new window.Event('submit',{cancelable:true}));await flush();
     assert.equal(state.calls.at(-1).name,'update_book_rating');assert.equal(state.calls.at(-1).payload.p_book_id,99);
@@ -346,10 +348,13 @@ test('Goodreads cards distinguish saved public ratings, personal scores, exact l
   state.ratings=[{user_id:userA,book_id:1,rating:8.5,reading_format:'kindle'}];
   await window.CultureBooks.setSession({id:userA});
   const cards=$('book-catalogue-grid').querySelectorAll('article');
-  assert.match(cards[0].textContent,/4.25 \/ 5 · 57 ratings/);assert.match(cards[0].textContent,/Your rating: 8.5\/10/);
-  assert.match(cards[0].textContent,/search-index snapshot/);assert.equal(cards[0].querySelector('.book-goodreads a').href,'https://www.goodreads.com/book/show/222519102');
+  assert.doesNotMatch(cards[0].textContent,/4.25/);assert.match(cards[0].textContent,/8.5\/10/);
   assert.equal(cards[0].querySelector('img').src,'https://i.gr-assets.com/images/a.jpg');
-  assert.match(cards[1].textContent,/Find on Goodreads/);assert.equal(new URL(cards[1].querySelector('.book-goodreads a').href).searchParams.get('q'),'Orbital Samantha Harvey');
+  cards[0].click();assert.match($('book-detail-summary').textContent,/4.25 \/ 5 · 57 ratings/);assert.match($('book-detail-summary').textContent,/search-index snapshot/);
+  assert.equal($('book-detail-summary').querySelector('.book-goodreads a').href,'https://www.goodreads.com/book/show/222519102');
+  assert.equal($('book-rating-form').hidden,true);$('book-detail-edit').click();assert.equal($('book-detail-edit').textContent,'Save');assert.equal($('book-rating-form').hidden,false);
+  $('book-detail-close').click();cards[1].click();assert.match($('book-detail-summary').textContent,/Find on Goodreads/);
+  assert.equal(new URL($('book-detail-summary').querySelector('.book-goodreads a').href).searchParams.get('q'),'Orbital Samantha Harvey');
   assert.equal(cards[2].querySelector('img'),null);assert.equal(cards[2].querySelector('unknown'),null);
  }finally{await window.happyDOM.close();}
 });

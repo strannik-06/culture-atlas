@@ -47,7 +47,7 @@ function endpoint(){const requests=[];let existing=null,progress=null;const env=
  const handler=createHandler(k=>env[k],async(url,options={})=>{url=String(url);requests.push({url,options});
   if(url.includes('/auth/v1/user'))return Response.json(options.headers.Authorization==='Bearer valid'?{id:user}:{error:'bad'}, {status:options.headers.Authorization==='Bearer valid'?200:401});
   if(url.includes('/search/'))return Response.json({results:[{id:10,title:'New film',release_date:'2026-01-01'}]});
-  if(url.includes('api.themoviedb.org'))return Response.json({id:10,title:'New film',name:'New show',imdb_id:'tt1234567',seasons:[{season_number:1,name:'Season 1',episode_count:6}],credits:{crew:[{id:2,name:'Director',job:'Director'}]}});
+  if(url.includes('api.themoviedb.org'))return Response.json({id:10,title:'New film',name:'New show',imdb_id:'tt1234567',overview:'A verified synopsis',vote_average:8.1,seasons:[{season_number:1,name:'Season 1',episode_count:6}],credits:{cast:[{name:'Main actor'}],crew:[{id:2,name:'Director',job:'Director'}]}});
   if(url.includes('/rpc/'))return Response.json({work_key:'movie:1000000000',metadata:JSON.parse(options.body).p_metadata});
   if(url.includes('media_provider_links'))return Response.json(existing?[{work_key:existing.work_key}]:[]);
   if(url.includes('media_catalogue'))return Response.json(existing?[existing]:[]);
@@ -60,7 +60,7 @@ test('Edge: validates session before provider access; bounded explicit search, t
  const h=endpoint();assert.equal((await h.call({action:'search',type:'movie',query:'Film'},'bad')).status,401);assert.equal(h.requests.length,1);
  assert.equal((await h.call({action:'search',type:'movie',query:'Film',year:2026})).status,200);assert.match(h.requests.at(-1).url,/primary_release_year=2026/);
  const result=await(await h.call({action:'save',type:'movie',id:10,rating:8,notes:'note',date:null,scope:'whole_work',metadata:{title:'Forged'}})).json();assert.equal(result.metadata.title,'New film');const args=JSON.parse(h.requests.at(-1).options.body);assert.equal(args.p_user,user);assert.equal(args.p_metadata.director,'Director');
- h.setExisting({work_key:'movie:1',work_type:'movie',film_id:1},{rating:7,notes:'private',updated_at:'v1'});const loaded=await(await h.call({action:'details',type:'movie',id:10})).json();assert.equal(loaded.progress.notes,'private');assert.match(h.requests.at(-1).url,new RegExp('user_id=eq.'+user));
+ h.setExisting({work_key:'movie:1',work_type:'movie',film_id:1},{rating:7,notes:'private',updated_at:'v1'});const loaded=await(await h.call({action:'details',type:'movie',id:10})).json();assert.equal(loaded.progress.notes,'private');assert.equal(loaded.metadata.overview,'A verified synopsis');assert.deepEqual(loaded.metadata.cast,['Main actor']);assert.equal(loaded.metadata.tmdb_rating,8.1);assert.match(h.requests.at(-1).url,new RegExp('user_id=eq.'+user));
  const seasonSave=await(await h.call({action:'save',type:'tv',id:10,season:1,rating:8.5,notes:'season note',date:null,scope:'whole_work'})).json();assert.equal(seasonSave.metadata.season_number,1);assert.equal(JSON.parse(h.requests.at(-1).options.body).p_provider,'tv:10:season:1');
  assert.equal((await h.call({action:'details',type:'tv',id:10,season:2})).status,400);
  const count=h.requests.length;assert.equal((await h.call({action:'details',type:'movie',id:10,season:1})).status,400);assert.equal(h.requests.length,count+1);
