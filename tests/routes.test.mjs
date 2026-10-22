@@ -68,7 +68,7 @@ test('TV season and book deep links survive public catalogue loading; notes are 
   w.CultureRouter.navigate({section:'books',view:'catalogue',entity:'OL42W'});assert.equal($('route-status').hidden,false);
   await w.CultureBooks.setSession(null);await tick();assert.equal($('book-editor').hidden,false);assert.equal($('book-selected-title').textContent,'A shared book');assert.equal($('route-status').hidden,true);
   $('book-notes').value='private thoughts';$('book-notes').dispatchEvent(new w.Event('input',{bubbles:true}));assert.doesNotMatch(w.location.href,/private|notes|rating=/);
-  $('book-cancel').click();await tick();assert.equal(w.location.hash,'#/books/catalogue');
+  $('book-detail-close').click();await tick();assert.equal(w.location.hash,'#/books/catalogue');
  }finally{await a.close();}
 });
 test('Search routes restore public queries, section switches close dialogs, OAuth keeps tokens for SDK',async()=>{
@@ -95,13 +95,13 @@ test('An unsaved book URL resolves public work and author metadata without writi
  try{
   const requests=[];a.w.fetch=async url=>{requests.push(String(url));return {ok:true,json:async()=>String(url).includes('/authors/')?{name:'Public Author'}:{title:'Unsaved book',authors:[{author:{key:'/authors/OL7A'}}],covers:[123]}};};
   a.w.CultureRouter.navigate({section:'books',view:'catalogue',entity:'OL99W'});await tick();
-  assert.equal(a.$('book-selected-title').textContent,'Unsaved book');assert.equal(a.$('book-selected-author').textContent,'Public Author');assert.equal(requests.length,2);assert.equal(a.state.books.length,0);
+  assert.equal(a.$('book-selected-title').textContent,'Unsaved book');assert.match(a.$('book-selected-author').textContent,/Public Author/);assert.equal(requests.length,2);assert.equal(a.state.books.length,0);
  }finally{await a.close();}
 });
 
 test('Newly added film deep links wait for the public dynamic catalogue',async()=>{
- const a=await boot('#/films/1000000001',{media:[{work_type:'movie',metadata:{id:1000000001,title:'Dynamic film',director:'Director',year:2026}}]});
- try{assert.equal(a.$('film-detail-dialog').open,true);assert.match(a.$('film-detail-content').textContent,/Dynamic film/);assert.equal(a.$('route-status').hidden,true);}finally{await a.close();}
+ const a=await boot('#/films/1000000001',{media:[{work_type:'movie',metadata:{id:1000000001,title:'Dynamic film',director:'Director',year:2026,overview:'A dynamically loaded synopsis',cast:['Lead actor'],tmdb_id:42,tmdb_rating:7.4}}]});
+ try{assert.equal(a.$('film-detail-dialog').open,true);assert.match(a.$('film-detail-content').textContent,/Dynamic film/);assert.match(a.$('film-detail-content').textContent,/A dynamically loaded synopsis/);assert.match(a.$('film-detail-content').textContent,/Lead actor/);assert.equal(a.$('route-status').hidden,true);}finally{await a.close();}
 });
 
 test('Authenticated search URLs restore the correct media type without repeating searches on refresh callbacks',async()=>{
@@ -128,5 +128,5 @@ test('A background TV refresh preserves the open draft and its loaded version',a
 
  test('Local imported book deep links restore and never fetch an invented provider ID',async()=>{
  const a=await boot('#/books/local-99',{books:[{id:99,open_library_work_id:null,title:'A local collection',authors:['Author'],work_scope:'collection'}]});
- try{assert.equal(a.$('book-editor').hidden,false);assert.equal(a.$('book-selected-title').textContent,'A local collection');assert.equal(a.calls.length,0);assert.match(a.w.location.hash,/local-99/);a.$('book-cancel').click();await tick();assert.equal(a.w.location.hash,'#/books/ratings');}finally{await a.close();}
+ try{assert.equal(a.$('book-editor').hidden,false);assert.equal(a.$('book-selected-title').textContent,'A local collection');assert.equal(a.calls.length,0);assert.match(a.w.location.hash,/local-99/);a.$('book-detail-close').click();await tick();assert.equal(a.w.location.hash,'#/books/ratings');}finally{await a.close();}
 });

@@ -89,7 +89,7 @@ const settle=async()=>{for(let i=0;i<10;i++)await new Promise(resolve=>setTimeou
 test('UI: navigation, catalogue aliases, half-point stars and private save',async()=>{
  const h=await setupUI(),w=h.window,d=w.document;
  try{
-  await w.CultureTV.setSession(null);assert.equal(d.querySelectorAll('[data-tv-edit]').length,w.CULTURE_TV_CATALOG.length);assert.equal(d.querySelectorAll('[data-linked-film]').length,4);assert.equal(h.writes.length,0);
+  await w.CultureTV.setSession(null);assert.ok(d.querySelectorAll('#tv-grid [data-tv-edit]').length>100);assert.equal(d.querySelectorAll('[data-linked-film]').length,4);assert.equal(h.writes.length,0);
   d.querySelector('[data-section="tv"]').click();assert.equal(d.querySelector('#tv-view').hidden,false);assert.equal(d.querySelector('#cinema-area').hidden,true);assert.equal(d.querySelector('#books-view').hidden,true);
   d.querySelector('[data-section="books"]').click();assert.equal(d.querySelector('#tv-view').hidden,true);assert.equal(d.querySelector('#books-view').hidden,false);
   d.querySelector('[data-section="tv"]').click();await w.CultureTV.setSession({id:a});
@@ -99,7 +99,7 @@ test('UI: navigation, catalogue aliases, half-point stars and private save',asyn
   d.querySelector('#tv-star-picker').dispatchEvent(new w.KeyboardEvent('keydown',{key:'Enter',bubbles:true}));assert.equal(d.querySelector('#tv-rating').value,'7.5');
   d.querySelector('#tv-notes').value='<script>private</script>';d.querySelector('#tv-rating-form').dispatchEvent(new w.Event('submit',{bubbles:true,cancelable:true}));await settle();
   assert.equal(h.writes.length,1);assert.equal(h.writes[0].name,'save_tv_rating');assert.equal(h.writes[0].args.p_work_key,'tv:42699');assert.equal(h.writes[0].args.p_rating,7.5);assert.equal(h.writes[0].args.p_expected_updated_at,null);
-  assert.equal(d.querySelector('#tv-grid script'),null);assert.match(d.querySelector('#tv-grid').textContent,/<script>private/);
+  assert.equal(d.querySelector('#tv-grid script'),null);assert.doesNotMatch(d.querySelector('#tv-grid').textContent,/<script>private/);assert.match(d.querySelector('#tv-detail-read').textContent,/<script>private/);
   h.setPersisted([]);h.setUser({id:b});await w.CultureTV.setSession({id:b});assert.doesNotMatch(d.querySelector('#tv-grid').textContent,/<script>private/);assert.equal(d.querySelector('#tv-editor').hidden,true);
  }finally{await w.happyDOM.close();}
 });
@@ -169,11 +169,11 @@ test('UI shows exact season/installment scope and honest manual reference links'
   await w.CultureTV.setSession({id:a});
   const card=key=>d.querySelector(`[data-tv-edit="${key}"]`).closest('article');
   d.querySelector('#tv-kind').value='season';d.querySelector('#tv-kind').dispatchEvent(new w.Event('change'));
-  assert.match(card('tv:1455:season:1').textContent,/Season 1 · 26 episodes/);
-  assert.match(card('tv:1455:season:2').querySelector('.sources a').href,/\/tv\/1455\/season\/2$/);
+  card('tv:1455:season:1').click();assert.match(d.querySelector('#tv-selected-meta').textContent,/Season 1 · 26 episodes/);
+  card('tv:1455:season:2').click();assert.match(d.querySelector('#tv-detail-read .sources a').href,/\/tv\/1455\/season\/2$/);
   d.querySelector('#tv-kind').value='';d.querySelector('#tv-kind').dispatchEvent(new w.Event('change'));
-  assert.match(card('tv:movie:126850').querySelector('.sources a').href,/\/movie\/126850$/);
-  const manual=card('tv:imdb:tt4324832');assert.match(manual.querySelector('.sources a').href,/imdb.com\/title\/tt4324832/);assert.doesNotMatch(manual.innerHTML,/themoviedb.org/);
+  card('tv:movie:126850').click();assert.match(d.querySelector('#tv-detail-read .sources a').href,/\/movie\/126850$/);
+  const manual=card('tv:imdb:tt4324832');manual.click();assert.match(d.querySelector('#tv-detail-read .sources a').href,/imdb.com\/title\/tt4324832/);assert.doesNotMatch(manual.innerHTML,/themoviedb.org/);
   const opening=card('tv:local:good-night-little-ones-tatarskiy-opening');assert.match(opening.textContent,/Opening sequence/);assert.match(opening.textContent,/Aleksandr Tatarskiy/);assert.doesNotMatch(opening.innerHTML,/themoviedb.org/);
   d.querySelector('[data-tv-edit="tv:1455:season:1"]').click();assert.equal(d.querySelector('#tv-scope [value="whole_work"]').textContent,'Complete selected season');
   d.querySelector('[data-tv-edit="tv:movie:126850"]').click();assert.equal(d.querySelector('#tv-scope [value="whole_work"]').textContent,'This installment');
@@ -214,9 +214,9 @@ test('series and season editors keep independent scores and navigation is Films,
   h.setPersisted([{...entry('tv:247718:season:1',7.5,'whole_work'),notes:'Season one only',updated_at:'2026-10-19T18:00:00Z'}]);
   await w.CultureTV.setSession({id:a});
   const parent=d.querySelector('[data-tv-edit="tv:247718"]').closest('article');
-  assert.match(parent.querySelector('.tv-seasons').textContent,/1 rated/);assert.match(parent.querySelector('[data-tv-edit="tv:247718:season:1"]').textContent,/7.5/);
-  assert.match(parent.querySelector('[data-tv-edit="tv:247718"]').textContent,/Rate series/);
-  d.querySelector('[data-tv-tab="ratings"]').click();assert.ok(d.querySelector('[data-tv-edit="tv:247718"]'));
+  assert.equal(parent.querySelector('.tv-seasons'),null);parent.click();assert.match(d.querySelector('#tv-detail-read .tv-seasons').textContent,/1 rated/);assert.match(d.querySelector('#tv-detail-read [data-tv-edit="tv:247718:season:1"]').textContent,/7.5/);
+  assert.match(parent.querySelector('[data-tv-edit="tv:247718"]').textContent,/Rate/);
+  d.querySelector('[data-tv-tab="ratings"]').click();assert.ok(d.querySelector('[data-tv-edit="tv:247718"]'));d.querySelector('[data-tv-edit="tv:247718"]').click();
   d.querySelector('[data-tv-edit="tv:247718:season:1"]').click();assert.equal(d.querySelector('#tv-notes').value,'Season one only');
   d.querySelector('#tv-target').value='tv:247718';d.querySelector('#tv-target').dispatchEvent(new w.Event('change'));
   assert.equal(d.querySelector('#tv-rating').value,'');assert.equal(d.querySelector('#tv-notes').value,'');

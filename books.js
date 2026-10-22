@@ -72,7 +72,12 @@
     return [...searchVariants(query).map(text=>({params:{q:'title_suggest:'+quote(text),...(author?{author}: {})},text})),{params:{q:query,...(author?{author}: {})},text:query}];
   }
   let client, user=null, generation=0, books=[], progress=new Map(), results=[], selected=null;
-  let editorHydrated=false, readings=[], importDraft=null, importing=false;
+  let editorHydrated=false, readings=[], importDraft=null, importing=false, editing=false;
+  const descriptions=new Map();let detailSequence=0;
+  function editMode(value) {
+    editing=value;closeBookStars();$('book-rating-form').hidden=!value;$('book-detail-personal').hidden=value;
+    $('book-detail-edit').textContent=value?'Save':'Edit';$('book-detail-edit').classList.toggle('detail-save',value);
+  }
   function readingDate(r) {
     if(r.read_date_precision==='unknown')return 'Date not recorded';
     if(r.read_date_precision==='year_range')return `${r.read_year}–${r.read_year_end}`;
@@ -108,7 +113,7 @@
     starPicker.id='book-star-picker';starPicker.className='star-picker';starPicker.hidden=true;
     starPicker.setAttribute('role','dialog');starPicker.setAttribute('aria-label','Choose a personal book rating');
     starPicker.innerHTML='<div class="star-choices" role="group" aria-label="Choose a rating out of ten">'+Array.from({length:10},(_,i)=>`<button type="button" class="star-choice" data-index="${i}" aria-label="${i+1} stars"><span class="star-empty">★</span><span class="star-fill">★</span></button>`).join('')+'</div><span class="rating-preview" aria-live="polite"></span><button type="button" class="clear-rating">Clear rating</button>';
-    document.body.append(starPicker);
+    $('book-editor').append(starPicker);
     const trigger=$('book-rating-trigger');
     trigger.addEventListener('click',()=>{
       if(!starPicker.hidden) {closeBookStars();return;}
@@ -139,7 +144,7 @@
       else if(event.target.closest('.clear-rating')) commit(null);
     });
     starPicker.addEventListener('keydown',event=>{
-      if(event.key==='Escape') {event.preventDefault();closeBookStars(true);return;}
+      if(event.key==='Escape') {event.preventDefault();event.stopPropagation();closeBookStars(true);return;}
       if(['ArrowLeft','ArrowDown','ArrowRight','ArrowUp'].includes(event.key)) {
         event.preventDefault();starPreview=Math.max(.5,Math.min(10,(starPreview??(Number($('book-rating').value)||0))+(['ArrowRight','ArrowUp'].includes(event.key)?.5:-.5)));paintBookStars(starPreview);
       }
@@ -158,10 +163,10 @@
   }
   function card(book, result=false) {
     book={...book,...books.find(b=>bookKey(b)===bookKey(book))};
-    const p=progress.get(bookKey(book)), known=books.find(b=>bookKey(b)===bookKey(book));
+    const p=progress.get(bookKey(book));
     const cover=Number.isSafeInteger(Number(book.cover_id)) && Number(book.cover_id)>0;
     const coverUrl=cover?`https://covers.openlibrary.org/b/id/${Number(book.cover_id)}-M.jpg?default=false`:fallbackCover(book.cover_url);
-    return `<article class="film book-card"><div class="poster"><span class="cover-fallback">Cover unavailable</span>${coverUrl?`<img loading="lazy" src="${escape(coverUrl)}" alt="Cover of ${escape(book.title)}">`:''}</div><div class="body"><h3>${book.id||book.open_library_work_id?`<a href="#/books/${escape(bookKey(book).split('/').pop())}">${escape(book.title)}</a>`:escape(book.title)}</h3>${result&&book.search_match?`<p class="meta">${escape(book.search_match)}</p>`:''}<p class="meta">${escape(book.authors.join(', '))}</p><p class="meta">${escape(book.first_publish_year??'Year unavailable')}</p>${p?`<p class="book-score">Your rating: ${escape(p.rating)}/10</p><p class="meta">${escape(formats[p.reading_format]||formats.unknown)}</p>${historyFor(book).length?`<p class="meta">Read: ${escape(readingDate(historyFor(book)[0]))}${historyFor(book).length>1?` · ${historyFor(book).length} readings`:''}</p>`:''}${!result&&p.notes?`<p class="book-notes">${escape(p.notes)}</p>`:''}`:''}${book.open_library_work_id?`<a class="meta" href="https://openlibrary.org${escape(book.open_library_work_id)}" target="_blank" rel="noopener noreferrer">Open Library ↗</a>`:`<p class="meta">${book.work_scope==='collection'?'Collection · ':''}${goodreadsId(book.goodreads_id)?'Goodreads-linked catalogue record':'Source catalogue record'}</p>`}${goodreadsMarkup(book)}<button type="button" class="action" data-book-work="${escape(bookKey(book))}">${p?'Edit rating':known?'Rate book':'Select & rate'}</button></div></article>`;
+    return `<article class="film book-card ${p?'watched':''}" tabindex="0" role="button" aria-label="View details for ${escape(book.title)}" data-book-work="${escape(bookKey(book))}"><div class="poster"><span class="cover-fallback">Cover unavailable</span>${coverUrl?`<img loading="lazy" src="${escape(coverUrl)}" alt="Cover of ${escape(book.title)}">`:''}</div><div class="body"><h3>${book.id||book.open_library_work_id?`<a href="#/books/${escape(bookKey(book).split('/').pop())}">${escape(book.title)}</a>`:escape(book.title)}</h3><p class="meta">${escape(book.authors.join(', '))} · ${escape(book.first_publish_year??'Year unavailable')}</p>${result&&book.search_match?`<p class="meta">${escape(book.search_match)}</p>`:''}${book.work_scope==='collection'?'<p class="meta">Collection</p>':''}<div class="controls"><button type="button" class="star-trigger" data-book-rate="${escape(bookKey(book))}" aria-label="Edit personal rating for ${escape(book.title)}">${p?'★':'☆'} <span class="value">${p?Number(p.rating).toFixed(1)+'/10':'Rate'}</span></button></div></div></article>`;
   }
   function render() {
     const rated=books.filter(b=>progress.has(bookKey(b))).sort((a,b)=>new Date(progress.get(bookKey(b)).updated_at)-new Date(progress.get(bookKey(a)).updated_at));
@@ -187,7 +192,8 @@
   function closeEditor() {
     if(saving) return;
     closeBookStars();
-    selected=null; $('book-editor').hidden=true; $('book-rating-form').reset(); $('book-rating').value='';
+    detailSequence++;selected=null; $('book-editor').close();$('book-editor').hidden=true; $('book-rating-form').reset(); $('book-rating').value='';
+    $('book-detail-personal').replaceChildren();$('book-reading-history').replaceChildren();editMode(false);
     updateRatingTrigger();
     message('book-save-status','');
   }
@@ -197,6 +203,10 @@
     closeBookStars();
     selected=books.find(b=>bookKey(b)===workId)||results.find(b=>bookKey(b)===workId);
     if(!selected) return;
+    showDetails();
+  }
+  function showDetails() {
+    const workId=bookKey(selected),sequence=++detailSequence;
     editorHydrated=!loading;
     const p=progress.get(workId);
     $('book-rating-form').reset();
@@ -206,11 +216,21 @@
     updateRatingTrigger();
     $('book-format').value=p?.reading_format||'';
     $('book-notes').value=p?.notes||'';
+    $('book-detail-personal').innerHTML=`<h3>Your rating</h3><p class="detail-rating">${p?'★ '+Number(p.rating).toFixed(1)+'/10':'Not rated yet'}</p><p class="meta">Reading format: ${escape(formats[p?.reading_format]||formats.unknown)}</p><h3>Your notes</h3><p class="detail-notes">${escape(p?.notes||'No notes yet.')}</p>`;
+    const cover=selected.cover_id?`https://covers.openlibrary.org/b/id/${Number(selected.cover_id)}-L.jpg?default=false`:fallbackCover(selected.cover_url);
+    const titleNode=$('book-selected-title'),authorNode=$('book-selected-author');
+    $('book-detail-summary').innerHTML=`<div class="film-detail-layout"><div>${cover?`<img class="film-detail-poster" src="${escape(cover)}" alt="Cover of ${escape(selected.title)}">`:'<div class="detail-poster-empty">Cover unavailable</div>'}</div><div><h3>Synopsis</h3><p id="book-synopsis">${escape(descriptions.get(workId)||selected.description||'Synopsis unavailable.')}</p><h3>Awards</h3><p class="meta">Book awards will be added soon.</p><h3>Website ratings & links</h3>${goodreadsMarkup(selected)}${selected.open_library_work_id?`<p class="meta"><a href="https://openlibrary.org${escape(selected.open_library_work_id)}" target="_blank" rel="noopener noreferrer">Open Library ↗</a></p>`:''}<h3>Critics’ reviews</h3><p class="meta">No verified critic reviews yet.</p></div></div>`;
+    authorNode.textContent=selected.authors.join(', ')+' · '+(selected.first_publish_year??'Year unavailable');
+    $('book-detail-summary').querySelector('.film-detail-layout>div:last-child').prepend(titleNode,authorNode);
     $('book-reading-history').innerHTML=historyFor(selected).length?'<h3>Reading history</h3><p class="meta">Imported readings are preserved when you edit your current rating.</p><ul>'+historyFor(selected).map(r=>`<li>${escape(readingDate(r))} · ${escape(r.rating)}/10 · ${escape(formats[r.reading_format])}${r.notes?`<p class="book-notes">${escape(r.notes)}</p>`:''}</li>`).join('')+'</ul>':'';
     message('book-save-status',user?'': 'Sign in using Account to save this book.');
     $('book-editor').hidden=false;
-    $('book-editor').scrollIntoView({behavior:'smooth',block:'start'});
-    $('book-rating-trigger').focus({preventScroll:true});
+    if(!$('book-editor').open)$('book-editor').showModal();
+    editMode(!selected.id);$('book-detail-edit').disabled=saving||loading;
+    if(selected.open_library_work_id&&!descriptions.has(workId)){
+      descriptions.set(workId,'Synopsis unavailable.');
+      fetch(`https://openlibrary.org${selected.open_library_work_id}.json`,{signal:AbortSignal.timeout(12000)}).then(r=>r.ok?r.json():null).then(doc=>{const text=typeof doc?.description==='string'?doc.description:doc?.description?.value;if(typeof text==='string'&&text.trim()){descriptions.set(workId,text);if(sequence===detailSequence)$('book-synopsis').textContent=text;}}).catch(()=>{});
+    }
   }
   async function search(event) {
     event.preventDefault();
@@ -278,6 +298,7 @@
     user=nextUser||null; const version=++generation;
     loading=true;
     if(changed) {
+      if(!saving)closeEditor();else{$('book-editor').close();detailSequence++;}
       closeBookStars();
       progress=new Map(); readings=[];selected=null;resetImport();$('book-reading-history').replaceChildren();
       $('book-editor').hidden=true; $('book-rating-form').reset(); $('book-rating').value=''; message('book-save-status','');
@@ -307,6 +328,7 @@
     if(!validRating(rating)||!Object.hasOwn(formats,format)||notes.length>10000) { message('book-save-status','Choose a rating and reading format, with notes up to 10,000 characters.');return; }
     const version=generation,book=selected;
     closeBookStars();saving=true;
+    $('book-detail-edit').disabled=true;
     for(const el of $('book-rating-form').elements) el.disabled=true;
     message('book-save-status','Saving book and rating…');
     try {
@@ -317,11 +339,13 @@
       books=[data.book,...books.filter(b=>b.id!==data.book.id)];
       progress.set(bookKey(data.book),data.progress);
       message('book-sync-status',`Saved “${data.book.title}” to the catalogue and your ratings.`);
-      saving=false; closeEditor(); switchTab('ratings');window.CultureRouter?.navigate({section:'books',view:'ratings'});
+      saving=false;selected=data.book;render();showDetails();message('book-save-status','Saved to your account.');
+      if(bookKey(book)!==bookKey(data.book))window.CultureRouter?.openBook(bookKey(data.book));
     } catch(error) {
       if(version===generation) message('book-save-status',`Could not save: ${errorMessage(error)} Your form has been kept.`);
     } finally {
       saving=false;
+      $('book-detail-edit').disabled=false;
       for(const el of $('book-rating-form').elements) el.disabled=false;
       if(version!==generation) closeEditor();
     }
@@ -380,6 +404,7 @@
       }));
       const names=authors.filter(name=>typeof name==='string'&&name.trim());if(!names.length)return;
       const book={open_library_work_id:workId,title:doc.title,authors:names,cover_id:doc.covers?.find(id=>Number.isSafeInteger(id)&&id>0)||null,first_publish_year:null};
+      descriptions.set(workId,(typeof doc.description==='string'?doc.description:doc.description?.value)||'Synopsis unavailable.');
       if(!results.some(b=>bookKey(b)===workId))results.push(book);
     })();workLoads.set(workId,pending);return pending;
   }
@@ -387,8 +412,16 @@
     client=supabaseClient;
     // Account UI must remain reachable while the Films area is hidden.
     document.body.append($('account'));
+    document.body.append($('book-editor'));
     initBookStars();
     initImport();
+    $('book-detail-edit').addEventListener('click',()=>{if(saving)return;if(editing)$('book-rating-form').requestSubmit();else{editMode(true);$('book-rating-trigger').focus();}});
+    const closeDetails=()=>{if(saving)return;closeEditor();window.CultureRouter?.closeDetail('book');};
+    $('book-detail-close').addEventListener('click',closeDetails);
+    $('book-editor').addEventListener('cancel',event=>{event.preventDefault();closeDetails();});
+    $('book-editor').addEventListener('click',event=>{if(event.target===$('book-editor'))closeDetails();});
+    $('book-editor').addEventListener('scroll',()=>closeBookStars(),{passive:true});
+    $('book-editor').addEventListener('error',event=>{if(event.target.tagName==='IMG')event.target.hidden=true;},true);
     $('book-goodreads-form').addEventListener('submit',event=>{
       event.preventDefault();if(saving)return;
       const url=$('book-goodreads-url').value.trim();
@@ -407,11 +440,13 @@
     });
     $('book-search-form').addEventListener('submit',search);
     $('book-rating-form').addEventListener('submit',save);
-    $('book-cancel').addEventListener('click',()=>{closeEditor();window.CultureRouter?.closeDetail('book');});
+    $('book-cancel').addEventListener('click',()=>{if(!saving&&selected)showDetails();});
     $('books-view').addEventListener('click',event=>{
       const tab=event.target.closest('[data-book-tab]'); if(tab) { if(!saving) { closeEditor();switchTab(tab.dataset.bookTab); }return; }
-      const choice=event.target.closest('[data-book-work]'); if(choice) choose(choice.dataset.bookWork);
+      const rate=event.target.closest('[data-book-rate]');if(rate){choose(rate.dataset.bookRate);editMode(true);return;}
+      const choice=event.target.closest('[data-book-work]'); if(choice&&!event.target.closest('a')) choose(choice.dataset.bookWork);
     });
+    $('books-view').addEventListener('keydown',event=>{if(['Enter',' '].includes(event.key)&&event.target.matches('article[data-book-work]')){event.preventDefault();choose(event.target.dataset.bookWork);}});
     $('books-view').addEventListener('error',event=>{if(event.target.tagName==='IMG') event.target.hidden=true;},true);
     $('book-more').addEventListener('click',()=>{visible+=48;render();});
     for(const button of document.querySelectorAll('[data-section]')) button.addEventListener('click',()=>{

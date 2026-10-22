@@ -154,7 +154,7 @@
   if(client)loadCatalogue().catch(e=>console.warn(e.message));
  }
  function setSession(next){user=next;generation++;reset();status(user?'Ready to search.':'Sign in to search and save.');window.CultureRouter?.refresh();}
- window.CultureMedia={init,setSession,route:{open,getType:()=>type,close:()=>{closeStars();$('media-dialog').close();reset();},
+ window.CultureMedia={init,setSession,details:(type,id,season=null)=>call({action:'details',type,id,season}),route:{open,getType:()=>type,close:()=>{closeStars();$('media-dialog').close();reset();},
   restore:params=>{const query=params.q||'',person=Number(params.director)||0;const signature=JSON.stringify([type,query,person,params.year||null]);
    $('media-query').value=query;
    if(user&&(query.length>=2||person)&&signature!==routeSignature){

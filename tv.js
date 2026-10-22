@@ -50,16 +50,16 @@
   }
   let client,user=null,generation=0,loading=false,busy=false,ready=false,current=null,editorVersion=null,tab='catalogue';
   let rows=new Map(),linked=new Map(),shows=[],aliases=[],hooks={};
-  let picker,preview=null,editorHydrated=false;
+  let picker,preview=null,editorHydrated=false,editing=false;const detailMetadata=new Map();
   function message(text){$('tv-message').textContent=text;}
   function closeStars(){if(picker)picker.hidden=true;$('tv-star-trigger')?.setAttribute('aria-expanded','false');preview=null;}
-  function closeEditor(){closeStars();current=null;editorVersion=null;$('tv-editor').hidden=true;$('tv-rating-form').reset();}
+  function closeEditor(){closeStars();current=null;editorVersion=null;$('tv-editor').close();$('tv-editor').hidden=true;$('tv-rating-form').reset();$('tv-editor').append($('tv-selected-title'),$('tv-selected-meta'));$('tv-detail-read').replaceChildren();}
   function paint(value){picker.querySelectorAll('.star-choice').forEach((b,i)=>b.querySelector('.star-fill').style.width=`${Math.max(0,Math.min(1,value-i))*100}%`);picker.querySelector('.rating-preview').textContent=value?`${value.toFixed(1)} / 10`:'Not rated';}
   function setRating(value){$('tv-rating').value=value??'';$('tv-star-trigger').innerHTML=value?`★ <span class="value">${value.toFixed(1)}/10</span>`:'☆ <span class="value">Rate</span>';paint(value||0);}
   function initStars(){
     picker=document.createElement('div');picker.className='star-picker';picker.id='tv-star-picker';picker.hidden=true;picker.setAttribute('role','dialog');picker.setAttribute('aria-label','Choose a TV rating');
     picker.innerHTML='<div class="star-choices" role="group" aria-label="Rating out of ten">'+Array.from({length:10},(_,i)=>`<button class="star-choice" type="button" data-star="${i}" aria-label="${i+1} stars"><span class="star-empty">★</span><span class="star-fill">★</span></button>`).join('')+'</div><span class="rating-preview" aria-live="polite"></span>';
-    document.body.append(picker);
+    $('tv-editor').append(picker);
     $('tv-star-trigger').addEventListener('click',()=>{
       if(!picker.hidden){closeStars();return;}picker.hidden=false;preview=null;paint(Number($('tv-rating').value)||0);$('tv-star-trigger').setAttribute('aria-expanded','true');
       const r=$('tv-star-trigger').getBoundingClientRect(),width=Math.min(300,innerWidth-20),height=picker.offsetHeight;
@@ -71,7 +71,7 @@
     picker.addEventListener('pointerleave',()=>{preview=null;paint(Number($('tv-rating').value)||0);});
     picker.addEventListener('click',e=>{const b=e.target.closest('[data-star]');if(!b)return;setRating(e.detail===0?(preview??Number(b.dataset.star)+1):pointer(e,b));closeStars();$('tv-star-trigger').focus();});
     picker.addEventListener('keydown',e=>{
-      if(e.key==='Escape'){e.preventDefault();closeStars();$('tv-star-trigger').focus();}
+      if(e.key==='Escape'){e.preventDefault();e.stopPropagation();closeStars();$('tv-star-trigger').focus();}
       if(['ArrowLeft','ArrowDown','ArrowRight','ArrowUp'].includes(e.key)){e.preventDefault();preview=Math.max(.5,Math.min(10,(preview??(Number($('tv-rating').value)||0))+(['ArrowRight','ArrowUp'].includes(e.key)?.5:-.5)));paint(preview);}
       if((e.key==='Enter'||e.key===' ')&&preview!==null){e.preventDefault();setRating(preview);closeStars();$('tv-star-trigger').focus();}
       if(e.key==='Tab')closeStars();
@@ -91,7 +91,7 @@
   async function setSession(nextUser){
     const changed=user?.id!==nextUser?.id;
     user=nextUser||null;const version=++generation;ready=false;loading=!!user;
-    if(changed){rows=new Map();linked=new Map();closeStars();current=null;editorVersion=null;$('tv-editor').hidden=true;$('tv-rating-form').reset();}
+    if(changed){closeEditor();rows=new Map();linked=new Map();closeStars();current=null;editorVersion=null;$('tv-editor').hidden=true;$('tv-rating-form').reset();}
     render();
     if(!user){message('Sign in using your account menu to save and import TV ratings.');return;}
     if(!client){loading=false;message('Cloud connection is unavailable.');render();return;}
@@ -127,24 +127,43 @@
       const poster=typeof w.poster_path==='string'&&/^\/[A-Za-z0-9._-]+$/.test(w.poster_path)?'https://image.tmdb.org/t/p/w342'+w.poster_path:null;
       const names=[...(w.directors?.length?w.directors:w.creators||[]).map(p=>p.name),...(w.credit_names||[])];
       const credits=names.slice(0,3).join(', ')+(names.length>3?' +'+(names.length-3):'');
-      return `<article class="film ${rating||(!w.linked&&hasRating(w))?'watched':''}"><div class="poster">${poster?`<img loading="lazy" alt="Poster for ${escape(w.title)}" src="${escape(poster)}">`:`<span class="initial">${escape(w.title[0])}</span>`}<span class="tier">${escape(kinds[w.series_kind])}</span></div><div class="body"><h3>${w.linked?escape(w.title):`<a href="${window.CultureRoutes?.format(window.CultureRoutes.tvRoute(w.id))||'#'}">${escape(w.title)}</a>`}</h3><div class="meta">${escape(credits)}${credits?' · ':''}${escape(w.year)}</div>${w.scope_label?`<div class="meta tv-work-scope">${escape(w.scope_label)}</div>`:''}${w.original_title&&w.original_title!==w.title?`<div class="meta">${escape(w.original_title)}</div>`:''}<div class="meta tv-scope">${w.linked?'Same work already represented in Films':rating?escape(p.rating_scope==='whole_work'?wholeScope(w):scopes[p.rating_scope]):'Not rated'}</div>${p?.notes?`<p class="tv-notes">${escape(p.notes)}</p>`:''}${p?.watched_date?`<div class="meta">Watched: ${escape(p.watched_date)}</div>`:''}<div class="sources">${sourceLinks(w)}</div><div class="controls">${w.linked?`<button class="action" type="button" data-linked-film="${w.id.split(':')[1]}">${rating?rating.toFixed(1)+'/10 · ':''}View film rating</button>`:`<button type="button" class="star-trigger" data-tv-edit="${w.id}" aria-label="Rate ${escape(w.title)}" ${!user||loading||busy||!ready?'disabled':''}>${rating?'★ <span class="value">'+rating.toFixed(1)+'/10</span>':'☆ <span class="value">'+(children(w).length?'Rate series':'Rate')+'</span>'}</button>`}</div>${!w.linked&&kind!=='season'?seasonControls(w):''}</div></article>`;
+      const cast=(w.cast||[]).map(p=>typeof p==='string'?p:p.name).filter(Boolean).slice(0,3).join(', ');
+      return `<article class="film ${rating||(!w.linked&&hasRating(w))?'watched':''}" tabindex="0" role="button" aria-label="View details for ${escape(w.title)}" data-tv-work="${escape(w.id)}"><div class="poster">${poster?`<img loading="lazy" alt="Poster for ${escape(w.title)}" src="${escape(poster)}">`:`<span class="initial">${escape(w.title[0])}</span>`}<span class="tier">${escape(kinds[w.series_kind])}</span></div><div class="body"><h3>${w.linked?escape(w.title):`<a href="${window.CultureRoutes?.format(window.CultureRoutes.tvRoute(w.id))||'#'}">${escape(w.title)}</a>`}</h3><div class="meta">${escape(credits)}${credits?' · ':''}${escape(w.year)}</div>${cast?`<div class="cast">${escape(cast)}</div>`:''}${w.recognition?`<div class="recognition">${escape(w.recognition)}</div>`:''}<div class="controls">${w.linked?`<button class="star-trigger" type="button" data-linked-film="${w.id.split(':')[1]}">${rating?'★ '+rating.toFixed(1)+'/10':'☆ Rate'}</button>`:`<button type="button" class="star-trigger" data-tv-edit="${w.id}" aria-label="Edit personal rating for ${escape(w.title)}">${rating?'★ <span class="value">'+rating.toFixed(1)+'/10</span>':'☆ <span class="value">Rate</span>'}</button>`}</div></div></article>`;
     }).join('');
     $('tv-empty').hidden=visible.length>0;
     for(const id of ['tv-import','tv-import-button','tv-export'])$(id).disabled=!user||loading||busy||!ready;
-    $('tv-refresh').disabled=loading||busy;
+    $('tv-refresh').disabled=loading||busy;$('tv-detail-edit').disabled=busy||loading||!user||!ready;
     for(const el of $('tv-rating-form').elements)el.disabled=busy||loading||!ready||!user;
   }
   function choose(key){
     if(busy)return;
     if(window.CultureRouter?.openTV(key))return;
-    const w=shows.find(w=>w.id===key);if(!w)return;current=w;editorHydrated=!!(ready&&user);
+    const w=shows.find(w=>w.id===key);if(!w)return;current=w;showDetails();
+  }
+  function editMode(value){
+    editing=value;closeStars();$('tv-rating-form').hidden=!value;
+    $('tv-detail-edit').textContent=value?'Save':'Edit';$('tv-detail-edit').classList.toggle('detail-save',value);
+    $('tv-detail-edit').disabled=busy||loading||!user||!ready;
+    const personal=$('tv-detail-read').querySelector('[data-personal]');if(personal)personal.hidden=value;
+  }
+  function renderDetails(){
+    if(!current)return;const w=current,p=rows.get(w.id);
+    const titleNode=$('tv-selected-title'),metaNode=$('tv-selected-meta');
+    const poster=typeof w.poster_path==='string'&&/^\/[A-Za-z0-9._-]+$/.test(w.poster_path)?'https://image.tmdb.org/t/p/w500'+w.poster_path:null;
+    const cast=(w.cast||[]).map(p=>typeof p==='string'?p:p.name).filter(Boolean).join(', ');
+    $('tv-detail-read').innerHTML=`<div class="film-detail-layout"><div>${poster?`<img class="film-detail-poster" src="${escape(poster)}" alt="Poster for ${escape(w.title)}">`:'<div class="detail-poster-empty">Poster unavailable</div>'}</div><div><h3>Synopsis</h3><p>${escape(w.overview||'Synopsis unavailable.')}</p>${w.scope_label?`<p class="meta">${escape(w.scope_label)}</p>`:''}${cast?`<h3>Cast</h3><p>${escape(cast)}</p>`:''}<h3>Awards</h3><p class="meta">${escape(w.recognition||'No recorded awards.')}</p><h3>Website ratings & links</h3>${typeof w.tmdb_rating==='number'&&w.tmdb_rating>0?`<p class="meta">TMDB: ${escape(w.tmdb_rating.toFixed(1))}/10</p>`:''}<div class="sources">${sourceLinks(w)}</div><div data-personal ${editing?'hidden':''}><h3>Your rating</h3><p class="detail-rating">${p?'★ '+Number(p.rating).toFixed(1)+'/10':'Not rated yet'}</p><p class="meta">${escape(p?.rating_scope==='whole_work'?wholeScope(w):scopes[p?.rating_scope]||'Scope not specified')}${p?.watched_date?' · Watched '+escape(p.watched_date):''}</p><h3>Your notes</h3><p class="detail-notes">${escape(p?.notes||'No notes yet.')}</p></div><h3>Critics’ reviews</h3><p class="meta">No verified critic reviews yet.</p>${seasonControls(w)}</div></div>`;
+    $('tv-detail-read').querySelector('.film-detail-layout>div:last-child').prepend(titleNode,metaNode);
+  }
+  function showDetails(){
+    const w=current,key=w.id;editorHydrated=!!(ready&&user);
     $('tv-selected-meta').textContent=[w.year,kinds[w.series_kind],w.scope_label,...(w.directors?.length?w.directors:w.creators||[]).map(p=>p.name)].filter(Boolean).join(' · ');
     const parent=w.series_kind==='season'?shows.find(p=>p.id==='tv:'+w.tmdb_id):w;
     const targets=parent?[parent,...children(parent)]:[w];
     $('tv-target-label').hidden=targets.length<2;
     $('tv-target').innerHTML=targets.map(t=>`<option value="${escape(t.id)}">${t.series_kind==='season'?'Season '+t.season_number:'Whole series'}</option>`).join('');$('tv-target').value=w.id;
     $('tv-scope').querySelector('[value="whole_work"]').textContent=wholeScope(w);
-    const p=rows.get(key);editorVersion=p?.updated_at||null;$('tv-editor').hidden=false;$('tv-selected-title').textContent=w.title;$('tv-scope').value=p?.rating_scope||(w.series_kind==='season'?'whole_work':'unspecified');$('tv-notes').value=p?.notes||'';$('tv-date').value=p?.watched_date||'';setRating(Number(p?.rating)||null);$('tv-remove').hidden=!p;$('tv-editor-status').textContent='';$('tv-editor').scrollIntoView({behavior:'smooth',block:'start'});
+    const p=rows.get(key);editorVersion=p?.updated_at||null;$('tv-editor').hidden=false;$('tv-selected-title').textContent=w.title;$('tv-scope').value=p?.rating_scope||(w.series_kind==='season'?'whole_work':'unspecified');$('tv-notes').value=p?.notes||'';$('tv-date').value=p?.watched_date||'';setRating(Number(p?.rating)||null);$('tv-remove').hidden=!p;$('tv-editor-status').textContent='';if(!$('tv-editor').open)$('tv-editor').showModal();renderDetails();editMode(false);
+    if(user&&w.tmdb_id&&!detailMetadata.has(key)&&window.CultureMedia?.details){const version=generation;detailMetadata.set(key,true);window.CultureMedia.details('tv',w.tmdb_id,w.series_kind==='season'?w.season_number:null).then(data=>{if(version!==generation)return;if(data.metadata?.overview)w.overview=data.metadata.overview;if(Array.isArray(data.metadata?.cast))w.cast=data.metadata.cast;if(typeof data.metadata?.tmdb_rating==='number')w.tmdb_rating=data.metadata.tmdb_rating;render();if(current?.id===key)renderDetails();}).catch(()=>{detailMetadata.delete(key);});}
     for(const el of $('tv-rating-form').elements)el.disabled=busy||loading||!ready||!user;
     if(!user)$('tv-editor-status').textContent='Sign in using Account to rate this work.';
   }
@@ -158,7 +177,7 @@
       await checkSession(version);
       const {data,error}=await client.rpc('save_tv_rating',{p_work_key:work,p_rating:rating,p_scope:scope,p_notes:notes,p_watched_date:date,p_expected_updated_at:expectedVersion});
       if(error)throw error;if(version!==generation)return;
-      rows.set(work,data);closeEditor();window.CultureRouter?.closeDetail('tv');message('TV rating saved to your account.');
+      rows.set(work,data);editorVersion=data.updated_at;renderDetails();editMode(false);$('tv-editor-status').textContent='Saved to your account.';message('TV rating saved to your account.');
     }catch(error){if(version===generation)$('tv-editor-status').textContent=error.message||'TV rating could not be saved.';}
     finally{busy=false;render();}
   }
@@ -206,15 +225,20 @@
     client=supabaseClient;hooks=callbacks;shows=window.CULTURE_TV_CATALOG||[];aliases=window.CULTURE_TV_FILM_ALIASES||[];
     window.CULTURE_WORK_IDENTITIES.createRegistry(window.CULTURE_CATALOG||[],shows,aliases);
     const section=document.createElement('section');section.id='tv-view';section.hidden=true;section.setAttribute('aria-label','TV Series');
-    section.innerHTML=`<div class="hero"><div class="eyebrow">Series and miniseries</div><h1>Television worth keeping.</h1><p>Rate TV works and keep notes about the seasons or parts you watched.</p></div><nav class="film-subnav" aria-label="TV sections"><button type="button" class="film-subtab active" data-tv-tab="catalogue" aria-pressed="true">Catalogue</button><button type="button" class="film-subtab" data-tv-tab="ratings" aria-pressed="false">My ratings</button></nav><p id="tv-message" class="meta" role="status" aria-live="polite"></p><div class="tv-tools"><button id="tv-refresh" type="button" class="action">Refresh</button><button id="tv-export" type="button" class="action" disabled>Export TV ratings</button><button id="tv-import-button" type="button" class="action" disabled>Import TV ratings</button><input id="tv-import" type="file" accept=".json,application/json" hidden disabled></div><section id="tv-editor" class="tv-editor" aria-label="Rate selected TV work" hidden><button id="tv-detail-close" type="button" class="action">Close details</button><h2 id="tv-selected-title"></h2><p id="tv-selected-meta" class="meta"></p><form id="tv-rating-form"><label id="tv-target-label" hidden>Rate series or season<select id="tv-target"></select></label><input id="tv-rating" type="hidden"><div class="star-control"><button id="tv-star-trigger" class="star-trigger" type="button" aria-label="Set personal TV rating" aria-haspopup="dialog" aria-controls="tv-star-picker" aria-expanded="false">☆ <span class="value">Rate</span></button></div><div class="filters"><label>Rating covers<select id="tv-scope"><option value="unspecified">Seasons or parts not specified</option><option value="whole_work">Whole work / series</option></select></label><label>Watched date (optional)<input id="tv-date" type="date"></label></div><label for="tv-notes">Your notes</label><textarea id="tv-notes" maxlength="10000" placeholder="Seasons, parts, or your thoughts…"></textarea><div class="tv-tools"><button type="submit" class="action">Save TV rating</button><button id="tv-cancel" class="action" type="button">Cancel</button><button id="tv-remove" class="action" type="button" hidden>Remove TV rating</button></div><p id="tv-editor-status" class="meta" role="status"></p></form></section><div class="filters"><input id="tv-search" type="search" aria-label="Search TV works" placeholder="Search titles, creators or directors…"><select id="tv-kind" aria-label="TV kind"><option value="">All TV works</option><option value="series">Series</option><option value="miniseries">Miniseries</option><option value="season">Seasons</option><option value="episode">TV installments</option><option value="opening">Opening sequences</option><option value="unknown">Other TV works</option></select><select id="tv-sort" aria-label="Sort TV works"><option value="year">Year newest first</option><option value="rating">Highest rated first</option><option value="title">Title A–Z</option></select></div><p id="tv-count" class="count"></p><div id="tv-grid" class="grid"></div><p id="tv-empty" class="empty" hidden>No TV works match these filters.</p>`;
+    section.innerHTML=`<div class="hero"><div class="eyebrow">Series and miniseries</div><h1>Television worth keeping.</h1><p>Rate TV works and keep notes about the seasons or parts you watched.</p></div><nav class="film-subnav" aria-label="TV sections"><button type="button" class="film-subtab active" data-tv-tab="catalogue" aria-pressed="true">Catalogue</button><button type="button" class="film-subtab" data-tv-tab="ratings" aria-pressed="false">My ratings</button></nav><p id="tv-message" class="meta" role="status" aria-live="polite"></p><div class="tv-tools"><button id="tv-refresh" type="button" class="action">Refresh</button><button id="tv-export" type="button" class="action" disabled>Export TV ratings</button><button id="tv-import-button" type="button" class="action" disabled>Import TV ratings</button><input id="tv-import" type="file" accept=".json,application/json" hidden disabled></div><dialog id="tv-editor" class="tv-editor media-detail-dialog" aria-labelledby="tv-selected-title" hidden><div class="detail-toolbar"><button id="tv-detail-edit" type="button" class="action">Edit</button><button id="tv-detail-close" type="button" class="action">Close ×</button></div><h2 id="tv-selected-title"></h2><p id="tv-selected-meta" class="meta"></p><div id="tv-detail-read"></div><form id="tv-rating-form" hidden><label id="tv-target-label" hidden>Rate series or season<select id="tv-target"></select></label><input id="tv-rating" type="hidden"><div class="star-control"><button id="tv-star-trigger" class="star-trigger" type="button" aria-label="Set personal TV rating" aria-haspopup="dialog" aria-controls="tv-star-picker" aria-expanded="false">☆ <span class="value">Rate</span></button></div><div class="filters"><label>Rating covers<select id="tv-scope"><option value="unspecified">Seasons or parts not specified</option><option value="whole_work">Whole work / series</option></select></label><label>Watched date (optional)<input id="tv-date" type="date"></label></div><label for="tv-notes">Your notes</label><textarea id="tv-notes" maxlength="10000" placeholder="Seasons, parts, or your thoughts…"></textarea><div class="tv-tools"><button type="submit" class="action" hidden>Save TV rating</button><button id="tv-cancel" class="action" type="button">Cancel</button><button id="tv-remove" class="action" type="button" hidden>Remove TV rating</button></div></form><p id="tv-editor-status" class="meta" role="status"></p></dialog><div class="filters"><input id="tv-search" type="search" aria-label="Search TV works" placeholder="Search titles, creators or directors…"><select id="tv-kind" aria-label="TV kind"><option value="">All TV works</option><option value="series">Series</option><option value="miniseries">Miniseries</option><option value="season">Seasons</option><option value="episode">TV installments</option><option value="opening">Opening sequences</option><option value="unknown">Other TV works</option></select><select id="tv-sort" aria-label="Sort TV works"><option value="year">Year newest first</option><option value="rating">Highest rated first</option><option value="title">Title A–Z</option></select></div><p id="tv-count" class="count"></p><div id="tv-grid" class="grid"></div><p id="tv-empty" class="empty" hidden>No TV works match these filters.</p>`;
     document.querySelector('main').append(section);initStars();
+    $('tv-detail-edit').addEventListener('click',()=>{if(busy)return;if(editing)$('tv-rating-form').requestSubmit();else editMode(true);});
+    $('tv-editor').addEventListener('cancel',e=>{e.preventDefault();if(!busy){closeEditor();window.CultureRouter?.closeDetail('tv');}});
+    $('tv-editor').addEventListener('scroll',closeStars,{passive:true});
+    section.addEventListener('keydown',e=>{if(['Enter',' '].includes(e.key)&&e.target.matches('article[data-tv-work]')){e.preventDefault();const key=e.target.dataset.tvWork;if(key.startsWith('movie:'))hooks.onOpenFilm?.(Number(key.split(':')[1]));else choose(key);}});
     $('tv-detail-close').addEventListener('click',()=>{closeEditor();window.CultureRouter?.closeDetail('tv');});
     $('tv-target').addEventListener('change',()=>choose($('tv-target').value));
-    $('tv-rating-form').addEventListener('submit',save);$('tv-cancel').addEventListener('click',()=>{closeEditor();window.CultureRouter?.closeDetail('tv');});$('tv-remove').addEventListener('click',remove);
+    $('tv-rating-form').addEventListener('submit',save);$('tv-cancel').addEventListener('click',()=>{if(!busy&&current)showDetails();});$('tv-remove').addEventListener('click',remove);
     $('tv-search').addEventListener('input',render);$('tv-kind').addEventListener('change',render);$('tv-sort').addEventListener('change',render);$('tv-import').addEventListener('change',importFile);$('tv-import-button').addEventListener('click',()=>$('tv-import').click());$('tv-export').addEventListener('click',exportFile);$('tv-refresh').addEventListener('click',()=>setSession(user));
     section.addEventListener('click',e=>{
       const button=e.target.closest('[data-tv-tab]');if(button){tab=button.dataset.tvTab;closeEditor();section.querySelectorAll('[data-tv-tab]').forEach(b=>{b.classList.toggle('active',b===button);b.setAttribute('aria-pressed',String(b===button));});render();return;}
-      const edit=e.target.closest('[data-tv-edit]');if(edit)choose(edit.dataset.tvEdit);
+      const edit=e.target.closest('[data-tv-edit]');if(edit){choose(edit.dataset.tvEdit);editMode(true);return;}
+      const card=e.target.closest('article[data-tv-work]');if(card&&!e.target.closest('a,button')){if(card.dataset.tvWork.startsWith('movie:'))hooks.onOpenFilm?.(Number(card.dataset.tvWork.split(':')[1]));else choose(card.dataset.tvWork);}
       const link=e.target.closest('[data-linked-film]');if(link)hooks.onOpenFilm?.(Number(link.dataset.linkedFilm));
     });
     section.addEventListener('error',e=>{if(e.target.tagName==='IMG')e.target.hidden=true;},true);
