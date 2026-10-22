@@ -23,6 +23,7 @@ function harness(pages, initial) {
     insert() { throw Error('Sync must never insert progress'); },
   };
   const context = vm.createContext({
+    signedInUser: { id: 'owner' },
     progress: initial,
     key: 'films-test',
     supabaseClient: { from(table) { assert.equal(table, 'film_progress'); return query; } },
@@ -38,9 +39,9 @@ test('successful sync removes stale deleted ratings without uploading browser-on
   const initial = { 229: { watched: true, rating: 7 }, 999: { watched: true, rating: 8 } };
   const h = harness([{ data: [{ film_id: 31, watched: true, rating: 7 }], error: null }], initial);
   await h.context.loadCloudProgress({ id: 'owner' });
-  assert.equal(JSON.stringify(h.context.progress), JSON.stringify({ 31: { watched: true, rating: 7 } }));
+  assert.equal(JSON.stringify(h.context.progress), JSON.stringify({ 31: { watched: true, rating: 7, notes: '' } }));
   assert.deepEqual(JSON.parse(h.storage.get('films-test:before-cloud:owner')), initial);
-  assert.equal(h.storage.get('films-test'), JSON.stringify(h.context.progress));
+  assert.equal(h.storage.get('films-test'), JSON.stringify({ 31: { watched: true, rating: 7 } }));
   assert.equal(h.renders, 1);
 });
 
@@ -70,4 +71,28 @@ test('an existing recovery snapshot is not overwritten by later refreshes', asyn
   await h.context.loadCloudProgress({ id: 'owner' });
   assert.equal(h.storage.get('films-test:before-cloud:owner'), 'original snapshot');
   assert.equal(Object.keys(h.context.progress).length, 0);
+});
+
+test('private notes and dates stay in memory and are excluded from browser caches and recovery snapshots', async () => {
+  const h = harness([{data:[{film_id:31,watched:true,rating:8,notes:'Cloud private note',watched_date:'2026-10-20',updated_at:'version-1'}]}], {
+    229:{watched:true,rating:7,notes:'Old private note',watched_date:'2026-10-19'},
+  });
+  await h.context.loadCloudProgress({id:'owner'});
+  assert.equal(h.context.progress[31].notes,'Cloud private note');
+  assert.equal(h.context.progress[31].watched_date,'2026-10-20');
+  assert.equal(h.context.progress[31].updated_at,'version-1');
+  for(const value of h.storage.values())assert.doesNotMatch(value,/private|notes|watched_date|updated_at/);
+});
+
+test('a late cloud response after an account change does not replace progress or write browser storage', async () => {
+  let release;
+  const pending=new Promise(resolve=>{release=resolve;});
+  const initial={229:{watched:true,rating:7}},h=harness([pending],initial);
+  const loading=h.context.loadCloudProgress({id:'owner'});
+  h.context.signedInUser={id:'different-owner'};
+  release({data:[{film_id:31,watched:true,rating:8,notes:'Old account secret'}]});
+  await loading;
+  assert.equal(h.context.progress,initial);
+  assert.equal(h.storage.size,0);
+  assert.equal(h.renders,0);
 });
