@@ -4,7 +4,22 @@
   const $ = id => document.getElementById(id);
   const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const formats = {kindle:'Kindle', audio:'Audio', unknown:'Not specified'};
+  const bookKey = book => book.open_library_work_id || (book.id?`local-${book.id}`:`goodreads-${book.goodreads_id}`);
   const workPattern = /^\/works\/OL\d+W$/;
+  const goodreadsId = value => typeof value==='string' && /^[1-9]\d{0,19}$/.test(value) ? value : null;
+  function goodreadsLink(book) {
+    const id=goodreadsId(book.goodreads_id);
+    return id?`https://www.goodreads.com/book/show/${id}`:`https://www.goodreads.com/search?q=${encodeURIComponent([book.title,...book.authors].join(' '))}`;
+  }
+  function fallbackCover(value) {
+    if(typeof value!=='string')return null;
+    try {const url=new URL(value);return url.protocol==='https:'&&!url.username&&!url.password&&!url.port&&['i.gr-assets.com','images.gr-assets.com'].includes(url.hostname)?url.href:null;}catch{return null;}
+  }
+  function goodreadsMarkup(book) {
+    const id=goodreadsId(book.goodreads_id),rating=book.goodreads_rating;
+    const snapshot=id && typeof rating==='number' && Number.isFinite(rating) && rating>=0 && rating<=5 && book.goodreads_ratings_count>0 && /^\d{4}-\d{2}-\d{2}$/.test(book.goodreads_observed_on||'') && ['manual','search_index'].includes(book.goodreads_rating_source);
+    return `<p class="meta book-goodreads"><a href="${escape(goodreadsLink(book))}" target="_blank" rel="noopener noreferrer">${id?'Goodreads ↗':'Find on Goodreads ↗'}</a>${snapshot?`<br><span>Goodreads: ${rating.toFixed(2)} / 5 · ${escape(book.goodreads_ratings_count)} ratings</span><br><small>Saved ${escape(book.goodreads_observed_on)}${book.goodreads_rating_source==='search_index'?' · search-index snapshot':''}</small>`:id?'<br><small>Goodreads rating not saved</small>':''}</p>`;
+  }
   // Open Library's all-word search can miss a work if an article is absent
   // from its stored title. Relax only empty searches, never replace a match.
   function searchVariants(query) {
@@ -57,7 +72,17 @@
     return [...searchVariants(query).map(text=>({params:{q:'title_suggest:'+quote(text),...(author?{author}: {})},text})),{params:{q:query,...(author?{author}: {})},text:query}];
   }
   let client, user=null, generation=0, books=[], progress=new Map(), results=[], selected=null;
-  let editorHydrated=false;
+  let editorHydrated=false, readings=[], importDraft=null, importing=false;
+  function readingDate(r) {
+    if(r.read_date_precision==='unknown')return 'Date not recorded';
+    if(r.read_date_precision==='year_range')return `${r.read_year}–${r.read_year_end}`;
+    if(r.read_date_precision==='year')return String(r.read_year);
+    const date=new Date(r.read_date+'T12:00:00Z');
+    return date.toLocaleDateString('en-GB',{timeZone:'UTC',year:'numeric',month:'long',...(r.read_date_precision==='day'?{day:'numeric'}:{})});
+  }
+  function historyFor(book) {return readings.filter(r=>r.book_id===book.id).sort((a,b)=>(b.read_year||0)-(a.read_year||0)||String(b.read_date||'').localeCompare(a.read_date||''));}
+  function resetImport() {importDraft=null;$('book-import-file').value='';$('book-import-preview').replaceChildren();$('book-import-apply').hidden=true;message('book-import-status','');}
+
   let searchController, searchSequence=0, saving=false, loading=false, activeTab='ratings', visible=48;
   const cache = new Map();
   let starPicker, starPreview=null;
@@ -132,12 +157,14 @@
     return error?.message || 'Something went wrong. Please try again.';
   }
   function card(book, result=false) {
-    const p=progress.get(book.open_library_work_id), known=books.find(b=>b.open_library_work_id===book.open_library_work_id);
+    book={...book,...books.find(b=>bookKey(b)===bookKey(book))};
+    const p=progress.get(bookKey(book)), known=books.find(b=>bookKey(b)===bookKey(book));
     const cover=Number.isSafeInteger(Number(book.cover_id)) && Number(book.cover_id)>0;
-    return `<article class="film book-card"><div class="poster"><span class="cover-fallback">Cover unavailable</span>${cover?`<img loading="lazy" src="https://covers.openlibrary.org/b/id/${Number(book.cover_id)}-M.jpg?default=false" alt="Cover of ${escape(book.title)}">`:''}</div><div class="body"><h3><a href="#/books/${escape(book.open_library_work_id.split('/').pop())}">${escape(book.title)}</a></h3>${result&&book.search_match?`<p class="meta">${escape(book.search_match)}</p>`:''}<p class="meta">${escape(book.authors.join(', '))}</p><p class="meta">${escape(book.first_publish_year??'Year unavailable')}</p>${p?`<p class="book-score">Your rating: ${escape(p.rating)}/10</p><p class="meta">${escape(formats[p.reading_format]||formats.unknown)}</p>${!result&&p.notes?`<p class="book-notes">${escape(p.notes)}</p>`:''}`:''}<a class="meta" href="https://openlibrary.org${escape(book.open_library_work_id)}" target="_blank" rel="noopener noreferrer">Open Library ↗</a><button type="button" class="action" data-book-work="${escape(book.open_library_work_id)}">${p?'Edit rating':known?'Rate book':'Select & rate'}</button></div></article>`;
+    const coverUrl=cover?`https://covers.openlibrary.org/b/id/${Number(book.cover_id)}-M.jpg?default=false`:fallbackCover(book.cover_url);
+    return `<article class="film book-card"><div class="poster"><span class="cover-fallback">Cover unavailable</span>${coverUrl?`<img loading="lazy" src="${escape(coverUrl)}" alt="Cover of ${escape(book.title)}">`:''}</div><div class="body"><h3>${book.id||book.open_library_work_id?`<a href="#/books/${escape(bookKey(book).split('/').pop())}">${escape(book.title)}</a>`:escape(book.title)}</h3>${result&&book.search_match?`<p class="meta">${escape(book.search_match)}</p>`:''}<p class="meta">${escape(book.authors.join(', '))}</p><p class="meta">${escape(book.first_publish_year??'Year unavailable')}</p>${p?`<p class="book-score">Your rating: ${escape(p.rating)}/10</p><p class="meta">${escape(formats[p.reading_format]||formats.unknown)}</p>${historyFor(book).length?`<p class="meta">Read: ${escape(readingDate(historyFor(book)[0]))}${historyFor(book).length>1?` · ${historyFor(book).length} readings`:''}</p>`:''}${!result&&p.notes?`<p class="book-notes">${escape(p.notes)}</p>`:''}`:''}${book.open_library_work_id?`<a class="meta" href="https://openlibrary.org${escape(book.open_library_work_id)}" target="_blank" rel="noopener noreferrer">Open Library ↗</a>`:`<p class="meta">${book.work_scope==='collection'?'Collection · ':''}${goodreadsId(book.goodreads_id)?'Goodreads-linked catalogue record':'Source catalogue record'}</p>`}${goodreadsMarkup(book)}<button type="button" class="action" data-book-work="${escape(bookKey(book))}">${p?'Edit rating':known?'Rate book':'Select & rate'}</button></div></article>`;
   }
   function render() {
-    const rated=books.filter(b=>progress.has(b.open_library_work_id)).sort((a,b)=>new Date(progress.get(b.open_library_work_id).updated_at)-new Date(progress.get(a.open_library_work_id).updated_at));
+    const rated=books.filter(b=>progress.has(bookKey(b))).sort((a,b)=>new Date(progress.get(bookKey(b)).updated_at)-new Date(progress.get(bookKey(a)).updated_at));
     $('book-ratings-grid').innerHTML=rated.slice(0,visible).map(b=>card(b)).join('');
     $('book-catalogue-grid').innerHTML=books.slice(0,visible).map(b=>card(b)).join('');
     $('book-search-results').innerHTML=results.map(b=>card(b,true)).join('');
@@ -166,9 +193,9 @@
   }
   function choose(workId) {
     if(saving) return;
-    if(window.CultureRouter?.openBook(workId))return;
+    if(!workId.startsWith('goodreads-') && window.CultureRouter?.openBook(workId))return;
     closeBookStars();
-    selected=books.find(b=>b.open_library_work_id===workId)||results.find(b=>b.open_library_work_id===workId);
+    selected=books.find(b=>bookKey(b)===workId)||results.find(b=>bookKey(b)===workId);
     if(!selected) return;
     editorHydrated=!loading;
     const p=progress.get(workId);
@@ -179,6 +206,7 @@
     updateRatingTrigger();
     $('book-format').value=p?.reading_format||'';
     $('book-notes').value=p?.notes||'';
+    $('book-reading-history').innerHTML=historyFor(selected).length?'<h3>Reading history</h3><p class="meta">Imported readings are preserved when you edit your current rating.</p><ul>'+historyFor(selected).map(r=>`<li>${escape(readingDate(r))} · ${escape(r.rating)}/10 · ${escape(formats[r.reading_format])}${r.notes?`<p class="book-notes">${escape(r.notes)}</p>`:''}</li>`).join('')+'</ul>':'';
     message('book-save-status',user?'': 'Sign in using Account to save this book.');
     $('book-editor').hidden=false;
     $('book-editor').scrollIntoView({behavior:'smooth',block:'start'});
@@ -237,6 +265,7 @@
     const rows=[];
     for(let offset=0;;offset+=500) {
       let query=client.from(table).select(fields).order(table==='books'?'id':'book_id',{ascending:true}).range(offset,offset+499);
+      if(table==='book_readings')query=query.order('source_key',{ascending:true});
       if(userId) query=query.eq('user_id',userId);
       const {data,error}=await query;
       if(error) throw error;
@@ -250,7 +279,7 @@
     loading=true;
     if(changed) {
       closeBookStars();
-      progress=new Map(); selected=null;
+      progress=new Map(); readings=[];selected=null;resetImport();$('book-reading-history').replaceChildren();
       $('book-editor').hidden=true; $('book-rating-form').reset(); $('book-rating').value=''; message('book-save-status','');
       updateRatingTrigger();
     }
@@ -258,10 +287,10 @@
     if(!client) { loading=false;message('book-sync-status','Cloud connection is unavailable. Reload the page to try again.');return; }
     message('book-sync-status','Loading books…');
     try {
-      const [catalogue,ratings]=await Promise.all([readAll('books','id,open_library_work_id,title,authors,first_publish_year,cover_id'),user?readAll('book_progress','book_id,rating,reading_format,notes,updated_at',user.id):Promise.resolve([])]);
+      const [catalogue,ratings,history]=await Promise.all([readAll('books','id,open_library_work_id,title,authors,first_publish_year,cover_id,work_scope,cover_url,goodreads_id,goodreads_rating,goodreads_ratings_count,goodreads_observed_on,goodreads_rating_source,goodreads_source_url'),user?readAll('book_progress','book_id,rating,reading_format,notes,updated_at',user.id):Promise.resolve([]),user?readAll('book_readings','book_id,source_key,rating,reading_format,notes,read_date,read_date_precision,read_year,read_year_end,started_date',user.id):Promise.resolve([])]);
       if(version!==generation) return;
-      books=catalogue;
-      const byId=new Map(books.map(b=>[b.id,b.open_library_work_id]));
+      books=catalogue;readings=history;
+      const byId=new Map(books.map(b=>[b.id,bookKey(b)]));
       progress=new Map(ratings.filter(p=>byId.has(p.book_id)).map(p=>[byId.get(p.book_id),p]));
       message('book-sync-status',user?'Books and ratings synced to your account.':'Sign in using Account to save ratings, reading format and notes.');
       render();
@@ -281,12 +310,12 @@
     for(const el of $('book-rating-form').elements) el.disabled=true;
     message('book-save-status','Saving book and rating…');
     try {
-      const {data,error}=await client.rpc('save_book_rating',{p_work_id:book.open_library_work_id,p_title:book.title,p_authors:book.authors,p_year:book.first_publish_year,p_cover_id:book.cover_id,p_rating:rating,p_format:format,p_notes:notes});
+      const {data,error}=await client.rpc(!book.id&&book.goodreads_id?'save_goodreads_book':book.open_library_work_id?'save_book_rating':'update_book_rating',!book.id&&book.goodreads_id?{p_metadata:book,p_rating:rating,p_format:format,p_notes:notes}:book.open_library_work_id?{p_work_id:book.open_library_work_id,p_title:book.title,p_authors:book.authors,p_year:book.first_publish_year,p_cover_id:book.cover_id,p_rating:rating,p_format:format,p_notes:notes}:{p_book_id:book.id,p_rating:rating,p_format:format,p_notes:notes});
       if(version!==generation) return;
       if(error) throw error;
       if(!data?.book||!data?.progress) throw Error('The server did not confirm the save. Refresh your ratings before trying again.');
       books=[data.book,...books.filter(b=>b.id!==data.book.id)];
-      progress.set(data.book.open_library_work_id,data.progress);
+      progress.set(bookKey(data.book),data.progress);
       message('book-sync-status',`Saved “${data.book.title}” to the catalogue and your ratings.`);
       saving=false; closeEditor(); switchTab('ratings');window.CultureRouter?.navigate({section:'books',view:'ratings'});
     } catch(error) {
@@ -296,6 +325,44 @@
       for(const el of $('book-rating-form').elements) el.disabled=false;
       if(version!==generation) closeEditor();
     }
+  }
+  function initImport() {
+    $('book-import-file').addEventListener('change',async event=>{
+      if(importing)return;
+      importDraft=null;$('book-import-apply').hidden=true;$('book-import-preview').replaceChildren();
+      const file=event.target.files?.[0],version=generation;if(!file)return;
+      if(!user){message('book-import-status','Sign in before importing.');return;}
+      if(file.size>8000000){message('book-import-status','The prepared file must be under 8 MB.');return;}
+      importing=true;$('book-import-file').disabled=true;
+      message('book-import-status','Checking the prepared file…');
+      try {
+        const payload=JSON.parse(await file.text());
+        if(payload.format!=='culture-atlas-books-import-prepared-v1'||!Array.isArray(payload.books)||!Array.isArray(payload.readings))throw Error('Choose books-import.json from the prepared import package.');
+        const {data,error}=await client.rpc('import_book_readings',{p_payload:payload,p_apply:false});
+        if(version!==generation)return;if(error)throw error;
+        importDraft=payload;
+        const pending=payload.books.filter(b=>!b.open_library_work_id).length;
+        message('book-import-status',`${data.new_books} new catalogue books, ${data.new_ratings} new ratings, ${data.new_readings} new readings. ${data.preserved_ratings} existing ratings will be preserved. ${pending} books use source metadata while catalogue matching is pending.`);
+        const bySource=new Map(payload.readings.map(r=>[r.source_key,r]));
+        $('book-import-preview').innerHTML='<table><thead><tr><th>Book</th><th>Rating</th><th>Read</th><th>Format</th></tr></thead><tbody>'+payload.books.map(b=>{const r=bySource.get(b.latest_source_key);return `<tr><td>${escape(b.title)}<br><small>${escape(b.author)}</small></td><td>${escape(r.rating)}/10</td><td>${escape(readingDate(r))}</td><td>${escape(formats[r.reading_format])}</td></tr>`;}).join('')+'</tbody></table>';
+        $('book-import-apply').hidden=false;
+      } catch(error) {if(version===generation)message('book-import-status',errorMessage(error));}
+      finally{importing=false;$('book-import-file').disabled=false;}
+    });
+    $('book-import-apply').addEventListener('click',async()=>{
+      if(importing||!importDraft||!user)return;
+      const version=generation,payload=importDraft;importing=true;
+      $('book-import-apply').disabled=true;$('book-import-file').disabled=true;
+      message('book-import-status','Importing books and reading records…');
+      try {
+        const {data,error}=await client.rpc('import_book_readings',{p_payload:payload,p_apply:true});
+        if(version!==generation)return;if(error)throw error;
+        importDraft=null;$('book-import-apply').hidden=true;
+        await setSession(user);
+        if(version+1===generation)message('book-import-status',`Imported ${data.new_ratings} ratings and ${data.new_readings} readings. Existing ratings were preserved.`);
+      } catch(error){if(version===generation)message('book-import-status',`Import failed: ${errorMessage(error)} No partial import was saved.`);}
+      finally{importing=false;$('book-import-apply').disabled=false;$('book-import-file').disabled=false;}
+    });
   }
   const workLoads=new Map();
   // A shared URL can name a book which has not been saved to our catalogue yet.
@@ -313,7 +380,7 @@
       }));
       const names=authors.filter(name=>typeof name==='string'&&name.trim());if(!names.length)return;
       const book={open_library_work_id:workId,title:doc.title,authors:names,cover_id:doc.covers?.find(id=>Number.isSafeInteger(id)&&id>0)||null,first_publish_year:null};
-      if(!results.some(b=>b.open_library_work_id===workId))results.push(book);
+      if(!results.some(b=>bookKey(b)===workId))results.push(book);
     })();workLoads.set(workId,pending);return pending;
   }
   function init(supabaseClient) {
@@ -321,6 +388,23 @@
     // Account UI must remain reachable while the Films area is hidden.
     document.body.append($('account'));
     initBookStars();
+    initImport();
+    $('book-goodreads-form').addEventListener('submit',event=>{
+      event.preventDefault();if(saving)return;
+      const url=$('book-goodreads-url').value.trim();
+      const match=url.match(/^https:\/\/(?:www\.)?goodreads\.com\/(?:[a-z]{2}\/)?book\/show\/([1-9]\d{0,19})(?:[.\-/?#].*)?$/);
+      const title=$('book-goodreads-title').value.trim(),author=$('book-goodreads-author').value.trim();
+      const year=$('book-goodreads-year').value?Number($('book-goodreads-year').value):null;
+      const cover=$('book-goodreads-cover').value.trim();
+      if(!match||!title||!author||(year!==null&&(!Number.isInteger(year)||year< -5000||year>3000))||(cover&&!fallbackCover(cover))){message('book-goodreads-status','Enter a Goodreads book link, title and author. An optional cover must use a Goodreads image URL.');return;}
+      const existing=books.find(b=>b.goodreads_id===match[1]);
+      if(existing){choose(bookKey(existing));return;}
+      const duplicate=books.find(b=>normaliseText(b.title)===normaliseText(title)&&normaliseText(b.authors.join(' '))===normaliseText(author));
+      if(duplicate){choose(bookKey(duplicate));message('book-goodreads-status','This title and author are already in the catalogue. Opened the existing book for rating.');return;}
+      const book={goodreads_id:match[1],title,authors:[author],first_publish_year:year,cover_url:cover||null,goodreads_source_url:`https://www.goodreads.com/book/show/${match[1]}`};
+      results=results.filter(b=>bookKey(b)!==bookKey(book));results.push(book);render();choose(bookKey(book));
+      message('book-goodreads-status','Choose your rating, format and notes below, then save to add this book.');
+    });
     $('book-search-form').addEventListener('submit',search);
     $('book-rating-form').addEventListener('submit',save);
     $('book-cancel').addEventListener('click',()=>{closeEditor();window.CultureRouter?.closeDetail('book');});
@@ -340,7 +424,7 @@
     render();
   }
   window.CultureBooks={init,setSession,normaliseBook,validRating,rankBooks,
-    route:{switchTab,closeEditor,choose,ensureWork,needsHydration:()=>!!(selected&&!editorHydrated&&!loading),has:id=>books.some(b=>b.open_library_work_id===id)||results.some(b=>b.open_library_work_id===id),title:()=>selected?.title,
+    route:{switchTab,closeEditor,choose,ensureWork,needsHydration:()=>!!(selected&&!editorHydrated&&!loading),has:id=>books.some(b=>bookKey(b)===id)||results.some(b=>bookKey(b)===id),title:()=>selected?.title,
       getVisible:()=>visible,setVisible:n=>{visible=n;render();},search:()=>search({preventDefault(){}})}
   };
 })();

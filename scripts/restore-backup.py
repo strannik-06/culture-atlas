@@ -13,12 +13,13 @@ def make_sql(snapshot):
     lines=['-- Recovery proposal: inspect before running. Existing rows are never overwritten.',
            '-- Requires the backed-up schema/migrations and the original Supabase auth users.',
            'begin;']
-    users=sorted({r['user_id'] for t in ('film_progress','tv_progress','book_progress') for r in snapshot[t]})
+    users=sorted({r['user_id'] for t in ('film_progress','tv_progress','book_progress','book_readings') for r in snapshot.get(t,[])})
     if any(not re.fullmatch(r'[0-9a-fA-F-]{36}',u) for u in users): raise ValueError('Invalid user ID')
     if users:
         values=','.join("('"+u+"'::uuid)" for u in users)
         lines.append("do $$begin if exists(select 1 from (values "+values+") expected(id) where not exists(select 1 from auth.users where users.id=expected.id)) then raise exception 'Missing original auth users: restore or explicitly map accounts before recovery'; end if; end$$;")
-    for table in TABLES:
+    if 'book_readings' in snapshot and not isinstance(snapshot['book_readings'],list): raise ValueError('Invalid reading history table')
+    for table in TABLES + (('book_readings',) if 'book_readings' in snapshot else ()):
         rows=snapshot[table]
         if not rows: continue
         columns=sorted({k for r in rows for k in r})

@@ -1,6 +1,6 @@
 {
   "private": true,
-  "scripts": {"test": "node --test scripts/test-books.mjs"},
+  "scripts": {"test": "node --test scripts/test-books.mjs scripts/test-book-import.mjs"},
   "devDependencies": {
     "@electric-sql/pglite": "0.5.10",
     "happy-dom": "21.0.3"

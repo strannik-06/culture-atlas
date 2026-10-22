@@ -8,3 +8,5 @@ culture_atlas_import_source.csv
 node_modules/
 __pycache__/
 *.pyc
+
+supabase/.temp/

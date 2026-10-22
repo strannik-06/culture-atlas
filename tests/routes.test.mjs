@@ -27,7 +27,7 @@ test('Routes: typed stable IDs, canonical defaults, public allowlist and malform
  const w=new Window({settings:{enableJavaScriptEvaluation:true,suppressInsecureJavaScriptEnvironmentWarning:true}});
  try{
   w.eval(await readFile(new URL('../routes.js',import.meta.url),'utf8'));const r=w.CultureRoutes;
-  for(const hash of ['#/films/top100','#/films/229?from=catalogue&page=3&q=Dreams','#/tv/1399/season/0?from=ratings','#/tv/movie/126850','#/tv/imdb/tt4324832','#/tv/local/good-night-little-ones-tatarskiy-opening','#/books/OL42W','#/books/search?author=Douglas+Stuart&q=John+of+John'])assert.equal(r.format(r.parse(hash)),hash);
+  for(const hash of ['#/films/top100','#/films/229?from=catalogue&page=3&q=Dreams','#/tv/1399/season/0?from=ratings','#/tv/movie/126850','#/tv/imdb/tt4324832','#/tv/local/good-night-little-ones-tatarskiy-opening','#/books/OL42W','#/books/local-99','#/books/search?author=Douglas+Stuart&q=John+of+John'])assert.equal(r.format(r.parse(hash)),hash);
   for(const hash of ['#/unknown','#/films/nope','#/films/1/garbage','#/tv/1/season/-1','#/books/OL2W/bad','#/films/%zz'])assert.equal(r.parse(hash),null);
   const safe=r.format(r.parse('#/films/catalogue?notes=secret&rating=9&access_token=token&page=-2&q=%3Cscript%3E'));
   assert.equal(safe,'#/films/catalogue?q=%3Cscript%3E');assert.equal(r.format(r.parse('#/films')),'#/films/top100');
@@ -124,4 +124,9 @@ test('A background TV refresh preserves the open draft and its loaded version',a
   await a.w.CultureTV.setSession(user);await tick();assert.equal(a.$('tv-notes').value,'unsaved draft');assert.equal(a.$('tv-rating').value,'7');
   a.$('tv-rating-form').dispatchEvent(new a.w.Event('submit',{bubbles:true,cancelable:true}));await tick();assert.equal(a.state.rpcCalls.at(-1).payload.p_expected_updated_at,'v1');
  }finally{await a.close();}
+});
+
+ test('Local imported book deep links restore and never fetch an invented provider ID',async()=>{
+ const a=await boot('#/books/local-99',{books:[{id:99,open_library_work_id:null,title:'A local collection',authors:['Author'],work_scope:'collection'}]});
+ try{assert.equal(a.$('book-editor').hidden,false);assert.equal(a.$('book-selected-title').textContent,'A local collection');assert.equal(a.calls.length,0);assert.match(a.w.location.hash,/local-99/);a.$('book-cancel').click();await tick();assert.equal(a.w.location.hash,'#/books/ratings');}finally{await a.close();}
 });

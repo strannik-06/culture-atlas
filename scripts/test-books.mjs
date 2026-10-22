@@ -105,10 +105,10 @@ async function setup() {
   const window=new Window({url:'https://example.test/culture-atlas/',settings:{disableCSSFileLoading:true,disableJavaScriptFileLoading:true,enableJavaScriptEvaluation:true}});
   window.document.write(markup.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,''));
   window.HTMLElement.prototype.scrollIntoView=()=>{};
-  const state={books:[],ratings:[],calls:[],fail:false,pending:null};
+  const state={books:[],ratings:[],history:[],calls:[],fail:false,pending:null};
   const client={from(table) {
     let id;
-    const q={select(){return q;},order(){return q;},range(){return q;},in(){return q;},eq(_field,value){id=value;return q;},then(resolve,reject){return Promise.resolve({data:table==='books'?state.books:state.ratings.filter(r=>r.user_id===id),error:null}).then(resolve,reject);}};
+    const q={select(){return q;},order(){return q;},range(){return q;},in(){return q;},eq(_field,value){id=value;return q;},then(resolve,reject){return Promise.resolve({data:table==='books'?state.books:(table==='book_readings'?state.history:state.ratings).filter(r=>r.user_id===id),error:null}).then(resolve,reject);}};
     return q;
   },async rpc(name,payload){
     state.calls.push({name,payload});
@@ -302,4 +302,72 @@ test('Book star picker: half points, keyboard, clear, draft-only changes and exi
     trigger.click();await window.CultureBooks.setSession(null);
     assert.equal(picker.hidden,true);assert.equal($('book-rating').value,'');
   } finally {await window.happyDOM.close();}
+});
+
+test('Prepared import UI previews before applying, supports local books and clears private history on sign-out',async()=>{
+  const {window,state,$,flush,client}=await setup();
+  try {
+    await window.CultureBooks.setSession({id:userA});
+    const payload={format:'culture-atlas-books-import-prepared-v1',books:[{title:'<Unmatched collection>',author:'An Author',open_library_work_id:null,latest_source_key:'read:1'}],readings:[{source_key:'read:1',rating:7.5,reading_format:'audio',read_date:'2022-07-01',read_date_precision:'month',read_year:2022}]};
+    client.rpc=async(name,args)=>{
+      state.calls.push({name,payload:args});
+      if(name==='import_book_readings') {
+        if(args.p_apply){state.books=[{id:99,open_library_work_id:null,title:'<Unmatched collection>',authors:['An Author'],work_scope:'collection'}];state.ratings=[{user_id:userA,book_id:99,rating:7.5,reading_format:'audio',notes:'Current notes',updated_at:'2026-10-22'}];state.history=[{user_id:userA,book_id:99,...payload.readings[0],notes:'<Private historical note>'}];}
+        return {data:{new_books:1,new_readings:1,new_ratings:1,preserved_ratings:0}};
+      }
+      return {error:{message:'Save test response'}};
+    };
+    Object.defineProperty($('book-import-file'),'files',{configurable:true,value:[{size:1000,text:async()=>JSON.stringify(payload)}]});
+    $('book-import-file').dispatchEvent(new window.Event('change'));await flush();
+    assert.equal(state.calls.length,1);assert.equal(state.calls[0].payload.p_apply,false);
+    assert.match($('book-import-preview').textContent,/July 2022/);
+    assert.equal($('book-import-preview').querySelector('unmatched'),null);
+    assert.equal($('book-import-apply').hidden,false);
+    $('book-import-apply').click();await flush();await flush();
+    assert.equal(state.calls[1].payload.p_apply,true);
+    assert.match($('book-ratings-grid').textContent,/July 2022/);
+    assert.match($('book-ratings-grid').textContent,/Collection/);
+    assert.equal($('book-ratings-grid').querySelector('h3 a').getAttribute('href'),'#/books/local-99');
+    $('book-ratings-grid').querySelector('button').click();
+    assert.match($('book-reading-history').textContent,/<Private historical note>/);
+    assert.equal($('book-reading-history').querySelector('private'),null);
+    $('book-rating-form').dispatchEvent(new window.Event('submit',{cancelable:true}));await flush();
+    assert.equal(state.calls.at(-1).name,'update_book_rating');assert.equal(state.calls.at(-1).payload.p_book_id,99);
+    await window.CultureBooks.setSession(null);
+    assert.equal($('book-reading-history').textContent,'');assert.equal($('book-import-preview').textContent,'');
+    assert.equal($('book-import-apply').hidden,true);
+  } finally {await window.happyDOM.close();}
+});
+
+test('Goodreads cards distinguish saved public ratings, personal scores, exact links and search links',async()=>{
+ const {window,state,$}=await setup();
+ try{
+  state.books=[{id:1,title:'New book',authors:['Author'],goodreads_id:'222519102',goodreads_rating:4.25,goodreads_ratings_count:57,goodreads_observed_on:'2026-10-22',goodreads_rating_source:'search_index',cover_url:'https://i.gr-assets.com/images/a.jpg'}, {id:2,...work}, {id:3,title:'<Unknown & title>',authors:['<Author>'],cover_url:'https://i.gr-assets.com.evil.test/pixel'}];
+  state.ratings=[{user_id:userA,book_id:1,rating:8.5,reading_format:'kindle'}];
+  await window.CultureBooks.setSession({id:userA});
+  const cards=$('book-catalogue-grid').querySelectorAll('article');
+  assert.match(cards[0].textContent,/4.25 \/ 5 · 57 ratings/);assert.match(cards[0].textContent,/Your rating: 8.5\/10/);
+  assert.match(cards[0].textContent,/search-index snapshot/);assert.equal(cards[0].querySelector('.book-goodreads a').href,'https://www.goodreads.com/book/show/222519102');
+  assert.equal(cards[0].querySelector('img').src,'https://i.gr-assets.com/images/a.jpg');
+  assert.match(cards[1].textContent,/Find on Goodreads/);assert.equal(new URL(cards[1].querySelector('.book-goodreads a').href).searchParams.get('q'),'Orbital Samantha Harvey');
+  assert.equal(cards[2].querySelector('img'),null);assert.equal(cards[2].querySelector('unknown'),null);
+ }finally{await window.happyDOM.close();}
+});
+
+test('Goodreads manual fallback selects before saving and uses the shared star, format and notes form',async()=>{
+ const {window,state,$,submit,flush,client}=await setup();
+ try{
+  await window.CultureBooks.setSession({id:userA});
+  $('book-goodreads-url').value='https://www.goodreads.com/book/show/222519102-a-book';
+  $('book-goodreads-title').value='New book';$('book-goodreads-author').value='Author';$('book-goodreads-year').value='2024';
+  submit('book-goodreads-form');assert.equal(state.calls.length,0);assert.equal($('book-editor').hidden,false);
+  $('book-rating').value='8.5';$('book-format').value='audio';$('book-notes').value='My note';
+  client.rpc=async(name,payload)=>{state.calls.push({name,payload});return {data:{book:{id:99,...payload.p_metadata},progress:{book_id:99,rating:payload.p_rating,reading_format:payload.p_format,notes:payload.p_notes}}};};
+  submit('book-rating-form');await flush();
+  assert.equal(state.calls[0].name,'save_goodreads_book');assert.equal(state.calls[0].payload.p_metadata.goodreads_id,'222519102');assert.equal(state.calls[0].payload.p_notes,'My note');
+  assert.match($('book-ratings-grid').textContent,/8.5\/10/);assert.equal($('book-ratings-grid').querySelector('h3 a').getAttribute('href'),'#/books/local-99');
+  $('book-goodreads-url').value='https://www.goodreads.com/book/show/333';submit('book-goodreads-form');
+  assert.equal($('book-selected-title').textContent,'New book');assert.match($('book-goodreads-status').textContent,/already in the catalogue/);
+  $('book-ratings-grid').querySelector('button').click();submit('book-rating-form');await flush();assert.equal(state.calls.at(-1).name,'update_book_rating');
+ }finally{await window.happyDOM.close();}
 });

@@ -15,6 +15,7 @@ from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 
 MAGIC = b'CULTURE-ATLAS-BACKUP-v1\n'
 TABLES = ('film_progress','tv_progress','book_progress','books','media_catalogue','media_provider_links')
+OPTIONAL_TABLES = ('book_readings',)
 ROOT = Path(__file__).resolve().parent.parent
 
 def key():
@@ -34,11 +35,13 @@ def digest(value):
 def pack(snapshot, files, encryption_key):
     if not all(isinstance(snapshot.get(t),list) for t in TABLES):
         raise ValueError('Snapshot is missing required tables. Nothing uploaded.')
+    if any(t in snapshot and not isinstance(snapshot[t],list) for t in OPTIONAL_TABLES):
+        raise ValueError('Invalid reading history table.')
     payload={'format':'culture-atlas-backup-v1','created_at':datetime.now(timezone.utc).isoformat(),
              'commit':os.environ.get('GITHUB_SHA','local'),'database':snapshot,'files':files}
     payload['manifest']={'database_sha256':digest(canonical(snapshot)),
                          'files':{name:digest(text.encode()) for name,text in files.items()},
-                         'counts':{t:len(snapshot[t]) for t in TABLES}}
+                         'counts':{t:len(snapshot[t]) for t in TABLES+OPTIONAL_TABLES if t in snapshot}}
     nonce=secrets.token_bytes(12)
     return MAGIC+nonce+AESGCM(encryption_key).encrypt(nonce,gzip.compress(canonical(payload)),MAGIC)
 
@@ -55,7 +58,7 @@ def unpack(blob,encryption_key):
     if set(manifest['files'])!=set(payload['files']): raise ValueError('File manifest mismatch.')
     for name,text in payload['files'].items():
         if digest(text.encode())!=manifest['files'][name]: raise ValueError('File checksum failed.')
-    if manifest['counts']!={t:len(payload['database'][t]) for t in TABLES}: raise ValueError('Row counts differ.')
+    if manifest['counts']!={t:len(payload['database'][t]) for t in TABLES+OPTIONAL_TABLES if t in payload['database']}: raise ValueError('Row counts differ.')
     return payload
 
 def upload_verified(storage,bucket,path,blob,encryption_key):

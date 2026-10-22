@@ -24,6 +24,14 @@ class BackupTests(unittest.TestCase):
         with self.assertRaises(ValueError): backup.unpack(blob[:-1]+bytes([blob[-1]^1]),self.key)
         with self.assertRaises(ValueError): backup.unpack(blob,b'y'*32)
         with self.assertRaises(ValueError): backup.pack({}, {}, self.key)
+    def test_reading_history_roundtrip_and_legacy_compatibility(self):
+        old=backup.pack(self.snapshot,{},self.key)
+        self.assertNotIn('book_readings',backup.unpack(old,self.key)['database'])
+        self.snapshot['book_readings']=[{'user_id':'00000000-0000-0000-0000-000000000001','book_id':1,'source_key':'read:1','notes':'Private reread','read_date_precision':'year'}]
+        payload=backup.unpack(backup.pack(self.snapshot,{},self.key),self.key)
+        self.assertEqual(payload['manifest']['counts']['book_readings'],1)
+        self.assertEqual(payload['database']['book_readings'],self.snapshot['book_readings'])
+        self.assertIn('insert into public.book_readings',restore.make_sql(payload['database']))
     def test_storage_readback_required_and_unique_upload_guard(self):
         blob=backup.pack(self.snapshot,{},self.key)
         class Storage:
