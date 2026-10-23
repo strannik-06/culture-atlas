@@ -12,6 +12,11 @@
       "tmdb_id": 1371185
     },
     {
+      "title": "Cutting through Rocks",
+      "id": 2323,
+      "tmdb_id": 1400793
+    },
+    {
       "title": "Bridget Jones: Mad About the Boy",
       "id": 2256,
       "tmdb_id": 1272149
@@ -92,9 +97,19 @@
       "tmdb_id": 1476614
     },
     {
+      "title": "The Unknown",
+      "id": 2324,
+      "tmdb_id": 1182935
+    },
+    {
       "title": "Another Day",
       "id": 2272,
       "tmdb_id": 1507877
+    },
+    {
+      "title": "Sheep in the Box",
+      "id": 2325,
+      "tmdb_id": 1553969
     },
     {
       "title": "Hope",
@@ -205,6 +220,11 @@
       "title": "Dau",
       "id": 2292,
       "tmdb_id": 1734147
+    },
+    {
+      "title": "Look Back",
+      "id": 2326,
+      "tmdb_id": 1591675
     },
     {
       "title": "Ga-neung-han sa-rang (Possible love)",
@@ -359,64 +379,18 @@
   ],
   "added": [
     {
-      "title": "Cutting Through Rocks",
-      "id": 2323,
-      "director": "Sara Khaki, Mohammad Reza Eyni",
-      "year": 2025,
-      "tmdb_id": 1400793,
-      "imdb_id": "tt10196414",
-      "original_title": "Cutting Through Rocks",
-      "original_language": "en",
-      "alternate_titles": []
-    },
-    {
-      "title": "The Unknown",
-      "id": 2324,
-      "director": "Arthur Harari",
-      "year": 2026,
-      "tmdb_id": 1182935,
-      "imdb_id": "tt32359586",
-      "original_title": "L’inconnue",
-      "original_language": "fr",
-      "alternate_titles": [
-        "The Unknown Woman"
-      ]
-    },
-    {
-      "title": "Sheep in the Box",
-      "id": 2325,
-      "director": "Hirokazu Kore-eda",
-      "year": 2026,
-      "tmdb_id": 1553969,
-      "imdb_id": "tt38551209",
-      "original_title": "箱の中の羊",
-      "original_language": "ja",
-      "alternate_titles": []
-    },
-    {
-      "title": "Look Back",
-      "id": 2326,
-      "director": "Hirokazu Kore-eda",
-      "year": 2026,
-      "tmdb_id": 1591675,
-      "imdb_id": "tt39094466",
-      "original_title": "ルックバック",
-      "original_language": "ja",
-      "alternate_titles": []
-    }
-  ],
-  "unresolved": [
-    {
       "title": "Primetime",
+      "id": 2327,
       "director": "Lance Oppenheim",
       "year": 2026,
-      "reason": "TMDB request failed"
-    },
-    {
-      "event": "Venice",
-      "reason": "Unresolved film Primetime"
+      "tmdb_id": 1375441,
+      "imdb_id": "tt34206385",
+      "original_title": "Primetime",
+      "original_language": "en",
+      "alternate_titles": []
     }
   ],
+  "unresolved": [],
   "new_canonical_ids": [
     {
       "id": 2254,
@@ -782,6 +756,11 @@
       "id": 2326,
       "title": "Look Back",
       "tmdb_id": 1591675
+    },
+    {
+      "id": 2327,
+      "title": "Primetime",
+      "tmdb_id": 1375441
     }
   ],
   "event_counts": [
@@ -804,6 +783,11 @@
       "event": "Cannes",
       "films": 22,
       "categories": 7
+    },
+    {
+      "event": "Venice",
+      "films": 21,
+      "categories": 8
     },
     {
       "event": "Berlinale",

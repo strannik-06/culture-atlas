@@ -73925,5 +73925,36 @@ window.CULTURE_FILM_DETAILS = {
     "imdb": {
       "url": "https://www.imdb.com/title/tt39094466/"
     }
+  },
+  "2327": {
+    "tmdb_id": 1375441,
+    "title": "Primetime",
+    "original_title": "Primetime",
+    "overview": "In 2006, To Catch a Predator host Chris Hansen sets out to make television history. When a high stakes operation goes fatally wrong, his veneered dream of fame curdles into a nightmare of performative justice.",
+    "runtime": 110,
+    "release_date": "2026-09-23",
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "countries": [
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Lance Oppenheim",
+    "cast": [
+      "Robert Pattinson",
+      "Merritt Wever",
+      "Skyler Gisondo",
+      "Matthew Maher",
+      "Phoebe Bridgers"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/lmrulvLbmaejTix1YaMxo1oGhH1.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/1tJz8e1G21nEuzHlX771MNBRJvM.jpg",
+    "tmdb_rating": 6.856,
+    "tmdb_votes": 202,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt34206385/"
+    }
   }
 };

@@ -22797,5 +22797,16 @@ window.CULTURE_CATALOG = [
     "original_title": "ルックバック",
     "original_language": "ja",
     "alternate_titles": []
+  },
+  {
+    "id": 2327,
+    "title": "Primetime",
+    "director": "Lance Oppenheim",
+    "year": 2026,
+    "tmdb_id": 1375441,
+    "imdb_id": "tt34206385",
+    "original_title": "Primetime",
+    "original_language": "en",
+    "alternate_titles": []
   }
 ];

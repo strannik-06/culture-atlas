@@ -2376,6 +2376,367 @@ window.CULTURE_AWARDS_2026 = [
     ]
   },
   {
+    "event": "Venice",
+    "year": 2026,
+    "section": "Venezia 83 Competition",
+    "dates": "2–12 September 2026",
+    "source": "https://www.labiennale.org/en/cinema/2026/venezia-83-competition",
+    "awardsSource": "https://www.labiennale.org/en/news/official-awards-83rd-venice-international-film-festival",
+    "resultsUrl": "https://www.labiennale.org/en/news/official-awards-83rd-venice-international-film-festival",
+    "categories": [
+      {
+        "id": "golden-lion",
+        "name": "Golden Lion",
+        "nominees": [
+          2289,
+          2234,
+          2283,
+          2284,
+          2285,
+          2286,
+          2287,
+          2288,
+          2290,
+          2291,
+          2292,
+          2326,
+          2293,
+          2294,
+          2295,
+          2327,
+          2296,
+          2297,
+          2298,
+          2299,
+          2300
+        ],
+        "winner": 2289,
+        "winners": [
+          2289
+        ],
+        "entries": [
+          {
+            "film_id": 2289,
+            "winner": true
+          },
+          {
+            "film_id": 2234,
+            "winner": false
+          },
+          {
+            "film_id": 2283,
+            "winner": false
+          },
+          {
+            "film_id": 2284,
+            "winner": false
+          },
+          {
+            "film_id": 2285,
+            "winner": false
+          },
+          {
+            "film_id": 2286,
+            "winner": false
+          },
+          {
+            "film_id": 2287,
+            "winner": false
+          },
+          {
+            "film_id": 2288,
+            "winner": false
+          },
+          {
+            "film_id": 2290,
+            "winner": false
+          },
+          {
+            "film_id": 2291,
+            "winner": false
+          },
+          {
+            "film_id": 2292,
+            "winner": false
+          },
+          {
+            "film_id": 2326,
+            "winner": false
+          },
+          {
+            "film_id": 2293,
+            "winner": false
+          },
+          {
+            "film_id": 2294,
+            "winner": false
+          },
+          {
+            "film_id": 2295,
+            "winner": false
+          },
+          {
+            "film_id": 2327,
+            "winner": false
+          },
+          {
+            "film_id": 2296,
+            "winner": false
+          },
+          {
+            "film_id": 2297,
+            "winner": false
+          },
+          {
+            "film_id": 2298,
+            "winner": false
+          },
+          {
+            "film_id": 2299,
+            "winner": false
+          },
+          {
+            "film_id": 2300,
+            "winner": false
+          }
+        ],
+        "nomination_kind": "competition"
+      },
+      {
+        "id": "grand-jury-prize",
+        "name": "Grand Jury Prize",
+        "nominees": [
+          2293
+        ],
+        "winner": 2293,
+        "winners": [
+          2293
+        ],
+        "entries": [
+          {
+            "film_id": 2293,
+            "winner": true
+          }
+        ],
+        "nomination_kind": "winners_only"
+      },
+      {
+        "id": "best-director",
+        "name": "Best Director",
+        "nominees": [
+          2292
+        ],
+        "winner": 2292,
+        "winners": [
+          2292
+        ],
+        "entries": [
+          {
+            "film_id": 2292,
+            "person": "Ilya Khrzhanovsky",
+            "winner": true
+          }
+        ],
+        "nomination_kind": "winners_only"
+      },
+      {
+        "id": "best-actress",
+        "name": "Best Actress",
+        "nominees": [
+          2289
+        ],
+        "winner": 2289,
+        "winners": [
+          2289
+        ],
+        "entries": [
+          {
+            "film_id": 2289,
+            "person": "Mathilde Arcel",
+            "winner": true
+          }
+        ],
+        "nomination_kind": "winners_only"
+      },
+      {
+        "id": "best-actor",
+        "name": "Best Actor",
+        "nominees": [
+          2294
+        ],
+        "winner": 2294,
+        "winners": [
+          2294
+        ],
+        "entries": [
+          {
+            "film_id": 2294,
+            "person": "John Malkovich",
+            "winner": true
+          }
+        ],
+        "nomination_kind": "winners_only"
+      },
+      {
+        "id": "best-screenplay",
+        "name": "Best Screenplay",
+        "nominees": [
+          2287
+        ],
+        "winner": 2287,
+        "winners": [
+          2287
+        ],
+        "entries": [
+          {
+            "film_id": 2287,
+            "person": "Stéphane Brizé, Coralie Amédéo, Olivier Gorce",
+            "winner": true
+          }
+        ],
+        "nomination_kind": "winners_only"
+      },
+      {
+        "id": "special-jury-prize",
+        "name": "Special Jury Prize",
+        "nominees": [
+          2234
+        ],
+        "winner": 2234,
+        "winners": [
+          2234
+        ],
+        "entries": [
+          {
+            "film_id": 2234,
+            "winner": true
+          }
+        ],
+        "nomination_kind": "winners_only"
+      },
+      {
+        "id": "marcello-mastroianni-award",
+        "name": "Marcello Mastroianni Award",
+        "nominees": [
+          2291
+        ],
+        "winner": 2291,
+        "winners": [
+          2291
+        ],
+        "entries": [
+          {
+            "film_id": 2291,
+            "person": "Malou Khebizi",
+            "winner": true
+          }
+        ],
+        "nomination_kind": "winners_only"
+      }
+    ],
+    "films": [
+      {
+        "id": 2289,
+        "awards": [
+          "Golden Lion",
+          "Best Actress"
+        ]
+      },
+      {
+        "id": 2234,
+        "awards": [
+          "Special Jury Prize"
+        ]
+      },
+      {
+        "id": 2283,
+        "awards": []
+      },
+      {
+        "id": 2284,
+        "awards": []
+      },
+      {
+        "id": 2285,
+        "awards": []
+      },
+      {
+        "id": 2286,
+        "awards": []
+      },
+      {
+        "id": 2287,
+        "awards": [
+          "Best Screenplay"
+        ]
+      },
+      {
+        "id": 2288,
+        "awards": []
+      },
+      {
+        "id": 2290,
+        "awards": []
+      },
+      {
+        "id": 2291,
+        "awards": [
+          "Marcello Mastroianni Award"
+        ]
+      },
+      {
+        "id": 2292,
+        "awards": [
+          "Best Director"
+        ]
+      },
+      {
+        "id": 2326,
+        "awards": []
+      },
+      {
+        "id": 2293,
+        "awards": [
+          "Grand Jury Prize"
+        ]
+      },
+      {
+        "id": 2294,
+        "awards": [
+          "Best Actor"
+        ]
+      },
+      {
+        "id": 2295,
+        "awards": []
+      },
+      {
+        "id": 2327,
+        "awards": []
+      },
+      {
+        "id": 2296,
+        "awards": []
+      },
+      {
+        "id": 2297,
+        "awards": []
+      },
+      {
+        "id": 2298,
+        "awards": []
+      },
+      {
+        "id": 2299,
+        "awards": []
+      },
+      {
+        "id": 2300,
+        "awards": []
+      }
+    ]
+  },
+  {
     "event": "Berlinale",
     "year": 2026,
     "section": "Main Competition",
