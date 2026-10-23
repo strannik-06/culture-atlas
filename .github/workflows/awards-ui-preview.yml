@@ -1,0 +1,40 @@
+name: Awards browser preview
+on:
+  push:
+    branches: [feat/awards-navigation-2026]
+    paths: [index.html, awards.js, awards.css, scripts/preview-awards.mjs, .github/workflows/awards-ui-preview.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: awards-browser-preview
+  cancel-in-progress: false
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci --ignore-scripts
+      - run: npm install --no-save --package-lock=false playwright@1.58.2
+      - run: npx playwright install --with-deps chromium
+      - run: node scripts/preview-awards.mjs
+      - name: Save signed-out review screenshots
+        if: github.ref_name == 'feat/awards-navigation-2026'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add docs/previews/awards-2026-desktop.png docs/previews/awards-2026-mobile.png
+          if ! git diff --cached --quiet; then
+            git commit -m "Preview award navigation in desktop and mobile Chromium"
+            git push origin HEAD:"$GITHUB_REF_NAME"
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: awards-browser-preview
+          path: docs/previews/awards-2026-*.png
+          if-no-files-found: ignore
