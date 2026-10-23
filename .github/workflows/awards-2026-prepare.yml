@@ -1,0 +1,36 @@
+name: Prepare verified 2026 awards catalogue
+on:
+  push:
+    branches: [feat/awards-navigation-2026]
+    paths: [scripts/prepare-awards-2026.mjs, imports/awards-2026-source.json, imports/awards-2026-identity-overrides.json, .github/workflows/awards-2026-prepare.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: prepare-awards-2026
+  cancel-in-progress: false
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Match new films by title and director and fetch metadata
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          TMDB_READ_ACCESS_TOKEN: ${{ secrets.TMDB_READ_ACCESS_TOKEN }}
+        run: node scripts/prepare-awards-2026.mjs
+      - run: node scripts/seed-media-catalogue.mjs
+      - name: Commit data to the review branch
+        if: github.ref_name == 'feat/awards-navigation-2026'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add film-catalog.js film-details.js awards-2026.js imports/awards-2026-audit.json supabase/migrations/20261021_media_catalogue_seed.sql
+          if ! git diff --cached --quiet; then
+            git commit -m "Resolve 2026 award films against verified TMDB director credits"
+            git push origin HEAD:"$GITHUB_REF_NAME"
+          fi

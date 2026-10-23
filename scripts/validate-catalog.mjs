@@ -11,7 +11,7 @@ function readGlobal(filename,globalName){
  return JSON.parse(source.slice(start+marker.length).trim().replace(/;$/,''));
 }
 const catalog=readGlobal('film-catalog.js','CULTURE_CATALOG');
-const awards=readGlobal('awards-2025.js','CULTURE_AWARDS');
+const awards=[...readGlobal('awards-2025.js','CULTURE_AWARDS'),...readGlobal('awards-2026.js','CULTURE_AWARDS_2026')];
 const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
 const inline=html.match(/const films=(\[[^;]*\]);/);
 if(!inline)throw Error('Could not locate 2025 Top 100');

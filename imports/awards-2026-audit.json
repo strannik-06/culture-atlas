@@ -1,0 +1,798 @@
+{
+  "edition": 2026,
+  "matched": [
+    {
+      "title": "F1",
+      "id": 2254,
+      "tmdb_id": 911430
+    },
+    {
+      "title": "Song Sung Blue",
+      "id": 2255,
+      "tmdb_id": 1371185
+    },
+    {
+      "title": "Cutting through Rocks",
+      "id": 2323,
+      "tmdb_id": 1400793
+    },
+    {
+      "title": "Bridget Jones: Mad About the Boy",
+      "id": 2256,
+      "tmdb_id": 1272149
+    },
+    {
+      "title": "H is for Hawk",
+      "id": 2257,
+      "tmdb_id": 1243006
+    },
+    {
+      "title": "Mr. Burton",
+      "id": 2258,
+      "tmdb_id": 1242454
+    },
+    {
+      "title": "Apocalypse In The Tropics",
+      "id": 2259,
+      "tmdb_id": 1320400
+    },
+    {
+      "title": "Demon Slayer: Kimetsu no Yaiba – Infinity Castle",
+      "id": 2260,
+      "tmdb_id": 1311031
+    },
+    {
+      "title": "Hedda",
+      "id": 2261,
+      "tmdb_id": 997113
+    },
+    {
+      "title": "Springsteen: Deliver Me from Nowhere",
+      "id": 2262,
+      "tmdb_id": 1230368
+    },
+    {
+      "title": "Wicked: For Good",
+      "id": 2263,
+      "tmdb_id": 967941
+    },
+    {
+      "title": "Amarga Navidad",
+      "id": 2264,
+      "tmdb_id": 1088548
+    },
+    {
+      "title": "A Woman’S Life",
+      "id": 2265,
+      "tmdb_id": 1258181
+    },
+    {
+      "title": "La Bola Negra",
+      "id": 2266,
+      "tmdb_id": 1422041
+    },
+    {
+      "title": "Coward",
+      "id": 2267,
+      "tmdb_id": 1437981
+    },
+    {
+      "title": "Parallel Tales",
+      "id": 2268,
+      "tmdb_id": 1157869
+    },
+    {
+      "title": "Paper Tiger",
+      "id": 2269,
+      "tmdb_id": 1381273
+    },
+    {
+      "title": "Das Geträumte Abenteuer",
+      "id": 2270,
+      "tmdb_id": 1013822
+    },
+    {
+      "title": "All of a Sudden",
+      "id": 2271,
+      "tmdb_id": 1476614
+    },
+    {
+      "title": "The Unknown",
+      "id": 2324,
+      "tmdb_id": 1182935
+    },
+    {
+      "title": "Another Day",
+      "id": 2272,
+      "tmdb_id": 1507877
+    },
+    {
+      "title": "Sheep in the Box",
+      "id": 2325,
+      "tmdb_id": 1553969
+    },
+    {
+      "title": "Hope",
+      "id": 2273,
+      "tmdb_id": 1058424
+    },
+    {
+      "title": "Nagi Notes",
+      "id": 2274,
+      "tmdb_id": 1448971
+    },
+    {
+      "title": "Gentle Monster",
+      "id": 2275,
+      "tmdb_id": 1473148
+    },
+    {
+      "title": "A Man of His Time",
+      "id": 2276,
+      "tmdb_id": 1318864
+    },
+    {
+      "title": "Fjord",
+      "id": 2277,
+      "tmdb_id": 1401459
+    },
+    {
+      "title": "The Birthday Party",
+      "id": 2278,
+      "tmdb_id": 1191818
+    },
+    {
+      "title": "Moulin",
+      "id": 2279,
+      "tmdb_id": 1437925
+    },
+    {
+      "title": "Fatherland",
+      "id": 2280,
+      "tmdb_id": 1437696
+    },
+    {
+      "title": "The Man I Love",
+      "id": 2281,
+      "tmdb_id": 1458914
+    },
+    {
+      "title": "El Ser Querido",
+      "id": 2282,
+      "tmdb_id": 1074074
+    },
+    {
+      "title": "Minotaur",
+      "id": 2233,
+      "tmdb_id": 848700
+    },
+    {
+      "title": "NAZA",
+      "id": 2234,
+      "tmdb_id": 1755291
+    },
+    {
+      "title": "Company",
+      "id": 2283,
+      "tmdb_id": 1733908
+    },
+    {
+      "title": "Kami nour (A bit of light)",
+      "id": 2284,
+      "tmdb_id": 1736490
+    },
+    {
+      "title": "Ritorno a Buenos Aires",
+      "id": 2285,
+      "tmdb_id": 1597199
+    },
+    {
+      "title": "Ink",
+      "id": 2286,
+      "tmdb_id": 1532610
+    },
+    {
+      "title": "Un bon petit soldat",
+      "id": 2287,
+      "tmdb_id": 1430815
+    },
+    {
+      "title": "Il fuoco che ti porti dentro (The Fire Within You)",
+      "id": 2288,
+      "tmdb_id": 1632188
+    },
+    {
+      "title": "Kvinde Ukendt (Woman Unknown)",
+      "id": 2289,
+      "tmdb_id": 1511780
+    },
+    {
+      "title": "Bucking Fastard",
+      "id": 2290,
+      "tmdb_id": 1429713
+    },
+    {
+      "title": "15/18 (A Place To Heal)",
+      "id": 2291,
+      "tmdb_id": 1429602
+    },
+    {
+      "title": "Dau",
+      "id": 2292,
+      "tmdb_id": 1734147
+    },
+    {
+      "title": "Look Back",
+      "id": 2326,
+      "tmdb_id": 1591675
+    },
+    {
+      "title": "Ga-neung-han sa-rang (Possible love)",
+      "id": 2293,
+      "tmdb_id": 1483525
+    },
+    {
+      "title": "Wild Horse Nine",
+      "id": 2294,
+      "tmdb_id": 891621
+    },
+    {
+      "title": "Succederà questa notte (It will happen tonight)",
+      "id": 2295,
+      "tmdb_id": 1499546
+    },
+    {
+      "title": "The Echo Chamber",
+      "id": 2296,
+      "tmdb_id": 1576934
+    },
+    {
+      "title": "Un peu avant minuit",
+      "id": 2297,
+      "tmdb_id": 1480672
+    },
+    {
+      "title": "L’estranea",
+      "id": 2298,
+      "tmdb_id": 1412795
+    },
+    {
+      "title": "Nelson san, anata wa hito wo koroshimashitaka? (Mr. Nelson, Did You Kill People?)",
+      "id": 2299,
+      "tmdb_id": 1497946
+    },
+    {
+      "title": "Bunker",
+      "id": 2300,
+      "tmdb_id": 1473784
+    },
+    {
+      "title": "A New Dawn",
+      "id": 2301,
+      "tmdb_id": 1279865
+    },
+    {
+      "title": "At the Sea",
+      "id": 2302,
+      "tmdb_id": 1279548
+    },
+    {
+      "title": "In a Whisper",
+      "id": 2303,
+      "tmdb_id": 1119547
+    },
+    {
+      "title": "Dao",
+      "id": 2304,
+      "tmdb_id": 1135582
+    },
+    {
+      "title": "Dust",
+      "id": 2305,
+      "tmdb_id": 1001375
+    },
+    {
+      "title": "Home Stories",
+      "id": 2306,
+      "tmdb_id": 1299061
+    },
+    {
+      "title": "Everybody Digs Bill Evans",
+      "id": 2307,
+      "tmdb_id": 1378791
+    },
+    {
+      "title": "Yellow Letters",
+      "id": 2308,
+      "tmdb_id": 1315657
+    },
+    {
+      "title": "Josephine",
+      "id": 2309,
+      "tmdb_id": 1299329
+    },
+    {
+      "title": "Salvation",
+      "id": 2310,
+      "tmdb_id": 1401106
+    },
+    {
+      "title": "My Wife Cries",
+      "id": 2311,
+      "tmdb_id": 1152312
+    },
+    {
+      "title": "Flies",
+      "id": 2312,
+      "tmdb_id": 1437703
+    },
+    {
+      "title": "Nina Roza",
+      "id": 2313,
+      "tmdb_id": 1527449
+    },
+    {
+      "title": "Queen at Sea",
+      "id": 2314,
+      "tmdb_id": 1021848
+    },
+    {
+      "title": "Rose",
+      "id": 2315,
+      "tmdb_id": 1176962
+    },
+    {
+      "title": "Rosebush Pruning",
+      "id": 2316,
+      "tmdb_id": 1130948
+    },
+    {
+      "title": "Soumsoum, the Night of the Stars",
+      "id": 2317,
+      "tmdb_id": 1376457
+    },
+    {
+      "title": "The Loneliest Man in Town",
+      "id": 2318,
+      "tmdb_id": 1426957
+    },
+    {
+      "title": "Wolfram",
+      "id": 2319,
+      "tmdb_id": 1476362
+    },
+    {
+      "title": "We Are All Strangers",
+      "id": 2320,
+      "tmdb_id": 884692
+    },
+    {
+      "title": "Yo (Love is a Rebellious Bird)",
+      "id": 2321,
+      "tmdb_id": 1619820
+    },
+    {
+      "title": "Nightborn",
+      "id": 2322,
+      "tmdb_id": 964849
+    }
+  ],
+  "added": [
+    {
+      "title": "Primetime",
+      "id": 2327,
+      "director": "Lance Oppenheim",
+      "year": 2026,
+      "tmdb_id": 1375441,
+      "imdb_id": "tt34206385",
+      "original_title": "Primetime",
+      "original_language": "en",
+      "alternate_titles": []
+    }
+  ],
+  "unresolved": [],
+  "new_canonical_ids": [
+    {
+      "id": 2254,
+      "title": "F1",
+      "tmdb_id": 911430
+    },
+    {
+      "id": 2255,
+      "title": "Song Sung Blue",
+      "tmdb_id": 1371185
+    },
+    {
+      "id": 2256,
+      "title": "Bridget Jones: Mad About the Boy",
+      "tmdb_id": 1272149
+    },
+    {
+      "id": 2257,
+      "title": "H Is for Hawk",
+      "tmdb_id": 1243006
+    },
+    {
+      "id": 2258,
+      "title": "Mr. Burton",
+      "tmdb_id": 1242454
+    },
+    {
+      "id": 2259,
+      "title": "Apocalypse in the Tropics",
+      "tmdb_id": 1320400
+    },
+    {
+      "id": 2260,
+      "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+      "tmdb_id": 1311031
+    },
+    {
+      "id": 2261,
+      "title": "Hedda",
+      "tmdb_id": 997113
+    },
+    {
+      "id": 2262,
+      "title": "Springsteen: Deliver Me from Nowhere",
+      "tmdb_id": 1230368
+    },
+    {
+      "id": 2263,
+      "title": "Wicked: For Good",
+      "tmdb_id": 967941
+    },
+    {
+      "id": 2264,
+      "title": "Bitter Christmas",
+      "tmdb_id": 1088548
+    },
+    {
+      "id": 2265,
+      "title": "A Woman's Life",
+      "tmdb_id": 1258181
+    },
+    {
+      "id": 2266,
+      "title": "La bola negra",
+      "tmdb_id": 1422041
+    },
+    {
+      "id": 2267,
+      "title": "Coward",
+      "tmdb_id": 1437981
+    },
+    {
+      "id": 2268,
+      "title": "Parallel Tales",
+      "tmdb_id": 1157869
+    },
+    {
+      "id": 2269,
+      "title": "Paper Tiger",
+      "tmdb_id": 1381273
+    },
+    {
+      "id": 2270,
+      "title": "The Dreamed Adventure",
+      "tmdb_id": 1013822
+    },
+    {
+      "id": 2271,
+      "title": "All of a Sudden",
+      "tmdb_id": 1476614
+    },
+    {
+      "id": 2272,
+      "title": "Another Day",
+      "tmdb_id": 1507877
+    },
+    {
+      "id": 2273,
+      "title": "Hope",
+      "tmdb_id": 1058424
+    },
+    {
+      "id": 2274,
+      "title": "Nagi Notes",
+      "tmdb_id": 1448971
+    },
+    {
+      "id": 2275,
+      "title": "Gentle Monster",
+      "tmdb_id": 1473148
+    },
+    {
+      "id": 2276,
+      "title": "A Man of His Time",
+      "tmdb_id": 1318864
+    },
+    {
+      "id": 2277,
+      "title": "Fjord",
+      "tmdb_id": 1401459
+    },
+    {
+      "id": 2278,
+      "title": "The Birthday Party",
+      "tmdb_id": 1191818
+    },
+    {
+      "id": 2279,
+      "title": "Moulin",
+      "tmdb_id": 1437925
+    },
+    {
+      "id": 2280,
+      "title": "Fatherland",
+      "tmdb_id": 1437696
+    },
+    {
+      "id": 2281,
+      "title": "The Man I Love",
+      "tmdb_id": 1458914
+    },
+    {
+      "id": 2282,
+      "title": "The Beloved",
+      "tmdb_id": 1074074
+    },
+    {
+      "id": 2283,
+      "title": "Company",
+      "tmdb_id": 1733908
+    },
+    {
+      "id": 2284,
+      "title": "A Bit of Light",
+      "tmdb_id": 1736490
+    },
+    {
+      "id": 2285,
+      "title": "Back to Buenos Aires",
+      "tmdb_id": 1597199
+    },
+    {
+      "id": 2286,
+      "title": "Ink",
+      "tmdb_id": 1532610
+    },
+    {
+      "id": 2287,
+      "title": "A Good Little Soldier",
+      "tmdb_id": 1430815
+    },
+    {
+      "id": 2288,
+      "title": "The Fire Within You",
+      "tmdb_id": 1632188
+    },
+    {
+      "id": 2289,
+      "title": "Woman Unknown",
+      "tmdb_id": 1511780
+    },
+    {
+      "id": 2290,
+      "title": "Bucking Fastard",
+      "tmdb_id": 1429713
+    },
+    {
+      "id": 2291,
+      "title": "A Place to Heal",
+      "tmdb_id": 1429602
+    },
+    {
+      "id": 2292,
+      "title": "DAU",
+      "tmdb_id": 1734147
+    },
+    {
+      "id": 2293,
+      "title": "Possible Love",
+      "tmdb_id": 1483525
+    },
+    {
+      "id": 2294,
+      "title": "Wild Horse Nine",
+      "tmdb_id": 891621
+    },
+    {
+      "id": 2295,
+      "title": "It Will Happen Tonight",
+      "tmdb_id": 1499546
+    },
+    {
+      "id": 2296,
+      "title": "The Echo Chamber",
+      "tmdb_id": 1576934
+    },
+    {
+      "id": 2297,
+      "title": "One Minute to Midnight",
+      "tmdb_id": 1480672
+    },
+    {
+      "id": 2298,
+      "title": "The Spiral",
+      "tmdb_id": 1412795
+    },
+    {
+      "id": 2299,
+      "title": "Mr. Nelson, Did You Kill People?",
+      "tmdb_id": 1497946
+    },
+    {
+      "id": 2300,
+      "title": "Bunker",
+      "tmdb_id": 1473784
+    },
+    {
+      "id": 2301,
+      "title": "A New Dawn",
+      "tmdb_id": 1279865
+    },
+    {
+      "id": 2302,
+      "title": "At the Sea",
+      "tmdb_id": 1279548
+    },
+    {
+      "id": 2303,
+      "title": "In a Whisper",
+      "tmdb_id": 1119547
+    },
+    {
+      "id": 2304,
+      "title": "Dao",
+      "tmdb_id": 1135582
+    },
+    {
+      "id": 2305,
+      "title": "Dust",
+      "tmdb_id": 1001375
+    },
+    {
+      "id": 2306,
+      "title": "Home Stories",
+      "tmdb_id": 1299061
+    },
+    {
+      "id": 2307,
+      "title": "Everybody Digs Bill Evans",
+      "tmdb_id": 1378791
+    },
+    {
+      "id": 2308,
+      "title": "Yellow Letters",
+      "tmdb_id": 1315657
+    },
+    {
+      "id": 2309,
+      "title": "Josephine",
+      "tmdb_id": 1299329
+    },
+    {
+      "id": 2310,
+      "title": "Salvation",
+      "tmdb_id": 1401106
+    },
+    {
+      "id": 2311,
+      "title": "My Wife Cries",
+      "tmdb_id": 1152312
+    },
+    {
+      "id": 2312,
+      "title": "Flies",
+      "tmdb_id": 1437703
+    },
+    {
+      "id": 2313,
+      "title": "Nina Roza",
+      "tmdb_id": 1527449
+    },
+    {
+      "id": 2314,
+      "title": "Queen at Sea",
+      "tmdb_id": 1021848
+    },
+    {
+      "id": 2315,
+      "title": "Rose",
+      "tmdb_id": 1176962
+    },
+    {
+      "id": 2316,
+      "title": "Rosebush Pruning",
+      "tmdb_id": 1130948
+    },
+    {
+      "id": 2317,
+      "title": "Soumsoum, the Night of the Stars",
+      "tmdb_id": 1376457
+    },
+    {
+      "id": 2318,
+      "title": "The Loneliest Man in Town",
+      "tmdb_id": 1426957
+    },
+    {
+      "id": 2319,
+      "title": "Wolfram",
+      "tmdb_id": 1476362
+    },
+    {
+      "id": 2320,
+      "title": "We Are All Strangers",
+      "tmdb_id": 884692
+    },
+    {
+      "id": 2321,
+      "title": "Yo (Love Is a Rebellious Bird)",
+      "tmdb_id": 1619820
+    },
+    {
+      "id": 2322,
+      "title": "Nightborn",
+      "tmdb_id": 964849
+    },
+    {
+      "id": 2323,
+      "title": "Cutting Through Rocks",
+      "tmdb_id": 1400793
+    },
+    {
+      "id": 2324,
+      "title": "The Unknown",
+      "tmdb_id": 1182935
+    },
+    {
+      "id": 2325,
+      "title": "Sheep in the Box",
+      "tmdb_id": 1553969
+    },
+    {
+      "id": 2326,
+      "title": "Look Back",
+      "tmdb_id": 1591675
+    },
+    {
+      "id": 2327,
+      "title": "Primetime",
+      "tmdb_id": 1375441
+    }
+  ],
+  "event_counts": [
+    {
+      "event": "Oscars",
+      "films": 27,
+      "categories": 11
+    },
+    {
+      "event": "BAFTA",
+      "films": 31,
+      "categories": 12
+    },
+    {
+      "event": "Golden Globes",
+      "films": 33,
+      "categories": 12
+    },
+    {
+      "event": "Cannes",
+      "films": 22,
+      "categories": 7
+    },
+    {
+      "event": "Venice",
+      "films": 21,
+      "categories": 8
+    },
+    {
+      "event": "Berlinale",
+      "films": 22,
+      "categories": 8
+    }
+  ]
+}

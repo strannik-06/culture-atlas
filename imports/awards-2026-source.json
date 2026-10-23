@@ -1,0 +1,2269 @@
+{
+  "edition_year": 2026,
+  "scope": "Main competitions and established major feature-film categories",
+  "events": [
+    {
+      "event": "Oscars",
+      "year": 2026,
+      "section": "Major Film Categories",
+      "dates": "15 March 2026",
+      "source": "https://www.oscars.org/oscars/ceremonies/2026",
+      "categories": [
+        {
+          "name": "Best Picture",
+          "entries": [
+            {
+              "title": "One Battle after Another",
+              "person": "Adam Somner, Sara Murphy and Paul Thomas Anderson, Producers",
+              "winner": true
+            },
+            {
+              "title": "Bugonia",
+              "person": "Ed Guiney & Andrew Lowe, Yorgos Lanthimos, Emma Stone and Lars Knudsen, Producers",
+              "winner": false
+            },
+            {
+              "title": "F1",
+              "person": "Chad Oman, Brad Pitt, Dede Gardner, Jeremy Kleiner, Joseph Kosinski and Jerry Bruckheimer, Producers",
+              "winner": false
+            },
+            {
+              "title": "Frankenstein",
+              "person": "Guillermo del Toro, J. Miles Dale and Scott Stuber, Producers",
+              "winner": false
+            },
+            {
+              "title": "Hamnet",
+              "person": "Liza Marshall, Pippa Harris, Nicolas Gonda, Steven Spielberg and Sam Mendes, Producers",
+              "winner": false
+            },
+            {
+              "title": "Marty Supreme",
+              "person": "Eli Bush, Ronald Bronstein, Josh Safdie, Anthony Katagas and Timothée Chalamet, Producers",
+              "winner": false
+            },
+            {
+              "title": "The Secret Agent",
+              "person": "Emilie Lesclaux, Producer",
+              "winner": false
+            },
+            {
+              "title": "Sentimental Value",
+              "person": "Maria Ekerhovd and Andrea Berentsen Ottmar, Producers",
+              "winner": false
+            },
+            {
+              "title": "Sinners",
+              "person": "Zinzi Coogler, Sev Ohanian and Ryan Coogler, Producers",
+              "winner": false
+            },
+            {
+              "title": "Train Dreams",
+              "person": "Marissa McMahon, Teddy Schwarzman, Will Janowitz, Ashley Schlaifer and Michael Heimler, Producers",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Directing",
+          "entries": [
+            {
+              "title": "One Battle after Another",
+              "person": "Paul Thomas Anderson",
+              "winner": true
+            },
+            {
+              "title": "Hamnet",
+              "person": "Chloé Zhao",
+              "winner": false
+            },
+            {
+              "title": "Marty Supreme",
+              "person": "Josh Safdie",
+              "winner": false
+            },
+            {
+              "title": "Sentimental Value",
+              "person": "Joachim Trier",
+              "winner": false
+            },
+            {
+              "title": "Sinners",
+              "person": "Ryan Coogler",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Actor in a Leading Role",
+          "entries": [
+            {
+              "title": "Sinners",
+              "person": "Michael B. Jordan",
+              "winner": true
+            },
+            {
+              "title": "Marty Supreme",
+              "person": "Timothée Chalamet",
+              "winner": false
+            },
+            {
+              "title": "One Battle after Another",
+              "person": "Leonardo DiCaprio",
+              "winner": false
+            },
+            {
+              "title": "Blue Moon",
+              "person": "Ethan Hawke",
+              "winner": false
+            },
+            {
+              "title": "The Secret Agent",
+              "person": "Wagner Moura",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Actress in a Leading Role",
+          "entries": [
+            {
+              "title": "Hamnet",
+              "person": "Jessie Buckley",
+              "winner": true
+            },
+            {
+              "title": "If I Had Legs I'd Kick You",
+              "person": "Rose Byrne",
+              "winner": false
+            },
+            {
+              "title": "Song Sung Blue",
+              "person": "Kate Hudson",
+              "winner": false
+            },
+            {
+              "title": "Sentimental Value",
+              "person": "Renate Reinsve",
+              "winner": false
+            },
+            {
+              "title": "Bugonia",
+              "person": "Emma Stone",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Actor in a Supporting Role",
+          "entries": [
+            {
+              "title": "One Battle after Another",
+              "person": "Sean Penn",
+              "winner": true
+            },
+            {
+              "title": "One Battle after Another",
+              "person": "Benicio Del Toro",
+              "winner": false
+            },
+            {
+              "title": "Frankenstein",
+              "person": "Jacob Elordi",
+              "winner": false
+            },
+            {
+              "title": "Sinners",
+              "person": "Delroy Lindo",
+              "winner": false
+            },
+            {
+              "title": "Sentimental Value",
+              "person": "Stellan Skarsgård",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Actress in a Supporting Role",
+          "entries": [
+            {
+              "title": "Weapons",
+              "person": "Amy Madigan",
+              "winner": true
+            },
+            {
+              "title": "Sentimental Value",
+              "person": "Elle Fanning",
+              "winner": false
+            },
+            {
+              "title": "Sentimental Value",
+              "person": "Inga Ibsdotter Lilleaas",
+              "winner": false
+            },
+            {
+              "title": "Sinners",
+              "person": "Wunmi Mosaku",
+              "winner": false
+            },
+            {
+              "title": "One Battle after Another",
+              "person": "Teyana Taylor",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Writing (Original Screenplay)",
+          "entries": [
+            {
+              "title": "Sinners",
+              "person": "Written by Ryan Coogler",
+              "winner": true
+            },
+            {
+              "title": "Blue Moon",
+              "person": "Written by Robert Kaplow",
+              "winner": false
+            },
+            {
+              "title": "It Was Just an Accident",
+              "person": "Written by Jafar Panahi; Script collaborators - Nader Saïvar, Shadmehr Rastin, Mehdi Mahmoudian",
+              "winner": false
+            },
+            {
+              "title": "Marty Supreme",
+              "person": "Written by Ronald Bronstein & Josh Safdie",
+              "winner": false
+            },
+            {
+              "title": "Sentimental Value",
+              "person": "Written by Eskil Vogt, Joachim Trier",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Writing (Adapted Screenplay)",
+          "entries": [
+            {
+              "title": "One Battle after Another",
+              "person": "Written by Paul Thomas Anderson",
+              "winner": true
+            },
+            {
+              "title": "Bugonia",
+              "person": "Screenplay by Will Tracy",
+              "winner": false
+            },
+            {
+              "title": "Frankenstein",
+              "person": "Written for the Screen by Guillermo del Toro",
+              "winner": false
+            },
+            {
+              "title": "Hamnet",
+              "person": "Screenplay by Chloé Zhao & Maggie O'Farrell",
+              "winner": false
+            },
+            {
+              "title": "Train Dreams",
+              "person": "Screenplay by Clint Bentley & Greg Kwedar",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "International Feature Film",
+          "entries": [
+            {
+              "title": "Sentimental Value",
+              "person": "",
+              "winner": true
+            },
+            {
+              "title": "The Secret Agent",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "It Was Just an Accident",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Sirāt",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "The Voice of Hind Rajab",
+              "person": "",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Documentary Feature Film",
+          "entries": [
+            {
+              "title": "Mr. Nobody against Putin",
+              "person": "David Borenstein, Pavel Talankin, Helle Faber and Alžběta Karásková",
+              "winner": true
+            },
+            {
+              "title": "The Alabama Solution",
+              "person": "Andrew Jarecki and Charlotte Kaufman",
+              "winner": false
+            },
+            {
+              "title": "Come See Me in the Good Light",
+              "person": "Ryan White, Jessica Hargrave, Tig Notaro and Stef Willen",
+              "winner": false
+            },
+            {
+              "title": "Cutting through Rocks",
+              "person": "Sara Khaki and Mohammadreza Eyni",
+              "winner": false
+            },
+            {
+              "title": "The Perfect Neighbor",
+              "person": "Geeta Gandbhir, Alisa Payne, Nikon Kwantu and Sam Bisbee",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Animated Feature Film",
+          "entries": [
+            {
+              "title": "KPop Demon Hunters",
+              "person": "Maggie Kang, Chris Appelhans and Michelle L.M. Wong",
+              "winner": true
+            },
+            {
+              "title": "Arco",
+              "person": "Ugo Bienvenu, Félix de Givry, Sophie Mas and Natalie Portman",
+              "winner": false
+            },
+            {
+              "title": "Elio",
+              "person": "Madeline Sharafian, Domee Shi, Adrian Molina and Mary Alice Drumm",
+              "winner": false
+            },
+            {
+              "title": "Little Amélie or the Character of Rain",
+              "person": "Maïlys Vallade, Liane-Cho Han, Nidia Santiago and Henri Magalon",
+              "winner": false
+            },
+            {
+              "title": "Zootopia 2",
+              "person": "Jared Bush, Byron Howard and Yvett Merino",
+              "winner": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "BAFTA",
+      "year": 2026,
+      "section": "Major Film Categories",
+      "dates": "22 February 2026",
+      "source": "https://www.bafta.org/awards/film/?award-year=2026",
+      "categories": [
+        {
+          "name": "Best Film",
+          "entries": [
+            {
+              "title": "One Battle After Another",
+              "person": "",
+              "winner": true
+            },
+            {
+              "title": "Hamnet",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Marty Supreme",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Sentimental Value",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Sinners",
+              "person": "",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Director",
+          "entries": [
+            {
+              "title": "One Battle After Another",
+              "person": "Paul Thomas Anderson",
+              "winner": true
+            },
+            {
+              "title": "Sinners",
+              "person": "Ryan Coogler",
+              "winner": false
+            },
+            {
+              "title": "Bugonia",
+              "person": "Yorgos Lanthimos",
+              "winner": false
+            },
+            {
+              "title": "Marty Supreme",
+              "person": "Josh Safdie",
+              "winner": false
+            },
+            {
+              "title": "Sentimental Value",
+              "person": "Joachim Trier",
+              "winner": false
+            },
+            {
+              "title": "Hamnet",
+              "person": "Chloé Zhao",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Outstanding British Film",
+          "entries": [
+            {
+              "title": "Hamnet",
+              "person": "",
+              "winner": true
+            },
+            {
+              "title": "28 Years Later",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "The Ballad of Wallis Island",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Bridget Jones: Mad About the Boy",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Die My Love",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "H is for Hawk",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "I Swear",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Mr. Burton",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Pillion",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Steve",
+              "person": "",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Leading Actor",
+          "entries": [
+            {
+              "title": "I Swear",
+              "person": "Robert Aramayo",
+              "winner": true
+            },
+            {
+              "title": "Marty Supreme",
+              "person": "Timothée Chalamet",
+              "winner": false
+            },
+            {
+              "title": "One Battle After Another",
+              "person": "Leonardo DiCaprio",
+              "winner": false
+            },
+            {
+              "title": "Blue Moon",
+              "person": "Ethan Hawke",
+              "winner": false
+            },
+            {
+              "title": "Sinners",
+              "person": "Michael B. Jordan",
+              "winner": false
+            },
+            {
+              "title": "Bugonia",
+              "person": "Jesse Plemons",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Leading Actress",
+          "entries": [
+            {
+              "title": "Hamnet",
+              "person": "Jessie Buckley",
+              "winner": true
+            },
+            {
+              "title": "If I Had Legs I'd Kick You",
+              "person": "Rose Byrne",
+              "winner": false
+            },
+            {
+              "title": "Song Sung Blue",
+              "person": "Kate Hudson",
+              "winner": false
+            },
+            {
+              "title": "One Battle After Another",
+              "person": "Chase Infiniti",
+              "winner": false
+            },
+            {
+              "title": "Sentimental Value",
+              "person": "Renate Reinsve",
+              "winner": false
+            },
+            {
+              "title": "Bugonia",
+              "person": "Emma Stone",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Supporting Actor",
+          "entries": [
+            {
+              "title": "One Battle After Another",
+              "person": "Sean Penn",
+              "winner": true
+            },
+            {
+              "title": "One Battle After Another",
+              "person": "Benicio Del Toro",
+              "winner": false
+            },
+            {
+              "title": "Frankenstein",
+              "person": "Jacob Elordi",
+              "winner": false
+            },
+            {
+              "title": "Hamnet",
+              "person": "Paul Mescal",
+              "winner": false
+            },
+            {
+              "title": "I Swear",
+              "person": "Peter Mullan",
+              "winner": false
+            },
+            {
+              "title": "Sentimental Value",
+              "person": "Stellan Skarsgård",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Supporting Actress",
+          "entries": [
+            {
+              "title": "Sinners",
+              "person": "Wunmi Mosaku",
+              "winner": true
+            },
+            {
+              "title": "Marty Supreme",
+              "person": "Odessa A’zion",
+              "winner": false
+            },
+            {
+              "title": "Sentimental Value",
+              "person": "Inga Ibsdotter Lilleaas",
+              "winner": false
+            },
+            {
+              "title": "The Ballad of Wallis Island",
+              "person": "Carey Mulligan",
+              "winner": false
+            },
+            {
+              "title": "One Battle After Another",
+              "person": "Teyana Taylor",
+              "winner": false
+            },
+            {
+              "title": "Hamnet",
+              "person": "Emily Watson",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Original Screenplay",
+          "entries": [
+            {
+              "title": "Sinners",
+              "person": "",
+              "winner": true
+            },
+            {
+              "title": "I Swear",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Marty Supreme",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "The Secret Agent",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Sentimental Value",
+              "person": "",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Adapted Screenplay",
+          "entries": [
+            {
+              "title": "One Battle After Another",
+              "person": "",
+              "winner": true
+            },
+            {
+              "title": "The Ballad of Wallis Island",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Bugonia",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Hamnet",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Pillion",
+              "person": "",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Film Not in the English Language",
+          "entries": [
+            {
+              "title": "Sentimental Value",
+              "person": "",
+              "winner": true
+            },
+            {
+              "title": "It Was Just an Accident",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "The Secret Agent",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Sirāt",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "The Voice of Hind Rajab",
+              "person": "",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Documentary",
+          "entries": [
+            {
+              "title": "Mr. Nobody Against Putin",
+              "person": "",
+              "winner": true
+            },
+            {
+              "title": "2000 Meters To Andriivka",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Apocalypse In The Tropics",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Cover-Up",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "The Perfect Neighbor",
+              "person": "",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Animated Film",
+          "entries": [
+            {
+              "title": "Zootropolis 2",
+              "person": "",
+              "winner": true
+            },
+            {
+              "title": "Elio",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Little Amélie",
+              "person": "",
+              "winner": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "Golden Globes",
+      "year": 2026,
+      "section": "Major Film Categories",
+      "dates": "11 January 2026",
+      "source": "https://goldenglobes.com/nominations/2026",
+      "categories": [
+        {
+          "name": "Best Motion Picture - Drama",
+          "entries": [
+            {
+              "title": "Hamnet",
+              "person": "",
+              "winner": true
+            },
+            {
+              "title": "Frankenstein",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "It Was Just an Accident",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Sentimental Value",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Sinners",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "The Secret Agent",
+              "person": "",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Best Motion Picture - Musical or Comedy",
+          "entries": [
+            {
+              "title": "One Battle After Another",
+              "person": "",
+              "winner": true
+            },
+            {
+              "title": "Blue Moon",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Bugonia",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Marty Supreme",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "No Other Choice",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Nouvelle Vague",
+              "person": "",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Best Motion Picture - Animated",
+          "entries": [
+            {
+              "title": "KPop Demon Hunters",
+              "person": "",
+              "winner": true
+            },
+            {
+              "title": "Arco",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Demon Slayer: Kimetsu no Yaiba – Infinity Castle",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Elio",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Little Amélie or the Character of Rain",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Zootopia 2",
+              "person": "",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Best Motion Picture – Non-English Language",
+          "entries": [
+            {
+              "title": "The Secret Agent",
+              "person": "",
+              "winner": true
+            },
+            {
+              "title": "It Was Just an Accident",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "No Other Choice",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Sentimental Value",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Sirāt",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "The Voice of Hind Rajab",
+              "person": "",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Best Performance by a Female Actor in a Motion Picture – Drama",
+          "entries": [
+            {
+              "title": "Hamnet",
+              "person": "Jessie Buckley",
+              "winner": true
+            },
+            {
+              "title": "Sorry, Baby",
+              "person": "Eva Victor",
+              "winner": false
+            },
+            {
+              "title": "Die My Love",
+              "person": "Jennifer Lawrence",
+              "winner": false
+            },
+            {
+              "title": "After the Hunt",
+              "person": "Julia Roberts",
+              "winner": false
+            },
+            {
+              "title": "Sentimental Value",
+              "person": "Renate Reinsve",
+              "winner": false
+            },
+            {
+              "title": "Hedda (2025)",
+              "person": "Tessa Thompson",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Best Performance by a Male Actor in a Motion Picture – Drama",
+          "entries": [
+            {
+              "title": "The Secret Agent",
+              "person": "Wagner Moura",
+              "winner": true
+            },
+            {
+              "title": "The Smashing Machine",
+              "person": "Dwayne Johnson",
+              "winner": false
+            },
+            {
+              "title": "Springsteen: Deliver Me from Nowhere",
+              "person": "Jeremy Allen White",
+              "winner": false
+            },
+            {
+              "title": "Train Dreams",
+              "person": "Joel Edgerton",
+              "winner": false
+            },
+            {
+              "title": "Sinners",
+              "person": "Michael B. Jordan",
+              "winner": false
+            },
+            {
+              "title": "Frankenstein",
+              "person": "Oscar Isaac",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Best Performance by a Female Actor in a Motion Picture – Musical or Comedy",
+          "entries": [
+            {
+              "title": "If I Had Legs I'd Kick You",
+              "person": "Rose Byrne",
+              "winner": true
+            },
+            {
+              "title": "The Testament of Ann Lee",
+              "person": "Amanda Seyfried",
+              "winner": false
+            },
+            {
+              "title": "One Battle After Another",
+              "person": "Chase Infiniti",
+              "winner": false
+            },
+            {
+              "title": "Wicked: For Good",
+              "person": "Cynthia Erivo",
+              "winner": false
+            },
+            {
+              "title": "Bugonia",
+              "person": "Emma Stone",
+              "winner": false
+            },
+            {
+              "title": "Song Sung Blue",
+              "person": "Kate Hudson",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Best Performance by a Male Actor in a Motion Picture – Musical or Comedy",
+          "entries": [
+            {
+              "title": "Marty Supreme",
+              "person": "Timothée Chalamet",
+              "winner": true
+            },
+            {
+              "title": "Blue Moon",
+              "person": "Ethan Hawke",
+              "winner": false
+            },
+            {
+              "title": "Jay Kelly",
+              "person": "George Clooney",
+              "winner": false
+            },
+            {
+              "title": "Bugonia",
+              "person": "Jesse Plemons",
+              "winner": false
+            },
+            {
+              "title": "No Other Choice",
+              "person": "Lee Byung-Hun",
+              "winner": false
+            },
+            {
+              "title": "One Battle After Another",
+              "person": "Leonardo DiCaprio",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Best Performance by a Female Actor in a Supporting Role in any Motion Picture",
+          "entries": [
+            {
+              "title": "One Battle After Another",
+              "person": "Teyana Taylor",
+              "winner": true
+            },
+            {
+              "title": "Weapons",
+              "person": "Amy Madigan",
+              "winner": false
+            },
+            {
+              "title": "Wicked: For Good",
+              "person": "Ariana Grande",
+              "winner": false
+            },
+            {
+              "title": "Sentimental Value",
+              "person": "Elle Fanning",
+              "winner": false
+            },
+            {
+              "title": "The Smashing Machine",
+              "person": "Emily Blunt",
+              "winner": false
+            },
+            {
+              "title": "Sentimental Value",
+              "person": "Inga Ibsdotter Lilleaas",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Best Performance by a Male Actor in a Supporting Role in any Motion Picture",
+          "entries": [
+            {
+              "title": "Sentimental Value",
+              "person": "Stellan Skarsgård",
+              "winner": true
+            },
+            {
+              "title": "Jay Kelly",
+              "person": "Adam Sandler",
+              "winner": false
+            },
+            {
+              "title": "One Battle After Another",
+              "person": "Benicio del Toro",
+              "winner": false
+            },
+            {
+              "title": "Frankenstein",
+              "person": "Jacob Elordi",
+              "winner": false
+            },
+            {
+              "title": "Hamnet",
+              "person": "Paul Mescal",
+              "winner": false
+            },
+            {
+              "title": "One Battle After Another",
+              "person": "Sean Penn",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Best Director - Motion Picture",
+          "entries": [
+            {
+              "title": "One Battle After Another",
+              "person": "Paul Thomas Anderson",
+              "winner": true
+            },
+            {
+              "title": "Hamnet",
+              "person": "Chloé Zhao",
+              "winner": false
+            },
+            {
+              "title": "Frankenstein",
+              "person": "Guillermo del Toro",
+              "winner": false
+            },
+            {
+              "title": "It Was Just an Accident",
+              "person": "Jafar Panahi",
+              "winner": false
+            },
+            {
+              "title": "Sentimental Value",
+              "person": "Joachim Trier",
+              "winner": false
+            },
+            {
+              "title": "Sinners",
+              "person": "Ryan Coogler",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Best Screenplay - Motion Picture",
+          "entries": [
+            {
+              "title": "One Battle After Another",
+              "person": "Paul Thomas Anderson",
+              "winner": true
+            },
+            {
+              "title": "Hamnet",
+              "person": "Chloé Zhao, Maggie O’Farrell",
+              "winner": false
+            },
+            {
+              "title": "It Was Just an Accident",
+              "person": "Jafar Panahi",
+              "winner": false
+            },
+            {
+              "title": "Sentimental Value",
+              "person": "Joachim Trier, Eskil Vogt",
+              "winner": false
+            },
+            {
+              "title": "Marty Supreme",
+              "person": "Ronald Bronstein, Josh Safdie",
+              "winner": false
+            },
+            {
+              "title": "Sinners",
+              "person": "Ryan Coogler",
+              "winner": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "Cannes",
+      "year": 2026,
+      "section": "Main Competition",
+      "dates": "12–23 May 2026",
+      "source": "https://www.festival-cannes.com/en/press/press-releases/the-films-of-the-official-selection-2026/",
+      "awardsSource": "https://www.festival-cannes.com/en/press/press-releases/the-79th-festival-de-cannes-winners-list/",
+      "selection": [
+        {
+          "title": "Amarga Navidad",
+          "director": "Pedro ALMODÓVAR",
+          "year": 2026
+        },
+        {
+          "title": "A Woman’S Life",
+          "director": "Charline BOURGEOIS-TACQUET",
+          "year": 2026
+        },
+        {
+          "title": "La Bola Negra",
+          "director": "Javier CALVO & Javier AMBROSSI",
+          "year": 2026
+        },
+        {
+          "title": "Coward",
+          "director": "Lukas DHONT",
+          "year": 2026
+        },
+        {
+          "title": "Parallel Tales",
+          "director": "Asghar FARHADI",
+          "year": 2026
+        },
+        {
+          "title": "Paper Tiger",
+          "director": "James GRAY",
+          "year": 2026
+        },
+        {
+          "title": "Das Geträumte Abenteuer",
+          "director": "Valeska GRISEBACH",
+          "year": 2026
+        },
+        {
+          "title": "All of a Sudden",
+          "director": "Ryusuke Hamaguchi",
+          "year": 2026,
+          "aliases": [
+            "Soudain"
+          ]
+        },
+        {
+          "title": "The Unknown",
+          "director": "Arthur HARARI",
+          "year": 2026,
+          "aliases": [
+            "L'Inconnue",
+            "The Unknown Woman"
+          ]
+        },
+        {
+          "title": "Another Day",
+          "director": "Jeanne HERRY",
+          "year": 2026
+        },
+        {
+          "title": "Sheep in the Box",
+          "director": "Hirokazu Koreeda",
+          "year": 2026,
+          "aliases": []
+        },
+        {
+          "title": "Hope",
+          "director": "Na Hong-jin",
+          "year": 2026,
+          "aliases": []
+        },
+        {
+          "title": "Nagi Notes",
+          "director": "Koji Fukada",
+          "year": 2026,
+          "aliases": []
+        },
+        {
+          "title": "Gentle Monster",
+          "director": "Marie KREUTZER",
+          "year": 2026
+        },
+        {
+          "title": "A Man of His Time",
+          "director": "Emmanuel Marre",
+          "year": 2026,
+          "aliases": [
+            "Notre salut"
+          ]
+        },
+        {
+          "title": "Fjord",
+          "director": "Cristian MUNGIU",
+          "year": 2026
+        },
+        {
+          "title": "The Birthday Party",
+          "director": "Léa Mysius",
+          "year": 2026,
+          "aliases": [
+            "Histoires de la nuit"
+          ]
+        },
+        {
+          "title": "Moulin",
+          "director": "László NEMES",
+          "year": 2026
+        },
+        {
+          "title": "Fatherland",
+          "director": "Paweł Pawlikowski",
+          "year": 2026,
+          "aliases": []
+        },
+        {
+          "title": "The Man I Love",
+          "director": "Ira SACHS",
+          "year": 2026
+        },
+        {
+          "title": "El Ser Querido",
+          "director": "Rodrigo SOROGOYEN",
+          "year": 2026
+        },
+        {
+          "title": "Minotaur",
+          "director": "Andrey Zvyagintsev",
+          "year": 2026,
+          "aliases": [
+            "Минотавр"
+          ]
+        }
+      ],
+      "categories": [
+        {
+          "name": "Palme d’Or",
+          "nomination_kind": "competition",
+          "entries": [
+            {
+              "title": "Fjord",
+              "person": "",
+              "winner": true
+            },
+            {
+              "title": "Amarga Navidad",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "A Woman’S Life",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "La Bola Negra",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Coward",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Parallel Tales",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Paper Tiger",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Das Geträumte Abenteuer",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "All of a Sudden",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "The Unknown",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Another Day",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Sheep in the Box",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Hope",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Nagi Notes",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Gentle Monster",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "A Man of His Time",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "The Birthday Party",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Moulin",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Fatherland",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "The Man I Love",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "El Ser Querido",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Minotaur",
+              "person": "",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Grand Prix",
+          "nomination_kind": "winners_only",
+          "entries": [
+            {
+              "title": "Minotaur",
+              "person": "",
+              "winner": true
+            }
+          ]
+        },
+        {
+          "name": "Best Director",
+          "nomination_kind": "winners_only",
+          "entries": [
+            {
+              "title": "La Bola Negra",
+              "person": "Javier Calvo & Javier Ambrossi",
+              "winner": true
+            },
+            {
+              "title": "Fatherland",
+              "person": "Paweł Pawlikowski",
+              "winner": true
+            }
+          ]
+        },
+        {
+          "name": "Jury Prize",
+          "nomination_kind": "winners_only",
+          "entries": [
+            {
+              "title": "Das Geträumte Abenteuer",
+              "person": "",
+              "winner": true
+            }
+          ]
+        },
+        {
+          "name": "Best Screenplay",
+          "nomination_kind": "winners_only",
+          "entries": [
+            {
+              "title": "A Man of His Time",
+              "person": "Emmanuel Marre",
+              "winner": true
+            }
+          ]
+        },
+        {
+          "name": "Best Actress",
+          "nomination_kind": "winners_only",
+          "entries": [
+            {
+              "title": "All of a Sudden",
+              "person": "Virginie Efira",
+              "winner": true
+            },
+            {
+              "title": "All of a Sudden",
+              "person": "Tao Okamoto",
+              "winner": true
+            }
+          ]
+        },
+        {
+          "name": "Best Actor",
+          "nomination_kind": "winners_only",
+          "entries": [
+            {
+              "title": "Coward",
+              "person": "Emmanuel Macchia",
+              "winner": true
+            },
+            {
+              "title": "Coward",
+              "person": "Valentin Campagne",
+              "winner": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "Venice",
+      "year": 2026,
+      "section": "Venezia 83 Competition",
+      "dates": "2–12 September 2026",
+      "source": "https://www.labiennale.org/en/cinema/2026/venezia-83-competition",
+      "awardsSource": "https://www.labiennale.org/en/news/official-awards-83rd-venice-international-film-festival",
+      "selection": [
+        {
+          "title": "NAZA",
+          "director": "Yuval Abraham, Rachel Szor",
+          "year": 2026
+        },
+        {
+          "title": "Company",
+          "director": "Casey Affleck",
+          "year": 2026
+        },
+        {
+          "title": "Kami nour (A bit of light)",
+          "director": "Ali Asgari",
+          "year": 2026,
+          "aliases": [
+            "Kami nour",
+            "A bit of light"
+          ]
+        },
+        {
+          "title": "Ritorno a Buenos Aires",
+          "director": "Marco Bechis",
+          "year": 2026
+        },
+        {
+          "title": "Ink",
+          "director": "Danny Boyle",
+          "year": 2026
+        },
+        {
+          "title": "Un bon petit soldat",
+          "director": "Stéphane Brizé",
+          "year": 2026
+        },
+        {
+          "title": "Il fuoco che ti porti dentro (The Fire Within You)",
+          "director": "Edoardo De Angelis",
+          "year": 2026,
+          "aliases": [
+            "Il fuoco che ti porti dentro",
+            "The Fire Within You"
+          ]
+        },
+        {
+          "title": "Kvinde Ukendt (Woman Unknown)",
+          "director": "May el-Toukhy",
+          "year": 2026,
+          "aliases": [
+            "Kvinde Ukendt",
+            "Woman Unknown"
+          ]
+        },
+        {
+          "title": "Bucking Fastard",
+          "director": "Werner Herzog",
+          "year": 2026
+        },
+        {
+          "title": "15/18 (A Place To Heal)",
+          "director": "Cédric Kahn",
+          "year": 2026,
+          "aliases": [
+            "15/18",
+            "A Place To Heal"
+          ]
+        },
+        {
+          "title": "Dau",
+          "director": "Ilya Khrzhanovsky",
+          "year": 2026
+        },
+        {
+          "title": "Look Back",
+          "director": "Hirokazu Koreeda",
+          "year": 2026
+        },
+        {
+          "title": "Ga-neung-han sa-rang (Possible love)",
+          "director": "Lee Chang-dong",
+          "year": 2026,
+          "aliases": [
+            "Ga-neung-han sa-rang",
+            "Possible love"
+          ]
+        },
+        {
+          "title": "Wild Horse Nine",
+          "director": "Martin McDonagh",
+          "year": 2026
+        },
+        {
+          "title": "Succederà questa notte (It will happen tonight)",
+          "director": "Nanni Moretti",
+          "year": 2026,
+          "aliases": [
+            "Succederà questa notte",
+            "It will happen tonight"
+          ]
+        },
+        {
+          "title": "Primetime",
+          "director": "Lance Oppenheim",
+          "year": 2026,
+          "imdb_id": "tt34206385",
+          "identity_source": "https://www.imdb.com/title/tt34206385/"
+        },
+        {
+          "title": "The Echo Chamber",
+          "director": "Andrea Pallaoro",
+          "year": 2026
+        },
+        {
+          "title": "Un peu avant minuit",
+          "director": "Nicolas Pariser",
+          "year": 2026
+        },
+        {
+          "title": "L’estranea",
+          "director": "Paolo Strippoli",
+          "year": 2026
+        },
+        {
+          "title": "Nelson san, anata wa hito wo koroshimashitaka? (Mr. Nelson, Did You Kill People?)",
+          "director": "Shinya Tsukamoto",
+          "year": 2026,
+          "aliases": [
+            "Nelson san, anata wa hito wo koroshimashitaka?",
+            "Mr. Nelson, Did You Kill People?"
+          ]
+        },
+        {
+          "title": "Bunker",
+          "director": "Florian Zeller",
+          "year": 2026
+        }
+      ],
+      "categories": [
+        {
+          "name": "Golden Lion",
+          "nomination_kind": "competition",
+          "entries": [
+            {
+              "title": "Kvinde Ukendt (Woman Unknown)",
+              "person": "",
+              "winner": true
+            },
+            {
+              "title": "NAZA",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Company",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Kami nour (A bit of light)",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Ritorno a Buenos Aires",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Ink",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Un bon petit soldat",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Il fuoco che ti porti dentro (The Fire Within You)",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Bucking Fastard",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "15/18 (A Place To Heal)",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Dau",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Look Back",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Ga-neung-han sa-rang (Possible love)",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Wild Horse Nine",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Succederà questa notte (It will happen tonight)",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Primetime",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "The Echo Chamber",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Un peu avant minuit",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "L’estranea",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Nelson san, anata wa hito wo koroshimashitaka? (Mr. Nelson, Did You Kill People?)",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Bunker",
+              "person": "",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Grand Jury Prize",
+          "nomination_kind": "winners_only",
+          "entries": [
+            {
+              "title": "Ga-neung-han sa-rang (Possible love)",
+              "person": "",
+              "winner": true
+            }
+          ]
+        },
+        {
+          "name": "Best Director",
+          "nomination_kind": "winners_only",
+          "entries": [
+            {
+              "title": "Dau",
+              "person": "Ilya Khrzhanovsky",
+              "winner": true
+            }
+          ]
+        },
+        {
+          "name": "Best Actress",
+          "nomination_kind": "winners_only",
+          "entries": [
+            {
+              "title": "Kvinde Ukendt (Woman Unknown)",
+              "person": "Mathilde Arcel",
+              "winner": true
+            }
+          ]
+        },
+        {
+          "name": "Best Actor",
+          "nomination_kind": "winners_only",
+          "entries": [
+            {
+              "title": "Wild Horse Nine",
+              "person": "John Malkovich",
+              "winner": true
+            }
+          ]
+        },
+        {
+          "name": "Best Screenplay",
+          "nomination_kind": "winners_only",
+          "entries": [
+            {
+              "title": "Un bon petit soldat",
+              "person": "Stéphane Brizé, Coralie Amédéo, Olivier Gorce",
+              "winner": true
+            }
+          ]
+        },
+        {
+          "name": "Special Jury Prize",
+          "nomination_kind": "winners_only",
+          "entries": [
+            {
+              "title": "NAZA",
+              "person": "",
+              "winner": true
+            }
+          ]
+        },
+        {
+          "name": "Marcello Mastroianni Award",
+          "nomination_kind": "winners_only",
+          "entries": [
+            {
+              "title": "15/18 (A Place To Heal)",
+              "person": "Malou Khebizi",
+              "winner": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "Berlinale",
+      "year": 2026,
+      "section": "Main Competition",
+      "dates": "12–22 February 2026",
+      "source": "https://www.berlinale.de/en/2026/topics/competition-2026.html",
+      "awardsSource": "https://www.berlinale.de/en/festival/awards-and-juries/international-jury.html",
+      "selection": [
+        {
+          "title": "A New Dawn",
+          "director": "Yoshitoshi Shinomiya",
+          "year": 2026
+        },
+        {
+          "title": "At the Sea",
+          "director": "Kornél Mundruczó",
+          "year": 2026
+        },
+        {
+          "title": "In a Whisper",
+          "director": "Leyla Bouzid",
+          "year": 2026
+        },
+        {
+          "title": "Dao",
+          "director": "Alain Gomis",
+          "year": 2026
+        },
+        {
+          "title": "Dust",
+          "director": "Anke Blondé",
+          "year": 2026
+        },
+        {
+          "title": "Home Stories",
+          "director": "Eva Trobisch",
+          "year": 2026
+        },
+        {
+          "title": "Everybody Digs Bill Evans",
+          "director": "Grant Gee",
+          "year": 2026
+        },
+        {
+          "title": "Yellow Letters",
+          "director": "İlker Çatak",
+          "year": 2026
+        },
+        {
+          "title": "Josephine",
+          "director": "Beth de Araújo",
+          "year": 2026
+        },
+        {
+          "title": "Salvation",
+          "director": "Emin Alper",
+          "year": 2026
+        },
+        {
+          "title": "My Wife Cries",
+          "director": "Angela Schanelec",
+          "year": 2026
+        },
+        {
+          "title": "Flies",
+          "director": "Fernando Eimbcke",
+          "year": 2026
+        },
+        {
+          "title": "Nina Roza",
+          "director": "Geneviève Dulude-de Celles",
+          "year": 2026
+        },
+        {
+          "title": "Queen at Sea",
+          "director": "Lance Hammer",
+          "year": 2026
+        },
+        {
+          "title": "Rose",
+          "director": "Markus Schleinzer",
+          "year": 2026
+        },
+        {
+          "title": "Rosebush Pruning",
+          "director": "Karim Aïnouz",
+          "year": 2026
+        },
+        {
+          "title": "Soumsoum, the Night of the Stars",
+          "director": "Mahamat-Saleh Haroun",
+          "year": 2026
+        },
+        {
+          "title": "The Loneliest Man in Town",
+          "director": "Tizza Covi, Rainer Frimmel",
+          "year": 2026
+        },
+        {
+          "title": "Wolfram",
+          "director": "Warwick Thornton",
+          "year": 2026
+        },
+        {
+          "title": "We Are All Strangers",
+          "director": "Anthony Chen",
+          "year": 2026
+        },
+        {
+          "title": "Yo (Love is a Rebellious Bird)",
+          "director": "Anna Fitch, Banker White",
+          "year": 2026,
+          "aliases": [
+            "Yo",
+            "Love is a Rebellious Bird"
+          ]
+        },
+        {
+          "title": "Nightborn",
+          "director": "Hanna Bergholm",
+          "year": 2026
+        }
+      ],
+      "categories": [
+        {
+          "name": "Golden Bear",
+          "nomination_kind": "competition",
+          "entries": [
+            {
+              "title": "Yellow Letters",
+              "person": "",
+              "winner": true
+            },
+            {
+              "title": "A New Dawn",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "At the Sea",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "In a Whisper",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Dao",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Dust",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Home Stories",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Everybody Digs Bill Evans",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Josephine",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Salvation",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "My Wife Cries",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Flies",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Nina Roza",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Queen at Sea",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Rose",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Rosebush Pruning",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Soumsoum, the Night of the Stars",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "The Loneliest Man in Town",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Wolfram",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "We Are All Strangers",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Yo (Love is a Rebellious Bird)",
+              "person": "",
+              "winner": false
+            },
+            {
+              "title": "Nightborn",
+              "person": "",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Grand Jury Prize",
+          "nomination_kind": "winners_only",
+          "entries": [
+            {
+              "title": "Salvation",
+              "person": "",
+              "winner": true
+            }
+          ]
+        },
+        {
+          "name": "Jury Prize",
+          "nomination_kind": "winners_only",
+          "entries": [
+            {
+              "title": "Queen at Sea",
+              "person": "",
+              "winner": true
+            }
+          ]
+        },
+        {
+          "name": "Best Director",
+          "nomination_kind": "winners_only",
+          "entries": [
+            {
+              "title": "Everybody Digs Bill Evans",
+              "person": "Grant Gee",
+              "winner": true
+            }
+          ]
+        },
+        {
+          "name": "Best Leading Performance",
+          "nomination_kind": "winners_only",
+          "entries": [
+            {
+              "title": "Rose",
+              "person": "Sandra Hüller",
+              "winner": true
+            }
+          ]
+        },
+        {
+          "name": "Best Supporting Performance",
+          "nomination_kind": "winners_only",
+          "entries": [
+            {
+              "title": "Queen at Sea",
+              "person": "Anna Calder-Marshall",
+              "winner": true
+            },
+            {
+              "title": "Queen at Sea",
+              "person": "Tom Courtenay",
+              "winner": true
+            }
+          ]
+        },
+        {
+          "name": "Best Screenplay",
+          "nomination_kind": "winners_only",
+          "entries": [
+            {
+              "title": "Nina Roza",
+              "person": "Geneviève Dulude-de Celles",
+              "winner": true
+            }
+          ]
+        },
+        {
+          "name": "Outstanding Artistic Contribution",
+          "nomination_kind": "winners_only",
+          "entries": [
+            {
+              "title": "Yo (Love is a Rebellious Bird)",
+              "person": "Anna Fitch & Banker White",
+              "winner": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": {
+    "Zootropolis 2": "Zootopia 2",
+    "Little Amélie": "Little Amélie or the Character of Rain",
+    "Hedda (2025)": "Hedda"
+  },
+  "extra_films": [
+    {
+      "title": "F1",
+      "director": "Joseph Kosinski",
+      "year": 2025
+    },
+    {
+      "title": "Song Sung Blue",
+      "director": "Craig Brewer",
+      "year": 2025
+    },
+    {
+      "title": "Cutting through Rocks",
+      "director": "Sara Khaki, Mohammadreza Eyni",
+      "year": 2025
+    },
+    {
+      "title": "Bridget Jones: Mad About the Boy",
+      "director": "Michael Morris",
+      "year": 2025
+    },
+    {
+      "title": "H is for Hawk",
+      "director": "Philippa Lowthorpe",
+      "year": 2025
+    },
+    {
+      "title": "Mr. Burton",
+      "director": "Marc Evans",
+      "year": 2025
+    },
+    {
+      "title": "Apocalypse In The Tropics",
+      "director": "Petra Costa",
+      "year": 2025
+    },
+    {
+      "title": "Demon Slayer: Kimetsu no Yaiba – Infinity Castle",
+      "director": "Haruo Sotozaki",
+      "year": 2025
+    },
+    {
+      "title": "Hedda",
+      "director": "Nia DaCosta",
+      "year": 2025
+    },
+    {
+      "title": "Springsteen: Deliver Me from Nowhere",
+      "director": "Scott Cooper",
+      "year": 2025
+    },
+    {
+      "title": "Wicked: For Good",
+      "director": "Jon M. Chu",
+      "year": 2025
+    }
+  ],
+  "baseline_max_id": 2253
+}

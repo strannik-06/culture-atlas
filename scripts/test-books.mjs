@@ -200,7 +200,7 @@ test('Full page boots with film scripts and shared Account menu still works unde
       assert.equal(w.document.getElementById('cinema-area').hidden,false);
       w.document.querySelector('[data-view="catalogue"]').click();
       assert.equal(w.document.getElementById('ratings-view').hidden,false);
-      assert.match(w.document.getElementById('ratings-count').textContent,/2252 films/);
+      assert.equal(w.document.getElementById('ratings-count').textContent,w.CULTURE_CATALOG.length+' films');
       assert.doesNotMatch(w.document.getElementById('ratings-grid').textContent,/NaN/);
       w.document.getElementById('ratings-search').value='Spirits of the Dead';
       w.document.getElementById('ratings-search').dispatchEvent(new w.Event('input'));

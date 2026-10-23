@@ -60,7 +60,7 @@
   const entityKey=r=>r.entity?r.section+'/'+r.entity:null;
   const schema=r=>fields[r.section+'/'+r.view]||{};
   function selectValue(el,value){if(el.tagName==='SELECT'&&![...el.options].some(o=>o.value===value))return;el.value=value;}
-  function setFilters(r){for(const[k,[id,fallback]]of Object.entries(schema(r))){const el=$(id);if(!el)continue;selectValue(el,r.params[k]??fallback??el.options[0]?.value??'');if(k==='year'&&r.view==='awards')app.awardCategories();}}
+  function setFilters(r){for(const[k,[id,fallback]]of Object.entries(schema(r))){const el=$(id);if(!el)continue;if(r.view==='awards'&&['event','year'].includes(k)&&r.params[k]!==undefined&&![...el.options].some(o=>o.value===r.params[k])){const option=document.createElement('option');option.value=r.params[k];option.textContent=r.params[k];el.append(option);}selectValue(el,r.params[k]??fallback??el.options[0]?.value??'');if(k==='year'&&r.view==='awards')app.awardCategories();}}
   function title(r){const name={films:'Films',tv:'TV Series',books:'Books'}[r.section];document.title='Culture Atlas · '+name+' · '+({top100:'Top 100',ratings:'My ratings',catalogue:'Catalogue',search:'Search',awards:'Awards'}[r.view]);}
   function showEntity(r,force=false){
    if(!r.entity)return;
