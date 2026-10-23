@@ -74558,7 +74558,8 @@ window.CULTURE_FILM_DETAILS = {
     "tmdb_votes": 13,
     "imdb": {
       "url": "https://www.imdb.com/title/tt42007282/"
-    }
+    },
+    "runtime": 97
   },
   "2347": {
     "tmdb_id": 1730542,
@@ -74927,7 +74928,10 @@ window.CULTURE_FILM_DETAILS = {
     ],
     "imdb": {
       "url": "https://www.imdb.com/title/tt43704178/"
-    }
+    },
+    "poster": "assets/film-posters/2358.jpg",
+    "poster_kind": "production_still",
+    "poster_source_url": "https://www.labiennale.org/en/cinema/2026/orizzonti/la-moula"
   },
   "2359": {
     "tmdb_id": 1699532,

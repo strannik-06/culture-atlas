@@ -387,6 +387,11 @@
       "tmdb_id": 1632103
     },
     {
+      "title": "Falling House",
+      "id": 2377,
+      "tmdb_id": 1736497
+    },
+    {
       "title": "Too Much Sugar",
       "id": 2351,
       "tmdb_id": 1736499
@@ -395,6 +400,11 @@
       "title": "The Difficult Bride",
       "id": 2352,
       "tmdb_id": 1593299
+    },
+    {
+      "title": "House of the Wind",
+      "id": 2378,
+      "tmdb_id": 1404592
     },
     {
       "title": "I Figli della Scimmia",
@@ -445,6 +455,11 @@
       "title": "Eklipse",
       "id": 2362,
       "tmdb_id": 1724831
+    },
+    {
+      "title": "Big Little Things",
+      "id": 2379,
+      "tmdb_id": 1562901
     },
     {
       "title": "A New Dawn",
@@ -627,45 +642,7 @@
       "tmdb_id": 1601885
     }
   ],
-  "added": [
-    {
-      "title": "Falling House",
-      "id": 2377,
-      "director": "Mohsen Gharaie",
-      "year": 2026,
-      "tmdb_id": 1736497,
-      "imdb_id": "tt43704167",
-      "original_title": "مراقب",
-      "original_language": "fa",
-      "alternate_titles": [
-        "Moragheb"
-      ]
-    },
-    {
-      "title": "House of the Wind",
-      "id": 2378,
-      "director": "Auguste Kouemo Yanghu",
-      "year": 2026,
-      "tmdb_id": 1404592,
-      "imdb_id": "tt20244858",
-      "original_title": "La Maison du vent",
-      "original_language": "fr",
-      "alternate_titles": []
-    },
-    {
-      "title": "Big Little Things",
-      "id": 2379,
-      "director": "Michelle Tong Zhou",
-      "year": 2026,
-      "tmdb_id": 1562901,
-      "imdb_id": "tt37301443",
-      "original_title": "謊言生活",
-      "original_language": "cn",
-      "alternate_titles": [
-        "Huangyan shenghuo"
-      ]
-    }
-  ],
+  "added": [],
   "unresolved": [],
   "new_canonical_ids": [
     {
