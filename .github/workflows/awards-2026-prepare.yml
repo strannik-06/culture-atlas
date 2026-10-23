@@ -2,7 +2,7 @@ name: Prepare verified 2026 awards catalogue
 on:
   push:
     branches: [feat/festival-programme-sections]
-    paths: [scripts/prepare-awards-2026.mjs, imports/awards-2026-source.json, imports/awards-2026-identity-overrides.json, .github/workflows/awards-2026-prepare.yml]
+    paths: [scripts/prepare-awards-2026.mjs, imports/awards-2026-source.json, imports/awards-2026-identity-overrides.json, imports/film-metadata-overrides.json, .github/workflows/awards-2026-prepare.yml]
   workflow_dispatch:
 permissions:
   contents: write

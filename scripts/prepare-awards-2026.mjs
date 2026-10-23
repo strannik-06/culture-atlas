@@ -1,7 +1,7 @@
 // Build reviewed 2026 award memberships; match new films by director + title, never title alone.
 import fs from 'node:fs';
 import vm from 'node:vm';
-import {mergeMetadata} from './complete-film-metadata.mjs';
+import {mergeMetadata,present} from './complete-film-metadata.mjs';
 const read=(file,key)=>{const c={window:{}};vm.runInNewContext(fs.readFileSync(file,'utf8'),c);return JSON.parse(JSON.stringify(c.window[key]));};
 const write=(file,key,data)=>fs.writeFileSync(file,'window.'+key+' = '+JSON.stringify(data,null,2)+';\n');
 const raw=JSON.parse(fs.readFileSync('imports/awards-2026-source.json','utf8'));
@@ -44,7 +44,7 @@ for(const e of raw.events){try{
  const slug=name=>name.normalize('NFKD').replace(/\p{M}/gu,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
  const categories=e.programmes?e.programmes.map(section=>{
   const entries=section.selection.map(film=>{const film_id=lookup(film.title);const prizes=section.prizes.flatMap(prize=>{const winners=prize.entries.filter(row=>row.winner&&lookup(row.title)===film_id);if(!winners.length)return [];const people=[...new Set(winners.map(row=>row.person).filter(Boolean))];return [prize.name+(people.length?' · '+people.join(', '):'')];});return {film_id,winner:prizes.length>0,prizes,prize_rank:section.prizes.findIndex(prize=>prize.entries.some(row=>row.winner&&lookup(row.title)===film_id))};});
-  const winners=entries.filter(row=>row.winner).map(row=>row.film_id);
+  const winners=entries.filter(row=>row.winner).sort((a,b)=>a.prize_rank-b.prize_rank).map(row=>row.film_id);
   return {id:slug(section.name),name:section.name,nomination_kind:'competition',source:section.source,awardsSource:section.awardsSource,nominees:entries.map(row=>row.film_id),winner:winners[0]??null,winners,entries};
  }):e.categories.map((c,i)=>{
   const entries=c.entries.map(row=>({film_id:lookup(row.title),...(row.person?{person:row.person}:{}),winner:row.winner}));
@@ -54,6 +54,9 @@ for(const e of raw.events){try{
  const ids=[...new Set(categories.flatMap(c=>c.nominees))];
  output.push({event:e.event,year:2026,section:e.section,dates:e.dates,source:e.source,awardsSource:e.awardsSource||e.source,resultsUrl:e.awardsSource||e.source,categories,films:ids.map(id=>({id,awards:e.programmes?categories.flatMap(c=>c.entries.find(row=>row.film_id===id)?.prizes||[]):categories.filter(c=>c.winners.includes(id)).map(c=>c.name)}))});
 }catch(error){audit.unresolved.push({event:e.event,reason:error.message});}}
+// Identity-checked official supplements fill provider gaps without replacing metadata.
+const supplements=JSON.parse(fs.readFileSync('imports/film-metadata-overrides.json','utf8')).entries;
+for(const entry of supplements){const film=films.find(f=>f.id===entry.id);if(!film||film.tmdb_id!==entry.tmdb_id)throw Error('Supplement identity mismatch '+entry.id);for(const [field,value]of Object.entries(entry.fields))if(!present(details[film.id]?.[field])){details[film.id]||={};details[film.id][field]=value;}}
 write('film-catalog.js','CULTURE_CATALOG',films);write('film-details.js','CULTURE_FILM_DETAILS',details);write('awards-2026.js','CULTURE_AWARDS_2026',output);
 fs.writeFileSync('imports/awards-2026-audit.json',JSON.stringify({...audit,new_canonical_ids:films.filter(f=>f.id>raw.baseline_max_id).map(f=>({id:f.id,title:f.title,tmdb_id:f.tmdb_id})),programme_new_ids:films.filter(f=>f.id>(raw.programme_baseline_max_id??Infinity)).map(f=>({id:f.id,title:f.title,tmdb_id:f.tmdb_id})),event_counts:output.map(e=>({event:e.event,films:e.films.length,categories:e.categories.length}))},null,2)+'\n');
 console.log(JSON.stringify({matched:audit.matched.length,added:audit.added.length,unresolved:audit.unresolved.length,events:output.length}));

@@ -1,7 +1,7 @@
 {
   "format": "culture-atlas-metadata-completion-v1",
   "generated_at": "2026-10-20T15:58:07.766Z",
-  "total": 2326,
+  "total": 2378,
   "before": {
     "poster": 2250,
     "overview": 2247,
@@ -406,16 +406,38 @@
         "https://www.kinopoisk.ru/film/257393/"
       ],
       "note": "Part 2; retains its own existing cover and runtime."
+    },
+    {
+      "id": 2346,
+      "fields": [
+        "runtime"
+      ],
+      "source_urls": [
+        "https://www.festival-cannes.com/en/f/ulysse-2/"
+      ],
+      "note": "Official Cannes 2026 programme gives 97 minutes; provider runtime is missing."
+    },
+    {
+      "id": 2358,
+      "fields": [
+        "poster",
+        "poster_kind",
+        "poster_source_url"
+      ],
+      "source_urls": [
+        "https://www.labiennale.org/en/cinema/2026/orizzonti/la-moula"
+      ],
+      "note": "Official Venice production still used as cover while provider poster is unavailable."
     }
   ],
   "after": {
-    "poster": 2326,
-    "overview": 2326,
-    "runtime": 2313,
-    "release_date": 2326,
-    "genres": 2326,
-    "countries": 2324,
-    "cast": 2299
+    "poster": 2378,
+    "overview": 2378,
+    "runtime": 2365,
+    "release_date": 2378,
+    "genres": 2378,
+    "countries": 2376,
+    "cast": 2351
   },
   "initial_before": {
     "poster": 243,
@@ -2518,6 +2540,65 @@
         2327
       ],
       "source_audit": "imports/awards-2026-audit.json"
+    },
+    {
+      "date": "2026-10-23",
+      "source": "imports/awards-2026-audit.json",
+      "reason": "Full Un Certain Regard, Orizzonti and Perspectives programmes",
+      "added": [
+        2328,
+        2329,
+        2330,
+        2331,
+        2332,
+        2333,
+        2334,
+        2335,
+        2336,
+        2337,
+        2338,
+        2339,
+        2340,
+        2341,
+        2342,
+        2343,
+        2344,
+        2345,
+        2346,
+        2347,
+        2348,
+        2349,
+        2350,
+        2351,
+        2352,
+        2353,
+        2354,
+        2355,
+        2356,
+        2357,
+        2358,
+        2359,
+        2360,
+        2361,
+        2362,
+        2363,
+        2364,
+        2365,
+        2366,
+        2367,
+        2368,
+        2369,
+        2370,
+        2371,
+        2372,
+        2373,
+        2374,
+        2375,
+        2376,
+        2377,
+        2378,
+        2379
+      ]
     }
   ]
 }
