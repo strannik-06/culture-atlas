@@ -73956,5 +73956,1531 @@ window.CULTURE_FILM_DETAILS = {
     "imdb": {
       "url": "https://www.imdb.com/title/tt34206385/"
     }
+  },
+  "2328": {
+    "tmdb_id": 1240889,
+    "title": "Teenage Sex and Death at Camp Miasma",
+    "original_title": "Teenage Sex and Death at Camp Miasma",
+    "overview": "An ambitious director sets out to revive a faded slasher franchise, but her meeting with the film’s reclusive original star spirals into a terrifying maze of obsession, fear, and blood-soaked delusion.",
+    "runtime": 112,
+    "release_date": "2026-08-06",
+    "genres": [
+      "Comedy",
+      "Horror",
+      "Romance"
+    ],
+    "countries": [
+      "GB",
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Jane Schoenbrun",
+    "cast": [
+      "Hannah Einbinder",
+      "Gillian Anderson",
+      "Amanda Fix",
+      "Arthur Conti",
+      "Eva Victor"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/jcGvB76v8p1sqYXXkBetWASV0uM.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/d1n2ySWSanU34eEsluRjfrjRq52.jpg",
+    "tmdb_rating": 6.171,
+    "tmdb_votes": 333,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt35298123/"
+    }
+  },
+  "2329": {
+    "tmdb_id": 1661926,
+    "title": "Elephants in the Fog",
+    "original_title": "तिनीहरू",
+    "overview": "In a small Nepalese village nestled in the heart of a forest populated by wild elephants, Pirati is the matriarch of a Kinnar community. She dreams of escaping to a “normal” life with the man she is in love with. But when one of her daughters disappears, she must investigate and choose between love and responsibility to her community.",
+    "runtime": 108,
+    "release_date": "2026-09-04",
+    "genres": [
+      "Thriller"
+    ],
+    "countries": [
+      "NP",
+      "DE",
+      "BR",
+      "FR",
+      "NO"
+    ],
+    "original_language": "ne",
+    "director": "Abinash Bikram Shah",
+    "cast": [
+      "Pushpa Thing Lama",
+      "Deepika Yadav",
+      "Jasmin Bishwokarma",
+      "Aliz Ghimire",
+      "Joel Gurung"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/jQZZsxtMzOOSjGvGMfrwDUZZyXs.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/hvVIS83R92hstmUzqA3WVofyUQ1.jpg",
+    "tmdb_rating": 6.8,
+    "tmdb_votes": 9,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt29279937/"
+    }
+  },
+  "2330": {
+    "tmdb_id": 947493,
+    "title": "Iron Boy",
+    "original_title": "Le corset",
+    "overview": "In rural France, 10-year-old Christophe tries to live up to his rigid and distant father on the family farm. But the young boy starts to lean over and collapse without warning — on the tractor, at school, at dinner... A doctor finds the solution: Christophe must wear an iron corset to keep himself upright. Forced to reinvent his life away from the farm, Christophe discovers a new passion for music, meets a new friend, and follows her into his first mischief. But will any of this really fix what is out of balance?",
+    "runtime": 90,
+    "release_date": "2026-10-14",
+    "genres": [
+      "Animation",
+      "Drama",
+      "Family"
+    ],
+    "countries": [
+      "FR",
+      "BE"
+    ],
+    "original_language": "fr",
+    "director": "Louis Clichy",
+    "cast": [
+      "Gary Clichy",
+      "Rod Paradot",
+      "Dimitri Colas",
+      "Aurélie Vassort",
+      "Brune Moulin"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/aXNm7mgW22mxCSwSV7i7GHjy6Ga.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/3e0Lzs4vDSHjRULFw6vPI4jyHd6.jpg",
+    "tmdb_rating": 8.152,
+    "tmdb_votes": 23,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt36639956/"
+    }
+  },
+  "2331": {
+    "tmdb_id": 1405200,
+    "title": "Ben'Imana",
+    "original_title": "Ben'Imana",
+    "overview": "Rwanda, 2012. The country is emerging from an era of silence after the 1994 Tutsi genocide, and people's courts are being set up with the aim of bringing justice and reconciliation. Veneranda, a survivor, is convinced of the need for these trials. Despite pressures, she organises discussion sessions between victims and the families of the executioners. Therapy for some, an act of betrayal for others, these testimonial sessions revive and reveal the traumas that each of them try to overcome, in their own way. The wounds of Veneranda's past are exposed again when she learns of her daughter's unexpected pregnancy and the identity of the father. Veneranda has to face her own contradictions and the dark parts of her past.",
+    "runtime": 101,
+    "release_date": "2027-02-03",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "GA",
+      "NO",
+      "RW",
+      "FR"
+    ],
+    "original_language": "fr",
+    "director": "Marie-Clémentine Dusabejambo",
+    "cast": [
+      "Clémentine U. Nyirinkindi",
+      "Kesia Kelly Nishimwe",
+      "Arivere Kagoyire",
+      "Isabelle Kabano",
+      "Antoinette Uwamahoro"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/bAdS6WNpU3w1k4fDuV7aV2KLCdV.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/nubSpIsDuoVPactRAdxfKafBaer.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt38820979/"
+    }
+  },
+  "2332": {
+    "tmdb_id": 1666683,
+    "title": "Congo Boy",
+    "original_title": "Congo Boy",
+    "overview": "Bangui, Central African Republic. 17 year-old Robert dreams of a career in music, but civil war is tearing the country apart. When both his parents are thrown into prison, he is left to look after his four younger siblings on his own, juggling daily life, odd jobs, school exams and concert stages, determined to follow his dream.",
+    "runtime": 91,
+    "release_date": "2026-11-25",
+    "genres": [
+      "Drama",
+      "Music"
+    ],
+    "countries": [
+      "CF",
+      "CD",
+      "FR",
+      "IT"
+    ],
+    "original_language": "sg",
+    "director": "Rafiki Fariala",
+    "cast": [
+      "Bradley Fiomona Dembeasset",
+      "Christy Djomanda Louba",
+      "Pétruche Mbomba",
+      "Rosiana Kotozia",
+      "Gloria Ambacko"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/s4Sek2gAudKh9AO9f8q1zQDX2uj.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/mCF79jj7s5KZAyqxvNGJxEnF32P.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt41592086/"
+    }
+  },
+  "2333": {
+    "tmdb_id": 1585239,
+    "title": "Club Kid",
+    "original_title": "Club Kid",
+    "overview": "A hard-partying New York City club promoter sees his whirlwind lifestyle upended by the arrival of the 10-year-old son he never knew he had.",
+    "runtime": 126,
+    "release_date": "2026-11-04",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "countries": [
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Jordan Firstman",
+    "cast": [
+      "Jordan Firstman",
+      "Reggie Absolom",
+      "Cara Delevingne",
+      "Diego Calva",
+      "Kirby Howell-Baptiste"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/3CdM37GtEDMAp7fGlRn9MCpFjn1.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/AjrgF2JZb8WAeIFTvUjJK6VA2CG.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt38058097/"
+    }
+  },
+  "2334": {
+    "tmdb_id": 1514891,
+    "title": "A Girl’s Story",
+    "original_title": "Mémoire de fille",
+    "overview": "During a book signing in Normandy, Annie Ernaux, 70, revisits her memories of the summer of 1958, when she was 17. That summer, she left her hometown to work as a camp counsellor. At the first party, the head counsellor set out to deflower her. Finding him handsome, she lets him do it, as if against her will... Her body becomes a foreign place for her, an offering to be sacrificed.",
+    "runtime": 117,
+    "release_date": "2026-09-30",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "FR",
+      "BE"
+    ],
+    "original_language": "fr",
+    "director": "Judith Godrèche",
+    "cast": [
+      "Tess Barthélémy",
+      "Valérie Dréville",
+      "Victor Bonnel",
+      "Ariane Labed",
+      "Maïwène Barthélémy"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/eRpP2kcfhvjZPR8dnaUKQE563Dm.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/50w3VUxBQge2pUp8COyuGqg6Gqc.jpg",
+    "tmdb_rating": 8.556,
+    "tmdb_votes": 9,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt39088978/"
+    }
+  },
+  "2335": {
+    "tmdb_id": 1490241,
+    "title": "Ulya",
+    "original_title": "Uļa",
+    "overview": "A giant girl lives in a wild rural environment. When the modern world enters this isolated Russian Old Believer milieu, the girl is taken away and dragged into the world of professional sports. The aim does not differ much from that of a circus in the Middle Ages – to entertain audiences and exploit the limits of people’s mental and physical abilities. But the girl proves to have unbelievable willpower and athletic talent. She is able to adapt and triumph in this new world. This is the story of the famous basketball player Ulyana Semyonova.",
+    "runtime": 102,
+    "release_date": "2026-09-15",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "LV",
+      "EE",
+      "PL",
+      "LT"
+    ],
+    "original_language": "lv",
+    "director": "Viesturs Kairišs",
+    "cast": [
+      "Karlis Arnolds Avots",
+      "Chulpan Khamatova",
+      "Aleksas Kazanavičius",
+      "Shamil Khamatov",
+      "Artūrs Krūzkops"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/denvPIlNmETvBjmXofNDVU6l9C1.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/4AUbTl7sHzYEAZAVlaiB21luaQo.jpg",
+    "tmdb_rating": 6,
+    "tmdb_votes": 1,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt26751523/"
+    }
+  },
+  "2336": {
+    "tmdb_id": 1000843,
+    "title": "Titanic Ocean",
+    "original_title": "Titanic Ocean",
+    "overview": "Kyoko, a young Japanese girl training to become a professional mermaid, is saved by her coach's mouth-to-mouth \"kiss of life\". Desire awakens within her, she finds her mermaid voice and discovers the devastating effects of her singing, which will lead her to face the other side of the world.",
+    "runtime": 130,
+    "release_date": "2026-05-20",
+    "genres": [
+      "Science Fiction",
+      "Fantasy",
+      "Drama"
+    ],
+    "countries": [
+      "ES",
+      "FR",
+      "GR",
+      "JP",
+      "RO",
+      "DE",
+      "NL"
+    ],
+    "original_language": "ja",
+    "director": "Konstantina Kotzamani",
+    "cast": [
+      "Arisa Sasaki",
+      "Melina Mardini",
+      "Haruna Matsui",
+      "Masahiro Higashide",
+      "Sei Matobu"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/1tv0zJ5fPtvll6VX1dZLtLTP7dJ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/nafaHRX4H386m7GXQYmt9wtDrFR.jpg",
+    "tmdb_rating": 4,
+    "tmdb_votes": 1,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt15437998/"
+    }
+  },
+  "2337": {
+    "tmdb_id": 1404582,
+    "title": "Strawberries",
+    "original_title": "La más dulce",
+    "overview": "Hasna and Meriem leave their native Morocco to work a season picking strawberries in Spain, until abuse and harassment shatter their hopes. Supported by a Spanish lawyer, they must decide whether to speak out against a powerful system.",
+    "runtime": 101,
+    "release_date": "2027-01-28",
+    "genres": [
+      "Drama",
+      "Adventure"
+    ],
+    "countries": [
+      "FR",
+      "ES",
+      "MA",
+      "BE"
+    ],
+    "original_language": "ar",
+    "director": "Laïla Marrakchi",
+    "cast": [
+      "Nisrin Erradi",
+      "Hajar Graigaa",
+      "Hind Braik",
+      "Fatima Attif",
+      "Itsaso Arana"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/nKjDDlCII7M4VoGr1nlAl5UwwVz.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/huyaaVZ46OboFSEr86UEoNc3ImW.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt36629723/"
+    }
+  },
+  "2338": {
+    "tmdb_id": 1210268,
+    "title": "The Meltdown",
+    "original_title": "El deshielo",
+    "overview": "1992, Chile. Nine-year-old Inés' parents are away on business, leaving her in the care of her grandparents, who own a hotel at the foot of a ski resort. Inés befriends Hanna, a teenage European skier who has come to train in Chile. One night, Hanna disappears. The process of her search will unveil a series of hidden situations.",
+    "runtime": 110,
+    "release_date": "2026-08-26",
+    "genres": [
+      "Mystery",
+      "Drama",
+      "Thriller"
+    ],
+    "countries": [
+      "CL",
+      "MX",
+      "ES",
+      "US"
+    ],
+    "original_language": "es",
+    "director": "Manuela Martelli",
+    "cast": [
+      "Maya O’Rourke",
+      "Saskia Rosendahl",
+      "Maia Domagala",
+      "Jakub Gierszał",
+      "Paulina Urrutia"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/76pVKG0ly7tLeKimKZLcEFp41Qd.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/uN5wTRKBbLcmQnzmlmAQRyObuH0.jpg",
+    "tmdb_rating": 6,
+    "tmdb_votes": 8,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt39571626/"
+    }
+  },
+  "2339": {
+    "tmdb_id": 1661932,
+    "title": "Forever Your Maternal Animal",
+    "original_title": "Siempre soy tu animal materno",
+    "overview": "After years studying in Europe, Elsa returns to Costa Rica to reunite with her family. She finds her younger sister living alone in the family home, growing increasingly distant and reclusive, as if slipping into a world of her own. Their parents, meanwhile, are absorbed in their own lives. Her father drifts through a series of affairs, while her mother is immersed in republishing the erotic poems of her youth, neither fully grasping the urgency of the situation. Elsa’s return draws the three women into a confrontation with what still binds them, despite everything.",
+    "runtime": 100,
+    "release_date": "2026-10-07",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "CR",
+      "BE",
+      "FR",
+      "MX"
+    ],
+    "original_language": "es",
+    "director": "Valentina Maurel",
+    "cast": [
+      "Daniela Marín Navarro",
+      "Marina de Tavira",
+      "Mariangel Villegas",
+      "Reinaldo Amien Gutiérrez"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/2z1ce203n8qJzR6PFoi5wNs2Shj.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/jP6InPLvItifr1NCR4x3FG9xdhb.jpg",
+    "tmdb_rating": 6.5,
+    "tmdb_votes": 2,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt41592077/"
+    }
+  },
+  "2340": {
+    "tmdb_id": 1529849,
+    "title": "Yesterday the Eye Didn't Sleep",
+    "original_title": "البارح العين ما نامت",
+    "overview": "In a Bedouin village on the Lebanon–Syria border, a burned truck sets off a hunt for Gamra, blamed for burning her lover’s car. As her cousin searches for her, he accidentally kills a man from a rival clan, sparking a blood feud. His sisters are traded for peace. Will their sacrifice end the violence, or ignite a war across the village?",
+    "runtime": 100,
+    "release_date": "2026-05-20",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "BE",
+      "US",
+      "DE"
+    ],
+    "original_language": "ar",
+    "director": "Rakan Mayasi",
+    "cast": [
+      "Rim Al Mawla",
+      "Jawaher Al Mawla",
+      "Yasser Al Mawla"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/w7SAe4TrBqmpzam3WGNjphNn9mB.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/ka1lViDWbIjEAzojBfvtKY9r6b2.jpg",
+    "tmdb_rating": 5,
+    "tmdb_votes": 3,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt37775830/"
+    }
+  },
+  "2341": {
+    "tmdb_id": 1441105,
+    "title": "I'll Be Gone in June",
+    "original_title": "I'll Be Gone in June",
+    "overview": "In 2001, Franny, a 16-year-old exchange student from Germany, arrives in the sleepy desert town of Las Cruces, New Mexico. Far from home, Franny struggles through awkward school days, stifling heat, and restless nights until she meets Elliott, a boy whose quiet sadness mirrors her own. As America reels from 9/11, something resonates within Franny and an unexpected tenderness begins to bloom.",
+    "runtime": 124,
+    "release_date": "2026-05-17",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "CH",
+      "DE",
+      "US"
+    ],
+    "original_language": "de",
+    "director": "Katharina Rivilis",
+    "cast": [
+      "Naomi Cosma",
+      "David Flores",
+      "Bianca Dumais",
+      "Rebecca Schulz",
+      "Jazmin Olague"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/wJxtcZy9qsRm22L0WYSuMxD0d9s.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/aJrileJAJe7RFodtHYln2lbXh6g.jpg",
+    "tmdb_rating": 6.5,
+    "tmdb_votes": 5,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt23143606/"
+    }
+  },
+  "2342": {
+    "tmdb_id": 1544163,
+    "title": "Words of Love",
+    "original_title": "Quelques mots d'amour",
+    "overview": "For 14 years, Erika has been the anchor of a household that rarely stands still, doing her best to raise teenage Abigail, her whirlwind little brother, Yoni, and a dog with an extreme devotion to cheese. When Abi’s desire to meet her absent father grows into a full-blown obsession and word spreads he’s been seen nearby, Erika fears the fragile balance will collapse for good. Instead, the unpredictable journey that follows brings mother and daughter to see each other anew, steering their lively, lovable family toward a happy new chapter.",
+    "runtime": 95,
+    "release_date": "2026-10-28",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "original_language": "fr",
+    "director": "Rudi Rosenberg",
+    "cast": [
+      "Hafsia Herzi",
+      "Nour Salam",
+      "Ella Bedoucha",
+      "Aïdan Djouadi",
+      "Mateo Danila"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/lUSCFTt9YWRbDG6kkUQBIUZ0IFc.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/prU8Cabt75JCukKiSiXKpOIBXIK.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt39969491/"
+    }
+  },
+  "2343": {
+    "tmdb_id": 1655419,
+    "title": "Everytime",
+    "original_title": "Everytime",
+    "overview": "A tragedy brings a mother, daughter, and teenage boy together. Struggling with blame and forgiveness, the unlikely trio take a trip to Tenerife for a family holiday that never happened. Under the glow of the sun, past and present quietly start to overlap.",
+    "runtime": 123,
+    "release_date": "2026-08-06",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "AT",
+      "DE"
+    ],
+    "original_language": "de",
+    "director": "Sandra Wollner",
+    "cast": [
+      "Birgit Minichmayr",
+      "Tristán López",
+      "Lotte Keiling",
+      "Carla Hüttermann",
+      "Hermann Beyer"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/lbZ7ltgw8xiKfCEXme8GO5HcV9z.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/bRkk5HjNLQMWB3LlZdxySSzxVLi.jpg",
+    "tmdb_rating": 7.5,
+    "tmdb_votes": 10,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt41592057/"
+    }
+  },
+  "2344": {
+    "tmdb_id": 1379486,
+    "title": "Victorian Psycho",
+    "original_title": "Victorian Psycho",
+    "overview": "When eccentric young governess Winifred Notty arrives at a remote Gothic manor, a string of unsettling events leads the household to suspect she isn't who she claims to be—but the truth may be far more dangerous than they imagine.",
+    "runtime": 102,
+    "release_date": "2026-11-11",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "countries": [
+      "US",
+      "GB"
+    ],
+    "original_language": "en",
+    "director": "Zachary Wigon",
+    "cast": [
+      "Maika Monroe",
+      "Thomasin McKenzie",
+      "Ruth Wilson",
+      "Jason Isaacs",
+      "Evie Templeton"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/9LHVZevgdsdbjJdkFr6bk9EwX7q.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/92FSzMpBSkMH59ZCDz9tUjIWKAS.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt34374553/"
+    }
+  },
+  "2345": {
+    "tmdb_id": 1560309,
+    "title": "All the Lovers in the Night",
+    "original_title": "すべて真夜中の恋人たち",
+    "overview": "Freelance proofreader Fuyuko's carefully ordered life in solitude begins to transform after meeting Mitsutsuka, a quiet high school physics teacher.",
+    "runtime": 139,
+    "release_date": "2026-11-13",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "original_language": "ja",
+    "director": "Yukiko Sode",
+    "cast": [
+      "Yukino Kishii",
+      "Tadanobu Asano",
+      "Misato Morita",
+      "Mai Fukagawa",
+      "Akihisa Shiono"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/87o8UVoGVzP9wsb2k9FJwz30Wbb.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/n3eUPF4FObiZlafmTDZRTEgQnnU.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt41592995/"
+    }
+  },
+  "2346": {
+    "tmdb_id": 1383287,
+    "title": "Ulysse",
+    "original_title": "Ulysse",
+    "overview": "Alice, a sociology researcher, and Volodymyr, a pianist, are going to have a child! They will call him Ulysses. Except that Ulysses, at one year old, doesn't fit the growth charts. Too small, too thin, and he still isn't walking. The verdict comes down: Ulysses won't be like the others. But how will he be?",
+    "release_date": "2026-06-17",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "original_language": "fr",
+    "director": "Laetitia Masson",
+    "cast": [
+      "Élodie Bouchez",
+      "Stanislas Merhar",
+      "Romane Bohringer",
+      "Sebastien Judea",
+      "Thomas Badinot"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/tS0Xwa7Uqd8nlT41Y1KrumHtLeU.jpg",
+    "tmdb_rating": 6.538,
+    "tmdb_votes": 13,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt42007282/"
+    }
+  },
+  "2347": {
+    "tmdb_id": 1730542,
+    "title": "The Burning Giants",
+    "original_title": "ยักษ์ไหม้",
+    "overview": "Follows an environmental and Indigenous rights activist from the Karen group who is killed after protesting the forced eviction of his village from a protected forest.",
+    "runtime": 114,
+    "release_date": "2026-09-07",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "TH",
+      "NL",
+      "FR",
+      "SG",
+      "TW"
+    ],
+    "original_language": "th",
+    "director": "Phuttiphong Aroonpheng",
+    "cast": [
+      "Awat Ratanapintha",
+      "Pakapol Srirongmuang",
+      "Waywiree Ittianunkul",
+      "Tanatwut Rodpai"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/1E4ZrvPzBZSTmgvNooVVVSvgagp.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/6KlnY9kql5XARY0DPuBltDW5MWd.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt29495221/"
+    }
+  },
+  "2348": {
+    "tmdb_id": 1736461,
+    "title": "What Belongs to Others",
+    "original_title": "Cudze rzeczy",
+    "overview": "Kasia earns her living by breaking into other people's homes. One day on the job she finds a dead body of a man and decides to move into his apartment and find out who he was.",
+    "runtime": 104,
+    "release_date": "2026-09-10",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "PL"
+    ],
+    "original_language": "pl",
+    "director": "Grzegorz Dębowski",
+    "cast": [
+      "Monika Kwiatkowska",
+      "Robert Mania",
+      "Ewa Pająk",
+      "Martyna Rozwadowska",
+      "Jadwiga Grygierczyk"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/hmejTu0mFsutoidjtHP5XFpnIh.jpg",
+    "tmdb_rating": 4,
+    "tmdb_votes": 1,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt43704165/"
+    }
+  },
+  "2349": {
+    "tmdb_id": 1597196,
+    "title": "A Common Story",
+    "original_title": "Una storia",
+    "overview": "Erika and Mauro live in the province, living a simple life made up of reassuring habits and small gestures. When their daughter Irene leaves to study abroad, the house empties, and the balance on which the couple has built their existence seems to be shaken.",
+    "runtime": 107,
+    "release_date": "2026-09-24",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "original_language": "it",
+    "director": "Anna Foglietta",
+    "cast": [
+      "Alba Rohrwacher",
+      "Guido Caprino",
+      "Elio De Capitani",
+      "Caterina Casini"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/kZzFOWsc3LbCGRLdsFofbMM7dly.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/A9o4NioTKtKKY731uyPGP3lqjlU.jpg",
+    "tmdb_rating": 5,
+    "tmdb_votes": 3,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt39307632/"
+    }
+  },
+  "2350": {
+    "tmdb_id": 1632103,
+    "title": "The City of the Living",
+    "original_title": "La città dei vivi",
+    "overview": "Luca is twenty-three years old. He lives with an adoptive family who loves him. He moves between the suburbs and the city center with his friends and has a girlfriend with whom he shares a love that is young, yet significant for them both. Luca is searching for his path at an age when everything still feels possible and, at the same time, already lost; in this pursuit, he leads a double life. One night, after a seemingly chance encounter, the trajectory of Luca’s life is shattered, colliding with blind and senseless violence.",
+    "runtime": 103,
+    "release_date": "2026-10-01",
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "original_language": "it",
+    "director": "Edoardo Gabbriellini",
+    "cast": [
+      "Emanuele Maria Di Stefano",
+      "Valerio Mastandrea",
+      "Simona Senzacqua",
+      "Roberta Mattei",
+      "Gaia Merlonghi"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/kKu3wGJCAvRZKNEnJEEB5DctYnh.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/1j1nQ4bE2mdBFaQo1RsxGjeBCtn.jpg",
+    "tmdb_rating": 6.2,
+    "tmdb_votes": 19,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt40071725/"
+    }
+  },
+  "2351": {
+    "tmdb_id": 1736499,
+    "title": "Too Much Sugar",
+    "original_title": "Too Much Sugar",
+    "overview": "Ryan \"Holli-wood\" Holliger is a charismatic, pit bull of a man with six kids by five different women. His best friend AccRite is a rapper and laborer, dealing with an unimaginable loss. They have big dreams of making their own movie about fatherhood in their working class Missouri town. Over the course of one pivotal, madcap year, the film becomes something else entirely: a vehicle for accountability, healing and self discovery for their families.",
+    "runtime": 98,
+    "release_date": "2026-09-03",
+    "genres": [
+      "Documentary",
+      "Drama",
+      "Music"
+    ],
+    "countries": [
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Robert Greene",
+    "cast": [
+      "Ryan Holliger",
+      "Michael Midgyett",
+      "Amanda Sanner",
+      "Gavin Jones",
+      "Wayde Holliger"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/jgiwC1sX09VYjTMtLi2zcePgs5d.jpg",
+    "tmdb_rating": 7,
+    "tmdb_votes": 2,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt43704169/"
+    }
+  },
+  "2352": {
+    "tmdb_id": 1593299,
+    "title": "The Difficult Bride",
+    "original_title": "The Difficult Bride",
+    "overview": "Zai, a bride-to-be in present-day Dhaka, is in love with her groom and dreams of a fairytale wedding, but secretly struggles with her body’s resistance to wedding rituals. As stress and emotional pain intensify, a mysterious woman with long hair begins appearing in Novera’s imagination.",
+    "runtime": 87,
+    "release_date": "2026-09-06",
+    "genres": [
+      "Fantasy",
+      "Drama",
+      "Thriller",
+      "Horror"
+    ],
+    "countries": [
+      "BD",
+      "DE",
+      "FR",
+      "NO",
+      "PT"
+    ],
+    "original_language": "bn",
+    "director": "Rubaiyat Hossain",
+    "cast": [
+      "Zaineen Karim Chowdhury",
+      "Reekita Nondine Shimu",
+      "Sunerah Binte Kamal",
+      "Azmeri Haque Badhon",
+      "Dameer Khan"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/y4HdnyUE13LgtMovP3nTaI4gJuR.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/vDSlToGFMUmiUrZTixZy38utT8b.jpg",
+    "tmdb_rating": 5,
+    "tmdb_votes": 2,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt42827406/"
+    }
+  },
+  "2353": {
+    "tmdb_id": 1554129,
+    "title": "Children of the Monkey",
+    "original_title": "I figli della scimmia",
+    "overview": "Dario, father of a disabled child, begins to receive attention from his brother's teenage son, discovering that he prefers him to his own. In the growing complicity with his nephew he finds the son he would have liked to have, he takes on the role of the father he could have been. An illusory and dangerous role-playing game that will put the entire family at risk.",
+    "runtime": 110,
+    "release_date": "2026-09-17",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "original_language": "it",
+    "director": "Tommaso Landucci",
+    "cast": [
+      "Riccardo Scamarcio",
+      "Fausto Russo Alesi",
+      "Lidia Liberman",
+      "Cristina Odasso",
+      "Tancredi Naldini"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/c5tEquC2cAfxfFNIs86QmGzabmU.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/zGvs5d706MwykXV06u6hQZ91nsr.jpg",
+    "tmdb_rating": 6.5,
+    "tmdb_votes": 4,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt39390583/"
+    }
+  },
+  "2354": {
+    "tmdb_id": 1510542,
+    "title": "A Day in the Life of Jo: Chapter Phaedra",
+    "original_title": "Mia mera sti zoi tis Tzo: Kefalaio Faidra",
+    "overview": "Jo is wild, melancholic, only 15 and today she misses the school bus, once again. Her mother insists she doesn’t have a car, even though it’s parked outside. Furious, Jo tries to damage the car. Her mother intervenes, and that is the last time they will meet in the physical world – at least in body form. Throughout the day, subtle signs and symbols from the dream world quietly surface around her, but she fails to recognize them, indeed Jo is unaware that she is living the last day of her life.",
+    "runtime": 88,
+    "release_date": "2026-09-08",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "GR",
+      "FR",
+      "DE"
+    ],
+    "original_language": "el",
+    "director": "Jacqueline Lentzou",
+    "cast": [
+      "Evita Andriopoulou",
+      "Eleni Vergeti",
+      "Anastasia Gouliamou",
+      "Ektoras Lygizos",
+      "Stefanos Sourrapas"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/c8bwi1QIqFCwgbGoIQ7PiVJm2Yo.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/kK8aZ2JAzbZUCCzENrlgUzcVH4w.jpg",
+    "tmdb_rating": 7.75,
+    "tmdb_votes": 2,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt43704171/"
+    }
+  },
+  "2355": {
+    "tmdb_id": 1470034,
+    "title": "Oasis",
+    "original_title": "Oase",
+    "overview": "When a viral video of a student threatening his classmates surfaces online, the school spirals into escalating violence. Crushed by the pressure of teachers and parents, three outcasts take refuge in a nearby forest. There, play hardens into ritual and pain becomes an escape, until old wounds surface and the boundaries between them are redrawn.",
+    "runtime": 118,
+    "release_date": "2027-02-04",
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "countries": [
+      "DE",
+      "AT"
+    ],
+    "original_language": "de",
+    "director": "Jannis Lenz",
+    "cast": [
+      "Florian Geißelmann",
+      "Anton Petzold",
+      "Mathilda Smidt",
+      "Godehard Giese",
+      "Mikke Rasch"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/peTVTtWLux443obGQPpHI052Dqq.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/yB2FStrCYV59mH2VcAxVkB9KiKA.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt43704174/"
+    }
+  },
+  "2356": {
+    "tmdb_id": 1531947,
+    "title": "Until the Day Ends",
+    "original_title": "Do kraja dana",
+    "overview": "Two teenagers protesting political repression must flee, taking with them only their love and a dog.",
+    "runtime": 90,
+    "release_date": "2026-12-28",
+    "genres": [
+      "Drama",
+      "Romance",
+      "Crime"
+    ],
+    "countries": [
+      "RS",
+      "BG",
+      "SI",
+      "DE",
+      "ME",
+      "HR"
+    ],
+    "original_language": "sr",
+    "director": "Jelena Maksimović",
+    "cast": [
+      "Lena Trifunović",
+      "Andrija Krivokapić",
+      "Miodrag Dragičević",
+      "Irina Hotomski",
+      "Stefan Tarabić"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/q0TvzikzGqojqjZNZxdfGmhLOOV.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt37919722/"
+    }
+  },
+  "2357": {
+    "tmdb_id": 1544437,
+    "title": "The Girl with the Leica",
+    "original_title": "La ragazza con la Leica",
+    "overview": "On Bastille Day in 1937, pioneering German-Jewish photojournalist Gerda Taro spends her final day in Paris confronting her past, her complex partnership with Robert Capa, and her absolute commitment to anti-fascist resistance before returning to the front lines of the Spanish Civil War.",
+    "runtime": 119,
+    "release_date": "2026-10-22",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "IT",
+      "DE"
+    ],
+    "original_language": "it",
+    "director": "Alina Marazzi",
+    "cast": [
+      "Emilia Schüle",
+      "Aaron Altaras",
+      "Lucas Englander",
+      "Luna Wedler",
+      "Sebastian Schneider"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/6b6b0lGrZTVAX8Uq0bVoB0PU8pH.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/2m4M3xNKc52tjJRoYAULjRHQ6Qq.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt38024578/"
+    }
+  },
+  "2358": {
+    "tmdb_id": 1736501,
+    "title": "La Moula",
+    "original_title": "La Moula",
+    "overview": "Thanks to Charlie, a cocaine trafficker, and his gangster associates, Jérôme, a struggling organized crime reporter, sees an opportunity to reboot his career. While waiting for a drug shipment near Marseille, the possible presence of a cop puts them all in danger…",
+    "runtime": 83,
+    "release_date": "2026-09-09",
+    "genres": [
+      "Thriller"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "original_language": "fr",
+    "director": "Jérôme Pierrat",
+    "cast": [
+      "Jérôme Pierrat",
+      "Kader Benchoudar",
+      "Jean Ruimi",
+      "Jean-Michel Correia",
+      "Thierry Coignard"
+    ],
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt43704178/"
+    }
+  },
+  "2359": {
+    "tmdb_id": 1699532,
+    "title": "Lovers in the Blue Night",
+    "original_title": "लवर्स इन द ब्लू नाइट",
+    "overview": "Set against the margins of Mumbai, the film follows four migrants – a gay husband, his wife working in a bar, a thief, and a pimp – whose lives converge around love, survival, and longing",
+    "runtime": 107,
+    "release_date": "2026-09-11",
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "countries": [
+      "IN",
+      "US"
+    ],
+    "original_language": "hi",
+    "director": "Anuparna Roy",
+    "cast": [
+      "Neelima Sharma",
+      "Pritam Pilania",
+      "Bhusan Shimpi",
+      "Jatin Sarin",
+      "Kajal Keshav"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/vtcWFH0Oi9CgcY0Zg9ejLGS946n.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/wIc9NZ9BQ596DICLFQkUVmzhkjJ.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt42824418/"
+    }
+  },
+  "2360": {
+    "tmdb_id": 1404588,
+    "title": "Diane In The Loop",
+    "original_title": "Un détour par Diane",
+    "overview": "Diane desires men as much as she despises them. When she learns that her mother was raped in her youth, the shock is muffled. It’s a surprise—and yet, it explains everything. Diane has only one thing on her mind: avenging her mother. But her mother has only one thing on her mind: finally becoming the woman she should have been. Between the one who wants to remember and the one who wants to forget, everything tightens.",
+    "runtime": 92,
+    "release_date": "2027-02-10",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "countries": [
+      "BE",
+      "FR"
+    ],
+    "original_language": "fr",
+    "director": "Ann Sirot, Raphaël Balboni",
+    "cast": [
+      "Ninon Borsei",
+      "Sandrine Blancke",
+      "Lucas Meister",
+      "Peter van den Begin",
+      "Naidra Ayadi"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/5dqsV4Slyhz1JgYMVwmAtM9kgbD.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/ggOHMFmuORKmIWyEj3eQL09Eu5R.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt38693221/"
+    }
+  },
+  "2361": {
+    "tmdb_id": 1736503,
+    "title": "The Color of the Sun",
+    "original_title": "太陽ぬ色",
+    "overview": "During summer break on Okinawa's main island, Kamei and his friends face uncertain futures, until they meet Colin, a teenager from the American base in Naha, and everything changes.",
+    "runtime": 111,
+    "release_date": "2026-09-09",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "US",
+      "GB",
+      "JP",
+      "IT"
+    ],
+    "original_language": "ja",
+    "director": "Xavier Tera",
+    "cast": [
+      "Naoto Shimajiri",
+      "West Mulholland",
+      "Ichiro Andre Castro",
+      "Daido",
+      "Yuma Taira"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/s9adCoe5fBPTysUovjkCMVxAnLd.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/k7ZBAS71NNnY7wMyL8fEhv3rlQJ.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt37537532/"
+    }
+  },
+  "2362": {
+    "tmdb_id": 1724831,
+    "title": "Eklipse",
+    "original_title": "Eklipse",
+    "overview": "Twelve-year-old Tomy spends the summer of the 1999 solar eclipse with his best friend Chris on an alpine pasture. When Chris learns that Tomy's father is in hospital with AIDS, their friendship falls apart – and Tomy suddenly finds himself torn between exclusion and the secrecy of his own family.",
+    "runtime": 91,
+    "release_date": "2026-09-05",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "AT",
+      "IT"
+    ],
+    "original_language": "de",
+    "director": "Manuel Wetscher",
+    "cast": [
+      "Moritz Hohlrieder",
+      "Finley Brown",
+      "Hannes Perkmann",
+      "Lenz Moretti",
+      "Lisa Schützenberger"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/lUg40on46lGnLSvITablDllDQEc.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/rgmIZr2bJa6Z4OWDML1I96QXfkS.jpg",
+    "tmdb_rating": 4,
+    "tmdb_votes": 1,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt43635409/"
+    }
+  },
+  "2363": {
+    "tmdb_id": 1619815,
+    "title": "17",
+    "original_title": "17",
+    "overview": "Seventeen-year-old Sara is hiding a secret on a school trip. When the trip spirals out of control and Sara witnesses a classmate’s sexual assault, she and the girl seal a bond that will last forever.",
+    "runtime": 105,
+    "release_date": "2026-02-18",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "MK",
+      "RS",
+      "SI"
+    ],
+    "original_language": "mk",
+    "director": "Kosara Mitić",
+    "cast": [
+      "Eva Kostić",
+      "Martina Danilovska",
+      "Dame Joveski",
+      "Eva Stojčevska",
+      "Petar Manikj"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/zfpKOpwjvIz0NHgsgdmQAqmmRs5.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/dslncoY6hpZEE4eBI7NjZcIRSGg.jpg",
+    "tmdb_rating": 5,
+    "tmdb_votes": 1,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt37775862/"
+    }
+  },
+  "2364": {
+    "tmdb_id": 1425784,
+    "title": "Animol",
+    "original_title": "Animol",
+    "overview": "Behind the walls of a young offender institution, Troy is thrust into a brutal world of gangs, loyalty and violence from the moment he arrives. When an unspoken bond develops with a fellow inmate, it becomes a dangerous vulnerability for them.",
+    "runtime": 93,
+    "release_date": "2026-10-30",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "GB"
+    ],
+    "original_language": "en",
+    "director": "Ashley Walters",
+    "cast": [
+      "Tut Nyuot",
+      "Vladyslav Baliuk",
+      "Stephen Graham",
+      "Sharon Duncan-Brewster",
+      "Andrew Porter"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/xZ4lxL9ijoi9trZAuD9Wex6xopK.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/k2nrkAOCZO9XAHPdIkAovWmzjoV.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt33995791/"
+    }
+  },
+  "2365": {
+    "tmdb_id": 1400378,
+    "title": "Chronicles from the Siege",
+    "original_title": "Chroniques des années de siège",
+    "overview": "During the siege of their city, a group of ordinary people struggle to survive amid hunger, snipers, and bombardments, while clinging to human connection, love, and small daily pleasures. Faced with impossible moral choices and deep psychological strain, their lives become inseparable from the siege itself.",
+    "runtime": 98,
+    "release_date": "2026-08-28",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "DZ",
+      "FR",
+      "PS"
+    ],
+    "original_language": "ar",
+    "director": "Abdallah Al-Khatib",
+    "cast": [
+      "Nadeem Rimawi",
+      "Saja Kilani",
+      "Ahmad Kontar",
+      "Maria Zreik",
+      "Idir Benaibouche"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/wDYFJFXlhe3RvRzw2XSUSCgLIfF.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/u3ZNkGXY4KQ5YH2mv1rdUgDad7.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt34734549/"
+    }
+  },
+  "2366": {
+    "tmdb_id": 1574074,
+    "title": "The River Train",
+    "original_title": "El Tren Fluvial",
+    "overview": "Nine-year-old Milo lives in a remote Argentinian village where he studies the Malambo, a folk dance full of bravura. He is an excellent dancer, but Milo’s only desire is to escape the countryside on a train for the Buenos Aires of his dreams.",
+    "runtime": 75,
+    "release_date": "2026-10-23",
+    "genres": [
+      "Drama",
+      "Fantasy"
+    ],
+    "countries": [
+      "AR"
+    ],
+    "original_language": "es",
+    "director": "Lorenzo Ferro, Lucas A. Vignale",
+    "cast": [
+      "Milo Barria",
+      "Rita Pauls",
+      "Mariano Barria",
+      "Lucrecia Pazos",
+      "Mailen Barria"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/wElH8qOEoF1Fl09DI0CA82AW4oe.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/tsa9h5ucYfvDTmK9MCtvyXqSdWq.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt39381628/"
+    }
+  },
+  "2367": {
+    "tmdb_id": 1417935,
+    "title": "Filipiñana",
+    "original_title": "Filipiñana",
+    "overview": "While working at an elite country club outside Manila, a 17-year-old Ilocana worker uncovers the violent truths of her workplace, her country, and her own past after attempting to return a lost golf club to the club's president.",
+    "runtime": 101,
+    "release_date": "2026-08-26",
+    "genres": [
+      "Drama",
+      "Mystery"
+    ],
+    "countries": [
+      "PH",
+      "SG",
+      "GB",
+      "FR",
+      "NL"
+    ],
+    "original_language": "tl",
+    "director": "Rafael Manuel",
+    "cast": [
+      "Jorrybell Agoto",
+      "Carmen Castellanos",
+      "Teroy Guzman",
+      "Carlos Siguion-Reyna",
+      "Isabel Sicat"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/64hnrTmeJEvUYoJyuOM7taE3CqT.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/7lgpPrmD2XYABOw8Cu3kyUn4usR.jpg",
+    "tmdb_rating": 6.5,
+    "tmdb_votes": 2,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt29512008/"
+    }
+  },
+  "2368": {
+    "tmdb_id": 1414395,
+    "title": "Forest High",
+    "original_title": "Forêt Ivre",
+    "overview": "In the northern Alps, Anne, Hélène and Suzanne take turns looking after a mountain hut. Through the seasons, hikers come and go. Stories bloom and fade, leaving each of them facing the silence of their chosen solitude and the poetry of nature.",
+    "runtime": 102,
+    "release_date": "2026-02-16",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "BE",
+      "FR"
+    ],
+    "original_language": "fr",
+    "director": "Manon Coubia",
+    "cast": [
+      "Anne Coesens",
+      "Salomé Richard",
+      "Aurélia Petit",
+      "Yoann Zimmer",
+      "Arthur Marbaix"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/43KyKtf9yteoi2kn5xE9Z61ZvAY.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/oSTGEtJaizKJkosRVMomyA3f6gV.jpg",
+    "tmdb_rating": 5,
+    "tmdb_votes": 1,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt39381659/"
+    }
+  },
+  "2369": {
+    "tmdb_id": 1563588,
+    "title": "The Red Hangar",
+    "original_title": "Hangar Rojo",
+    "overview": "Chile, 1973. The military coup will force Jorge Silva, an Air Force captain, to face the unfolding horror. Inside a military base, he must choose between becoming part of the repression or helping those fighting to stay alive.",
+    "runtime": 81,
+    "release_date": "2026-05-08",
+    "genres": [
+      "Drama",
+      "History",
+      "Thriller"
+    ],
+    "countries": [
+      "CL",
+      "AR",
+      "IT"
+    ],
+    "original_language": "es",
+    "director": "Juan Pablo Sallato",
+    "cast": [
+      "Nicolás Zárate",
+      "Boris Quercia",
+      "Marcial Tagle",
+      "Catalina Stuardo",
+      "Arón Hernández"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/9s3ZMPt7IpxN7CvfqegDK5EWsUa.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/7dvto6jc3R9w46uphDkupiLvqnv.jpg",
+    "tmdb_rating": 7.9,
+    "tmdb_votes": 11,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt37664358/"
+    }
+  },
+  "2370": {
+    "tmdb_id": 1476466,
+    "title": "Trial of Hein",
+    "original_title": "Der Heimatlose",
+    "overview": "After 14 years away, Hein returns to his home village on a remote island, only to discover that the close-knit community no longer recognises him. Suspecting him to be an impostor, they demand a trial to determine his true identity.",
+    "runtime": 122,
+    "release_date": "2026-08-27",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "original_language": "de",
+    "director": "Kai Stänicke",
+    "cast": [
+      "Paul Boche",
+      "Stephanie Amarell",
+      "Philip Froissant",
+      "Emilia Schüle",
+      "Jeanette Hain"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/cBxkNpLZtNVNv7Ot5FAA2WsWlQ5.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/3hHlBvryPY0wI6ugM73PqVBEtfJ.jpg",
+    "tmdb_rating": 7,
+    "tmdb_votes": 3,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt33522697/"
+    }
+  },
+  "2371": {
+    "tmdb_id": 1399253,
+    "title": "Our Secret",
+    "original_title": "Nosso Segredo",
+    "overview": "A Black Brazilian family in the city of Belo Horizonte, tries to rebuild their home after a recent loss. Caught between memories and nightmares, and unable to express what they feel to each other, a mother and her children shield themselves from the pain of grief through their individual routines. Only the youngest child understands the secret that the house holds within its four walls and tries to reveal it to the others, only to fall on deaf ears. Finally, confronted with the truth, they face the deep roots of their grief and come together to traverse this moment with love and courage.",
+    "runtime": 108,
+    "release_date": "2026-08-27",
+    "genres": [
+      "Drama",
+      "Fantasy"
+    ],
+    "countries": [
+      "BR",
+      "PT"
+    ],
+    "original_language": "pt",
+    "director": "Grace Passô",
+    "cast": [
+      "Ju Colombo",
+      "Robert Frank",
+      "Marisa Revert",
+      "Jessica Gaspar",
+      "Efraim Santos"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/6k0QkM5X2UfUuUgepzml6qpoWSX.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/mnoxZcYA0v7USpiOAqs2GigVN4z.jpg",
+    "tmdb_rating": 9,
+    "tmdb_votes": 1,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt39382724/"
+    }
+  },
+  "2372": {
+    "tmdb_id": 1241046,
+    "title": "A Prayer for the Dying",
+    "original_title": "A Prayer for the Dying",
+    "overview": "In 1870 Friendship, Wisconsin, a small town of Scandinavian settlers still suffering the repercussions of the recent Civil War. When faced with a new and even deadlier threat, one man is forced to make a harrowing choice: save his young family or defend the community that gave him a second chance at life and meaning.",
+    "runtime": 95,
+    "release_date": "2026-10-09",
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "countries": [
+      "NO",
+      "SE",
+      "GB"
+    ],
+    "original_language": "en",
+    "director": "Dara Van Dusen",
+    "cast": [
+      "Johnny Flynn",
+      "John C. Reilly",
+      "Kristine Kujath Thorp",
+      "Gustav Lindh",
+      "Hilton Pelser"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/VuimSXLB2U6t8txrWSpYaIM3m7.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/yMqBFMvAGPw5aM4azNN07kSjNM0.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt31183803/"
+    }
+  },
+  "2373": {
+    "tmdb_id": 1569461,
+    "title": "Take Me Home",
+    "original_title": "Take Me Home",
+    "overview": "Anna, a middle-aged Korean adoptee with a cognitive disability, cares for her aging parents in a fragile balance of meeting one another’s needs. Alongside her sister Emily and her father, they must confront challenging questions about the future, but Anna remains determined to build a life where all of them can thrive.",
+    "runtime": 91,
+    "release_date": "2026-09-23",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Liz Sargent",
+    "cast": [
+      "Anna Sargent",
+      "Ali Ahn",
+      "Victor Slezak",
+      "Marceline Hugot",
+      "Shane Harper"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/jUniqOsIgXcCdgxUbBTKnkFGG9o.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/rNn6YfRDP0e8iiH8ZlByjWLvqvs.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt37263549/"
+    }
+  },
+  "2374": {
+    "tmdb_id": 1281195,
+    "title": "Truly Naked",
+    "original_title": "Truly Naked",
+    "overview": "An introverted teen, who has only ever experienced sex through the lens while working for his father’s pornography business, must step out from behind the camera when a feisty classmate challenges him to embrace a real connection.",
+    "runtime": 102,
+    "release_date": "2026-04-15",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "countries": [
+      "NL",
+      "BE",
+      "FR"
+    ],
+    "original_language": "en",
+    "director": "Muriel d'Ansembourg",
+    "cast": [
+      "Caolán O'Gorman",
+      "Andrew Howard",
+      "Alessa Savage",
+      "Safiya Benaddi",
+      "Lyndsey Marshal"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/y23B9EnC0LDw8zMKlpXJauyLH7k.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/mN5HuZwSIueiA62F0LS3wBCFj55.jpg",
+    "tmdb_rating": 6.606,
+    "tmdb_votes": 33,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt8760666/"
+    }
+  },
+  "2375": {
+    "tmdb_id": 1619818,
+    "title": "Where To?",
+    "original_title": "לאן / لوين",
+    "overview": "In Berlin's lively nights, Hassan, a Palestinian Uber driver, carries partygoers across the city's endless streets. When Amir, a young Israeli discovering himself far from home, keeps reappearing in his back seat, their late-night rides grow into an unexpected friendship.",
+    "runtime": 96,
+    "release_date": "2026-11-14",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "IL",
+      "DE",
+      "FR"
+    ],
+    "original_language": "he",
+    "director": "Assaf Machnes",
+    "cast": [
+      "Ehab Salami",
+      "Ido Tako",
+      "Milan Peschel",
+      "Rama Nasrallah",
+      "Raheeq Haj Yahia-Suleiman"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/lVEnFQcNYZPG5AVLhy1VMk9BYhb.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/3Syj6xRWYi4QqBtws9OnHrDOF1z.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt35253781/"
+    }
+  },
+  "2376": {
+    "tmdb_id": 1601885,
+    "title": "Light Pillar",
+    "original_title": "寒夜灯柱",
+    "overview": "The future. Winter. Space travel is no longer a dream. A lonely janitor tends the grounds of a dilapidated bankrupt film studio with only a former cat actor for company until he embarks on a romantic journey with a female player in a beautiful virtual world.",
+    "runtime": 90,
+    "release_date": "2026-02-14",
+    "genres": [
+      "Animation",
+      "Drama",
+      "Romance"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "original_language": "zh",
+    "director": "Zao Xu",
+    "cast": [
+      "Dong Chengpeng",
+      "Qing Yi"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/fGY1InCDeYRplQBu5e3E3gCEnPt.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/5rYinUJlxGzEzrIZxxdYrY4dfeX.jpg",
+    "tmdb_rating": 8,
+    "tmdb_votes": 3,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt32409947/"
+    }
   }
 };
