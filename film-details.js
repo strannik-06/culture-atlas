@@ -73805,5 +73805,125 @@ window.CULTURE_FILM_DETAILS = {
     "imdb": {
       "url": "https://www.imdb.com/title/tt34383465/"
     }
+  },
+  "2323": {
+    "tmdb_id": 1400793,
+    "title": "Cutting Through Rocks",
+    "original_title": "Cutting Through Rocks",
+    "overview": "37-year-old Sara Shahverdi, a motorcycle riding, land owning, former midwife-turned-fierce citizen advocate and recent divorcée, just won a landslide local election in her remote Iranian village and everyone has an opinion about it.",
+    "runtime": 95,
+    "release_date": "2025-09-27",
+    "genres": [
+      "Documentary"
+    ],
+    "countries": [
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Sara Khaki, Mohammad Reza Eyni",
+    "cast": [
+      "Sara Shahverdi"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/qefjf5TeM0uRzrFU2c4xYt6ew9z.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/rm6GcZxiBKze5haKZDxvKg7Uifv.jpg",
+    "tmdb_rating": 7.5,
+    "tmdb_votes": 18,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt10196414/"
+    }
+  },
+  "2324": {
+    "tmdb_id": 1182935,
+    "title": "The Unknown",
+    "original_title": "L’inconnue",
+    "overview": "David Zimmerman, almost 40, is a photographer but no one knows it. When friends drag him to a wild party, he spots a woman in the crowd and can’t take his eyes off her, he follows her… A few hours later, David wakes up: he’s in the body of the unknown woman.",
+    "runtime": 140,
+    "release_date": "2026-08-26",
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Fantasy"
+    ],
+    "countries": [
+      "FR",
+      "IT"
+    ],
+    "original_language": "fr",
+    "director": "Arthur Harari",
+    "cast": [
+      "Léa Seydoux",
+      "Niels Schneider",
+      "Valérie Dréville",
+      "Lilith Grasmug",
+      "Radu Jude"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/888ksoUkfKSBJHxKp6M9sYpJhv2.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/7OVnWBnwmDd2YmTOTzj0T8dg1la.jpg",
+    "tmdb_rating": 6.2,
+    "tmdb_votes": 17,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt32359586/"
+    }
+  },
+  "2325": {
+    "tmdb_id": 1553969,
+    "title": "Sheep in the Box",
+    "original_title": "箱の中の羊",
+    "overview": "In the near future, architect Otone Komoto is married to Kensuke, who runs a construction company. The married couple decide to welcome a humanoid robot into their home as their son.",
+    "runtime": 126,
+    "release_date": "2026-05-29",
+    "genres": [
+      "Drama",
+      "Science Fiction"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "original_language": "ja",
+    "director": "Hirokazu Kore-eda",
+    "cast": [
+      "Haruka Ayase",
+      "Daigo Yamamoto",
+      "Kuwaki Rimu",
+      "Nana Seino",
+      "Kanichiro"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/sxAwnj01pLfDBTA4WobJtJw7y9q.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/cwoCKD5DVfb4vs4bDCyWkvE3frc.jpg",
+    "tmdb_rating": 6.359,
+    "tmdb_votes": 32,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt38551209/"
+    }
+  },
+  "2326": {
+    "tmdb_id": 1591675,
+    "title": "Look Back",
+    "original_title": "ルックバック",
+    "overview": "Popular, outgoing Fujino is celebrated by her classmates for her funny comics in the class newspaper. One day, her teacher asks her to share the space with Kyomoto, a truant recluse whose beautiful artwork sparks a competitive fervor in Fujino. What starts as jealousy transforms when Fujino realizes their shared passion for drawing.",
+    "runtime": 100,
+    "release_date": "2026-09-11",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "original_language": "ja",
+    "director": "Hirokazu Kore-eda",
+    "cast": [
+      "Natsuki Deguchi",
+      "Aju Makita",
+      "Fuuri Nanase",
+      "Rokka Okada",
+      "Masaki Suda"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/sxiJhMNTBRvQgMnB9H4VIVdQfW9.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/ceOdqFmZy5kKImbGThuDHuifGpm.jpg",
+    "tmdb_rating": 7.9,
+    "tmdb_votes": 20,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt39094466/"
+    }
   }
 };

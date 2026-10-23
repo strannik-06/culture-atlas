@@ -2,6 +2,151 @@
   "edition": 2026,
   "matched": [
     {
+      "title": "F1",
+      "id": 2254,
+      "tmdb_id": 911430
+    },
+    {
+      "title": "Song Sung Blue",
+      "id": 2255,
+      "tmdb_id": 1371185
+    },
+    {
+      "title": "Bridget Jones: Mad About the Boy",
+      "id": 2256,
+      "tmdb_id": 1272149
+    },
+    {
+      "title": "H is for Hawk",
+      "id": 2257,
+      "tmdb_id": 1243006
+    },
+    {
+      "title": "Mr. Burton",
+      "id": 2258,
+      "tmdb_id": 1242454
+    },
+    {
+      "title": "Apocalypse In The Tropics",
+      "id": 2259,
+      "tmdb_id": 1320400
+    },
+    {
+      "title": "Demon Slayer: Kimetsu no Yaiba – Infinity Castle",
+      "id": 2260,
+      "tmdb_id": 1311031
+    },
+    {
+      "title": "Hedda",
+      "id": 2261,
+      "tmdb_id": 997113
+    },
+    {
+      "title": "Springsteen: Deliver Me from Nowhere",
+      "id": 2262,
+      "tmdb_id": 1230368
+    },
+    {
+      "title": "Wicked: For Good",
+      "id": 2263,
+      "tmdb_id": 967941
+    },
+    {
+      "title": "Amarga Navidad",
+      "id": 2264,
+      "tmdb_id": 1088548
+    },
+    {
+      "title": "A Woman’S Life",
+      "id": 2265,
+      "tmdb_id": 1258181
+    },
+    {
+      "title": "La Bola Negra",
+      "id": 2266,
+      "tmdb_id": 1422041
+    },
+    {
+      "title": "Coward",
+      "id": 2267,
+      "tmdb_id": 1437981
+    },
+    {
+      "title": "Parallel Tales",
+      "id": 2268,
+      "tmdb_id": 1157869
+    },
+    {
+      "title": "Paper Tiger",
+      "id": 2269,
+      "tmdb_id": 1381273
+    },
+    {
+      "title": "Das Geträumte Abenteuer",
+      "id": 2270,
+      "tmdb_id": 1013822
+    },
+    {
+      "title": "All of a Sudden",
+      "id": 2271,
+      "tmdb_id": 1476614
+    },
+    {
+      "title": "Another Day",
+      "id": 2272,
+      "tmdb_id": 1507877
+    },
+    {
+      "title": "Hope",
+      "id": 2273,
+      "tmdb_id": 1058424
+    },
+    {
+      "title": "Nagi Notes",
+      "id": 2274,
+      "tmdb_id": 1448971
+    },
+    {
+      "title": "Gentle Monster",
+      "id": 2275,
+      "tmdb_id": 1473148
+    },
+    {
+      "title": "A Man of His Time",
+      "id": 2276,
+      "tmdb_id": 1318864
+    },
+    {
+      "title": "Fjord",
+      "id": 2277,
+      "tmdb_id": 1401459
+    },
+    {
+      "title": "The Birthday Party",
+      "id": 2278,
+      "tmdb_id": 1191818
+    },
+    {
+      "title": "Moulin",
+      "id": 2279,
+      "tmdb_id": 1437925
+    },
+    {
+      "title": "Fatherland",
+      "id": 2280,
+      "tmdb_id": 1437696
+    },
+    {
+      "title": "The Man I Love",
+      "id": 2281,
+      "tmdb_id": 1458914
+    },
+    {
+      "title": "El Ser Querido",
+      "id": 2282,
+      "tmdb_id": 1074074
+    },
+    {
       "title": "Minotaur",
       "id": 2233,
       "tmdb_id": 848700
@@ -10,817 +155,257 @@
       "title": "NAZA",
       "id": 2234,
       "tmdb_id": 1755291
-    }
-  ],
-  "added": [
-    {
-      "title": "F1",
-      "id": 2254,
-      "director": "Joseph Kosinski",
-      "year": 2025,
-      "tmdb_id": 911430,
-      "imdb_id": "tt16311594",
-      "original_title": "F1",
-      "original_language": "en",
-      "alternate_titles": []
-    },
-    {
-      "title": "Song Sung Blue",
-      "id": 2255,
-      "director": "Craig Brewer",
-      "year": 2025,
-      "tmdb_id": 1371185,
-      "imdb_id": "tt30343021",
-      "original_title": "Song Sung Blue",
-      "original_language": "en",
-      "alternate_titles": []
-    },
-    {
-      "title": "Bridget Jones: Mad About the Boy",
-      "id": 2256,
-      "director": "Michael Morris",
-      "year": 2025,
-      "tmdb_id": 1272149,
-      "imdb_id": "tt32063050",
-      "original_title": "Bridget Jones: Mad About the Boy",
-      "original_language": "en",
-      "alternate_titles": []
-    },
-    {
-      "title": "H Is for Hawk",
-      "id": 2257,
-      "director": "Philippa Lowthorpe",
-      "year": 2025,
-      "tmdb_id": 1243006,
-      "imdb_id": "tt10329560",
-      "original_title": "H Is for Hawk",
-      "original_language": "en",
-      "alternate_titles": []
-    },
-    {
-      "title": "Mr. Burton",
-      "id": 2258,
-      "director": "Marc Evans",
-      "year": 2025,
-      "tmdb_id": 1242454,
-      "imdb_id": "tt5171016",
-      "original_title": "Mr. Burton",
-      "original_language": "en",
-      "alternate_titles": []
-    },
-    {
-      "title": "Apocalypse in the Tropics",
-      "id": 2259,
-      "director": "Petra Costa",
-      "year": 2025,
-      "tmdb_id": 1320400,
-      "imdb_id": "tt30012657",
-      "original_title": "Apocalipse nos Trópicos",
-      "original_language": "pt",
-      "alternate_titles": []
-    },
-    {
-      "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
-      "id": 2260,
-      "director": "Haruo Sotozaki",
-      "year": 2025,
-      "tmdb_id": 1311031,
-      "imdb_id": "tt32820897",
-      "original_title": "劇場版「鬼滅の刃」無限城編 第一章 猗窩座再来",
-      "original_language": "ja",
-      "alternate_titles": []
-    },
-    {
-      "title": "Hedda",
-      "id": 2261,
-      "director": "Nia DaCosta",
-      "year": 2025,
-      "tmdb_id": 997113,
-      "imdb_id": "tt27953589",
-      "original_title": "Hedda",
-      "original_language": "en",
-      "alternate_titles": []
-    },
-    {
-      "title": "Springsteen: Deliver Me from Nowhere",
-      "id": 2262,
-      "director": "Scott Cooper",
-      "year": 2025,
-      "tmdb_id": 1230368,
-      "imdb_id": "tt31923069",
-      "original_title": "Springsteen: Deliver Me from Nowhere",
-      "original_language": "en",
-      "alternate_titles": []
-    },
-    {
-      "title": "Wicked: For Good",
-      "id": 2263,
-      "director": "Jon M. Chu",
-      "year": 2025,
-      "tmdb_id": 967941,
-      "imdb_id": "tt19847976",
-      "original_title": "Wicked: For Good",
-      "original_language": "en",
-      "alternate_titles": []
-    },
-    {
-      "title": "Bitter Christmas",
-      "id": 2264,
-      "director": "Pedro Almodóvar",
-      "year": 2026,
-      "tmdb_id": 1088548,
-      "imdb_id": "tt28088049",
-      "original_title": "Amarga Navidad",
-      "original_language": "es",
-      "alternate_titles": []
-    },
-    {
-      "title": "A Woman's Life",
-      "id": 2265,
-      "director": "Charline Bourgeois-Tacquet",
-      "year": 2026,
-      "tmdb_id": 1258181,
-      "imdb_id": "tt39299437",
-      "original_title": "La vie d'une femme",
-      "original_language": "fr",
-      "alternate_titles": []
-    },
-    {
-      "title": "La bola negra",
-      "id": 2266,
-      "director": "Javier Ambrossi, Javier Calvo",
-      "year": 2026,
-      "tmdb_id": 1422041,
-      "imdb_id": "tt35511966",
-      "original_title": "La bola negra",
-      "original_language": "es",
-      "alternate_titles": []
-    },
-    {
-      "title": "Coward",
-      "id": 2267,
-      "director": "Lukas Dhont",
-      "year": 2026,
-      "tmdb_id": 1437981,
-      "imdb_id": "tt39328391",
-      "original_title": "Coward",
-      "original_language": "fr",
-      "alternate_titles": []
-    },
-    {
-      "title": "Parallel Tales",
-      "id": 2268,
-      "director": "Asghar Farhadi",
-      "year": 2026,
-      "tmdb_id": 1157869,
-      "imdb_id": "tt36646880",
-      "original_title": "Histoires parallèles",
-      "original_language": "fr",
-      "alternate_titles": []
-    },
-    {
-      "title": "Paper Tiger",
-      "id": 2269,
-      "director": "James Gray",
-      "year": 2026,
-      "tmdb_id": 1381273,
-      "imdb_id": "tt34385689",
-      "original_title": "Paper Tiger",
-      "original_language": "en",
-      "alternate_titles": []
-    },
-    {
-      "title": "The Dreamed Adventure",
-      "id": 2270,
-      "director": "Valeska Grisebach",
-      "year": 2026,
-      "tmdb_id": 1013822,
-      "imdb_id": "tt21188986",
-      "original_title": "Das geträumte Abenteuer",
-      "original_language": "de",
-      "alternate_titles": []
-    },
-    {
-      "title": "All of a Sudden",
-      "id": 2271,
-      "director": "Ryusuke Hamaguchi",
-      "year": 2026,
-      "tmdb_id": 1476614,
-      "imdb_id": "tt36834996",
-      "original_title": "急に具合が悪くなる",
-      "original_language": "ja",
-      "alternate_titles": [
-        "Soudain"
-      ]
-    },
-    {
-      "title": "Another Day",
-      "id": 2272,
-      "director": "Jeanne Herry",
-      "year": 2026,
-      "tmdb_id": 1507877,
-      "imdb_id": "tt38584405",
-      "original_title": "Garance",
-      "original_language": "fr",
-      "alternate_titles": []
-    },
-    {
-      "title": "Hope",
-      "id": 2273,
-      "director": "Na Hong-jin",
-      "year": 2026,
-      "tmdb_id": 1058424,
-      "imdb_id": "tt27369017",
-      "original_title": "호프",
-      "original_language": "ko",
-      "alternate_titles": []
-    },
-    {
-      "title": "Nagi Notes",
-      "id": 2274,
-      "director": "Koji Fukada",
-      "year": 2026,
-      "tmdb_id": 1448971,
-      "imdb_id": "tt28551050",
-      "original_title": "ナギダイアリー",
-      "original_language": "ja",
-      "alternate_titles": []
-    },
-    {
-      "title": "Gentle Monster",
-      "id": 2275,
-      "director": "Marie Kreutzer",
-      "year": 2026,
-      "tmdb_id": 1473148,
-      "imdb_id": "tt37020296",
-      "original_title": "Gentle Monster",
-      "original_language": "de",
-      "alternate_titles": []
-    },
-    {
-      "title": "A Man of His Time",
-      "id": 2276,
-      "director": "Emmanuel Marre",
-      "year": 2026,
-      "tmdb_id": 1318864,
-      "imdb_id": "tt41593304",
-      "original_title": "Notre salut",
-      "original_language": "fr",
-      "alternate_titles": []
-    },
-    {
-      "title": "Fjord",
-      "id": 2277,
-      "director": "Cristian Mungiu",
-      "year": 2026,
-      "tmdb_id": 1401459,
-      "imdb_id": "tt35410859",
-      "original_title": "Fjord",
-      "original_language": "ro",
-      "alternate_titles": []
-    },
-    {
-      "title": "The Birthday Party",
-      "id": 2278,
-      "director": "Léa Mysius",
-      "year": 2026,
-      "tmdb_id": 1191818,
-      "imdb_id": "tt30495381",
-      "original_title": "Histoires de la nuit",
-      "original_language": "fr",
-      "alternate_titles": []
-    },
-    {
-      "title": "Moulin",
-      "id": 2279,
-      "director": "László Nemes",
-      "year": 2026,
-      "tmdb_id": 1437925,
-      "imdb_id": "tt36899180",
-      "original_title": "Moulin",
-      "original_language": "fr",
-      "alternate_titles": []
-    },
-    {
-      "title": "Fatherland",
-      "id": 2280,
-      "director": "Paweł Pawlikowski",
-      "year": 2026,
-      "tmdb_id": 1437696,
-      "imdb_id": "tt37304295",
-      "original_title": "Ojczyzna",
-      "original_language": "pl",
-      "alternate_titles": []
-    },
-    {
-      "title": "The Man I Love",
-      "id": 2281,
-      "director": "Ira Sachs",
-      "year": 2027,
-      "tmdb_id": 1458914,
-      "imdb_id": "tt37522972",
-      "original_title": "The Man I Love",
-      "original_language": "en",
-      "alternate_titles": []
-    },
-    {
-      "title": "The Beloved",
-      "id": 2282,
-      "director": "Rodrigo Sorogoyen",
-      "year": 2026,
-      "tmdb_id": 1074074,
-      "imdb_id": "tt33451014",
-      "original_title": "El ser querido",
-      "original_language": "es",
-      "alternate_titles": []
     },
     {
       "title": "Company",
       "id": 2283,
-      "director": "Casey Affleck",
-      "year": 2026,
-      "tmdb_id": 1733908,
-      "imdb_id": "tt0772163",
-      "original_title": "Company",
-      "original_language": "en",
-      "alternate_titles": []
+      "tmdb_id": 1733908
     },
     {
-      "title": "A Bit of Light",
+      "title": "Kami nour (A bit of light)",
       "id": 2284,
-      "director": "Ali Asgari",
-      "year": 2026,
-      "tmdb_id": 1736490,
-      "imdb_id": "tt43704846",
-      "original_title": "کمی نور",
-      "original_language": "fa",
-      "alternate_titles": [
-        "Kami nour (A bit of light)",
-        "Kami nour"
-      ]
+      "tmdb_id": 1736490
     },
     {
-      "title": "Back to Buenos Aires",
+      "title": "Ritorno a Buenos Aires",
       "id": 2285,
-      "director": "Marco Bechis",
-      "year": 2026,
-      "tmdb_id": 1597199,
-      "imdb_id": "tt39239726",
-      "original_title": "Ritorno a Buenos Aires",
-      "original_language": "it",
-      "alternate_titles": []
+      "tmdb_id": 1597199
     },
     {
       "title": "Ink",
       "id": 2286,
-      "director": "Danny Boyle",
-      "year": 2026,
-      "tmdb_id": 1532610,
-      "imdb_id": "tt37967547",
-      "original_title": "Ink",
-      "original_language": "en",
-      "alternate_titles": []
+      "tmdb_id": 1532610
     },
     {
-      "title": "A Good Little Soldier",
+      "title": "Un bon petit soldat",
       "id": 2287,
-      "director": "Stéphane Brizé",
-      "year": 2026,
-      "tmdb_id": 1430815,
-      "imdb_id": "tt41802342",
-      "original_title": "Un bon petit soldat",
-      "original_language": "fr",
-      "alternate_titles": []
+      "tmdb_id": 1430815
     },
     {
-      "title": "The Fire Within You",
+      "title": "Il fuoco che ti porti dentro (The Fire Within You)",
       "id": 2288,
-      "director": "Edoardo De Angelis",
-      "year": 2026,
-      "tmdb_id": 1632188,
-      "imdb_id": "tt34621251",
-      "original_title": "Il fuoco che ti porti dentro",
-      "original_language": "it",
-      "alternate_titles": [
-        "Il fuoco che ti porti dentro (The Fire Within You)"
-      ]
+      "tmdb_id": 1632188
     },
     {
-      "title": "Woman Unknown",
+      "title": "Kvinde Ukendt (Woman Unknown)",
       "id": 2289,
-      "director": "May el-Toukhy",
-      "year": 2027,
-      "tmdb_id": 1511780,
-      "imdb_id": "tt34888026",
-      "original_title": "Kvinde ukendt",
-      "original_language": "da",
-      "alternate_titles": [
-        "Kvinde Ukendt (Woman Unknown)"
-      ]
+      "tmdb_id": 1511780
     },
     {
       "title": "Bucking Fastard",
       "id": 2290,
-      "director": "Werner Herzog",
-      "year": 2026,
-      "tmdb_id": 1429713,
-      "imdb_id": "tt35670577",
-      "original_title": "Bucking Fastard",
-      "original_language": "en",
-      "alternate_titles": []
+      "tmdb_id": 1429713
     },
     {
-      "title": "A Place to Heal",
+      "title": "15/18 (A Place To Heal)",
       "id": 2291,
-      "director": "Cédric Kahn",
-      "year": 2026,
-      "tmdb_id": 1429602,
-      "imdb_id": "tt42826707",
-      "original_title": "15/18",
-      "original_language": "fr",
-      "alternate_titles": [
-        "15/18 (A Place To Heal)"
-      ]
+      "tmdb_id": 1429602
     },
     {
-      "title": "DAU",
+      "title": "Dau",
       "id": 2292,
-      "director": "Ilya Khrzhanovsky",
-      "year": 2026,
-      "tmdb_id": 1734147,
-      "imdb_id": "tt43702526",
-      "original_title": "DAU",
-      "original_language": "ru",
-      "alternate_titles": []
+      "tmdb_id": 1734147
     },
     {
-      "title": "Possible Love",
+      "title": "Ga-neung-han sa-rang (Possible love)",
       "id": 2293,
-      "director": "Lee Chang-dong",
-      "year": 2026,
-      "tmdb_id": 1483525,
-      "imdb_id": "tt37803364",
-      "original_title": "가능한 사랑",
-      "original_language": "ko",
-      "alternate_titles": [
-        "Ga-neung-han sa-rang (Possible love)",
-        "Ga-neung-han sa-rang"
-      ]
+      "tmdb_id": 1483525
     },
     {
       "title": "Wild Horse Nine",
       "id": 2294,
-      "director": "Martin McDonagh",
-      "year": 2026,
-      "tmdb_id": 891621,
-      "imdb_id": "tt15799564",
-      "original_title": "Wild Horse Nine",
-      "original_language": "en",
-      "alternate_titles": []
+      "tmdb_id": 891621
     },
     {
-      "title": "It Will Happen Tonight",
+      "title": "Succederà questa notte (It will happen tonight)",
       "id": 2295,
-      "director": "Nanni Moretti",
-      "year": 2026,
-      "tmdb_id": 1499546,
-      "imdb_id": "tt37341481",
-      "original_title": "Succederà questa notte",
-      "original_language": "it",
-      "alternate_titles": [
-        "Succederà questa notte (It will happen tonight)"
-      ]
+      "tmdb_id": 1499546
     },
     {
       "title": "The Echo Chamber",
       "id": 2296,
-      "director": "Andrea Pallaoro",
-      "year": 2026,
-      "tmdb_id": 1576934,
-      "imdb_id": "tt9395802",
-      "original_title": "The Echo Chamber",
-      "original_language": "en",
-      "alternate_titles": []
+      "tmdb_id": 1576934
     },
     {
-      "title": "One Minute to Midnight",
+      "title": "Un peu avant minuit",
       "id": 2297,
-      "director": "Nicolas Pariser",
-      "year": 2026,
-      "tmdb_id": 1480672,
-      "imdb_id": "tt38807757",
-      "original_title": "Un peu avant minuit",
-      "original_language": "fr",
-      "alternate_titles": []
+      "tmdb_id": 1480672
     },
     {
-      "title": "The Spiral",
+      "title": "L’estranea",
       "id": 2298,
-      "director": "Paolo Strippoli",
-      "year": 2026,
-      "tmdb_id": 1412795,
-      "imdb_id": "tt23411728",
-      "original_title": "L'estranea",
-      "original_language": "it",
-      "alternate_titles": []
+      "tmdb_id": 1412795
     },
     {
-      "title": "Mr. Nelson, Did You Kill People?",
+      "title": "Nelson san, anata wa hito wo koroshimashitaka? (Mr. Nelson, Did You Kill People?)",
       "id": 2299,
-      "director": "Shinya Tsukamoto",
-      "year": 2026,
-      "tmdb_id": 1497946,
-      "imdb_id": "tt41240964",
-      "original_title": "ネルソンさん、あなたは人を殺しましたか？",
-      "original_language": "ja",
-      "alternate_titles": [
-        "Nelson san, anata wa hito wo koroshimashitaka? (Mr. Nelson, Did You Kill People?)",
-        "Nelson san, anata wa hito wo koroshimashitaka?"
-      ]
+      "tmdb_id": 1497946
     },
     {
       "title": "Bunker",
       "id": 2300,
-      "director": "Florian Zeller",
-      "year": 2026,
-      "tmdb_id": 1473784,
-      "imdb_id": "tt36770512",
-      "original_title": "Bunker",
-      "original_language": "fr",
-      "alternate_titles": []
+      "tmdb_id": 1473784
     },
     {
       "title": "A New Dawn",
       "id": 2301,
-      "director": "Yoshitoshi Shinomiya",
-      "year": 2026,
-      "tmdb_id": 1279865,
-      "imdb_id": "tt32192760",
-      "original_title": "花緑青が明ける日に",
-      "original_language": "ja",
-      "alternate_titles": []
+      "tmdb_id": 1279865
     },
     {
       "title": "At the Sea",
       "id": 2302,
-      "director": "Kornél Mundruczó",
-      "year": 2026,
-      "tmdb_id": 1279548,
-      "imdb_id": "tt32203967",
-      "original_title": "At the Sea",
-      "original_language": "en",
-      "alternate_titles": []
+      "tmdb_id": 1279548
     },
     {
       "title": "In a Whisper",
       "id": 2303,
-      "director": "Leyla Bouzid",
-      "year": 2026,
-      "tmdb_id": 1119547,
-      "imdb_id": "tt33515714",
-      "original_title": "À voix basse",
-      "original_language": "fr",
-      "alternate_titles": []
+      "tmdb_id": 1119547
     },
     {
       "title": "Dao",
       "id": 2304,
-      "director": "Alain Gomis",
-      "year": 2026,
-      "tmdb_id": 1135582,
-      "imdb_id": "tt32358921",
-      "original_title": "Dao",
-      "original_language": "fr",
-      "alternate_titles": []
+      "tmdb_id": 1135582
     },
     {
       "title": "Dust",
       "id": 2305,
-      "director": "Anke Blondé",
-      "year": 2026,
-      "tmdb_id": 1001375,
-      "imdb_id": "tt8977670",
-      "original_title": "Dust",
-      "original_language": "nl",
-      "alternate_titles": []
+      "tmdb_id": 1001375
     },
     {
       "title": "Home Stories",
       "id": 2306,
-      "director": "Eva Trobisch",
-      "year": 2026,
-      "tmdb_id": 1299061,
-      "imdb_id": "tt39382755",
-      "original_title": "Etwas ganz Besonderes",
-      "original_language": "de",
-      "alternate_titles": []
+      "tmdb_id": 1299061
     },
     {
       "title": "Everybody Digs Bill Evans",
       "id": 2307,
-      "director": "Grant Gee",
-      "year": 2026,
-      "tmdb_id": 1378791,
-      "imdb_id": "tt34347792",
-      "original_title": "Everybody Digs Bill Evans",
-      "original_language": "en",
-      "alternate_titles": []
+      "tmdb_id": 1378791
     },
     {
       "title": "Yellow Letters",
       "id": 2308,
-      "director": "İlker Çatak",
-      "year": 2026,
-      "tmdb_id": 1315657,
-      "imdb_id": "tt32888226",
-      "original_title": "Gelbe Briefe",
-      "original_language": "tr",
-      "alternate_titles": []
+      "tmdb_id": 1315657
     },
     {
       "title": "Josephine",
       "id": 2309,
-      "director": "Beth de Araújo",
-      "year": 2026,
-      "tmdb_id": 1299329,
-      "imdb_id": "tt32321285",
-      "original_title": "Josephine",
-      "original_language": "en",
-      "alternate_titles": []
+      "tmdb_id": 1299329
     },
     {
       "title": "Salvation",
       "id": 2310,
-      "director": "Emin Alper",
-      "year": 2026,
-      "tmdb_id": 1401106,
-      "imdb_id": "tt36472181",
-      "original_title": "Kurtuluş",
-      "original_language": "tr",
-      "alternate_titles": []
+      "tmdb_id": 1401106
     },
     {
       "title": "My Wife Cries",
       "id": 2311,
-      "director": "Angela Schanelec",
-      "year": 2026,
-      "tmdb_id": 1152312,
-      "imdb_id": "tt34934816",
-      "original_title": "Meine Frau weint",
-      "original_language": "de",
-      "alternate_titles": []
+      "tmdb_id": 1152312
     },
     {
       "title": "Flies",
       "id": 2312,
-      "director": "Fernando Eimbcke",
-      "year": 2026,
-      "tmdb_id": 1437703,
-      "imdb_id": "tt35854741",
-      "original_title": "Moscas",
-      "original_language": "es",
-      "alternate_titles": []
+      "tmdb_id": 1437703
     },
     {
       "title": "Nina Roza",
       "id": 2313,
-      "director": "Geneviève Dulude-De Celles",
-      "year": 2026,
-      "tmdb_id": 1527449,
-      "imdb_id": "tt29271639",
-      "original_title": "Nina Roza",
-      "original_language": "fr",
-      "alternate_titles": []
+      "tmdb_id": 1527449
     },
     {
       "title": "Queen at Sea",
       "id": 2314,
-      "director": "Lance Hammer",
-      "year": 2026,
-      "tmdb_id": 1021848,
-      "imdb_id": "tt27541205",
-      "original_title": "Queen at Sea",
-      "original_language": "en",
-      "alternate_titles": []
+      "tmdb_id": 1021848
     },
     {
       "title": "Rose",
       "id": 2315,
-      "director": "Markus Schleinzer",
-      "year": 2026,
-      "tmdb_id": 1176962,
-      "imdb_id": "tt25399154",
-      "original_title": "Rose",
-      "original_language": "de",
-      "alternate_titles": []
+      "tmdb_id": 1176962
     },
     {
       "title": "Rosebush Pruning",
       "id": 2316,
-      "director": "Karim Aïnouz",
-      "year": 2026,
-      "tmdb_id": 1130948,
-      "imdb_id": "tt27844906",
-      "original_title": "Rosebush Pruning",
-      "original_language": "en",
-      "alternate_titles": []
+      "tmdb_id": 1130948
     },
     {
       "title": "Soumsoum, the Night of the Stars",
       "id": 2317,
-      "director": "Mahamat-Saleh Haroun",
-      "year": 2026,
-      "tmdb_id": 1376457,
-      "imdb_id": "tt39075020",
-      "original_title": "Soumsoum, la nuit des astres",
-      "original_language": "fr",
-      "alternate_titles": []
+      "tmdb_id": 1376457
     },
     {
       "title": "The Loneliest Man in Town",
       "id": 2318,
-      "director": "Tizza Covi, Rainer Frimmel",
-      "year": 2026,
-      "tmdb_id": 1426957,
-      "imdb_id": "tt39382808",
-      "original_title": "The Loneliest Man in Town",
-      "original_language": "de",
-      "alternate_titles": []
+      "tmdb_id": 1426957
     },
     {
       "title": "Wolfram",
       "id": 2319,
-      "director": "Warwick Thornton",
-      "year": 2026,
-      "tmdb_id": 1476362,
-      "imdb_id": "tt36826227",
-      "original_title": "Wolfram",
-      "original_language": "en",
-      "alternate_titles": []
+      "tmdb_id": 1476362
     },
     {
       "title": "We Are All Strangers",
       "id": 2320,
-      "director": "Anthony Chen",
-      "year": 2026,
-      "tmdb_id": 884692,
-      "imdb_id": "tt13848364",
-      "original_title": "我们不是陌生人",
-      "original_language": "zh",
-      "alternate_titles": []
+      "tmdb_id": 884692
     },
     {
-      "title": "Yo (Love Is a Rebellious Bird)",
+      "title": "Yo (Love is a Rebellious Bird)",
       "id": 2321,
-      "director": "Anna Fitch, Banker White",
-      "year": 2026,
-      "tmdb_id": 1619820,
-      "imdb_id": "tt39382829",
-      "original_title": "Yo (Love Is a Rebellious Bird)",
-      "original_language": "en",
-      "alternate_titles": [
-        "Yo",
-        "Love is a Rebellious Bird"
-      ]
+      "tmdb_id": 1619820
     },
     {
       "title": "Nightborn",
       "id": 2322,
-      "director": "Hanna Bergholm",
+      "tmdb_id": 964849
+    }
+  ],
+  "added": [
+    {
+      "title": "Cutting Through Rocks",
+      "id": 2323,
+      "director": "Sara Khaki, Mohammad Reza Eyni",
+      "year": 2025,
+      "tmdb_id": 1400793,
+      "imdb_id": "tt10196414",
+      "original_title": "Cutting Through Rocks",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "title": "The Unknown",
+      "id": 2324,
+      "director": "Arthur Harari",
       "year": 2026,
-      "tmdb_id": 964849,
-      "imdb_id": "tt34383465",
-      "original_title": "Yön lapsi",
-      "original_language": "fi",
+      "tmdb_id": 1182935,
+      "imdb_id": "tt32359586",
+      "original_title": "L’inconnue",
+      "original_language": "fr",
+      "alternate_titles": [
+        "The Unknown Woman"
+      ]
+    },
+    {
+      "title": "Sheep in the Box",
+      "id": 2325,
+      "director": "Hirokazu Kore-eda",
+      "year": 2026,
+      "tmdb_id": 1553969,
+      "imdb_id": "tt38551209",
+      "original_title": "箱の中の羊",
+      "original_language": "ja",
+      "alternate_titles": []
+    },
+    {
+      "title": "Look Back",
+      "id": 2326,
+      "director": "Hirokazu Kore-eda",
+      "year": 2026,
+      "tmdb_id": 1591675,
+      "imdb_id": "tt39094466",
+      "original_title": "ルックバック",
+      "original_language": "ja",
       "alternate_titles": []
     }
   ],
   "unresolved": [
-    {
-      "title": "Cutting through Rocks",
-      "director": "Sara Khaki, Mohammadreza Eyni",
-      "year": 2025,
-      "reason": "Expected one title/director match; found 0"
-    },
-    {
-      "title": "The Unknown",
-      "director": "Arthur HARARI",
-      "year": 2026,
-      "reason": "Expected one title/director match; found 0"
-    },
-    {
-      "title": "Sheep in the Box",
-      "director": "Hirokazu Koreeda",
-      "year": 2026,
-      "aliases": [],
-      "reason": "Expected one title/director match; found 0"
-    },
-    {
-      "title": "Look Back",
-      "director": "Hirokazu Koreeda",
-      "year": 2026,
-      "reason": "Expected one title/director match; found 0"
-    },
     {
       "title": "Primetime",
       "director": "Lance Oppenheim",
@@ -828,19 +413,383 @@
       "reason": "TMDB request failed"
     },
     {
-      "event": "Oscars",
-      "reason": "Unresolved film Cutting through Rocks"
-    },
-    {
-      "event": "Cannes",
-      "reason": "Unresolved film The Unknown"
-    },
-    {
       "event": "Venice",
       "reason": "Unresolved film Primetime"
     }
   ],
+  "new_canonical_ids": [
+    {
+      "id": 2254,
+      "title": "F1",
+      "tmdb_id": 911430
+    },
+    {
+      "id": 2255,
+      "title": "Song Sung Blue",
+      "tmdb_id": 1371185
+    },
+    {
+      "id": 2256,
+      "title": "Bridget Jones: Mad About the Boy",
+      "tmdb_id": 1272149
+    },
+    {
+      "id": 2257,
+      "title": "H Is for Hawk",
+      "tmdb_id": 1243006
+    },
+    {
+      "id": 2258,
+      "title": "Mr. Burton",
+      "tmdb_id": 1242454
+    },
+    {
+      "id": 2259,
+      "title": "Apocalypse in the Tropics",
+      "tmdb_id": 1320400
+    },
+    {
+      "id": 2260,
+      "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+      "tmdb_id": 1311031
+    },
+    {
+      "id": 2261,
+      "title": "Hedda",
+      "tmdb_id": 997113
+    },
+    {
+      "id": 2262,
+      "title": "Springsteen: Deliver Me from Nowhere",
+      "tmdb_id": 1230368
+    },
+    {
+      "id": 2263,
+      "title": "Wicked: For Good",
+      "tmdb_id": 967941
+    },
+    {
+      "id": 2264,
+      "title": "Bitter Christmas",
+      "tmdb_id": 1088548
+    },
+    {
+      "id": 2265,
+      "title": "A Woman's Life",
+      "tmdb_id": 1258181
+    },
+    {
+      "id": 2266,
+      "title": "La bola negra",
+      "tmdb_id": 1422041
+    },
+    {
+      "id": 2267,
+      "title": "Coward",
+      "tmdb_id": 1437981
+    },
+    {
+      "id": 2268,
+      "title": "Parallel Tales",
+      "tmdb_id": 1157869
+    },
+    {
+      "id": 2269,
+      "title": "Paper Tiger",
+      "tmdb_id": 1381273
+    },
+    {
+      "id": 2270,
+      "title": "The Dreamed Adventure",
+      "tmdb_id": 1013822
+    },
+    {
+      "id": 2271,
+      "title": "All of a Sudden",
+      "tmdb_id": 1476614
+    },
+    {
+      "id": 2272,
+      "title": "Another Day",
+      "tmdb_id": 1507877
+    },
+    {
+      "id": 2273,
+      "title": "Hope",
+      "tmdb_id": 1058424
+    },
+    {
+      "id": 2274,
+      "title": "Nagi Notes",
+      "tmdb_id": 1448971
+    },
+    {
+      "id": 2275,
+      "title": "Gentle Monster",
+      "tmdb_id": 1473148
+    },
+    {
+      "id": 2276,
+      "title": "A Man of His Time",
+      "tmdb_id": 1318864
+    },
+    {
+      "id": 2277,
+      "title": "Fjord",
+      "tmdb_id": 1401459
+    },
+    {
+      "id": 2278,
+      "title": "The Birthday Party",
+      "tmdb_id": 1191818
+    },
+    {
+      "id": 2279,
+      "title": "Moulin",
+      "tmdb_id": 1437925
+    },
+    {
+      "id": 2280,
+      "title": "Fatherland",
+      "tmdb_id": 1437696
+    },
+    {
+      "id": 2281,
+      "title": "The Man I Love",
+      "tmdb_id": 1458914
+    },
+    {
+      "id": 2282,
+      "title": "The Beloved",
+      "tmdb_id": 1074074
+    },
+    {
+      "id": 2283,
+      "title": "Company",
+      "tmdb_id": 1733908
+    },
+    {
+      "id": 2284,
+      "title": "A Bit of Light",
+      "tmdb_id": 1736490
+    },
+    {
+      "id": 2285,
+      "title": "Back to Buenos Aires",
+      "tmdb_id": 1597199
+    },
+    {
+      "id": 2286,
+      "title": "Ink",
+      "tmdb_id": 1532610
+    },
+    {
+      "id": 2287,
+      "title": "A Good Little Soldier",
+      "tmdb_id": 1430815
+    },
+    {
+      "id": 2288,
+      "title": "The Fire Within You",
+      "tmdb_id": 1632188
+    },
+    {
+      "id": 2289,
+      "title": "Woman Unknown",
+      "tmdb_id": 1511780
+    },
+    {
+      "id": 2290,
+      "title": "Bucking Fastard",
+      "tmdb_id": 1429713
+    },
+    {
+      "id": 2291,
+      "title": "A Place to Heal",
+      "tmdb_id": 1429602
+    },
+    {
+      "id": 2292,
+      "title": "DAU",
+      "tmdb_id": 1734147
+    },
+    {
+      "id": 2293,
+      "title": "Possible Love",
+      "tmdb_id": 1483525
+    },
+    {
+      "id": 2294,
+      "title": "Wild Horse Nine",
+      "tmdb_id": 891621
+    },
+    {
+      "id": 2295,
+      "title": "It Will Happen Tonight",
+      "tmdb_id": 1499546
+    },
+    {
+      "id": 2296,
+      "title": "The Echo Chamber",
+      "tmdb_id": 1576934
+    },
+    {
+      "id": 2297,
+      "title": "One Minute to Midnight",
+      "tmdb_id": 1480672
+    },
+    {
+      "id": 2298,
+      "title": "The Spiral",
+      "tmdb_id": 1412795
+    },
+    {
+      "id": 2299,
+      "title": "Mr. Nelson, Did You Kill People?",
+      "tmdb_id": 1497946
+    },
+    {
+      "id": 2300,
+      "title": "Bunker",
+      "tmdb_id": 1473784
+    },
+    {
+      "id": 2301,
+      "title": "A New Dawn",
+      "tmdb_id": 1279865
+    },
+    {
+      "id": 2302,
+      "title": "At the Sea",
+      "tmdb_id": 1279548
+    },
+    {
+      "id": 2303,
+      "title": "In a Whisper",
+      "tmdb_id": 1119547
+    },
+    {
+      "id": 2304,
+      "title": "Dao",
+      "tmdb_id": 1135582
+    },
+    {
+      "id": 2305,
+      "title": "Dust",
+      "tmdb_id": 1001375
+    },
+    {
+      "id": 2306,
+      "title": "Home Stories",
+      "tmdb_id": 1299061
+    },
+    {
+      "id": 2307,
+      "title": "Everybody Digs Bill Evans",
+      "tmdb_id": 1378791
+    },
+    {
+      "id": 2308,
+      "title": "Yellow Letters",
+      "tmdb_id": 1315657
+    },
+    {
+      "id": 2309,
+      "title": "Josephine",
+      "tmdb_id": 1299329
+    },
+    {
+      "id": 2310,
+      "title": "Salvation",
+      "tmdb_id": 1401106
+    },
+    {
+      "id": 2311,
+      "title": "My Wife Cries",
+      "tmdb_id": 1152312
+    },
+    {
+      "id": 2312,
+      "title": "Flies",
+      "tmdb_id": 1437703
+    },
+    {
+      "id": 2313,
+      "title": "Nina Roza",
+      "tmdb_id": 1527449
+    },
+    {
+      "id": 2314,
+      "title": "Queen at Sea",
+      "tmdb_id": 1021848
+    },
+    {
+      "id": 2315,
+      "title": "Rose",
+      "tmdb_id": 1176962
+    },
+    {
+      "id": 2316,
+      "title": "Rosebush Pruning",
+      "tmdb_id": 1130948
+    },
+    {
+      "id": 2317,
+      "title": "Soumsoum, the Night of the Stars",
+      "tmdb_id": 1376457
+    },
+    {
+      "id": 2318,
+      "title": "The Loneliest Man in Town",
+      "tmdb_id": 1426957
+    },
+    {
+      "id": 2319,
+      "title": "Wolfram",
+      "tmdb_id": 1476362
+    },
+    {
+      "id": 2320,
+      "title": "We Are All Strangers",
+      "tmdb_id": 884692
+    },
+    {
+      "id": 2321,
+      "title": "Yo (Love Is a Rebellious Bird)",
+      "tmdb_id": 1619820
+    },
+    {
+      "id": 2322,
+      "title": "Nightborn",
+      "tmdb_id": 964849
+    },
+    {
+      "id": 2323,
+      "title": "Cutting Through Rocks",
+      "tmdb_id": 1400793
+    },
+    {
+      "id": 2324,
+      "title": "The Unknown",
+      "tmdb_id": 1182935
+    },
+    {
+      "id": 2325,
+      "title": "Sheep in the Box",
+      "tmdb_id": 1553969
+    },
+    {
+      "id": 2326,
+      "title": "Look Back",
+      "tmdb_id": 1591675
+    }
+  ],
   "event_counts": [
+    {
+      "event": "Oscars",
+      "films": 27,
+      "categories": 11
+    },
     {
       "event": "BAFTA",
       "films": 31,
@@ -850,6 +799,11 @@
       "event": "Golden Globes",
       "films": 33,
       "categories": 12
+    },
+    {
+      "event": "Cannes",
+      "films": 22,
+      "categories": 7
     },
     {
       "event": "Berlinale",

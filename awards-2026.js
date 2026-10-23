@@ -1,5 +1,629 @@
 window.CULTURE_AWARDS_2026 = [
   {
+    "event": "Oscars",
+    "year": 2026,
+    "section": "Major Film Categories",
+    "dates": "15 March 2026",
+    "source": "https://www.oscars.org/oscars/ceremonies/2026",
+    "awardsSource": "https://www.oscars.org/oscars/ceremonies/2026",
+    "resultsUrl": "https://www.oscars.org/oscars/ceremonies/2026",
+    "categories": [
+      {
+        "id": "best-picture",
+        "name": "Best Picture",
+        "nominees": [
+          4,
+          51,
+          2254,
+          52,
+          18,
+          50,
+          3,
+          2,
+          5,
+          19
+        ],
+        "winner": 4,
+        "winners": [
+          4
+        ],
+        "entries": [
+          {
+            "film_id": 4,
+            "person": "Adam Somner, Sara Murphy and Paul Thomas Anderson, Producers",
+            "winner": true
+          },
+          {
+            "film_id": 51,
+            "person": "Ed Guiney & Andrew Lowe, Yorgos Lanthimos, Emma Stone and Lars Knudsen, Producers",
+            "winner": false
+          },
+          {
+            "film_id": 2254,
+            "person": "Chad Oman, Brad Pitt, Dede Gardner, Jeremy Kleiner, Joseph Kosinski and Jerry Bruckheimer, Producers",
+            "winner": false
+          },
+          {
+            "film_id": 52,
+            "person": "Guillermo del Toro, J. Miles Dale and Scott Stuber, Producers",
+            "winner": false
+          },
+          {
+            "film_id": 18,
+            "person": "Liza Marshall, Pippa Harris, Nicolas Gonda, Steven Spielberg and Sam Mendes, Producers",
+            "winner": false
+          },
+          {
+            "film_id": 50,
+            "person": "Eli Bush, Ronald Bronstein, Josh Safdie, Anthony Katagas and Timothée Chalamet, Producers",
+            "winner": false
+          },
+          {
+            "film_id": 3,
+            "person": "Emilie Lesclaux, Producer",
+            "winner": false
+          },
+          {
+            "film_id": 2,
+            "person": "Maria Ekerhovd and Andrea Berentsen Ottmar, Producers",
+            "winner": false
+          },
+          {
+            "film_id": 5,
+            "person": "Zinzi Coogler, Sev Ohanian and Ryan Coogler, Producers",
+            "winner": false
+          },
+          {
+            "film_id": 19,
+            "person": "Marissa McMahon, Teddy Schwarzman, Will Janowitz, Ashley Schlaifer and Michael Heimler, Producers",
+            "winner": false
+          }
+        ]
+      },
+      {
+        "id": "directing",
+        "name": "Directing",
+        "nominees": [
+          4,
+          18,
+          50,
+          2,
+          5
+        ],
+        "winner": 4,
+        "winners": [
+          4
+        ],
+        "entries": [
+          {
+            "film_id": 4,
+            "person": "Paul Thomas Anderson",
+            "winner": true
+          },
+          {
+            "film_id": 18,
+            "person": "Chloé Zhao",
+            "winner": false
+          },
+          {
+            "film_id": 50,
+            "person": "Josh Safdie",
+            "winner": false
+          },
+          {
+            "film_id": 2,
+            "person": "Joachim Trier",
+            "winner": false
+          },
+          {
+            "film_id": 5,
+            "person": "Ryan Coogler",
+            "winner": false
+          }
+        ]
+      },
+      {
+        "id": "actor-in-a-leading-role",
+        "name": "Actor in a Leading Role",
+        "nominees": [
+          5,
+          50,
+          4,
+          36,
+          3
+        ],
+        "winner": 5,
+        "winners": [
+          5
+        ],
+        "entries": [
+          {
+            "film_id": 5,
+            "person": "Michael B. Jordan",
+            "winner": true
+          },
+          {
+            "film_id": 50,
+            "person": "Timothée Chalamet",
+            "winner": false
+          },
+          {
+            "film_id": 4,
+            "person": "Leonardo DiCaprio",
+            "winner": false
+          },
+          {
+            "film_id": 36,
+            "person": "Ethan Hawke",
+            "winner": false
+          },
+          {
+            "film_id": 3,
+            "person": "Wagner Moura",
+            "winner": false
+          }
+        ]
+      },
+      {
+        "id": "actress-in-a-leading-role",
+        "name": "Actress in a Leading Role",
+        "nominees": [
+          18,
+          35,
+          2255,
+          2,
+          51
+        ],
+        "winner": 18,
+        "winners": [
+          18
+        ],
+        "entries": [
+          {
+            "film_id": 18,
+            "person": "Jessie Buckley",
+            "winner": true
+          },
+          {
+            "film_id": 35,
+            "person": "Rose Byrne",
+            "winner": false
+          },
+          {
+            "film_id": 2255,
+            "person": "Kate Hudson",
+            "winner": false
+          },
+          {
+            "film_id": 2,
+            "person": "Renate Reinsve",
+            "winner": false
+          },
+          {
+            "film_id": 51,
+            "person": "Emma Stone",
+            "winner": false
+          }
+        ]
+      },
+      {
+        "id": "actor-in-a-supporting-role",
+        "name": "Actor in a Supporting Role",
+        "nominees": [
+          4,
+          52,
+          5,
+          2
+        ],
+        "winner": 4,
+        "winners": [
+          4
+        ],
+        "entries": [
+          {
+            "film_id": 4,
+            "person": "Sean Penn",
+            "winner": true
+          },
+          {
+            "film_id": 4,
+            "person": "Benicio Del Toro",
+            "winner": false
+          },
+          {
+            "film_id": 52,
+            "person": "Jacob Elordi",
+            "winner": false
+          },
+          {
+            "film_id": 5,
+            "person": "Delroy Lindo",
+            "winner": false
+          },
+          {
+            "film_id": 2,
+            "person": "Stellan Skarsgård",
+            "winner": false
+          }
+        ]
+      },
+      {
+        "id": "actress-in-a-supporting-role",
+        "name": "Actress in a Supporting Role",
+        "nominees": [
+          85,
+          2,
+          5,
+          4
+        ],
+        "winner": 85,
+        "winners": [
+          85
+        ],
+        "entries": [
+          {
+            "film_id": 85,
+            "person": "Amy Madigan",
+            "winner": true
+          },
+          {
+            "film_id": 2,
+            "person": "Elle Fanning",
+            "winner": false
+          },
+          {
+            "film_id": 2,
+            "person": "Inga Ibsdotter Lilleaas",
+            "winner": false
+          },
+          {
+            "film_id": 5,
+            "person": "Wunmi Mosaku",
+            "winner": false
+          },
+          {
+            "film_id": 4,
+            "person": "Teyana Taylor",
+            "winner": false
+          }
+        ]
+      },
+      {
+        "id": "writing-original-screenplay",
+        "name": "Writing (Original Screenplay)",
+        "nominees": [
+          5,
+          36,
+          1,
+          50,
+          2
+        ],
+        "winner": 5,
+        "winners": [
+          5
+        ],
+        "entries": [
+          {
+            "film_id": 5,
+            "person": "Written by Ryan Coogler",
+            "winner": true
+          },
+          {
+            "film_id": 36,
+            "person": "Written by Robert Kaplow",
+            "winner": false
+          },
+          {
+            "film_id": 1,
+            "person": "Written by Jafar Panahi; Script collaborators - Nader Saïvar, Shadmehr Rastin, Mehdi Mahmoudian",
+            "winner": false
+          },
+          {
+            "film_id": 50,
+            "person": "Written by Ronald Bronstein & Josh Safdie",
+            "winner": false
+          },
+          {
+            "film_id": 2,
+            "person": "Written by Eskil Vogt, Joachim Trier",
+            "winner": false
+          }
+        ]
+      },
+      {
+        "id": "writing-adapted-screenplay",
+        "name": "Writing (Adapted Screenplay)",
+        "nominees": [
+          4,
+          51,
+          52,
+          18,
+          19
+        ],
+        "winner": 4,
+        "winners": [
+          4
+        ],
+        "entries": [
+          {
+            "film_id": 4,
+            "person": "Written by Paul Thomas Anderson",
+            "winner": true
+          },
+          {
+            "film_id": 51,
+            "person": "Screenplay by Will Tracy",
+            "winner": false
+          },
+          {
+            "film_id": 52,
+            "person": "Written for the Screen by Guillermo del Toro",
+            "winner": false
+          },
+          {
+            "film_id": 18,
+            "person": "Screenplay by Chloé Zhao & Maggie O'Farrell",
+            "winner": false
+          },
+          {
+            "film_id": 19,
+            "person": "Screenplay by Clint Bentley & Greg Kwedar",
+            "winner": false
+          }
+        ]
+      },
+      {
+        "id": "international-feature-film",
+        "name": "International Feature Film",
+        "nominees": [
+          2,
+          3,
+          1,
+          7,
+          9
+        ],
+        "winner": 2,
+        "winners": [
+          2
+        ],
+        "entries": [
+          {
+            "film_id": 2,
+            "winner": true
+          },
+          {
+            "film_id": 3,
+            "winner": false
+          },
+          {
+            "film_id": 1,
+            "winner": false
+          },
+          {
+            "film_id": 7,
+            "winner": false
+          },
+          {
+            "film_id": 9,
+            "winner": false
+          }
+        ]
+      },
+      {
+        "id": "documentary-feature-film",
+        "name": "Documentary Feature Film",
+        "nominees": [
+          63,
+          91,
+          92,
+          2323,
+          25
+        ],
+        "winner": 63,
+        "winners": [
+          63
+        ],
+        "entries": [
+          {
+            "film_id": 63,
+            "person": "David Borenstein, Pavel Talankin, Helle Faber and Alžběta Karásková",
+            "winner": true
+          },
+          {
+            "film_id": 91,
+            "person": "Andrew Jarecki and Charlotte Kaufman",
+            "winner": false
+          },
+          {
+            "film_id": 92,
+            "person": "Ryan White, Jessica Hargrave, Tig Notaro and Stef Willen",
+            "winner": false
+          },
+          {
+            "film_id": 2323,
+            "person": "Sara Khaki and Mohammadreza Eyni",
+            "winner": false
+          },
+          {
+            "film_id": 25,
+            "person": "Geeta Gandbhir, Alisa Payne, Nikon Kwantu and Sam Bisbee",
+            "winner": false
+          }
+        ]
+      },
+      {
+        "id": "animated-feature-film",
+        "name": "Animated Feature Film",
+        "nominees": [
+          67,
+          26,
+          96,
+          27,
+          69
+        ],
+        "winner": 67,
+        "winners": [
+          67
+        ],
+        "entries": [
+          {
+            "film_id": 67,
+            "person": "Maggie Kang, Chris Appelhans and Michelle L.M. Wong",
+            "winner": true
+          },
+          {
+            "film_id": 26,
+            "person": "Ugo Bienvenu, Félix de Givry, Sophie Mas and Natalie Portman",
+            "winner": false
+          },
+          {
+            "film_id": 96,
+            "person": "Madeline Sharafian, Domee Shi, Adrian Molina and Mary Alice Drumm",
+            "winner": false
+          },
+          {
+            "film_id": 27,
+            "person": "Maïlys Vallade, Liane-Cho Han, Nidia Santiago and Henri Magalon",
+            "winner": false
+          },
+          {
+            "film_id": 69,
+            "person": "Jared Bush, Byron Howard and Yvett Merino",
+            "winner": false
+          }
+        ]
+      }
+    ],
+    "films": [
+      {
+        "id": 4,
+        "awards": [
+          "Best Picture",
+          "Directing",
+          "Actor in a Supporting Role",
+          "Writing (Adapted Screenplay)"
+        ]
+      },
+      {
+        "id": 51,
+        "awards": []
+      },
+      {
+        "id": 2254,
+        "awards": []
+      },
+      {
+        "id": 52,
+        "awards": []
+      },
+      {
+        "id": 18,
+        "awards": [
+          "Actress in a Leading Role"
+        ]
+      },
+      {
+        "id": 50,
+        "awards": []
+      },
+      {
+        "id": 3,
+        "awards": []
+      },
+      {
+        "id": 2,
+        "awards": [
+          "International Feature Film"
+        ]
+      },
+      {
+        "id": 5,
+        "awards": [
+          "Actor in a Leading Role",
+          "Writing (Original Screenplay)"
+        ]
+      },
+      {
+        "id": 19,
+        "awards": []
+      },
+      {
+        "id": 36,
+        "awards": []
+      },
+      {
+        "id": 35,
+        "awards": []
+      },
+      {
+        "id": 2255,
+        "awards": []
+      },
+      {
+        "id": 85,
+        "awards": [
+          "Actress in a Supporting Role"
+        ]
+      },
+      {
+        "id": 1,
+        "awards": []
+      },
+      {
+        "id": 7,
+        "awards": []
+      },
+      {
+        "id": 9,
+        "awards": []
+      },
+      {
+        "id": 63,
+        "awards": [
+          "Documentary Feature Film"
+        ]
+      },
+      {
+        "id": 91,
+        "awards": []
+      },
+      {
+        "id": 92,
+        "awards": []
+      },
+      {
+        "id": 2323,
+        "awards": []
+      },
+      {
+        "id": 25,
+        "awards": []
+      },
+      {
+        "id": 67,
+        "awards": [
+          "Animated Feature Film"
+        ]
+      },
+      {
+        "id": 26,
+        "awards": []
+      },
+      {
+        "id": 96,
+        "awards": []
+      },
+      {
+        "id": 27,
+        "awards": []
+      },
+      {
+        "id": 69,
+        "awards": []
+      }
+    ]
+  },
+  {
     "event": "BAFTA",
     "year": 2026,
     "section": "Major Film Categories",
@@ -1379,6 +2003,375 @@ window.CULTURE_AWARDS_2026 = [
       {
         "id": 85,
         "awards": []
+      }
+    ]
+  },
+  {
+    "event": "Cannes",
+    "year": 2026,
+    "section": "Main Competition",
+    "dates": "12–23 May 2026",
+    "source": "https://www.festival-cannes.com/en/press/press-releases/the-films-of-the-official-selection-2026/",
+    "awardsSource": "https://www.festival-cannes.com/en/press/press-releases/the-79th-festival-de-cannes-winners-list/",
+    "resultsUrl": "https://www.festival-cannes.com/en/press/press-releases/the-79th-festival-de-cannes-winners-list/",
+    "categories": [
+      {
+        "id": "palme-d-or",
+        "name": "Palme d’Or",
+        "nominees": [
+          2277,
+          2264,
+          2265,
+          2266,
+          2267,
+          2268,
+          2269,
+          2270,
+          2271,
+          2324,
+          2272,
+          2325,
+          2273,
+          2274,
+          2275,
+          2276,
+          2278,
+          2279,
+          2280,
+          2281,
+          2282,
+          2233
+        ],
+        "winner": 2277,
+        "winners": [
+          2277
+        ],
+        "entries": [
+          {
+            "film_id": 2277,
+            "winner": true
+          },
+          {
+            "film_id": 2264,
+            "winner": false
+          },
+          {
+            "film_id": 2265,
+            "winner": false
+          },
+          {
+            "film_id": 2266,
+            "winner": false
+          },
+          {
+            "film_id": 2267,
+            "winner": false
+          },
+          {
+            "film_id": 2268,
+            "winner": false
+          },
+          {
+            "film_id": 2269,
+            "winner": false
+          },
+          {
+            "film_id": 2270,
+            "winner": false
+          },
+          {
+            "film_id": 2271,
+            "winner": false
+          },
+          {
+            "film_id": 2324,
+            "winner": false
+          },
+          {
+            "film_id": 2272,
+            "winner": false
+          },
+          {
+            "film_id": 2325,
+            "winner": false
+          },
+          {
+            "film_id": 2273,
+            "winner": false
+          },
+          {
+            "film_id": 2274,
+            "winner": false
+          },
+          {
+            "film_id": 2275,
+            "winner": false
+          },
+          {
+            "film_id": 2276,
+            "winner": false
+          },
+          {
+            "film_id": 2278,
+            "winner": false
+          },
+          {
+            "film_id": 2279,
+            "winner": false
+          },
+          {
+            "film_id": 2280,
+            "winner": false
+          },
+          {
+            "film_id": 2281,
+            "winner": false
+          },
+          {
+            "film_id": 2282,
+            "winner": false
+          },
+          {
+            "film_id": 2233,
+            "winner": false
+          }
+        ],
+        "nomination_kind": "competition"
+      },
+      {
+        "id": "grand-prix",
+        "name": "Grand Prix",
+        "nominees": [
+          2233
+        ],
+        "winner": 2233,
+        "winners": [
+          2233
+        ],
+        "entries": [
+          {
+            "film_id": 2233,
+            "winner": true
+          }
+        ],
+        "nomination_kind": "winners_only"
+      },
+      {
+        "id": "best-director",
+        "name": "Best Director",
+        "nominees": [
+          2266,
+          2280
+        ],
+        "winner": 2266,
+        "winners": [
+          2266,
+          2280
+        ],
+        "entries": [
+          {
+            "film_id": 2266,
+            "person": "Javier Calvo & Javier Ambrossi",
+            "winner": true
+          },
+          {
+            "film_id": 2280,
+            "person": "Paweł Pawlikowski",
+            "winner": true
+          }
+        ],
+        "nomination_kind": "winners_only"
+      },
+      {
+        "id": "jury-prize",
+        "name": "Jury Prize",
+        "nominees": [
+          2270
+        ],
+        "winner": 2270,
+        "winners": [
+          2270
+        ],
+        "entries": [
+          {
+            "film_id": 2270,
+            "winner": true
+          }
+        ],
+        "nomination_kind": "winners_only"
+      },
+      {
+        "id": "best-screenplay",
+        "name": "Best Screenplay",
+        "nominees": [
+          2276
+        ],
+        "winner": 2276,
+        "winners": [
+          2276
+        ],
+        "entries": [
+          {
+            "film_id": 2276,
+            "person": "Emmanuel Marre",
+            "winner": true
+          }
+        ],
+        "nomination_kind": "winners_only"
+      },
+      {
+        "id": "best-actress",
+        "name": "Best Actress",
+        "nominees": [
+          2271
+        ],
+        "winner": 2271,
+        "winners": [
+          2271
+        ],
+        "entries": [
+          {
+            "film_id": 2271,
+            "person": "Virginie Efira",
+            "winner": true
+          },
+          {
+            "film_id": 2271,
+            "person": "Tao Okamoto",
+            "winner": true
+          }
+        ],
+        "nomination_kind": "winners_only"
+      },
+      {
+        "id": "best-actor",
+        "name": "Best Actor",
+        "nominees": [
+          2267
+        ],
+        "winner": 2267,
+        "winners": [
+          2267
+        ],
+        "entries": [
+          {
+            "film_id": 2267,
+            "person": "Emmanuel Macchia",
+            "winner": true
+          },
+          {
+            "film_id": 2267,
+            "person": "Valentin Campagne",
+            "winner": true
+          }
+        ],
+        "nomination_kind": "winners_only"
+      }
+    ],
+    "films": [
+      {
+        "id": 2277,
+        "awards": [
+          "Palme d’Or"
+        ]
+      },
+      {
+        "id": 2264,
+        "awards": []
+      },
+      {
+        "id": 2265,
+        "awards": []
+      },
+      {
+        "id": 2266,
+        "awards": [
+          "Best Director"
+        ]
+      },
+      {
+        "id": 2267,
+        "awards": [
+          "Best Actor"
+        ]
+      },
+      {
+        "id": 2268,
+        "awards": []
+      },
+      {
+        "id": 2269,
+        "awards": []
+      },
+      {
+        "id": 2270,
+        "awards": [
+          "Jury Prize"
+        ]
+      },
+      {
+        "id": 2271,
+        "awards": [
+          "Best Actress"
+        ]
+      },
+      {
+        "id": 2324,
+        "awards": []
+      },
+      {
+        "id": 2272,
+        "awards": []
+      },
+      {
+        "id": 2325,
+        "awards": []
+      },
+      {
+        "id": 2273,
+        "awards": []
+      },
+      {
+        "id": 2274,
+        "awards": []
+      },
+      {
+        "id": 2275,
+        "awards": []
+      },
+      {
+        "id": 2276,
+        "awards": [
+          "Best Screenplay"
+        ]
+      },
+      {
+        "id": 2278,
+        "awards": []
+      },
+      {
+        "id": 2279,
+        "awards": []
+      },
+      {
+        "id": 2280,
+        "awards": [
+          "Best Director"
+        ]
+      },
+      {
+        "id": 2281,
+        "awards": []
+      },
+      {
+        "id": 2282,
+        "awards": []
+      },
+      {
+        "id": 2233,
+        "awards": [
+          "Grand Prix"
+        ]
       }
     ]
   },

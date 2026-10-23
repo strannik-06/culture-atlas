@@ -22751,5 +22751,51 @@ window.CULTURE_CATALOG = [
     "original_title": "Yön lapsi",
     "original_language": "fi",
     "alternate_titles": []
+  },
+  {
+    "id": 2323,
+    "title": "Cutting Through Rocks",
+    "director": "Sara Khaki, Mohammad Reza Eyni",
+    "year": 2025,
+    "tmdb_id": 1400793,
+    "imdb_id": "tt10196414",
+    "original_title": "Cutting Through Rocks",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 2324,
+    "title": "The Unknown",
+    "director": "Arthur Harari",
+    "year": 2026,
+    "tmdb_id": 1182935,
+    "imdb_id": "tt32359586",
+    "original_title": "L’inconnue",
+    "original_language": "fr",
+    "alternate_titles": [
+      "The Unknown Woman"
+    ]
+  },
+  {
+    "id": 2325,
+    "title": "Sheep in the Box",
+    "director": "Hirokazu Kore-eda",
+    "year": 2026,
+    "tmdb_id": 1553969,
+    "imdb_id": "tt38551209",
+    "original_title": "箱の中の羊",
+    "original_language": "ja",
+    "alternate_titles": []
+  },
+  {
+    "id": 2326,
+    "title": "Look Back",
+    "director": "Hirokazu Kore-eda",
+    "year": 2026,
+    "tmdb_id": 1591675,
+    "imdb_id": "tt39094466",
+    "original_title": "ルックバック",
+    "original_language": "ja",
+    "alternate_titles": []
   }
 ];
