@@ -2016,10 +2016,12 @@ window.CULTURE_AWARDS_2026 = [
     "resultsUrl": "https://www.festival-cannes.com/en/press/press-releases/the-79th-festival-de-cannes-winners-list/",
     "categories": [
       {
-        "id": "palme-d-or",
-        "name": "Palme d’Or",
+        "id": "main-competition",
+        "name": "Main Competition",
+        "nomination_kind": "competition",
+        "source": "https://www.festival-cannes.com/en/press/press-releases/the-films-of-the-official-selection-2026/",
+        "awardsSource": "https://www.festival-cannes.com/en/press/press-releases/the-79th-festival-de-cannes-winners-list/",
         "nominees": [
-          2277,
           2264,
           2265,
           2266,
@@ -2035,6 +2037,7 @@ window.CULTURE_AWARDS_2026 = [
           2274,
           2275,
           2276,
+          2277,
           2278,
           2279,
           2280,
@@ -2044,237 +2047,333 @@ window.CULTURE_AWARDS_2026 = [
         ],
         "winner": 2277,
         "winners": [
-          2277
+          2277,
+          2233,
+          2266,
+          2280,
+          2270,
+          2276,
+          2271,
+          2267
         ],
         "entries": [
           {
-            "film_id": 2277,
-            "winner": true
-          },
-          {
             "film_id": 2264,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2265,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2266,
-            "winner": false
+            "winner": true,
+            "prizes": [
+              "Best Director · Javier Calvo & Javier Ambrossi"
+            ],
+            "prize_rank": 2
           },
           {
             "film_id": 2267,
-            "winner": false
+            "winner": true,
+            "prizes": [
+              "Best Actor · Emmanuel Macchia, Valentin Campagne"
+            ],
+            "prize_rank": 6
           },
           {
             "film_id": 2268,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2269,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2270,
-            "winner": false
+            "winner": true,
+            "prizes": [
+              "Jury Prize"
+            ],
+            "prize_rank": 3
           },
           {
             "film_id": 2271,
-            "winner": false
+            "winner": true,
+            "prizes": [
+              "Best Actress · Virginie Efira, Tao Okamoto"
+            ],
+            "prize_rank": 5
           },
           {
             "film_id": 2324,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2272,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2325,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2273,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2274,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2275,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2276,
-            "winner": false
+            "winner": true,
+            "prizes": [
+              "Best Screenplay · Emmanuel Marre"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 2277,
+            "winner": true,
+            "prizes": [
+              "Palme d’Or"
+            ],
+            "prize_rank": 0
           },
           {
             "film_id": 2278,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2279,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2280,
-            "winner": false
+            "winner": true,
+            "prizes": [
+              "Best Director · Paweł Pawlikowski"
+            ],
+            "prize_rank": 2
           },
           {
             "film_id": 2281,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2282,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2233,
-            "winner": false
+            "winner": true,
+            "prizes": [
+              "Grand Prix"
+            ],
+            "prize_rank": 1
           }
-        ],
-        "nomination_kind": "competition"
+        ]
       },
       {
-        "id": "grand-prix",
-        "name": "Grand Prix",
+        "id": "un-certain-regard",
+        "name": "Un Certain Regard",
+        "nomination_kind": "competition",
+        "source": "https://www.festival-cannes.com/en/press/press-releases/the-films-of-the-official-selection-2026/",
+        "awardsSource": "https://www.festival-cannes.com/en/press/press-releases/un-certain-regard-winners-list-2026/",
         "nominees": [
-          2233
+          2328,
+          2329,
+          2330,
+          2331,
+          2332,
+          2333,
+          2334,
+          2335,
+          2336,
+          2337,
+          2338,
+          2339,
+          2340,
+          2341,
+          2342,
+          2343,
+          2344,
+          2345,
+          2346
         ],
-        "winner": 2233,
+        "winner": 2343,
         "winners": [
-          2233
+          2343,
+          2329,
+          2330,
+          2332,
+          2339,
+          2331
         ],
         "entries": [
           {
-            "film_id": 2233,
-            "winner": true
-          }
-        ],
-        "nomination_kind": "winners_only"
-      },
-      {
-        "id": "best-director",
-        "name": "Best Director",
-        "nominees": [
-          2266,
-          2280
-        ],
-        "winner": 2266,
-        "winners": [
-          2266,
-          2280
-        ],
-        "entries": [
-          {
-            "film_id": 2266,
-            "person": "Javier Calvo & Javier Ambrossi",
-            "winner": true
+            "film_id": 2328,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
-            "film_id": 2280,
-            "person": "Paweł Pawlikowski",
-            "winner": true
-          }
-        ],
-        "nomination_kind": "winners_only"
-      },
-      {
-        "id": "jury-prize",
-        "name": "Jury Prize",
-        "nominees": [
-          2270
-        ],
-        "winner": 2270,
-        "winners": [
-          2270
-        ],
-        "entries": [
-          {
-            "film_id": 2270,
-            "winner": true
-          }
-        ],
-        "nomination_kind": "winners_only"
-      },
-      {
-        "id": "best-screenplay",
-        "name": "Best Screenplay",
-        "nominees": [
-          2276
-        ],
-        "winner": 2276,
-        "winners": [
-          2276
-        ],
-        "entries": [
-          {
-            "film_id": 2276,
-            "person": "Emmanuel Marre",
-            "winner": true
-          }
-        ],
-        "nomination_kind": "winners_only"
-      },
-      {
-        "id": "best-actress",
-        "name": "Best Actress",
-        "nominees": [
-          2271
-        ],
-        "winner": 2271,
-        "winners": [
-          2271
-        ],
-        "entries": [
-          {
-            "film_id": 2271,
-            "person": "Virginie Efira",
-            "winner": true
+            "film_id": 2329,
+            "winner": true,
+            "prizes": [
+              "Jury Prize"
+            ],
+            "prize_rank": 1
           },
           {
-            "film_id": 2271,
-            "person": "Tao Okamoto",
-            "winner": true
-          }
-        ],
-        "nomination_kind": "winners_only"
-      },
-      {
-        "id": "best-actor",
-        "name": "Best Actor",
-        "nominees": [
-          2267
-        ],
-        "winner": 2267,
-        "winners": [
-          2267
-        ],
-        "entries": [
-          {
-            "film_id": 2267,
-            "person": "Emmanuel Macchia",
-            "winner": true
+            "film_id": 2330,
+            "winner": true,
+            "prizes": [
+              "Special Jury Prize"
+            ],
+            "prize_rank": 2
           },
           {
-            "film_id": 2267,
-            "person": "Valentin Campagne",
-            "winner": true
+            "film_id": 2331,
+            "winner": true,
+            "prizes": [
+              "Caméra d’or"
+            ],
+            "prize_rank": 5
+          },
+          {
+            "film_id": 2332,
+            "winner": true,
+            "prizes": [
+              "Best Actor · Bradley Fiomona Dembeasset"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 2333,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2334,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2335,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2336,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2337,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2338,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2339,
+            "winner": true,
+            "prizes": [
+              "Best Actresses · Marina de Tavira, Daniela Marín Navarro, Mariangel Villegas"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 2340,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2341,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2342,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2343,
+            "winner": true,
+            "prizes": [
+              "Un Certain Regard Prize"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 2344,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2345,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2346,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           }
-        ],
-        "nomination_kind": "winners_only"
+        ]
       }
     ],
     "films": [
-      {
-        "id": 2277,
-        "awards": [
-          "Palme d’Or"
-        ]
-      },
       {
         "id": 2264,
         "awards": []
@@ -2286,13 +2385,13 @@ window.CULTURE_AWARDS_2026 = [
       {
         "id": 2266,
         "awards": [
-          "Best Director"
+          "Best Director · Javier Calvo & Javier Ambrossi"
         ]
       },
       {
         "id": 2267,
         "awards": [
-          "Best Actor"
+          "Best Actor · Emmanuel Macchia, Valentin Campagne"
         ]
       },
       {
@@ -2312,7 +2411,7 @@ window.CULTURE_AWARDS_2026 = [
       {
         "id": 2271,
         "awards": [
-          "Best Actress"
+          "Best Actress · Virginie Efira, Tao Okamoto"
         ]
       },
       {
@@ -2342,7 +2441,13 @@ window.CULTURE_AWARDS_2026 = [
       {
         "id": 2276,
         "awards": [
-          "Best Screenplay"
+          "Best Screenplay · Emmanuel Marre"
+        ]
+      },
+      {
+        "id": 2277,
+        "awards": [
+          "Palme d’Or"
         ]
       },
       {
@@ -2356,7 +2461,7 @@ window.CULTURE_AWARDS_2026 = [
       {
         "id": 2280,
         "awards": [
-          "Best Director"
+          "Best Director · Paweł Pawlikowski"
         ]
       },
       {
@@ -2372,6 +2477,94 @@ window.CULTURE_AWARDS_2026 = [
         "awards": [
           "Grand Prix"
         ]
+      },
+      {
+        "id": 2328,
+        "awards": []
+      },
+      {
+        "id": 2329,
+        "awards": [
+          "Jury Prize"
+        ]
+      },
+      {
+        "id": 2330,
+        "awards": [
+          "Special Jury Prize"
+        ]
+      },
+      {
+        "id": 2331,
+        "awards": [
+          "Caméra d’or"
+        ]
+      },
+      {
+        "id": 2332,
+        "awards": [
+          "Best Actor · Bradley Fiomona Dembeasset"
+        ]
+      },
+      {
+        "id": 2333,
+        "awards": []
+      },
+      {
+        "id": 2334,
+        "awards": []
+      },
+      {
+        "id": 2335,
+        "awards": []
+      },
+      {
+        "id": 2336,
+        "awards": []
+      },
+      {
+        "id": 2337,
+        "awards": []
+      },
+      {
+        "id": 2338,
+        "awards": []
+      },
+      {
+        "id": 2339,
+        "awards": [
+          "Best Actresses · Marina de Tavira, Daniela Marín Navarro, Mariangel Villegas"
+        ]
+      },
+      {
+        "id": 2340,
+        "awards": []
+      },
+      {
+        "id": 2341,
+        "awards": []
+      },
+      {
+        "id": 2342,
+        "awards": []
+      },
+      {
+        "id": 2343,
+        "awards": [
+          "Un Certain Regard Prize"
+        ]
+      },
+      {
+        "id": 2344,
+        "awards": []
+      },
+      {
+        "id": 2345,
+        "awards": []
+      },
+      {
+        "id": 2346,
+        "awards": []
       }
     ]
   },
@@ -2385,10 +2578,12 @@ window.CULTURE_AWARDS_2026 = [
     "resultsUrl": "https://www.labiennale.org/en/news/official-awards-83rd-venice-international-film-festival",
     "categories": [
       {
-        "id": "golden-lion",
-        "name": "Golden Lion",
+        "id": "venezia-competition",
+        "name": "Venezia Competition",
+        "nomination_kind": "competition",
+        "source": "https://www.labiennale.org/en/cinema/2026/venezia-83-competition",
+        "awardsSource": "https://www.labiennale.org/en/news/official-awards-83rd-venice-international-film-festival",
         "nominees": [
-          2289,
           2234,
           2283,
           2284,
@@ -2396,6 +2591,7 @@ window.CULTURE_AWARDS_2026 = [
           2286,
           2287,
           2288,
+          2289,
           2290,
           2291,
           2292,
@@ -2412,236 +2608,324 @@ window.CULTURE_AWARDS_2026 = [
         ],
         "winner": 2289,
         "winners": [
-          2289
+          2289,
+          2293,
+          2292,
+          2294,
+          2287,
+          2234,
+          2291
         ],
         "entries": [
           {
-            "film_id": 2289,
-            "winner": true
-          },
-          {
             "film_id": 2234,
-            "winner": false
+            "winner": true,
+            "prizes": [
+              "Special Jury Prize"
+            ],
+            "prize_rank": 6
           },
           {
             "film_id": 2283,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2284,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2285,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2286,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2287,
-            "winner": false
+            "winner": true,
+            "prizes": [
+              "Best Screenplay · Stéphane Brizé, Coralie Amédéo, Olivier Gorce"
+            ],
+            "prize_rank": 5
           },
           {
             "film_id": 2288,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2289,
+            "winner": true,
+            "prizes": [
+              "Golden Lion",
+              "Best Actress · Mathilde Arcel"
+            ],
+            "prize_rank": 0
           },
           {
             "film_id": 2290,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2291,
-            "winner": false
+            "winner": true,
+            "prizes": [
+              "Marcello Mastroianni Award · Malou Khebizi"
+            ],
+            "prize_rank": 7
           },
           {
             "film_id": 2292,
-            "winner": false
+            "winner": true,
+            "prizes": [
+              "Best Director · Ilya Khrzhanovsky"
+            ],
+            "prize_rank": 2
           },
           {
             "film_id": 2326,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2293,
-            "winner": false
+            "winner": true,
+            "prizes": [
+              "Grand Jury Prize"
+            ],
+            "prize_rank": 1
           },
           {
             "film_id": 2294,
-            "winner": false
+            "winner": true,
+            "prizes": [
+              "Best Actor · John Malkovich"
+            ],
+            "prize_rank": 4
           },
           {
             "film_id": 2295,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2327,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2296,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2297,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2298,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2299,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2300,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           }
-        ],
-        "nomination_kind": "competition"
+        ]
       },
       {
-        "id": "grand-jury-prize",
-        "name": "Grand Jury Prize",
+        "id": "orizzonti",
+        "name": "Orizzonti",
+        "nomination_kind": "competition",
+        "source": "https://www.labiennale.org/en/cinema/2026/orizzonti",
+        "awardsSource": "https://www.labiennale.org/en/news/official-awards-83rd-venice-international-film-festival",
         "nominees": [
-          2293
+          2347,
+          2348,
+          2349,
+          2350,
+          2377,
+          2351,
+          2352,
+          2378,
+          2353,
+          2354,
+          2355,
+          2356,
+          2357,
+          2358,
+          2359,
+          2360,
+          2361,
+          2362,
+          2379
         ],
-        "winner": 2293,
+        "winner": 2360,
         "winners": [
-          2293
+          2360,
+          2354,
+          2378,
+          2377,
+          2353
         ],
         "entries": [
           {
-            "film_id": 2293,
-            "winner": true
-          }
-        ],
-        "nomination_kind": "winners_only"
-      },
-      {
-        "id": "best-director",
-        "name": "Best Director",
-        "nominees": [
-          2292
-        ],
-        "winner": 2292,
-        "winners": [
-          2292
-        ],
-        "entries": [
+            "film_id": 2347,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
           {
-            "film_id": 2292,
-            "person": "Ilya Khrzhanovsky",
-            "winner": true
-          }
-        ],
-        "nomination_kind": "winners_only"
-      },
-      {
-        "id": "best-actress",
-        "name": "Best Actress",
-        "nominees": [
-          2289
-        ],
-        "winner": 2289,
-        "winners": [
-          2289
-        ],
-        "entries": [
+            "film_id": 2348,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
           {
-            "film_id": 2289,
-            "person": "Mathilde Arcel",
-            "winner": true
-          }
-        ],
-        "nomination_kind": "winners_only"
-      },
-      {
-        "id": "best-actor",
-        "name": "Best Actor",
-        "nominees": [
-          2294
-        ],
-        "winner": 2294,
-        "winners": [
-          2294
-        ],
-        "entries": [
+            "film_id": 2349,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
           {
-            "film_id": 2294,
-            "person": "John Malkovich",
-            "winner": true
-          }
-        ],
-        "nomination_kind": "winners_only"
-      },
-      {
-        "id": "best-screenplay",
-        "name": "Best Screenplay",
-        "nominees": [
-          2287
-        ],
-        "winner": 2287,
-        "winners": [
-          2287
-        ],
-        "entries": [
+            "film_id": 2350,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
           {
-            "film_id": 2287,
-            "person": "Stéphane Brizé, Coralie Amédéo, Olivier Gorce",
-            "winner": true
-          }
-        ],
-        "nomination_kind": "winners_only"
-      },
-      {
-        "id": "special-jury-prize",
-        "name": "Special Jury Prize",
-        "nominees": [
-          2234
-        ],
-        "winner": 2234,
-        "winners": [
-          2234
-        ],
-        "entries": [
+            "film_id": 2377,
+            "winner": true,
+            "prizes": [
+              "Best Actress · Laleh Marzban"
+            ],
+            "prize_rank": 3
+          },
           {
-            "film_id": 2234,
-            "winner": true
-          }
-        ],
-        "nomination_kind": "winners_only"
-      },
-      {
-        "id": "marcello-mastroianni-award",
-        "name": "Marcello Mastroianni Award",
-        "nominees": [
-          2291
-        ],
-        "winner": 2291,
-        "winners": [
-          2291
-        ],
-        "entries": [
+            "film_id": 2351,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
           {
-            "film_id": 2291,
-            "person": "Malou Khebizi",
-            "winner": true
+            "film_id": 2352,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2378,
+            "winner": true,
+            "prizes": [
+              "Special Orizzonti Jury Prize",
+              "Lion of the Future – Luigi De Laurentiis Award"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 2353,
+            "winner": true,
+            "prizes": [
+              "Best Actor · Riccardo Scamarcio",
+              "Best Screenplay · Tommaso Landucci, Damiano Femfert"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 2354,
+            "winner": true,
+            "prizes": [
+              "Best Director · Jacqueline Lentzou"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 2355,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2356,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2357,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2358,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2359,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2360,
+            "winner": true,
+            "prizes": [
+              "Orizzonti Award for Best Film"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 2361,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2362,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2379,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           }
-        ],
-        "nomination_kind": "winners_only"
+        ]
       }
     ],
     "films": [
-      {
-        "id": 2289,
-        "awards": [
-          "Golden Lion",
-          "Best Actress"
-        ]
-      },
       {
         "id": 2234,
         "awards": [
@@ -2667,12 +2951,19 @@ window.CULTURE_AWARDS_2026 = [
       {
         "id": 2287,
         "awards": [
-          "Best Screenplay"
+          "Best Screenplay · Stéphane Brizé, Coralie Amédéo, Olivier Gorce"
         ]
       },
       {
         "id": 2288,
         "awards": []
+      },
+      {
+        "id": 2289,
+        "awards": [
+          "Golden Lion",
+          "Best Actress · Mathilde Arcel"
+        ]
       },
       {
         "id": 2290,
@@ -2681,13 +2972,13 @@ window.CULTURE_AWARDS_2026 = [
       {
         "id": 2291,
         "awards": [
-          "Marcello Mastroianni Award"
+          "Marcello Mastroianni Award · Malou Khebizi"
         ]
       },
       {
         "id": 2292,
         "awards": [
-          "Best Director"
+          "Best Director · Ilya Khrzhanovsky"
         ]
       },
       {
@@ -2703,7 +2994,7 @@ window.CULTURE_AWARDS_2026 = [
       {
         "id": 2294,
         "awards": [
-          "Best Actor"
+          "Best Actor · John Malkovich"
         ]
       },
       {
@@ -2733,6 +3024,94 @@ window.CULTURE_AWARDS_2026 = [
       {
         "id": 2300,
         "awards": []
+      },
+      {
+        "id": 2347,
+        "awards": []
+      },
+      {
+        "id": 2348,
+        "awards": []
+      },
+      {
+        "id": 2349,
+        "awards": []
+      },
+      {
+        "id": 2350,
+        "awards": []
+      },
+      {
+        "id": 2377,
+        "awards": [
+          "Best Actress · Laleh Marzban"
+        ]
+      },
+      {
+        "id": 2351,
+        "awards": []
+      },
+      {
+        "id": 2352,
+        "awards": []
+      },
+      {
+        "id": 2378,
+        "awards": [
+          "Special Orizzonti Jury Prize",
+          "Lion of the Future – Luigi De Laurentiis Award"
+        ]
+      },
+      {
+        "id": 2353,
+        "awards": [
+          "Best Actor · Riccardo Scamarcio",
+          "Best Screenplay · Tommaso Landucci, Damiano Femfert"
+        ]
+      },
+      {
+        "id": 2354,
+        "awards": [
+          "Best Director · Jacqueline Lentzou"
+        ]
+      },
+      {
+        "id": 2355,
+        "awards": []
+      },
+      {
+        "id": 2356,
+        "awards": []
+      },
+      {
+        "id": 2357,
+        "awards": []
+      },
+      {
+        "id": 2358,
+        "awards": []
+      },
+      {
+        "id": 2359,
+        "awards": []
+      },
+      {
+        "id": 2360,
+        "awards": [
+          "Orizzonti Award for Best Film"
+        ]
+      },
+      {
+        "id": 2361,
+        "awards": []
+      },
+      {
+        "id": 2362,
+        "awards": []
+      },
+      {
+        "id": 2379,
+        "awards": []
       }
     ]
   },
@@ -2746,10 +3125,12 @@ window.CULTURE_AWARDS_2026 = [
     "resultsUrl": "https://www.berlinale.de/en/festival/awards-and-juries/international-jury.html",
     "categories": [
       {
-        "id": "golden-bear",
-        "name": "Golden Bear",
+        "id": "main-competition",
+        "name": "Main Competition",
+        "nomination_kind": "competition",
+        "source": "https://www.berlinale.de/en/2026/topics/competition-2026.html",
+        "awardsSource": "https://www.berlinale.de/en/festival/awards-and-juries/international-jury.html",
         "nominees": [
-          2308,
           2301,
           2302,
           2303,
@@ -2757,6 +3138,7 @@ window.CULTURE_AWARDS_2026 = [
           2305,
           2306,
           2307,
+          2308,
           2309,
           2310,
           2311,
@@ -2774,244 +3156,284 @@ window.CULTURE_AWARDS_2026 = [
         ],
         "winner": 2308,
         "winners": [
-          2308
+          2308,
+          2310,
+          2314,
+          2307,
+          2315,
+          2313,
+          2321
         ],
         "entries": [
           {
-            "film_id": 2308,
-            "winner": true
-          },
-          {
             "film_id": 2301,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2302,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2303,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2304,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2305,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2306,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2307,
-            "winner": false
+            "winner": true,
+            "prizes": [
+              "Best Director · Grant Gee"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 2308,
+            "winner": true,
+            "prizes": [
+              "Golden Bear"
+            ],
+            "prize_rank": 0
           },
           {
             "film_id": 2309,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2310,
-            "winner": false
+            "winner": true,
+            "prizes": [
+              "Grand Jury Prize"
+            ],
+            "prize_rank": 1
           },
           {
             "film_id": 2311,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2312,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2313,
-            "winner": false
+            "winner": true,
+            "prizes": [
+              "Best Screenplay · Geneviève Dulude-de Celles"
+            ],
+            "prize_rank": 6
           },
           {
             "film_id": 2314,
-            "winner": false
+            "winner": true,
+            "prizes": [
+              "Jury Prize",
+              "Best Supporting Performance · Anna Calder-Marshall, Tom Courtenay"
+            ],
+            "prize_rank": 2
           },
           {
             "film_id": 2315,
-            "winner": false
+            "winner": true,
+            "prizes": [
+              "Best Leading Performance · Sandra Hüller"
+            ],
+            "prize_rank": 4
           },
           {
             "film_id": 2316,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2317,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2318,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2319,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2320,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
             "film_id": 2321,
-            "winner": false
+            "winner": true,
+            "prizes": [
+              "Outstanding Artistic Contribution · Anna Fitch & Banker White"
+            ],
+            "prize_rank": 7
           },
           {
             "film_id": 2322,
-            "winner": false
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           }
-        ],
-        "nomination_kind": "competition"
+        ]
       },
       {
-        "id": "grand-jury-prize",
-        "name": "Grand Jury Prize",
+        "id": "perspectives",
+        "name": "Perspectives",
+        "nomination_kind": "competition",
+        "source": "https://www.berlinale.de/en/2026/topics/perspectives-2026.html",
+        "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html",
         "nominees": [
-          2310
+          2363,
+          2364,
+          2365,
+          2366,
+          2367,
+          2368,
+          2369,
+          2370,
+          2371,
+          2372,
+          2373,
+          2374,
+          2375,
+          2376
         ],
-        "winner": 2310,
+        "winner": 2365,
         "winners": [
-          2310
+          2365,
+          2368
         ],
         "entries": [
           {
-            "film_id": 2310,
-            "winner": true
-          }
-        ],
-        "nomination_kind": "winners_only"
-      },
-      {
-        "id": "jury-prize",
-        "name": "Jury Prize",
-        "nominees": [
-          2314
-        ],
-        "winner": 2314,
-        "winners": [
-          2314
-        ],
-        "entries": [
-          {
-            "film_id": 2314,
-            "winner": true
-          }
-        ],
-        "nomination_kind": "winners_only"
-      },
-      {
-        "id": "best-director",
-        "name": "Best Director",
-        "nominees": [
-          2307
-        ],
-        "winner": 2307,
-        "winners": [
-          2307
-        ],
-        "entries": [
-          {
-            "film_id": 2307,
-            "person": "Grant Gee",
-            "winner": true
-          }
-        ],
-        "nomination_kind": "winners_only"
-      },
-      {
-        "id": "best-leading-performance",
-        "name": "Best Leading Performance",
-        "nominees": [
-          2315
-        ],
-        "winner": 2315,
-        "winners": [
-          2315
-        ],
-        "entries": [
-          {
-            "film_id": 2315,
-            "person": "Sandra Hüller",
-            "winner": true
-          }
-        ],
-        "nomination_kind": "winners_only"
-      },
-      {
-        "id": "best-supporting-performance",
-        "name": "Best Supporting Performance",
-        "nominees": [
-          2314
-        ],
-        "winner": 2314,
-        "winners": [
-          2314
-        ],
-        "entries": [
-          {
-            "film_id": 2314,
-            "person": "Anna Calder-Marshall",
-            "winner": true
+            "film_id": 2363,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           },
           {
-            "film_id": 2314,
-            "person": "Tom Courtenay",
-            "winner": true
-          }
-        ],
-        "nomination_kind": "winners_only"
-      },
-      {
-        "id": "best-screenplay",
-        "name": "Best Screenplay",
-        "nominees": [
-          2313
-        ],
-        "winner": 2313,
-        "winners": [
-          2313
-        ],
-        "entries": [
+            "film_id": 2364,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
           {
-            "film_id": 2313,
-            "person": "Geneviève Dulude-de Celles",
-            "winner": true
-          }
-        ],
-        "nomination_kind": "winners_only"
-      },
-      {
-        "id": "outstanding-artistic-contribution",
-        "name": "Outstanding Artistic Contribution",
-        "nominees": [
-          2321
-        ],
-        "winner": 2321,
-        "winners": [
-          2321
-        ],
-        "entries": [
+            "film_id": 2365,
+            "winner": true,
+            "prizes": [
+              "GWFF Best First Feature Award"
+            ],
+            "prize_rank": 0
+          },
           {
-            "film_id": 2321,
-            "person": "Anna Fitch & Banker White",
-            "winner": true
+            "film_id": 2366,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2367,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2368,
+            "winner": true,
+            "prizes": [
+              "Special Mention"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 2369,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2370,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2371,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2372,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2373,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2374,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2375,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2376,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
           }
-        ],
-        "nomination_kind": "winners_only"
+        ]
       }
     ],
     "films": [
-      {
-        "id": 2308,
-        "awards": [
-          "Golden Bear"
-        ]
-      },
       {
         "id": 2301,
         "awards": []
@@ -3039,7 +3461,13 @@ window.CULTURE_AWARDS_2026 = [
       {
         "id": 2307,
         "awards": [
-          "Best Director"
+          "Best Director · Grant Gee"
+        ]
+      },
+      {
+        "id": 2308,
+        "awards": [
+          "Golden Bear"
         ]
       },
       {
@@ -3063,20 +3491,20 @@ window.CULTURE_AWARDS_2026 = [
       {
         "id": 2313,
         "awards": [
-          "Best Screenplay"
+          "Best Screenplay · Geneviève Dulude-de Celles"
         ]
       },
       {
         "id": 2314,
         "awards": [
           "Jury Prize",
-          "Best Supporting Performance"
+          "Best Supporting Performance · Anna Calder-Marshall, Tom Courtenay"
         ]
       },
       {
         "id": 2315,
         "awards": [
-          "Best Leading Performance"
+          "Best Leading Performance · Sandra Hüller"
         ]
       },
       {
@@ -3102,11 +3530,71 @@ window.CULTURE_AWARDS_2026 = [
       {
         "id": 2321,
         "awards": [
-          "Outstanding Artistic Contribution"
+          "Outstanding Artistic Contribution · Anna Fitch & Banker White"
         ]
       },
       {
         "id": 2322,
+        "awards": []
+      },
+      {
+        "id": 2363,
+        "awards": []
+      },
+      {
+        "id": 2364,
+        "awards": []
+      },
+      {
+        "id": 2365,
+        "awards": [
+          "GWFF Best First Feature Award"
+        ]
+      },
+      {
+        "id": 2366,
+        "awards": []
+      },
+      {
+        "id": 2367,
+        "awards": []
+      },
+      {
+        "id": 2368,
+        "awards": [
+          "Special Mention"
+        ]
+      },
+      {
+        "id": 2369,
+        "awards": []
+      },
+      {
+        "id": 2370,
+        "awards": []
+      },
+      {
+        "id": 2371,
+        "awards": []
+      },
+      {
+        "id": 2372,
+        "awards": []
+      },
+      {
+        "id": 2373,
+        "awards": []
+      },
+      {
+        "id": 2374,
+        "awards": []
+      },
+      {
+        "id": 2375,
+        "awards": []
+      },
+      {
+        "id": 2376,
         "awards": []
       }
     ]

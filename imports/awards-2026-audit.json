@@ -167,6 +167,101 @@
       "tmdb_id": 848700
     },
     {
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "id": 2328,
+      "tmdb_id": 1240889
+    },
+    {
+      "title": "Elephants in the Fog",
+      "id": 2329,
+      "tmdb_id": 1661926
+    },
+    {
+      "title": "Iron Boy",
+      "id": 2330,
+      "tmdb_id": 947493
+    },
+    {
+      "title": "Ben'Imana",
+      "id": 2331,
+      "tmdb_id": 1405200
+    },
+    {
+      "title": "Congo Boy",
+      "id": 2332,
+      "tmdb_id": 1666683
+    },
+    {
+      "title": "Club Kid",
+      "id": 2333,
+      "tmdb_id": 1585239
+    },
+    {
+      "title": "A Girl's Story",
+      "id": 2334,
+      "tmdb_id": 1514891
+    },
+    {
+      "title": "Uļa",
+      "id": 2335,
+      "tmdb_id": 1490241
+    },
+    {
+      "title": "Titanic Ocean",
+      "id": 2336,
+      "tmdb_id": 1000843
+    },
+    {
+      "title": "La Más Dulce",
+      "id": 2337,
+      "tmdb_id": 1404582
+    },
+    {
+      "title": "El Deshielo",
+      "id": 2338,
+      "tmdb_id": 1210268
+    },
+    {
+      "title": "Siempre Soy Tu Animal Materno",
+      "id": 2339,
+      "tmdb_id": 1661932
+    },
+    {
+      "title": "Yesterday the Eye Didn't Sleep",
+      "id": 2340,
+      "tmdb_id": 1529849
+    },
+    {
+      "title": "I'll Be Gone in June",
+      "id": 2341,
+      "tmdb_id": 1441105
+    },
+    {
+      "title": "Words of Love",
+      "id": 2342,
+      "tmdb_id": 1544163
+    },
+    {
+      "title": "Everytime",
+      "id": 2343,
+      "tmdb_id": 1655419
+    },
+    {
+      "title": "Victorian Psycho",
+      "id": 2344,
+      "tmdb_id": 1379486
+    },
+    {
+      "title": "All the Lovers in the Night",
+      "id": 2345,
+      "tmdb_id": 1560309
+    },
+    {
+      "title": "Ulysse",
+      "id": 2346,
+      "tmdb_id": 1383287
+    },
+    {
       "title": "NAZA",
       "id": 2234,
       "tmdb_id": 1755291
@@ -242,6 +337,11 @@
       "tmdb_id": 1499546
     },
     {
+      "title": "Primetime",
+      "id": 2327,
+      "tmdb_id": 1375441
+    },
+    {
       "title": "The Echo Chamber",
       "id": 2296,
       "tmdb_id": 1576934
@@ -265,6 +365,101 @@
       "title": "Bunker",
       "id": 2300,
       "tmdb_id": 1473784
+    },
+    {
+      "title": "The Burning Giants",
+      "id": 2347,
+      "tmdb_id": 1730542
+    },
+    {
+      "title": "What Belongs to Others",
+      "id": 2348,
+      "tmdb_id": 1736461
+    },
+    {
+      "title": "Una Storia",
+      "id": 2349,
+      "tmdb_id": 1597196
+    },
+    {
+      "title": "La Città dei Vivi",
+      "id": 2350,
+      "tmdb_id": 1632103
+    },
+    {
+      "title": "Falling House",
+      "id": 2377,
+      "tmdb_id": 1736497
+    },
+    {
+      "title": "Too Much Sugar",
+      "id": 2351,
+      "tmdb_id": 1736499
+    },
+    {
+      "title": "The Difficult Bride",
+      "id": 2352,
+      "tmdb_id": 1593299
+    },
+    {
+      "title": "House of the Wind",
+      "id": 2378,
+      "tmdb_id": 1404592
+    },
+    {
+      "title": "I Figli della Scimmia",
+      "id": 2353,
+      "tmdb_id": 1554129
+    },
+    {
+      "title": "A Day in the Life of Jo: Chapter Phaedra",
+      "id": 2354,
+      "tmdb_id": 1510542
+    },
+    {
+      "title": "Oasis",
+      "id": 2355,
+      "tmdb_id": 1470034
+    },
+    {
+      "title": "Until the Day Ends",
+      "id": 2356,
+      "tmdb_id": 1531947
+    },
+    {
+      "title": "La Ragazza con la Leica",
+      "id": 2357,
+      "tmdb_id": 1544437
+    },
+    {
+      "title": "La Moula",
+      "id": 2358,
+      "tmdb_id": 1736501
+    },
+    {
+      "title": "Lovers in the Blue Night",
+      "id": 2359,
+      "tmdb_id": 1699532
+    },
+    {
+      "title": "Diane in the Loop",
+      "id": 2360,
+      "tmdb_id": 1404588
+    },
+    {
+      "title": "The Color of the Sun",
+      "id": 2361,
+      "tmdb_id": 1736503
+    },
+    {
+      "title": "Eklipse",
+      "id": 2362,
+      "tmdb_id": 1724831
+    },
+    {
+      "title": "Big Little Things",
+      "id": 2379,
+      "tmdb_id": 1562901
     },
     {
       "title": "A New Dawn",
@@ -375,21 +570,79 @@
       "title": "Nightborn",
       "id": 2322,
       "tmdb_id": 964849
-    }
-  ],
-  "added": [
+    },
     {
-      "title": "Primetime",
-      "id": 2327,
-      "director": "Lance Oppenheim",
-      "year": 2026,
-      "tmdb_id": 1375441,
-      "imdb_id": "tt34206385",
-      "original_title": "Primetime",
-      "original_language": "en",
-      "alternate_titles": []
+      "title": "17",
+      "id": 2363,
+      "tmdb_id": 1619815
+    },
+    {
+      "title": "Animol",
+      "id": 2364,
+      "tmdb_id": 1425784
+    },
+    {
+      "title": "Chronicles From the Siege",
+      "id": 2365,
+      "tmdb_id": 1400378
+    },
+    {
+      "title": "The River Train",
+      "id": 2366,
+      "tmdb_id": 1574074
+    },
+    {
+      "title": "Filipiñana",
+      "id": 2367,
+      "tmdb_id": 1417935
+    },
+    {
+      "title": "Forest High",
+      "id": 2368,
+      "tmdb_id": 1414395
+    },
+    {
+      "title": "The Red Hangar",
+      "id": 2369,
+      "tmdb_id": 1563588
+    },
+    {
+      "title": "Trial of Hein",
+      "id": 2370,
+      "tmdb_id": 1476466
+    },
+    {
+      "title": "Our Secret",
+      "id": 2371,
+      "tmdb_id": 1399253
+    },
+    {
+      "title": "A Prayer for the Dying",
+      "id": 2372,
+      "tmdb_id": 1241046
+    },
+    {
+      "title": "Take Me Home",
+      "id": 2373,
+      "tmdb_id": 1569461
+    },
+    {
+      "title": "Truly Naked",
+      "id": 2374,
+      "tmdb_id": 1281195
+    },
+    {
+      "title": "Where To?",
+      "id": 2375,
+      "tmdb_id": 1619818
+    },
+    {
+      "title": "Light Pillar",
+      "id": 2376,
+      "tmdb_id": 1601885
     }
   ],
+  "added": [],
   "unresolved": [],
   "new_canonical_ids": [
     {
@@ -761,6 +1014,528 @@
       "id": 2327,
       "title": "Primetime",
       "tmdb_id": 1375441
+    },
+    {
+      "id": 2328,
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "tmdb_id": 1240889
+    },
+    {
+      "id": 2329,
+      "title": "Elephants in the Fog",
+      "tmdb_id": 1661926
+    },
+    {
+      "id": 2330,
+      "title": "Iron Boy",
+      "tmdb_id": 947493
+    },
+    {
+      "id": 2331,
+      "title": "Ben'Imana",
+      "tmdb_id": 1405200
+    },
+    {
+      "id": 2332,
+      "title": "Congo Boy",
+      "tmdb_id": 1666683
+    },
+    {
+      "id": 2333,
+      "title": "Club Kid",
+      "tmdb_id": 1585239
+    },
+    {
+      "id": 2334,
+      "title": "A Girl’s Story",
+      "tmdb_id": 1514891
+    },
+    {
+      "id": 2335,
+      "title": "Ulya",
+      "tmdb_id": 1490241
+    },
+    {
+      "id": 2336,
+      "title": "Titanic Ocean",
+      "tmdb_id": 1000843
+    },
+    {
+      "id": 2337,
+      "title": "Strawberries",
+      "tmdb_id": 1404582
+    },
+    {
+      "id": 2338,
+      "title": "The Meltdown",
+      "tmdb_id": 1210268
+    },
+    {
+      "id": 2339,
+      "title": "Forever Your Maternal Animal",
+      "tmdb_id": 1661932
+    },
+    {
+      "id": 2340,
+      "title": "Yesterday the Eye Didn't Sleep",
+      "tmdb_id": 1529849
+    },
+    {
+      "id": 2341,
+      "title": "I'll Be Gone in June",
+      "tmdb_id": 1441105
+    },
+    {
+      "id": 2342,
+      "title": "Words of Love",
+      "tmdb_id": 1544163
+    },
+    {
+      "id": 2343,
+      "title": "Everytime",
+      "tmdb_id": 1655419
+    },
+    {
+      "id": 2344,
+      "title": "Victorian Psycho",
+      "tmdb_id": 1379486
+    },
+    {
+      "id": 2345,
+      "title": "All the Lovers in the Night",
+      "tmdb_id": 1560309
+    },
+    {
+      "id": 2346,
+      "title": "Ulysse",
+      "tmdb_id": 1383287
+    },
+    {
+      "id": 2347,
+      "title": "The Burning Giants",
+      "tmdb_id": 1730542
+    },
+    {
+      "id": 2348,
+      "title": "What Belongs to Others",
+      "tmdb_id": 1736461
+    },
+    {
+      "id": 2349,
+      "title": "A Common Story",
+      "tmdb_id": 1597196
+    },
+    {
+      "id": 2350,
+      "title": "The City of the Living",
+      "tmdb_id": 1632103
+    },
+    {
+      "id": 2351,
+      "title": "Too Much Sugar",
+      "tmdb_id": 1736499
+    },
+    {
+      "id": 2352,
+      "title": "The Difficult Bride",
+      "tmdb_id": 1593299
+    },
+    {
+      "id": 2353,
+      "title": "Children of the Monkey",
+      "tmdb_id": 1554129
+    },
+    {
+      "id": 2354,
+      "title": "A Day in the Life of Jo: Chapter Phaedra",
+      "tmdb_id": 1510542
+    },
+    {
+      "id": 2355,
+      "title": "Oasis",
+      "tmdb_id": 1470034
+    },
+    {
+      "id": 2356,
+      "title": "Until the Day Ends",
+      "tmdb_id": 1531947
+    },
+    {
+      "id": 2357,
+      "title": "The Girl with the Leica",
+      "tmdb_id": 1544437
+    },
+    {
+      "id": 2358,
+      "title": "La Moula",
+      "tmdb_id": 1736501
+    },
+    {
+      "id": 2359,
+      "title": "Lovers in the Blue Night",
+      "tmdb_id": 1699532
+    },
+    {
+      "id": 2360,
+      "title": "Diane In The Loop",
+      "tmdb_id": 1404588
+    },
+    {
+      "id": 2361,
+      "title": "The Color of the Sun",
+      "tmdb_id": 1736503
+    },
+    {
+      "id": 2362,
+      "title": "Eklipse",
+      "tmdb_id": 1724831
+    },
+    {
+      "id": 2363,
+      "title": "17",
+      "tmdb_id": 1619815
+    },
+    {
+      "id": 2364,
+      "title": "Animol",
+      "tmdb_id": 1425784
+    },
+    {
+      "id": 2365,
+      "title": "Chronicles from the Siege",
+      "tmdb_id": 1400378
+    },
+    {
+      "id": 2366,
+      "title": "The River Train",
+      "tmdb_id": 1574074
+    },
+    {
+      "id": 2367,
+      "title": "Filipiñana",
+      "tmdb_id": 1417935
+    },
+    {
+      "id": 2368,
+      "title": "Forest High",
+      "tmdb_id": 1414395
+    },
+    {
+      "id": 2369,
+      "title": "The Red Hangar",
+      "tmdb_id": 1563588
+    },
+    {
+      "id": 2370,
+      "title": "Trial of Hein",
+      "tmdb_id": 1476466
+    },
+    {
+      "id": 2371,
+      "title": "Our Secret",
+      "tmdb_id": 1399253
+    },
+    {
+      "id": 2372,
+      "title": "A Prayer for the Dying",
+      "tmdb_id": 1241046
+    },
+    {
+      "id": 2373,
+      "title": "Take Me Home",
+      "tmdb_id": 1569461
+    },
+    {
+      "id": 2374,
+      "title": "Truly Naked",
+      "tmdb_id": 1281195
+    },
+    {
+      "id": 2375,
+      "title": "Where To?",
+      "tmdb_id": 1619818
+    },
+    {
+      "id": 2376,
+      "title": "Light Pillar",
+      "tmdb_id": 1601885
+    },
+    {
+      "id": 2377,
+      "title": "Falling House",
+      "tmdb_id": 1736497
+    },
+    {
+      "id": 2378,
+      "title": "House of the Wind",
+      "tmdb_id": 1404592
+    },
+    {
+      "id": 2379,
+      "title": "Big Little Things",
+      "tmdb_id": 1562901
+    }
+  ],
+  "programme_new_ids": [
+    {
+      "id": 2328,
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "tmdb_id": 1240889
+    },
+    {
+      "id": 2329,
+      "title": "Elephants in the Fog",
+      "tmdb_id": 1661926
+    },
+    {
+      "id": 2330,
+      "title": "Iron Boy",
+      "tmdb_id": 947493
+    },
+    {
+      "id": 2331,
+      "title": "Ben'Imana",
+      "tmdb_id": 1405200
+    },
+    {
+      "id": 2332,
+      "title": "Congo Boy",
+      "tmdb_id": 1666683
+    },
+    {
+      "id": 2333,
+      "title": "Club Kid",
+      "tmdb_id": 1585239
+    },
+    {
+      "id": 2334,
+      "title": "A Girl’s Story",
+      "tmdb_id": 1514891
+    },
+    {
+      "id": 2335,
+      "title": "Ulya",
+      "tmdb_id": 1490241
+    },
+    {
+      "id": 2336,
+      "title": "Titanic Ocean",
+      "tmdb_id": 1000843
+    },
+    {
+      "id": 2337,
+      "title": "Strawberries",
+      "tmdb_id": 1404582
+    },
+    {
+      "id": 2338,
+      "title": "The Meltdown",
+      "tmdb_id": 1210268
+    },
+    {
+      "id": 2339,
+      "title": "Forever Your Maternal Animal",
+      "tmdb_id": 1661932
+    },
+    {
+      "id": 2340,
+      "title": "Yesterday the Eye Didn't Sleep",
+      "tmdb_id": 1529849
+    },
+    {
+      "id": 2341,
+      "title": "I'll Be Gone in June",
+      "tmdb_id": 1441105
+    },
+    {
+      "id": 2342,
+      "title": "Words of Love",
+      "tmdb_id": 1544163
+    },
+    {
+      "id": 2343,
+      "title": "Everytime",
+      "tmdb_id": 1655419
+    },
+    {
+      "id": 2344,
+      "title": "Victorian Psycho",
+      "tmdb_id": 1379486
+    },
+    {
+      "id": 2345,
+      "title": "All the Lovers in the Night",
+      "tmdb_id": 1560309
+    },
+    {
+      "id": 2346,
+      "title": "Ulysse",
+      "tmdb_id": 1383287
+    },
+    {
+      "id": 2347,
+      "title": "The Burning Giants",
+      "tmdb_id": 1730542
+    },
+    {
+      "id": 2348,
+      "title": "What Belongs to Others",
+      "tmdb_id": 1736461
+    },
+    {
+      "id": 2349,
+      "title": "A Common Story",
+      "tmdb_id": 1597196
+    },
+    {
+      "id": 2350,
+      "title": "The City of the Living",
+      "tmdb_id": 1632103
+    },
+    {
+      "id": 2351,
+      "title": "Too Much Sugar",
+      "tmdb_id": 1736499
+    },
+    {
+      "id": 2352,
+      "title": "The Difficult Bride",
+      "tmdb_id": 1593299
+    },
+    {
+      "id": 2353,
+      "title": "Children of the Monkey",
+      "tmdb_id": 1554129
+    },
+    {
+      "id": 2354,
+      "title": "A Day in the Life of Jo: Chapter Phaedra",
+      "tmdb_id": 1510542
+    },
+    {
+      "id": 2355,
+      "title": "Oasis",
+      "tmdb_id": 1470034
+    },
+    {
+      "id": 2356,
+      "title": "Until the Day Ends",
+      "tmdb_id": 1531947
+    },
+    {
+      "id": 2357,
+      "title": "The Girl with the Leica",
+      "tmdb_id": 1544437
+    },
+    {
+      "id": 2358,
+      "title": "La Moula",
+      "tmdb_id": 1736501
+    },
+    {
+      "id": 2359,
+      "title": "Lovers in the Blue Night",
+      "tmdb_id": 1699532
+    },
+    {
+      "id": 2360,
+      "title": "Diane In The Loop",
+      "tmdb_id": 1404588
+    },
+    {
+      "id": 2361,
+      "title": "The Color of the Sun",
+      "tmdb_id": 1736503
+    },
+    {
+      "id": 2362,
+      "title": "Eklipse",
+      "tmdb_id": 1724831
+    },
+    {
+      "id": 2363,
+      "title": "17",
+      "tmdb_id": 1619815
+    },
+    {
+      "id": 2364,
+      "title": "Animol",
+      "tmdb_id": 1425784
+    },
+    {
+      "id": 2365,
+      "title": "Chronicles from the Siege",
+      "tmdb_id": 1400378
+    },
+    {
+      "id": 2366,
+      "title": "The River Train",
+      "tmdb_id": 1574074
+    },
+    {
+      "id": 2367,
+      "title": "Filipiñana",
+      "tmdb_id": 1417935
+    },
+    {
+      "id": 2368,
+      "title": "Forest High",
+      "tmdb_id": 1414395
+    },
+    {
+      "id": 2369,
+      "title": "The Red Hangar",
+      "tmdb_id": 1563588
+    },
+    {
+      "id": 2370,
+      "title": "Trial of Hein",
+      "tmdb_id": 1476466
+    },
+    {
+      "id": 2371,
+      "title": "Our Secret",
+      "tmdb_id": 1399253
+    },
+    {
+      "id": 2372,
+      "title": "A Prayer for the Dying",
+      "tmdb_id": 1241046
+    },
+    {
+      "id": 2373,
+      "title": "Take Me Home",
+      "tmdb_id": 1569461
+    },
+    {
+      "id": 2374,
+      "title": "Truly Naked",
+      "tmdb_id": 1281195
+    },
+    {
+      "id": 2375,
+      "title": "Where To?",
+      "tmdb_id": 1619818
+    },
+    {
+      "id": 2376,
+      "title": "Light Pillar",
+      "tmdb_id": 1601885
+    },
+    {
+      "id": 2377,
+      "title": "Falling House",
+      "tmdb_id": 1736497
+    },
+    {
+      "id": 2378,
+      "title": "House of the Wind",
+      "tmdb_id": 1404592
+    },
+    {
+      "id": 2379,
+      "title": "Big Little Things",
+      "tmdb_id": 1562901
     }
   ],
   "event_counts": [
@@ -781,18 +1556,18 @@
     },
     {
       "event": "Cannes",
-      "films": 22,
-      "categories": 7
+      "films": 41,
+      "categories": 2
     },
     {
       "event": "Venice",
-      "films": 21,
-      "categories": 8
+      "films": 40,
+      "categories": 2
     },
     {
       "event": "Berlinale",
-      "films": 22,
-      "categories": 8
+      "films": 36,
+      "categories": 2
     }
   ]
 }

@@ -19,9 +19,15 @@ try{
  for(const name of ['Cannes','Venice','Berlinale','Oscars','BAFTA','Golden Globes']){
   await page.locator('#award-tabs a').filter({hasText:name}).click();assert.equal(await page.locator('#award-edition-title').textContent(),name+' 2026');assert.ok(await page.locator('#awards-grid .award-category').count()>0);
  }
- await page.locator('#award-tabs a').filter({hasText:'Oscars'}).click();await page.evaluate(()=>window.scrollTo(0,100));await page.waitForTimeout(3000);
- await fs.mkdir('docs/previews',{recursive:true});await page.screenshot({path:'docs/previews/awards-2026-desktop.png'});
+ // Grid rows must stretch every card and keep rating controls aligned.
+ for(const name of ['Oscars','Cannes','Venice','Berlinale']){
+  await page.locator('#award-tabs a').filter({hasText:name}).click();
+  if(name!=='Oscars'){assert.equal(await page.locator('#awards-grid .award-category').count(),2);for(const grid of await page.locator('.award-category-grid').all()){const ids=await grid.locator('article').evaluateAll(cards=>cards.map(c=>c.dataset.filmId));assert.equal(new Set(ids).size,ids.length);}}
+  const aligned=await page.locator('.award-category-grid').evaluateAll(grids=>grids.every(grid=>{const rows=new Map();for(const card of grid.children){const box=card.getBoundingClientRect(),rating=card.querySelector('.star-trigger').getBoundingClientRect();const key=Math.round(box.top);const row=rows.get(key)||[];row.push({height:box.height,rating:rating.top});rows.set(key,row);}return [...rows.values()].every(row=>Math.max(...row.map(c=>c.height))-Math.min(...row.map(c=>c.height))<1&&Math.max(...row.map(c=>c.rating))-Math.min(...row.map(c=>c.rating))<1);}));assert.ok(aligned,name+' cards and ratings are not aligned');
+ }
+ await page.locator('#award-tabs a').filter({hasText:'Venice'}).click();await page.evaluate(()=>window.scrollTo(0,100));await page.waitForTimeout(3000);
+ await fs.mkdir('docs/previews',{recursive:true});await page.screenshot({path:'docs/previews/festivals-2026-desktop.png'});
  await page.setViewportSize({width:390,height:1400});await page.evaluate(()=>window.scrollTo(0,0));await page.waitForTimeout(500);
  assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'Mobile layout overflows horizontally');
- await page.screenshot({path:'docs/previews/awards-2026-mobile.png'});assert.deepEqual(errors,[]);console.log('Awards browser navigation, refresh, six editions and mobile layout passed.');
+ await page.screenshot({path:'docs/previews/festivals-2026-mobile.png'});assert.deepEqual(errors,[]);console.log('Festival sections, prizes, row/rating alignment, navigation, refresh and mobile layout passed.');
 }finally{await browser.close();await new Promise(resolve=>server.close(resolve));}

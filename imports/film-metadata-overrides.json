@@ -67,6 +67,30 @@
         "https://www.kinopoisk.ru/film/257393/"
       ],
       "note": "Part 2; retains its own existing cover and runtime."
+    },
+    {
+      "id": 2346,
+      "tmdb_id": 1383287,
+      "fields": {
+        "runtime": 97
+      },
+      "source_urls": [
+        "https://www.festival-cannes.com/en/f/ulysse-2/"
+      ],
+      "note": "Official Cannes 2026 programme gives 97 minutes; provider runtime is missing."
+    },
+    {
+      "id": 2358,
+      "tmdb_id": 1736501,
+      "fields": {
+        "poster": "assets/film-posters/2358.jpg",
+        "poster_kind": "production_still",
+        "poster_source_url": "https://www.labiennale.org/en/cinema/2026/orizzonti/la-moula"
+      },
+      "source_urls": [
+        "https://www.labiennale.org/en/cinema/2026/orizzonti/la-moula"
+      ],
+      "note": "Official Venice production still used as cover while provider poster is unavailable."
     }
   ]
 }

@@ -22808,5 +22808,591 @@ window.CULTURE_CATALOG = [
     "original_title": "Primetime",
     "original_language": "en",
     "alternate_titles": []
+  },
+  {
+    "id": 2328,
+    "title": "Teenage Sex and Death at Camp Miasma",
+    "director": "Jane Schoenbrun",
+    "year": 2026,
+    "tmdb_id": 1240889,
+    "imdb_id": "tt35298123",
+    "original_title": "Teenage Sex and Death at Camp Miasma",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 2329,
+    "title": "Elephants in the Fog",
+    "director": "Abinash Bikram Shah",
+    "year": 2026,
+    "tmdb_id": 1661926,
+    "imdb_id": "tt29279937",
+    "original_title": "तिनीहरू",
+    "original_language": "ne",
+    "alternate_titles": []
+  },
+  {
+    "id": 2330,
+    "title": "Iron Boy",
+    "director": "Louis Clichy",
+    "year": 2026,
+    "tmdb_id": 947493,
+    "imdb_id": "tt36639956",
+    "original_title": "Le corset",
+    "original_language": "fr",
+    "alternate_titles": []
+  },
+  {
+    "id": 2331,
+    "title": "Ben'Imana",
+    "director": "Marie-Clémentine Dusabejambo",
+    "year": 2027,
+    "tmdb_id": 1405200,
+    "imdb_id": "tt38820979",
+    "original_title": "Ben'Imana",
+    "original_language": "fr",
+    "alternate_titles": []
+  },
+  {
+    "id": 2332,
+    "title": "Congo Boy",
+    "director": "Rafiki Fariala",
+    "year": 2026,
+    "tmdb_id": 1666683,
+    "imdb_id": "tt41592086",
+    "original_title": "Congo Boy",
+    "original_language": "sg",
+    "alternate_titles": []
+  },
+  {
+    "id": 2333,
+    "title": "Club Kid",
+    "director": "Jordan Firstman",
+    "year": 2026,
+    "tmdb_id": 1585239,
+    "imdb_id": "tt38058097",
+    "original_title": "Club Kid",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 2334,
+    "title": "A Girl’s Story",
+    "director": "Judith Godrèche",
+    "year": 2026,
+    "tmdb_id": 1514891,
+    "imdb_id": "tt39088978",
+    "original_title": "Mémoire de fille",
+    "original_language": "fr",
+    "alternate_titles": []
+  },
+  {
+    "id": 2335,
+    "title": "Ulya",
+    "director": "Viesturs Kairišs",
+    "year": 2026,
+    "tmdb_id": 1490241,
+    "imdb_id": "tt26751523",
+    "original_title": "Uļa",
+    "original_language": "lv",
+    "alternate_titles": []
+  },
+  {
+    "id": 2336,
+    "title": "Titanic Ocean",
+    "director": "Konstantina Kotzamani",
+    "year": 2026,
+    "tmdb_id": 1000843,
+    "imdb_id": "tt15437998",
+    "original_title": "Titanic Ocean",
+    "original_language": "ja",
+    "alternate_titles": []
+  },
+  {
+    "id": 2337,
+    "title": "Strawberries",
+    "director": "Laïla Marrakchi",
+    "year": 2027,
+    "tmdb_id": 1404582,
+    "imdb_id": "tt36629723",
+    "original_title": "La más dulce",
+    "original_language": "ar",
+    "alternate_titles": []
+  },
+  {
+    "id": 2338,
+    "title": "The Meltdown",
+    "director": "Manuela Martelli",
+    "year": 2026,
+    "tmdb_id": 1210268,
+    "imdb_id": "tt39571626",
+    "original_title": "El deshielo",
+    "original_language": "es",
+    "alternate_titles": []
+  },
+  {
+    "id": 2339,
+    "title": "Forever Your Maternal Animal",
+    "director": "Valentina Maurel",
+    "year": 2026,
+    "tmdb_id": 1661932,
+    "imdb_id": "tt41592077",
+    "original_title": "Siempre soy tu animal materno",
+    "original_language": "es",
+    "alternate_titles": [
+      "Always Your Maternal Animal"
+    ]
+  },
+  {
+    "id": 2340,
+    "title": "Yesterday the Eye Didn't Sleep",
+    "director": "Rakan Mayasi",
+    "year": 2026,
+    "tmdb_id": 1529849,
+    "imdb_id": "tt37775830",
+    "original_title": "البارح العين ما نامت",
+    "original_language": "ar",
+    "alternate_titles": []
+  },
+  {
+    "id": 2341,
+    "title": "I'll Be Gone in June",
+    "director": "Katharina Rivilis",
+    "year": 2026,
+    "tmdb_id": 1441105,
+    "imdb_id": "tt23143606",
+    "original_title": "I'll Be Gone in June",
+    "original_language": "de",
+    "alternate_titles": []
+  },
+  {
+    "id": 2342,
+    "title": "Words of Love",
+    "director": "Rudi Rosenberg",
+    "year": 2026,
+    "tmdb_id": 1544163,
+    "imdb_id": "tt39969491",
+    "original_title": "Quelques mots d'amour",
+    "original_language": "fr",
+    "alternate_titles": [
+      "Of Love"
+    ]
+  },
+  {
+    "id": 2343,
+    "title": "Everytime",
+    "director": "Sandra Wollner",
+    "year": 2026,
+    "tmdb_id": 1655419,
+    "imdb_id": "tt41592057",
+    "original_title": "Everytime",
+    "original_language": "de",
+    "alternate_titles": []
+  },
+  {
+    "id": 2344,
+    "title": "Victorian Psycho",
+    "director": "Zachary Wigon",
+    "year": 2026,
+    "tmdb_id": 1379486,
+    "imdb_id": "tt34374553",
+    "original_title": "Victorian Psycho",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 2345,
+    "title": "All the Lovers in the Night",
+    "director": "Yukiko Sode",
+    "year": 2026,
+    "tmdb_id": 1560309,
+    "imdb_id": "tt41592995",
+    "original_title": "すべて真夜中の恋人たち",
+    "original_language": "ja",
+    "alternate_titles": []
+  },
+  {
+    "id": 2346,
+    "title": "Ulysse",
+    "director": "Laetitia Masson",
+    "year": 2026,
+    "tmdb_id": 1383287,
+    "imdb_id": "tt42007282",
+    "original_title": "Ulysse",
+    "original_language": "fr",
+    "alternate_titles": []
+  },
+  {
+    "id": 2347,
+    "title": "The Burning Giants",
+    "director": "Phuttiphong Aroonpheng",
+    "year": 2026,
+    "tmdb_id": 1730542,
+    "imdb_id": "tt29495221",
+    "original_title": "ยักษ์ไหม้",
+    "original_language": "th",
+    "alternate_titles": [
+      "Yak Mai"
+    ]
+  },
+  {
+    "id": 2348,
+    "title": "What Belongs to Others",
+    "director": "Grzegorz Dębowski",
+    "year": 2026,
+    "tmdb_id": 1736461,
+    "imdb_id": "tt43704165",
+    "original_title": "Cudze rzeczy",
+    "original_language": "pl",
+    "alternate_titles": []
+  },
+  {
+    "id": 2349,
+    "title": "A Common Story",
+    "director": "Anna Foglietta",
+    "year": 2026,
+    "tmdb_id": 1597196,
+    "imdb_id": "tt39307632",
+    "original_title": "Una storia",
+    "original_language": "it",
+    "alternate_titles": []
+  },
+  {
+    "id": 2350,
+    "title": "The City of the Living",
+    "director": "Edoardo Gabbriellini",
+    "year": 2026,
+    "tmdb_id": 1632103,
+    "imdb_id": "tt40071725",
+    "original_title": "La città dei vivi",
+    "original_language": "it",
+    "alternate_titles": []
+  },
+  {
+    "id": 2351,
+    "title": "Too Much Sugar",
+    "director": "Robert Greene",
+    "year": 2026,
+    "tmdb_id": 1736499,
+    "imdb_id": "tt43704169",
+    "original_title": "Too Much Sugar",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 2352,
+    "title": "The Difficult Bride",
+    "director": "Rubaiyat Hossain",
+    "year": 2026,
+    "tmdb_id": 1593299,
+    "imdb_id": "tt42827406",
+    "original_title": "The Difficult Bride",
+    "original_language": "bn",
+    "alternate_titles": []
+  },
+  {
+    "id": 2353,
+    "title": "Children of the Monkey",
+    "director": "Tommaso Landucci",
+    "year": 2026,
+    "tmdb_id": 1554129,
+    "imdb_id": "tt39390583",
+    "original_title": "I figli della scimmia",
+    "original_language": "it",
+    "alternate_titles": [
+      "The Children of the Monkey"
+    ]
+  },
+  {
+    "id": 2354,
+    "title": "A Day in the Life of Jo: Chapter Phaedra",
+    "director": "Jacqueline Lentzou",
+    "year": 2026,
+    "tmdb_id": 1510542,
+    "imdb_id": "tt43704171",
+    "original_title": "Mia mera sti zoi tis Tzo: Kefalaio Faidra",
+    "original_language": "el",
+    "alternate_titles": []
+  },
+  {
+    "id": 2355,
+    "title": "Oasis",
+    "director": "Jannis Lenz",
+    "year": 2027,
+    "tmdb_id": 1470034,
+    "imdb_id": "tt43704174",
+    "original_title": "Oase",
+    "original_language": "de",
+    "alternate_titles": []
+  },
+  {
+    "id": 2356,
+    "title": "Until the Day Ends",
+    "director": "Jelena Maksimović",
+    "year": 2026,
+    "tmdb_id": 1531947,
+    "imdb_id": "tt37919722",
+    "original_title": "Do kraja dana",
+    "original_language": "sr",
+    "alternate_titles": []
+  },
+  {
+    "id": 2357,
+    "title": "The Girl with the Leica",
+    "director": "Alina Marazzi",
+    "year": 2026,
+    "tmdb_id": 1544437,
+    "imdb_id": "tt38024578",
+    "original_title": "La ragazza con la Leica",
+    "original_language": "it",
+    "alternate_titles": []
+  },
+  {
+    "id": 2358,
+    "title": "La Moula",
+    "director": "Jérôme Pierrat",
+    "year": 2026,
+    "tmdb_id": 1736501,
+    "imdb_id": "tt43704178",
+    "original_title": "La Moula",
+    "original_language": "fr",
+    "alternate_titles": []
+  },
+  {
+    "id": 2359,
+    "title": "Lovers in the Blue Night",
+    "director": "Anuparna Roy",
+    "year": 2026,
+    "tmdb_id": 1699532,
+    "imdb_id": "tt42824418",
+    "original_title": "लवर्स इन द ब्लू नाइट",
+    "original_language": "hi",
+    "alternate_titles": []
+  },
+  {
+    "id": 2360,
+    "title": "Diane In The Loop",
+    "director": "Ann Sirot, Raphaël Balboni",
+    "year": 2027,
+    "tmdb_id": 1404588,
+    "imdb_id": "tt38693221",
+    "original_title": "Un détour par Diane",
+    "original_language": "fr",
+    "alternate_titles": []
+  },
+  {
+    "id": 2361,
+    "title": "The Color of the Sun",
+    "director": "Xavier Tera",
+    "year": 2026,
+    "tmdb_id": 1736503,
+    "imdb_id": "tt37537532",
+    "original_title": "太陽ぬ色",
+    "original_language": "ja",
+    "alternate_titles": []
+  },
+  {
+    "id": 2362,
+    "title": "Eklipse",
+    "director": "Manuel Wetscher",
+    "year": 2026,
+    "tmdb_id": 1724831,
+    "imdb_id": "tt43635409",
+    "original_title": "Eklipse",
+    "original_language": "de",
+    "alternate_titles": []
+  },
+  {
+    "id": 2363,
+    "title": "17",
+    "director": "Kosara Mitić",
+    "year": 2026,
+    "tmdb_id": 1619815,
+    "imdb_id": "tt37775862",
+    "original_title": "17",
+    "original_language": "mk",
+    "alternate_titles": []
+  },
+  {
+    "id": 2364,
+    "title": "Animol",
+    "director": "Ashley Walters",
+    "year": 2026,
+    "tmdb_id": 1425784,
+    "imdb_id": "tt33995791",
+    "original_title": "Animol",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 2365,
+    "title": "Chronicles from the Siege",
+    "director": "Abdallah Al-Khatib",
+    "year": 2026,
+    "tmdb_id": 1400378,
+    "imdb_id": "tt34734549",
+    "original_title": "Chroniques des années de siège",
+    "original_language": "ar",
+    "alternate_titles": []
+  },
+  {
+    "id": 2366,
+    "title": "The River Train",
+    "director": "Lorenzo Ferro, Lucas A. Vignale",
+    "year": 2026,
+    "tmdb_id": 1574074,
+    "imdb_id": "tt39381628",
+    "original_title": "El Tren Fluvial",
+    "original_language": "es",
+    "alternate_titles": []
+  },
+  {
+    "id": 2367,
+    "title": "Filipiñana",
+    "director": "Rafael Manuel",
+    "year": 2026,
+    "tmdb_id": 1417935,
+    "imdb_id": "tt29512008",
+    "original_title": "Filipiñana",
+    "original_language": "tl",
+    "alternate_titles": []
+  },
+  {
+    "id": 2368,
+    "title": "Forest High",
+    "director": "Manon Coubia",
+    "year": 2026,
+    "tmdb_id": 1414395,
+    "imdb_id": "tt39381659",
+    "original_title": "Forêt Ivre",
+    "original_language": "fr",
+    "alternate_titles": []
+  },
+  {
+    "id": 2369,
+    "title": "The Red Hangar",
+    "director": "Juan Pablo Sallato",
+    "year": 2026,
+    "tmdb_id": 1563588,
+    "imdb_id": "tt37664358",
+    "original_title": "Hangar Rojo",
+    "original_language": "es",
+    "alternate_titles": []
+  },
+  {
+    "id": 2370,
+    "title": "Trial of Hein",
+    "director": "Kai Stänicke",
+    "year": 2026,
+    "tmdb_id": 1476466,
+    "imdb_id": "tt33522697",
+    "original_title": "Der Heimatlose",
+    "original_language": "de",
+    "alternate_titles": []
+  },
+  {
+    "id": 2371,
+    "title": "Our Secret",
+    "director": "Grace Passô",
+    "year": 2026,
+    "tmdb_id": 1399253,
+    "imdb_id": "tt39382724",
+    "original_title": "Nosso Segredo",
+    "original_language": "pt",
+    "alternate_titles": []
+  },
+  {
+    "id": 2372,
+    "title": "A Prayer for the Dying",
+    "director": "Dara Van Dusen",
+    "year": 2026,
+    "tmdb_id": 1241046,
+    "imdb_id": "tt31183803",
+    "original_title": "A Prayer for the Dying",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 2373,
+    "title": "Take Me Home",
+    "director": "Liz Sargent",
+    "year": 2026,
+    "tmdb_id": 1569461,
+    "imdb_id": "tt37263549",
+    "original_title": "Take Me Home",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 2374,
+    "title": "Truly Naked",
+    "director": "Muriel d'Ansembourg",
+    "year": 2026,
+    "tmdb_id": 1281195,
+    "imdb_id": "tt8760666",
+    "original_title": "Truly Naked",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 2375,
+    "title": "Where To?",
+    "director": "Assaf Machnes",
+    "year": 2026,
+    "tmdb_id": 1619818,
+    "imdb_id": "tt35253781",
+    "original_title": "לאן / لوين",
+    "original_language": "he",
+    "alternate_titles": []
+  },
+  {
+    "id": 2376,
+    "title": "Light Pillar",
+    "director": "Zao Xu",
+    "year": 2026,
+    "tmdb_id": 1601885,
+    "imdb_id": "tt32409947",
+    "original_title": "寒夜灯柱",
+    "original_language": "zh",
+    "alternate_titles": [
+      "Han ye deng zhu"
+    ]
+  },
+  {
+    "id": 2377,
+    "title": "Falling House",
+    "director": "Mohsen Gharaie",
+    "year": 2026,
+    "tmdb_id": 1736497,
+    "imdb_id": "tt43704167",
+    "original_title": "مراقب",
+    "original_language": "fa",
+    "alternate_titles": [
+      "Moragheb"
+    ]
+  },
+  {
+    "id": 2378,
+    "title": "House of the Wind",
+    "director": "Auguste Kouemo Yanghu",
+    "year": 2026,
+    "tmdb_id": 1404592,
+    "imdb_id": "tt20244858",
+    "original_title": "La Maison du vent",
+    "original_language": "fr",
+    "alternate_titles": []
+  },
+  {
+    "id": 2379,
+    "title": "Big Little Things",
+    "director": "Michelle Tong Zhou",
+    "year": 2026,
+    "tmdb_id": 1562901,
+    "imdb_id": "tt37301443",
+    "original_title": "謊言生活",
+    "original_language": "cn",
+    "alternate_titles": [
+      "Huangyan shenghuo"
+    ]
   }
 ];

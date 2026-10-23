@@ -18,12 +18,14 @@ async function boot(hash='#/films/awards'){
 test('2026: every award, complete selected feature scope, winners and canonical references match source records',()=>{
  assert.equal(editions.length,6);const films=globalFrom('film-catalog.js','CULTURE_CATALOG'),known=new Map(films.map(f=>[f.id,f]));
  const audit=JSON.parse(fs.readFileSync(new URL('../imports/awards-2026-audit.json',import.meta.url),'utf8'));assert.deepEqual(audit.unresolved,[]);
- for(const expected of spec.events){const e=editions.find(e=>e.event===expected.event);assert.ok(e,expected.event);assert.equal(e.categories.length,expected.categories.length);if(expected.selection)assert.equal(e.films.length,expected.selection.length);
+ for(const expected of spec.events){const e=editions.find(e=>e.event===expected.event);assert.ok(e,expected.event);
+  const sourceGroups=expected.programmes||expected.categories;assert.equal(e.categories.length,sourceGroups.length);
   for(const[cindex,c]of e.categories.entries()){
-   const source=expected.categories[cindex];assert.equal(c.entries.length,source.entries.length);assert.equal(c.entries.filter(e=>e.winner).length,source.entries.filter(e=>e.winner).length);
-   assert.equal(new Set(c.nominees).size,c.nominees.length);assert.ok(c.winners.every(id=>c.nominees.includes(id)));
+   const source=sourceGroups[cindex];assert.equal(c.entries.length,(source.selection||source.entries).length);
+   assert.equal(new Set(c.nominees).size,c.nominees.length);assert.equal(new Set(c.entries.map(r=>r.film_id)).size,expected.programmes?c.entries.length:c.nominees.length);assert.ok(c.winners.every(id=>c.nominees.includes(id)));
    for(const row of c.entries){assert.ok(known.has(row.film_id));assert.ok(e.films.some(f=>f.id===row.film_id));}
-   for(const winner of c.entries.filter(x=>x.winner))assert.ok(e.films.find(f=>f.id===winner.film_id).awards.includes(c.name));
+   if(expected.programmes){assert.equal(c.name,source.name);for(const row of c.entries){assert.equal(row.winner,row.prizes.length>0);for(const prize of row.prizes)assert.ok(e.films.find(f=>f.id===row.film_id).awards.includes(prize));}}
+   else {assert.equal(c.entries.filter(e=>e.winner).length,source.entries.filter(e=>e.winner).length);for(const winner of c.entries.filter(x=>x.winner))assert.ok(e.films.find(f=>f.id===winner.film_id).awards.includes(c.name));}
   }
  }
  const oscars=editions.find(e=>e.event==='Oscars');assert.equal(oscars.categories[0].name,'Best Picture');assert.equal(oscars.categories[0].entries.length,10);
@@ -41,14 +43,24 @@ test('Award tabs, latest editions, year history, category repeats and winner-fir
   const card=$('awards-grid').querySelector('article');card.querySelector('h3 a').click();assert.equal($('film-detail-dialog').open,true);w.history.back();await tick();assert.equal($('film-detail-dialog').open,false);assert.equal($('award-edition-title').textContent,'Oscars 2026');
  }finally{await a.close();}
 });
-test('Shared prizes and individual actor nominations stay distinct; all copies share one rating',async()=>{
- const a=await boot('#/films/awards?event=Cannes&year=2026');try{
-  const{w,$}=a,cats=editions.find(e=>e.event==='Cannes').categories;
-  const director=cats.find(c=>c.name==='Best Director');assert.equal(director.winners.length,2);
-  const actresses=cats.find(c=>c.name==='Best Actress');assert.equal(actresses.entries.length,2);assert.equal(actresses.winners.length,1);
-  const panels=[...$('awards-grid').querySelectorAll('.award-category')];assert.equal(panels.find(p=>p.querySelector('h3').textContent==='Best Actress').querySelectorAll('article').length,2);
-  const id=String(actresses.entries[0].film_id),first=$('awards-grid').querySelector(`[data-film-id="${id}"]`);first.querySelector('[data-open-stars]').click();const stars=$('star-picker')||w.document.querySelector('.star-picker:not([hidden])');assert.ok(stars);
-  // Existing star control is exercised through its public keyboard interaction.
+test('Festivals show one card per film per section and aggregate every prize and shared performer',async()=>{
+ for(const name of ['Cannes','Venice','Berlinale']){
+  const a=await boot('#/films/awards?event='+name+'&year=2026');try{
+   const{$}=a,groups=$('awards-grid').querySelectorAll('.award-category'),e=editions.find(e=>e.event===name);assert.equal(groups.length,2);
+   for(const [i,panel]of [...groups].entries()){
+    const cards=[...panel.querySelectorAll('article')],ids=cards.map(c=>c.dataset.filmId);assert.equal(new Set(ids).size,ids.length);assert.equal(cards.length,e.categories[i].entries.length);
+    for(const card of cards){const row=e.categories[i].entries.find(r=>String(r.film_id)===card.dataset.filmId);assert.equal(card.querySelectorAll('.festival-prizes>div').length,row.prizes.length);for(const prize of row.prizes)assert.ok(card.textContent.includes(prize));}
+   }
+   assert.equal(groups[0].querySelector('article').dataset.filmId,String(e.categories[0].winner));
+   if(name==='Cannes'){assert.match(groups[0].textContent,/Virginie EFIRA|Virginie Efira/);assert.match(groups[0].textContent,/Tao OKAMOTO|Tao Okamoto/);assert.match(groups[1].textContent,/Caméra d’or/);}
+   if(name==='Venice'){assert.match(groups[1].textContent,/Lion of the Future/);const row=e.categories[0].entries.find(r=>r.prizes.length>1);assert.ok(row);}
+  }finally{await a.close();}
+ }
+});
+test('Ceremony performer nominations still repeat and share one rating',async()=>{
+ const a=await boot('#/films/awards?event=Oscars&year=2026');try{
+  const{w,$}=a,groups=$('awards-grid').querySelectorAll('.award-category'),id=groups[0].querySelector('article').dataset.filmId;
+  const first=$('awards-grid').querySelector(`[data-film-id="${id}"]`);first.querySelector('[data-open-stars]').click();const stars=$('star-picker')||w.document.querySelector('.star-picker:not([hidden])');assert.ok(stars);
   for(let i=0;i<16;i++)stars.dispatchEvent(new w.KeyboardEvent('keydown',{key:'ArrowRight',bubbles:true}));stars.dispatchEvent(new w.KeyboardEvent('keydown',{key:'Enter',bubbles:true}));
   const copies=$('awards-grid').querySelectorAll(`[data-film-id="${id}"] [data-open-stars]`);assert.ok(copies.length>1);for(const copy of copies)assert.match(copy.textContent,/8.0\/10/);
  }finally{await a.close();}
