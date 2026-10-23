@@ -13,7 +13,7 @@ const key=process.env.TMDB_API_KEY,token=process.env.TMDB_READ_ACCESS_TOKEN;
 const overrides=fs.existsSync('imports/awards-2026-identity-overrides.json')?JSON.parse(fs.readFileSync('imports/awards-2026-identity-overrides.json','utf8')):{};
 async function api(path,params={}){
  const u=new URL('https://api.themoviedb.org/3/'+path);for(const[k,v]of Object.entries(params))if(v!=null)u.searchParams.set(k,String(v));if(!token)u.searchParams.set('api_key',key||'');
- for(let i=0;i<4;i++){try{const r=await fetch(u,{headers:token?{Authorization:'Bearer '+token}:{},signal:AbortSignal.timeout(20000)});if(r.ok)return r.json();if(r.status!==429&&r.status<500)throw Error('TMDB HTTP '+r.status);}catch(e){if(i===3)throw Error('TMDB request failed');}await new Promise(r=>setTimeout(r,500*(i+1)));}throw Error('TMDB unavailable');
+ for(let i=0;i<4;i++){try{const r=await fetch(u,{headers:token?{Authorization:'Bearer '+token}:{},signal:AbortSignal.timeout(20000)});if(r.ok)return r.json();if(r.status!==429&&r.status<500)throw Error('TMDB HTTP '+r.status);}catch(e){if(i===3)throw Error('TMDB request failed for '+path+' ('+e.name+')');}await new Promise(r=>setTimeout(r,500*(i+1)));}throw Error('TMDB unavailable');
 }
 const audit={edition:2026,matched:[],added:[],unresolved:[]};let next=Math.max(...films.map(f=>f.id))+1;
 const title=t=>raw.aliases[t]||t;
@@ -25,10 +25,11 @@ for(const candidate of candidates){
  if(same.length>1){audit.unresolved.push({...candidate,reason:'Ambiguous existing identity'});continue;}
  if(!key&&!token){audit.unresolved.push({...candidate,reason:'TMDB credentials required'});continue;}
  try{
-  const movieIds=new Set();if(overrides[candidate.title])movieIds.add(overrides[candidate.title]);
-  else for(const name of names){const response=await api('search/movie',{query:name,include_adult:false});for(const m of response.results||[])if(Math.abs(Number(m.release_date?.slice(0,4)||candidate.year)-candidate.year)<=2&&[m.title,m.original_title].some(t=>names.some(n=>norm(n)===norm(t))))movieIds.add(m.id);}
+  const movieIds=new Set();if(candidate.imdb_id){const found=await api('find/'+candidate.imdb_id,{external_source:'imdb_id'});for(const m of found.movie_results||[])movieIds.add(m.id);}
+  if(overrides[candidate.title])movieIds.add(overrides[candidate.title]);
+  else if(!movieIds.size)for(const name of names){const response=await api('search/movie',{query:name,include_adult:false});for(const m of response.results||[])if(Math.abs(Number(m.release_date?.slice(0,4)||candidate.year)-candidate.year)<=2&&[m.title,m.original_title].some(t=>names.some(n=>norm(n)===norm(t))))movieIds.add(m.id);}
   const verified=[],reviewed=[];
-  for(const id of movieIds){const m=await api('movie/'+id,{append_to_response:'credits,external_ids'});const directors=(m.credits?.crew||[]).filter(p=>p.job==='Director').map(p=>p.name).join(', ');reviewed.push({tmdb_id:m.id,title:m.title,original_title:m.original_title,directors});if(directorMatches(candidate.director,directors))verified.push(m);}
+  for(const id of movieIds){try{const m=await api('movie/'+id,{append_to_response:'credits,external_ids'});const directors=(m.credits?.crew||[]).filter(p=>p.job==='Director').map(p=>p.name).join(', ');reviewed.push({tmdb_id:m.id,title:m.title,original_title:m.original_title,directors});if(directorMatches(candidate.director,directors)&&(!candidate.imdb_id||m.imdb_id===candidate.imdb_id))verified.push(m);}catch(error){reviewed.push({tmdb_id:id,reason:'Provider record unavailable'});}}
   if(verified.length!==1){audit.unresolved.push({...candidate,reason:'Expected one title/director match; found '+verified.length,reviewed});continue;}
   const m=verified[0],old=films.find(f=>f.tmdb_id===m.id||m.imdb_id&&f.imdb_id===m.imdb_id);
   if(old){audit.matched.push({title:candidate.title,id:old.id,tmdb_id:m.id});candidate.canonical_id=old.id;continue;}
