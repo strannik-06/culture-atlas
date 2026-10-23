@@ -21970,5 +21970,786 @@ window.CULTURE_CATALOG = [
     "year": 1974,
     "tmdb_id": 133919,
     "imdb_id": "tt6725014"
+  },
+  {
+    "id": 2254,
+    "title": "F1",
+    "director": "Joseph Kosinski",
+    "year": 2025,
+    "tmdb_id": 911430,
+    "imdb_id": "tt16311594",
+    "original_title": "F1",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 2255,
+    "title": "Song Sung Blue",
+    "director": "Craig Brewer",
+    "year": 2025,
+    "tmdb_id": 1371185,
+    "imdb_id": "tt30343021",
+    "original_title": "Song Sung Blue",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 2256,
+    "title": "Bridget Jones: Mad About the Boy",
+    "director": "Michael Morris",
+    "year": 2025,
+    "tmdb_id": 1272149,
+    "imdb_id": "tt32063050",
+    "original_title": "Bridget Jones: Mad About the Boy",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 2257,
+    "title": "H Is for Hawk",
+    "director": "Philippa Lowthorpe",
+    "year": 2025,
+    "tmdb_id": 1243006,
+    "imdb_id": "tt10329560",
+    "original_title": "H Is for Hawk",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 2258,
+    "title": "Mr. Burton",
+    "director": "Marc Evans",
+    "year": 2025,
+    "tmdb_id": 1242454,
+    "imdb_id": "tt5171016",
+    "original_title": "Mr. Burton",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 2259,
+    "title": "Apocalypse in the Tropics",
+    "director": "Petra Costa",
+    "year": 2025,
+    "tmdb_id": 1320400,
+    "imdb_id": "tt30012657",
+    "original_title": "Apocalipse nos Trópicos",
+    "original_language": "pt",
+    "alternate_titles": []
+  },
+  {
+    "id": 2260,
+    "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+    "director": "Haruo Sotozaki",
+    "year": 2025,
+    "tmdb_id": 1311031,
+    "imdb_id": "tt32820897",
+    "original_title": "劇場版「鬼滅の刃」無限城編 第一章 猗窩座再来",
+    "original_language": "ja",
+    "alternate_titles": []
+  },
+  {
+    "id": 2261,
+    "title": "Hedda",
+    "director": "Nia DaCosta",
+    "year": 2025,
+    "tmdb_id": 997113,
+    "imdb_id": "tt27953589",
+    "original_title": "Hedda",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 2262,
+    "title": "Springsteen: Deliver Me from Nowhere",
+    "director": "Scott Cooper",
+    "year": 2025,
+    "tmdb_id": 1230368,
+    "imdb_id": "tt31923069",
+    "original_title": "Springsteen: Deliver Me from Nowhere",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 2263,
+    "title": "Wicked: For Good",
+    "director": "Jon M. Chu",
+    "year": 2025,
+    "tmdb_id": 967941,
+    "imdb_id": "tt19847976",
+    "original_title": "Wicked: For Good",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 2264,
+    "title": "Bitter Christmas",
+    "director": "Pedro Almodóvar",
+    "year": 2026,
+    "tmdb_id": 1088548,
+    "imdb_id": "tt28088049",
+    "original_title": "Amarga Navidad",
+    "original_language": "es",
+    "alternate_titles": []
+  },
+  {
+    "id": 2265,
+    "title": "A Woman's Life",
+    "director": "Charline Bourgeois-Tacquet",
+    "year": 2026,
+    "tmdb_id": 1258181,
+    "imdb_id": "tt39299437",
+    "original_title": "La vie d'une femme",
+    "original_language": "fr",
+    "alternate_titles": []
+  },
+  {
+    "id": 2266,
+    "title": "La bola negra",
+    "director": "Javier Ambrossi, Javier Calvo",
+    "year": 2026,
+    "tmdb_id": 1422041,
+    "imdb_id": "tt35511966",
+    "original_title": "La bola negra",
+    "original_language": "es",
+    "alternate_titles": []
+  },
+  {
+    "id": 2267,
+    "title": "Coward",
+    "director": "Lukas Dhont",
+    "year": 2026,
+    "tmdb_id": 1437981,
+    "imdb_id": "tt39328391",
+    "original_title": "Coward",
+    "original_language": "fr",
+    "alternate_titles": []
+  },
+  {
+    "id": 2268,
+    "title": "Parallel Tales",
+    "director": "Asghar Farhadi",
+    "year": 2026,
+    "tmdb_id": 1157869,
+    "imdb_id": "tt36646880",
+    "original_title": "Histoires parallèles",
+    "original_language": "fr",
+    "alternate_titles": []
+  },
+  {
+    "id": 2269,
+    "title": "Paper Tiger",
+    "director": "James Gray",
+    "year": 2026,
+    "tmdb_id": 1381273,
+    "imdb_id": "tt34385689",
+    "original_title": "Paper Tiger",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 2270,
+    "title": "The Dreamed Adventure",
+    "director": "Valeska Grisebach",
+    "year": 2026,
+    "tmdb_id": 1013822,
+    "imdb_id": "tt21188986",
+    "original_title": "Das geträumte Abenteuer",
+    "original_language": "de",
+    "alternate_titles": []
+  },
+  {
+    "id": 2271,
+    "title": "All of a Sudden",
+    "director": "Ryusuke Hamaguchi",
+    "year": 2026,
+    "tmdb_id": 1476614,
+    "imdb_id": "tt36834996",
+    "original_title": "急に具合が悪くなる",
+    "original_language": "ja",
+    "alternate_titles": [
+      "Soudain"
+    ]
+  },
+  {
+    "id": 2272,
+    "title": "Another Day",
+    "director": "Jeanne Herry",
+    "year": 2026,
+    "tmdb_id": 1507877,
+    "imdb_id": "tt38584405",
+    "original_title": "Garance",
+    "original_language": "fr",
+    "alternate_titles": []
+  },
+  {
+    "id": 2273,
+    "title": "Hope",
+    "director": "Na Hong-jin",
+    "year": 2026,
+    "tmdb_id": 1058424,
+    "imdb_id": "tt27369017",
+    "original_title": "호프",
+    "original_language": "ko",
+    "alternate_titles": []
+  },
+  {
+    "id": 2274,
+    "title": "Nagi Notes",
+    "director": "Koji Fukada",
+    "year": 2026,
+    "tmdb_id": 1448971,
+    "imdb_id": "tt28551050",
+    "original_title": "ナギダイアリー",
+    "original_language": "ja",
+    "alternate_titles": []
+  },
+  {
+    "id": 2275,
+    "title": "Gentle Monster",
+    "director": "Marie Kreutzer",
+    "year": 2026,
+    "tmdb_id": 1473148,
+    "imdb_id": "tt37020296",
+    "original_title": "Gentle Monster",
+    "original_language": "de",
+    "alternate_titles": []
+  },
+  {
+    "id": 2276,
+    "title": "A Man of His Time",
+    "director": "Emmanuel Marre",
+    "year": 2026,
+    "tmdb_id": 1318864,
+    "imdb_id": "tt41593304",
+    "original_title": "Notre salut",
+    "original_language": "fr",
+    "alternate_titles": []
+  },
+  {
+    "id": 2277,
+    "title": "Fjord",
+    "director": "Cristian Mungiu",
+    "year": 2026,
+    "tmdb_id": 1401459,
+    "imdb_id": "tt35410859",
+    "original_title": "Fjord",
+    "original_language": "ro",
+    "alternate_titles": []
+  },
+  {
+    "id": 2278,
+    "title": "The Birthday Party",
+    "director": "Léa Mysius",
+    "year": 2026,
+    "tmdb_id": 1191818,
+    "imdb_id": "tt30495381",
+    "original_title": "Histoires de la nuit",
+    "original_language": "fr",
+    "alternate_titles": []
+  },
+  {
+    "id": 2279,
+    "title": "Moulin",
+    "director": "László Nemes",
+    "year": 2026,
+    "tmdb_id": 1437925,
+    "imdb_id": "tt36899180",
+    "original_title": "Moulin",
+    "original_language": "fr",
+    "alternate_titles": []
+  },
+  {
+    "id": 2280,
+    "title": "Fatherland",
+    "director": "Paweł Pawlikowski",
+    "year": 2026,
+    "tmdb_id": 1437696,
+    "imdb_id": "tt37304295",
+    "original_title": "Ojczyzna",
+    "original_language": "pl",
+    "alternate_titles": []
+  },
+  {
+    "id": 2281,
+    "title": "The Man I Love",
+    "director": "Ira Sachs",
+    "year": 2027,
+    "tmdb_id": 1458914,
+    "imdb_id": "tt37522972",
+    "original_title": "The Man I Love",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 2282,
+    "title": "The Beloved",
+    "director": "Rodrigo Sorogoyen",
+    "year": 2026,
+    "tmdb_id": 1074074,
+    "imdb_id": "tt33451014",
+    "original_title": "El ser querido",
+    "original_language": "es",
+    "alternate_titles": []
+  },
+  {
+    "id": 2283,
+    "title": "Company",
+    "director": "Casey Affleck",
+    "year": 2026,
+    "tmdb_id": 1733908,
+    "imdb_id": "tt0772163",
+    "original_title": "Company",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 2284,
+    "title": "A Bit of Light",
+    "director": "Ali Asgari",
+    "year": 2026,
+    "tmdb_id": 1736490,
+    "imdb_id": "tt43704846",
+    "original_title": "کمی نور",
+    "original_language": "fa",
+    "alternate_titles": [
+      "Kami nour (A bit of light)",
+      "Kami nour"
+    ]
+  },
+  {
+    "id": 2285,
+    "title": "Back to Buenos Aires",
+    "director": "Marco Bechis",
+    "year": 2026,
+    "tmdb_id": 1597199,
+    "imdb_id": "tt39239726",
+    "original_title": "Ritorno a Buenos Aires",
+    "original_language": "it",
+    "alternate_titles": []
+  },
+  {
+    "id": 2286,
+    "title": "Ink",
+    "director": "Danny Boyle",
+    "year": 2026,
+    "tmdb_id": 1532610,
+    "imdb_id": "tt37967547",
+    "original_title": "Ink",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 2287,
+    "title": "A Good Little Soldier",
+    "director": "Stéphane Brizé",
+    "year": 2026,
+    "tmdb_id": 1430815,
+    "imdb_id": "tt41802342",
+    "original_title": "Un bon petit soldat",
+    "original_language": "fr",
+    "alternate_titles": []
+  },
+  {
+    "id": 2288,
+    "title": "The Fire Within You",
+    "director": "Edoardo De Angelis",
+    "year": 2026,
+    "tmdb_id": 1632188,
+    "imdb_id": "tt34621251",
+    "original_title": "Il fuoco che ti porti dentro",
+    "original_language": "it",
+    "alternate_titles": [
+      "Il fuoco che ti porti dentro (The Fire Within You)"
+    ]
+  },
+  {
+    "id": 2289,
+    "title": "Woman Unknown",
+    "director": "May el-Toukhy",
+    "year": 2027,
+    "tmdb_id": 1511780,
+    "imdb_id": "tt34888026",
+    "original_title": "Kvinde ukendt",
+    "original_language": "da",
+    "alternate_titles": [
+      "Kvinde Ukendt (Woman Unknown)"
+    ]
+  },
+  {
+    "id": 2290,
+    "title": "Bucking Fastard",
+    "director": "Werner Herzog",
+    "year": 2026,
+    "tmdb_id": 1429713,
+    "imdb_id": "tt35670577",
+    "original_title": "Bucking Fastard",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 2291,
+    "title": "A Place to Heal",
+    "director": "Cédric Kahn",
+    "year": 2026,
+    "tmdb_id": 1429602,
+    "imdb_id": "tt42826707",
+    "original_title": "15/18",
+    "original_language": "fr",
+    "alternate_titles": [
+      "15/18 (A Place To Heal)"
+    ]
+  },
+  {
+    "id": 2292,
+    "title": "DAU",
+    "director": "Ilya Khrzhanovsky",
+    "year": 2026,
+    "tmdb_id": 1734147,
+    "imdb_id": "tt43702526",
+    "original_title": "DAU",
+    "original_language": "ru",
+    "alternate_titles": []
+  },
+  {
+    "id": 2293,
+    "title": "Possible Love",
+    "director": "Lee Chang-dong",
+    "year": 2026,
+    "tmdb_id": 1483525,
+    "imdb_id": "tt37803364",
+    "original_title": "가능한 사랑",
+    "original_language": "ko",
+    "alternate_titles": [
+      "Ga-neung-han sa-rang (Possible love)",
+      "Ga-neung-han sa-rang"
+    ]
+  },
+  {
+    "id": 2294,
+    "title": "Wild Horse Nine",
+    "director": "Martin McDonagh",
+    "year": 2026,
+    "tmdb_id": 891621,
+    "imdb_id": "tt15799564",
+    "original_title": "Wild Horse Nine",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 2295,
+    "title": "It Will Happen Tonight",
+    "director": "Nanni Moretti",
+    "year": 2026,
+    "tmdb_id": 1499546,
+    "imdb_id": "tt37341481",
+    "original_title": "Succederà questa notte",
+    "original_language": "it",
+    "alternate_titles": [
+      "Succederà questa notte (It will happen tonight)"
+    ]
+  },
+  {
+    "id": 2296,
+    "title": "The Echo Chamber",
+    "director": "Andrea Pallaoro",
+    "year": 2026,
+    "tmdb_id": 1576934,
+    "imdb_id": "tt9395802",
+    "original_title": "The Echo Chamber",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 2297,
+    "title": "One Minute to Midnight",
+    "director": "Nicolas Pariser",
+    "year": 2026,
+    "tmdb_id": 1480672,
+    "imdb_id": "tt38807757",
+    "original_title": "Un peu avant minuit",
+    "original_language": "fr",
+    "alternate_titles": []
+  },
+  {
+    "id": 2298,
+    "title": "The Spiral",
+    "director": "Paolo Strippoli",
+    "year": 2026,
+    "tmdb_id": 1412795,
+    "imdb_id": "tt23411728",
+    "original_title": "L'estranea",
+    "original_language": "it",
+    "alternate_titles": []
+  },
+  {
+    "id": 2299,
+    "title": "Mr. Nelson, Did You Kill People?",
+    "director": "Shinya Tsukamoto",
+    "year": 2026,
+    "tmdb_id": 1497946,
+    "imdb_id": "tt41240964",
+    "original_title": "ネルソンさん、あなたは人を殺しましたか？",
+    "original_language": "ja",
+    "alternate_titles": [
+      "Nelson san, anata wa hito wo koroshimashitaka? (Mr. Nelson, Did You Kill People?)",
+      "Nelson san, anata wa hito wo koroshimashitaka?"
+    ]
+  },
+  {
+    "id": 2300,
+    "title": "Bunker",
+    "director": "Florian Zeller",
+    "year": 2026,
+    "tmdb_id": 1473784,
+    "imdb_id": "tt36770512",
+    "original_title": "Bunker",
+    "original_language": "fr",
+    "alternate_titles": []
+  },
+  {
+    "id": 2301,
+    "title": "A New Dawn",
+    "director": "Yoshitoshi Shinomiya",
+    "year": 2026,
+    "tmdb_id": 1279865,
+    "imdb_id": "tt32192760",
+    "original_title": "花緑青が明ける日に",
+    "original_language": "ja",
+    "alternate_titles": []
+  },
+  {
+    "id": 2302,
+    "title": "At the Sea",
+    "director": "Kornél Mundruczó",
+    "year": 2026,
+    "tmdb_id": 1279548,
+    "imdb_id": "tt32203967",
+    "original_title": "At the Sea",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 2303,
+    "title": "In a Whisper",
+    "director": "Leyla Bouzid",
+    "year": 2026,
+    "tmdb_id": 1119547,
+    "imdb_id": "tt33515714",
+    "original_title": "À voix basse",
+    "original_language": "fr",
+    "alternate_titles": []
+  },
+  {
+    "id": 2304,
+    "title": "Dao",
+    "director": "Alain Gomis",
+    "year": 2026,
+    "tmdb_id": 1135582,
+    "imdb_id": "tt32358921",
+    "original_title": "Dao",
+    "original_language": "fr",
+    "alternate_titles": []
+  },
+  {
+    "id": 2305,
+    "title": "Dust",
+    "director": "Anke Blondé",
+    "year": 2026,
+    "tmdb_id": 1001375,
+    "imdb_id": "tt8977670",
+    "original_title": "Dust",
+    "original_language": "nl",
+    "alternate_titles": []
+  },
+  {
+    "id": 2306,
+    "title": "Home Stories",
+    "director": "Eva Trobisch",
+    "year": 2026,
+    "tmdb_id": 1299061,
+    "imdb_id": "tt39382755",
+    "original_title": "Etwas ganz Besonderes",
+    "original_language": "de",
+    "alternate_titles": []
+  },
+  {
+    "id": 2307,
+    "title": "Everybody Digs Bill Evans",
+    "director": "Grant Gee",
+    "year": 2026,
+    "tmdb_id": 1378791,
+    "imdb_id": "tt34347792",
+    "original_title": "Everybody Digs Bill Evans",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 2308,
+    "title": "Yellow Letters",
+    "director": "İlker Çatak",
+    "year": 2026,
+    "tmdb_id": 1315657,
+    "imdb_id": "tt32888226",
+    "original_title": "Gelbe Briefe",
+    "original_language": "tr",
+    "alternate_titles": []
+  },
+  {
+    "id": 2309,
+    "title": "Josephine",
+    "director": "Beth de Araújo",
+    "year": 2026,
+    "tmdb_id": 1299329,
+    "imdb_id": "tt32321285",
+    "original_title": "Josephine",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 2310,
+    "title": "Salvation",
+    "director": "Emin Alper",
+    "year": 2026,
+    "tmdb_id": 1401106,
+    "imdb_id": "tt36472181",
+    "original_title": "Kurtuluş",
+    "original_language": "tr",
+    "alternate_titles": []
+  },
+  {
+    "id": 2311,
+    "title": "My Wife Cries",
+    "director": "Angela Schanelec",
+    "year": 2026,
+    "tmdb_id": 1152312,
+    "imdb_id": "tt34934816",
+    "original_title": "Meine Frau weint",
+    "original_language": "de",
+    "alternate_titles": []
+  },
+  {
+    "id": 2312,
+    "title": "Flies",
+    "director": "Fernando Eimbcke",
+    "year": 2026,
+    "tmdb_id": 1437703,
+    "imdb_id": "tt35854741",
+    "original_title": "Moscas",
+    "original_language": "es",
+    "alternate_titles": []
+  },
+  {
+    "id": 2313,
+    "title": "Nina Roza",
+    "director": "Geneviève Dulude-De Celles",
+    "year": 2026,
+    "tmdb_id": 1527449,
+    "imdb_id": "tt29271639",
+    "original_title": "Nina Roza",
+    "original_language": "fr",
+    "alternate_titles": []
+  },
+  {
+    "id": 2314,
+    "title": "Queen at Sea",
+    "director": "Lance Hammer",
+    "year": 2026,
+    "tmdb_id": 1021848,
+    "imdb_id": "tt27541205",
+    "original_title": "Queen at Sea",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 2315,
+    "title": "Rose",
+    "director": "Markus Schleinzer",
+    "year": 2026,
+    "tmdb_id": 1176962,
+    "imdb_id": "tt25399154",
+    "original_title": "Rose",
+    "original_language": "de",
+    "alternate_titles": []
+  },
+  {
+    "id": 2316,
+    "title": "Rosebush Pruning",
+    "director": "Karim Aïnouz",
+    "year": 2026,
+    "tmdb_id": 1130948,
+    "imdb_id": "tt27844906",
+    "original_title": "Rosebush Pruning",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 2317,
+    "title": "Soumsoum, the Night of the Stars",
+    "director": "Mahamat-Saleh Haroun",
+    "year": 2026,
+    "tmdb_id": 1376457,
+    "imdb_id": "tt39075020",
+    "original_title": "Soumsoum, la nuit des astres",
+    "original_language": "fr",
+    "alternate_titles": []
+  },
+  {
+    "id": 2318,
+    "title": "The Loneliest Man in Town",
+    "director": "Tizza Covi, Rainer Frimmel",
+    "year": 2026,
+    "tmdb_id": 1426957,
+    "imdb_id": "tt39382808",
+    "original_title": "The Loneliest Man in Town",
+    "original_language": "de",
+    "alternate_titles": []
+  },
+  {
+    "id": 2319,
+    "title": "Wolfram",
+    "director": "Warwick Thornton",
+    "year": 2026,
+    "tmdb_id": 1476362,
+    "imdb_id": "tt36826227",
+    "original_title": "Wolfram",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 2320,
+    "title": "We Are All Strangers",
+    "director": "Anthony Chen",
+    "year": 2026,
+    "tmdb_id": 884692,
+    "imdb_id": "tt13848364",
+    "original_title": "我们不是陌生人",
+    "original_language": "zh",
+    "alternate_titles": []
+  },
+  {
+    "id": 2321,
+    "title": "Yo (Love Is a Rebellious Bird)",
+    "director": "Anna Fitch, Banker White",
+    "year": 2026,
+    "tmdb_id": 1619820,
+    "imdb_id": "tt39382829",
+    "original_title": "Yo (Love Is a Rebellious Bird)",
+    "original_language": "en",
+    "alternate_titles": [
+      "Yo",
+      "Love is a Rebellious Bird"
+    ]
+  },
+  {
+    "id": 2322,
+    "title": "Nightborn",
+    "director": "Hanna Bergholm",
+    "year": 2026,
+    "tmdb_id": 964849,
+    "imdb_id": "tt34383465",
+    "original_title": "Yön lapsi",
+    "original_language": "fi",
+    "alternate_titles": []
   }
 ];
