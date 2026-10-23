@@ -75482,5 +75482,97 @@ window.CULTURE_FILM_DETAILS = {
     "imdb": {
       "url": "https://www.imdb.com/title/tt32409947/"
     }
+  },
+  "2377": {
+    "tmdb_id": 1736497,
+    "title": "Falling House",
+    "original_title": "مراقب",
+    "overview": "A modest family on the outskirts of Tehran faces the imminent destruction of their home as a part of a vast redevelopment project. While Rashid, the father and a prison guard, is being accused of corruption, he discovers that his eldest daughter, Ensi, is secretly planning to leave Iran to become a model. As the bulldozers draw ever closer, the tensions within the household start to rise.",
+    "runtime": 124,
+    "release_date": "2026-09-03",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "IR",
+      "DE",
+      "US"
+    ],
+    "original_language": "fa",
+    "director": "Mohsen Gharaie",
+    "cast": [
+      "Laleh Marzban",
+      "Farhad Aslani",
+      "Rima Raminfar",
+      "Elena Khakbazan",
+      "Behzad Khalaj"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/5Aryu5UwuIdoBP3DZsz8L3nRyrb.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/1bwErBkD51s4uWDytzqDTwCIMEf.jpg",
+    "tmdb_rating": 6.8,
+    "tmdb_votes": 2,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt43704167/"
+    }
+  },
+  "2378": {
+    "tmdb_id": 1404592,
+    "title": "House of the Wind",
+    "original_title": "La Maison du vent",
+    "overview": "Josette (80) lives alone in Yaoundé, Cameroon. All her children have left for the West. She encourages them to build houses in Cameroon, a ploy to bring them back to her. But the unexpected bond she forms with Sarah, a young woman from her neighborhood, shatters everything she has built her life on: her family, her responsibilities, and her hopes.",
+    "runtime": 102,
+    "release_date": "2026-09-04",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "CM",
+      "BJ",
+      "FR",
+      "BE"
+    ],
+    "original_language": "fr",
+    "director": "Auguste Kouemo Yanghu",
+    "cast": [
+      "Josette Kwanya",
+      "Moudjeu Pouadeu Edwige Tatiana",
+      "Adrien Jolivet",
+      "Tatiana Rojo",
+      "Martin Poulibe"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/W8gIjxpHbAeGt5rYBBNXmuRvZM.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/g0cZ6kHF7bv4epJudyq7cgWhqhV.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt20244858/"
+    }
+  },
+  "2379": {
+    "tmdb_id": 1562901,
+    "title": "Big Little Things",
+    "original_title": "謊言生活",
+    "overview": "A seemingly perfect middle-class Chinese family faces an unprecedented situation when Lei brings a man home on NYE to pretend to be her boyfriend. Her same-sex girlfriend's unexpected visit intertwined her with a real intimacy crisis.",
+    "runtime": 109,
+    "release_date": "2026-09-11",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "US",
+      "HK"
+    ],
+    "original_language": "cn",
+    "director": "Michelle Tong Zhou",
+    "cast": [
+      "Cuishan Liang",
+      "Sun Jialing",
+      "Hu Ling",
+      "Yu Bin",
+      "Yu Hai"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/9a27NGE0Wo1GSRHQQsnolOnOOyg.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/90nzWfDadeVROgp09r8ybJQwOLb.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt37301443/"
+    }
   }
 };

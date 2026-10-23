@@ -23357,5 +23357,42 @@ window.CULTURE_CATALOG = [
     "alternate_titles": [
       "Han ye deng zhu"
     ]
+  },
+  {
+    "id": 2377,
+    "title": "Falling House",
+    "director": "Mohsen Gharaie",
+    "year": 2026,
+    "tmdb_id": 1736497,
+    "imdb_id": "tt43704167",
+    "original_title": "مراقب",
+    "original_language": "fa",
+    "alternate_titles": [
+      "Moragheb"
+    ]
+  },
+  {
+    "id": 2378,
+    "title": "House of the Wind",
+    "director": "Auguste Kouemo Yanghu",
+    "year": 2026,
+    "tmdb_id": 1404592,
+    "imdb_id": "tt20244858",
+    "original_title": "La Maison du vent",
+    "original_language": "fr",
+    "alternate_titles": []
+  },
+  {
+    "id": 2379,
+    "title": "Big Little Things",
+    "director": "Michelle Tong Zhou",
+    "year": 2026,
+    "tmdb_id": 1562901,
+    "imdb_id": "tt37301443",
+    "original_title": "謊言生活",
+    "original_language": "cn",
+    "alternate_titles": [
+      "Huangyan shenghuo"
+    ]
   }
 ];
