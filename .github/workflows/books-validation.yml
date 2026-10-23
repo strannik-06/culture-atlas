@@ -1,10 +1,10 @@
 name: Books validation
 on:
   pull_request:
-    paths: ['books.js', 'book-awards*.js', 'awards.js', 'awards.css', 'imports/book-awards-2026-*.json', 'imports/book-awards-2026-catalogue-sync.sql', 'scripts/prepare-book-awards.mjs', 'tests/book-awards.test.mjs', 'books.css', 'details.css', 'index.html', 'supabase/migrations/20261019_books_search_ratings.sql', 'scripts/test-books.mjs', 'package*.json', '.github/workflows/books-validation.yml']
+    paths: ['books.js', 'assets/book-covers/**', 'assets/awards/*.svg', 'book-awards*.js', 'awards.js', 'awards.css', 'imports/book-awards-2026-*.json', 'imports/book-awards-2026-catalogue-sync.sql', 'scripts/prepare-book-awards.mjs', 'tests/book-awards.test.mjs', 'books.css', 'details.css', 'index.html', 'supabase/migrations/20261019_books_search_ratings.sql', 'scripts/test-books.mjs', 'package*.json', '.github/workflows/books-validation.yml']
   push:
     branches: [main]
-    paths: ['books.js', 'book-awards*.js', 'awards.js', 'awards.css', 'imports/book-awards-2026-*.json', 'imports/book-awards-2026-catalogue-sync.sql', 'scripts/prepare-book-awards.mjs', 'tests/book-awards.test.mjs', 'books.css', 'details.css', 'index.html', 'supabase/migrations/20261019_books_search_ratings.sql', 'scripts/test-books.mjs', 'package*.json', '.github/workflows/books-validation.yml']
+    paths: ['books.js', 'assets/book-covers/**', 'assets/awards/*.svg', 'book-awards*.js', 'awards.js', 'awards.css', 'imports/book-awards-2026-*.json', 'imports/book-awards-2026-catalogue-sync.sql', 'scripts/prepare-book-awards.mjs', 'tests/book-awards.test.mjs', 'books.css', 'details.css', 'index.html', 'supabase/migrations/20261019_books_search_ratings.sql', 'scripts/test-books.mjs', 'package*.json', '.github/workflows/books-validation.yml']
 jobs:
   test:
     runs-on: ubuntu-latest

@@ -5,6 +5,7 @@ const keys=new Set(),providers=new Map();
 for(const b of source.books){
  if(keys.has(b.key)||!/^[-a-z0-9]+$/.test(b.key)||!b.title||!b.authors?.length)throw Error('Invalid or duplicate award work '+b.key);keys.add(b.key);
  for(const id of [b.open_library_work_id,...b.alternate_work_ids||[]].filter(Boolean)){if(!/^\/works\/OL\d+W$/.test(id)||providers.has(id)&&providers.get(id)!==b.key)throw Error('Ambiguous provider identity '+id);providers.set(id,b.key);}
+ if(b.cover_asset&&!fs.existsSync(b.cover_asset))throw Error('Missing cached cover '+b.key);
  if(b.cover_image_url&&!/^https:\/\//.test(b.cover_image_url))throw Error('Invalid cover URL '+b.key);
 }
 for(const e of source.events){const used=new Set();for(const c of e.categories){const seen=new Set();for(const row of c.entries){if(!keys.has(row.item_id)||seen.has(row.item_id))throw Error('Invalid category membership '+e.event);seen.add(row.item_id);used.add(row.item_id);if(['shortlist','finalists','second-selection'].includes(e.status)&&row.winner)throw Error('Unannounced winner '+e.event);}}if(used.size!==e.books.length)throw Error('Edition count mismatch');}

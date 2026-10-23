@@ -116,7 +116,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
         "/works/OL45691929W"
       ],
       "cover_image_url": "https://thebookerprizes.com/sites/default/files/styles/2_3_media_uncropped_x_huge_800x1200/public/2026-07/John%20of%20John_Book%20Jacket.jpg?itok=HkCNXeUT",
-      "cover_source_url": "https://thebookerprizes.com/sites/default/files/styles/2_3_media_uncropped_x_huge_800x1200/public/2026-07/John%20of%20John_Book%20Jacket.jpg?itok=HkCNXeUT"
+      "cover_source_url": "https://thebookerprizes.com/sites/default/files/styles/2_3_media_uncropped_x_huge_800x1200/public/2026-07/John%20of%20John_Book%20Jacket.jpg?itok=HkCNXeUT",
+      "cover_asset": "assets/book-covers/john-of-john-douglas-stuart.jpg"
     },
     {
       "key": "taiwan-travelogue-yang-shuang-zi",
@@ -152,7 +153,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       "open_library_work_id": "/works/OL42426263W",
       "source_key": "book-awards:the-nights-are-quiet-in-tehran-shida-bazyar",
       "cover_image_url": "https://thebookerprizes.com/sites/default/files/styles/2_3_media_uncropped_x_huge_800x1200/public/2026-02/The%20Nights%20Are%20Quiet%20in%20Tehran%20book%20jacket.jpg?itok=A1tGFska",
-      "cover_source_url": "https://thebookerprizes.com/sites/default/files/styles/2_3_media_uncropped_x_huge_800x1200/public/2026-02/The%20Nights%20Are%20Quiet%20in%20Tehran%20book%20jacket.jpg?itok=A1tGFska"
+      "cover_source_url": "https://thebookerprizes.com/sites/default/files/styles/2_3_media_uncropped_x_huge_800x1200/public/2026-02/The%20Nights%20Are%20Quiet%20in%20Tehran%20book%20jacket.jpg?itok=A1tGFska",
+      "cover_asset": "assets/book-covers/the-nights-are-quiet-in-tehran-shida-bazyar.jpg"
     },
     {
       "key": "she-who-remains-rene-karabash",
@@ -166,7 +168,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       ],
       "source_key": "book-awards:she-who-remains-rene-karabash",
       "cover_image_url": "https://thebookerprizes.com/sites/default/files/styles/2_3_media_uncropped_x_huge_800x1200/public/2026-02/She%20Who%20Remains_Book%20Jacket.jpg?itok=FFJ_6iYp",
-      "cover_source_url": "https://thebookerprizes.com/sites/default/files/styles/2_3_media_uncropped_x_huge_800x1200/public/2026-02/She%20Who%20Remains_Book%20Jacket.jpg?itok=FFJ_6iYp"
+      "cover_source_url": "https://thebookerprizes.com/sites/default/files/styles/2_3_media_uncropped_x_huge_800x1200/public/2026-02/She%20Who%20Remains_Book%20Jacket.jpg?itok=FFJ_6iYp",
+      "cover_asset": "assets/book-covers/she-who-remains-rene-karabash.jpg"
     },
     {
       "key": "the-director-daniel-kehlmann",
@@ -180,7 +183,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       ],
       "source_key": "book-awards:the-director-daniel-kehlmann",
       "cover_image_url": "https://thebookerprizes.com/sites/default/files/styles/2_3_media_uncropped_x_huge_800x1200/public/2026-02/The%20Director_Book%20Jacket.jpg?itok=CYQrtSSe",
-      "cover_source_url": "https://thebookerprizes.com/sites/default/files/styles/2_3_media_uncropped_x_huge_800x1200/public/2026-02/The%20Director_Book%20Jacket.jpg?itok=CYQrtSSe"
+      "cover_source_url": "https://thebookerprizes.com/sites/default/files/styles/2_3_media_uncropped_x_huge_800x1200/public/2026-02/The%20Director_Book%20Jacket.jpg?itok=CYQrtSSe",
+      "cover_asset": "assets/book-covers/the-director-daniel-kehlmann.jpg"
     },
     {
       "key": "on-earth-as-it-is-beneath-ana-paula-maia",
@@ -531,7 +535,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       "description": "A novel in verse on a homosexual romance between two boys. Geryon \"understood / that people need / acts of attention from one another, does…",
       "description_source": "https://openlibrary.org/works/OL1998433W",
       "cover_source_url": "https://covers.openlibrary.org/b/id/225443-L.jpg?default=false",
-      "cover_image_url": "https://covers.openlibrary.org/b/id/225443-L.jpg?default=false"
+      "cover_image_url": "https://covers.openlibrary.org/b/id/225443-L.jpg?default=false",
+      "cover_asset": "assets/book-covers/autobiography-of-red-anne-carson.jpg"
     },
     {
       "key": "glass-irony-and-god-anne-carson",
@@ -549,7 +554,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       "description": "Anne Carson's poetry - characterized by various reviewers as \"short talks,\" \"essays,\" or \"verse narratives\" - combines the confessional and the critical in a voice…",
       "description_source": "https://openlibrary.org/works/OL1998431W",
       "cover_source_url": "https://covers.openlibrary.org/b/id/598200-L.jpg?default=false",
-      "cover_image_url": "https://covers.openlibrary.org/b/id/598200-L.jpg?default=false"
+      "cover_image_url": "https://covers.openlibrary.org/b/id/598200-L.jpg?default=false",
+      "cover_asset": "assets/book-covers/glass-irony-and-god-anne-carson.jpg"
     },
     {
       "key": "eros-the-bittersweet-anne-carson",
@@ -567,7 +573,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       "description": "A book about romantic love, Eros is Anne Carson's exploration of the concept of \"eros\" in both classical philosophy and literature. Beginning with, \"It was…",
       "description_source": "https://openlibrary.org/works/OL1998436W",
       "cover_source_url": "https://covers.openlibrary.org/b/id/801532-L.jpg?default=false",
-      "cover_image_url": "https://covers.openlibrary.org/b/id/801532-L.jpg?default=false"
+      "cover_image_url": "https://covers.openlibrary.org/b/id/801532-L.jpg?default=false",
+      "cover_asset": "assets/book-covers/eros-the-bittersweet-anne-carson.jpg"
     },
     {
       "key": "the-beauty-of-the-husband-anne-carson",
@@ -585,7 +592,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       "description": "The Beauty Of The Husband is an essay on Keats's idea that beauty is truth, and is also the story of a marriage. It is…",
       "description_source": "https://openlibrary.org/works/OL1998434W",
       "cover_source_url": "https://covers.openlibrary.org/b/id/225988-L.jpg?default=false",
-      "cover_image_url": "https://covers.openlibrary.org/b/id/225988-L.jpg?default=false"
+      "cover_image_url": "https://covers.openlibrary.org/b/id/225988-L.jpg?default=false",
+      "cover_asset": "assets/book-covers/the-beauty-of-the-husband-anne-carson.jpg"
     },
     {
       "key": "nox-anne-carson",
@@ -601,7 +609,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       "cover_id": 9119927,
       "source_key": "book-awards:nox-anne-carson",
       "cover_source_url": "https://covers.openlibrary.org/b/id/9119927-L.jpg?default=false",
-      "cover_image_url": "https://covers.openlibrary.org/b/id/9119927-L.jpg?default=false"
+      "cover_image_url": "https://covers.openlibrary.org/b/id/9119927-L.jpg?default=false",
+      "cover_asset": "assets/book-covers/nox-anne-carson.jpg"
     },
     {
       "key": "paradiso-17-hannah-lillith-assadi",
@@ -619,7 +628,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       "description": "All his life, exile has been the shadow stitched to the sole of Sufien’s shoe. Born in Palestine on the precipice of 1948’s Nakba, Sufien…",
       "description_source": "https://openlibrary.org/works/OL45986595W",
       "cover_source_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/01.-Hannah-Lillith-Assadi_Paradiso-17_Finalist-Medallion.jpg",
-      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/01.-Hannah-Lillith-Assadi_Paradiso-17_Finalist-Medallion.jpg"
+      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/01.-Hannah-Lillith-Assadi_Paradiso-17_Finalist-Medallion.jpg",
+      "cover_asset": "assets/book-covers/paradiso-17-hannah-lillith-assadi.jpg"
     },
     {
       "key": "dey-edwidge-danticat",
@@ -637,7 +647,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       "description": "“Is home the place where we are born? Or is it the place where we die?” These questions haunt Magnolia, a successful Haitian American real…",
       "description_source": "https://openlibrary.org/works/OL46004992W",
       "cover_source_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/02.-Edwidge-Danticat-Dey-_Finalist-Medallion.jpg",
-      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/02.-Edwidge-Danticat-Dey-_Finalist-Medallion.jpg"
+      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/02.-Edwidge-Danticat-Dey-_Finalist-Medallion.jpg",
+      "cover_asset": "assets/book-covers/dey-edwidge-danticat.jpg"
     },
     {
       "key": "pretend-youre-dead-and-i-carry-you-julian-delgado-lopera",
@@ -673,7 +684,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
         "/works/OL45033603W",
         "/works/OL45985767W"
       ],
-      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/04.-Valeria-Luiselli-Beginning-Middle-End_Finalist-Medallion.jpg"
+      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/04.-Valeria-Luiselli-Beginning-Middle-End_Finalist-Medallion.jpg",
+      "cover_asset": "assets/book-covers/beginning-middle-end-valeria-luiselli.jpg"
     },
     {
       "key": "mad-eden-morgan-thomas",
@@ -691,7 +703,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       "description": "Ro and Liam live in a ramshackle cabin in a secluded stretch of Florida. Neither their home nor their sometimes tumultuous relationship is what the…",
       "description_source": "https://openlibrary.org/works/OL46005027W",
       "cover_source_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/05.-Morgan-Thomas-Mad-Eden_Finalist-Medallion.jpg",
-      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/05.-Morgan-Thomas-Mad-Eden_Finalist-Medallion.jpg"
+      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/05.-Morgan-Thomas-Mad-Eden_Finalist-Medallion.jpg",
+      "cover_asset": "assets/book-covers/mad-eden-morgan-thomas.jpg"
     },
     {
       "key": "the-midnight-special-the-secret-prison-history-of-american-music-colin-asher",
@@ -705,7 +718,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       ],
       "source_key": "book-awards:the-midnight-special-the-secret-prison-history-of-american-music-colin-asher",
       "cover_source_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/01.-Colin-Asher_The-Midnight-Special-The-Secret-Prison-History-of-American-Music_Finalist-Medallion.jpg",
-      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/01.-Colin-Asher_The-Midnight-Special-The-Secret-Prison-History-of-American-Music_Finalist-Medallion.jpg"
+      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/01.-Colin-Asher_The-Midnight-Special-The-Secret-Prison-History-of-American-Music_Finalist-Medallion.jpg",
+      "cover_asset": "assets/book-covers/the-midnight-special-the-secret-prison-history-of-american-music-colin-asher.jpg"
     },
     {
       "key": "huna-a-memoir-of-revolution-prison-and-becoming-abdelrahman-elgendy",
@@ -720,7 +734,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       "open_library_work_id": "/works/OL45148209W",
       "source_key": "book-awards:huna-a-memoir-of-revolution-prison-and-becoming-abdelrahman-elgendy",
       "cover_source_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/02.-Abdelrahman-ElGendy_Huna-A-Memoir-of-Revolution-Prison-and-Becoming_Finalist-Medallion.jpg",
-      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/02.-Abdelrahman-ElGendy_Huna-A-Memoir-of-Revolution-Prison-and-Becoming_Finalist-Medallion.jpg"
+      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/02.-Abdelrahman-ElGendy_Huna-A-Memoir-of-Revolution-Prison-and-Becoming_Finalist-Medallion.jpg",
+      "cover_asset": "assets/book-covers/huna-a-memoir-of-revolution-prison-and-becoming-abdelrahman-elgendy.jpg"
     },
     {
       "key": "let-the-poets-govern-a-declaration-of-freedom-camonghne-felix",
@@ -734,7 +749,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       ],
       "source_key": "book-awards:let-the-poets-govern-a-declaration-of-freedom-camonghne-felix",
       "cover_source_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/03.-Camonghne-Felix_Let-the-Poets-Govern-A-Declaration-of-Freedom_Finalist-Medallion.jpg",
-      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/03.-Camonghne-Felix_Let-the-Poets-Govern-A-Declaration-of-Freedom_Finalist-Medallion.jpg"
+      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/03.-Camonghne-Felix_Let-the-Poets-Govern-A-Declaration-of-Freedom_Finalist-Medallion.jpg",
+      "cover_asset": "assets/book-covers/let-the-poets-govern-a-declaration-of-freedom-camonghne-felix.jpg"
     },
     {
       "key": "mother-tongue-sara-novic",
@@ -748,7 +764,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       ],
       "source_key": "book-awards:mother-tongue-sara-novic",
       "cover_source_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/04.-Sara-Novic_Mother-Tongue_Finalist-Medallion.jpg",
-      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/04.-Sara-Novic_Mother-Tongue_Finalist-Medallion.jpg"
+      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/04.-Sara-Novic_Mother-Tongue_Finalist-Medallion.jpg",
+      "cover_asset": "assets/book-covers/mother-tongue-sara-novic.jpg"
     },
     {
       "key": "spawning-season-an-experiment-in-queer-parenthood-joseph-osmundson",
@@ -762,7 +779,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       ],
       "source_key": "book-awards:spawning-season-an-experiment-in-queer-parenthood-joseph-osmundson",
       "cover_source_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/05.-Joseph-Osmundson_Spawning-Season-An-Experiment-in-Queer-Parenthood_Finalist-Medallion.jpg",
-      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/05.-Joseph-Osmundson_Spawning-Season-An-Experiment-in-Queer-Parenthood_Finalist-Medallion.jpg"
+      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/05.-Joseph-Osmundson_Spawning-Season-An-Experiment-in-Queer-Parenthood_Finalist-Medallion.jpg",
+      "cover_asset": "assets/book-covers/spawning-season-an-experiment-in-queer-parenthood-joseph-osmundson.jpg"
     },
     {
       "key": "tree-of-knowledge-victoria-chang",
@@ -776,7 +794,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       ],
       "source_key": "book-awards:tree-of-knowledge-victoria-chang",
       "cover_source_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/01.-Victoria-Chang_Tree-of-Knowledge_Finalist-Medallion.jpeg.jpg",
-      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/01.-Victoria-Chang_Tree-of-Knowledge_Finalist-Medallion.jpeg.jpg"
+      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/01.-Victoria-Chang_Tree-of-Knowledge_Finalist-Medallion.jpeg.jpg",
+      "cover_asset": "assets/book-covers/tree-of-knowledge-victoria-chang.jpg"
     },
     {
       "key": "hide-carolina-ebeid",
@@ -790,7 +809,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       ],
       "source_key": "book-awards:hide-carolina-ebeid",
       "cover_source_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/02.-Carolina-Ebeid_Hide_Finalist-Medallion.jpg",
-      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/02.-Carolina-Ebeid_Hide_Finalist-Medallion.jpg"
+      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/02.-Carolina-Ebeid_Hide_Finalist-Medallion.jpg",
+      "cover_asset": "assets/book-covers/hide-carolina-ebeid.jpg"
     },
     {
       "key": "still-house-in-the-desert-an-eco-contemplation-brenda-hillman",
@@ -804,7 +824,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       ],
       "source_key": "book-awards:still-house-in-the-desert-an-eco-contemplation-brenda-hillman",
       "cover_source_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/03.-Brenda-Hillman_Still-House-in-the-Desert-An-eco-contemplation_Finalist-Medallion.jpg",
-      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/03.-Brenda-Hillman_Still-House-in-the-Desert-An-eco-contemplation_Finalist-Medallion.jpg"
+      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/03.-Brenda-Hillman_Still-House-in-the-Desert-An-eco-contemplation_Finalist-Medallion.jpg",
+      "cover_asset": "assets/book-covers/still-house-in-the-desert-an-eco-contemplation-brenda-hillman.jpg"
     },
     {
       "key": "exhibit-g-poems-essays-and-photographs-of-gaza-fady-joudah",
@@ -818,7 +839,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       ],
       "source_key": "book-awards:exhibit-g-poems-essays-and-photographs-of-gaza-fady-joudah",
       "cover_source_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/04.-Fady-Joudah_Exhibit-G-Poems-Essays-and-Photographs-of-Gaza_Finalist-Medallion.jpg",
-      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/04.-Fady-Joudah_Exhibit-G-Poems-Essays-and-Photographs-of-Gaza_Finalist-Medallion.jpg"
+      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/04.-Fady-Joudah_Exhibit-G-Poems-Essays-and-Photographs-of-Gaza_Finalist-Medallion.jpg",
+      "cover_asset": "assets/book-covers/exhibit-g-poems-essays-and-photographs-of-gaza-fady-joudah.jpg"
     },
     {
       "key": "bramble-susan-stewart",
@@ -832,7 +854,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       ],
       "source_key": "book-awards:bramble-susan-stewart",
       "cover_source_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/05.-Susan-Stewart_Bramble_Finalist-Medallion.jpg",
-      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/05.-Susan-Stewart_Bramble_Finalist-Medallion.jpg"
+      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/05.-Susan-Stewart_Bramble_Finalist-Medallion.jpg",
+      "cover_asset": "assets/book-covers/bramble-susan-stewart.jpg"
     },
     {
       "key": "the-school-of-night-karl-ove-knausgaard",
@@ -846,7 +869,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       ],
       "source_key": "book-awards:the-school-of-night-karl-ove-knausgaard",
       "cover_source_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/01.-Karl-Ove-Knausgaard_The-School-of-Night_Finalist-Medallion.jpg",
-      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/01.-Karl-Ove-Knausgaard_The-School-of-Night_Finalist-Medallion.jpg"
+      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/01.-Karl-Ove-Knausgaard_The-School-of-Night_Finalist-Medallion.jpg",
+      "cover_asset": "assets/book-covers/the-school-of-night-karl-ove-knausgaard.jpg"
     },
     {
       "key": "centroeuropa-vicente-luis-mora",
@@ -862,7 +886,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       "cover_id": 10443855,
       "source_key": "book-awards:centroeuropa-vicente-luis-mora",
       "cover_source_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/02.-Vicente-Luis-Mora_Centroeuropa_Finalist-Medallion.jpg",
-      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/02.-Vicente-Luis-Mora_Centroeuropa_Finalist-Medallion.jpg"
+      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/02.-Vicente-Luis-Mora_Centroeuropa_Finalist-Medallion.jpg",
+      "cover_asset": "assets/book-covers/centroeuropa-vicente-luis-mora.jpg"
     },
     {
       "key": "night-of-a-thousand-hells-intan-paramaditha",
@@ -877,7 +902,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       "open_library_work_id": "/works/OL46096208W",
       "source_key": "book-awards:night-of-a-thousand-hells-intan-paramaditha",
       "cover_source_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/03.-Intan-Paramaditha_Night-of-a-Thousand-Hells-_Finalist-Medallion.jpg",
-      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/03.-Intan-Paramaditha_Night-of-a-Thousand-Hells-_Finalist-Medallion.jpg"
+      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/03.-Intan-Paramaditha_Night-of-a-Thousand-Hells-_Finalist-Medallion.jpg",
+      "cover_asset": "assets/book-covers/night-of-a-thousand-hells-intan-paramaditha.jpg"
     },
     {
       "key": "pure-men-mohamed-mbougar-sarr",
@@ -891,7 +917,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       ],
       "source_key": "book-awards:pure-men-mohamed-mbougar-sarr",
       "cover_source_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/04.-Mohamed-Mbougar-Sarr_Pure-Men-_Finalist-Medallion.jpg",
-      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/04.-Mohamed-Mbougar-Sarr_Pure-Men-_Finalist-Medallion.jpg"
+      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/04.-Mohamed-Mbougar-Sarr_Pure-Men-_Finalist-Medallion.jpg",
+      "cover_asset": "assets/book-covers/pure-men-mohamed-mbougar-sarr.jpg"
     },
     {
       "key": "your-presence-is-a-danger-to-your-life-voices-of-survival-and-witness-in-gaza-samar-yazbek",
@@ -905,7 +932,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       ],
       "source_key": "book-awards:your-presence-is-a-danger-to-your-life-voices-of-survival-and-witness-in-gaza-samar-yazbek",
       "cover_source_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/05.-Samar-Yazbek_Your-Presence-is-a-Danger-to-Your-Life-Voices-of-Survival-and-Witness-in-Gaza-_Finalist-Medallion.jpg",
-      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/05.-Samar-Yazbek_Your-Presence-is-a-Danger-to-Your-Life-Voices-of-Survival-and-Witness-in-Gaza-_Finalist-Medallion.jpg"
+      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/05.-Samar-Yazbek_Your-Presence-is-a-Danger-to-Your-Life-Voices-of-Survival-and-Witness-in-Gaza-_Finalist-Medallion.jpg",
+      "cover_asset": "assets/book-covers/your-presence-is-a-danger-to-your-life-voices-of-survival-and-witness-in-gaza-samar-yazbek.jpg"
     },
     {
       "key": "holloway-elana-k-arnold",
@@ -919,7 +947,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       ],
       "source_key": "book-awards:holloway-elana-k-arnold",
       "cover_source_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/01.-Elana-K.-Arnold_Holloway_Finalist-Medallion.jpg",
-      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/01.-Elana-K.-Arnold_Holloway_Finalist-Medallion.jpg"
+      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/01.-Elana-K.-Arnold_Holloway_Finalist-Medallion.jpg",
+      "cover_asset": "assets/book-covers/holloway-elana-k-arnold.jpg"
     },
     {
       "key": "when-tomorrow-burns-tae-keller",
@@ -933,7 +962,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       ],
       "source_key": "book-awards:when-tomorrow-burns-tae-keller",
       "cover_source_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/02.-Tae-Keller_When-Tomorrow-Burns_Finalist-Medallion.jpg",
-      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/02.-Tae-Keller_When-Tomorrow-Burns_Finalist-Medallion.jpg"
+      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/02.-Tae-Keller_When-Tomorrow-Burns_Finalist-Medallion.jpg",
+      "cover_asset": "assets/book-covers/when-tomorrow-burns-tae-keller.jpg"
     },
     {
       "key": "that-which-feeds-us-a-hawaiian-gothic-keala-kendall",
@@ -951,7 +981,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       "description": "For the world’s wealthiest, Kōpaʻa Island Resort is more than a destination. It’s the ultimate escape. With no cell service or Wi-Fi, the Hawaiian island…",
       "description_source": "https://openlibrary.org/works/OL45586995W",
       "cover_source_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/03.-Keala-Kendall_That-Which-Feeds-Us_Finalist-Medallion.jpg",
-      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/03.-Keala-Kendall_That-Which-Feeds-Us_Finalist-Medallion.jpg"
+      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/03.-Keala-Kendall_That-Which-Feeds-Us_Finalist-Medallion.jpg",
+      "cover_asset": "assets/book-covers/that-which-feeds-us-a-hawaiian-gothic-keala-kendall.jpg"
     },
     {
       "key": "the-fight-of-our-lives-aids-in-america-david-levithan-gabriel-duckels",
@@ -966,7 +997,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       ],
       "source_key": "book-awards:the-fight-of-our-lives-aids-in-america-david-levithan-gabriel-duckels",
       "cover_source_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/04.-David-Levithan-and-Gabriel-Duckels_The-Fight-of-Our-Lives-AIDS-in-America_Finalist-Medallion.jpg",
-      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/04.-David-Levithan-and-Gabriel-Duckels_The-Fight-of-Our-Lives-AIDS-in-America_Finalist-Medallion.jpg"
+      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/04.-David-Levithan-and-Gabriel-Duckels_The-Fight-of-Our-Lives-AIDS-in-America_Finalist-Medallion.jpg",
+      "cover_asset": "assets/book-covers/the-fight-of-our-lives-aids-in-america-david-levithan-gabriel-duckels.jpg"
     },
     {
       "key": "shook-julian-randall",
@@ -980,7 +1012,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       ],
       "source_key": "book-awards:shook-julian-randall",
       "cover_source_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/05.-Julian-Randall_Shook_Finalist-Medallion.jpg",
-      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/05.-Julian-Randall_Shook_Finalist-Medallion.jpg"
+      "cover_image_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/05.-Julian-Randall_Shook_Finalist-Medallion.jpg",
+      "cover_asset": "assets/book-covers/shook-julian-randall.jpg"
     },
     {
       "key": "minotaure-boris-bergmann",
@@ -1457,7 +1490,7 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       "source": "https://www.nobelprize.org/prizes/literature/2026/summary/",
       "status": "awarded",
       "verified_on": "2026-10-23",
-      "note": "The Nobel Prize recognises Anne Carson’s body of work. These are selected works, not individual Nobel-winning books.",
+      "note": "Honouring Anne Carson’s body of work. Explore five selected works below.",
       "categories": [
         {
           "id": "selected-works",
@@ -1490,7 +1523,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
               "label": "Selected work"
             }
           ],
-          "eyebrow": "Laureate’s library"
+          "eyebrow": "Laureate’s library",
+          "source_label": "Reading introduction"
         }
       ],
       "books": [

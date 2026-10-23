@@ -89,6 +89,7 @@
   }
   function bookCover(book,size='M'){
     const award=window.CultureBookAwards?.find(book);
+    if(award?.cover_asset)return award.cover_asset;
     if(award?.cover_image_url)return award.cover_image_url;
     return Number.isSafeInteger(Number(book.cover_id))&&Number(book.cover_id)>0?`https://covers.openlibrary.org/b/id/${Number(book.cover_id)}-${size}.jpg?default=false`:fallbackCover(book.cover_url);
   }

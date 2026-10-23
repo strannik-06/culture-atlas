@@ -37,7 +37,9 @@ My ratings. Private notes appear in details, never in award cards or URLs.
 Changing accounts clears private progress. Older Open Library and local book
 links continue to resolve. New award work links are public and refreshable.
 
-All books have reviewed cover sources. Existing catalogue metadata is preserved;
+All books have reviewed cover sources. Thirty-three covers are cached with the
+site to avoid award-site hotlink blocks and keep Nobel previews reliable; original
+image URLs remain in the source audit. Existing catalogue metadata is preserved;
 curated covers/recognitions are layered into the UI. Public book detail pages link
 to source information when a provider synopsis is unavailable. Long subtitles
 remain in details while award cards show the main title.

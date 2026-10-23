@@ -38,7 +38,7 @@
    if(!edition){$('awards-grid').innerHTML='<p class="empty">This edition has not been added yet. Choose an available year above.</p>';$('awards-count').textContent='';$('awards-source').replaceChildren();$('awards-event-details').textContent='';if($('award-intro'))$('award-intro').replaceChildren();return;}
    const festival=section==='films'&&!!awardBrands[name].prize,groups=getCategories(edition),selected=$('award-category').value,winnersOnly=$('award-filter').value==='winners',byId=new Map(getItems(edition).map(f=>[f.id,f]));
    const shown=selected==='all'?groups:groups.filter((c,i)=>(c.id||String(i))===selected||String(i)===selected);
-   $('awards-count').textContent=`${getItems(edition).length} ${itemNoun} · ${groups.length} ${festival?'sections':'categories'}`+(winnersOnly?' · Winners only':'');
+   $('awards-count').textContent=`${getItems(edition).length} ${itemNoun} · ${groups.length} ${groups.length===1?(festival?'section':'category'):(festival?'sections':'categories')}`+(winnersOnly?' · Winners only':'');
    $('awards-event-details').textContent=(edition.dates?edition.dates+' · ':'')+(edition.note||(festival?'Festival selections, with prizes shown on each winning film.':'Ceremony year; films may have premiered in the previous year.'));
    if($('award-intro'))$('award-intro').innerHTML=renderIntro(edition);
    $('awards-source').innerHTML=`Official sources: <a href="${esc(edition.source)}" target="_blank" rel="noopener noreferrer">${section==='books'?'Award information':edition.section==='Major Film Categories'?'Nominees and results':'Competition selection'}</a>`+(edition.awardsSource&&edition.awardsSource!==edition.source?` · <a href="${esc(edition.awardsSource)}" target="_blank" rel="noopener noreferrer">Prize results</a>`:'');
