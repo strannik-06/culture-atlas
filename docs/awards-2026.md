@@ -90,3 +90,10 @@ unique films per festival section, aggregated prizes, repeated ceremony performe
 legacy links and deployment idempotency/conflict protection. The browser preview
 workflow additionally exercises all six tabs, year navigation, detail refresh and
 row/rating alignment and mobile overflow in Chromium, and saves signed-out desktop/mobile review images.
+
+The follow-up Chromium check also measures every desktop grid row for equal card
+heights and equal rating-control positions across Oscars, Cannes, Venice and
+Berlinale. It verifies exactly two sections per festival and unique film cards
+within each section. Both desktop and mobile review screenshots were inspected.
+All 2,326 pre-existing canonical records and their metadata, and all three 2026
+ceremony datasets, were compared with the merged baseline and remain unchanged.
