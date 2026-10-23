@@ -1,6 +1,6 @@
 {
   "edition_year": 2026,
-  "scope": "Main competitions and established major feature-film categories",
+  "scope": "Main festival competitions plus Un Certain Regard, Orizzonti and Perspectives; established major feature-film ceremony categories",
   "events": [
     {
       "event": "Oscars",
@@ -1541,6 +1541,414 @@
             }
           ]
         }
+      ],
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.festival-cannes.com/en/press/press-releases/the-films-of-the-official-selection-2026/",
+          "awardsSource": "https://www.festival-cannes.com/en/press/press-releases/the-79th-festival-de-cannes-winners-list/",
+          "selection": [
+            {
+              "title": "Amarga Navidad",
+              "director": "Pedro ALMODÓVAR",
+              "year": 2026
+            },
+            {
+              "title": "A Woman’S Life",
+              "director": "Charline BOURGEOIS-TACQUET",
+              "year": 2026
+            },
+            {
+              "title": "La Bola Negra",
+              "director": "Javier CALVO & Javier AMBROSSI",
+              "year": 2026
+            },
+            {
+              "title": "Coward",
+              "director": "Lukas DHONT",
+              "year": 2026
+            },
+            {
+              "title": "Parallel Tales",
+              "director": "Asghar FARHADI",
+              "year": 2026
+            },
+            {
+              "title": "Paper Tiger",
+              "director": "James GRAY",
+              "year": 2026
+            },
+            {
+              "title": "Das Geträumte Abenteuer",
+              "director": "Valeska GRISEBACH",
+              "year": 2026
+            },
+            {
+              "title": "All of a Sudden",
+              "director": "Ryusuke Hamaguchi",
+              "year": 2026,
+              "aliases": [
+                "Soudain"
+              ]
+            },
+            {
+              "title": "The Unknown",
+              "director": "Arthur HARARI",
+              "year": 2026,
+              "aliases": [
+                "L'Inconnue",
+                "The Unknown Woman"
+              ]
+            },
+            {
+              "title": "Another Day",
+              "director": "Jeanne HERRY",
+              "year": 2026
+            },
+            {
+              "title": "Sheep in the Box",
+              "director": "Hirokazu Koreeda",
+              "year": 2026,
+              "aliases": []
+            },
+            {
+              "title": "Hope",
+              "director": "Na Hong-jin",
+              "year": 2026,
+              "aliases": []
+            },
+            {
+              "title": "Nagi Notes",
+              "director": "Koji Fukada",
+              "year": 2026,
+              "aliases": []
+            },
+            {
+              "title": "Gentle Monster",
+              "director": "Marie KREUTZER",
+              "year": 2026
+            },
+            {
+              "title": "A Man of His Time",
+              "director": "Emmanuel Marre",
+              "year": 2026,
+              "aliases": [
+                "Notre salut"
+              ]
+            },
+            {
+              "title": "Fjord",
+              "director": "Cristian MUNGIU",
+              "year": 2026
+            },
+            {
+              "title": "The Birthday Party",
+              "director": "Léa Mysius",
+              "year": 2026,
+              "aliases": [
+                "Histoires de la nuit"
+              ]
+            },
+            {
+              "title": "Moulin",
+              "director": "László NEMES",
+              "year": 2026
+            },
+            {
+              "title": "Fatherland",
+              "director": "Paweł Pawlikowski",
+              "year": 2026,
+              "aliases": []
+            },
+            {
+              "title": "The Man I Love",
+              "director": "Ira SACHS",
+              "year": 2026
+            },
+            {
+              "title": "El Ser Querido",
+              "director": "Rodrigo SOROGOYEN",
+              "year": 2026
+            },
+            {
+              "title": "Minotaur",
+              "director": "Andrey Zvyagintsev",
+              "year": 2026,
+              "aliases": [
+                "Минотавр"
+              ]
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Palme d’Or",
+              "entries": [
+                {
+                  "title": "Fjord",
+                  "person": "",
+                  "winner": true
+                }
+              ]
+            },
+            {
+              "name": "Grand Prix",
+              "nomination_kind": "winners_only",
+              "entries": [
+                {
+                  "title": "Minotaur",
+                  "person": "",
+                  "winner": true
+                }
+              ]
+            },
+            {
+              "name": "Best Director",
+              "nomination_kind": "winners_only",
+              "entries": [
+                {
+                  "title": "La Bola Negra",
+                  "person": "Javier Calvo & Javier Ambrossi",
+                  "winner": true
+                },
+                {
+                  "title": "Fatherland",
+                  "person": "Paweł Pawlikowski",
+                  "winner": true
+                }
+              ]
+            },
+            {
+              "name": "Jury Prize",
+              "nomination_kind": "winners_only",
+              "entries": [
+                {
+                  "title": "Das Geträumte Abenteuer",
+                  "person": "",
+                  "winner": true
+                }
+              ]
+            },
+            {
+              "name": "Best Screenplay",
+              "nomination_kind": "winners_only",
+              "entries": [
+                {
+                  "title": "A Man of His Time",
+                  "person": "Emmanuel Marre",
+                  "winner": true
+                }
+              ]
+            },
+            {
+              "name": "Best Actress",
+              "nomination_kind": "winners_only",
+              "entries": [
+                {
+                  "title": "All of a Sudden",
+                  "person": "Virginie Efira",
+                  "winner": true
+                },
+                {
+                  "title": "All of a Sudden",
+                  "person": "Tao Okamoto",
+                  "winner": true
+                }
+              ]
+            },
+            {
+              "name": "Best Actor",
+              "nomination_kind": "winners_only",
+              "entries": [
+                {
+                  "title": "Coward",
+                  "person": "Emmanuel Macchia",
+                  "winner": true
+                },
+                {
+                  "title": "Coward",
+                  "person": "Valentin Campagne",
+                  "winner": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Un Certain Regard",
+          "source": "https://www.festival-cannes.com/en/press/press-releases/the-films-of-the-official-selection-2026/",
+          "awardsSource": "https://www.festival-cannes.com/en/press/press-releases/un-certain-regard-winners-list-2026/",
+          "selection": [
+            {
+              "title": "Teenage Sex and Death at Camp Miasma",
+              "director": "Jane Schoenbrun",
+              "year": 2026
+            },
+            {
+              "title": "Elephants in the Fog",
+              "director": "Abinash Bikram Shah",
+              "year": 2026
+            },
+            {
+              "title": "Iron Boy",
+              "director": "Louis Clichy",
+              "year": 2026,
+              "aliases": [
+                "Le Corset"
+              ]
+            },
+            {
+              "title": "Ben'Imana",
+              "director": "Marie-Clémentine Dusabejambo",
+              "year": 2026
+            },
+            {
+              "title": "Congo Boy",
+              "director": "Rafiki Fariala",
+              "year": 2026
+            },
+            {
+              "title": "Club Kid",
+              "director": "Jordan Firstman",
+              "year": 2026
+            },
+            {
+              "title": "A Girl's Story",
+              "director": "Judith Godrèche",
+              "year": 2026
+            },
+            {
+              "title": "Uļa",
+              "director": "Viesturs Kairišs",
+              "year": 2026
+            },
+            {
+              "title": "Titanic Ocean",
+              "director": "Konstantina Kotzamani",
+              "year": 2026
+            },
+            {
+              "title": "La Más Dulce",
+              "director": "Laïla Marrakchi",
+              "year": 2026,
+              "aliases": [
+                "Strawberries"
+              ]
+            },
+            {
+              "title": "El Deshielo",
+              "director": "Manuela Martelli",
+              "year": 2026,
+              "aliases": [
+                "The Meltdown"
+              ]
+            },
+            {
+              "title": "Siempre Soy Tu Animal Materno",
+              "director": "Valentina Maurel",
+              "year": 2026,
+              "aliases": [
+                "Forever Your Maternal Animal",
+                "Always Your Maternal Animal"
+              ]
+            },
+            {
+              "title": "Yesterday the Eye Didn't Sleep",
+              "director": "Rakan Mayasi",
+              "year": 2026
+            },
+            {
+              "title": "I'll Be Gone in June",
+              "director": "Katharina Rivilis",
+              "year": 2026
+            },
+            {
+              "title": "Words of Love",
+              "director": "Rudi Rosenberg",
+              "year": 2026,
+              "aliases": [
+                "Of Love"
+              ]
+            },
+            {
+              "title": "Everytime",
+              "director": "Sandra Wollner",
+              "year": 2026
+            },
+            {
+              "title": "Victorian Psycho",
+              "director": "Zachary Wigon",
+              "year": 2026
+            },
+            {
+              "title": "All the Lovers in the Night",
+              "director": "Yukiko Sode",
+              "year": 2026
+            },
+            {
+              "title": "Ulysse",
+              "director": "Laetitia Masson",
+              "year": 2026
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Un Certain Regard Prize",
+              "entries": [
+                {
+                  "title": "Everytime",
+                  "winner": true
+                }
+              ]
+            },
+            {
+              "name": "Jury Prize",
+              "entries": [
+                {
+                  "title": "Elephants in the Fog",
+                  "winner": true
+                }
+              ]
+            },
+            {
+              "name": "Special Jury Prize",
+              "entries": [
+                {
+                  "title": "Iron Boy",
+                  "winner": true
+                }
+              ]
+            },
+            {
+              "name": "Best Actor",
+              "entries": [
+                {
+                  "title": "Congo Boy",
+                  "winner": true,
+                  "person": "Bradley Fiomona Dembeasset"
+                }
+              ]
+            },
+            {
+              "name": "Best Actresses",
+              "entries": [
+                {
+                  "title": "Siempre Soy Tu Animal Materno",
+                  "winner": true,
+                  "person": "Marina de Tavira, Daniela Marín Navarro, Mariangel Villegas"
+                }
+              ]
+            },
+            {
+              "name": "Caméra d’or",
+              "entries": [
+                {
+                  "title": "Ben'Imana",
+                  "winner": true
+                }
+              ]
+            }
+          ]
+        }
       ]
     },
     {
@@ -1876,6 +2284,440 @@
             }
           ]
         }
+      ],
+      "programmes": [
+        {
+          "name": "Venezia Competition",
+          "source": "https://www.labiennale.org/en/cinema/2026/venezia-83-competition",
+          "awardsSource": "https://www.labiennale.org/en/news/official-awards-83rd-venice-international-film-festival",
+          "selection": [
+            {
+              "title": "NAZA",
+              "director": "Yuval Abraham, Rachel Szor",
+              "year": 2026
+            },
+            {
+              "title": "Company",
+              "director": "Casey Affleck",
+              "year": 2026
+            },
+            {
+              "title": "Kami nour (A bit of light)",
+              "director": "Ali Asgari",
+              "year": 2026,
+              "aliases": [
+                "Kami nour",
+                "A bit of light"
+              ]
+            },
+            {
+              "title": "Ritorno a Buenos Aires",
+              "director": "Marco Bechis",
+              "year": 2026
+            },
+            {
+              "title": "Ink",
+              "director": "Danny Boyle",
+              "year": 2026
+            },
+            {
+              "title": "Un bon petit soldat",
+              "director": "Stéphane Brizé",
+              "year": 2026
+            },
+            {
+              "title": "Il fuoco che ti porti dentro (The Fire Within You)",
+              "director": "Edoardo De Angelis",
+              "year": 2026,
+              "aliases": [
+                "Il fuoco che ti porti dentro",
+                "The Fire Within You"
+              ]
+            },
+            {
+              "title": "Kvinde Ukendt (Woman Unknown)",
+              "director": "May el-Toukhy",
+              "year": 2026,
+              "aliases": [
+                "Kvinde Ukendt",
+                "Woman Unknown"
+              ]
+            },
+            {
+              "title": "Bucking Fastard",
+              "director": "Werner Herzog",
+              "year": 2026
+            },
+            {
+              "title": "15/18 (A Place To Heal)",
+              "director": "Cédric Kahn",
+              "year": 2026,
+              "aliases": [
+                "15/18",
+                "A Place To Heal"
+              ]
+            },
+            {
+              "title": "Dau",
+              "director": "Ilya Khrzhanovsky",
+              "year": 2026
+            },
+            {
+              "title": "Look Back",
+              "director": "Hirokazu Koreeda",
+              "year": 2026
+            },
+            {
+              "title": "Ga-neung-han sa-rang (Possible love)",
+              "director": "Lee Chang-dong",
+              "year": 2026,
+              "aliases": [
+                "Ga-neung-han sa-rang",
+                "Possible love"
+              ]
+            },
+            {
+              "title": "Wild Horse Nine",
+              "director": "Martin McDonagh",
+              "year": 2026
+            },
+            {
+              "title": "Succederà questa notte (It will happen tonight)",
+              "director": "Nanni Moretti",
+              "year": 2026,
+              "aliases": [
+                "Succederà questa notte",
+                "It will happen tonight"
+              ]
+            },
+            {
+              "title": "Primetime",
+              "director": "Lance Oppenheim",
+              "year": 2026,
+              "imdb_id": "tt34206385",
+              "identity_source": "https://www.imdb.com/title/tt34206385/"
+            },
+            {
+              "title": "The Echo Chamber",
+              "director": "Andrea Pallaoro",
+              "year": 2026
+            },
+            {
+              "title": "Un peu avant minuit",
+              "director": "Nicolas Pariser",
+              "year": 2026
+            },
+            {
+              "title": "L’estranea",
+              "director": "Paolo Strippoli",
+              "year": 2026
+            },
+            {
+              "title": "Nelson san, anata wa hito wo koroshimashitaka? (Mr. Nelson, Did You Kill People?)",
+              "director": "Shinya Tsukamoto",
+              "year": 2026,
+              "aliases": [
+                "Nelson san, anata wa hito wo koroshimashitaka?",
+                "Mr. Nelson, Did You Kill People?"
+              ]
+            },
+            {
+              "title": "Bunker",
+              "director": "Florian Zeller",
+              "year": 2026
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Lion",
+              "entries": [
+                {
+                  "title": "Kvinde Ukendt (Woman Unknown)",
+                  "person": "",
+                  "winner": true
+                }
+              ]
+            },
+            {
+              "name": "Grand Jury Prize",
+              "nomination_kind": "winners_only",
+              "entries": [
+                {
+                  "title": "Ga-neung-han sa-rang (Possible love)",
+                  "person": "",
+                  "winner": true
+                }
+              ]
+            },
+            {
+              "name": "Best Director",
+              "nomination_kind": "winners_only",
+              "entries": [
+                {
+                  "title": "Dau",
+                  "person": "Ilya Khrzhanovsky",
+                  "winner": true
+                }
+              ]
+            },
+            {
+              "name": "Best Actress",
+              "nomination_kind": "winners_only",
+              "entries": [
+                {
+                  "title": "Kvinde Ukendt (Woman Unknown)",
+                  "person": "Mathilde Arcel",
+                  "winner": true
+                }
+              ]
+            },
+            {
+              "name": "Best Actor",
+              "nomination_kind": "winners_only",
+              "entries": [
+                {
+                  "title": "Wild Horse Nine",
+                  "person": "John Malkovich",
+                  "winner": true
+                }
+              ]
+            },
+            {
+              "name": "Best Screenplay",
+              "nomination_kind": "winners_only",
+              "entries": [
+                {
+                  "title": "Un bon petit soldat",
+                  "person": "Stéphane Brizé, Coralie Amédéo, Olivier Gorce",
+                  "winner": true
+                }
+              ]
+            },
+            {
+              "name": "Special Jury Prize",
+              "nomination_kind": "winners_only",
+              "entries": [
+                {
+                  "title": "NAZA",
+                  "person": "",
+                  "winner": true
+                }
+              ]
+            },
+            {
+              "name": "Marcello Mastroianni Award",
+              "nomination_kind": "winners_only",
+              "entries": [
+                {
+                  "title": "15/18 (A Place To Heal)",
+                  "person": "Malou Khebizi",
+                  "winner": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Orizzonti",
+          "source": "https://www.labiennale.org/en/cinema/2026/orizzonti",
+          "awardsSource": "https://www.labiennale.org/en/news/official-awards-83rd-venice-international-film-festival",
+          "selection": [
+            {
+              "title": "The Burning Giants",
+              "director": "Phuttiphong Aroonpheng",
+              "year": 2026,
+              "aliases": [
+                "Yak Mai"
+              ]
+            },
+            {
+              "title": "What Belongs to Others",
+              "director": "Grzegorz Dębowski",
+              "year": 2026,
+              "aliases": [
+                "Cudze rzeczy"
+              ]
+            },
+            {
+              "title": "Una Storia",
+              "director": "Anna Foglietta",
+              "year": 2026
+            },
+            {
+              "title": "La Città dei Vivi",
+              "director": "Edoardo Gabbriellini",
+              "year": 2026
+            },
+            {
+              "title": "Falling House",
+              "director": "Mohsen Gharaei",
+              "year": 2026,
+              "aliases": [
+                "Moragheb"
+              ]
+            },
+            {
+              "title": "Too Much Sugar",
+              "director": "Robert Greene",
+              "year": 2026
+            },
+            {
+              "title": "The Difficult Bride",
+              "director": "Rubaiyat Hossain",
+              "year": 2026
+            },
+            {
+              "title": "House of the Wind",
+              "director": "Auguste Bernard Kouemo Yanghu",
+              "year": 2026,
+              "aliases": [
+                "La Maison du Vent"
+              ]
+            },
+            {
+              "title": "I Figli della Scimmia",
+              "director": "Tommaso Landucci",
+              "year": 2026,
+              "aliases": [
+                "The Children of the Monkey"
+              ]
+            },
+            {
+              "title": "A Day in the Life of Jo: Chapter Phaedra",
+              "director": "Jacqueline Lentzou",
+              "year": 2026,
+              "aliases": [
+                "Mia mera sti zoi tis tzo: kefalaio Faidra"
+              ]
+            },
+            {
+              "title": "Oasis",
+              "director": "Jannis Lenz",
+              "year": 2026,
+              "aliases": [
+                "Oase"
+              ]
+            },
+            {
+              "title": "Until the Day Ends",
+              "director": "Jelena Maksimović",
+              "year": 2026,
+              "aliases": [
+                "Do kraja dana"
+              ]
+            },
+            {
+              "title": "La Ragazza con la Leica",
+              "director": "Alina Marazzi",
+              "year": 2026
+            },
+            {
+              "title": "La Moula",
+              "director": "Jérôme Pierrat",
+              "year": 2026
+            },
+            {
+              "title": "Lovers in the Blue Night",
+              "director": "Anuparna Roy",
+              "year": 2026
+            },
+            {
+              "title": "Diane in the Loop",
+              "director": "Ann Sirot, Raphaël Balboni",
+              "year": 2026,
+              "aliases": [
+                "Un détour par Diane"
+              ]
+            },
+            {
+              "title": "The Color of the Sun",
+              "director": "Xavier Tera",
+              "year": 2026
+            },
+            {
+              "title": "Eklipse",
+              "director": "Manuel Wetscher",
+              "year": 2026
+            },
+            {
+              "title": "Big Little Things",
+              "director": "Michelle Zhou",
+              "year": 2026,
+              "aliases": [
+                "Huangyan shenghuo"
+              ]
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Orizzonti Award for Best Film",
+              "entries": [
+                {
+                  "title": "Diane in the Loop",
+                  "winner": true
+                }
+              ]
+            },
+            {
+              "name": "Best Director",
+              "entries": [
+                {
+                  "title": "A Day in the Life of Jo: Chapter Phaedra",
+                  "winner": true,
+                  "person": "Jacqueline Lentzou"
+                }
+              ]
+            },
+            {
+              "name": "Special Orizzonti Jury Prize",
+              "entries": [
+                {
+                  "title": "House of the Wind",
+                  "winner": true
+                }
+              ]
+            },
+            {
+              "name": "Best Actress",
+              "entries": [
+                {
+                  "title": "Falling House",
+                  "winner": true,
+                  "person": "Laleh Marzban"
+                }
+              ]
+            },
+            {
+              "name": "Best Actor",
+              "entries": [
+                {
+                  "title": "I Figli della Scimmia",
+                  "winner": true,
+                  "person": "Riccardo Scamarcio"
+                }
+              ]
+            },
+            {
+              "name": "Best Screenplay",
+              "entries": [
+                {
+                  "title": "I Figli della Scimmia",
+                  "winner": true,
+                  "person": "Tommaso Landucci, Damiano Femfert"
+                }
+              ]
+            },
+            {
+              "name": "Lion of the Future – Luigi De Laurentiis Award",
+              "entries": [
+                {
+                  "title": "House of the Wind",
+                  "winner": true
+                }
+              ]
+            }
+          ]
+        }
       ]
     },
     {
@@ -2200,6 +3042,338 @@
             }
           ]
         }
+      ],
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.berlinale.de/en/2026/topics/competition-2026.html",
+          "awardsSource": "https://www.berlinale.de/en/festival/awards-and-juries/international-jury.html",
+          "selection": [
+            {
+              "title": "A New Dawn",
+              "director": "Yoshitoshi Shinomiya",
+              "year": 2026
+            },
+            {
+              "title": "At the Sea",
+              "director": "Kornél Mundruczó",
+              "year": 2026
+            },
+            {
+              "title": "In a Whisper",
+              "director": "Leyla Bouzid",
+              "year": 2026
+            },
+            {
+              "title": "Dao",
+              "director": "Alain Gomis",
+              "year": 2026
+            },
+            {
+              "title": "Dust",
+              "director": "Anke Blondé",
+              "year": 2026
+            },
+            {
+              "title": "Home Stories",
+              "director": "Eva Trobisch",
+              "year": 2026
+            },
+            {
+              "title": "Everybody Digs Bill Evans",
+              "director": "Grant Gee",
+              "year": 2026
+            },
+            {
+              "title": "Yellow Letters",
+              "director": "İlker Çatak",
+              "year": 2026
+            },
+            {
+              "title": "Josephine",
+              "director": "Beth de Araújo",
+              "year": 2026
+            },
+            {
+              "title": "Salvation",
+              "director": "Emin Alper",
+              "year": 2026
+            },
+            {
+              "title": "My Wife Cries",
+              "director": "Angela Schanelec",
+              "year": 2026
+            },
+            {
+              "title": "Flies",
+              "director": "Fernando Eimbcke",
+              "year": 2026
+            },
+            {
+              "title": "Nina Roza",
+              "director": "Geneviève Dulude-de Celles",
+              "year": 2026
+            },
+            {
+              "title": "Queen at Sea",
+              "director": "Lance Hammer",
+              "year": 2026
+            },
+            {
+              "title": "Rose",
+              "director": "Markus Schleinzer",
+              "year": 2026
+            },
+            {
+              "title": "Rosebush Pruning",
+              "director": "Karim Aïnouz",
+              "year": 2026
+            },
+            {
+              "title": "Soumsoum, the Night of the Stars",
+              "director": "Mahamat-Saleh Haroun",
+              "year": 2026
+            },
+            {
+              "title": "The Loneliest Man in Town",
+              "director": "Tizza Covi, Rainer Frimmel",
+              "year": 2026
+            },
+            {
+              "title": "Wolfram",
+              "director": "Warwick Thornton",
+              "year": 2026
+            },
+            {
+              "title": "We Are All Strangers",
+              "director": "Anthony Chen",
+              "year": 2026
+            },
+            {
+              "title": "Yo (Love is a Rebellious Bird)",
+              "director": "Anna Fitch, Banker White",
+              "year": 2026,
+              "aliases": [
+                "Yo",
+                "Love is a Rebellious Bird"
+              ]
+            },
+            {
+              "title": "Nightborn",
+              "director": "Hanna Bergholm",
+              "year": 2026
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Bear",
+              "entries": [
+                {
+                  "title": "Yellow Letters",
+                  "person": "",
+                  "winner": true
+                }
+              ]
+            },
+            {
+              "name": "Grand Jury Prize",
+              "nomination_kind": "winners_only",
+              "entries": [
+                {
+                  "title": "Salvation",
+                  "person": "",
+                  "winner": true
+                }
+              ]
+            },
+            {
+              "name": "Jury Prize",
+              "nomination_kind": "winners_only",
+              "entries": [
+                {
+                  "title": "Queen at Sea",
+                  "person": "",
+                  "winner": true
+                }
+              ]
+            },
+            {
+              "name": "Best Director",
+              "nomination_kind": "winners_only",
+              "entries": [
+                {
+                  "title": "Everybody Digs Bill Evans",
+                  "person": "Grant Gee",
+                  "winner": true
+                }
+              ]
+            },
+            {
+              "name": "Best Leading Performance",
+              "nomination_kind": "winners_only",
+              "entries": [
+                {
+                  "title": "Rose",
+                  "person": "Sandra Hüller",
+                  "winner": true
+                }
+              ]
+            },
+            {
+              "name": "Best Supporting Performance",
+              "nomination_kind": "winners_only",
+              "entries": [
+                {
+                  "title": "Queen at Sea",
+                  "person": "Anna Calder-Marshall",
+                  "winner": true
+                },
+                {
+                  "title": "Queen at Sea",
+                  "person": "Tom Courtenay",
+                  "winner": true
+                }
+              ]
+            },
+            {
+              "name": "Best Screenplay",
+              "nomination_kind": "winners_only",
+              "entries": [
+                {
+                  "title": "Nina Roza",
+                  "person": "Geneviève Dulude-de Celles",
+                  "winner": true
+                }
+              ]
+            },
+            {
+              "name": "Outstanding Artistic Contribution",
+              "nomination_kind": "winners_only",
+              "entries": [
+                {
+                  "title": "Yo (Love is a Rebellious Bird)",
+                  "person": "Anna Fitch & Banker White",
+                  "winner": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Perspectives",
+          "source": "https://www.berlinale.de/en/2026/topics/perspectives-2026.html",
+          "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html",
+          "selection": [
+            {
+              "title": "17",
+              "director": "Kosara Mitić",
+              "year": 2026
+            },
+            {
+              "title": "Animol",
+              "director": "Ashley Walters",
+              "year": 2026
+            },
+            {
+              "title": "Chronicles From the Siege",
+              "director": "Abdallah Alkhatib",
+              "year": 2026
+            },
+            {
+              "title": "The River Train",
+              "director": "Lorenzo Ferro, Lucas A. Vignale",
+              "year": 2026,
+              "aliases": [
+                "El Tren Fluvial"
+              ]
+            },
+            {
+              "title": "Filipiñana",
+              "director": "Rafael Manuel",
+              "year": 2026
+            },
+            {
+              "title": "Forest High",
+              "director": "Manon Coubia",
+              "year": 2026,
+              "aliases": [
+                "Forêt Ivre"
+              ]
+            },
+            {
+              "title": "The Red Hangar",
+              "director": "Juan Pablo Sallato",
+              "year": 2026,
+              "aliases": [
+                "Hangar Rojo"
+              ]
+            },
+            {
+              "title": "Trial of Hein",
+              "director": "Kai Stänicke",
+              "year": 2026,
+              "aliases": [
+                "Der Heimatlose"
+              ]
+            },
+            {
+              "title": "Our Secret",
+              "director": "Grace Passô",
+              "year": 2026,
+              "aliases": [
+                "Nosso segredo"
+              ]
+            },
+            {
+              "title": "A Prayer for the Dying",
+              "director": "Dara van Dusen",
+              "year": 2026
+            },
+            {
+              "title": "Take Me Home",
+              "director": "Liz Sargent",
+              "year": 2026
+            },
+            {
+              "title": "Truly Naked",
+              "director": "Muriel d'Ansembourg",
+              "year": 2026
+            },
+            {
+              "title": "Where To?",
+              "director": "Assaf Machnes",
+              "year": 2026
+            },
+            {
+              "title": "Light Pillar",
+              "director": "Xu Zao",
+              "year": 2026,
+              "aliases": [
+                "Han ye deng zhu"
+              ]
+            }
+          ],
+          "prizes": [
+            {
+              "name": "GWFF Best First Feature Award",
+              "entries": [
+                {
+                  "title": "Chronicles From the Siege",
+                  "winner": true
+                }
+              ]
+            },
+            {
+              "name": "Special Mention",
+              "entries": [
+                {
+                  "title": "Forest High",
+                  "winner": true
+                }
+              ]
+            }
+          ]
+        }
       ]
     }
   ],
@@ -2265,5 +3439,6 @@
       "year": 2025
     }
   ],
-  "baseline_max_id": 2253
+  "baseline_max_id": 2253,
+  "programme_baseline_max_id": 2327
 }

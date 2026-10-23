@@ -1,7 +1,7 @@
 name: Prepare verified 2026 awards catalogue
 on:
   push:
-    branches: [feat/awards-navigation-2026]
+    branches: [feat/festival-programme-sections]
     paths: [scripts/prepare-awards-2026.mjs, imports/awards-2026-source.json, imports/awards-2026-identity-overrides.json, .github/workflows/awards-2026-prepare.yml]
   workflow_dispatch:
 permissions:
@@ -25,7 +25,7 @@ jobs:
         run: node scripts/prepare-awards-2026.mjs
       - run: node scripts/seed-media-catalogue.mjs
       - name: Commit data to the review branch
-        if: github.ref_name == 'feat/awards-navigation-2026'
+        if: github.ref_name == 'feat/festival-programme-sections'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
