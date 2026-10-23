@@ -21,7 +21,7 @@ try{
  }
  await page.locator('#award-tabs a').filter({hasText:'Oscars'}).click();await page.evaluate(()=>window.scrollTo(0,100));await page.waitForTimeout(3000);
  await fs.mkdir('docs/previews',{recursive:true});await page.screenshot({path:'docs/previews/awards-2026-desktop.png'});
- await page.setViewportSize({width:390,height:1000});await page.evaluate(()=>window.scrollTo(0,180));await page.waitForTimeout(500);
+ await page.setViewportSize({width:390,height:1400});await page.evaluate(()=>window.scrollTo(0,0));await page.waitForTimeout(500);
  assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'Mobile layout overflows horizontally');
  await page.screenshot({path:'docs/previews/awards-2026-mobile.png'});assert.deepEqual(errors,[]);console.log('Awards browser navigation, refresh, six editions and mobile layout passed.');
 }finally{await browser.close();await new Promise(resolve=>server.close(resolve));}
