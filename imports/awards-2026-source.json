@@ -2554,7 +2554,12 @@
               "year": 2026,
               "aliases": [
                 "Moragheb"
-              ]
+              ],
+              "director_aliases": [
+                "Mohsen Gharaie"
+              ],
+              "identity_note": "Provider transliteration of Mohsen Gharaei; original Persian title, year and cast match the official Venice programme.",
+              "identity_source": "https://www.labiennale.org/en/cinema/2026/orizzonti/moragheb-falling-house"
             },
             {
               "title": "Too Much Sugar",
@@ -2572,7 +2577,12 @@
               "year": 2026,
               "aliases": [
                 "La Maison du Vent"
-              ]
+              ],
+              "director_aliases": [
+                "Auguste Kouemo Yanghu"
+              ],
+              "identity_note": "Provider omits Bernard; title, cast and synopsis match the Venice programme and distributor.",
+              "identity_source": "https://celluloid-dreams.com/films/house-of-the-wind/"
             },
             {
               "title": "I Figli della Scimmia",
@@ -2645,7 +2655,10 @@
               "year": 2026,
               "aliases": [
                 "Huangyan shenghuo"
-              ]
+              ],
+              "expected_original_title": "謊言生活",
+              "identity_note": "Two TMDB records share the English title and director. Use the record with the official original title 謊言生活, rather than the alternate development title 一日情人.",
+              "identity_source": "https://www.goldenhorse.org.tw/film/programme/films/detail/4426?search_category=FF&search_year=2026"
             }
           ],
           "prizes": [
