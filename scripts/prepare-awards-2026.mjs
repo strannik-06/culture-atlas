@@ -8,7 +8,7 @@ const raw=JSON.parse(fs.readFileSync('imports/awards-2026-source.json','utf8'));
 const films=read('film-catalog.js','CULTURE_CATALOG'),details=read('film-details.js','CULTURE_FILM_DETAILS');
 const norm=s=>String(s||'').normalize('NFKD').replace(/\p{M}/gu,'').toLowerCase().replace(/[^\p{L}\p{N}]/gu,'');
 const words=s=>String(s||'').normalize('NFKD').replace(/\p{M}/gu,'').toLowerCase().match(/[\p{L}\p{N}]+/gu)||[];
-const directorMatches=(expected,actual)=>{const a=new Set(words(actual));return words(expected).filter(w=>w!=='and').every(w=>a.has(w));};
+const directorMatches=(expected,actual)=>{if(norm(actual).includes(norm(expected)))return true;const a=new Set(words(actual));return words(expected).filter(w=>w!=='and').every(w=>a.has(w));};
 const key=process.env.TMDB_API_KEY,token=process.env.TMDB_READ_ACCESS_TOKEN;
 const overrides=fs.existsSync('imports/awards-2026-identity-overrides.json')?JSON.parse(fs.readFileSync('imports/awards-2026-identity-overrides.json','utf8')):{};
 async function api(path,params={}){
@@ -27,9 +27,9 @@ for(const candidate of candidates){
  try{
   const movieIds=new Set();if(overrides[candidate.title])movieIds.add(overrides[candidate.title]);
   else for(const name of names){const response=await api('search/movie',{query:name,include_adult:false});for(const m of response.results||[])if(Math.abs(Number(m.release_date?.slice(0,4)||candidate.year)-candidate.year)<=2&&[m.title,m.original_title].some(t=>names.some(n=>norm(n)===norm(t))))movieIds.add(m.id);}
-  const verified=[];
-  for(const id of movieIds){const m=await api('movie/'+id,{append_to_response:'credits,external_ids'});const directors=(m.credits?.crew||[]).filter(p=>p.job==='Director').map(p=>p.name).join(', ');if(directorMatches(candidate.director,directors))verified.push(m);}
-  if(verified.length!==1)throw Error('Expected one title/director match; found '+verified.length);
+  const verified=[],reviewed=[];
+  for(const id of movieIds){const m=await api('movie/'+id,{append_to_response:'credits,external_ids'});const directors=(m.credits?.crew||[]).filter(p=>p.job==='Director').map(p=>p.name).join(', ');reviewed.push({tmdb_id:m.id,title:m.title,original_title:m.original_title,directors});if(directorMatches(candidate.director,directors))verified.push(m);}
+  if(verified.length!==1){audit.unresolved.push({...candidate,reason:'Expected one title/director match; found '+verified.length,reviewed});continue;}
   const m=verified[0],old=films.find(f=>f.tmdb_id===m.id||m.imdb_id&&f.imdb_id===m.imdb_id);
   if(old){audit.matched.push({title:candidate.title,id:old.id,tmdb_id:m.id});candidate.canonical_id=old.id;continue;}
   const film={id:next++,title:m.title,director:m.credits.crew.filter(p=>p.job==='Director').map(p=>p.name).join(', '),year:Number(m.release_date?.slice(0,4))||candidate.year,tmdb_id:m.id,...(m.imdb_id?{imdb_id:m.imdb_id}:{}),original_title:m.original_title,original_language:m.original_language,alternate_titles:[...new Set(names.filter(n=>norm(n)!==norm(m.title)&&norm(n)!==norm(m.original_title)))]};
@@ -48,6 +48,6 @@ for(const e of raw.events){try{
  output.push({event:e.event,year:2026,section:e.section,dates:e.dates,source:e.source,awardsSource:e.awardsSource||e.source,resultsUrl:e.awardsSource||e.source,categories,films:ids.map(id=>({id,awards:categories.filter(c=>c.winners.includes(id)).map(c=>c.name)}))});
 }catch(error){audit.unresolved.push({event:e.event,reason:error.message});}}
 write('film-catalog.js','CULTURE_CATALOG',films);write('film-details.js','CULTURE_FILM_DETAILS',details);write('awards-2026.js','CULTURE_AWARDS_2026',output);
-fs.writeFileSync('imports/awards-2026-audit.json',JSON.stringify({...audit,event_counts:output.map(e=>({event:e.event,films:e.films.length,categories:e.categories.length}))},null,2)+'\n');
+fs.writeFileSync('imports/awards-2026-audit.json',JSON.stringify({...audit,new_canonical_ids:films.filter(f=>f.id>raw.baseline_max_id).map(f=>({id:f.id,title:f.title,tmdb_id:f.tmdb_id})),event_counts:output.map(e=>({event:e.event,films:e.films.length,categories:e.categories.length}))},null,2)+'\n');
 console.log(JSON.stringify({matched:audit.matched.length,added:audit.added.length,unresolved:audit.unresolved.length,events:output.length}));
 // Keep partial work reviewable; unresolved entries must be resolved before final validation.
