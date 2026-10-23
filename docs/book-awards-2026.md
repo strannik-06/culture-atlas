@@ -80,3 +80,10 @@ overflow and image loading without connecting to the production database.
 - [Desktop](previews/book-awards-2026-desktop.png)
 - [Nobel](previews/book-awards-2026-nobel.png)
 - [Mobile](previews/book-awards-2026-mobile.png)
+
+Final verification: 54 regression tests and three reading-history import tests
+pass. Five dedicated book-award tests cover scope, navigation, existing rating and
+note reuse, duplicate provider aliases and SQL safety. Chromium loads all 69
+covers successfully (zero failed images), with measured card/rating alignment on
+all six awards and no mobile overflow. Desktop, mobile and Nobel screenshots were
+visually inspected. No live database writes or rating imports were performed.
