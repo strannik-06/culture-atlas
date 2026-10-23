@@ -2,7 +2,7 @@
 (() => {
  'use strict';
  const defaults={films:'top100',tv:'catalogue',books:'ratings'};
- const views={films:['top100','awards','ratings','catalogue','search'],tv:['catalogue','ratings','search'],books:['ratings','catalogue','search']};
+ const views={films:['top100','awards','ratings','catalogue','search'],tv:['catalogue','ratings','search'],books:['ratings','awards','catalogue','search']};
  const fields={
   'films/top100':{q:['search',''],year:['year','2025'],tier:['tier',''],genre:['genre',''],status:['status','']},
   'films/awards':{event:['award-event',null],year:['award-year',null],category:['award-category','all'],result:['award-filter','all']},
@@ -10,6 +10,7 @@
   'films/catalogue':{q:['ratings-search',''],sort:['ratings-sort','rating']},
   'tv/catalogue':{q:['tv-search',''],kind:['tv-kind',''],sort:['tv-sort','year']},
   'tv/ratings':{q:['tv-search',''],kind:['tv-kind',''],sort:['tv-sort','year']},
+  'books/awards':{event:['book-award-event',null],year:['book-award-year',null],category:['book-award-category','all'],result:['book-award-filter','all']},
   'books/search':{q:['book-query',''],author:['book-author','']},
   'films/search':{q:['media-query','']},'tv/search':{q:['media-query','']}
  };
@@ -24,7 +25,7 @@
    const params=Object.fromEntries(new URLSearchParams(query)),head=parts.shift()||defaults[section];
    let view=head,entity;
    if(section==='films'&&positive(head)&&!parts.length)entity=head;
-   else if(section==='books'&&/^(?:OL[1-9]\d*W|local-[1-9]\d*)$/.test(head)&&!parts.length)entity=head;
+   else if(section==='books'&&/^(?:OL[1-9]\d*W|local-[1-9]\d*|award-[a-z0-9]+(?:-[a-z0-9]+)*)$/.test(head)&&!parts.length)entity=head;
    else if(section==='tv'&&positive(head)&&(!parts.length||parts.length===2&&parts[0]==='season'&&/^(0|[1-9]\d*)$/.test(parts[1])))entity=[head,...parts].join('/');
    else if(section==='tv'&&parts.length===1&&((head==='movie'&&positive(parts[0]))||(head==='imdb'&&/^tt\d+$/.test(parts[0]))||(head==='local'&&/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(parts[0]))))entity=[head,...parts].join('/');
    else if(parts.length||!views[section].includes(view))return null;
@@ -60,7 +61,7 @@
   const entityKey=r=>r.entity?r.section+'/'+r.entity:null;
   const schema=r=>fields[r.section+'/'+r.view]||{};
   function selectValue(el,value){if(el.tagName==='SELECT'&&![...el.options].some(o=>o.value===value))return;el.value=value;}
-  function setFilters(r){for(const[k,[id,fallback]]of Object.entries(schema(r))){const el=$(id);if(!el)continue;if(r.view==='awards'&&['event','year'].includes(k)&&r.params[k]!==undefined&&![...el.options].some(o=>o.value===r.params[k])){const option=document.createElement('option');option.value=r.params[k];option.textContent=r.params[k];el.append(option);}selectValue(el,r.params[k]??fallback??el.options[0]?.value??'');if(k==='year'&&r.view==='awards')app.awardCategories();}}
+  function setFilters(r){for(const[k,[id,fallback]]of Object.entries(schema(r))){const el=$(id);if(!el)continue;if(r.view==='awards'&&['event','year'].includes(k)&&r.params[k]!==undefined&&![...el.options].some(o=>o.value===r.params[k])){const option=document.createElement('option');option.value=r.params[k];option.textContent=r.params[k];el.append(option);}selectValue(el,r.params[k]??fallback??el.options[0]?.value??'');if(k==='year'&&r.view==='awards'){if(r.section==='books')app.books.route.awardCategories();else app.awardCategories();}}}
   function title(r){const name={films:'Films',tv:'TV Series',books:'Books'}[r.section];document.title='Culture Atlas · '+name+' · '+({top100:'Top 100',ratings:'My ratings',catalogue:'Catalogue',search:'Search',awards:'Awards'}[r.view]);}
   function showEntity(r,force=false){
    if(!r.entity)return;
@@ -70,7 +71,7 @@
    let exists=false;
    if(r.section==='films'){exists=app.hasFilm(r.entity);if(exists){app.openFilm(r.entity);document.title=app.filmTitle(r.entity)+' · Culture Atlas';}}
    if(r.section==='tv'){const work=tvKey(r.entity);exists=app.tv.route.has(work);if(exists){app.tv.route.choose(work);document.title=app.tv.route.title()+' · Culture Atlas';}}
-   if(r.section==='books'){const work=r.entity.startsWith('local-')?r.entity:'/works/'+r.entity;exists=app.books.route.has(work);if(!exists&&!resolving.has(work)){resolving.add(work);app.books.route.ensureWork(work).catch(()=>{}).finally(()=>api.refresh());}if(exists){app.books.route.choose(work);document.title=app.books.route.title()+' · Culture Atlas';}}
+   if(r.section==='books'){const work=/^(local-|award-)/.test(r.entity)?r.entity:'/works/'+r.entity;exists=app.books.route.has(work);if(!exists&&!resolving.has(work)){resolving.add(work);app.books.route.ensureWork(work).catch(()=>{}).finally(()=>api.refresh());}if(exists){app.books.route.choose(work);document.title=app.books.route.title()+' · Culture Atlas';}}
    error.hidden=exists;error.textContent=exists?'':'This item is not available in the loaded catalogue. It may still be loading; try refreshing or return to the catalogue.';
    entityShown=exists?key:null;
   }
@@ -93,7 +94,7 @@
     setFilters(r);
     if(r.section==='films'){app.setPage(Number(r.params.page)||1);app.renderFilms();}
     if(r.section==='tv')app.tv.route.switchTab(r.view==='search'?'catalogue':r.view);
-    if(r.section==='books'){app.books.route.setVisible((Number(r.params.page)||1)*48);if(r.view==='search'&&r.params.q?.length>=2)app.books.route.search();}
+    if(r.section==='books'){app.books.route.setVisible((Number(r.params.page)||1)*48);if(r.view==='awards')app.books.route.renderAwards();if(r.view==='search'&&r.params.q?.length>=2)app.books.route.search();}
     if(r.view==='search'&&r.section!=='books'){
      const kind=r.section==='films'?'movie':'tv';
      if($('media-dialog').open&&app.media.route.getType()!==kind)app.media.route.close();
