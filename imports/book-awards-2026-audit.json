@@ -1,0 +1,483 @@
+{
+  "verified_on": "2026-10-23",
+  "total_books": 69,
+  "reused_catalogue": [
+    {
+      "key": "the-end-of-everything-m-john-harrison",
+      "id": 4,
+      "title": "The End of Everything"
+    },
+    {
+      "key": "black-bag-luke-kennard",
+      "id": 2,
+      "title": "Black Bag"
+    },
+    {
+      "key": "may-we-feed-the-king-rebecca-perry",
+      "id": 5,
+      "title": "May We Feed the King"
+    },
+    {
+      "key": "the-things-we-never-say-elizabeth-strout",
+      "id": 6,
+      "title": "The Things We Never Say"
+    },
+    {
+      "key": "taiwan-travelogue-yang-shuang-zi",
+      "id": 3,
+      "title": "Taiwan Travelogue"
+    },
+    {
+      "key": "the-nights-are-quiet-in-tehran-shida-bazyar",
+      "id": 1,
+      "title": "The Nights Are Quiet in Tehran"
+    },
+    {
+      "key": "angel-down-daniel-kraus",
+      "id": 9,
+      "title": "Angel Down"
+    },
+    {
+      "key": "audition-katie-kitamura",
+      "id": 11,
+      "title": "Audition"
+    },
+    {
+      "key": "there-is-no-place-for-us-working-and-homeless-in-america-brian-goldstone",
+      "id": 7,
+      "title": "There Is No Place for Us: Working and Homeless in America"
+    }
+  ],
+  "new_books": [
+    {
+      "key": "the-disappearers-marlon-james",
+      "title": "The Disappearers",
+      "open_library_work_id": "/works/OL45862992W",
+      "identity_status": "verified Open Library title + author"
+    },
+    {
+      "key": "john-of-john-douglas-stuart",
+      "title": "John of John",
+      "open_library_work_id": null,
+      "identity_status": "Official identity; reviewed Open Library duplicate-work aliases"
+    },
+    {
+      "key": "she-who-remains-rene-karabash",
+      "title": "She Who Remains",
+      "open_library_work_id": null,
+      "identity_status": "official award identity; provider not indexed"
+    },
+    {
+      "key": "the-director-daniel-kehlmann",
+      "title": "The Director",
+      "open_library_work_id": null,
+      "identity_status": "official award identity; provider not indexed"
+    },
+    {
+      "key": "on-earth-as-it-is-beneath-ana-paula-maia",
+      "title": "On Earth As It Is Beneath",
+      "open_library_work_id": "/works/OL42398736W",
+      "identity_status": "verified Open Library title + author"
+    },
+    {
+      "key": "the-witch-marie-ndiaye",
+      "title": "The Witch",
+      "open_library_work_id": "/works/OL45187192W",
+      "identity_status": "verified Open Library title + author"
+    },
+    {
+      "key": "stag-dance-a-quartet-torrey-peters",
+      "title": "Stag Dance: A Quartet",
+      "open_library_work_id": null,
+      "identity_status": "Official identity; reviewed Open Library duplicate-work aliases"
+    },
+    {
+      "key": "we-the-people-a-history-of-the-u-s-constitution-jill-lepore",
+      "title": "We the People: A History of the U.S. Constitution",
+      "open_library_work_id": "/works/OL42560511W",
+      "identity_status": "verified Open Library title + author"
+    },
+    {
+      "key": "king-of-kings-the-iranian-revolution-a-story-of-hubris-delusion-and-catastrophic-miscalculation-scott-anderson",
+      "title": "King of Kings: The Iranian Revolution: A Story of Hubris, Delusion and Catastrophic Miscalculation",
+      "open_library_work_id": "/works/OL42400898W",
+      "identity_status": "verified Open Library title + author"
+    },
+    {
+      "key": "born-in-flames-the-business-of-arson-and-the-remaking-of-the-american-city-bench-ansfield",
+      "title": "Born in Flames: The Business of Arson and the Remaking of the American City",
+      "open_library_work_id": "/works/OL42394640W",
+      "identity_status": "verified Open Library title + author"
+    },
+    {
+      "key": "pride-and-pleasure-the-schuyler-sisters-in-an-age-of-revolution-amanda-vaill",
+      "title": "Pride and Pleasure: The Schuyler Sisters in an Age of Revolution",
+      "open_library_work_id": "/works/OL42455334W",
+      "identity_status": "verified Open Library title + author"
+    },
+    {
+      "key": "true-nature-the-pilgrimage-of-peter-matthiessen-lance-richardson",
+      "title": "True Nature: The Pilgrimage of Peter Matthiessen",
+      "open_library_work_id": "/works/OL42460086W",
+      "identity_status": "verified Open Library title + author"
+    },
+    {
+      "key": "the-life-and-poetry-of-frank-stanford-james-mcwilliams",
+      "title": "The Life and Poetry of Frank Stanford",
+      "open_library_work_id": null,
+      "identity_status": "official award identity; provider not indexed"
+    },
+    {
+      "key": "things-in-nature-merely-grow-yiyun-li",
+      "title": "Things in Nature Merely Grow",
+      "open_library_work_id": "/works/OL42429940W",
+      "identity_status": "verified Open Library title + author"
+    },
+    {
+      "key": "clam-down-a-metamorphosis-anelise-chen",
+      "title": "Clam Down: A Metamorphosis",
+      "open_library_work_id": "/works/OL42424538W",
+      "identity_status": "verified Open Library title + author"
+    },
+    {
+      "key": "bibliophobia-a-memoir-sarah-chihaya",
+      "title": "Bibliophobia: A Memoir",
+      "open_library_work_id": "/works/OL42340783W",
+      "identity_status": "verified Open Library title + author"
+    },
+    {
+      "key": "i-ll-tell-you-when-i-m-home-a-memoir-hala-alyan",
+      "title": "I'll Tell You When I'm Home: A Memoir",
+      "open_library_work_id": "/works/OL42434435W",
+      "identity_status": "verified Open Library title + author"
+    },
+    {
+      "key": "ars-poeticas-juliana-spahr",
+      "title": "Ars Poeticas",
+      "open_library_work_id": "/works/OL42406775W",
+      "identity_status": "verified Open Library title + author"
+    },
+    {
+      "key": "i-imagine-i-been-science-fiction-always-douglas-kearney",
+      "title": "I Imagine I Been Science Fiction Always",
+      "open_library_work_id": null,
+      "identity_status": "Official identity; reviewed Open Library duplicate-work aliases"
+    },
+    {
+      "key": "the-intentions-of-thunder-new-and-selected-poems-patricia-smith",
+      "title": "The Intentions of Thunder: New and Selected Poems",
+      "open_library_work_id": null,
+      "identity_status": "official award identity; provider not indexed"
+    },
+    {
+      "key": "a-flower-traveled-in-my-blood-the-incredible-true-story-of-the-grandmothers-who-fought-to-find-a-stolen-generation-of-children-haley-cohen-gilliland",
+      "title": "A Flower Traveled in My Blood: The Incredible True Story of the Grandmothers Who Fought to Find a Stolen Generation of Children",
+      "open_library_work_id": null,
+      "identity_status": "official award identity; provider not indexed"
+    },
+    {
+      "key": "mother-emanuel-two-centuries-of-race-resistance-and-forgiveness-in-one-charleston-church-kevin-sack",
+      "title": "Mother Emanuel: Two Centuries of Race, Resistance, and Forgiveness in One Charleston Church",
+      "open_library_work_id": "/works/OL42426835W",
+      "identity_status": "verified Open Library title + author"
+    },
+    {
+      "key": "autobiography-of-red-anne-carson",
+      "title": "Autobiography of Red",
+      "open_library_work_id": "/works/OL1998433W",
+      "identity_status": "verified Open Library title + author"
+    },
+    {
+      "key": "glass-irony-and-god-anne-carson",
+      "title": "Glass, Irony and God",
+      "open_library_work_id": "/works/OL1998431W",
+      "identity_status": "verified Open Library title + author"
+    },
+    {
+      "key": "eros-the-bittersweet-anne-carson",
+      "title": "Eros the Bittersweet",
+      "open_library_work_id": "/works/OL1998436W",
+      "identity_status": "verified Open Library title + author"
+    },
+    {
+      "key": "the-beauty-of-the-husband-anne-carson",
+      "title": "The Beauty of the Husband",
+      "open_library_work_id": "/works/OL1998434W",
+      "identity_status": "verified Open Library title + author"
+    },
+    {
+      "key": "nox-anne-carson",
+      "title": "Nox",
+      "open_library_work_id": "/works/OL1998432W",
+      "identity_status": "verified Open Library title + author"
+    },
+    {
+      "key": "paradiso-17-hannah-lillith-assadi",
+      "title": "Paradiso 17",
+      "open_library_work_id": "/works/OL45986595W",
+      "identity_status": "verified Open Library title + author"
+    },
+    {
+      "key": "dey-edwidge-danticat",
+      "title": "Dèy",
+      "open_library_work_id": "/works/OL46004992W",
+      "identity_status": "verified Open Library title + author"
+    },
+    {
+      "key": "pretend-youre-dead-and-i-carry-you-julian-delgado-lopera",
+      "title": "Pretend You’re Dead and I Carry You",
+      "open_library_work_id": "/works/OL46004993W",
+      "identity_status": "verified Open Library title + author"
+    },
+    {
+      "key": "beginning-middle-end-valeria-luiselli",
+      "title": "Beginning Middle End",
+      "open_library_work_id": null,
+      "identity_status": "Official identity; reviewed Open Library duplicate-work aliases"
+    },
+    {
+      "key": "mad-eden-morgan-thomas",
+      "title": "Mad Eden",
+      "open_library_work_id": "/works/OL46005027W",
+      "identity_status": "verified Open Library title + author"
+    },
+    {
+      "key": "the-midnight-special-the-secret-prison-history-of-american-music-colin-asher",
+      "title": "The Midnight Special: The Secret Prison History of American Music",
+      "open_library_work_id": null,
+      "identity_status": "official award identity; provider not indexed"
+    },
+    {
+      "key": "huna-a-memoir-of-revolution-prison-and-becoming-abdelrahman-elgendy",
+      "title": "Huna: A Memoir of Revolution, Prison, and Becoming",
+      "open_library_work_id": "/works/OL45148209W",
+      "identity_status": "verified Open Library title + author"
+    },
+    {
+      "key": "let-the-poets-govern-a-declaration-of-freedom-camonghne-felix",
+      "title": "Let the Poets Govern: A Declaration of Freedom",
+      "open_library_work_id": null,
+      "identity_status": "official award identity; provider not indexed"
+    },
+    {
+      "key": "mother-tongue-sara-novic",
+      "title": "Mother Tongue",
+      "open_library_work_id": null,
+      "identity_status": "official award identity; provider not indexed"
+    },
+    {
+      "key": "spawning-season-an-experiment-in-queer-parenthood-joseph-osmundson",
+      "title": "Spawning Season: An Experiment in Queer Parenthood",
+      "open_library_work_id": null,
+      "identity_status": "official award identity; provider not indexed"
+    },
+    {
+      "key": "tree-of-knowledge-victoria-chang",
+      "title": "Tree of Knowledge",
+      "open_library_work_id": null,
+      "identity_status": "official award identity; provider not indexed"
+    },
+    {
+      "key": "hide-carolina-ebeid",
+      "title": "Hide",
+      "open_library_work_id": null,
+      "identity_status": "official award identity; provider not indexed"
+    },
+    {
+      "key": "still-house-in-the-desert-an-eco-contemplation-brenda-hillman",
+      "title": "Still House in the Desert: An Eco-Contemplation",
+      "open_library_work_id": null,
+      "identity_status": "official award identity; provider not indexed"
+    },
+    {
+      "key": "exhibit-g-poems-essays-and-photographs-of-gaza-fady-joudah",
+      "title": "Exhibit G: Poems, Essays, and Photographs of Gaza",
+      "open_library_work_id": null,
+      "identity_status": "official award identity; provider not indexed"
+    },
+    {
+      "key": "bramble-susan-stewart",
+      "title": "Bramble",
+      "open_library_work_id": null,
+      "identity_status": "official award identity; provider not indexed"
+    },
+    {
+      "key": "the-school-of-night-karl-ove-knausgaard",
+      "title": "The School of Night",
+      "open_library_work_id": null,
+      "identity_status": "official award identity; provider not indexed"
+    },
+    {
+      "key": "centroeuropa-vicente-luis-mora",
+      "title": "Centroeuropa",
+      "open_library_work_id": "/works/OL22129524W",
+      "identity_status": "verified Open Library title + author"
+    },
+    {
+      "key": "night-of-a-thousand-hells-intan-paramaditha",
+      "title": "Night of a Thousand Hells",
+      "open_library_work_id": "/works/OL46096208W",
+      "identity_status": "verified Open Library title + author"
+    },
+    {
+      "key": "pure-men-mohamed-mbougar-sarr",
+      "title": "Pure Men",
+      "open_library_work_id": null,
+      "identity_status": "official award identity; provider not indexed"
+    },
+    {
+      "key": "your-presence-is-a-danger-to-your-life-voices-of-survival-and-witness-in-gaza-samar-yazbek",
+      "title": "Your Presence Is a Danger to Your Life: Voices of Survival and Witness in Gaza",
+      "open_library_work_id": null,
+      "identity_status": "official award identity; provider not indexed"
+    },
+    {
+      "key": "holloway-elana-k-arnold",
+      "title": "Holloway",
+      "open_library_work_id": null,
+      "identity_status": "official award identity; provider not indexed"
+    },
+    {
+      "key": "when-tomorrow-burns-tae-keller",
+      "title": "When Tomorrow Burns",
+      "open_library_work_id": null,
+      "identity_status": "official award identity; provider not indexed"
+    },
+    {
+      "key": "that-which-feeds-us-a-hawaiian-gothic-keala-kendall",
+      "title": "That Which Feeds Us: A Hawaiian Gothic",
+      "open_library_work_id": "/works/OL45586995W",
+      "identity_status": "verified Open Library title + author"
+    },
+    {
+      "key": "the-fight-of-our-lives-aids-in-america-david-levithan-gabriel-duckels",
+      "title": "The Fight of Our Lives: AIDS in America",
+      "open_library_work_id": null,
+      "identity_status": "official award identity; provider not indexed"
+    },
+    {
+      "key": "shook-julian-randall",
+      "title": "Shook",
+      "open_library_work_id": null,
+      "identity_status": "official award identity; provider not indexed"
+    },
+    {
+      "key": "minotaure-boris-bergmann",
+      "title": "Minotaure",
+      "open_library_work_id": null,
+      "identity_status": "official award identity; provider not indexed"
+    },
+    {
+      "key": "le-fabuleux-piano-sonia-devillers",
+      "title": "Le fabuleux piano",
+      "open_library_work_id": null,
+      "identity_status": "official award identity; provider not indexed"
+    },
+    {
+      "key": "nous-aussi-anne-godard",
+      "title": "Nous aussi",
+      "open_library_work_id": null,
+      "identity_status": "official award identity; provider not indexed"
+    },
+    {
+      "key": "la-solitude-des-professeurs-est-infinie-yannick-haenel",
+      "title": "La solitude des professeurs est infinie",
+      "open_library_work_id": null,
+      "identity_status": "official award identity; provider not indexed"
+    },
+    {
+      "key": "linconnue-du-quai-de-javel-philippe-jaenada",
+      "title": "L’inconnue du Quai de Javel",
+      "open_library_work_id": null,
+      "identity_status": "official award identity; provider not indexed"
+    },
+    {
+      "key": "choses-que-je-croyais-perdues-clementine-melois",
+      "title": "Choses que je croyais perdues",
+      "open_library_work_id": null,
+      "identity_status": "official award identity; provider not indexed"
+    },
+    {
+      "key": "de-lautre-cote-du-lac-sylvain-prudhomme",
+      "title": "De l’autre côté du lac",
+      "open_library_work_id": null,
+      "identity_status": "official award identity; provider not indexed"
+    },
+    {
+      "key": "la-guerre-eternelle-olivier-rolin",
+      "title": "La Guerre éternelle",
+      "open_library_work_id": null,
+      "identity_status": "official award identity; provider not indexed"
+    }
+  ],
+  "provider_aliases": [
+    {
+      "key": "john-of-john-douglas-stuart",
+      "aliases": [
+        "/works/OL45341670W",
+        "/works/OL45691929W"
+      ]
+    },
+    {
+      "key": "stag-dance-a-quartet-torrey-peters",
+      "aliases": [
+        "/works/OL42396177W",
+        "/works/OL45985103W"
+      ]
+    },
+    {
+      "key": "i-imagine-i-been-science-fiction-always-douglas-kearney",
+      "aliases": [
+        "/works/OL44912437W",
+        "/works/OL44912435W"
+      ]
+    },
+    {
+      "key": "beginning-middle-end-valeria-luiselli",
+      "aliases": [
+        "/works/OL45033603W",
+        "/works/OL45985767W"
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "event": "Booker Prize",
+      "status": "shortlist",
+      "books": 6,
+      "categories": 1
+    },
+    {
+      "event": "International Booker",
+      "status": "awarded",
+      "books": 6,
+      "categories": 1
+    },
+    {
+      "event": "Pulitzer Prize",
+      "status": "awarded",
+      "books": 19,
+      "categories": 6
+    },
+    {
+      "event": "Nobel Literature",
+      "status": "awarded",
+      "books": 5,
+      "categories": 1
+    },
+    {
+      "event": "National Book Awards",
+      "status": "finalists",
+      "books": 25,
+      "categories": 5
+    },
+    {
+      "event": "Prix Goncourt",
+      "status": "second-selection",
+      "books": 8,
+      "categories": 1
+    }
+  ],
+  "covers": 69,
+  "unresolved": []
+}

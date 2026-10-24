@@ -4,7 +4,7 @@
   const $ = id => document.getElementById(id);
   const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const formats = {kindle:'Kindle', audio:'Audio', unknown:'Not specified'};
-  const bookKey = book => book.open_library_work_id || (book.id?`local-${book.id}`:`goodreads-${book.goodreads_id}`);
+  const bookKey = book => {const award=window.CultureBookAwards?.find(book);return award?'award-'+award.key:book.open_library_work_id||(book.id?`local-${book.id}`:book.award_key?'award-'+book.award_key:`goodreads-${book.goodreads_id}`);};
   const workPattern = /^\/works\/OL\d+W$/;
   const goodreadsId = value => typeof value==='string' && /^[1-9]\d{0,19}$/.test(value) ? value : null;
   function goodreadsLink(book) {
@@ -74,6 +74,29 @@
   let client, user=null, generation=0, books=[], progress=new Map(), results=[], selected=null;
   let editorHydrated=false, readings=[], importDraft=null, importing=false, editing=false;
   const descriptions=new Map();let detailSequence=0;
+  let awardBrowser;
+  function awardBook(work){
+    const saved=books.find(b=>window.CultureBookAwards.matches(work,b));
+    return {...work,...saved,award_key:work.key,...(saved?.id||work.catalogue_id?{id:saved?.id||work.catalogue_id}:{})};
+  }
+  function catalogueBooks(){
+    const curated=window.CultureBookAwards?.books()||[];
+    return [...books,...curated.filter(a=>!books.some(b=>window.CultureBookAwards.matches(a,b))).map(awardBook)];
+  }
+  function findBook(key){
+    const award=window.CultureBookAwards?.byKey(key);
+    return award?awardBook(award):books.find(b=>bookKey(b)===key||b.open_library_work_id===key||'local-'+b.id===key)||results.find(b=>bookKey(b)===key||b.open_library_work_id===key);
+  }
+  function bookCover(book,size='M'){
+    const award=window.CultureBookAwards?.find(book);
+    if(award?.cover_asset)return award.cover_asset;
+    if(award?.cover_image_url)return award.cover_image_url;
+    return Number.isSafeInteger(Number(book.cover_id))&&Number(book.cover_id)>0?`https://covers.openlibrary.org/b/id/${Number(book.cover_id)}-${size}.jpg?default=false`:fallbackCover(book.cover_url);
+  }
+  function bookAwardsMarkup(book){
+    const awards=window.CultureBookAwards?.recognitions(book)||[];
+    return awards.length?'<div class="book-award-label">'+awards.map(a=>`<div><a href="${escape(a.url)}">${a.winner?'★ ':''}${escape(a.event)} ${a.year} · ${escape(a.category==='Selected works'?a.label:a.label+' · '+a.category)}</a></div>`).join('')+'</div>':'';
+  }
   function editMode(value) {
     editing=value;closeBookStars();$('book-rating-form').hidden=!value;$('book-detail-personal').hidden=value;
     $('book-detail-edit').textContent=value?'Save':'Edit';$('book-detail-edit').classList.toggle('detail-save',value);
@@ -161,27 +184,29 @@
     if (['42P01','42883','PGRST202','PGRST205'].includes(error?.code)) return 'Books storage is not ready yet. The Books database migration needs to be applied.';
     return error?.message || 'Something went wrong. Please try again.';
   }
-  function card(book, result=false) {
+  function card(book, result=false, entry=null) {
     book={...book,...books.find(b=>bookKey(b)===bookKey(book))};
     const p=progress.get(bookKey(book));
-    const cover=Number.isSafeInteger(Number(book.cover_id)) && Number(book.cover_id)>0;
-    const coverUrl=cover?`https://covers.openlibrary.org/b/id/${Number(book.cover_id)}-M.jpg?default=false`:fallbackCover(book.cover_url);
-    return `<article class="film book-card ${p?'watched':''}" tabindex="0" role="button" aria-label="View details for ${escape(book.title)}" data-book-work="${escape(bookKey(book))}"><div class="poster"><span class="cover-fallback">Cover unavailable</span>${coverUrl?`<img loading="lazy" src="${escape(coverUrl)}" alt="Cover of ${escape(book.title)}">`:''}</div><div class="body"><h3>${book.id||book.open_library_work_id?`<a href="#/books/${escape(bookKey(book).split('/').pop())}">${escape(book.title)}</a>`:escape(book.title)}</h3><p class="meta">${escape(book.authors.join(', '))} · ${escape(book.first_publish_year??'Year unavailable')}</p>${result&&book.search_match?`<p class="meta">${escape(book.search_match)}</p>`:''}${book.work_scope==='collection'?'<p class="meta">Collection</p>':''}<div class="controls"><button type="button" class="star-trigger" data-book-rate="${escape(bookKey(book))}" aria-label="Edit personal rating for ${escape(book.title)}">${p?'★':'☆'} <span class="value">${p?Number(p.rating).toFixed(1)+'/10':'Rate'}</span></button></div></div></article>`;
+    const coverUrl=bookCover(book),authors=window.CultureBookAwards?.find(book)?.authors||book.authors,title=entry?book.title.split(':')[0]:book.title;
+    return `<article class="film book-card ${entry?.winner?'award-winner ':''}${p?'watched':''}" tabindex="0" role="button" aria-label="View details for ${escape(book.title)}" data-book-work="${escape(bookKey(book))}"><div class="poster"><span class="cover-fallback">Cover unavailable</span>${coverUrl?`<img loading="lazy" src="${escape(coverUrl)}" alt="Cover of ${escape(book.title)}">`:''}${entry?`<span class="award-entry-label award-entry-badge">${entry.winner?'★ ':''}${escape(entry.label)}</span>`:''}</div><div class="body"><h3>${book.id||book.open_library_work_id||book.award_key?`<a href="#/books/${escape(bookKey(book).split('/').pop())}">${escape(title)}</a>`:escape(title)}</h3><p class="meta">${escape(authors.join(', '))} · ${escape(book.first_publish_year??'Year unavailable')}</p>${result&&book.search_match?`<p class="meta">${escape(book.search_match)}</p>`:''}${book.work_scope==='collection'?'<p class="meta">Collection</p>':''}${entry?.translator?`<div class="book-award-translator">Translated by ${escape(entry.translator)}</div>`:''}${bookAwardsMarkup(book)}<div class="controls"><button type="button" class="star-trigger" data-book-rate="${escape(bookKey(book))}" aria-label="Edit personal rating for ${escape(book.title)}">${p?'★':'☆'} <span class="value">${p?Number(p.rating).toFixed(1)+'/10':'Rate'}</span></button></div></div></article>`;
   }
   function render() {
     const rated=books.filter(b=>progress.has(bookKey(b))).sort((a,b)=>new Date(progress.get(bookKey(b)).updated_at)-new Date(progress.get(bookKey(a)).updated_at));
     $('book-ratings-grid').innerHTML=rated.slice(0,visible).map(b=>card(b)).join('');
-    $('book-catalogue-grid').innerHTML=books.slice(0,visible).map(b=>card(b)).join('');
+    $('book-catalogue-grid').innerHTML=catalogueBooks().slice(0,visible).map(b=>card(b)).join('');
     $('book-search-results').innerHTML=results.map(b=>card(b,true)).join('');
     $('book-ratings-empty').hidden=!!rated.length;
     $('book-ratings-empty').textContent=user?'No rated books yet. Find a book in Add book to get started.':'Sign in to see your book ratings. You can search for books in Add book.';
-    $('book-catalogue-empty').hidden=!!books.length;
+    $('book-catalogue-empty').hidden=!!catalogueBooks().length;
     message('book-ratings-count',`${rated.length} rated book${rated.length===1?'':'s'}`);
-    message('book-catalogue-count',`${books.length} book${books.length===1?'':'s'} in the catalogue`);
-    $('book-more').hidden=activeTab==='search'||(activeTab==='ratings'?rated.length:books.length)<=visible;
+    message('book-catalogue-count',`${catalogueBooks().length} book${catalogueBooks().length===1?'':'s'} in the catalogue`);
+    awardBrowser?.render();
+    $('book-more').hidden=['search','awards'].includes(activeTab)||(activeTab==='ratings'?rated.length:catalogueBooks().length)<=visible;
   }
   function switchTab(tab) {
     activeTab=tab; visible=48;
+    const awards=tab==='awards';$('books-view').querySelector('.hero h1').textContent=awards?'Literary awards.':'Books worth keeping.';$('books-view').querySelector('.hero p').textContent=awards?'Explore shortlists, winners and the works of Nobel laureates. Your ratings follow each book across the atlas.':'Find your next catalogue entry, rate what you have read, and keep your reading notes in one place.';
+    $('book-sync-status').hidden=awards;$('books-view').querySelector('details.book-import').hidden=awards;
     for (const el of document.querySelectorAll('[data-book-tab]')) {
       el.classList.toggle('active',el.dataset.bookTab===tab);
       el.setAttribute('aria-pressed',String(el.dataset.bookTab===tab));
@@ -201,7 +226,7 @@
     if(saving) return;
     if(!workId.startsWith('goodreads-') && window.CultureRouter?.openBook(workId))return;
     closeBookStars();
-    selected=books.find(b=>bookKey(b)===workId)||results.find(b=>bookKey(b)===workId);
+    selected=findBook(workId);
     if(!selected) return;
     showDetails();
   }
@@ -217,9 +242,9 @@
     $('book-format').value=p?.reading_format||'';
     $('book-notes').value=p?.notes||'';
     $('book-detail-personal').innerHTML=`<h3>Your rating</h3><p class="detail-rating">${p?'★ '+Number(p.rating).toFixed(1)+'/10':'Not rated yet'}</p><p class="meta">Reading format: ${escape(formats[p?.reading_format]||formats.unknown)}</p><h3>Your notes</h3><p class="detail-notes">${escape(p?.notes||'No notes yet.')}</p>`;
-    const cover=selected.cover_id?`https://covers.openlibrary.org/b/id/${Number(selected.cover_id)}-L.jpg?default=false`:fallbackCover(selected.cover_url);
+    const cover=bookCover(selected,'L');
     const titleNode=$('book-selected-title'),authorNode=$('book-selected-author');
-    $('book-detail-summary').innerHTML=`<div class="film-detail-layout"><div>${cover?`<img class="film-detail-poster" src="${escape(cover)}" alt="Cover of ${escape(selected.title)}">`:'<div class="detail-poster-empty">Cover unavailable</div>'}</div><div><h3>Synopsis</h3><p id="book-synopsis">${escape(descriptions.get(workId)||selected.description||'Synopsis unavailable.')}</p><h3>Awards</h3><p class="meta">Book awards will be added soon.</p><h3>Website ratings & links</h3>${goodreadsMarkup(selected)}${selected.open_library_work_id?`<p class="meta"><a href="https://openlibrary.org${escape(selected.open_library_work_id)}" target="_blank" rel="noopener noreferrer">Open Library ↗</a></p>`:''}<h3>Critics’ reviews</h3><p class="meta">No verified critic reviews yet.</p></div></div>`;
+    $('book-detail-summary').innerHTML=`<div class="film-detail-layout"><div>${cover?`<img class="film-detail-poster" src="${escape(cover)}" alt="Cover of ${escape(selected.title)}">`:'<div class="detail-poster-empty">Cover unavailable</div>'}</div><div><h3>Synopsis</h3><p id="book-synopsis">${escape(descriptions.get(workId)||selected.description||'Synopsis unavailable.')}</p><h3>Awards</h3>${bookAwardsMarkup(selected)||'<p class="meta">No recorded awards in the loaded editions.</p>'}<h3>Website ratings & links</h3>${(window.CultureBookAwards?.find(selected)?.sources||[]).slice(0,1).map(url=>`<p class="meta"><a href="${escape(url)}" target="_blank" rel="noopener noreferrer">Award book information ↗</a></p>`).join('')}${goodreadsMarkup(selected)}${selected.open_library_work_id?`<p class="meta"><a href="https://openlibrary.org${escape(selected.open_library_work_id)}" target="_blank" rel="noopener noreferrer">Open Library ↗</a></p>`:''}<h3>Critics’ reviews</h3><p class="meta">No verified critic reviews yet.</p></div></div>`;
     authorNode.textContent=selected.authors.join(', ')+' · '+(selected.first_publish_year??'Year unavailable');
     $('book-detail-summary').querySelector('.film-detail-layout>div:last-child').prepend(titleNode,authorNode);
     $('book-reading-history').innerHTML=historyFor(selected).length?'<h3>Reading history</h3><p class="meta">Imported readings are preserved when you edit your current rating.</p><ul>'+historyFor(selected).map(r=>`<li>${escape(readingDate(r))} · ${escape(r.rating)}/10 · ${escape(formats[r.reading_format])}${r.notes?`<p class="book-notes">${escape(r.notes)}</p>`:''}</li>`).join('')+'</ul>':'';
@@ -308,7 +333,7 @@
     if(!client) { loading=false;message('book-sync-status','Cloud connection is unavailable. Reload the page to try again.');return; }
     message('book-sync-status','Loading books…');
     try {
-      const [catalogue,ratings,history]=await Promise.all([readAll('books','id,open_library_work_id,title,authors,first_publish_year,cover_id,work_scope,cover_url,goodreads_id,goodreads_rating,goodreads_ratings_count,goodreads_observed_on,goodreads_rating_source,goodreads_source_url'),user?readAll('book_progress','book_id,rating,reading_format,notes,updated_at',user.id):Promise.resolve([]),user?readAll('book_readings','book_id,source_key,rating,reading_format,notes,read_date,read_date_precision,read_year,read_year_end,started_date',user.id):Promise.resolve([])]);
+      const [catalogue,ratings,history]=await Promise.all([readAll('books','id,source_key,open_library_work_id,title,authors,first_publish_year,cover_id,work_scope,cover_url,goodreads_id,goodreads_rating,goodreads_ratings_count,goodreads_observed_on,goodreads_rating_source,goodreads_source_url'),user?readAll('book_progress','book_id,rating,reading_format,notes,updated_at',user.id):Promise.resolve([]),user?readAll('book_readings','book_id,source_key,rating,reading_format,notes,read_date,read_date_precision,read_year,read_year_end,started_date',user.id):Promise.resolve([])]);
       if(version!==generation) return;
       books=catalogue;readings=history;
       const byId=new Map(books.map(b=>[b.id,bookKey(b)]));
@@ -327,6 +352,7 @@
     const rating=Number($('book-rating').value),format=$('book-format').value,notes=$('book-notes').value;
     if(!validRating(rating)||!Object.hasOwn(formats,format)||notes.length>10000) { message('book-save-status','Choose a rating and reading format, with notes up to 10,000 characters.');return; }
     const version=generation,book=selected;
+    if(!book.id&&!book.open_library_work_id&&!book.goodreads_id){message('book-save-status','This book’s catalogue registration is not available yet. Refresh after the catalogue update; your form has been kept.');return;}
     closeBookStars();saving=true;
     $('book-detail-edit').disabled=true;
     for(const el of $('book-rating-form').elements) el.disabled=true;
@@ -410,6 +436,7 @@
   }
   function init(supabaseClient) {
     client=supabaseClient;
+    if(window.CultureBookAwards){awardBrowser=window.CultureBookAwards.create({renderCard:(ref,entry)=>{const work=window.CultureBookAwards.books().find(b=>b.key===ref.id);return work?card(awardBook(work),false,entry):'';}});awardBrowser.configure();awardBrowser.configureCategories();}
     // Account UI must remain reachable while the Films area is hidden.
     document.body.append($('account'));
     document.body.append($('book-editor'));
@@ -459,7 +486,7 @@
     render();
   }
   window.CultureBooks={init,setSession,normaliseBook,validRating,rankBooks,
-    route:{switchTab,closeEditor,choose,ensureWork,needsHydration:()=>!!(selected&&!editorHydrated&&!loading),has:id=>books.some(b=>bookKey(b)===id)||results.some(b=>bookKey(b)===id),title:()=>selected?.title,
-      getVisible:()=>visible,setVisible:n=>{visible=n;render();},search:()=>search({preventDefault(){}})}
+    route:{switchTab,closeEditor,choose,ensureWork,needsHydration:()=>!!(selected&&!editorHydrated&&!loading),has:id=>!!findBook(id),title:()=>selected?.title,
+      awardCategories:()=>awardBrowser?.configureCategories(),renderAwards:()=>awardBrowser?.render(),getVisible:()=>visible,setVisible:n=>{visible=n;render();},search:()=>search({preventDefault(){}})}
   };
 })();

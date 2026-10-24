@@ -1,0 +1,41 @@
+name: Book awards browser preview
+on:
+  push:
+    branches: [feat/book-awards-2026]
+    paths: [index.html, books.js, routes.js, awards.js, awards.css, book-awards.js, book-awards-2026.js, scripts/preview-book-awards.mjs, .github/workflows/book-awards-preview.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: book-awards-browser-preview
+  cancel-in-progress: false
+jobs:
+  preview:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci --ignore-scripts
+      - run: npm install --no-save --package-lock=false playwright@1.58.2
+      - run: npx playwright install chromium
+      - run: node scripts/preview-book-awards.mjs
+      - name: Save signed-out review screenshots
+        if: github.ref_name == 'feat/book-awards-2026'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add docs/previews/book-awards-2026-*.png docs/previews/book-awards-cover-check.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Preview 2026 book awards in desktop and mobile Chromium"
+            git fetch origin "$GITHUB_REF_NAME"
+            git rebase "origin/$GITHUB_REF_NAME"
+            git push origin HEAD:"$GITHUB_REF_NAME"
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: book-awards-browser-preview
+          path: docs/previews/book-awards-*
