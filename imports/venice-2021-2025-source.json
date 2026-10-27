@@ -1,6 +1,3 @@
-Warning: truncated output (original token count: 26717)
-Total output lines: 2821
-
 {
   "scope": "Venezia Competition and feature-length Orizzonti; official jury prizes and selected Lion of the Future recipients",
   "events": [
@@ -1317,7 +1314,192 @@ Total output lines: 2821
               "director": "Stefano Sollima",
               "year": 2023,
               "runtime": 127,
-              "source": "https://www.labiennale.org/en/cine…1717 tokens truncated… "https://www.labiennale.org/en/cinema/2023/orizzonti/featherweight"
+              "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/adagio"
+            },
+            {
+              "title": "Kobieta Z...",
+              "aliases": [
+                "Woman of"
+              ],
+              "director": "Ma\u0142gorzata Szumowska, Micha\u0142 Englert",
+              "year": 2023,
+              "runtime": 132,
+              "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/kobieta-z-woman"
+            },
+            {
+              "title": "Holly",
+              "aliases": [],
+              "director": "Fien Troch",
+              "year": 2023,
+              "runtime": 103,
+              "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/holly"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Lion",
+              "raw_text": "GOLDEN LION for Best Film to: POOR THINGS by Yorgos Lanthimos\u00a0 (United kingdom)",
+              "entries": [
+                {
+                  "title": "Poor Things",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "GOLDEN LION for Best Film"
+            },
+            {
+              "name": "Grand Jury Prize",
+              "raw_text": "SILVER LION \u2013 Grand Jury Prize to: Aku Wa Sonzai Shinai (Evil Does Not Exist) by Ryusuke Hamaguchi (Japan)",
+              "entries": [
+                {
+                  "title": "Aku wa sonzai shinai",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "SILVER LION \u2013 Grand Jury Prize"
+            },
+            {
+              "name": "Best Director",
+              "raw_text": "SILVER LION \u2013 Award for Best Director to: MATTEO GARRONE for the film IO CAPITANO (Italy, Belgium)",
+              "entries": [
+                {
+                  "title": "Io Capitano",
+                  "winner": true,
+                  "people": [
+                    "MATTEO GARRONE"
+                  ]
+                }
+              ],
+              "original_name": "SILVER LION \u2013 Award for Best Director"
+            },
+            {
+              "name": "Best Actress",
+              "raw_text": "COPPA VOLPI for Best Actress: Cailee Spaeny in the film PRISCILLA by Sofia Coppola (United States, Italy)",
+              "entries": [
+                {
+                  "title": "Priscilla",
+                  "winner": true,
+                  "people": [
+                    "Cailee Spaeny"
+                  ]
+                }
+              ],
+              "original_name": "COPPA VOLPI for Best Actress"
+            },
+            {
+              "name": "Best Actor",
+              "raw_text": "COPPA VOLPI for Best Actor: Peter Sarsgaard in the film MEMORY by Michel Franco (Mexico, United States)",
+              "entries": [
+                {
+                  "title": "Memory",
+                  "winner": true,
+                  "people": [
+                    "Peter Sarsgaard"
+                  ]
+                }
+              ],
+              "original_name": "COPPA VOLPI for Best Actor"
+            },
+            {
+              "name": "Best Screenplay",
+              "raw_text": "AWARD FOR BEST SCREENPLAY to: Guillermo Calder\u00f3n and PABLO LARRA\u00cdN for the film EL CONDE by Pablo Larra\u00edn \u00a0(Chile)",
+              "entries": [
+                {
+                  "title": "El Conde",
+                  "winner": true,
+                  "people": [
+                    "Guillermo Calder\u00f3n and PABLO LARRA\u00cdN"
+                  ]
+                }
+              ],
+              "original_name": "AWARD FOR BEST SCREENPLAY"
+            },
+            {
+              "name": "Special Jury Prize",
+              "raw_text": "SPECIAL JURY PRIZE to: Zielona granica (Green Border ) by Agnieszka Holland (Poland, Czech Rep., France, Belgium)",
+              "entries": [
+                {
+                  "title": "Zielona granica",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "SPECIAL JURY PRIZE"
+            },
+            {
+              "name": "Marcello Mastroianni Award",
+              "raw_text": "MARCELLO MASTROIANNI AWARD for Best Young Actor to: SEYDOU SARR in the film IO CAPITANO by Matteo Garrone (Italy)",
+              "entries": [
+                {
+                  "title": "Io Capitano",
+                  "winner": true,
+                  "people": [
+                    "SEYDOU SARR"
+                  ]
+                }
+              ],
+              "original_name": "MARCELLO MASTROIANNI AWARD for Best Young Actor"
+            }
+          ]
+        },
+        {
+          "name": "Orizzonti",
+          "source": "https://www.labiennale.org/en/cinema/2023/orizzonti",
+          "awardsSource": "https://www.labiennale.org/en/news/official-awards-80th-venice-film-festival",
+          "selection": [
+            {
+              "title": "A cielo abierto",
+              "aliases": [],
+              "director": "Mariana Arriaga, Santiago Arriaga",
+              "year": 2023,
+              "runtime": 117,
+              "source": "https://www.labiennale.org/en/cinema/2023/orizzonti/cielo-abierto"
+            },
+            {
+              "title": "El para\u00edso",
+              "aliases": [],
+              "director": "Enrico Maria Artale",
+              "year": 2023,
+              "runtime": 106,
+              "source": "https://www.labiennale.org/en/cinema/2023/orizzonti/el-para%C3%ADso"
+            },
+            {
+              "title": "Oura el jbel",
+              "aliases": [
+                "Behind the mountains"
+              ],
+              "director": "Mohamed Ben Attia",
+              "year": 2023,
+              "runtime": 98,
+              "source": "https://www.labiennale.org/en/cinema/2023/orizzonti/oura-el-jbel-behind-mountains"
+            },
+            {
+              "title": "The Red Suitcase",
+              "aliases": [],
+              "director": "Fidel Devkota",
+              "year": 2023,
+              "runtime": 87,
+              "source": "https://www.labiennale.org/en/cinema/2023/orizzonti/red-suitcase"
+            },
+            {
+              "title": "Paradiset brinner",
+              "aliases": [
+                "Paradise is burning"
+              ],
+              "director": "Mika Gustafson",
+              "year": 2023,
+              "runtime": 108,
+              "source": "https://www.labiennale.org/en/cinema/2023/orizzonti/paradiset-brinner-paradise-burning"
+            },
+            {
+              "title": "The Featherweight",
+              "aliases": [],
+              "director": "Robert Kolodny",
+              "year": 2023,
+              "runtime": 99,
+              "source": "https://www.labiennale.org/en/cinema/2023/orizzonti/featherweight"
             },
             {
               "title": "Invelle",

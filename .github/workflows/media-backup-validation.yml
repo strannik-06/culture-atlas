@@ -15,7 +15,7 @@ jobs:
           node-version: '22'
           cache: npm
       - run: npm ci --ignore-scripts
-      - run: node --test tests/media.test.mjs tests/routes.test.mjs tests/details.test.mjs tests/awards.test.mjs tests/oscars-history.test.mjs tests/bafta-history.test.mjs tests/globes-history.test.mjs tests/cannes-history.test.mjs
+      - run: node --test tests/media.test.mjs tests/routes.test.mjs tests/details.test.mjs tests/awards.test.mjs tests/oscars-history.test.mjs tests/bafta-history.test.mjs tests/globes-history.test.mjs tests/cannes-history.test.mjs tests/venice-history.test.mjs
       - name: Ensure canonical identity seed is current
         run: |
           node scripts/seed-media-catalogue.mjs
