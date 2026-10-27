@@ -68,7 +68,7 @@ test('Ceremony performer nominations still repeat and share one rating',async()=
 test('Award URLs preserve older category/winners bookmarks and reject unavailable editions honestly',async()=>{
  const a=await boot('#/films/awards?event=Oscars&year=2025&category=0&result=winners');try{
   assert.equal(a.$('awards-grid').querySelectorAll('.award-category').length,1);assert.equal(a.$('awards-grid').querySelectorAll('article').length,1);
-  a.w.CultureRouter.navigate({section:'films',view:'awards',params:{event:'Cannes',year:'2024'}});assert.match(a.$('awards-grid').textContent,/not been added/);assert.equal(a.$('award-years').querySelectorAll('a').length,2);
+  a.w.CultureRouter.navigate({section:'films',view:'awards',params:{event:'Cannes',year:'2020'}});assert.match(a.$('awards-grid').textContent,/not been added/);assert.equal(a.$('award-years').querySelectorAll('a').length,6);
  }finally{await a.close();}
 });
 
@@ -118,4 +118,8 @@ test('Golden Globes historical editions preserve twelve categories, year navigat
    const main=a.$('awards-grid').querySelector('.award-category');assert.match(main.textContent,/Best Motion Picture/);assert.match(main.querySelector('article').textContent,/Winner/);
   }finally{await a.close();}
  }
+});
+
+test('Historical Cannes editions display two complete sections and aggregate prizes without duplicate cards',async()=>{
+ for(const year of [2021,2022,2023,2024,2025]){const a=await boot(`#/films/awards?event=Cannes&year=${year}`);try{assert.equal(a.$('award-edition-title').textContent,`Cannes ${year}`);assert.equal(a.$('awards-grid').querySelectorAll('.award-category').length,2);assert.equal(a.$('award-years').querySelectorAll('a').length,6);for(const section of a.$('awards-grid').querySelectorAll('.award-category')){const cards=[...section.querySelectorAll('article')];assert.equal(new Set(cards.map(c=>c.dataset.filmId)).size,cards.length);assert.match(cards[0].textContent,/Winner/);}}finally{await a.close();}}
 });
