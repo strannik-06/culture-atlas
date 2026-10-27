@@ -1,0 +1,29 @@
+{
+  "https://www.berlinale.de/en/2021/programme/202103171.html": {
+    "director_aliases": [
+      "Benedek Fliegauf"
+    ],
+    "evidence": [
+      "https://www.filmportal.de/en/person/benedek-fliegauf_370f8e1a6105345de040007f010008cf"
+    ],
+    "reason": "Bence is Benedek Fliegauf’s documented alternate name."
+  },
+  "https://www.berlinale.de/en/2022/programme/202205792.html": {
+    "director_aliases": [
+      "Natalia López"
+    ],
+    "evidence": [
+      "https://www.berlinale.de/en/2022/programme/202205792.html"
+    ],
+    "reason": "Provider shortens Natalia López Gallardo to Natalia López; exact feature title and production match."
+  },
+  "https://www.berlinale.de/en/2024/programme/202402846.html": {
+    "director_aliases": [
+      "Viktor Kossakovsky"
+    ],
+    "evidence": [
+      "https://www.berlinale.de/en/2024/programme/202402846.html"
+    ],
+    "reason": "Victor/Viktor transliteration; exact feature title and director identity."
+  }
+}
