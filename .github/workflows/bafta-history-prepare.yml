@@ -2,7 +2,7 @@ name: Prepare verified 2021–2025 BAFTA catalogue
 on:
   push:
     branches: [feat/bafta-2021-2025]
-    paths: [scripts/prepare-bafta-history.mjs, imports/bafta-2021-2025-source.json, imports/awards-2026-identity-overrides.json, imports/film-metadata-overrides.json, .github/workflows/awards-2026-prepare.yml]
+    paths: [scripts/prepare-bafta-history.mjs, imports/bafta-2021-2025-source.json, imports/awards-2026-identity-overrides.json, imports/film-metadata-overrides.json, .github/workflows/bafta-history-prepare.yml]
   workflow_dispatch:
 permissions:
   contents: write
@@ -30,8 +30,9 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add imports/bafta-2021-2025-catalogue-sync.sql film-catalog.js film-details.js awards-2025.js imports/bafta-2021-2025-audit.json supabase/migrations/20261021_media_catalogue_seed.sql
+          git add film-catalog.js film-details.js awards-2025.js imports/bafta-2021-2025-audit.json supabase/migrations/20261021_media_catalogue_seed.sql
+          if test -f imports/bafta-2021-2025-catalogue-sync.sql; then git add imports/bafta-2021-2025-catalogue-sync.sql; fi
           if ! git diff --cached --quiet; then
-            git commit -m "Verify historical Oscar identities and prepare catalogue"
+            git commit -m "Verify historical BAFTA identities and prepare catalogue"
             git push origin HEAD:"$GITHUB_REF_NAME"
           fi
