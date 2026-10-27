@@ -1,0 +1,2389 @@
+{
+  "scope": "Official Competition and Encounters (2021–2024), Competition and Perspectives (2025); official jury prizes and cross-section official prizes for selected films. Excludes independent juries, other sections and honorary awards.",
+  "events": [
+    {
+      "event": "Berlinale",
+      "year": 2021,
+      "section": "Official Selection",
+      "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2021/o=asc/p=1/rp=200",
+      "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2021/o=desc/p=1/rp=40",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2021/o=asc/p=1/rp=200",
+          "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2021/o=desc/p=1/rp=40",
+          "selection": [
+            {
+              "title": "Albatros",
+              "aliases": [
+                "Drift Away"
+              ],
+              "director": "Xavier Beauvois",
+              "year": 2020,
+              "runtime": 115,
+              "source": "https://www.berlinale.de/en/2021/programme/202102046.html"
+            },
+            {
+              "title": "Babardeală cu bucluc sau porno balamuc",
+              "aliases": [
+                "Bad Luck Banging or Loony Porn"
+              ],
+              "director": "Radu Jude",
+              "year": 2021,
+              "runtime": 106,
+              "source": "https://www.berlinale.de/en/2021/programme/202106025.html"
+            },
+            {
+              "title": "Fabian oder Der Gang vor die Hunde",
+              "aliases": [
+                "Fabian – Going to the Dogs"
+              ],
+              "director": "Dominik Graf",
+              "year": 2021,
+              "runtime": 176,
+              "source": "https://www.berlinale.de/en/2021/programme/202101740.html"
+            },
+            {
+              "title": "Ghasideyeh gave sefid",
+              "aliases": [
+                "Ballad of a White Cow"
+              ],
+              "director": "Behtash Sanaeeha, Maryam Moghaddam",
+              "year": 2020,
+              "runtime": 105,
+              "source": "https://www.berlinale.de/en/2021/programme/202101305.html"
+            },
+            {
+              "title": "Guzen to sozo",
+              "aliases": [
+                "Wheel of Fortune and Fantasy"
+              ],
+              "director": "Ryusuke Hamaguchi",
+              "year": 2021,
+              "runtime": 121,
+              "source": "https://www.berlinale.de/en/2021/programme/202101302.html"
+            },
+            {
+              "title": "Herr Bachmann und seine Klasse",
+              "aliases": [
+                "Mr Bachmann and His Class"
+              ],
+              "director": "Maria Speth",
+              "year": 2021,
+              "runtime": 217,
+              "source": "https://www.berlinale.de/en/2021/programme/202104498.html"
+            },
+            {
+              "title": "Ich bin dein Mensch",
+              "aliases": [
+                "I’m Your Man"
+              ],
+              "director": "Maria Schrader",
+              "year": 2021,
+              "runtime": 105,
+              "source": "https://www.berlinale.de/en/2021/programme/202103036.html"
+            },
+            {
+              "title": "Inteurodeoksyeon",
+              "aliases": [
+                "Introduction"
+              ],
+              "director": "Hong Sangsoo",
+              "year": 2020,
+              "runtime": 66,
+              "source": "https://www.berlinale.de/en/2021/programme/202109213.html"
+            },
+            {
+              "title": "Memory Box",
+              "aliases": [],
+              "director": "Joana Hadjithomas, Khalil Joreige",
+              "year": 2021,
+              "runtime": 100,
+              "source": "https://www.berlinale.de/en/2021/programme/202102306.html"
+            },
+            {
+              "title": "Nebenan",
+              "aliases": [
+                "Next Door"
+              ],
+              "director": "Daniel Brühl",
+              "year": 2021,
+              "runtime": 92,
+              "source": "https://www.berlinale.de/en/2021/programme/202101928.html"
+            },
+            {
+              "title": "Petite Maman",
+              "aliases": [],
+              "director": "Céline Sciamma",
+              "year": 2021,
+              "runtime": 72,
+              "source": "https://www.berlinale.de/en/2021/programme/202111238.html"
+            },
+            {
+              "title": "Ras vkhedavt, rodesac cas vukurebt?",
+              "aliases": [
+                "What Do We See When We Look at the Sky?",
+                "Was sehen wir, wenn wir zum Himmel schauen?"
+              ],
+              "director": "Alexandre Koberidze",
+              "year": 2021,
+              "runtime": 150,
+              "source": "https://www.berlinale.de/en/2021/programme/202105197.html"
+            },
+            {
+              "title": "Rengeteg – mindenhol látlak",
+              "aliases": [
+                "Forest – I See You Everywhere"
+              ],
+              "director": "Bence Fliegauf",
+              "year": 2020,
+              "runtime": 112,
+              "source": "https://www.berlinale.de/en/2021/programme/202103171.html"
+            },
+            {
+              "title": "Természetes fény",
+              "aliases": [
+                "Natural Light"
+              ],
+              "director": "Dénes Nagy",
+              "year": 2020,
+              "runtime": 103,
+              "source": "https://www.berlinale.de/en/2021/programme/202107091.html"
+            },
+            {
+              "title": "Una película de policías",
+              "aliases": [
+                "A Cop Movie"
+              ],
+              "director": "Alonso Ruizpalacios",
+              "year": 2021,
+              "runtime": 107,
+              "source": "https://www.berlinale.de/en/2021/programme/202105725.html"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Bear for Best Film",
+              "entries": [
+                {
+                  "title": "Babardeală cu bucluc sau porno balamuc",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Grand Jury Prize",
+              "entries": [
+                {
+                  "title": "Guzen to sozo",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Jury Prize",
+              "entries": [
+                {
+                  "title": "Herr Bachmann und seine Klasse",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Director",
+              "entries": [
+                {
+                  "title": "Természetes fény",
+                  "winner": true,
+                  "people": [
+                    "Dénes Nagy"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Leading Performance",
+              "entries": [
+                {
+                  "title": "Ich bin dein Mensch",
+                  "winner": true,
+                  "people": [
+                    "Maren Eggert"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Supporting Performance",
+              "entries": [
+                {
+                  "title": "Rengeteg – mindenhol látlak",
+                  "winner": true,
+                  "people": [
+                    "Lilla Kizlinger"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Screenplay",
+              "entries": [
+                {
+                  "title": "Inteurodeoksyeon",
+                  "winner": true,
+                  "people": [
+                    "Hong Sangsoo"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Outstanding Artistic Contribution",
+              "entries": [
+                {
+                  "title": "Una película de policías",
+                  "winner": true,
+                  "people": [
+                    "Yibrán Asuad"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Encounters",
+          "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2021/o=asc/p=1/rp=200",
+          "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2021/o=desc/p=1/rp=40",
+          "selection": [
+            {
+              "title": "As I Want",
+              "aliases": [],
+              "director": "Samaher Alqadi",
+              "year": 2021,
+              "runtime": 88,
+              "source": "https://www.berlinale.de/en/2021/programme/202107276.html"
+            },
+            {
+              "title": "Azor",
+              "aliases": [],
+              "director": "Andreas Fontana",
+              "year": 2021,
+              "runtime": 100,
+              "source": "https://www.berlinale.de/en/2021/programme/202102062.html"
+            },
+            {
+              "title": "Blutsauger",
+              "aliases": [
+                "Bloodsuckers"
+              ],
+              "director": "Julian Radlmaier",
+              "year": 2021,
+              "runtime": 127,
+              "source": "https://www.berlinale.de/en/2021/programme/202103394.html"
+            },
+            {
+              "title": "Das Mädchen und die Spinne",
+              "aliases": [
+                "The Girl and the Spider"
+              ],
+              "director": "Ramon Zürcher, Silvan Zürcher",
+              "year": 2021,
+              "runtime": 98,
+              "source": "https://www.berlinale.de/en/2021/programme/202111284.html"
+            },
+            {
+              "title": "Hygiène sociale",
+              "aliases": [
+                "Social Hygiene",
+                "Sozialhygiene"
+              ],
+              "director": "Denis Côté",
+              "year": 2021,
+              "runtime": 75,
+              "source": "https://www.berlinale.de/en/2021/programme/202102854.html"
+            },
+            {
+              "title": "Mantagheye payani",
+              "aliases": [
+                "District Terminal"
+              ],
+              "director": "Bardia Yadegari, Ehsan Mirhosseini",
+              "year": 2021,
+              "runtime": 117,
+              "source": "https://www.berlinale.de/en/2021/programme/202102812.html"
+            },
+            {
+              "title": "Moon, 66 Questions",
+              "aliases": [],
+              "director": "Jacqueline Lentzou",
+              "year": 2021,
+              "runtime": 108,
+              "source": "https://www.berlinale.de/en/2021/programme/202104755.html"
+            },
+            {
+              "title": "Nous",
+              "aliases": [
+                "We"
+              ],
+              "director": "Alice Diop",
+              "year": 2020,
+              "runtime": 115,
+              "source": "https://www.berlinale.de/en/2021/programme/202101447.html"
+            },
+            {
+              "title": "Rock Bottom Riser",
+              "aliases": [],
+              "director": "Fern Silva",
+              "year": 2021,
+              "runtime": 70,
+              "source": "https://www.berlinale.de/en/2021/programme/202101397.html"
+            },
+            {
+              "title": "The Beta Test",
+              "aliases": [
+                "Der Betatest"
+              ],
+              "director": "Jim Cummings, PJ McCabe",
+              "year": 2021,
+              "runtime": 91,
+              "source": "https://www.berlinale.de/en/2021/programme/202103532.html"
+            },
+            {
+              "title": "The Scary of Sixty-First",
+              "aliases": [],
+              "director": "Dasha Nekrasova",
+              "year": 2020,
+              "runtime": 81,
+              "source": "https://www.berlinale.de/en/2021/programme/202105883.html"
+            },
+            {
+              "title": "Vị",
+              "aliases": [
+                "Taste"
+              ],
+              "director": "Lê Bảo",
+              "year": 2021,
+              "runtime": 97,
+              "source": "https://www.berlinale.de/en/2021/programme/202111384.html"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Best Film",
+              "entries": [
+                {
+                  "title": "Nous",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "GWFF Best First Feature",
+              "entries": [
+                {
+                  "title": "The Scary of Sixty-First",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "GWFF Best First Feature · Special Mention",
+              "entries": [
+                {
+                  "title": "Mantagheye payani",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Berlinale Documentary Award",
+              "entries": [
+                {
+                  "title": "Nous",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Special Jury Award",
+              "entries": [
+                {
+                  "title": "Vị",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Best Director (ex aequo)",
+              "entries": [
+                {
+                  "title": "Das Mädchen und die Spinne",
+                  "winner": true,
+                  "people": [
+                    "Ramon & Silvan Zürcher"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Best Director (ex aequo)",
+              "entries": [
+                {
+                  "title": "Hygiène sociale",
+                  "winner": true,
+                  "people": [
+                    "Denis Côté"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Special Mention",
+              "entries": [
+                {
+                  "title": "Rock Bottom Riser",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "unmatched_awards": []
+    },
+    {
+      "event": "Berlinale",
+      "year": 2022,
+      "section": "Official Selection",
+      "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2022/o=asc/p=1/rp=200",
+      "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2022/o=desc/p=1/rp=40",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2022/o=asc/p=1/rp=200",
+          "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2022/o=desc/p=1/rp=40",
+          "selection": [
+            {
+              "title": "A E I O U – Das schnelle Alphabet der Liebe",
+              "aliases": [
+                "A E I O U – A Quick Alphabet of Love"
+              ],
+              "director": "Nicolette Krebitz",
+              "year": 2022,
+              "runtime": 104,
+              "source": "https://www.berlinale.de/en/2022/programme/202200891.html"
+            },
+            {
+              "title": "Alcarràs",
+              "aliases": [],
+              "director": "Carla Simón",
+              "year": 2022,
+              "runtime": 120,
+              "source": "https://www.berlinale.de/en/2022/programme/202209519.html"
+            },
+            {
+              "title": "Avec amour et acharnement",
+              "aliases": [
+                "Both Sides of the Blade"
+              ],
+              "director": "Claire Denis",
+              "year": 2021,
+              "runtime": 116,
+              "source": "https://www.berlinale.de/en/2022/programme/202213003.html"
+            },
+            {
+              "title": "Call Jane",
+              "aliases": [],
+              "director": "Phyllis Nagy",
+              "year": 2022,
+              "runtime": 121,
+              "source": "https://www.berlinale.de/en/2022/programme/202205026.html"
+            },
+            {
+              "title": "Drii Winter",
+              "aliases": [
+                "A Piece of Sky"
+              ],
+              "director": "Michael Koch",
+              "year": 2022,
+              "runtime": 136,
+              "source": "https://www.berlinale.de/en/2022/programme/202206230.html"
+            },
+            {
+              "title": "Everything Will Be Ok",
+              "aliases": [],
+              "director": "Rithy Panh",
+              "year": 2021,
+              "runtime": 98,
+              "source": "https://www.berlinale.de/en/2022/programme/202214323.html"
+            },
+            {
+              "title": "La ligne",
+              "aliases": [
+                "The Line",
+                "Die Linie"
+              ],
+              "director": "Ursula Meier",
+              "year": 2022,
+              "runtime": 101,
+              "source": "https://www.berlinale.de/en/2022/programme/202208215.html"
+            },
+            {
+              "title": "Leonora addio",
+              "aliases": [],
+              "director": "Paolo Taviani",
+              "year": 2021,
+              "runtime": 90,
+              "source": "https://www.berlinale.de/en/2022/programme/202203886.html"
+            },
+            {
+              "title": "Les passagers de la nuit",
+              "aliases": [
+                "The Passengers of the Night"
+              ],
+              "director": "Mikhaël Hers",
+              "year": 2022,
+              "runtime": 111,
+              "source": "https://www.berlinale.de/en/2022/programme/202206403.html"
+            },
+            {
+              "title": "Nana",
+              "aliases": [
+                "Before, Now & Then"
+              ],
+              "director": "Kamila Andini",
+              "year": 2022,
+              "runtime": 103,
+              "source": "https://www.berlinale.de/en/2022/programme/202208899.html"
+            },
+            {
+              "title": "Peter von Kant",
+              "aliases": [],
+              "director": "François Ozon",
+              "year": 2021,
+              "runtime": 84,
+              "source": "https://www.berlinale.de/en/2022/programme/202203414.html"
+            },
+            {
+              "title": "Rabiye Kurnaz gegen George W. Bush",
+              "aliases": [
+                "Rabiye Kurnaz vs. George W. Bush"
+              ],
+              "director": "Andreas Dresen",
+              "year": 2022,
+              "runtime": 119,
+              "source": "https://www.berlinale.de/en/2022/programme/202206698.html"
+            },
+            {
+              "title": "Rimini",
+              "aliases": [],
+              "director": "Ulrich Seidl",
+              "year": 2022,
+              "runtime": 114,
+              "source": "https://www.berlinale.de/en/2022/programme/202208973.html"
+            },
+            {
+              "title": "Robe of Gems",
+              "aliases": [],
+              "director": "Natalia López Gallardo",
+              "year": 2022,
+              "runtime": 118,
+              "source": "https://www.berlinale.de/en/2022/programme/202205792.html"
+            },
+            {
+              "title": "So-seol-ga-ui yeong-hwa",
+              "aliases": [
+                "The Novelist’s Film"
+              ],
+              "director": "Hong Sangsoo",
+              "year": 2021,
+              "runtime": 92,
+              "source": "https://www.berlinale.de/en/2022/programme/202214277.html"
+            },
+            {
+              "title": "Un año, una noche",
+              "aliases": [
+                "One Year, One Night",
+                "Ein Jahr, eine Nacht"
+              ],
+              "director": "Isaki Lacuesta",
+              "year": 2021,
+              "runtime": 130,
+              "source": "https://www.berlinale.de/en/2022/programme/202208186.html"
+            },
+            {
+              "title": "Un été comme ça",
+              "aliases": [
+                "That Kind of Summer"
+              ],
+              "director": "Denis Côté",
+              "year": 2022,
+              "runtime": 137,
+              "source": "https://www.berlinale.de/en/2022/programme/202214700.html"
+            },
+            {
+              "title": "Yin Ru Chen Yan",
+              "aliases": [
+                "Return to Dust"
+              ],
+              "director": "Li Ruijun",
+              "year": 2022,
+              "runtime": 131,
+              "source": "https://www.berlinale.de/en/2022/programme/202201933.html"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Bear for Best Film",
+              "entries": [
+                {
+                  "title": "Alcarràs",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Grand Jury Prize",
+              "entries": [
+                {
+                  "title": "So-seol-ga-ui yeong-hwa",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Jury Prize",
+              "entries": [
+                {
+                  "title": "Robe of Gems",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Director",
+              "entries": [
+                {
+                  "title": "Avec amour et acharnement",
+                  "winner": true,
+                  "people": [
+                    "Claire Denis"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Leading Performance",
+              "entries": [
+                {
+                  "title": "Rabiye Kurnaz gegen George W. Bush",
+                  "winner": true,
+                  "people": [
+                    "Meltem Kaptan"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Supporting Performance",
+              "entries": [
+                {
+                  "title": "Nana",
+                  "winner": true,
+                  "people": [
+                    "Laura Basuki"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Screenplay",
+              "entries": [
+                {
+                  "title": "Rabiye Kurnaz gegen George W. Bush",
+                  "winner": true,
+                  "people": [
+                    "Laila Stieler"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Outstanding Artistic Contribution",
+              "entries": [
+                {
+                  "title": "Everything Will Be Ok",
+                  "winner": true,
+                  "people": [
+                    "Rithy Panh",
+                    "Sarit Mang"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Special Mention",
+              "entries": [
+                {
+                  "title": "Drii Winter",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Encounters",
+          "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2022/o=asc/p=1/rp=200",
+          "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2022/o=desc/p=1/rp=40",
+          "selection": [
+            {
+              "title": "A Little Love Package",
+              "aliases": [],
+              "director": "Gastón Solnicki",
+              "year": 2022,
+              "runtime": 81,
+              "source": "https://www.berlinale.de/en/2022/programme/202202802.html"
+            },
+            {
+              "title": "À vendredi, Robinson",
+              "aliases": [
+                "See You Friday, Robinson",
+                "Bis Freitag, Robinson"
+              ],
+              "director": "Mitra Farahani",
+              "year": 2022,
+              "runtime": 96,
+              "source": "https://www.berlinale.de/en/2022/programme/202213696.html"
+            },
+            {
+              "title": "Axiom",
+              "aliases": [],
+              "director": "Jöns Jönsson",
+              "year": 2022,
+              "runtime": 108,
+              "source": "https://www.berlinale.de/en/2022/programme/202214525.html"
+            },
+            {
+              "title": "Brat vo vsyom",
+              "aliases": [
+                "Brother in Every Inch"
+              ],
+              "director": "Alexander Zolotukhin",
+              "year": 2022,
+              "runtime": 80,
+              "source": "https://www.berlinale.de/en/2022/programme/202214052.html"
+            },
+            {
+              "title": "Coma",
+              "aliases": [],
+              "director": "Bertrand Bonello",
+              "year": 2022,
+              "runtime": 80,
+              "source": "https://www.berlinale.de/en/2022/programme/202210281.html"
+            },
+            {
+              "title": "Father’s Day",
+              "aliases": [],
+              "director": "Kivu Ruhorahoza",
+              "year": 2022,
+              "runtime": 111,
+              "source": "https://www.berlinale.de/en/2022/programme/202204117.html"
+            },
+            {
+              "title": "Flux Gourmet",
+              "aliases": [],
+              "director": "Peter Strickland",
+              "year": 2022,
+              "runtime": 111,
+              "source": "https://www.berlinale.de/en/2022/programme/202201530.html"
+            },
+            {
+              "title": "I Poli ke i Poli",
+              "aliases": [
+                "The City and the City"
+              ],
+              "director": "Christos Passalis, Syllas Tzoumerkas",
+              "year": 2022,
+              "runtime": 87,
+              "source": "https://www.berlinale.de/en/2022/programme/202202534.html"
+            },
+            {
+              "title": "Journal d’Amérique",
+              "aliases": [
+                "American Journal"
+              ],
+              "director": "Arnaud des Pallières",
+              "year": 2022,
+              "runtime": 112,
+              "source": "https://www.berlinale.de/en/2022/programme/202203841.html"
+            },
+            {
+              "title": "Keiko, me wo sumasete",
+              "aliases": [
+                "Small, Slow But Steady"
+              ],
+              "director": "Shô Miyake",
+              "year": 2022,
+              "runtime": 99,
+              "source": "https://www.berlinale.de/en/2022/programme/202208770.html"
+            },
+            {
+              "title": "MUTZENBACHER",
+              "aliases": [],
+              "director": "Ruth Beckermann",
+              "year": 2022,
+              "runtime": 100,
+              "source": "https://www.berlinale.de/en/2022/programme/202206941.html"
+            },
+            {
+              "title": "Queens of the Qing Dynasty",
+              "aliases": [],
+              "director": "Ashley McKenzie",
+              "year": 2022,
+              "runtime": 122,
+              "source": "https://www.berlinale.de/en/2022/programme/202201272.html"
+            },
+            {
+              "title": "Sonne",
+              "aliases": [],
+              "director": "Kurdwin Ayub",
+              "year": 2022,
+              "runtime": 87,
+              "source": "https://www.berlinale.de/en/2022/programme/202202785.html"
+            },
+            {
+              "title": "Unrueh",
+              "aliases": [
+                "Unrest"
+              ],
+              "director": "Cyril Schäublin",
+              "year": 2022,
+              "runtime": 93,
+              "source": "https://www.berlinale.de/en/2022/programme/202205160.html"
+            },
+            {
+              "title": "Zum Tod meiner Mutter",
+              "aliases": [
+                "The Death of My Mother"
+              ],
+              "director": "Jessica Krummacher",
+              "year": 2022,
+              "runtime": 135,
+              "source": "https://www.berlinale.de/en/2022/programme/202201911.html"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Best Film",
+              "entries": [
+                {
+                  "title": "MUTZENBACHER",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "GWFF Best First Feature",
+              "entries": [
+                {
+                  "title": "Sonne",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Best Director",
+              "entries": [
+                {
+                  "title": "Unrueh",
+                  "winner": true,
+                  "people": [
+                    "Cyril Schäublin"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Special Jury Award",
+              "entries": [
+                {
+                  "title": "À vendredi, Robinson",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "unmatched_awards": []
+    },
+    {
+      "event": "Berlinale",
+      "year": 2023,
+      "section": "Official Selection",
+      "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2023/o=asc/p=1/rp=200",
+      "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2023/o=desc/p=1/rp=40",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2023/o=asc/p=1/rp=200",
+          "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2023/o=desc/p=1/rp=40",
+          "selection": [
+            {
+              "title": "20.000 especies de abejas",
+              "aliases": [
+                "20,000 Species of Bees"
+              ],
+              "director": "Estibaliz Urresola Solaguren",
+              "year": 2023,
+              "runtime": 129,
+              "source": "https://www.berlinale.de/en/2023/programme/202307206.html"
+            },
+            {
+              "title": "Art College 1994",
+              "aliases": [],
+              "director": "Liu Jian",
+              "year": 2023,
+              "runtime": 118,
+              "source": "https://www.berlinale.de/en/2023/programme/202314680.html"
+            },
+            {
+              "title": "Bai Ta Zhi Guang",
+              "aliases": [
+                "The Shadowless Tower",
+                "Der schattenlose Turm"
+              ],
+              "director": "Zhang Lu",
+              "year": 2022,
+              "runtime": 144,
+              "source": "https://www.berlinale.de/en/2023/programme/202303739.html"
+            },
+            {
+              "title": "Bis ans Ende der Nacht",
+              "aliases": [
+                "Till the End of the Night"
+              ],
+              "director": "Christoph Hochhäusler",
+              "year": 2023,
+              "runtime": 123,
+              "source": "https://www.berlinale.de/en/2023/programme/202309393.html"
+            },
+            {
+              "title": "BlackBerry",
+              "aliases": [],
+              "director": "Matt Johnson",
+              "year": 2023,
+              "runtime": 121,
+              "source": "https://www.berlinale.de/en/2023/programme/202310362.html"
+            },
+            {
+              "title": "Disco Boy",
+              "aliases": [],
+              "director": "Giacomo Abbruzzese",
+              "year": 2023,
+              "runtime": 91,
+              "source": "https://www.berlinale.de/en/2023/programme/202302125.html"
+            },
+            {
+              "title": "Ingeborg Bachmann – Reise in die Wüste",
+              "aliases": [
+                "Ingeborg Bachmann – Journey into the Desert"
+              ],
+              "director": "Margarethe von Trotta",
+              "year": 2023,
+              "runtime": 110,
+              "source": "https://www.berlinale.de/en/2023/programme/202309377.html"
+            },
+            {
+              "title": "Irgendwann werden wir uns alles erzählen",
+              "aliases": [
+                "Someday We’ll Tell Each Other Everything"
+              ],
+              "director": "Emily Atef",
+              "year": 2023,
+              "runtime": 129,
+              "source": "https://www.berlinale.de/en/2023/programme/202309628.html"
+            },
+            {
+              "title": "Le grand chariot",
+              "aliases": [
+                "The Plough"
+              ],
+              "director": "Philippe Garrel",
+              "year": 2022,
+              "runtime": 95,
+              "source": "https://www.berlinale.de/en/2023/programme/202312647.html"
+            },
+            {
+              "title": "Limbo",
+              "aliases": [],
+              "director": "Ivan Sen",
+              "year": 2023,
+              "runtime": 108,
+              "source": "https://www.berlinale.de/en/2023/programme/202304831.html"
+            },
+            {
+              "title": "Mal Viver",
+              "aliases": [
+                "Bad Living"
+              ],
+              "director": "João Canijo",
+              "year": 2023,
+              "runtime": 127,
+              "source": "https://www.berlinale.de/en/2023/programme/202309165.html"
+            },
+            {
+              "title": "Manodrome",
+              "aliases": [],
+              "director": "John Trengove",
+              "year": 2023,
+              "runtime": 95,
+              "source": "https://www.berlinale.de/en/2023/programme/202310730.html"
+            },
+            {
+              "title": "Music",
+              "aliases": [],
+              "director": "Angela Schanelec",
+              "year": 2023,
+              "runtime": 108,
+              "source": "https://www.berlinale.de/en/2023/programme/202313655.html"
+            },
+            {
+              "title": "Past Lives",
+              "aliases": [],
+              "director": "Celine Song",
+              "year": 2022,
+              "runtime": 105,
+              "source": "https://www.berlinale.de/en/2023/programme/202313871.html"
+            },
+            {
+              "title": "Roter Himmel",
+              "aliases": [
+                "Afire"
+              ],
+              "director": "Christian Petzold",
+              "year": 2023,
+              "runtime": 103,
+              "source": "https://www.berlinale.de/en/2023/programme/202309168.html"
+            },
+            {
+              "title": "Sur l’Adamant",
+              "aliases": [
+                "On the Adamant"
+              ],
+              "director": "Nicolas Philibert",
+              "year": 2022,
+              "runtime": 109,
+              "source": "https://www.berlinale.de/en/2023/programme/202305594.html"
+            },
+            {
+              "title": "Suzume",
+              "aliases": [],
+              "director": "Makoto Shinkai",
+              "year": 2022,
+              "runtime": 122,
+              "source": "https://www.berlinale.de/en/2023/programme/202307156.html"
+            },
+            {
+              "title": "The Survival of Kindness",
+              "aliases": [
+                "Das Überleben der Freundlichkeit"
+              ],
+              "director": "Rolf de Heer",
+              "year": 2022,
+              "runtime": 96,
+              "source": "https://www.berlinale.de/en/2023/programme/202302045.html"
+            },
+            {
+              "title": "Tótem",
+              "aliases": [],
+              "director": "Lila Avilés",
+              "year": 2023,
+              "runtime": 95,
+              "source": "https://www.berlinale.de/en/2023/programme/202307056.html"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Bear for Best Film",
+              "entries": [
+                {
+                  "title": "Sur l’Adamant",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Grand Jury Prize",
+              "entries": [
+                {
+                  "title": "Roter Himmel",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Jury Prize",
+              "entries": [
+                {
+                  "title": "Mal Viver",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Director",
+              "entries": [
+                {
+                  "title": "Le grand chariot",
+                  "winner": true,
+                  "people": [
+                    "Philippe Garrel"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Leading Performance",
+              "entries": [
+                {
+                  "title": "20.000 especies de abejas",
+                  "winner": true,
+                  "people": [
+                    "Sofía Otero"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Supporting Performance",
+              "entries": [
+                {
+                  "title": "Bis ans Ende der Nacht",
+                  "winner": true,
+                  "people": [
+                    "Thea Ehre"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Screenplay",
+              "entries": [
+                {
+                  "title": "Music",
+                  "winner": true,
+                  "people": [
+                    "Angela Schanelec"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Outstanding Artistic Contribution",
+              "entries": [
+                {
+                  "title": "Disco Boy",
+                  "winner": true,
+                  "people": [
+                    "Hélène Louvart"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Encounters",
+          "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2023/o=asc/p=1/rp=200",
+          "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2023/o=desc/p=1/rp=40",
+          "selection": [
+            {
+              "title": "Adentro mío estoy bailando",
+              "aliases": [
+                "The Klezmer Project"
+              ],
+              "director": "Leandro Koch, Paloma Schachmann",
+              "year": 2023,
+              "runtime": 117,
+              "source": "https://www.berlinale.de/en/2023/programme/202308143.html"
+            },
+            {
+              "title": "El eco",
+              "aliases": [
+                "The Echo",
+                "Das Echo"
+              ],
+              "director": "Tatiana Huezo",
+              "year": 2023,
+              "runtime": 102,
+              "source": "https://www.berlinale.de/en/2023/programme/202306357.html"
+            },
+            {
+              "title": "Here",
+              "aliases": [],
+              "director": "Bas Devos",
+              "year": 2023,
+              "runtime": 82,
+              "source": "https://www.berlinale.de/en/2023/programme/202314178.html"
+            },
+            {
+              "title": "Im toten Winkel",
+              "aliases": [
+                "In the Blind Spot"
+              ],
+              "director": "Ayşe Polat",
+              "year": 2023,
+              "runtime": 118,
+              "source": "https://www.berlinale.de/en/2023/programme/202304749.html"
+            },
+            {
+              "title": "Kletka ishet ptitsu",
+              "aliases": [
+                "The Cage Is Looking for a Bird"
+              ],
+              "director": "Malika Musaeva",
+              "year": 2023,
+              "runtime": 87,
+              "source": "https://www.berlinale.de/en/2023/programme/202305384.html"
+            },
+            {
+              "title": "Le mura di Bergamo",
+              "aliases": [
+                "The Walls of Bergamo"
+              ],
+              "director": "Stefano Savona",
+              "year": 2023,
+              "runtime": 137,
+              "source": "https://www.berlinale.de/en/2023/programme/202314375.html"
+            },
+            {
+              "title": "Mon pire ennemi",
+              "aliases": [
+                "My Worst Enemy"
+              ],
+              "director": "Mehran Tamadon",
+              "year": 2023,
+              "runtime": 82,
+              "source": "https://www.berlinale.de/en/2023/programme/202309305.html"
+            },
+            {
+              "title": "Műanyag égbolt",
+              "aliases": [
+                "White Plastic Sky"
+              ],
+              "director": "Tibor Bánóczki, Sarolta Szabó",
+              "year": 2023,
+              "runtime": 111,
+              "source": "https://www.berlinale.de/en/2023/programme/202308199.html"
+            },
+            {
+              "title": "mul-an-e-seo",
+              "aliases": [
+                "in water"
+              ],
+              "director": "Hong Sangsoo",
+              "year": 2023,
+              "runtime": 61,
+              "source": "https://www.berlinale.de/en/2023/programme/202313780.html"
+            },
+            {
+              "title": "Mummola",
+              "aliases": [
+                "Family Time"
+              ],
+              "director": "Tia Kouvo",
+              "year": 2023,
+              "runtime": 114,
+              "source": "https://www.berlinale.de/en/2023/programme/202308725.html"
+            },
+            {
+              "title": "Orlando, ma biographie politique",
+              "aliases": [
+                "Orlando, My Political Biography"
+              ],
+              "director": "Paul B. Preciado",
+              "year": 2023,
+              "runtime": 98,
+              "source": "https://www.berlinale.de/en/2023/programme/202314130.html"
+            },
+            {
+              "title": "Samsara",
+              "aliases": [],
+              "director": "Lois Patiño",
+              "year": 2023,
+              "runtime": 113,
+              "source": "https://www.berlinale.de/en/2023/programme/202306060.html"
+            },
+            {
+              "title": "Shidniy front",
+              "aliases": [
+                "Eastern Front"
+              ],
+              "director": "Vitaly Mansky, Yevhen Titarenko",
+              "year": 2023,
+              "runtime": 98,
+              "source": "https://www.berlinale.de/en/2023/programme/202306650.html"
+            },
+            {
+              "title": "The Adults",
+              "aliases": [],
+              "director": "Dustin Guy Defa",
+              "year": 2023,
+              "runtime": 91,
+              "source": "https://www.berlinale.de/en/2023/programme/202302847.html"
+            },
+            {
+              "title": "Viver Mal",
+              "aliases": [
+                "Living Bad"
+              ],
+              "director": "João Canijo",
+              "year": 2023,
+              "runtime": 125,
+              "source": "https://www.berlinale.de/en/2023/programme/202309202.html"
+            },
+            {
+              "title": "Xue yun",
+              "aliases": [
+                "Absence"
+              ],
+              "director": "Wu Lang",
+              "year": 2023,
+              "runtime": 100,
+              "source": "https://www.berlinale.de/en/2023/programme/202306367.html"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Award for Best Film",
+              "entries": [
+                {
+                  "title": "Here",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "GWFF Best First Feature Award 2023",
+              "entries": [
+                {
+                  "title": "Adentro mío estoy bailando",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Berlinale Documentary Award 2023",
+              "entries": [
+                {
+                  "title": "El eco",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Berlinale Documentary Award · Special Mention",
+              "entries": [
+                {
+                  "title": "Orlando, ma biographie politique",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Director",
+              "entries": [
+                {
+                  "title": "El eco",
+                  "winner": true,
+                  "people": [
+                    "Tatiana Huezo"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Special Jury Award",
+              "entries": [
+                {
+                  "title": "Orlando, ma biographie politique",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Special Jury Award",
+              "entries": [
+                {
+                  "title": "Samsara",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "unmatched_awards": []
+    },
+    {
+      "event": "Berlinale",
+      "year": 2024,
+      "section": "Official Selection",
+      "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2024/o=asc/p=1/rp=200",
+      "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2024/o=desc/p=1/rp=40",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2024/o=asc/p=1/rp=200",
+          "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2024/o=desc/p=1/rp=40",
+          "selection": [
+            {
+              "title": "A Different Man",
+              "aliases": [],
+              "director": "Aaron Schimberg",
+              "year": 2023,
+              "runtime": 112,
+              "source": "https://www.berlinale.de/en/2024/programme/202404780.html"
+            },
+            {
+              "title": "Another End",
+              "aliases": [],
+              "director": "Piero Messina",
+              "year": 2024,
+              "runtime": 129,
+              "source": "https://www.berlinale.de/en/2024/programme/202414892.html"
+            },
+            {
+              "title": "Architecton",
+              "aliases": [],
+              "director": "Victor Kossakovsky",
+              "year": 2024,
+              "runtime": 98,
+              "source": "https://www.berlinale.de/en/2024/programme/202402846.html"
+            },
+            {
+              "title": "Black Tea",
+              "aliases": [],
+              "director": "Abderrahmane Sissako",
+              "year": 2024,
+              "runtime": 111,
+              "source": "https://www.berlinale.de/en/2024/programme/202411231.html"
+            },
+            {
+              "title": "Dahomey",
+              "aliases": [],
+              "director": "Mati Diop",
+              "year": 2024,
+              "runtime": 67,
+              "source": "https://www.berlinale.de/en/2024/programme/202414781.html"
+            },
+            {
+              "title": "Des Teufels Bad",
+              "aliases": [
+                "The Devil’s Bath"
+              ],
+              "director": "Veronika Franz, Severin Fiala",
+              "year": 2024,
+              "runtime": 121,
+              "source": "https://www.berlinale.de/en/2024/programme/202406824.html"
+            },
+            {
+              "title": "Gloria!",
+              "aliases": [],
+              "director": "Margherita Vicario",
+              "year": 2024,
+              "runtime": 106,
+              "source": "https://www.berlinale.de/en/2024/programme/202414848.html"
+            },
+            {
+              "title": "Hors du temps",
+              "aliases": [
+                "Suspended Time"
+              ],
+              "director": "Olivier Assayas",
+              "year": 2024,
+              "runtime": 105,
+              "source": "https://www.berlinale.de/en/2024/programme/202407361.html"
+            },
+            {
+              "title": "In Liebe, Eure Hilde",
+              "aliases": [
+                "From Hilde, with Love"
+              ],
+              "director": "Andreas Dresen",
+              "year": 2024,
+              "runtime": 124,
+              "source": "https://www.berlinale.de/en/2024/programme/202415117.html"
+            },
+            {
+              "title": "Keyke mahboobe man",
+              "aliases": [
+                "My Favourite Cake"
+              ],
+              "director": "Maryam Moghaddam, Behtash Sanaeeha",
+              "year": 2024,
+              "runtime": 97,
+              "source": "https://www.berlinale.de/en/2024/programme/202405386.html"
+            },
+            {
+              "title": "L’ Empire",
+              "aliases": [
+                "The Empire"
+              ],
+              "director": "Bruno Dumont",
+              "year": 2024,
+              "runtime": 110,
+              "source": "https://www.berlinale.de/en/2024/programme/202408944.html"
+            },
+            {
+              "title": "La Cocina",
+              "aliases": [],
+              "director": "Alonso Ruizpalacios",
+              "year": 2024,
+              "runtime": 139,
+              "source": "https://www.berlinale.de/en/2024/programme/202408571.html"
+            },
+            {
+              "title": "Langue Étrangère",
+              "aliases": [],
+              "director": "Claire Burger",
+              "year": 2024,
+              "runtime": 105,
+              "source": "https://www.berlinale.de/en/2024/programme/202407611.html"
+            },
+            {
+              "title": "Mé el Aïn",
+              "aliases": [
+                "Who Do I Belong To"
+              ],
+              "director": "Meryam Joobeur",
+              "year": 2024,
+              "runtime": 117,
+              "source": "https://www.berlinale.de/en/2024/programme/202410310.html"
+            },
+            {
+              "title": "Pepe",
+              "aliases": [],
+              "director": "Nelson Carlos De Los Santos Arias",
+              "year": 2024,
+              "runtime": 122,
+              "source": "https://www.berlinale.de/en/2024/programme/202403660.html"
+            },
+            {
+              "title": "Shambhala",
+              "aliases": [],
+              "director": "Min Bahadur Bham",
+              "year": 2024,
+              "runtime": 150,
+              "source": "https://www.berlinale.de/en/2024/programme/202408746.html"
+            },
+            {
+              "title": "Small Things Like These",
+              "aliases": [
+                "Kleine Dinge wie diese"
+              ],
+              "director": "Tim Mielants",
+              "year": 2024,
+              "runtime": 96,
+              "source": "https://www.berlinale.de/en/2024/programme/202415260.html"
+            },
+            {
+              "title": "Sterben",
+              "aliases": [
+                "Dying"
+              ],
+              "director": "Matthias Glasner",
+              "year": 2024,
+              "runtime": 180,
+              "source": "https://www.berlinale.de/en/2024/programme/202406481.html"
+            },
+            {
+              "title": "Vogter",
+              "aliases": [
+                "Sons"
+              ],
+              "director": "Gustav Möller",
+              "year": 2024,
+              "runtime": 100,
+              "source": "https://www.berlinale.de/en/2024/programme/202404654.html"
+            },
+            {
+              "title": "Yeohaengjaui pilyo",
+              "aliases": [
+                "A Traveler’s Needs"
+              ],
+              "director": "Hong Sangsoo",
+              "year": 2024,
+              "runtime": 90,
+              "source": "https://www.berlinale.de/en/2024/programme/202408802.html"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Bear for Best Film",
+              "entries": [
+                {
+                  "title": "Dahomey",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Grand Jury Prize",
+              "entries": [
+                {
+                  "title": "Yeohaengjaui pilyo",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Jury Prize",
+              "entries": [
+                {
+                  "title": "L’ Empire",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Director",
+              "entries": [
+                {
+                  "title": "Pepe",
+                  "winner": true,
+                  "people": [
+                    "Nelson Carlos De Los Santos Arias"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Leading Performance",
+              "entries": [
+                {
+                  "title": "A Different Man",
+                  "winner": true,
+                  "people": [
+                    "Sebastian Stan"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Supporting Performance",
+              "entries": [
+                {
+                  "title": "Small Things Like These",
+                  "winner": true,
+                  "people": [
+                    "Emily Watson"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Screenplay",
+              "entries": [
+                {
+                  "title": "Sterben",
+                  "winner": true,
+                  "people": [
+                    "Matthias Glasner"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Outstanding Artistic Contribution",
+              "entries": [
+                {
+                  "title": "Des Teufels Bad",
+                  "winner": true,
+                  "people": [
+                    "Martin Gschlacht"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Encounters",
+          "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2024/o=asc/p=1/rp=200",
+          "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2024/o=desc/p=1/rp=40",
+          "selection": [
+            {
+              "title": "Arcadia",
+              "aliases": [],
+              "director": "Yorgos Zois",
+              "year": 2024,
+              "runtime": 99,
+              "source": "https://www.berlinale.de/en/2024/programme/202403036.html"
+            },
+            {
+              "title": "Cidade; Campo",
+              "aliases": [],
+              "director": "Juliana Rojas",
+              "year": 2024,
+              "runtime": 119,
+              "source": "https://www.berlinale.de/en/2024/programme/202409113.html"
+            },
+            {
+              "title": "Demba",
+              "aliases": [],
+              "director": "Mamadou Dia",
+              "year": 2024,
+              "runtime": 119,
+              "source": "https://www.berlinale.de/en/2024/programme/202415613.html"
+            },
+            {
+              "title": "DIRECT ACTION",
+              "aliases": [],
+              "director": "Guillaume Cailleau, Ben Russell",
+              "year": 2024,
+              "runtime": 216,
+              "source": "https://www.berlinale.de/en/2024/programme/202403630.html"
+            },
+            {
+              "title": "Dormir de olhos abertos",
+              "aliases": [
+                "Sleep with Your Eyes Open"
+              ],
+              "director": "Nele Wohlatz",
+              "year": 2024,
+              "runtime": 97,
+              "source": "https://www.berlinale.de/en/2024/programme/202415567.html"
+            },
+            {
+              "title": "Favoriten",
+              "aliases": [],
+              "director": "Ruth Beckermann",
+              "year": 2024,
+              "runtime": 118,
+              "source": "https://www.berlinale.de/en/2024/programme/202407612.html"
+            },
+            {
+              "title": "Ivo",
+              "aliases": [],
+              "director": "Eva Trobisch",
+              "year": 2024,
+              "runtime": 104,
+              "source": "https://www.berlinale.de/en/2024/programme/202415458.html"
+            },
+            {
+              "title": "Khamyazeye bozorg",
+              "aliases": [
+                "The Great Yawn of History"
+              ],
+              "director": "Aliyar Rasti",
+              "year": 2024,
+              "runtime": 93,
+              "source": "https://www.berlinale.de/en/2024/programme/202405193.html"
+            },
+            {
+              "title": "Kong fang jian li de nv ren",
+              "aliases": [
+                "Some Rain Must Fall"
+              ],
+              "director": "Qiu Yang",
+              "year": 2024,
+              "runtime": 98,
+              "source": "https://www.berlinale.de/en/2024/programme/202403898.html"
+            },
+            {
+              "title": "Mãos no fogo",
+              "aliases": [
+                "Hands in the Fire"
+              ],
+              "director": "Margarida Gil",
+              "year": 2024,
+              "runtime": 109,
+              "source": "https://www.berlinale.de/en/2024/programme/202406898.html"
+            },
+            {
+              "title": "Matt and Mara",
+              "aliases": [
+                "Matt und Mara"
+              ],
+              "director": "Kazik Radwanski",
+              "year": 2024,
+              "runtime": 80,
+              "source": "https://www.berlinale.de/en/2024/programme/202404698.html"
+            },
+            {
+              "title": "The Fable",
+              "aliases": [],
+              "director": "Raam Reddy",
+              "year": 2024,
+              "runtime": 119,
+              "source": "https://www.berlinale.de/en/2024/programme/202409890.html"
+            },
+            {
+              "title": "Through the Graves the Wind Is Blowing",
+              "aliases": [],
+              "director": "Travis Wilkerson",
+              "year": 2024,
+              "runtime": 84,
+              "source": "https://www.berlinale.de/en/2024/programme/202406729.html"
+            },
+            {
+              "title": "Tú me abrasas",
+              "aliases": [
+                "You Burn Me",
+                "Du verbrennst mich"
+              ],
+              "director": "Matías Piñeiro",
+              "year": 2024,
+              "runtime": 64,
+              "source": "https://www.berlinale.de/en/2024/programme/202409749.html"
+            },
+            {
+              "title": "Une famille",
+              "aliases": [
+                "A Family"
+              ],
+              "director": "Christine Angot",
+              "year": 2024,
+              "runtime": 82,
+              "source": "https://www.berlinale.de/en/2024/programme/202410732.html"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Award for Best Film",
+              "entries": [
+                {
+                  "title": "DIRECT ACTION",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Berlinale Documentary Award · Special Mention",
+              "entries": [
+                {
+                  "title": "DIRECT ACTION",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Director",
+              "entries": [
+                {
+                  "title": "Cidade; Campo",
+                  "winner": true,
+                  "people": [
+                    "Juliana Rojas"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Special Jury Award",
+              "entries": [
+                {
+                  "title": "Khamyazeye bozorg",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Special Jury Award",
+              "entries": [
+                {
+                  "title": "Kong fang jian li de nv ren",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "unmatched_awards": []
+    },
+    {
+      "event": "Berlinale",
+      "year": 2025,
+      "section": "Official Selection",
+      "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2025/o=asc/p=1/rp=200",
+      "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2025/o=desc/p=1/rp=40",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2025/o=asc/p=1/rp=200",
+          "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2025/o=desc/p=1/rp=40",
+          "selection": [
+            {
+              "title": "Ari",
+              "aliases": [],
+              "director": "Léonor Serraille",
+              "year": 2025,
+              "runtime": 88,
+              "source": "https://www.berlinale.de/en/2025/programme/202507614.html"
+            },
+            {
+              "title": "Blue Moon",
+              "aliases": [],
+              "director": "Richard Linklater",
+              "year": 2025,
+              "runtime": 100,
+              "source": "https://www.berlinale.de/en/2025/programme/202505649.html"
+            },
+            {
+              "title": "Dreams",
+              "aliases": [],
+              "director": "Michel Franco",
+              "year": 2025,
+              "runtime": 100,
+              "source": "https://www.berlinale.de/en/2025/programme/202503718.html"
+            },
+            {
+              "title": "Drømmer",
+              "aliases": [
+                "Dreams (Sex Love)"
+              ],
+              "director": "Dag Johan Haugerud",
+              "year": 2024,
+              "runtime": 110,
+              "source": "https://www.berlinale.de/en/2025/programme/202516839.html"
+            },
+            {
+              "title": "El mensaje",
+              "aliases": [
+                "The Message",
+                "Die Nachricht"
+              ],
+              "director": "Iván Fund",
+              "year": 2025,
+              "runtime": 91,
+              "source": "https://www.berlinale.de/en/2025/programme/202504623.html"
+            },
+            {
+              "title": "Geu jayeoni nege mworago hani",
+              "aliases": [
+                "What Does that Nature Say to You"
+              ],
+              "director": "Hong Sangsoo",
+              "year": 2025,
+              "runtime": 108,
+              "source": "https://www.berlinale.de/en/2025/programme/202508581.html"
+            },
+            {
+              "title": "Hot Milk",
+              "aliases": [],
+              "director": "Rebecca Lenkiewicz",
+              "year": 2025,
+              "runtime": 92,
+              "source": "https://www.berlinale.de/en/2025/programme/202501269.html"
+            },
+            {
+              "title": "If I Had Legs I'd Kick You",
+              "aliases": [],
+              "director": "Mary Bronstein",
+              "year": 2024,
+              "runtime": 113,
+              "source": "https://www.berlinale.de/en/2025/programme/202504383.html"
+            },
+            {
+              "title": "Kontinental '25",
+              "aliases": [],
+              "director": "Radu Jude",
+              "year": 2025,
+              "runtime": 109,
+              "source": "https://www.berlinale.de/en/2025/programme/202508071.html"
+            },
+            {
+              "title": "La cache",
+              "aliases": [
+                "The Safe House"
+              ],
+              "director": "Lionel Baier",
+              "year": 2025,
+              "runtime": 90,
+              "source": "https://www.berlinale.de/en/2025/programme/202511176.html"
+            },
+            {
+              "title": "La Tour de Glace",
+              "aliases": [
+                "The Ice Tower"
+              ],
+              "director": "Lucile Hadžihalilović",
+              "year": 2025,
+              "runtime": 118,
+              "source": "https://www.berlinale.de/en/2025/programme/202505391.html"
+            },
+            {
+              "title": "Mother's Baby",
+              "aliases": [],
+              "director": "Johanna Moder",
+              "year": 2025,
+              "runtime": 107,
+              "source": "https://www.berlinale.de/en/2025/programme/202501553.html"
+            },
+            {
+              "title": "O último azul",
+              "aliases": [
+                "The Blue Trail"
+              ],
+              "director": "Gabriel Mascaro",
+              "year": 2025,
+              "runtime": 86,
+              "source": "https://www.berlinale.de/en/2025/programme/202510635.html"
+            },
+            {
+              "title": "Reflet dans un diamant mort",
+              "aliases": [
+                "Reflection in a Dead Diamond"
+              ],
+              "director": "Hélène Cattet, Bruno Forzani",
+              "year": 2025,
+              "runtime": 87,
+              "source": "https://www.berlinale.de/en/2025/programme/202504540.html"
+            },
+            {
+              "title": "Sheng xi zhi di",
+              "aliases": [
+                "Living the Land"
+              ],
+              "director": "Huo Meng",
+              "year": 2025,
+              "runtime": 132,
+              "source": "https://www.berlinale.de/en/2025/programme/202504943.html"
+            },
+            {
+              "title": "Strichka chasu",
+              "aliases": [
+                "Timestamp"
+              ],
+              "director": "Kateryna Gornostai",
+              "year": 2025,
+              "runtime": 125,
+              "source": "https://www.berlinale.de/en/2025/programme/202509478.html"
+            },
+            {
+              "title": "Was Marielle weiß",
+              "aliases": [
+                "What Marielle Knows"
+              ],
+              "director": "Frédéric Hambalek",
+              "year": 2025,
+              "runtime": 86,
+              "source": "https://www.berlinale.de/en/2025/programme/202511266.html"
+            },
+            {
+              "title": "Xiang fei de nv hai",
+              "aliases": [
+                "Girls on Wire"
+              ],
+              "director": "Vivian Qu",
+              "year": 2025,
+              "runtime": 115,
+              "source": "https://www.berlinale.de/en/2025/programme/202503366.html"
+            },
+            {
+              "title": "Yunan",
+              "aliases": [],
+              "director": "Ameer Fakher Eldin",
+              "year": 2025,
+              "runtime": 124,
+              "source": "https://www.berlinale.de/en/2025/programme/202507003.html"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Bear for Best Film",
+              "entries": [
+                {
+                  "title": "Drømmer",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Grand Jury Prize",
+              "entries": [
+                {
+                  "title": "O último azul",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Jury Prize",
+              "entries": [
+                {
+                  "title": "El mensaje",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Director",
+              "entries": [
+                {
+                  "title": "Sheng xi zhi di",
+                  "winner": true,
+                  "people": [
+                    "Huo Meng"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Leading Performance",
+              "entries": [
+                {
+                  "title": "If I Had Legs I'd Kick You",
+                  "winner": true,
+                  "people": [
+                    "Rose Byrne"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Supporting Performance",
+              "entries": [
+                {
+                  "title": "Blue Moon",
+                  "winner": true,
+                  "people": [
+                    "Andrew Scott"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Screenplay",
+              "entries": [
+                {
+                  "title": "Kontinental '25",
+                  "winner": true,
+                  "people": [
+                    "Radu Jude"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Outstanding Artistic Contribution",
+              "entries": [
+                {
+                  "title": "La Tour de Glace",
+                  "winner": true,
+                  "people": [
+                    "Creative ensemble"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Perspectives",
+          "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2025/o=asc/p=1/rp=200",
+          "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2025/o=desc/p=1/rp=40",
+          "selection": [
+            {
+              "title": "Al mosta'mera",
+              "aliases": [
+                "The Settlement"
+              ],
+              "director": "Mohamed Rashad",
+              "year": 2025,
+              "runtime": 94,
+              "source": "https://www.berlinale.de/en/2025/programme/202504080.html"
+            },
+            {
+              "title": "Baksho Bondi",
+              "aliases": [
+                "Shadowbox"
+              ],
+              "director": "Tanushree Das, Saumyananda Sahi",
+              "year": 2025,
+              "runtime": 91,
+              "source": "https://www.berlinale.de/en/2025/programme/202503874.html"
+            },
+            {
+              "title": "BLKNWS: Terms & Conditions",
+              "aliases": [],
+              "director": "Kahlil Joseph",
+              "year": 2025,
+              "runtime": 113,
+              "source": "https://www.berlinale.de/en/2025/programme/202511400.html"
+            },
+            {
+              "title": "Come la notte",
+              "aliases": [
+                "Where the Night Stands Still"
+              ],
+              "director": "Liryc Dela Cruz",
+              "year": 2025,
+              "runtime": 75,
+              "source": "https://www.berlinale.de/en/2025/programme/202518267.html"
+            },
+            {
+              "title": "Duas vezes João Liberada",
+              "aliases": [
+                "Two Times João Liberada"
+              ],
+              "director": "Paula Tomás Marques",
+              "year": 2025,
+              "runtime": 70,
+              "source": "https://www.berlinale.de/en/2025/programme/202508762.html"
+            },
+            {
+              "title": "El Diablo Fuma (y guarda las cabezas de los cerillos quemados en la misma caja)",
+              "aliases": [
+                "The Devil Smokes (and Saves the Burnt Matches in the Same Box)"
+              ],
+              "director": "Ernesto Martínez Bucio",
+              "year": 2025,
+              "runtime": 97,
+              "source": "https://www.berlinale.de/en/2025/programme/202505986.html"
+            },
+            {
+              "title": "Hé mán",
+              "aliases": [
+                "Eel"
+              ],
+              "director": "Chu Chun-Teng",
+              "year": 2025,
+              "runtime": 102,
+              "source": "https://www.berlinale.de/en/2025/programme/202505896.html"
+            },
+            {
+              "title": "How to Be Normal and the Oddness of the Other World",
+              "aliases": [],
+              "director": "Florian Pochlatko",
+              "year": 2025,
+              "runtime": 102,
+              "source": "https://www.berlinale.de/en/2025/programme/202501401.html"
+            },
+            {
+              "title": "Kaj ti je deklica",
+              "aliases": [
+                "Little Trouble Girls"
+              ],
+              "director": "Urška Djukić",
+              "year": 2025,
+              "runtime": 89,
+              "source": "https://www.berlinale.de/en/2025/programme/202501131.html"
+            },
+            {
+              "title": "Le rendez-vous de l'été",
+              "aliases": [
+                "That Summer in Paris"
+              ],
+              "director": "Valentine Cadic",
+              "year": 2025,
+              "runtime": 77,
+              "source": "https://www.berlinale.de/en/2025/programme/202510656.html"
+            },
+            {
+              "title": "Mad Bills to Pay (or Destiny, dile que no soy malo)",
+              "aliases": [],
+              "director": "Joel Alfonso Vargas",
+              "year": 2025,
+              "runtime": 100,
+              "source": "https://www.berlinale.de/en/2025/programme/202507987.html"
+            },
+            {
+              "title": "Minden Rendben",
+              "aliases": [
+                "Growing Down"
+              ],
+              "director": "Bálint Dániel Sós",
+              "year": 2025,
+              "runtime": 85,
+              "source": "https://www.berlinale.de/en/2025/programme/202513405.html"
+            },
+            {
+              "title": "Mit der Faust in die Welt schlagen",
+              "aliases": [
+                "Punching the World"
+              ],
+              "director": "Constanze Klaue",
+              "year": 2025,
+              "runtime": 110,
+              "source": "https://www.berlinale.de/en/2025/programme/202516907.html"
+            },
+            {
+              "title": "On vous croit",
+              "aliases": [
+                "We Believe You"
+              ],
+              "director": "Charlotte Devillers, Arnaud Dufeys",
+              "year": 2025,
+              "runtime": 78,
+              "source": "https://www.berlinale.de/en/2025/programme/202517054.html"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Best First Feature Award",
+              "entries": [
+                {
+                  "title": "El Diablo Fuma (y guarda las cabezas de los cerillos quemados en la misma caja)",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Special Mention",
+              "entries": [
+                {
+                  "title": "On vous croit",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "unmatched_awards": []
+    }
+  ]
+}

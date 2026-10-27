@@ -1,0 +1,52 @@
+{
+  "https://www.berlinale.de/en/2021/programme/202103171.html": {
+    "director_aliases": [
+      "Benedek Fliegauf"
+    ],
+    "evidence": [
+      "https://www.filmportal.de/en/person/benedek-fliegauf_370f8e1a6105345de040007f010008cf"
+    ],
+    "reason": "Bence is Benedek Fliegauf’s documented alternate name."
+  },
+  "https://www.berlinale.de/en/2022/programme/202205792.html": {
+    "director_aliases": [
+      "Natalia López"
+    ],
+    "evidence": [
+      "https://www.berlinale.de/en/2022/programme/202205792.html"
+    ],
+    "reason": "Provider shortens Natalia López Gallardo to Natalia López; exact feature title and production match."
+  },
+  "https://www.berlinale.de/en/2024/programme/202402846.html": {
+    "director_aliases": [
+      "Viktor Kossakovsky"
+    ],
+    "evidence": [
+      "https://www.berlinale.de/en/2024/programme/202402846.html"
+    ],
+    "reason": "Victor/Viktor transliteration; exact feature title and director identity."
+  },
+  "https://www.berlinale.de/en/2022/programme/202202534.html": {
+    "director_aliases": [
+      "Hristos Passalis, Syllas Tzoumerkas"
+    ],
+    "reason": "Christos/Hristos transliteration; both co-directors, feature title, year and runtime agree.",
+    "evidence": [
+      "https://homemadefilms.gr/the-city-and-the-city/",
+      "https://www.berlinale.de/en/2022/programme/202202534.html"
+    ]
+  },
+  "https://www.berlinale.de/en/2023/programme/202306367.html": {
+    "tmdb_id": 1065879,
+    "required_cast": [
+      "Lee Kang-sheng",
+      "Li Meng"
+    ],
+    "reason": "The 2023 feature has a 2025 territorial release on the provider. Pin the independently located provider record and verify title, Wu Lang, feature runtime and both lead actors; exclude his 15-minute 2021 short of the same name.",
+    "evidence": [
+      "https://www.rediancefilms.com/film.php-58.html",
+      "https://www.moma.org/calendar/events/8589",
+      "https://www.filmnoir.app/links/tmdb/movies/1065879"
+    ]
+  }
+}
