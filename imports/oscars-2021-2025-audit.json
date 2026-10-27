@@ -1,0 +1,1922 @@
+{
+  "verified": [
+    {
+      "title": "Nomadland",
+      "id": 1492,
+      "tmdb_id": 581734,
+      "director": "Chloé Zhao",
+      "release_date": "2021-01-29",
+      "imdb_id": "tt9770150",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "The Father",
+      "id": 2380,
+      "tmdb_id": 600354,
+      "director": "Florian Zeller",
+      "release_date": "2020-12-23",
+      "imdb_id": "tt10272386",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Judas and the Black Messiah",
+      "id": 2381,
+      "tmdb_id": 583406,
+      "director": "Shaka King",
+      "release_date": "2021-02-12",
+      "imdb_id": "tt9784798",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Mank",
+      "id": 338,
+      "tmdb_id": 614560,
+      "director": "David Fincher",
+      "release_date": "2020-11-13",
+      "imdb_id": "tt10618286",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Promising Young Woman",
+      "id": 337,
+      "tmdb_id": 582014,
+      "director": "Emerald Fennell",
+      "release_date": "2020-12-13",
+      "imdb_id": "tt9620292",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Sound of Metal",
+      "id": 348,
+      "tmdb_id": 502033,
+      "director": "Darius Marder",
+      "release_date": "2020-11-20",
+      "imdb_id": "tt5363618",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "The Trial of the Chicago 7",
+      "id": 336,
+      "tmdb_id": 556984,
+      "director": "Aaron Sorkin",
+      "release_date": "2020-09-25",
+      "imdb_id": "tt1070874",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Another Round",
+      "id": 331,
+      "tmdb_id": 580175,
+      "director": "Thomas Vinterberg",
+      "release_date": "2020-09-24",
+      "imdb_id": "tt10288566",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Ma Rainey's Black Bottom",
+      "id": 2382,
+      "tmdb_id": 615667,
+      "director": "George C. Wolfe",
+      "release_date": "2020-11-25",
+      "imdb_id": "tt10514222",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "The United States vs. Billie Holiday",
+      "id": 2383,
+      "tmdb_id": 566076,
+      "director": "Lee Daniels",
+      "release_date": "2021-03-31",
+      "imdb_id": "tt8521718",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Pieces of a Woman",
+      "id": 2384,
+      "tmdb_id": 641662,
+      "director": "Kornél Mundruczó",
+      "release_date": "2020-12-30",
+      "imdb_id": "tt11161474",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "One Night in Miami...",
+      "id": 2385,
+      "tmdb_id": 661914,
+      "director": "Regina King",
+      "release_date": "2020-12-25",
+      "imdb_id": "tt10612922",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Borat Subsequent Moviefilm: Delivery of Prodigious Bribe to American Regime for Make Benefit Once Glorious Nation of Kazakhstan",
+      "id": 2386,
+      "tmdb_id": 740985,
+      "director": "Jason Woliner",
+      "release_date": "2020-10-23",
+      "imdb_id": "tt13143964",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Hillbilly Elegy",
+      "id": 2387,
+      "tmdb_id": 592984,
+      "director": "Ron Howard",
+      "release_date": "2020-11-09",
+      "imdb_id": "tt6772802",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "The White Tiger",
+      "id": 2388,
+      "tmdb_id": 628534,
+      "director": "Ramin Bahrani",
+      "release_date": "2021-01-13",
+      "imdb_id": "tt6571548",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "My Octopus Teacher",
+      "id": 2389,
+      "tmdb_id": 682110,
+      "director": "James Reed, Pippa Ehrlich",
+      "release_date": "2020-09-04",
+      "imdb_id": "tt12888462",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Collective",
+      "id": 2390,
+      "tmdb_id": 618363,
+      "director": "Alexander Nanau",
+      "release_date": "2019-02-13",
+      "imdb_id": "tt10706602",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "The Mole Agent",
+      "id": 2391,
+      "tmdb_id": 653756,
+      "director": "Maite Alberdi",
+      "release_date": "2020-12-11",
+      "imdb_id": "tt11394298",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Soul",
+      "id": 1487,
+      "tmdb_id": 508442,
+      "director": "Pete Docter",
+      "release_date": "2020-12-25",
+      "imdb_id": "tt2948372",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "A Shaun the Sheep Movie: Farmageddon",
+      "id": 2392,
+      "tmdb_id": 422803,
+      "director": "Will Becher, Richard Phelan",
+      "release_date": "2019-09-26",
+      "imdb_id": "tt6193408",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Wolfwalkers",
+      "id": 2393,
+      "tmdb_id": 441130,
+      "director": "Tomm Moore, Ross Stewart",
+      "release_date": "2020-10-26",
+      "imdb_id": "tt5198068",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "CODA",
+      "id": 1474,
+      "tmdb_id": 776503,
+      "director": "Sian Heder",
+      "release_date": "2021-08-13",
+      "imdb_id": "tt10366460",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Belfast",
+      "id": 320,
+      "tmdb_id": 777270,
+      "director": "Kenneth Branagh",
+      "release_date": "2021-11-12",
+      "imdb_id": "tt12789558",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Drive My Car",
+      "id": 327,
+      "tmdb_id": 758866,
+      "director": "Ryusuke Hamaguchi",
+      "release_date": "2021-08-18",
+      "imdb_id": "tt14039582",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Licorice Pizza",
+      "id": 318,
+      "tmdb_id": 718032,
+      "director": "Paul Thomas Anderson",
+      "release_date": "2021-11-26",
+      "imdb_id": "tt11271038",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Nightmare Alley",
+      "id": 2394,
+      "tmdb_id": 597208,
+      "director": "Guillermo del Toro",
+      "release_date": "2021-12-02",
+      "imdb_id": "tt7740496",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "The Power of the Dog",
+      "id": 1479,
+      "tmdb_id": 600583,
+      "director": "Jane Campion",
+      "release_date": "2021-10-25",
+      "imdb_id": "tt10293406",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "West Side Story",
+      "id": 2395,
+      "tmdb_id": 511809,
+      "director": "Steven Spielberg",
+      "release_date": "2021-12-08",
+      "imdb_id": "tt3581652",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Being the Ricardos",
+      "id": 1482,
+      "tmdb_id": 517088,
+      "director": "Aaron Sorkin",
+      "release_date": "2021-12-10",
+      "imdb_id": "tt4995540",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "tick, tick...BOOM!",
+      "id": 2396,
+      "tmdb_id": 537116,
+      "director": "Lin-Manuel Miranda",
+      "release_date": "2021-11-11",
+      "imdb_id": "tt8721424",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "The Tragedy of Macbeth",
+      "id": 2397,
+      "tmdb_id": 591538,
+      "director": "Joel Coen",
+      "release_date": "2021-12-05",
+      "imdb_id": "tt10095582",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "The Eyes of Tammy Faye",
+      "id": 2398,
+      "tmdb_id": 601470,
+      "director": "Michael Showalter",
+      "release_date": "2021-09-17",
+      "imdb_id": "tt9115530",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "The Lost Daughter",
+      "id": 2399,
+      "tmdb_id": 554230,
+      "director": "Maggie Gyllenhaal",
+      "release_date": "2021-12-15",
+      "imdb_id": "tt9100054",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Parallel Mothers",
+      "id": 2400,
+      "tmdb_id": 766798,
+      "director": "Pedro Almodóvar",
+      "release_date": "2021-10-08",
+      "imdb_id": "tt12618926",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Spencer",
+      "id": 2401,
+      "tmdb_id": 716612,
+      "director": "Pablo Larraín",
+      "release_date": "2021-11-04",
+      "imdb_id": "tt12536294",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "The Worst Person in the World",
+      "id": 325,
+      "tmdb_id": 660120,
+      "director": "Joachim Trier",
+      "release_date": "2021-10-13",
+      "imdb_id": "tt10370710",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Summer of Soul (...Or, When the Revolution Could Not Be Televised)",
+      "id": 2402,
+      "tmdb_id": 776527,
+      "director": "Questlove",
+      "release_date": "2021-07-02",
+      "imdb_id": "tt7378922",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Ascension",
+      "id": 2403,
+      "tmdb_id": 822138,
+      "director": "Jessica Kingdon",
+      "release_date": "2021-10-08",
+      "imdb_id": "tt14505430",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Attica",
+      "id": 2404,
+      "tmdb_id": 858059,
+      "director": "Traci A. Curry, Stanley Nelson",
+      "release_date": "2021-09-09",
+      "imdb_id": "tt12482898",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Flee",
+      "id": 2405,
+      "tmdb_id": 680813,
+      "director": "Jonas Poher Rasmussen",
+      "release_date": "2021-06-17",
+      "imdb_id": "tt8430054",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Writing with Fire",
+      "id": 2406,
+      "tmdb_id": 776557,
+      "director": "Rintu Thomas, Sushmit Ghosh",
+      "release_date": "2021-01-30",
+      "imdb_id": "tt13630174",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Encanto",
+      "id": 2407,
+      "tmdb_id": 568124,
+      "director": "Byron Howard, Jared Bush",
+      "release_date": "2021-11-24",
+      "imdb_id": "tt2953050",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "The Mitchells vs. the Machines",
+      "id": 2408,
+      "tmdb_id": 501929,
+      "director": "Mike Rianda",
+      "release_date": "2021-04-22",
+      "imdb_id": "tt7979580",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Raya and the Last Dragon",
+      "id": 2409,
+      "tmdb_id": 527774,
+      "director": "Don Hall, Carlos López Estrada",
+      "release_date": "2021-03-03",
+      "imdb_id": "tt5109280",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "All Quiet on the Western Front",
+      "id": 308,
+      "tmdb_id": 49046,
+      "director": "Edward Berger",
+      "release_date": "2022-10-07",
+      "imdb_id": "tt1016150",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Avatar: The Way of Water",
+      "id": 2410,
+      "tmdb_id": 76600,
+      "director": "James Cameron",
+      "release_date": "2022-12-14",
+      "imdb_id": "tt1630029",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "The Banshees of Inisherin",
+      "id": 313,
+      "tmdb_id": 674324,
+      "director": "Martin McDonagh",
+      "release_date": "2022-10-20",
+      "imdb_id": "tt11813216",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Elvis",
+      "id": 2411,
+      "tmdb_id": 614934,
+      "director": "Baz Luhrmann",
+      "release_date": "2022-06-22",
+      "imdb_id": "tt3704428",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "The Fabelmans",
+      "id": 1472,
+      "tmdb_id": 804095,
+      "director": "Steven Spielberg",
+      "release_date": "2022-11-11",
+      "imdb_id": "tt14208870",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Tár",
+      "id": 2412,
+      "tmdb_id": 817758,
+      "director": "Todd Field",
+      "release_date": "2022-10-07",
+      "imdb_id": "tt14444726",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Top Gun: Maverick",
+      "id": 312,
+      "tmdb_id": 361743,
+      "director": "Joseph Kosinski",
+      "release_date": "2022-05-21",
+      "imdb_id": "tt1745960",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Triangle of Sadness",
+      "id": 315,
+      "tmdb_id": 497828,
+      "director": "Ruben Östlund",
+      "release_date": "2022-09-18",
+      "imdb_id": "tt7322224",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Women Talking",
+      "id": 2413,
+      "tmdb_id": 777245,
+      "director": "Sarah Polley",
+      "release_date": "2022-12-23",
+      "imdb_id": "tt13669038",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "The Whale",
+      "id": 306,
+      "tmdb_id": 785084,
+      "director": "Darren Aronofsky",
+      "release_date": "2022-12-09",
+      "imdb_id": "tt13833688",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Aftersun",
+      "id": 2414,
+      "tmdb_id": 965150,
+      "director": "Charlotte Wells",
+      "release_date": "2022-10-21",
+      "imdb_id": "tt19770238",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Living",
+      "id": 2415,
+      "tmdb_id": 760099,
+      "director": "Oliver Hermanus",
+      "release_date": "2022-11-04",
+      "imdb_id": "tt9051908",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Blonde",
+      "id": 2416,
+      "tmdb_id": 301502,
+      "director": "Andrew Dominik",
+      "release_date": "2022-09-16",
+      "imdb_id": "tt1655389",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "To Leslie",
+      "id": 2417,
+      "tmdb_id": 823147,
+      "director": "Michael Morris",
+      "release_date": "2022-10-07",
+      "imdb_id": "tt8129806",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Causeway",
+      "id": 2418,
+      "tmdb_id": 595586,
+      "director": "Lila Neugebauer",
+      "release_date": "2022-10-28",
+      "imdb_id": "tt10192406",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Black Panther: Wakanda Forever",
+      "id": 2419,
+      "tmdb_id": 505642,
+      "director": "Ryan Coogler",
+      "release_date": "2022-11-09",
+      "imdb_id": "tt9114286",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Glass Onion: A Knives Out Mystery",
+      "id": 1469,
+      "tmdb_id": 661374,
+      "director": "Rian Johnson",
+      "release_date": "2022-11-23",
+      "imdb_id": "tt11564570",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Ireland",
+      "id": 2420,
+      "tmdb_id": 1009207,
+      "director": "Greg MacGillivray",
+      "release_date": "2022-02-28",
+      "imdb_id": "tt16677054",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Navalny",
+      "id": 2421,
+      "tmdb_id": 926676,
+      "director": "Daniel Roher",
+      "release_date": "2022-04-08",
+      "imdb_id": "tt17041964",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "All That Breathes",
+      "id": 2422,
+      "tmdb_id": 913838,
+      "director": "Shaunak Sen",
+      "release_date": "2022-10-21",
+      "imdb_id": "tt16377862",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "All the Beauty and the Bloodshed",
+      "id": 2423,
+      "tmdb_id": 1004663,
+      "director": "Laura Poitras",
+      "release_date": "2022-11-23",
+      "imdb_id": "tt21374850",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Fire of Love",
+      "id": 2424,
+      "tmdb_id": 913823,
+      "director": "Sara Dosa",
+      "release_date": "2022-07-06",
+      "imdb_id": "tt16227014",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "A House Made of Splinters",
+      "id": 2425,
+      "tmdb_id": 913743,
+      "director": "Simon Lereng Wilmont",
+      "release_date": "2023-03-09",
+      "imdb_id": "tt16377920",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Guillermo del Toro's Pinocchio",
+      "id": 309,
+      "tmdb_id": 555604,
+      "director": "Mark Gustafson, Guillermo del Toro",
+      "release_date": "2022-11-09",
+      "imdb_id": "tt1488589",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Marcel the Shell with Shoes On",
+      "id": 2426,
+      "tmdb_id": 869626,
+      "director": "Dean Fleischer Camp",
+      "release_date": "2022-06-24",
+      "imdb_id": "tt15339456",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Puss in Boots: The Last Wish",
+      "id": 2427,
+      "tmdb_id": 315162,
+      "director": "Joel Crawford",
+      "release_date": "2022-12-07",
+      "imdb_id": "tt3915174",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "The Sea Beast",
+      "id": 2428,
+      "tmdb_id": 560057,
+      "director": "Chris Williams",
+      "release_date": "2022-06-24",
+      "imdb_id": "tt9288046",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Turning Red",
+      "id": 2429,
+      "tmdb_id": 508947,
+      "director": "Domee Shi",
+      "release_date": "2022-03-10",
+      "imdb_id": "tt8097030",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Oppenheimer",
+      "id": 298,
+      "tmdb_id": 872585,
+      "director": "Christopher Nolan",
+      "release_date": "2023-07-19",
+      "imdb_id": "tt15398776",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "American Fiction",
+      "id": 293,
+      "tmdb_id": 1056360,
+      "director": "Cord Jefferson",
+      "release_date": "2023-11-10",
+      "imdb_id": "tt23561236",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Anatomy of a Fall",
+      "id": 305,
+      "tmdb_id": 915935,
+      "director": "Justine Triet",
+      "release_date": "2023-08-23",
+      "imdb_id": "tt17009710",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Barbie",
+      "id": 292,
+      "tmdb_id": 346698,
+      "director": "Greta Gerwig",
+      "release_date": "2023-07-19",
+      "imdb_id": "tt1517268",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "The Holdovers",
+      "id": 299,
+      "tmdb_id": 840430,
+      "director": "Alexander Payne",
+      "release_date": "2023-10-27",
+      "imdb_id": "tt14849194",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Killers of the Flower Moon",
+      "id": 301,
+      "tmdb_id": 466420,
+      "director": "Martin Scorsese",
+      "release_date": "2023-10-18",
+      "imdb_id": "tt5537002",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Maestro",
+      "id": 2430,
+      "tmdb_id": 523607,
+      "director": "Bradley Cooper",
+      "release_date": "2023-11-22",
+      "imdb_id": "tt5535276",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Poor Things",
+      "id": 296,
+      "tmdb_id": 792307,
+      "director": "Yorgos Lanthimos",
+      "release_date": "2023-12-07",
+      "imdb_id": "tt14230458",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "The Zone of Interest",
+      "id": 122,
+      "tmdb_id": 467244,
+      "director": "Jonathan Glazer",
+      "release_date": "2023-12-15",
+      "imdb_id": "tt7160372",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Rustin",
+      "id": 2431,
+      "tmdb_id": 898713,
+      "director": "George C. Wolfe",
+      "release_date": "2023-11-03",
+      "imdb_id": "tt14160834",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Nyad",
+      "id": 2432,
+      "tmdb_id": 895549,
+      "director": "Jimmy Chin, Elizabeth Chai Vasarhelyi",
+      "release_date": "2023-10-18",
+      "imdb_id": "tt5302918",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "The Color Purple",
+      "id": 2433,
+      "tmdb_id": 558915,
+      "director": "Blitz Bazawule",
+      "release_date": "2023-12-25",
+      "imdb_id": "tt1200263",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "May December",
+      "id": 2434,
+      "tmdb_id": 839369,
+      "director": "Todd Haynes",
+      "release_date": "2023-11-16",
+      "imdb_id": "tt13651794",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "20 Days in Mariupol",
+      "id": 2435,
+      "tmdb_id": 1058616,
+      "director": "Mstyslav Chernov",
+      "release_date": "2023-07-14",
+      "imdb_id": "tt24082438",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Bobi Wine: The People's President",
+      "id": 2436,
+      "tmdb_id": 1004683,
+      "director": "Christopher Sharp, Moses Bwayo",
+      "release_date": "2023-07-28",
+      "imdb_id": "tt21376900",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "The Eternal Memory",
+      "id": 2437,
+      "tmdb_id": 1032760,
+      "director": "Maite Alberdi",
+      "release_date": "2023-08-11",
+      "imdb_id": "tt24082488",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Four Daughters",
+      "id": 2438,
+      "tmdb_id": 1069193,
+      "director": "Kaouther Ben Hania",
+      "release_date": "2023-07-05",
+      "imdb_id": "tt27502426",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "To Kill a Tiger",
+      "id": 2439,
+      "tmdb_id": 1015356,
+      "director": "Nisha Pahuja",
+      "release_date": "2023-10-20",
+      "imdb_id": "tt21688772",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "The Boy and the Heron",
+      "id": 2440,
+      "tmdb_id": 508883,
+      "director": "Hayao Miyazaki",
+      "release_date": "2023-07-14",
+      "imdb_id": "tt6587046",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Elemental",
+      "id": 2441,
+      "tmdb_id": 976573,
+      "director": "Peter Sohn",
+      "release_date": "2023-06-14",
+      "imdb_id": "tt15789038",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Nimona",
+      "id": 2442,
+      "tmdb_id": 961323,
+      "director": "Troy Quane, Nick Bruno",
+      "release_date": "2023-06-23",
+      "imdb_id": "tt19500164",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Robot Dreams",
+      "id": 2443,
+      "tmdb_id": 838240,
+      "director": "Pablo Berger",
+      "release_date": "2023-12-06",
+      "imdb_id": "tt13429870",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Spider-Man: Across the Spider-Verse",
+      "id": 2444,
+      "tmdb_id": 569094,
+      "director": "Justin K. Thompson, Kemp Powers, Joaquim Dos Santos",
+      "release_date": "2023-05-31",
+      "imdb_id": "tt9362722",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Anora",
+      "id": 101,
+      "tmdb_id": 1064213,
+      "director": "Sean Baker",
+      "release_date": "2024-10-14",
+      "imdb_id": "tt28607951",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "The Brutalist",
+      "id": 102,
+      "tmdb_id": 549509,
+      "director": "Brady Corbet",
+      "release_date": "2024-12-20",
+      "imdb_id": "tt8999762",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "A Complete Unknown",
+      "id": 220,
+      "tmdb_id": 661539,
+      "director": "James Mangold",
+      "release_date": "2024-12-25",
+      "imdb_id": "tt11563598",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Conclave",
+      "id": 116,
+      "tmdb_id": 974576,
+      "director": "Edward Berger",
+      "release_date": "2024-10-25",
+      "imdb_id": "tt20215234",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Dune: Part Two",
+      "id": 198,
+      "tmdb_id": 693134,
+      "director": "Denis Villeneuve",
+      "release_date": "2024-02-27",
+      "imdb_id": "tt15239678",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Emilia Pérez",
+      "id": 117,
+      "tmdb_id": 974950,
+      "director": "Jacques Audiard",
+      "release_date": "2024-08-21",
+      "imdb_id": "tt20221436",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "I'm Still Here",
+      "id": 109,
+      "tmdb_id": 1000837,
+      "director": "Walter Salles",
+      "release_date": "2024-09-19",
+      "imdb_id": "tt14961016",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Nickel Boys",
+      "id": 111,
+      "tmdb_id": 1028196,
+      "director": "RaMell Ross",
+      "release_date": "2024-12-13",
+      "imdb_id": "tt23055660",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "The Substance",
+      "id": 104,
+      "tmdb_id": 933260,
+      "director": "Coralie Fargeat",
+      "release_date": "2024-09-18",
+      "imdb_id": "tt17526714",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Wicked",
+      "id": 200,
+      "tmdb_id": 402431,
+      "director": "Jon M. Chu",
+      "release_date": "2024-10-16",
+      "imdb_id": "tt1262426",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Sing Sing",
+      "id": 149,
+      "tmdb_id": 1155828,
+      "director": "Greg Kwedar",
+      "release_date": "2024-07-12",
+      "imdb_id": "tt28479262",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "The Apprentice",
+      "id": 147,
+      "tmdb_id": 1182047,
+      "director": "Ali Abbasi",
+      "release_date": "2024-10-09",
+      "imdb_id": "tt8368368",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "A Real Pain",
+      "id": 110,
+      "tmdb_id": 1013850,
+      "director": "Jesse Eisenberg",
+      "release_date": "2024-11-01",
+      "imdb_id": "tt21823606",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "September 5",
+      "id": 221,
+      "tmdb_id": 1211472,
+      "director": "Tim Fehlbaum",
+      "release_date": "2024-11-07",
+      "imdb_id": "tt28082769",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Brazil",
+      "id": 2445,
+      "tmdb_id": 1501171,
+      "director": "Emanuel Gonzalez",
+      "release_date": "2025-06-20",
+      "imdb_id": null,
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "France",
+      "id": 2446,
+      "tmdb_id": 992392,
+      "director": "Mariangela Ciccarello, Philip Cartelli",
+      "release_date": "2022-06-23",
+      "imdb_id": null,
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Black Box Diaries",
+      "id": 192,
+      "tmdb_id": 1214499,
+      "director": "Shiori Ito",
+      "release_date": "2024-10-24",
+      "imdb_id": "tt30227076",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Soundtrack to a Coup d'Etat",
+      "id": 187,
+      "tmdb_id": 1214539,
+      "director": "Johan Grimonprez",
+      "release_date": "2024-09-11",
+      "imdb_id": "tt14452174",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Inside Out 2",
+      "id": 182,
+      "tmdb_id": 1022789,
+      "director": "Kelsey Mann",
+      "release_date": "2024-06-11",
+      "imdb_id": "tt22022452",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Memoir of a Snail",
+      "id": 179,
+      "tmdb_id": 1064486,
+      "director": "Adam Elliot",
+      "release_date": "2024-10-17",
+      "imdb_id": "tt23770030",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Wallace & Gromit: Vengeance Most Fowl",
+      "id": 183,
+      "tmdb_id": 929204,
+      "director": "Nick Park, Merlin Crossingham",
+      "release_date": "2024-12-18",
+      "imdb_id": "tt17163970",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "The Wild Robot",
+      "id": 115,
+      "tmdb_id": 1184918,
+      "director": "Chris Sanders",
+      "release_date": "2024-09-12",
+      "imdb_id": "tt29623480",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    }
+  ],
+  "new_canonical_ids": [
+    {
+      "id": 2380,
+      "title": "The Father",
+      "director": "Florian Zeller",
+      "year": 2020,
+      "tmdb_id": 600354,
+      "imdb_id": "tt10272386",
+      "original_title": "The Father",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2381,
+      "title": "Judas and the Black Messiah",
+      "director": "Shaka King",
+      "year": 2021,
+      "tmdb_id": 583406,
+      "imdb_id": "tt9784798",
+      "original_title": "Judas and the Black Messiah",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2382,
+      "title": "Ma Rainey's Black Bottom",
+      "director": "George C. Wolfe",
+      "year": 2020,
+      "tmdb_id": 615667,
+      "imdb_id": "tt10514222",
+      "original_title": "Ma Rainey's Black Bottom",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2383,
+      "title": "The United States vs. Billie Holiday",
+      "director": "Lee Daniels",
+      "year": 2021,
+      "tmdb_id": 566076,
+      "imdb_id": "tt8521718",
+      "original_title": "The United States vs. Billie Holiday",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2384,
+      "title": "Pieces of a Woman",
+      "director": "Kornél Mundruczó",
+      "year": 2020,
+      "tmdb_id": 641662,
+      "imdb_id": "tt11161474",
+      "original_title": "Pieces of a Woman",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2385,
+      "title": "One Night in Miami...",
+      "director": "Regina King",
+      "year": 2020,
+      "tmdb_id": 661914,
+      "imdb_id": "tt10612922",
+      "original_title": "One Night in Miami...",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2386,
+      "title": "Borat Subsequent Moviefilm: Delivery of Prodigious Bribe to American Regime for Make Benefit Once Glorious Nation of Kazakhstan",
+      "director": "Jason Woliner",
+      "year": 2020,
+      "tmdb_id": 740985,
+      "imdb_id": "tt13143964",
+      "original_title": "Borat Subsequent Moviefilm: Delivery of Prodigious Bribe to American Regime for Make Benefit Once Glorious Nation of Kazakhstan",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2387,
+      "title": "Hillbilly Elegy",
+      "director": "Ron Howard",
+      "year": 2020,
+      "tmdb_id": 592984,
+      "imdb_id": "tt6772802",
+      "original_title": "Hillbilly Elegy",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2388,
+      "title": "The White Tiger",
+      "director": "Ramin Bahrani",
+      "year": 2021,
+      "tmdb_id": 628534,
+      "imdb_id": "tt6571548",
+      "original_title": "The White Tiger",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2389,
+      "title": "My Octopus Teacher",
+      "director": "James Reed, Pippa Ehrlich",
+      "year": 2020,
+      "tmdb_id": 682110,
+      "imdb_id": "tt12888462",
+      "original_title": "My Octopus Teacher",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2390,
+      "title": "Collective",
+      "director": "Alexander Nanau",
+      "year": 2019,
+      "tmdb_id": 618363,
+      "imdb_id": "tt10706602",
+      "original_title": "Colectiv",
+      "original_language": "ro",
+      "alternate_titles": []
+    },
+    {
+      "id": 2391,
+      "title": "The Mole Agent",
+      "director": "Maite Alberdi",
+      "year": 2020,
+      "tmdb_id": 653756,
+      "imdb_id": "tt11394298",
+      "original_title": "El agente topo",
+      "original_language": "es",
+      "alternate_titles": []
+    },
+    {
+      "id": 2392,
+      "title": "A Shaun the Sheep Movie: Farmageddon",
+      "director": "Will Becher, Richard Phelan",
+      "year": 2019,
+      "tmdb_id": 422803,
+      "imdb_id": "tt6193408",
+      "original_title": "A Shaun the Sheep Movie: Farmageddon",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2393,
+      "title": "Wolfwalkers",
+      "director": "Tomm Moore, Ross Stewart",
+      "year": 2020,
+      "tmdb_id": 441130,
+      "imdb_id": "tt5198068",
+      "original_title": "Wolfwalkers",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2394,
+      "title": "Nightmare Alley",
+      "director": "Guillermo del Toro",
+      "year": 2021,
+      "tmdb_id": 597208,
+      "imdb_id": "tt7740496",
+      "original_title": "Nightmare Alley",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2395,
+      "title": "West Side Story",
+      "director": "Steven Spielberg",
+      "year": 2021,
+      "tmdb_id": 511809,
+      "imdb_id": "tt3581652",
+      "original_title": "West Side Story",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2396,
+      "title": "tick, tick... BOOM!",
+      "director": "Lin-Manuel Miranda",
+      "year": 2021,
+      "tmdb_id": 537116,
+      "imdb_id": "tt8721424",
+      "original_title": "tick, tick... BOOM!",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2397,
+      "title": "The Tragedy of Macbeth",
+      "director": "Joel Coen",
+      "year": 2021,
+      "tmdb_id": 591538,
+      "imdb_id": "tt10095582",
+      "original_title": "The Tragedy of Macbeth",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2398,
+      "title": "The Eyes of Tammy Faye",
+      "director": "Michael Showalter",
+      "year": 2021,
+      "tmdb_id": 601470,
+      "imdb_id": "tt9115530",
+      "original_title": "The Eyes of Tammy Faye",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2399,
+      "title": "The Lost Daughter",
+      "director": "Maggie Gyllenhaal",
+      "year": 2021,
+      "tmdb_id": 554230,
+      "imdb_id": "tt9100054",
+      "original_title": "The Lost Daughter",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2400,
+      "title": "Parallel Mothers",
+      "director": "Pedro Almodóvar",
+      "year": 2021,
+      "tmdb_id": 766798,
+      "imdb_id": "tt12618926",
+      "original_title": "Madres paralelas",
+      "original_language": "es",
+      "alternate_titles": []
+    },
+    {
+      "id": 2401,
+      "title": "Spencer",
+      "director": "Pablo Larraín",
+      "year": 2021,
+      "tmdb_id": 716612,
+      "imdb_id": "tt12536294",
+      "original_title": "Spencer",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2402,
+      "title": "Summer of Soul (...Or, When the Revolution Could Not Be Televised)",
+      "director": "Questlove",
+      "year": 2021,
+      "tmdb_id": 776527,
+      "imdb_id": "tt7378922",
+      "original_title": "Summer of Soul (...Or, When the Revolution Could Not Be Televised)",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2403,
+      "title": "Ascension",
+      "director": "Jessica Kingdon",
+      "year": 2021,
+      "tmdb_id": 822138,
+      "imdb_id": "tt14505430",
+      "original_title": "Ascension",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2404,
+      "title": "Attica",
+      "director": "Traci A. Curry, Stanley Nelson",
+      "year": 2021,
+      "tmdb_id": 858059,
+      "imdb_id": "tt12482898",
+      "original_title": "Attica",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2405,
+      "title": "Flee",
+      "director": "Jonas Poher Rasmussen",
+      "year": 2021,
+      "tmdb_id": 680813,
+      "imdb_id": "tt8430054",
+      "original_title": "Flugt",
+      "original_language": "da",
+      "alternate_titles": []
+    },
+    {
+      "id": 2406,
+      "title": "Writing with Fire",
+      "director": "Rintu Thomas, Sushmit Ghosh",
+      "year": 2021,
+      "tmdb_id": 776557,
+      "imdb_id": "tt13630174",
+      "original_title": "Writing with Fire",
+      "original_language": "hi",
+      "alternate_titles": []
+    },
+    {
+      "id": 2407,
+      "title": "Encanto",
+      "director": "Byron Howard, Jared Bush",
+      "year": 2021,
+      "tmdb_id": 568124,
+      "imdb_id": "tt2953050",
+      "original_title": "Encanto",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2408,
+      "title": "The Mitchells vs. the Machines",
+      "director": "Mike Rianda",
+      "year": 2021,
+      "tmdb_id": 501929,
+      "imdb_id": "tt7979580",
+      "original_title": "The Mitchells vs. the Machines",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2409,
+      "title": "Raya and the Last Dragon",
+      "director": "Don Hall, Carlos López Estrada",
+      "year": 2021,
+      "tmdb_id": 527774,
+      "imdb_id": "tt5109280",
+      "original_title": "Raya and the Last Dragon",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2410,
+      "title": "Avatar: The Way of Water",
+      "director": "James Cameron",
+      "year": 2022,
+      "tmdb_id": 76600,
+      "imdb_id": "tt1630029",
+      "original_title": "Avatar: The Way of Water",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2411,
+      "title": "Elvis",
+      "director": "Baz Luhrmann",
+      "year": 2022,
+      "tmdb_id": 614934,
+      "imdb_id": "tt3704428",
+      "original_title": "Elvis",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2412,
+      "title": "TÁR",
+      "director": "Todd Field",
+      "year": 2022,
+      "tmdb_id": 817758,
+      "imdb_id": "tt14444726",
+      "original_title": "TÁR",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2413,
+      "title": "Women Talking",
+      "director": "Sarah Polley",
+      "year": 2022,
+      "tmdb_id": 777245,
+      "imdb_id": "tt13669038",
+      "original_title": "Women Talking",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2414,
+      "title": "Aftersun",
+      "director": "Charlotte Wells",
+      "year": 2022,
+      "tmdb_id": 965150,
+      "imdb_id": "tt19770238",
+      "original_title": "Aftersun",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2415,
+      "title": "Living",
+      "director": "Oliver Hermanus",
+      "year": 2022,
+      "tmdb_id": 760099,
+      "imdb_id": "tt9051908",
+      "original_title": "Living",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2416,
+      "title": "Blonde",
+      "director": "Andrew Dominik",
+      "year": 2022,
+      "tmdb_id": 301502,
+      "imdb_id": "tt1655389",
+      "original_title": "Blonde",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2417,
+      "title": "To Leslie",
+      "director": "Michael Morris",
+      "year": 2022,
+      "tmdb_id": 823147,
+      "imdb_id": "tt8129806",
+      "original_title": "To Leslie",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2418,
+      "title": "Causeway",
+      "director": "Lila Neugebauer",
+      "year": 2022,
+      "tmdb_id": 595586,
+      "imdb_id": "tt10192406",
+      "original_title": "Causeway",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2419,
+      "title": "Black Panther: Wakanda Forever",
+      "director": "Ryan Coogler",
+      "year": 2022,
+      "tmdb_id": 505642,
+      "imdb_id": "tt9114286",
+      "original_title": "Black Panther: Wakanda Forever",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2420,
+      "title": "Ireland",
+      "director": "Greg MacGillivray",
+      "year": 2022,
+      "tmdb_id": 1009207,
+      "imdb_id": "tt16677054",
+      "original_title": "Ireland",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2421,
+      "title": "Navalny",
+      "director": "Daniel Roher",
+      "year": 2022,
+      "tmdb_id": 926676,
+      "imdb_id": "tt17041964",
+      "original_title": "Navalny",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2422,
+      "title": "All That Breathes",
+      "director": "Shaunak Sen",
+      "year": 2022,
+      "tmdb_id": 913838,
+      "imdb_id": "tt16377862",
+      "original_title": "All That Breathes",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2423,
+      "title": "All the Beauty and the Bloodshed",
+      "director": "Laura Poitras",
+      "year": 2022,
+      "tmdb_id": 1004663,
+      "imdb_id": "tt21374850",
+      "original_title": "All the Beauty and the Bloodshed",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2424,
+      "title": "Fire of Love",
+      "director": "Sara Dosa",
+      "year": 2022,
+      "tmdb_id": 913823,
+      "imdb_id": "tt16227014",
+      "original_title": "Fire of Love",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2425,
+      "title": "A House Made of Splinters",
+      "director": "Simon Lereng Wilmont",
+      "year": 2023,
+      "tmdb_id": 913743,
+      "imdb_id": "tt16377920",
+      "original_title": "Будинок зі скалок",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2426,
+      "title": "Marcel the Shell with Shoes On",
+      "director": "Dean Fleischer Camp",
+      "year": 2022,
+      "tmdb_id": 869626,
+      "imdb_id": "tt15339456",
+      "original_title": "Marcel the Shell with Shoes On",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2427,
+      "title": "Puss in Boots: The Last Wish",
+      "director": "Joel Crawford",
+      "year": 2022,
+      "tmdb_id": 315162,
+      "imdb_id": "tt3915174",
+      "original_title": "Puss in Boots: The Last Wish",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2428,
+      "title": "The Sea Beast",
+      "director": "Chris Williams",
+      "year": 2022,
+      "tmdb_id": 560057,
+      "imdb_id": "tt9288046",
+      "original_title": "The Sea Beast",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2429,
+      "title": "Turning Red",
+      "director": "Domee Shi",
+      "year": 2022,
+      "tmdb_id": 508947,
+      "imdb_id": "tt8097030",
+      "original_title": "Turning Red",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2430,
+      "title": "Maestro",
+      "director": "Bradley Cooper",
+      "year": 2023,
+      "tmdb_id": 523607,
+      "imdb_id": "tt5535276",
+      "original_title": "Maestro",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2431,
+      "title": "Rustin",
+      "director": "George C. Wolfe",
+      "year": 2023,
+      "tmdb_id": 898713,
+      "imdb_id": "tt14160834",
+      "original_title": "Rustin",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2432,
+      "title": "NYAD",
+      "director": "Jimmy Chin, Elizabeth Chai Vasarhelyi",
+      "year": 2023,
+      "tmdb_id": 895549,
+      "imdb_id": "tt5302918",
+      "original_title": "NYAD",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2433,
+      "title": "The Color Purple",
+      "director": "Blitz Bazawule",
+      "year": 2023,
+      "tmdb_id": 558915,
+      "imdb_id": "tt1200263",
+      "original_title": "The Color Purple",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2434,
+      "title": "May December",
+      "director": "Todd Haynes",
+      "year": 2023,
+      "tmdb_id": 839369,
+      "imdb_id": "tt13651794",
+      "original_title": "May December",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2435,
+      "title": "20 Days in Mariupol",
+      "director": "Mstyslav Chernov",
+      "year": 2023,
+      "tmdb_id": 1058616,
+      "imdb_id": "tt24082438",
+      "original_title": "20 Days in Mariupol",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2436,
+      "title": "Bobi Wine: The People's President",
+      "director": "Christopher Sharp, Moses Bwayo",
+      "year": 2023,
+      "tmdb_id": 1004683,
+      "imdb_id": "tt21376900",
+      "original_title": "Bobi Wine: The People's President",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2437,
+      "title": "The Eternal Memory",
+      "director": "Maite Alberdi",
+      "year": 2023,
+      "tmdb_id": 1032760,
+      "imdb_id": "tt24082488",
+      "original_title": "La memoria infinita",
+      "original_language": "es",
+      "alternate_titles": []
+    },
+    {
+      "id": 2438,
+      "title": "Four Daughters",
+      "director": "Kaouther Ben Hania",
+      "year": 2023,
+      "tmdb_id": 1069193,
+      "imdb_id": "tt27502426",
+      "original_title": "Les Filles d'Olfa",
+      "original_language": "fr",
+      "alternate_titles": []
+    },
+    {
+      "id": 2439,
+      "title": "To Kill a Tiger",
+      "director": "Nisha Pahuja",
+      "year": 2023,
+      "tmdb_id": 1015356,
+      "imdb_id": "tt21688772",
+      "original_title": "To Kill a Tiger",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2440,
+      "title": "The Boy and the Heron",
+      "director": "Hayao Miyazaki",
+      "year": 2023,
+      "tmdb_id": 508883,
+      "imdb_id": "tt6587046",
+      "original_title": "君たちはどう生きるか",
+      "original_language": "ja",
+      "alternate_titles": []
+    },
+    {
+      "id": 2441,
+      "title": "Elemental",
+      "director": "Peter Sohn",
+      "year": 2023,
+      "tmdb_id": 976573,
+      "imdb_id": "tt15789038",
+      "original_title": "Elemental",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2442,
+      "title": "Nimona",
+      "director": "Troy Quane, Nick Bruno",
+      "year": 2023,
+      "tmdb_id": 961323,
+      "imdb_id": "tt19500164",
+      "original_title": "Nimona",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2443,
+      "title": "Robot Dreams",
+      "director": "Pablo Berger",
+      "year": 2023,
+      "tmdb_id": 838240,
+      "imdb_id": "tt13429870",
+      "original_title": "Robot Dreams",
+      "original_language": "es",
+      "alternate_titles": []
+    },
+    {
+      "id": 2444,
+      "title": "Spider-Man: Across the Spider-Verse",
+      "director": "Justin K. Thompson, Kemp Powers, Joaquim Dos Santos",
+      "year": 2023,
+      "tmdb_id": 569094,
+      "imdb_id": "tt9362722",
+      "original_title": "Spider-Man: Across the Spider-Verse",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2445,
+      "title": "Brazil",
+      "director": "Emanuel Gonzalez",
+      "year": 2025,
+      "tmdb_id": 1501171,
+      "imdb_id": null,
+      "original_title": "Brazil2025",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2446,
+      "title": "France",
+      "director": "Mariangela Ciccarello, Philip Cartelli",
+      "year": 2022,
+      "tmdb_id": 992392,
+      "imdb_id": null,
+      "original_title": "France",
+      "original_language": "fr",
+      "alternate_titles": []
+    }
+  ],
+  "unresolved": [
+    {
+      "title": "Minari",
+      "reason": "Expected one title/year/award-credit match; found 0"
+    },
+    {
+      "title": "Denmark",
+      "reason": "Expected one title/year/award-credit match; found 2"
+    },
+    {
+      "title": "Hong Kong",
+      "reason": "Expected one title/year/award-credit match; found 0"
+    },
+    {
+      "title": "Romania",
+      "reason": "Expected one title/year/award-credit match; found 0"
+    },
+    {
+      "title": "Tunisia",
+      "reason": "Expected one title/year/award-credit match; found 0"
+    },
+    {
+      "title": "Bosnia and Herzegovina",
+      "reason": "Expected one title/year/award-credit match; found 0"
+    },
+    {
+      "title": "Crip Camp",
+      "reason": "Expected one title/year/award-credit match; found 0"
+    },
+    {
+      "title": "Time",
+      "reason": "Expected one title/year/award-credit match; found 0"
+    },
+    {
+      "title": "Onward",
+      "reason": "Expected one title/year/award-credit match; found 2"
+    },
+    {
+      "title": "Over the Moon",
+      "reason": "Expected one title/year/award-credit match; found 2"
+    },
+    {
+      "title": "Don't Look Up",
+      "reason": "Expected one title/year/award-credit match; found 2"
+    },
+    {
+      "title": "Dune",
+      "reason": "Expected one title/year/award-credit match; found 2"
+    },
+    {
+      "title": "King Richard",
+      "reason": "Expected one title/year/award-credit match; found 0"
+    },
+    {
+      "title": "Japan",
+      "reason": "Expected one title/year/award-credit match; found 0"
+    },
+    {
+      "title": "Italy",
+      "reason": "Expected one title/year/award-credit match; found 0"
+    },
+    {
+      "title": "Bhutan",
+      "reason": "Expected one title/year/award-credit match; found 0"
+    },
+    {
+      "title": "Norway",
+      "reason": "Expected one title/year/award-credit match; found 0"
+    },
+    {
+      "title": "Luca",
+      "reason": "Expected one title/year/award-credit match; found 4"
+    },
+    {
+      "title": "Everything Everywhere All at Once",
+      "reason": "Expected one title/year/award-credit match; found 0"
+    },
+    {
+      "title": "Germany",
+      "reason": "Expected one title/year/award-credit match; found 0"
+    },
+    {
+      "title": "Argentina",
+      "reason": "Expected one title/year/award-credit match; found 0"
+    },
+    {
+      "title": "Belgium",
+      "reason": "Expected one title/year/award-credit match; found 0"
+    },
+    {
+      "title": "Poland",
+      "reason": "Expected one title/year/award-credit match; found 0"
+    },
+    {
+      "title": "Past Lives",
+      "reason": "Expected one title/year/award-credit match; found 3"
+    },
+    {
+      "title": "United Kingdom",
+      "reason": "Expected one title/year/award-credit match; found 0"
+    },
+    {
+      "title": "Spain",
+      "reason": "Expected one title/year/award-credit match; found 0"
+    },
+    {
+      "title": "Latvia",
+      "reason": "Expected one title/year/award-credit match; found 0"
+    },
+    {
+      "title": "No Other Land",
+      "reason": "Existing director differs: Basel Adra & Yuval Abraham & Hamdan Ballal & Rachel Szor / Rachel Szor, Hamdan Ballal, Yuval Abraham, Basel Adra"
+    },
+    {
+      "title": "Porcelain War",
+      "reason": "Existing director differs: Brendan Bellomo, Slava Leontyev / Slava Leontyev, Brendan Bellomo"
+    },
+    {
+      "title": "Sugarcane",
+      "reason": "Expected one title/year/award-credit match; found 2"
+    },
+    {
+      "title": "Flow",
+      "reason": "Expected one title/year/award-credit match; found 4"
+    }
+  ]
+}
