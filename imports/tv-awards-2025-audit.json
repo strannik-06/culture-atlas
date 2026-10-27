@@ -457,11 +457,11 @@
   "unresolved": [
     {
       "title": "Monsters: The Lyle and Erik Menendez Story",
-      "error": "Missing identity/poster/synopsis"
+      "error": "Existing identity needs explicit reuse"
     },
     {
       "title": "Monsters: The Lyle and Erik Menendez Story",
-      "error": "Missing identity/poster/synopsis"
+      "error": "Existing identity needs explicit reuse"
     }
   ]
 }
