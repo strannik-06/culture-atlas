@@ -172,6 +172,15 @@
       "credit_anchor": "Michelle Williams"
     },
     {
+      "title": "Monsters: The Lyle and Erik Menendez Story",
+      "work_key": "tv:225634",
+      "tmdb_id": 225634,
+      "imdb_id": null,
+      "year": 2024,
+      "method": "Unique TMDB title, premiere year and credited person",
+      "credit_anchor": "Javier Bardem"
+    },
+    {
       "title": "The Penguin",
       "work_key": "tv:194764",
       "tmdb_id": 194764,
@@ -432,6 +441,7 @@
     "tv:250923",
     "tv:83631",
     "tv:241405",
+    "tv:225634",
     "tv:222766",
     "tv:118642",
     "tv:203857",
@@ -454,14 +464,5 @@
     "tv:245256",
     "tv:movie:1238400"
   ],
-  "unresolved": [
-    {
-      "title": "Monsters: The Lyle and Erik Menendez Story",
-      "error": "Existing identity needs explicit reuse"
-    },
-    {
-      "title": "Monsters: The Lyle and Erik Menendez Story",
-      "error": "Existing identity needs explicit reuse"
-    }
-  ]
+  "unresolved": []
 }
