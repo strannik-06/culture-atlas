@@ -3,3 +3,5 @@
 .tv-seasons{margin-top:12px;border-top:1px solid #41485a;padding-top:10px}.tv-seasons summary{cursor:pointer;color:#d3d8e4}.tv-season-row{display:flex;align-items:flex-start;flex-direction:column;gap:4px;margin-top:10px}.tv-season-button{font-size:13px;white-space:normal;text-align:left}.tv-editor #tv-target-label{margin-bottom:18px}.tv-editor #tv-target-label[hidden]{display:none}.tv-editor #tv-target{width:100%;max-width:360px}
 
 #tv-award-tabs{grid-template-columns:repeat(3,minmax(0,1fr))}#tv-awards-grid{display:block}#tv-awards-source{margin-top:30px;line-height:1.7}#tv-awards-grid .tier{top:auto;bottom:10px}#tv-awards-grid .recognition{color:#eeb66c}#tv-awards-grid .controls{margin-top:auto}#tv-awards-grid .body{display:flex;flex-direction:column;flex:1}#tv-awards-grid .film{height:100%}#tv-awards-grid .body>.meta:last-of-type{font-size:12px;margin-top:8px}
+
+#tv-tools[hidden]{display:none}#tv-view:has(#tv-awards-view:not([hidden]))>.hero{padding:32px 0 4px}#tv-view:has(#tv-awards-view:not([hidden]))>.hero h1{font-size:clamp(34px,5vw,52px);letter-spacing:-1.5px}

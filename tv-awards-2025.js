@@ -194,7 +194,7 @@ window.CULTURE_TV_AWARDS = [
         ]
       }
     ],
-    "note": "2025 ceremony edition. Pilot: main programme categories. Recognition applies to the eligible programme/run, not the entire series. Card stars show your series/work rating; season ratings stay separate in Details.",
+    "note": "2025 ceremony edition · Main programme categories. Recognition applies to the eligible run. Stars show your series or programme rating.",
     "works": [
       {
         "id": "tv:83867"
@@ -433,7 +433,7 @@ window.CULTURE_TV_AWARDS = [
         ]
       }
     ],
-    "note": "2025 ceremony edition. Pilot: main programme categories. Recognition applies to the eligible programme/run, not the entire series. Card stars show your series/work rating; season ratings stay separate in Details.",
+    "note": "2025 ceremony edition · Main programme categories. Recognition applies to the eligible run. Stars show your series or programme rating.",
     "works": [
       {
         "id": "tv:222766"
@@ -669,7 +669,7 @@ window.CULTURE_TV_AWARDS = [
         ]
       }
     ],
-    "note": "2025 ceremony edition. Pilot: main programme categories. Recognition applies to the eligible programme/run, not the entire series. Card stars show your series/work rating; season ratings stay separate in Details.",
+    "note": "2025 ceremony edition · Main programme categories. Recognition applies to the eligible run. Stars show your series or programme rating.",
     "works": [
       {
         "id": "tv:218344"
