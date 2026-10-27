@@ -123,3 +123,7 @@ test('Golden Globes historical editions preserve twelve categories, year navigat
 test('Historical Cannes editions display two complete sections and aggregate prizes without duplicate cards',async()=>{
  for(const year of [2021,2022,2023,2024,2025]){const a=await boot(`#/films/awards?event=Cannes&year=${year}`);try{assert.equal(a.$('award-edition-title').textContent,`Cannes ${year}`);assert.equal(a.$('awards-grid').querySelectorAll('.award-category').length,2);assert.equal(a.$('award-years').querySelectorAll('a').length,6);for(const section of a.$('awards-grid').querySelectorAll('.award-category')){const cards=[...section.querySelectorAll('article')];assert.equal(new Set(cards.map(c=>c.dataset.filmId)).size,cards.length);assert.match(cards[0].textContent,/Winner/);}}finally{await a.close();}}
 });
+
+test('Historical Venice editions display two complete sections and aggregate prizes without duplicate cards',async()=>{
+ for(const year of [2021,2022,2023,2024,2025]){const a=await boot(`#/films/awards?event=Venice&year=${year}`);try{assert.equal(a.$('award-edition-title').textContent,`Venice ${year}`);assert.equal(a.$('awards-grid').querySelectorAll('.award-category').length,2);assert.equal(a.$('award-years').querySelectorAll('a').length,6);for(const section of a.$('awards-grid').querySelectorAll('.award-category')){const cards=[...section.querySelectorAll('article')];assert.equal(new Set(cards.map(c=>c.dataset.filmId)).size,cards.length);assert.match(cards[0].textContent,/Winner/);}}finally{await a.close();}}
+});
