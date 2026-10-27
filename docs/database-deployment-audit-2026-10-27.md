@@ -62,3 +62,11 @@ Merging a PR publishes repository/website changes; it does **not** execute Supab
 4. Verify coverage, public readability and unchanged private progress, then record the applied script checksums/status in a dated audit.
 
 No database setup or SQL action remains for the owner from the merged work covered by this audit.
+
+## Berlinale follow-up — 19:21 CET
+
+After PR #114 merged as `5c1a724530b11f89aa706fd28fb3aa426a12b931`, applied and verified `imports/berlinale-2021-2025-catalogue-sync.sql` (SHA-256 `6ddad312595901acb34b525c94f03d26d88f7435c0eb4f49f2a033cfdc5e39cf`). The merged script matched the reviewed local script exactly.
+
+Added 132 public film entries and 132 provider links. Final live counts: 3,268 media catalogue rows and 3,270 provider links. All 132 new identities were checked under the anonymous public role. Existing catalogue/provider rows, private progress, ratings, notes, book records and reading history were preserved, with transaction assertions and independent post-commit fingerprints. See [Berlinale audit](berlinale-2021-2025-audit.md).
+
+No SQL remains pending from the merged work through PR #114.

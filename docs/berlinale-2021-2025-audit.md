@@ -37,7 +37,11 @@ Reviewed exceptions are limited to individual official film URLs in the override
 
 `imports/berlinale-2021-2025-catalogue-sync.sql` registers only the newly verified public catalogue entries and their provider links. It preserves existing rows, can be rerun safely and aborts on identity conflicts. It contains no rating, note or progress writes.
 
-Status: **prepared for review; not yet applied to Supabase**. After merge, apply and verify this SQL before starting another awards batch, including a before/after preservation check on private progress. Record the execution result in a dated deployment audit.
+Status: **applied and verified in Supabase on 2026-10-27 at 19:21 CET**, after PR #114 merged as `5c1a724530b11f89aa706fd28fb3aa426a12b931`.
+
+The executed script matched the merged file byte for byte (SHA-256 `6ddad312595901acb34b525c94f03d26d88f7435c0eb4f49f2a033cfdc5e39cf`). It added 132 catalogue entries and 132 provider links: media catalogue rows increased from 3,136 to 3,268; provider links from 3,138 to 3,270. All 132 new identities resolve to their expected provider links and are readable by the anonymous public role.
+
+The transaction locked relevant tables briefly and asserted that every existing media/provider row and the complete fingerprints of film progress, TV progress, book progress, reading history, external ratings and books were unchanged. Independent post-commit fingerprints also matched. No private values or fingerprints are stored in this report. No schema, privilege, rating or note changes were made. No SQL remains pending from this batch.
 
 ## Validation
 
