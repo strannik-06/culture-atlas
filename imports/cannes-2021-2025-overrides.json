@@ -1,0 +1,55 @@
+{
+  "https://www.festival-cannes.com/en/f/bergman-island/": {
+    "director_aliases": [
+      "Mia Hansen-L\u00f8ve"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/the-french-dispatch/": {
+    "aliases": [
+      "The French Dispatch of the Liberty, Kansas Evening Sun"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/delo/": {
+    "director_aliases": [
+      "Aleksei German Jr."
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/onoda/": {
+    "aliases": [
+      "Onoda: 10,000 Nights in the Jungle"
+    ],
+    "evidence": "https://thirdwindowfilms.com/films/onoda-10000-nights-in-the-jungle/"
+  },
+  "https://www.festival-cannes.com/en/f/walad-min-al-janna/": {
+    "aliases": [
+      "Cairo Conspiracy"
+    ],
+    "evidence": "https://iffr.com/en/iffr/2023/films/cairo-conspiracy"
+  },
+  "https://www.festival-cannes.com/en/f/domingo-y-la-niebla/": {
+    "director_aliases": [
+      "Ariel Escalante"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/black-flies/": {
+    "aliases": [
+      "Asphalt City"
+    ],
+    "evidence": "https://www.filmnation.com/about/media-coverage/paramedic-thriller-black-flies-starring-sean-penn-tye-sheridan-renamed-asphalt-city-as-vertical-and"
+  },
+  "https://www.festival-cannes.com/en/f/augure/": {
+    "director_aliases": [
+      "Baloji Tshiani"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/jeunes-meres/": {
+    "director_aliases": [
+      "Jean-Pierre & Luc Dardenne"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/once-upon-a-time-in-gaza/": {
+    "director_aliases": [
+      "Tarzan & Arab Nasser"
+    ]
+  }
+}

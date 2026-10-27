@@ -1,7 +1,7 @@
 {
   "format": "culture-atlas-metadata-completion-v1",
   "generated_at": "2026-10-20T15:58:07.766Z",
-  "total": 2543,
+  "total": 2671,
   "before": {
     "poster": 2250,
     "overview": 2247,
@@ -431,13 +431,13 @@
     }
   ],
   "after": {
-    "poster": 2543,
-    "overview": 2543,
-    "runtime": 2530,
-    "release_date": 2543,
-    "genres": 2543,
-    "countries": 2541,
-    "cast": 2513
+    "poster": 2671,
+    "overview": 2671,
+    "runtime": 2658,
+    "release_date": 2671,
+    "genres": 2671,
+    "countries": 2669,
+    "cast": 2641
   },
   "initial_before": {
     "poster": 243,
@@ -2601,5 +2601,5 @@
       ]
     }
   ],
-  "catalogue_extension": "Golden Globes 2021–2025: metadata for appended identities; existing audit history preserved"
+  "catalogue_extension": "Cannes 2021–2025: appended identities; earlier audit history preserved"
 }

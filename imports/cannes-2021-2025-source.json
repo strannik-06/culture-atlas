@@ -1,0 +1,2654 @@
+{
+  "events": [
+    {
+      "event": "Cannes",
+      "year": 2021,
+      "section": "Official Selection",
+      "source": "https://www.festival-cannes.com/en/retrospective/2021/selection/",
+      "awardsSource": "https://www.festival-cannes.com/en/retrospective/2021/awards/",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.festival-cannes.com/en/retrospective/2021/selection/",
+          "awardsSource": "https://www.festival-cannes.com/en/retrospective/2021/awards/",
+          "selection": [
+            {
+              "title": "A FELES\u00c9GEM T\u00d6RT\u00c9NETE/THE STORY OF MY WIFE",
+              "aliases": [
+                "THE STORY OF MY WIFE"
+              ],
+              "director": "Ildik\u00f3 ENYEDI",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/a-felesegem-tortenete-the-story-of-my-wife/"
+            },
+            {
+              "title": "ANNETTE",
+              "aliases": [],
+              "director": "Leos CARAX",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/annette/"
+            },
+            {
+              "title": "BENEDETTA",
+              "aliases": [],
+              "director": "Paul VERHOEVEN",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/benedetta/"
+            },
+            {
+              "title": "BERGMAN ISLAND",
+              "aliases": [],
+              "director": "Mia HANSEN-LOVE",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/bergman-island/"
+            },
+            {
+              "title": "DRIVE MY CAR",
+              "aliases": [],
+              "director": "HAMAGUCHI Ryusuke",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/drive-my-car/"
+            },
+            {
+              "title": "FLAG DAY",
+              "aliases": [],
+              "director": "Sean PENN",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/flag-day/"
+            },
+            {
+              "title": "FRANCE",
+              "aliases": [],
+              "director": "Bruno DUMONT",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/france/"
+            },
+            {
+              "title": "GHAHREMAN",
+              "aliases": [
+                "A HERO"
+              ],
+              "director": "Asghar FARHADI",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/ghahreman/"
+            },
+            {
+              "title": "HA\u2019BERECH",
+              "aliases": [
+                "AHED'S KNEE"
+              ],
+              "director": "Nadav LAPID",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/ha-berech/"
+            },
+            {
+              "title": "HAUT ET FORT",
+              "aliases": [
+                "CASABLANCA BEATS"
+              ],
+              "director": "Nabil AYOUCH",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/haut-et-fort/"
+            },
+            {
+              "title": "HYTTI NRO 6",
+              "aliases": [
+                "COMPARTMENT NO. 6"
+              ],
+              "director": "Juho KUOSMANEN",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/hytti-nro-6/"
+            },
+            {
+              "title": "LA FRACTURE",
+              "aliases": [
+                "THE DIVIDE"
+              ],
+              "director": "Catherine CORSINI",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/la-fracture/"
+            },
+            {
+              "title": "LES INTRANQUILLES",
+              "aliases": [
+                "THE RESTLESS"
+              ],
+              "director": "Joachim LAFOSSE",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/les-intranquilles/"
+            },
+            {
+              "title": "LES OLYMPIADES",
+              "aliases": [
+                "PARIS 13TH DISTRICT"
+              ],
+              "director": "Jacques AUDIARD",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/les-olympiades/"
+            },
+            {
+              "title": "LINGUI",
+              "aliases": [
+                "LINGUI, THE SACRED BONDS"
+              ],
+              "director": "Mahamat-Saleh HAROUN",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/lingui/"
+            },
+            {
+              "title": "MEMORIA",
+              "aliases": [],
+              "director": "Apichatpong WEERASETHAKUL",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/memoria/"
+            },
+            {
+              "title": "NITRAM",
+              "aliases": [],
+              "director": "Justin KURZEL",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/nitram/"
+            },
+            {
+              "title": "PETROV\u2019S FLU",
+              "aliases": [],
+              "director": "Kirill SEREBRENNIKOV",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/petrov-s-flu/"
+            },
+            {
+              "title": "RED ROCKET",
+              "aliases": [],
+              "director": "Sean BAKER",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/red-rocket/"
+            },
+            {
+              "title": "THE FRENCH DISPATCH",
+              "aliases": [],
+              "director": "Wes ANDERSON",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/the-french-dispatch/"
+            },
+            {
+              "title": "TITANE",
+              "aliases": [],
+              "director": "Julia DUCOURNAU",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/titane/"
+            },
+            {
+              "title": "TOUT S\u2019EST BIEN PASS\u00c9",
+              "aliases": [
+                "EVERYTHING WENT FINE"
+              ],
+              "director": "Fran\u00e7ois OZON",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/tout-s-est-bien-passe/"
+            },
+            {
+              "title": "TRE PIANI",
+              "aliases": [
+                "THREE FLOORS"
+              ],
+              "director": "Nanni MORETTI",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/tre-piani/"
+            },
+            {
+              "title": "VERDENS VERSTE MENNESKE",
+              "aliases": [
+                "THE WORST PERSON IN THE WORLD"
+              ],
+              "director": "Joachim TRIER",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/verdens-verste-menneske/"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Palme d'or",
+              "entries": [
+                {
+                  "title": "TITANE",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Grand Prix (Ex-Aequo)",
+              "entries": [
+                {
+                  "title": "GHAHREMAN",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Grand Prix (Ex-Aequo)",
+              "entries": [
+                {
+                  "title": "HYTTI NRO 6",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Director",
+              "entries": [
+                {
+                  "title": "ANNETTE",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Screenplay",
+              "entries": [
+                {
+                  "title": "DRIVE MY CAR",
+                  "winner": true,
+                  "people": [
+                    "HAMAGUCHI Ryusuke, Takamasa OE"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Jury Prize  (Ex-Aequo)",
+              "entries": [
+                {
+                  "title": "MEMORIA",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Jury Prize  (Ex-Aequo)",
+              "entries": [
+                {
+                  "title": "HA\u2019BERECH",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Actress",
+              "entries": [
+                {
+                  "title": "VERDENS VERSTE MENNESKE",
+                  "winner": true,
+                  "people": [
+                    "Renate REINSVE"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Actor",
+              "entries": [
+                {
+                  "title": "NITRAM",
+                  "winner": true,
+                  "people": [
+                    "Caleb LANDRY JONES"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Un Certain Regard",
+          "source": "https://www.festival-cannes.com/en/retrospective/2021/selection/",
+          "awardsSource": "https://www.festival-cannes.com/en/retrospective/2021/awards/",
+          "selection": [
+            {
+              "title": "AFTER YANG",
+              "aliases": [],
+              "director": "KOGONADA",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/after-yang/"
+            },
+            {
+              "title": "BAGLILIK HASAN",
+              "aliases": [
+                "COMMITMENT HASAN"
+              ],
+              "director": "Semih KAPLANOGLU",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/baglilik-hasan/"
+            },
+            {
+              "title": "BLUE BAYOU",
+              "aliases": [],
+              "director": "Justin CHON",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/blue-bayou/"
+            },
+            {
+              "title": "BONNE M\u00c8RE",
+              "aliases": [
+                "GOOD MOTHER"
+              ],
+              "director": "Hafsia HERZI",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/bonne-mere/"
+            },
+            {
+              "title": "DELO",
+              "aliases": [
+                "HOUSE ARREST"
+              ],
+              "director": "Aleksey GERMAN JR.",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/delo/"
+            },
+            {
+              "title": "FREDA",
+              "aliases": [],
+              "director": "G\u00e9ssica G\u00c9N\u00c9US",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/freda/"
+            },
+            {
+              "title": "GAEY WA\u2019R",
+              "aliases": [
+                "STREETWISE"
+              ],
+              "director": "Jiazuo NA",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/gaey-wa-r/"
+            },
+            {
+              "title": "GROSSE FREIHEIT",
+              "aliases": [
+                "GREAT FREEDOM"
+              ],
+              "director": "Sebastian MEISE",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/grosse-freiheit/"
+            },
+            {
+              "title": "LA CIVIL",
+              "aliases": [],
+              "director": "Teodora Ana MIHAI",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/la-civil/"
+            },
+            {
+              "title": "LAMB",
+              "aliases": [],
+              "director": "Jo\u0301hannsson VALDIMAR",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/lamb-3/"
+            },
+            {
+              "title": "MES FR\u00c8RES ET MOI",
+              "aliases": [
+                "LA TRAVIATA, MY BROTHERS AND I"
+              ],
+              "director": "Yohan MANCA",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/mes-freres-et-moi/"
+            },
+            {
+              "title": "MONEYBOYS",
+              "aliases": [],
+              "director": "C.B. YI",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/moneyboys/"
+            },
+            {
+              "title": "NOCHE DE FUEGO",
+              "aliases": [
+                "PRAYERS FOR THE STOLEN"
+              ],
+              "director": "Tatiana HUEZO",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/noche-de-fuego/"
+            },
+            {
+              "title": "ONODA",
+              "aliases": [],
+              "director": "Arthur HARARI",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/onoda/"
+            },
+            {
+              "title": "RAZZHIMAYA KULAKI",
+              "aliases": [
+                "UNCLENCHING THE FISTS"
+              ],
+              "director": "Kira Kovalenko",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/razzhimaya-kulaki/"
+            },
+            {
+              "title": "REHANA MARYAM NOOR",
+              "aliases": [],
+              "director": "Abdullah Mohammad SAAD",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/rehana-maryam-noor/"
+            },
+            {
+              "title": "THE INNOCENTS",
+              "aliases": [],
+              "director": "Eskil VOGT",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/the-innocents/"
+            },
+            {
+              "title": "UN MONDE",
+              "aliases": [
+                "PLAYGROUND"
+              ],
+              "director": "Laura WANDEL",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/un-monde/"
+            },
+            {
+              "title": "VAYEHI BOKER",
+              "aliases": [
+                "LET IT BE MORNING"
+              ],
+              "director": "Eran KOLIRIN",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/vayehi-boker/"
+            },
+            {
+              "title": "WOMEN DO CRY",
+              "aliases": [],
+              "director": "Mina MILEVA, Vesela KAZAKOVA",
+              "year": 2021,
+              "source": "https://www.festival-cannes.com/en/f/women-do-cry/"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Un Certain Regard Prize",
+              "entries": [
+                {
+                  "title": "RAZZHIMAYA KULAKI",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Ensemble Prize",
+              "entries": [
+                {
+                  "title": "BONNE M\u00c8RE",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Jury's Prize - Un Certain Regard",
+              "entries": [
+                {
+                  "title": "GROSSE FREIHEIT",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Special mention - Un Certain Regard",
+              "entries": [
+                {
+                  "title": "NOCHE DE FUEGO",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Courage Prize",
+              "entries": [
+                {
+                  "title": "LA CIVIL",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Prize of Originality",
+              "entries": [
+                {
+                  "title": "LAMB",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "unmatched_awards": []
+    },
+    {
+      "event": "Cannes",
+      "year": 2022,
+      "section": "Official Selection",
+      "source": "https://www.festival-cannes.com/en/retrospective/2022/selection/",
+      "awardsSource": "https://www.festival-cannes.com/en/retrospective/2022/awards/",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.festival-cannes.com/en/retrospective/2022/selection/",
+          "awardsSource": "https://www.festival-cannes.com/en/retrospective/2022/awards/",
+          "selection": [
+            {
+              "title": "ARMAGEDDON TIME",
+              "aliases": [],
+              "director": "James GRAY",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/armageddon-time/"
+            },
+            {
+              "title": "BROKER",
+              "aliases": [],
+              "director": "KOREEDA Hirokazu",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/broker/"
+            },
+            {
+              "title": "CLOSE",
+              "aliases": [],
+              "director": "Lukas DHONT",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/close/"
+            },
+            {
+              "title": "CRIMES OF THE FUTURE",
+              "aliases": [],
+              "director": "David CRONENBERG",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/crimes-of-the-future/"
+            },
+            {
+              "title": "EO",
+              "aliases": [],
+              "director": "Jerzy SKOLIMOWSKI",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/eo/"
+            },
+            {
+              "title": "FR\u00c8RE ET SOEUR",
+              "aliases": [
+                "BROTHER AND SISTER"
+              ],
+              "director": "Arnaud DESPLECHIN",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/frere-et-soeur/"
+            },
+            {
+              "title": "HEOJIL KYOLSHIM",
+              "aliases": [
+                "DECISION TO LEAVE"
+              ],
+              "director": "PARK Chan-Wook",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/heojil-kyolshim/"
+            },
+            {
+              "title": "HOLY SPIDER",
+              "aliases": [],
+              "director": "Ali ABBASI",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/holy-spider/"
+            },
+            {
+              "title": "LE OTTO MONTAGNE",
+              "aliases": [
+                "THE EIGHT MOUNTAINS"
+              ],
+              "director": "Charlotte VANDERMEERSCH, Felix VAN GROENINGEN",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/le-otto-montagne/"
+            },
+            {
+              "title": "LEILA\u2019S BROTHERS",
+              "aliases": [],
+              "director": "Saeed ROUSTAEE",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/leila-s-brothers/"
+            },
+            {
+              "title": "LES AMANDIERS",
+              "aliases": [
+                "FOREVER YOUNG"
+              ],
+              "director": "Valeria BRUNI TEDESCHI",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/les-amandiers/"
+            },
+            {
+              "title": "NOSTALGIA",
+              "aliases": [],
+              "director": "Mario MARTONE",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/nostalgia/"
+            },
+            {
+              "title": "PACIFICTION",
+              "aliases": [],
+              "director": "Albert SERRA",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/pacifiction/"
+            },
+            {
+              "title": "R.M.N.",
+              "aliases": [],
+              "director": "Cristian MUNGIU",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/r-m-n/"
+            },
+            {
+              "title": "SHOWING UP",
+              "aliases": [],
+              "director": "Kelly REICHARDT",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/showing-up/"
+            },
+            {
+              "title": "STARS AT NOON",
+              "aliases": [],
+              "director": "Claire DENIS",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/stars-at-noon/"
+            },
+            {
+              "title": "TORI ET LOKITA",
+              "aliases": [
+                "TORI AND LOKITA"
+              ],
+              "director": "Jean-Pierre DARDENNE, Luc DARDENNE",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/tori-et-lokita/"
+            },
+            {
+              "title": "TRIANGLE OF SADNESS",
+              "aliases": [],
+              "director": "Ruben \u00d6STLUND",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/triangle-of-sadness/"
+            },
+            {
+              "title": "UN PETIT FR\u00c8RE",
+              "aliases": [
+                "MOTHER AND SON"
+              ],
+              "director": "L\u00e9onor SERRAILLE",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/un-petit-frere/"
+            },
+            {
+              "title": "WALAD MIN AL JANNA",
+              "aliases": [
+                "BOY FROM HEAVEN"
+              ],
+              "director": "Tarik SALEH",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/walad-min-al-janna/"
+            },
+            {
+              "title": "ZHENA CHAIKOVSKOGO",
+              "aliases": [
+                "TCHA\u00cfKOVSKY'S WIFE"
+              ],
+              "director": "Kirill SEREBRENNIKOV",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/zhena-chaikovskogo/"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Palme d'or",
+              "entries": [
+                {
+                  "title": "TRIANGLE OF SADNESS",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Grand Prix (Ex-Aequo)",
+              "entries": [
+                {
+                  "title": "CLOSE",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Grand Prix (Ex-Aequo)",
+              "entries": [
+                {
+                  "title": "STARS AT NOON",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Director",
+              "entries": [
+                {
+                  "title": "HEOJIL KYOLSHIM",
+                  "winner": true,
+                  "people": [
+                    "PARK Chan-Wook"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Screenplay",
+              "entries": [
+                {
+                  "title": "WALAD MIN AL JANNA",
+                  "winner": true,
+                  "people": [
+                    "Tarik SALEH"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Jury Prize  (Ex-Aequo)",
+              "entries": [
+                {
+                  "title": "LE OTTO MONTAGNE",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Jury Prize  (Ex-Aequo)",
+              "entries": [
+                {
+                  "title": "EO",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "75th Award",
+              "entries": [
+                {
+                  "title": "TORI ET LOKITA",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Actress",
+              "entries": [
+                {
+                  "title": "HOLY SPIDER",
+                  "winner": true,
+                  "people": [
+                    "Zar AMIR EBRAHIMI"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Actor",
+              "entries": [
+                {
+                  "title": "BROKER",
+                  "winner": true,
+                  "people": [
+                    "SONG Kang-Ho"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Un Certain Regard",
+          "source": "https://www.festival-cannes.com/en/retrospective/2022/selection/",
+          "awardsSource": "https://www.festival-cannes.com/en/retrospective/2022/awards/",
+          "selection": [
+            {
+              "title": "BACHENNYA METELYKA",
+              "aliases": [
+                "BUTTERFLY VISION"
+              ],
+              "director": "Maksym NAKONECHNYI",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/bachennya-metelyka/"
+            },
+            {
+              "title": "CORSAGE",
+              "aliases": [],
+              "director": "Marie KREUTZER",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/corsage/"
+            },
+            {
+              "title": "DOMINGO Y LA NIEBLA",
+              "aliases": [
+                "DOMINGO AND THE MIST"
+              ],
+              "director": "Ariel ESCALANTE MEZA",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/domingo-y-la-niebla/"
+            },
+            {
+              "title": "HARKA",
+              "aliases": [],
+              "director": "Lotfy NATHAN",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/harka/"
+            },
+            {
+              "title": "JOYLAND",
+              "aliases": [],
+              "director": "Saim SADIQ",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/joyland/"
+            },
+            {
+              "title": "KURAK G\u00dcNLER",
+              "aliases": [
+                "BURNING DAYS"
+              ],
+              "director": "Emin ALPER",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/kurak-gunler/"
+            },
+            {
+              "title": "LE BLEU DU CAFTAN",
+              "aliases": [
+                "THE BLUE CAFTAN"
+              ],
+              "director": "Maryam TOUZANI",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/le-bleu-du-caftan/"
+            },
+            {
+              "title": "LES PIRES",
+              "aliases": [
+                "THE WORST ONES"
+              ],
+              "director": "Lise AKOKA, Romane GUERET",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/les-pires/"
+            },
+            {
+              "title": "MEDITERRANEAN FEVER",
+              "aliases": [],
+              "director": "Maha HAJ",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/mediterranean-fever/"
+            },
+            {
+              "title": "METRONOM",
+              "aliases": [],
+              "director": "Alexandru BELC",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/metronom/"
+            },
+            {
+              "title": "PLAN 75",
+              "aliases": [],
+              "director": "HAYAKAWA Chie",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/plan-75/"
+            },
+            {
+              "title": "PLUS QUE JAMAIS",
+              "aliases": [
+                "MORE THAN EVER"
+              ],
+              "director": "Emily ATEF",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/plus-que-jamais/"
+            },
+            {
+              "title": "RETOUR \u00c0 S\u00c9OUL",
+              "aliases": [
+                "RETURN TO SEOUL"
+              ],
+              "director": "Davy CHOU",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/retour-a-seoul/"
+            },
+            {
+              "title": "RODEO",
+              "aliases": [],
+              "director": "Lola QUIVORON",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/rodeo/"
+            },
+            {
+              "title": "SYK PIKE",
+              "aliases": [
+                "SICK OF MYSELF"
+              ],
+              "director": "Kristoffer BORGLI",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/syk-pike/"
+            },
+            {
+              "title": "THE SILENT TWINS",
+              "aliases": [],
+              "director": "Agnieszka SMOCZYNSKA",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/the-silent-twins/"
+            },
+            {
+              "title": "THE STRANGER",
+              "aliases": [],
+              "director": "Thomas M WRIGHT",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/the-stranger/"
+            },
+            {
+              "title": "TIRAILLEURS",
+              "aliases": [
+                "FATHER AND SOLDIER"
+              ],
+              "director": "Mathieu VADEPIED",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/tirailleurs/"
+            },
+            {
+              "title": "VANSKABTE LAND / VOLA\u00d0A LAND",
+              "aliases": [
+                "GODLAND"
+              ],
+              "director": "Hlynur P\u00c1LMASON",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/vanskabte-land-volada-land/"
+            },
+            {
+              "title": "WAR PONY",
+              "aliases": [],
+              "director": "Riley KEOUGH, Gina GAMMELL",
+              "year": 2022,
+              "source": "https://www.festival-cannes.com/en/f/war-pony/"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Un Certain Regard Prize",
+              "entries": [
+                {
+                  "title": "LES PIRES",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Jury's Prize - Un Certain Regard",
+              "entries": [
+                {
+                  "title": "JOYLAND",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Best Directing - Un Certain Regard",
+              "entries": [
+                {
+                  "title": "METRONOM",
+                  "winner": true,
+                  "people": [
+                    "Alexandru BELC"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Prize for Best Performance - Un Certain Regard (Ex-Aequo)",
+              "entries": [
+                {
+                  "title": "CORSAGE",
+                  "winner": true,
+                  "people": [
+                    "Vicky KRIEPS"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Prize for Best Performance - Un Certain Regard (Ex-Aequo)",
+              "entries": [
+                {
+                  "title": "HARKA",
+                  "winner": true,
+                  "people": [
+                    "Adam BESSA"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Best Screenplay - Un Certain Regard",
+              "entries": [
+                {
+                  "title": "MEDITERRANEAN FEVER",
+                  "winner": true,
+                  "people": [
+                    "Maha HAJ"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Un Certain Regard Jury's \"Coup de Coeur\"",
+              "entries": [
+                {
+                  "title": "RODEO",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Cam\u00e9ra d'or",
+              "entries": [
+                {
+                  "title": "WAR PONY",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Cam\u00e9ra d'Or Special Distinction",
+              "entries": [
+                {
+                  "title": "PLAN 75",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "unmatched_awards": []
+    },
+    {
+      "event": "Cannes",
+      "year": 2023,
+      "section": "Official Selection",
+      "source": "https://www.festival-cannes.com/en/retrospective/2023/selection/",
+      "awardsSource": "https://www.festival-cannes.com/en/retrospective/2023/awards/",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.festival-cannes.com/en/retrospective/2023/selection/",
+          "awardsSource": "https://www.festival-cannes.com/en/retrospective/2023/awards/",
+          "selection": [
+            {
+              "title": "ANATOMIE D\u2019UNE CHUTE",
+              "aliases": [
+                "ANATOMY OF A FALL"
+              ],
+              "director": "Justine TRIET",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/anatomie-d-une-chute/"
+            },
+            {
+              "title": "ASTEROID CITY",
+              "aliases": [],
+              "director": "Wes ANDERSON",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/asteroid-city/"
+            },
+            {
+              "title": "BANEL E ADAMA",
+              "aliases": [
+                "BANEL & ADAMA"
+              ],
+              "director": "Ramata-Toulaye SY",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/banel-e-adama/"
+            },
+            {
+              "title": "BLACK FLIES",
+              "aliases": [],
+              "director": "Jean-St\u00e9phane SAUVAIRE",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/black-flies/"
+            },
+            {
+              "title": "CLUB ZERO",
+              "aliases": [],
+              "director": "Jessica HAUSNER",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/club-zero/"
+            },
+            {
+              "title": "FIREBRAND",
+              "aliases": [],
+              "director": "Karim A\u00cfNOUZ",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/firebrand/"
+            },
+            {
+              "title": "IL SOL DELL\u2019AVVENIRE",
+              "aliases": [
+                "A BRIGHTER TOMORROW"
+              ],
+              "director": "Nanni MORETTI",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/il-sol-dell-avvenire/"
+            },
+            {
+              "title": "KAIBUTSU",
+              "aliases": [
+                "MONSTER"
+              ],
+              "director": "KOREEDA Hirokazu",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/kaibutsu/"
+            },
+            {
+              "title": "KUOLLEET LEHDET",
+              "aliases": [
+                "FALLEN LEAVES"
+              ],
+              "director": "Aki KAURISMAKI",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/kuolleet-lehdet/"
+            },
+            {
+              "title": "KURU OTLAR USTUNE",
+              "aliases": [
+                "ABOUT DRY GRASSES"
+              ],
+              "director": "Nuri Bilge CEYLAN",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/kuru-otlar-ustune/"
+            },
+            {
+              "title": "L\u2019\u00c9T\u00c9 DERNIER",
+              "aliases": [
+                "LAST SUMMER"
+              ],
+              "director": "Catherine BREILLAT",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/l-ete-dernier/"
+            },
+            {
+              "title": "LA CHIMERA",
+              "aliases": [],
+              "director": "Alice ROHRWACHER",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/la-chimera/"
+            },
+            {
+              "title": "LA PASSION DE DODIN BOUFFANT",
+              "aliases": [
+                "THE TASTE OF THINGS"
+              ],
+              "director": "TRAN ANH H\u00f9ng",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/la-passion-de-dodin-bouffant/"
+            },
+            {
+              "title": "LE RETOUR",
+              "aliases": [
+                "HOMECOMING"
+              ],
+              "director": "Catherine CORSINI",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/le-retour/"
+            },
+            {
+              "title": "LES FILLES D\u2019OLFA",
+              "aliases": [
+                "FOUR DAUGHTERS"
+              ],
+              "director": "Kaouther BEN HANIA",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/les-filles-d-olfa/"
+            },
+            {
+              "title": "MAY DECEMBER",
+              "aliases": [],
+              "director": "Todd HAYNES",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/may-december/"
+            },
+            {
+              "title": "PERFECT DAYS",
+              "aliases": [],
+              "director": "Wim WENDERS",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/perfect-days/"
+            },
+            {
+              "title": "QING CHUN (CHUN)",
+              "aliases": [
+                "YOUTH (SPRING"
+              ],
+              "director": "WANG Bing",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/qing-chun-chun/"
+            },
+            {
+              "title": "RAPITO",
+              "aliases": [
+                "KIDNAPPED"
+              ],
+              "director": "Marco BELLOCCHIO",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/rapito/"
+            },
+            {
+              "title": "THE OLD OAK",
+              "aliases": [],
+              "director": "Ken LOACH",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/the-old-oak/"
+            },
+            {
+              "title": "THE ZONE OF INTEREST",
+              "aliases": [],
+              "director": "Jonathan GLAZER",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/the-zone-of-interest/"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Palme d'or",
+              "entries": [
+                {
+                  "title": "ANATOMIE D\u2019UNE CHUTE",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Grand Prix",
+              "entries": [
+                {
+                  "title": "THE ZONE OF INTEREST",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Director",
+              "entries": [
+                {
+                  "title": "LA PASSION DE DODIN BOUFFANT",
+                  "winner": true,
+                  "people": [
+                    "TRAN ANH H\u00f9ng"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Screenplay",
+              "entries": [
+                {
+                  "title": "KAIBUTSU",
+                  "winner": true,
+                  "people": [
+                    "Yuji SAKAMOTO"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Jury Prize",
+              "entries": [
+                {
+                  "title": "KUOLLEET LEHDET",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Actress",
+              "entries": [
+                {
+                  "title": "KURU OTLAR USTUNE",
+                  "winner": true,
+                  "people": [
+                    "Merve DIZDAR"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Actor",
+              "entries": [
+                {
+                  "title": "PERFECT DAYS",
+                  "winner": true,
+                  "people": [
+                    "Koji YAKUSHO"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Un Certain Regard",
+          "source": "https://www.festival-cannes.com/en/retrospective/2023/selection/",
+          "awardsSource": "https://www.festival-cannes.com/en/retrospective/2023/awards/",
+          "selection": [
+            {
+              "title": "AUGURE",
+              "aliases": [
+                "OMEN"
+              ],
+              "director": "BALOJI",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/augure/"
+            },
+            {
+              "title": "AYEH HAYE ZAMINI",
+              "aliases": [
+                "TERRESTRIAL VERSES"
+              ],
+              "director": "Ali ASGARI, Alireza KHATAMI",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/ayeh-haye-zamini/"
+            },
+            {
+              "title": "CROWR\u00c3",
+              "aliases": [
+                "THE BURITI FLOWER"
+              ],
+              "director": "Jo\u00e3o SALAVIZA, Ren\u00e9e NADER MESSORA",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/crowra/"
+            },
+            {
+              "title": "GOODBYE JULIA",
+              "aliases": [],
+              "director": "Mohamed KORDOFANI",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/goodbye-julia/"
+            },
+            {
+              "title": "HE BIAN DE CUO WU",
+              "aliases": [
+                "ONLY THE RIVER FLOWS"
+              ],
+              "director": "WEI Shujun",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/he-bian-de-cuo-wu/"
+            },
+            {
+              "title": "HOPELESS",
+              "aliases": [],
+              "director": "Chang-Hoon KIM",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/hwa-ran/"
+            },
+            {
+              "title": "HOW TO HAVE SEX",
+              "aliases": [],
+              "director": "Molly MANNING-WALKER",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/how-to-have-sex/"
+            },
+            {
+              "title": "IF ONLY I COULD HIBERNATE",
+              "aliases": [],
+              "director": "Zoljargal PUREVDASH",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/if-only-i-could-hibernate/"
+            },
+            {
+              "title": "KADIB ABYAD",
+              "aliases": [
+                "THE MOTHER OF ALL LIES"
+              ],
+              "director": "Asmae EL MOUDIR",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/kadib-abyad/"
+            },
+            {
+              "title": "LE R\u00c8GNE ANIMAL",
+              "aliases": [],
+              "director": "Thomas CAILLEY",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/le-regne-animal/"
+            },
+            {
+              "title": "LES MEUTES",
+              "aliases": [
+                "HOUNDS"
+              ],
+              "director": "Kamal LAZRAQ",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/les-meutes/"
+            },
+            {
+              "title": "LOS COLONOS",
+              "aliases": [
+                "THE SETTLERS"
+              ],
+              "director": "Felipe G\u00c1LVEZ",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/los-colonos/"
+            },
+            {
+              "title": "LOS DELINCUENTES",
+              "aliases": [
+                "THE DELINQUENTS"
+              ],
+              "director": "Rodrigo MORENO",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/los-delincuentes/"
+            },
+            {
+              "title": "RIEN \u00c0 PERDRE",
+              "aliases": [],
+              "director": "Delphine DELOGET",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/rien-a-perdre/"
+            },
+            {
+              "title": "ROSALIE",
+              "aliases": [],
+              "director": "St\u00e9phanie DI GIUSTO",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/rosalie/"
+            },
+            {
+              "title": "SALEM",
+              "aliases": [],
+              "director": "Jean-Bernard MARLIN",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/salem/"
+            },
+            {
+              "title": "SIMPLE COMME SYLVAIN",
+              "aliases": [
+                "THE NATURE OF LOVE"
+              ],
+              "director": "Monia CHOKRI",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/simple-comme-sylvain/"
+            },
+            {
+              "title": "THE BREAKING ICE",
+              "aliases": [],
+              "director": "Anthony CHEN",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/ran-dong/"
+            },
+            {
+              "title": "THE NEW BOY",
+              "aliases": [],
+              "director": "Warwick THORNTON",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/the-new-boy/"
+            },
+            {
+              "title": "UNE NUIT",
+              "aliases": [
+                "STRANGERS BY NIGHT"
+              ],
+              "director": "Alex LUTZ",
+              "year": 2023,
+              "source": "https://www.festival-cannes.com/en/f/une-nuit/"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Un Certain Regard Prize",
+              "entries": [
+                {
+                  "title": "HOW TO HAVE SEX",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "New Voice Prize",
+              "entries": [
+                {
+                  "title": "AUGURE",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Ensemble Prize",
+              "entries": [
+                {
+                  "title": "CROWR\u00c3",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Jury's Prize - Un Certain Regard",
+              "entries": [
+                {
+                  "title": "LES MEUTES",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Freedom Prize",
+              "entries": [
+                {
+                  "title": "GOODBYE JULIA",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Best Directing - Un Certain Regard",
+              "entries": [
+                {
+                  "title": "KADIB ABYAD",
+                  "winner": true,
+                  "people": [
+                    "Asmae EL MOUDIR"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "unmatched_awards": []
+    },
+    {
+      "event": "Cannes",
+      "year": 2024,
+      "section": "Official Selection",
+      "source": "https://www.festival-cannes.com/en/retrospective/2024/selection/",
+      "awardsSource": "https://www.festival-cannes.com/en/retrospective/2024/awards/",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.festival-cannes.com/en/retrospective/2024/selection/",
+          "awardsSource": "https://www.festival-cannes.com/en/retrospective/2024/awards/",
+          "selection": [
+            {
+              "title": "ALL WE IMAGINE AS LIGHT",
+              "aliases": [],
+              "director": "Payal KAPADIA",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/all-we-imagine-as-light/"
+            },
+            {
+              "title": "ANORA",
+              "aliases": [],
+              "director": "Sean BAKER",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/anora/"
+            },
+            {
+              "title": "BIRD",
+              "aliases": [],
+              "director": "Andrea ARNOLD",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/bird-2/"
+            },
+            {
+              "title": "DIAMANT BRUT",
+              "aliases": [
+                "WILD DIAMOND"
+              ],
+              "director": "Agathe RIEDINGER",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/diamant-brut/"
+            },
+            {
+              "title": "EMILIA P\u00c9REZ",
+              "aliases": [],
+              "director": "Jacques AUDIARD",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/emilia-perez/"
+            },
+            {
+              "title": "FENG LIU YI DAI",
+              "aliases": [
+                "CAUGHT BY THE TIDES"
+              ],
+              "director": "JIA Zhang-Ke",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/feng-liu-yi-dai/"
+            },
+            {
+              "title": "GRAND TOUR",
+              "aliases": [],
+              "director": "Miguel GOMES",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/grand-tour/"
+            },
+            {
+              "title": "KINDS OF KINDNESS",
+              "aliases": [],
+              "director": "Yorgos LANTHIMOS",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/kinds-of-kindness/"
+            },
+            {
+              "title": "L\u2019AMOUR OUF",
+              "aliases": [
+                "BEATING HEARTS"
+              ],
+              "director": "Gilles LELLOUCHE",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/l-amour-ouf/"
+            },
+            {
+              "title": "LA PLUS PR\u00c9CIEUSE DES MARCHANDISES",
+              "aliases": [
+                "THE MOST PRECIOUS OF CARGOES"
+              ],
+              "director": "Michel HAZANAVICIUS",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/la-plus-precieuse-des-marchandises/"
+            },
+            {
+              "title": "LIMONOV \u2013 THE BALLAD",
+              "aliases": [],
+              "director": "Kirill SEREBRENNIKOV",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/limonov-the-ballad/"
+            },
+            {
+              "title": "MARCELLO MIO",
+              "aliases": [],
+              "director": "Christophe HONOR\u00c9",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/marcello-mio/"
+            },
+            {
+              "title": "MEGALOPOLIS",
+              "aliases": [],
+              "director": "Francis Ford COPPOLA",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/megalopolis/"
+            },
+            {
+              "title": "MOTEL DESTINO",
+              "aliases": [],
+              "director": "Karim A\u00cfNOUZ",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/motel-destino/"
+            },
+            {
+              "title": "OH, CANADA",
+              "aliases": [],
+              "director": "Paul SCHRADER",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/oh-canada/"
+            },
+            {
+              "title": "PARTHENOPE",
+              "aliases": [],
+              "director": "Paolo SORRENTINO",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/parthenope/"
+            },
+            {
+              "title": "PIGEN MED N\u00c5LEN",
+              "aliases": [
+                "THE GIRL WITH THE NEEDLE"
+              ],
+              "director": "Magnus VON HORN",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/pigen-med-nalen/"
+            },
+            {
+              "title": "THE APPRENTICE",
+              "aliases": [],
+              "director": "Ali ABBASI",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/the-apprentice/"
+            },
+            {
+              "title": "THE SEED OF THE SACRED FIG",
+              "aliases": [],
+              "director": "Mohammad RASOULOF",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/the-seed-of-the-sacred-fig/"
+            },
+            {
+              "title": "THE SHROUDS",
+              "aliases": [],
+              "director": "David CRONENBERG",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/the-shrouds/"
+            },
+            {
+              "title": "THE SUBSTANCE",
+              "aliases": [],
+              "director": "Coralie FARGEAT",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/the-substance/"
+            },
+            {
+              "title": "TREI KILOMETRI PANA LA CAPATUL LUMII",
+              "aliases": [
+                "THREE KILOMETRES TO THE END OF THE WORLD"
+              ],
+              "director": "Emanuel PARVU",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/trei-kilometri-pana-la-capatul-lumii/"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Palme d'or",
+              "entries": [
+                {
+                  "title": "ANORA",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Grand Prix",
+              "entries": [
+                {
+                  "title": "ALL WE IMAGINE AS LIGHT",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Director",
+              "entries": [
+                {
+                  "title": "GRAND TOUR",
+                  "winner": true,
+                  "people": [
+                    "Miguel GOMES"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Screenplay",
+              "entries": [
+                {
+                  "title": "THE SUBSTANCE",
+                  "winner": true,
+                  "people": [
+                    "Coralie FARGEAT"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Jury Prize",
+              "entries": [
+                {
+                  "title": "EMILIA P\u00c9REZ",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Actress",
+              "source": "https://www.festival-cannes.com/en/press/press-releases/the-77th-festival-de-cannes-winners-list/",
+              "entries": [
+                {
+                  "title": "EMILIA P\u00c9REZ",
+                  "winner": true,
+                  "people": [
+                    "Adriana Paz",
+                    "Zoe Salda\u00f1a",
+                    "Karla Sof\u00eda Gasc\u00f3n",
+                    "Selena Gomez"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Actor",
+              "entries": [
+                {
+                  "title": "KINDS OF KINDNESS",
+                  "winner": true,
+                  "people": [
+                    "Jesse PLEMONS"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Special Prize",
+              "entries": [
+                {
+                  "title": "THE SEED OF THE SACRED FIG",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Un Certain Regard",
+          "source": "https://www.festival-cannes.com/en/retrospective/2024/selection/",
+          "awardsSource": "https://www.festival-cannes.com/en/retrospective/2024/awards/",
+          "selection": [
+            {
+              "title": "ARMAND",
+              "aliases": [],
+              "director": "Halfdan ULLMANN T\u00d8NDEL",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/armand/"
+            },
+            {
+              "title": "FLOW",
+              "aliases": [],
+              "director": "Gints ZILBALODIS",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/flow/"
+            },
+            {
+              "title": "GOU ZHEN",
+              "aliases": [
+                "BLACK DOG"
+              ],
+              "director": "GUAN Hu",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/gou-zhen/"
+            },
+            {
+              "title": "L\u2019HISTOIRE DE SOULEYMANE",
+              "aliases": [],
+              "director": "Boris LOJKINE",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/l-histoire-de-souleymane/"
+            },
+            {
+              "title": "LE PROC\u00c8S DU CHIEN",
+              "aliases": [
+                "DOG ON TRIAL"
+              ],
+              "director": "Laetitia DOSCH",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/le-proces-du-chien/"
+            },
+            {
+              "title": "LE ROYAUME",
+              "aliases": [
+                "THE KINGDOM"
+              ],
+              "director": "Julien COLONNA",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/le-royaume/"
+            },
+            {
+              "title": "LJ\u00d3SBROT",
+              "aliases": [
+                "WHEN THE LIGHT BREAKS"
+              ],
+              "director": "R\u00fanar R\u00daNARSSON",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/ljosbrot/"
+            },
+            {
+              "title": "MY SUNSHINE",
+              "aliases": [],
+              "director": "Hiroshi OKUYAMA",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/my-sunshine/"
+            },
+            {
+              "title": "NIKI",
+              "aliases": [],
+              "director": "C\u00e9line SALLETTE",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/niki/"
+            },
+            {
+              "title": "NORAH",
+              "aliases": [],
+              "director": "Tawfik ALZAIDI",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/norah/"
+            },
+            {
+              "title": "ON BECOMING A GUINEA FOWL",
+              "aliases": [],
+              "director": "Rungano NYONI",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/on-becoming-a-guinea-fowl/"
+            },
+            {
+              "title": "SANTOSH",
+              "aliases": [],
+              "director": "Sandhya SURI",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/santosh/"
+            },
+            {
+              "title": "SEPTEMBER SAYS",
+              "aliases": [],
+              "director": "Ariane LABED",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/september-says/"
+            },
+            {
+              "title": "THE DAMNED",
+              "aliases": [],
+              "director": "Roberto MINERVINI",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/the-damned/"
+            },
+            {
+              "title": "THE SHAMELESS",
+              "aliases": [],
+              "director": "Konstantin BOJANOV",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/the-shameless/"
+            },
+            {
+              "title": "THE VILLAGE NEXT TO PARADISE",
+              "aliases": [],
+              "director": "Mo HARAWE",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/the-village-next-to-paradise/"
+            },
+            {
+              "title": "VIET AND NAM",
+              "aliases": [],
+              "director": "TRUONG Minh Qu\u00fd",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/viet-and-nam/"
+            },
+            {
+              "title": "VINGT DIEUX",
+              "aliases": [
+                "HOLY COW"
+              ],
+              "director": "Louise COURVOISIER",
+              "year": 2024,
+              "source": "https://www.festival-cannes.com/en/f/vingt-dieux/"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Un Certain Regard Prize",
+              "entries": [
+                {
+                  "title": "GOU ZHEN",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Jury's Prize - Un Certain Regard",
+              "entries": [
+                {
+                  "title": "L\u2019HISTOIRE DE SOULEYMANE",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Best Director - Un Certain Regard (Ex-Aequo)",
+              "entries": [
+                {
+                  "title": "THE DAMNED",
+                  "winner": true,
+                  "people": [
+                    "Roberto MINERVINI"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Best Director - Un Certain Regard (Ex-Aequo)",
+              "entries": [
+                {
+                  "title": "ON BECOMING A GUINEA FOWL",
+                  "winner": true,
+                  "people": [
+                    "Rungano NYONI"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Best Actress - Un Certain Regard",
+              "entries": [
+                {
+                  "title": "THE SHAMELESS",
+                  "winner": true,
+                  "people": [
+                    "Anasuya SENGUPTA"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Best Actor - Un Certain Regard",
+              "entries": [
+                {
+                  "title": "L\u2019HISTOIRE DE SOULEYMANE",
+                  "winner": true,
+                  "people": [
+                    "Abou SANGARE"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Youth Award",
+              "entries": [
+                {
+                  "title": "VINGT DIEUX",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Special mention - Un Certain Regard",
+              "entries": [
+                {
+                  "title": "NORAH",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Cam\u00e9ra d'or",
+              "entries": [
+                {
+                  "title": "ARMAND",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "unmatched_awards": [],
+      "supplemental_sources": [
+        "https://www.festival-cannes.com/en/press/press-releases/the-77th-festival-de-cannes-winners-list/"
+      ]
+    },
+    {
+      "event": "Cannes",
+      "year": 2025,
+      "section": "Official Selection",
+      "source": "https://www.festival-cannes.com/en/retrospective/2025/selection/",
+      "awardsSource": "https://www.festival-cannes.com/en/retrospective/2025/awards/",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.festival-cannes.com/en/retrospective/2025/selection/",
+          "awardsSource": "https://www.festival-cannes.com/en/retrospective/2025/awards/",
+          "selection": [
+            {
+              "title": "AFFEKSJONSVERDI",
+              "aliases": [
+                "SENTIMENTAL VALUE"
+              ],
+              "director": "Joachim TRIER",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/affeksjonsverdi/"
+            },
+            {
+              "title": "ALPHA",
+              "aliases": [],
+              "director": "Julia DUCOURNAU",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/alpha/"
+            },
+            {
+              "title": "DIE MY LOVE",
+              "aliases": [],
+              "director": "Lynne RAMSAY",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/die-my-love/"
+            },
+            {
+              "title": "DOSSIER 137",
+              "aliases": [
+                "CASE 137"
+              ],
+              "director": "Dominik MOLL",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/dossier-137/"
+            },
+            {
+              "title": "EAGLES OF THE REPUBLIC",
+              "aliases": [],
+              "director": "Tarik SALEH",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/eagles-of-the-republic/"
+            },
+            {
+              "title": "EDDINGTON",
+              "aliases": [],
+              "director": "Ari ASTER",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/eddington/"
+            },
+            {
+              "title": "FUORI",
+              "aliases": [],
+              "director": "Mario MARTONE",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/fuori/"
+            },
+            {
+              "title": "JEUNES M\u00c8RES",
+              "aliases": [],
+              "director": "Jean-Pierre DARDENNE, Luc DARDENNE",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/jeunes-meres/"
+            },
+            {
+              "title": "KUANG YE SHI DAI",
+              "aliases": [
+                "RESURRECTION"
+              ],
+              "director": "BI Gan",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/kuang-ye-shi-dai/"
+            },
+            {
+              "title": "LA PETITE DERNI\u00c8RE",
+              "aliases": [],
+              "director": "Hafsia HERZI",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/la-petite-derniere/"
+            },
+            {
+              "title": "NOUVELLE VAGUE",
+              "aliases": [
+                "NEW WAVE"
+              ],
+              "director": "Richard LINKLATER",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/nouvelle-vague-2/"
+            },
+            {
+              "title": "O AGENTE SECRETO",
+              "aliases": [
+                "THE SECRET AGENT"
+              ],
+              "director": "Kleber MENDON\u00c7A FILHO",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/o-agente-secreto/"
+            },
+            {
+              "title": "RENOIR",
+              "aliases": [],
+              "director": "HAYAKAWA Chie",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/renoir-2/"
+            },
+            {
+              "title": "ROMER\u00cdA",
+              "aliases": [
+                "ROMERIA"
+              ],
+              "director": "Carla SIM\u00d3N",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/romeria/"
+            },
+            {
+              "title": "SIR\u00c2T",
+              "aliases": [],
+              "director": "Oliver LAXE",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/sirat/"
+            },
+            {
+              "title": "SOUND OF FALLING",
+              "aliases": [
+                "IN DIE SONNE SCHAUEN"
+              ],
+              "director": "Mascha SCHILINSKI",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/sound-of-falling/"
+            },
+            {
+              "title": "THE HISTORY OF SOUND",
+              "aliases": [],
+              "director": "Oliver HERMANUS",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/the-history-of-sound/"
+            },
+            {
+              "title": "THE MASTERMIND",
+              "aliases": [],
+              "director": "Kelly REICHARDT",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/the-mastermind/"
+            },
+            {
+              "title": "THE PHOENICIAN SCHEME",
+              "aliases": [],
+              "director": "Wes ANDERSON",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/the-phoenician-scheme/"
+            },
+            {
+              "title": "TWO PROSECUTORS",
+              "aliases": [],
+              "director": "Sergei LOZNITSA",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/two-prosecutors/"
+            },
+            {
+              "title": "UN SIMPLE ACCIDENT",
+              "aliases": [],
+              "director": "Jafar PANAHI",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/un-simple-accident/"
+            },
+            {
+              "title": "ZAN O BACHEH",
+              "aliases": [
+                "WOMAN AND CHILD"
+              ],
+              "director": "Saeed ROUSTAEE",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/zan-o-bacheh/"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Palme d'or",
+              "entries": [
+                {
+                  "title": "UN SIMPLE ACCIDENT",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Grand Prix",
+              "entries": [
+                {
+                  "title": "AFFEKSJONSVERDI",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Director",
+              "entries": [
+                {
+                  "title": "O AGENTE SECRETO",
+                  "winner": true,
+                  "people": [
+                    "Kleber MENDON\u00c7A FILHO"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Screenplay",
+              "entries": [
+                {
+                  "title": "JEUNES M\u00c8RES",
+                  "winner": true,
+                  "people": [
+                    "Jean-Pierre DARDENNE, Luc DARDENNE"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Jury Prize  (Ex-Aequo)",
+              "entries": [
+                {
+                  "title": "SIR\u00c2T",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Jury Prize  (Ex-Aequo)",
+              "entries": [
+                {
+                  "title": "SOUND OF FALLING",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Actress",
+              "entries": [
+                {
+                  "title": "LA PETITE DERNI\u00c8RE",
+                  "winner": true,
+                  "people": [
+                    "Nadia MELLITI"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Actor",
+              "entries": [
+                {
+                  "title": "O AGENTE SECRETO",
+                  "winner": true,
+                  "people": [
+                    "Wagner MOURA"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Special Prize",
+              "entries": [
+                {
+                  "title": "KUANG YE SHI DAI",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Un Certain Regard",
+          "source": "https://www.festival-cannes.com/en/retrospective/2025/selection/",
+          "awardsSource": "https://www.festival-cannes.com/en/retrospective/2025/awards/",
+          "selection": [
+            {
+              "title": "AISHA CAN\u2019T FLY AWAY",
+              "aliases": [],
+              "director": "Morad MOSTAFA",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/aisha-can-t-fly-away/"
+            },
+            {
+              "title": "ELEANOR THE GREAT",
+              "aliases": [],
+              "director": "Scarlett JOHANSSON",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/eleanor-the-great/"
+            },
+            {
+              "title": "HOMEBOUND",
+              "aliases": [],
+              "director": "Neeraj GHAYWAN",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/homebound/"
+            },
+            {
+              "title": "KARAVAN",
+              "aliases": [
+                "CARAVAN"
+              ],
+              "director": "Zuzana KIRCHNEROV\u00c1",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/karavan/"
+            },
+            {
+              "title": "L\u2019INCONNU DE LA GRANDE ARCHE",
+              "aliases": [
+                "THE GREAT ARCH"
+              ],
+              "director": "St\u00e9phane DEMOUSTIER",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/l-inconnu-de-la-grande-arche/"
+            },
+            {
+              "title": "LA MISTERIOSA MIRADA DEL FLAMENCO",
+              "aliases": [
+                "THE MYSTERIOUS GAZE OF THE FLAMINGO"
+              ],
+              "director": "Diego C\u00c9SPEDES",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/la-misteriosa-mirada-del-flamenco/"
+            },
+            {
+              "title": "LE CITT\u00c0 DI PIANURA",
+              "aliases": [
+                "THE LAST ONE FOR THE ROAD"
+              ],
+              "director": "Francesco SOSSAI",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/le-citta-di-pianura/"
+            },
+            {
+              "title": "LOVE ME TENDER",
+              "aliases": [],
+              "director": "Anna CAZENAVE CAMBET",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/love-me-tender/"
+            },
+            {
+              "title": "MY FATHER\u2019S SHADOW",
+              "aliases": [],
+              "director": "Akinola DAVIES JR",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/my-father-s-shadow/"
+            },
+            {
+              "title": "M\u00c9T\u00c9ORS",
+              "aliases": [
+                "METEORS"
+              ],
+              "director": "Hubert CHARUEL",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/meteors/"
+            },
+            {
+              "title": "O RISO E A FACA",
+              "aliases": [
+                "I ONLY REST IN THE STORM"
+              ],
+              "director": "Pedro PINHO",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/o-riso-e-a-faca/"
+            },
+            {
+              "title": "ONCE UPON A TIME IN GAZA",
+              "aliases": [],
+              "director": "Arab NASSER, Tarzan NASSER",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/once-upon-a-time-in-gaza/"
+            },
+            {
+              "title": "PILLION",
+              "aliases": [],
+              "director": "Harry LIGHTON",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/pillion/"
+            },
+            {
+              "title": "PROMIS LE CIEL",
+              "aliases": [
+                "PROMISED SKY"
+              ],
+              "director": "Erige SEHIRI",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/promis-le-ciel/"
+            },
+            {
+              "title": "TESTA O CROCE?",
+              "aliases": [
+                "HEADS OR TAILS?"
+              ],
+              "director": "Matteo ZOPPIS, Alessio RIGO DE RIGHI",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/testa-o-croce/"
+            },
+            {
+              "title": "THE CHRONOLOGY OF WATER",
+              "aliases": [],
+              "director": "Kristen STEWART",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/the-chronology-of-water/"
+            },
+            {
+              "title": "THE PLAGUE",
+              "aliases": [],
+              "director": "Charlie POLINGER",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/the-plague/"
+            },
+            {
+              "title": "T\u00d4I YAMANAMINO HIKARI",
+              "aliases": [
+                "A PALE VIEW OF HILLS"
+              ],
+              "director": "Kei ISHIKAWA",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/toi-yamanamino-hikari/"
+            },
+            {
+              "title": "UN POETA",
+              "aliases": [
+                "A POET"
+              ],
+              "director": "Sim\u00f3n MESA SOTO",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/un-poeta/"
+            },
+            {
+              "title": "URCHIN",
+              "aliases": [],
+              "director": "Harris DICKINSON",
+              "year": 2025,
+              "source": "https://www.festival-cannes.com/en/f/urchin/"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Un Certain Regard Prize",
+              "entries": [
+                {
+                  "title": "LA MISTERIOSA MIRADA DEL FLAMENCO",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Jury's Prize - Un Certain Regard",
+              "entries": [
+                {
+                  "title": "UN POETA",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Best Directing - Un Certain Regard",
+              "entries": [
+                {
+                  "title": "ONCE UPON A TIME IN GAZA",
+                  "winner": true,
+                  "people": [
+                    "Arab NASSER, Tarzan NASSER"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Best Actress - Un Certain Regard",
+              "entries": [
+                {
+                  "title": "O RISO E A FACA",
+                  "winner": true,
+                  "people": [
+                    "Cleo DI\u00c1RA"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Best Actor - Un Certain Regard",
+              "entries": [
+                {
+                  "title": "URCHIN",
+                  "winner": true,
+                  "people": [
+                    "Frank DILLANE"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Best Screenplay - Un Certain Regard",
+              "entries": [
+                {
+                  "title": "PILLION",
+                  "winner": true,
+                  "people": [
+                    "Harry LIGHTON"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Cam\u00e9ra d'Or Special Distinction",
+              "entries": [
+                {
+                  "title": "MY FATHER\u2019S SHADOW",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "unmatched_awards": []
+    }
+  ],
+  "scope": "Main Competition and Un Certain Regard; jury prizes and selected Cam\u00e9ra d\u2019or recipients; excludes CST technical prizes and other sections"
+}

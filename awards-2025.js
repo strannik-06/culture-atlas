@@ -1,119 +1,5 @@
 window.CULTURE_AWARDS = [
   {
-    "event": "Cannes",
-    "year": 2025,
-    "section": "Main Competition",
-    "source": "https://www.festival-cannes.com/en/press/press-releases/the-films-of-the-official-selection-2025/",
-    "awardsSource": "https://www.festival-cannes.com/en/retrospective/2025/awards/",
-    "films": [
-      {
-        "id": 75,
-        "awards": []
-      },
-      {
-        "id": 60,
-        "awards": []
-      },
-      {
-        "id": 8,
-        "awards": [
-          "Special Prize"
-        ]
-      },
-      {
-        "id": 39,
-        "awards": [
-          "Best Screenplay"
-        ]
-      },
-      {
-        "id": 201,
-        "awards": []
-      },
-      {
-        "id": 202,
-        "awards": []
-      },
-      {
-        "id": 74,
-        "awards": []
-      },
-      {
-        "id": 79,
-        "awards": [
-          "Best Actress · Nadia Melliti"
-        ]
-      },
-      {
-        "id": 7,
-        "awards": [
-          "Jury Prize (shared)"
-        ]
-      },
-      {
-        "id": 57,
-        "awards": []
-      },
-      {
-        "id": 204,
-        "awards": []
-      },
-      {
-        "id": 205,
-        "awards": []
-      },
-      {
-        "id": 3,
-        "awards": [
-          "Best Director · Kleber Mendonça Filho",
-          "Best Actor · Wagner Moura"
-        ]
-      },
-      {
-        "id": 206,
-        "awards": []
-      },
-      {
-        "id": 1,
-        "awards": [
-          "Palme d'Or"
-        ]
-      },
-      {
-        "id": 58,
-        "awards": []
-      },
-      {
-        "id": 11,
-        "awards": []
-      },
-      {
-        "id": 207,
-        "awards": []
-      },
-      {
-        "id": 208,
-        "awards": []
-      },
-      {
-        "id": 6,
-        "awards": [
-          "Jury Prize (shared)"
-        ]
-      },
-      {
-        "id": 209,
-        "awards": []
-      },
-      {
-        "id": 2,
-        "awards": [
-          "Grand Prix"
-        ]
-      }
-    ]
-  },
-  {
     "event": "Venice",
     "year": 2025,
     "section": "Venezia 82 Competition",
@@ -10646,6 +10532,2885 @@ window.CULTURE_AWARDS = [
       {
         "id": 224,
         "awards": []
+      }
+    ]
+  },
+  {
+    "event": "Cannes",
+    "year": 2021,
+    "section": "Official Selection",
+    "source": "https://www.festival-cannes.com/en/retrospective/2021/selection/",
+    "awardsSource": "https://www.festival-cannes.com/en/retrospective/2021/awards/",
+    "resultsUrl": "https://www.festival-cannes.com/en/retrospective/2021/awards/",
+    "categories": [
+      {
+        "id": "main-competition",
+        "name": "Main Competition",
+        "nomination_kind": "competition",
+        "source": "https://www.festival-cannes.com/en/retrospective/2021/selection/",
+        "awardsSource": "https://www.festival-cannes.com/en/retrospective/2021/awards/",
+        "entries": [
+          {
+            "film_id": 2545,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 332,
+            "winner": true,
+            "prizes": [
+              "Award for Best Director"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 2546,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2547,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 327,
+            "winner": true,
+            "prizes": [
+              "Award for Best Screenplay · HAMAGUCHI Ryusuke, Takamasa OE"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 2548,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2549,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 1484,
+            "winner": true,
+            "prizes": [
+              "Grand Prix (Ex-Aequo)"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 2550,
+            "winner": true,
+            "prizes": [
+              "Jury Prize  (Ex-Aequo)"
+            ],
+            "prize_rank": 6
+          },
+          {
+            "film_id": 2551,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 323,
+            "winner": true,
+            "prizes": [
+              "Grand Prix (Ex-Aequo)"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 2552,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2553,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 1481,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2554,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2555,
+            "winner": true,
+            "prizes": [
+              "Jury Prize  (Ex-Aequo)"
+            ],
+            "prize_rank": 5
+          },
+          {
+            "film_id": 2556,
+            "winner": true,
+            "prizes": [
+              "Award for Best Actor · Caleb LANDRY JONES"
+            ],
+            "prize_rank": 8
+          },
+          {
+            "film_id": 2557,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2558,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 319,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2165,
+            "winner": true,
+            "prizes": [
+              "Palme d'or"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 2559,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2560,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 325,
+            "winner": true,
+            "prizes": [
+              "Award for Best Actress · Renate REINSVE"
+            ],
+            "prize_rank": 7
+          }
+        ],
+        "nominees": [
+          2545,
+          332,
+          2546,
+          2547,
+          327,
+          2548,
+          2549,
+          1484,
+          2550,
+          2551,
+          323,
+          2552,
+          2553,
+          1481,
+          2554,
+          2555,
+          2556,
+          2557,
+          2558,
+          319,
+          2165,
+          2559,
+          2560,
+          325
+        ],
+        "winners": [
+          2165,
+          1484,
+          323,
+          332,
+          327,
+          2555,
+          2550,
+          325,
+          2556
+        ],
+        "winner": 2165
+      },
+      {
+        "id": "un-certain-regard",
+        "name": "Un Certain Regard",
+        "nomination_kind": "competition",
+        "source": "https://www.festival-cannes.com/en/retrospective/2021/selection/",
+        "awardsSource": "https://www.festival-cannes.com/en/retrospective/2021/awards/",
+        "entries": [
+          {
+            "film_id": 2561,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2562,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2563,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2564,
+            "winner": true,
+            "prizes": [
+              "Ensemble Prize"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 2565,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2566,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2567,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2568,
+            "winner": true,
+            "prizes": [
+              "Jury's Prize - Un Certain Regard"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 2569,
+            "winner": true,
+            "prizes": [
+              "Courage Prize"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 2570,
+            "winner": true,
+            "prizes": [
+              "Prize of Originality"
+            ],
+            "prize_rank": 5
+          },
+          {
+            "film_id": 2571,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2572,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2573,
+            "winner": true,
+            "prizes": [
+              "Special mention - Un Certain Regard"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 2574,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2575,
+            "winner": true,
+            "prizes": [
+              "Un Certain Regard Prize"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 2576,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2577,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2578,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2579,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2580,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          }
+        ],
+        "nominees": [
+          2561,
+          2562,
+          2563,
+          2564,
+          2565,
+          2566,
+          2567,
+          2568,
+          2569,
+          2570,
+          2571,
+          2572,
+          2573,
+          2574,
+          2575,
+          2576,
+          2577,
+          2578,
+          2579,
+          2580
+        ],
+        "winners": [
+          2575,
+          2564,
+          2568,
+          2573,
+          2569,
+          2570
+        ],
+        "winner": 2575
+      }
+    ],
+    "films": [
+      {
+        "id": 2545,
+        "awards": []
+      },
+      {
+        "id": 332,
+        "awards": [
+          "Award for Best Director"
+        ]
+      },
+      {
+        "id": 2546,
+        "awards": []
+      },
+      {
+        "id": 2547,
+        "awards": []
+      },
+      {
+        "id": 327,
+        "awards": [
+          "Award for Best Screenplay · HAMAGUCHI Ryusuke, Takamasa OE"
+        ]
+      },
+      {
+        "id": 2548,
+        "awards": []
+      },
+      {
+        "id": 2549,
+        "awards": []
+      },
+      {
+        "id": 1484,
+        "awards": [
+          "Grand Prix (Ex-Aequo)"
+        ]
+      },
+      {
+        "id": 2550,
+        "awards": [
+          "Jury Prize  (Ex-Aequo)"
+        ]
+      },
+      {
+        "id": 2551,
+        "awards": []
+      },
+      {
+        "id": 323,
+        "awards": [
+          "Grand Prix (Ex-Aequo)"
+        ]
+      },
+      {
+        "id": 2552,
+        "awards": []
+      },
+      {
+        "id": 2553,
+        "awards": []
+      },
+      {
+        "id": 1481,
+        "awards": []
+      },
+      {
+        "id": 2554,
+        "awards": []
+      },
+      {
+        "id": 2555,
+        "awards": [
+          "Jury Prize  (Ex-Aequo)"
+        ]
+      },
+      {
+        "id": 2556,
+        "awards": [
+          "Award for Best Actor · Caleb LANDRY JONES"
+        ]
+      },
+      {
+        "id": 2557,
+        "awards": []
+      },
+      {
+        "id": 2558,
+        "awards": []
+      },
+      {
+        "id": 319,
+        "awards": []
+      },
+      {
+        "id": 2165,
+        "awards": [
+          "Palme d'or"
+        ]
+      },
+      {
+        "id": 2559,
+        "awards": []
+      },
+      {
+        "id": 2560,
+        "awards": []
+      },
+      {
+        "id": 325,
+        "awards": [
+          "Award for Best Actress · Renate REINSVE"
+        ]
+      },
+      {
+        "id": 2561,
+        "awards": []
+      },
+      {
+        "id": 2562,
+        "awards": []
+      },
+      {
+        "id": 2563,
+        "awards": []
+      },
+      {
+        "id": 2564,
+        "awards": [
+          "Ensemble Prize"
+        ]
+      },
+      {
+        "id": 2565,
+        "awards": []
+      },
+      {
+        "id": 2566,
+        "awards": []
+      },
+      {
+        "id": 2567,
+        "awards": []
+      },
+      {
+        "id": 2568,
+        "awards": [
+          "Jury's Prize - Un Certain Regard"
+        ]
+      },
+      {
+        "id": 2569,
+        "awards": [
+          "Courage Prize"
+        ]
+      },
+      {
+        "id": 2570,
+        "awards": [
+          "Prize of Originality"
+        ]
+      },
+      {
+        "id": 2571,
+        "awards": []
+      },
+      {
+        "id": 2572,
+        "awards": []
+      },
+      {
+        "id": 2573,
+        "awards": [
+          "Special mention - Un Certain Regard"
+        ]
+      },
+      {
+        "id": 2574,
+        "awards": []
+      },
+      {
+        "id": 2575,
+        "awards": [
+          "Un Certain Regard Prize"
+        ]
+      },
+      {
+        "id": 2576,
+        "awards": []
+      },
+      {
+        "id": 2577,
+        "awards": []
+      },
+      {
+        "id": 2578,
+        "awards": []
+      },
+      {
+        "id": 2579,
+        "awards": []
+      },
+      {
+        "id": 2580,
+        "awards": []
+      }
+    ]
+  },
+  {
+    "event": "Cannes",
+    "year": 2022,
+    "section": "Official Selection",
+    "source": "https://www.festival-cannes.com/en/retrospective/2022/selection/",
+    "awardsSource": "https://www.festival-cannes.com/en/retrospective/2022/awards/",
+    "resultsUrl": "https://www.festival-cannes.com/en/retrospective/2022/awards/",
+    "categories": [
+      {
+        "id": "main-competition",
+        "name": "Main Competition",
+        "nomination_kind": "competition",
+        "source": "https://www.festival-cannes.com/en/retrospective/2022/selection/",
+        "awardsSource": "https://www.festival-cannes.com/en/retrospective/2022/awards/",
+        "entries": [
+          {
+            "film_id": 2581,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2582,
+            "winner": true,
+            "prizes": [
+              "Award for Best Actor · SONG Kang-Ho"
+            ],
+            "prize_rank": 9
+          },
+          {
+            "film_id": 2433,
+            "winner": true,
+            "prizes": [
+              "Grand Prix (Ex-Aequo)"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 2583,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2434,
+            "winner": true,
+            "prizes": [
+              "Jury Prize  (Ex-Aequo)"
+            ],
+            "prize_rank": 6
+          },
+          {
+            "film_id": 2584,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2495,
+            "winner": true,
+            "prizes": [
+              "Award for Best Director · PARK Chan-Wook"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 2585,
+            "winner": true,
+            "prizes": [
+              "Award for Best Actress · Zar AMIR EBRAHIMI"
+            ],
+            "prize_rank": 8
+          },
+          {
+            "film_id": 2586,
+            "winner": true,
+            "prizes": [
+              "Jury Prize  (Ex-Aequo)"
+            ],
+            "prize_rank": 5
+          },
+          {
+            "film_id": 2587,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2588,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2589,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2590,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2591,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2592,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2593,
+            "winner": true,
+            "prizes": [
+              "Grand Prix (Ex-Aequo)"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 2594,
+            "winner": true,
+            "prizes": [
+              "75th Award"
+            ],
+            "prize_rank": 7
+          },
+          {
+            "film_id": 315,
+            "winner": true,
+            "prizes": [
+              "Palme d'or"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 2595,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2596,
+            "winner": true,
+            "prizes": [
+              "Award for Best Screenplay · Tarik SALEH"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 2597,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          }
+        ],
+        "nominees": [
+          2581,
+          2582,
+          2433,
+          2583,
+          2434,
+          2584,
+          2495,
+          2585,
+          2586,
+          2587,
+          2588,
+          2589,
+          2590,
+          2591,
+          2592,
+          2593,
+          2594,
+          315,
+          2595,
+          2596,
+          2597
+        ],
+        "winners": [
+          315,
+          2433,
+          2593,
+          2495,
+          2596,
+          2586,
+          2434,
+          2594,
+          2585,
+          2582
+        ],
+        "winner": 315
+      },
+      {
+        "id": "un-certain-regard",
+        "name": "Un Certain Regard",
+        "nomination_kind": "competition",
+        "source": "https://www.festival-cannes.com/en/retrospective/2022/selection/",
+        "awardsSource": "https://www.festival-cannes.com/en/retrospective/2022/awards/",
+        "entries": [
+          {
+            "film_id": 2598,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2506,
+            "winner": true,
+            "prizes": [
+              "Prize for Best Performance - Un Certain Regard (Ex-Aequo) · Vicky KRIEPS"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 2599,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2600,
+            "winner": true,
+            "prizes": [
+              "Prize for Best Performance - Un Certain Regard (Ex-Aequo) · Adam BESSA"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 2601,
+            "winner": true,
+            "prizes": [
+              "Jury's Prize - Un Certain Regard"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 2602,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2603,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2604,
+            "winner": true,
+            "prizes": [
+              "Un Certain Regard Prize"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 2605,
+            "winner": true,
+            "prizes": [
+              "Best Screenplay - Un Certain Regard · Maha HAJ"
+            ],
+            "prize_rank": 5
+          },
+          {
+            "film_id": 2606,
+            "winner": true,
+            "prizes": [
+              "Best Directing - Un Certain Regard · Alexandru BELC"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 2607,
+            "winner": true,
+            "prizes": [
+              "Caméra d'Or Special Distinction"
+            ],
+            "prize_rank": 8
+          },
+          {
+            "film_id": 2608,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2609,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2610,
+            "winner": true,
+            "prizes": [
+              "Un Certain Regard Jury's \"Coup de Coeur\""
+            ],
+            "prize_rank": 6
+          },
+          {
+            "film_id": 2611,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2612,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2613,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2614,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2615,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2616,
+            "winner": true,
+            "prizes": [
+              "Caméra d'or"
+            ],
+            "prize_rank": 7
+          }
+        ],
+        "nominees": [
+          2598,
+          2506,
+          2599,
+          2600,
+          2601,
+          2602,
+          2603,
+          2604,
+          2605,
+          2606,
+          2607,
+          2608,
+          2609,
+          2610,
+          2611,
+          2612,
+          2613,
+          2614,
+          2615,
+          2616
+        ],
+        "winners": [
+          2604,
+          2601,
+          2606,
+          2506,
+          2600,
+          2605,
+          2610,
+          2616,
+          2607
+        ],
+        "winner": 2604
+      }
+    ],
+    "films": [
+      {
+        "id": 2581,
+        "awards": []
+      },
+      {
+        "id": 2582,
+        "awards": [
+          "Award for Best Actor · SONG Kang-Ho"
+        ]
+      },
+      {
+        "id": 2433,
+        "awards": [
+          "Grand Prix (Ex-Aequo)"
+        ]
+      },
+      {
+        "id": 2583,
+        "awards": []
+      },
+      {
+        "id": 2434,
+        "awards": [
+          "Jury Prize  (Ex-Aequo)"
+        ]
+      },
+      {
+        "id": 2584,
+        "awards": []
+      },
+      {
+        "id": 2495,
+        "awards": [
+          "Award for Best Director · PARK Chan-Wook"
+        ]
+      },
+      {
+        "id": 2585,
+        "awards": [
+          "Award for Best Actress · Zar AMIR EBRAHIMI"
+        ]
+      },
+      {
+        "id": 2586,
+        "awards": [
+          "Jury Prize  (Ex-Aequo)"
+        ]
+      },
+      {
+        "id": 2587,
+        "awards": []
+      },
+      {
+        "id": 2588,
+        "awards": []
+      },
+      {
+        "id": 2589,
+        "awards": []
+      },
+      {
+        "id": 2590,
+        "awards": []
+      },
+      {
+        "id": 2591,
+        "awards": []
+      },
+      {
+        "id": 2592,
+        "awards": []
+      },
+      {
+        "id": 2593,
+        "awards": [
+          "Grand Prix (Ex-Aequo)"
+        ]
+      },
+      {
+        "id": 2594,
+        "awards": [
+          "75th Award"
+        ]
+      },
+      {
+        "id": 315,
+        "awards": [
+          "Palme d'or"
+        ]
+      },
+      {
+        "id": 2595,
+        "awards": []
+      },
+      {
+        "id": 2596,
+        "awards": [
+          "Award for Best Screenplay · Tarik SALEH"
+        ]
+      },
+      {
+        "id": 2597,
+        "awards": []
+      },
+      {
+        "id": 2598,
+        "awards": []
+      },
+      {
+        "id": 2506,
+        "awards": [
+          "Prize for Best Performance - Un Certain Regard (Ex-Aequo) · Vicky KRIEPS"
+        ]
+      },
+      {
+        "id": 2599,
+        "awards": []
+      },
+      {
+        "id": 2600,
+        "awards": [
+          "Prize for Best Performance - Un Certain Regard (Ex-Aequo) · Adam BESSA"
+        ]
+      },
+      {
+        "id": 2601,
+        "awards": [
+          "Jury's Prize - Un Certain Regard"
+        ]
+      },
+      {
+        "id": 2602,
+        "awards": []
+      },
+      {
+        "id": 2603,
+        "awards": []
+      },
+      {
+        "id": 2604,
+        "awards": [
+          "Un Certain Regard Prize"
+        ]
+      },
+      {
+        "id": 2605,
+        "awards": [
+          "Best Screenplay - Un Certain Regard · Maha HAJ"
+        ]
+      },
+      {
+        "id": 2606,
+        "awards": [
+          "Best Directing - Un Certain Regard · Alexandru BELC"
+        ]
+      },
+      {
+        "id": 2607,
+        "awards": [
+          "Caméra d'Or Special Distinction"
+        ]
+      },
+      {
+        "id": 2608,
+        "awards": []
+      },
+      {
+        "id": 2609,
+        "awards": []
+      },
+      {
+        "id": 2610,
+        "awards": [
+          "Un Certain Regard Jury's \"Coup de Coeur\""
+        ]
+      },
+      {
+        "id": 2611,
+        "awards": []
+      },
+      {
+        "id": 2612,
+        "awards": []
+      },
+      {
+        "id": 2613,
+        "awards": []
+      },
+      {
+        "id": 2614,
+        "awards": []
+      },
+      {
+        "id": 2615,
+        "awards": []
+      },
+      {
+        "id": 2616,
+        "awards": [
+          "Caméra d'or"
+        ]
+      }
+    ]
+  },
+  {
+    "event": "Cannes",
+    "year": 2023,
+    "section": "Official Selection",
+    "source": "https://www.festival-cannes.com/en/retrospective/2023/selection/",
+    "awardsSource": "https://www.festival-cannes.com/en/retrospective/2023/awards/",
+    "resultsUrl": "https://www.festival-cannes.com/en/retrospective/2023/awards/",
+    "categories": [
+      {
+        "id": "main-competition",
+        "name": "Main Competition",
+        "nomination_kind": "competition",
+        "source": "https://www.festival-cannes.com/en/retrospective/2023/selection/",
+        "awardsSource": "https://www.festival-cannes.com/en/retrospective/2023/awards/",
+        "entries": [
+          {
+            "film_id": 305,
+            "winner": true,
+            "prizes": [
+              "Palme d'or"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 287,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2617,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2618,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2619,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2620,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2621,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2622,
+            "winner": true,
+            "prizes": [
+              "Award for Best Screenplay · Yuji SAKAMOTO"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 294,
+            "winner": true,
+            "prizes": [
+              "Jury Prize"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 130,
+            "winner": true,
+            "prizes": [
+              "Award for Best Actress · Merve DIZDAR"
+            ],
+            "prize_rank": 5
+          },
+          {
+            "film_id": 2623,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 128,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 123,
+            "winner": true,
+            "prizes": [
+              "Award for Best Director · TRAN ANH Hùng"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 2624,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2455,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2449,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 121,
+            "winner": true,
+            "prizes": [
+              "Award for Best Actor · Koji YAKUSHO"
+            ],
+            "prize_rank": 6
+          },
+          {
+            "film_id": 2625,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2626,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2514,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 122,
+            "winner": true,
+            "prizes": [
+              "Grand Prix"
+            ],
+            "prize_rank": 1
+          }
+        ],
+        "nominees": [
+          305,
+          287,
+          2617,
+          2618,
+          2619,
+          2620,
+          2621,
+          2622,
+          294,
+          130,
+          2623,
+          128,
+          123,
+          2624,
+          2455,
+          2449,
+          121,
+          2625,
+          2626,
+          2514,
+          122
+        ],
+        "winners": [
+          305,
+          122,
+          123,
+          2622,
+          294,
+          130,
+          121
+        ],
+        "winner": 305
+      },
+      {
+        "id": "un-certain-regard",
+        "name": "Un Certain Regard",
+        "nomination_kind": "competition",
+        "source": "https://www.festival-cannes.com/en/retrospective/2023/selection/",
+        "awardsSource": "https://www.festival-cannes.com/en/retrospective/2023/awards/",
+        "entries": [
+          {
+            "film_id": 2627,
+            "winner": true,
+            "prizes": [
+              "New Voice Prize"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 2628,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2629,
+            "winner": true,
+            "prizes": [
+              "Ensemble Prize"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 295,
+            "winner": true,
+            "prizes": [
+              "Freedom Prize"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 2630,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2631,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2512,
+            "winner": true,
+            "prizes": [
+              "Un Certain Regard Prize"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 2632,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2633,
+            "winner": true,
+            "prizes": [
+              "Best Directing - Un Certain Regard · Asmae EL MOUDIR"
+            ],
+            "prize_rank": 5
+          },
+          {
+            "film_id": 2634,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2635,
+            "winner": true,
+            "prizes": [
+              "Jury's Prize - Un Certain Regard"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 2636,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 126,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2637,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2638,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2639,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2640,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2641,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2642,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2643,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          }
+        ],
+        "nominees": [
+          2627,
+          2628,
+          2629,
+          295,
+          2630,
+          2631,
+          2512,
+          2632,
+          2633,
+          2634,
+          2635,
+          2636,
+          126,
+          2637,
+          2638,
+          2639,
+          2640,
+          2641,
+          2642,
+          2643
+        ],
+        "winners": [
+          2512,
+          2627,
+          2629,
+          2635,
+          295,
+          2633
+        ],
+        "winner": 2512
+      }
+    ],
+    "films": [
+      {
+        "id": 305,
+        "awards": [
+          "Palme d'or"
+        ]
+      },
+      {
+        "id": 287,
+        "awards": []
+      },
+      {
+        "id": 2617,
+        "awards": []
+      },
+      {
+        "id": 2618,
+        "awards": []
+      },
+      {
+        "id": 2619,
+        "awards": []
+      },
+      {
+        "id": 2620,
+        "awards": []
+      },
+      {
+        "id": 2621,
+        "awards": []
+      },
+      {
+        "id": 2622,
+        "awards": [
+          "Award for Best Screenplay · Yuji SAKAMOTO"
+        ]
+      },
+      {
+        "id": 294,
+        "awards": [
+          "Jury Prize"
+        ]
+      },
+      {
+        "id": 130,
+        "awards": [
+          "Award for Best Actress · Merve DIZDAR"
+        ]
+      },
+      {
+        "id": 2623,
+        "awards": []
+      },
+      {
+        "id": 128,
+        "awards": []
+      },
+      {
+        "id": 123,
+        "awards": [
+          "Award for Best Director · TRAN ANH Hùng"
+        ]
+      },
+      {
+        "id": 2624,
+        "awards": []
+      },
+      {
+        "id": 2455,
+        "awards": []
+      },
+      {
+        "id": 2449,
+        "awards": []
+      },
+      {
+        "id": 121,
+        "awards": [
+          "Award for Best Actor · Koji YAKUSHO"
+        ]
+      },
+      {
+        "id": 2625,
+        "awards": []
+      },
+      {
+        "id": 2626,
+        "awards": []
+      },
+      {
+        "id": 2514,
+        "awards": []
+      },
+      {
+        "id": 122,
+        "awards": [
+          "Grand Prix"
+        ]
+      },
+      {
+        "id": 2627,
+        "awards": [
+          "New Voice Prize"
+        ]
+      },
+      {
+        "id": 2628,
+        "awards": []
+      },
+      {
+        "id": 2629,
+        "awards": [
+          "Ensemble Prize"
+        ]
+      },
+      {
+        "id": 295,
+        "awards": [
+          "Freedom Prize"
+        ]
+      },
+      {
+        "id": 2630,
+        "awards": []
+      },
+      {
+        "id": 2631,
+        "awards": []
+      },
+      {
+        "id": 2512,
+        "awards": [
+          "Un Certain Regard Prize"
+        ]
+      },
+      {
+        "id": 2632,
+        "awards": []
+      },
+      {
+        "id": 2633,
+        "awards": [
+          "Best Directing - Un Certain Regard · Asmae EL MOUDIR"
+        ]
+      },
+      {
+        "id": 2634,
+        "awards": []
+      },
+      {
+        "id": 2635,
+        "awards": [
+          "Jury's Prize - Un Certain Regard"
+        ]
+      },
+      {
+        "id": 2636,
+        "awards": []
+      },
+      {
+        "id": 126,
+        "awards": []
+      },
+      {
+        "id": 2637,
+        "awards": []
+      },
+      {
+        "id": 2638,
+        "awards": []
+      },
+      {
+        "id": 2639,
+        "awards": []
+      },
+      {
+        "id": 2640,
+        "awards": []
+      },
+      {
+        "id": 2641,
+        "awards": []
+      },
+      {
+        "id": 2642,
+        "awards": []
+      },
+      {
+        "id": 2643,
+        "awards": []
+      }
+    ]
+  },
+  {
+    "event": "Cannes",
+    "year": 2024,
+    "section": "Official Selection",
+    "source": "https://www.festival-cannes.com/en/retrospective/2024/selection/",
+    "awardsSource": "https://www.festival-cannes.com/en/retrospective/2024/awards/",
+    "resultsUrl": "https://www.festival-cannes.com/en/retrospective/2024/awards/",
+    "categories": [
+      {
+        "id": "main-competition",
+        "name": "Main Competition",
+        "nomination_kind": "competition",
+        "source": "https://www.festival-cannes.com/en/retrospective/2024/selection/",
+        "awardsSource": "https://www.festival-cannes.com/en/retrospective/2024/awards/",
+        "entries": [
+          {
+            "film_id": 103,
+            "winner": true,
+            "prizes": [
+              "Grand Prix"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 101,
+            "winner": true,
+            "prizes": [
+              "Palme d'or"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 155,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2644,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 117,
+            "winner": true,
+            "prizes": [
+              "Jury Prize",
+              "Award for Best Actress · Adriana Paz, Zoe Saldaña, Karla Sofía Gascón, Selena Gomez"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 165,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 159,
+            "winner": true,
+            "prizes": [
+              "Award for Best Director · Miguel GOMES"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 242,
+            "winner": true,
+            "prizes": [
+              "Award for Best Actor · Jesse PLEMONS"
+            ],
+            "prize_rank": 6
+          },
+          {
+            "film_id": 2645,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 178,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2646,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2647,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 270,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2648,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2649,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 282,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 114,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 147,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 105,
+            "winner": true,
+            "prizes": [
+              "Special Prize"
+            ],
+            "prize_rank": 7
+          },
+          {
+            "film_id": 12,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 104,
+            "winner": true,
+            "prizes": [
+              "Award for Best Screenplay · Coralie FARGEAT"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 2650,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          }
+        ],
+        "nominees": [
+          103,
+          101,
+          155,
+          2644,
+          117,
+          165,
+          159,
+          242,
+          2645,
+          178,
+          2646,
+          2647,
+          270,
+          2648,
+          2649,
+          282,
+          114,
+          147,
+          105,
+          12,
+          104,
+          2650
+        ],
+        "winners": [
+          101,
+          103,
+          159,
+          104,
+          117,
+          242,
+          105
+        ],
+        "winner": 101
+      },
+      {
+        "id": "un-certain-regard",
+        "name": "Un Certain Regard",
+        "nomination_kind": "competition",
+        "source": "https://www.festival-cannes.com/en/retrospective/2024/selection/",
+        "awardsSource": "https://www.festival-cannes.com/en/retrospective/2024/awards/",
+        "entries": [
+          {
+            "film_id": 2651,
+            "winner": true,
+            "prizes": [
+              "Caméra d'or"
+            ],
+            "prize_rank": 8
+          },
+          {
+            "film_id": 107,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 164,
+            "winner": true,
+            "prizes": [
+              "Un Certain Regard Prize"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 161,
+            "winner": true,
+            "prizes": [
+              "Jury's Prize - Un Certain Regard",
+              "Best Actor - Un Certain Regard · Abou SANGARE"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 2652,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2653,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 280,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2654,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2655,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2656,
+            "winner": true,
+            "prizes": [
+              "Special mention - Un Certain Regard"
+            ],
+            "prize_rank": 7
+          },
+          {
+            "film_id": 156,
+            "winner": true,
+            "prizes": [
+              "Best Director - Un Certain Regard (Ex-Aequo) · Rungano NYONI"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 172,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2657,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2658,
+            "winner": true,
+            "prizes": [
+              "Best Director - Un Certain Regard (Ex-Aequo) · Roberto MINERVINI"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 2659,
+            "winner": true,
+            "prizes": [
+              "Best Actress - Un Certain Regard · Anasuya SENGUPTA"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 2660,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2661,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 177,
+            "winner": true,
+            "prizes": [
+              "Youth Award"
+            ],
+            "prize_rank": 6
+          }
+        ],
+        "nominees": [
+          2651,
+          107,
+          164,
+          161,
+          2652,
+          2653,
+          280,
+          2654,
+          2655,
+          2656,
+          156,
+          172,
+          2657,
+          2658,
+          2659,
+          2660,
+          2661,
+          177
+        ],
+        "winners": [
+          164,
+          161,
+          2658,
+          156,
+          2659,
+          177,
+          2656,
+          2651
+        ],
+        "winner": 164
+      }
+    ],
+    "films": [
+      {
+        "id": 103,
+        "awards": [
+          "Grand Prix"
+        ]
+      },
+      {
+        "id": 101,
+        "awards": [
+          "Palme d'or"
+        ]
+      },
+      {
+        "id": 155,
+        "awards": []
+      },
+      {
+        "id": 2644,
+        "awards": []
+      },
+      {
+        "id": 117,
+        "awards": [
+          "Jury Prize",
+          "Award for Best Actress · Adriana Paz, Zoe Saldaña, Karla Sofía Gascón, Selena Gomez"
+        ]
+      },
+      {
+        "id": 165,
+        "awards": []
+      },
+      {
+        "id": 159,
+        "awards": [
+          "Award for Best Director · Miguel GOMES"
+        ]
+      },
+      {
+        "id": 242,
+        "awards": [
+          "Award for Best Actor · Jesse PLEMONS"
+        ]
+      },
+      {
+        "id": 2645,
+        "awards": []
+      },
+      {
+        "id": 178,
+        "awards": []
+      },
+      {
+        "id": 2646,
+        "awards": []
+      },
+      {
+        "id": 2647,
+        "awards": []
+      },
+      {
+        "id": 270,
+        "awards": []
+      },
+      {
+        "id": 2648,
+        "awards": []
+      },
+      {
+        "id": 2649,
+        "awards": []
+      },
+      {
+        "id": 282,
+        "awards": []
+      },
+      {
+        "id": 114,
+        "awards": []
+      },
+      {
+        "id": 147,
+        "awards": []
+      },
+      {
+        "id": 105,
+        "awards": [
+          "Special Prize"
+        ]
+      },
+      {
+        "id": 12,
+        "awards": []
+      },
+      {
+        "id": 104,
+        "awards": [
+          "Award for Best Screenplay · Coralie FARGEAT"
+        ]
+      },
+      {
+        "id": 2650,
+        "awards": []
+      },
+      {
+        "id": 2651,
+        "awards": [
+          "Caméra d'or"
+        ]
+      },
+      {
+        "id": 107,
+        "awards": []
+      },
+      {
+        "id": 164,
+        "awards": [
+          "Un Certain Regard Prize"
+        ]
+      },
+      {
+        "id": 161,
+        "awards": [
+          "Jury's Prize - Un Certain Regard",
+          "Best Actor - Un Certain Regard · Abou SANGARE"
+        ]
+      },
+      {
+        "id": 2652,
+        "awards": []
+      },
+      {
+        "id": 2653,
+        "awards": []
+      },
+      {
+        "id": 280,
+        "awards": []
+      },
+      {
+        "id": 2654,
+        "awards": []
+      },
+      {
+        "id": 2655,
+        "awards": []
+      },
+      {
+        "id": 2656,
+        "awards": [
+          "Special mention - Un Certain Regard"
+        ]
+      },
+      {
+        "id": 156,
+        "awards": [
+          "Best Director - Un Certain Regard (Ex-Aequo) · Rungano NYONI"
+        ]
+      },
+      {
+        "id": 172,
+        "awards": []
+      },
+      {
+        "id": 2657,
+        "awards": []
+      },
+      {
+        "id": 2658,
+        "awards": [
+          "Best Director - Un Certain Regard (Ex-Aequo) · Roberto MINERVINI"
+        ]
+      },
+      {
+        "id": 2659,
+        "awards": [
+          "Best Actress - Un Certain Regard · Anasuya SENGUPTA"
+        ]
+      },
+      {
+        "id": 2660,
+        "awards": []
+      },
+      {
+        "id": 2661,
+        "awards": []
+      },
+      {
+        "id": 177,
+        "awards": [
+          "Youth Award"
+        ]
+      }
+    ]
+  },
+  {
+    "event": "Cannes",
+    "year": 2025,
+    "section": "Official Selection",
+    "source": "https://www.festival-cannes.com/en/retrospective/2025/selection/",
+    "awardsSource": "https://www.festival-cannes.com/en/retrospective/2025/awards/",
+    "resultsUrl": "https://www.festival-cannes.com/en/retrospective/2025/awards/",
+    "categories": [
+      {
+        "id": "main-competition",
+        "name": "Main Competition",
+        "nomination_kind": "competition",
+        "source": "https://www.festival-cannes.com/en/retrospective/2025/selection/",
+        "awardsSource": "https://www.festival-cannes.com/en/retrospective/2025/awards/",
+        "entries": [
+          {
+            "film_id": 2,
+            "winner": true,
+            "prizes": [
+              "Grand Prix"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 201,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 58,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 206,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 208,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 60,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 205,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 39,
+            "winner": true,
+            "prizes": [
+              "Award for Best Screenplay · Jean-Pierre DARDENNE, Luc DARDENNE"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 8,
+            "winner": true,
+            "prizes": [
+              "Special Prize"
+            ],
+            "prize_rank": 8
+          },
+          {
+            "film_id": 79,
+            "winner": true,
+            "prizes": [
+              "Award for Best Actress · Nadia MELLITI"
+            ],
+            "prize_rank": 6
+          },
+          {
+            "film_id": 57,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 3,
+            "winner": true,
+            "prizes": [
+              "Award for Best Director · Kleber MENDONÇA FILHO",
+              "Award for Best Actor · Wagner MOURA"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 202,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 209,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 7,
+            "winner": true,
+            "prizes": [
+              "Jury Prize  (Ex-Aequo)"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 6,
+            "winner": true,
+            "prizes": [
+              "Jury Prize  (Ex-Aequo)"
+            ],
+            "prize_rank": 5
+          },
+          {
+            "film_id": 74,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 11,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 75,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 204,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 1,
+            "winner": true,
+            "prizes": [
+              "Palme d'or"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 207,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          }
+        ],
+        "nominees": [
+          2,
+          201,
+          58,
+          206,
+          208,
+          60,
+          205,
+          39,
+          8,
+          79,
+          57,
+          3,
+          202,
+          209,
+          7,
+          6,
+          74,
+          11,
+          75,
+          204,
+          1,
+          207
+        ],
+        "winners": [
+          1,
+          2,
+          3,
+          39,
+          7,
+          6,
+          79,
+          8
+        ],
+        "winner": 1
+      },
+      {
+        "id": "un-certain-regard",
+        "name": "Un Certain Regard",
+        "nomination_kind": "competition",
+        "source": "https://www.festival-cannes.com/en/retrospective/2025/selection/",
+        "awardsSource": "https://www.festival-cannes.com/en/retrospective/2025/awards/",
+        "entries": [
+          {
+            "film_id": 2662,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2663,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2664,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2665,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2666,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 40,
+            "winner": true,
+            "prizes": [
+              "Un Certain Regard Prize"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 2667,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2668,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 41,
+            "winner": true,
+            "prizes": [
+              "Caméra d'Or Special Distinction"
+            ],
+            "prize_rank": 6
+          },
+          {
+            "film_id": 2669,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 80,
+            "winner": true,
+            "prizes": [
+              "Best Actress - Un Certain Regard · Cleo DIÁRA"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 44,
+            "winner": true,
+            "prizes": [
+              "Best Directing - Un Certain Regard · Arab NASSER, Tarzan NASSER"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 42,
+            "winner": true,
+            "prizes": [
+              "Best Screenplay - Un Certain Regard · Harry LIGHTON"
+            ],
+            "prize_rank": 5
+          },
+          {
+            "film_id": 2670,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2671,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 73,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 70,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2672,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 29,
+            "winner": true,
+            "prizes": [
+              "Jury's Prize - Un Certain Regard"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 43,
+            "winner": true,
+            "prizes": [
+              "Best Actor - Un Certain Regard · Frank DILLANE"
+            ],
+            "prize_rank": 4
+          }
+        ],
+        "nominees": [
+          2662,
+          2663,
+          2664,
+          2665,
+          2666,
+          40,
+          2667,
+          2668,
+          41,
+          2669,
+          80,
+          44,
+          42,
+          2670,
+          2671,
+          73,
+          70,
+          2672,
+          29,
+          43
+        ],
+        "winners": [
+          40,
+          29,
+          44,
+          80,
+          43,
+          42,
+          41
+        ],
+        "winner": 40
+      }
+    ],
+    "films": [
+      {
+        "id": 2,
+        "awards": [
+          "Grand Prix"
+        ]
+      },
+      {
+        "id": 201,
+        "awards": []
+      },
+      {
+        "id": 58,
+        "awards": []
+      },
+      {
+        "id": 206,
+        "awards": []
+      },
+      {
+        "id": 208,
+        "awards": []
+      },
+      {
+        "id": 60,
+        "awards": []
+      },
+      {
+        "id": 205,
+        "awards": []
+      },
+      {
+        "id": 39,
+        "awards": [
+          "Award for Best Screenplay · Jean-Pierre DARDENNE, Luc DARDENNE"
+        ]
+      },
+      {
+        "id": 8,
+        "awards": [
+          "Special Prize"
+        ]
+      },
+      {
+        "id": 79,
+        "awards": [
+          "Award for Best Actress · Nadia MELLITI"
+        ]
+      },
+      {
+        "id": 57,
+        "awards": []
+      },
+      {
+        "id": 3,
+        "awards": [
+          "Award for Best Director · Kleber MENDONÇA FILHO",
+          "Award for Best Actor · Wagner MOURA"
+        ]
+      },
+      {
+        "id": 202,
+        "awards": []
+      },
+      {
+        "id": 209,
+        "awards": []
+      },
+      {
+        "id": 7,
+        "awards": [
+          "Jury Prize  (Ex-Aequo)"
+        ]
+      },
+      {
+        "id": 6,
+        "awards": [
+          "Jury Prize  (Ex-Aequo)"
+        ]
+      },
+      {
+        "id": 74,
+        "awards": []
+      },
+      {
+        "id": 11,
+        "awards": []
+      },
+      {
+        "id": 75,
+        "awards": []
+      },
+      {
+        "id": 204,
+        "awards": []
+      },
+      {
+        "id": 1,
+        "awards": [
+          "Palme d'or"
+        ]
+      },
+      {
+        "id": 207,
+        "awards": []
+      },
+      {
+        "id": 2662,
+        "awards": []
+      },
+      {
+        "id": 2663,
+        "awards": []
+      },
+      {
+        "id": 2664,
+        "awards": []
+      },
+      {
+        "id": 2665,
+        "awards": []
+      },
+      {
+        "id": 2666,
+        "awards": []
+      },
+      {
+        "id": 40,
+        "awards": [
+          "Un Certain Regard Prize"
+        ]
+      },
+      {
+        "id": 2667,
+        "awards": []
+      },
+      {
+        "id": 2668,
+        "awards": []
+      },
+      {
+        "id": 41,
+        "awards": [
+          "Caméra d'Or Special Distinction"
+        ]
+      },
+      {
+        "id": 2669,
+        "awards": []
+      },
+      {
+        "id": 80,
+        "awards": [
+          "Best Actress - Un Certain Regard · Cleo DIÁRA"
+        ]
+      },
+      {
+        "id": 44,
+        "awards": [
+          "Best Directing - Un Certain Regard · Arab NASSER, Tarzan NASSER"
+        ]
+      },
+      {
+        "id": 42,
+        "awards": [
+          "Best Screenplay - Un Certain Regard · Harry LIGHTON"
+        ]
+      },
+      {
+        "id": 2670,
+        "awards": []
+      },
+      {
+        "id": 2671,
+        "awards": []
+      },
+      {
+        "id": 73,
+        "awards": []
+      },
+      {
+        "id": 70,
+        "awards": []
+      },
+      {
+        "id": 2672,
+        "awards": []
+      },
+      {
+        "id": 29,
+        "awards": [
+          "Jury's Prize - Un Certain Regard"
+        ]
+      },
+      {
+        "id": 43,
+        "awards": [
+          "Best Actor - Un Certain Regard · Frank DILLANE"
+        ]
       }
     ]
   }
