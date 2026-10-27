@@ -85,3 +85,15 @@ test('Catalogue deployment is idempotent, preserves existing data and aborts on 
   await assert.rejects(db.exec(sql),/different work/);await db.exec('rollback');assert.equal((await db.query('select work_key from media_provider_links where provider_key=$1',['movie:'+first.tmdb_id])).rows[0].work_key,'movie:999999');
  }finally{await db.close();}
 });
+
+test('Historical Oscar editions navigate all five years and restore categories on reload',async()=>{
+ for(const year of [2021,2022,2023,2024,2025]){
+  const a=await boot(`#/films/awards?event=Oscars&year=${year}`);try{
+   assert.equal(a.$('award-edition-title').textContent,`Oscars ${year}`);
+   assert.equal(a.$('awards-grid').querySelectorAll('.award-category').length,11);
+   assert.equal(a.$('award-years').querySelectorAll('a').length,6);
+   const main=a.$('awards-grid').querySelector('.award-category');assert.match(main.textContent,/Best Picture/);
+   const first=main.querySelector('article');assert.ok(first);assert.match(first.textContent,/Winner/);
+  }finally{await a.close();}
+ }
+});
