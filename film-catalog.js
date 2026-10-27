@@ -2144,7 +2144,7 @@ window.CULTURE_CATALOG = [
   {
     "id": 262,
     "title": "Mother",
-    "director": "Teona Strugar Mitevska, Vuk Mitevski",
+    "director": "Teona Strugar Mitevska",
     "year": 2025,
     "tmdb_id": 1292123,
     "imdb_id": "tt18246200",

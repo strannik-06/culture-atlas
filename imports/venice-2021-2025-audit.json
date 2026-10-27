@@ -3735,5 +3735,17 @@
       "alternate_titles": []
     }
   ],
-  "unresolved": []
+  "unresolved": [],
+  "metadata_corrections": [
+    {
+      "id": 262,
+      "tmdb_id": 1292123,
+      "from": "Teona Strugar Mitevska, Vuk Mitevski",
+      "director": "Teona Strugar Mitevska",
+      "evidence": [
+        "https://www.labiennale.org/en/cinema/2025/orizzonti/mother",
+        "https://www.fraufilm.dk/mother/"
+      ]
+    }
+  ]
 }

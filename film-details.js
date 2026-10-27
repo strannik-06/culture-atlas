@@ -8374,7 +8374,7 @@ window.CULTURE_FILM_DETAILS = {
       "BA"
     ],
     "original_language": "en",
-    "director": "Teona Strugar Mitevska, Vuk Mitevski",
+    "director": "Teona Strugar Mitevska",
     "cast": [
       "Noomi Rapace",
       "Nikola Ristanovski",

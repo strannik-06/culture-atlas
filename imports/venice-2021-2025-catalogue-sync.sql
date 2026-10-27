@@ -410,4 +410,9 @@ insert into public.media_provider_links values('movie:1418361','movie:2802') on 
 insert into public.media_provider_links values('movie:1310573','movie:2803') on conflict do nothing;
 insert into public.media_provider_links values('movie:1319520','movie:2804') on conflict do nothing;
 insert into public.media_provider_links values('movie:1517064','movie:2805') on conflict do nothing;
+-- Reviewed public director metadata correction for Mother; existing ID and all other fields preserved.
+do $ begin
+ if exists(select 1 from public.media_catalogue where work_key='movie:262' and (work_type<>'movie' or (metadata->>'tmdb_id')::bigint is distinct from 1292123 or coalesce(metadata->>'director','') not in ('Teona Strugar Mitevska, Vuk Mitevski','Teona Strugar Mitevska'))) then raise exception 'Reviewed director correction identity changed'; end if;
+end $;
+update public.media_catalogue set metadata=jsonb_set(metadata,'{director}',to_jsonb('Teona Strugar Mitevska'::text)) where work_key='movie:262' and (metadata->>'tmdb_id')::bigint=1292123 and metadata->>'director'='Teona Strugar Mitevska, Vuk Mitevski';
 commit;
