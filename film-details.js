@@ -80007,5 +80007,812 @@ window.CULTURE_FILM_DETAILS = {
     "imdb": {
       "url": "https://www.imdb.com/title/tt8337264/"
     }
+  },
+  "2520": {
+    "tmdb_id": 556574,
+    "title": "Hamilton",
+    "original_title": "Hamilton",
+    "overview": "Presenting the tale of American founding father Alexander Hamilton, this filmed version of the original Broadway smash hit is the story of America then, told by America now.",
+    "runtime": 160,
+    "release_date": "2025-09-05",
+    "genres": [
+      "History",
+      "Drama"
+    ],
+    "countries": [
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Thomas Kail",
+    "cast": [
+      "Lin-Manuel Miranda",
+      "Leslie Odom Jr.",
+      "Renée Elise Goldsberry",
+      "Phillipa Soo",
+      "Daveed Diggs"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/h1B7tW0t399VDjAcWJh8m87469b.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/uWVkEo9PWHu9algZsiLPi6sRU64.jpg",
+    "tmdb_rating": 7.836,
+    "tmdb_votes": 171,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt8503618/"
+    }
+  },
+  "2521": {
+    "tmdb_id": 586101,
+    "title": "Music",
+    "original_title": "Music",
+    "overview": "Zu, a free spirit estranged from her family, suddenly finds herself the sole guardian of her half-sister, Music, a teenager on the autism spectrum whose whole world order has been beautifully crafted by her late grandmother. The film soon challenges whether it is Zu or Music who has a better view of the world, and that love, trust, and being able to be there for each other is everything.",
+    "runtime": 107,
+    "release_date": "2021-01-14",
+    "genres": [
+      "Music",
+      "Drama"
+    ],
+    "countries": [
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Sia",
+    "cast": [
+      "Kate Hudson",
+      "Leslie Odom Jr.",
+      "Maddie Ziegler",
+      "Mary Kay Place",
+      "Beto Calvillo"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/xzDXq7ofNkvIovB6Vb8KZpjqkK0.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/cjFroCHqI2VZhf5UkUMu4OdJuXB.jpg",
+    "tmdb_rating": 5.2,
+    "tmdb_votes": 163,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt7541720/"
+    }
+  },
+  "2522": {
+    "tmdb_id": 587792,
+    "title": "Palm Springs",
+    "original_title": "Palm Springs",
+    "overview": "When carefree Nyles and reluctant maid of honor Sarah have a chance encounter at a Palm Springs wedding, things get complicated when they find themselves unable to escape the venue, themselves, or each other.",
+    "runtime": 90,
+    "release_date": "2020-07-10",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Science Fiction"
+    ],
+    "countries": [
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Max Barbakow",
+    "cast": [
+      "Andy Samberg",
+      "Cristin Milioti",
+      "J.K. Simmons",
+      "Peter Gallagher",
+      "Meredith Hagner"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/gnAfqiV7yO3Jq9IntTmwkcaICqc.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/d7JUXVvjvVCXWs1mlpyO5ESdWdT.jpg",
+    "tmdb_rating": 7.3,
+    "tmdb_votes": 3970,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt9484998/"
+    }
+  },
+  "2523": {
+    "tmdb_id": 611213,
+    "title": "The Prom",
+    "original_title": "The Prom",
+    "overview": "After the PTA of a conservative high school in Indiana bans same-sex couples from attending the annual prom, a gang of flamboyant Broadway stars try to boost their image by showing up to support two lesbian students.",
+    "runtime": 131,
+    "release_date": "2020-12-02",
+    "genres": [
+      "Romance",
+      "Comedy"
+    ],
+    "countries": [
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Ryan Murphy",
+    "cast": [
+      "Meryl Streep",
+      "James Corden",
+      "Nicole Kidman",
+      "Kerry Washington",
+      "Keegan-Michael Key"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/i7An8UravfzqaU7SuumaWEVRqVU.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/pF4pEiMHKvCIqX3h582tTCoNkwC.jpg",
+    "tmdb_rating": 6.1,
+    "tmdb_votes": 728,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt10161886/"
+    }
+  },
+  "2524": {
+    "tmdb_id": 529203,
+    "title": "The Croods: A New Age",
+    "original_title": "The Croods: A New Age",
+    "overview": "Searching for a safer habitat, the prehistoric Crood family discovers an idyllic, walled-in paradise that meets all of its needs. Unfortunately, they must also learn to live with the Bettermans -- a family that's a couple of steps above the Croods on the evolutionary ladder. As tensions between the new neighbors start to rise, a new threat soon propels both clans on an epic adventure that forces them to embrace their differences, draw strength from one another, and survive together.",
+    "runtime": 95,
+    "release_date": "2020-11-25",
+    "genres": [
+      "Animation",
+      "Family",
+      "Adventure",
+      "Fantasy",
+      "Comedy"
+    ],
+    "countries": [
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Joel Crawford",
+    "cast": [
+      "Nicolas Cage",
+      "Emma Stone",
+      "Ryan Reynolds",
+      "Catherine Keener",
+      "Cloris Leachman"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/tbVZ3Sq88dZaCANlUcewQuHQOaE.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/ytTQoYkdpsgtfDWrNFCei8Mfbxu.jpg",
+    "tmdb_rating": 7.434,
+    "tmdb_votes": 4264,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt2850386/"
+    }
+  },
+  "2525": {
+    "tmdb_id": 617708,
+    "title": "La Llorona",
+    "original_title": "La Llorona",
+    "overview": "Accused of the genocide of Mayan people, retired general Enrique is trapped in his mansion by massive protests. Abandoned by his staff, the indignant old man and his family must face the devastating truth of his actions and the growing sense that a wrathful supernatural force is targeting them for his crimes.",
+    "runtime": 97,
+    "release_date": "2019-07-25",
+    "genres": [
+      "Thriller",
+      "Horror",
+      "Drama"
+    ],
+    "countries": [
+      "GT",
+      "FR"
+    ],
+    "original_language": "es",
+    "director": "Jayro Bustamante",
+    "cast": [
+      "María Mercedes Coroy",
+      "Sabrina De La Hoz",
+      "Margarita Kénefic",
+      "Julio Díaz",
+      "María Telón"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/n2O3cSuxSKlnCiEXI2CB5auXA2G.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/hXjK21t5S6WRR8HnG3apYpZ5lJW.jpg",
+    "tmdb_rating": 6.4,
+    "tmdb_votes": 388,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt10767168/"
+    }
+  },
+  "2526": {
+    "tmdb_id": 621744,
+    "title": "Two of Us",
+    "original_title": "Deux",
+    "overview": "Nina and Madeleine have been sharing their lives and the landing between their two apartments for decades. After more than 20 years of loving in the shadows, Madeleine promises Nina she will tell her family the truth. It takes an unexpected event to show her the importance of living your truth.",
+    "runtime": 92,
+    "release_date": "2020-02-12",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "countries": [
+      "BE",
+      "FR",
+      "LU"
+    ],
+    "original_language": "fr",
+    "director": "Filippo Meneghetti",
+    "cast": [
+      "Barbara Sukowa",
+      "Martine Chevallier",
+      "Léa Drucker",
+      "Jérôme Varanfrain",
+      "Muriel Bénazéraf"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/itPHi7V84mUOYuvD3t0QK2oWfVP.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/ym2xIbKKm46Xe6kxNnFOhAb79yN.jpg",
+    "tmdb_rating": 7,
+    "tmdb_votes": 181,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt9845110/"
+    }
+  },
+  "2527": {
+    "tmdb_id": 556678,
+    "title": "Emma.",
+    "original_title": "Emma.",
+    "overview": "In 1800s England, a well-meaning but selfish young woman meddles in the love lives of her friends.",
+    "runtime": 125,
+    "release_date": "2020-02-13",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Drama"
+    ],
+    "countries": [
+      "GB"
+    ],
+    "original_language": "en",
+    "director": "Autumn de Wilde",
+    "cast": [
+      "Anya Taylor-Joy",
+      "Johnny Flynn",
+      "Josh O'Connor",
+      "Callum Turner",
+      "Mia Goth"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/uHpHzbHLSsVmAuuGuQSpyVDZmDc.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/42gqGeyXh4caHP19Tqf8DMRgc7r.jpg",
+    "tmdb_rating": 7,
+    "tmdb_votes": 2026,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt9214832/"
+    }
+  },
+  "2528": {
+    "tmdb_id": 599960,
+    "title": "French Exit",
+    "original_title": "French Exit",
+    "overview": "“My plan was to die before the money ran out,” says 60-year-old penniless Manhattan socialite Frances Price, but things didn’t go as planned. Her husband Franklin has been dead for 12 years and with his vast inheritance gone, she cashes in the last of her possessions and resolves to live out her twilight days anonymously in a borrowed apartment in Paris, accompanied by her directionless son Malcolm and a cat named Small Frank—who may or may not embody the spirit of Frances’s dead husband.",
+    "runtime": 113,
+    "release_date": "2021-02-12",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "countries": [
+      "CA",
+      "IE",
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Azazel Jacobs",
+    "cast": [
+      "Michelle Pfeiffer",
+      "Lucas Hedges",
+      "Tracy Letts",
+      "Valerie Mahaffey",
+      "Susan Coyne"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/l5iZuQr62YCs72AZ9P3HwApowaC.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/4mDvrSNZuEc4OrbJdXnEJO8LLmO.jpg",
+    "tmdb_rating": 5.6,
+    "tmdb_votes": 179,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt10279362/"
+    }
+  },
+  "2529": {
+    "tmdb_id": 601666,
+    "title": "I Care a Lot",
+    "original_title": "I Care a Lot",
+    "overview": "A court-appointed legal guardian defrauds her older clients and traps them under her care. But her latest mark comes with some unexpected baggage.",
+    "runtime": 119,
+    "release_date": "2021-02-19",
+    "genres": [
+      "Crime",
+      "Thriller",
+      "Drama",
+      "Comedy"
+    ],
+    "countries": [
+      "GB",
+      "US"
+    ],
+    "original_language": "en",
+    "director": "J Blakeson",
+    "cast": [
+      "Rosamund Pike",
+      "Peter Dinklage",
+      "Eiza González",
+      "Dianne Wiest",
+      "Chris Messina"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/gKnhEsjNefpKnUdAkn7INzIFLSu.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/pA4J371Gk2F47vyGQOWapcsnOzz.jpg",
+    "tmdb_rating": 6.573,
+    "tmdb_votes": 3104,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt9893250/"
+    }
+  },
+  "2530": {
+    "tmdb_id": 520900,
+    "title": "The Personal History of David Copperfield",
+    "original_title": "The Personal History of David Copperfield",
+    "overview": "A fresh and distinctive take on Charles Dickens’ semi-autobiographical masterpiece, The Personal History of David Copperfield, set in the 1840s, chronicles the life of its iconic title character as he navigates a chaotic world to find his elusive place within it. From his unhappy childhood to the discovery of his gift as a storyteller and writer, David’s journey is by turns hilarious and tragic, but always full of life, colour and humanity.",
+    "runtime": 119,
+    "release_date": "2019-11-07",
+    "genres": [
+      "Comedy"
+    ],
+    "countries": [
+      "GB",
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Armando Iannucci",
+    "cast": [
+      "Dev Patel",
+      "Peter Capaldi",
+      "Ben Whishaw",
+      "Tilda Swinton",
+      "Gwendoline Christie"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/2epgo9k2Jrs7qrTL1Rork1mDSKT.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/udMUwcH9UBxwjvpRD3f0ExEJq89.jpg",
+    "tmdb_rating": 6.4,
+    "tmdb_votes": 559,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt6439020/"
+    }
+  },
+  "2531": {
+    "tmdb_id": 602269,
+    "title": "The Little Things",
+    "original_title": "The Little Things",
+    "overview": "Deputy Sheriff Joe \"Deke\" Deacon joins forces with Sgt. Jim Baxter to search for a serial killer who's terrorizing Los Angeles. As they track the culprit, Baxter is unaware that the investigation is dredging up echoes of Deke's past, uncovering disturbing secrets that could threaten more than his case.",
+    "runtime": 128,
+    "release_date": "2021-01-28",
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "countries": [
+      "US"
+    ],
+    "original_language": "en",
+    "director": "John Lee Hancock",
+    "cast": [
+      "Denzel Washington",
+      "Rami Malek",
+      "Jared Leto",
+      "Chris Bauer",
+      "Michael Hyatt"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/tLO1aD1ghdtVMT32z2sRmzgYKYd.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/9TW4zKd2FFZgqR8k5vf4oZofPMR.jpg",
+    "tmdb_rating": 6.4,
+    "tmdb_votes": 2993,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt10016180/"
+    }
+  },
+  "2532": {
+    "tmdb_id": 831738,
+    "title": "My Sunny Maad",
+    "original_title": "Moje slunce Mad",
+    "overview": "When Herra, a young Czech woman, falls in love with Nazir, an Afghan, she has no idea what kind of life awaits her in post-Taliban Afghanistan, nor of the family she is about to integrate into. A liberal grandfather, an adopted child who is highly intelligent and Freshta, who would do anything to escape her husband's violent grip.",
+    "runtime": 81,
+    "release_date": "2021-10-21",
+    "genres": [
+      "Animation",
+      "Drama"
+    ],
+    "countries": [
+      "CZ",
+      "FR",
+      "SK"
+    ],
+    "original_language": "cs",
+    "director": "Michaela Pavlátová",
+    "cast": [
+      "Zuzana Stivínová",
+      "Hynek Čermák",
+      "Jana Plodková",
+      "Ivan Trojan",
+      "Miroslav Krobot"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/v3oUHqvCbCEpQIFCze1XQk5wzTJ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/ubvQhKqOv5mrqGl75E4hnt6QOYv.jpg",
+    "tmdb_rating": 6.2,
+    "tmdb_votes": 18,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt14749948/"
+    }
+  },
+  "2533": {
+    "tmdb_id": 337404,
+    "title": "Cruella",
+    "original_title": "Cruella",
+    "overview": "In 1970s London amidst the punk rock revolution, a young grifter named Estella is determined to make a name for herself with her designs. She befriends a pair of young thieves who appreciate her appetite for mischief, and together they are able to build a life for themselves on the London streets. One day, Estella’s flair for fashion catches the eye of the Baroness von Hellman, a fashion legend who is devastatingly chic and terrifyingly haute. But their relationship sets in motion a course of events and revelations that will cause Estella to embrace her wicked side and become the raucous, fashionable and revenge-bent Cruella.",
+    "runtime": 134,
+    "release_date": "2021-05-26",
+    "genres": [
+      "Comedy",
+      "Crime"
+    ],
+    "countries": [
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Craig Gillespie",
+    "cast": [
+      "Emma Stone",
+      "Emma Thompson",
+      "Joel Fry",
+      "Paul Walter Hauser",
+      "John McCrea"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/hjS9mH8KvRiGHgjk6VUZH7OT0Ng.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/6MKr3KgOLmzOP6MSuZERO41Lpkt.jpg",
+    "tmdb_rating": 8,
+    "tmdb_votes": 10409,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt3228774/"
+    }
+  },
+  "2534": {
+    "tmdb_id": 467909,
+    "title": "In the Heights",
+    "original_title": "In the Heights",
+    "overview": "The story of Usnavi, a bodega owner who has mixed feelings about closing his store and retiring to the Dominican Republic or staying in Washington Heights.",
+    "runtime": 143,
+    "release_date": "2021-06-10",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "countries": [
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Jon M. Chu",
+    "cast": [
+      "Anthony Ramos",
+      "Corey Hawkins",
+      "Leslie Grace",
+      "Melissa Barrera",
+      "Olga Merediz"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/lbf7wmrYRieR8fNFLnGiypMoPm1.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/uEJuqp08dH6IQwZJGASlPZOXqKu.jpg",
+    "tmdb_rating": 7.107,
+    "tmdb_votes": 824,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt1321510/"
+    }
+  },
+  "2535": {
+    "tmdb_id": 727293,
+    "title": "The Tender Bar",
+    "original_title": "The Tender Bar",
+    "overview": "JR is a fatherless boy growing up in the glow of a bar where the bartender, his Uncle Charlie, is the sharpest and most colorful of an assortment of quirky and demonstrative father figures. As the boy’s determined mother struggles to provide her son with opportunities denied to her — and leave the dilapidated home of her outrageous if begrudgingly supportive father — JR begins to gamely, if not always gracefully, pursue his romantic and professional dreams, with one foot persistently placed in Uncle Charlie’s bar.",
+    "runtime": 104,
+    "release_date": "2021-12-17",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "US"
+    ],
+    "original_language": "en",
+    "director": "George Clooney",
+    "cast": [
+      "Ben Affleck",
+      "Tye Sheridan",
+      "Daniel Ranieri",
+      "Lily Rabe",
+      "Christopher Lloyd"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/m6Ej3F4tYTOHD26fvX1zN9bcEUg.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/aj02AhFaRsAqtFtjbythaIwGvx4.jpg",
+    "tmdb_rating": 6.5,
+    "tmdb_votes": 634,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt3108894/"
+    }
+  },
+  "2536": {
+    "tmdb_id": 642538,
+    "title": "Inu-Oh",
+    "original_title": "犬王",
+    "overview": "A cursed dancer and a blind musician — both ostracized by society — become business partners and inseparable friends as their larger-than-life concerts propel them to stardom in 14th century Japan.",
+    "runtime": 98,
+    "release_date": "2022-05-28",
+    "genres": [
+      "Animation",
+      "Drama",
+      "Music",
+      "Fantasy",
+      "History"
+    ],
+    "countries": [
+      "JP",
+      "HK"
+    ],
+    "original_language": "ja",
+    "director": "Masaaki Yuasa",
+    "cast": [
+      "Avu-chan",
+      "Mirai Moriyama",
+      "Tasuku Emoto",
+      "Kenjiro Tsuda",
+      "Yutaka Matsushige"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/67WmijqW7fjmLcc0eKZtW59Hf4d.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/b0wvlhQdnBMKjkxDDs3OqHVYgCW.jpg",
+    "tmdb_rating": 7.5,
+    "tmdb_votes": 176,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt10540510/"
+    }
+  },
+  "2537": {
+    "tmdb_id": 837938,
+    "title": "The Inspection",
+    "original_title": "The Inspection",
+    "overview": "Ellis French is a young, gay Black man, rejected by his mother and with few options for his future, decides to join the Marines, doing whatever it takes to succeed in a system that would cast him aside. But even as he battles deep-seated prejudice and the grueling routines of basic training, he finds unexpected camaraderie, strength, and support in this new community, giving him a hard-earned sense of belonging that will shape his identity and forever change his life.",
+    "runtime": 95,
+    "release_date": "2022-11-18",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Elegance Bratton",
+    "cast": [
+      "Jeremy Pope",
+      "Gabrielle Union",
+      "Bokeem Woodbine",
+      "Raúl Castillo",
+      "McCaul Lombardi"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/w7m962Crc1p4C4gM6ZJBArAikM9.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/lLaeFLQNsZ11zG3LTSczD3YNLad.jpg",
+    "tmdb_rating": 6.1,
+    "tmdb_votes": 93,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt13495458/"
+    }
+  },
+  "2538": {
+    "tmdb_id": 754609,
+    "title": "Mrs. Harris Goes to Paris",
+    "original_title": "Mrs. Harris Goes to Paris",
+    "overview": "A 1950s London cleaning lady falls in love with an haute couture dress by Christian Dior and decides to gamble everything for the sake of this folly.",
+    "runtime": 116,
+    "release_date": "2022-07-15",
+    "genres": [
+      "Drama",
+      "Comedy",
+      "History"
+    ],
+    "countries": [
+      "BE",
+      "CA",
+      "FR",
+      "HU",
+      "GB"
+    ],
+    "original_language": "en",
+    "director": "Anthony Fabian",
+    "cast": [
+      "Lesley Manville",
+      "Isabelle Huppert",
+      "Lambert Wilson",
+      "Alba Baptista",
+      "Lucas Bravo"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/eUg0HDLhTEDcXGBU2iK6QRBILv4.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/AhkirfgU32n0D1uxpaGYJEKy2Hu.jpg",
+    "tmdb_rating": 7.265,
+    "tmdb_votes": 537,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt5151570/"
+    }
+  },
+  "2539": {
+    "tmdb_id": 593643,
+    "title": "The Menu",
+    "original_title": "The Menu",
+    "overview": "A young couple travels to a remote island to eat at an exclusive restaurant where the chef has prepared a lavish menu, with some shocking surprises.",
+    "runtime": 107,
+    "release_date": "2022-11-17",
+    "genres": [
+      "Comedy",
+      "Horror"
+    ],
+    "countries": [
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Mark Mylod",
+    "cast": [
+      "Anya Taylor-Joy",
+      "Ralph Fiennes",
+      "Nicholas Hoult",
+      "Janet McTeer",
+      "Paul Adelstein"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/fPtUgMcLIboqlTlPrq0bQpKK8eq.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/4vSBj7BYsyuKCx96EJzGyp20WfY.jpg",
+    "tmdb_rating": 7.179,
+    "tmdb_votes": 6823,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt9764362/"
+    }
+  },
+  "2540": {
+    "tmdb_id": 1022796,
+    "title": "Wish",
+    "original_title": "Wish",
+    "overview": "Asha, a sharp-witted idealist, makes a wish so powerful that it is answered by a cosmic force – a little ball of boundless energy called Star. Together, Asha and Star confront a most formidable foe - the ruler of Rosas, King Magnifico - to save her community and prove that when the will of one courageous human connects with the magic of the stars, wondrous things can happen.",
+    "runtime": 95,
+    "release_date": "2023-11-13",
+    "genres": [
+      "Animation",
+      "Family",
+      "Fantasy",
+      "Adventure"
+    ],
+    "countries": [
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Fawn Veerasunthorn, Chris Buck",
+    "cast": [
+      "Ariana DeBose",
+      "Chris Pine",
+      "Alan Tudyk",
+      "Angelique Cabral",
+      "Victor Garber"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/nesuSdJakNkf0zs7OfoasB6Clxf.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/ehumsuIBbgAe1hg343oszCLrAfI.jpg",
+    "tmdb_rating": 6.2,
+    "tmdb_votes": 1855,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt11304740/"
+    }
+  },
+  "2541": {
+    "tmdb_id": 502356,
+    "title": "The Super Mario Bros. Movie",
+    "original_title": "The Super Mario Bros. Movie",
+    "overview": "While working underground to fix a water main, Brooklyn plumbers—and brothers—Mario and Luigi are transported down a mysterious pipe and wander into a magical new world. But when the brothers are separated, Mario embarks on an epic quest to find Luigi.",
+    "runtime": 93,
+    "release_date": "2023-04-05",
+    "genres": [
+      "Family",
+      "Comedy",
+      "Adventure",
+      "Fantasy",
+      "Animation"
+    ],
+    "countries": [
+      "JP",
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Aaron Horvath, Michael Jelenic",
+    "cast": [
+      "Chris Pratt",
+      "Anya Taylor-Joy",
+      "Charlie Day",
+      "Jack Black",
+      "Keegan-Michael Key"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/9n2tJBplPbgR2ca05hS5CKXwP2c.jpg",
+    "tmdb_rating": 7.586,
+    "tmdb_votes": 11276,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt6718170/"
+    }
+  },
+  "2542": {
+    "tmdb_id": 1020006,
+    "title": "Priscilla",
+    "original_title": "Priscilla",
+    "overview": "When teenage Priscilla Beaulieu meets Elvis Presley at a party, the man who is already a meteoric rock-and-roll superstar becomes someone entirely unexpected in private moments: a thrilling crush, an ally in loneliness, a vulnerable best friend.",
+    "runtime": 113,
+    "release_date": "2023-10-27",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "IT",
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Sofia Coppola",
+    "cast": [
+      "Cailee Spaeny",
+      "Jacob Elordi",
+      "Ari Cohen",
+      "Dagmara Dominczyk",
+      "Tim Post"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/uDCeELWWpsNq7ErM61Yuq70WAE9.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/zz219ZRGo0vVIzvKttjx5nXOc2N.jpg",
+    "tmdb_rating": 6.678,
+    "tmdb_votes": 1162,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt22041854/"
+    }
+  },
+  "2543": {
+    "tmdb_id": 823482,
+    "title": "Dream Scenario",
+    "original_title": "Dream Scenario",
+    "overview": "Hapless family man Paul Matthews finds his life turned upside down when millions of strangers suddenly start seeing him in their dreams. But when his nighttime appearances take a nightmarish turn, Paul is forced to navigate his newfound stardom.",
+    "runtime": 102,
+    "release_date": "2023-11-10",
+    "genres": [
+      "Comedy",
+      "Fantasy"
+    ],
+    "countries": [
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Kristoffer Borgli",
+    "cast": [
+      "Nicolas Cage",
+      "Julianne Nicholson",
+      "Michael Cera",
+      "Tim Meadows",
+      "Dylan Gelula"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/eMaAi8wTI5wON8pp33w3BDuGyZ8.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/2WRe1y5S1jGWTKUcSPPmD1Ixq56.jpg",
+    "tmdb_rating": 6.641,
+    "tmdb_votes": 1491,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt21942866/"
+    }
+  },
+  "2544": {
+    "tmdb_id": 798286,
+    "title": "Beau Is Afraid",
+    "original_title": "Beau Is Afraid",
+    "overview": "Following the sudden death of his mother, a mild-mannered but anxiety-ridden man confronts his darkest fears as he embarks on an epic odyssey back home.",
+    "runtime": 179,
+    "release_date": "2023-04-14",
+    "genres": [
+      "Comedy",
+      "Adventure",
+      "Fantasy"
+    ],
+    "countries": [
+      "US",
+      "FI"
+    ],
+    "original_language": "en",
+    "director": "Ari Aster",
+    "cast": [
+      "Joaquin Phoenix",
+      "Patti LuPone",
+      "Amy Ryan",
+      "Nathan Lane",
+      "Kylie Rogers"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/wgVkkjigF31r1nZV80uV0xNIoun.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/atvEgnjjXN5QvFDThXVz4nyU9yi.jpg",
+    "tmdb_rating": 6.7,
+    "tmdb_votes": 1441,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt13521006/"
+    }
   }
 };

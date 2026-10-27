@@ -55,8 +55,17 @@
       "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
     },
     {
-      "title": "Music",
+      "title": "Hamilton",
       "id": 2520,
+      "tmdb_id": 556574,
+      "director": "Thomas Kail",
+      "release_date": "2025-09-05",
+      "imdb_id": "tt8503618",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Music",
+      "id": 2521,
       "tmdb_id": 586101,
       "director": "Sia",
       "release_date": "2021-01-14",
@@ -65,7 +74,7 @@
     },
     {
       "title": "Palm Springs",
-      "id": 2521,
+      "id": 2522,
       "tmdb_id": 587792,
       "director": "Max Barbakow",
       "release_date": "2020-07-10",
@@ -74,7 +83,7 @@
     },
     {
       "title": "The Prom",
-      "id": 2522,
+      "id": 2523,
       "tmdb_id": 611213,
       "director": "Ryan Murphy",
       "release_date": "2020-12-02",
@@ -92,7 +101,7 @@
     },
     {
       "title": "The Croods: A New Age",
-      "id": 2523,
+      "id": 2524,
       "tmdb_id": 529203,
       "director": "Joel Crawford",
       "release_date": "2020-11-25",
@@ -137,7 +146,7 @@
     },
     {
       "title": "La Llorona",
-      "id": 2524,
+      "id": 2525,
       "tmdb_id": 617708,
       "director": "Jayro Bustamante",
       "release_date": "2019-07-25",
@@ -160,6 +169,15 @@
       "director": "Lee Isaac Chung",
       "release_date": "2020-12-11",
       "imdb_id": "tt10633456",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "Two of Us",
+      "id": 2526,
+      "tmdb_id": 621744,
+      "director": "Filippo Meneghetti",
+      "release_date": "2020-02-12",
+      "imdb_id": "tt9845110",
       "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
     },
     {
@@ -209,7 +227,7 @@
     },
     {
       "title": "Emma.",
-      "id": 2525,
+      "id": 2527,
       "tmdb_id": 556678,
       "director": "Autumn de Wilde",
       "release_date": "2020-02-13",
@@ -218,7 +236,7 @@
     },
     {
       "title": "French Exit",
-      "id": 2526,
+      "id": 2528,
       "tmdb_id": 599960,
       "director": "Azazel Jacobs",
       "release_date": "2021-02-12",
@@ -227,7 +245,7 @@
     },
     {
       "title": "I Care A Lot",
-      "id": 2527,
+      "id": 2529,
       "tmdb_id": 601666,
       "director": "J Blakeson",
       "release_date": "2021-02-19",
@@ -236,7 +254,7 @@
     },
     {
       "title": "The Personal History of David Copperfield",
-      "id": 2528,
+      "id": 2530,
       "tmdb_id": 520900,
       "director": "Armando Iannucci",
       "release_date": "2019-11-07",
@@ -272,7 +290,7 @@
     },
     {
       "title": "The Little Things",
-      "id": 2529,
+      "id": 2531,
       "tmdb_id": 602269,
       "director": "John Lee Hancock",
       "release_date": "2021-01-28",
@@ -361,6 +379,15 @@
       "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
     },
     {
+      "title": "West Side Story (2021)",
+      "id": 2404,
+      "tmdb_id": 511809,
+      "director": "Steven Spielberg",
+      "release_date": "2021-12-08",
+      "imdb_id": "tt3581652",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
       "title": "Cyrano",
       "id": 2484,
       "tmdb_id": 730047,
@@ -407,7 +434,7 @@
     },
     {
       "title": "My Sunny Maad",
-      "id": 2530,
+      "id": 2532,
       "tmdb_id": 831738,
       "director": "Michaela Pavlátová",
       "release_date": "2021-10-21",
@@ -542,7 +569,7 @@
     },
     {
       "title": "Cruella",
-      "id": 2531,
+      "id": 2533,
       "tmdb_id": 337404,
       "director": "Craig Gillespie",
       "release_date": "2021-05-26",
@@ -551,7 +578,7 @@
     },
     {
       "title": "In the Heights",
-      "id": 2532,
+      "id": 2534,
       "tmdb_id": 467909,
       "director": "Jon M. Chu",
       "release_date": "2021-06-10",
@@ -569,7 +596,7 @@
     },
     {
       "title": "The Tender Bar",
-      "id": 2533,
+      "id": 2535,
       "tmdb_id": 727293,
       "director": "George Clooney",
       "release_date": "2021-12-17",
@@ -677,7 +704,7 @@
     },
     {
       "title": "Inu-Oh",
-      "id": 2534,
+      "id": 2536,
       "tmdb_id": 642538,
       "director": "Masaaki Yuasa",
       "release_date": "2022-05-28",
@@ -736,6 +763,15 @@
       "director": "S. S. Rajamouli",
       "release_date": "2022-03-24",
       "imdb_id": "tt8178634",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "All Quiet on the Western Front (2022)",
+      "id": 308,
+      "tmdb_id": 49046,
+      "director": "Edward Berger",
+      "release_date": "2022-10-07",
+      "imdb_id": "tt1016150",
       "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
     },
     {
@@ -803,7 +839,7 @@
     },
     {
       "title": "The Inspection",
-      "id": 2535,
+      "id": 2537,
       "tmdb_id": 837938,
       "director": "Elegance Bratton",
       "release_date": "2022-11-18",
@@ -812,7 +848,7 @@
     },
     {
       "title": "Mrs. Harris Goes to Paris",
-      "id": 2536,
+      "id": 2538,
       "tmdb_id": 754609,
       "director": "Anthony Fabian",
       "release_date": "2022-07-15",
@@ -821,7 +857,7 @@
     },
     {
       "title": "The Menu",
-      "id": 2537,
+      "id": 2539,
       "tmdb_id": 593643,
       "director": "Mark Mylod",
       "release_date": "2022-11-17",
@@ -991,6 +1027,15 @@
       "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
     },
     {
+      "title": "Wish",
+      "id": 2540,
+      "tmdb_id": 1022796,
+      "director": "Fawn Veerasunthorn, Chris Buck",
+      "release_date": "2023-11-13",
+      "imdb_id": "tt11304740",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
       "title": "Suzume",
       "id": 314,
       "tmdb_id": 916224,
@@ -1001,7 +1046,7 @@
     },
     {
       "title": "The Super Mario Bros. Movie",
-      "id": 2538,
+      "id": 2541,
       "tmdb_id": 502356,
       "director": "Aaron Horvath, Michael Jelenic",
       "release_date": "2023-04-05",
@@ -1064,7 +1109,7 @@
     },
     {
       "title": "Priscilla",
-      "id": 2539,
+      "id": 2542,
       "tmdb_id": 1020006,
       "director": "Sofia Coppola",
       "release_date": "2023-10-27",
@@ -1117,6 +1162,15 @@
       "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
     },
     {
+      "title": "The Color Purple (2023)",
+      "id": 2448,
+      "tmdb_id": 558915,
+      "director": "Blitz Bazawule",
+      "release_date": "2023-12-25",
+      "imdb_id": "tt1200263",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
       "title": "Wonka",
       "id": 2511,
       "tmdb_id": 787699,
@@ -1127,7 +1181,7 @@
     },
     {
       "title": "Dream Scenario",
-      "id": 2540,
+      "id": 2543,
       "tmdb_id": 823482,
       "director": "Kristoffer Borgli",
       "release_date": "2023-11-10",
@@ -1136,7 +1190,7 @@
     },
     {
       "title": "Beau is Afraid",
-      "id": 2541,
+      "id": 2544,
       "tmdb_id": 798286,
       "director": "Ari Aster",
       "release_date": "2023-04-14",
@@ -1489,6 +1543,17 @@
   "new_canonical_ids": [
     {
       "id": 2520,
+      "title": "Hamilton",
+      "director": "Thomas Kail",
+      "year": 2020,
+      "tmdb_id": 556574,
+      "imdb_id": "tt8503618",
+      "original_title": "Hamilton",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2521,
       "title": "Music",
       "director": "Sia",
       "year": 2021,
@@ -1499,7 +1564,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2521,
+      "id": 2522,
       "title": "Palm Springs",
       "director": "Max Barbakow",
       "year": 2020,
@@ -1510,7 +1575,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2522,
+      "id": 2523,
       "title": "The Prom",
       "director": "Ryan Murphy",
       "year": 2020,
@@ -1521,7 +1586,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2523,
+      "id": 2524,
       "title": "The Croods: A New Age",
       "director": "Joel Crawford",
       "year": 2020,
@@ -1532,7 +1597,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2524,
+      "id": 2525,
       "title": "La Llorona",
       "director": "Jayro Bustamante",
       "year": 2019,
@@ -1543,7 +1608,18 @@
       "alternate_titles": []
     },
     {
-      "id": 2525,
+      "id": 2526,
+      "title": "Two of Us",
+      "director": "Filippo Meneghetti",
+      "year": 2020,
+      "tmdb_id": 621744,
+      "imdb_id": "tt9845110",
+      "original_title": "Deux",
+      "original_language": "fr",
+      "alternate_titles": []
+    },
+    {
+      "id": 2527,
       "title": "Emma.",
       "director": "Autumn de Wilde",
       "year": 2020,
@@ -1554,7 +1630,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2526,
+      "id": 2528,
       "title": "French Exit",
       "director": "Azazel Jacobs",
       "year": 2021,
@@ -1565,7 +1641,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2527,
+      "id": 2529,
       "title": "I Care a Lot",
       "director": "J Blakeson",
       "year": 2021,
@@ -1576,7 +1652,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2528,
+      "id": 2530,
       "title": "The Personal History of David Copperfield",
       "director": "Armando Iannucci",
       "year": 2019,
@@ -1587,7 +1663,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2529,
+      "id": 2531,
       "title": "The Little Things",
       "director": "John Lee Hancock",
       "year": 2021,
@@ -1598,7 +1674,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2530,
+      "id": 2532,
       "title": "My Sunny Maad",
       "director": "Michaela Pavlátová",
       "year": 2021,
@@ -1609,7 +1685,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2531,
+      "id": 2533,
       "title": "Cruella",
       "director": "Craig Gillespie",
       "year": 2021,
@@ -1620,7 +1696,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2532,
+      "id": 2534,
       "title": "In the Heights",
       "director": "Jon M. Chu",
       "year": 2021,
@@ -1631,7 +1707,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2533,
+      "id": 2535,
       "title": "The Tender Bar",
       "director": "George Clooney",
       "year": 2021,
@@ -1642,7 +1718,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2534,
+      "id": 2536,
       "title": "Inu-Oh",
       "director": "Masaaki Yuasa",
       "year": 2022,
@@ -1653,7 +1729,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2535,
+      "id": 2537,
       "title": "The Inspection",
       "director": "Elegance Bratton",
       "year": 2022,
@@ -1664,7 +1740,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2536,
+      "id": 2538,
       "title": "Mrs. Harris Goes to Paris",
       "director": "Anthony Fabian",
       "year": 2022,
@@ -1675,7 +1751,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2537,
+      "id": 2539,
       "title": "The Menu",
       "director": "Mark Mylod",
       "year": 2022,
@@ -1686,7 +1762,18 @@
       "alternate_titles": []
     },
     {
-      "id": 2538,
+      "id": 2540,
+      "title": "Wish",
+      "director": "Fawn Veerasunthorn, Chris Buck",
+      "year": 2023,
+      "tmdb_id": 1022796,
+      "imdb_id": "tt11304740",
+      "original_title": "Wish",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2541,
       "title": "The Super Mario Bros. Movie",
       "director": "Aaron Horvath, Michael Jelenic",
       "year": 2023,
@@ -1697,7 +1784,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2539,
+      "id": 2542,
       "title": "Priscilla",
       "director": "Sofia Coppola",
       "year": 2023,
@@ -1708,7 +1795,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2540,
+      "id": 2543,
       "title": "Dream Scenario",
       "director": "Kristoffer Borgli",
       "year": 2023,
@@ -1719,7 +1806,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2541,
+      "id": 2544,
       "title": "Beau Is Afraid",
       "director": "Ari Aster",
       "year": 2023,
@@ -1730,30 +1817,5 @@
       "alternate_titles": []
     }
   ],
-  "unresolved": [
-    {
-      "title": "Hamilton",
-      "reason": "Expected one title/year/award-credit match; found 0; candidates []"
-    },
-    {
-      "title": "Two of Us",
-      "reason": "Expected one title/year/award-credit match; found 2; candidates [{\"id\":621744,\"title\":\"Two of Us\",\"year\":\"2020-02-12\",\"directors\":[\"Filippo Meneghetti\"],\"cast\":[\"Barbara Sukowa\",\"Martine Chevallier\",\"Léa Drucker\",\"Jérôme Varanfrain\",\"Muriel Bénazéraf\",\"Denis Jousselin\",\"Aude-Laurence Clermont Biver\",\"Eugenie Anselin\",\"Hervé Sogne\",\"Daniel Trubert\",\"Tara Klassen\",\"Alice Lagarde\"]},{\"id\":1396305,\"title\":\"Two of Us\",\"year\":\"2020-10-25\",\"directors\":[\"Wych Kaosayananda\"],\"cast\":[\"Milena Gorum\",\"Alice Tantayanon\"]}]"
-    },
-    {
-      "title": "West Side Story (2021)",
-      "reason": "Expected one title/year/award-credit match; found 0; candidates []"
-    },
-    {
-      "title": "All Quiet on the Western Front (2022)",
-      "reason": "Expected one title/year/award-credit match; found 0; candidates []"
-    },
-    {
-      "title": "Wish",
-      "reason": "Expected one title/year/award-credit match; found 2; candidates [{\"id\":1022796,\"title\":\"Wish\",\"year\":\"2023-11-13\",\"directors\":[\"Fawn Veerasunthorn\",\"Chris Buck\"],\"cast\":[\"Ariana DeBose\",\"Chris Pine\",\"Alan Tudyk\",\"Angelique Cabral\",\"Victor Garber\",\"Natasha Rothwell\",\"Jennifer Kumiyama\",\"Harvey Guillén\",\"Niko Vargas\",\"Evan Peters\",\"Ramy Youssef\",\"Jon Rudnitsky\"]},{\"id\":1136496,\"title\":\"Wish\",\"year\":\"2023-06-13\",\"directors\":[\"B. Danielle Watkins\"],\"cast\":[\"Onyx Keesha\",\"Terrance Styles\",\"Dani Reid\",\"Lacie Doll\"]}]"
-    },
-    {
-      "title": "The Color Purple (2023)",
-      "reason": "Expected one title/year/award-credit match; found 0; candidates []"
-    }
-  ]
+  "unresolved": []
 }

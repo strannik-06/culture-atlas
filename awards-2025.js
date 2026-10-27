@@ -327,453 +327,6 @@ window.CULTURE_AWARDS = [
     ]
   },
   {
-    "event": "Golden Globes",
-    "year": 2025,
-    "section": "Major Film Categories",
-    "dates": "5 January 2025",
-    "awardsDate": "5 January 2025",
-    "source": "https://goldenglobes.com/articles/nominations-announced-for-82nd-annual-golden-globes/",
-    "awardsSource": "https://goldenglobes.com/articles/the-82nd-golden-globe-awards-winners/",
-    "resultsUrl": "https://goldenglobes.com/articles/the-82nd-golden-globe-awards-winners/",
-    "films": [
-      {
-        "id": 102,
-        "awards": [
-          "Best Motion Picture – Drama",
-          "Leading Actor – Drama",
-          "Director"
-        ]
-      },
-      {
-        "id": 220,
-        "awards": []
-      },
-      {
-        "id": 116,
-        "awards": [
-          "Screenplay"
-        ]
-      },
-      {
-        "id": 198,
-        "awards": []
-      },
-      {
-        "id": 111,
-        "awards": []
-      },
-      {
-        "id": 221,
-        "awards": []
-      },
-      {
-        "id": 101,
-        "awards": []
-      },
-      {
-        "id": 132,
-        "awards": []
-      },
-      {
-        "id": 117,
-        "awards": [
-          "Best Motion Picture – Musical or Comedy",
-          "Best Motion Picture – Non-English Language",
-          "Supporting Actress"
-        ]
-      },
-      {
-        "id": 110,
-        "awards": [
-          "Supporting Actor"
-        ]
-      },
-      {
-        "id": 104,
-        "awards": [
-          "Leading Actress – Musical or Comedy"
-        ]
-      },
-      {
-        "id": 200,
-        "awards": []
-      },
-      {
-        "id": 107,
-        "awards": [
-          "Best Motion Picture – Animated"
-        ]
-      },
-      {
-        "id": 182,
-        "awards": []
-      },
-      {
-        "id": 179,
-        "awards": []
-      },
-      {
-        "id": 244,
-        "awards": []
-      },
-      {
-        "id": 183,
-        "awards": []
-      },
-      {
-        "id": 115,
-        "awards": []
-      },
-      {
-        "id": 103,
-        "awards": []
-      },
-      {
-        "id": 114,
-        "awards": []
-      },
-      {
-        "id": 109,
-        "awards": [
-          "Leading Actress – Drama"
-        ]
-      },
-      {
-        "id": 105,
-        "awards": []
-      },
-      {
-        "id": 157,
-        "awards": []
-      },
-      {
-        "id": 226,
-        "awards": []
-      },
-      {
-        "id": 238,
-        "awards": []
-      },
-      {
-        "id": 239,
-        "awards": []
-      },
-      {
-        "id": 108,
-        "awards": []
-      },
-      {
-        "id": 225,
-        "awards": []
-      },
-      {
-        "id": 133,
-        "awards": []
-      },
-      {
-        "id": 149,
-        "awards": []
-      },
-      {
-        "id": 147,
-        "awards": []
-      },
-      {
-        "id": 240,
-        "awards": []
-      },
-      {
-        "id": 139,
-        "awards": []
-      },
-      {
-        "id": 241,
-        "awards": []
-      },
-      {
-        "id": 242,
-        "awards": []
-      },
-      {
-        "id": 243,
-        "awards": []
-      },
-      {
-        "id": 146,
-        "awards": [
-          "Leading Actor – Musical or Comedy"
-        ]
-      },
-      {
-        "id": 224,
-        "awards": []
-      }
-    ],
-    "categories": [
-      {
-        "name": "Best Motion Picture – Drama",
-        "nominees": [
-          102,
-          220,
-          116,
-          198,
-          111,
-          221
-        ],
-        "winner": 102
-      },
-      {
-        "name": "Best Motion Picture – Musical or Comedy",
-        "nominees": [
-          101,
-          132,
-          117,
-          110,
-          104,
-          200
-        ],
-        "winner": 117
-      },
-      {
-        "name": "Best Motion Picture – Animated",
-        "nominees": [
-          107,
-          182,
-          179,
-          244,
-          183,
-          115
-        ],
-        "winner": 107
-      },
-      {
-        "name": "Best Motion Picture – Non-English Language",
-        "nominees": [
-          103,
-          117,
-          114,
-          109,
-          105,
-          157
-        ],
-        "winner": 117
-      },
-      {
-        "name": "Leading Actress – Drama",
-        "nominees": [
-          226,
-          238,
-          239,
-          108,
-          109,
-          225
-        ],
-        "winner": 109,
-        "nomineeNames": {
-          "108": [
-            "Tilda Swinton"
-          ],
-          "109": [
-            "Fernanda Torres"
-          ],
-          "225": [
-            "Kate Winslet"
-          ],
-          "226": [
-            "Pamela Anderson"
-          ],
-          "238": [
-            "Angelina Jolie"
-          ],
-          "239": [
-            "Nicole Kidman"
-          ]
-        }
-      },
-      {
-        "name": "Leading Actor – Drama",
-        "nominees": [
-          102,
-          220,
-          133,
-          149,
-          116,
-          147
-        ],
-        "winner": 102,
-        "nomineeNames": {
-          "102": [
-            "Adrien Brody"
-          ],
-          "116": [
-            "Ralph Fiennes"
-          ],
-          "133": [
-            "Daniel Craig"
-          ],
-          "147": [
-            "Sebastian Stan"
-          ],
-          "149": [
-            "Colman Domingo"
-          ],
-          "220": [
-            "Timothée Chalamet"
-          ]
-        }
-      },
-      {
-        "name": "Leading Actress – Musical or Comedy",
-        "nominees": [
-          240,
-          200,
-          117,
-          101,
-          104,
-          132
-        ],
-        "winner": 104,
-        "nomineeNames": {
-          "101": [
-            "Mikey Madison"
-          ],
-          "104": [
-            "Demi Moore"
-          ],
-          "117": [
-            "Karla Sofía Gascón"
-          ],
-          "132": [
-            "Zendaya"
-          ],
-          "200": [
-            "Cynthia Erivo"
-          ],
-          "240": [
-            "Amy Adams"
-          ]
-        }
-      },
-      {
-        "name": "Leading Actor – Musical or Comedy",
-        "nominees": [
-          110,
-          139,
-          241,
-          242,
-          243,
-          146
-        ],
-        "winner": 146,
-        "nomineeNames": {
-          "110": [
-            "Jesse Eisenberg"
-          ],
-          "139": [
-            "Hugh Grant"
-          ],
-          "146": [
-            "Sebastian Stan"
-          ],
-          "241": [
-            "Gabriel LaBelle"
-          ],
-          "242": [
-            "Jesse Plemons"
-          ],
-          "243": [
-            "Glen Powell"
-          ]
-        }
-      },
-      {
-        "name": "Supporting Actress",
-        "nominees": [
-          117,
-          200,
-          102,
-          104,
-          116
-        ],
-        "winner": 117,
-        "nomineeNames": {
-          "102": [
-            "Felicity Jones"
-          ],
-          "104": [
-            "Margaret Qualley"
-          ],
-          "116": [
-            "Isabella Rossellini"
-          ],
-          "117": [
-            "Selena Gomez",
-            "Zoe Saldaña"
-          ],
-          "200": [
-            "Ariana Grande"
-          ]
-        }
-      },
-      {
-        "name": "Supporting Actor",
-        "nominees": [
-          101,
-          110,
-          220,
-          102,
-          147,
-          224
-        ],
-        "winner": 110,
-        "nomineeNames": {
-          "101": [
-            "Yura Borisov"
-          ],
-          "102": [
-            "Guy Pearce"
-          ],
-          "110": [
-            "Kieran Culkin"
-          ],
-          "147": [
-            "Jeremy Strong"
-          ],
-          "220": [
-            "Edward Norton"
-          ],
-          "224": [
-            "Denzel Washington"
-          ]
-        }
-      },
-      {
-        "name": "Director",
-        "nominees": [
-          117,
-          101,
-          116,
-          102,
-          104,
-          103
-        ],
-        "winner": 102
-      },
-      {
-        "name": "Screenplay",
-        "nominees": [
-          117,
-          101,
-          102,
-          110,
-          104,
-          116
-        ],
-        "winner": 116
-      }
-    ]
-  },
-  {
     "event": "Oscars",
     "year": 2021,
     "section": "Major Film Categories",
@@ -7583,6 +7136,3515 @@ window.CULTURE_AWARDS = [
       },
       {
         "id": 115,
+        "awards": []
+      }
+    ]
+  },
+  {
+    "event": "Golden Globes",
+    "year": 2021,
+    "section": "Major Film Categories",
+    "source": "https://goldenglobes.com/winners-nominees/?year=2021",
+    "data_source": "https://goldenglobes.com/wp-json/awdb/v1/winners-and-nominees/?year=2021",
+    "categories": [
+      {
+        "id": "best-motion-picture-drama",
+        "name": "Best Motion Picture - Drama",
+        "entries": [
+          {
+            "film_id": 336,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 2380,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 338,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 1492,
+            "person": "",
+            "winner": true
+          },
+          {
+            "film_id": 337,
+            "person": "",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          336,
+          2380,
+          338,
+          1492,
+          337
+        ],
+        "winners": [
+          1492
+        ],
+        "winner": 1492
+      },
+      {
+        "id": "best-motion-picture-musical-or-comedy",
+        "name": "Best Motion Picture - Musical or Comedy",
+        "entries": [
+          {
+            "film_id": 2387,
+            "person": "",
+            "winner": true
+          },
+          {
+            "film_id": 2520,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 2521,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 2522,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 2523,
+            "person": "",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          2387,
+          2520,
+          2521,
+          2522,
+          2523
+        ],
+        "winners": [
+          2387
+        ],
+        "winner": 2387
+      },
+      {
+        "id": "best-motion-picture-animated",
+        "name": "Best Motion Picture - Animated",
+        "entries": [
+          {
+            "film_id": 2401,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 2524,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 2398,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 2399,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 1487,
+            "person": "",
+            "winner": true
+          }
+        ],
+        "nominees": [
+          2401,
+          2524,
+          2398,
+          2399,
+          1487
+        ],
+        "winners": [
+          1487
+        ],
+        "winner": 1487
+      },
+      {
+        "id": "best-motion-picture-non-english-language",
+        "name": "Best Motion Picture – Non-English Language",
+        "entries": [
+          {
+            "film_id": 331,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 2525,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 334,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 2382,
+            "person": "",
+            "winner": true
+          },
+          {
+            "film_id": 2526,
+            "person": "",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          331,
+          2525,
+          334,
+          2382,
+          2526
+        ],
+        "winners": [
+          2382
+        ],
+        "winner": 2382
+      },
+      {
+        "id": "best-performance-by-a-female-actor-in-a-motion-picture-drama",
+        "name": "Best Performance by a Female Actor in a Motion Picture – Drama",
+        "entries": [
+          {
+            "film_id": 2383,
+            "person": "Viola Davis",
+            "winner": false
+          },
+          {
+            "film_id": 2384,
+            "person": "Andra Day",
+            "winner": true
+          },
+          {
+            "film_id": 2385,
+            "person": "Vanessa Kirby",
+            "winner": false
+          },
+          {
+            "film_id": 1492,
+            "person": "Frances McDormand",
+            "winner": false
+          },
+          {
+            "film_id": 337,
+            "person": "Carey Mulligan",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          2383,
+          2384,
+          2385,
+          1492,
+          337
+        ],
+        "winners": [
+          2384
+        ],
+        "winner": 2384
+      },
+      {
+        "id": "best-performance-by-a-male-actor-in-a-motion-picture-drama",
+        "name": "Best Performance by a Male Actor in a Motion Picture – Drama",
+        "entries": [
+          {
+            "film_id": 2462,
+            "person": "Tahar Rahim",
+            "winner": false
+          },
+          {
+            "film_id": 348,
+            "person": "Riz Ahmed",
+            "winner": false
+          },
+          {
+            "film_id": 2383,
+            "person": "Chadwick Boseman",
+            "winner": true
+          },
+          {
+            "film_id": 2380,
+            "person": "Anthony Hopkins",
+            "winner": false
+          },
+          {
+            "film_id": 338,
+            "person": "Gary Oldman",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          2462,
+          348,
+          2383,
+          2380,
+          338
+        ],
+        "winners": [
+          2383
+        ],
+        "winner": 2383
+      },
+      {
+        "id": "best-performance-by-a-female-actor-in-a-motion-picture-musical-or-comedy",
+        "name": "Best Performance by a Female Actor in a Motion Picture – Musical or Comedy",
+        "entries": [
+          {
+            "film_id": 2527,
+            "person": "Anya Taylor-Joy",
+            "winner": false
+          },
+          {
+            "film_id": 2387,
+            "person": "Maria Bakalova",
+            "winner": false
+          },
+          {
+            "film_id": 2521,
+            "person": "Kate Hudson",
+            "winner": false
+          },
+          {
+            "film_id": 2528,
+            "person": "Michelle Pfeiffer",
+            "winner": false
+          },
+          {
+            "film_id": 2529,
+            "person": "Rosamund Pike",
+            "winner": true
+          }
+        ],
+        "nominees": [
+          2527,
+          2387,
+          2521,
+          2528,
+          2529
+        ],
+        "winners": [
+          2529
+        ],
+        "winner": 2529
+      },
+      {
+        "id": "best-performance-by-a-male-actor-in-a-motion-picture-musical-or-comedy",
+        "name": "Best Performance by a Male Actor in a Motion Picture – Musical or Comedy",
+        "entries": [
+          {
+            "film_id": 2387,
+            "person": "Sacha Baron Cohen",
+            "winner": true
+          },
+          {
+            "film_id": 2523,
+            "person": "James Corden",
+            "winner": false
+          },
+          {
+            "film_id": 2520,
+            "person": "Lin-Manuel Miranda",
+            "winner": false
+          },
+          {
+            "film_id": 2530,
+            "person": "Dev Patel",
+            "winner": false
+          },
+          {
+            "film_id": 2522,
+            "person": "Andy Samberg",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          2387,
+          2523,
+          2520,
+          2530,
+          2522
+        ],
+        "winners": [
+          2387
+        ],
+        "winner": 2387
+      },
+      {
+        "id": "best-performance-by-a-female-actor-in-a-supporting-role-in-any-motion-picture",
+        "name": "Best Performance by a Female Actor in a Supporting Role in any Motion Picture",
+        "entries": [
+          {
+            "film_id": 1486,
+            "person": "Helena Zengel",
+            "winner": false
+          },
+          {
+            "film_id": 2388,
+            "person": "Glenn Close",
+            "winner": false
+          },
+          {
+            "film_id": 2380,
+            "person": "Olivia Colman",
+            "winner": false
+          },
+          {
+            "film_id": 2462,
+            "person": "Jodie Foster",
+            "winner": true
+          },
+          {
+            "film_id": 338,
+            "person": "Amanda Seyfried",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          1486,
+          2388,
+          2380,
+          2462,
+          338
+        ],
+        "winners": [
+          2462
+        ],
+        "winner": 2462
+      },
+      {
+        "id": "best-performance-by-a-male-actor-in-a-supporting-role-in-any-motion-picture",
+        "name": "Best Performance by a Male Actor in a Supporting Role in any Motion Picture",
+        "entries": [
+          {
+            "film_id": 336,
+            "person": "Sacha Baron Cohen",
+            "winner": false
+          },
+          {
+            "film_id": 2381,
+            "person": "Daniel Kaluuya",
+            "winner": true
+          },
+          {
+            "film_id": 2531,
+            "person": "Jared Leto",
+            "winner": false
+          },
+          {
+            "film_id": 1488,
+            "person": "Bill Murray",
+            "winner": false
+          },
+          {
+            "film_id": 2386,
+            "person": "Leslie Odom Jr.",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          336,
+          2381,
+          2531,
+          1488,
+          2386
+        ],
+        "winners": [
+          2381
+        ],
+        "winner": 2381
+      },
+      {
+        "id": "best-director-motion-picture",
+        "name": "Best Director - Motion Picture",
+        "entries": [
+          {
+            "film_id": 1492,
+            "person": "Chloé Zhao",
+            "winner": true
+          },
+          {
+            "film_id": 337,
+            "person": "Emerald Fennell",
+            "winner": false
+          },
+          {
+            "film_id": 338,
+            "person": "David Fincher",
+            "winner": false
+          },
+          {
+            "film_id": 2386,
+            "person": "Regina King",
+            "winner": false
+          },
+          {
+            "film_id": 336,
+            "person": "Aaron Sorkin",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          1492,
+          337,
+          338,
+          2386,
+          336
+        ],
+        "winners": [
+          1492
+        ],
+        "winner": 1492
+      },
+      {
+        "id": "best-screenplay-motion-picture",
+        "name": "Best Screenplay - Motion Picture",
+        "entries": [
+          {
+            "film_id": 337,
+            "person": "Emerald Fennell",
+            "winner": false
+          },
+          {
+            "film_id": 338,
+            "person": "Jack Fincher",
+            "winner": false
+          },
+          {
+            "film_id": 336,
+            "person": "Aaron Sorkin",
+            "winner": true
+          },
+          {
+            "film_id": 2380,
+            "person": "Florian Zeller, Christopher Hampton",
+            "winner": false
+          },
+          {
+            "film_id": 1492,
+            "person": "Chloé Zhao",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          337,
+          338,
+          336,
+          2380,
+          1492
+        ],
+        "winners": [
+          336
+        ],
+        "winner": 336
+      }
+    ],
+    "awardsSource": "https://goldenglobes.com/winners-nominees/?year=2021",
+    "resultsUrl": "https://goldenglobes.com/winners-nominees/?year=2021",
+    "films": [
+      {
+        "id": 336,
+        "awards": [
+          "Best Screenplay - Motion Picture"
+        ]
+      },
+      {
+        "id": 2380,
+        "awards": []
+      },
+      {
+        "id": 338,
+        "awards": []
+      },
+      {
+        "id": 1492,
+        "awards": [
+          "Best Motion Picture - Drama",
+          "Best Director - Motion Picture"
+        ]
+      },
+      {
+        "id": 337,
+        "awards": []
+      },
+      {
+        "id": 2387,
+        "awards": [
+          "Best Motion Picture - Musical or Comedy",
+          "Best Performance by a Male Actor in a Motion Picture – Musical or Comedy"
+        ]
+      },
+      {
+        "id": 2520,
+        "awards": []
+      },
+      {
+        "id": 2521,
+        "awards": []
+      },
+      {
+        "id": 2522,
+        "awards": []
+      },
+      {
+        "id": 2523,
+        "awards": []
+      },
+      {
+        "id": 2401,
+        "awards": []
+      },
+      {
+        "id": 2524,
+        "awards": []
+      },
+      {
+        "id": 2398,
+        "awards": []
+      },
+      {
+        "id": 2399,
+        "awards": []
+      },
+      {
+        "id": 1487,
+        "awards": [
+          "Best Motion Picture - Animated"
+        ]
+      },
+      {
+        "id": 331,
+        "awards": []
+      },
+      {
+        "id": 2525,
+        "awards": []
+      },
+      {
+        "id": 334,
+        "awards": []
+      },
+      {
+        "id": 2382,
+        "awards": [
+          "Best Motion Picture – Non-English Language"
+        ]
+      },
+      {
+        "id": 2526,
+        "awards": []
+      },
+      {
+        "id": 2383,
+        "awards": [
+          "Best Performance by a Male Actor in a Motion Picture – Drama"
+        ]
+      },
+      {
+        "id": 2384,
+        "awards": [
+          "Best Performance by a Female Actor in a Motion Picture – Drama"
+        ]
+      },
+      {
+        "id": 2385,
+        "awards": []
+      },
+      {
+        "id": 2462,
+        "awards": [
+          "Best Performance by a Female Actor in a Supporting Role in any Motion Picture"
+        ]
+      },
+      {
+        "id": 348,
+        "awards": []
+      },
+      {
+        "id": 2527,
+        "awards": []
+      },
+      {
+        "id": 2528,
+        "awards": []
+      },
+      {
+        "id": 2529,
+        "awards": [
+          "Best Performance by a Female Actor in a Motion Picture – Musical or Comedy"
+        ]
+      },
+      {
+        "id": 2530,
+        "awards": []
+      },
+      {
+        "id": 1486,
+        "awards": []
+      },
+      {
+        "id": 2388,
+        "awards": []
+      },
+      {
+        "id": 2381,
+        "awards": [
+          "Best Performance by a Male Actor in a Supporting Role in any Motion Picture"
+        ]
+      },
+      {
+        "id": 2531,
+        "awards": []
+      },
+      {
+        "id": 1488,
+        "awards": []
+      },
+      {
+        "id": 2386,
+        "awards": []
+      }
+    ]
+  },
+  {
+    "event": "Golden Globes",
+    "year": 2022,
+    "section": "Major Film Categories",
+    "source": "https://goldenglobes.com/winners-nominees/?year=2022",
+    "data_source": "https://goldenglobes.com/wp-json/awdb/v1/winners-and-nominees/?year=2022",
+    "categories": [
+      {
+        "id": "best-motion-picture-drama",
+        "name": "Best Motion Picture - Drama",
+        "entries": [
+          {
+            "film_id": 320,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 1474,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 321,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 2402,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 1479,
+            "person": "",
+            "winner": true
+          }
+        ],
+        "nominees": [
+          320,
+          1474,
+          321,
+          2402,
+          1479
+        ],
+        "winners": [
+          1479
+        ],
+        "winner": 1479
+      },
+      {
+        "id": "best-motion-picture-musical-or-comedy",
+        "name": "Best Motion Picture - Musical or Comedy",
+        "entries": [
+          {
+            "film_id": 318,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 2405,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 2404,
+            "person": "",
+            "winner": true
+          },
+          {
+            "film_id": 2484,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 324,
+            "person": "",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          318,
+          2405,
+          2404,
+          2484,
+          324
+        ],
+        "winners": [
+          2404
+        ],
+        "winner": 2404
+      },
+      {
+        "id": "best-motion-picture-animated",
+        "name": "Best Motion Picture - Animated",
+        "entries": [
+          {
+            "film_id": 2418,
+            "person": "",
+            "winner": true
+          },
+          {
+            "film_id": 2411,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 2419,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 2532,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 2421,
+            "person": "",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          2418,
+          2411,
+          2419,
+          2532,
+          2421
+        ],
+        "winners": [
+          2418
+        ],
+        "winner": 2418
+      },
+      {
+        "id": "best-motion-picture-non-english-language",
+        "name": "Best Motion Picture – Non-English Language",
+        "entries": [
+          {
+            "film_id": 2412,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 1484,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 2409,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 323,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 327,
+            "person": "",
+            "winner": true
+          }
+        ],
+        "nominees": [
+          2412,
+          1484,
+          2409,
+          323,
+          327
+        ],
+        "winners": [
+          327
+        ],
+        "winner": 327
+      },
+      {
+        "id": "best-performance-by-a-female-actor-in-a-motion-picture-drama",
+        "name": "Best Performance by a Female Actor in a Motion Picture – Drama",
+        "entries": [
+          {
+            "film_id": 1482,
+            "person": "Nicole Kidman",
+            "winner": true
+          },
+          {
+            "film_id": 2486,
+            "person": "Lady Gaga",
+            "winner": false
+          },
+          {
+            "film_id": 2410,
+            "person": "Kristen Stewart",
+            "winner": false
+          },
+          {
+            "film_id": 2407,
+            "person": "Jessica Chastain",
+            "winner": false
+          },
+          {
+            "film_id": 2408,
+            "person": "Olivia Colman",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          1482,
+          2486,
+          2410,
+          2407,
+          2408
+        ],
+        "winners": [
+          1482
+        ],
+        "winner": 1482
+      },
+      {
+        "id": "best-performance-by-a-male-actor-in-a-motion-picture-drama",
+        "name": "Best Performance by a Male Actor in a Motion Picture – Drama",
+        "entries": [
+          {
+            "film_id": 2488,
+            "person": "Mahershala Ali",
+            "winner": false
+          },
+          {
+            "film_id": 1482,
+            "person": "Javier Bardem",
+            "winner": false
+          },
+          {
+            "film_id": 1479,
+            "person": "Benedict Cumberbatch",
+            "winner": false
+          },
+          {
+            "film_id": 2402,
+            "person": "Will Smith",
+            "winner": true
+          },
+          {
+            "film_id": 2406,
+            "person": "Denzel Washington",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          2488,
+          1482,
+          1479,
+          2402,
+          2406
+        ],
+        "winners": [
+          2402
+        ],
+        "winner": 2402
+      },
+      {
+        "id": "best-performance-by-a-female-actor-in-a-motion-picture-musical-or-comedy",
+        "name": "Best Performance by a Female Actor in a Motion Picture – Musical or Comedy",
+        "entries": [
+          {
+            "film_id": 332,
+            "person": "Marion Cotillard",
+            "winner": false
+          },
+          {
+            "film_id": 318,
+            "person": "Alana Haim",
+            "winner": false
+          },
+          {
+            "film_id": 324,
+            "person": "Jennifer Lawrence",
+            "winner": false
+          },
+          {
+            "film_id": 2533,
+            "person": "Emma Stone",
+            "winner": false
+          },
+          {
+            "film_id": 2404,
+            "person": "Rachel Zegler",
+            "winner": true
+          }
+        ],
+        "nominees": [
+          332,
+          318,
+          324,
+          2533,
+          2404
+        ],
+        "winners": [
+          2404
+        ],
+        "winner": 2404
+      },
+      {
+        "id": "best-performance-by-a-male-actor-in-a-motion-picture-musical-or-comedy",
+        "name": "Best Performance by a Male Actor in a Motion Picture – Musical or Comedy",
+        "entries": [
+          {
+            "film_id": 2405,
+            "person": "Andrew Garfield",
+            "winner": true
+          },
+          {
+            "film_id": 318,
+            "person": "Cooper Hoffman",
+            "winner": false
+          },
+          {
+            "film_id": 2534,
+            "person": "Anthony Ramos",
+            "winner": false
+          },
+          {
+            "film_id": 324,
+            "person": "Leonardo DiCaprio",
+            "winner": false
+          },
+          {
+            "film_id": 2484,
+            "person": "Peter Dinklage",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          2405,
+          318,
+          2534,
+          324,
+          2484
+        ],
+        "winners": [
+          2405
+        ],
+        "winner": 2405
+      },
+      {
+        "id": "best-performance-by-a-female-actor-in-a-supporting-role-in-any-motion-picture",
+        "name": "Best Performance by a Female Actor in a Supporting Role in any Motion Picture",
+        "entries": [
+          {
+            "film_id": 320,
+            "person": "Caitriona Balfe",
+            "winner": false
+          },
+          {
+            "film_id": 2404,
+            "person": "Ariana DeBose",
+            "winner": true
+          },
+          {
+            "film_id": 1479,
+            "person": "Kirsten Dunst",
+            "winner": false
+          },
+          {
+            "film_id": 2402,
+            "person": "Aunjanue Ellis",
+            "winner": false
+          },
+          {
+            "film_id": 2481,
+            "person": "Ruth Negga",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          320,
+          2404,
+          1479,
+          2402,
+          2481
+        ],
+        "winners": [
+          2404
+        ],
+        "winner": 2404
+      },
+      {
+        "id": "best-performance-by-a-male-actor-in-a-supporting-role-in-any-motion-picture",
+        "name": "Best Performance by a Male Actor in a Supporting Role in any Motion Picture",
+        "entries": [
+          {
+            "film_id": 320,
+            "person": "Ciarán Hinds",
+            "winner": false
+          },
+          {
+            "film_id": 1474,
+            "person": "Troy Kotsur",
+            "winner": false
+          },
+          {
+            "film_id": 1479,
+            "person": "Kodi Smit-McPhee",
+            "winner": true
+          },
+          {
+            "film_id": 2535,
+            "person": "Ben Affleck",
+            "winner": false
+          },
+          {
+            "film_id": 320,
+            "person": "Jamie Dornan",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          320,
+          1474,
+          1479,
+          2535
+        ],
+        "winners": [
+          1479
+        ],
+        "winner": 1479
+      },
+      {
+        "id": "best-director-motion-picture",
+        "name": "Best Director - Motion Picture",
+        "entries": [
+          {
+            "film_id": 320,
+            "person": "Kenneth Branagh",
+            "winner": false
+          },
+          {
+            "film_id": 1479,
+            "person": "Jane Campion",
+            "winner": true
+          },
+          {
+            "film_id": 2408,
+            "person": "Maggie Gyllenhaal",
+            "winner": false
+          },
+          {
+            "film_id": 2404,
+            "person": "Steven Spielberg",
+            "winner": false
+          },
+          {
+            "film_id": 321,
+            "person": "Denis Villeneuve",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          320,
+          1479,
+          2408,
+          2404,
+          321
+        ],
+        "winners": [
+          1479
+        ],
+        "winner": 1479
+      },
+      {
+        "id": "best-screenplay-motion-picture",
+        "name": "Best Screenplay - Motion Picture",
+        "entries": [
+          {
+            "film_id": 1479,
+            "person": "Jane Campion",
+            "winner": false
+          },
+          {
+            "film_id": 324,
+            "person": "Adam McKay",
+            "winner": false
+          },
+          {
+            "film_id": 1482,
+            "person": "Aaron Sorkin",
+            "winner": false
+          },
+          {
+            "film_id": 318,
+            "person": "Paul Thomas Anderson",
+            "winner": false
+          },
+          {
+            "film_id": 320,
+            "person": "Kenneth Branagh",
+            "winner": true
+          }
+        ],
+        "nominees": [
+          1479,
+          324,
+          1482,
+          318,
+          320
+        ],
+        "winners": [
+          320
+        ],
+        "winner": 320
+      }
+    ],
+    "awardsSource": "https://goldenglobes.com/winners-nominees/?year=2022",
+    "resultsUrl": "https://goldenglobes.com/winners-nominees/?year=2022",
+    "films": [
+      {
+        "id": 320,
+        "awards": [
+          "Best Screenplay - Motion Picture"
+        ]
+      },
+      {
+        "id": 1474,
+        "awards": []
+      },
+      {
+        "id": 321,
+        "awards": []
+      },
+      {
+        "id": 2402,
+        "awards": [
+          "Best Performance by a Male Actor in a Motion Picture – Drama"
+        ]
+      },
+      {
+        "id": 1479,
+        "awards": [
+          "Best Motion Picture - Drama",
+          "Best Performance by a Male Actor in a Supporting Role in any Motion Picture",
+          "Best Director - Motion Picture"
+        ]
+      },
+      {
+        "id": 318,
+        "awards": []
+      },
+      {
+        "id": 2405,
+        "awards": [
+          "Best Performance by a Male Actor in a Motion Picture – Musical or Comedy"
+        ]
+      },
+      {
+        "id": 2404,
+        "awards": [
+          "Best Motion Picture - Musical or Comedy",
+          "Best Performance by a Female Actor in a Motion Picture – Musical or Comedy",
+          "Best Performance by a Female Actor in a Supporting Role in any Motion Picture"
+        ]
+      },
+      {
+        "id": 2484,
+        "awards": []
+      },
+      {
+        "id": 324,
+        "awards": []
+      },
+      {
+        "id": 2418,
+        "awards": [
+          "Best Motion Picture - Animated"
+        ]
+      },
+      {
+        "id": 2411,
+        "awards": []
+      },
+      {
+        "id": 2419,
+        "awards": []
+      },
+      {
+        "id": 2532,
+        "awards": []
+      },
+      {
+        "id": 2421,
+        "awards": []
+      },
+      {
+        "id": 2412,
+        "awards": []
+      },
+      {
+        "id": 1484,
+        "awards": []
+      },
+      {
+        "id": 2409,
+        "awards": []
+      },
+      {
+        "id": 323,
+        "awards": []
+      },
+      {
+        "id": 327,
+        "awards": [
+          "Best Motion Picture – Non-English Language"
+        ]
+      },
+      {
+        "id": 1482,
+        "awards": [
+          "Best Performance by a Female Actor in a Motion Picture – Drama"
+        ]
+      },
+      {
+        "id": 2486,
+        "awards": []
+      },
+      {
+        "id": 2410,
+        "awards": []
+      },
+      {
+        "id": 2407,
+        "awards": []
+      },
+      {
+        "id": 2408,
+        "awards": []
+      },
+      {
+        "id": 2488,
+        "awards": []
+      },
+      {
+        "id": 2406,
+        "awards": []
+      },
+      {
+        "id": 332,
+        "awards": []
+      },
+      {
+        "id": 2533,
+        "awards": []
+      },
+      {
+        "id": 2534,
+        "awards": []
+      },
+      {
+        "id": 2481,
+        "awards": []
+      },
+      {
+        "id": 2535,
+        "awards": []
+      }
+    ]
+  },
+  {
+    "event": "Golden Globes",
+    "year": 2023,
+    "section": "Major Film Categories",
+    "source": "https://goldenglobes.com/winners-nominees/?year=2023",
+    "data_source": "https://goldenglobes.com/wp-json/awdb/v1/winners-and-nominees/?year=2023",
+    "categories": [
+      {
+        "id": "best-motion-picture-drama",
+        "name": "Best Motion Picture - Drama",
+        "entries": [
+          {
+            "film_id": 2422,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 2423,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 1472,
+            "person": "",
+            "winner": true
+          },
+          {
+            "film_id": 2424,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 312,
+            "person": "",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          2422,
+          2423,
+          1472,
+          2424,
+          312
+        ],
+        "winners": [
+          1472
+        ],
+        "winner": 1472
+      },
+      {
+        "id": "best-motion-picture-musical-or-comedy",
+        "name": "Best Motion Picture - Musical or Comedy",
+        "entries": [
+          {
+            "film_id": 1478,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 1469,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 315,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 1475,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 313,
+            "person": "",
+            "winner": true
+          }
+        ],
+        "nominees": [
+          1478,
+          1469,
+          315,
+          1475,
+          313
+        ],
+        "winners": [
+          313
+        ],
+        "winner": 313
+      },
+      {
+        "id": "best-motion-picture-animated",
+        "name": "Best Motion Picture - Animated",
+        "entries": [
+          {
+            "film_id": 309,
+            "person": "",
+            "winner": true
+          },
+          {
+            "film_id": 2536,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 2441,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 2442,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 2444,
+            "person": "",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          309,
+          2536,
+          2441,
+          2442,
+          2444
+        ],
+        "winners": [
+          309
+        ],
+        "winner": 309
+      },
+      {
+        "id": "best-motion-picture-non-english-language",
+        "name": "Best Motion Picture – Non-English Language",
+        "entries": [
+          {
+            "film_id": 2433,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 2495,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 1471,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 308,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 2432,
+            "person": "",
+            "winner": true
+          }
+        ],
+        "nominees": [
+          2433,
+          2495,
+          1471,
+          308,
+          2432
+        ],
+        "winners": [
+          2432
+        ],
+        "winner": 2432
+      },
+      {
+        "id": "best-performance-by-a-female-actor-in-a-motion-picture-drama",
+        "name": "Best Performance by a Female Actor in a Motion Picture – Drama",
+        "entries": [
+          {
+            "film_id": 2496,
+            "person": "Viola Davis",
+            "winner": false
+          },
+          {
+            "film_id": 2428,
+            "person": "Ana de Armas",
+            "winner": false
+          },
+          {
+            "film_id": 1472,
+            "person": "Michelle Williams",
+            "winner": false
+          },
+          {
+            "film_id": 2424,
+            "person": "Cate Blanchett",
+            "winner": true
+          },
+          {
+            "film_id": 2501,
+            "person": "Olivia Colman",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          2496,
+          2428,
+          1472,
+          2424,
+          2501
+        ],
+        "winners": [
+          2424
+        ],
+        "winner": 2424
+      },
+      {
+        "id": "best-performance-by-a-male-actor-in-a-motion-picture-drama",
+        "name": "Best Performance by a Male Actor in a Motion Picture – Drama",
+        "entries": [
+          {
+            "film_id": 2423,
+            "person": "Austin Butler",
+            "winner": true
+          },
+          {
+            "film_id": 306,
+            "person": "Brendan Fraser",
+            "winner": false
+          },
+          {
+            "film_id": 311,
+            "person": "Hugh Jackman",
+            "winner": false
+          },
+          {
+            "film_id": 2427,
+            "person": "Bill Nighy",
+            "winner": false
+          },
+          {
+            "film_id": 2537,
+            "person": "Jeremy Pope",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          2423,
+          306,
+          311,
+          2427,
+          2537
+        ],
+        "winners": [
+          2423
+        ],
+        "winner": 2423
+      },
+      {
+        "id": "best-performance-by-a-female-actor-in-a-motion-picture-musical-or-comedy",
+        "name": "Best Performance by a Female Actor in a Motion Picture – Musical or Comedy",
+        "entries": [
+          {
+            "film_id": 2538,
+            "person": "Lesley Manville",
+            "winner": false
+          },
+          {
+            "film_id": 1475,
+            "person": "Margot Robbie",
+            "winner": false
+          },
+          {
+            "film_id": 2539,
+            "person": "Anya Taylor-Joy",
+            "winner": false
+          },
+          {
+            "film_id": 2502,
+            "person": "Emma Thompson",
+            "winner": false
+          },
+          {
+            "film_id": 1478,
+            "person": "Michelle Yeoh",
+            "winner": true
+          }
+        ],
+        "nominees": [
+          2538,
+          1475,
+          2539,
+          2502,
+          1478
+        ],
+        "winners": [
+          1478
+        ],
+        "winner": 1478
+      },
+      {
+        "id": "best-performance-by-a-male-actor-in-a-motion-picture-musical-or-comedy",
+        "name": "Best Performance by a Male Actor in a Motion Picture – Musical or Comedy",
+        "entries": [
+          {
+            "film_id": 307,
+            "person": "Adam Driver",
+            "winner": false
+          },
+          {
+            "film_id": 313,
+            "person": "Colin Farrell",
+            "winner": true
+          },
+          {
+            "film_id": 2539,
+            "person": "Ralph Fiennes",
+            "winner": false
+          },
+          {
+            "film_id": 1475,
+            "person": "Diego Calva",
+            "winner": false
+          },
+          {
+            "film_id": 1469,
+            "person": "Daniel Craig",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          307,
+          313,
+          2539,
+          1475,
+          1469
+        ],
+        "winners": [
+          313
+        ],
+        "winner": 313
+      },
+      {
+        "id": "best-performance-by-a-female-actor-in-a-supporting-role-in-any-motion-picture",
+        "name": "Best Performance by a Female Actor in a Supporting Role in any Motion Picture",
+        "entries": [
+          {
+            "film_id": 2431,
+            "person": "Angela Bassett",
+            "winner": true
+          },
+          {
+            "film_id": 313,
+            "person": "Kerry Condon",
+            "winner": false
+          },
+          {
+            "film_id": 1478,
+            "person": "Jamie Lee Curtis",
+            "winner": false
+          },
+          {
+            "film_id": 315,
+            "person": "Dolly de Leon",
+            "winner": false
+          },
+          {
+            "film_id": 2505,
+            "person": "Carey Mulligan",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          2431,
+          313,
+          1478,
+          315,
+          2505
+        ],
+        "winners": [
+          2431
+        ],
+        "winner": 2431
+      },
+      {
+        "id": "best-performance-by-a-male-actor-in-a-supporting-role-in-any-motion-picture",
+        "name": "Best Performance by a Male Actor in a Supporting Role in any Motion Picture",
+        "entries": [
+          {
+            "film_id": 1475,
+            "person": "Brad Pitt",
+            "winner": false
+          },
+          {
+            "film_id": 1478,
+            "person": "Ke Huy Quan",
+            "winner": true
+          },
+          {
+            "film_id": 2504,
+            "person": "Eddie Redmayne",
+            "winner": false
+          },
+          {
+            "film_id": 313,
+            "person": "Brendan Gleeson",
+            "winner": false
+          },
+          {
+            "film_id": 313,
+            "person": "Barry Keoghan",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          1475,
+          1478,
+          2504,
+          313
+        ],
+        "winners": [
+          1478
+        ],
+        "winner": 1478
+      },
+      {
+        "id": "best-director-motion-picture",
+        "name": "Best Director - Motion Picture",
+        "entries": [
+          {
+            "film_id": 2422,
+            "person": "James Cameron",
+            "winner": false
+          },
+          {
+            "film_id": 1478,
+            "person": "Daniel Kwan, Daniel Scheinert",
+            "winner": false
+          },
+          {
+            "film_id": 2423,
+            "person": "Baz Luhrmann",
+            "winner": false
+          },
+          {
+            "film_id": 313,
+            "person": "Martin McDonagh",
+            "winner": false
+          },
+          {
+            "film_id": 1472,
+            "person": "Steven Spielberg",
+            "winner": true
+          }
+        ],
+        "nominees": [
+          2422,
+          1478,
+          2423,
+          313,
+          1472
+        ],
+        "winners": [
+          1472
+        ],
+        "winner": 1472
+      },
+      {
+        "id": "best-screenplay-motion-picture",
+        "name": "Best Screenplay - Motion Picture",
+        "entries": [
+          {
+            "film_id": 313,
+            "person": "Martin McDonagh",
+            "winner": true
+          },
+          {
+            "film_id": 2425,
+            "person": "Sarah Polley",
+            "winner": false
+          },
+          {
+            "film_id": 1472,
+            "person": "Steven Spielberg, Tony Kushner",
+            "winner": false
+          },
+          {
+            "film_id": 2424,
+            "person": "Todd Field",
+            "winner": false
+          },
+          {
+            "film_id": 1478,
+            "person": "Daniel Kwan, Daniel Scheinert",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          313,
+          2425,
+          1472,
+          2424,
+          1478
+        ],
+        "winners": [
+          313
+        ],
+        "winner": 313
+      }
+    ],
+    "awardsSource": "https://goldenglobes.com/winners-nominees/?year=2023",
+    "resultsUrl": "https://goldenglobes.com/winners-nominees/?year=2023",
+    "films": [
+      {
+        "id": 2422,
+        "awards": []
+      },
+      {
+        "id": 2423,
+        "awards": [
+          "Best Performance by a Male Actor in a Motion Picture – Drama"
+        ]
+      },
+      {
+        "id": 1472,
+        "awards": [
+          "Best Motion Picture - Drama",
+          "Best Director - Motion Picture"
+        ]
+      },
+      {
+        "id": 2424,
+        "awards": [
+          "Best Performance by a Female Actor in a Motion Picture – Drama"
+        ]
+      },
+      {
+        "id": 312,
+        "awards": []
+      },
+      {
+        "id": 1478,
+        "awards": [
+          "Best Performance by a Female Actor in a Motion Picture – Musical or Comedy",
+          "Best Performance by a Male Actor in a Supporting Role in any Motion Picture"
+        ]
+      },
+      {
+        "id": 1469,
+        "awards": []
+      },
+      {
+        "id": 315,
+        "awards": []
+      },
+      {
+        "id": 1475,
+        "awards": []
+      },
+      {
+        "id": 313,
+        "awards": [
+          "Best Motion Picture - Musical or Comedy",
+          "Best Performance by a Male Actor in a Motion Picture – Musical or Comedy",
+          "Best Screenplay - Motion Picture"
+        ]
+      },
+      {
+        "id": 309,
+        "awards": [
+          "Best Motion Picture - Animated"
+        ]
+      },
+      {
+        "id": 2536,
+        "awards": []
+      },
+      {
+        "id": 2441,
+        "awards": []
+      },
+      {
+        "id": 2442,
+        "awards": []
+      },
+      {
+        "id": 2444,
+        "awards": []
+      },
+      {
+        "id": 2433,
+        "awards": []
+      },
+      {
+        "id": 2495,
+        "awards": []
+      },
+      {
+        "id": 1471,
+        "awards": []
+      },
+      {
+        "id": 308,
+        "awards": []
+      },
+      {
+        "id": 2432,
+        "awards": [
+          "Best Motion Picture – Non-English Language"
+        ]
+      },
+      {
+        "id": 2496,
+        "awards": []
+      },
+      {
+        "id": 2428,
+        "awards": []
+      },
+      {
+        "id": 2501,
+        "awards": []
+      },
+      {
+        "id": 306,
+        "awards": []
+      },
+      {
+        "id": 311,
+        "awards": []
+      },
+      {
+        "id": 2427,
+        "awards": []
+      },
+      {
+        "id": 2537,
+        "awards": []
+      },
+      {
+        "id": 2538,
+        "awards": []
+      },
+      {
+        "id": 2539,
+        "awards": []
+      },
+      {
+        "id": 2502,
+        "awards": []
+      },
+      {
+        "id": 307,
+        "awards": []
+      },
+      {
+        "id": 2431,
+        "awards": [
+          "Best Performance by a Female Actor in a Supporting Role in any Motion Picture"
+        ]
+      },
+      {
+        "id": 2505,
+        "awards": []
+      },
+      {
+        "id": 2504,
+        "awards": []
+      },
+      {
+        "id": 2425,
+        "awards": []
+      }
+    ]
+  },
+  {
+    "event": "Golden Globes",
+    "year": 2024,
+    "section": "Major Film Categories",
+    "source": "https://goldenglobes.com/winners-nominees/?year=2024",
+    "data_source": "https://goldenglobes.com/wp-json/awdb/v1/winners-and-nominees/?year=2024",
+    "categories": [
+      {
+        "id": "best-motion-picture-drama",
+        "name": "Best Motion Picture - Drama",
+        "entries": [
+          {
+            "film_id": 122,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 302,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 298,
+            "person": "",
+            "winner": true
+          },
+          {
+            "film_id": 2445,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 301,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 305,
+            "person": "",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          122,
+          302,
+          298,
+          2445,
+          301,
+          305
+        ],
+        "winners": [
+          298
+        ],
+        "winner": 298
+      },
+      {
+        "id": "best-motion-picture-musical-or-comedy",
+        "name": "Best Motion Picture - Musical or Comedy",
+        "entries": [
+          {
+            "film_id": 296,
+            "person": "",
+            "winner": true
+          },
+          {
+            "film_id": 2449,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 299,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 292,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 293,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 285,
+            "person": "",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          296,
+          2449,
+          299,
+          292,
+          293,
+          285
+        ],
+        "winners": [
+          296
+        ],
+        "winner": 296
+      },
+      {
+        "id": "best-motion-picture-animated",
+        "name": "Best Motion Picture - Animated",
+        "entries": [
+          {
+            "film_id": 2540,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 314,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 2541,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 2461,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 2458,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 2457,
+            "person": "",
+            "winner": true
+          }
+        ],
+        "nominees": [
+          2540,
+          314,
+          2541,
+          2461,
+          2458,
+          2457
+        ],
+        "winners": [
+          2457
+        ],
+        "winner": 2457
+      },
+      {
+        "id": "best-motion-picture-non-english-language",
+        "name": "Best Motion Picture – Non-English Language",
+        "entries": [
+          {
+            "film_id": 122,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 2450,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 302,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 291,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 305,
+            "person": "",
+            "winner": true
+          },
+          {
+            "film_id": 294,
+            "person": "",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          122,
+          2450,
+          302,
+          291,
+          305,
+          294
+        ],
+        "winners": [
+          305
+        ],
+        "winner": 305
+      },
+      {
+        "id": "best-performance-by-a-female-actor-in-a-motion-picture-drama",
+        "name": "Best Performance by a Female Actor in a Motion Picture – Drama",
+        "entries": [
+          {
+            "film_id": 2542,
+            "person": "Cailee Spaeny",
+            "winner": false
+          },
+          {
+            "film_id": 2445,
+            "person": "Carey Mulligan",
+            "winner": false
+          },
+          {
+            "film_id": 302,
+            "person": "Greta Lee",
+            "winner": false
+          },
+          {
+            "film_id": 305,
+            "person": "Sandra Hüller",
+            "winner": false
+          },
+          {
+            "film_id": 301,
+            "person": "Lily Gladstone",
+            "winner": true
+          },
+          {
+            "film_id": 2447,
+            "person": "Annette Bening",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          2542,
+          2445,
+          302,
+          305,
+          301,
+          2447
+        ],
+        "winners": [
+          301
+        ],
+        "winner": 301
+      },
+      {
+        "id": "best-performance-by-a-male-actor-in-a-motion-picture-drama",
+        "name": "Best Performance by a Male Actor in a Motion Picture – Drama",
+        "entries": [
+          {
+            "film_id": 301,
+            "person": "Leonardo DiCaprio",
+            "winner": false
+          },
+          {
+            "film_id": 2445,
+            "person": "Bradley Cooper",
+            "winner": false
+          },
+          {
+            "film_id": 298,
+            "person": "Cillian Murphy",
+            "winner": true
+          },
+          {
+            "film_id": 289,
+            "person": "Barry Keoghan",
+            "winner": false
+          },
+          {
+            "film_id": 2446,
+            "person": "Colman Domingo",
+            "winner": false
+          },
+          {
+            "film_id": 2508,
+            "person": "Andrew Scott",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          301,
+          2445,
+          298,
+          289,
+          2446,
+          2508
+        ],
+        "winners": [
+          298
+        ],
+        "winner": 298
+      },
+      {
+        "id": "best-performance-by-a-female-actor-in-a-motion-picture-musical-or-comedy",
+        "name": "Best Performance by a Female Actor in a Motion Picture – Musical or Comedy",
+        "entries": [
+          {
+            "film_id": 304,
+            "person": "Jennifer Lawrence",
+            "winner": false
+          },
+          {
+            "film_id": 2449,
+            "person": "Natalie Portman",
+            "winner": false
+          },
+          {
+            "film_id": 2448,
+            "person": "Fantasia Barrino",
+            "winner": false
+          },
+          {
+            "film_id": 296,
+            "person": "Emma Stone",
+            "winner": true
+          },
+          {
+            "film_id": 292,
+            "person": "Margot Robbie",
+            "winner": false
+          },
+          {
+            "film_id": 294,
+            "person": "Alma Pöysti",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          304,
+          2449,
+          2448,
+          296,
+          292,
+          294
+        ],
+        "winners": [
+          296
+        ],
+        "winner": 296
+      },
+      {
+        "id": "best-performance-by-a-male-actor-in-a-motion-picture-musical-or-comedy",
+        "name": "Best Performance by a Male Actor in a Motion Picture – Musical or Comedy",
+        "entries": [
+          {
+            "film_id": 293,
+            "person": "Jeffrey Wright",
+            "winner": false
+          },
+          {
+            "film_id": 2511,
+            "person": "Timothée Chalamet",
+            "winner": false
+          },
+          {
+            "film_id": 2543,
+            "person": "Nicolas Cage",
+            "winner": false
+          },
+          {
+            "film_id": 2544,
+            "person": "Joaquin Phoenix",
+            "winner": false
+          },
+          {
+            "film_id": 299,
+            "person": "Paul Giamatti",
+            "winner": true
+          },
+          {
+            "film_id": 285,
+            "person": "Matt Damon",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          293,
+          2511,
+          2543,
+          2544,
+          299,
+          285
+        ],
+        "winners": [
+          299
+        ],
+        "winner": 299
+      },
+      {
+        "id": "best-performance-by-a-female-actor-in-a-supporting-role-in-any-motion-picture",
+        "name": "Best Performance by a Female Actor in a Supporting Role in any Motion Picture",
+        "entries": [
+          {
+            "film_id": 2449,
+            "person": "Julianne Moore",
+            "winner": false
+          },
+          {
+            "film_id": 2447,
+            "person": "Jodie Foster",
+            "winner": false
+          },
+          {
+            "film_id": 2448,
+            "person": "Danielle Brooks",
+            "winner": false
+          },
+          {
+            "film_id": 299,
+            "person": "Da’Vine Joy Randolph",
+            "winner": true
+          },
+          {
+            "film_id": 289,
+            "person": "Rosamund Pike",
+            "winner": false
+          },
+          {
+            "film_id": 298,
+            "person": "Emily Blunt",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          2449,
+          2447,
+          2448,
+          299,
+          289,
+          298
+        ],
+        "winners": [
+          299
+        ],
+        "winner": 299
+      },
+      {
+        "id": "best-performance-by-a-male-actor-in-a-supporting-role-in-any-motion-picture",
+        "name": "Best Performance by a Male Actor in a Supporting Role in any Motion Picture",
+        "entries": [
+          {
+            "film_id": 2449,
+            "person": "Charles Melton",
+            "winner": false
+          },
+          {
+            "film_id": 292,
+            "person": "Ryan Gosling",
+            "winner": false
+          },
+          {
+            "film_id": 298,
+            "person": "Robert Downey Jr.",
+            "winner": true
+          },
+          {
+            "film_id": 301,
+            "person": "Robert De Niro",
+            "winner": false
+          },
+          {
+            "film_id": 296,
+            "person": "Willem Dafoe",
+            "winner": false
+          },
+          {
+            "film_id": 296,
+            "person": "Mark Ruffalo",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          2449,
+          292,
+          298,
+          301,
+          296
+        ],
+        "winners": [
+          298
+        ],
+        "winner": 298
+      },
+      {
+        "id": "best-director-motion-picture",
+        "name": "Best Director - Motion Picture",
+        "entries": [
+          {
+            "film_id": 2445,
+            "person": "Bradley Cooper",
+            "winner": false
+          },
+          {
+            "film_id": 296,
+            "person": "Yorgos Lanthimos",
+            "winner": false
+          },
+          {
+            "film_id": 292,
+            "person": "Greta Gerwig",
+            "winner": false
+          },
+          {
+            "film_id": 301,
+            "person": "Martin Scorsese",
+            "winner": false
+          },
+          {
+            "film_id": 302,
+            "person": "Celine Song",
+            "winner": false
+          },
+          {
+            "film_id": 298,
+            "person": "Christopher Nolan",
+            "winner": true
+          }
+        ],
+        "nominees": [
+          2445,
+          296,
+          292,
+          301,
+          302,
+          298
+        ],
+        "winners": [
+          298
+        ],
+        "winner": 298
+      },
+      {
+        "id": "best-screenplay-motion-picture",
+        "name": "Best Screenplay - Motion Picture",
+        "entries": [
+          {
+            "film_id": 302,
+            "person": "Celine Song",
+            "winner": false
+          },
+          {
+            "film_id": 298,
+            "person": "Christopher Nolan",
+            "winner": false
+          },
+          {
+            "film_id": 296,
+            "person": "Tony McNamara",
+            "winner": false
+          },
+          {
+            "film_id": 292,
+            "person": "Greta Gerwig, Noah Baumbach",
+            "winner": false
+          },
+          {
+            "film_id": 301,
+            "person": "Eric Roth, Martin Scorsese",
+            "winner": false
+          },
+          {
+            "film_id": 305,
+            "person": "Justine Triet, Arthur Harari",
+            "winner": true
+          }
+        ],
+        "nominees": [
+          302,
+          298,
+          296,
+          292,
+          301,
+          305
+        ],
+        "winners": [
+          305
+        ],
+        "winner": 305
+      }
+    ],
+    "awardsSource": "https://goldenglobes.com/winners-nominees/?year=2024",
+    "resultsUrl": "https://goldenglobes.com/winners-nominees/?year=2024",
+    "films": [
+      {
+        "id": 122,
+        "awards": []
+      },
+      {
+        "id": 302,
+        "awards": []
+      },
+      {
+        "id": 298,
+        "awards": [
+          "Best Motion Picture - Drama",
+          "Best Performance by a Male Actor in a Motion Picture – Drama",
+          "Best Performance by a Male Actor in a Supporting Role in any Motion Picture",
+          "Best Director - Motion Picture"
+        ]
+      },
+      {
+        "id": 2445,
+        "awards": []
+      },
+      {
+        "id": 301,
+        "awards": [
+          "Best Performance by a Female Actor in a Motion Picture – Drama"
+        ]
+      },
+      {
+        "id": 305,
+        "awards": [
+          "Best Motion Picture – Non-English Language",
+          "Best Screenplay - Motion Picture"
+        ]
+      },
+      {
+        "id": 296,
+        "awards": [
+          "Best Motion Picture - Musical or Comedy",
+          "Best Performance by a Female Actor in a Motion Picture – Musical or Comedy"
+        ]
+      },
+      {
+        "id": 2449,
+        "awards": []
+      },
+      {
+        "id": 299,
+        "awards": [
+          "Best Performance by a Male Actor in a Motion Picture – Musical or Comedy",
+          "Best Performance by a Female Actor in a Supporting Role in any Motion Picture"
+        ]
+      },
+      {
+        "id": 292,
+        "awards": []
+      },
+      {
+        "id": 293,
+        "awards": []
+      },
+      {
+        "id": 285,
+        "awards": []
+      },
+      {
+        "id": 2540,
+        "awards": []
+      },
+      {
+        "id": 314,
+        "awards": []
+      },
+      {
+        "id": 2541,
+        "awards": []
+      },
+      {
+        "id": 2461,
+        "awards": []
+      },
+      {
+        "id": 2458,
+        "awards": []
+      },
+      {
+        "id": 2457,
+        "awards": [
+          "Best Motion Picture - Animated"
+        ]
+      },
+      {
+        "id": 2450,
+        "awards": []
+      },
+      {
+        "id": 291,
+        "awards": []
+      },
+      {
+        "id": 294,
+        "awards": []
+      },
+      {
+        "id": 2542,
+        "awards": []
+      },
+      {
+        "id": 2447,
+        "awards": []
+      },
+      {
+        "id": 289,
+        "awards": []
+      },
+      {
+        "id": 2446,
+        "awards": []
+      },
+      {
+        "id": 2508,
+        "awards": []
+      },
+      {
+        "id": 304,
+        "awards": []
+      },
+      {
+        "id": 2448,
+        "awards": []
+      },
+      {
+        "id": 2511,
+        "awards": []
+      },
+      {
+        "id": 2543,
+        "awards": []
+      },
+      {
+        "id": 2544,
+        "awards": []
+      }
+    ]
+  },
+  {
+    "event": "Golden Globes",
+    "year": 2025,
+    "section": "Major Film Categories",
+    "source": "https://goldenglobes.com/winners-nominees/?year=2025",
+    "data_source": "https://goldenglobes.com/wp-json/awdb/v1/winners-and-nominees/?year=2025",
+    "categories": [
+      {
+        "id": "best-motion-picture-drama",
+        "name": "Best Motion Picture - Drama",
+        "entries": [
+          {
+            "film_id": 102,
+            "person": "",
+            "winner": true
+          },
+          {
+            "film_id": 220,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 116,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 111,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 221,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 198,
+            "person": "",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          102,
+          220,
+          116,
+          111,
+          221,
+          198
+        ],
+        "winners": [
+          102
+        ],
+        "winner": 102
+      },
+      {
+        "id": "best-motion-picture-musical-or-comedy",
+        "name": "Best Motion Picture - Musical or Comedy",
+        "entries": [
+          {
+            "film_id": 101,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 132,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 117,
+            "person": "",
+            "winner": true
+          },
+          {
+            "film_id": 110,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 104,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 200,
+            "person": "",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          101,
+          132,
+          117,
+          110,
+          104,
+          200
+        ],
+        "winners": [
+          117
+        ],
+        "winner": 117
+      },
+      {
+        "id": "best-motion-picture-animated",
+        "name": "Best Motion Picture - Animated",
+        "entries": [
+          {
+            "film_id": 107,
+            "person": "",
+            "winner": true
+          },
+          {
+            "film_id": 182,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 179,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 244,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 183,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 115,
+            "person": "",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          107,
+          182,
+          179,
+          244,
+          183,
+          115
+        ],
+        "winners": [
+          107
+        ],
+        "winner": 107
+      },
+      {
+        "id": "best-motion-picture-non-english-language",
+        "name": "Best Motion Picture – Non-English Language",
+        "entries": [
+          {
+            "film_id": 103,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 117,
+            "person": "",
+            "winner": true
+          },
+          {
+            "film_id": 114,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 109,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 105,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 157,
+            "person": "",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          103,
+          117,
+          114,
+          109,
+          105,
+          157
+        ],
+        "winners": [
+          117
+        ],
+        "winner": 117
+      },
+      {
+        "id": "best-performance-by-a-female-actor-in-a-motion-picture-drama",
+        "name": "Best Performance by a Female Actor in a Motion Picture – Drama",
+        "entries": [
+          {
+            "film_id": 226,
+            "person": "Pamela Anderson",
+            "winner": false
+          },
+          {
+            "film_id": 238,
+            "person": "Angelina Jolie",
+            "winner": false
+          },
+          {
+            "film_id": 239,
+            "person": "Nicole Kidman",
+            "winner": false
+          },
+          {
+            "film_id": 108,
+            "person": "Tilda Swinton",
+            "winner": false
+          },
+          {
+            "film_id": 109,
+            "person": "Fernanda Torres",
+            "winner": true
+          },
+          {
+            "film_id": 225,
+            "person": "Kate Winslet",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          226,
+          238,
+          239,
+          108,
+          109,
+          225
+        ],
+        "winners": [
+          109
+        ],
+        "winner": 109
+      },
+      {
+        "id": "best-performance-by-a-male-actor-in-a-motion-picture-drama",
+        "name": "Best Performance by a Male Actor in a Motion Picture – Drama",
+        "entries": [
+          {
+            "film_id": 102,
+            "person": "Adrien Brody",
+            "winner": true
+          },
+          {
+            "film_id": 220,
+            "person": "Timothée Chalamet",
+            "winner": false
+          },
+          {
+            "film_id": 133,
+            "person": "Daniel Craig",
+            "winner": false
+          },
+          {
+            "film_id": 149,
+            "person": "Colman Domingo",
+            "winner": false
+          },
+          {
+            "film_id": 116,
+            "person": "Ralph Fiennes",
+            "winner": false
+          },
+          {
+            "film_id": 147,
+            "person": "Sebastian Stan",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          102,
+          220,
+          133,
+          149,
+          116,
+          147
+        ],
+        "winners": [
+          102
+        ],
+        "winner": 102
+      },
+      {
+        "id": "best-performance-by-a-female-actor-in-a-motion-picture-musical-or-comedy",
+        "name": "Best Performance by a Female Actor in a Motion Picture – Musical or Comedy",
+        "entries": [
+          {
+            "film_id": 132,
+            "person": "Zendaya",
+            "winner": false
+          },
+          {
+            "film_id": 240,
+            "person": "Amy Adams",
+            "winner": false
+          },
+          {
+            "film_id": 200,
+            "person": "Cynthia Erivo",
+            "winner": false
+          },
+          {
+            "film_id": 117,
+            "person": "Karla Sofìa Gascón",
+            "winner": false
+          },
+          {
+            "film_id": 101,
+            "person": "Mikey Madison",
+            "winner": false
+          },
+          {
+            "film_id": 104,
+            "person": "Demi Moore",
+            "winner": true
+          }
+        ],
+        "nominees": [
+          132,
+          240,
+          200,
+          117,
+          101,
+          104
+        ],
+        "winners": [
+          104
+        ],
+        "winner": 104
+      },
+      {
+        "id": "best-performance-by-a-male-actor-in-a-motion-picture-musical-or-comedy",
+        "name": "Best Performance by a Male Actor in a Motion Picture – Musical or Comedy",
+        "entries": [
+          {
+            "film_id": 110,
+            "person": "Jesse Eisenberg",
+            "winner": false
+          },
+          {
+            "film_id": 139,
+            "person": "Hugh Grant",
+            "winner": false
+          },
+          {
+            "film_id": 241,
+            "person": "Gabriel LaBelle",
+            "winner": false
+          },
+          {
+            "film_id": 242,
+            "person": "Jesse Plemons",
+            "winner": false
+          },
+          {
+            "film_id": 243,
+            "person": "Glen Powell",
+            "winner": false
+          },
+          {
+            "film_id": 146,
+            "person": "Sebastian Stan",
+            "winner": true
+          }
+        ],
+        "nominees": [
+          110,
+          139,
+          241,
+          242,
+          243,
+          146
+        ],
+        "winners": [
+          146
+        ],
+        "winner": 146
+      },
+      {
+        "id": "best-performance-by-a-female-actor-in-a-supporting-role-in-any-motion-picture",
+        "name": "Best Performance by a Female Actor in a Supporting Role in any Motion Picture",
+        "entries": [
+          {
+            "film_id": 117,
+            "person": "Selena Gomez",
+            "winner": false
+          },
+          {
+            "film_id": 200,
+            "person": "Ariana Grande",
+            "winner": false
+          },
+          {
+            "film_id": 102,
+            "person": "Felicity Jones",
+            "winner": false
+          },
+          {
+            "film_id": 104,
+            "person": "Margaret Qualley",
+            "winner": false
+          },
+          {
+            "film_id": 116,
+            "person": "Isabella Rossellini",
+            "winner": false
+          },
+          {
+            "film_id": 117,
+            "person": "Zoe Saldaña",
+            "winner": true
+          }
+        ],
+        "nominees": [
+          117,
+          200,
+          102,
+          104,
+          116
+        ],
+        "winners": [
+          117
+        ],
+        "winner": 117
+      },
+      {
+        "id": "best-performance-by-a-male-actor-in-a-supporting-role-in-any-motion-picture",
+        "name": "Best Performance by a Male Actor in a Supporting Role in any Motion Picture",
+        "entries": [
+          {
+            "film_id": 101,
+            "person": "Yura Borisov",
+            "winner": false
+          },
+          {
+            "film_id": 110,
+            "person": "Kieran Culkin",
+            "winner": true
+          },
+          {
+            "film_id": 220,
+            "person": "Edward Norton",
+            "winner": false
+          },
+          {
+            "film_id": 102,
+            "person": "Guy Pearce",
+            "winner": false
+          },
+          {
+            "film_id": 147,
+            "person": "Jeremy Strong",
+            "winner": false
+          },
+          {
+            "film_id": 224,
+            "person": "Denzel Washington",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          101,
+          110,
+          220,
+          102,
+          147,
+          224
+        ],
+        "winners": [
+          110
+        ],
+        "winner": 110
+      },
+      {
+        "id": "best-director-motion-picture",
+        "name": "Best Director - Motion Picture",
+        "entries": [
+          {
+            "film_id": 117,
+            "person": "Jacques Audiard",
+            "winner": false
+          },
+          {
+            "film_id": 101,
+            "person": "Sean Baker",
+            "winner": false
+          },
+          {
+            "film_id": 116,
+            "person": "Edward Berger",
+            "winner": false
+          },
+          {
+            "film_id": 102,
+            "person": "Brady Corbet",
+            "winner": true
+          },
+          {
+            "film_id": 104,
+            "person": "Coralie Fargeat",
+            "winner": false
+          },
+          {
+            "film_id": 103,
+            "person": "Payal Kapadia",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          117,
+          101,
+          116,
+          102,
+          104,
+          103
+        ],
+        "winners": [
+          102
+        ],
+        "winner": 102
+      },
+      {
+        "id": "best-screenplay-motion-picture",
+        "name": "Best Screenplay - Motion Picture",
+        "entries": [
+          {
+            "film_id": 117,
+            "person": "Jacques Audiard",
+            "winner": false
+          },
+          {
+            "film_id": 101,
+            "person": "Sean Baker",
+            "winner": false
+          },
+          {
+            "film_id": 102,
+            "person": "Brady Corbet, Mona Fastvold",
+            "winner": false
+          },
+          {
+            "film_id": 110,
+            "person": "Jesse Eisenberg",
+            "winner": false
+          },
+          {
+            "film_id": 104,
+            "person": "Coralie Fargeat",
+            "winner": false
+          },
+          {
+            "film_id": 116,
+            "person": "Peter Straughan",
+            "winner": true
+          }
+        ],
+        "nominees": [
+          117,
+          101,
+          102,
+          110,
+          104,
+          116
+        ],
+        "winners": [
+          116
+        ],
+        "winner": 116
+      }
+    ],
+    "awardsSource": "https://goldenglobes.com/winners-nominees/?year=2025",
+    "resultsUrl": "https://goldenglobes.com/winners-nominees/?year=2025",
+    "films": [
+      {
+        "id": 102,
+        "awards": [
+          "Best Motion Picture - Drama",
+          "Best Performance by a Male Actor in a Motion Picture – Drama",
+          "Best Director - Motion Picture"
+        ]
+      },
+      {
+        "id": 220,
+        "awards": []
+      },
+      {
+        "id": 116,
+        "awards": [
+          "Best Screenplay - Motion Picture"
+        ]
+      },
+      {
+        "id": 111,
+        "awards": []
+      },
+      {
+        "id": 221,
+        "awards": []
+      },
+      {
+        "id": 198,
+        "awards": []
+      },
+      {
+        "id": 101,
+        "awards": []
+      },
+      {
+        "id": 132,
+        "awards": []
+      },
+      {
+        "id": 117,
+        "awards": [
+          "Best Motion Picture - Musical or Comedy",
+          "Best Motion Picture – Non-English Language",
+          "Best Performance by a Female Actor in a Supporting Role in any Motion Picture"
+        ]
+      },
+      {
+        "id": 110,
+        "awards": [
+          "Best Performance by a Male Actor in a Supporting Role in any Motion Picture"
+        ]
+      },
+      {
+        "id": 104,
+        "awards": [
+          "Best Performance by a Female Actor in a Motion Picture – Musical or Comedy"
+        ]
+      },
+      {
+        "id": 200,
+        "awards": []
+      },
+      {
+        "id": 107,
+        "awards": [
+          "Best Motion Picture - Animated"
+        ]
+      },
+      {
+        "id": 182,
+        "awards": []
+      },
+      {
+        "id": 179,
+        "awards": []
+      },
+      {
+        "id": 244,
+        "awards": []
+      },
+      {
+        "id": 183,
+        "awards": []
+      },
+      {
+        "id": 115,
+        "awards": []
+      },
+      {
+        "id": 103,
+        "awards": []
+      },
+      {
+        "id": 114,
+        "awards": []
+      },
+      {
+        "id": 109,
+        "awards": [
+          "Best Performance by a Female Actor in a Motion Picture – Drama"
+        ]
+      },
+      {
+        "id": 105,
+        "awards": []
+      },
+      {
+        "id": 157,
+        "awards": []
+      },
+      {
+        "id": 226,
+        "awards": []
+      },
+      {
+        "id": 238,
+        "awards": []
+      },
+      {
+        "id": 239,
+        "awards": []
+      },
+      {
+        "id": 108,
+        "awards": []
+      },
+      {
+        "id": 225,
+        "awards": []
+      },
+      {
+        "id": 133,
+        "awards": []
+      },
+      {
+        "id": 149,
+        "awards": []
+      },
+      {
+        "id": 147,
+        "awards": []
+      },
+      {
+        "id": 240,
+        "awards": []
+      },
+      {
+        "id": 139,
+        "awards": []
+      },
+      {
+        "id": 241,
+        "awards": []
+      },
+      {
+        "id": 242,
+        "awards": []
+      },
+      {
+        "id": 243,
+        "awards": []
+      },
+      {
+        "id": 146,
+        "awards": [
+          "Best Performance by a Male Actor in a Motion Picture – Musical or Comedy"
+        ]
+      },
+      {
+        "id": 224,
         "awards": []
       }
     ]
