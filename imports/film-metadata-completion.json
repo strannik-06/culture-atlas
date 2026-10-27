@@ -1,7 +1,7 @@
 {
   "format": "culture-atlas-metadata-completion-v1",
   "generated_at": "2026-10-20T15:58:07.766Z",
-  "total": 2460,
+  "total": 2518,
   "before": {
     "poster": 2250,
     "overview": 2247,
@@ -431,13 +431,13 @@
     }
   ],
   "after": {
-    "poster": 2460,
-    "overview": 2460,
-    "runtime": 2447,
-    "release_date": 2460,
-    "genres": 2460,
-    "countries": 2458,
-    "cast": 2430
+    "poster": 2518,
+    "overview": 2518,
+    "runtime": 2505,
+    "release_date": 2518,
+    "genres": 2518,
+    "countries": 2516,
+    "cast": 2488
   },
   "initial_before": {
     "poster": 243,
@@ -2601,5 +2601,5 @@
       ]
     }
   ],
-  "catalogue_extension": "Oscars 2021–2025: metadata for appended identities; existing audit history preserved"
+  "catalogue_extension": "BAFTA 2021–2025: metadata for appended identities; existing audit history preserved"
 }

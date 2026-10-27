@@ -97,3 +97,14 @@ test('Historical Oscar editions navigate all five years and restore categories o
   }finally{await a.close();}
  }
 });
+
+test('BAFTA historical editions preserve twelve categories, year navigation and winner-first cards',async()=>{
+ for(const year of [2021,2022,2023,2024,2025]){
+  const a=await boot(`#/films/awards?event=BAFTA&year=${year}`);try{
+   assert.equal(a.$('award-edition-title').textContent,`BAFTA ${year}`);
+   assert.equal(a.$('awards-grid').querySelectorAll('.award-category').length,12);
+   assert.equal(a.$('award-years').querySelectorAll('a').length,6);
+   const main=a.$('awards-grid').querySelector('.award-category');assert.match(main.textContent,/Best Film/);assert.match(main.querySelector('article').textContent,/Winner/);
+  }finally{await a.close();}
+ }
+});
