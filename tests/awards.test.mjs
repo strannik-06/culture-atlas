@@ -108,3 +108,14 @@ test('BAFTA historical editions preserve twelve categories, year navigation and 
   }finally{await a.close();}
  }
 });
+
+test('Golden Globes historical editions preserve twelve categories, year navigation and winner-first cards',async()=>{
+ for(const year of [2021,2022,2023,2024,2025]){
+  const a=await boot(`#/films/awards?event=Golden%20Globes&year=${year}`);try{
+   assert.equal(a.$('award-edition-title').textContent,`Golden Globes ${year}`);
+   assert.equal(a.$('awards-grid').querySelectorAll('.award-category').length,12);
+   assert.equal(a.$('award-years').querySelectorAll('a').length,6);
+   const main=a.$('awards-grid').querySelector('.award-category');assert.match(main.textContent,/Best Motion Picture/);assert.match(main.querySelector('article').textContent,/Winner/);
+  }finally{await a.close();}
+ }
+});
