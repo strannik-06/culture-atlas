@@ -190,8 +190,17 @@
       "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
     },
     {
-      "title": "The Mole Agent",
+      "title": "Crip Camp",
       "id": 2395,
+      "tmdb_id": 653725,
+      "director": "Jim LeBrecht, Nicole Newnham",
+      "release_date": "2020-03-25",
+      "imdb_id": "tt8923484",
+      "method": "Exact normalized provider title, ceremony release window, all nominated actor/director credits, unique provider identity"
+    },
+    {
+      "title": "The Mole Agent",
+      "id": 2396,
       "tmdb_id": 653756,
       "director": "Maite Alberdi",
       "release_date": "2020-12-11",
@@ -200,7 +209,7 @@
     },
     {
       "title": "Time",
-      "id": 2396,
+      "id": 2397,
       "tmdb_id": 653729,
       "director": "Garrett Bradley",
       "release_date": "2020-10-09",
@@ -218,7 +227,7 @@
     },
     {
       "title": "Onward",
-      "id": 2397,
+      "id": 2398,
       "tmdb_id": 508439,
       "director": "Dan Scanlon",
       "release_date": "2020-02-29",
@@ -227,7 +236,7 @@
     },
     {
       "title": "Over the Moon",
-      "id": 2398,
+      "id": 2399,
       "tmdb_id": 560050,
       "director": "Glen Keane",
       "release_date": "2020-10-16",
@@ -236,7 +245,7 @@
     },
     {
       "title": "A Shaun the Sheep Movie: Farmageddon",
-      "id": 2399,
+      "id": 2400,
       "tmdb_id": 422803,
       "director": "Will Becher, Richard Phelan",
       "release_date": "2019-09-26",
@@ -245,7 +254,7 @@
     },
     {
       "title": "Wolfwalkers",
-      "id": 2400,
+      "id": 2401,
       "tmdb_id": 441130,
       "director": "Tomm Moore, Ross Stewart",
       "release_date": "2020-10-26",
@@ -299,7 +308,7 @@
     },
     {
       "title": "King Richard",
-      "id": 2401,
+      "id": 2402,
       "tmdb_id": 614917,
       "director": "Reinaldo Marcus Green",
       "release_date": "2021-11-18",
@@ -317,7 +326,7 @@
     },
     {
       "title": "Nightmare Alley",
-      "id": 2402,
+      "id": 2403,
       "tmdb_id": 597208,
       "director": "Guillermo del Toro",
       "release_date": "2021-12-02",
@@ -335,7 +344,7 @@
     },
     {
       "title": "West Side Story",
-      "id": 2403,
+      "id": 2404,
       "tmdb_id": 511809,
       "director": "Steven Spielberg",
       "release_date": "2021-12-08",
@@ -353,7 +362,7 @@
     },
     {
       "title": "tick, tick...BOOM!",
-      "id": 2404,
+      "id": 2405,
       "tmdb_id": 537116,
       "director": "Lin-Manuel Miranda",
       "release_date": "2021-11-11",
@@ -362,7 +371,7 @@
     },
     {
       "title": "The Tragedy of Macbeth",
-      "id": 2405,
+      "id": 2406,
       "tmdb_id": 591538,
       "director": "Joel Coen",
       "release_date": "2021-12-05",
@@ -371,7 +380,7 @@
     },
     {
       "title": "The Eyes of Tammy Faye",
-      "id": 2406,
+      "id": 2407,
       "tmdb_id": 601470,
       "director": "Michael Showalter",
       "release_date": "2021-09-17",
@@ -380,7 +389,7 @@
     },
     {
       "title": "The Lost Daughter",
-      "id": 2407,
+      "id": 2408,
       "tmdb_id": 554230,
       "director": "Maggie Gyllenhaal",
       "release_date": "2021-12-15",
@@ -389,7 +398,7 @@
     },
     {
       "title": "Parallel Mothers",
-      "id": 2408,
+      "id": 2409,
       "tmdb_id": 766798,
       "director": "Pedro Almodóvar",
       "release_date": "2021-10-08",
@@ -398,7 +407,7 @@
     },
     {
       "title": "Spencer",
-      "id": 2409,
+      "id": 2410,
       "tmdb_id": 716612,
       "director": "Pablo Larraín",
       "release_date": "2021-11-04",
@@ -416,7 +425,7 @@
     },
     {
       "title": "Flee",
-      "id": 2410,
+      "id": 2411,
       "tmdb_id": 680813,
       "director": "Jonas Poher Rasmussen",
       "release_date": "2021-06-17",
@@ -425,7 +434,7 @@
     },
     {
       "title": "The Hand of God",
-      "id": 2411,
+      "id": 2412,
       "tmdb_id": 722778,
       "director": "Paolo Sorrentino",
       "release_date": "2021-11-24",
@@ -434,7 +443,7 @@
     },
     {
       "title": "Lunana: A Yak in the Classroom",
-      "id": 2412,
+      "id": 2413,
       "tmdb_id": 627087,
       "director": "Pawo Choyning Dorji",
       "release_date": "2019-11-16",
@@ -443,7 +452,7 @@
     },
     {
       "title": "Summer of Soul (...Or, When the Revolution Could Not Be Televised)",
-      "id": 2413,
+      "id": 2414,
       "tmdb_id": 776527,
       "director": "Questlove",
       "release_date": "2021-07-02",
@@ -452,7 +461,7 @@
     },
     {
       "title": "Ascension",
-      "id": 2414,
+      "id": 2415,
       "tmdb_id": 822138,
       "director": "Jessica Kingdon",
       "release_date": "2021-10-08",
@@ -461,7 +470,7 @@
     },
     {
       "title": "Attica",
-      "id": 2415,
+      "id": 2416,
       "tmdb_id": 858059,
       "director": "Traci A. Curry, Stanley Nelson",
       "release_date": "2021-09-09",
@@ -470,7 +479,7 @@
     },
     {
       "title": "Writing with Fire",
-      "id": 2416,
+      "id": 2417,
       "tmdb_id": 776557,
       "director": "Rintu Thomas, Sushmit Ghosh",
       "release_date": "2021-01-30",
@@ -479,7 +488,7 @@
     },
     {
       "title": "Encanto",
-      "id": 2417,
+      "id": 2418,
       "tmdb_id": 568124,
       "director": "Byron Howard, Jared Bush",
       "release_date": "2021-11-24",
@@ -488,7 +497,7 @@
     },
     {
       "title": "Luca",
-      "id": 2418,
+      "id": 2419,
       "tmdb_id": 508943,
       "director": "Enrico Casarosa",
       "release_date": "2021-06-17",
@@ -497,7 +506,7 @@
     },
     {
       "title": "The Mitchells vs. the Machines",
-      "id": 2419,
+      "id": 2420,
       "tmdb_id": 501929,
       "director": "Mike Rianda",
       "release_date": "2021-04-22",
@@ -506,7 +515,7 @@
     },
     {
       "title": "Raya and the Last Dragon",
-      "id": 2420,
+      "id": 2421,
       "tmdb_id": 527774,
       "director": "Don Hall, Carlos López Estrada",
       "release_date": "2021-03-03",
@@ -533,7 +542,7 @@
     },
     {
       "title": "Avatar: The Way of Water",
-      "id": 2421,
+      "id": 2422,
       "tmdb_id": 76600,
       "director": "James Cameron",
       "release_date": "2022-12-14",
@@ -551,7 +560,7 @@
     },
     {
       "title": "Elvis",
-      "id": 2422,
+      "id": 2423,
       "tmdb_id": 614934,
       "director": "Baz Luhrmann",
       "release_date": "2022-06-22",
@@ -569,7 +578,7 @@
     },
     {
       "title": "Tár",
-      "id": 2423,
+      "id": 2424,
       "tmdb_id": 817758,
       "director": "Todd Field",
       "release_date": "2022-10-07",
@@ -596,7 +605,7 @@
     },
     {
       "title": "Women Talking",
-      "id": 2424,
+      "id": 2425,
       "tmdb_id": 777245,
       "director": "Sarah Polley",
       "release_date": "2022-12-23",
@@ -614,7 +623,7 @@
     },
     {
       "title": "Aftersun",
-      "id": 2425,
+      "id": 2426,
       "tmdb_id": 965150,
       "director": "Charlotte Wells",
       "release_date": "2022-10-21",
@@ -623,7 +632,7 @@
     },
     {
       "title": "Living",
-      "id": 2426,
+      "id": 2427,
       "tmdb_id": 760099,
       "director": "Oliver Hermanus",
       "release_date": "2022-11-04",
@@ -632,7 +641,7 @@
     },
     {
       "title": "Blonde",
-      "id": 2427,
+      "id": 2428,
       "tmdb_id": 301502,
       "director": "Andrew Dominik",
       "release_date": "2022-09-16",
@@ -641,7 +650,7 @@
     },
     {
       "title": "To Leslie",
-      "id": 2428,
+      "id": 2429,
       "tmdb_id": 823147,
       "director": "Michael Morris",
       "release_date": "2022-10-07",
@@ -650,7 +659,7 @@
     },
     {
       "title": "Causeway",
-      "id": 2429,
+      "id": 2430,
       "tmdb_id": 595586,
       "director": "Lila Neugebauer",
       "release_date": "2022-10-28",
@@ -659,7 +668,7 @@
     },
     {
       "title": "Black Panther: Wakanda Forever",
-      "id": 2430,
+      "id": 2431,
       "tmdb_id": 505642,
       "director": "Ryan Coogler",
       "release_date": "2022-11-09",
@@ -677,7 +686,7 @@
     },
     {
       "title": "Argentina, 1985",
-      "id": 2431,
+      "id": 2432,
       "tmdb_id": 714888,
       "director": "Santiago Mitre",
       "release_date": "2022-09-29",
@@ -686,7 +695,7 @@
     },
     {
       "title": "Close",
-      "id": 2432,
+      "id": 2433,
       "tmdb_id": 901563,
       "director": "Lukas Dhont",
       "release_date": "2022-11-01",
@@ -695,7 +704,7 @@
     },
     {
       "title": "EO",
-      "id": 2433,
+      "id": 2434,
       "tmdb_id": 785398,
       "director": "Jerzy Skolimowski",
       "release_date": "2022-09-30",
@@ -704,7 +713,7 @@
     },
     {
       "title": "The Quiet Girl",
-      "id": 2434,
+      "id": 2435,
       "tmdb_id": 916405,
       "director": "Colm Bairéad",
       "release_date": "2022-05-12",
@@ -713,7 +722,7 @@
     },
     {
       "title": "Navalny",
-      "id": 2435,
+      "id": 2436,
       "tmdb_id": 926676,
       "director": "Daniel Roher",
       "release_date": "2022-04-08",
@@ -722,7 +731,7 @@
     },
     {
       "title": "All That Breathes",
-      "id": 2436,
+      "id": 2437,
       "tmdb_id": 913838,
       "director": "Shaunak Sen",
       "release_date": "2022-10-21",
@@ -731,7 +740,7 @@
     },
     {
       "title": "All the Beauty and the Bloodshed",
-      "id": 2437,
+      "id": 2438,
       "tmdb_id": 1004663,
       "director": "Laura Poitras",
       "release_date": "2022-11-23",
@@ -740,7 +749,7 @@
     },
     {
       "title": "Fire of Love",
-      "id": 2438,
+      "id": 2439,
       "tmdb_id": 913823,
       "director": "Sara Dosa",
       "release_date": "2022-07-06",
@@ -749,7 +758,7 @@
     },
     {
       "title": "A House Made of Splinters",
-      "id": 2439,
+      "id": 2440,
       "tmdb_id": 913743,
       "director": "Simon Lereng Wilmont",
       "release_date": "2023-03-09",
@@ -767,7 +776,7 @@
     },
     {
       "title": "Marcel the Shell with Shoes On",
-      "id": 2440,
+      "id": 2441,
       "tmdb_id": 869626,
       "director": "Dean Fleischer Camp",
       "release_date": "2022-06-24",
@@ -776,7 +785,7 @@
     },
     {
       "title": "Puss in Boots: The Last Wish",
-      "id": 2441,
+      "id": 2442,
       "tmdb_id": 315162,
       "director": "Joel Crawford",
       "release_date": "2022-12-07",
@@ -785,7 +794,7 @@
     },
     {
       "title": "The Sea Beast",
-      "id": 2442,
+      "id": 2443,
       "tmdb_id": 560057,
       "director": "Chris Williams",
       "release_date": "2022-06-24",
@@ -794,7 +803,7 @@
     },
     {
       "title": "Turning Red",
-      "id": 2443,
+      "id": 2444,
       "tmdb_id": 508947,
       "director": "Domee Shi",
       "release_date": "2022-03-10",
@@ -857,7 +866,7 @@
     },
     {
       "title": "Maestro",
-      "id": 2444,
+      "id": 2445,
       "tmdb_id": 523607,
       "director": "Bradley Cooper",
       "release_date": "2023-11-22",
@@ -893,7 +902,7 @@
     },
     {
       "title": "Rustin",
-      "id": 2445,
+      "id": 2446,
       "tmdb_id": 898713,
       "director": "George C. Wolfe",
       "release_date": "2023-11-03",
@@ -902,7 +911,7 @@
     },
     {
       "title": "Nyad",
-      "id": 2446,
+      "id": 2447,
       "tmdb_id": 895549,
       "director": "Jimmy Chin, Elizabeth Chai Vasarhelyi",
       "release_date": "2023-10-18",
@@ -911,7 +920,7 @@
     },
     {
       "title": "The Color Purple",
-      "id": 2447,
+      "id": 2448,
       "tmdb_id": 558915,
       "director": "Blitz Bazawule",
       "release_date": "2023-12-25",
@@ -920,7 +929,7 @@
     },
     {
       "title": "May December",
-      "id": 2448,
+      "id": 2449,
       "tmdb_id": 839369,
       "director": "Todd Haynes",
       "release_date": "2023-11-16",
@@ -947,7 +956,7 @@
     },
     {
       "title": "Society of the Snow",
-      "id": 2449,
+      "id": 2450,
       "tmdb_id": 906126,
       "director": "J. A. Bayona",
       "release_date": "2023-12-15",
@@ -956,7 +965,7 @@
     },
     {
       "title": "The Teachers' Lounge",
-      "id": 2450,
+      "id": 2451,
       "tmdb_id": 998022,
       "director": "İlker Çatak",
       "release_date": "2023-05-04",
@@ -965,7 +974,7 @@
     },
     {
       "title": "20 Days in Mariupol",
-      "id": 2451,
+      "id": 2452,
       "tmdb_id": 1058616,
       "director": "Mstyslav Chernov",
       "release_date": "2023-07-14",
@@ -974,7 +983,7 @@
     },
     {
       "title": "Bobi Wine: The People's President",
-      "id": 2452,
+      "id": 2453,
       "tmdb_id": 1004683,
       "director": "Christopher Sharp, Moses Bwayo",
       "release_date": "2023-07-28",
@@ -983,7 +992,7 @@
     },
     {
       "title": "The Eternal Memory",
-      "id": 2453,
+      "id": 2454,
       "tmdb_id": 1032760,
       "director": "Maite Alberdi",
       "release_date": "2023-08-11",
@@ -992,7 +1001,7 @@
     },
     {
       "title": "Four Daughters",
-      "id": 2454,
+      "id": 2455,
       "tmdb_id": 1069193,
       "director": "Kaouther Ben Hania",
       "release_date": "2023-07-05",
@@ -1001,7 +1010,7 @@
     },
     {
       "title": "To Kill a Tiger",
-      "id": 2455,
+      "id": 2456,
       "tmdb_id": 1015356,
       "director": "Nisha Pahuja",
       "release_date": "2023-10-20",
@@ -1010,7 +1019,7 @@
     },
     {
       "title": "The Boy and the Heron",
-      "id": 2456,
+      "id": 2457,
       "tmdb_id": 508883,
       "director": "Hayao Miyazaki",
       "release_date": "2023-07-14",
@@ -1019,7 +1028,7 @@
     },
     {
       "title": "Elemental",
-      "id": 2457,
+      "id": 2458,
       "tmdb_id": 976573,
       "director": "Peter Sohn",
       "release_date": "2023-06-14",
@@ -1028,7 +1037,7 @@
     },
     {
       "title": "Nimona",
-      "id": 2458,
+      "id": 2459,
       "tmdb_id": 961323,
       "director": "Troy Quane, Nick Bruno",
       "release_date": "2023-06-23",
@@ -1037,7 +1046,7 @@
     },
     {
       "title": "Robot Dreams",
-      "id": 2459,
+      "id": 2460,
       "tmdb_id": 838240,
       "director": "Pablo Berger",
       "release_date": "2023-12-06",
@@ -1046,7 +1055,7 @@
     },
     {
       "title": "Spider-Man: Across the Spider-Verse",
-      "id": 2460,
+      "id": 2461,
       "tmdb_id": 569094,
       "director": "Justin K. Thompson, Kemp Powers, Joaquim Dos Santos",
       "release_date": "2023-05-31",
@@ -1456,6 +1465,17 @@
     },
     {
       "id": 2395,
+      "title": "Crip Camp: A Disability Revolution",
+      "director": "Jim LeBrecht, Nicole Newnham",
+      "year": 2020,
+      "tmdb_id": 653725,
+      "imdb_id": "tt8923484",
+      "original_title": "Crip Camp: A Disability Revolution",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 2396,
       "title": "The Mole Agent",
       "director": "Maite Alberdi",
       "year": 2020,
@@ -1466,7 +1486,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2396,
+      "id": 2397,
       "title": "Time",
       "director": "Garrett Bradley",
       "year": 2020,
@@ -1477,7 +1497,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2397,
+      "id": 2398,
       "title": "Onward",
       "director": "Dan Scanlon",
       "year": 2020,
@@ -1488,7 +1508,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2398,
+      "id": 2399,
       "title": "Over the Moon",
       "director": "Glen Keane",
       "year": 2020,
@@ -1499,7 +1519,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2399,
+      "id": 2400,
       "title": "A Shaun the Sheep Movie: Farmageddon",
       "director": "Will Becher, Richard Phelan",
       "year": 2019,
@@ -1510,7 +1530,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2400,
+      "id": 2401,
       "title": "Wolfwalkers",
       "director": "Tomm Moore, Ross Stewart",
       "year": 2020,
@@ -1521,7 +1541,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2401,
+      "id": 2402,
       "title": "King Richard",
       "director": "Reinaldo Marcus Green",
       "year": 2021,
@@ -1532,7 +1552,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2402,
+      "id": 2403,
       "title": "Nightmare Alley",
       "director": "Guillermo del Toro",
       "year": 2021,
@@ -1543,7 +1563,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2403,
+      "id": 2404,
       "title": "West Side Story",
       "director": "Steven Spielberg",
       "year": 2021,
@@ -1554,7 +1574,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2404,
+      "id": 2405,
       "title": "tick, tick... BOOM!",
       "director": "Lin-Manuel Miranda",
       "year": 2021,
@@ -1565,7 +1585,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2405,
+      "id": 2406,
       "title": "The Tragedy of Macbeth",
       "director": "Joel Coen",
       "year": 2021,
@@ -1576,7 +1596,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2406,
+      "id": 2407,
       "title": "The Eyes of Tammy Faye",
       "director": "Michael Showalter",
       "year": 2021,
@@ -1587,7 +1607,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2407,
+      "id": 2408,
       "title": "The Lost Daughter",
       "director": "Maggie Gyllenhaal",
       "year": 2021,
@@ -1598,7 +1618,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2408,
+      "id": 2409,
       "title": "Parallel Mothers",
       "director": "Pedro Almodóvar",
       "year": 2021,
@@ -1609,7 +1629,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2409,
+      "id": 2410,
       "title": "Spencer",
       "director": "Pablo Larraín",
       "year": 2021,
@@ -1620,7 +1640,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2410,
+      "id": 2411,
       "title": "Flee",
       "director": "Jonas Poher Rasmussen",
       "year": 2021,
@@ -1631,7 +1651,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2411,
+      "id": 2412,
       "title": "The Hand of God",
       "director": "Paolo Sorrentino",
       "year": 2021,
@@ -1642,7 +1662,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2412,
+      "id": 2413,
       "title": "Lunana: A Yak in the Classroom",
       "director": "Pawo Choyning Dorji",
       "year": 2019,
@@ -1653,7 +1673,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2413,
+      "id": 2414,
       "title": "Summer of Soul (...Or, When the Revolution Could Not Be Televised)",
       "director": "Questlove",
       "year": 2021,
@@ -1664,7 +1684,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2414,
+      "id": 2415,
       "title": "Ascension",
       "director": "Jessica Kingdon",
       "year": 2021,
@@ -1675,7 +1695,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2415,
+      "id": 2416,
       "title": "Attica",
       "director": "Traci A. Curry, Stanley Nelson",
       "year": 2021,
@@ -1686,7 +1706,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2416,
+      "id": 2417,
       "title": "Writing with Fire",
       "director": "Rintu Thomas, Sushmit Ghosh",
       "year": 2021,
@@ -1697,7 +1717,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2417,
+      "id": 2418,
       "title": "Encanto",
       "director": "Byron Howard, Jared Bush",
       "year": 2021,
@@ -1708,7 +1728,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2418,
+      "id": 2419,
       "title": "Luca",
       "director": "Enrico Casarosa",
       "year": 2021,
@@ -1719,7 +1739,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2419,
+      "id": 2420,
       "title": "The Mitchells vs. the Machines",
       "director": "Mike Rianda",
       "year": 2021,
@@ -1730,7 +1750,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2420,
+      "id": 2421,
       "title": "Raya and the Last Dragon",
       "director": "Don Hall, Carlos López Estrada",
       "year": 2021,
@@ -1741,7 +1761,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2421,
+      "id": 2422,
       "title": "Avatar: The Way of Water",
       "director": "James Cameron",
       "year": 2022,
@@ -1752,7 +1772,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2422,
+      "id": 2423,
       "title": "Elvis",
       "director": "Baz Luhrmann",
       "year": 2022,
@@ -1763,7 +1783,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2423,
+      "id": 2424,
       "title": "TÁR",
       "director": "Todd Field",
       "year": 2022,
@@ -1774,7 +1794,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2424,
+      "id": 2425,
       "title": "Women Talking",
       "director": "Sarah Polley",
       "year": 2022,
@@ -1785,7 +1805,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2425,
+      "id": 2426,
       "title": "Aftersun",
       "director": "Charlotte Wells",
       "year": 2022,
@@ -1796,7 +1816,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2426,
+      "id": 2427,
       "title": "Living",
       "director": "Oliver Hermanus",
       "year": 2022,
@@ -1807,7 +1827,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2427,
+      "id": 2428,
       "title": "Blonde",
       "director": "Andrew Dominik",
       "year": 2022,
@@ -1818,7 +1838,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2428,
+      "id": 2429,
       "title": "To Leslie",
       "director": "Michael Morris",
       "year": 2022,
@@ -1829,7 +1849,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2429,
+      "id": 2430,
       "title": "Causeway",
       "director": "Lila Neugebauer",
       "year": 2022,
@@ -1840,7 +1860,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2430,
+      "id": 2431,
       "title": "Black Panther: Wakanda Forever",
       "director": "Ryan Coogler",
       "year": 2022,
@@ -1851,7 +1871,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2431,
+      "id": 2432,
       "title": "Argentina 1985",
       "director": "Santiago Mitre",
       "year": 2022,
@@ -1862,7 +1882,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2432,
+      "id": 2433,
       "title": "Close",
       "director": "Lukas Dhont",
       "year": 2022,
@@ -1873,7 +1893,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2433,
+      "id": 2434,
       "title": "EO",
       "director": "Jerzy Skolimowski",
       "year": 2022,
@@ -1884,7 +1904,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2434,
+      "id": 2435,
       "title": "The Quiet Girl",
       "director": "Colm Bairéad",
       "year": 2022,
@@ -1895,7 +1915,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2435,
+      "id": 2436,
       "title": "Navalny",
       "director": "Daniel Roher",
       "year": 2022,
@@ -1906,7 +1926,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2436,
+      "id": 2437,
       "title": "All That Breathes",
       "director": "Shaunak Sen",
       "year": 2022,
@@ -1917,7 +1937,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2437,
+      "id": 2438,
       "title": "All the Beauty and the Bloodshed",
       "director": "Laura Poitras",
       "year": 2022,
@@ -1928,7 +1948,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2438,
+      "id": 2439,
       "title": "Fire of Love",
       "director": "Sara Dosa",
       "year": 2022,
@@ -1939,7 +1959,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2439,
+      "id": 2440,
       "title": "A House Made of Splinters",
       "director": "Simon Lereng Wilmont",
       "year": 2023,
@@ -1950,7 +1970,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2440,
+      "id": 2441,
       "title": "Marcel the Shell with Shoes On",
       "director": "Dean Fleischer Camp",
       "year": 2022,
@@ -1961,7 +1981,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2441,
+      "id": 2442,
       "title": "Puss in Boots: The Last Wish",
       "director": "Joel Crawford",
       "year": 2022,
@@ -1972,7 +1992,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2442,
+      "id": 2443,
       "title": "The Sea Beast",
       "director": "Chris Williams",
       "year": 2022,
@@ -1983,7 +2003,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2443,
+      "id": 2444,
       "title": "Turning Red",
       "director": "Domee Shi",
       "year": 2022,
@@ -1994,7 +2014,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2444,
+      "id": 2445,
       "title": "Maestro",
       "director": "Bradley Cooper",
       "year": 2023,
@@ -2005,7 +2025,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2445,
+      "id": 2446,
       "title": "Rustin",
       "director": "George C. Wolfe",
       "year": 2023,
@@ -2016,7 +2036,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2446,
+      "id": 2447,
       "title": "NYAD",
       "director": "Jimmy Chin, Elizabeth Chai Vasarhelyi",
       "year": 2023,
@@ -2027,7 +2047,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2447,
+      "id": 2448,
       "title": "The Color Purple",
       "director": "Blitz Bazawule",
       "year": 2023,
@@ -2038,7 +2058,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2448,
+      "id": 2449,
       "title": "May December",
       "director": "Todd Haynes",
       "year": 2023,
@@ -2049,7 +2069,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2449,
+      "id": 2450,
       "title": "Society of the Snow",
       "director": "J. A. Bayona",
       "year": 2023,
@@ -2060,7 +2080,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2450,
+      "id": 2451,
       "title": "The Teachers' Lounge",
       "director": "İlker Çatak",
       "year": 2023,
@@ -2071,7 +2091,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2451,
+      "id": 2452,
       "title": "20 Days in Mariupol",
       "director": "Mstyslav Chernov",
       "year": 2023,
@@ -2082,7 +2102,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2452,
+      "id": 2453,
       "title": "Bobi Wine: The People's President",
       "director": "Christopher Sharp, Moses Bwayo",
       "year": 2023,
@@ -2093,7 +2113,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2453,
+      "id": 2454,
       "title": "The Eternal Memory",
       "director": "Maite Alberdi",
       "year": 2023,
@@ -2104,7 +2124,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2454,
+      "id": 2455,
       "title": "Four Daughters",
       "director": "Kaouther Ben Hania",
       "year": 2023,
@@ -2115,7 +2135,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2455,
+      "id": 2456,
       "title": "To Kill a Tiger",
       "director": "Nisha Pahuja",
       "year": 2023,
@@ -2126,7 +2146,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2456,
+      "id": 2457,
       "title": "The Boy and the Heron",
       "director": "Hayao Miyazaki",
       "year": 2023,
@@ -2137,7 +2157,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2457,
+      "id": 2458,
       "title": "Elemental",
       "director": "Peter Sohn",
       "year": 2023,
@@ -2148,7 +2168,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2458,
+      "id": 2459,
       "title": "Nimona",
       "director": "Troy Quane, Nick Bruno",
       "year": 2023,
@@ -2159,7 +2179,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2459,
+      "id": 2460,
       "title": "Robot Dreams",
       "director": "Pablo Berger",
       "year": 2023,
@@ -2170,7 +2190,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2460,
+      "id": 2461,
       "title": "Spider-Man: Across the Spider-Verse",
       "director": "Justin K. Thompson, Kemp Powers, Joaquim Dos Santos",
       "year": 2023,
@@ -2181,10 +2201,5 @@
       "alternate_titles": []
     }
   ],
-  "unresolved": [
-    {
-      "title": "Crip Camp",
-      "reason": "Expected one title/year/award-credit match; found 0; candidates []"
-    }
-  ]
+  "unresolved": []
 }
