@@ -1,0 +1,33 @@
+name: Review historical book awards in Chromium
+on:
+  push:
+    branches: [feat/book-awards-2011-2025]
+    paths: ['book-awards-history.js', 'book-awards.js', 'books.js', 'books.css', 'awards.js', 'scripts/preview-book-awards-history.mjs', '.github/workflows/book-awards-history-preview.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: book-awards-history-preview
+  cancel-in-progress: false
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci --ignore-scripts
+      - run: npm install --no-save --package-lock=false --ignore-scripts playwright@1.62.1
+      - run: node scripts/preview-book-awards-history.mjs
+      - name: Commit reviewed browser previews
+        if: success() && github.ref_name == 'feat/book-awards-2011-2025'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add docs/previews
+          if ! git diff --cached --quiet; then
+            git commit -m 'Capture historical book awards in desktop and mobile Chromium'
+            git push origin HEAD:"$GITHUB_REF_NAME"
+          fi

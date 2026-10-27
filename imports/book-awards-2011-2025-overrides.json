@@ -1,0 +1,79 @@
+{
+  "catalogue_links": [
+    {
+      "title": "A Horse Walks into a Bar",
+      "catalogue_id": 39,
+      "reason": "Reuse the previously reviewed Russian translation Как-то лошадь входит в бар; no second rating target.",
+      "evidence": "https://thebookerprizes.com/the-booker-library/books/a-horse-walks-into-a-bar"
+    },
+    {
+      "title": "Voices from Chernobyl",
+      "catalogue_id": 134,
+      "reason": "English title of Чернобыльская молитва, the existing reviewed Alexievich work.",
+      "evidence": "https://openlibrary.org/works/OL1725867W"
+    },
+    {
+      "title": "The Unwomanly Face of War",
+      "catalogue_id": 154,
+      "reason": "English title of У войны не женское лицо, the existing reviewed Alexievich work.",
+      "evidence": "https://openlibrary.org/works/OL1725868W"
+    }
+  ],
+  "provider_author_aliases": {
+    "Diane Seuss": [
+      "Diane Seuss-Brakeman"
+    ],
+    "ND Stevenson": [
+      "Noelle Stevenson",
+      "Nate Diana Stevenson"
+    ]
+  },
+  "provider_title_aliases": {
+    "The Other Name: Septology I–II": [
+      "The Other Name"
+    ],
+    "Chronicles: Volume One": [
+      "Chronicles",
+      "Chronicles Volume 1"
+    ],
+    "A New Name: Septology VI-VII": [
+      "A New Name",
+      "New Name"
+    ],
+    "Secondhand Time": [
+      "Время сэконд хэнд"
+    ]
+  },
+  "provider_rejections": [
+    {
+      "title": "from unincorporated territory [åmot]",
+      "reason": "Provider search matches an edition inside a work named [saina], a different volume. Keep a separate official-source identity rather than attaching a conflicting provider work."
+    }
+  ],
+  "reviewed_author_work_lookup": [
+    {
+      "provider": "/works/OL28856510W",
+      "title": "Bee Sting",
+      "authors": [
+        "Paul Murray"
+      ],
+      "method": "Official award title/author reconciled with the same verified Open Library author’s works listing."
+    },
+    {
+      "provider": "/works/OL25343764W",
+      "title": "New Name",
+      "authors": [
+        "Jon Fosse"
+      ],
+      "method": "Official award title/author reconciled with the same verified Open Library author’s works listing."
+    },
+    {
+      "provider": "/works/OL16813790W",
+      "title": "Время сэконд хэнд",
+      "authors": [
+        "Svetlana Alexievich"
+      ],
+      "method": "Official award title/author reconciled with the same verified Open Library author’s works listing."
+    }
+  ]
+}
