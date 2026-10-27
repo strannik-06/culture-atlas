@@ -23,7 +23,7 @@ test('Book award tabs, stage labels, Nobel profile and shareable detail navigati
   const reload=await boot(w.location.hash);try{assert.equal(reload.$('book-editor').open,true);assert.equal(reload.$('book-award-edition-title').textContent,'Nobel Literature 2026');reload.$('book-detail-close').click();assert.equal(reload.$('book-editor').open,false);assert.match(reload.w.location.hash,/books\/awards/);}finally{await reload.close();}
   w.history.back();await tick();assert.equal($('book-editor').open,false);assert.equal($('book-award-edition-title').textContent,'Nobel Literature 2026');
   w.CultureRouter.navigate({section:'books',view:'awards',params:{event:'Prix Goncourt',year:'2026'}});assert.equal($('book-awards-grid').querySelectorAll('article').length,8);assert.match($('book-awards-event-details').textContent,/27 October/);
-  w.CultureRouter.navigate({section:'books',view:'awards',params:{event:'Booker Prize',year:'2025'}});assert.match($('book-awards-grid').textContent,/not been added/);
+  w.CultureRouter.navigate({section:'books',view:'awards',params:{event:'Booker Prize',year:'2010'}});assert.match($('book-awards-grid').textContent,/not been added/);
  }finally{await a.close();}
 });
 test('Existing ratings and notes are reused across award cards and catalogue; saves use the same book ID',async()=>{
