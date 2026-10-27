@@ -156,7 +156,7 @@
             {
               "title": "Monsters: The Lyle and Erik Menendez Story",
               "winner": false,
-              "lookup_title": "Monsters",
+              "lookup_title": "Monsters: The Lyle and Erik Menendez Story",
               "premiere_year": 2024,
               "credit_anchor": "Javier Bardem",
               "media_type": "tv"
@@ -214,8 +214,10 @@
               "title": "Diplomat, The",
               "winner": false,
               "source": "https://goldenglobes.com/tv-show/diplomat-the/",
-              "lookup_title": "Diplomat, The",
-              "media_type": "tv"
+              "lookup_title": "The Diplomat",
+              "media_type": "tv",
+              "premiere_year": 2023,
+              "credit_anchor": "Keri Russell"
             },
             {
               "title": "Squid Game",
@@ -228,8 +230,10 @@
               "title": "Shogun",
               "winner": true,
               "source": "https://goldenglobes.com/tv-show/shogun-2/",
-              "lookup_title": "Shogun",
-              "media_type": "tv"
+              "lookup_title": "Shōgun",
+              "media_type": "tv",
+              "premiere_year": 2024,
+              "credit_anchor": "Hiroyuki Sanada"
             }
           ]
         },
@@ -278,8 +282,10 @@
               "title": "Bear, The",
               "winner": false,
               "source": "https://goldenglobes.com/tv-show/bear-the/",
-              "lookup_title": "Bear, The",
-              "media_type": "tv"
+              "lookup_title": "The Bear",
+              "media_type": "tv",
+              "premiere_year": 2022,
+              "credit_anchor": "Jeremy Allen White"
             },
             {
               "title": "Only Murders in the Building",
@@ -299,7 +305,7 @@
               "title": "Monsters: The Lyle and Erik Menendez Story",
               "winner": false,
               "source": "https://goldenglobes.com/tv-show/monsters-the-lyle-and-erik-menendez-story/",
-              "lookup_title": "Monsters",
+              "lookup_title": "Monsters: The Lyle and Erik Menendez Story",
               "premiere_year": 2024,
               "credit_anchor": "Javier Bardem",
               "media_type": "tv"
@@ -514,7 +520,7 @@
             {
               "title": "You Are Not Alone: Fighting the Wolfpack",
               "winner": false,
-              "lookup_title": "You Are Not Alone: Fighting the Wolfpack",
+              "lookup_title": "You Are Not Alone: Fighting the Wolf Pack",
               "premiere_year": 2024,
               "credit_anchor": "Almudena Carracedo",
               "media_type": "movie"
