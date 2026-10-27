@@ -1,10 +1,10 @@
 name: TV ratings validation
 on:
   pull_request:
-    paths: ['tv*', 'work-identities.js', 'index.html', 'supabase/migrations/*tv*.sql', 'tests/tv-ratings.test.mjs', 'tests/test_final_tv_import.py', 'scripts/prepare-final-tv-import.py', 'scripts/audit-final-source-coverage.py', 'imports/remaining-version-decisions.json', 'import-previews/final-source-coverage-summary.json', 'scripts/validate-work-catalog.mjs', 'tests/test_series_tab_import.py', 'scripts/prepare-series-tab-import.py', 'imports/series-tab*', 'package*.json', '.github/workflows/tv-ratings-validation.yml']
+    paths: ['tv*', 'work-identities.js', 'index.html', 'supabase/migrations/*tv*.sql', 'tests/tv-ratings.test.mjs', 'tests/tv-awards.test.mjs', 'imports/tv-awards-*', 'routes.js', 'awards.js', 'tests/test_final_tv_import.py', 'scripts/prepare-final-tv-import.py', 'scripts/audit-final-source-coverage.py', 'imports/remaining-version-decisions.json', 'import-previews/final-source-coverage-summary.json', 'scripts/validate-work-catalog.mjs', 'tests/test_series_tab_import.py', 'scripts/prepare-series-tab-import.py', 'imports/series-tab*', 'package*.json', '.github/workflows/tv-ratings-validation.yml']
   push:
     branches: [main]
-    paths: ['tv*', 'work-identities.js', 'index.html', 'supabase/migrations/*tv*.sql', 'tests/tv-ratings.test.mjs', 'tests/test_final_tv_import.py', 'scripts/prepare-final-tv-import.py', 'scripts/audit-final-source-coverage.py', 'imports/remaining-version-decisions.json', 'import-previews/final-source-coverage-summary.json', 'scripts/validate-work-catalog.mjs', 'tests/test_series_tab_import.py', 'scripts/prepare-series-tab-import.py', 'imports/series-tab*', 'package*.json', '.github/workflows/tv-ratings-validation.yml']
+    paths: ['tv*', 'work-identities.js', 'index.html', 'supabase/migrations/*tv*.sql', 'tests/tv-ratings.test.mjs', 'tests/tv-awards.test.mjs', 'imports/tv-awards-*', 'routes.js', 'awards.js', 'tests/test_final_tv_import.py', 'scripts/prepare-final-tv-import.py', 'scripts/audit-final-source-coverage.py', 'imports/remaining-version-decisions.json', 'import-previews/final-source-coverage-summary.json', 'scripts/validate-work-catalog.mjs', 'tests/test_series_tab_import.py', 'scripts/prepare-series-tab-import.py', 'imports/series-tab*', 'package*.json', '.github/workflows/tv-ratings-validation.yml']
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -17,7 +17,7 @@ jobs:
       - run: npm ci
       - run: node --check tv.js
       - run: node scripts/validate-work-catalog.mjs
-      - run: node --test tests/tv-ratings.test.mjs
+      - run: node --test tests/tv-ratings.test.mjs tests/tv-awards.test.mjs
       - run: python3 -m unittest discover -s tests -p 'test_final_tv_import.py'
       - run: python3 scripts/audit-final-source-coverage.py --check
       - run: python3 -m unittest discover -s tests -p 'test_series_tab_import.py'
