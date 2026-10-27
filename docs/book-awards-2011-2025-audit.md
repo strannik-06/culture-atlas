@@ -34,3 +34,7 @@ One Open Library search result puts an edition of Craig Santos Perez’s `[åmot
 Tests check all years/categories, the historical exceptions above, duplicate-free work/provider references, deep links and refresh, author-versus-book ratings, and preservation of current 2026 pages. Isolated PostgreSQL-compatible SQL tests apply the batch twice, preserve existing book metadata/private notes, and reject changed catalogue identities. Read-only live Supabase preflight: 18 existing identities, 770 new identities, zero ambiguous matches. The source snapshots contain only public book metadata; no private values are committed.
 
 **Deployment pending review and merge.** `imports/book-awards-2011-2025-catalogue-sync.sql` only registers public catalogue records and never updates existing book metadata or private progress. After merge, apply it with conflict/preservation checks and verify every registration **before starting another batch**. Merging the PR does not run SQL automatically.
+
+## Final review
+
+Desktop/mobile Chromium review passed; screenshots are in `docs/previews/book-awards-history-*.png`. The 31 award/routing regressions and 14 Books/import tests passed again during handoff. Reviewed the screenshots and corrected the film-specific edition-year text on book pages. Metadata audit confirms 24 books without safe Open Library links (superseding the preliminary count of 23), and 100 without cover references.
