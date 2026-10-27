@@ -54,7 +54,7 @@ An initial attempt was fully rolled back because the additional preservation ass
 
 ## Future catalogue batches
 
-Merging a PR publishes repository/website changes; it does **not** execute Supabase SQL. Before marking a merged batch complete:
+Merging a PR publishes repository/website changes; it does **not** execute Supabase SQL. After each merge, apply and verify its catalogue SQL **before starting the next batch**. Before marking a merged batch complete:
 
 1. Check actual live schema and identity/provider coverage; do not infer deployment from migration history or website appearance.
 2. Review the merged registration SQL and preflight identity conflicts.
