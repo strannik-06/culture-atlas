@@ -159,7 +159,9 @@
               "lookup_title": "Monsters: The Lyle and Erik Menendez Story",
               "premiere_year": 2024,
               "credit_anchor": "Javier Bardem",
-              "media_type": "tv"
+              "media_type": "tv",
+              "allow_missing_imdb": true,
+              "identity_source": "https://media.netflix.com/en/only-on-netflix/81665094"
             },
             {
               "title": "The Penguin",
@@ -308,7 +310,9 @@
               "lookup_title": "Monsters: The Lyle and Erik Menendez Story",
               "premiere_year": 2024,
               "credit_anchor": "Javier Bardem",
-              "media_type": "tv"
+              "media_type": "tv",
+              "allow_missing_imdb": true,
+              "identity_source": "https://media.netflix.com/en/only-on-netflix/81665094"
             },
             {
               "title": "True Detective: Night Country",
