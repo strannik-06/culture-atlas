@@ -1,0 +1,2065 @@
+{
+  "scope": "Twelve established major feature-film categories; ceremony year",
+  "events": [
+    {
+      "event": "BAFTA",
+      "year": 2021,
+      "section": "Major Film Categories",
+      "source": "https://www.bafta.org/awards/film/?award-year=2021",
+      "categories": [
+        {
+          "name": "Best Film",
+          "entries": [
+            {
+              "title": "Nomadland",
+              "person": "Mollye Asher, Dan Janvey, Frances McDormand, Peter Spears, Chlo\u00e9 Zhao",
+              "winner": true
+            },
+            {
+              "title": "The Father",
+              "person": "Philippe Carcassonne, Jean-Louis Livi, David Parfitt",
+              "winner": false
+            },
+            {
+              "title": "The Mauritanian",
+              "person": "Adam Ackland, Leah Clarke, Beatriz Levin, Lloyd Levin",
+              "winner": false
+            },
+            {
+              "title": "Promising Young Woman",
+              "person": "Ben Browning, Emerald Fennell, Ashley Fox, Josey McNamara",
+              "winner": false
+            },
+            {
+              "title": "The Trial of the Chicago 7",
+              "person": "Stuart Besser, Marc Platt",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Director",
+          "entries": [
+            {
+              "title": "Nomadland",
+              "person": "Chlo\u00e9 Zhao",
+              "winner": true
+            },
+            {
+              "title": "Minari",
+              "person": "Lee Isaac Chung",
+              "winner": false
+            },
+            {
+              "title": "Rocks",
+              "person": "Sarah Gavron",
+              "winner": false
+            },
+            {
+              "title": "Babyteeth",
+              "person": "Shannon Murphy",
+              "winner": false
+            },
+            {
+              "title": "Another Round",
+              "person": "Thomas Vinterberg",
+              "winner": false
+            },
+            {
+              "title": "Quo Vadis, Aida?",
+              "person": "Jasmila Zbanic",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Outstanding British Film",
+          "entries": [
+            {
+              "title": "Promising Young Woman",
+              "person": "Emerald Fennell, Ben Browning, Ashley Fox, Josey McNamara",
+              "winner": true
+            },
+            {
+              "title": "The Mauritanian",
+              "person": "Kevin Macdonald, Adam Ackland, Leah Clarke, Beatriz Levin, Lloyd Levin, Rory Haines, Sohrab Noshirvani, M.B. Traven",
+              "winner": false
+            },
+            {
+              "title": "Mogul Mowgli",
+              "person": "Bassam Tariq, Riz Ahmed, Thomas Benski, Bennett McGhee",
+              "winner": false
+            },
+            {
+              "title": "Rocks",
+              "person": "Sarah Gavron, Ameenah Ayub Allen, Faye Ward, Theresa Ikoko, Claire Wilson",
+              "winner": false
+            },
+            {
+              "title": "Saint Maud",
+              "person": "Rose Glass, Andrea Cornwell, Oliver Kassman",
+              "winner": false
+            },
+            {
+              "title": "Calm With Horses",
+              "person": "Nick Rowland, Daniel Emmerson, Joe Murtagh",
+              "winner": false
+            },
+            {
+              "title": "The Dig",
+              "person": "Simon Stone, Gabrielle Tana, Ellie Wood, Moira Buffini",
+              "winner": false
+            },
+            {
+              "title": "The Father",
+              "person": "Florian Zeller, Philippe Carcassone, Jean-Louis Livi, David Parfitt, Christopher Hampton",
+              "winner": false
+            },
+            {
+              "title": "His House",
+              "person": "Remi Weekes, Martin Gentles, Edward King, Roy Lee",
+              "winner": false
+            },
+            {
+              "title": "Limbo",
+              "person": "Ben Sharrock, Irune Gurtubai, Angus Lamont",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Leading Actor",
+          "entries": [
+            {
+              "title": "The Father",
+              "person": "Anthony Hopkins",
+              "winner": true
+            },
+            {
+              "title": "Ma Rainey's Black Bottom",
+              "person": "Chadwick Boseman",
+              "winner": false
+            },
+            {
+              "title": "Another Round",
+              "person": "Mads Mikkelsen",
+              "winner": false
+            },
+            {
+              "title": "The Mauritanian",
+              "person": "Tahar Rahim",
+              "winner": false
+            },
+            {
+              "title": "Sound of Metal",
+              "person": "Riz Ahmed",
+              "winner": false
+            },
+            {
+              "title": "The White Tiger",
+              "person": "Adarsh Gourav",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Leading Actress",
+          "entries": [
+            {
+              "title": "Nomadland",
+              "person": "Frances McDormand",
+              "winner": true
+            },
+            {
+              "title": "Clemency",
+              "person": "Alfre Woodard",
+              "winner": false
+            },
+            {
+              "title": "Rocks",
+              "person": "Bukky Bakray",
+              "winner": false
+            },
+            {
+              "title": "The Forty-Year-Old Version",
+              "person": "Radha Blank",
+              "winner": false
+            },
+            {
+              "title": "Pieces of a Woman",
+              "person": "Vanessa Kirby",
+              "winner": false
+            },
+            {
+              "title": "His House",
+              "person": "Wunmi Mosaku",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Supporting Actor",
+          "entries": [
+            {
+              "title": "Judas and the Black Messiah",
+              "person": "Daniel Kaluuya",
+              "winner": true
+            },
+            {
+              "title": "Minari",
+              "person": "Alan Kim",
+              "winner": false
+            },
+            {
+              "title": "Calm With Horses",
+              "person": "Barry Keoghan",
+              "winner": false
+            },
+            {
+              "title": "Da 5 Bloods",
+              "person": "Clarke Peters",
+              "winner": false
+            },
+            {
+              "title": "One Night In Miami...",
+              "person": "Leslie Odom Jr.",
+              "winner": false
+            },
+            {
+              "title": "Sound of Metal",
+              "person": "Paul Raci",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Supporting Actress",
+          "entries": [
+            {
+              "title": "Minari",
+              "person": "Yuh-Jung Youn",
+              "winner": true
+            },
+            {
+              "title": "Calm With Horses",
+              "person": "Niamh Algar",
+              "winner": false
+            },
+            {
+              "title": "County Lines",
+              "person": "Ashley Madekwe",
+              "winner": false
+            },
+            {
+              "title": "Judas and the Black Messiah",
+              "person": "Dominique Fishback",
+              "winner": false
+            },
+            {
+              "title": "Rocks",
+              "person": "Kosar Ali",
+              "winner": false
+            },
+            {
+              "title": "Borat Subsequent Moviefilm",
+              "person": "Maria Bakalova",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Original Screenplay",
+          "entries": [
+            {
+              "title": "Promising Young Woman",
+              "person": "Emerald Fennell",
+              "winner": true
+            },
+            {
+              "title": "Another Round",
+              "person": "Tobias Lindholm, Thomas Vinterberg",
+              "winner": false
+            },
+            {
+              "title": "The Trial of the Chicago 7",
+              "person": "Aaron Sorkin",
+              "winner": false
+            },
+            {
+              "title": "Mank",
+              "person": "Jack Fincher",
+              "winner": false
+            },
+            {
+              "title": "Rocks",
+              "person": "Theresa Ikoko, Claire Wilson",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Adapted Screenplay",
+          "entries": [
+            {
+              "title": "The Father",
+              "person": "Christopher Hampton, Florian Zeller",
+              "winner": true
+            },
+            {
+              "title": "The Dig",
+              "person": "Moira Buffini",
+              "winner": false
+            },
+            {
+              "title": "The White Tiger",
+              "person": "Ramin Bahrani",
+              "winner": false
+            },
+            {
+              "title": "The Mauritanian",
+              "person": "Rory Haines, Sohrab Noshirvani, M.B. Traven",
+              "winner": false
+            },
+            {
+              "title": "Nomadland",
+              "person": "Chlo\u00e9 Zhao",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Film Not in the English Language",
+          "entries": [
+            {
+              "title": "Another Round",
+              "person": "Thomas Vinterberg, Kasper Dissing, Sisse Graum J\u00f8rgensen",
+              "winner": true
+            },
+            {
+              "title": "Dear Comrades!",
+              "person": "Andrei Konchalovsky, Alisher Usmanov",
+              "winner": false
+            },
+            {
+              "title": "Quo Vadis, Aida?",
+              "person": "Jasmila Zbanic, Damir Ibrahimovich",
+              "winner": false
+            },
+            {
+              "title": "Les Mis\u00e9rables",
+              "person": "Ladj Ly, Toufik Ayadi, Christophe Barral",
+              "winner": false
+            },
+            {
+              "title": "Minari",
+              "person": "Lee Isaac Chung, Christina Oh",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Documentary",
+          "entries": [
+            {
+              "title": "My Octopus Teacher",
+              "person": "Pippa Ehrlich, James Reed, Craig Foster",
+              "winner": true
+            },
+            {
+              "title": "David Attenborough: A Life on Our Planet",
+              "person": "Alastair Fothergill, Jonnie Hughes, Keith Scholey",
+              "winner": false
+            },
+            {
+              "title": "Collective",
+              "person": "Alexander Nanau",
+              "winner": false
+            },
+            {
+              "title": "The Dissident",
+              "person": "Bryan Fogel, Thor Halvorssen, Mark Monroe, Jake Swantko",
+              "winner": false
+            },
+            {
+              "title": "The Social Dilemma",
+              "person": "Jeff Orlowski, Larissa Rhodes",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Animated Film",
+          "entries": [
+            {
+              "title": "Soul",
+              "person": "Pete Docter, Dana Murray",
+              "winner": true
+            },
+            {
+              "title": "Onward",
+              "person": "Dan Scanlon, Kori Rae",
+              "winner": false
+            },
+            {
+              "title": "Wolfwalkers",
+              "person": "Tomm Moore, Ross Stewart, Paul Young",
+              "winner": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "BAFTA",
+      "year": 2022,
+      "section": "Major Film Categories",
+      "source": "https://www.bafta.org/awards/film/?award-year=2022",
+      "categories": [
+        {
+          "name": "Best Film",
+          "entries": [
+            {
+              "title": "The Power of the Dog",
+              "person": "Jane Campion, Iain Canning, Roger Frappier, Tanya Seghatchian, Emile Sherman",
+              "winner": true
+            },
+            {
+              "title": "Belfast",
+              "person": "Laura Berwick, Kenneth Branagh, Becca Kovacik, Tamar Thomas",
+              "winner": false
+            },
+            {
+              "title": "Don't Look Up",
+              "person": "Adam McKay, Kevin Messick",
+              "winner": false
+            },
+            {
+              "title": "Dune",
+              "person": "Mary Parent, Cale Boyter, Denis Villeneuve",
+              "winner": false
+            },
+            {
+              "title": "Licorice Pizza",
+              "person": "Sara Murphy, Paul Thomas Anderson, Adam Somner",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Director",
+          "entries": [
+            {
+              "title": "The Power of the Dog",
+              "person": "Jane Campion",
+              "winner": true
+            },
+            {
+              "title": "Happening",
+              "person": "Audrey Diwan",
+              "winner": false
+            },
+            {
+              "title": "Titane",
+              "person": "Julia Ducournau",
+              "winner": false
+            },
+            {
+              "title": "Drive My Car",
+              "person": "Ry\u00fbsuke Hamaguchi",
+              "winner": false
+            },
+            {
+              "title": "After Love",
+              "person": "Aleem Khan",
+              "winner": false
+            },
+            {
+              "title": "Licorice Pizza",
+              "person": "Paul Thomas Anderson",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Outstanding British Film",
+          "entries": [
+            {
+              "title": "Belfast",
+              "person": "Kenneth Branagh, Laura Berwick, Becca Kovacik, Tamar Thomas",
+              "winner": true
+            },
+            {
+              "title": "No Time To Die",
+              "person": "Cary Joji Fukunaga, Barbara Broccoli, Michael G. Wilson, Neal Purvis, Robert Wade, Phoebe Waller-Bridge",
+              "winner": false
+            },
+            {
+              "title": "Passing",
+              "person": "Rebecca Hall, Margot Hand, Nina Yang Bongiovi, Forest Whitaker",
+              "winner": false
+            },
+            {
+              "title": "After Love",
+              "person": "Aleem Khan, Matthieu de Braconier",
+              "winner": false
+            },
+            {
+              "title": "Ali & Ava",
+              "person": "Clio Barnard, Tracy O\u0092Riordan",
+              "winner": false
+            },
+            {
+              "title": "Boiling Point",
+              "person": "Philip Barantini, Bart Ruspoli, Hester Ruoff, James Cummings",
+              "winner": false
+            },
+            {
+              "title": "Cyrano",
+              "person": "Joe Wright, Tim Bevan, Eric Fellner, Guy Heeley, Erica Schmidt",
+              "winner": false
+            },
+            {
+              "title": "Everybody's Talking About Jamie",
+              "person": "Jonathan Butterell, Peter Carlton, Mark Herbert, Dan Gillespie Sells, Tom MacRae",
+              "winner": false
+            },
+            {
+              "title": "House of Gucci",
+              "person": "Ridley Scott, Mark Huffam, Giannina Scott, Kevin J Walsh, Roberto Bentivegna, Becky Johnston",
+              "winner": false
+            },
+            {
+              "title": "Last Night in Soho",
+              "person": "Edgar Wright, Tim Bevan & Eric Fellner, Nira Park, Krysty Wilson-Cairns",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Leading Actor",
+          "entries": [
+            {
+              "title": "King Richard",
+              "person": "Will Smith",
+              "winner": true
+            },
+            {
+              "title": "Ali & Ava",
+              "person": "Adeel Akhtar",
+              "winner": false
+            },
+            {
+              "title": "The Power of the Dog",
+              "person": "Benedict Cumberbatch",
+              "winner": false
+            },
+            {
+              "title": "Don't Look Up",
+              "person": "Leonardo DiCaprio",
+              "winner": false
+            },
+            {
+              "title": "Swan Song",
+              "person": "Mahershala Ali",
+              "winner": false
+            },
+            {
+              "title": "Boiling Point",
+              "person": "Stephen Graham",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Leading Actress",
+          "entries": [
+            {
+              "title": "After Love",
+              "person": "Joanna Scanlan",
+              "winner": true
+            },
+            {
+              "title": "Licorice Pizza",
+              "person": "Alana Haim",
+              "winner": false
+            },
+            {
+              "title": "CODA",
+              "person": "Emilia Jones",
+              "winner": false
+            },
+            {
+              "title": "House of Gucci",
+              "person": "Lady Gaga",
+              "winner": false
+            },
+            {
+              "title": "The Worst Person in the World",
+              "person": "Renate Reinsve",
+              "winner": false
+            },
+            {
+              "title": "Passing",
+              "person": "Tessa Thompson",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Supporting Actor",
+          "entries": [
+            {
+              "title": "CODA",
+              "person": "Troy Kotsur",
+              "winner": true
+            },
+            {
+              "title": "West Side Story",
+              "person": "Mike Faist",
+              "winner": false
+            },
+            {
+              "title": "C'mon C'mon",
+              "person": "Woody Norman",
+              "winner": false
+            },
+            {
+              "title": "Belfast",
+              "person": "Ciar\u00e1n Hinds",
+              "winner": false
+            },
+            {
+              "title": "The Power of the Dog",
+              "person": "Jesse Plemons",
+              "winner": false
+            },
+            {
+              "title": "The Power of the Dog",
+              "person": "Kodi Smit-McPhee",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Supporting Actress",
+          "entries": [
+            {
+              "title": "West Side Story",
+              "person": "Ariana DeBose",
+              "winner": true
+            },
+            {
+              "title": "Mass",
+              "person": "Ann Dowd",
+              "winner": false
+            },
+            {
+              "title": "King Richard",
+              "person": "Aunjanue Ellis",
+              "winner": false
+            },
+            {
+              "title": "Belfast",
+              "person": "Caitr\u00edona Balfe",
+              "winner": false
+            },
+            {
+              "title": "The Lost Daughter",
+              "person": "Jessie Buckley",
+              "winner": false
+            },
+            {
+              "title": "Passing",
+              "person": "Ruth Negga",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Original Screenplay",
+          "entries": [
+            {
+              "title": "Licorice Pizza",
+              "person": "Paul Thomas Anderson",
+              "winner": true
+            },
+            {
+              "title": "King Richard",
+              "person": "Zach Baylin",
+              "winner": false
+            },
+            {
+              "title": "Being The Ricardos",
+              "person": "Aaron Sorkin",
+              "winner": false
+            },
+            {
+              "title": "Belfast",
+              "person": "Kenneth Branagh",
+              "winner": false
+            },
+            {
+              "title": "Don't Look Up",
+              "person": "Adam McKay",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Adapted Screenplay",
+          "entries": [
+            {
+              "title": "CODA",
+              "person": "Si\u00e2n Heder",
+              "winner": true
+            },
+            {
+              "title": "The Lost Daughter",
+              "person": "Maggie Gyllenhaal",
+              "winner": false
+            },
+            {
+              "title": "The Power of the Dog",
+              "person": "Jane Campion",
+              "winner": false
+            },
+            {
+              "title": "Drive My Car",
+              "person": "Ry\u00fbsuke Hamaguchi, Takamasa Oe",
+              "winner": false
+            },
+            {
+              "title": "Dune",
+              "person": "Eric Roth, Jon Spaihts, Denis Villeneuve",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Film Not in the English Language",
+          "entries": [
+            {
+              "title": "Drive My Car",
+              "person": "Ry\u00fbsuke Hamaguchi, Teruhisa Yamamoto",
+              "winner": true
+            },
+            {
+              "title": "The Hand of God",
+              "person": "Paolo Sorrentino, Lorenzo Mieli",
+              "winner": false
+            },
+            {
+              "title": "Parallel Mothers",
+              "person": "Pedro Almod\u00f3var, Agust\u00edn Almod\u00f3var",
+              "winner": false
+            },
+            {
+              "title": "Petite Maman",
+              "person": "C\u00e9line Sciamma, B\u00e9n\u00e9dicte Couvreur",
+              "winner": false
+            },
+            {
+              "title": "The Worst Person in the World",
+              "person": "Joachim Trier, Thomas Robsahm",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Documentary",
+          "entries": [
+            {
+              "title": "Summer of Soul (Or, When The Revolution Could Not Be Televised)",
+              "person": "Ahmir \u0093Questlove\u0094 Thompson, David Dinerstein, Robert Fyvolent, Joseph Patel",
+              "winner": true
+            },
+            {
+              "title": "Becoming Cousteau",
+              "person": "Liz Garbus, Mridu Chandra, Dan Cogan, Evan Hayes",
+              "winner": false
+            },
+            {
+              "title": "Cow",
+              "person": "Andrea Arnold, Kat Mansoor",
+              "winner": false
+            },
+            {
+              "title": "Flee",
+              "person": "Jonas Poher Rasmussen, Signe Byrge S\u00f8rensen, Charlotte De La Gournerie, Monica Hellstr\u00f6m",
+              "winner": false
+            },
+            {
+              "title": "The Rescue",
+              "person": "Elizabeth Chai Vasarhelyi, Jimmy Chin, John Battsek, P. J. van Sandwijk",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Animated Film",
+          "entries": [
+            {
+              "title": "Encanto",
+              "person": "Jared Bush, Byron Howard, Yvett Merino, Clark Spencer",
+              "winner": true
+            },
+            {
+              "title": "Flee",
+              "person": "Jonas Poher Rasmussen, Signe Byrge S\u00f8rensen, Charlotte De La Gournerie, Monica Hellstr\u00f6m",
+              "winner": false
+            },
+            {
+              "title": "Luca",
+              "person": "Enrico Casarosa, Andrea Warren",
+              "winner": false
+            },
+            {
+              "title": "The Mitchells vs the Machines",
+              "person": "Mike Rianda, Phil Lord, Christopher Miller",
+              "winner": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "BAFTA",
+      "year": 2023,
+      "section": "Major Film Categories",
+      "source": "https://www.bafta.org/awards/film/?award-year=2023",
+      "categories": [
+        {
+          "name": "Best Film",
+          "entries": [
+            {
+              "title": "All Quiet on the Western Front",
+              "person": "Malte Grunert",
+              "winner": true
+            },
+            {
+              "title": "Elvis",
+              "person": "Gail Berman, Baz Luhrmann, Catherine Martin, Patrick McCormick, Schuyler Weiss",
+              "winner": false
+            },
+            {
+              "title": "Everything Everywhere All At Once",
+              "person": "Daniel Kwan, Daniel Scheinert, Jonathan Wang",
+              "winner": false
+            },
+            {
+              "title": "T\u00e1r",
+              "person": "Todd Field, Scott Lambert, Alexandra Milchan",
+              "winner": false
+            },
+            {
+              "title": "The Banshees of Inisherin",
+              "person": "Graham Broadbent, Pete Czernin, Martin McDonagh",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Director",
+          "entries": [
+            {
+              "title": "All Quiet on the Western Front",
+              "person": "Edward Berger",
+              "winner": true
+            },
+            {
+              "title": "Decision To Leave",
+              "person": "Park Chan-wook",
+              "winner": false
+            },
+            {
+              "title": "T\u00e1r",
+              "person": "Todd Field",
+              "winner": false
+            },
+            {
+              "title": "Everything Everywhere All At Once",
+              "person": "Daniel Kwan Daniel Scheinert",
+              "winner": false
+            },
+            {
+              "title": "The Banshees of Inisherin",
+              "person": "Martin McDonagh",
+              "winner": false
+            },
+            {
+              "title": "The Woman King",
+              "person": "Gina Prince-Bythewood",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Outstanding British Film",
+          "entries": [
+            {
+              "title": "The Banshees of Inisherin",
+              "person": "Martin McDonagh, Graham Broadbent, Pete Czernin",
+              "winner": true
+            },
+            {
+              "title": "Roald Dahl's Matilda The Musical",
+              "person": "Matthew Warchus, Tim Bevan, Eric Fellner, Jon Finn, Luke Kelly, Dennis Kelly",
+              "winner": false
+            },
+            {
+              "title": "See How They Run",
+              "person": "Tom George, Gina Carter, Damian Jones, Mark Chappell",
+              "winner": false
+            },
+            {
+              "title": "The Swimmers",
+              "person": "Sally El Hosaini, Tim Bevan, Tim Cole, Eric Fellner, Ali Jaafar, Jack Thorne",
+              "winner": false
+            },
+            {
+              "title": "The Wonder",
+              "person": "Sebasti\u00e1n Lelio Ed Guiney, Juliette Howell, Andrew Lowe, Tessa Ross, Alice Birch, Emma Donoghue",
+              "winner": false
+            },
+            {
+              "title": "Aftersun",
+              "person": "Charlotte Wells, Mark Ceryak, Amy Jackson, Barry Jenkins, Adele Romanski",
+              "winner": false
+            },
+            {
+              "title": "Brian And Charles",
+              "person": "Jim Archer, Rupert Majendie, David Earl, Chris Hayward",
+              "winner": false
+            },
+            {
+              "title": "Empire of Light",
+              "person": "Sam Mendes, Pippa Harris",
+              "winner": false
+            },
+            {
+              "title": "Good Luck to You Leo Grande",
+              "person": "Sophie Hyde, Debbie Gray, Adrian Politowski, Katy Brand",
+              "winner": false
+            },
+            {
+              "title": "Living",
+              "person": "Oliver Hermanus, Elizabeth Karlsen, Stephen Woolley, Kazuo Ishiguro",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Leading Actor",
+          "entries": [
+            {
+              "title": "Elvis",
+              "person": "Austin Butler",
+              "winner": true
+            },
+            {
+              "title": "Good Luck to You Leo Grande",
+              "person": "Daryl McCormack",
+              "winner": false
+            },
+            {
+              "title": "Living",
+              "person": "Bill Nighy",
+              "winner": false
+            },
+            {
+              "title": "The Banshees of Inisherin",
+              "person": "Colin Farrell",
+              "winner": false
+            },
+            {
+              "title": "The Whale",
+              "person": "Brendan Fraser",
+              "winner": false
+            },
+            {
+              "title": "Aftersun",
+              "person": "Paul Mescal",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Leading Actress",
+          "entries": [
+            {
+              "title": "T\u00e1r",
+              "person": "Cate Blanchett",
+              "winner": true
+            },
+            {
+              "title": "Blonde",
+              "person": "Ana de Armas",
+              "winner": false
+            },
+            {
+              "title": "Everything Everywhere All At Once",
+              "person": "Michelle Yeoh",
+              "winner": false
+            },
+            {
+              "title": "Good Luck to You Leo Grande",
+              "person": "Emma Thompson",
+              "winner": false
+            },
+            {
+              "title": "The Woman King",
+              "person": "Viola Davis",
+              "winner": false
+            },
+            {
+              "title": "Till",
+              "person": "Danielle Deadwyler",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Supporting Actor",
+          "entries": [
+            {
+              "title": "The Banshees of Inisherin",
+              "person": "Barry Keoghan",
+              "winner": true
+            },
+            {
+              "title": "The Banshees of Inisherin",
+              "person": "Brendan Gleeson",
+              "winner": false
+            },
+            {
+              "title": "All Quiet on the Western Front",
+              "person": "Albrecht Schuch",
+              "winner": false
+            },
+            {
+              "title": "Empire of Light",
+              "person": "Micheal Ward",
+              "winner": false
+            },
+            {
+              "title": "Everything Everywhere All At Once",
+              "person": "Ke Huy Quan",
+              "winner": false
+            },
+            {
+              "title": "The Good Nurse",
+              "person": "Eddie Redmayne",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Supporting Actress",
+          "entries": [
+            {
+              "title": "The Banshees of Inisherin",
+              "person": "Kerry Condon",
+              "winner": true
+            },
+            {
+              "title": "Black Panther: Wakanda Forever",
+              "person": "Angela Bassett",
+              "winner": false
+            },
+            {
+              "title": "Everything Everywhere All At Once",
+              "person": "Jamie Lee Curtis",
+              "winner": false
+            },
+            {
+              "title": "She Said",
+              "person": "Carey Mulligan",
+              "winner": false
+            },
+            {
+              "title": "The Whale",
+              "person": "Hong Chau",
+              "winner": false
+            },
+            {
+              "title": "Triangle of Sadness",
+              "person": "Dolly De Leon",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Original Screenplay",
+          "entries": [
+            {
+              "title": "The Banshees of Inisherin",
+              "person": "Martin McDonagh",
+              "winner": true
+            },
+            {
+              "title": "Everything Everywhere All At Once",
+              "person": "Daniel Kwan, Daniel Scheinert",
+              "winner": false
+            },
+            {
+              "title": "T\u00e1r",
+              "person": "Todd Field",
+              "winner": false
+            },
+            {
+              "title": "The Fabelmans",
+              "person": "Tony Kushner, Steven Spielberg",
+              "winner": false
+            },
+            {
+              "title": "Triangle of Sadness",
+              "person": "Ruben \u00d6stlund",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Adapted Screenplay",
+          "entries": [
+            {
+              "title": "All Quiet on the Western Front",
+              "person": "Edward Berger, Ian Stokell, Lesley Paterson",
+              "winner": true
+            },
+            {
+              "title": "Living",
+              "person": "Kazuo Ishiguro",
+              "winner": false
+            },
+            {
+              "title": "She Said",
+              "person": "Rebecca Lenkiewicz",
+              "winner": false
+            },
+            {
+              "title": "The Quiet Girl",
+              "person": "Colm Bair\u00e9ad",
+              "winner": false
+            },
+            {
+              "title": "The Whale",
+              "person": "Samuel D Hunter",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Film Not in the English Language",
+          "entries": [
+            {
+              "title": "All Quiet on the Western Front",
+              "person": "Edward Berger, Malte Grunert",
+              "winner": true
+            },
+            {
+              "title": "Argentina 1985",
+              "person": "Santiago Mitre, Victoria Alonso, Agustina Llambi Campbell, Axel Kuschevatzky, Federico Posternak",
+              "winner": false
+            },
+            {
+              "title": "Corsage",
+              "person": "Marie Kreutzer, Alexander Glehr",
+              "winner": false
+            },
+            {
+              "title": "Decision To Leave",
+              "person": "Park Chan-wook, Ko Dae-seok",
+              "winner": false
+            },
+            {
+              "title": "The Quiet Girl",
+              "person": "Colm Bair\u00e9ad, Cleona N\u00ed Chrualaoi",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Documentary",
+          "entries": [
+            {
+              "title": "Navalny",
+              "person": "Daniel Roher, Diane Becker, Shane Boris, Melanie Miller, Odessa Rae",
+              "winner": true
+            },
+            {
+              "title": "Fire of Love",
+              "person": "Sara Dosa, Shane Boris, Ina Fichman",
+              "winner": false
+            },
+            {
+              "title": "Moonage Daydream",
+              "person": "Brett Morgen",
+              "winner": false
+            },
+            {
+              "title": "All That Breathes",
+              "person": "Aman Mann, Shaunak Sen, Teddy Leifer",
+              "winner": false
+            },
+            {
+              "title": "All the Beauty and the Bloodshed",
+              "person": "Laura Poitras, Howard Gertler, Nan Goldin, Yoni Golijov John Lyons",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Animated Film",
+          "entries": [
+            {
+              "title": "Guillermo del Toro's Pinocchio",
+              "person": "Guillermo del Toro, Mark Gustafson, Gary Ungar, Alex Bulkley",
+              "winner": true
+            },
+            {
+              "title": "Marcel the Shell with Shoes On",
+              "person": "Dean Fleischer Camp, Andrew Goldman, Elisabeth Holm, Caroline Kaplan, Paul Mezey",
+              "winner": false
+            },
+            {
+              "title": "Puss in Boots: The Last Wish",
+              "person": "Joel Crawford, Mark Swift",
+              "winner": false
+            },
+            {
+              "title": "Turning Red",
+              "person": "Domee Shi, Lindsey Collins",
+              "winner": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "BAFTA",
+      "year": 2024,
+      "section": "Major Film Categories",
+      "source": "https://www.bafta.org/awards/film/?award-year=2024",
+      "categories": [
+        {
+          "name": "Best Film",
+          "entries": [
+            {
+              "title": "Oppenheimer",
+              "person": "Christopher Nolan, Charles Roven, Emma Thomas",
+              "winner": true
+            },
+            {
+              "title": "Anatomy of a Fall",
+              "person": "Marie-Ange Luciani, David Thion",
+              "winner": false
+            },
+            {
+              "title": "Killers of The Flower Moon",
+              "person": "Dan Friedkin, Daniel Lupi, Martin Scorsese, Bradley Thomas",
+              "winner": false
+            },
+            {
+              "title": "Poor Things",
+              "person": "Ed Guiney, Yorgos Lanthimos, Andrew Lowe, Emma Stone",
+              "winner": false
+            },
+            {
+              "title": "The Holdovers",
+              "person": "Mark Johnson",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Director",
+          "entries": [
+            {
+              "title": "Oppenheimer",
+              "person": "Christopher Nolan",
+              "winner": true
+            },
+            {
+              "title": "Maestro",
+              "person": "Bradley Cooper",
+              "winner": false
+            },
+            {
+              "title": "The Zone of Interest",
+              "person": "Jonathan Glazer",
+              "winner": false
+            },
+            {
+              "title": "All of Us Strangers",
+              "person": "Andrew Haigh",
+              "winner": false
+            },
+            {
+              "title": "The Holdovers",
+              "person": "Alexander Payne",
+              "winner": false
+            },
+            {
+              "title": "Anatomy of a Fall",
+              "person": "Justine Triet",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Outstanding British Film",
+          "entries": [
+            {
+              "title": "The Zone of Interest",
+              "person": "Jonathan Glazer, James Wilson",
+              "winner": true
+            },
+            {
+              "title": "Poor Things",
+              "person": "Yorgos Lanthimos, Ed Guiney, Andrew Lowe, Emma Stone, Tony McNamara",
+              "winner": false
+            },
+            {
+              "title": "Rye Lane",
+              "person": "Raine Allen-Miller, Yvonne Isimeme Ibazebo, Damian Jones, Nathan Bryon, Tom Melia",
+              "winner": false
+            },
+            {
+              "title": "Saltburn",
+              "person": "Emerald Fennell, Josey McNamara, Margot Robbie",
+              "winner": false
+            },
+            {
+              "title": "Scrapper",
+              "person": "Charlotte Regan, Theo Barrowclough",
+              "winner": false
+            },
+            {
+              "title": "Wonka",
+              "person": "Paul King, Alexandra Derbyshire, David Heyman, Simon Farnaby",
+              "winner": false
+            },
+            {
+              "title": "All of Us Strangers",
+              "person": "Andrew Haigh, Graham Broadbent, Pete Czernin, Sarah Harvey",
+              "winner": false
+            },
+            {
+              "title": "How to Have Sex",
+              "person": "Molly Manning Walker, Konstantinos Kontovrakis, Emily Leo, Ivana MacKinnon",
+              "winner": false
+            },
+            {
+              "title": "Napoleon",
+              "person": "Ridley Scott, Mark Huffam, Kevin J. Walsh, David Scarpa",
+              "winner": false
+            },
+            {
+              "title": "The Old Oak",
+              "person": "Ken Loach, Rebecca O'Brien, Paul Laverty",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Leading Actor",
+          "entries": [
+            {
+              "title": "Oppenheimer",
+              "person": "Cillian Murphy",
+              "winner": true
+            },
+            {
+              "title": "Maestro",
+              "person": "Bradley Cooper",
+              "winner": false
+            },
+            {
+              "title": "Past Lives",
+              "person": "Teo Yoo",
+              "winner": false
+            },
+            {
+              "title": "Rustin",
+              "person": "Colman Domingo",
+              "winner": false
+            },
+            {
+              "title": "Saltburn",
+              "person": "Barry Keoghan",
+              "winner": false
+            },
+            {
+              "title": "The Holdovers",
+              "person": "Paul Giamatti",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Leading Actress",
+          "entries": [
+            {
+              "title": "Poor Things",
+              "person": "Emma Stone",
+              "winner": true
+            },
+            {
+              "title": "Rye Lane",
+              "person": "Vivian Oparah",
+              "winner": false
+            },
+            {
+              "title": "Anatomy of a Fall",
+              "person": "Sandra H\u00fcller",
+              "winner": false
+            },
+            {
+              "title": "Barbie",
+              "person": "Margot Robbie",
+              "winner": false
+            },
+            {
+              "title": "The Color Purple",
+              "person": "Fantasia Barrino",
+              "winner": false
+            },
+            {
+              "title": "Maestro",
+              "person": "Carey Mulligan",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Supporting Actor",
+          "entries": [
+            {
+              "title": "Oppenheimer",
+              "person": "Robert Downey Jr.",
+              "winner": true
+            },
+            {
+              "title": "Saltburn",
+              "person": "Jacob Elordi",
+              "winner": false
+            },
+            {
+              "title": "All of Us Strangers",
+              "person": "Paul Mescal",
+              "winner": false
+            },
+            {
+              "title": "Barbie",
+              "person": "Ryan Gosling",
+              "winner": false
+            },
+            {
+              "title": "The Holdovers",
+              "person": "Dominic Sessa",
+              "winner": false
+            },
+            {
+              "title": "Killers of The Flower Moon",
+              "person": "Robert De Niro",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Supporting Actress",
+          "entries": [
+            {
+              "title": "The Holdovers",
+              "person": "Da'Vine Joy Randolph",
+              "winner": true
+            },
+            {
+              "title": "All of Us Strangers",
+              "person": "Claire Foy",
+              "winner": false
+            },
+            {
+              "title": "Oppenheimer",
+              "person": "Emily Blunt",
+              "winner": false
+            },
+            {
+              "title": "Saltburn",
+              "person": "Rosamund Pike",
+              "winner": false
+            },
+            {
+              "title": "The Color Purple",
+              "person": "Danielle Brooks",
+              "winner": false
+            },
+            {
+              "title": "The Zone of Interest",
+              "person": "Sandra H\u00fcller",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Original Screenplay",
+          "entries": [
+            {
+              "title": "Anatomy of a Fall",
+              "person": "Justine Triet, Arthur Harari",
+              "winner": true
+            },
+            {
+              "title": "Barbie",
+              "person": "Greta Gerwig, Noah Baumbach",
+              "winner": false
+            },
+            {
+              "title": "The Holdovers",
+              "person": "David Hemingson",
+              "winner": false
+            },
+            {
+              "title": "Maestro",
+              "person": "Bradley Cooper, Josh Singer",
+              "winner": false
+            },
+            {
+              "title": "Past Lives",
+              "person": "Celine Song",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Adapted Screenplay",
+          "entries": [
+            {
+              "title": "American Fiction",
+              "person": "Cord Jefferson",
+              "winner": true
+            },
+            {
+              "title": "All of Us Strangers",
+              "person": "Andrew Haigh",
+              "winner": false
+            },
+            {
+              "title": "Oppenheimer",
+              "person": "Christopher Nolan",
+              "winner": false
+            },
+            {
+              "title": "Poor Things",
+              "person": "Tony McNamara",
+              "winner": false
+            },
+            {
+              "title": "The Zone of Interest",
+              "person": "Jonathan Glazer",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Film Not in the English Language",
+          "entries": [
+            {
+              "title": "The Zone of Interest",
+              "person": "Jonathan Glazer, James Wilson",
+              "winner": true
+            },
+            {
+              "title": "20 Days In Mariupol",
+              "person": "Mstyslav Chernov, Raney Aronson Rath, Michelle Mizner",
+              "winner": false
+            },
+            {
+              "title": "Anatomy of a Fall",
+              "person": "Justine Triet, Marie-Ange Luciani, David Thion",
+              "winner": false
+            },
+            {
+              "title": "Past Lives",
+              "person": "Celine Song, David Hinojosa, Pamela Koffler, Christine Vachon",
+              "winner": false
+            },
+            {
+              "title": "Society of the Snow",
+              "person": "J.A. Bayona, Bel\u00e9n Atienza, Sandra Hermida",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Documentary",
+          "entries": [
+            {
+              "title": "20 Days In Mariupol",
+              "person": "Mstyslav Chernov, Raney Aronson Rath, Michelle Mizner",
+              "winner": true
+            },
+            {
+              "title": "American Symphony",
+              "person": "Matthew Heineman, Lauren Domino, Joedan Okun",
+              "winner": false
+            },
+            {
+              "title": "Beyond Utopia",
+              "person": "Madeleine Gavin, Rachel Cohen, Jana Edelbaum, Sue Mi Terry",
+              "winner": false
+            },
+            {
+              "title": "Still: A Michael J. Fox Movie",
+              "person": "Davis Guggenheim, Jonathan King, Annetta Marion",
+              "winner": false
+            },
+            {
+              "title": "Wham!",
+              "person": "Chris Smith, John Battsek, Simon Halfon",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Animated Film",
+          "entries": [
+            {
+              "title": "The Boy And The Heron",
+              "person": "Hayao Miyazaki, Toshio Suzuki",
+              "winner": true
+            },
+            {
+              "title": "Chicken Run: Dawn of the Nugget",
+              "person": "Sam Fell, Leyla Hobart, Steve Pegram",
+              "winner": false
+            },
+            {
+              "title": "Elemental",
+              "person": "Peter Sohn, Denise Ream",
+              "winner": false
+            },
+            {
+              "title": "Spider-Man: Across the Spider-Verse",
+              "person": "Joaquim Dos Santos, Kemp Powers, Justin K. Thompson, Avi Arad, Phil Lord, Christopher Miller, Amy Pascal, Christina Steinberg",
+              "winner": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "BAFTA",
+      "year": 2025,
+      "section": "Major Film Categories",
+      "source": "https://www.bafta.org/awards/film/?award-year=2025",
+      "categories": [
+        {
+          "name": "Best Film",
+          "entries": [
+            {
+              "title": "Conclave",
+              "person": "Tessa Ross, Juliette Howell, Michael A. Jackman",
+              "winner": true
+            },
+            {
+              "title": "A Complete Unknown",
+              "person": "Alex Heineman, Fred Berger, James Mangold",
+              "winner": false
+            },
+            {
+              "title": "Anora",
+              "person": "Alex Coco, Samantha Quan, Sean Baker",
+              "winner": false
+            },
+            {
+              "title": "Emilia P\u00e9rez",
+              "person": "Pascal Caucheteux, Jacques Audiard",
+              "winner": false
+            },
+            {
+              "title": "The Brutalist",
+              "person": "Nick Gordon, Brian Young, Andrew Morrison, D.J. Gugenheim, Brady Corbet",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Director",
+          "entries": [
+            {
+              "title": "The Brutalist",
+              "person": "Brady Corbet",
+              "winner": true
+            },
+            {
+              "title": "Emilia P\u00e9rez",
+              "person": "Jacques Audiard",
+              "winner": false
+            },
+            {
+              "title": "Anora",
+              "person": "Sean Baker",
+              "winner": false
+            },
+            {
+              "title": "Conclave",
+              "person": "Edward Berger",
+              "winner": false
+            },
+            {
+              "title": "The Substance",
+              "person": "Coralie Fargeat",
+              "winner": false
+            },
+            {
+              "title": "Dune: Part Two",
+              "person": "Denis Villeneuve",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Outstanding British Film",
+          "entries": [
+            {
+              "title": "Conclave",
+              "person": "Edward Berger, Tessa Ross, Juliette Howell, Michael A. Jackman, Peter Straughan",
+              "winner": true
+            },
+            {
+              "title": "Bird",
+              "person": "Andrea Arnold, Tessa Ross, Juliette Howell, Lee Groombridge",
+              "winner": false
+            },
+            {
+              "title": "Blitz",
+              "person": "Steve McQueen, Tim Bevan, Eric Fellner, Anita Overland",
+              "winner": false
+            },
+            {
+              "title": "Gladiator II",
+              "person": "Ridley Scott, Douglas Wick, Lucy Fisher, Michael Pruss, David Scarpa, Peter Craig",
+              "winner": false
+            },
+            {
+              "title": "Hard Truths",
+              "person": "Mike Leigh, Georgina Lowe",
+              "winner": false
+            },
+            {
+              "title": "Kneecap",
+              "person": "Rich Peppiatt, Trevor Birney, Jack Tarling, Naoise \u00d3 Caireall\u00e1in, Liam \u00d3g \u00d3 Hannaidh, JJ \u00d3 Dochartaigh",
+              "winner": false
+            },
+            {
+              "title": "Lee",
+              "person": "Ellen Kuras, Kate Solomon, Kate Winslet, Liz Hannah, Marion Hume, John Collee, Lem Dobbs",
+              "winner": false
+            },
+            {
+              "title": "Love Lies Bleeding",
+              "person": "Rose Glass, Andrea Cornwell, Oliver Kassman, Weronika Tofilska",
+              "winner": false
+            },
+            {
+              "title": "The Outrun",
+              "person": "Nora Fingscheidt, Sarah Brocklehurst, Dominic Norris, Jack Lowden, Saoirse Ronan, Amy Liptrot",
+              "winner": false
+            },
+            {
+              "title": "Wallace & Gromit: Vengeance Most Fowl",
+              "person": "Nick Park, Merlin Crossingham, Richard Beek, Mark Burton",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Leading Actor",
+          "entries": [
+            {
+              "title": "The Brutalist",
+              "person": "Adrien Brody",
+              "winner": true
+            },
+            {
+              "title": "A Complete Unknown",
+              "person": "Timoth\u00e9e Chalamet",
+              "winner": false
+            },
+            {
+              "title": "Conclave",
+              "person": "Ralph Fiennes",
+              "winner": false
+            },
+            {
+              "title": "Heretic",
+              "person": "Hugh Grant",
+              "winner": false
+            },
+            {
+              "title": "Sing Sing",
+              "person": "Colman Domingo",
+              "winner": false
+            },
+            {
+              "title": "The Apprentice",
+              "person": "Sebastian Stan",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Leading Actress",
+          "entries": [
+            {
+              "title": "Anora",
+              "person": "Mikey Madison",
+              "winner": true
+            },
+            {
+              "title": "Emilia P\u00e9rez",
+              "person": "Karla Sof\u00eda Gasc\u00f3n",
+              "winner": false
+            },
+            {
+              "title": "Hard Truths",
+              "person": "Marianne Jean-Baptiste",
+              "winner": false
+            },
+            {
+              "title": "The Outrun",
+              "person": "Saoirse Ronan",
+              "winner": false
+            },
+            {
+              "title": "The Substance",
+              "person": "Demi Moore",
+              "winner": false
+            },
+            {
+              "title": "Wicked",
+              "person": "Cynthia Erivo",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Supporting Actor",
+          "entries": [
+            {
+              "title": "A Real Pain",
+              "person": "Kieran Culkin",
+              "winner": true
+            },
+            {
+              "title": "A Complete Unknown",
+              "person": "Edward Norton",
+              "winner": false
+            },
+            {
+              "title": "Anora",
+              "person": "Yura Borisov",
+              "winner": false
+            },
+            {
+              "title": "Sing Sing",
+              "person": "Clarence Maclin",
+              "winner": false
+            },
+            {
+              "title": "The Apprentice",
+              "person": "Jeremy Strong",
+              "winner": false
+            },
+            {
+              "title": "The Brutalist",
+              "person": "Guy Pearce",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Supporting Actress",
+          "entries": [
+            {
+              "title": "Emilia P\u00e9rez",
+              "person": "Zoe Salda\u00f1a",
+              "winner": true
+            },
+            {
+              "title": "Conclave",
+              "person": "Isabella Rossellini",
+              "winner": false
+            },
+            {
+              "title": "Emilia P\u00e9rez",
+              "person": "Selena Gomez",
+              "winner": false
+            },
+            {
+              "title": "The Brutalist",
+              "person": "Felicity Jones",
+              "winner": false
+            },
+            {
+              "title": "The Last Showgirl",
+              "person": "Jamie Lee Curtis",
+              "winner": false
+            },
+            {
+              "title": "Wicked",
+              "person": "Ariana Grande",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Original Screenplay",
+          "entries": [
+            {
+              "title": "A Real Pain",
+              "person": "Jesse Eisenberg",
+              "winner": true
+            },
+            {
+              "title": "Anora",
+              "person": "Sean Baker",
+              "winner": false
+            },
+            {
+              "title": "Kneecap",
+              "person": "Rich Peppiatt, Naoise \u00d3 Caireall\u00e1in, Liam \u00d3g \u00d3 Hannaidh, JJ \u00d3 Dochartaigh",
+              "winner": false
+            },
+            {
+              "title": "The Brutalist",
+              "person": "Brady Corbet, Mona Fastvold",
+              "winner": false
+            },
+            {
+              "title": "The Substance",
+              "person": "Coralie Fargeat",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Adapted Screenplay",
+          "entries": [
+            {
+              "title": "Conclave",
+              "person": "Peter Straughan",
+              "winner": true
+            },
+            {
+              "title": "A Complete Unknown",
+              "person": "James Mangold, Jay Cocks",
+              "winner": false
+            },
+            {
+              "title": "Emilia P\u00e9rez",
+              "person": "Jacques Audiard",
+              "winner": false
+            },
+            {
+              "title": "Nickel Boys",
+              "person": "RaMell Ross, Joslyn Barnes",
+              "winner": false
+            },
+            {
+              "title": "Sing Sing",
+              "person": "Clint Bentley, Greg Kwedar, Clarence Maclin, John 'Divine G' Whitfield",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Film Not in the English Language",
+          "entries": [
+            {
+              "title": "Emilia P\u00e9rez",
+              "person": "Jacques Audiard, Pascal Caucheteux",
+              "winner": true
+            },
+            {
+              "title": "All We Imagine as Light",
+              "person": "Payal Kapadia, Thomas Hakim",
+              "winner": false
+            },
+            {
+              "title": "I'm Still Here",
+              "person": "Walter Salles, Maria Carlota Bruno, Rodrigo Teixeira",
+              "winner": false
+            },
+            {
+              "title": "Kneecap",
+              "person": "Rich Peppiatt, Trevor Birney, Jack Tarling",
+              "winner": false
+            },
+            {
+              "title": "The Seed of the Sacred Fig",
+              "person": "Mohammad Rasoulof, Amin Sadraei",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Documentary",
+          "entries": [
+            {
+              "title": "Super/Man: The Christopher Reeve Story",
+              "person": "Ian Bonh\u00f4te, Peter Ettedgui, Lizzie Gillett, Robert Ford",
+              "winner": true
+            },
+            {
+              "title": "Black Box Diaries",
+              "person": "Shiori Ito, Eric Nyari, Hanna Aqvilin",
+              "winner": false
+            },
+            {
+              "title": "Daughters",
+              "person": "Natalie Rae, Angela Patton, Lisa Mazzotta, Justin Benoliel, James Cunningham, Sam Bisbee, Kathryn Everett, Laura Choi Raycroft",
+              "winner": false
+            },
+            {
+              "title": "No Other Land",
+              "person": "Yuval Abraham, Basel Adra, Hamdan Ballal, Rachel Szor",
+              "winner": false
+            },
+            {
+              "title": "Will & Harper",
+              "person": "Josh Greenbaum, Rafael Marmor, Christopher Leggett, Will Ferrell, Jessica Elbaum",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Animated Film",
+          "entries": [
+            {
+              "title": "Wallace & Gromit: Vengeance Most Fowl",
+              "person": "Nick Park, Merlin Crossingham, Richard Beek",
+              "winner": true
+            },
+            {
+              "title": "Flow",
+              "person": "Gints Zilbalodis, Mat\u012bss Ka\u017ea",
+              "winner": false
+            },
+            {
+              "title": "Inside Out 2",
+              "person": "Kelsey Mann, Mark Nielsen",
+              "winner": false
+            },
+            {
+              "title": "The Wild Robot",
+              "person": "Chris Sanders, Jeff Hermann",
+              "winner": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
