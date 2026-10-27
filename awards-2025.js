@@ -1,109 +1,5 @@
 window.CULTURE_AWARDS = [
   {
-    "event": "Berlinale",
-    "year": 2025,
-    "dates": "13–23 February 2025",
-    "awardsDate": "22 February 2025",
-    "resultsUrl": "https://www.berlinale.de/en/archive/awards-juries/awards.html/o%3Ddesc/p%3D1/rp%3D40",
-    "section": "Main Competition",
-    "source": "https://www.berlinale.de/en/2025/topics/competition-2025-2.html",
-    "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/o%3Ddesc/p%3D1/rp%3D40",
-    "films": [
-      {
-        "id": 31,
-        "awards": [
-          "Golden Bear"
-        ]
-      },
-      {
-        "id": 32,
-        "awards": [
-          "Grand Jury Prize"
-        ]
-      },
-      {
-        "id": 33,
-        "awards": [
-          "Silver Bear Jury Prize"
-        ]
-      },
-      {
-        "id": 34,
-        "awards": [
-          "Best Director · Huo Meng"
-        ]
-      },
-      {
-        "id": 35,
-        "awards": [
-          "Best Leading Performance · Rose Byrne"
-        ]
-      },
-      {
-        "id": 36,
-        "awards": [
-          "Best Supporting Performance · Andrew Scott"
-        ]
-      },
-      {
-        "id": 13,
-        "awards": [
-          "Best Screenplay"
-        ]
-      },
-      {
-        "id": 14,
-        "awards": [
-          "Outstanding Artistic Contribution"
-        ]
-      },
-      {
-        "id": 227,
-        "awards": []
-      },
-      {
-        "id": 228,
-        "awards": []
-      },
-      {
-        "id": 229,
-        "awards": []
-      },
-      {
-        "id": 230,
-        "awards": []
-      },
-      {
-        "id": 231,
-        "awards": []
-      },
-      {
-        "id": 232,
-        "awards": []
-      },
-      {
-        "id": 233,
-        "awards": []
-      },
-      {
-        "id": 234,
-        "awards": []
-      },
-      {
-        "id": 235,
-        "awards": []
-      },
-      {
-        "id": 236,
-        "awards": []
-      },
-      {
-        "id": 237,
-        "awards": []
-      }
-    ]
-  },
-  {
     "event": "Oscars",
     "year": 2021,
     "section": "Major Film Categories",
@@ -16051,6 +15947,2319 @@ window.CULTURE_AWARDS = [
       {
         "id": 2805,
         "awards": []
+      }
+    ]
+  },
+  {
+    "event": "Berlinale",
+    "year": 2021,
+    "section": "Official Selection",
+    "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2021/o=asc/p=1/rp=200",
+    "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2021/o=desc/p=1/rp=40",
+    "resultsUrl": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2021/o=desc/p=1/rp=40",
+    "categories": [
+      {
+        "id": "main-competition",
+        "name": "Main Competition",
+        "nomination_kind": "competition",
+        "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2021/o=asc/p=1/rp=200",
+        "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2021/o=desc/p=1/rp=40",
+        "entries": [
+          {
+            "film_id": 2806,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 322,
+            "winner": true,
+            "prizes": [
+              "Golden Bear for Best Film"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 2807,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2808,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2809,
+            "winner": true,
+            "prizes": [
+              "Silver Bear Grand Jury Prize"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 2810,
+            "winner": true,
+            "prizes": [
+              "Silver Bear Jury Prize"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 2811,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Best Leading Performance · Maren Eggert"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 2812,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Best Screenplay · Hong Sangsoo"
+            ],
+            "prize_rank": 6
+          },
+          {
+            "film_id": 2813,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2814,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2491,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2815,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2816,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Best Supporting Performance · Lilla Kizlinger"
+            ],
+            "prize_rank": 5
+          },
+          {
+            "film_id": 2817,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Best Director · Dénes Nagy"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 2818,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Outstanding Artistic Contribution · Yibrán Asuad"
+            ],
+            "prize_rank": 7
+          }
+        ],
+        "nominees": [
+          2806,
+          322,
+          2807,
+          2808,
+          2809,
+          2810,
+          2811,
+          2812,
+          2813,
+          2814,
+          2491,
+          2815,
+          2816,
+          2817,
+          2818
+        ],
+        "winners": [
+          322,
+          2809,
+          2810,
+          2817,
+          2811,
+          2816,
+          2812,
+          2818
+        ],
+        "winner": 322
+      },
+      {
+        "id": "encounters",
+        "name": "Encounters",
+        "nomination_kind": "competition",
+        "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2021/o=asc/p=1/rp=200",
+        "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2021/o=desc/p=1/rp=40",
+        "entries": [
+          {
+            "film_id": 2819,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2820,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2821,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2822,
+            "winner": true,
+            "prizes": [
+              "Best Director (ex aequo) · Ramon & Silvan Zürcher"
+            ],
+            "prize_rank": 5
+          },
+          {
+            "film_id": 2823,
+            "winner": true,
+            "prizes": [
+              "Best Director (ex aequo) · Denis Côté"
+            ],
+            "prize_rank": 6
+          },
+          {
+            "film_id": 2824,
+            "winner": true,
+            "prizes": [
+              "GWFF Best First Feature · Special Mention"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 2825,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2826,
+            "winner": true,
+            "prizes": [
+              "Best Film",
+              "Berlinale Documentary Award"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 2827,
+            "winner": true,
+            "prizes": [
+              "Special Mention"
+            ],
+            "prize_rank": 7
+          },
+          {
+            "film_id": 2828,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2829,
+            "winner": true,
+            "prizes": [
+              "GWFF Best First Feature"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 2830,
+            "winner": true,
+            "prizes": [
+              "Special Jury Award"
+            ],
+            "prize_rank": 4
+          }
+        ],
+        "nominees": [
+          2819,
+          2820,
+          2821,
+          2822,
+          2823,
+          2824,
+          2825,
+          2826,
+          2827,
+          2828,
+          2829,
+          2830
+        ],
+        "winners": [
+          2826,
+          2829,
+          2824,
+          2830,
+          2822,
+          2823,
+          2827
+        ],
+        "winner": 2826
+      }
+    ],
+    "films": [
+      {
+        "id": 2806,
+        "awards": []
+      },
+      {
+        "id": 322,
+        "awards": [
+          "Golden Bear for Best Film"
+        ]
+      },
+      {
+        "id": 2807,
+        "awards": []
+      },
+      {
+        "id": 2808,
+        "awards": []
+      },
+      {
+        "id": 2809,
+        "awards": [
+          "Silver Bear Grand Jury Prize"
+        ]
+      },
+      {
+        "id": 2810,
+        "awards": [
+          "Silver Bear Jury Prize"
+        ]
+      },
+      {
+        "id": 2811,
+        "awards": [
+          "Silver Bear for Best Leading Performance · Maren Eggert"
+        ]
+      },
+      {
+        "id": 2812,
+        "awards": [
+          "Silver Bear for Best Screenplay · Hong Sangsoo"
+        ]
+      },
+      {
+        "id": 2813,
+        "awards": []
+      },
+      {
+        "id": 2814,
+        "awards": []
+      },
+      {
+        "id": 2491,
+        "awards": []
+      },
+      {
+        "id": 2815,
+        "awards": []
+      },
+      {
+        "id": 2816,
+        "awards": [
+          "Silver Bear for Best Supporting Performance · Lilla Kizlinger"
+        ]
+      },
+      {
+        "id": 2817,
+        "awards": [
+          "Silver Bear for Best Director · Dénes Nagy"
+        ]
+      },
+      {
+        "id": 2818,
+        "awards": [
+          "Silver Bear for Outstanding Artistic Contribution · Yibrán Asuad"
+        ]
+      },
+      {
+        "id": 2819,
+        "awards": []
+      },
+      {
+        "id": 2820,
+        "awards": []
+      },
+      {
+        "id": 2821,
+        "awards": []
+      },
+      {
+        "id": 2822,
+        "awards": [
+          "Best Director (ex aequo) · Ramon & Silvan Zürcher"
+        ]
+      },
+      {
+        "id": 2823,
+        "awards": [
+          "Best Director (ex aequo) · Denis Côté"
+        ]
+      },
+      {
+        "id": 2824,
+        "awards": [
+          "GWFF Best First Feature · Special Mention"
+        ]
+      },
+      {
+        "id": 2825,
+        "awards": []
+      },
+      {
+        "id": 2826,
+        "awards": [
+          "Best Film",
+          "Berlinale Documentary Award"
+        ]
+      },
+      {
+        "id": 2827,
+        "awards": [
+          "Special Mention"
+        ]
+      },
+      {
+        "id": 2828,
+        "awards": []
+      },
+      {
+        "id": 2829,
+        "awards": [
+          "GWFF Best First Feature"
+        ]
+      },
+      {
+        "id": 2830,
+        "awards": [
+          "Special Jury Award"
+        ]
+      }
+    ]
+  },
+  {
+    "event": "Berlinale",
+    "year": 2022,
+    "section": "Official Selection",
+    "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2022/o=asc/p=1/rp=200",
+    "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2022/o=desc/p=1/rp=40",
+    "resultsUrl": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2022/o=desc/p=1/rp=40",
+    "categories": [
+      {
+        "id": "main-competition",
+        "name": "Main Competition",
+        "nomination_kind": "competition",
+        "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2022/o=asc/p=1/rp=200",
+        "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2022/o=desc/p=1/rp=40",
+        "entries": [
+          {
+            "film_id": 2831,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2832,
+            "winner": true,
+            "prizes": [
+              "Golden Bear for Best Film"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 2833,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Best Director · Claire Denis"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 2834,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2835,
+            "winner": true,
+            "prizes": [
+              "Special Mention"
+            ],
+            "prize_rank": 8
+          },
+          {
+            "film_id": 2836,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Outstanding Artistic Contribution · Rithy Panh, Sarit Mang"
+            ],
+            "prize_rank": 7
+          },
+          {
+            "film_id": 2837,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2838,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2839,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2840,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Best Supporting Performance · Laura Basuki"
+            ],
+            "prize_rank": 5
+          },
+          {
+            "film_id": 2841,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2842,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Best Leading Performance · Meltem Kaptan",
+              "Silver Bear for Best Screenplay · Laila Stieler"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 2843,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2844,
+            "winner": true,
+            "prizes": [
+              "Silver Bear Jury Prize"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 2845,
+            "winner": true,
+            "prizes": [
+              "Silver Bear Grand Jury Prize"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 2846,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2847,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2848,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          }
+        ],
+        "nominees": [
+          2831,
+          2832,
+          2833,
+          2834,
+          2835,
+          2836,
+          2837,
+          2838,
+          2839,
+          2840,
+          2841,
+          2842,
+          2843,
+          2844,
+          2845,
+          2846,
+          2847,
+          2848
+        ],
+        "winners": [
+          2832,
+          2845,
+          2844,
+          2833,
+          2842,
+          2840,
+          2836,
+          2835
+        ],
+        "winner": 2832
+      },
+      {
+        "id": "encounters",
+        "name": "Encounters",
+        "nomination_kind": "competition",
+        "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2022/o=asc/p=1/rp=200",
+        "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2022/o=desc/p=1/rp=40",
+        "entries": [
+          {
+            "film_id": 2849,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2850,
+            "winner": true,
+            "prizes": [
+              "Special Jury Award"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 2851,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2852,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2853,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2854,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2855,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2856,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2857,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2858,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2859,
+            "winner": true,
+            "prizes": [
+              "Best Film"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 2860,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2861,
+            "winner": true,
+            "prizes": [
+              "GWFF Best First Feature"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 2862,
+            "winner": true,
+            "prizes": [
+              "Best Director · Cyril Schäublin"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 2863,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          }
+        ],
+        "nominees": [
+          2849,
+          2850,
+          2851,
+          2852,
+          2853,
+          2854,
+          2855,
+          2856,
+          2857,
+          2858,
+          2859,
+          2860,
+          2861,
+          2862,
+          2863
+        ],
+        "winners": [
+          2859,
+          2861,
+          2862,
+          2850
+        ],
+        "winner": 2859
+      }
+    ],
+    "films": [
+      {
+        "id": 2831,
+        "awards": []
+      },
+      {
+        "id": 2832,
+        "awards": [
+          "Golden Bear for Best Film"
+        ]
+      },
+      {
+        "id": 2833,
+        "awards": [
+          "Silver Bear for Best Director · Claire Denis"
+        ]
+      },
+      {
+        "id": 2834,
+        "awards": []
+      },
+      {
+        "id": 2835,
+        "awards": [
+          "Special Mention"
+        ]
+      },
+      {
+        "id": 2836,
+        "awards": [
+          "Silver Bear for Outstanding Artistic Contribution · Rithy Panh, Sarit Mang"
+        ]
+      },
+      {
+        "id": 2837,
+        "awards": []
+      },
+      {
+        "id": 2838,
+        "awards": []
+      },
+      {
+        "id": 2839,
+        "awards": []
+      },
+      {
+        "id": 2840,
+        "awards": [
+          "Silver Bear for Best Supporting Performance · Laura Basuki"
+        ]
+      },
+      {
+        "id": 2841,
+        "awards": []
+      },
+      {
+        "id": 2842,
+        "awards": [
+          "Silver Bear for Best Leading Performance · Meltem Kaptan",
+          "Silver Bear for Best Screenplay · Laila Stieler"
+        ]
+      },
+      {
+        "id": 2843,
+        "awards": []
+      },
+      {
+        "id": 2844,
+        "awards": [
+          "Silver Bear Jury Prize"
+        ]
+      },
+      {
+        "id": 2845,
+        "awards": [
+          "Silver Bear Grand Jury Prize"
+        ]
+      },
+      {
+        "id": 2846,
+        "awards": []
+      },
+      {
+        "id": 2847,
+        "awards": []
+      },
+      {
+        "id": 2848,
+        "awards": []
+      },
+      {
+        "id": 2849,
+        "awards": []
+      },
+      {
+        "id": 2850,
+        "awards": [
+          "Special Jury Award"
+        ]
+      },
+      {
+        "id": 2851,
+        "awards": []
+      },
+      {
+        "id": 2852,
+        "awards": []
+      },
+      {
+        "id": 2853,
+        "awards": []
+      },
+      {
+        "id": 2854,
+        "awards": []
+      },
+      {
+        "id": 2855,
+        "awards": []
+      },
+      {
+        "id": 2856,
+        "awards": []
+      },
+      {
+        "id": 2857,
+        "awards": []
+      },
+      {
+        "id": 2858,
+        "awards": []
+      },
+      {
+        "id": 2859,
+        "awards": [
+          "Best Film"
+        ]
+      },
+      {
+        "id": 2860,
+        "awards": []
+      },
+      {
+        "id": 2861,
+        "awards": [
+          "GWFF Best First Feature"
+        ]
+      },
+      {
+        "id": 2862,
+        "awards": [
+          "Best Director · Cyril Schäublin"
+        ]
+      },
+      {
+        "id": 2863,
+        "awards": []
+      }
+    ]
+  },
+  {
+    "event": "Berlinale",
+    "year": 2023,
+    "section": "Official Selection",
+    "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2023/o=asc/p=1/rp=200",
+    "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2023/o=desc/p=1/rp=40",
+    "resultsUrl": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2023/o=desc/p=1/rp=40",
+    "categories": [
+      {
+        "id": "main-competition",
+        "name": "Main Competition",
+        "nomination_kind": "competition",
+        "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2023/o=asc/p=1/rp=200",
+        "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2023/o=desc/p=1/rp=40",
+        "entries": [
+          {
+            "film_id": 2864,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Best Leading Performance · Sofía Otero"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 2865,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2866,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2867,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Best Supporting Performance · Thea Ehre"
+            ],
+            "prize_rank": 5
+          },
+          {
+            "film_id": 2868,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2869,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Outstanding Artistic Contribution · Hélène Louvart"
+            ],
+            "prize_rank": 7
+          },
+          {
+            "film_id": 2870,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2871,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2872,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Best Director · Philippe Garrel"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 2873,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2874,
+            "winner": true,
+            "prizes": [
+              "Silver Bear Jury Prize"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 2875,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2876,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Best Screenplay · Angela Schanelec"
+            ],
+            "prize_rank": 6
+          },
+          {
+            "film_id": 302,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 300,
+            "winner": true,
+            "prizes": [
+              "Silver Bear Grand Jury Prize"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 2877,
+            "winner": true,
+            "prizes": [
+              "Golden Bear for Best Film"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 314,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2878,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2879,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          }
+        ],
+        "nominees": [
+          2864,
+          2865,
+          2866,
+          2867,
+          2868,
+          2869,
+          2870,
+          2871,
+          2872,
+          2873,
+          2874,
+          2875,
+          2876,
+          302,
+          300,
+          2877,
+          314,
+          2878,
+          2879
+        ],
+        "winners": [
+          2877,
+          300,
+          2874,
+          2872,
+          2864,
+          2867,
+          2876,
+          2869
+        ],
+        "winner": 2877
+      },
+      {
+        "id": "encounters",
+        "name": "Encounters",
+        "nomination_kind": "competition",
+        "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2023/o=asc/p=1/rp=200",
+        "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2023/o=desc/p=1/rp=40",
+        "entries": [
+          {
+            "film_id": 2880,
+            "winner": true,
+            "prizes": [
+              "GWFF Best First Feature Award 2023"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 2881,
+            "winner": true,
+            "prizes": [
+              "Berlinale Documentary Award 2023",
+              "Award for Best Director · Tatiana Huezo"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 288,
+            "winner": true,
+            "prizes": [
+              "Award for Best Film"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 2882,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2883,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2884,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2885,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2886,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2887,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2888,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2889,
+            "winner": true,
+            "prizes": [
+              "Berlinale Documentary Award · Special Mention",
+              "Special Jury Award"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 2890,
+            "winner": true,
+            "prizes": [
+              "Special Jury Award"
+            ],
+            "prize_rank": 6
+          },
+          {
+            "film_id": 2891,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2892,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2893,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2894,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          }
+        ],
+        "nominees": [
+          2880,
+          2881,
+          288,
+          2882,
+          2883,
+          2884,
+          2885,
+          2886,
+          2887,
+          2888,
+          2889,
+          2890,
+          2891,
+          2892,
+          2893,
+          2894
+        ],
+        "winners": [
+          288,
+          2880,
+          2881,
+          2889,
+          2890
+        ],
+        "winner": 288
+      }
+    ],
+    "films": [
+      {
+        "id": 2864,
+        "awards": [
+          "Silver Bear for Best Leading Performance · Sofía Otero"
+        ]
+      },
+      {
+        "id": 2865,
+        "awards": []
+      },
+      {
+        "id": 2866,
+        "awards": []
+      },
+      {
+        "id": 2867,
+        "awards": [
+          "Silver Bear for Best Supporting Performance · Thea Ehre"
+        ]
+      },
+      {
+        "id": 2868,
+        "awards": []
+      },
+      {
+        "id": 2869,
+        "awards": [
+          "Silver Bear for Outstanding Artistic Contribution · Hélène Louvart"
+        ]
+      },
+      {
+        "id": 2870,
+        "awards": []
+      },
+      {
+        "id": 2871,
+        "awards": []
+      },
+      {
+        "id": 2872,
+        "awards": [
+          "Silver Bear for Best Director · Philippe Garrel"
+        ]
+      },
+      {
+        "id": 2873,
+        "awards": []
+      },
+      {
+        "id": 2874,
+        "awards": [
+          "Silver Bear Jury Prize"
+        ]
+      },
+      {
+        "id": 2875,
+        "awards": []
+      },
+      {
+        "id": 2876,
+        "awards": [
+          "Silver Bear for Best Screenplay · Angela Schanelec"
+        ]
+      },
+      {
+        "id": 302,
+        "awards": []
+      },
+      {
+        "id": 300,
+        "awards": [
+          "Silver Bear Grand Jury Prize"
+        ]
+      },
+      {
+        "id": 2877,
+        "awards": [
+          "Golden Bear for Best Film"
+        ]
+      },
+      {
+        "id": 314,
+        "awards": []
+      },
+      {
+        "id": 2878,
+        "awards": []
+      },
+      {
+        "id": 2879,
+        "awards": []
+      },
+      {
+        "id": 2880,
+        "awards": [
+          "GWFF Best First Feature Award 2023"
+        ]
+      },
+      {
+        "id": 2881,
+        "awards": [
+          "Berlinale Documentary Award 2023",
+          "Award for Best Director · Tatiana Huezo"
+        ]
+      },
+      {
+        "id": 288,
+        "awards": [
+          "Award for Best Film"
+        ]
+      },
+      {
+        "id": 2882,
+        "awards": []
+      },
+      {
+        "id": 2883,
+        "awards": []
+      },
+      {
+        "id": 2884,
+        "awards": []
+      },
+      {
+        "id": 2885,
+        "awards": []
+      },
+      {
+        "id": 2886,
+        "awards": []
+      },
+      {
+        "id": 2887,
+        "awards": []
+      },
+      {
+        "id": 2888,
+        "awards": []
+      },
+      {
+        "id": 2889,
+        "awards": [
+          "Berlinale Documentary Award · Special Mention",
+          "Special Jury Award"
+        ]
+      },
+      {
+        "id": 2890,
+        "awards": [
+          "Special Jury Award"
+        ]
+      },
+      {
+        "id": 2891,
+        "awards": []
+      },
+      {
+        "id": 2892,
+        "awards": []
+      },
+      {
+        "id": 2893,
+        "awards": []
+      },
+      {
+        "id": 2894,
+        "awards": []
+      }
+    ]
+  },
+  {
+    "event": "Berlinale",
+    "year": 2024,
+    "section": "Official Selection",
+    "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2024/o=asc/p=1/rp=200",
+    "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2024/o=desc/p=1/rp=40",
+    "resultsUrl": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2024/o=desc/p=1/rp=40",
+    "categories": [
+      {
+        "id": "main-competition",
+        "name": "Main Competition",
+        "nomination_kind": "competition",
+        "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2024/o=asc/p=1/rp=200",
+        "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2024/o=desc/p=1/rp=40",
+        "entries": [
+          {
+            "film_id": 146,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Best Leading Performance · Sebastian Stan"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 2895,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2896,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2897,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 106,
+            "winner": true,
+            "prizes": [
+              "Golden Bear for Best Film"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 141,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Outstanding Artistic Contribution · Martin Gschlacht"
+            ],
+            "prize_rank": 7
+          },
+          {
+            "film_id": 2898,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2899,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2900,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2901,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 271,
+            "winner": true,
+            "prizes": [
+              "Silver Bear Jury Prize"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 2902,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2903,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2904,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2905,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Best Director · Nelson Carlos De Los Santos Arias"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 2906,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 274,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Best Supporting Performance · Emily Watson"
+            ],
+            "prize_rank": 5
+          },
+          {
+            "film_id": 2907,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Best Screenplay · Matthias Glasner"
+            ],
+            "prize_rank": 6
+          },
+          {
+            "film_id": 2908,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2909,
+            "winner": true,
+            "prizes": [
+              "Silver Bear Grand Jury Prize"
+            ],
+            "prize_rank": 1
+          }
+        ],
+        "nominees": [
+          146,
+          2895,
+          2896,
+          2897,
+          106,
+          141,
+          2898,
+          2899,
+          2900,
+          2901,
+          271,
+          2902,
+          2903,
+          2904,
+          2905,
+          2906,
+          274,
+          2907,
+          2908,
+          2909
+        ],
+        "winners": [
+          106,
+          2909,
+          271,
+          2905,
+          146,
+          274,
+          2907,
+          141
+        ],
+        "winner": 106
+      },
+      {
+        "id": "encounters",
+        "name": "Encounters",
+        "nomination_kind": "competition",
+        "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2024/o=asc/p=1/rp=200",
+        "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2024/o=desc/p=1/rp=40",
+        "entries": [
+          {
+            "film_id": 2910,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2911,
+            "winner": true,
+            "prizes": [
+              "Award for Best Director · Juliana Rojas"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 2912,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2913,
+            "winner": true,
+            "prizes": [
+              "Award for Best Film",
+              "Berlinale Documentary Award · Special Mention"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 2914,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2915,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2916,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2917,
+            "winner": true,
+            "prizes": [
+              "Special Jury Award"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 2918,
+            "winner": true,
+            "prizes": [
+              "Special Jury Award"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 2919,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2920,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2921,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2922,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2923,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2924,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          }
+        ],
+        "nominees": [
+          2910,
+          2911,
+          2912,
+          2913,
+          2914,
+          2915,
+          2916,
+          2917,
+          2918,
+          2919,
+          2920,
+          2921,
+          2922,
+          2923,
+          2924
+        ],
+        "winners": [
+          2913,
+          2911,
+          2917,
+          2918
+        ],
+        "winner": 2913
+      }
+    ],
+    "films": [
+      {
+        "id": 146,
+        "awards": [
+          "Silver Bear for Best Leading Performance · Sebastian Stan"
+        ]
+      },
+      {
+        "id": 2895,
+        "awards": []
+      },
+      {
+        "id": 2896,
+        "awards": []
+      },
+      {
+        "id": 2897,
+        "awards": []
+      },
+      {
+        "id": 106,
+        "awards": [
+          "Golden Bear for Best Film"
+        ]
+      },
+      {
+        "id": 141,
+        "awards": [
+          "Silver Bear for Outstanding Artistic Contribution · Martin Gschlacht"
+        ]
+      },
+      {
+        "id": 2898,
+        "awards": []
+      },
+      {
+        "id": 2899,
+        "awards": []
+      },
+      {
+        "id": 2900,
+        "awards": []
+      },
+      {
+        "id": 2901,
+        "awards": []
+      },
+      {
+        "id": 271,
+        "awards": [
+          "Silver Bear Jury Prize"
+        ]
+      },
+      {
+        "id": 2902,
+        "awards": []
+      },
+      {
+        "id": 2903,
+        "awards": []
+      },
+      {
+        "id": 2904,
+        "awards": []
+      },
+      {
+        "id": 2905,
+        "awards": [
+          "Silver Bear for Best Director · Nelson Carlos De Los Santos Arias"
+        ]
+      },
+      {
+        "id": 2906,
+        "awards": []
+      },
+      {
+        "id": 274,
+        "awards": [
+          "Silver Bear for Best Supporting Performance · Emily Watson"
+        ]
+      },
+      {
+        "id": 2907,
+        "awards": [
+          "Silver Bear for Best Screenplay · Matthias Glasner"
+        ]
+      },
+      {
+        "id": 2908,
+        "awards": []
+      },
+      {
+        "id": 2909,
+        "awards": [
+          "Silver Bear Grand Jury Prize"
+        ]
+      },
+      {
+        "id": 2910,
+        "awards": []
+      },
+      {
+        "id": 2911,
+        "awards": [
+          "Award for Best Director · Juliana Rojas"
+        ]
+      },
+      {
+        "id": 2912,
+        "awards": []
+      },
+      {
+        "id": 2913,
+        "awards": [
+          "Award for Best Film",
+          "Berlinale Documentary Award · Special Mention"
+        ]
+      },
+      {
+        "id": 2914,
+        "awards": []
+      },
+      {
+        "id": 2915,
+        "awards": []
+      },
+      {
+        "id": 2916,
+        "awards": []
+      },
+      {
+        "id": 2917,
+        "awards": [
+          "Special Jury Award"
+        ]
+      },
+      {
+        "id": 2918,
+        "awards": [
+          "Special Jury Award"
+        ]
+      },
+      {
+        "id": 2919,
+        "awards": []
+      },
+      {
+        "id": 2920,
+        "awards": []
+      },
+      {
+        "id": 2921,
+        "awards": []
+      },
+      {
+        "id": 2922,
+        "awards": []
+      },
+      {
+        "id": 2923,
+        "awards": []
+      },
+      {
+        "id": 2924,
+        "awards": []
+      }
+    ]
+  },
+  {
+    "event": "Berlinale",
+    "year": 2025,
+    "section": "Official Selection",
+    "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2025/o=asc/p=1/rp=200",
+    "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2025/o=desc/p=1/rp=40",
+    "resultsUrl": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2025/o=desc/p=1/rp=40",
+    "categories": [
+      {
+        "id": "main-competition",
+        "name": "Main Competition",
+        "nomination_kind": "competition",
+        "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2025/o=asc/p=1/rp=200",
+        "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2025/o=desc/p=1/rp=40",
+        "entries": [
+          {
+            "film_id": 227,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 36,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Best Supporting Performance · Andrew Scott"
+            ],
+            "prize_rank": 5
+          },
+          {
+            "film_id": 229,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 31,
+            "winner": true,
+            "prizes": [
+              "Golden Bear for Best Film"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 33,
+            "winner": true,
+            "prizes": [
+              "Silver Bear Jury Prize"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 230,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 231,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 35,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Best Leading Performance · Rose Byrne"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 13,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Best Screenplay · Radu Jude"
+            ],
+            "prize_rank": 6
+          },
+          {
+            "film_id": 228,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 14,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Outstanding Artistic Contribution · Creative ensemble"
+            ],
+            "prize_rank": 7
+          },
+          {
+            "film_id": 232,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 32,
+            "winner": true,
+            "prizes": [
+              "Silver Bear Grand Jury Prize"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 233,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 34,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Best Director · Huo Meng"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 235,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 236,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 234,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 237,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          }
+        ],
+        "nominees": [
+          227,
+          36,
+          229,
+          31,
+          33,
+          230,
+          231,
+          35,
+          13,
+          228,
+          14,
+          232,
+          32,
+          233,
+          34,
+          235,
+          236,
+          234,
+          237
+        ],
+        "winners": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          13,
+          14
+        ],
+        "winner": 31
+      },
+      {
+        "id": "perspectives",
+        "name": "Perspectives",
+        "nomination_kind": "competition",
+        "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2025/o=asc/p=1/rp=200",
+        "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2025/o=desc/p=1/rp=40",
+        "entries": [
+          {
+            "film_id": 2925,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2926,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2927,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2928,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2929,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2930,
+            "winner": true,
+            "prizes": [
+              "Best First Feature Award"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 2931,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2932,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 38,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2933,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2934,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2935,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2936,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2937,
+            "winner": true,
+            "prizes": [
+              "Special Mention"
+            ],
+            "prize_rank": 1
+          }
+        ],
+        "nominees": [
+          2925,
+          2926,
+          2927,
+          2928,
+          2929,
+          2930,
+          2931,
+          2932,
+          38,
+          2933,
+          2934,
+          2935,
+          2936,
+          2937
+        ],
+        "winners": [
+          2930,
+          2937
+        ],
+        "winner": 2930
+      }
+    ],
+    "films": [
+      {
+        "id": 227,
+        "awards": []
+      },
+      {
+        "id": 36,
+        "awards": [
+          "Silver Bear for Best Supporting Performance · Andrew Scott"
+        ]
+      },
+      {
+        "id": 229,
+        "awards": []
+      },
+      {
+        "id": 31,
+        "awards": [
+          "Golden Bear for Best Film"
+        ]
+      },
+      {
+        "id": 33,
+        "awards": [
+          "Silver Bear Jury Prize"
+        ]
+      },
+      {
+        "id": 230,
+        "awards": []
+      },
+      {
+        "id": 231,
+        "awards": []
+      },
+      {
+        "id": 35,
+        "awards": [
+          "Silver Bear for Best Leading Performance · Rose Byrne"
+        ]
+      },
+      {
+        "id": 13,
+        "awards": [
+          "Silver Bear for Best Screenplay · Radu Jude"
+        ]
+      },
+      {
+        "id": 228,
+        "awards": []
+      },
+      {
+        "id": 14,
+        "awards": [
+          "Silver Bear for Outstanding Artistic Contribution · Creative ensemble"
+        ]
+      },
+      {
+        "id": 232,
+        "awards": []
+      },
+      {
+        "id": 32,
+        "awards": [
+          "Silver Bear Grand Jury Prize"
+        ]
+      },
+      {
+        "id": 233,
+        "awards": []
+      },
+      {
+        "id": 34,
+        "awards": [
+          "Silver Bear for Best Director · Huo Meng"
+        ]
+      },
+      {
+        "id": 235,
+        "awards": []
+      },
+      {
+        "id": 236,
+        "awards": []
+      },
+      {
+        "id": 234,
+        "awards": []
+      },
+      {
+        "id": 237,
+        "awards": []
+      },
+      {
+        "id": 2925,
+        "awards": []
+      },
+      {
+        "id": 2926,
+        "awards": []
+      },
+      {
+        "id": 2927,
+        "awards": []
+      },
+      {
+        "id": 2928,
+        "awards": []
+      },
+      {
+        "id": 2929,
+        "awards": []
+      },
+      {
+        "id": 2930,
+        "awards": [
+          "Best First Feature Award"
+        ]
+      },
+      {
+        "id": 2931,
+        "awards": []
+      },
+      {
+        "id": 2932,
+        "awards": []
+      },
+      {
+        "id": 38,
+        "awards": []
+      },
+      {
+        "id": 2933,
+        "awards": []
+      },
+      {
+        "id": 2934,
+        "awards": []
+      },
+      {
+        "id": 2935,
+        "awards": []
+      },
+      {
+        "id": 2936,
+        "awards": []
+      },
+      {
+        "id": 2937,
+        "awards": [
+          "Special Mention"
+        ]
       }
     ]
   }

@@ -89220,5 +89220,4104 @@ window.CULTURE_FILM_DETAILS = {
     "imdb": {
       "url": "https://www.imdb.com/title/tt37660518/"
     }
+  },
+  "2806": {
+    "tmdb_id": 661591,
+    "title": "Drift Away",
+    "original_title": "Albatros",
+    "overview": "Laurent, a young brigade commander in a gendarmerie in a small town in Normandy is planning his wedding with Marie, his partner and mother of his daughter. He loves his job despite facing social misery on a daily basis. One day, a farmer who might try to kill himself runs away.",
+    "runtime": 115,
+    "release_date": "2021-11-03",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "original_language": "fr",
+    "director": "Xavier Beauvois",
+    "cast": [
+      "Jérémie Renier",
+      "Marie-Julie Maille",
+      "Iris Bry",
+      "Victor Belmondo",
+      "Olivier Pequery"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/dfRksbnMcBEgILGP9ST998nwwkX.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/19Vcxp3bgR5Negq4CbJXfadW1DQ.jpg",
+    "tmdb_rating": 5.6,
+    "tmdb_votes": 58,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt11781806/"
+    }
+  },
+  "2807": {
+    "tmdb_id": 620498,
+    "title": "Fabian: Going to the Dogs",
+    "original_title": "Fabian oder der Gang vor die Hunde",
+    "overview": "In 1930s Berlin, Dr. Jakob Fabian, who works by day in advertising for a cigarette company and by night wanders the streets of the city, falls in love with an actress. As her career begins to blossom, prospects for his future begin to wane.",
+    "runtime": 176,
+    "release_date": "2021-08-05",
+    "genres": [
+      "Drama",
+      "Romance",
+      "History"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "original_language": "de",
+    "director": "Dominik Graf",
+    "cast": [
+      "Tom Schilling",
+      "Albrecht Schuch",
+      "Saskia Rosendahl",
+      "Michael Wittenborn",
+      "Petra Kalkutschke"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/kfrHq2hg24ZMpesf8xfXUt3wAKb.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/kQTPNUtXSowT14cY0FnV3CaBDli.jpg",
+    "tmdb_rating": 6.5,
+    "tmdb_votes": 67,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt13846414/"
+    }
+  },
+  "2808": {
+    "tmdb_id": 669401,
+    "title": "Ballad of a White Cow",
+    "original_title": "قصیده گاو سفید",
+    "overview": "Mina's life is turned upside down when she learns that her husband was innocent of the crime for which he was executed, so she starts a silent battle against a cynical system for her own and her daughter's sake.",
+    "runtime": 105,
+    "release_date": "2021-10-21",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "FR",
+      "IR"
+    ],
+    "original_language": "fa",
+    "director": "Behtash Sanaeeha, Maryam Moghaddam",
+    "cast": [
+      "Maryam Moghaddam",
+      "Alireza Sanifar",
+      "Pouria Rahimi Sam",
+      "Avin Poor Raoufi",
+      "Farid Ghobadi"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/8yTPga1RA9BFsgKNFFPf7c4jELx.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/4mbe5uXblcgS3zdd2ubPl4DaZsG.jpg",
+    "tmdb_rating": 6.9,
+    "tmdb_votes": 55,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt11773484/"
+    }
+  },
+  "2809": {
+    "tmdb_id": 795811,
+    "title": "Wheel of Fortune and Fantasy",
+    "original_title": "偶然と想像",
+    "overview": "An unexpected love triangle, a seduction trap, and a random encounter are the three episodes, told in three movements to depict three female characters and trace the trajectories between their choices and regrets.",
+    "runtime": 121,
+    "release_date": "2021-04-11",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "original_language": "ja",
+    "director": "Ryusuke Hamaguchi",
+    "cast": [
+      "Kotone Furukawa",
+      "Ayumu Nakajima",
+      "Hyunri",
+      "Kiyohiko Shibukawa",
+      "Katsuki Mori"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/z3xqVWOsetW6pSEgx1uiqXfzRet.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/mTOUk5M0LXIATbJDZkeH4xzA2hV.jpg",
+    "tmdb_rating": 7.2,
+    "tmdb_votes": 376,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt14034966/"
+    }
+  },
+  "2810": {
+    "tmdb_id": 795812,
+    "title": "Mr. Bachmann and His Class",
+    "original_title": "Herr Bachmann und seine Klasse",
+    "overview": "Mr. Bachmann And His Class explores the close bond between an elementary school teacher and his students. His unconventional methods clash with the complex social and cultural realities of the provincial German industrial town they live in.",
+    "runtime": 217,
+    "release_date": "2021-09-16",
+    "genres": [
+      "Documentary"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "original_language": "de",
+    "director": "Maria Speth",
+    "cast": [
+      "Dieter Bachmann",
+      "Aynur Bal",
+      "Önder Cavdar"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/nSAwo5X1eltjTVYWYcRj64vAxVa.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/A5N6hjPvjcxCLOKo8mAgRIz26Ie.jpg",
+    "tmdb_rating": 7.6,
+    "tmdb_votes": 22,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt14035048/"
+    }
+  },
+  "2811": {
+    "tmdb_id": 795813,
+    "title": "I'm Your Man",
+    "original_title": "Ich bin dein Mensch",
+    "overview": "Alma is a scientist coerced into participating in an extraordinary study in order to obtain research funds for her work. For three weeks, she has to live with a humanoid robot tailored to her character and needs, whose artificial intelligence is designed to be the perfect life partner for her. Enter Tom, a machine in human form in a class of its own, created solely to make her happy.",
+    "runtime": 108,
+    "release_date": "2021-07-01",
+    "genres": [
+      "Science Fiction",
+      "Comedy",
+      "Romance"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "original_language": "de",
+    "director": "Maria Schrader",
+    "cast": [
+      "Maren Eggert",
+      "Dan Stevens",
+      "Sandra Hüller",
+      "Hans Löw",
+      "Wolfgang Hübsch"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/v13p6KlgD7Y1Tas6X8GLJzv5zRe.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/5AlTT97P209obOB9zRoyYDrzLkZ.jpg",
+    "tmdb_rating": 6.7,
+    "tmdb_votes": 385,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt13087796/"
+    }
+  },
+  "2812": {
+    "tmdb_id": 795797,
+    "title": "Introduction",
+    "original_title": "인트로덕션",
+    "overview": "Youngho is summoned by his father, who is a doctor. Finding him busy with his patients, one of whom is a famous actor, Youngho has to wait. When his girlfriend Juwon moves to Berlin for her studies, Youngho shows up in the city to surprise her. Through her mother, Juwon has found accommodation at the home of an artist whose beauty intimidates her. Some time later, Youngho goes to lunch with his mother who wants to introduce him to a colleague – it is the same man Youngho met at his father’s clinic. Youngho asks his friend Jeongsoo to accompany him, and after lunch they go to the beach. Youngho falls asleep, and dreams of Juwon. When he wakes up, he braves the considerable cold and goes swimming, while Jeongsoo watches.",
+    "runtime": 66,
+    "release_date": "2021-05-27",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "original_language": "ko",
+    "director": "Hong Sang-soo",
+    "cast": [
+      "Shin Seok-ho",
+      "Park Mi-so",
+      "Kim Young-ho",
+      "Ye Ji-won",
+      "Ki Joo-bong"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/a9aTkREV7ZbwMzgHaknjqWZUtUG.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/z51wokzgouCkd4ri8YidruThw7u.jpg",
+    "tmdb_rating": 6.4,
+    "tmdb_votes": 35,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt14035108/"
+    }
+  },
+  "2813": {
+    "tmdb_id": 633949,
+    "title": "Memory Box",
+    "original_title": "Memory Box",
+    "overview": "Maia, a single mother, lives in Montreal with her teenage daughter, Alex. On Christmas Eve, they receive an unexpected delivery: notebooks, tapes, and photos Maia, from 13 to 18 years old, sent from Beirut to her best friend who left for Paris to escape the civil war. Maia refuses to open the box or confront its memories, but Alex secretly begins diving into it. Between fantasy and reality, Alex enters the world of her mother’s tumultuous, passionate adolescence during the Lebanese civil war, unlocking mysteries of a hidden past.",
+    "runtime": 97,
+    "release_date": "2021-12-03",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "CA",
+      "FR",
+      "LB"
+    ],
+    "original_language": "fr",
+    "director": "Joana Hadjithomas, Khalil Joreige",
+    "cast": [
+      "Manal Issa",
+      "Rim Turki",
+      "Paloma Vauthier",
+      "Clémence Sabbagh",
+      "Hasan Akil"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/x0OjUpv5bGbzUVt9eyEb0sHAQpZ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/9lpanfhLEysl8agTljZyELrt1qU.jpg",
+    "tmdb_rating": 6.3,
+    "tmdb_votes": 30,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt7265490/"
+    }
+  },
+  "2814": {
+    "tmdb_id": 681349,
+    "title": "Next Door",
+    "original_title": "Nebenan",
+    "overview": "Berlin, the Prenzlauer Berg district. Daniel is a movie star accustomed to success. His loft apartment is stylish and so is his wife, and the nanny has the children under control. Everything is tip-top, bilingual and ready for him to jet off to an audition in London where a role in an American superhero film awaits the celebrated German-Spanish actor. Popping into the local bar on the corner, he finds Bruno sitting there. As transpires by the minute, Bruno has been waiting for this moment for a long time. And so this eternally overlooked man – one of reunification's losers and a victim of the gentrification of what was once East Berlin – takes his revenge. With Daniel as his target...",
+    "runtime": 93,
+    "release_date": "2021-07-15",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "original_language": "de",
+    "director": "Daniel Brühl",
+    "cast": [
+      "Daniel Brühl",
+      "Peter Kurth",
+      "Rike Eckermann",
+      "Aenne Schwarz",
+      "Vicky Krieps"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/uCDPV0QtbQkKILMzQlCUd7kDnjX.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/oJiDHTVrwaWxXQIT0dbh4icypX5.jpg",
+    "tmdb_rating": 6.5,
+    "tmdb_votes": 119,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt11080676/"
+    }
+  },
+  "2815": {
+    "tmdb_id": 795815,
+    "title": "What Do We See When We Look at the Sky?",
+    "original_title": "რას ვხედავთ, როდესაც ცას ვუყურებთ?",
+    "overview": "In the Georgian riverside town of Kutaisi, summertime romance and World Cup fever are in the air. After a pair of chance encounters, pharmacist Lisa and soccer player Giorgi find their plans for a date undone when they both awaken magically transformed with no way to recognize each other.",
+    "runtime": 150,
+    "release_date": "2021-11-12",
+    "genres": [
+      "Drama",
+      "Romance",
+      "Fantasy"
+    ],
+    "countries": [
+      "GE",
+      "DE"
+    ],
+    "original_language": "ka",
+    "director": "Alexandre Koberidze",
+    "cast": [
+      "Oliko Barbakadze",
+      "Giorgi Ambroladze",
+      "Ani Karseladze",
+      "Giorgi Bochorishvili",
+      "Sofio Chanishvili"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/dQlQWIejF1NKbRDYzFDqGAb6wN5.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/iVls8472HFJNBLAek0afJmDI1ve.jpg",
+    "tmdb_rating": 6.7,
+    "tmdb_votes": 70,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt14035154/"
+    }
+  },
+  "2816": {
+    "tmdb_id": 795818,
+    "title": "Forest: I See You Everywhere",
+    "original_title": "Rengeteg - mindenhol látlak",
+    "overview": "The film brings together various everyday and relationship stories from Budapest that at first glance have nothing in common. A sequel to Fliegauf's 2003 film 'Forest'",
+    "runtime": 112,
+    "release_date": "2022-01-25",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "HU"
+    ],
+    "original_language": "hu",
+    "director": "Benedek Fliegauf",
+    "cast": [
+      "Laura Podlovics",
+      "István Lénárt",
+      "Lilla Kizlinger",
+      "Zsolt Végh",
+      "Laszlo Cziffer"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/703udG4k0uihdpmXYd6HyPiVzoh.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/f1lwdA5CXZFKU6nZIbRj0XBLVly.jpg",
+    "tmdb_rating": 5.8,
+    "tmdb_votes": 4,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt14033416/"
+    }
+  },
+  "2817": {
+    "tmdb_id": 669661,
+    "title": "Natural Light",
+    "original_title": "Természetes fény",
+    "overview": "World War II, occupied Soviet Union. István Semetka is a simple Hungarian farmer who serves as a Sub-Lieutenant in a special unit scouting for partisan groups. On their way to a remote village, his company falls under enemy fire. As the commander is killed, Semetka has to overcome his fears and take command of the unit as he is dragged into a chaos that he cannot control.",
+    "runtime": 103,
+    "release_date": "2021-09-16",
+    "genres": [
+      "War",
+      "Drama",
+      "History"
+    ],
+    "countries": [
+      "FR",
+      "LV",
+      "HU",
+      "DE"
+    ],
+    "original_language": "hu",
+    "director": "Dénes Nagy",
+    "cast": [
+      "Szabó Ferenc",
+      "Tamás Garbacz",
+      "László Bajkó",
+      "Gyula Franczia",
+      "Stuhl Erno"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/yws7TVzBWNK6zvrfRuD2TFFCFwU.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/kfb5LjuuvMz0xmhMXE9EnUU2Y4L.jpg",
+    "tmdb_rating": 5.6,
+    "tmdb_votes": 37,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt11681056/"
+    }
+  },
+  "2818": {
+    "tmdb_id": 701524,
+    "title": "A Cop Movie",
+    "original_title": "Una película de policías",
+    "overview": "This documentary walks the line between fact and fiction, delving into corruption in the Mexican police through the experiences of two officers.",
+    "runtime": 107,
+    "release_date": "2021-10-28",
+    "genres": [
+      "Documentary",
+      "Crime",
+      "Drama"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "original_language": "es",
+    "director": "Alonso Ruizpalacios",
+    "cast": [
+      "Mónica del Carmen",
+      "Raúl Briones",
+      "María Teresa Hernández Cañas",
+      "José de Jesús Rodríguez Hernández",
+      "Leonardo Alonso"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/hlq6tv7sFAA7LtNu7Rk8Fw6Kfu1.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/9JGOHuIy5MBpda2qZkjR6vOQAJV.jpg",
+    "tmdb_rating": 7.3,
+    "tmdb_votes": 66,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt14035242/"
+    }
+  },
+  "2819": {
+    "tmdb_id": 795763,
+    "title": "As I Want",
+    "original_title": "كما أريد",
+    "overview": "Motivated by the public rape of her best friend in the streets of Cairo, the Director uses her camera as her weapon against sexual harassment and embarks on a journey of self-awakening as she confronts her own haunting past.",
+    "runtime": 88,
+    "release_date": "2021-10-16",
+    "genres": [
+      "Documentary"
+    ],
+    "countries": [
+      "EG",
+      "FR",
+      "DE",
+      "NO",
+      "PS"
+    ],
+    "original_language": "ar",
+    "director": "Samaher Alqadi",
+    "poster": "https://image.tmdb.org/t/p/w500/bcxcWR7FIqe5nUHtOIumsGvkhdw.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/me4yhg4Pr17n5qeOAyqGTN4cOsK.jpg",
+    "tmdb_rating": 7.5,
+    "tmdb_votes": 2,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt14122260/"
+    }
+  },
+  "2820": {
+    "tmdb_id": 659954,
+    "title": "Azor",
+    "original_title": "Azor",
+    "overview": "Yvan De Wiel, a private banker from Geneva, is going to Argentina in the midst of a dictatorship to replace his partner, the object of the most worrying rumors, who disappeared overnight. Between hushed lounges, swimming pools, and gardens under surveillance, a remote duel takes place between two bankers who, despite different methods, are the accomplices of a discreet and merciless form of colonization.",
+    "runtime": 100,
+    "release_date": "2021-09-10",
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "countries": [
+      "AR",
+      "FR",
+      "CH"
+    ],
+    "original_language": "fr",
+    "director": "Andreas Fontana",
+    "cast": [
+      "Fabrizio Rongione",
+      "Stéphanie Cléau",
+      "Carmen Iriondo",
+      "Juan Trench",
+      "Ignacio Vila"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/qciSIhwpjS3NtzW4VcgSzxK04sG.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/dqcZi5qWufkKUZXAxG3EqWjAM9c.jpg",
+    "tmdb_rating": 6.3,
+    "tmdb_votes": 89,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt11136276/"
+    }
+  },
+  "2821": {
+    "tmdb_id": 633811,
+    "title": "Bloodsuckers",
+    "original_title": "Blutsauger",
+    "overview": "1928: Lyovuschka, a Soviet worker, is cast in the role of Trotsky for Eisenstein‘s latest film, but quickly finds his dreams of an actor‘s life shattered when Trotsky falls into Stalin‘s disfavor. Exiled from his homeland, he poses as a wealthy baron and finds himself stuck in a glamorous seaside resort in Germany awaiting a barge that will take him to Hollywood. A summer romance kicks off when he meets the eccentric factory owner Octavia Flambow-Jansen - it's just too bad there are vampires around.",
+    "runtime": 125,
+    "release_date": "2022-05-12",
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "History",
+      "Horror"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "original_language": "de",
+    "director": "Julian Radlmaier",
+    "cast": [
+      "Alexandre Koberidze",
+      "Lilith Stangenberg",
+      "Alexander Herbst",
+      "Corinna Harfouch",
+      "Andreas Döhler"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/sOKtPIOOYzyNuNhzFt7gC2zQFHQ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/7BiJ0mndmNRcq9OWPn6qfJO7ZYE.jpg",
+    "tmdb_rating": 5.6,
+    "tmdb_votes": 21,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt11261296/"
+    }
+  },
+  "2822": {
+    "tmdb_id": 517815,
+    "title": "The Girl and the Spider",
+    "original_title": "Das Mädchen und die Spinne",
+    "overview": "Lisa is moving. Upheaval all around: Her mother flirts with a handyman. An eccentric woman seems to be preparing for a glamorous event, a family next door returns from vacation, and a girl documents the adventurous day. As boxes are transported, walls painted white, and furniture is assembled, underlying problems in need of fixing are revealed, a to-do list expands, and desires and needs flair up.",
+    "runtime": 99,
+    "release_date": "2021-05-13",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "CH"
+    ],
+    "original_language": "de",
+    "director": "Ramon Zürcher, Silvan Zürcher",
+    "cast": [
+      "Henriette Confurius",
+      "Liliane Amuat",
+      "Ursina Lardi",
+      "Flurin Giger",
+      "André Hennicke"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/4tBtcy3vidUUvKm0MU29dyvfxQD.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/nU4o2WDFKG18FZMC5XHrR2Dndjv.jpg",
+    "tmdb_rating": 6,
+    "tmdb_votes": 45,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt11967484/"
+    }
+  },
+  "2823": {
+    "tmdb_id": 795587,
+    "title": "Social Hygiene",
+    "original_title": "Hygiène sociale",
+    "overview": "Hedonistic philosopher-cum-delinquent, Antonin always finds the right word to win himself both the compliments and the rebukes of his fellows. Antonin never misses a chance to exploit both the goodness and the patience of his wife, Églantine. He is also a constant source of disappointment to his sister, Solveig. Busy trying to avoid Rose the tax collector who is after his neck, Antonin cannot get his attraction and desire for the beautiful Cassiopée out of his skull. Tormented, Antonin must now devise the right scheme and the right words to apologize to Aurore, one of his victims. Between these five women, Antonin gets stuck.",
+    "runtime": 75,
+    "release_date": "2021-03-02",
+    "genres": [
+      "Comedy"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "original_language": "fr",
+    "director": "Denis Côté",
+    "cast": [
+      "Maxim Gaudette",
+      "Larissa Corriveau",
+      "Évelyne Rompré",
+      "Ève Duranceau",
+      "Kathleen Fortin"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/8TFvoSmQxzsPuoToIPvay5SYzUz.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/bSHf3DuxsR3RrM88Xk7DE9S1Wy2.jpg",
+    "tmdb_rating": 5.9,
+    "tmdb_votes": 9,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt14038552/"
+    }
+  },
+  "2824": {
+    "tmdb_id": 795761,
+    "title": "District Terminal",
+    "original_title": "Mantagheye payani",
+    "overview": "As junkie poet Peyman attempts to finish a poem, his city of Tehran falls prey to pollution and a lethal virus.",
+    "runtime": 117,
+    "release_date": "2021-03-04",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "DE",
+      "IR"
+    ],
+    "original_language": "fa",
+    "director": "Ehsan Mirhosseini, Bardia Yadegari",
+    "cast": [
+      "Bardia Yadegari",
+      "Farideh Azadi",
+      "Ali Hemmati",
+      "Gandom Taghavi",
+      "Sara Ajorloo"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/4gFuccMwczH5A0AQCDIxoET0bre.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/rh6bkFgXGp30VVhlOgpgHGQbO8G.jpg",
+    "tmdb_rating": 8,
+    "tmdb_votes": 3,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt14038568/"
+    }
+  },
+  "2825": {
+    "tmdb_id": 660946,
+    "title": "Moon, 66 Questions",
+    "original_title": "Σελήνη, 66 Ερωτήσεις",
+    "overview": "Artemis, a single 24-year-old living in Paris, France, receives a frantic phone call from her mother—her father Paris is in the hospital and she must return home to Athens to care for him. Resentful of the tasking as she grew up estranged from her father, she becomes reacquainted with him over one emotional summer, learning the secret as to why their relationship was stifled when she finds out Jacob, Paris' friend, who's been always around from her childhood, was actually her dad's lover.",
+    "runtime": 108,
+    "release_date": "2022-02-24",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "GR",
+      "FR"
+    ],
+    "original_language": "el",
+    "director": "Jacqueline Lentzou",
+    "cast": [
+      "Sofia Kokkali",
+      "Lazaros Georgakopoulos",
+      "Nikolas Hanakoulas",
+      "Kaiti Ibrohori",
+      "Elena Topalidou"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/r02my1kgszwBLkZXR9aaCnC08ei.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/2cjOU96rjlrFWP16MPK1Jp4fOnD.jpg",
+    "tmdb_rating": 5.5,
+    "tmdb_votes": 11,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt10783504/"
+    }
+  },
+  "2826": {
+    "tmdb_id": 795760,
+    "title": "We",
+    "original_title": "Nous",
+    "overview": "An urban train link, the RER B, crosses Paris and its outskirts from north to south. A journey within indistinct spaces known as inner cities and suburbs. Several portraits, all individual pieces that form a whole. We.",
+    "runtime": 115,
+    "release_date": "2022-02-16",
+    "genres": [
+      "Documentary"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "original_language": "fr",
+    "director": "Alice Diop",
+    "cast": [
+      "Marcel Balnoas",
+      "Ethan Balnoas",
+      "Florence Roche",
+      "Ismael Soumaïla Sissoko",
+      "Bamba Sibi"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/iPBr19UzviA44WbQe74vezFNM91.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/ghEvU4gkxRATuCte5KsxznZakqi.jpg",
+    "tmdb_rating": 6.2,
+    "tmdb_votes": 20,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt14038600/"
+    }
+  },
+  "2827": {
+    "tmdb_id": 794691,
+    "title": "Rock Bottom Riser",
+    "original_title": "Rock Bottom Riser",
+    "overview": "From the earliest voyagers who navigated by starlight to the discovery of habitable planets by astronomers, Rock Bottom Riser examines the all-encompassing encounters of an island world at sea. As lava continues to flow from the earth’s core on the island of Hawaii—posing an imminent danger—a crisis mounts. Astronomers plan to build the world’s largest telescope on Hawaii’s most sacred and revered mountain, Mauna Kea. Based on ancient Polynesian navigation, the arrival of Christian missionaries, and the observatory’s ability to capture the origins of the universe, Rock Bottom Riser surveys the influence of settler colonialism, the search for intelligent life, and the discovery of new worlds as we peer into our own planet’s existence.",
+    "runtime": 70,
+    "release_date": "2021-09-09",
+    "genres": [
+      "Documentary"
+    ],
+    "countries": [
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Fern Silva",
+    "cast": [
+      "Nainoa Thompson",
+      "Moses Goods",
+      "Rubellite Johnson",
+      "Avi Loeb",
+      "Kalepa Baybayon"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/uLYRDPHpOCRbonLA3edYwf4SHNg.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/shjYhXiUDAEaRbxmMLCYKKm1IQz.jpg",
+    "tmdb_rating": 1,
+    "tmdb_votes": 1,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt14122284/"
+    }
+  },
+  "2828": {
+    "tmdb_id": 749645,
+    "title": "The Beta Test",
+    "original_title": "The Beta Test",
+    "overview": "An engaged Hollywood agent receives a mysterious letter for an anonymous sexual encounter and becomes ensnared in a sinister world of lying, infidelity, and digital data.",
+    "runtime": 94,
+    "release_date": "2021-10-15",
+    "genres": [
+      "Thriller",
+      "Horror",
+      "Comedy"
+    ],
+    "countries": [
+      "GB",
+      "US"
+    ],
+    "original_language": "en",
+    "director": "PJ McCabe, Jim Cummings",
+    "cast": [
+      "Jim Cummings",
+      "Virginia Newcomb",
+      "PJ McCabe",
+      "Wilky Lau",
+      "Olivia Grace Applegate"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/jSk3TkqPMWvzlwRBtejZ1UzMhgf.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/6IDpbCTxUrOlz61HJScgWXCnJxl.jpg",
+    "tmdb_rating": 6,
+    "tmdb_votes": 254,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt11738830/"
+    }
+  },
+  "2829": {
+    "tmdb_id": 723377,
+    "title": "The Scary of Sixty-First",
+    "original_title": "The Scary of Sixty-First",
+    "overview": "Two roommates’ lives are upended after finding out that their new Manhattan apartment harbors a dark secret.",
+    "runtime": 81,
+    "release_date": "2021-12-03",
+    "genres": [
+      "Horror",
+      "Mystery",
+      "Thriller"
+    ],
+    "countries": [
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Dasha Nekrasova",
+    "cast": [
+      "Betsey Brown",
+      "Madeline Quinn",
+      "Dasha Nekrasova",
+      "Mark H. Rapaport",
+      "Jason Grisell"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/iP2x1rjh6H2dKSm5eFxAo2e46Jb.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/q1uvFLmL7lz0ofBRhal8DchBEaK.jpg",
+    "tmdb_rating": 5.5,
+    "tmdb_votes": 122,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt12226872/"
+    }
+  },
+  "2830": {
+    "tmdb_id": 795757,
+    "title": "Taste",
+    "original_title": "Vị",
+    "overview": "Bassley, a Nigerian footballer living in Vietnam, has been unable to make a living since he broke his leg. He and four middle-aged women he sometimes works for decide to escape the disappointment of their daily lives. They go to an old house where together they create a special world for themselves. But this intimate utopia cannot last forever.",
+    "runtime": 97,
+    "release_date": "2021-04-22",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "FR",
+      "DE",
+      "SG",
+      "TW",
+      "TH",
+      "VN"
+    ],
+    "original_language": "vi",
+    "director": "Lê Bảo",
+    "cast": [
+      "Olegunleko Ezekiel Gbenga",
+      "Khương Thị Minh Nga",
+      "Vũ Thị Thẩm Thìn",
+      "Lê Thị Dung",
+      "Nguyễn Thị Cẩm Xuân"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/yXynG3oMtYu7pNGzRBf4W9LnmAJ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/yNpKzFDYdsig0A2YQfMCiD22BqO.jpg",
+    "tmdb_rating": 4.7,
+    "tmdb_votes": 18,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt6551842/"
+    }
+  },
+  "2831": {
+    "tmdb_id": 928709,
+    "title": "A E I O U – A Quick Alphabet of Love",
+    "original_title": "A E I O U – Das schnelle Alphabet der Liebe",
+    "overview": "Anna is 60 and her acting heyday is now behind her. She lives on her own but has a friend and confidant in her downstairs neighbour Michel, who is also single. Reluctantly, Anna accepts a job as a language coach for 17-year-old Adrian who has a speech impediment and is something of a misfit. She recognises him as the boy who recently snatched her handbag in the street.",
+    "runtime": 104,
+    "release_date": "2022-05-05",
+    "genres": [
+      "Romance",
+      "Drama",
+      "Comedy"
+    ],
+    "countries": [
+      "FR",
+      "DE"
+    ],
+    "original_language": "de",
+    "director": "Nicolette Krebitz",
+    "cast": [
+      "Sophie Rois",
+      "Milan Herms",
+      "Udo Kier",
+      "Nicolas Bridet",
+      "Lilith Stangenberg"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/2vDlbs0hYiQKAqzVW2MpsVBIy7W.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/k2btBSQ09nfIy1wU2fAY2XinpE7.jpg",
+    "tmdb_rating": 5.2,
+    "tmdb_votes": 20,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt17154094/"
+    }
+  },
+  "2832": {
+    "tmdb_id": 804251,
+    "title": "Alcarràs",
+    "original_title": "Alcarràs",
+    "overview": "In a small village in Catalonia, the peach farmers of the Solé family spend every summer together picking fruit from their orchard. But when plans arise to install solar panels and cut down trees, the members of this tight-knit group suddenly face eviction – and the loss of far more than their home.",
+    "runtime": 118,
+    "release_date": "2022-04-29",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "original_language": "ca",
+    "director": "Carla Simón",
+    "cast": [
+      "Josep Abad",
+      "Jordi Pujol Dolcet",
+      "Anna Otin",
+      "Albert Bosch",
+      "Xenia Roset"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/3nqXPBmlxbX5BC4FNWixpiKOebp.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/aHAHmatqL6fuXJo9SCBRyadoW9c.jpg",
+    "tmdb_rating": 6.761,
+    "tmdb_votes": 245,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt11930126/"
+    }
+  },
+  "2833": {
+    "tmdb_id": 768757,
+    "title": "Both Sides of the Blade",
+    "original_title": "Avec amour et acharnement",
+    "overview": "Jean and Sara have been living together for 10 years. When they first met, Sara was living with François, Jean’s best friend and an admirer from back when he played rugby. Jean and Sara love each other. One day, Sara sees François in the street. He does not notice her, but she is overtaken by the sensation that her life could suddenly change. François gets back in touch with Jean. For the first time in years. He suggests they start working together again. From here on, things spiral out of control.",
+    "runtime": 117,
+    "release_date": "2022-07-08",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "original_language": "fr",
+    "director": "Claire Denis",
+    "cast": [
+      "Juliette Binoche",
+      "Vincent Lindon",
+      "Grégoire Colin",
+      "Bulle Ogier",
+      "Issa Perica"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/w0jUcrS42AyPNgb1RwjDm0BLaZz.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/4g5kaH8gfujIS93gTzFLMeDN99R.jpg",
+    "tmdb_rating": 5.7,
+    "tmdb_votes": 112,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt13535920/"
+    }
+  },
+  "2834": {
+    "tmdb_id": 579496,
+    "title": "Call Jane",
+    "original_title": "Call Jane",
+    "overview": "A married woman with an unwanted pregnancy lives in a time in America where she can't get a legal abortion and works with a group of suburban women to find help.",
+    "runtime": 121,
+    "release_date": "2022-10-27",
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "countries": [
+      "GB",
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Phyllis Nagy",
+    "cast": [
+      "Elizabeth Banks",
+      "Sigourney Weaver",
+      "Chris Messina",
+      "Wunmi Mosaku",
+      "Kate Mara"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/hXm5yZO67InzxS9FPfulmxfPrCE.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/4AT2EM0wOkDB6kuClleU6ElIHyl.jpg",
+    "tmdb_rating": 6.5,
+    "tmdb_votes": 211,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt7461272/"
+    }
+  },
+  "2835": {
+    "tmdb_id": 728499,
+    "title": "A Piece of Sky",
+    "original_title": "Drii Winter",
+    "overview": "Although a lowlander, Marco is a robust fellow. He is now working as a farmhand for mountain farmer Alois in a remote Swiss alpine village and, even at the regulars’ table at the local inn, people are slowly learning to appreciate this iced tea drinker. Anna is a local village girl; she has a daughter, Julia, from a previous relationship. Some doubt whether this new relationship will work out – but not Marco or Anna. They get married. Their love is gentle and beautiful; unable to fully fathom it, they express it in simple words. The trust between them grows and their tenderness endures; the happiness they feel at every touch is only surpassed by the warmth of stroking a cow. But soon Marco seems to be losing control of his impulses more and more often.",
+    "runtime": 136,
+    "release_date": "2022-08-12",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "DE",
+      "CH"
+    ],
+    "original_language": "de",
+    "director": "Michael Koch",
+    "cast": [
+      "Michèle Brand",
+      "Simon Wisler",
+      "Jeroen Engelsman",
+      "Anna-Katharina Müller",
+      "Elin Zgraggen"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/A321Ov8q30b2LPiSnIw6TBeLXrG.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/7qn0L3SNP8dm1eoUVqo70JgZfng.jpg",
+    "tmdb_rating": 5.8,
+    "tmdb_votes": 20,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt14783042/"
+    }
+  },
+  "2836": {
+    "tmdb_id": 928715,
+    "title": "Everything Will Be OK",
+    "original_title": "Everything Will Be OK",
+    "overview": "After a century of genocidal ideologies and destructive speciesism, animals have enslaved humans and taken over the world. In a wave of hope, the statues of the past have been removed but new ones are being erected to suppress the will of the people. This is now a planet of apes, boars and lions, and a zoological revolution is reversing and recreating the atrocities of the 20th century.",
+    "runtime": 98,
+    "release_date": "2022-12-15",
+    "genres": [
+      "Documentary",
+      "Fantasy",
+      "Animation"
+    ],
+    "countries": [
+      "KH",
+      "FR"
+    ],
+    "original_language": "fr",
+    "director": "Rithy Panh",
+    "poster": "https://image.tmdb.org/t/p/w500/uy1YrrnVENLdrUiVSp69KEbdZI5.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/rBGkxjDVwAikItqdUnkFdPCx676.jpg",
+    "tmdb_rating": 6,
+    "tmdb_votes": 1,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt15386518/"
+    }
+  },
+  "2837": {
+    "tmdb_id": 926332,
+    "title": "The Line",
+    "original_title": "La ligne",
+    "overview": "Margaret, 35, has a history of violent behaviour which has cost her a romantic relationship. She has moved back in with her mother Christina, a fragile, immature 55-year-old woman who blames Margaret, her firstborn, for ruining her dreams of a career as a concert pianist. In a state of unbridled fury during an argument, Margaret hits Christina. The law steps in, further complicating family dynamics. As she awaits trial, Margaret is forbidden from coming into contact with her mother or within 100 metres of their home. This only intensifies her desire to be closer to her family. Every day, Margaret appears at this 100-metre threshold to see her 12-year-old sister Marion and give her music lessons.",
+    "runtime": 101,
+    "release_date": "2023-01-11",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "BE",
+      "FR",
+      "CH"
+    ],
+    "original_language": "fr",
+    "director": "Ursula Meier",
+    "cast": [
+      "Valeria Bruni Tedeschi",
+      "Stéphanie Blanchoud",
+      "Benjamin Biolay",
+      "Dali Benssalah",
+      "Elli Spagnolo"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/3UjMVqRyGwYmzizGxZfXjShIyEO.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/qpytCm6780mNs3z7ps9twm9oJAo.jpg",
+    "tmdb_rating": 5.6,
+    "tmdb_votes": 28,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt13086492/"
+    }
+  },
+  "2838": {
+    "tmdb_id": 822177,
+    "title": "Leonora addio",
+    "original_title": "Leonora addio",
+    "overview": "A tale of the three funerals for the ashes of Italian writer Luigi Pirandello intertwined with a murder committed by a young Sicilian immigrant boy in 1930s Brooklyn for what is described as a surreal, grotesque, complex narrative.",
+    "runtime": 90,
+    "release_date": "2022-02-17",
+    "genres": [
+      "Drama",
+      "Comedy",
+      "History"
+    ],
+    "countries": [
+      "FR",
+      "IT"
+    ],
+    "original_language": "it",
+    "director": "Paolo Taviani",
+    "cast": [
+      "Fabrizio Ferracane",
+      "Martina Catalfamo",
+      "Nathalie Rapti Gomez",
+      "Roberto Herlitzka",
+      "Claudio Bigagli"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/kKzk1ARlCDubcSpcGUa4G2tMNXM.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/t1heWGwej1OkXRJAZQlMeKUgMK4.jpg",
+    "tmdb_rating": 6.5,
+    "tmdb_votes": 39,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt13107800/"
+    }
+  },
+  "2839": {
+    "tmdb_id": 895659,
+    "title": "The Passengers of the Night",
+    "original_title": "Les Passagers de la nuit",
+    "overview": "On election night in 1981, celebrations spill out onto the street and there is an air of hope and change throughout Paris. But for Elisabeth, her marriage is coming to an end and she will now have to support herself and her two teenage children. She finds work at a late-night radio show and encounters a troubled teenager named Talulah whom she invites into her home.",
+    "runtime": 111,
+    "release_date": "2022-05-04",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "original_language": "fr",
+    "director": "Mikhaël Hers",
+    "cast": [
+      "Charlotte Gainsbourg",
+      "Quito Rayon Richter",
+      "Noée Abita",
+      "Megan Northam",
+      "Thibault Vinçon"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/t5UGtAsH24q3t9GQpj0A7t9HXY9.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/4F33fcmDrtwFhCwaE4qbgloRcq6.jpg",
+    "tmdb_rating": 6.9,
+    "tmdb_votes": 185,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt13846402/"
+    }
+  },
+  "2840": {
+    "tmdb_id": 859933,
+    "title": "Before, Now & Then",
+    "original_title": "Nana",
+    "overview": "Set against Indonesia’s turbulent post-independence years in the 1960s, the story revolves around the domestic life of a woman whose personal life has been completely overturned by the political turmoil.",
+    "runtime": 103,
+    "release_date": "2022-07-08",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "ID"
+    ],
+    "original_language": "su",
+    "director": "Kamila Andini",
+    "cast": [
+      "Happy Salma",
+      "Laura Basuki",
+      "Ibnu Jamil",
+      "Rieke Diah Pitaloka",
+      "Arswendy Bening Swara"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/6OQ4hzMLjzU0AZoRXWsCncV6Fnr.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/f50pMsnN51biKz1iL7OCX5iUzYZ.jpg",
+    "tmdb_rating": 6.8,
+    "tmdb_votes": 17,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt15215918/"
+    }
+  },
+  "2841": {
+    "tmdb_id": 807862,
+    "title": "Peter von Kant",
+    "original_title": "Peter von Kant",
+    "overview": "Peter von Kant, a successful, famous director, lives with his assistant Karl, whom he likes to mistreat and humiliate. Through the great actress Sidonie, he meets and falls in love with Amir, a handsome young man of modest means. He offers to share his apartment and help Amir break into the world of cinema. Several months later, Amir becomes a star. But as soon as he acquires fame, he breaks up with Peter, leaving him alone to face himself.",
+    "runtime": 85,
+    "release_date": "2022-07-06",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "countries": [
+      "FR",
+      "BE"
+    ],
+    "original_language": "fr",
+    "director": "François Ozon",
+    "cast": [
+      "Denis Ménochet",
+      "Isabelle Adjani",
+      "Khalil Ben Gharbia",
+      "Hanna Schygulla",
+      "Stefan Crepon"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/5ZTjS0XmJHCAcp0jWj6tR64hAeJ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/iozxwgTMgaqljPfZ5fE7913mLU.jpg",
+    "tmdb_rating": 5.8,
+    "tmdb_votes": 114,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt14336174/"
+    }
+  },
+  "2842": {
+    "tmdb_id": 915960,
+    "title": "Rabiye Kurnaz vs. George W. Bush",
+    "original_title": "Rabiye Kurnaz gegen George W. Bush",
+    "overview": "Desperate to help her son, Rabiye Kurnaz, a housewife and loving mother from Bremen, goes to the police, notifies authorities and almost despairs at their impotence and in the end, against all the odds, something truly remarkable happens.",
+    "runtime": 119,
+    "release_date": "2022-04-28",
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "countries": [
+      "FR",
+      "DE"
+    ],
+    "original_language": "de",
+    "director": "Andreas Dresen",
+    "cast": [
+      "Meltem Kaptan",
+      "Alexander Scheer",
+      "Charly Hübner",
+      "Abdullah Emre Öztürk",
+      "Nazmi Kırık"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/3BmgTsU9EPhnQKz4doNifwcV0Fz.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/reHX1X7D2kjGqNVDAGXyzezEAp5.jpg",
+    "tmdb_rating": 6.2,
+    "tmdb_votes": 60,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt13471738/"
+    }
+  },
+  "2843": {
+    "tmdb_id": 505570,
+    "title": "Rimini",
+    "original_title": "Rimini",
+    "overview": "Richie Bravo, once upon a time a successful pop star, chases after his faded fame in wintry Rimini. Trapped between permanent intoxication and concerts for busloads of tourists, his world starts to collapse when his adult daughter breaks into his life.",
+    "runtime": 115,
+    "release_date": "2022-04-08",
+    "genres": [
+      "Drama",
+      "Music"
+    ],
+    "countries": [
+      "AT",
+      "FR",
+      "DE"
+    ],
+    "original_language": "de",
+    "director": "Ulrich Seidl",
+    "cast": [
+      "Michael Thomas",
+      "Tessa Göttlicher",
+      "Hans-Michael Rehberg",
+      "Inge Maux",
+      "Claudia Martini"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/3DUhY8eB0X5NM6smvas8nfdUYZu.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/pJCfgXOKKnmeXPxV93qKimXNMwW.jpg",
+    "tmdb_rating": 6.3,
+    "tmdb_votes": 63,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt8956284/"
+    }
+  },
+  "2844": {
+    "tmdb_id": 928718,
+    "title": "Robe of Gems",
+    "original_title": "Manto de gemas",
+    "overview": "Deep in the Mexican countryside, a community is plagued by the constant threat of looming violence. Three women from different social classes—a maid, her wealthy employer, and a police officer—become tragically affected by a missing-person case related to organized crime.",
+    "runtime": 118,
+    "release_date": "2023-08-03",
+    "genres": [
+      "Drama",
+      "Crime",
+      "Mystery"
+    ],
+    "countries": [
+      "AR",
+      "MX",
+      "US"
+    ],
+    "original_language": "es",
+    "director": "Natalia López",
+    "cast": [
+      "Nailea Norvind",
+      "Juan Daniel Garcia Treviño",
+      "Sherlyn Zavala",
+      "Balam Toledo",
+      "Antonia Olivares"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/ngwbR086hoWfNRAaxdQ9foOt04e.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/yictpz0f4JqK8VorHj2sttSzqpl.jpg",
+    "tmdb_rating": 6.2,
+    "tmdb_votes": 8,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt17280362/"
+    }
+  },
+  "2845": {
+    "tmdb_id": 928713,
+    "title": "The Novelist's Film",
+    "original_title": "소설가의 영화",
+    "overview": "A novelist visits a bookstore run by a young colleague who's been out of touch, then takes a walk with a film director and his wife. She meets an actress and tries to convince her to make a film together.",
+    "runtime": 92,
+    "release_date": "2022-04-21",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "original_language": "ko",
+    "director": "Hong Sang-soo",
+    "cast": [
+      "Lee Hye-young",
+      "Kim Min-hee",
+      "Seo Young-hwa",
+      "Park Mi-so",
+      "Kwon Hae-hyo"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/5o4LNNBvc0kquSMaahjT2RTGFBR.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/pAxhLwCuA5HuuMtnHu9SebB26M2.jpg",
+    "tmdb_rating": 6.5,
+    "tmdb_votes": 50,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt17146978/"
+    }
+  },
+  "2846": {
+    "tmdb_id": 769466,
+    "title": "One Year, One Night",
+    "original_title": "Un año, una noche",
+    "overview": "Ramón and Céline are a young couple that attended a concert at the Bataclan theatre in Paris on the fateful night of November 13, 2015. They survive the attack, but when they leave the theatre, they are no longer the same. That night leaves a deep scar on both their lives and each tries to cope.",
+    "runtime": 130,
+    "release_date": "2022-10-21",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "FR",
+      "ES"
+    ],
+    "original_language": "es",
+    "director": "Isaki Lacuesta",
+    "cast": [
+      "Nahuel Pérez Biscayart",
+      "Noémie Merlant",
+      "Quim Gutiérrez",
+      "Alba Guilera",
+      "Natalia de Molina"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/n0uxUkswkmNCWn1w0x5920U1DWb.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/th0nXnLEg3MYKpNuLVselZFArn1.jpg",
+    "tmdb_rating": 6,
+    "tmdb_votes": 50,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt14104600/"
+    }
+  },
+  "2847": {
+    "tmdb_id": 925181,
+    "title": "That Kind of Summer",
+    "original_title": "Un été comme ça",
+    "overview": "In a countryside house where they are meant to explore the troubles in their sexuality, three women spend days and nights apprehending their inner demons. A serene German therapist and a kind-hearted social worker supervise them, help them and try to maintain the fragile balance of the group. During 26 days, in the midst of summer, Geisha, Léonie and Eugénie will have to refrain from breaking down, tame the whispers from present times and consider the future.",
+    "runtime": 137,
+    "release_date": "2022-07-19",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "original_language": "fr",
+    "director": "Denis Côté",
+    "cast": [
+      "Larissa Corriveau",
+      "Laure Giappiconi",
+      "Aude Mathieu",
+      "Anne Ratte-Polle",
+      "Samir Guesmi"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/45eDLQdcs4x08pUP33xP4ekktND.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/aXYYNOX7MRfL8yIeEQVMVzKqK9s.jpg",
+    "tmdb_rating": 3.7,
+    "tmdb_votes": 18,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt16944826/"
+    }
+  },
+  "2848": {
+    "tmdb_id": 928720,
+    "title": "Return to Dust",
+    "original_title": "隐入尘烟",
+    "overview": "Humble, unassuming Ma and timid Cao have been cast off by their families and forced into an arranged marriage. They have to combine their strength and build a home to survive. In the face of much adversity, an unexpected bond begins to blossom, as both Ma and Cao, uniting with Earth's cycles, create a haven for themselves in which they can thrive.",
+    "runtime": 133,
+    "release_date": "2022-07-08",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "original_language": "zh",
+    "director": "Li Ruijun",
+    "cast": [
+      "Wu Renlin",
+      "Hai Qing",
+      "Yang Guangrui",
+      "Dengfeng Zhao",
+      "Cailan Wang"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/wUf7BWSN16KOdO70P3UOy5FRWRg.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/e1Z4TfgRYdwen5Hzj5kVUZQEOeL.jpg",
+    "tmdb_rating": 7.3,
+    "tmdb_votes": 211,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt17097088/"
+    }
+  },
+  "2849": {
+    "tmdb_id": 928723,
+    "title": "A Little Love Package",
+    "original_title": "A Little Love Package",
+    "overview": "Vienna, 2019 – the end of an era. The smoking ban in public places means that a part of Kaffeehaus culture has disappeared. Of all moments, this is the one that Angeliki chooses to buy an apartment with help from her interior designer friend, Carmen. Angeliki seems to have something against all of them: either the parquet floors creak, the tiles are the wrong colour or she is bothered by the proximity to a restaurant. How will she ever find a new home in this environment? Carmen feels like she’s talking to a brick wall. Moreover, she simply cannot understand why Angeliki is refusing to part with her money. A Journey from Vienna to Malaga, via salt flats overcast by mysterious shadows. A homage to the Austrian capital and the bygone splendour in ordinary things.",
+    "runtime": 81,
+    "release_date": "2022-02-17",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "AR",
+      "AT"
+    ],
+    "original_language": "en",
+    "director": "Gastón Solnicki",
+    "cast": [
+      "Angeliki Papoulia",
+      "Carmen Chaplin",
+      "Mario Bellatin",
+      "Nikolaus Weidinger",
+      "Han-Gyeol Lie"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/CM9uzqgFsZvGioAIpigfRkzBGz.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/5GZYx6QXTYXCpOphuCLZQ8X4f8C.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt17305656/"
+    }
+  },
+  "2850": {
+    "tmdb_id": 928206,
+    "title": "See You Friday, Robinson",
+    "original_title": "À vendredi, Robinson",
+    "overview": "\"We should start with a correspondence, maybe we will not correspond to one another. Ebrahim can send me a letter this Friday, and I'll answer him next Friday. So, see you Friday, Robinson!\" And so, Jean-Luc Godard stages himself in his daily thought, wisely desperate, and sends images and words from Switzerland to the other side of the Channel. In his mansion in Sussex, Ebrahim Golestan tries to decode these UFO-messages and skilfully seeks to bring them back to the appearance of reason. And so on, until the day a veil falls over the two Gods on the run. Does the existence of poets still have any meaning in these times of distress?",
+    "runtime": 96,
+    "release_date": "2022-09-14",
+    "genres": [
+      "Documentary"
+    ],
+    "countries": [
+      "FR",
+      "IR",
+      "LB",
+      "CH"
+    ],
+    "original_language": "fr",
+    "director": "Mitra Farahani",
+    "cast": [
+      "Jean-Luc Godard",
+      "Ebrahim Golestan",
+      "Ashi Esfandiary"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/4AoAjx7CzsQl6zPIeTosodouzuG.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/meSPlzensyJP4X5lRzo6ljmGBZs.jpg",
+    "tmdb_rating": 6.3,
+    "tmdb_votes": 5,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt8841562/"
+    }
+  },
+  "2851": {
+    "tmdb_id": 928725,
+    "title": "Axiom",
+    "original_title": "Axiom",
+    "overview": "Julius, an eloquent young museum attendant loved by the people around him, invites his colleagues on a sailing trip on his aristocratic family's boat, but something goes wrong. Julius is not who he seems to be.",
+    "runtime": 108,
+    "release_date": "2022-06-30",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "original_language": "de",
+    "director": "Jöns Jönsson",
+    "cast": [
+      "Moritz von Treuenfels",
+      "Ricarda Seifried",
+      "Thomas Schubert",
+      "Petra Welteroth",
+      "Maximilian Hildebrandt"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/bwgnBbIPSTQkXPEA8ILgVw0vfUA.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/7es6i2meBupoEfBj6tUBIIpzRFx.jpg",
+    "tmdb_rating": 5.9,
+    "tmdb_votes": 24,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt14581084/"
+    }
+  },
+  "2852": {
+    "tmdb_id": 619165,
+    "title": "Brother in Every Inch",
+    "original_title": "Брат во всëм",
+    "overview": "Brothers Mitya and Andrey want nothing more than to conquer the skies flying jets. To achieve this, they undergo Russian military pilot training. The twins watch out for each other - in every situation.",
+    "runtime": 78,
+    "release_date": "2022-03-03",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "original_language": "ru",
+    "director": "Alexander Zolotukhin",
+    "cast": [
+      "Nikolay Zhuravlev",
+      "Sergey Zhuravlev",
+      "Alexandra Shevyreva",
+      "Mikhail Klabukov",
+      "Egor Kutushov"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/ea39gWMSDU1YjgmvR0UlpAOuYIC.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/9IK4n6IACrsGlbr5U7TVaxbNKJp.jpg",
+    "tmdb_rating": 6.3,
+    "tmdb_votes": 11,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt17307420/"
+    }
+  },
+  "2853": {
+    "tmdb_id": 920772,
+    "title": "Coma",
+    "original_title": "Coma",
+    "overview": "Amidst a period of unprecedented world events, an eighteen-year-old girl’s life is placed on hold. Isolated in her bedroom, she falls under the spell of the mysterious vlogger Patricia Coma. As time carries on, the lines between her dreams, fears, hopes, and reality begin to blur into one another.",
+    "runtime": 81,
+    "release_date": "2022-11-16",
+    "genres": [
+      "Drama",
+      "Fantasy"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "original_language": "fr",
+    "director": "Bertrand Bonello",
+    "cast": [
+      "Julia Faure",
+      "Louise Labèque",
+      "Ninon François",
+      "Bonnie Banane",
+      "Adilé David"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/xpxquNuhQQWjYLMzP2Fx4Ii2eFB.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/dGQOIzg3zjeaDSCczUPnYfAxS3D.jpg",
+    "tmdb_rating": 5.7,
+    "tmdb_votes": 32,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt17308130/"
+    }
+  },
+  "2854": {
+    "tmdb_id": 928727,
+    "title": "Father's Day",
+    "original_title": "Father's Day",
+    "overview": "Three family stories intersect in present-day Rwanda: a mother tries to cope with the loss of her son, a young woman takes care of the ailing father she never truly loved, and a small-time criminal prepares his son for a life of living by his wits.",
+    "runtime": 111,
+    "release_date": "2022-02-16",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "RW"
+    ],
+    "original_language": "rw",
+    "director": "Kivu Ruhorahoza",
+    "cast": [
+      "Médiatrice Kayitesi",
+      "Aline Amike",
+      "Yves Kijyana",
+      "Cedric Ishimwe",
+      "André Musagara"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/n7DYbp7JQOWxBvc6fMQjsOVBoXE.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/bOE7d5bojP5cPOUWrJWrl31kM4f.jpg",
+    "tmdb_rating": 2,
+    "tmdb_votes": 1,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt17308496/"
+    }
+  },
+  "2855": {
+    "tmdb_id": 848818,
+    "title": "Flux Gourmet",
+    "original_title": "Flux Gourmet",
+    "overview": "At an institute devoted to culinary and alimentary performance, a collective finds themselves embroiled in power struggles, artistic vendettas and gastrointestinal disorders.",
+    "runtime": 112,
+    "release_date": "2022-06-24",
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Horror"
+    ],
+    "countries": [
+      "GB",
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Peter Strickland",
+    "cast": [
+      "Asa Butterfield",
+      "Gwendoline Christie",
+      "Ariane Labed",
+      "Fatma Mohamed",
+      "Makis Papadimitriou"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/gg9jup8MM9HjT7nvQ0h2gKDpi5W.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/5nsS8KmpSLGiPvjGlBkOAhvDIPm.jpg",
+    "tmdb_rating": 5.6,
+    "tmdb_votes": 64,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt15010292/"
+    }
+  },
+  "2856": {
+    "tmdb_id": 928728,
+    "title": "The City and the City",
+    "original_title": "Η Πόλη Και Η Πόλη",
+    "overview": "Six chapters describe the lives and perils of Thessaloniki’s Jewish community which was almost entirely exterminated by the Nazis in 1943. Past and present become an echo chamber in which the viewer experiences, aghast, the madness of humanity.",
+    "runtime": 87,
+    "release_date": "2022-04-07",
+    "genres": [
+      "Drama",
+      "Documentary"
+    ],
+    "countries": [
+      "GR"
+    ],
+    "original_language": "el",
+    "director": "Hristos Passalis, Syllas Tzoumerkas",
+    "cast": [
+      "Vasilis Kanakis",
+      "Alexandros Vardaxoglou",
+      "Angeliki Papoulia",
+      "Argyris Xafis",
+      "Niki Papandreou"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/kYusjmfChNoOJ4zml68LsXLPDjk.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/drZVhvVpItXzBrwX2oYBlAMo83M.jpg",
+    "tmdb_rating": 3,
+    "tmdb_votes": 1,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt14210824/"
+    }
+  },
+  "2857": {
+    "tmdb_id": 928729,
+    "title": "American Journal",
+    "original_title": "Journal d'Amérique",
+    "overview": "A cinematic essay interweaving private archive images and a mixture of reflective, speculative and poetic intertitles that, like “an old movie from the 20th century”, invites us to meditate on what Des Pallières once liked to call “our old homeland”.",
+    "runtime": 112,
+    "release_date": "2023-11-22",
+    "genres": [
+      "Documentary"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "original_language": "fr",
+    "director": "Arnaud des Pallières",
+    "poster": "https://image.tmdb.org/t/p/w500/lGTzfWLvi02LPD0L9Rj8Upn8VQT.jpg",
+    "tmdb_rating": 5.2,
+    "tmdb_votes": 3,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt17309428/"
+    }
+  },
+  "2858": {
+    "tmdb_id": 928730,
+    "title": "Small, Slow But Steady",
+    "original_title": "ケイコ 目を澄ませて",
+    "overview": "Keiko surprises everyone when she overcomes adversity to win her first two boxing fights. But when an unexpected incident threatens the closure of her gym, she is pushed further than she thought possible.",
+    "runtime": 99,
+    "release_date": "2022-12-16",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "FR",
+      "JP"
+    ],
+    "original_language": "ja",
+    "director": "Sho Miyake",
+    "cast": [
+      "Yukino Kishii",
+      "Tomokazu Miura",
+      "Masaki Miura",
+      "Shinichiro Matsuura",
+      "Himi Sato"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/gIsth8GstyIznK0TMiWP6pVdxA2.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/y4qwZAgnR1v7DtMYSwQ6IjJdDBG.jpg",
+    "tmdb_rating": 6.9,
+    "tmdb_votes": 62,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt17309864/"
+    }
+  },
+  "2859": {
+    "tmdb_id": 928731,
+    "title": "Mutzenbacher",
+    "original_title": "Mutzenbacher",
+    "overview": "An audition for men aged between 16 and 99. There are no props nor make-up, just pure improvisation. All that is required is the willingness to engage openly with the topic and language of the words on the page. No small challenge, since the text in question is the scandalous novel published anonymously in 1906 “Josefine Mutzenbacher, or the Life Story of a Viennese Whore, as Told by Herself” which, as this film confirms, continues to be the subject of passionate and controversial discussions about desire, even today. What might be world-class pornographic literature for some is seen by others as an abusive depiction of child sexuality.",
+    "runtime": 101,
+    "release_date": "2022-06-16",
+    "genres": [
+      "Documentary"
+    ],
+    "countries": [
+      "AT"
+    ],
+    "original_language": "de",
+    "director": "Ruth Beckermann",
+    "cast": [
+      "Ruth Beckermann",
+      "Alexander Diwiak",
+      "Ben Schidla"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/3K7abgFIZ25F0zMwCHiIWp4tMGx.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/qjCTh48h1Efi0SGuDCMAvaEoe66.jpg",
+    "tmdb_rating": 6.1,
+    "tmdb_votes": 11,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt17309916/"
+    }
+  },
+  "2860": {
+    "tmdb_id": 928733,
+    "title": "Queens of the Qing Dynasty",
+    "original_title": "Queens of the Qing Dynasty",
+    "overview": "While recovering in the hospital, a suicidal teenager forms an intimate bond with the Shanghai student assigned to watch over her, as their nightly exchange of secrets and texts alters the course of both their lives.",
+    "runtime": 122,
+    "release_date": "2022-02-16",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "CA",
+      "CN",
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Ashley McKenzie",
+    "cast": [
+      "Sarah Walker",
+      "Ziyin Zheng",
+      "Xue Yao",
+      "Cherlena Brake",
+      "Julia Rideout"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/4x99g7ecdHnTsW8AL2PC1FgglKt.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/atebuXr7etvXsKS1zW8LiugIirj.jpg",
+    "tmdb_rating": 4,
+    "tmdb_votes": 4,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt13368192/"
+    }
+  },
+  "2861": {
+    "tmdb_id": 928735,
+    "title": "Sun",
+    "original_title": "Sonne",
+    "overview": "Young women, Austrian style. Yesmin is Kurdish and wears a headscarf. She shoots a cheeky burqa video with Bella and Nati which makes the trio famous in the Muslim community. Controversy and alienation ensue. Immediate, exuberantly introverted cinema.",
+    "runtime": 87,
+    "release_date": "2022-02-16",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "AT"
+    ],
+    "original_language": "de",
+    "director": "Kurdwin Ayub",
+    "cast": [
+      "Melina Benli",
+      "Law Wallner",
+      "Maya Wopienka",
+      "Kerim Dogan",
+      "Omar Ayub"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/wyfiXDcI6BIiF4rTD6jpthYtNMP.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/w9rbv3P0OF13761PrMYtSsRptQ4.jpg",
+    "tmdb_rating": 5.5,
+    "tmdb_votes": 17,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt15429106/"
+    }
+  },
+  "2862": {
+    "tmdb_id": 749136,
+    "title": "Unrest",
+    "original_title": "Unrueh",
+    "overview": "New technologies are transforming a 19th-century watchmaking town in Switzerland. Josephine, a young factory worker, produces the unrest wheel, swinging in the heart of the mechanical watch. Exposed to new ways of organizing money, time and labor, she gets involved with the local anarchist movement.",
+    "runtime": 94,
+    "release_date": "2022-11-04",
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "countries": [
+      "CH"
+    ],
+    "original_language": "de",
+    "director": "Cyril Schäublin",
+    "cast": [
+      "Clara Gostynski",
+      "Alexei Evstratov",
+      "Monika Stalder",
+      "Hélio Thiémard",
+      "Li Tavor"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/yFPkFOBDxDBZxpfjhqhjl3bJaGu.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/1LLyFDrw3fdjyikDspNPesIxcKm.jpg",
+    "tmdb_rating": 6.5,
+    "tmdb_votes": 49,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt11409736/"
+    }
+  },
+  "2863": {
+    "tmdb_id": 928737,
+    "title": "The Death of My Mother",
+    "original_title": "Zum Tod meiner Mutter",
+    "overview": "Kerstin is in great pain. Her daughter Juliane wants to help her die, but the law forbids it. Jessica Krummacher’s second feature describes the most important of events via tiny details that stay with us and get under our skin.",
+    "runtime": 135,
+    "release_date": "2022-06-09",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "original_language": "de",
+    "director": "Jessica Krummacher",
+    "cast": [
+      "Birte Schnöink",
+      "Elsie de Brauw",
+      "Susanne Bredehöft",
+      "Christian Löber",
+      "Gina Haller"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/secmkMo53ZliNAgBVBfmH2NTxca.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/6ZJiuekjv4G2CrksEKRxdwIgmPh.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt17009236/"
+    }
+  },
+  "2864": {
+    "tmdb_id": 1053600,
+    "title": "20,000 Species of Bees",
+    "original_title": "20.000 especies de abejas",
+    "overview": "Lucía is an eight-year-old girl, who sometimes struggles as the world tries to catch up with the fact that she is trans. As the summer holidays pass, she explores her femininity alongside the women of her family who at the same time reflect on their own femininity.",
+    "runtime": 127,
+    "release_date": "2023-04-21",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "original_language": "es",
+    "director": "Estibaliz Urresola Solaguren",
+    "cast": [
+      "Sofía Otero",
+      "Patricia López Arnaiz",
+      "Ane Gabarain",
+      "Itziar Lazkano",
+      "Martxelo Rubio"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/4MEEVVyZ1L9Lr8GeSOyFiGM3cmB.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/7iRYPUiKsi6Q7Km4QAwz7TVK47e.jpg",
+    "tmdb_rating": 7.1,
+    "tmdb_votes": 122,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt21113962/"
+    }
+  },
+  "2865": {
+    "tmdb_id": 954905,
+    "title": "Art College 1994",
+    "original_title": "艺术学院1994",
+    "overview": "In the 1990s, a group of students on the campus of the Chinese Southern Academy of Arts are pursuing their studies and preparing to face the world. China is opening up to the West and the students’ lives are a tangle of love stories and friendships, artistic research, ideals and ambitions brought about by new influences. Caught between tradition and modernity, they have to decide who they want to become.",
+    "runtime": 119,
+    "release_date": "2025-06-21",
+    "genres": [
+      "Animation",
+      "Comedy"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "original_language": "zh",
+    "director": "Liu Jian",
+    "cast": [
+      "Dong Zijian",
+      "Zhou Dongyu",
+      "Ren Ke",
+      "Jiang Yilei",
+      "Huang Bo"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/yKjolzlO4or3GKNoMEdPostoxmG.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/jJ1757F6MCpab42xt4BFRoqxXxD.jpg",
+    "tmdb_rating": 6.6,
+    "tmdb_votes": 9,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt1872160/"
+    }
+  },
+  "2866": {
+    "tmdb_id": 1075840,
+    "title": "The Shadowless Tower",
+    "original_title": "白塔之光",
+    "overview": "Gu Wentong learns the whereabouts of his father, who lost contact with him more than 40 years ago. Encouraged by new friend, photographer Ouyang Wenhui, Gu Wentong decides to face his father and rebuild the long-lost father-son relationship.",
+    "runtime": 144,
+    "release_date": "2023-10-27",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "original_language": "zh",
+    "director": "Zhang Lu",
+    "cast": [
+      "Xin Baiqing",
+      "Huang Yao",
+      "Tian Zhuangzhuang",
+      "Li Qinqin",
+      "Nan Ji"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/v5KK3jQzb9iMyZFozFp22PKdfqG.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/njDzC6pFQKjqv60LpJq5LOiPHV7.jpg",
+    "tmdb_rating": 6.7,
+    "tmdb_votes": 16,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt26441793/"
+    }
+  },
+  "2867": {
+    "tmdb_id": 1069164,
+    "title": "Till the End of the Night",
+    "original_title": "Bis ans Ende der Nacht",
+    "overview": "The undercover investigator Robert is supposed to win the trust of a criminal through a fictitious relationship with Leni. However, the feelings are not just a game. It is the spied criminal, of all people, who makes him confront his contradictory feelings…",
+    "runtime": 123,
+    "release_date": "2023-06-22",
+    "genres": [
+      "Thriller",
+      "Drama"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "original_language": "de",
+    "director": "Christoph Hochhäusler",
+    "cast": [
+      "Thea Ehre",
+      "Timocin Ziegler",
+      "Michael Sideris",
+      "Rosa Enskat",
+      "Ioana Iacob"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/jzyaGYlB60HMFzuFZkHHdDUxPyI.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/A6TR5JGvBtoOMXQJjt4oeQdGyG3.jpg",
+    "tmdb_rating": 4,
+    "tmdb_votes": 11,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt23283892/"
+    }
+  },
+  "2868": {
+    "tmdb_id": 1016084,
+    "title": "BlackBerry",
+    "original_title": "BlackBerry",
+    "overview": "Two mismatched entrepreneurs – egghead innovator Mike Lazaridis and cut-throat businessman Jim Balsillie – joined forces in an endeavour that was to become a worldwide hit in little more than a decade. The story of the meteoric rise and catastrophic demise of the world's first smartphone.",
+    "runtime": 119,
+    "release_date": "2023-02-13",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "History"
+    ],
+    "countries": [
+      "CA",
+      "US",
+      "FI"
+    ],
+    "original_language": "en",
+    "director": "Matt Johnson",
+    "cast": [
+      "Jay Baruchel",
+      "Glenn Howerton",
+      "Matt Johnson",
+      "Saul Rubinek",
+      "Cary Elwes"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/nQSvHZDuMlrZdm7ooMo8gb4CXhW.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/cUHxmWfkp6se0Rt10Kr86bMCYDE.jpg",
+    "tmdb_rating": 7.19,
+    "tmdb_votes": 1017,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt21867434/"
+    }
+  },
+  "2869": {
+    "tmdb_id": 922830,
+    "title": "Disco Boy",
+    "original_title": "Disco Boy",
+    "overview": "After a painful journey through Europe, Aleksei, a Belarusian, joins the Foreign Legion in France and clings to a confused hope of a European identity. Jomo, a Nigerian, fights for the survival and durability of his people in the Niger Delta and is ready to die to defend his ideas. These two young people who are sacrificed and smashed together will, against all odds, meet and their destinies will merge to continue across borders, bodies, life and death...",
+    "runtime": 92,
+    "release_date": "2023-03-09",
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "countries": [
+      "BE",
+      "FR",
+      "IT",
+      "PL"
+    ],
+    "original_language": "fr",
+    "director": "Giacomo Abbruzzese",
+    "cast": [
+      "Franz Rogowski",
+      "Morr Ndiaye",
+      "Laëtitia Ky",
+      "Leon Lučev",
+      "Matteo Olivetti"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/cYsAJeLh9LmesAnPjdTaZEdr1bP.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/fGVLgcajve9IoLxvFlkn8aFFMVE.jpg",
+    "tmdb_rating": 6.435,
+    "tmdb_votes": 85,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt22180518/"
+    }
+  },
+  "2870": {
+    "tmdb_id": 978580,
+    "title": "Ingeborg Bachmann – Journey into the Desert",
+    "original_title": "Ingeborg Bachmann - Reise in die Wüste",
+    "overview": "When Ingeborg Bachmann and Max Frisch meet for the first time in Paris in the summer of 1958, they are already international celebrities of the literary world. In the four years that follow, they dabble in great love and an open relationship between his hometown of Zurich and her adopted Rome.",
+    "runtime": 110,
+    "release_date": "2023-06-09",
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "countries": [
+      "DE",
+      "AT",
+      "LU",
+      "CH"
+    ],
+    "original_language": "de",
+    "director": "Margarethe von Trotta",
+    "cast": [
+      "Vicky Krieps",
+      "Ronald Zehrfeld",
+      "Tobias Resch",
+      "Basil Eidenbenz",
+      "Luna Wedler"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/ju7p6Ak0moeIkwac4OI7yahw1yz.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/r4EJehUBOvu2CeyarPH7fF8eaeC.jpg",
+    "tmdb_rating": 6.2,
+    "tmdb_votes": 19,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt16103266/"
+    }
+  },
+  "2871": {
+    "tmdb_id": 1045205,
+    "title": "Someday We'll Tell Each Other Everything",
+    "original_title": "Irgendwann werden wir uns alles erzählen",
+    "overview": "Set in a warm summer in 1990 in former East Germany, it follows a young woman who begins a relationship with a charismatic farmer who is twice her age.",
+    "runtime": 124,
+    "release_date": "2023-04-13",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "original_language": "de",
+    "director": "Emily Atef",
+    "cast": [
+      "Marlene Burow",
+      "Felix Kramer",
+      "Cedric Eich",
+      "Silke Bodenbender",
+      "Christine Schorn"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/2tcpYiiLFXsFqFWkEbINwzDAXKL.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/8rStn8Axrw8ZFX2yxaTEPRFk9HU.jpg",
+    "tmdb_rating": 5.8,
+    "tmdb_votes": 51,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt21654390/"
+    }
+  },
+  "2872": {
+    "tmdb_id": 920767,
+    "title": "The Plough",
+    "original_title": "Le Grand Chariot",
+    "overview": "Three siblings comprise the latest generation in a family of puppeteers led with passion by their father. They are magicians of a kind, but can barely make ends meet, working mainly for the love of their craft. Their grandmother contributes too, not only as a seamstress but also as a repository of memories and wisdom. A tragic event will challenge the desire of each sibling to carry on.",
+    "runtime": 95,
+    "release_date": "2023-03-08",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "FR",
+      "CH"
+    ],
+    "original_language": "fr",
+    "director": "Philippe Garrel",
+    "cast": [
+      "Louis Garrel",
+      "Esther Garrel",
+      "Aurélien Recoing",
+      "Léna Garrel",
+      "Damien Mongin"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/erpCOi8yiq0kiLGTSUfHvS0I4ae.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/lIXq0QVQBLT8WEn6i5iegqvOrpx.jpg",
+    "tmdb_rating": 5.5,
+    "tmdb_votes": 20,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt15531718/"
+    }
+  },
+  "2873": {
+    "tmdb_id": 1077670,
+    "title": "Limbo",
+    "original_title": "Limbo",
+    "overview": "Travis, a jaded detective, arrives in the remote outback town of Limbo to investigate the cold case murder of local Indigenous girl Charlotte Hayes 20 years ago. As truths about the murder begin to unfold, the detective gains a new insight into the unsolved case.",
+    "runtime": 108,
+    "release_date": "2023-05-18",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "countries": [
+      "AU"
+    ],
+    "original_language": "en",
+    "director": "Ivan Sen",
+    "cast": [
+      "Simon Baker",
+      "Rob Collins",
+      "Natasha Wanganeen",
+      "Nicholas Hope",
+      "Mark Coe"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/g9I1TsGYWMOiFSMfyRTnjhP9hdN.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/yOolpgCdBtn7RH9JQQi8rI47HAL.jpg",
+    "tmdb_rating": 6.1,
+    "tmdb_votes": 48,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt21833834/"
+    }
+  },
+  "2874": {
+    "tmdb_id": 1648274,
+    "title": "Bad Living",
+    "original_title": "Mal Viver",
+    "overview": "In a family-run hotel near the northern coast of Portugal, several women from the same family, spanning different generations, live together. Their relationship, poisoned by bitterness, struggles to survive in the decaying hotel. The unexpected arrival of a granddaughter in this claustrophobic space provokes turmoil and rekindles latent hatreds and accumulated resentments.",
+    "runtime": 128,
+    "release_date": "2023-05-11",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "PT",
+      "FR"
+    ],
+    "original_language": "pt",
+    "director": "João Canijo",
+    "cast": [
+      "Anabela Moreira",
+      "Rita Blanco",
+      "Madalena Almeida",
+      "Cleia Almeida",
+      "Vera Barreto"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/3xvncDHQPR7sbezgiRaW4AMk6gO.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/7dmDMOKwtRlFZzp1z1TsfCpNnuX.jpg",
+    "tmdb_rating": 4.8,
+    "tmdb_votes": 2,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt14007288/"
+    }
+  },
+  "2875": {
+    "tmdb_id": 843942,
+    "title": "Manodrome",
+    "original_title": "Manodrome",
+    "overview": "Ralphie is an Uber driver and aspiring bodybuilder who is inducted into a libertarian masculinity cult and loses his grip on reality when his repressed desires are awakened.",
+    "runtime": 96,
+    "release_date": "2023-11-10",
+    "genres": [
+      "Mystery",
+      "Thriller",
+      "Drama"
+    ],
+    "countries": [
+      "GB",
+      "US"
+    ],
+    "original_language": "en",
+    "director": "John Trengove",
+    "cast": [
+      "Jesse Eisenberg",
+      "Adrien Brody",
+      "Odessa Young",
+      "Philip Ettinger",
+      "Sallieu Sesay"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/nSAqIzuCqCQAt3HFsHwiffFSj96.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/oTmE2OqoNxpZwZOFBtQWxyZwKr0.jpg",
+    "tmdb_rating": 5,
+    "tmdb_votes": 113,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt14813150/"
+    }
+  },
+  "2876": {
+    "tmdb_id": 666942,
+    "title": "Music",
+    "original_title": "Music",
+    "overview": "Abandoned at birth in the Greek mountains on a stormy night, Jon is taken in and adopted, without having known his father or mother.  As a young man, he meets Iro, a warden in the prison where he is incarcerated after a deadly tragic accident. She seems to seek out his presence, takes care of him, records music for him. Jon’s eyesight begins to fail... From then on, for every loss he suffers, he will gain something in return. Thus, in spite of going blind, he will live his life more fully than ever.",
+    "runtime": 109,
+    "release_date": "2023-03-08",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "DE",
+      "FR",
+      "RS"
+    ],
+    "original_language": "de",
+    "director": "Angela Schanelec",
+    "cast": [
+      "Aliocha Schneider",
+      "Agathe Bonitzer",
+      "Marissa Triantafyllidou",
+      "Argyris Xafis",
+      "Frida Tarana"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/1umDdnIslIJZOxZ5WSbEt7aTVCF.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/pU5L09QsIEGRer4jK5TOdSeGDFK.jpg",
+    "tmdb_rating": 5.5,
+    "tmdb_votes": 20,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt15547924/"
+    }
+  },
+  "2877": {
+    "tmdb_id": 1070449,
+    "title": "On the Adamant",
+    "original_title": "Sur l'Adamant",
+    "overview": "The Adamant is a unique day-care centre. A floating structure located on the Seine in the heart of Paris, it welcomes adults suffering from mental disorders, offering the kind of care that grounds them in time and space and helps them to recover or keep up their spirits. The team running it tries to resist the deterioration and dehumanisation of psychiatry as best as they can.",
+    "runtime": 109,
+    "release_date": "2023-03-22",
+    "genres": [
+      "Documentary"
+    ],
+    "countries": [
+      "FR",
+      "JP"
+    ],
+    "original_language": "fr",
+    "director": "Nicolas Philibert",
+    "cast": [
+      "Mamadi Barri",
+      "Walid Benziane",
+      "Sabine Berlière",
+      "Romain Bernardin",
+      "Jean-Paul Hazan"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/g4j8NiY6JZ6zHdWktCbPHaCG1HJ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/uEj5FORyXDAG7v2YaT7Zlr8QAJm.jpg",
+    "tmdb_rating": 7,
+    "tmdb_votes": 46,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt26448811/"
+    }
+  },
+  "2878": {
+    "tmdb_id": 1024707,
+    "title": "The Survival of Kindness",
+    "original_title": "The Survival of Kindness",
+    "overview": "In a cage on a trailer in the middle of the desert, BlackWoman is abandoned, left to die. But BlackWoman seems not ready. She escapes, journeying through pestilence and persecution, from desert to mountain and finally to city, on a quest for an unknown beginning. But the city is more uncertain even than the desert, and recaptured, BlackWoman must find another escape. Or does she?",
+    "runtime": 96,
+    "release_date": "2023-05-04",
+    "genres": [
+      "Mystery",
+      "Fantasy",
+      "Science Fiction"
+    ],
+    "countries": [
+      "AU"
+    ],
+    "original_language": "en",
+    "director": "Rolf de Heer",
+    "cast": [
+      "Mwajemi Hussein",
+      "Deepthi Sharma",
+      "Darsan Sharma",
+      "Gary Waddell",
+      "Natasha Wanganeen"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/eT7Hu941qjDgWjYdZImLgkR0O00.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/48fDis1ieHdrJ9XooW0yNQK2h4H.jpg",
+    "tmdb_rating": 7.1,
+    "tmdb_votes": 10,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt15831022/"
+    }
+  },
+  "2879": {
+    "tmdb_id": 958186,
+    "title": "Tótem",
+    "original_title": "Tótem",
+    "overview": "In a bustling Mexican household, seven-year-old Sol is swept up in a whirlwind of preparations for the birthday party for her father, Tona, led by her mother, aunts, and other relatives. As the day goes on, building to an event both anticipated and dreaded, Sol begins to understand the gravity of the celebration this year and watches as her family does the same.",
+    "runtime": 95,
+    "release_date": "2023-09-07",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "DK",
+      "FR",
+      "MX"
+    ],
+    "original_language": "es",
+    "director": "Lila Avilés",
+    "cast": [
+      "Naíma Sentíes",
+      "Montserrat Marañon",
+      "Marisol Gasé",
+      "Saori Gurza",
+      "Mateo García Elizondo"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/gBIQrOpneWqOYA1ZBIvaClm8zuH.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/55ryL0YfqbuYDHaQJY6qlAb6M7a.jpg",
+    "tmdb_rating": 6.8,
+    "tmdb_votes": 100,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt26315142/"
+    }
+  },
+  "2880": {
+    "tmdb_id": 1077675,
+    "title": "The Klezmer Project",
+    "original_title": "Adentro mío estoy bailando",
+    "overview": "A Jewish wedding cameraman falls in love with a klezmer clarinetist and pretends to be making a documentary in order to spend time with her. His fake project leads to a real journey through Eastern Europe in search of lost klezmer melodies and the remnants of Yiddish culture. A documentary-fiction hybrid. Winner of the Best First Feature Award at the Berlin Film Festival.",
+    "runtime": 117,
+    "release_date": "2024-05-30",
+    "genres": [
+      "Documentary",
+      "Romance",
+      "Music",
+      "Comedy",
+      "Drama"
+    ],
+    "countries": [
+      "AR",
+      "AT"
+    ],
+    "original_language": "es",
+    "director": "Paloma Schachmann, Leandro Koch",
+    "cast": [
+      "Leandro Koch",
+      "Paloma Schachmann",
+      "Perla Sneh",
+      "Rebeca Yanover",
+      "César Lerner"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/2VeciH8pecDJ4l2hw6yWSLEq4Ov.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/fYMa4D2v8h8WVaGfxEhKqQEoCYg.jpg",
+    "tmdb_rating": 8.3,
+    "tmdb_votes": 3,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt26448952/"
+    }
+  },
+  "2881": {
+    "tmdb_id": 1062526,
+    "title": "The Echo",
+    "original_title": "El eco",
+    "overview": "In the remote village of El Echo that exists outside of time, the children care for the sheep and their elders. While the frost and drought punish the land, they learn to understand death, illness and love with each act, word and silence of their parents. A story about the echo of what clings to the soul, about the certainty of shelter provided by those around us, about rebellion and vertigo in the face of life. About growing up.",
+    "runtime": 102,
+    "release_date": "2024-02-20",
+    "genres": [
+      "Documentary"
+    ],
+    "countries": [
+      "DE",
+      "MX"
+    ],
+    "original_language": "es",
+    "director": "Tatiana Huezo",
+    "cast": [
+      "Montserrat Hernández Hernández",
+      "Luz María Vázquez González",
+      "Sarahí Rojas Hernández",
+      "María de los Ángeles Pacheco Tapia",
+      "William Antonio Vázquez González"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/x3lQ0g5gP7DklRzFgXdM3s5oryZ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/xOQyJ0vg87NxKhBFo5oscYtMshx.jpg",
+    "tmdb_rating": 7,
+    "tmdb_votes": 17,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt26448953/"
+    }
+  },
+  "2882": {
+    "tmdb_id": 1077676,
+    "title": "In the Blind Spot",
+    "original_title": "Im toten Winkel",
+    "overview": "A film crew from Germany, filming in a remote village in northeastern Turkey, interviews an elderly Kurdish woman. She performs an ancient ritual to keep alive the memory of the son she lost years ago. The young woman, who helps the German crew with the Kurdish translation, is also the caretaker of seven-year-old Melek. Melek's father is a member of a shadowy organization whose true purpose is unclear. The result of all these people coming together will be devastating.",
+    "runtime": 118,
+    "release_date": "2023-02-19",
+    "genres": [
+      "Mystery",
+      "Thriller"
+    ],
+    "countries": [
+      "DE",
+      "TR"
+    ],
+    "original_language": "de",
+    "director": "Ayşe Polat",
+    "cast": [
+      "Katja Bürkle",
+      "Ahmet Varlı",
+      "Çağla Yurga",
+      "Aybi Era",
+      "Max Hemmersdorfer"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/xj1pOMceNgvR07pzpOMZhO70cQ3.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/6YI9Gds8KWh6fvjKnAfGTISFsvm.jpg",
+    "tmdb_rating": 5.3,
+    "tmdb_votes": 16,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt26448958/"
+    }
+  },
+  "2883": {
+    "tmdb_id": 1077678,
+    "title": "The Cage is Looking for a Bird",
+    "original_title": "Клетка ищет птицу",
+    "overview": "In a small Chechen village, Yaha spends her days with Madina, with whom she is very close. Both girls dream of leaving their homes after graduation and escaping to the real world, far from their village. Yaha’s older sister Heda also dreams of being free, but the price for this is very high - if she decides to try for a divorce, her only son will be taken away from her, such are the traditions in her culture. Will Yaha, Madina and Heda succeed to get free, and at what cost?",
+    "runtime": 88,
+    "release_date": "2023-10-12",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "FR",
+      "RU"
+    ],
+    "original_language": "ce",
+    "director": "Malika Musaeva",
+    "cast": [
+      "Khadizha Bataeva",
+      "Madina Akkieva",
+      "Fatima Elzhurkaeva",
+      "Rita Merzhoeva",
+      "Magomed Alhastov"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/hZfBxEUQlsqfgBdWPL1BvfS1hkG.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/v0MskpcAeg3bBu5Z39lMOqCIHWE.jpg",
+    "tmdb_rating": 9,
+    "tmdb_votes": 3,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt26441515/"
+    }
+  },
+  "2884": {
+    "tmdb_id": 1077680,
+    "title": "The Walls of Bergamo",
+    "original_title": "Le mura di Bergamo",
+    "overview": "In the first few months of 2020, huge swathes of Northern Italy were hit by a new virus. The town of Bergamo and its province was to become the epicentre of this pandemic.",
+    "runtime": 137,
+    "release_date": "2023-02-24",
+    "genres": [
+      "Documentary"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "original_language": "it",
+    "director": "Stefano Savona",
+    "cast": [
+      "Stefano Savona",
+      "Danny Biancardi",
+      "Sebastiano Caceffo",
+      "Alessandro Drudi",
+      "Silvia Miola"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/wJWcICtO0DzRgSdeJqwBBDhWRso.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/s90gebLuiLNhHIK36eVCnziolIM.jpg",
+    "tmdb_rating": 7,
+    "tmdb_votes": 2,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt26448975/"
+    }
+  },
+  "2885": {
+    "tmdb_id": 1077748,
+    "title": "My Worst Enemy",
+    "original_title": "Mon pire ennemi",
+    "overview": "Mojtaba, Hamzeh, Zar are among other individuals who have been thrown into prison and ideologically interrogated in Iran. In this documentary, the director wants them to interrogate him as agents of the Islamic Republic might. He would like the real torturer in Iran to see himself through the film as if in a mirror. The violent experience of putting themselves in the torturer's head confronts them with their own limits and the ambivalence of the project itself.",
+    "runtime": 82,
+    "release_date": "2024-05-08",
+    "genres": [
+      "Documentary"
+    ],
+    "countries": [
+      "FR",
+      "CH"
+    ],
+    "original_language": "fa",
+    "director": "Mehran Tamadon",
+    "cast": [
+      "Zar Amir Ebrahimi",
+      "Mehran Tamadon"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/n1ZQlnIJGPRabdOyErYj518UVCd.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/lID72q5fwCzRM0YiC6F4crD0Tvg.jpg",
+    "tmdb_rating": 7,
+    "tmdb_votes": 1,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt26448963/"
+    }
+  },
+  "2886": {
+    "tmdb_id": 587384,
+    "title": "White Plastic Sky",
+    "original_title": "Műanyag égbolt",
+    "overview": "2123. Faced with diminishing resources, the human race can only survive through a trade-off: at the age of 50, every citizen is gradually turned into a tree. When Stefan discovers that his beloved wife Nora has voluntarily signed up for donating her own body before her time, he sets out on an adventurous journey to save her at all costs.",
+    "runtime": 112,
+    "release_date": "2023-03-30",
+    "genres": [
+      "Adventure",
+      "Animation",
+      "Drama",
+      "Science Fiction"
+    ],
+    "countries": [
+      "HU",
+      "SK"
+    ],
+    "original_language": "hu",
+    "director": "Sarolta Szabó, Tibor Bánóczki",
+    "cast": [
+      "Zsófia Szamosi",
+      "Tamás Keresztes",
+      "Géza D. Hegedűs",
+      "Judit Schell",
+      "István Znamenák"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/qLQh0vlLZSR5VmFlO3AIuuaekei.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/tIw0BWPKJSfkEHcj2tT3EIQNwXx.jpg",
+    "tmdb_rating": 6.8,
+    "tmdb_votes": 38,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt8096846/"
+    }
+  },
+  "2887": {
+    "tmdb_id": 1077647,
+    "title": "In Water",
+    "original_title": "물안에서",
+    "overview": "A director, a cinematographer, and an actress spend the days leading up to a movie shoot together on-location, waiting for the director to come up with an idea for what the film will be about.",
+    "runtime": 61,
+    "release_date": "2023-04-12",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "original_language": "ko",
+    "director": "Hong Sang-soo",
+    "cast": [
+      "Shin Seok-ho",
+      "Ha Seong-guk",
+      "Kim Seung-yun",
+      "Kim Min-hee",
+      "Kim So-ryeong"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/slEjKfxK1arChYTJmaydk18ZfbC.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/5G7WyWUBQhic7bk1dbqQaNJ22UL.jpg",
+    "tmdb_rating": 6.7,
+    "tmdb_votes": 26,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt26448971/"
+    }
+  },
+  "2888": {
+    "tmdb_id": 925920,
+    "title": "Family Time",
+    "original_title": "Mummola",
+    "overview": "It’s Christmas time and the family has gathered. Everything goes on as it did the previous Christmases, with grandpa drinking too much and grandma trying to keep everyone in the mood. After the Christmas holidays, everyone returns to their own homes until it's time to gather again, this time for a funeral.",
+    "runtime": 114,
+    "release_date": "2023-11-10",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "countries": [
+      "FI",
+      "SE"
+    ],
+    "original_language": "fi",
+    "director": "Tia Kouvo",
+    "cast": [
+      "Ria Kataja",
+      "Elina Knihtilä",
+      "Leena Uotila",
+      "Tom Wentzel",
+      "Jarkko Pajunen"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/onGT5eIQB3Y9gmdAE96WFGb9C83.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/9ASc8rgFNQ782CMBKXwynczE9cm.jpg",
+    "tmdb_rating": 6.267,
+    "tmdb_votes": 15,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt26448972/"
+    }
+  },
+  "2889": {
+    "tmdb_id": 1077683,
+    "title": "Orlando, My Political Biography",
+    "original_title": "Orlando, ma biographie politique",
+    "overview": "Virginia Woolf's 1928 novel \"Orlando: A Biography\" follows the centuries-spanning life of a young nobleman who awakens to find that they are a woman. Almost a century after its publication, Paul B. Preciado claims that fiction has become reality and Orlando's story lies at the root of all contemporary trans and non-binary life.",
+    "runtime": 99,
+    "release_date": "2023-09-14",
+    "genres": [
+      "Documentary"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "original_language": "fr",
+    "director": "Paul B. Preciado",
+    "cast": [
+      "Oscar-Roza Miller",
+      "Yanis Sahraoui",
+      "Liz Christin",
+      "Elios Lévy",
+      "Victor Marzouk"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/r1yRb66jNpZKX8XZovP0xvj3VAo.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/jECOPYK7aJhJsXUGcL74SRS4Rtg.jpg",
+    "tmdb_rating": 6.8,
+    "tmdb_votes": 19,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt26448981/"
+    }
+  },
+  "2890": {
+    "tmdb_id": 1077684,
+    "title": "Samsara",
+    "original_title": "Samsara",
+    "overview": "Samsara is the Buddhist cycle of death and reincarnation. From the temples of Laos, we will accompany a soul in its transit from one body to another through the bardo.",
+    "runtime": 117,
+    "release_date": "2023-10-06",
+    "genres": [
+      "Drama",
+      "Fantasy"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "original_language": "es",
+    "director": "Lois Patiño",
+    "cast": [
+      "Amid Keomany",
+      "Toumor Xiong",
+      "Simone Milavanh",
+      "Mariam Vuaa Mtego",
+      "Juwairiya Idrisa Uwesu"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/xfuZAK2K7OJe3iBk58u40iohrNy.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/poYOQMm8lGGIdJ8JmCR1ilonc9j.jpg",
+    "tmdb_rating": 6.8,
+    "tmdb_votes": 11,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt21909682/"
+    }
+  },
+  "2891": {
+    "tmdb_id": 1077685,
+    "title": "Eastern Front",
+    "original_title": "Східний фронт",
+    "overview": "On February 24, 2022, Yevhen, together with his friends, volunteered to join the first aid squad on the front line. They provided life-saving support and evacuation of the wounded. This film reveals the experiences of these young men for six months full of drama, despair, fear, hatred, bitterness, love, and, most importantly, faith in victory.",
+    "runtime": 98,
+    "release_date": "2023-04-13",
+    "genres": [
+      "Documentary"
+    ],
+    "countries": [
+      "CZ",
+      "LV",
+      "UA"
+    ],
+    "original_language": "uk",
+    "director": "Vitaly Mansky, Yevhen Titarenko",
+    "poster": "https://image.tmdb.org/t/p/w500/f8uC0xqTzYjwQqcW6dfMA70Avn5.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/lvuzGdKWVob29MoxAMm2o4nwnja.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt26448984/"
+    }
+  },
+  "2892": {
+    "tmdb_id": 1077661,
+    "title": "The Adults",
+    "original_title": "The Adults",
+    "overview": "Eric returns home for a short visit and finds himself caught between reuniting with his sisters and chasing a victory with his old poker group. As the trip extends, Eric finds it increasingly difficult to avoid confrontations and revelations as his carefully constructed façade of his adulthood gives way to old childhood conflicts.",
+    "runtime": 91,
+    "release_date": "2023-08-18",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "countries": [
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Dustin Guy Defa",
+    "cast": [
+      "Michael Cera",
+      "Hannah Gross",
+      "Sophia Lillis",
+      "Wavyy Jonez",
+      "Anoop Desai"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/i4vkr30zcBnVH2XCXUxyuFTX5JR.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/nVP2UAvA9pH7h3pkkKryyMc3cGl.jpg",
+    "tmdb_rating": 6.2,
+    "tmdb_votes": 72,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt26443107/"
+    }
+  },
+  "2893": {
+    "tmdb_id": 1077686,
+    "title": "Living Bad",
+    "original_title": "Viver Mal",
+    "overview": "A hotel by the northern shore of Portugal welcomes its guests over the weekend. A man is torn between being present for his wife and the space that his mother takes up between the two of them. A mother encourages her daughter’s marriage to enable her own love affair with her son-in-law. Another mother lives through her daughter, preventing her from making her own decisions. Three families at the end of their cycles of acceptance.",
+    "runtime": 124,
+    "release_date": "2023-05-07",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "FR",
+      "PT"
+    ],
+    "original_language": "pt",
+    "director": "João Canijo",
+    "cast": [
+      "Nuno Lopes",
+      "Filipa Areosa",
+      "Leonor Silveira",
+      "Rafael Morais",
+      "Lia Carvalho"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/rjpsrtZs4nMLbZEeOd3J6x9t3UF.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/ideB0SN2rHKLxMBgTWn0235xKup.jpg",
+    "tmdb_rating": 5.6,
+    "tmdb_votes": 7,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt26440896/"
+    }
+  },
+  "2894": {
+    "tmdb_id": 1065879,
+    "title": "Absence",
+    "original_title": "雪云",
+    "overview": "After ten years in prison, Han Jiangyu returns to Hainan Island. Housing construction is booming, his childhood friend is now rich. Searching for traces of the familiar, Jiangyu meets his old love who now has a daughter.",
+    "runtime": 102,
+    "release_date": "2025-08-27",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "original_language": "zh",
+    "director": "Wu Lang",
+    "cast": [
+      "Li Meng",
+      "Lee Kang-sheng",
+      "Ren Ke",
+      "Liang Wanling"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/s4sCpXHMl3kS8belZzsNfHGCtod.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/x0XOxdujINxvMMPoYHESU6JQssY.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt26441800/"
+    }
+  },
+  "2895": {
+    "tmdb_id": 1087593,
+    "title": "Another End",
+    "original_title": "Another End",
+    "overview": "In a future where consciousness can be transferred, Sal is urged by his sister to try a breakthrough technology that implants the memories and personality of the dead into the living. After the passing of his wife, Sal must decide how far he's willing to go to reconnect with the past.",
+    "runtime": 129,
+    "release_date": "2024-03-21",
+    "genres": [
+      "Science Fiction",
+      "Drama"
+    ],
+    "countries": [
+      "IT",
+      "GB",
+      "FR"
+    ],
+    "original_language": "en",
+    "director": "Piero Messina",
+    "cast": [
+      "Gael García Bernal",
+      "Renate Reinsve",
+      "Bérénice Bejo",
+      "Olivia Williams",
+      "Philip Rosch"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/fuWWd7pQYGv21av3HonQg6oCkZL.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/jxvkfgYvAHn0ps874wgCirRfCyT.jpg",
+    "tmdb_rating": 6.7,
+    "tmdb_votes": 73,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt26749648/"
+    }
+  },
+  "2896": {
+    "tmdb_id": 1234597,
+    "title": "Architecton",
+    "original_title": "Architecton",
+    "overview": "An extraordinary journey through the material that makes up our habitat: concrete and its ancestor, stone. Victor Kossakovsky raises a fundamental question: how do we inhabit the world of tomorrow?",
+    "runtime": 98,
+    "release_date": "2024-10-03",
+    "genres": [
+      "Documentary"
+    ],
+    "countries": [
+      "FR",
+      "DE",
+      "GB",
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Viktor Kossakovsky",
+    "cast": [
+      "Michele De Lucchi"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/ko5fY3Y05u3rRFQUXNGyRybnxqT.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/9Sl9oyD2rrFKbCWvWiHQifwOoTn.jpg",
+    "tmdb_rating": 5.8,
+    "tmdb_votes": 26,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt18346498/"
+    }
+  },
+  "2897": {
+    "tmdb_id": 662402,
+    "title": "Black Tea",
+    "original_title": "Black Tea",
+    "overview": "Aya, a young Ivorian woman in her early thirties, says no on her wedding day, to everyone’s astonishment. After emigrating to Asia, she works in a tea export shop with Cai, a 45-year-old Chinese man. Aya and Cai fall in love but can their affair survive the turmoil of their past and other people’s prejudices?",
+    "runtime": 111,
+    "release_date": "2024-02-28",
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "countries": [
+      "CI",
+      "FR",
+      "LU",
+      "MR",
+      "TW"
+    ],
+    "original_language": "zh",
+    "director": "Abderrahmane Sissako",
+    "cast": [
+      "Nina Mélo",
+      "Chang Han",
+      "Wu Ke-xi",
+      "Michael Chang",
+      "Yu Pei-Jen"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/8wfbaGi9wS9wKvpN3eMSRgfgbkM.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/dxVZtkOPNcgs0RgYL6QRw6dMJxk.jpg",
+    "tmdb_rating": 6,
+    "tmdb_votes": 56,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt21994228/"
+    }
+  },
+  "2898": {
+    "tmdb_id": 1231035,
+    "title": "Gloria!",
+    "original_title": "Gloria!",
+    "overview": "In late 18th century Venice, in a convent school for girls, Teresa, a student with prophetic gifts, joins forces with some amazing music-makers. They create a new kind of pop, bright and bold, and challenge the ancient and rigid system.",
+    "runtime": 100,
+    "release_date": "2024-04-11",
+    "genres": [
+      "Drama",
+      "Music"
+    ],
+    "countries": [
+      "IT",
+      "CH"
+    ],
+    "original_language": "it",
+    "director": "Margherita Vicario",
+    "cast": [
+      "Galatea Bellugi",
+      "Carlotta Gamba",
+      "Veronica Lucchesi",
+      "Maria Vittoria Dallasta",
+      "Sara Mafodda"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/Nm0umpaFx2FthwtdTqGdegohu6.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/mohiVnDYwd9SWG8yIk4nOkiwO5l.jpg",
+    "tmdb_rating": 6.9,
+    "tmdb_votes": 125,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt26757264/"
+    }
+  },
+  "2899": {
+    "tmdb_id": 1119625,
+    "title": "Suspended Time",
+    "original_title": "Hors du temps",
+    "overview": "A film director returns to his childhood home in provincial France with his brother and his girlfriend and discovers isolation to be an artistic curative.",
+    "runtime": 105,
+    "release_date": "2024-06-19",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "original_language": "fr",
+    "director": "Olivier Assayas",
+    "cast": [
+      "Vincent Macaigne",
+      "Micha Lescot",
+      "Nine d'Urso",
+      "Nora Hamzawi",
+      "Maud Wyler"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/xln0VwS4h0uHl8XMW2fCmvv3YDG.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/aBCLfNjO7PLuusVrJ8hPF70JVqf.jpg",
+    "tmdb_rating": 5.2,
+    "tmdb_votes": 22,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt31015247/"
+    }
+  },
+  "2900": {
+    "tmdb_id": 1070319,
+    "title": "From Hilde, with Love",
+    "original_title": "In Liebe, eure Hilde",
+    "overview": "In Berlin 1942, Hilde is a member of an anti-Nazi group. She falls in love with another member, Hans. The two spend a summer together until they get caught by the Gestapo and Hilde is imprisoned, eight months pregnant.",
+    "runtime": 124,
+    "release_date": "2024-10-17",
+    "genres": [
+      "War",
+      "Drama",
+      "History"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "original_language": "de",
+    "director": "Andreas Dresen",
+    "cast": [
+      "Liv Lisa Fries",
+      "Johannes Hegemann",
+      "Sina Martens",
+      "Lisa Wagner",
+      "Alexander Scheer"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/hJ8y5VsbjbzDCoXJ6LDwn8JcFkP.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/zN7NIIH7UA17OyPXcBM7tpRvxI0.jpg",
+    "tmdb_rating": 7,
+    "tmdb_votes": 54,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt20420646/"
+    }
+  },
+  "2901": {
+    "tmdb_id": 1234591,
+    "title": "My Favourite Cake",
+    "original_title": "کیک محبوب من",
+    "overview": "Mahin lives alone in Tehran since her husband’s death and her daughter’s departure for Europe, until an afternoon tea with friends leads her to break her solitary routine and revitalize her love life.",
+    "runtime": 97,
+    "release_date": "2024-07-11",
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Romance"
+    ],
+    "countries": [
+      "FR",
+      "DE",
+      "IR",
+      "SE"
+    ],
+    "original_language": "fa",
+    "director": "Behtash Sanaeeha, Maryam Moghaddam",
+    "cast": [
+      "Lily Farhadpour",
+      "Esmaeel Mehrabi",
+      "Mansoureh Ilkhani",
+      "Soraya Orang",
+      "Homa Mottahedin"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/gs6XHzRPZWBMUbFkZUwMDgNz0li.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/3p1bD9QYA41lb5MBijhYee70Fxz.jpg",
+    "tmdb_rating": 7.257,
+    "tmdb_votes": 189,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt31015278/"
+    }
+  },
+  "2902": {
+    "tmdb_id": 966238,
+    "title": "La Cocina",
+    "original_title": "La cocina",
+    "overview": "In the sweltering back kitchen of a Times Square restaurant, undocumented cook Pedro is caught between mounting pressures at work and a complicated romance with waitress Julia. When money goes missing, suspicion spreads, igniting tensions that threaten to upend the fragile hopes of the staff.",
+    "runtime": 139,
+    "release_date": "2024-10-25",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "countries": [
+      "MX",
+      "US",
+      "SE"
+    ],
+    "original_language": "es",
+    "director": "Alonso Ruizpalacios",
+    "cast": [
+      "Raúl Briones",
+      "Rooney Mara",
+      "Anna Díaz",
+      "Motell Gyn Foster",
+      "Laura Gómez"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/5Hnlt0KY7OtYRLIDPaR4oDS3Ajo.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/2yvzBVtMGCtw1Em9a7W1fxuTzIU.jpg",
+    "tmdb_rating": 6.9,
+    "tmdb_votes": 110,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt19864832/"
+    }
+  },
+  "2903": {
+    "tmdb_id": 803690,
+    "title": "Foreign Language",
+    "original_title": "Langue étrangère",
+    "overview": "Fanny, a shy and lonely teenager, goes on a language exchange to Germany. In Leipzig, she meets her pen pal, Lena, a teenager eager to become politically active. Fanny is troubled. To win over Lena, she invents a life for herself, to the extent of becoming trapped in her lies.",
+    "runtime": 105,
+    "release_date": "2024-09-11",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "DE",
+      "BE",
+      "FR"
+    ],
+    "original_language": "fr",
+    "director": "Claire Burger",
+    "cast": [
+      "Lilith Grasmug",
+      "Josefa Heinsius",
+      "Nina Hoss",
+      "Chiara Mastroianni",
+      "Jalal Altawil"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/cPFCJ1VsSYKyTFpvWl6Nrt0ddNL.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/bRiFQLsuocS95owFwOyNANHY6D9.jpg",
+    "tmdb_rating": 6.8,
+    "tmdb_votes": 50,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt31015291/"
+    }
+  },
+  "2904": {
+    "tmdb_id": 794090,
+    "title": "Who Do I Belong To",
+    "original_title": "ماء العين",
+    "overview": "Aicha, a Tunisian mother gifted with prophetic dreams, lives in the isolated north of Tunisia with her husband Brahim and young son Adam. The family lives in anguish after the departure of the eldest sons Mehdi and Amine to the violent embrace of war. Months later, Mehdi unexpectedly returns home with a pregnant wife in tow. Mehdi's arrival triggers old wounds and a darkness that threatens to consume the entire village.",
+    "runtime": 117,
+    "release_date": "2024-11-01",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "CA",
+      "FR",
+      "NO",
+      "QA",
+      "SA",
+      "SE",
+      "TN"
+    ],
+    "original_language": "ar",
+    "director": "Meryam Joobeur",
+    "cast": [
+      "Salha Nasraoui",
+      "Mohamed Grayaâ",
+      "Malek Mechergui",
+      "Adam Bessa",
+      "Dea Liane"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/hqHRWmT8hKiC2ua9F5r4qnWaMEI.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/2PpnYuHupX4qmFteKIRS42ClTDj.jpg",
+    "tmdb_rating": 7.4,
+    "tmdb_votes": 5,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt14680834/"
+    }
+  },
+  "2905": {
+    "tmdb_id": 1172241,
+    "title": "Pepe",
+    "original_title": "Pepe",
+    "overview": "A voice  that claims to be from a hippopotamus. A voice that doesn’t understand the perception of time. Pepe, the first and last hippo killed in the Americas, tells his story with the overwhelming orality of these towns.",
+    "runtime": 122,
+    "release_date": "2024-07-18",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "DO",
+      "FR",
+      "DE",
+      "NA"
+    ],
+    "original_language": "es",
+    "director": "Nelson Carlos de los Santos Arias",
+    "cast": [
+      "Jhon Narváez",
+      "Sor María Ríos",
+      "Fareed Matjila",
+      "Harmony Ahalwa",
+      "Jorge Puntillón García"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/kp48PDp0fdsBPYLXJ6VUiYBzJfV.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/aYQA0JODfU2gv0LSd1vdH6lEuLp.jpg",
+    "tmdb_rating": 5.7,
+    "tmdb_votes": 11,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt10781034/"
+    }
+  },
+  "2906": {
+    "tmdb_id": 1234593,
+    "title": "Shambhala",
+    "original_title": "शम्भाला",
+    "overview": "In a Himalayan polyandrous village in Nepal, newly married and pregnant Pema tries to make the best of her new life. But soon, her first husband Tashi vanishes on the trade route to Lhasa.  Accompanied by her monk de facto husband, Karma, she embarks on a journey into the unforgiving wilderness to find him, evolving into a quest of self discovery and liberation.",
+    "runtime": 150,
+    "release_date": "2024-09-13",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "FR",
+      "HK",
+      "NP",
+      "NO",
+      "QA",
+      "TW",
+      "TR",
+      "US"
+    ],
+    "original_language": "ne",
+    "director": "Min Bahadur Bham",
+    "cast": [
+      "Thinley Lhamo",
+      "Sonam Topden",
+      "Tenzing Dalha",
+      "Karma Wangyal Gurung",
+      "Karma Shakya"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/vKjZCLhmgGGv4ydpO5w503yZRR3.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/aZ8HkgNpcFElM5TKMwBySsX90WF.jpg",
+    "tmdb_rating": 7.8,
+    "tmdb_votes": 14,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt30804400/"
+    }
+  },
+  "2907": {
+    "tmdb_id": 1232781,
+    "title": "Dying",
+    "original_title": "Sterben",
+    "overview": "Mother Lissy, father Gerd, son Tom and daughter Ellen: the members of the Lunies family are estranged. But confronted with death, they finally meet each other again.",
+    "runtime": 182,
+    "release_date": "2024-04-25",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "original_language": "de",
+    "director": "Matthias Glasner",
+    "cast": [
+      "Lars Eidinger",
+      "Corinna Harfouch",
+      "Lilith Stangenberg",
+      "Ronald Zehrfeld",
+      "Robert Gwisdek"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/kkPGlBrkmck3nlANsQwJKCKhRQ7.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/4WBATV7YAhwczVKZVuTDMpEemiF.jpg",
+    "tmdb_rating": 7.6,
+    "tmdb_votes": 56,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt27165281/"
+    }
+  },
+  "2908": {
+    "tmdb_id": 1113120,
+    "title": "Sons",
+    "original_title": "Vogter",
+    "overview": "Eva, an idealistic prison officer, is faced with the dilemma of her life when a young man from her past gets transferred to the prison where she works. Without revealing her secret, Eva asks to be moved to the young man’s ward – the toughest and most violent in the prison. Here begins an unsettling psychological thriller, where Eva’s sense of justice puts both her morality and future at stake.",
+    "runtime": 100,
+    "release_date": "2024-07-10",
+    "genres": [
+      "Thriller",
+      "Drama"
+    ],
+    "countries": [
+      "DK",
+      "SE"
+    ],
+    "original_language": "da",
+    "director": "Gustav Möller",
+    "cast": [
+      "Sidse Babett Knudsen",
+      "Sebastian Bull Sarning",
+      "Dar Salim",
+      "Marina Bouras",
+      "Olaf Johannessen"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/rbNoiXJS3PW1u3geU3VcttBqi6C.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/b5ei2QImsyKJlY63zGBEpQScTDQ.jpg",
+    "tmdb_rating": 6.6,
+    "tmdb_votes": 107,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt27496775/"
+    }
+  },
+  "2909": {
+    "tmdb_id": 1146410,
+    "title": "A Traveler's Needs",
+    "original_title": "여행자의 필요",
+    "overview": "Iris, a woman abroad in Seoul, teaches French and English in an idiosyncratic fashion that allows her to pursue her own philosophical and personal interests. Through four encounters over a single day, Iris probes students and strangers for information about poetry, their own histories, and their relationship to their egos.",
+    "runtime": 90,
+    "release_date": "2024-04-24",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "KR",
+      "FR"
+    ],
+    "original_language": "ko",
+    "director": "Hong Sang-soo",
+    "cast": [
+      "Isabelle Huppert",
+      "Lee Hye-young",
+      "Kwon Hae-hyo",
+      "Cho Yun-hee",
+      "Ha Seong-guk"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/eDimH4UKv1qsXdnFePXuDZb3cA4.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/u3JuBKQTuyfvWy7Rm01Ugej6Qs5.jpg",
+    "tmdb_rating": 6.5,
+    "tmdb_votes": 25,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt31015344/"
+    }
+  },
+  "2910": {
+    "tmdb_id": 889820,
+    "title": "Arcadia",
+    "original_title": "Arcadia",
+    "overview": "Neurologist Katerina and former doctor Yannis are heading off to a deserted seaside resort. Silence descends on the car as they travel across dunes in a windy autumn, matching the less-than-pleasant occasion: Yannis has been called to identify the victim of a tragic accident at the hospital of the small town. When the local policeman informs them that the victim’s vehicle had plunged over the parapet of a stone bridge and leads them to the morgue, Katerina sees her worst suspicions confirmed. Together with Yannis, but also on her own nightly excursions to a mysterious, rustic beach bar called Arcadia, they begin to put the pieces of the puzzle together, revealing a haunting story of love, loss, acceptance and letting go.",
+    "runtime": 99,
+    "release_date": "2024-02-18",
+    "genres": [
+      "Drama",
+      "Mystery"
+    ],
+    "countries": [
+      "BG",
+      "GR",
+      "US"
+    ],
+    "original_language": "el",
+    "director": "Yorgos Zois",
+    "cast": [
+      "Vangelis Mourikis",
+      "Angeliki Papoulia",
+      "Elena Topalidou",
+      "Nikolas Papagiannis",
+      "Vagelis Evangelinos"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/lIV1jcEqoRrY5rMHJTxSdaTi82T.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/AwzMgSKBJkTW2nU8z0pSdqvbhWS.jpg",
+    "tmdb_rating": 7,
+    "tmdb_votes": 4,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt31015391/"
+    }
+  },
+  "2911": {
+    "tmdb_id": 749116,
+    "title": "Cidade; Campo",
+    "original_title": "Cidade; Campo",
+    "overview": "Two tales of migration. In the first, after a tailings dam disaster floods her hometown, rural worker Joana (55) moves to São Paulo to find her sister Tania, who lives with her grandson Jaime. Joana enters the universe of insecurity, replying to an application for house cleaning. She bonds with her colleagues, and their struggle for better conditions gives Joana’s life a new meaning. Her relationship with young Jaime brings back old memories. In the second part, after the death of her estranged father, Flavia (32) moves to her farm with her wife Mara. The couple suffer a shock of reality when facing the harshness of rural life. The contact with the abandoned house reveals to Flavia unknown aspects of her father. She begins to suspect that there is something supernatural in the woods.",
+    "runtime": 120,
+    "release_date": "2024-08-29",
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Horror"
+    ],
+    "countries": [
+      "BR",
+      "FR",
+      "DE"
+    ],
+    "original_language": "pt",
+    "director": "Juliana Rojas",
+    "cast": [
+      "Fernanda Vianna",
+      "Mirella Façanha",
+      "Bruna Linzmeyer",
+      "Kalleb Oliveira",
+      "Andréa Marquee"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/jqgUsfFEkwajme4CzbSNQpCfdNT.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/95mGleQePA4t30gToYyGjQEb0oS.jpg",
+    "tmdb_rating": 6.5,
+    "tmdb_votes": 6,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt30858110/"
+    }
+  },
+  "2912": {
+    "tmdb_id": 1234590,
+    "title": "Demba",
+    "original_title": "Demba",
+    "overview": "55-year-old Demba is about to retire after 30 years of service at the city hall in his small town in Northern Senegal. That hot summer, as the 2-year anniversary of his wife’s passing approaches, he realizes he just can’t “shake it off.” As his mental health deteriorates, he discovers a new connection with his once estranged son.",
+    "runtime": 116,
+    "release_date": "2024-02-17",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "DE",
+      "QA",
+      "SN"
+    ],
+    "original_language": "ff",
+    "director": "Mamadou Dia",
+    "cast": [
+      "Ben Mahmoud Mbow",
+      "Awa Djiga Kané",
+      "Mamadou Sylla",
+      "Aïcha Talla",
+      "Saikou Lô"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/b8AqvN6fGSyNbnsxgd8p9KuCdM5.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/912UzuqQIdtpaAc4f6TAUS416W7.jpg",
+    "tmdb_rating": 6,
+    "tmdb_votes": 1,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt31015413/"
+    }
+  },
+  "2913": {
+    "tmdb_id": 1234601,
+    "title": "Direct Action",
+    "original_title": "Direct Action",
+    "overview": "Direct Action documents the everyday of one of the most important activist communities in France in order to see how the success of a radical protest movement can offer a path through the climate crisis facing us all.",
+    "runtime": 216,
+    "release_date": "2024-11-20",
+    "genres": [
+      "Documentary"
+    ],
+    "countries": [
+      "FR",
+      "DE",
+      "KR"
+    ],
+    "original_language": "fr",
+    "director": "Guillaume Cailleau, Ben Russell",
+    "poster": "https://image.tmdb.org/t/p/w500/2oHqOdnn0zhwEh2IGHU4djnX8Da.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/x5N7ufcpoQpPt9K2h8STuSWATvI.jpg",
+    "tmdb_rating": 5,
+    "tmdb_votes": 4,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt31015444/"
+    }
+  },
+  "2914": {
+    "tmdb_id": 1234602,
+    "title": "Sleep with Your Eyes Open",
+    "original_title": "Dormir de olhos abertos",
+    "overview": "A coastal city in Brazil. Kai arrives from Taiwan for holidays with a broken heart. A broken air conditioner sends her into Fu Ang’s umbrella store. He could become a friend, but the rainy season doesn't arrive and his shop disappears. While looking for Fu Ang, Kai discovers the story of Xiaoxin and a group of Chinese workers in a posh skyscraper. Kai finds herself strangely mirrored in Xiaoxin’s tale.",
+    "runtime": 97,
+    "release_date": "2024-06-13",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "countries": [
+      "AR",
+      "BR",
+      "DE",
+      "TW"
+    ],
+    "original_language": "pt",
+    "director": "Nele Wohlatz",
+    "cast": [
+      "Chen Xiao Xin",
+      "Wang Shin-hong",
+      "Liao Kai Ro",
+      "Nahuel Pérez Biscayart",
+      "Lu Yang Zong"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/wgcymEXE78Pr3l9KqiBwanO8o2Y.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/tcYmM1SBPTPh9yuuRSuy7kQMJUq.jpg",
+    "tmdb_rating": 5.7,
+    "tmdb_votes": 10,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt31015461/"
+    }
+  },
+  "2915": {
+    "tmdb_id": 940770,
+    "title": "Favoriten",
+    "original_title": "Favoriten",
+    "overview": "Favoriten is one of the most culturally diverse neighborhoods in Vienna and the starting point of Ruth Beckermann’s latest documentary, in which she accompanies a class of pupils from the age of seven to ten. Their ambitious teacher, Ilkay, is determined to create an inclusive, supportive and safe environment for the kids. The majority of children don’t speak German at home, some families are wounded by war experience and many face discrimination. Despite few resources from the educational system, Ilkay gently navigates her class through daily adventures, defeats and victories. The result is an astonishingly cheerful portrait of a small community mirroring the complexities of contemporary European society. The film is an ode to childhood, celebrating the work of educators and lifelong learning in and outside the classroom.",
+    "runtime": 118,
+    "release_date": "2024-09-19",
+    "genres": [
+      "Documentary"
+    ],
+    "countries": [
+      "AT"
+    ],
+    "original_language": "de",
+    "director": "Ruth Beckermann",
+    "cast": [
+      "İlkay İdiskut"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/A6z9uAfivfk4LwNYnoTvEm5ceyn.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/q7L3ZJDsZOnF43hOFyUNjCpsbGL.jpg",
+    "tmdb_rating": 5,
+    "tmdb_votes": 2,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt31015543/"
+    }
+  },
+  "2916": {
+    "tmdb_id": 1234586,
+    "title": "Ivo",
+    "original_title": "Ivo",
+    "overview": "Ivo works as a palliative home-care nurse. Every day, she visits families, couples and single people. They live in small flats and large houses. They all have different lives and deaths. They all have different ways of dealing with the time that remains. At home, Ivo’s teenage daughter has long since become independent. From morning to night, Ivo drives around in her old Skoda which she has made into her personal living space. Here, she eats her meals, works, sings, swears and dreams. One of her patients, Solveigh, has become a close friend. Ivo has also formed a relationship with Solveigh’s husband, Franz. Day after day, the two work together to care for Solveigh. And they sleep with each other. Solveigh’s strength is diminishing and she soon has to rely on support for the simplest tasks. She wants the final decision to be her own: she wants Ivo to help her die.",
+    "runtime": 104,
+    "release_date": "2024-06-20",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "original_language": "de",
+    "director": "Eva Trobisch",
+    "cast": [
+      "Minna Wündrich",
+      "Pia Hierzegger",
+      "Lukas Turtur",
+      "Lilli Lacher",
+      "Johann Campean"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/uEvFI2qRbO6dvg8Jb4vw3GYelDV.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/oz0axhoYhxEnaJrHZiR5hxayQd6.jpg",
+    "tmdb_rating": 6.2,
+    "tmdb_votes": 4,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt31016613/"
+    }
+  },
+  "2917": {
+    "tmdb_id": 1234607,
+    "title": "The Great Yawn of History",
+    "original_title": "خمیازهٔ بزرگ",
+    "overview": "A man dreams of a box of gold waiting for him at the end of a cave. Curbed by his religious belief that it is not permissible to go after it himself, he employs the assistance of a non-believer and together they embark on a long journey across the Iranian landscape in pursuit of a miracle. Their treasure hunt soon turns tempting also for those they meet along their way. Aliyar Rasti’s allegorical breakthrough turns a road trip into a play of hide and seek between faith and human frailty.",
+    "runtime": 93,
+    "release_date": "2024-10-18",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "IR"
+    ],
+    "original_language": "fa",
+    "director": "Aliyar Rasti",
+    "cast": [
+      "Mohammad Aghebati",
+      "Amirhossein Hosseini",
+      "Saber Abar",
+      "Mahin Sadri",
+      "Ramin Alizadeh"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/rNY59YckbUcF55H9FF7HxYrjgMt.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/wvrJE6c6nkZc8QMGiUnUqeqzoAS.jpg",
+    "tmdb_rating": 7.7,
+    "tmdb_votes": 3,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt31016912/"
+    }
+  },
+  "2918": {
+    "tmdb_id": 1081918,
+    "title": "Some Rain Must Fall",
+    "original_title": "空房间里的女人",
+    "overview": "40-year-old housewife Cai has lost track of who she is and who she wants to be. During one of her daughter’s basketball matches, she inadvertently injures an elderly woman. This seemingly trivial event is a catalyst for a life spinning out of control, as past events resurface while she moves into an unknown future. Director Qiu Yang follows a series of multi-awarded shorts with his debut feature, a mesmerizing and intimate drama about a woman forced to confront the wreckage of her life and her longing for change?",
+    "runtime": 98,
+    "release_date": "2024-08-02",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "US",
+      "FR",
+      "SG",
+      "GB",
+      "CN"
+    ],
+    "original_language": "zh",
+    "director": "Qiu Yang",
+    "cast": [
+      "Aier Yu",
+      "Shike Di",
+      "Xu Tianyi",
+      "Wei Yibo",
+      "Gu Tingxiu"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/94VG5WcWtAPBKvItQ30ufESHAm7.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/bX8Tx9Rn7vw4Ht4suZjVkTuzo4w.jpg",
+    "tmdb_rating": 6.5,
+    "tmdb_votes": 3,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt26655205/"
+    }
+  },
+  "2919": {
+    "tmdb_id": 1234619,
+    "title": "Hands in the Fire",
+    "original_title": "Mãos no fogo",
+    "overview": "The young film student Maria do Mar is working on a documentary about the old manor houses along the Douro River. It is the final project in her thesis on “Reality in Cinema”. Maria has an unlimited confidence in what is visible. Her candour and her naivety allow her to see the bright side of life – such as the beauty of the landscape and the authenticity of the place, or what’s left of it. But when Maria enters the final manor house on her list, she soon realises that something is going on in this house that is not as innocent as it first seemed. The manor is truly a house of horrors.",
+    "runtime": 109,
+    "release_date": "2024-02-22",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "PT"
+    ],
+    "original_language": "en",
+    "director": "Margarida Gil",
+    "cast": [
+      "Carolina Campanela",
+      "Rita Durão",
+      "Adelaide Teixeira",
+      "Marcello Urgeghe",
+      "Ricardo Aibéo"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/z9A94b0SuXTNjvZtPU0LCOH3v8p.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/uKJA9Nu0jSD2YH4cNgxsMALxo5f.jpg",
+    "tmdb_rating": 1.7,
+    "tmdb_votes": 3,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt31018048/"
+    }
+  },
+  "2920": {
+    "tmdb_id": 887180,
+    "title": "Matt and Mara",
+    "original_title": "Matt and Mara",
+    "overview": "Mara is a young creative writing professor struggling with problems in her marriage to an experimental musician. One day, she runs into Matt, a charismatic, free-spirited author from her past, when he wanders onto her university campus. Bonded by their shared interests, the two gradually become closer. When Mara’s husband unexpectedly cancels plans to drive her to an out-of-town conference, Matt accompanies Mara on the trip instead. Along the way, the tension surrounding their undefined relationship slowly grows.",
+    "runtime": 80,
+    "release_date": "2024-09-13",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "original_language": "en",
+    "director": "Kazik Radwanski",
+    "cast": [
+      "Deragh Campbell",
+      "Matt Johnson",
+      "Mounir al Shami",
+      "Emma Healey",
+      "Avery Nayman"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/qeyNyRSCwgXgRAg9cwoYr4qN1EY.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/zbhs099mZdsQheqnpgSpANfFDFU.jpg",
+    "tmdb_rating": 6.4,
+    "tmdb_votes": 41,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt13109862/"
+    }
+  },
+  "2921": {
+    "tmdb_id": 1234603,
+    "title": "The Fable",
+    "original_title": "जुगनूमा",
+    "overview": "In the late 1980s in the Himalayas, a man's life is turned upside down by a series of mysterious fires destroying his fruit orchards. As he struggles to stop the outbreaks, the escalating mystery forces him to confront not only the truth behind the blazes but also the long-hidden secrets of his family and his own past.",
+    "runtime": 119,
+    "release_date": "2025-09-12",
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "Mystery"
+    ],
+    "countries": [
+      "IN",
+      "US"
+    ],
+    "original_language": "hi",
+    "director": "Raam Reddy",
+    "cast": [
+      "Manoj Bajpayee",
+      "Priyanka Bose",
+      "Deepak Dobriyal",
+      "Tillotama Shome",
+      "Hiral Sidhu"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/xpFx3aG0CpK3CMo62BuUlqu5ySD.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/apCxL7HURoO80r3DFgbIrTtWl2w.jpg",
+    "tmdb_rating": 6.2,
+    "tmdb_votes": 5,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt31015496/"
+    }
+  },
+  "2922": {
+    "tmdb_id": 1234620,
+    "title": "Through the Graves the Wind Is Blowing",
+    "original_title": "Through the Graves the Wind Is Blowing",
+    "overview": "If there is anyone who embodies the current state of life in Croatia, it is the police detective Ivan Peric. The son of a fisherman, he became a detective as a way of avoiding working in the only really prospering industry of present-day Croatia – tourism. Now his life is consumed by trying to solve a series of essentially unsolvable murders of tourists. Because the tourists are so widely despised, no one will help Ivan. Evidence disappears into the labyrinth of bureaucracy. He is humiliated in public and online. In the local press, his boss even labels him an “uhljeb”, the Croatian slur for a “lazy bureaucratic parasite”. All of this takes place in the city of Split, where the breakup of Yugoslavia has left its mark.",
+    "runtime": 84,
+    "release_date": "2024-02-23",
+    "genres": [
+      "Drama",
+      "Documentary"
+    ],
+    "countries": [
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Travis Wilkerson",
+    "cast": [
+      "Ivan Perić",
+      "Travis Wilkerson",
+      "Matilda Jane Wilkerson",
+      "Dalton Wilkerson"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/vavs34kKsJT1FnjDdVINGc5sphQ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/zDRhsifOSp6sKX6PEwu3mIRfleO.jpg",
+    "tmdb_rating": 6,
+    "tmdb_votes": 1,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt31018975/"
+    }
+  },
+  "2923": {
+    "tmdb_id": 1200753,
+    "title": "You Burn Me",
+    "original_title": "Tú me abrasas",
+    "overview": "An adaptation of “Sea Foam”, a chapter from Cesare Pavese’s “Dialoghi con Leucò” published in 1947. The ancient Greek poet Sappho and the nymph Britomartis meet beside the sea and have a conversation about love and death. Sappho is said to have thrown herself into the ocean from lovesickness. Britomartis apparently tumbled off a cliff and into the water while fleeing from a man. Together, the two discuss the stories and images that have emerged around them to try and understand, at least for a moment, the bittersweet nature of desire.",
+    "runtime": 64,
+    "release_date": "2025-03-07",
+    "genres": [
+      "Drama",
+      "Documentary"
+    ],
+    "countries": [
+      "AR",
+      "ES"
+    ],
+    "original_language": "es",
+    "director": "Matías Piñeiro",
+    "cast": [
+      "Agustina Muñoz",
+      "Gabriela Saidón",
+      "María Villar",
+      "Maria Inês Gonçalves",
+      "Ana Cristina Barragán"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/q1NKq1qGwoKfNPehiWiD3ZoNWpL.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/y46l34DHFL0fjlGnisvaZbofaF8.jpg",
+    "tmdb_rating": 8,
+    "tmdb_votes": 3,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt31018983/"
+    }
+  },
+  "2924": {
+    "tmdb_id": 1201056,
+    "title": "A Family",
+    "original_title": "Une famille",
+    "overview": "Award-winning French writer Christine Angot goes on a business trip to Strasbourg where her father lived before dying several years ago. It is the city where she met him for the first time at the age of 13, and where he sexually abused her over the following years. His wife and children still live there. Angot takes a camera and knocks on the doors of her family to push them to clarify their attitudes to her father’s crime that stretched over so many years. A cinematographic journey that challenges social norms and family perspectives in dealing with incest.",
+    "runtime": 82,
+    "release_date": "2024-03-20",
+    "genres": [
+      "Documentary"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "original_language": "fr",
+    "director": "Christine Angot",
+    "cast": [
+      "Christine Angot"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/bHAAyDoy3RjoEOPblq7n0SuWpLY.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/8KZRxQ0VZwmdrp86wBMDASuvtvM.jpg",
+    "tmdb_rating": 7.1,
+    "tmdb_votes": 16,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt31015517/"
+    }
+  },
+  "2925": {
+    "tmdb_id": 1421142,
+    "title": "The Settlement",
+    "original_title": "المستعمرة",
+    "overview": "After a man dies in a fatal accident at work, the only compensation offered to the family is the chance for his two sons, Hossam (23) and Maro (12), to be employed in the same factory, side by side with the man responsible for their father’s death.",
+    "runtime": 94,
+    "release_date": "2025-02-18",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "EG",
+      "FR",
+      "DE",
+      "SA",
+      "QA"
+    ],
+    "original_language": "ar",
+    "director": "Mohamed Rashad",
+    "cast": [
+      "Adham Shoukry",
+      "Ziad Islam",
+      "Hajar Omar",
+      "Mohamed Abd El Hady",
+      "Emad Ghoneim"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/phllgFBCal5NhCP79ftrj6l1eo1.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/q2lZJpNhceKdpEYTNrt7TluYoDq.jpg",
+    "tmdb_rating": 7,
+    "tmdb_votes": 1,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt35341698/"
+    }
+  },
+  "2926": {
+    "tmdb_id": 1421128,
+    "title": "Shadowbox",
+    "original_title": "বাক্স বন্দি",
+    "overview": "Maya discovers that her husband – an ex-soldier who is suffering from PTSD - is the prime suspect in a murder investigation. She and her teenage son are forced to go to extremes to keep the family together.",
+    "runtime": 91,
+    "release_date": "2026-02-05",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "IN",
+      "FR",
+      "US",
+      "ES"
+    ],
+    "original_language": "bn",
+    "director": "Tanushree Das, Saumyananda Sahi",
+    "cast": [
+      "Tillotama Shome",
+      "Chandan Bisht",
+      "Sayan Karmakar",
+      "Suman Saha"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/bshqlomXJRIKHCpmyU2rTYTgTGm.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/6KRfLJffNlyMokASzLppgn4IkaJ.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt35503482/"
+    }
+  },
+  "2927": {
+    "tmdb_id": 931942,
+    "title": "BLKNWS: Terms & Conditions",
+    "original_title": "BLKNWS: Terms & Conditions",
+    "overview": "Adapted from Kahlil Joseph’s renowned video art installation, BLKNWS: Terms &  Conditions is a distinctive cinematic experience that mirrors the sonic textures  of a record album, weaving fiction and history in an immersive journey where the  fictionalized figures of W. E. B Du Bois and Marcus Garvey join artists, musicians,  Joseph’s family, and even Twitter chats, in a vision for black consciousness.",
+    "runtime": 110,
+    "release_date": "2025-11-28",
+    "genres": [
+      "Documentary"
+    ],
+    "countries": [
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Kahlil Joseph",
+    "cast": [
+      "Kaneza Schaal",
+      "Hope Giselle",
+      "Shaunette Renée Wilson",
+      "Tony Okungbowa",
+      "Zora Casebere"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/4DTTBR1TdT3gfthXmFtwl3tViZZ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/zOKM4aXeC0zT9M2QkaT2wt516Nc.jpg",
+    "tmdb_rating": 7,
+    "tmdb_votes": 1,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt17497960/"
+    }
+  },
+  "2928": {
+    "tmdb_id": 1421132,
+    "title": "Where the Night Stands Still",
+    "original_title": "Come la notte",
+    "overview": "Three Filipino siblings, all domestic workers in Italy, meet in the villa that one of the sisters has inherited. Shared memories and buried grievances come to the surface and put their fragile relationship to the test.",
+    "runtime": 75,
+    "release_date": "2025-02-15",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "IT",
+      "PH"
+    ],
+    "original_language": "it",
+    "director": "Liryc Dela Cruz",
+    "cast": [
+      "Jenny Llanto Caringal",
+      "Tess Magallanes",
+      "Benjamin Vasquez Barcellano Jr."
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/9d0gEmcZH6U9GdTCxejvlV90E69.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/zxfi2a8O2N1CVfOCBzFSmTdudK2.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt35503491/"
+    }
+  },
+  "2929": {
+    "tmdb_id": 1421136,
+    "title": "Two Times João Liberada",
+    "original_title": "Duas Vezes João Liberada",
+    "overview": "João, an actress from Lisbon, as she stars in a biopic about Liberada, a gender-nonconforming figure persecuted by the Portuguese Inquisition in the 18th century. The film's production becomes a battleground as João clashes with the director over how Liberada’s legacy should be portrayed. These tensions deepen as João's dreams are increasingly haunted by Liberada's ghost, blurring the lines between past and present. When the director succumbs to a mysterious paralysis, leaving the film unfinished, João is left to navigate the unfolding chaos. She faces unanswerable questions, not only about the film's future but also about her own connection to Liberada’s spirit and story.",
+    "runtime": 70,
+    "release_date": "2026-06-18",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "PT",
+      "ES"
+    ],
+    "original_language": "pt",
+    "director": "Paula Tomás Marques",
+    "cast": [
+      "June João",
+      "André Tecedeiro",
+      "Jenny Larrue",
+      "Caio Amado Soares",
+      "Eloísa d'Ascensão"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/tCw2f7mHN0R45O3HMgsLRK2BoOD.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/96Sx1gm5LZcDFzXGh53ByDiKGQO.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt35504279/"
+    }
+  },
+  "2930": {
+    "tmdb_id": 1338552,
+    "title": "The Devil Smokes (and Saves the Burnt Matches in the Same Box)",
+    "original_title": "El diablo fuma (y guarda las cabezas de los cerillos quemados en la misma caja)",
+    "overview": "In mid-90s Mexico City, five young siblings are left in the care of their grandmother after their parents suddenly disappear. As they fight to survive, the line between reality and something darker starts to blur. The grandmother, haunted by eerie visions and deepening fears, becomes more distant, while the children’s grip on reality begins to unravel. After a clash with their neighbors, the siblings withdraw even further into isolation, cutting themselves off from the outside world.",
+    "runtime": 97,
+    "release_date": "2026-04-23",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Mystery"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "original_language": "es",
+    "director": "Ernesto Martínez Bucio",
+    "cast": [
+      "Mariapau Bravo Aviña",
+      "Rafael Nieto Martínez",
+      "Regina Alejandra",
+      "Donovan Said Martínez",
+      "Laura Uribe Rojas"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/c6qRPo1cAAkSz8QzElnuuTdfWM9.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/7V5iqxpzFeCUPvckdmaHKvFZFci.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt35484319/"
+    }
+  },
+  "2931": {
+    "tmdb_id": 1269315,
+    "title": "Eel",
+    "original_title": "河鰻",
+    "overview": "Liang’s simple, humdrum life in his deceased father’s dilapidated boathouse on the Shezi island takes a totally unexpected turn when he saves a mysterious young woman from drowning. A woman with her own painful past meets a man haunted by nightmares.",
+    "runtime": 102,
+    "release_date": "2025-10-03",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "TW"
+    ],
+    "original_language": "zh",
+    "director": "Chu Chun-teng",
+    "cast": [
+      "Devin Pan",
+      "Misi Ke",
+      "Pan Chin-yu",
+      "Bella Chen",
+      "Wu Mei-he"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/ltdhyMYaQVy24JEcE030vKlV9i0.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/AnblbJZaVsaAdBQgHZtnYWrRWyQ.jpg",
+    "tmdb_rating": 3,
+    "tmdb_votes": 2,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt35504309/"
+    }
+  },
+  "2932": {
+    "tmdb_id": 1373976,
+    "title": "How to Be Normal and the Oddness of the Other World",
+    "original_title": "How to Be Normal and the Oddness of the Other World",
+    "overview": "Fresh out of a psychiatric hospital, Pia moves back in with her parents to get her life together. Torn between a new job, lovesickness, psychotropic drugs and social stigmatization, she emerges into a world where everything seems out of control.",
+    "runtime": 102,
+    "release_date": "2025-09-11",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "countries": [
+      "AT"
+    ],
+    "original_language": "de",
+    "director": "Florian Pochlatko",
+    "cast": [
+      "Luisa-Céline Gaffron",
+      "Elke Winkens",
+      "Cornelius Obonya",
+      "Felix Pöchhacker",
+      "Oliver Rosskopf"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/uipS7Q9olqG20wBjC3zbA2Taaob.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/t82vGXGqUQa9WIi8W4lFUdmdYgR.jpg",
+    "tmdb_rating": 4.2,
+    "tmdb_votes": 6,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt31807192/"
+    }
+  },
+  "2933": {
+    "tmdb_id": 1294706,
+    "title": "That Summer in Paris",
+    "original_title": "Le Rendez-vous de l'été",
+    "overview": "Paris, the 2024 Olympic Games. Blandine (30) arrives from Normandy to watch the swimming competitions. Disorientated by the hustle and bustle of the city where nothing seems to go her way, she navigates the chaos of Paris and an unexpected reunion.",
+    "runtime": 77,
+    "release_date": "2025-06-11",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "original_language": "fr",
+    "director": "Valentine Cadic",
+    "cast": [
+      "Blandine Madec",
+      "India Hair",
+      "Arcadi Radeff",
+      "Matthias Jacquin",
+      "Lou Deleuze"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/jU7A6yOAhbveSoWu4IEf3gADIVz.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/iRAQwlMZ5L2TfQ4kx0YUg69VEdW.jpg",
+    "tmdb_rating": 6.5,
+    "tmdb_votes": 24,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt35489613/"
+    }
+  },
+  "2934": {
+    "tmdb_id": 1400756,
+    "title": "Mad Bills to Pay (or Destiny, dile que no soy malo)",
+    "original_title": "Mad Bills to Pay (or Destiny, dile que no soy malo)",
+    "overview": "Rico’s summer is a mix of chasing girls and hustling homemade cocktails out of a cooler on Orchard Beach, the Bronx. But when Destiny, his teenage girlfriend, crashes at his place with his family, it’s only a matter of time before his carefree days come spiraling down.",
+    "runtime": 101,
+    "release_date": "2026-04-17",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Joel Alfonso Vargas",
+    "cast": [
+      "Juan Collado",
+      "Destiny Checo",
+      "Yohanna Florentino",
+      "Nathaly Navarro",
+      "Gregory Requena"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/vgCPDVjN7OTT30uCkQafFXSXNcm.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/yrbuUQooId6cMr9jpr5e39hQ2KS.jpg",
+    "tmdb_rating": 8,
+    "tmdb_votes": 2,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt33562917/"
+    }
+  },
+  "2935": {
+    "tmdb_id": 1054283,
+    "title": "Growing Down",
+    "original_title": "Minden rendben",
+    "overview": "Sándor, a widower, is the only witness to a serious accident involving his stepdaughter and youngest son. Now he faces a dilemma: should he tell the truth and live with the consequences? Or lie and save his son from juvenile detention?",
+    "runtime": 86,
+    "release_date": "2025-03-20",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "HU"
+    ],
+    "original_language": "hu",
+    "director": "Bálint Dániel Sós",
+    "cast": [
+      "Szabolcs Hajdu",
+      "Ágoston Sáfrány",
+      "Anna Háy",
+      "Zonga Jakab-Aponyi",
+      "Zsófia Szamosi"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/iQtFSiTeW4uCMTvkWsZOJgifYr4.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/sC0wfQ2fXVHTQk0TTQ6wy2NILua.jpg",
+    "tmdb_rating": 6.3,
+    "tmdb_votes": 4,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt30142288/"
+    }
+  },
+  "2936": {
+    "tmdb_id": 1338472,
+    "title": "Punching the World",
+    "original_title": "Mit der Faust in die Welt schlagen",
+    "overview": "Two brothers grow up in the Saxon province (part of Germany) at the turn of the millennium, where the dream of family happiness in a new house quickly turns into a nightmare of decay, violence and xenophobia as they desperately search for stability and belonging.",
+    "runtime": 110,
+    "release_date": "2025-04-03",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "original_language": "de",
+    "director": "Constanze Klaue",
+    "cast": [
+      "Anton Franke",
+      "Camille Moltzen",
+      "Anja Schneider",
+      "Christian Näthe",
+      "Katrin Röver"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/fqbX4m3DJ67Zarz5suMo6UWxRpi.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/6rNso7h53Pp309wzj6jeTk6HzAT.jpg",
+    "tmdb_rating": 6.4,
+    "tmdb_votes": 16,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt26414209/"
+    }
+  },
+  "2937": {
+    "tmdb_id": 1091196,
+    "title": "We Believe You",
+    "original_title": "On vous croit",
+    "overview": "Today, Alice stands before a judge, knowing there is no room for error. She must speak up for her children, as her custody is being called into question. Can she protect them from their father before it is too late?",
+    "runtime": 78,
+    "release_date": "2025-11-12",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "BE"
+    ],
+    "original_language": "fr",
+    "director": "Arnaud Dufeys, Charlotte Devillers",
+    "cast": [
+      "Myriem Akheddiou",
+      "Laurent Capelluto",
+      "Natali Broods",
+      "Ulysse Goffin",
+      "Adèle Pinckaers"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/aBYQhsh65AZqEfPiDy3Z7AGbsw.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/cSHSViBQedLtepD4Rizq3TuBVnS.jpg",
+    "tmdb_rating": 6.7,
+    "tmdb_votes": 35,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt35504398/"
+    }
   }
 };

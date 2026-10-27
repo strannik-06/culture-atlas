@@ -573,9 +573,20 @@
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
+      "title": "I Poli ke i Poli",
+      "source": "https://www.berlinale.de/en/2022/programme/202202534.html",
+      "id": 2856,
+      "tmdb_id": 928728,
+      "imdb_id": "tt14210824",
+      "director": "Hristos Passalis, Syllas Tzoumerkas",
+      "festival_year": 2022,
+      "provider_release_date": "2022-04-07",
+      "method": "Official selection title/aliases and director; unique feature-film provider identity"
+    },
+    {
       "title": "Journal d’Amérique",
       "source": "https://www.berlinale.de/en/2022/programme/202203841.html",
-      "id": 2856,
+      "id": 2857,
       "tmdb_id": 928729,
       "imdb_id": "tt17309428",
       "director": "Arnaud des Pallières",
@@ -586,7 +597,7 @@
     {
       "title": "Keiko, me wo sumasete",
       "source": "https://www.berlinale.de/en/2022/programme/202208770.html",
-      "id": 2857,
+      "id": 2858,
       "tmdb_id": 928730,
       "imdb_id": "tt17309864",
       "director": "Sho Miyake",
@@ -597,7 +608,7 @@
     {
       "title": "MUTZENBACHER",
       "source": "https://www.berlinale.de/en/2022/programme/202206941.html",
-      "id": 2858,
+      "id": 2859,
       "tmdb_id": 928731,
       "imdb_id": "tt17309916",
       "director": "Ruth Beckermann",
@@ -608,7 +619,7 @@
     {
       "title": "Queens of the Qing Dynasty",
       "source": "https://www.berlinale.de/en/2022/programme/202201272.html",
-      "id": 2859,
+      "id": 2860,
       "tmdb_id": 928733,
       "imdb_id": "tt13368192",
       "director": "Ashley McKenzie",
@@ -619,7 +630,7 @@
     {
       "title": "Sonne",
       "source": "https://www.berlinale.de/en/2022/programme/202202785.html",
-      "id": 2860,
+      "id": 2861,
       "tmdb_id": 928735,
       "imdb_id": "tt15429106",
       "director": "Kurdwin Ayub",
@@ -630,7 +641,7 @@
     {
       "title": "Unrueh",
       "source": "https://www.berlinale.de/en/2022/programme/202205160.html",
-      "id": 2861,
+      "id": 2862,
       "tmdb_id": 749136,
       "imdb_id": "tt11409736",
       "director": "Cyril Schäublin",
@@ -641,7 +652,7 @@
     {
       "title": "Zum Tod meiner Mutter",
       "source": "https://www.berlinale.de/en/2022/programme/202201911.html",
-      "id": 2862,
+      "id": 2863,
       "tmdb_id": 928737,
       "imdb_id": "tt17009236",
       "director": "Jessica Krummacher",
@@ -652,7 +663,7 @@
     {
       "title": "20.000 especies de abejas",
       "source": "https://www.berlinale.de/en/2023/programme/202307206.html",
-      "id": 2863,
+      "id": 2864,
       "tmdb_id": 1053600,
       "imdb_id": "tt21113962",
       "director": "Estibaliz Urresola Solaguren",
@@ -663,7 +674,7 @@
     {
       "title": "Art College 1994",
       "source": "https://www.berlinale.de/en/2023/programme/202314680.html",
-      "id": 2864,
+      "id": 2865,
       "tmdb_id": 954905,
       "imdb_id": "tt1872160",
       "director": "Liu Jian",
@@ -674,7 +685,7 @@
     {
       "title": "Bai Ta Zhi Guang",
       "source": "https://www.berlinale.de/en/2023/programme/202303739.html",
-      "id": 2865,
+      "id": 2866,
       "tmdb_id": 1075840,
       "imdb_id": "tt26441793",
       "director": "Zhang Lu",
@@ -685,7 +696,7 @@
     {
       "title": "Bis ans Ende der Nacht",
       "source": "https://www.berlinale.de/en/2023/programme/202309393.html",
-      "id": 2866,
+      "id": 2867,
       "tmdb_id": 1069164,
       "imdb_id": "tt23283892",
       "director": "Christoph Hochhäusler",
@@ -696,7 +707,7 @@
     {
       "title": "BlackBerry",
       "source": "https://www.berlinale.de/en/2023/programme/202310362.html",
-      "id": 2867,
+      "id": 2868,
       "tmdb_id": 1016084,
       "imdb_id": "tt21867434",
       "director": "Matt Johnson",
@@ -707,7 +718,7 @@
     {
       "title": "Disco Boy",
       "source": "https://www.berlinale.de/en/2023/programme/202302125.html",
-      "id": 2868,
+      "id": 2869,
       "tmdb_id": 922830,
       "imdb_id": "tt22180518",
       "director": "Giacomo Abbruzzese",
@@ -718,7 +729,7 @@
     {
       "title": "Ingeborg Bachmann – Reise in die Wüste",
       "source": "https://www.berlinale.de/en/2023/programme/202309377.html",
-      "id": 2869,
+      "id": 2870,
       "tmdb_id": 978580,
       "imdb_id": "tt16103266",
       "director": "Margarethe von Trotta",
@@ -729,7 +740,7 @@
     {
       "title": "Irgendwann werden wir uns alles erzählen",
       "source": "https://www.berlinale.de/en/2023/programme/202309628.html",
-      "id": 2870,
+      "id": 2871,
       "tmdb_id": 1045205,
       "imdb_id": "tt21654390",
       "director": "Emily Atef",
@@ -740,7 +751,7 @@
     {
       "title": "Le grand chariot",
       "source": "https://www.berlinale.de/en/2023/programme/202312647.html",
-      "id": 2871,
+      "id": 2872,
       "tmdb_id": 920767,
       "imdb_id": "tt15531718",
       "director": "Philippe Garrel",
@@ -751,7 +762,7 @@
     {
       "title": "Limbo",
       "source": "https://www.berlinale.de/en/2023/programme/202304831.html",
-      "id": 2872,
+      "id": 2873,
       "tmdb_id": 1077670,
       "imdb_id": "tt21833834",
       "director": "Ivan Sen",
@@ -762,7 +773,7 @@
     {
       "title": "Mal Viver",
       "source": "https://www.berlinale.de/en/2023/programme/202309165.html",
-      "id": 2873,
+      "id": 2874,
       "tmdb_id": 1648274,
       "imdb_id": "tt14007288",
       "director": "João Canijo",
@@ -773,7 +784,7 @@
     {
       "title": "Manodrome",
       "source": "https://www.berlinale.de/en/2023/programme/202310730.html",
-      "id": 2874,
+      "id": 2875,
       "tmdb_id": 843942,
       "imdb_id": "tt14813150",
       "director": "John Trengove",
@@ -784,7 +795,7 @@
     {
       "title": "Music",
       "source": "https://www.berlinale.de/en/2023/programme/202313655.html",
-      "id": 2875,
+      "id": 2876,
       "tmdb_id": 666942,
       "imdb_id": "tt15547924",
       "director": "Angela Schanelec",
@@ -817,7 +828,7 @@
     {
       "title": "Sur l’Adamant",
       "source": "https://www.berlinale.de/en/2023/programme/202305594.html",
-      "id": 2876,
+      "id": 2877,
       "tmdb_id": 1070449,
       "imdb_id": "tt26448811",
       "director": "Nicolas Philibert",
@@ -839,7 +850,7 @@
     {
       "title": "The Survival of Kindness",
       "source": "https://www.berlinale.de/en/2023/programme/202302045.html",
-      "id": 2877,
+      "id": 2878,
       "tmdb_id": 1024707,
       "imdb_id": "tt15831022",
       "director": "Rolf de Heer",
@@ -850,7 +861,7 @@
     {
       "title": "Tótem",
       "source": "https://www.berlinale.de/en/2023/programme/202307056.html",
-      "id": 2878,
+      "id": 2879,
       "tmdb_id": 958186,
       "imdb_id": "tt26315142",
       "director": "Lila Avilés",
@@ -861,7 +872,7 @@
     {
       "title": "Adentro mío estoy bailando",
       "source": "https://www.berlinale.de/en/2023/programme/202308143.html",
-      "id": 2879,
+      "id": 2880,
       "tmdb_id": 1077675,
       "imdb_id": "tt26448952",
       "director": "Paloma Schachmann, Leandro Koch",
@@ -872,7 +883,7 @@
     {
       "title": "El eco",
       "source": "https://www.berlinale.de/en/2023/programme/202306357.html",
-      "id": 2880,
+      "id": 2881,
       "tmdb_id": 1062526,
       "imdb_id": "tt26448953",
       "director": "Tatiana Huezo",
@@ -894,7 +905,7 @@
     {
       "title": "Im toten Winkel",
       "source": "https://www.berlinale.de/en/2023/programme/202304749.html",
-      "id": 2881,
+      "id": 2882,
       "tmdb_id": 1077676,
       "imdb_id": "tt26448958",
       "director": "Ayşe Polat",
@@ -905,7 +916,7 @@
     {
       "title": "Kletka ishet ptitsu",
       "source": "https://www.berlinale.de/en/2023/programme/202305384.html",
-      "id": 2882,
+      "id": 2883,
       "tmdb_id": 1077678,
       "imdb_id": "tt26441515",
       "director": "Malika Musaeva",
@@ -916,7 +927,7 @@
     {
       "title": "Le mura di Bergamo",
       "source": "https://www.berlinale.de/en/2023/programme/202314375.html",
-      "id": 2883,
+      "id": 2884,
       "tmdb_id": 1077680,
       "imdb_id": "tt26448975",
       "director": "Stefano Savona",
@@ -927,7 +938,7 @@
     {
       "title": "Mon pire ennemi",
       "source": "https://www.berlinale.de/en/2023/programme/202309305.html",
-      "id": 2884,
+      "id": 2885,
       "tmdb_id": 1077748,
       "imdb_id": "tt26448963",
       "director": "Mehran Tamadon",
@@ -938,7 +949,7 @@
     {
       "title": "Műanyag égbolt",
       "source": "https://www.berlinale.de/en/2023/programme/202308199.html",
-      "id": 2885,
+      "id": 2886,
       "tmdb_id": 587384,
       "imdb_id": "tt8096846",
       "director": "Sarolta Szabó, Tibor Bánóczki",
@@ -949,7 +960,7 @@
     {
       "title": "mul-an-e-seo",
       "source": "https://www.berlinale.de/en/2023/programme/202313780.html",
-      "id": 2886,
+      "id": 2887,
       "tmdb_id": 1077647,
       "imdb_id": "tt26448971",
       "director": "Hong Sang-soo",
@@ -960,7 +971,7 @@
     {
       "title": "Mummola",
       "source": "https://www.berlinale.de/en/2023/programme/202308725.html",
-      "id": 2887,
+      "id": 2888,
       "tmdb_id": 925920,
       "imdb_id": "tt26448972",
       "director": "Tia Kouvo",
@@ -971,7 +982,7 @@
     {
       "title": "Orlando, ma biographie politique",
       "source": "https://www.berlinale.de/en/2023/programme/202314130.html",
-      "id": 2888,
+      "id": 2889,
       "tmdb_id": 1077683,
       "imdb_id": "tt26448981",
       "director": "Paul B. Preciado",
@@ -982,7 +993,7 @@
     {
       "title": "Samsara",
       "source": "https://www.berlinale.de/en/2023/programme/202306060.html",
-      "id": 2889,
+      "id": 2890,
       "tmdb_id": 1077684,
       "imdb_id": "tt21909682",
       "director": "Lois Patiño",
@@ -993,7 +1004,7 @@
     {
       "title": "Shidniy front",
       "source": "https://www.berlinale.de/en/2023/programme/202306650.html",
-      "id": 2890,
+      "id": 2891,
       "tmdb_id": 1077685,
       "imdb_id": "tt26448984",
       "director": "Vitaly Mansky, Yevhen Titarenko",
@@ -1004,7 +1015,7 @@
     {
       "title": "The Adults",
       "source": "https://www.berlinale.de/en/2023/programme/202302847.html",
-      "id": 2891,
+      "id": 2892,
       "tmdb_id": 1077661,
       "imdb_id": "tt26443107",
       "director": "Dustin Guy Defa",
@@ -1015,12 +1026,23 @@
     {
       "title": "Viver Mal",
       "source": "https://www.berlinale.de/en/2023/programme/202309202.html",
-      "id": 2892,
+      "id": 2893,
       "tmdb_id": 1077686,
       "imdb_id": "tt26440896",
       "director": "João Canijo",
       "festival_year": 2023,
       "provider_release_date": "2023-05-07",
+      "method": "Official selection title/aliases and director; unique feature-film provider identity"
+    },
+    {
+      "title": "Xue yun",
+      "source": "https://www.berlinale.de/en/2023/programme/202306367.html",
+      "id": 2894,
+      "tmdb_id": 1065879,
+      "imdb_id": "tt26441800",
+      "director": "Wu Lang",
+      "festival_year": 2023,
+      "provider_release_date": "2025-08-27",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1037,7 +1059,7 @@
     {
       "title": "Another End",
       "source": "https://www.berlinale.de/en/2024/programme/202414892.html",
-      "id": 2893,
+      "id": 2895,
       "tmdb_id": 1087593,
       "imdb_id": "tt26749648",
       "director": "Piero Messina",
@@ -1048,7 +1070,7 @@
     {
       "title": "Architecton",
       "source": "https://www.berlinale.de/en/2024/programme/202402846.html",
-      "id": 2894,
+      "id": 2896,
       "tmdb_id": 1234597,
       "imdb_id": "tt18346498",
       "director": "Viktor Kossakovsky",
@@ -1059,7 +1081,7 @@
     {
       "title": "Black Tea",
       "source": "https://www.berlinale.de/en/2024/programme/202411231.html",
-      "id": 2895,
+      "id": 2897,
       "tmdb_id": 662402,
       "imdb_id": "tt21994228",
       "director": "Abderrahmane Sissako",
@@ -1092,7 +1114,7 @@
     {
       "title": "Gloria!",
       "source": "https://www.berlinale.de/en/2024/programme/202414848.html",
-      "id": 2896,
+      "id": 2898,
       "tmdb_id": 1231035,
       "imdb_id": "tt26757264",
       "director": "Margherita Vicario",
@@ -1103,7 +1125,7 @@
     {
       "title": "Hors du temps",
       "source": "https://www.berlinale.de/en/2024/programme/202407361.html",
-      "id": 2897,
+      "id": 2899,
       "tmdb_id": 1119625,
       "imdb_id": "tt31015247",
       "director": "Olivier Assayas",
@@ -1114,7 +1136,7 @@
     {
       "title": "In Liebe, Eure Hilde",
       "source": "https://www.berlinale.de/en/2024/programme/202415117.html",
-      "id": 2898,
+      "id": 2900,
       "tmdb_id": 1070319,
       "imdb_id": "tt20420646",
       "director": "Andreas Dresen",
@@ -1125,7 +1147,7 @@
     {
       "title": "Keyke mahboobe man",
       "source": "https://www.berlinale.de/en/2024/programme/202405386.html",
-      "id": 2899,
+      "id": 2901,
       "tmdb_id": 1234591,
       "imdb_id": "tt31015278",
       "director": "Behtash Sanaeeha, Maryam Moghaddam",
@@ -1147,7 +1169,7 @@
     {
       "title": "La Cocina",
       "source": "https://www.berlinale.de/en/2024/programme/202408571.html",
-      "id": 2900,
+      "id": 2902,
       "tmdb_id": 966238,
       "imdb_id": "tt19864832",
       "director": "Alonso Ruizpalacios",
@@ -1158,7 +1180,7 @@
     {
       "title": "Langue Étrangère",
       "source": "https://www.berlinale.de/en/2024/programme/202407611.html",
-      "id": 2901,
+      "id": 2903,
       "tmdb_id": 803690,
       "imdb_id": "tt31015291",
       "director": "Claire Burger",
@@ -1169,7 +1191,7 @@
     {
       "title": "Mé el Aïn",
       "source": "https://www.berlinale.de/en/2024/programme/202410310.html",
-      "id": 2902,
+      "id": 2904,
       "tmdb_id": 794090,
       "imdb_id": "tt14680834",
       "director": "Meryam Joobeur",
@@ -1180,7 +1202,7 @@
     {
       "title": "Pepe",
       "source": "https://www.berlinale.de/en/2024/programme/202403660.html",
-      "id": 2903,
+      "id": 2905,
       "tmdb_id": 1172241,
       "imdb_id": "tt10781034",
       "director": "Nelson Carlos de los Santos Arias",
@@ -1191,7 +1213,7 @@
     {
       "title": "Shambhala",
       "source": "https://www.berlinale.de/en/2024/programme/202408746.html",
-      "id": 2904,
+      "id": 2906,
       "tmdb_id": 1234593,
       "imdb_id": "tt30804400",
       "director": "Min Bahadur Bham",
@@ -1213,7 +1235,7 @@
     {
       "title": "Sterben",
       "source": "https://www.berlinale.de/en/2024/programme/202406481.html",
-      "id": 2905,
+      "id": 2907,
       "tmdb_id": 1232781,
       "imdb_id": "tt27165281",
       "director": "Matthias Glasner",
@@ -1224,7 +1246,7 @@
     {
       "title": "Vogter",
       "source": "https://www.berlinale.de/en/2024/programme/202404654.html",
-      "id": 2906,
+      "id": 2908,
       "tmdb_id": 1113120,
       "imdb_id": "tt27496775",
       "director": "Gustav Möller",
@@ -1235,7 +1257,7 @@
     {
       "title": "Yeohaengjaui pilyo",
       "source": "https://www.berlinale.de/en/2024/programme/202408802.html",
-      "id": 2907,
+      "id": 2909,
       "tmdb_id": 1146410,
       "imdb_id": "tt31015344",
       "director": "Hong Sang-soo",
@@ -1246,7 +1268,7 @@
     {
       "title": "Arcadia",
       "source": "https://www.berlinale.de/en/2024/programme/202403036.html",
-      "id": 2908,
+      "id": 2910,
       "tmdb_id": 889820,
       "imdb_id": "tt31015391",
       "director": "Yorgos Zois",
@@ -1257,7 +1279,7 @@
     {
       "title": "Cidade; Campo",
       "source": "https://www.berlinale.de/en/2024/programme/202409113.html",
-      "id": 2909,
+      "id": 2911,
       "tmdb_id": 749116,
       "imdb_id": "tt30858110",
       "director": "Juliana Rojas",
@@ -1268,7 +1290,7 @@
     {
       "title": "Demba",
       "source": "https://www.berlinale.de/en/2024/programme/202415613.html",
-      "id": 2910,
+      "id": 2912,
       "tmdb_id": 1234590,
       "imdb_id": "tt31015413",
       "director": "Mamadou Dia",
@@ -1279,7 +1301,7 @@
     {
       "title": "DIRECT ACTION",
       "source": "https://www.berlinale.de/en/2024/programme/202403630.html",
-      "id": 2911,
+      "id": 2913,
       "tmdb_id": 1234601,
       "imdb_id": "tt31015444",
       "director": "Guillaume Cailleau, Ben Russell",
@@ -1290,7 +1312,7 @@
     {
       "title": "Dormir de olhos abertos",
       "source": "https://www.berlinale.de/en/2024/programme/202415567.html",
-      "id": 2912,
+      "id": 2914,
       "tmdb_id": 1234602,
       "imdb_id": "tt31015461",
       "director": "Nele Wohlatz",
@@ -1301,7 +1323,7 @@
     {
       "title": "Favoriten",
       "source": "https://www.berlinale.de/en/2024/programme/202407612.html",
-      "id": 2913,
+      "id": 2915,
       "tmdb_id": 940770,
       "imdb_id": "tt31015543",
       "director": "Ruth Beckermann",
@@ -1312,7 +1334,7 @@
     {
       "title": "Ivo",
       "source": "https://www.berlinale.de/en/2024/programme/202415458.html",
-      "id": 2914,
+      "id": 2916,
       "tmdb_id": 1234586,
       "imdb_id": "tt31016613",
       "director": "Eva Trobisch",
@@ -1323,7 +1345,7 @@
     {
       "title": "Khamyazeye bozorg",
       "source": "https://www.berlinale.de/en/2024/programme/202405193.html",
-      "id": 2915,
+      "id": 2917,
       "tmdb_id": 1234607,
       "imdb_id": "tt31016912",
       "director": "Aliyar Rasti",
@@ -1334,7 +1356,7 @@
     {
       "title": "Kong fang jian li de nv ren",
       "source": "https://www.berlinale.de/en/2024/programme/202403898.html",
-      "id": 2916,
+      "id": 2918,
       "tmdb_id": 1081918,
       "imdb_id": "tt26655205",
       "director": "Qiu Yang",
@@ -1345,7 +1367,7 @@
     {
       "title": "Mãos no fogo",
       "source": "https://www.berlinale.de/en/2024/programme/202406898.html",
-      "id": 2917,
+      "id": 2919,
       "tmdb_id": 1234619,
       "imdb_id": "tt31018048",
       "director": "Margarida Gil",
@@ -1356,7 +1378,7 @@
     {
       "title": "Matt and Mara",
       "source": "https://www.berlinale.de/en/2024/programme/202404698.html",
-      "id": 2918,
+      "id": 2920,
       "tmdb_id": 887180,
       "imdb_id": "tt13109862",
       "director": "Kazik Radwanski",
@@ -1367,7 +1389,7 @@
     {
       "title": "The Fable",
       "source": "https://www.berlinale.de/en/2024/programme/202409890.html",
-      "id": 2919,
+      "id": 2921,
       "tmdb_id": 1234603,
       "imdb_id": "tt31015496",
       "director": "Raam Reddy",
@@ -1378,7 +1400,7 @@
     {
       "title": "Through the Graves the Wind Is Blowing",
       "source": "https://www.berlinale.de/en/2024/programme/202406729.html",
-      "id": 2920,
+      "id": 2922,
       "tmdb_id": 1234620,
       "imdb_id": "tt31018975",
       "director": "Travis Wilkerson",
@@ -1389,7 +1411,7 @@
     {
       "title": "Tú me abrasas",
       "source": "https://www.berlinale.de/en/2024/programme/202409749.html",
-      "id": 2921,
+      "id": 2923,
       "tmdb_id": 1200753,
       "imdb_id": "tt31018983",
       "director": "Matías Piñeiro",
@@ -1400,7 +1422,7 @@
     {
       "title": "Une famille",
       "source": "https://www.berlinale.de/en/2024/programme/202410732.html",
-      "id": 2922,
+      "id": 2924,
       "tmdb_id": 1201056,
       "imdb_id": "tt31015517",
       "director": "Christine Angot",
@@ -1620,7 +1642,7 @@
     {
       "title": "Al mosta'mera",
       "source": "https://www.berlinale.de/en/2025/programme/202504080.html",
-      "id": 2923,
+      "id": 2925,
       "tmdb_id": 1421142,
       "imdb_id": "tt35341698",
       "director": "Mohamed Rashad",
@@ -1631,7 +1653,7 @@
     {
       "title": "Baksho Bondi",
       "source": "https://www.berlinale.de/en/2025/programme/202503874.html",
-      "id": 2924,
+      "id": 2926,
       "tmdb_id": 1421128,
       "imdb_id": "tt35503482",
       "director": "Tanushree Das, Saumyananda Sahi",
@@ -1642,7 +1664,7 @@
     {
       "title": "BLKNWS: Terms & Conditions",
       "source": "https://www.berlinale.de/en/2025/programme/202511400.html",
-      "id": 2925,
+      "id": 2927,
       "tmdb_id": 931942,
       "imdb_id": "tt17497960",
       "director": "Kahlil Joseph",
@@ -1653,7 +1675,7 @@
     {
       "title": "Come la notte",
       "source": "https://www.berlinale.de/en/2025/programme/202518267.html",
-      "id": 2926,
+      "id": 2928,
       "tmdb_id": 1421132,
       "imdb_id": "tt35503491",
       "director": "Liryc Dela Cruz",
@@ -1664,7 +1686,7 @@
     {
       "title": "Duas vezes João Liberada",
       "source": "https://www.berlinale.de/en/2025/programme/202508762.html",
-      "id": 2927,
+      "id": 2929,
       "tmdb_id": 1421136,
       "imdb_id": "tt35504279",
       "director": "Paula Tomás Marques",
@@ -1675,7 +1697,7 @@
     {
       "title": "El Diablo Fuma (y guarda las cabezas de los cerillos quemados en la misma caja)",
       "source": "https://www.berlinale.de/en/2025/programme/202505986.html",
-      "id": 2928,
+      "id": 2930,
       "tmdb_id": 1338552,
       "imdb_id": "tt35484319",
       "director": "Ernesto Martínez Bucio",
@@ -1686,7 +1708,7 @@
     {
       "title": "Hé mán",
       "source": "https://www.berlinale.de/en/2025/programme/202505896.html",
-      "id": 2929,
+      "id": 2931,
       "tmdb_id": 1269315,
       "imdb_id": "tt35504309",
       "director": "Chu Chun-teng",
@@ -1697,7 +1719,7 @@
     {
       "title": "How to Be Normal and the Oddness of the Other World",
       "source": "https://www.berlinale.de/en/2025/programme/202501401.html",
-      "id": 2930,
+      "id": 2932,
       "tmdb_id": 1373976,
       "imdb_id": "tt31807192",
       "director": "Florian Pochlatko",
@@ -1719,7 +1741,7 @@
     {
       "title": "Le rendez-vous de l'été",
       "source": "https://www.berlinale.de/en/2025/programme/202510656.html",
-      "id": 2931,
+      "id": 2933,
       "tmdb_id": 1294706,
       "imdb_id": "tt35489613",
       "director": "Valentine Cadic",
@@ -1730,7 +1752,7 @@
     {
       "title": "Mad Bills to Pay (or Destiny, dile que no soy malo)",
       "source": "https://www.berlinale.de/en/2025/programme/202507987.html",
-      "id": 2932,
+      "id": 2934,
       "tmdb_id": 1400756,
       "imdb_id": "tt33562917",
       "director": "Joel Alfonso Vargas",
@@ -1741,7 +1763,7 @@
     {
       "title": "Minden Rendben",
       "source": "https://www.berlinale.de/en/2025/programme/202513405.html",
-      "id": 2933,
+      "id": 2935,
       "tmdb_id": 1054283,
       "imdb_id": "tt30142288",
       "director": "Bálint Dániel Sós",
@@ -1752,7 +1774,7 @@
     {
       "title": "Mit der Faust in die Welt schlagen",
       "source": "https://www.berlinale.de/en/2025/programme/202516907.html",
-      "id": 2934,
+      "id": 2936,
       "tmdb_id": 1338472,
       "imdb_id": "tt26414209",
       "director": "Constanze Klaue",
@@ -1763,7 +1785,7 @@
     {
       "title": "On vous croit",
       "source": "https://www.berlinale.de/en/2025/programme/202517054.html",
-      "id": 2935,
+      "id": 2937,
       "tmdb_id": 1091196,
       "imdb_id": "tt35504398",
       "director": "Arnaud Dufeys, Charlotte Devillers",
@@ -2350,6 +2372,19 @@
     },
     {
       "id": 2856,
+      "title": "The City and the City",
+      "director": "Hristos Passalis, Syllas Tzoumerkas",
+      "year": 2022,
+      "tmdb_id": 928728,
+      "imdb_id": "tt14210824",
+      "original_title": "Η Πόλη Και Η Πόλη",
+      "original_language": "el",
+      "alternate_titles": [
+        "I Poli ke i Poli"
+      ]
+    },
+    {
+      "id": 2857,
       "title": "American Journal",
       "director": "Arnaud des Pallières",
       "year": 2022,
@@ -2360,7 +2395,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2857,
+      "id": 2858,
       "title": "Small, Slow But Steady",
       "director": "Sho Miyake",
       "year": 2022,
@@ -2373,7 +2408,7 @@
       ]
     },
     {
-      "id": 2858,
+      "id": 2859,
       "title": "Mutzenbacher",
       "director": "Ruth Beckermann",
       "year": 2022,
@@ -2384,7 +2419,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2859,
+      "id": 2860,
       "title": "Queens of the Qing Dynasty",
       "director": "Ashley McKenzie",
       "year": 2022,
@@ -2395,7 +2430,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2860,
+      "id": 2861,
       "title": "Sun",
       "director": "Kurdwin Ayub",
       "year": 2022,
@@ -2406,7 +2441,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2861,
+      "id": 2862,
       "title": "Unrest",
       "director": "Cyril Schäublin",
       "year": 2022,
@@ -2417,7 +2452,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2862,
+      "id": 2863,
       "title": "The Death of My Mother",
       "director": "Jessica Krummacher",
       "year": 2022,
@@ -2428,7 +2463,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2863,
+      "id": 2864,
       "title": "20,000 Species of Bees",
       "director": "Estibaliz Urresola Solaguren",
       "year": 2023,
@@ -2439,7 +2474,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2864,
+      "id": 2865,
       "title": "Art College 1994",
       "director": "Liu Jian",
       "year": 2023,
@@ -2450,7 +2485,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2865,
+      "id": 2866,
       "title": "The Shadowless Tower",
       "director": "Zhang Lu",
       "year": 2022,
@@ -2464,7 +2499,7 @@
       ]
     },
     {
-      "id": 2866,
+      "id": 2867,
       "title": "Till the End of the Night",
       "director": "Christoph Hochhäusler",
       "year": 2023,
@@ -2475,7 +2510,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2867,
+      "id": 2868,
       "title": "BlackBerry",
       "director": "Matt Johnson",
       "year": 2023,
@@ -2486,7 +2521,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2868,
+      "id": 2869,
       "title": "Disco Boy",
       "director": "Giacomo Abbruzzese",
       "year": 2023,
@@ -2497,7 +2532,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2869,
+      "id": 2870,
       "title": "Ingeborg Bachmann – Journey into the Desert",
       "director": "Margarethe von Trotta",
       "year": 2023,
@@ -2508,7 +2543,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2870,
+      "id": 2871,
       "title": "Someday We'll Tell Each Other Everything",
       "director": "Emily Atef",
       "year": 2023,
@@ -2519,7 +2554,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2871,
+      "id": 2872,
       "title": "The Plough",
       "director": "Philippe Garrel",
       "year": 2022,
@@ -2530,7 +2565,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2872,
+      "id": 2873,
       "title": "Limbo",
       "director": "Ivan Sen",
       "year": 2023,
@@ -2541,7 +2576,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2873,
+      "id": 2874,
       "title": "Bad Living",
       "director": "João Canijo",
       "year": 2023,
@@ -2552,7 +2587,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2874,
+      "id": 2875,
       "title": "Manodrome",
       "director": "John Trengove",
       "year": 2023,
@@ -2563,7 +2598,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2875,
+      "id": 2876,
       "title": "Music",
       "director": "Angela Schanelec",
       "year": 2023,
@@ -2574,7 +2609,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2876,
+      "id": 2877,
       "title": "On the Adamant",
       "director": "Nicolas Philibert",
       "year": 2022,
@@ -2585,7 +2620,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2877,
+      "id": 2878,
       "title": "The Survival of Kindness",
       "director": "Rolf de Heer",
       "year": 2022,
@@ -2598,7 +2633,7 @@
       ]
     },
     {
-      "id": 2878,
+      "id": 2879,
       "title": "Tótem",
       "director": "Lila Avilés",
       "year": 2023,
@@ -2609,7 +2644,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2879,
+      "id": 2880,
       "title": "The Klezmer Project",
       "director": "Paloma Schachmann, Leandro Koch",
       "year": 2023,
@@ -2620,7 +2655,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2880,
+      "id": 2881,
       "title": "The Echo",
       "director": "Tatiana Huezo",
       "year": 2023,
@@ -2633,7 +2668,7 @@
       ]
     },
     {
-      "id": 2881,
+      "id": 2882,
       "title": "In the Blind Spot",
       "director": "Ayşe Polat",
       "year": 2023,
@@ -2644,7 +2679,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2882,
+      "id": 2883,
       "title": "The Cage is Looking for a Bird",
       "director": "Malika Musaeva",
       "year": 2023,
@@ -2657,7 +2692,7 @@
       ]
     },
     {
-      "id": 2883,
+      "id": 2884,
       "title": "The Walls of Bergamo",
       "director": "Stefano Savona",
       "year": 2023,
@@ -2668,7 +2703,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2884,
+      "id": 2885,
       "title": "My Worst Enemy",
       "director": "Mehran Tamadon",
       "year": 2023,
@@ -2679,7 +2714,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2885,
+      "id": 2886,
       "title": "White Plastic Sky",
       "director": "Sarolta Szabó, Tibor Bánóczki",
       "year": 2023,
@@ -2690,7 +2725,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2886,
+      "id": 2887,
       "title": "In Water",
       "director": "Hong Sang-soo",
       "year": 2023,
@@ -2703,7 +2738,7 @@
       ]
     },
     {
-      "id": 2887,
+      "id": 2888,
       "title": "Family Time",
       "director": "Tia Kouvo",
       "year": 2023,
@@ -2714,7 +2749,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2888,
+      "id": 2889,
       "title": "Orlando, My Political Biography",
       "director": "Paul B. Preciado",
       "year": 2023,
@@ -2725,7 +2760,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2889,
+      "id": 2890,
       "title": "Samsara",
       "director": "Lois Patiño",
       "year": 2023,
@@ -2736,7 +2771,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2890,
+      "id": 2891,
       "title": "Eastern Front",
       "director": "Vitaly Mansky, Yevhen Titarenko",
       "year": 2023,
@@ -2749,7 +2784,7 @@
       ]
     },
     {
-      "id": 2891,
+      "id": 2892,
       "title": "The Adults",
       "director": "Dustin Guy Defa",
       "year": 2023,
@@ -2760,7 +2795,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2892,
+      "id": 2893,
       "title": "Living Bad",
       "director": "João Canijo",
       "year": 2023,
@@ -2771,7 +2806,20 @@
       "alternate_titles": []
     },
     {
-      "id": 2893,
+      "id": 2894,
+      "title": "Absence",
+      "director": "Wu Lang",
+      "year": 2023,
+      "tmdb_id": 1065879,
+      "imdb_id": "tt26441800",
+      "original_title": "雪云",
+      "original_language": "zh",
+      "alternate_titles": [
+        "Xue yun"
+      ]
+    },
+    {
+      "id": 2895,
       "title": "Another End",
       "director": "Piero Messina",
       "year": 2024,
@@ -2782,7 +2830,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2894,
+      "id": 2896,
       "title": "Architecton",
       "director": "Viktor Kossakovsky",
       "year": 2024,
@@ -2793,7 +2841,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2895,
+      "id": 2897,
       "title": "Black Tea",
       "director": "Abderrahmane Sissako",
       "year": 2024,
@@ -2804,7 +2852,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2896,
+      "id": 2898,
       "title": "Gloria!",
       "director": "Margherita Vicario",
       "year": 2024,
@@ -2815,7 +2863,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2897,
+      "id": 2899,
       "title": "Suspended Time",
       "director": "Olivier Assayas",
       "year": 2024,
@@ -2826,7 +2874,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2898,
+      "id": 2900,
       "title": "From Hilde, with Love",
       "director": "Andreas Dresen",
       "year": 2024,
@@ -2837,7 +2885,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2899,
+      "id": 2901,
       "title": "My Favourite Cake",
       "director": "Behtash Sanaeeha, Maryam Moghaddam",
       "year": 2024,
@@ -2850,7 +2898,7 @@
       ]
     },
     {
-      "id": 2900,
+      "id": 2902,
       "title": "La Cocina",
       "director": "Alonso Ruizpalacios",
       "year": 2024,
@@ -2861,7 +2909,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2901,
+      "id": 2903,
       "title": "Foreign Language",
       "director": "Claire Burger",
       "year": 2024,
@@ -2872,7 +2920,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2902,
+      "id": 2904,
       "title": "Who Do I Belong To",
       "director": "Meryam Joobeur",
       "year": 2024,
@@ -2885,7 +2933,7 @@
       ]
     },
     {
-      "id": 2903,
+      "id": 2905,
       "title": "Pepe",
       "director": "Nelson Carlos de los Santos Arias",
       "year": 2024,
@@ -2896,7 +2944,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2904,
+      "id": 2906,
       "title": "Shambhala",
       "director": "Min Bahadur Bham",
       "year": 2024,
@@ -2907,7 +2955,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2905,
+      "id": 2907,
       "title": "Dying",
       "director": "Matthias Glasner",
       "year": 2024,
@@ -2918,7 +2966,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2906,
+      "id": 2908,
       "title": "Sons",
       "director": "Gustav Möller",
       "year": 2024,
@@ -2929,7 +2977,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2907,
+      "id": 2909,
       "title": "A Traveler's Needs",
       "director": "Hong Sang-soo",
       "year": 2024,
@@ -2942,7 +2990,7 @@
       ]
     },
     {
-      "id": 2908,
+      "id": 2910,
       "title": "Arcadia",
       "director": "Yorgos Zois",
       "year": 2024,
@@ -2953,7 +3001,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2909,
+      "id": 2911,
       "title": "Cidade; Campo",
       "director": "Juliana Rojas",
       "year": 2024,
@@ -2964,7 +3012,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2910,
+      "id": 2912,
       "title": "Demba",
       "director": "Mamadou Dia",
       "year": 2024,
@@ -2975,7 +3023,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2911,
+      "id": 2913,
       "title": "Direct Action",
       "director": "Guillaume Cailleau, Ben Russell",
       "year": 2024,
@@ -2986,7 +3034,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2912,
+      "id": 2914,
       "title": "Sleep with Your Eyes Open",
       "director": "Nele Wohlatz",
       "year": 2024,
@@ -2997,7 +3045,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2913,
+      "id": 2915,
       "title": "Favoriten",
       "director": "Ruth Beckermann",
       "year": 2024,
@@ -3008,7 +3056,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2914,
+      "id": 2916,
       "title": "Ivo",
       "director": "Eva Trobisch",
       "year": 2024,
@@ -3019,7 +3067,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2915,
+      "id": 2917,
       "title": "The Great Yawn of History",
       "director": "Aliyar Rasti",
       "year": 2024,
@@ -3032,7 +3080,7 @@
       ]
     },
     {
-      "id": 2916,
+      "id": 2918,
       "title": "Some Rain Must Fall",
       "director": "Qiu Yang",
       "year": 2024,
@@ -3045,7 +3093,7 @@
       ]
     },
     {
-      "id": 2917,
+      "id": 2919,
       "title": "Hands in the Fire",
       "director": "Margarida Gil",
       "year": 2024,
@@ -3056,7 +3104,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2918,
+      "id": 2920,
       "title": "Matt and Mara",
       "director": "Kazik Radwanski",
       "year": 2024,
@@ -3069,7 +3117,7 @@
       ]
     },
     {
-      "id": 2919,
+      "id": 2921,
       "title": "The Fable",
       "director": "Raam Reddy",
       "year": 2024,
@@ -3080,7 +3128,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2920,
+      "id": 2922,
       "title": "Through the Graves the Wind Is Blowing",
       "director": "Travis Wilkerson",
       "year": 2024,
@@ -3091,7 +3139,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2921,
+      "id": 2923,
       "title": "You Burn Me",
       "director": "Matías Piñeiro",
       "year": 2024,
@@ -3104,7 +3152,7 @@
       ]
     },
     {
-      "id": 2922,
+      "id": 2924,
       "title": "A Family",
       "director": "Christine Angot",
       "year": 2024,
@@ -3115,7 +3163,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2923,
+      "id": 2925,
       "title": "The Settlement",
       "director": "Mohamed Rashad",
       "year": 2025,
@@ -3128,7 +3176,7 @@
       ]
     },
     {
-      "id": 2924,
+      "id": 2926,
       "title": "Shadowbox",
       "director": "Tanushree Das, Saumyananda Sahi",
       "year": 2025,
@@ -3141,7 +3189,7 @@
       ]
     },
     {
-      "id": 2925,
+      "id": 2927,
       "title": "BLKNWS: Terms & Conditions",
       "director": "Kahlil Joseph",
       "year": 2025,
@@ -3152,7 +3200,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2926,
+      "id": 2928,
       "title": "Where the Night Stands Still",
       "director": "Liryc Dela Cruz",
       "year": 2025,
@@ -3163,7 +3211,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2927,
+      "id": 2929,
       "title": "Two Times João Liberada",
       "director": "Paula Tomás Marques",
       "year": 2025,
@@ -3174,7 +3222,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2928,
+      "id": 2930,
       "title": "The Devil Smokes (and Saves the Burnt Matches in the Same Box)",
       "director": "Ernesto Martínez Bucio",
       "year": 2025,
@@ -3185,7 +3233,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2929,
+      "id": 2931,
       "title": "Eel",
       "director": "Chu Chun-teng",
       "year": 2025,
@@ -3198,7 +3246,7 @@
       ]
     },
     {
-      "id": 2930,
+      "id": 2932,
       "title": "How to Be Normal and the Oddness of the Other World",
       "director": "Florian Pochlatko",
       "year": 2025,
@@ -3209,7 +3257,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2931,
+      "id": 2933,
       "title": "That Summer in Paris",
       "director": "Valentine Cadic",
       "year": 2025,
@@ -3220,7 +3268,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2932,
+      "id": 2934,
       "title": "Mad Bills to Pay (or Destiny, dile que no soy malo)",
       "director": "Joel Alfonso Vargas",
       "year": 2025,
@@ -3231,7 +3279,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2933,
+      "id": 2935,
       "title": "Growing Down",
       "director": "Bálint Dániel Sós",
       "year": 2025,
@@ -3242,7 +3290,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2934,
+      "id": 2936,
       "title": "Punching the World",
       "director": "Constanze Klaue",
       "year": 2025,
@@ -3253,7 +3301,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2935,
+      "id": 2937,
       "title": "We Believe You",
       "director": "Arnaud Dufeys, Charlotte Devillers",
       "year": 2025,
@@ -3264,28 +3312,5 @@
       "alternate_titles": []
     }
   ],
-  "unresolved": [
-    {
-      "title": "I Poli ke i Poli",
-      "aliases": [
-        "The City and the City"
-      ],
-      "director": "Christos Passalis, Syllas Tzoumerkas",
-      "year": 2022,
-      "runtime": 87,
-      "source": "https://www.berlinale.de/en/2022/programme/202202534.html",
-      "reason": "Expected one title/director feature match; found 0; candidates [{\"id\":928728,\"title\":\"The City and the City\",\"year\":\"2022-04-07\",\"director\":\"Hristos Passalis, Syllas Tzoumerkas\"}]"
-    },
-    {
-      "title": "Xue yun",
-      "aliases": [
-        "Absence"
-      ],
-      "director": "Wu Lang",
-      "year": 2023,
-      "runtime": 100,
-      "source": "https://www.berlinale.de/en/2023/programme/202306367.html",
-      "reason": "Expected one title/director feature match; found 0; candidates [{\"id\":1312819,\"title\":\"Absence\",\"year\":\"2024-10-11\",\"director\":\"Javier del Estal\"},{\"id\":870442,\"title\":\"Absence\",\"year\":\"2021-09-08\",\"director\":\"Marc Héricher\"},{\"id\":1080760,\"title\":\"Absence\",\"year\":\"2023-01-25\",\"director\":\"Anastasija Šelušenkova\"},{\"id\":1564044,\"title\":\"Absence\",\"year\":\"2025-11-15\",\"director\":\"Jonas Durnell\"},{\"id\":950374,\"title\":\"Absence\",\"year\":\"2021-01-01\",\"director\":\"Arshile Egoyan\"},{\"id\":883027,\"title\":\"Absence\",\"year\":\"2023-11-30\",\"director\":\"Ali Mosaffa\"}]"
-    }
-  ]
+  "unresolved": []
 }
