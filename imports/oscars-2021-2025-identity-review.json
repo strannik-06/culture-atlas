@@ -3,7 +3,7 @@
   "ceremonies": 5,
   "categories": 55,
   "nomination_entries": 298,
-  "distinct_titles": 148,
+  "distinct_titles": 144,
   "identities": [
     {
       "title": "Nomadland",
@@ -134,37 +134,27 @@
       "status": "requires identity review"
     },
     {
-      "title": "Denmark",
-      "candidates": [],
-      "status": "requires identity review"
-    },
-    {
-      "title": "Hong Kong",
-      "candidates": [],
-      "status": "requires identity review"
-    },
-    {
-      "title": "Romania",
-      "candidates": [],
-      "status": "requires identity review"
-    },
-    {
-      "title": "Tunisia",
-      "candidates": [],
-      "status": "requires identity review"
-    },
-    {
-      "title": "Bosnia and Herzegovina",
-      "candidates": [],
-      "status": "requires identity review"
-    },
-    {
-      "title": "My Octopus Teacher",
+      "title": "Better Days",
       "candidates": [],
       "status": "requires identity review"
     },
     {
       "title": "Collective",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "The Man Who Sold His Skin",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Quo Vadis, Aida?",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "My Octopus Teacher",
       "candidates": [],
       "status": "requires identity review"
     },
@@ -379,22 +369,17 @@
       "status": "requires identity review"
     },
     {
-      "title": "Japan",
+      "title": "Flee",
       "candidates": [],
       "status": "requires identity review"
     },
     {
-      "title": "Italy",
+      "title": "The Hand of God",
       "candidates": [],
       "status": "requires identity review"
     },
     {
-      "title": "Bhutan",
-      "candidates": [],
-      "status": "requires identity review"
-    },
-    {
-      "title": "Norway",
+      "title": "Lunana: A Yak in the Classroom",
       "candidates": [],
       "status": "requires identity review"
     },
@@ -410,11 +395,6 @@
     },
     {
       "title": "Attica",
-      "candidates": [],
-      "status": "requires identity review"
-    },
-    {
-      "title": "Flee",
       "candidates": [],
       "status": "requires identity review"
     },
@@ -598,27 +578,22 @@
       "status": "requires identity review"
     },
     {
-      "title": "Germany",
+      "title": "Argentina, 1985",
       "candidates": [],
       "status": "requires identity review"
     },
     {
-      "title": "Argentina",
+      "title": "Close",
       "candidates": [],
       "status": "requires identity review"
     },
     {
-      "title": "Belgium",
+      "title": "EO",
       "candidates": [],
       "status": "requires identity review"
     },
     {
-      "title": "Poland",
-      "candidates": [],
-      "status": "requires identity review"
-    },
-    {
-      "title": "Ireland",
+      "title": "The Quiet Girl",
       "candidates": [],
       "status": "requires identity review"
     },
@@ -823,12 +798,38 @@
       "status": "requires identity review"
     },
     {
-      "title": "United Kingdom",
+      "title": "Io Capitano",
+      "candidates": [
+        {
+          "id": 291,
+          "title": "Io Capitano",
+          "year": 2023,
+          "director": "Matteo Garrone",
+          "tmdb_id": 937746
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Perfect Days",
+      "candidates": [
+        {
+          "id": 121,
+          "title": "Perfect Days",
+          "year": 2024,
+          "director": "Wim Wenders",
+          "tmdb_id": 976893
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Society of the Snow",
       "candidates": [],
       "status": "requires identity review"
     },
     {
-      "title": "Spain",
+      "title": "The Teachers' Lounge",
       "candidates": [],
       "status": "requires identity review"
     },
@@ -1065,26 +1066,42 @@
       "status": "requires identity review"
     },
     {
-      "title": "Brazil",
+      "title": "The Girl with the Needle",
       "candidates": [
         {
-          "id": 1162,
-          "title": "Brazil",
-          "year": 1985,
-          "director": "Terry Gilliam",
-          "tmdb_id": 68
+          "id": 114,
+          "title": "The Girl with the Needle",
+          "year": 2024,
+          "director": "Magnus von Horn",
+          "tmdb_id": 1232827
         }
       ],
       "status": "requires identity review"
     },
     {
-      "title": "France",
-      "candidates": [],
+      "title": "The Seed of the Sacred Fig",
+      "candidates": [
+        {
+          "id": 105,
+          "title": "The Seed of the Sacred Fig",
+          "year": 2024,
+          "director": "Mohammad Rasoulof",
+          "tmdb_id": 1278263
+        }
+      ],
       "status": "requires identity review"
     },
     {
-      "title": "Latvia",
-      "candidates": [],
+      "title": "Flow",
+      "candidates": [
+        {
+          "id": 107,
+          "title": "Flow",
+          "year": 2024,
+          "director": "Gints Zilbalodis",
+          "tmdb_id": 823219
+        }
+      ],
       "status": "requires identity review"
     },
     {
@@ -1148,19 +1165,6 @@
           "year": 2024,
           "director": "Julian Brave NoiseCat & Emily Kassie",
           "tmdb_id": 1158874
-        }
-      ],
-      "status": "requires identity review"
-    },
-    {
-      "title": "Flow",
-      "candidates": [
-        {
-          "id": 107,
-          "title": "Flow",
-          "year": 2024,
-          "director": "Gints Zilbalodis",
-          "tmdb_id": 823219
         }
       ],
       "status": "requires identity review"
