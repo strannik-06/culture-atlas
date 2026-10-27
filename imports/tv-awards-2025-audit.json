@@ -199,6 +199,15 @@
       "credit_anchor": "Donald Glover"
     },
     {
+      "title": "Diplomat, The",
+      "work_key": "tv:203857",
+      "tmdb_id": 203857,
+      "imdb_id": "tt17491088",
+      "year": 2023,
+      "method": "Unique TMDB title, premiere year and credited person",
+      "credit_anchor": "Keri Russell"
+    },
+    {
       "title": "Squid Game",
       "work_key": "tv:93405",
       "tmdb_id": 93405,
@@ -208,6 +217,15 @@
       "credit_anchor": null
     },
     {
+      "title": "Shogun",
+      "work_key": "tv:126308",
+      "tmdb_id": 126308,
+      "imdb_id": "tt2788316",
+      "year": 2024,
+      "method": "Unique TMDB title, premiere year and credited person",
+      "credit_anchor": "Hiroyuki Sanada"
+    },
+    {
       "title": "The Gentlemen",
       "work_key": "tv:236235",
       "tmdb_id": 236235,
@@ -215,6 +233,15 @@
       "year": 2024,
       "method": "Unique TMDB title, premiere year and credited person",
       "credit_anchor": "Theo James"
+    },
+    {
+      "title": "Bear, The",
+      "work_key": "tv:136315",
+      "tmdb_id": 136315,
+      "imdb_id": "tt14452776",
+      "year": 2022,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": "Jeremy Allen White"
     },
     {
       "title": "True Detective: Night Country",
@@ -386,6 +413,15 @@
       "year": 2024,
       "method": "Unique TMDB title, premiere year and credited person",
       "credit_anchor": "Lola Petticrew"
+    },
+    {
+      "title": "You Are Not Alone: Fighting the Wolfpack",
+      "work_key": "tv:movie:1238400",
+      "tmdb_id": 1238400,
+      "imdb_id": "tt31410930",
+      "year": 2024,
+      "method": "Unique TMDB title, premiere year and credited person",
+      "credit_anchor": "Almudena Carracedo"
     }
   ],
   "added": [
@@ -398,6 +434,8 @@
     "tv:241405",
     "tv:222766",
     "tv:118642",
+    "tv:203857",
+    "tv:126308",
     "tv:236235",
     "tv:218344",
     "tv:155243",
@@ -413,32 +451,17 @@
     "tv:126308",
     "tv:238005",
     "tv:203614",
-    "tv:245256"
+    "tv:245256",
+    "tv:movie:1238400"
   ],
   "unresolved": [
     {
       "title": "Monsters: The Lyle and Erik Menendez Story",
-      "error": "Expected one title/year/credit match, found 0"
-    },
-    {
-      "title": "Diplomat, The",
-      "error": "Expected one title/year/credit match, found 0"
-    },
-    {
-      "title": "Shogun",
-      "error": "Expected one title/year/credit match, found 0"
-    },
-    {
-      "title": "Bear, The",
-      "error": "Expected one title/year/credit match, found 0"
+      "error": "Missing identity/poster/synopsis"
     },
     {
       "title": "Monsters: The Lyle and Erik Menendez Story",
-      "error": "Expected one title/year/credit match, found 0"
-    },
-    {
-      "title": "You Are Not Alone: Fighting the Wolfpack",
-      "error": "Expected one title/year/credit match, found 0"
+      "error": "Missing identity/poster/synopsis"
     }
   ]
 }
