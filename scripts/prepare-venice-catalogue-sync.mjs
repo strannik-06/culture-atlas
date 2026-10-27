@@ -27,5 +27,5 @@ for(const correction of report.metadata_corrections||[]){
 end $$;
 update public.media_catalogue set metadata=jsonb_set(metadata,'{director}',to_jsonb(${literal(correction.director)}::text)) where work_key='movie:${correction.id}' and (metadata->>'tmdb_id')::bigint=${correction.tmdb_id} and metadata->>'director'=${literal(correction.from)};
 `;
- const path='imports/venice-2021-2025-catalogue-sync.sql',current=fs.readFileSync(path,'utf8');fs.writeFileSync(path,current.replace(/commit;\n$/,'-- Reviewed public director metadata correction for Mother; existing ID and all other fields preserved.\n'+sql+'commit;\n'));
+ const path='imports/venice-2021-2025-catalogue-sync.sql',current=fs.readFileSync(path,'utf8');fs.writeFileSync(path,current.replace(/commit;\n$/,()=>'-- Reviewed public director metadata correction for Mother; existing ID and all other fields preserved.\n'+sql+'commit;\n'));
 }
