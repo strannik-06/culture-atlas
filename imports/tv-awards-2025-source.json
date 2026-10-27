@@ -219,7 +219,8 @@
               "lookup_title": "The Diplomat",
               "media_type": "tv",
               "premiere_year": 2023,
-              "credit_anchor": "Keri Russell"
+              "credit_anchor": "Keri Russell",
+              "display_title": "The Diplomat"
             },
             {
               "title": "Squid Game",
@@ -235,7 +236,8 @@
               "lookup_title": "Shōgun",
               "media_type": "tv",
               "premiere_year": 2024,
-              "credit_anchor": "Hiroyuki Sanada"
+              "credit_anchor": "Hiroyuki Sanada",
+              "display_title": "Shōgun"
             }
           ]
         },
@@ -287,7 +289,8 @@
               "lookup_title": "The Bear",
               "media_type": "tv",
               "premiere_year": 2022,
-              "credit_anchor": "Jeremy Allen White"
+              "credit_anchor": "Jeremy Allen White",
+              "display_title": "The Bear"
             },
             {
               "title": "Only Murders in the Building",

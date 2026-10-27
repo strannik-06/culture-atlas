@@ -117,6 +117,7 @@
     return `<details class="tv-seasons"><summary>Seasons · ${rated.length} rated</summary>${seasons.filter(s=>tab!=='ratings'||rows.has(s.id)).map(s=>`<div class="tv-season-row"><button type="button" class="action tv-season-button" data-tv-edit="${s.id}" ${!user||loading||busy||!ready?'disabled':''}>Season ${s.season_number}${rows.has(s.id)?' · ★ '+Number(rows.get(s.id).rating).toFixed(1)+'/10':' · Rate'}</button><span class="meta">${escape(s.scope_label||'')}</span></div>`).join('')}</details>`;
   }
   function card(w,entry){
+      w={...window.CultureTVAwards?.details(w.id),...w};
       const p=(w.linked?linked:rows).get(w.id),rating=Number(p?.rating)||0;
       const poster=typeof w.poster_path==='string'&&/^\/[A-Za-z0-9._-]+$/.test(w.poster_path)?'https://image.tmdb.org/t/p/w342'+w.poster_path:null;
       const names=[...(w.directors?.length?w.directors:w.creators||[]).map(p=>p.name),...(w.credit_names||[])];
@@ -126,6 +127,8 @@
 
   }
   function render(){
+    $('tv-view').querySelector('.hero h1').textContent=tab==='awards'?'Television awards.':'Television worth keeping.';
+    $('tv-view').querySelector('.hero p').textContent=tab==='awards'?'Explore winning and nominated programmes. Your series and season ratings stay separate.':'Rate TV works and keep notes about the seasons or parts you watched.';
     const query=$('tv-search').value.toLocaleLowerCase(),kind=$('tv-kind').value;
     const all=[...shows,...aliases.map(a=>({...a,id:a.work_key,linked:true}))];
     const visible=all.filter(w=>(kind==='season'||w.series_kind!=='season'||!shows.some(p=>p.id==='tv:'+w.tmdb_id))&&(!kind||w.series_kind===kind)&&(!query||(w.title+' '+(w.original_title||'')+' '+(w.directors||[]).map(p=>p.name).join(' ')+' '+(w.creators||[]).map(p=>p.name).join(' ')+' '+(w.credit_names||[]).join(' ')).toLocaleLowerCase().includes(query))&&(tab!=='ratings'||(w.linked?linked.has(w.id)&&validRating(Number(linked.get(w.id).rating)):hasRating(w))));
@@ -152,7 +155,7 @@
     const personal=$('tv-detail-read').querySelector('[data-personal]');if(personal)personal.hidden=value;
   }
   function renderDetails(){
-    if(!current)return;const w=current,p=rows.get(w.id);
+    if(!current)return;const w={...window.CultureTVAwards?.details(current.id),...current},p=rows.get(w.id);
     const titleNode=$('tv-selected-title'),metaNode=$('tv-selected-meta');
     const poster=typeof w.poster_path==='string'&&/^\/[A-Za-z0-9._-]+$/.test(w.poster_path)?'https://image.tmdb.org/t/p/w500'+w.poster_path:null;
     const cast=(w.cast||[]).map(p=>typeof p==='string'?p:p.name).filter(Boolean).join(', ');
