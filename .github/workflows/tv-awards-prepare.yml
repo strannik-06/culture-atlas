@@ -1,0 +1,34 @@
+name: Prepare verified TV awards pilot
+on:
+  push:
+    branches: [feat/tv-awards-2025]
+    paths: ['scripts/prepare-tv-awards.mjs', 'imports/tv-awards-2025-source.json', '.github/workflows/tv-awards-prepare.yml']
+permissions:
+  contents: write
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/prepare-tv-awards.mjs
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          TMDB_READ_ACCESS_TOKEN: ${{ secrets.TMDB_READ_ACCESS_TOKEN }}
+      - run: node scripts/seed-media-catalogue.mjs
+      - name: Commit verified public catalogue data
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add tv-catalog.js imports/tv-awards-2025-audit.json
+          for file in tv-awards-2025.js imports/tv-awards-2025-catalogue-sync.sql supabase/migrations/20261021_media_catalogue_seed.sql; do
+            if test -f "$file"; then git add "$file"; fi
+          done
+          if ! git diff --cached --quiet; then
+            git commit -m 'Verify TV award identities and prepare public catalogue registration'
+            git push origin HEAD:"$GITHUB_REF_NAME"
+          fi

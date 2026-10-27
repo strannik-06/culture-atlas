@@ -1,0 +1,541 @@
+{
+  "scope": "2025 pilot: ten complete programme categories, no performer/craft categories",
+  "events": [
+    {
+      "event": "Emmys",
+      "year": 2025,
+      "source": "https://www.televisionacademy.com/awards/nominees-winners/2025/",
+      "categories": [
+        {
+          "id": "outstanding-drama-series",
+          "name": "Outstanding Drama Series",
+          "source": "https://www.televisionacademy.com/awards/nominees-winners/2025/outstanding-drama-series",
+          "entries": [
+            {
+              "title": "Andor",
+              "winner": false,
+              "lookup_title": "Andor",
+              "media_type": "tv"
+            },
+            {
+              "title": "The Diplomat",
+              "winner": false,
+              "lookup_title": "The Diplomat",
+              "premiere_year": 2023,
+              "credit_anchor": "Keri Russell",
+              "media_type": "tv"
+            },
+            {
+              "title": "The Last of Us",
+              "winner": false,
+              "lookup_title": "The Last of Us",
+              "media_type": "tv"
+            },
+            {
+              "title": "Paradise",
+              "winner": false,
+              "lookup_title": "Paradise",
+              "media_type": "tv"
+            },
+            {
+              "title": "The Pitt",
+              "winner": true,
+              "lookup_title": "The Pitt",
+              "media_type": "tv"
+            },
+            {
+              "title": "Severance",
+              "winner": false,
+              "lookup_title": "Severance",
+              "media_type": "tv"
+            },
+            {
+              "title": "Slow Horses",
+              "winner": false,
+              "lookup_title": "Slow Horses",
+              "premiere_year": 2022,
+              "credit_anchor": "Gary Oldman",
+              "media_type": "tv"
+            },
+            {
+              "title": "The White Lotus",
+              "winner": false,
+              "lookup_title": "The White Lotus",
+              "media_type": "tv"
+            }
+          ]
+        },
+        {
+          "id": "outstanding-comedy-series",
+          "name": "Outstanding Comedy Series",
+          "source": "https://www.televisionacademy.com/awards/nominees-winners/2025/outstanding-comedy-series",
+          "entries": [
+            {
+              "title": "Abbott Elementary",
+              "winner": false,
+              "lookup_title": "Abbott Elementary",
+              "premiere_year": 2021,
+              "credit_anchor": "Quinta Brunson",
+              "media_type": "tv"
+            },
+            {
+              "title": "The Bear",
+              "winner": false,
+              "lookup_title": "The Bear",
+              "media_type": "tv"
+            },
+            {
+              "title": "Hacks",
+              "winner": false,
+              "lookup_title": "Hacks",
+              "premiere_year": 2021,
+              "credit_anchor": "Jean Smart",
+              "media_type": "tv"
+            },
+            {
+              "title": "Nobody Wants This",
+              "winner": false,
+              "lookup_title": "Nobody Wants This",
+              "premiere_year": 2024,
+              "credit_anchor": "Kristen Bell",
+              "media_type": "tv"
+            },
+            {
+              "title": "Only Murders in the Building",
+              "winner": false,
+              "lookup_title": "Only Murders in the Building",
+              "media_type": "tv"
+            },
+            {
+              "title": "Shrinking",
+              "winner": false,
+              "lookup_title": "Shrinking",
+              "media_type": "tv"
+            },
+            {
+              "title": "The Studio",
+              "winner": true,
+              "lookup_title": "The Studio",
+              "media_type": "tv"
+            },
+            {
+              "title": "What We Do in the Shadows",
+              "winner": false,
+              "lookup_title": "What We Do in the Shadows",
+              "premiere_year": 2019,
+              "credit_anchor": "Matt Berry",
+              "media_type": "tv"
+            }
+          ]
+        },
+        {
+          "id": "outstanding-limited-or-anthology-series",
+          "name": "Outstanding Limited or Anthology Series",
+          "source": "https://www.televisionacademy.com/awards/nominees-winners/2025/outstanding-limited-or-anthology-series",
+          "entries": [
+            {
+              "title": "Adolescence",
+              "winner": true,
+              "lookup_title": "Adolescence",
+              "media_type": "tv"
+            },
+            {
+              "title": "Black Mirror",
+              "winner": false,
+              "lookup_title": "Black Mirror",
+              "media_type": "tv"
+            },
+            {
+              "title": "Dying for Sex",
+              "winner": false,
+              "lookup_title": "Dying for Sex",
+              "premiere_year": 2025,
+              "credit_anchor": "Michelle Williams",
+              "media_type": "tv"
+            },
+            {
+              "title": "Monsters: The Lyle and Erik Menendez Story",
+              "winner": false,
+              "lookup_title": "Monsters: The Lyle and Erik Menendez Story",
+              "premiere_year": 2024,
+              "credit_anchor": "Javier Bardem",
+              "media_type": "tv",
+              "allow_missing_imdb": true,
+              "identity_source": "https://media.netflix.com/en/only-on-netflix/81665094"
+            },
+            {
+              "title": "The Penguin",
+              "winner": false,
+              "lookup_title": "The Penguin",
+              "media_type": "tv"
+            }
+          ]
+        }
+      ],
+      "note": "2025 ceremony edition · Main programme categories. Recognition applies to the eligible run. Stars show your series or programme rating."
+    },
+    {
+      "event": "Golden Globes",
+      "year": 2025,
+      "source": "https://goldenglobes.com/winners-nominees/?year=2025",
+      "data_source": "https://goldenglobes.com/wp-json/awdb/v1/winners-and-nominees/?year=2025",
+      "categories": [
+        {
+          "id": "best-television-series-drama",
+          "name": "Best Television Series - Drama",
+          "source": "https://goldenglobes.com/winners-nominees/?year=2025",
+          "entries": [
+            {
+              "title": "The Day of the Jackal",
+              "winner": false,
+              "source": "https://goldenglobes.com/tv-show/the-day-of-the-jackal/",
+              "lookup_title": "The Day of the Jackal",
+              "premiere_year": 2024,
+              "credit_anchor": "Eddie Redmayne",
+              "media_type": "tv"
+            },
+            {
+              "title": "Mr. & Mrs. Smith",
+              "winner": false,
+              "source": "https://goldenglobes.com/tv-show/mr-mrs-smith/",
+              "lookup_title": "Mr. & Mrs. Smith",
+              "premiere_year": 2024,
+              "credit_anchor": "Donald Glover",
+              "media_type": "tv"
+            },
+            {
+              "title": "Slow Horses",
+              "winner": false,
+              "source": "https://goldenglobes.com/tv-show/slow-horses/",
+              "lookup_title": "Slow Horses",
+              "premiere_year": 2022,
+              "credit_anchor": "Gary Oldman",
+              "media_type": "tv"
+            },
+            {
+              "title": "Diplomat, The",
+              "winner": false,
+              "source": "https://goldenglobes.com/tv-show/diplomat-the/",
+              "lookup_title": "The Diplomat",
+              "media_type": "tv",
+              "premiere_year": 2023,
+              "credit_anchor": "Keri Russell",
+              "display_title": "The Diplomat"
+            },
+            {
+              "title": "Squid Game",
+              "winner": false,
+              "source": "https://goldenglobes.com/tv-show/squid-game/",
+              "lookup_title": "Squid Game",
+              "media_type": "tv"
+            },
+            {
+              "title": "Shogun",
+              "winner": true,
+              "source": "https://goldenglobes.com/tv-show/shogun-2/",
+              "lookup_title": "Shōgun",
+              "media_type": "tv",
+              "premiere_year": 2024,
+              "credit_anchor": "Hiroyuki Sanada",
+              "display_title": "Shōgun"
+            }
+          ]
+        },
+        {
+          "id": "best-television-series-musical-or-comedy",
+          "name": "Best Television Series - Musical or Comedy",
+          "source": "https://goldenglobes.com/winners-nominees/?year=2025",
+          "entries": [
+            {
+              "title": "Nobody Wants This",
+              "winner": false,
+              "source": "https://goldenglobes.com/tv-show/nobody-wants-this/",
+              "lookup_title": "Nobody Wants This",
+              "premiere_year": 2024,
+              "credit_anchor": "Kristen Bell",
+              "media_type": "tv"
+            },
+            {
+              "title": "Abbott Elementary",
+              "winner": false,
+              "source": "https://goldenglobes.com/tv-show/abbott-elementary/",
+              "lookup_title": "Abbott Elementary",
+              "premiere_year": 2021,
+              "credit_anchor": "Quinta Brunson",
+              "media_type": "tv"
+            },
+            {
+              "title": "The Gentlemen",
+              "winner": false,
+              "source": "https://goldenglobes.com/tv-show/the-gentlemen/",
+              "lookup_title": "The Gentlemen",
+              "premiere_year": 2024,
+              "credit_anchor": "Theo James",
+              "media_type": "tv"
+            },
+            {
+              "title": "Hacks",
+              "winner": true,
+              "source": "https://goldenglobes.com/tv-show/hacks/",
+              "lookup_title": "Hacks",
+              "premiere_year": 2021,
+              "credit_anchor": "Jean Smart",
+              "media_type": "tv"
+            },
+            {
+              "title": "Bear, The",
+              "winner": false,
+              "source": "https://goldenglobes.com/tv-show/bear-the/",
+              "lookup_title": "The Bear",
+              "media_type": "tv",
+              "premiere_year": 2022,
+              "credit_anchor": "Jeremy Allen White",
+              "display_title": "The Bear"
+            },
+            {
+              "title": "Only Murders in the Building",
+              "winner": false,
+              "source": "https://goldenglobes.com/tv-show/only-murders-in-the-building/",
+              "lookup_title": "Only Murders in the Building",
+              "media_type": "tv"
+            }
+          ]
+        },
+        {
+          "id": "best-television-limited-series-anthology-series-or-motion-picture-made-for-television",
+          "name": "Best Television Limited Series, Anthology Series, or Motion Picture Made for Television",
+          "source": "https://goldenglobes.com/winners-nominees/?year=2025",
+          "entries": [
+            {
+              "title": "Monsters: The Lyle and Erik Menendez Story",
+              "winner": false,
+              "source": "https://goldenglobes.com/tv-show/monsters-the-lyle-and-erik-menendez-story/",
+              "lookup_title": "Monsters: The Lyle and Erik Menendez Story",
+              "premiere_year": 2024,
+              "credit_anchor": "Javier Bardem",
+              "media_type": "tv",
+              "allow_missing_imdb": true,
+              "identity_source": "https://media.netflix.com/en/only-on-netflix/81665094"
+            },
+            {
+              "title": "True Detective: Night Country",
+              "winner": false,
+              "source": "https://goldenglobes.com/tv-show/true-detective-night-country/",
+              "lookup_title": "True Detective",
+              "premiere_year": 2014,
+              "credit_anchor": "Jodie Foster",
+              "media_type": "tv"
+            },
+            {
+              "title": "Baby Reindeer",
+              "winner": true,
+              "source": "https://goldenglobes.com/tv-show/baby-reindeer/",
+              "lookup_title": "Baby Reindeer",
+              "media_type": "tv"
+            },
+            {
+              "title": "Disclaimer",
+              "winner": false,
+              "source": "https://goldenglobes.com/tv-show/disclaimer/",
+              "lookup_title": "Disclaimer",
+              "media_type": "tv"
+            },
+            {
+              "title": "The Penguin",
+              "winner": false,
+              "source": "https://goldenglobes.com/tv-show/the-penguin/",
+              "lookup_title": "The Penguin",
+              "media_type": "tv"
+            },
+            {
+              "title": "Ripley",
+              "winner": false,
+              "source": "https://goldenglobes.com/tv-show/ripley/",
+              "lookup_title": "Ripley",
+              "media_type": "tv"
+            }
+          ]
+        }
+      ],
+      "note": "2025 ceremony edition · Main programme categories. Recognition applies to the eligible run. Stars show your series or programme rating."
+    },
+    {
+      "event": "BAFTA Television",
+      "year": 2025,
+      "source": "https://www.bafta.org/awards/television/?award-year=2025",
+      "categories": [
+        {
+          "id": "drama-series",
+          "name": "Drama Series",
+          "source": "https://www.bafta.org/awards/television/?award-year=2025",
+          "entries": [
+            {
+              "title": "Blue Lights",
+              "winner": true,
+              "lookup_title": "Blue Lights",
+              "premiere_year": 2023,
+              "credit_anchor": "Sian Brooke",
+              "media_type": "tv"
+            },
+            {
+              "title": "Sherwood",
+              "winner": false,
+              "lookup_title": "Sherwood",
+              "premiere_year": 2022,
+              "credit_anchor": "David Morrissey",
+              "media_type": "tv"
+            },
+            {
+              "title": "Supacell",
+              "winner": false,
+              "lookup_title": "Supacell",
+              "premiere_year": 2024,
+              "credit_anchor": "Tosin Cole",
+              "media_type": "tv"
+            },
+            {
+              "title": "Wolf Hall: The Mirror and the Light",
+              "winner": false,
+              "lookup_title": "Wolf Hall",
+              "premiere_year": 2015,
+              "credit_anchor": "Mark Rylance",
+              "media_type": "tv"
+            }
+          ]
+        },
+        {
+          "id": "limited-drama",
+          "name": "Limited Drama",
+          "source": "https://www.bafta.org/awards/television/?award-year=2025",
+          "entries": [
+            {
+              "title": "Mr Bates vs The Post Office",
+              "winner": true,
+              "lookup_title": "Mr Bates vs The Post Office",
+              "premiere_year": 2024,
+              "credit_anchor": "Toby Jones",
+              "media_type": "tv"
+            },
+            {
+              "title": "Baby Reindeer",
+              "winner": false,
+              "lookup_title": "Baby Reindeer",
+              "media_type": "tv"
+            },
+            {
+              "title": "Lost Boys and Fairies",
+              "winner": false,
+              "lookup_title": "Lost Boys and Fairies",
+              "premiere_year": 2024,
+              "credit_anchor": "Sion Daniel Young",
+              "media_type": "tv"
+            },
+            {
+              "title": "One Day",
+              "winner": false,
+              "lookup_title": "One Day",
+              "premiere_year": 2024,
+              "credit_anchor": "Ambika Mod",
+              "media_type": "tv"
+            }
+          ]
+        },
+        {
+          "id": "scripted-comedy",
+          "name": "Scripted Comedy",
+          "source": "https://www.bafta.org/awards/television/?award-year=2025",
+          "entries": [
+            {
+              "title": "Alma’s Not Normal",
+              "winner": true,
+              "lookup_title": "Alma’s Not Normal",
+              "premiere_year": 2020,
+              "credit_anchor": "Sophie Willan",
+              "media_type": "tv"
+            },
+            {
+              "title": "Brassic",
+              "winner": false,
+              "lookup_title": "Brassic",
+              "premiere_year": 2019,
+              "credit_anchor": "Joseph Gilgun",
+              "media_type": "tv"
+            },
+            {
+              "title": "G’wed",
+              "winner": false,
+              "lookup_title": "G’wed",
+              "premiere_year": 2024,
+              "credit_anchor": "Dylan Thomas-Smith",
+              "media_type": "tv"
+            },
+            {
+              "title": "Ludwig",
+              "winner": false,
+              "lookup_title": "Ludwig",
+              "premiere_year": 2024,
+              "credit_anchor": "David Mitchell",
+              "media_type": "tv"
+            }
+          ]
+        },
+        {
+          "id": "international",
+          "name": "International",
+          "source": "https://www.bafta.org/awards/television/?award-year=2025",
+          "entries": [
+            {
+              "title": "Shōgun",
+              "winner": true,
+              "lookup_title": "Shōgun",
+              "premiere_year": 2024,
+              "credit_anchor": "Hiroyuki Sanada",
+              "media_type": "tv"
+            },
+            {
+              "title": "After the Party",
+              "winner": false,
+              "lookup_title": "After the Party",
+              "premiere_year": 2023,
+              "credit_anchor": "Robyn Malcolm",
+              "media_type": "tv"
+            },
+            {
+              "title": "Colin from Accounts",
+              "winner": false,
+              "lookup_title": "Colin from Accounts",
+              "premiere_year": 2022,
+              "credit_anchor": "Harriet Dyer",
+              "media_type": "tv"
+            },
+            {
+              "title": "Say Nothing",
+              "winner": false,
+              "lookup_title": "Say Nothing",
+              "premiere_year": 2024,
+              "credit_anchor": "Lola Petticrew",
+              "media_type": "tv"
+            },
+            {
+              "title": "True Detective: Night Country",
+              "winner": false,
+              "lookup_title": "True Detective",
+              "premiere_year": 2014,
+              "credit_anchor": "Jodie Foster",
+              "media_type": "tv"
+            },
+            {
+              "title": "You Are Not Alone: Fighting the Wolfpack",
+              "winner": false,
+              "lookup_title": "You Are Not Alone: Fighting the Wolf Pack",
+              "premiere_year": 2024,
+              "credit_anchor": "Almudena Carracedo",
+              "media_type": "movie"
+            }
+          ]
+        }
+      ],
+      "note": "2025 ceremony edition · Main programme categories. Recognition applies to the eligible run. Stars show your series or programme rating."
+    }
+  ]
+}
