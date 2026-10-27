@@ -1,0 +1,2639 @@
+Warning: truncated output (original token count: 26717)
+Total output lines: 2821
+
+{
+  "scope": "Venezia Competition and feature-length Orizzonti; official jury prizes and selected Lion of the Future recipients",
+  "events": [
+    {
+      "event": "Venice",
+      "year": 2021,
+      "section": "Official Selection",
+      "source": "https://www.labiennale.org/en/cinema/2021/venezia-78-competition",
+      "awardsSource": "https://www.labiennale.org/en/news/official-awards-78th-venice-film-festival",
+      "programmes": [
+        {
+          "name": "Venezia Competition",
+          "source": "https://www.labiennale.org/en/cinema/2021/venezia-78-competition",
+          "awardsSource": "https://www.labiennale.org/en/news/official-awards-78th-venice-film-festival",
+          "selection": [
+            {
+              "title": "Madres paralelas",
+              "aliases": [],
+              "director": "Pedro Almod\u00f3var",
+              "year": 2021,
+              "runtime": 123,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/venezia-78-competition/madres-paralelas"
+            },
+            {
+              "title": "Mona Lisa and the Blood Moon",
+              "aliases": [],
+              "director": "Ana Lily Amirpour",
+              "year": 2021,
+              "runtime": 106,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/venezia-78-competition/mona-lisa-and-blood-moon"
+            },
+            {
+              "title": "Un autre monde",
+              "aliases": [],
+              "director": "St\u00e9phane Briz\u00e9",
+              "year": 2021,
+              "runtime": 96,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/venezia-78-competition/un-autre-monde"
+            },
+            {
+              "title": "The Power of the Dog",
+              "aliases": [],
+              "director": "Jane Campion",
+              "year": 2021,
+              "runtime": 128,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/venezia-78-competition/power-dog"
+            },
+            {
+              "title": "America Latina",
+              "aliases": [],
+              "director": "Fabio D\u2019Innocenzo, Damiano D\u2019Innocenzo",
+              "year": 2021,
+              "runtime": 90,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/venezia-78-competition/america-latina"
+            },
+            {
+              "title": "L\u2019\u00e9v\u00e9nement",
+              "aliases": [],
+              "director": "Audrey Diwan",
+              "year": 2021,
+              "runtime": 100,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/venezia-78-competition/l%E2%80%99%C3%A9v%C3%A9nement"
+            },
+            {
+              "title": "Competencia oficial",
+              "aliases": [],
+              "director": "Gast\u00f3n Duprat, Mariano Cohn",
+              "year": 2021,
+              "runtime": 114,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/venezia-78-competition/competencia-oficial"
+            },
+            {
+              "title": "Il buco",
+              "aliases": [],
+              "director": "Michelangelo Frammartino",
+              "year": 2021,
+              "runtime": 93,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/venezia-78-competition/il-buco"
+            },
+            {
+              "title": "Sundown",
+              "aliases": [],
+              "director": "Michel Franco",
+              "year": 2021,
+              "runtime": 83,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/venezia-78-competition/sundown"
+            },
+            {
+              "title": "Illusions perdues",
+              "aliases": [],
+              "director": "Xavier Giannoli",
+              "year": 2021,
+              "runtime": 144,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/venezia-78-competition/illusions-perdues"
+            },
+            {
+              "title": "The Lost Daughter",
+              "aliases": [],
+              "director": "Maggie Gyllenhaal",
+              "year": 2021,
+              "runtime": 121,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/venezia-78-competition/lost-daughter"
+            },
+            {
+              "title": "Spencer",
+              "aliases": [],
+              "director": "Pablo Larra\u00edn",
+              "year": 2021,
+              "runtime": 111,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/venezia-78-competition/spencer"
+            },
+            {
+              "title": "Freaks Out",
+              "aliases": [],
+              "director": "Gabriele Mainetti",
+              "year": 2021,
+              "runtime": 141,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/venezia-78-competition/freaks-out"
+            },
+            {
+              "title": "Qui rido io",
+              "aliases": [],
+              "director": "Mario Martone",
+              "year": 2021,
+              "runtime": 133,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/venezia-78-competition/qui-rido-io"
+            },
+            {
+              "title": "On The Job: The Missing 8",
+              "aliases": [],
+              "director": "Erik Matti",
+              "year": 2021,
+              "runtime": 208,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/venezia-78-competition/job-missing-8"
+            },
+            {
+              "title": "\u017beby nie by\u0142o \u015blad\u00f3w",
+              "aliases": [
+                "Leave No Traces"
+              ],
+              "director": "Jan P. Matuszy\u0144ski",
+              "year": 2021,
+              "runtime": 160,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/venezia-78-competition/%C5%BCeby-nie-by%C5%82o-%C5%9Blad%C3%B3w-leave-no-traces"
+            },
+            {
+              "title": "Kapitan Volkonogov bezhal",
+              "aliases": [
+                "Captain Volkonogov Escaped"
+              ],
+              "director": "Natasha Merkulova, Aleksey Chupov",
+              "year": 2021,
+              "runtime": 126,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/venezia-78-competition/kapitan-volkonogov-bezhal-captain-volkonogov-escaped"
+            },
+            {
+              "title": "The Card Counter",
+              "aliases": [],
+              "director": "Paul Schrader",
+              "year": 2021,
+              "runtime": 112,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/venezia-78-competition/card-counter"
+            },
+            {
+              "title": "\u00c8 stata la mano di Dio",
+              "aliases": [],
+              "director": "Paolo Sorrentino",
+              "year": 2021,
+              "runtime": 130,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/venezia-78-competition/%C3%A8-stata-la-mano-di-dio"
+            },
+            {
+              "title": "Vidblysk",
+              "aliases": [
+                "Reflection"
+              ],
+              "director": "Valentyn Vasyanovych",
+              "year": 2021,
+              "runtime": 125,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/venezia-78-competition/vidblysk-reflection"
+            },
+            {
+              "title": "La caja",
+              "aliases": [],
+              "director": "Lorenzo Vigas",
+              "year": 2021,
+              "runtime": 92,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/venezia-78-competition/la-caja"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Lion",
+              "raw_text": "GOLDEN LION for Best Film to: L\u2019\u00c9V\u00c9NEMENT (HAPPENING) by Audrey Diwan (France)",
+              "entries": [
+                {
+                  "title": "L\u2019\u00e9v\u00e9nement",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "GOLDEN LION for Best Film"
+            },
+            {
+              "name": "Grand Jury Prize",
+              "raw_text": "SILVER LION \u2013 GRAND JURY PRIZE to: \u00c8 STATA LA MANO DI DIO (THE HAND OF GOD) by Paolo Sorrentino (Italy)",
+              "entries": [
+                {
+                  "title": "\u00c8 stata la mano di Dio",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "SILVER LION \u2013 GRAND JURY PRIZE"
+            },
+            {
+              "name": "Best Director",
+              "raw_text": "SILVER LION \u2013 AWARD FOR BEST DIRECTOR to: Jane Campion for the film THE POWER OF THE DOG (New Zealand, Australia)",
+              "entries": [
+                {
+                  "title": "The Power of the Dog",
+                  "winner": true,
+                  "people": [
+                    "Jane Campion"
+                  ]
+                }
+              ],
+              "original_name": "SILVER LION \u2013 AWARD FOR BEST DIRECTOR"
+            },
+            {
+              "name": "Best Actress",
+              "raw_text": "COPPA VOLPI for Best Actress: Pen\u00e9lope Cruz in the film MADRES PARALELAS (PARALLEL MOTHERS) by Pedro Almod\u00f3var (Spain)",
+              "entries": [
+                {
+                  "title": "Madres paralelas",
+                  "winner": true,
+                  "people": [
+                    "Pen\u00e9lope Cruz"
+                  ]
+                }
+              ],
+              "original_name": "COPPA VOLPI for Best Actress"
+            },
+            {
+              "name": "Best Actor",
+              "raw_text": "COPPA VOLPI for Best Actor: John Arcilla in the film ON THE JOB: THE MISSING 8 by Erik Matti (Philippines)",
+              "entries": [
+                {
+                  "title": "On The Job: The Missing 8",
+                  "winner": true,
+                  "people": [
+                    "John Arcilla"
+                  ]
+                }
+              ],
+              "original_name": "COPPA VOLPI for Best Actor"
+            },
+            {
+              "name": "Best Screenplay",
+              "raw_text": "AWARD FOR BEST SCREENPLAY to: Maggie Gyllenhaal for the film THE LOST DAUGHTER by Maggie Gyllenhaal (Greece, USA, UK, Israel)",
+              "entries": [
+                {
+                  "title": "The Lost Daughter",
+                  "winner": true,
+                  "people": [
+                    "Maggie Gyllenhaal"
+                  ]
+                }
+              ],
+              "original_name": "AWARD FOR BEST SCREENPLAY"
+            },
+            {
+              "name": "Special Jury Prize",
+              "raw_text": "SPECIAL JURY PRIZE to: IL BUCO by Michelangelo Frammartino (Italy, France, Germany)",
+              "entries": [
+                {
+                  "title": "Il buco",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "SPECIAL JURY PRIZE"
+            },
+            {
+              "name": "Marcello Mastroianni Award",
+              "raw_text": "MARCELLO MASTROIANNI AWARD for Best Young Actor or Actress to: Filippo Scotti in the film \u00c8 STATA LA MANO DI DIO (THE HAND OF GOD) by Paolo Sorrentino (Italy)",
+              "entries": [
+                {
+                  "title": "\u00c8 stata la mano di Dio",
+                  "winner": true,
+                  "people": [
+                    "Filippo Scotti"
+                  ]
+                }
+              ],
+              "original_name": "MARCELLO MASTROIANNI AWARD for Best Young Actor or Actress"
+            }
+          ]
+        },
+        {
+          "name": "Orizzonti",
+          "source": "https://www.labiennale.org/en/cinema/2021/orizzonti",
+          "awardsSource": "https://www.labiennale.org/en/news/official-awards-78th-venice-film-festival",
+          "selection": [
+            {
+              "title": "Atlantide",
+              "aliases": [],
+              "director": "Yuri Ancarani",
+              "year": 2021,
+              "runtime": 104,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/orizzonti/atlantide"
+            },
+            {
+              "title": "Miracol",
+              "aliases": [],
+              "director": "Bogdan George Apetri",
+              "year": 2021,
+              "runtime": 118,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/orizzonti/miracol"
+            },
+            {
+              "title": "Piligrimai",
+              "aliases": [
+                "Pilgrims"
+              ],
+              "director": "Laurynas Bareisa",
+              "year": 2021,
+              "runtime": 92,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/orizzonti/piligrimai-pilgrims"
+            },
+            {
+              "title": "Il paradiso del pavone",
+              "aliases": [],
+              "director": "Laura Bispuri",
+              "year": 2021,
+              "runtime": 89,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/orizzonti/il-paradiso-del-pavone"
+            },
+            {
+              "title": "Pubu",
+              "aliases": [
+                "The Falls"
+              ],
+              "director": "Chung Mong-hong",
+              "year": 2021,
+              "runtime": 129,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/orizzonti/pubu-falls"
+            },
+            {
+              "title": "El hoyo en la cerca",
+              "aliases": [],
+              "director": "Joaqu\u00edn del Paso",
+              "year": 2021,
+              "runtime": 100,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/orizzonti/el-hoyo-en-la-cerca"
+            },
+            {
+              "title": "Amira",
+              "aliases": [],
+              "director": "Mohamed Diab",
+              "year": 2021,
+              "runtime": 98,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/orizzonti/amira"
+            },
+            {
+              "title": "\u00c0 plein temps",
+              "aliases": [],
+              "director": "Eric Gravel",
+              "year": 2021,
+              "runtime": 85,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/orizzonti/%C3%A0-plein-temps"
+            },
+            {
+              "title": "Cenzorka",
+              "aliases": [
+                "107 Mothers"
+              ],
+              "director": "Peter Kerekes",
+              "year": 2021,
+              "runtime": 93,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/orizzonti/cenzorka-107-mothers"
+            },
+            {
+              "title": "Vera andrron detin",
+              "aliases": [
+                "Vera Dreams of the Sea"
+              ],
+              "director": "Kaltrina Krasniqi",
+              "year": 2021,
+              "runtime": 87,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/orizzonti/vera-andrron-detin-vera-dreams-sea"
+            },
+            {
+              "title": "Les promesses",
+              "aliases": [],
+              "director": "Thomas Kruithof",
+              "year": 2021,
+              "runtime": 98,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/orizzonti/les-promesses"
+            },
+            {
+              "title": "Bodeng sar",
+              "aliases": [
+                "White Building"
+              ],
+              "director": "Kavich Neang",
+              "year": 2021,
+              "runtime": 90,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/orizzonti/bodeng-sar-white-building"
+            },
+            {
+              "title": "Wela",
+              "aliases": [
+                "Anatomy of Time"
+              ],
+              "director": "Jakrawal Nilthamrong",
+              "year": 2021,
+              "runtime": 118,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/orizzonti/wela-anatomy-time"
+            },
+            {
+              "title": "El otro Tom",
+              "aliases": [],
+              "director": "Rodrigo Pl\u00e1, Laura Santullo",
+              "year": 2021,
+              "runtime": 111,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/orizzonti/el-otro-tom"
+            },
+            {
+              "title": "El gran movimiento",
+              "aliases": [],
+              "director": "Kiro Russo",
+              "year": 2021,
+              "runtime": 85,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/orizzonti/el-gran-movimiento"
+            },
+            {
+              "title": "Once Upon a Time in Calcutta",
+              "aliases": [],
+              "director": "Aditya Vikram Sengupta",
+              "year": 2021,
+              "runtime": 131,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/orizzonti/once-upon-time-calcutta"
+            },
+            {
+              "title": "Nosorih",
+              "aliases": [
+                "Rhino"
+              ],
+              "director": "Oleh Sentsov",
+              "year": 2021,
+              "runtime": 101,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/orizzonti/nosorih-rhino"
+            },
+            {
+              "title": "True Things",
+              "aliases": [],
+              "director": "Harry Wootliff",
+              "year": 2021,
+              "runtime": 102,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/orizzonti/true-things"
+            },
+            {
+              "title": "Inu-oh",
+              "aliases": [],
+              "director": "Masaaki Yuasa",
+              "year": 2021,
+              "runtime": 98,
+              "source": "https://www.labiennale.org/en/cinema/2021/lineup/orizzonti/inu-oh"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Orizzonti Award for Best Film",
+              "raw_text": "ORIZZONTI AWARD FOR BEST FILM to: PILIGRIMAI (PILGRIMS) by Laurynas Barei\u0161a (Lithuania)",
+              "entries": [
+                {
+                  "title": "Piligrimai",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "ORIZZONTI AWARD FOR BEST FILM"
+            },
+            {
+              "name": "Best Director",
+              "raw_text": "ORIZZONTI AWARD FOR BEST DIRECTOR to: \u00c9ric Gravel for the film \u00c0 PLEIN TEMPS (FULL TIME) (France)",
+              "entries": [
+                {
+                  "title": "\u00c0 plein temps",
+                  "winner": true,
+                  "people": [
+                    "\u00c9ric Gravel"
+                  ]
+                }
+              ],
+              "original_name": "ORIZZONTI AWARD FOR BEST DIRECTOR"
+            },
+            {
+              "name": "Special Orizzonti Jury Prize",
+              "raw_text": "SPECIAL ORIZZONTI JURY PRIZE to: EL GRAN MOVIMIENTO by Kiro Russo (Bolivia, France, Qatar, Switzerland)",
+              "entries": [
+                {
+                  "title": "El gran movimiento",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "SPECIAL ORIZZONTI JURY PRIZE"
+            },
+            {
+              "name": "Best Actress",
+              "raw_text": "ORIZZONTI AWARD FOR BEST ACTRESS to: Laure Calamy in the film \u00c0 PLEIN TEMPS (FULL TIME) by \u00c9ric Gravel (France)",
+              "entries": [
+                {
+                  "title": "\u00c0 plein temps",
+                  "winner": true,
+                  "people": [
+                    "Laure Calamy"
+                  ]
+                }
+              ],
+              "original_name": "ORIZZONTI AWARD FOR BEST ACTRESS"
+            },
+            {
+              "name": "Best Actor",
+              "raw_text": "ORIZZONTI AWARD FOR BEST ACTOR to: Piseth Chhun in the film BODENG SAR (WHITE BUILDING) by Kavich Neang (Cambodia, France, China, Qatar)",
+              "entries": [
+                {
+                  "title": "Bodeng sar",
+                  "winner": true,
+                  "people": [
+                    "Piseth Chhun"
+                  ]
+                }
+              ],
+              "original_name": "ORIZZONTI AWARD FOR BEST ACTOR"
+            },
+            {
+              "name": "Best Screenplay",
+              "raw_text": "ORIZZONTI AWARD FOR BEST SCREENPLAY to: Peter Kerekes , Ivan Ostrochovsk\u00fd for the film CENZORKA (107 Mothers) by Peter Kerekes (Slovak Republic, Czech Republic, Ukraine)",
+              "entries": [
+                {
+                  "title": "Cenzorka",
+                  "winner": true,
+                  "people": [
+                    "Peter Kerekes , Ivan Ostrochovsk\u00fd"
+                  ]
+                }
+              ],
+              "original_name": "ORIZZONTI AWARD FOR BEST SCREENPLAY"
+            }
+          ]
+        }
+      ],
+      "unmatched_awards": []
+    },
+    {
+      "event": "Venice",
+      "year": 2022,
+      "section": "Official Selection",
+      "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition",
+      "awardsSource": "https://www.labiennale.org/en/news/official-awards-79th-venice-film-festival",
+      "programmes": [
+        {
+          "name": "Venezia Competition",
+          "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition",
+          "awardsSource": "https://www.labiennale.org/en/news/official-awards-79th-venice-film-festival",
+          "selection": [
+            {
+              "title": "Il signore delle formiche",
+              "aliases": [],
+              "director": "Gianni Amelio",
+              "year": 2022,
+              "runtime": 134,
+              "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition/il-signore-delle-formiche"
+            },
+            {
+              "title": "The Whale",
+              "aliases": [],
+              "director": "Darren Aronofsky",
+              "year": 2022,
+              "runtime": 117,
+              "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition/whale"
+            },
+            {
+              "title": "White Noise",
+              "aliases": [],
+              "director": "Noah Baumbach",
+              "year": 2022,
+              "runtime": 136,
+              "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition/white-noise"
+            },
+            {
+              "title": "L\u2019Immensit\u00e0",
+              "aliases": [],
+              "director": "Emanuele Crialese",
+              "year": 2022,
+              "runtime": 97,
+              "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition/l%E2%80%99immensit%C3%A0"
+            },
+            {
+              "title": "Saint Omer",
+              "aliases": [],
+              "director": "Alice Diop",
+              "year": 2022,
+              "runtime": 123,
+              "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition/saint-omer"
+            },
+            {
+              "title": "Blonde",
+              "aliases": [],
+              "director": "Andrew Dominik",
+              "year": 2022,
+              "runtime": 166,
+              "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition/blonde"
+            },
+            {
+              "title": "T\u00e1r",
+              "aliases": [],
+              "director": "Todd Field",
+              "year": 2022,
+              "runtime": 158,
+              "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition/t%C3%A1r"
+            },
+            {
+              "title": "Love Life",
+              "aliases": [],
+              "director": "K\u00f4ji Fukada",
+              "year": 2022,
+              "runtime": 123,
+              "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition/love-life"
+            },
+            {
+              "title": "Bardo, falsa cr\u00f3nica de unas cuantas verdades",
+              "aliases": [],
+              "director": "Alejandro G. I\u00f1\u00e1rritu",
+              "year": 2022,
+              "runtime": 174,
+              "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition/bardo-falsa-cr%C3%B3nica-de-unas-cuantas-verdades"
+            },
+            {
+              "title": "Athena",
+              "aliases": [],
+              "director": "Romain Gavras",
+              "year": 2022,
+              "runtime": 97,
+              "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition/athena"
+            },
+            {
+              "title": "Bones and All",
+              "aliases": [],
+              "director": "Luca Guadagnino",
+              "year": 2022,
+              "runtime": 130,
+              "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition/bones-and-all"
+            },
+            {
+              "title": "The Eternal Daughter",
+              "aliases": [],
+              "director": "Joanna Hogg",
+              "year": 2022,
+              "runtime": 96,
+              "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition/eternal-daughter"
+            },
+            {
+              "title": "Shab, Dakheli, Divar",
+              "aliases": [
+                "Beyond the Wall"
+              ],
+              "director": "Vahid Jalilvand",
+              "year": 2022,
+              "runtime": 126,
+              "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition/shab-dakheli-divar-beyond-wall"
+            },
+            {
+              "title": "The Banshees of Inisherin",
+              "aliases": [],
+              "director": "Martin McDonagh",
+              "year": 2022,
+              "runtime": 109,
+              "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition/banshees-inisherin"
+            },
+            {
+              "title": "Argentina, 1985",
+              "aliases": [],
+              "director": "Santiago Mitre",
+              "year": 2022,
+              "runtime": 140,
+              "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition/argentina-1985"
+            },
+            {
+              "title": "Chiara",
+              "aliases": [],
+              "director": "Susanna Nicchiarelli",
+              "year": 2022,
+              "runtime": 106,
+              "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition/chiara"
+            },
+            {
+              "title": "Monica",
+              "aliases": [],
+              "director": "Andrea Pallaoro",
+              "year": 2022,
+              "runtime": 113,
+              "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition/monica"
+            },
+            {
+              "title": "Khers nist",
+              "aliases": [
+                "No bears"
+              ],
+              "director": "Jafar Panahi",
+              "year": 2022,
+              "runtime": 107,
+              "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition/khers-nist-no-bears"
+            },
+            {
+              "title": "All the Beauty and the Bloodshed",
+              "aliases": [],
+              "director": "Laura Poitras",
+              "year": 2022,
+              "runtime": 117,
+              "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition/all-beauty-and-bloodshed"
+            },
+            {
+              "title": "Un couple",
+              "aliases": [],
+              "director": "Frederick Wiseman",
+              "year": 2022,
+              "runtime": 64,
+              "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition/un-couple"
+            },
+            {
+              "title": "The Son",
+              "aliases": [],
+              "director": "Florian Zeller",
+              "year": 2022,
+              "runtime": 124,
+              "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition/son"
+            },
+            {
+              "title": "Les miens",
+              "aliases": [],
+              "director": "Roschdy Zem",
+              "year": 2022,
+              "runtime": 86,
+              "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition/les-miens"
+            },
+            {
+              "title": "Les enfants des autres",
+              "aliases": [],
+              "director": "Rebecca Zlotowski",
+              "year": 2022,
+              "runtime": 104,
+              "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition/les-enfants-des-autres"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Lion",
+              "raw_text": "GOLDEN LION for Best Film to: ALL THE BEAUTY AND THE BLOODSHED by Laura Poitras (USA)",
+              "entries": [
+                {
+                  "title": "All the Beauty and the Bloodshed",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "GOLDEN LION for Best Film"
+            },
+            {
+              "name": "Grand Jury Prize",
+              "raw_text": "SILVER LION \u2013 GRAND JURY PRIZE to: SAINT OMER by Alice Diop (France)",
+              "entries": [
+                {
+                  "title": "Saint Omer",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "SILVER LION \u2013 GRAND JURY PRIZE"
+            },
+            {
+              "name": "Best Director",
+              "raw_text": "SILVER LION \u2013 AWARD FOR BEST DIRECTOR to: Luca Guadagnino for the film BONES AND ALL (USA, Italy)",
+              "entries": [
+                {
+                  "title": "Bones and All",
+                  "winner": true,
+                  "people": [
+                    "Luca Guadagnino"
+                  ]
+                }
+              ],
+              "original_name": "SILVER LION \u2013 AWARD FOR BEST DIRECTOR"
+            },
+            {
+              "name": "Best Actress",
+              "raw_text": "COPPA VOLPI for Best Actress: Cate Blanchett in the film T\u00c1R by Todd Field (USA)",
+              "entries": [
+                {
+                  "title": "T\u00e1r",
+                  "winner": true,
+                  "people": [
+                    "Cate Blanchett"
+                  ]
+                }
+              ],
+              "original_name": "COPPA VOLPI for Best Actress"
+            },
+            {
+              "name": "Best Actor",
+              "raw_text": "COPPA VOLPI for Best Actor: Colin Farrell in the film THE BANSHEES OF INISHERIN by Martin McDonagh (Ireland, UK, USA)",
+              "entries": [
+                {
+                  "title": "The Banshees of Inisherin",
+                  "winner": true,
+                  "people": [
+                    "Colin Farrell"
+                  ]
+                }
+              ],
+              "original_name": "COPPA VOLPI for Best Actor"
+            },
+            {
+              "name": "Best Screenplay",
+              "raw_text": "AWARD FOR BEST SCREENPLAY to: Martin McDonagh for the film THE BANSHEES OF INISHERIN by Martin McDonagh (Ireland, UK, USA)",
+              "entries": [
+                {
+                  "title": "The Banshees of Inisherin",
+                  "winner": true,
+                  "people": [
+                    "Martin McDonagh"
+                  ]
+                }
+              ],
+              "original_name": "AWARD FOR BEST SCREENPLAY"
+            },
+            {
+              "name": "Special Jury Prize",
+              "raw_text": "SPECIAL JURY PRIZE to: KHERS NIST (NO BEARS) by Jafar Panahi (Iran)",
+              "entries": [
+                {
+                  "title": "Khers nist",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "SPECIAL JURY PRIZE"
+            },
+            {
+              "name": "Marcello Mastroianni Award",
+              "raw_text": "MARCELLO MASTROIANNI AWARD for Best Young Actor or Actress to: Taylor Russell in the film BONES AND ALL by Luca Guadagnino (USA, Italy)",
+              "entries": [
+                {
+                  "title": "Bones and All",
+                  "winner": true,
+                  "people": [
+                    "Taylor Russell"
+                  ]
+                }
+              ],
+              "original_name": "MARCELLO MASTROIANNI AWARD for Best Young Actor or Actress"
+            },
+            {
+              "name": "Lion of the Future \u2013 Luigi De Laurentiis Award",
+              "raw_text": "LION OF THE FUTURE \u201cLUIGI DE LAURENTIIS\u201d VENICE AWARD FOR A DEBUT FILM to: SAINT OMER by Alice Diop (France)",
+              "entries": [
+                {
+                  "title": "Saint Omer",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "LION OF THE FUTURE \u201cLUIGI DE LAURENTIIS\u201d VENICE AWARD FOR A DEBUT FILM"
+            }
+          ]
+        },
+        {
+          "name": "Orizzonti",
+          "source": "https://www.labiennale.org/en/cinema/2022/orizzonti",
+          "awardsSource": "https://www.labiennale.org/en/news/official-awards-79th-venice-film-festival",
+          "selection": [
+            {
+              "title": "Obe\u0164",
+              "aliases": [
+                "Victim"
+              ],
+              "director": "Michal Bla\u0161ko",
+              "year": 2022,
+              "runtime": 91,
+              "source": "https://www.labiennale.org/en/cinema/2022/orizzonti/obe%C5%A5-victim"
+            },
+            {
+              "title": "En los m\u00e1rgenes",
+              "aliases": [],
+              "director": "Juan Diego Botto",
+              "year": 2022,
+              "runtime": 103,
+              "source": "https://www.labiennale.org/en/cinema/2022/orizzonti/en-los-m%C3%A1rgenes"
+            },
+            {
+              "title": "Trenque Lauquen",
+              "aliases": [],
+              "director": "Laura Citarella",
+              "year": 2022,
+              "runtime": 260,
+              "source": "https://www.labiennale.org/en/cinema/2022/orizzonti/trenque-lauquen"
+            },
+            {
+              "title": "Vera",
+              "aliases": [],
+              "director": "Tizza Covi, Rainer Frimmel",
+              "year": 2022,
+              "runtime": 115,
+              "source": "https://www.labiennale.org/en/cinema/2022/orizzonti/vera"
+            },
+            {
+              "title": "Innocence",
+              "aliases": [],
+              "director": "Guy Davidi",
+              "year": 2022,
+              "runtime": 100,
+              "source": "https://www.labiennale.org/en/cinema/2022/orizzonti/innocence"
+            },
+            {
+              "title": "Princess",
+              "aliases": [],
+              "director": "Roberto De Paolis",
+              "year": 2022,
+              "runtime": 110,
+              "source": "https://www.labiennale.org/en/cinema/2022/orizzonti/princess"
+            },
+            {
+              "title": "Blanquita",
+              "aliases": [],
+              "director": "Fernando Guzzoni",
+              "year": 2022,
+              "runtime": 99,
+              "source": "https://www.labiennale.org/en/cinema/2022/orizzonti/blanquita"
+            },
+            {
+              "title": "Pour la France",
+              "aliases": [],
+              "director": "Rachid Hami",
+              "year": 2022,
+              "runtime": 113,
+              "source": "https://www.labiennale.org/en/cinema/2022/orizzonti/pour-la-france"
+            },
+            {
+              "title": "Aru otoko",
+              "aliases": [
+                "A man"
+              ],
+              "director": "Kei Ishikawa",
+              "year": 2022,
+              "runtime": 121,
+              "source": "https://www.labiennale.org/en/cinema/2022/orizzonti/aru-otoko-man"
+            },
+            {
+              "title": "Chleb i s\u00f3l",
+              "aliases": [
+                "Bread and Salt"
+              ],
+              "director": "Damian Kocur",
+              "year": 2022,
+              "runtime": 99,
+              "source": "https://www.labiennale.org/en/cinema/2022/orizzonti/chleb-i-s%C3%B3l-bread-and-salt"
+            },
+            {
+              "title": "Luxembourg, Luxembourg",
+              "aliases": [],
+              "director": "Antonio Lukich",
+              "year": 2022,
+              "runtime": 106,
+              "source": "https://www.labiennale.org/en/cinema/2022/orizzonti/luxembourg-luxembourg"
+            },
+            {
+              "title": "Ti mangio il cuore",
+              "aliases": [],
+              "director": "Pippo Mezzapesa",
+              "year": 2022,
+              "runtime": 117,
+              "source": "https://www.labiennale.org/en/cinema/2022/orizzonti/ti-mangio-il-cuore"
+            },
+            {
+              "title": "Spre nord",
+              "aliases": [
+                "To the north"
+              ],
+              "director": "Mihai Mincan",
+              "year": 2022,
+              "runtime": 122,
+              "source": "https://www.labiennale.org/en/cinema/2022/orizzonti/spre-nord-north"
+            },
+            {
+              "title": "Autobiography",
+              "aliases": [],
+              "director": "Makbul Mubarak",
+              "year": 2022,
+              "runtime": 115,
+              "source": "https://www.labiennale.org/en/cinema/2022/orizzonti/autobiography"
+            },
+            {
+              "title": "La syndicaliste",
+              "aliases": [],
+              "director": "Jean-Paul Salom\u00e9",
+              "year": 2022,
+              "runtime": 122,
+              "source": "https://www.labiennale.org/en/cinema/2022/orizzonti/la-syndicaliste"
+            },
+            {
+              "title": "Jang-e jahani sevom",
+              "aliases": [
+                "World War III"
+              ],
+              "director": "Houman Seyedi",
+              "year": 2022,
+              "runtime": 107,
+              "source": "https://www.labiennale.org/en/cinema/2022/orizzonti/jang-e-jahani-sevom-world-war-iii"
+            },
+            {
+              "title": "Najsre\u040cniot \u010dovek na svetot / Najsretniji \u010dovjek",
+              "aliases": [
+                "The happiest man in the world"
+              ],
+              "director": "Teona Strugar Mitevska",
+              "year": 2022,
+              "runtime": 95,
+              "source": "https://www.labiennale.org/en/cinema/2022/orizzonti/najsre%D1%9Cniot-%C4%8Dovek-na-svetot-najsretniji-%C4%8Dovjek-happiest-man-world"
+            },
+            {
+              "title": "A noiva",
+              "aliases": [
+                "The Bride"
+              ],
+              "director": "S\u00e9rgio Tr\u00e9faut",
+              "year": 2022,
+              "runtime": 81,
+              "source": "https://www.labiennale.org/en/cinema/2022/orizzonti/noiva-bride"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Orizzonti Award for Best Film",
+              "raw_text": "ORIZZONTI AWARD FOR BEST FILM to: Jang-e Jahani Sevom ( WORLD WAR III ) by Houman Seyedi (Iran)",
+              "entries": [
+                {
+                  "title": "Jang-e jahani sevom",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "ORIZZONTI AWARD FOR BEST FILM"
+            },
+            {
+              "name": "Best Director",
+              "raw_text": "ORIZZONTI AWARD FOR BEST DIRECTOR Tizza Covi and Rainer Frimmel for the film VERA (Austria)",
+              "entries": [
+                {
+                  "title": "Vera",
+                  "winner": true,
+                  "people": [
+                    "Tizza Covi",
+                    "Rainer Frimmel"
+                  ]
+                }
+              ],
+              "original_name": "ORIZZONTI AWARD FOR BEST DIRECTOR"
+            },
+            {
+              "name": "Special Orizzonti Jury Prize",
+              "raw_text": "SPECIAL ORIZZONTI JURY PRIZE to: CHLEB I S\u00d3L (BREAD AND SALT) by Damian Kocur (Poland)",
+              "entries": [
+                {
+                  "title": "Chleb i s\u00f3l",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "SPECIAL ORIZZONTI JURY PRIZE"
+            },
+            {
+              "name": "Best Actress",
+              "raw_text": "ORIZZONTI AWARD FOR BEST ACTRESS to: Vera Gemma in the film VERA by Tizza Covi and Rainer Frimmel (Austria)",
+              "entries": [
+                {
+                  "title": "Vera",
+                  "winner": true,
+                  "people": [
+                    "Vera Gemma"
+                  ]
+                }
+              ],
+              "original_name": "ORIZZONTI AWARD FOR BEST ACTRESS"
+            },
+            {
+              "name": "Best Actor",
+              "raw_text": "ORIZZONTI AWARD FOR BEST ACTOR to: Mohsen Tanabandeh in the film JANG-E JAHANI SEVOM (WORLD WAR III ) by Houman Seyedi (Iran)",
+              "entries": [
+                {
+                  "title": "Jang-e jahani sevom",
+                  "winner": true,
+                  "people": [
+                    "Mohsen Tanabandeh"
+                  ]
+                }
+              ],
+              "original_name": "ORIZZONTI AWARD FOR BEST ACTOR"
+            },
+            {
+              "name": "Best Screenplay",
+              "raw_text": "ORIZZONTI AWARD FOR BEST SCREENPLAY to: Fernando Guzzoni for the film BLANQUITA by Fernando Guzzoni (Chile, Mexico, Luxembourg, France, Poland)",
+              "entries": [
+                {
+                  "title": "Blanquita",
+                  "winner": true,
+                  "people": [
+                    "Fernando Guzzoni"
+                  ]
+                }
+              ],
+              "original_name": "ORIZZONTI AWARD FOR BEST SCREENPLAY"
+            }
+          ]
+        }
+      ],
+      "unmatched_awards": []
+    },
+    {
+      "event": "Venice",
+      "year": 2023,
+      "section": "Official Selection",
+      "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition",
+      "awardsSource": "https://www.labiennale.org/en/news/official-awards-80th-venice-film-festival",
+      "programmes": [
+        {
+          "name": "Venezia Competition",
+          "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition",
+          "awardsSource": "https://www.labiennale.org/en/news/official-awards-80th-venice-film-festival",
+          "selection": [
+            {
+              "title": "Bastarden",
+              "aliases": [
+                "The Promised Land"
+              ],
+              "director": "Nikolaj Arcel",
+              "year": 2023,
+              "runtime": 127,
+              "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/bastarden-promised-land"
+            },
+            {
+              "title": "Dogman",
+              "aliases": [],
+              "director": "Luc Besson",
+              "year": 2023,
+              "runtime": 114,
+              "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/dogman"
+            },
+            {
+              "title": "La b\u00eate",
+              "aliases": [
+                "The Beast"
+              ],
+              "director": "Bertrand Bonello",
+              "year": 2023,
+              "runtime": 146,
+              "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/la-b%C3%AAte-beast"
+            },
+            {
+              "title": "Hors-saison",
+              "aliases": [],
+              "director": "St\u00e9phane Briz\u00e9",
+              "year": 2023,
+              "runtime": 115,
+              "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/hors-saison"
+            },
+            {
+              "title": "Enea",
+              "aliases": [],
+              "director": "Pietro Castellitto",
+              "year": 2023,
+              "runtime": 117,
+              "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/enea"
+            },
+            {
+              "title": "Maestro",
+              "aliases": [],
+              "director": "Bradley Cooper",
+              "year": 2023,
+              "runtime": 129,
+              "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/maestro"
+            },
+            {
+              "title": "Priscilla",
+              "aliases": [],
+              "director": "Sofia Coppola",
+              "year": 2023,
+              "runtime": 113,
+              "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/priscilla"
+            },
+            {
+              "title": "Finalmente l\u2019alba",
+              "aliases": [],
+              "director": "Saverio Costanzo",
+              "year": 2023,
+              "runtime": 140,
+              "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/finalmente-l%E2%80%99alba"
+            },
+            {
+              "title": "Comandante",
+              "aliases": [],
+              "director": "Edoardo De Angelis",
+              "year": 2023,
+              "runtime": 120,
+              "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/comandante"
+            },
+            {
+              "title": "Lubo",
+              "aliases": [],
+              "director": "Giorgio Diritti",
+              "year": 2023,
+              "runtime": 181,
+              "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/lubo"
+            },
+            {
+              "title": "Origin",
+              "aliases": [],
+              "director": "Ava DuVernay",
+              "year": 2023,
+              "runtime": 130,
+              "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/origin"
+            },
+            {
+              "title": "The Killer",
+              "aliases": [],
+              "director": "David Fincher",
+              "year": 2023,
+              "runtime": 118,
+              "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/killer"
+            },
+            {
+              "title": "Memory",
+              "aliases": [],
+              "director": "Michel Franco",
+              "year": 2023,
+              "runtime": 100,
+              "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/memory"
+            },
+            {
+              "title": "Io Capitano",
+              "aliases": [],
+              "director": "Matteo Garrone",
+              "year": 2023,
+              "runtime": 121,
+              "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/io-capitano"
+            },
+            {
+              "title": "Aku wa sonzai shinai",
+              "aliases": [
+                "Evil Does Not Exist"
+              ],
+              "director": "Ryusuke Hamaguchi",
+              "year": 2023,
+              "runtime": 106,
+              "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/aku-wa-sonzai-shinai-evil-does-not-exist"
+            },
+            {
+              "title": "Zielona granica",
+              "aliases": [
+                "Green border"
+              ],
+              "director": "Agnieszka Holland",
+              "year": 2023,
+              "runtime": 152,
+              "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/zielona-granica-green-border"
+            },
+            {
+              "title": "Die Theorie von allem",
+              "aliases": [],
+              "director": "Timm Kr\u00f6ger",
+              "year": 2023,
+              "runtime": 118,
+              "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/die-theorie-von-allem"
+            },
+            {
+              "title": "Poor Things",
+              "aliases": [],
+              "director": "Yorgos Lanthimos",
+              "year": 2023,
+              "runtime": 141,
+              "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/poor-things"
+            },
+            {
+              "title": "El Conde",
+              "aliases": [],
+              "director": "Pablo Larra\u00edn",
+              "year": 2023,
+              "runtime": 110,
+              "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/el-conde"
+            },
+            {
+              "title": "Ferrari",
+              "aliases": [],
+              "director": "Michael Mann",
+              "year": 2023,
+              "runtime": 130,
+              "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/ferrari"
+            },
+            {
+              "title": "Adagio",
+              "aliases": [],
+              "director": "Stefano Sollima",
+              "year": 2023,
+              "runtime": 127,
+              "source": "https://www.labiennale.org/en/cine…1717 tokens truncated… "https://www.labiennale.org/en/cinema/2023/orizzonti/featherweight"
+            },
+            {
+              "title": "Invelle",
+              "aliases": [],
+              "director": "Simone Massi",
+              "year": 2023,
+              "runtime": 90,
+              "source": "https://www.labiennale.org/en/cinema/2023/orizzonti/invelle"
+            },
+            {
+              "title": "Teredd\u00fct \u00e7\u0130zg\u0130s\u0130",
+              "aliases": [
+                "Hesitation wound"
+              ],
+              "director": "Selman Nacar",
+              "year": 2023,
+              "runtime": 84,
+              "source": "https://www.labiennale.org/en/cinema/2023/orizzonti/teredd%C3%BCt-%C3%A7izgisi-hesitation-wound"
+            },
+            {
+              "title": "Tatami",
+              "aliases": [],
+              "director": "Guy Nattiv, Zar Amir Ebrahimi",
+              "year": 2023,
+              "runtime": 105,
+              "source": "https://www.labiennale.org/en/cinema/2023/orizzonti/tatami"
+            },
+            {
+              "title": "Sem cora\u00e7\u00e3o",
+              "aliases": [],
+              "director": "Nara Normande, Ti\u00e3o",
+              "year": 2023,
+              "runtime": 91,
+              "source": "https://www.labiennale.org/en/cinema/2023/orizzonti/sem-cora%C3%A7%C3%A3o"
+            },
+            {
+              "title": "Una sterminata domenica",
+              "aliases": [],
+              "director": "Alain Parroni",
+              "year": 2023,
+              "runtime": 110,
+              "source": "https://www.labiennale.org/en/cinema/2023/orizzonti/una-sterminata-domenica"
+            },
+            {
+              "title": "S\u00e8r s\u00e8r salhi",
+              "aliases": [
+                "City of Wind"
+              ],
+              "director": "Lkhagvadulam Purev-Ochir",
+              "year": 2023,
+              "runtime": 103,
+              "source": "https://www.labiennale.org/en/cinema/2023/orizzonti/s%C3%A8r-s%C3%A8r-salhi-city-wind"
+            },
+            {
+              "title": "Magyar\u00e1zat mindenre",
+              "aliases": [
+                "Explanation for everything"
+              ],
+              "director": "G\u00e1bor Reisz",
+              "year": 2023,
+              "runtime": 152,
+              "source": "https://www.labiennale.org/en/cinema/2023/orizzonti/magyar%C3%A1zat-mindenre-explanation-everything"
+            },
+            {
+              "title": "Gasoline Rainbow",
+              "aliases": [],
+              "director": "Bill Ross, Turner Ross",
+              "year": 2023,
+              "runtime": 110,
+              "source": "https://www.labiennale.org/en/cinema/2023/orizzonti/gasoline-rainbow"
+            },
+            {
+              "title": "En attendant la nuit",
+              "aliases": [],
+              "director": "C\u00e9line Rouzet",
+              "year": 2023,
+              "runtime": 104,
+              "source": "https://www.labiennale.org/en/cinema/2023/orizzonti/en-attendant-la-nuit"
+            },
+            {
+              "title": "Domakinstvo za pocetnici",
+              "aliases": [
+                "Housekeeping for beginners"
+              ],
+              "director": "Goran Stolevski",
+              "year": 2023,
+              "runtime": 107,
+              "source": "https://www.labiennale.org/en/cinema/2023/orizzonti/domakinstvo-za-pocetnici-housekeeping-beginners"
+            },
+            {
+              "title": "Hokage",
+              "aliases": [
+                "Shadow of fire"
+              ],
+              "director": "Shinya Tsukamoto",
+              "year": 2023,
+              "runtime": 96,
+              "source": "https://www.labiennale.org/en/cinema/2023/orizzonti/hokage-shadow-fire"
+            },
+            {
+              "title": "Yurt",
+              "aliases": [
+                "Dormitory"
+              ],
+              "director": "Nehir Tuna",
+              "year": 2023,
+              "runtime": 118,
+              "source": "https://www.labiennale.org/en/cinema/2023/orizzonti/yurt-dormitory"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Orizzonti Award for Best Film",
+              "raw_text": "the ORIZZONTI AWARD FOR BEST FILM to: Magyar\u00e1zat mindenre (Explanation for Everything) by G\u00e1bor Reisz (Hungary)",
+              "entries": [
+                {
+                  "title": "Magyar\u00e1zat mindenre",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "the ORIZZONTI AWARD FOR BEST FILM"
+            },
+            {
+              "name": "Best Director",
+              "raw_text": "the ORIZZONTI AWARD FOR BEST DIRECTOR to: MIKA GUSTAFSON for the film PARADISET BRINNER (Paradise is Burning) (Sweden, Italy, Denmark, Finland)",
+              "entries": [
+                {
+                  "title": "Paradiset brinner",
+                  "winner": true,
+                  "people": [
+                    "MIKA GUSTAFSON"
+                  ]
+                }
+              ],
+              "original_name": "the ORIZZONTI AWARD FOR BEST DIRECTOR"
+            },
+            {
+              "name": "Special Orizzonti Jury Prize",
+              "raw_text": "the SPECIAL ORIZZONTI JURY PRIZE to: UNA STERMINATA DOMENICA (An Endless Sunday) by Alain Parroni \u00a0(Italy; Germany, Ireland)",
+              "entries": [
+                {
+                  "title": "Una sterminata domenica",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "the SPECIAL ORIZZONTI JURY PRIZE"
+            },
+            {
+              "name": "Best Actress",
+              "raw_text": "the ORIZZONTI AWARD FOR BEST ACTRESS to: Margarita Rosa De Francisco in the film El Para\u00edso by Enrico Maria Artale\u00a0 (Italy)",
+              "entries": [
+                {
+                  "title": "El para\u00edso",
+                  "winner": true,
+                  "people": [
+                    "Margarita Rosa De Francisco"
+                  ]
+                }
+              ],
+              "original_name": "the ORIZZONTI AWARD FOR BEST ACTRESS"
+            },
+            {
+              "name": "Best Actor",
+              "raw_text": "the ORIZZONTI AWARD FOR BEST ACTOR to: Tergel Bold-Erdene in the film Ser Ser Salhi (City of Wind) by Lkhagvadulam Purev-Ochir (France, Mongolia, Portugal, Netherlands, Germany, Qatar)",
+              "entries": [
+                {
+                  "title": "S\u00e8r s\u00e8r salhi",
+                  "winner": true,
+                  "people": [
+                    "Tergel Bold-Erdene"
+                  ]
+                }
+              ],
+              "original_name": "the ORIZZONTI AWARD FOR BEST ACTOR"
+            },
+            {
+              "name": "Best Screenplay",
+              "raw_text": "the ORIZZONTI AWARD FOR BEST SCREENPLAY to: ENRICO MARIA ARTALE for the film El Para\u00edso by Enrico Maria Artale \u00a0(Italy)",
+              "entries": [
+                {
+                  "title": "El para\u00edso",
+                  "winner": true,
+                  "people": [
+                    "ENRICO MARIA ARTALE"
+                  ]
+                }
+              ],
+              "original_name": "the ORIZZONTI AWARD FOR BEST SCREENPLAY"
+            }
+          ]
+        }
+      ],
+      "unmatched_awards": []
+    },
+    {
+      "event": "Venice",
+      "year": 2024,
+      "section": "Official Selection",
+      "source": "https://www.labiennale.org/en/cinema/2024/venezia-81-competition",
+      "awardsSource": "https://www.labiennale.org/en/news/official-awards-81st-venice-international-film-festival",
+      "programmes": [
+        {
+          "name": "Venezia Competition",
+          "source": "https://www.labiennale.org/en/cinema/2024/venezia-81-competition",
+          "awardsSource": "https://www.labiennale.org/en/news/official-awards-81st-venice-international-film-festival",
+          "selection": [
+            {
+              "title": "The room next door",
+              "aliases": [],
+              "director": "Pedro Almod\u00f3var",
+              "year": 2024,
+              "runtime": 107,
+              "source": "https://www.labiennale.org/en/cinema/2024/venezia-81-competition/room-next-door"
+            },
+            {
+              "title": "Campo di battaglia",
+              "aliases": [],
+              "director": "Gianni Amelio",
+              "year": 2024,
+              "runtime": 103,
+              "source": "https://www.labiennale.org/en/cinema/2024/venezia-81-competition/campo-di-battaglia"
+            },
+            {
+              "title": "Leurs enfants apr\u00e8s eux",
+              "aliases": [],
+              "director": "Zoran Boukherma, Ludovic Boukherma",
+              "year": 2024,
+              "runtime": 144,
+              "source": "https://www.labiennale.org/en/cinema/2024/venezia-81-competition/leurs-enfants-apr%C3%A8s-eux"
+            },
+            {
+              "title": "The brutalist",
+              "aliases": [],
+              "director": "Brady Corbet",
+              "year": 2024,
+              "runtime": 215,
+              "source": "https://www.labiennale.org/en/cinema/2024/venezia-81-competition/brutalist"
+            },
+            {
+              "title": "Jouer avec le feu",
+              "aliases": [],
+              "director": "Delphine Coulin, Muriel Coulin",
+              "year": 2024,
+              "runtime": 110,
+              "source": "https://www.labiennale.org/en/cinema/2024/venezia-81-competition/jouer-avec-le-feu"
+            },
+            {
+              "title": "Vermiglio",
+              "aliases": [],
+              "director": "Maura Delpero",
+              "year": 2024,
+              "runtime": 119,
+              "source": "https://www.labiennale.org/en/cinema/2024/venezia-81-competition/vermiglio"
+            },
+            {
+              "title": "Iddu",
+              "aliases": [
+                "Sicilian Letters"
+              ],
+              "director": "Fabio Grassadonia, Antonio Piazza",
+              "year": 2024,
+              "runtime": 122,
+              "source": "https://www.labiennale.org/en/cinema/2024/venezia-81-competition/iddu-sicilian-letters"
+            },
+            {
+              "title": "Queer",
+              "aliases": [],
+              "director": "Luca Guadagnino",
+              "year": 2024,
+              "runtime": 135,
+              "source": "https://www.labiennale.org/en/cinema/2024/venezia-81-competition/queer"
+            },
+            {
+              "title": "Kj\u00e6rlighet",
+              "aliases": [
+                "Love"
+              ],
+              "director": "Dag Johan Haugerud",
+              "year": 2024,
+              "runtime": 119,
+              "source": "https://www.labiennale.org/en/cinema/2024/venezia-81-competition/kj%C3%A6rlighet-love"
+            },
+            {
+              "title": "April",
+              "aliases": [],
+              "director": "Dea Kulumbegashvili",
+              "year": 2024,
+              "runtime": 134,
+              "source": "https://www.labiennale.org/en/cinema/2024/venezia-81-competition/april"
+            },
+            {
+              "title": "The Order",
+              "aliases": [],
+              "director": "Justin Kurzel",
+              "year": 2024,
+              "runtime": 116,
+              "source": "https://www.labiennale.org/en/cinema/2024/venezia-81-competition/order"
+            },
+            {
+              "title": "Maria",
+              "aliases": [],
+              "director": "Pablo Larra\u00edn",
+              "year": 2024,
+              "runtime": 123,
+              "source": "https://www.labiennale.org/en/cinema/2024/venezia-81-competition/maria"
+            },
+            {
+              "title": "Trois amies",
+              "aliases": [],
+              "director": "Emmanuel Mouret",
+              "year": 2024,
+              "runtime": 118,
+              "source": "https://www.labiennale.org/en/cinema/2024/venezia-81-competition/trois-amies"
+            },
+            {
+              "title": "El Jockey",
+              "aliases": [
+                "Kill the Jockey"
+              ],
+              "director": "Luis Ortega",
+              "year": 2024,
+              "runtime": 97,
+              "source": "https://www.labiennale.org/en/cinema/2024/venezia-81-competition/el-jockey-kill-jockey"
+            },
+            {
+              "title": "Joker: folie \u00e0 deux",
+              "aliases": [],
+              "director": "Todd Phillips",
+              "year": 2024,
+              "runtime": 138,
+              "source": "https://www.labiennale.org/en/cinema/2024/venezia-81-competition/joker-folie-%C3%A0-deux"
+            },
+            {
+              "title": "Babygirl",
+              "aliases": [],
+              "director": "Halina Reijn",
+              "year": 2024,
+              "runtime": 114,
+              "source": "https://www.labiennale.org/en/cinema/2024/venezia-81-competition/babygirl"
+            },
+            {
+              "title": "Ainda estou aqui",
+              "aliases": [
+                "I\u2019m still here"
+              ],
+              "director": "Walter Salles",
+              "year": 2024,
+              "runtime": 135,
+              "source": "https://www.labiennale.org/en/cinema/2024/venezia-81-competition/ainda-estou-aqui-i%E2%80%99m-still-here"
+            },
+            {
+              "title": "Diva Futura",
+              "aliases": [],
+              "director": "Giulia Louise Steigerwalt",
+              "year": 2024,
+              "runtime": 128,
+              "source": "https://www.labiennale.org/en/cinema/2024/venezia-81-competition/diva-futura"
+            },
+            {
+              "title": "Harvest",
+              "aliases": [],
+              "director": "Athina Rachel Tsangari",
+              "year": 2024,
+              "runtime": 131,
+              "source": "https://www.labiennale.org/en/cinema/2024/venezia-81-competition/harvest"
+            },
+            {
+              "title": "Qing Chun: Gui",
+              "aliases": [
+                "Youth: Homecoming"
+              ],
+              "director": "Bing Wang",
+              "year": 2024,
+              "runtime": 152,
+              "source": "https://www.labiennale.org/en/cinema/2024/venezia-81-competition/qing-chun-gui-youth-homecoming"
+            },
+            {
+              "title": "Stranger eyes",
+              "aliases": [],
+              "director": "Siew Hua Yeo",
+              "year": 2024,
+              "runtime": 125,
+              "source": "https://www.labiennale.org/en/cinema/2024/venezia-81-competition/stranger-eyes"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Lion",
+              "raw_text": "GOLDEN LION for Best Film to: THE ROOM NEXT DOOR by Pedro Almod\u00f3var (Spain)",
+              "entries": [
+                {
+                  "title": "The room next door",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "GOLDEN LION for Best Film"
+            },
+            {
+              "name": "Grand Jury Prize",
+              "raw_text": "SILVER LION \u2013 GRAND JURY PRIZE to: VERMIGLIO by Maura Delpero (Italy, France, Belgium)",
+              "entries": [
+                {
+                  "title": "Vermiglio",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "SILVER LION \u2013 GRAND JURY PRIZE"
+            },
+            {
+              "name": "Best Director",
+              "raw_text": "SILVER LION \u2013 AWARD FOR BEST DIRECTOR to: Brady Corbet for the film THE BRUTALIST (United Kingdom)",
+              "entries": [
+                {
+                  "title": "The brutalist",
+                  "winner": true,
+                  "people": [
+                    "Brady Corbet"
+                  ]
+                }
+              ],
+              "original_name": "SILVER LION \u2013 AWARD FOR BEST DIRECTOR"
+            },
+            {
+              "name": "Best Actress",
+              "raw_text": "COPPA VOLPI for Best Actress: Nicole Kidman in the film BABYGIRL by Halina Reijn (United States)",
+              "entries": [
+                {
+                  "title": "Babygirl",
+                  "winner": true,
+                  "people": [
+                    "Nicole Kidman"
+                  ]
+                }
+              ],
+              "original_name": "COPPA VOLPI for Best Actress"
+            },
+            {
+              "name": "Best Actor",
+              "raw_text": "COPPA VOLPI for Best Actor: Vincent Lindon in the film JOUER AVEC LE FEU by Delphine Coulin and Muriel Coulin (France)",
+              "entries": [
+                {
+                  "title": "Jouer avec le feu",
+                  "winner": true,
+                  "people": [
+                    "Vincent Lindon"
+                  ]
+                }
+              ],
+              "original_name": "COPPA VOLPI for Best Actor"
+            },
+            {
+              "name": "Best Screenplay",
+              "raw_text": "AWARD FOR BEST SCREENPLAY to: Murilo Hauser and Heitor Lorega for the film AINDA ESTOU AQUI by Walter Salles (Brazil, France)",
+              "entries": [
+                {
+                  "title": "Ainda estou aqui",
+                  "winner": true,
+                  "people": [
+                    "Murilo Hauser and Heitor Lorega"
+                  ]
+                }
+              ],
+              "original_name": "AWARD FOR BEST SCREENPLAY"
+            },
+            {
+              "name": "Special Jury Prize",
+              "raw_text": "SPECIAL JURY PRIZE to: APRIL by Dea Kulumbegashvili (France, Italy, Georgia)",
+              "entries": [
+                {
+                  "title": "April",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "SPECIAL JURY PRIZE"
+            },
+            {
+              "name": "Marcello Mastroianni Award",
+              "raw_text": "MARCELLO MASTROIANNI AWARD for Best Young Actor or Actress to: Paul Kircher in the film LEURS ENFANTS APR\u00c8S EUX by Ludovic Boukherma and Zoran Boukherma (France)",
+              "entries": [
+                {
+                  "title": "Leurs enfants apr\u00e8s eux",
+                  "winner": true,
+                  "people": [
+                    "Paul Kircher"
+                  ]
+                }
+              ],
+              "original_name": "MARCELLO MASTROIANNI AWARD for Best Young Actor or Actress"
+            }
+          ]
+        },
+        {
+          "name": "Orizzonti",
+          "source": "https://www.labiennale.org/en/cinema/2024/orizzonti",
+          "awardsSource": "https://www.labiennale.org/en/news/official-awards-81st-venice-international-film-festival",
+          "selection": [
+            {
+              "title": "Marco",
+              "aliases": [],
+              "director": "Aitor Arregi, Jon Gara\u00f1o",
+              "year": 2024,
+              "runtime": 101,
+              "source": "https://www.labiennale.org/en/cinema/2024/orizzonti/marco"
+            },
+            {
+              "title": "Quiet life",
+              "aliases": [],
+              "director": "Alexandros Avranas",
+              "year": 2024,
+              "runtime": 99,
+              "source": "https://www.labiennale.org/en/cinema/2024/orizzonti/quiet-life"
+            },
+            {
+              "title": "Mon ins\u00e9parable",
+              "aliases": [],
+              "director": "Anne-Sophie Bailly",
+              "year": 2024,
+              "runtime": 95,
+              "source": "https://www.labiennale.org/en/cinema/2024/orizzonti/mon-ins%C3%A9parable"
+            },
+            {
+              "title": "A\u00efcha",
+              "aliases": [],
+              "director": "Mehdi Barsaoui",
+              "year": 2024,
+              "runtime": 123,
+              "source": "https://www.labiennale.org/en/cinema/2024/orizzonti/a%C3%AFcha"
+            },
+            {
+              "title": "Happy holidays",
+              "aliases": [],
+              "director": "Scandar Copti",
+              "year": 2024,
+              "runtime": 124,
+              "source": "https://www.labiennale.org/en/cinema/2024/orizzonti/happy-holidays"
+            },
+            {
+              "title": "Familia",
+              "aliases": [],
+              "director": "Francesco Costabile",
+              "year": 2024,
+              "runtime": 124,
+              "source": "https://www.labiennale.org/en/cinema/2024/orizzonti/familia"
+            },
+            {
+              "title": "Hemme\u2019nin \u00f6ld\u00fc\u011f\u00fc g\u00fcnlerden biri",
+              "aliases": [
+                "One of those days when Hemme dies"
+              ],
+              "director": "Murat F\u0131rato\u011flu",
+              "year": 2024,
+              "runtime": 83,
+              "source": "https://www.labiennale.org/en/cinema/2024/orizzonti/hemme%E2%80%99nin-%C3%B6ld%C3%BC%C4%9F%C3%BC-g%C3%BCnlerden-biri-one-those-days-when-hemme-dies"
+            },
+            {
+              "title": "Familiar Touch",
+              "aliases": [],
+              "director": "Sarah Friedland",
+              "year": 2024,
+              "runtime": 91,
+              "source": "https://www.labiennale.org/en/cinema/2024/orizzonti/familiar-touch"
+            },
+            {
+              "title": "Carissa",
+              "aliases": [],
+              "director": "Jason Jacobs, Devon Delmar",
+              "year": 2024,
+              "runtime": 89,
+              "source": "https://www.labiennale.org/en/cinema/2024/orizzonti/carissa"
+            },
+            {
+              "title": "Wishing on a star",
+              "aliases": [],
+              "director": "P\u00e9ter Kerekes",
+              "year": 2024,
+              "runtime": 99,
+              "source": "https://www.labiennale.org/en/cinema/2024/orizzonti/wishing-star"
+            },
+            {
+              "title": "Mistress Dispeller",
+              "aliases": [],
+              "director": "Elizabeth Lo",
+              "year": 2024,
+              "runtime": 94,
+              "source": "https://www.labiennale.org/en/cinema/2024/orizzonti/mistress-dispeller"
+            },
+            {
+              "title": "Nonostante",
+              "aliases": [],
+              "director": "Valerio Mastandrea",
+              "year": 2024,
+              "runtime": 93,
+              "source": "https://www.labiennale.org/en/cinema/2024/orizzonti/nonostante"
+            },
+            {
+              "title": "Anul nou care n-a fost",
+              "aliases": [
+                "The new year that never came"
+              ],
+              "director": "Bogdan Mure\u015fanu",
+              "year": 2024,
+              "runtime": 138,
+              "source": "https://www.labiennale.org/en/cinema/2024/orizzonti/anul-nou-care-n-fost-new-year-never-came"
+            },
+            {
+              "title": "Pooja, Sir",
+              "aliases": [],
+              "director": "Deepak Rauniyar",
+              "year": 2024,
+              "runtime": 118,
+              "source": "https://www.labiennale.org/en/cinema/2024/orizzonti/pooja-sir"
+            },
+            {
+              "title": "Al klavim veanashim",
+              "aliases": [
+                "Of dogs and men"
+              ],
+              "director": "Dani Rosenberg",
+              "year": 2024,
+              "runtime": 82,
+              "source": "https://www.labiennale.org/en/cinema/2024/orizzonti/al-klavim-veanashim-dogs-and-men"
+            },
+            {
+              "title": "Pavements",
+              "aliases": [],
+              "director": "Alex Ross Perry",
+              "year": 2024,
+              "runtime": 128,
+              "source": "https://www.labiennale.org/en/cinema/2024/orizzonti/pavements"
+            },
+            {
+              "title": "Happyend",
+              "aliases": [],
+              "director": "Neo Sora",
+              "year": 2024,
+              "runtime": 113,
+              "source": "https://www.labiennale.org/en/cinema/2024/orizzonti/happyend"
+            },
+            {
+              "title": "L\u2019attachement",
+              "aliases": [],
+              "director": "Carine Tardieu",
+              "year": 2024,
+              "runtime": 106,
+              "source": "https://www.labiennale.org/en/cinema/2024/orizzonti/l%E2%80%99attachement"
+            },
+            {
+              "title": "Diciannove",
+              "aliases": [],
+              "director": "Giovanni Tortorici",
+              "year": 2024,
+              "runtime": 109,
+              "source": "https://www.labiennale.org/en/cinema/2024/orizzonti/diciannove"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Orizzonti Award for Best Film",
+              "raw_text": "ORIZZONTI AWARD FOR BEST FILM to: ANUL NOU CARE N-A FOST (THE NEW YEAR THAT NEVER CAME) by Bogdan Mure\u0219anu (Romania, Serbia)",
+              "entries": [
+                {
+                  "title": "Anul nou care n-a fost",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "ORIZZONTI AWARD FOR BEST FILM"
+            },
+            {
+              "name": "Best Director",
+              "raw_text": "ORIZZONTI AWARD FOR BEST DIRECTOR to: Sarah Friedland for the film FAMILIAR TOUCH (United States)",
+              "entries": [
+                {
+                  "title": "Familiar Touch",
+                  "winner": true,
+                  "people": [
+                    "Sarah Friedland"
+                  ]
+                }
+              ],
+              "original_name": "ORIZZONTI AWARD FOR BEST DIRECTOR"
+            },
+            {
+              "name": "Special Orizzonti Jury Prize",
+              "raw_text": "SPECIAL ORIZZONTI JURY PRIZE to: HEMME\u2019NIN \u00d6LD\u00dc\u011e\u00dc G\u00dcNLERDEN BIRI (ONE OF THOSE DAYS WHEN HEMME DIES) by Murat F\u0131rato\u011flu (Turkey)",
+              "entries": [
+                {
+                  "title": "Hemme\u2019nin \u00f6ld\u00fc\u011f\u00fc g\u00fcnlerden biri",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "SPECIAL ORIZZONTI JURY PRIZE"
+            },
+            {
+              "name": "Best Actress",
+              "raw_text": "ORIZZONTI AWARD FOR BEST ACTRESS to: Kathleen Chalfant in the film Familiar Touch by Sarah Friedland (United States)",
+              "entries": [
+                {
+                  "title": "Familiar Touch",
+                  "winner": true,
+                  "people": [
+                    "Kathleen Chalfant"
+                  ]
+                }
+              ],
+              "original_name": "ORIZZONTI AWARD FOR BEST ACTRESS"
+            },
+            {
+              "name": "Best Actor",
+              "raw_text": "ORIZZONTI AWARD FOR BEST ACTOR to: Francesco Gheghi in the film FAMILIA by Francesco Costabile (Italy)",
+              "entries": [
+                {
+                  "title": "Familia",
+                  "winner": true,
+                  "people": [
+                    "Francesco Gheghi"
+                  ]
+                }
+              ],
+              "original_name": "ORIZZONTI AWARD FOR BEST ACTOR"
+            },
+            {
+              "name": "Best Screenplay",
+              "raw_text": "ORIZZONTI AWARD FOR BEST SCREENPLAY to: Scandar Copti for the film HAPPY HOLIDAYS (Palestine, Germany, France, Italy, Qatar)",
+              "entries": [
+                {
+                  "title": "Happy holidays",
+                  "winner": true,
+                  "people": [
+                    "Scandar Copti"
+                  ]
+                }
+              ],
+              "original_name": "ORIZZONTI AWARD FOR BEST SCREENPLAY"
+            },
+            {
+              "name": "Lion of the Future \u2013 Luigi De Laurentiis Award",
+              "raw_text": "LION OF THE FUTURE \u201cLUIGI DE LAURENTIIS\u201d VENICE AWARD FOR A DEBUT FILM to: FAMILIAR TOUCH by Sarah Friedland (United States)",
+              "source": "https://www.labiennale.org/en/news/official-awards-81st-venice-international-film-festival",
+              "entries": [
+                {
+                  "title": "Familiar Touch",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "Lion of the Future \u2013 Luigi De Laurentiis Award for a Debut Film"
+            }
+          ]
+        }
+      ],
+      "unmatched_awards": []
+    },
+    {
+      "event": "Venice",
+      "year": 2025,
+      "section": "Official Selection",
+      "source": "https://www.labiennale.org/en/cinema/2025/venezia-82-competition",
+      "awardsSource": "https://www.labiennale.org/en/news/official-awards-82nd-venice-international-film-festival",
+      "programmes": [
+        {
+          "name": "Venezia Competition",
+          "source": "https://www.labiennale.org/en/cinema/2025/venezia-82-competition",
+          "awardsSource": "https://www.labiennale.org/en/news/official-awards-82nd-venice-international-film-festival",
+          "selection": [
+            {
+              "title": "Le mage du Kremlin",
+              "aliases": [
+                "The Wizard of the Kremlin"
+              ],
+              "director": "Olivier Assayas",
+              "year": 2025,
+              "runtime": 156,
+              "source": "https://www.labiennale.org/en/cinema/2025/venezia-82-competition/le-mage-du-kremlin-wizard-kremlin"
+            },
+            {
+              "title": "Jay Kelly",
+              "aliases": [],
+              "director": "Noah Baumbach",
+              "year": 2025,
+              "runtime": 132,
+              "source": "https://www.labiennale.org/en/cinema/2025/venezia-82-competition/jay-kelly"
+            },
+            {
+              "title": "The voice of Hind Rajab",
+              "aliases": [],
+              "director": "Kaouther ben Hania",
+              "year": 2025,
+              "runtime": 90,
+              "source": "https://www.labiennale.org/en/cinema/2025/venezia-82-competition/voice-hind-rajab"
+            },
+            {
+              "title": "A House of Dynamite",
+              "aliases": [],
+              "director": "Kathryn Bigelow",
+              "year": 2025,
+              "runtime": 112,
+              "source": "https://www.labiennale.org/en/cinema/2025/venezia-82-competition/house-dynamite"
+            },
+            {
+              "title": "Ri gua zhong tian",
+              "aliases": [
+                "The sun rises on us all"
+              ],
+              "director": "Cai Shangjun",
+              "year": 2025,
+              "runtime": 131,
+              "source": "https://www.labiennale.org/en/cinema/2025/venezia-82-competition/ri-gua-zhong-tian-sun-rises-us-all"
+            },
+            {
+              "title": "Frankenstein",
+              "aliases": [],
+              "director": "Guillermo Del Toro",
+              "year": 2025,
+              "runtime": 149,
+              "source": "https://www.labiennale.org/en/cinema/2025/venezia-82-competition/frankenstein"
+            },
+            {
+              "title": "Elisa",
+              "aliases": [],
+              "director": "Leonardo Di Costanzo",
+              "year": 2025,
+              "runtime": 105,
+              "source": "https://www.labiennale.org/en/cinema/2025/venezia-82-competition/elisa"
+            },
+            {
+              "title": "\u00c0 pied d\u2019\u0153uvre",
+              "aliases": [
+                "At work"
+              ],
+              "director": "Val\u00e9rie Donzelli",
+              "year": 2025,
+              "runtime": 92,
+              "source": "https://www.labiennale.org/en/cinema/2025/venezia-82-competition/%C3%A0-pied-d%E2%80%99%C5%93uvre-work"
+            },
+            {
+              "title": "Silent Friend",
+              "aliases": [],
+              "director": "Ildik\u00f3 Enyedi",
+              "year": 2025,
+              "runtime": 145,
+              "source": "https://www.labiennale.org/en/cinema/2025/venezia-82-competition/silent-friend"
+            },
+            {
+              "title": "The Testament of Ann Lee",
+              "aliases": [],
+              "director": "Mona Fastvold",
+              "year": 2025,
+              "runtime": 130,
+              "source": "https://www.labiennale.org/en/cinema/2025/venezia-82-competition/testament-ann-lee"
+            },
+            {
+              "title": "Father Mother Sister Brother",
+              "aliases": [],
+              "director": "Jim Jarmusch",
+              "year": 2025,
+              "runtime": 110,
+              "source": "https://www.labiennale.org/en/cinema/2025/venezia-82-competition/father-mother-sister-brother"
+            },
+            {
+              "title": "Bugonia",
+              "aliases": [],
+              "director": "Yorgos Lanthimos",
+              "year": 2025,
+              "runtime": 120,
+              "source": "https://www.labiennale.org/en/cinema/2025/venezia-82-competition/bugonia"
+            },
+            {
+              "title": "Duse",
+              "aliases": [],
+              "director": "Pietro Marcello",
+              "year": 2025,
+              "runtime": 125,
+              "source": "https://www.labiennale.org/en/cinema/2025/venezia-82-competition/duse"
+            },
+            {
+              "title": "Un film fatto per Bene",
+              "aliases": [],
+              "director": "Franco Maresco",
+              "year": 2025,
+              "runtime": 100,
+              "source": "https://www.labiennale.org/en/cinema/2025/venezia-82-competition/un-film-fatto-bene"
+            },
+            {
+              "title": "Orphan",
+              "aliases": [],
+              "director": "L\u00e1szl\u00f3 Nemes",
+              "year": 2025,
+              "runtime": 132,
+              "source": "https://www.labiennale.org/en/cinema/2025/venezia-82-competition/orphan"
+            },
+            {
+              "title": "L\u2019\u00e9tranger",
+              "aliases": [
+                "The Stranger"
+              ],
+              "director": "Fran\u00e7ois Ozon",
+              "year": 2025,
+              "runtime": 120,
+              "source": "https://www.labiennale.org/en/cinema/2025/venezia-82-competition/l%E2%80%99%C3%A9tranger-stranger"
+            },
+            {
+              "title": "Eojjeol suga eopda",
+              "aliases": [
+                "No Other Choice"
+              ],
+              "director": "Park Chan-wook",
+              "year": 2025,
+              "runtime": 139,
+              "source": "https://www.labiennale.org/en/cinema/2025/venezia-82-competition/eojjeol-suga-eopda-no-other-choice"
+            },
+            {
+              "title": "Sotto le nuvole",
+              "aliases": [
+                "Below the clouds"
+              ],
+              "director": "Gianfranco Rosi",
+              "year": 2025,
+              "runtime": 115,
+              "source": "https://www.labiennale.org/en/cinema/2025/venezia-82-competition/sotto-le-nuvole-below-clouds"
+            },
+            {
+              "title": "The Smashing Machine",
+              "aliases": [],
+              "director": "Benny Safdie",
+              "year": 2025,
+              "runtime": 123,
+              "source": "https://www.labiennale.org/en/cinema/2025/venezia-82-competition/smashing-machine"
+            },
+            {
+              "title": "N\u00fchai",
+              "aliases": [
+                "Girl"
+              ],
+              "director": "Shu Qi",
+              "year": 2025,
+              "runtime": 125,
+              "source": "https://www.labiennale.org/en/cinema/2025/venezia-82-competition/n%C3%BChai-girl"
+            },
+            {
+              "title": "La Grazia",
+              "aliases": [],
+              "director": "Paolo Sorrentino",
+              "year": 2025,
+              "runtime": 133,
+              "source": "https://www.labiennale.org/en/cinema/2025/venezia-82-competition/la-grazia"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Lion",
+              "raw_text": "GOLDEN LION for Best Film to: FATHER MOTHER SISTER BROTHER by Jim Jarmusch (USA, Ireland, France)",
+              "entries": [
+                {
+                  "title": "Father Mother Sister Brother",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "GOLDEN LION for Best Film"
+            },
+            {
+              "name": "Grand Jury Prize",
+              "raw_text": "SILVER LION \u2013 GRAND JURY PRIZE to: THE VOICE OF HIND RAJAB by Kaouther Ben Hania (Tunisia, France)",
+              "entries": [
+                {
+                  "title": "The voice of Hind Rajab",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "SILVER LION \u2013 GRAND JURY PRIZE"
+            },
+            {
+              "name": "Best Director",
+              "raw_text": "SILVER LION \u2013 AWARD FOR BEST DIRECTOR to: Benny Safdie for the film THE SMASHING MACHINE (USA)",
+              "entries": [
+                {
+                  "title": "The Smashing Machine",
+                  "winner": true,
+                  "people": [
+                    "Benny Safdie"
+                  ]
+                }
+              ],
+              "original_name": "SILVER LION \u2013 AWARD FOR BEST DIRECTOR"
+            },
+            {
+              "name": "Best Actress",
+              "raw_text": "COPPA VOLPI for Best Actress: Xin Zhilei in the film RI GUA ZHONG TIAN (THE SUN RISES ON US ALL) by Cai Shangjun (China)",
+              "entries": [
+                {
+                  "title": "Ri gua zhong tian",
+                  "winner": true,
+                  "people": [
+                    "Xin Zhilei"
+                  ]
+                }
+              ],
+              "original_name": "COPPA VOLPI for Best Actress"
+            },
+            {
+              "name": "Best Actor",
+              "raw_text": "COPPA VOLPI for Best Actor: Toni Servillo in the film LA GRAZIA by Paolo Sorrentino (Italy)",
+              "entries": [
+                {
+                  "title": "La Grazia",
+                  "winner": true,
+                  "people": [
+                    "Toni Servillo"
+                  ]
+                }
+              ],
+              "original_name": "COPPA VOLPI for Best Actor"
+            },
+            {
+              "name": "Best Screenplay",
+              "raw_text": "AWARD FOR BEST SCREENPLAY to: Val\u00e9rie Donzelli and Gilles Marchand for the film \u00c0 PIED D\u2019\u0152UVRE (AT WORK) by Val\u00e9rie Donzelli (France)",
+              "entries": [
+                {
+                  "title": "\u00c0 pied d\u2019\u0153uvre",
+                  "winner": true,
+                  "people": [
+                    "Val\u00e9rie Donzelli and Gilles Marchand"
+                  ]
+                }
+              ],
+              "original_name": "AWARD FOR BEST SCREENPLAY"
+            },
+            {
+              "name": "Special Jury Prize",
+              "raw_text": "SPECIAL JURY PRIZE to: SOTTO LE NUVOLE (BELOW THE CLOUDS) by Gianfranco Rosi (Italy)",
+              "entries": [
+                {
+                  "title": "Sotto le nuvole",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "SPECIAL JURY PRIZE"
+            },
+            {
+              "name": "Marcello Mastroianni Award",
+              "raw_text": "MARCELLO MASTROIANNI AWARD for Best Young Actor or Actress to: Luna Wedler in the film SILENT FRIEND by Ildik\u00f3 Enyedi (Germany, Hungary, France)",
+              "entries": [
+                {
+                  "title": "Silent Friend",
+                  "winner": true,
+                  "people": [
+                    "Luna Wedler"
+                  ]
+                }
+              ],
+              "original_name": "MARCELLO MASTROIANNI AWARD for Best Young Actor or Actress"
+            }
+          ]
+        },
+        {
+          "name": "Orizzonti",
+          "source": "https://www.labiennale.org/en/cinema/2025/orizzonti",
+          "awardsSource": "https://www.labiennale.org/en/news/official-awards-82nd-venice-international-film-festival",
+          "selection": [
+            {
+              "title": "Komedie elahi",
+              "aliases": [
+                "Divine Comedy"
+              ],
+              "director": "Ali Asgari",
+              "year": 2025,
+              "runtime": 98,
+              "source": "https://www.labiennale.org/en/cinema/2025/orizzonti/komedie-elahi-divine-comedy"
+            },
+            {
+              "title": "Hiedra",
+              "aliases": [],
+              "director": "Ana Cristina Barragan",
+              "year": 2025,
+              "runtime": 95,
+              "source": "https://www.labiennale.org/en/cinema/2025/orizzonti/hiedra"
+            },
+            {
+              "title": "Il rapimento di Arabella",
+              "aliases": [],
+              "director": "Carolina Cavalli",
+              "year": 2025,
+              "runtime": 107,
+              "source": "https://www.labiennale.org/en/cinema/2025/orizzonti/il-rapimento-di-arabella"
+            },
+            {
+              "title": "Estrany riu",
+              "aliases": [
+                "Strange River"
+              ],
+              "director": "Jaume Claret Muxart",
+              "year": 2025,
+              "runtime": 106,
+              "source": "https://www.labiennale.org/en/cinema/2025/orizzonti/estrany-riu-strange-river"
+            },
+            {
+              "title": "Har\u00e0 Watan",
+              "aliases": [
+                "Lost Land"
+              ],
+              "director": "Akio Fujimoto",
+              "year": 2025,
+              "runtime": 99,
+              "source": "https://www.labiennale.org/en/cinema/2025/orizzonti/har%C3%A0-watan-lost-land"
+            },
+            {
+              "title": "Grand Ciel",
+              "aliases": [],
+              "director": "Akihiro Hata",
+              "year": 2025,
+              "runtime": 92,
+              "source": "https://www.labiennale.org/en/cinema/2025/orizzonti/grand-ciel"
+            },
+            {
+              "title": "Rose of Nevada",
+              "aliases": [],
+              "director": "Mark Jenkin",
+              "year": 2025,
+              "runtime": 114,
+              "source": "https://www.labiennale.org/en/cinema/2025/orizzonti/rose-nevada"
+            },
+            {
+              "title": "Late Fame",
+              "aliases": [],
+              "director": "Kent Jones",
+              "year": 2025,
+              "runtime": 96,
+              "source": "https://www.labiennale.org/en/cinema/2025/orizzonti/late-fame"
+            },
+            {
+              "title": "Din\u021bi de lapte",
+              "aliases": [
+                "Milk Teeth"
+              ],
+              "director": "Mihai Mincan",
+              "year": 2025,
+              "runtime": 104,
+              "source": "https://www.labiennale.org/en/cinema/2025/orizzonti/din%C8%9Bi-de-lapte-milk-teeth"
+            },
+            {
+              "title": "Pin de fartie",
+              "aliases": [],
+              "director": "Alejo Moguillansky",
+              "year": 2025,
+              "runtime": 106,
+              "source": "https://www.labiennale.org/en/cinema/2025/orizzonti/pin-de-fartie"
+            },
+            {
+              "title": "Otec",
+              "aliases": [
+                "Father"
+              ],
+              "director": "Tereza Nvotov\u00e1",
+              "year": 2025,
+              "runtime": 103,
+              "source": "https://www.labiennale.org/en/cinema/2025/orizzonti/otec-father"
+            },
+            {
+              "title": "En el camino",
+              "aliases": [],
+              "director": "David Pablos",
+              "year": 2025,
+              "runtime": 93,
+              "source": "https://www.labiennale.org/en/cinema/2025/orizzonti/en-el-camino"
+            },
+            {
+              "title": "Songs of Forgotten Trees",
+              "aliases": [],
+              "director": "Anuparna Roy",
+              "year": 2025,
+              "runtime": 77,
+              "source": "https://www.labiennale.org/en/cinema/2025/orizzonti/songs-forgotten-trees"
+            },
+            {
+              "title": "Un anno di scuola",
+              "aliases": [],
+              "director": "Laura Samani",
+              "year": 2025,
+              "runtime": 102,
+              "source": "https://www.labiennale.org/en/cinema/2025/orizzonti/un-anno-di-scuola"
+            },
+            {
+              "title": "The Souffleur",
+              "aliases": [],
+              "director": "Gast\u00f3n\u00a0Solnicki",
+              "year": 2025,
+              "runtime": 78,
+              "source": "https://www.labiennale.org/en/cinema/2025/orizzonti/souffleur"
+            },
+            {
+              "title": "Barrio triste",
+              "aliases": [],
+              "director": "Stillz",
+              "year": 2025,
+              "runtime": 88,
+              "source": "https://www.labiennale.org/en/cinema/2025/orizzonti/barrio-triste"
+            },
+            {
+              "title": "Mother",
+              "aliases": [],
+              "director": "Teona Strugar Mitevska",
+              "year": 2025,
+              "runtime": 104,
+              "source": "https://www.labiennale.org/en/cinema/2025/orizzonti/mother"
+            },
+            {
+              "title": "Human Resource",
+              "aliases": [],
+              "director": "Nawapol Thamrongrattanarit",
+              "year": 2025,
+              "runtime": 122,
+              "source": "https://www.labiennale.org/en/cinema/2025/orizzonti/human-resource"
+            },
+            {
+              "title": "Funeral Casino Blues",
+              "aliases": [],
+              "director": "Roderick Warich",
+              "year": 2025,
+              "runtime": 153,
+              "source": "https://www.labiennale.org/en/cinema/2025/orizzonti/funeral-casino-blues"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Orizzonti Award for Best Film",
+              "raw_text": "ORIZZONTI AWARD FOR BEST FILM to: EN EL CAMINO (ON THE ROAD) by David Pablos (Mexico)",
+              "entries": [
+                {
+                  "title": "En el camino",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "ORIZZONTI AWARD FOR BEST FILM"
+            },
+            {
+              "name": "Best Director",
+              "raw_text": "ORIZZONTI AWARD FOR BEST DIRECTOR to: Anuparna Roy for the film SONGS OF FORGOTTEN TREES (India)",
+              "entries": [
+                {
+                  "title": "Songs of Forgotten Trees",
+                  "winner": true,
+                  "people": [
+                    "Anuparna Roy"
+                  ]
+                }
+              ],
+              "original_name": "ORIZZONTI AWARD FOR BEST DIRECTOR"
+            },
+            {
+              "name": "Special Orizzonti Jury Prize",
+              "raw_text": "SPECIAL ORIZZONTI JURY PRIZE to: HAR\u00c0 WATAN (LOST LAND) by Akio Fujimoto (Japan, France, Malasya, Germany)",
+              "entries": [
+                {
+                  "title": "Har\u00e0 Watan",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "SPECIAL ORIZZONTI JURY PRIZE"
+            },
+            {
+              "name": "Best Actress",
+              "raw_text": "ORIZZONTI AWARD FOR BEST ACTRESS to: Benedetta Porcaroli in the film IL RAPIMENTO DI ARABELLA by Carolina Cavalli (Italy)",
+              "entries": [
+                {
+                  "title": "Il rapimento di Arabella",
+                  "winner": true,
+                  "people": [
+                    "Benedetta Porcaroli"
+                  ]
+                }
+              ],
+              "original_name": "ORIZZONTI AWARD FOR BEST ACTRESS"
+            },
+            {
+              "name": "Best Actor",
+              "raw_text": "ORIZZONTI AWARD FOR BEST ACTOR to: Giacomo Covi in the film UN ANNO DI SCUOLA (A YEAR OF SCHOOL) by Laura Samani (Italy, France)",
+              "entries": [
+                {
+                  "title": "Un anno di scuola",
+                  "winner": true,
+                  "people": [
+                    "Giacomo Covi"
+                  ]
+                }
+              ],
+              "original_name": "ORIZZONTI AWARD FOR BEST ACTOR"
+            },
+            {
+              "name": "Best Screenplay",
+              "raw_text": "ORIZZONTI AWARD FOR BEST SCREENPLAY to: Ana Cristina Barrag\u00e1n for the film HIEDRA (THE IVY) (Ecuador)",
+              "entries": [
+                {
+                  "title": "Hiedra",
+                  "winner": true,
+                  "people": [
+                    "Ana Cristina Barrag\u00e1n"
+                  ]
+                }
+              ],
+              "original_name": "ORIZZONTI AWARD FOR BEST SCREENPLAY"
+            }
+          ]
+        }
+      ],
+      "unmatched_awards": []
+    }
+  ]
+}
