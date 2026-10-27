@@ -1,0 +1,444 @@
+{
+  "verified": [
+    {
+      "title": "Andor",
+      "work_key": "tv:83867",
+      "tmdb_id": 83867,
+      "imdb_id": "tt9253284",
+      "year": 2022,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": null
+    },
+    {
+      "title": "The Diplomat",
+      "work_key": "tv:203857",
+      "tmdb_id": 203857,
+      "imdb_id": "tt17491088",
+      "year": 2023,
+      "method": "Unique TMDB title, premiere year and credited person",
+      "credit_anchor": "Keri Russell"
+    },
+    {
+      "title": "The Last of Us",
+      "work_key": "tv:100088",
+      "tmdb_id": 100088,
+      "imdb_id": "tt3581920",
+      "year": 2023,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": null
+    },
+    {
+      "title": "Paradise",
+      "work_key": "tv:245927",
+      "tmdb_id": 245927,
+      "imdb_id": "tt27444205",
+      "year": 2025,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": null
+    },
+    {
+      "title": "The Pitt",
+      "work_key": "tv:250307",
+      "tmdb_id": 250307,
+      "imdb_id": "tt31938062",
+      "year": 2025,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": null
+    },
+    {
+      "title": "Severance",
+      "work_key": "tv:95396",
+      "tmdb_id": 95396,
+      "imdb_id": "tt11280740",
+      "year": 2022,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": null
+    },
+    {
+      "title": "Slow Horses",
+      "work_key": "tv:95480",
+      "tmdb_id": 95480,
+      "imdb_id": "tt5875444",
+      "year": 2022,
+      "method": "Unique TMDB title, premiere year and credited person",
+      "credit_anchor": "Gary Oldman"
+    },
+    {
+      "title": "The White Lotus",
+      "work_key": "tv:111803",
+      "tmdb_id": 111803,
+      "imdb_id": "tt13406094",
+      "year": 2021,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": null
+    },
+    {
+      "title": "Abbott Elementary",
+      "work_key": "tv:125935",
+      "tmdb_id": 125935,
+      "imdb_id": "tt14218830",
+      "year": 2021,
+      "method": "Unique TMDB title, premiere year and credited person",
+      "credit_anchor": "Quinta Brunson"
+    },
+    {
+      "title": "The Bear",
+      "work_key": "tv:136315",
+      "tmdb_id": 136315,
+      "imdb_id": "tt14452776",
+      "year": 2022,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": null
+    },
+    {
+      "title": "Hacks",
+      "work_key": "tv:124101",
+      "tmdb_id": 124101,
+      "imdb_id": "tt11815682",
+      "year": 2021,
+      "method": "Unique TMDB title, premiere year and credited person",
+      "credit_anchor": "Jean Smart"
+    },
+    {
+      "title": "Nobody Wants This",
+      "work_key": "tv:250923",
+      "tmdb_id": 250923,
+      "imdb_id": "tt26933824",
+      "year": 2024,
+      "method": "Unique TMDB title, premiere year and credited person",
+      "credit_anchor": "Kristen Bell"
+    },
+    {
+      "title": "Only Murders in the Building",
+      "work_key": "tv:107113",
+      "tmdb_id": 107113,
+      "imdb_id": "tt11691774",
+      "year": 2021,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": null
+    },
+    {
+      "title": "Shrinking",
+      "work_key": "tv:136311",
+      "tmdb_id": 136311,
+      "imdb_id": "tt15677150",
+      "year": 2023,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": null
+    },
+    {
+      "title": "The Studio",
+      "work_key": "tv:247767",
+      "tmdb_id": 247767,
+      "imdb_id": "tt23649128",
+      "year": 2025,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": null
+    },
+    {
+      "title": "What We Do in the Shadows",
+      "work_key": "tv:83631",
+      "tmdb_id": 83631,
+      "imdb_id": "tt7908628",
+      "year": 2019,
+      "method": "Unique TMDB title, premiere year and credited person",
+      "credit_anchor": "Matt Berry"
+    },
+    {
+      "title": "Adolescence",
+      "work_key": "tv:249042",
+      "tmdb_id": 249042,
+      "imdb_id": "tt31806037",
+      "year": 2025,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": null
+    },
+    {
+      "title": "Black Mirror",
+      "work_key": "tv:42009",
+      "tmdb_id": 42009,
+      "imdb_id": "tt2085059",
+      "year": 2011,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": null
+    },
+    {
+      "title": "Dying for Sex",
+      "work_key": "tv:241405",
+      "tmdb_id": 241405,
+      "imdb_id": "tt30252752",
+      "year": 2025,
+      "method": "Unique TMDB title, premiere year and credited person",
+      "credit_anchor": "Michelle Williams"
+    },
+    {
+      "title": "The Penguin",
+      "work_key": "tv:194764",
+      "tmdb_id": 194764,
+      "imdb_id": "tt15435876",
+      "year": 2024,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": null
+    },
+    {
+      "title": "The Day of the Jackal",
+      "work_key": "tv:222766",
+      "tmdb_id": 222766,
+      "imdb_id": "tt24053860",
+      "year": 2024,
+      "method": "Unique TMDB title, premiere year and credited person",
+      "credit_anchor": "Eddie Redmayne"
+    },
+    {
+      "title": "Mr. & Mrs. Smith",
+      "work_key": "tv:118642",
+      "tmdb_id": 118642,
+      "imdb_id": "tt14044212",
+      "year": 2024,
+      "method": "Unique TMDB title, premiere year and credited person",
+      "credit_anchor": "Donald Glover"
+    },
+    {
+      "title": "Squid Game",
+      "work_key": "tv:93405",
+      "tmdb_id": 93405,
+      "imdb_id": "tt10919420",
+      "year": 2021,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": null
+    },
+    {
+      "title": "The Gentlemen",
+      "work_key": "tv:236235",
+      "tmdb_id": 236235,
+      "imdb_id": "tt13210838",
+      "year": 2024,
+      "method": "Unique TMDB title, premiere year and credited person",
+      "credit_anchor": "Theo James"
+    },
+    {
+      "title": "True Detective: Night Country",
+      "work_key": "tv:46648",
+      "tmdb_id": 46648,
+      "imdb_id": "tt2356777",
+      "year": 2014,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": "Jodie Foster"
+    },
+    {
+      "title": "Baby Reindeer",
+      "work_key": "tv:241259",
+      "tmdb_id": 241259,
+      "imdb_id": "tt13649112",
+      "year": 2024,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": null
+    },
+    {
+      "title": "Disclaimer",
+      "work_key": "tv:147050",
+      "tmdb_id": 147050,
+      "imdb_id": "tt16294384",
+      "year": 2024,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": null
+    },
+    {
+      "title": "Ripley",
+      "work_key": "tv:94028",
+      "tmdb_id": 94028,
+      "imdb_id": "tt11016042",
+      "year": 2024,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": null
+    },
+    {
+      "title": "Blue Lights",
+      "work_key": "tv:218344",
+      "tmdb_id": 218344,
+      "imdb_id": "tt14466018",
+      "year": 2023,
+      "method": "Unique TMDB title, premiere year and credited person",
+      "credit_anchor": "Sian Brooke"
+    },
+    {
+      "title": "Sherwood",
+      "work_key": "tv:155243",
+      "tmdb_id": 155243,
+      "imdb_id": "tt13994572",
+      "year": 2022,
+      "method": "Unique TMDB title, premiere year and credited person",
+      "credit_anchor": "David Morrissey"
+    },
+    {
+      "title": "Supacell",
+      "work_key": "tv:158141",
+      "tmdb_id": 158141,
+      "imdb_id": "tt16283758",
+      "year": 2024,
+      "method": "Unique TMDB title, premiere year and credited person",
+      "credit_anchor": "Tosin Cole"
+    },
+    {
+      "title": "Wolf Hall: The Mirror and the Light",
+      "work_key": "tv:61697",
+      "tmdb_id": 61697,
+      "imdb_id": "tt3556920",
+      "year": 2015,
+      "method": "Unique TMDB title, premiere year and credited person",
+      "credit_anchor": "Mark Rylance"
+    },
+    {
+      "title": "Mr Bates vs The Post Office",
+      "work_key": "tv:241100",
+      "tmdb_id": 241100,
+      "imdb_id": "tt27867155",
+      "year": 2024,
+      "method": "Unique TMDB title, premiere year and credited person",
+      "credit_anchor": "Toby Jones"
+    },
+    {
+      "title": "Lost Boys and Fairies",
+      "work_key": "tv:255117",
+      "tmdb_id": 255117,
+      "imdb_id": "tt21084712",
+      "year": 2024,
+      "method": "Unique TMDB title, premiere year and credited person",
+      "credit_anchor": "Sion Daniel Young"
+    },
+    {
+      "title": "One Day",
+      "work_key": "tv:240667",
+      "tmdb_id": 240667,
+      "imdb_id": "tt16283804",
+      "year": 2024,
+      "method": "Unique TMDB title, premiere year and credited person",
+      "credit_anchor": "Ambika Mod"
+    },
+    {
+      "title": "Alma’s Not Normal",
+      "work_key": "tv:106161",
+      "tmdb_id": 106161,
+      "imdb_id": "tt12106710",
+      "year": 2020,
+      "method": "Unique TMDB title, premiere year and credited person",
+      "credit_anchor": "Sophie Willan"
+    },
+    {
+      "title": "Brassic",
+      "work_key": "tv:92621",
+      "tmdb_id": 92621,
+      "imdb_id": "tt9174582",
+      "year": 2019,
+      "method": "Unique TMDB title, premiere year and credited person",
+      "credit_anchor": "Joseph Gilgun"
+    },
+    {
+      "title": "G’wed",
+      "work_key": "tv:245412",
+      "tmdb_id": 245412,
+      "imdb_id": "tt28510783",
+      "year": 2024,
+      "method": "Unique TMDB title, premiere year and credited person",
+      "credit_anchor": "Dylan Thomas-Smith"
+    },
+    {
+      "title": "Ludwig",
+      "work_key": "tv:243360",
+      "tmdb_id": 243360,
+      "imdb_id": "tt27846061",
+      "year": 2024,
+      "method": "Unique TMDB title, premiere year and credited person",
+      "credit_anchor": "David Mitchell"
+    },
+    {
+      "title": "Shōgun",
+      "work_key": "tv:126308",
+      "tmdb_id": 126308,
+      "imdb_id": "tt2788316",
+      "year": 2024,
+      "method": "Unique TMDB title, premiere year and credited person",
+      "credit_anchor": "Hiroyuki Sanada"
+    },
+    {
+      "title": "After the Party",
+      "work_key": "tv:238005",
+      "tmdb_id": 238005,
+      "imdb_id": "tt23845296",
+      "year": 2023,
+      "method": "Unique TMDB title, premiere year and credited person",
+      "credit_anchor": "Robyn Malcolm"
+    },
+    {
+      "title": "Colin from Accounts",
+      "work_key": "tv:203614",
+      "tmdb_id": 203614,
+      "imdb_id": "tt18228732",
+      "year": 2022,
+      "method": "Unique TMDB title, premiere year and credited person",
+      "credit_anchor": "Harriet Dyer"
+    },
+    {
+      "title": "Say Nothing",
+      "work_key": "tv:245256",
+      "tmdb_id": 245256,
+      "imdb_id": "tt31122777",
+      "year": 2024,
+      "method": "Unique TMDB title, premiere year and credited person",
+      "credit_anchor": "Lola Petticrew"
+    }
+  ],
+  "added": [
+    "tv:203857",
+    "tv:95480",
+    "tv:125935",
+    "tv:124101",
+    "tv:250923",
+    "tv:83631",
+    "tv:241405",
+    "tv:222766",
+    "tv:118642",
+    "tv:236235",
+    "tv:218344",
+    "tv:155243",
+    "tv:158141",
+    "tv:61697",
+    "tv:241100",
+    "tv:255117",
+    "tv:240667",
+    "tv:106161",
+    "tv:92621",
+    "tv:245412",
+    "tv:243360",
+    "tv:126308",
+    "tv:238005",
+    "tv:203614",
+    "tv:245256"
+  ],
+  "unresolved": [
+    {
+      "title": "Monsters: The Lyle and Erik Menendez Story",
+      "error": "Expected one title/year/credit match, found 0"
+    },
+    {
+      "title": "Diplomat, The",
+      "error": "Expected one title/year/credit match, found 0"
+    },
+    {
+      "title": "Shogun",
+      "error": "Expected one title/year/credit match, found 0"
+    },
+    {
+      "title": "Bear, The",
+      "error": "Expected one title/year/credit match, found 0"
+    },
+    {
+      "title": "Monsters: The Lyle and Erik Menendez Story",
+      "error": "Expected one title/year/credit match, found 0"
+    },
+    {
+      "title": "You Are Not Alone: Fighting the Wolfpack",
+      "error": "Expected one title/year/credit match, found 0"
+    }
+  ]
+}
