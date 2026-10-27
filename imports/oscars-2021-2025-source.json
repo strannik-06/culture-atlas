@@ -266,28 +266,28 @@
           "name": "International Feature Film",
           "entries": [
             {
-              "title": "Denmark",
-              "person": "Another Round",
+              "title": "Another Round",
+              "person": "Denmark",
               "winner": true
             },
             {
-              "title": "Hong Kong",
-              "person": "Better Days",
+              "title": "Better Days",
+              "person": "Hong Kong",
               "winner": false
             },
             {
-              "title": "Romania",
-              "person": "Collective",
+              "title": "Collective",
+              "person": "Romania",
               "winner": false
             },
             {
-              "title": "Tunisia",
-              "person": "The Man Who Sold His Skin",
+              "title": "The Man Who Sold His Skin",
+              "person": "Tunisia",
               "winner": false
             },
             {
-              "title": "Bosnia and Herzegovina",
-              "person": "Quo Vadis, Aida?",
+              "title": "Quo Vadis, Aida?",
+              "person": "Bosnia and Herzegovina",
               "winner": false
             }
           ]
@@ -629,28 +629,28 @@
           "name": "International Feature Film",
           "entries": [
             {
-              "title": "Japan",
-              "person": "Drive My Car",
+              "title": "Drive My Car",
+              "person": "Japan",
               "winner": true
             },
             {
-              "title": "Denmark",
-              "person": "Flee",
+              "title": "Flee",
+              "person": "Denmark",
               "winner": false
             },
             {
-              "title": "Italy",
-              "person": "The Hand of God",
+              "title": "The Hand of God",
+              "person": "Italy",
               "winner": false
             },
             {
-              "title": "Bhutan",
-              "person": "Lunana: A Yak in the Classroom",
+              "title": "Lunana: A Yak in the Classroom",
+              "person": "Bhutan",
               "winner": false
             },
             {
-              "title": "Norway",
-              "person": "The Worst Person in the World",
+              "title": "The Worst Person in the World",
+              "person": "Norway",
               "winner": false
             }
           ]
@@ -992,28 +992,28 @@
           "name": "International Feature Film",
           "entries": [
             {
-              "title": "Germany",
-              "person": "All Quiet on the Western Front",
+              "title": "All Quiet on the Western Front",
+              "person": "Germany",
               "winner": true
             },
             {
-              "title": "Argentina",
-              "person": "Argentina, 1985",
+              "title": "Argentina, 1985",
+              "person": "Argentina",
               "winner": false
             },
             {
-              "title": "Belgium",
-              "person": "Close",
+              "title": "Close",
+              "person": "Belgium",
               "winner": false
             },
             {
-              "title": "Poland",
-              "person": "EO",
+              "title": "EO",
+              "person": "Poland",
               "winner": false
             },
             {
-              "title": "Ireland",
-              "person": "The Quiet Girl",
+              "title": "The Quiet Girl",
+              "person": "Ireland",
               "winner": false
             }
           ]
@@ -1355,28 +1355,28 @@
           "name": "International Feature Film",
           "entries": [
             {
-              "title": "United Kingdom",
-              "person": "The Zone of Interest",
+              "title": "The Zone of Interest",
+              "person": "United Kingdom",
               "winner": true
             },
             {
-              "title": "Italy",
-              "person": "Io Capitano",
+              "title": "Io Capitano",
+              "person": "Italy",
               "winner": false
             },
             {
-              "title": "Japan",
-              "person": "Perfect Days",
+              "title": "Perfect Days",
+              "person": "Japan",
               "winner": false
             },
             {
-              "title": "Spain",
-              "person": "Society of the Snow",
+              "title": "Society of the Snow",
+              "person": "Spain",
               "winner": false
             },
             {
-              "title": "Germany",
-              "person": "The Teachers' Lounge",
+              "title": "The Teachers' Lounge",
+              "person": "Germany",
               "winner": false
             }
           ]
@@ -1718,28 +1718,28 @@
           "name": "International Feature Film",
           "entries": [
             {
-              "title": "Brazil",
-              "person": "I'm Still Here",
+              "title": "I'm Still Here",
+              "person": "Brazil",
               "winner": true
             },
             {
-              "title": "Denmark",
-              "person": "The Girl with the Needle",
+              "title": "The Girl with the Needle",
+              "person": "Denmark",
               "winner": false
             },
             {
-              "title": "France",
-              "person": "Emilia P\u00e9rez",
+              "title": "Emilia P\u00e9rez",
+              "person": "France",
               "winner": false
             },
             {
-              "title": "Germany",
-              "person": "The Seed of the Sacred Fig",
+              "title": "The Seed of the Sacred Fig",
+              "person": "Germany",
               "winner": false
             },
             {
-              "title": "Latvia",
-              "person": "Flow",
+              "title": "Flow",
+              "person": "Latvia",
               "winner": false
             }
           ]
