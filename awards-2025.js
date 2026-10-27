@@ -1,114 +1,5 @@
 window.CULTURE_AWARDS = [
   {
-    "event": "Venice",
-    "year": 2025,
-    "section": "Venezia 82 Competition",
-    "source": "https://www.labiennale.org/en/cinema/2025/venezia-82-competition",
-    "awardsSource": "https://www.labiennale.org/en/news/official-awards-82nd-venice-international-film-festival",
-    "films": [
-      {
-        "id": 210,
-        "awards": []
-      },
-      {
-        "id": 211,
-        "awards": []
-      },
-      {
-        "id": 9,
-        "awards": [
-          "Silver Bear Grand Jury Prize"
-        ]
-      },
-      {
-        "id": 212,
-        "awards": []
-      },
-      {
-        "id": 213,
-        "awards": [
-          "Best Actress · Xin Zhilei"
-        ]
-      },
-      {
-        "id": 52,
-        "awards": []
-      },
-      {
-        "id": 214,
-        "awards": []
-      },
-      {
-        "id": 215,
-        "awards": [
-          "Best Screenplay"
-        ]
-      },
-      {
-        "id": 46,
-        "awards": [
-          "Best Young Actor · Luna Wedler"
-        ]
-      },
-      {
-        "id": 28,
-        "awards": []
-      },
-      {
-        "id": 15,
-        "awards": [
-          "Golden Lion"
-        ]
-      },
-      {
-        "id": 51,
-        "awards": []
-      },
-      {
-        "id": 216,
-        "awards": []
-      },
-      {
-        "id": 217,
-        "awards": []
-      },
-      {
-        "id": 218,
-        "awards": []
-      },
-      {
-        "id": 16,
-        "awards": []
-      },
-      {
-        "id": 10,
-        "awards": []
-      },
-      {
-        "id": 47,
-        "awards": [
-          "Special Jury Prize"
-        ]
-      },
-      {
-        "id": 49,
-        "awards": [
-          "Best Director · Benny Safdie"
-        ]
-      },
-      {
-        "id": 219,
-        "awards": []
-      },
-      {
-        "id": 45,
-        "awards": [
-          "Best Actor · Toni Servillo"
-        ]
-      }
-    ]
-  },
-  {
     "event": "Berlinale",
     "year": 2025,
     "dates": "13–23 February 2025",
@@ -13411,6 +13302,2755 @@ window.CULTURE_AWARDS = [
         "awards": [
           "Best Actor - Un Certain Regard · Frank DILLANE"
         ]
+      }
+    ]
+  },
+  {
+    "event": "Venice",
+    "year": 2021,
+    "section": "Official Selection",
+    "source": "https://www.labiennale.org/en/cinema/2021/venezia-78-competition",
+    "awardsSource": "https://www.labiennale.org/en/news/official-awards-78th-venice-film-festival",
+    "resultsUrl": "https://www.labiennale.org/en/news/official-awards-78th-venice-film-festival",
+    "categories": [
+      {
+        "id": "venezia-competition",
+        "name": "Venezia Competition",
+        "nomination_kind": "competition",
+        "source": "https://www.labiennale.org/en/cinema/2021/venezia-78-competition",
+        "awardsSource": "https://www.labiennale.org/en/news/official-awards-78th-venice-film-festival",
+        "entries": [
+          {
+            "film_id": 2409,
+            "winner": true,
+            "prizes": [
+              "Best Actress · Penélope Cruz"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 2673,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2674,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 1479,
+            "winner": true,
+            "prizes": [
+              "Best Director · Jane Campion"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 2675,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 1476,
+            "winner": true,
+            "prizes": [
+              "Golden Lion"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 2676,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2677,
+            "winner": true,
+            "prizes": [
+              "Special Jury Prize"
+            ],
+            "prize_rank": 6
+          },
+          {
+            "film_id": 2678,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2679,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2408,
+            "winner": true,
+            "prizes": [
+              "Best Screenplay · Maggie Gyllenhaal"
+            ],
+            "prize_rank": 5
+          },
+          {
+            "film_id": 2410,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2680,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2681,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2682,
+            "winner": true,
+            "prizes": [
+              "Best Actor · John Arcilla"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 2683,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2684,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2685,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2412,
+            "winner": true,
+            "prizes": [
+              "Grand Jury Prize",
+              "Marcello Mastroianni Award · Filippo Scotti"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 2686,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2687,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          }
+        ],
+        "nominees": [
+          2409,
+          2673,
+          2674,
+          1479,
+          2675,
+          1476,
+          2676,
+          2677,
+          2678,
+          2679,
+          2408,
+          2410,
+          2680,
+          2681,
+          2682,
+          2683,
+          2684,
+          2685,
+          2412,
+          2686,
+          2687
+        ],
+        "winners": [
+          1476,
+          2412,
+          1479,
+          2409,
+          2682,
+          2408,
+          2677
+        ],
+        "winner": 1476
+      },
+      {
+        "id": "orizzonti",
+        "name": "Orizzonti",
+        "nomination_kind": "competition",
+        "source": "https://www.labiennale.org/en/cinema/2021/orizzonti",
+        "awardsSource": "https://www.labiennale.org/en/news/official-awards-78th-venice-film-festival",
+        "entries": [
+          {
+            "film_id": 2688,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2689,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2690,
+            "winner": true,
+            "prizes": [
+              "Orizzonti Award for Best Film"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 2691,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2692,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2693,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2694,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2695,
+            "winner": true,
+            "prizes": [
+              "Best Director · Éric Gravel",
+              "Best Actress · Laure Calamy"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 2696,
+            "winner": true,
+            "prizes": [
+              "Best Screenplay · Peter Kerekes , Ivan Ostrochovský"
+            ],
+            "prize_rank": 5
+          },
+          {
+            "film_id": 2697,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2698,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2699,
+            "winner": true,
+            "prizes": [
+              "Best Actor · Piseth Chhun"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 2700,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2701,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2702,
+            "winner": true,
+            "prizes": [
+              "Special Orizzonti Jury Prize"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 2703,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2704,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2705,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2536,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          }
+        ],
+        "nominees": [
+          2688,
+          2689,
+          2690,
+          2691,
+          2692,
+          2693,
+          2694,
+          2695,
+          2696,
+          2697,
+          2698,
+          2699,
+          2700,
+          2701,
+          2702,
+          2703,
+          2704,
+          2705,
+          2536
+        ],
+        "winners": [
+          2690,
+          2695,
+          2702,
+          2699,
+          2696
+        ],
+        "winner": 2690
+      }
+    ],
+    "films": [
+      {
+        "id": 2409,
+        "awards": [
+          "Best Actress · Penélope Cruz"
+        ]
+      },
+      {
+        "id": 2673,
+        "awards": []
+      },
+      {
+        "id": 2674,
+        "awards": []
+      },
+      {
+        "id": 1479,
+        "awards": [
+          "Best Director · Jane Campion"
+        ]
+      },
+      {
+        "id": 2675,
+        "awards": []
+      },
+      {
+        "id": 1476,
+        "awards": [
+          "Golden Lion"
+        ]
+      },
+      {
+        "id": 2676,
+        "awards": []
+      },
+      {
+        "id": 2677,
+        "awards": [
+          "Special Jury Prize"
+        ]
+      },
+      {
+        "id": 2678,
+        "awards": []
+      },
+      {
+        "id": 2679,
+        "awards": []
+      },
+      {
+        "id": 2408,
+        "awards": [
+          "Best Screenplay · Maggie Gyllenhaal"
+        ]
+      },
+      {
+        "id": 2410,
+        "awards": []
+      },
+      {
+        "id": 2680,
+        "awards": []
+      },
+      {
+        "id": 2681,
+        "awards": []
+      },
+      {
+        "id": 2682,
+        "awards": [
+          "Best Actor · John Arcilla"
+        ]
+      },
+      {
+        "id": 2683,
+        "awards": []
+      },
+      {
+        "id": 2684,
+        "awards": []
+      },
+      {
+        "id": 2685,
+        "awards": []
+      },
+      {
+        "id": 2412,
+        "awards": [
+          "Grand Jury Prize",
+          "Marcello Mastroianni Award · Filippo Scotti"
+        ]
+      },
+      {
+        "id": 2686,
+        "awards": []
+      },
+      {
+        "id": 2687,
+        "awards": []
+      },
+      {
+        "id": 2688,
+        "awards": []
+      },
+      {
+        "id": 2689,
+        "awards": []
+      },
+      {
+        "id": 2690,
+        "awards": [
+          "Orizzonti Award for Best Film"
+        ]
+      },
+      {
+        "id": 2691,
+        "awards": []
+      },
+      {
+        "id": 2692,
+        "awards": []
+      },
+      {
+        "id": 2693,
+        "awards": []
+      },
+      {
+        "id": 2694,
+        "awards": []
+      },
+      {
+        "id": 2695,
+        "awards": [
+          "Best Director · Éric Gravel",
+          "Best Actress · Laure Calamy"
+        ]
+      },
+      {
+        "id": 2696,
+        "awards": [
+          "Best Screenplay · Peter Kerekes , Ivan Ostrochovský"
+        ]
+      },
+      {
+        "id": 2697,
+        "awards": []
+      },
+      {
+        "id": 2698,
+        "awards": []
+      },
+      {
+        "id": 2699,
+        "awards": [
+          "Best Actor · Piseth Chhun"
+        ]
+      },
+      {
+        "id": 2700,
+        "awards": []
+      },
+      {
+        "id": 2701,
+        "awards": []
+      },
+      {
+        "id": 2702,
+        "awards": [
+          "Special Orizzonti Jury Prize"
+        ]
+      },
+      {
+        "id": 2703,
+        "awards": []
+      },
+      {
+        "id": 2704,
+        "awards": []
+      },
+      {
+        "id": 2705,
+        "awards": []
+      },
+      {
+        "id": 2536,
+        "awards": []
+      }
+    ]
+  },
+  {
+    "event": "Venice",
+    "year": 2022,
+    "section": "Official Selection",
+    "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition",
+    "awardsSource": "https://www.labiennale.org/en/news/official-awards-79th-venice-film-festival",
+    "resultsUrl": "https://www.labiennale.org/en/news/official-awards-79th-venice-film-festival",
+    "categories": [
+      {
+        "id": "venezia-competition",
+        "name": "Venezia Competition",
+        "nomination_kind": "competition",
+        "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition",
+        "awardsSource": "https://www.labiennale.org/en/news/official-awards-79th-venice-film-festival",
+        "entries": [
+          {
+            "film_id": 2706,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 306,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 307,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2707,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2708,
+            "winner": true,
+            "prizes": [
+              "Grand Jury Prize",
+              "Lion of the Future – Luigi De Laurentiis Award"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 2428,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2424,
+            "winner": true,
+            "prizes": [
+              "Best Actress · Cate Blanchett"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 2709,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 316,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2710,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 1468,
+            "winner": true,
+            "prizes": [
+              "Best Director · Luca Guadagnino",
+              "Marcello Mastroianni Award · Taylor Russell"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 2711,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2712,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 313,
+            "winner": true,
+            "prizes": [
+              "Best Actor · Colin Farrell",
+              "Best Screenplay · Martin McDonagh"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 2432,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2713,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2714,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2715,
+            "winner": true,
+            "prizes": [
+              "Special Jury Prize"
+            ],
+            "prize_rank": 6
+          },
+          {
+            "film_id": 2438,
+            "winner": true,
+            "prizes": [
+              "Golden Lion"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 2716,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 311,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2717,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2718,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          }
+        ],
+        "nominees": [
+          2706,
+          306,
+          307,
+          2707,
+          2708,
+          2428,
+          2424,
+          2709,
+          316,
+          2710,
+          1468,
+          2711,
+          2712,
+          313,
+          2432,
+          2713,
+          2714,
+          2715,
+          2438,
+          2716,
+          311,
+          2717,
+          2718
+        ],
+        "winners": [
+          2438,
+          2708,
+          1468,
+          2424,
+          313,
+          2715
+        ],
+        "winner": 2438
+      },
+      {
+        "id": "orizzonti",
+        "name": "Orizzonti",
+        "nomination_kind": "competition",
+        "source": "https://www.labiennale.org/en/cinema/2022/orizzonti",
+        "awardsSource": "https://www.labiennale.org/en/news/official-awards-79th-venice-film-festival",
+        "entries": [
+          {
+            "film_id": 2719,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2720,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2721,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2722,
+            "winner": true,
+            "prizes": [
+              "Best Director · Tizza Covi, Rainer Frimmel",
+              "Best Actress · Vera Gemma"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 2723,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2724,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2725,
+            "winner": true,
+            "prizes": [
+              "Best Screenplay · Fernando Guzzoni"
+            ],
+            "prize_rank": 5
+          },
+          {
+            "film_id": 2726,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2727,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2728,
+            "winner": true,
+            "prizes": [
+              "Special Orizzonti Jury Prize"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 2729,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2730,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2731,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2732,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2733,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2734,
+            "winner": true,
+            "prizes": [
+              "Orizzonti Award for Best Film",
+              "Best Actor · Mohsen Tanabandeh"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 2735,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2736,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          }
+        ],
+        "nominees": [
+          2719,
+          2720,
+          2721,
+          2722,
+          2723,
+          2724,
+          2725,
+          2726,
+          2727,
+          2728,
+          2729,
+          2730,
+          2731,
+          2732,
+          2733,
+          2734,
+          2735,
+          2736
+        ],
+        "winners": [
+          2734,
+          2722,
+          2728,
+          2725
+        ],
+        "winner": 2734
+      }
+    ],
+    "films": [
+      {
+        "id": 2706,
+        "awards": []
+      },
+      {
+        "id": 306,
+        "awards": []
+      },
+      {
+        "id": 307,
+        "awards": []
+      },
+      {
+        "id": 2707,
+        "awards": []
+      },
+      {
+        "id": 2708,
+        "awards": [
+          "Grand Jury Prize",
+          "Lion of the Future – Luigi De Laurentiis Award"
+        ]
+      },
+      {
+        "id": 2428,
+        "awards": []
+      },
+      {
+        "id": 2424,
+        "awards": [
+          "Best Actress · Cate Blanchett"
+        ]
+      },
+      {
+        "id": 2709,
+        "awards": []
+      },
+      {
+        "id": 316,
+        "awards": []
+      },
+      {
+        "id": 2710,
+        "awards": []
+      },
+      {
+        "id": 1468,
+        "awards": [
+          "Best Director · Luca Guadagnino",
+          "Marcello Mastroianni Award · Taylor Russell"
+        ]
+      },
+      {
+        "id": 2711,
+        "awards": []
+      },
+      {
+        "id": 2712,
+        "awards": []
+      },
+      {
+        "id": 313,
+        "awards": [
+          "Best Actor · Colin Farrell",
+          "Best Screenplay · Martin McDonagh"
+        ]
+      },
+      {
+        "id": 2432,
+        "awards": []
+      },
+      {
+        "id": 2713,
+        "awards": []
+      },
+      {
+        "id": 2714,
+        "awards": []
+      },
+      {
+        "id": 2715,
+        "awards": [
+          "Special Jury Prize"
+        ]
+      },
+      {
+        "id": 2438,
+        "awards": [
+          "Golden Lion"
+        ]
+      },
+      {
+        "id": 2716,
+        "awards": []
+      },
+      {
+        "id": 311,
+        "awards": []
+      },
+      {
+        "id": 2717,
+        "awards": []
+      },
+      {
+        "id": 2718,
+        "awards": []
+      },
+      {
+        "id": 2719,
+        "awards": []
+      },
+      {
+        "id": 2720,
+        "awards": []
+      },
+      {
+        "id": 2721,
+        "awards": []
+      },
+      {
+        "id": 2722,
+        "awards": [
+          "Best Director · Tizza Covi, Rainer Frimmel",
+          "Best Actress · Vera Gemma"
+        ]
+      },
+      {
+        "id": 2723,
+        "awards": []
+      },
+      {
+        "id": 2724,
+        "awards": []
+      },
+      {
+        "id": 2725,
+        "awards": [
+          "Best Screenplay · Fernando Guzzoni"
+        ]
+      },
+      {
+        "id": 2726,
+        "awards": []
+      },
+      {
+        "id": 2727,
+        "awards": []
+      },
+      {
+        "id": 2728,
+        "awards": [
+          "Special Orizzonti Jury Prize"
+        ]
+      },
+      {
+        "id": 2729,
+        "awards": []
+      },
+      {
+        "id": 2730,
+        "awards": []
+      },
+      {
+        "id": 2731,
+        "awards": []
+      },
+      {
+        "id": 2732,
+        "awards": []
+      },
+      {
+        "id": 2733,
+        "awards": []
+      },
+      {
+        "id": 2734,
+        "awards": [
+          "Orizzonti Award for Best Film",
+          "Best Actor · Mohsen Tanabandeh"
+        ]
+      },
+      {
+        "id": 2735,
+        "awards": []
+      },
+      {
+        "id": 2736,
+        "awards": []
+      }
+    ]
+  },
+  {
+    "event": "Venice",
+    "year": 2023,
+    "section": "Official Selection",
+    "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition",
+    "awardsSource": "https://www.labiennale.org/en/news/official-awards-80th-venice-film-festival",
+    "resultsUrl": "https://www.labiennale.org/en/news/official-awards-80th-venice-film-festival",
+    "categories": [
+      {
+        "id": "venezia-competition",
+        "name": "Venezia Competition",
+        "nomination_kind": "competition",
+        "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition",
+        "awardsSource": "https://www.labiennale.org/en/news/official-awards-80th-venice-film-festival",
+        "entries": [
+          {
+            "film_id": 119,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2737,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 124,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2738,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2739,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2445,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2542,
+            "winner": true,
+            "prizes": [
+              "Best Actress · Cailee Spaeny"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 2740,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2741,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2742,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2743,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2744,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 290,
+            "winner": true,
+            "prizes": [
+              "Best Actor · Peter Sarsgaard"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 291,
+            "winner": true,
+            "prizes": [
+              "Best Director · MATTEO GARRONE",
+              "Marcello Mastroianni Award · SEYDOU SARR"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 120,
+            "winner": true,
+            "prizes": [
+              "Grand Jury Prize"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 129,
+            "winner": true,
+            "prizes": [
+              "Special Jury Prize"
+            ],
+            "prize_rank": 6
+          },
+          {
+            "film_id": 2745,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 296,
+            "winner": true,
+            "prizes": [
+              "Golden Lion"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 2746,
+            "winner": true,
+            "prizes": [
+              "Best Screenplay · Guillermo Calderón and PABLO LARRAÍN"
+            ],
+            "prize_rank": 5
+          },
+          {
+            "film_id": 2747,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2748,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2749,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2750,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          }
+        ],
+        "nominees": [
+          119,
+          2737,
+          124,
+          2738,
+          2739,
+          2445,
+          2542,
+          2740,
+          2741,
+          2742,
+          2743,
+          2744,
+          290,
+          291,
+          120,
+          129,
+          2745,
+          296,
+          2746,
+          2747,
+          2748,
+          2749,
+          2750
+        ],
+        "winners": [
+          296,
+          120,
+          291,
+          2542,
+          290,
+          2746,
+          129
+        ],
+        "winner": 296
+      },
+      {
+        "id": "orizzonti",
+        "name": "Orizzonti",
+        "nomination_kind": "competition",
+        "source": "https://www.labiennale.org/en/cinema/2023/orizzonti",
+        "awardsSource": "https://www.labiennale.org/en/news/official-awards-80th-venice-film-festival",
+        "entries": [
+          {
+            "film_id": 2751,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2752,
+            "winner": true,
+            "prizes": [
+              "Best Actress · Margarita Rosa De Francisco",
+              "Best Screenplay · ENRICO MARIA ARTALE"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 2753,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2754,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2755,
+            "winner": true,
+            "prizes": [
+              "Best Director · MIKA GUSTAFSON"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 2756,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2757,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2758,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2759,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2760,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2761,
+            "winner": true,
+            "prizes": [
+              "Special Orizzonti Jury Prize"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 2762,
+            "winner": true,
+            "prizes": [
+              "Best Actor · Tergel Bold-Erdene"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 2763,
+            "winner": true,
+            "prizes": [
+              "Orizzonti Award for Best Film"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 2764,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2765,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 303,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2766,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2767,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          }
+        ],
+        "nominees": [
+          2751,
+          2752,
+          2753,
+          2754,
+          2755,
+          2756,
+          2757,
+          2758,
+          2759,
+          2760,
+          2761,
+          2762,
+          2763,
+          2764,
+          2765,
+          303,
+          2766,
+          2767
+        ],
+        "winners": [
+          2763,
+          2755,
+          2761,
+          2752,
+          2762
+        ],
+        "winner": 2763
+      }
+    ],
+    "films": [
+      {
+        "id": 119,
+        "awards": []
+      },
+      {
+        "id": 2737,
+        "awards": []
+      },
+      {
+        "id": 124,
+        "awards": []
+      },
+      {
+        "id": 2738,
+        "awards": []
+      },
+      {
+        "id": 2739,
+        "awards": []
+      },
+      {
+        "id": 2445,
+        "awards": []
+      },
+      {
+        "id": 2542,
+        "awards": [
+          "Best Actress · Cailee Spaeny"
+        ]
+      },
+      {
+        "id": 2740,
+        "awards": []
+      },
+      {
+        "id": 2741,
+        "awards": []
+      },
+      {
+        "id": 2742,
+        "awards": []
+      },
+      {
+        "id": 2743,
+        "awards": []
+      },
+      {
+        "id": 2744,
+        "awards": []
+      },
+      {
+        "id": 290,
+        "awards": [
+          "Best Actor · Peter Sarsgaard"
+        ]
+      },
+      {
+        "id": 291,
+        "awards": [
+          "Best Director · MATTEO GARRONE",
+          "Marcello Mastroianni Award · SEYDOU SARR"
+        ]
+      },
+      {
+        "id": 120,
+        "awards": [
+          "Grand Jury Prize"
+        ]
+      },
+      {
+        "id": 129,
+        "awards": [
+          "Special Jury Prize"
+        ]
+      },
+      {
+        "id": 2745,
+        "awards": []
+      },
+      {
+        "id": 296,
+        "awards": [
+          "Golden Lion"
+        ]
+      },
+      {
+        "id": 2746,
+        "awards": [
+          "Best Screenplay · Guillermo Calderón and PABLO LARRAÍN"
+        ]
+      },
+      {
+        "id": 2747,
+        "awards": []
+      },
+      {
+        "id": 2748,
+        "awards": []
+      },
+      {
+        "id": 2749,
+        "awards": []
+      },
+      {
+        "id": 2750,
+        "awards": []
+      },
+      {
+        "id": 2751,
+        "awards": []
+      },
+      {
+        "id": 2752,
+        "awards": [
+          "Best Actress · Margarita Rosa De Francisco",
+          "Best Screenplay · ENRICO MARIA ARTALE"
+        ]
+      },
+      {
+        "id": 2753,
+        "awards": []
+      },
+      {
+        "id": 2754,
+        "awards": []
+      },
+      {
+        "id": 2755,
+        "awards": [
+          "Best Director · MIKA GUSTAFSON"
+        ]
+      },
+      {
+        "id": 2756,
+        "awards": []
+      },
+      {
+        "id": 2757,
+        "awards": []
+      },
+      {
+        "id": 2758,
+        "awards": []
+      },
+      {
+        "id": 2759,
+        "awards": []
+      },
+      {
+        "id": 2760,
+        "awards": []
+      },
+      {
+        "id": 2761,
+        "awards": [
+          "Special Orizzonti Jury Prize"
+        ]
+      },
+      {
+        "id": 2762,
+        "awards": [
+          "Best Actor · Tergel Bold-Erdene"
+        ]
+      },
+      {
+        "id": 2763,
+        "awards": [
+          "Orizzonti Award for Best Film"
+        ]
+      },
+      {
+        "id": 2764,
+        "awards": []
+      },
+      {
+        "id": 2765,
+        "awards": []
+      },
+      {
+        "id": 303,
+        "awards": []
+      },
+      {
+        "id": 2766,
+        "awards": []
+      },
+      {
+        "id": 2767,
+        "awards": []
+      }
+    ]
+  },
+  {
+    "event": "Venice",
+    "year": 2024,
+    "section": "Official Selection",
+    "source": "https://www.labiennale.org/en/cinema/2024/venezia-81-competition",
+    "awardsSource": "https://www.labiennale.org/en/news/official-awards-81st-venice-international-film-festival",
+    "resultsUrl": "https://www.labiennale.org/en/news/official-awards-81st-venice-international-film-festival",
+    "categories": [
+      {
+        "id": "venezia-competition",
+        "name": "Venezia Competition",
+        "nomination_kind": "competition",
+        "source": "https://www.labiennale.org/en/cinema/2024/venezia-81-competition",
+        "awardsSource": "https://www.labiennale.org/en/news/official-awards-81st-venice-international-film-festival",
+        "entries": [
+          {
+            "film_id": 108,
+            "winner": true,
+            "prizes": [
+              "Golden Lion"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 2768,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 267,
+            "winner": true,
+            "prizes": [
+              "Marcello Mastroianni Award · Paul Kircher"
+            ],
+            "prize_rank": 7
+          },
+          {
+            "film_id": 102,
+            "winner": true,
+            "prizes": [
+              "Best Director · Brady Corbet"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 175,
+            "winner": true,
+            "prizes": [
+              "Best Actor · Vincent Lindon"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 157,
+            "winner": true,
+            "prizes": [
+              "Grand Jury Prize"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 2769,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 133,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2770,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 158,
+            "winner": true,
+            "prizes": [
+              "Special Jury Prize"
+            ],
+            "prize_rank": 6
+          },
+          {
+            "film_id": 273,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 238,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 275,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2771,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 277,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 239,
+            "winner": true,
+            "prizes": [
+              "Best Actress · Nicole Kidman"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 109,
+            "winner": true,
+            "prizes": [
+              "Best Screenplay · Murilo Hauser and Heitor Lorega"
+            ],
+            "prize_rank": 5
+          },
+          {
+            "film_id": 2772,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2773,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2774,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2775,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          }
+        ],
+        "nominees": [
+          108,
+          2768,
+          267,
+          102,
+          175,
+          157,
+          2769,
+          133,
+          2770,
+          158,
+          273,
+          238,
+          275,
+          2771,
+          277,
+          239,
+          109,
+          2772,
+          2773,
+          2774,
+          2775
+        ],
+        "winners": [
+          108,
+          157,
+          102,
+          239,
+          175,
+          109,
+          158,
+          267
+        ],
+        "winner": 108
+      },
+      {
+        "id": "orizzonti",
+        "name": "Orizzonti",
+        "nomination_kind": "competition",
+        "source": "https://www.labiennale.org/en/cinema/2024/orizzonti",
+        "awardsSource": "https://www.labiennale.org/en/news/official-awards-81st-venice-international-film-festival",
+        "entries": [
+          {
+            "film_id": 265,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 266,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2776,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2777,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2778,
+            "winner": true,
+            "prizes": [
+              "Best Screenplay · Scandar Copti"
+            ],
+            "prize_rank": 5
+          },
+          {
+            "film_id": 2779,
+            "winner": true,
+            "prizes": [
+              "Best Actor · Francesco Gheghi"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 2780,
+            "winner": true,
+            "prizes": [
+              "Special Orizzonti Jury Prize"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 2781,
+            "winner": true,
+            "prizes": [
+              "Best Director · Sarah Friedland",
+              "Best Actress · Kathleen Chalfant",
+              "Lion of the Future – Luigi De Laurentiis Award"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 2782,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2783,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2784,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2785,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 276,
+            "winner": true,
+            "prizes": [
+              "Orizzonti Award for Best Film"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 279,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2786,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2787,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 281,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2788,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2789,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          }
+        ],
+        "nominees": [
+          265,
+          266,
+          2776,
+          2777,
+          2778,
+          2779,
+          2780,
+          2781,
+          2782,
+          2783,
+          2784,
+          2785,
+          276,
+          279,
+          2786,
+          2787,
+          281,
+          2788,
+          2789
+        ],
+        "winners": [
+          276,
+          2781,
+          2780,
+          2779,
+          2778
+        ],
+        "winner": 276
+      }
+    ],
+    "films": [
+      {
+        "id": 108,
+        "awards": [
+          "Golden Lion"
+        ]
+      },
+      {
+        "id": 2768,
+        "awards": []
+      },
+      {
+        "id": 267,
+        "awards": [
+          "Marcello Mastroianni Award · Paul Kircher"
+        ]
+      },
+      {
+        "id": 102,
+        "awards": [
+          "Best Director · Brady Corbet"
+        ]
+      },
+      {
+        "id": 175,
+        "awards": [
+          "Best Actor · Vincent Lindon"
+        ]
+      },
+      {
+        "id": 157,
+        "awards": [
+          "Grand Jury Prize"
+        ]
+      },
+      {
+        "id": 2769,
+        "awards": []
+      },
+      {
+        "id": 133,
+        "awards": []
+      },
+      {
+        "id": 2770,
+        "awards": []
+      },
+      {
+        "id": 158,
+        "awards": [
+          "Special Jury Prize"
+        ]
+      },
+      {
+        "id": 273,
+        "awards": []
+      },
+      {
+        "id": 238,
+        "awards": []
+      },
+      {
+        "id": 275,
+        "awards": []
+      },
+      {
+        "id": 2771,
+        "awards": []
+      },
+      {
+        "id": 277,
+        "awards": []
+      },
+      {
+        "id": 239,
+        "awards": [
+          "Best Actress · Nicole Kidman"
+        ]
+      },
+      {
+        "id": 109,
+        "awards": [
+          "Best Screenplay · Murilo Hauser and Heitor Lorega"
+        ]
+      },
+      {
+        "id": 2772,
+        "awards": []
+      },
+      {
+        "id": 2773,
+        "awards": []
+      },
+      {
+        "id": 2774,
+        "awards": []
+      },
+      {
+        "id": 2775,
+        "awards": []
+      },
+      {
+        "id": 265,
+        "awards": []
+      },
+      {
+        "id": 266,
+        "awards": []
+      },
+      {
+        "id": 2776,
+        "awards": []
+      },
+      {
+        "id": 2777,
+        "awards": []
+      },
+      {
+        "id": 2778,
+        "awards": [
+          "Best Screenplay · Scandar Copti"
+        ]
+      },
+      {
+        "id": 2779,
+        "awards": [
+          "Best Actor · Francesco Gheghi"
+        ]
+      },
+      {
+        "id": 2780,
+        "awards": [
+          "Special Orizzonti Jury Prize"
+        ]
+      },
+      {
+        "id": 2781,
+        "awards": [
+          "Best Director · Sarah Friedland",
+          "Best Actress · Kathleen Chalfant",
+          "Lion of the Future – Luigi De Laurentiis Award"
+        ]
+      },
+      {
+        "id": 2782,
+        "awards": []
+      },
+      {
+        "id": 2783,
+        "awards": []
+      },
+      {
+        "id": 2784,
+        "awards": []
+      },
+      {
+        "id": 2785,
+        "awards": []
+      },
+      {
+        "id": 276,
+        "awards": [
+          "Orizzonti Award for Best Film"
+        ]
+      },
+      {
+        "id": 279,
+        "awards": []
+      },
+      {
+        "id": 2786,
+        "awards": []
+      },
+      {
+        "id": 2787,
+        "awards": []
+      },
+      {
+        "id": 281,
+        "awards": []
+      },
+      {
+        "id": 2788,
+        "awards": []
+      },
+      {
+        "id": 2789,
+        "awards": []
+      }
+    ]
+  },
+  {
+    "event": "Venice",
+    "year": 2025,
+    "section": "Official Selection",
+    "source": "https://www.labiennale.org/en/cinema/2025/venezia-82-competition",
+    "awardsSource": "https://www.labiennale.org/en/news/official-awards-82nd-venice-international-film-festival",
+    "resultsUrl": "https://www.labiennale.org/en/news/official-awards-82nd-venice-international-film-festival",
+    "categories": [
+      {
+        "id": "venezia-competition",
+        "name": "Venezia Competition",
+        "nomination_kind": "competition",
+        "source": "https://www.labiennale.org/en/cinema/2025/venezia-82-competition",
+        "awardsSource": "https://www.labiennale.org/en/news/official-awards-82nd-venice-international-film-festival",
+        "entries": [
+          {
+            "film_id": 210,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 211,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 9,
+            "winner": true,
+            "prizes": [
+              "Grand Jury Prize"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 212,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 213,
+            "winner": true,
+            "prizes": [
+              "Best Actress · Xin Zhilei"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 52,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 214,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 215,
+            "winner": true,
+            "prizes": [
+              "Best Screenplay · Valérie Donzelli and Gilles Marchand"
+            ],
+            "prize_rank": 5
+          },
+          {
+            "film_id": 46,
+            "winner": true,
+            "prizes": [
+              "Marcello Mastroianni Award · Luna Wedler"
+            ],
+            "prize_rank": 7
+          },
+          {
+            "film_id": 28,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 15,
+            "winner": true,
+            "prizes": [
+              "Golden Lion"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 51,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 216,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 217,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 218,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 16,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 10,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 47,
+            "winner": true,
+            "prizes": [
+              "Special Jury Prize"
+            ],
+            "prize_rank": 6
+          },
+          {
+            "film_id": 49,
+            "winner": true,
+            "prizes": [
+              "Best Director · Benny Safdie"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 219,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 45,
+            "winner": true,
+            "prizes": [
+              "Best Actor · Toni Servillo"
+            ],
+            "prize_rank": 4
+          }
+        ],
+        "nominees": [
+          210,
+          211,
+          9,
+          212,
+          213,
+          52,
+          214,
+          215,
+          46,
+          28,
+          15,
+          51,
+          216,
+          217,
+          218,
+          16,
+          10,
+          47,
+          49,
+          219,
+          45
+        ],
+        "winners": [
+          15,
+          9,
+          49,
+          213,
+          45,
+          215,
+          47,
+          46
+        ],
+        "winner": 15
+      },
+      {
+        "id": "orizzonti",
+        "name": "Orizzonti",
+        "nomination_kind": "competition",
+        "source": "https://www.labiennale.org/en/cinema/2025/orizzonti",
+        "awardsSource": "https://www.labiennale.org/en/news/official-awards-82nd-venice-international-film-festival",
+        "entries": [
+          {
+            "film_id": 2790,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2791,
+            "winner": true,
+            "prizes": [
+              "Best Screenplay · Ana Cristina Barragán"
+            ],
+            "prize_rank": 5
+          },
+          {
+            "film_id": 2792,
+            "winner": true,
+            "prizes": [
+              "Best Actress · Benedetta Porcaroli"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 2793,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2794,
+            "winner": true,
+            "prizes": [
+              "Special Orizzonti Jury Prize"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 2795,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 1459,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2796,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2797,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2798,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2799,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 48,
+            "winner": true,
+            "prizes": [
+              "Orizzonti Award for Best Film"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 2800,
+            "winner": true,
+            "prizes": [
+              "Best Director · Anuparna Roy"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 2801,
+            "winner": true,
+            "prizes": [
+              "Best Actor · Giacomo Covi"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 2802,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2803,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 262,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2804,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2805,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          }
+        ],
+        "nominees": [
+          2790,
+          2791,
+          2792,
+          2793,
+          2794,
+          2795,
+          1459,
+          2796,
+          2797,
+          2798,
+          2799,
+          48,
+          2800,
+          2801,
+          2802,
+          2803,
+          262,
+          2804,
+          2805
+        ],
+        "winners": [
+          48,
+          2800,
+          2794,
+          2792,
+          2801,
+          2791
+        ],
+        "winner": 48
+      }
+    ],
+    "films": [
+      {
+        "id": 210,
+        "awards": []
+      },
+      {
+        "id": 211,
+        "awards": []
+      },
+      {
+        "id": 9,
+        "awards": [
+          "Grand Jury Prize"
+        ]
+      },
+      {
+        "id": 212,
+        "awards": []
+      },
+      {
+        "id": 213,
+        "awards": [
+          "Best Actress · Xin Zhilei"
+        ]
+      },
+      {
+        "id": 52,
+        "awards": []
+      },
+      {
+        "id": 214,
+        "awards": []
+      },
+      {
+        "id": 215,
+        "awards": [
+          "Best Screenplay · Valérie Donzelli and Gilles Marchand"
+        ]
+      },
+      {
+        "id": 46,
+        "awards": [
+          "Marcello Mastroianni Award · Luna Wedler"
+        ]
+      },
+      {
+        "id": 28,
+        "awards": []
+      },
+      {
+        "id": 15,
+        "awards": [
+          "Golden Lion"
+        ]
+      },
+      {
+        "id": 51,
+        "awards": []
+      },
+      {
+        "id": 216,
+        "awards": []
+      },
+      {
+        "id": 217,
+        "awards": []
+      },
+      {
+        "id": 218,
+        "awards": []
+      },
+      {
+        "id": 16,
+        "awards": []
+      },
+      {
+        "id": 10,
+        "awards": []
+      },
+      {
+        "id": 47,
+        "awards": [
+          "Special Jury Prize"
+        ]
+      },
+      {
+        "id": 49,
+        "awards": [
+          "Best Director · Benny Safdie"
+        ]
+      },
+      {
+        "id": 219,
+        "awards": []
+      },
+      {
+        "id": 45,
+        "awards": [
+          "Best Actor · Toni Servillo"
+        ]
+      },
+      {
+        "id": 2790,
+        "awards": []
+      },
+      {
+        "id": 2791,
+        "awards": [
+          "Best Screenplay · Ana Cristina Barragán"
+        ]
+      },
+      {
+        "id": 2792,
+        "awards": [
+          "Best Actress · Benedetta Porcaroli"
+        ]
+      },
+      {
+        "id": 2793,
+        "awards": []
+      },
+      {
+        "id": 2794,
+        "awards": [
+          "Special Orizzonti Jury Prize"
+        ]
+      },
+      {
+        "id": 2795,
+        "awards": []
+      },
+      {
+        "id": 1459,
+        "awards": []
+      },
+      {
+        "id": 2796,
+        "awards": []
+      },
+      {
+        "id": 2797,
+        "awards": []
+      },
+      {
+        "id": 2798,
+        "awards": []
+      },
+      {
+        "id": 2799,
+        "awards": []
+      },
+      {
+        "id": 48,
+        "awards": [
+          "Orizzonti Award for Best Film"
+        ]
+      },
+      {
+        "id": 2800,
+        "awards": [
+          "Best Director · Anuparna Roy"
+        ]
+      },
+      {
+        "id": 2801,
+        "awards": [
+          "Best Actor · Giacomo Covi"
+        ]
+      },
+      {
+        "id": 2802,
+        "awards": []
+      },
+      {
+        "id": 2803,
+        "awards": []
+      },
+      {
+        "id": 262,
+        "awards": []
+      },
+      {
+        "id": 2804,
+        "awards": []
+      },
+      {
+        "id": 2805,
+        "awards": []
       }
     ]
   }

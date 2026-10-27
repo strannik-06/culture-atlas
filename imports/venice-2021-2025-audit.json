@@ -7,6 +7,8 @@
       "tmdb_id": 766798,
       "imdb_id": "tt12618926",
       "director": "Pedro Almodóvar",
+      "festival_year": 2021,
+      "provider_release_date": "2021-10-08",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -16,6 +18,8 @@
       "tmdb_id": 522526,
       "imdb_id": "tt8760670",
       "director": "Ana Lily Amirpour",
+      "festival_year": 2021,
+      "provider_release_date": "2022-09-30",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -25,6 +29,8 @@
       "tmdb_id": 664506,
       "imdb_id": "tt15115102",
       "director": "Stéphane Brizé",
+      "festival_year": 2021,
+      "provider_release_date": "2022-02-16",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -34,6 +40,8 @@
       "tmdb_id": 600583,
       "imdb_id": "tt10293406",
       "director": "Jane Campion",
+      "festival_year": 2021,
+      "provider_release_date": "2021-10-25",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -43,6 +51,8 @@
       "tmdb_id": 807185,
       "imdb_id": "tt13932304",
       "director": "Fabio D'Innocenzo, Damiano D'Innocenzo",
+      "festival_year": 2021,
+      "provider_release_date": "2022-01-13",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -52,6 +62,8 @@
       "tmdb_id": 793998,
       "imdb_id": "tt13880104",
       "director": "Audrey Diwan",
+      "festival_year": 2021,
+      "provider_release_date": "2021-11-04",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -61,6 +73,8 @@
       "tmdb_id": 668640,
       "imdb_id": "tt11700260",
       "director": "Gastón Duprat, Mariano Cohn",
+      "festival_year": 2021,
+      "provider_release_date": "2021-09-04",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -70,6 +84,8 @@
       "tmdb_id": 660708,
       "imdb_id": "tt11012320",
       "director": "Michelangelo Frammartino",
+      "festival_year": 2021,
+      "provider_release_date": "2021-09-22",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -79,6 +95,8 @@
       "tmdb_id": 854359,
       "imdb_id": "tt15115280",
       "director": "Michel Franco",
+      "festival_year": 2021,
+      "provider_release_date": "2022-01-28",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -88,6 +106,8 @@
       "tmdb_id": 660000,
       "imdb_id": "tt10505316",
       "director": "Xavier Giannoli",
+      "festival_year": 2021,
+      "provider_release_date": "2021-10-20",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -97,6 +117,8 @@
       "tmdb_id": 554230,
       "imdb_id": "tt9100054",
       "director": "Maggie Gyllenhaal",
+      "festival_year": 2021,
+      "provider_release_date": "2021-12-15",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -106,6 +128,8 @@
       "tmdb_id": 716612,
       "imdb_id": "tt12536294",
       "director": "Pablo Larraín",
+      "festival_year": 2021,
+      "provider_release_date": "2021-11-04",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -115,6 +139,8 @@
       "tmdb_id": 571468,
       "imdb_id": "tt7270808",
       "director": "Gabriele Mainetti",
+      "festival_year": 2021,
+      "provider_release_date": "2021-10-28",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -124,6 +150,8 @@
       "tmdb_id": 668408,
       "imdb_id": "tt9526392",
       "director": "Mario Martone",
+      "festival_year": 2021,
+      "provider_release_date": "2021-09-09",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -133,6 +161,8 @@
       "tmdb_id": 800368,
       "imdb_id": "tt3785036",
       "director": "Erik Matti",
+      "festival_year": 2021,
+      "provider_release_date": "2022-11-02",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -142,15 +172,30 @@
       "tmdb_id": 788931,
       "imdb_id": "tt13473548",
       "director": "Jan P. Matuszyński",
+      "festival_year": 2021,
+      "provider_release_date": "2021-09-24",
+      "method": "Official selection title/aliases and director; unique feature-film provider identity"
+    },
+    {
+      "title": "Kapitan Volkonogov bezhal",
+      "source": "https://www.labiennale.org/en/cinema/2021/lineup/venezia-78-competition/kapitan-volkonogov-bezhal-captain-volkonogov-escaped",
+      "id": 2684,
+      "tmdb_id": 818621,
+      "imdb_id": "tt13322726",
+      "director": "Natalya Merkulova, Alexey Chupov",
+      "festival_year": 2021,
+      "provider_release_date": "2023-01-05",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "The Card Counter",
       "source": "https://www.labiennale.org/en/cinema/2021/lineup/venezia-78-competition/card-counter",
-      "id": 2684,
+      "id": 2685,
       "tmdb_id": 643532,
       "imdb_id": "tt11196036",
       "director": "Paul Schrader",
+      "festival_year": 2021,
+      "provider_release_date": "2021-09-03",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -160,186 +205,228 @@
       "tmdb_id": 722778,
       "imdb_id": "tt12680684",
       "director": "Paolo Sorrentino",
+      "festival_year": 2021,
+      "provider_release_date": "2021-11-24",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Vidblysk",
       "source": "https://www.labiennale.org/en/cinema/2021/lineup/venezia-78-competition/vidblysk-reflection",
-      "id": 2685,
+      "id": 2686,
       "tmdb_id": 828920,
       "imdb_id": "tt14225832",
       "director": "Valentyn Vasyanovych",
+      "festival_year": 2021,
+      "provider_release_date": "2022-01-25",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "La caja",
       "source": "https://www.labiennale.org/en/cinema/2021/lineup/venezia-78-competition/la-caja",
-      "id": 2686,
+      "id": 2687,
       "tmdb_id": 617246,
       "imdb_id": "tt13846544",
       "director": "Lorenzo Vigas",
+      "festival_year": 2021,
+      "provider_release_date": "2021-09-06",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Atlantide",
       "source": "https://www.labiennale.org/en/cinema/2021/lineup/orizzonti/atlantide",
-      "id": 2687,
+      "id": 2688,
       "tmdb_id": 854317,
       "imdb_id": "tt15119666",
       "director": "Yuri Ancarani",
+      "festival_year": 2021,
+      "provider_release_date": "2022-09-08",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Miracol",
       "source": "https://www.labiennale.org/en/cinema/2021/lineup/orizzonti/miracol",
-      "id": 2688,
+      "id": 2689,
       "tmdb_id": 854323,
       "imdb_id": "tt14355860",
       "director": "Bogdan George Apetri",
+      "festival_year": 2021,
+      "provider_release_date": "2022-02-04",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Piligrimai",
       "source": "https://www.labiennale.org/en/cinema/2021/lineup/orizzonti/piligrimai-pilgrims",
-      "id": 2689,
+      "id": 2690,
       "tmdb_id": 854550,
       "imdb_id": "tt15118036",
       "director": "Laurynas Bareiša",
+      "festival_year": 2021,
+      "provider_release_date": "2022-04-08",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Il paradiso del pavone",
       "source": "https://www.labiennale.org/en/cinema/2021/lineup/orizzonti/il-paradiso-del-pavone",
-      "id": 2690,
+      "id": 2691,
       "tmdb_id": 832284,
       "imdb_id": "tt13757758",
       "director": "Laura Bispuri",
+      "festival_year": 2021,
+      "provider_release_date": "2022-07-07",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Pubu",
       "source": "https://www.labiennale.org/en/cinema/2021/lineup/orizzonti/pubu-falls",
-      "id": 2691,
+      "id": 2692,
       "tmdb_id": 852355,
       "imdb_id": "tt15119668",
       "director": "Chung Mong-hong",
+      "festival_year": 2021,
+      "provider_release_date": "2021-10-29",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "El hoyo en la cerca",
       "source": "https://www.labiennale.org/en/cinema/2021/lineup/orizzonti/el-hoyo-en-la-cerca",
-      "id": 2692,
+      "id": 2693,
       "tmdb_id": 854554,
       "imdb_id": "tt12579120",
       "director": "Joaquín del Paso",
+      "festival_year": 2021,
+      "provider_release_date": "2021-10-04",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Amira",
       "source": "https://www.labiennale.org/en/cinema/2021/lineup/orizzonti/amira",
-      "id": 2693,
+      "id": 2694,
       "tmdb_id": 796162,
       "imdb_id": "tt12244822",
       "director": "Mohamed Diab",
+      "festival_year": 2021,
+      "provider_release_date": "2021-10-19",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "À plein temps",
       "source": "https://www.labiennale.org/en/cinema/2021/lineup/orizzonti/%C3%A0-plein-temps",
-      "id": 2694,
+      "id": 2695,
       "tmdb_id": 833417,
       "imdb_id": "tt13269580",
       "director": "Eric Gravel",
+      "festival_year": 2021,
+      "provider_release_date": "2022-03-16",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Cenzorka",
       "source": "https://www.labiennale.org/en/cinema/2021/lineup/orizzonti/cenzorka-107-mothers",
-      "id": 2695,
+      "id": 2696,
       "tmdb_id": 854567,
       "imdb_id": "tt15119676",
       "director": "Peter Kerekeš",
+      "festival_year": 2021,
+      "provider_release_date": "2021-10-14",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Vera andrron detin",
       "source": "https://www.labiennale.org/en/cinema/2021/lineup/orizzonti/vera-andrron-detin-vera-dreams-sea",
-      "id": 2696,
+      "id": 2697,
       "tmdb_id": 854569,
       "imdb_id": "tt10166880",
       "director": "Kaltrina Krasniqi",
+      "festival_year": 2021,
+      "provider_release_date": "2025-07-24",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Les promesses",
       "source": "https://www.labiennale.org/en/cinema/2021/lineup/orizzonti/les-promesses",
-      "id": 2697,
+      "id": 2698,
       "tmdb_id": 786918,
       "imdb_id": "tt13846472",
       "director": "Thomas Kruithof",
+      "festival_year": 2021,
+      "provider_release_date": "2022-01-26",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Bodeng sar",
       "source": "https://www.labiennale.org/en/cinema/2021/lineup/orizzonti/bodeng-sar-white-building",
-      "id": 2698,
+      "id": 2699,
       "tmdb_id": 796157,
       "imdb_id": "tt11813228",
       "director": "Kavich Neang",
+      "festival_year": 2021,
+      "provider_release_date": "2021-12-22",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Wela",
       "source": "https://www.labiennale.org/en/cinema/2021/lineup/orizzonti/wela-anatomy-time",
-      "id": 2699,
+      "id": 2700,
       "tmdb_id": 796150,
       "imdb_id": "tt13153782",
       "director": "Jakrawal Nilthamrong",
+      "festival_year": 2021,
+      "provider_release_date": "2022-01-20",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "El otro Tom",
       "source": "https://www.labiennale.org/en/cinema/2021/lineup/orizzonti/el-otro-tom",
-      "id": 2700,
+      "id": 2701,
       "tmdb_id": 772437,
       "imdb_id": "tt9056484",
       "director": "Rodrigo Plá, Laura Santullo",
+      "festival_year": 2021,
+      "provider_release_date": "2021-12-31",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "El gran movimiento",
       "source": "https://www.labiennale.org/en/cinema/2021/lineup/orizzonti/el-gran-movimiento",
-      "id": 2701,
+      "id": 2702,
       "tmdb_id": 854572,
       "imdb_id": "tt15108354",
       "director": "Kiro Russo",
+      "festival_year": 2021,
+      "provider_release_date": "2022-03-30",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Once Upon a Time in Calcutta",
       "source": "https://www.labiennale.org/en/cinema/2021/lineup/orizzonti/once-upon-time-calcutta",
-      "id": 2702,
+      "id": 2703,
       "tmdb_id": 720035,
       "imdb_id": "tt12381206",
       "director": "Aditya Vikram Sengupta",
+      "festival_year": 2021,
+      "provider_release_date": "2025-02-07",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Nosorih",
       "source": "https://www.labiennale.org/en/cinema/2021/lineup/orizzonti/nosorih-rhino",
-      "id": 2703,
+      "id": 2704,
       "tmdb_id": 807888,
       "imdb_id": "tt3781118",
       "director": "Oleh Sentsov",
+      "festival_year": 2021,
+      "provider_release_date": "2021-12-10",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "True Things",
       "source": "https://www.labiennale.org/en/cinema/2021/lineup/orizzonti/true-things",
-      "id": 2704,
+      "id": 2705,
       "tmdb_id": 682533,
       "imdb_id": "tt10310074",
       "director": "Harry Wootliff",
+      "festival_year": 2021,
+      "provider_release_date": "2022-04-01",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -349,15 +436,19 @@
       "tmdb_id": 642538,
       "imdb_id": "tt10540510",
       "director": "Masaaki Yuasa",
+      "festival_year": 2021,
+      "provider_release_date": "2022-05-28",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Il signore delle formiche",
       "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition/il-signore-delle-formiche",
-      "id": 2705,
+      "id": 2706,
       "tmdb_id": 840098,
       "imdb_id": "tt14575898",
       "director": "Gianni Amelio",
+      "festival_year": 2022,
+      "provider_release_date": "2022-09-08",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -367,6 +458,8 @@
       "tmdb_id": 785084,
       "imdb_id": "tt13833688",
       "director": "Darren Aronofsky",
+      "festival_year": 2022,
+      "provider_release_date": "2022-12-09",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -376,24 +469,30 @@
       "tmdb_id": 744594,
       "imdb_id": "tt6160448",
       "director": "Noah Baumbach",
+      "festival_year": 2022,
+      "provider_release_date": "2022-11-25",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "L’Immensità",
       "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition/l%E2%80%99immensit%C3%A0",
-      "id": 2706,
+      "id": 2707,
       "tmdb_id": 770724,
       "imdb_id": "tt13051724",
       "director": "Emanuele Crialese",
+      "festival_year": 2022,
+      "provider_release_date": "2022-09-15",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Saint Omer",
       "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition/saint-omer",
-      "id": 2707,
+      "id": 2708,
       "tmdb_id": 925943,
       "imdb_id": "tt15376894",
       "director": "Alice Diop",
+      "festival_year": 2022,
+      "provider_release_date": "2022-11-23",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -403,6 +502,8 @@
       "tmdb_id": 301502,
       "imdb_id": "tt1655389",
       "director": "Andrew Dominik",
+      "festival_year": 2022,
+      "provider_release_date": "2022-09-16",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -412,15 +513,19 @@
       "tmdb_id": 817758,
       "imdb_id": "tt14444726",
       "director": "Todd Field",
+      "festival_year": 2022,
+      "provider_release_date": "2022-10-07",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Love Life",
       "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition/love-life",
-      "id": 2708,
+      "id": 2709,
       "tmdb_id": 927594,
       "imdb_id": "tt18235306",
       "director": "Koji Fukada",
+      "festival_year": 2022,
+      "provider_release_date": "2022-09-09",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -430,15 +535,19 @@
       "tmdb_id": 685691,
       "imdb_id": "tt14176542",
       "director": "Alejandro G. Iñárritu",
+      "festival_year": 2022,
+      "provider_release_date": "2022-10-27",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Athena",
       "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition/athena",
-      "id": 2709,
+      "id": 2710,
       "tmdb_id": 852046,
       "imdb_id": "tt15445056",
       "director": "Romain Gavras",
+      "festival_year": 2022,
+      "provider_release_date": "2022-09-09",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -448,24 +557,30 @@
       "tmdb_id": 791177,
       "imdb_id": "tt10168670",
       "director": "Luca Guadagnino",
+      "festival_year": 2022,
+      "provider_release_date": "2022-11-18",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "The Eternal Daughter",
       "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition/eternal-daughter",
-      "id": 2710,
+      "id": 2711,
       "tmdb_id": 790867,
       "imdb_id": "tt13874422",
       "director": "Joanna Hogg",
+      "festival_year": 2022,
+      "provider_release_date": "2022-12-02",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Shab, Dakheli, Divar",
       "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition/shab-dakheli-divar-beyond-wall",
-      "id": 2711,
+      "id": 2712,
       "tmdb_id": 1004664,
       "imdb_id": "tt13920988",
       "director": "Vahid Jalilvand",
+      "festival_year": 2022,
+      "provider_release_date": "2023-04-20",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -475,6 +590,8 @@
       "tmdb_id": 674324,
       "imdb_id": "tt11813216",
       "director": "Martin McDonagh",
+      "festival_year": 2022,
+      "provider_release_date": "2022-10-20",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -484,33 +601,41 @@
       "tmdb_id": 714888,
       "imdb_id": "tt15301048",
       "director": "Santiago Mitre",
+      "festival_year": 2022,
+      "provider_release_date": "2022-09-29",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Chiara",
       "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition/chiara",
-      "id": 2712,
+      "id": 2713,
       "tmdb_id": 910782,
       "imdb_id": "tt15027532",
       "director": "Susanna Nicchiarelli",
+      "festival_year": 2022,
+      "provider_release_date": "2022-12-07",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Monica",
       "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition/monica",
-      "id": 2713,
+      "id": 2714,
       "tmdb_id": 540549,
       "imdb_id": "tt6337816",
       "director": "Andrea Pallaoro",
+      "festival_year": 2022,
+      "provider_release_date": "2023-03-06",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Khers nist",
       "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition/khers-nist-no-bears",
-      "id": 2714,
+      "id": 2715,
       "tmdb_id": 974521,
       "imdb_id": "tt20205236",
       "director": "Jafar Panahi",
+      "festival_year": 2022,
+      "provider_release_date": "2022-10-06",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -520,15 +645,19 @@
       "tmdb_id": 1004663,
       "imdb_id": "tt21374850",
       "director": "Laura Poitras",
+      "festival_year": 2022,
+      "provider_release_date": "2022-11-23",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Un couple",
       "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition/un-couple",
-      "id": 2715,
+      "id": 2716,
       "tmdb_id": 1004657,
       "imdb_id": "tt21374862",
       "director": "Frederick Wiseman",
+      "festival_year": 2022,
+      "provider_release_date": "2022-10-19",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -538,186 +667,228 @@
       "tmdb_id": 806368,
       "imdb_id": "tt14458442",
       "director": "Florian Zeller",
+      "festival_year": 2022,
+      "provider_release_date": "2022-11-10",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Les miens",
       "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition/les-miens",
-      "id": 2716,
+      "id": 2717,
       "tmdb_id": 971594,
       "imdb_id": "tt21372086",
       "director": "Roschdy Zem",
+      "festival_year": 2022,
+      "provider_release_date": "2022-11-23",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Les enfants des autres",
       "source": "https://www.labiennale.org/en/cinema/2022/venezia-79-competition/les-enfants-des-autres",
-      "id": 2717,
+      "id": 2718,
       "tmdb_id": 803694,
       "imdb_id": "tt15403712",
       "director": "Rebecca Zlotowski",
+      "festival_year": 2022,
+      "provider_release_date": "2022-09-21",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "ObeŤ",
       "source": "https://www.labiennale.org/en/cinema/2022/orizzonti/obe%C5%A5-victim",
-      "id": 2718,
+      "id": 2719,
       "tmdb_id": 1004895,
       "imdb_id": "tt10687052",
       "director": "Michal Blaško",
+      "festival_year": 2022,
+      "provider_release_date": "2022-09-15",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "En los márgenes",
       "source": "https://www.labiennale.org/en/cinema/2022/orizzonti/en-los-m%C3%A1rgenes",
-      "id": 2719,
+      "id": 2720,
       "tmdb_id": 714339,
       "imdb_id": "tt12306964",
       "director": "Juan Diego Botto",
+      "festival_year": 2022,
+      "provider_release_date": "2022-10-07",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Trenque Lauquen",
       "source": "https://www.labiennale.org/en/cinema/2022/orizzonti/trenque-lauquen",
-      "id": 2720,
+      "id": 2721,
       "tmdb_id": 715742,
       "imdb_id": "tt21378968",
       "director": "Laura Citarella",
+      "festival_year": 2022,
+      "provider_release_date": "2023-05-02",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Vera",
       "source": "https://www.labiennale.org/en/cinema/2022/orizzonti/vera",
-      "id": 2721,
+      "id": 2722,
       "tmdb_id": 1005279,
       "imdb_id": "tt21377368",
       "director": "Rainer Frimmel, Tizza Covi",
+      "festival_year": 2022,
+      "provider_release_date": "2023-01-06",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Innocence",
       "source": "https://www.labiennale.org/en/cinema/2022/orizzonti/innocence",
-      "id": 2722,
+      "id": 2723,
       "tmdb_id": 1005290,
       "imdb_id": "tt21377522",
       "director": "Guy Davidi",
+      "festival_year": 2022,
+      "provider_release_date": "2022-08-31",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Princess",
       "source": "https://www.labiennale.org/en/cinema/2022/orizzonti/princess",
-      "id": 2723,
+      "id": 2724,
       "tmdb_id": 936373,
       "imdb_id": "tt14362502",
       "director": "Roberto De Paolis",
+      "festival_year": 2022,
+      "provider_release_date": "2022-11-17",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Blanquita",
       "source": "https://www.labiennale.org/en/cinema/2022/orizzonti/blanquita",
-      "id": 2724,
+      "id": 2725,
       "tmdb_id": 577921,
       "imdb_id": "tt21376206",
       "director": "Fernando Guzzoni",
+      "festival_year": 2022,
+      "provider_release_date": "2023-04-27",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Pour la France",
       "source": "https://www.labiennale.org/en/cinema/2022/orizzonti/pour-la-france",
-      "id": 2725,
+      "id": 2726,
       "tmdb_id": 958219,
       "imdb_id": "tt19891500",
       "director": "Rachid Hami",
+      "festival_year": 2022,
+      "provider_release_date": "2023-02-08",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Aru otoko",
       "source": "https://www.labiennale.org/en/cinema/2022/orizzonti/aru-otoko-man",
-      "id": 2726,
+      "id": 2727,
       "tmdb_id": 869886,
       "imdb_id": "tt20251822",
       "director": "Kei Ishikawa",
+      "festival_year": 2022,
+      "provider_release_date": "2022-11-18",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Chleb i sól",
       "source": "https://www.labiennale.org/en/cinema/2022/orizzonti/chleb-i-s%C3%B3l-bread-and-salt",
-      "id": 2727,
+      "id": 2728,
       "tmdb_id": 999119,
       "imdb_id": "tt15062756",
       "director": "Damian Kocur",
+      "festival_year": 2022,
+      "provider_release_date": "2023-01-27",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Luxembourg, Luxembourg",
       "source": "https://www.labiennale.org/en/cinema/2022/orizzonti/luxembourg-luxembourg",
-      "id": 2728,
+      "id": 2729,
       "tmdb_id": 1005141,
       "imdb_id": "tt19783714",
       "director": "Antonio Lukich",
+      "festival_year": 2022,
+      "provider_release_date": "2023-04-13",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Ti mangio il cuore",
       "source": "https://www.labiennale.org/en/cinema/2022/orizzonti/ti-mangio-il-cuore",
-      "id": 2729,
+      "id": 2730,
       "tmdb_id": 870724,
       "imdb_id": "tt14091854",
       "director": "Pippo Mezzapesa",
+      "festival_year": 2022,
+      "provider_release_date": "2022-09-22",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Spre nord",
       "source": "https://www.labiennale.org/en/cinema/2022/orizzonti/spre-nord-north",
-      "id": 2730,
+      "id": 2731,
       "tmdb_id": 1000618,
       "imdb_id": "tt21378332",
       "director": "Mihai Mincan",
+      "festival_year": 2022,
+      "provider_release_date": "2022-09-04",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Autobiography",
       "source": "https://www.labiennale.org/en/cinema/2022/orizzonti/autobiography",
-      "id": 2731,
+      "id": 2732,
       "tmdb_id": 859981,
       "imdb_id": "tt21372280",
       "director": "Makbul Mubarak",
+      "festival_year": 2022,
+      "provider_release_date": "2023-01-19",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "La syndicaliste",
       "source": "https://www.labiennale.org/en/cinema/2022/orizzonti/la-syndicaliste",
-      "id": 2732,
+      "id": 2733,
       "tmdb_id": 925714,
       "imdb_id": "tt16987062",
       "director": "Jean-Paul Salomé",
+      "festival_year": 2022,
+      "provider_release_date": "2023-03-01",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Jang-e jahani sevom",
       "source": "https://www.labiennale.org/en/cinema/2022/orizzonti/jang-e-jahani-sevom-world-war-iii",
-      "id": 2733,
+      "id": 2734,
       "tmdb_id": 1005299,
       "imdb_id": "tt21378744",
       "director": "Houman Seyyedi",
+      "festival_year": 2022,
+      "provider_release_date": "2023-01-27",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "NajsreЌniot čovek na svetot / Najsretniji čovjek",
       "source": "https://www.labiennale.org/en/cinema/2022/orizzonti/najsre%D1%9Cniot-%C4%8Dovek-na-svetot-najsretniji-%C4%8Dovjek-happiest-man-world",
-      "id": 2734,
+      "id": 2735,
       "tmdb_id": 936363,
       "imdb_id": "tt21138322",
       "director": "Teona Strugar Mitevska",
+      "festival_year": 2022,
+      "provider_release_date": "2023-02-22",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "A noiva",
       "source": "https://www.labiennale.org/en/cinema/2022/orizzonti/noiva-bride",
-      "id": 2735,
+      "id": 2736,
       "tmdb_id": 1005309,
       "imdb_id": "tt16449354",
       "director": "Sérgio Tréfaut",
+      "festival_year": 2022,
+      "provider_release_date": "2023-06-28",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -727,15 +898,19 @@
       "tmdb_id": 980026,
       "imdb_id": "tt20561198",
       "director": "Nikolaj Arcel",
+      "festival_year": 2023,
+      "provider_release_date": "2023-10-05",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Dogman",
       "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/dogman",
-      "id": 2736,
+      "id": 2737,
       "tmdb_id": 944401,
       "imdb_id": "tt17009348",
       "director": "Luc Besson",
+      "festival_year": 2023,
+      "provider_release_date": "2023-09-27",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -745,24 +920,30 @@
       "tmdb_id": 914206,
       "imdb_id": "tt14407336",
       "director": "Bertrand Bonello",
+      "festival_year": 2023,
+      "provider_release_date": "2024-02-07",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Hors-saison",
       "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/hors-saison",
-      "id": 2737,
+      "id": 2738,
       "tmdb_id": 1044741,
       "imdb_id": "tt27704325",
       "director": "Stéphane Brizé",
+      "festival_year": 2023,
+      "provider_release_date": "2024-03-20",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Enea",
       "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/enea",
-      "id": 2738,
+      "id": 2739,
       "tmdb_id": 1057999,
       "imdb_id": "tt27219440",
       "director": "Pietro Castellitto",
+      "festival_year": 2023,
+      "provider_release_date": "2024-01-11",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -772,6 +953,8 @@
       "tmdb_id": 523607,
       "imdb_id": "tt5535276",
       "director": "Bradley Cooper",
+      "festival_year": 2023,
+      "provider_release_date": "2023-11-22",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -781,51 +964,63 @@
       "tmdb_id": 1020006,
       "imdb_id": "tt22041854",
       "director": "Sofia Coppola",
+      "festival_year": 2023,
+      "provider_release_date": "2023-10-27",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Finalmente l’alba",
       "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/finalmente-l%E2%80%99alba",
-      "id": 2739,
+      "id": 2740,
       "tmdb_id": 1013869,
       "imdb_id": "tt21824548",
       "director": "Saverio Costanzo",
+      "festival_year": 2023,
+      "provider_release_date": "2024-02-14",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Comandante",
       "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/comandante",
-      "id": 2740,
+      "id": 2741,
       "tmdb_id": 1047016,
       "imdb_id": "tt23573936",
       "director": "Edoardo De Angelis",
+      "festival_year": 2023,
+      "provider_release_date": "2023-10-31",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Lubo",
       "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/lubo",
-      "id": 2741,
+      "id": 2742,
       "tmdb_id": 1023962,
       "imdb_id": "tt4707780",
       "director": "Giorgio Diritti",
+      "festival_year": 2023,
+      "provider_release_date": "2023-11-09",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Origin",
       "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/origin",
-      "id": 2742,
+      "id": 2743,
       "tmdb_id": 753336,
       "imdb_id": "tt13321244",
       "director": "Ava DuVernay",
+      "festival_year": 2023,
+      "provider_release_date": "2023-12-08",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "The Killer",
       "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/killer",
-      "id": 2743,
+      "id": 2744,
       "tmdb_id": 800158,
       "imdb_id": "tt1136617",
       "director": "David Fincher",
+      "festival_year": 2023,
+      "provider_release_date": "2023-10-25",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -835,6 +1030,8 @@
       "tmdb_id": 979097,
       "imdb_id": "tt19864828",
       "director": "Michel Franco",
+      "festival_year": 2023,
+      "provider_release_date": "2023-12-22",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -844,6 +1041,8 @@
       "tmdb_id": 937746,
       "imdb_id": "tt14225838",
       "director": "Matteo Garrone",
+      "festival_year": 2023,
+      "provider_release_date": "2023-09-07",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -853,6 +1052,8 @@
       "tmdb_id": 1156125,
       "imdb_id": "tt28490044",
       "director": "Ryusuke Hamaguchi",
+      "festival_year": 2023,
+      "provider_release_date": "2023-12-06",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -862,15 +1063,19 @@
       "tmdb_id": 1121956,
       "imdb_id": "tt27722543",
       "director": "Agnieszka Holland",
+      "festival_year": 2023,
+      "provider_release_date": "2023-09-22",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Die Theorie von allem",
       "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/die-theorie-von-allem",
-      "id": 2744,
+      "id": 2745,
       "tmdb_id": 932801,
       "imdb_id": "tt18453866",
       "director": "Timm Kröger",
+      "festival_year": 2023,
+      "provider_release_date": "2023-10-26",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -880,177 +1085,232 @@
       "tmdb_id": 792307,
       "imdb_id": "tt14230458",
       "director": "Yorgos Lanthimos",
+      "festival_year": 2023,
+      "provider_release_date": "2023-12-07",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "El Conde",
       "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/el-conde",
-      "id": 2745,
+      "id": 2746,
       "tmdb_id": 991708,
       "imdb_id": "tt21113540",
       "director": "Pablo Larraín",
+      "festival_year": 2023,
+      "provider_release_date": "2023-09-07",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Ferrari",
       "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/ferrari",
-      "id": 2746,
+      "id": 2747,
       "tmdb_id": 365620,
       "imdb_id": "tt3758542",
       "director": "Michael Mann",
+      "festival_year": 2023,
+      "provider_release_date": "2023-12-14",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Adagio",
       "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/adagio",
-      "id": 2747,
+      "id": 2748,
       "tmdb_id": 1021803,
       "imdb_id": "tt22001304",
       "director": "Stefano Sollima",
+      "festival_year": 2023,
+      "provider_release_date": "2023-12-14",
+      "method": "Official selection title/aliases and director; unique feature-film provider identity"
+    },
+    {
+      "title": "Kobieta Z...",
+      "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/kobieta-z-woman",
+      "id": 2749,
+      "tmdb_id": 1156130,
+      "imdb_id": "tt26746630",
+      "director": "Małgorzata Szumowska, Michał Englert",
+      "official_runtime": 132,
+      "runtime_evidence": [
+        "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/kobieta-z-woman"
+      ],
+      "festival_year": 2023,
+      "provider_release_date": "2024-04-05",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Holly",
       "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/holly",
-      "id": 2748,
+      "id": 2750,
       "tmdb_id": 989496,
       "imdb_id": "tt13866832",
       "director": "Fien Troch",
+      "festival_year": 2023,
+      "provider_release_date": "2023-11-22",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "A cielo abierto",
       "source": "https://www.labiennale.org/en/cinema/2023/orizzonti/cielo-abierto",
-      "id": 2749,
+      "id": 2751,
       "tmdb_id": 1156151,
       "imdb_id": "tt28494884",
       "director": "Mariana Arriaga, Santiago Arriaga",
+      "festival_year": 2023,
+      "provider_release_date": "2024-10-17",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "El paraíso",
       "source": "https://www.labiennale.org/en/cinema/2023/orizzonti/el-para%C3%ADso",
-      "id": 2750,
+      "id": 2752,
       "tmdb_id": 1070997,
       "imdb_id": "tt21905608",
       "director": "Enrico Maria Artale",
+      "festival_year": 2023,
+      "provider_release_date": "2024-03-28",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Oura el jbel",
       "source": "https://www.labiennale.org/en/cinema/2023/orizzonti/oura-el-jbel-behind-mountains",
-      "id": 2751,
+      "id": 2753,
       "tmdb_id": 1090097,
       "imdb_id": "tt26771225",
       "director": "Mohamed Ben Attia",
+      "festival_year": 2023,
+      "provider_release_date": "2024-04-20",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "The Red Suitcase",
       "source": "https://www.labiennale.org/en/cinema/2023/orizzonti/red-suitcase",
-      "id": 2752,
+      "id": 2754,
       "tmdb_id": 1156166,
       "imdb_id": "tt28495418",
       "director": "Fidel Devkota",
+      "festival_year": 2023,
+      "provider_release_date": "2024-04-12",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Paradiset brinner",
       "source": "https://www.labiennale.org/en/cinema/2023/orizzonti/paradiset-brinner-paradise-burning",
-      "id": 2753,
+      "id": 2755,
       "tmdb_id": 872508,
       "imdb_id": "tt21874690",
       "director": "Mika Gustafson",
+      "festival_year": 2023,
+      "provider_release_date": "2023-10-27",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "The Featherweight",
       "source": "https://www.labiennale.org/en/cinema/2023/orizzonti/featherweight",
-      "id": 2754,
+      "id": 2756,
       "tmdb_id": 900376,
       "imdb_id": "tt2352396",
       "director": "Robert Kolodny",
+      "festival_year": 2023,
+      "provider_release_date": "2023-09-03",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Invelle",
       "source": "https://www.labiennale.org/en/cinema/2023/orizzonti/invelle",
-      "id": 2755,
+      "id": 2757,
       "tmdb_id": 1000092,
       "imdb_id": "tt28254574",
       "director": "Simone Massi",
+      "festival_year": 2023,
+      "provider_release_date": "2024-08-29",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Tereddüt çİzgİsİ",
       "source": "https://www.labiennale.org/en/cinema/2023/orizzonti/teredd%C3%BCt-%C3%A7izgisi-hesitation-wound",
-      "id": 2756,
+      "id": 2758,
       "tmdb_id": 1025377,
       "imdb_id": "tt21482312",
       "director": "Selman Nacar",
+      "festival_year": 2023,
+      "provider_release_date": "2024-05-03",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Tatami",
       "source": "https://www.labiennale.org/en/cinema/2023/orizzonti/tatami",
-      "id": 2757,
+      "id": 2759,
       "tmdb_id": 1084066,
       "imdb_id": "tt26674818",
       "director": "Guy Nattiv, Zar Amir Ebrahimi",
+      "festival_year": 2023,
+      "provider_release_date": "2024-03-08",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Sem coração",
       "source": "https://www.labiennale.org/en/cinema/2023/orizzonti/sem-cora%C3%A7%C3%A3o",
-      "id": 2758,
+      "id": 2760,
       "tmdb_id": 603531,
       "imdb_id": "tt26245778",
       "director": "Tião, Nara Normande",
+      "festival_year": 2023,
+      "provider_release_date": "2024-04-18",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Una sterminata domenica",
       "source": "https://www.labiennale.org/en/cinema/2023/orizzonti/una-sterminata-domenica",
-      "id": 2759,
+      "id": 2761,
       "tmdb_id": 1156219,
       "imdb_id": "tt28497330",
       "director": "Alain Parroni",
+      "festival_year": 2023,
+      "provider_release_date": "2023-09-14",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Sèr sèr salhi",
       "source": "https://www.labiennale.org/en/cinema/2023/orizzonti/s%C3%A8r-s%C3%A8r-salhi-city-wind",
-      "id": 2760,
+      "id": 2762,
       "tmdb_id": 730256,
       "imdb_id": "tt27816866",
       "director": "Lkhagvadulam Purev-Ochir",
+      "festival_year": 2023,
+      "provider_release_date": "2024-04-24",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Magyarázat mindenre",
       "source": "https://www.labiennale.org/en/cinema/2023/orizzonti/magyar%C3%A1zat-mindenre-explanation-everything",
-      "id": 2761,
+      "id": 2763,
       "tmdb_id": 1075989,
       "imdb_id": "tt27788968",
       "director": "Gábor Reisz",
+      "festival_year": 2023,
+      "provider_release_date": "2023-10-05",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Gasoline Rainbow",
       "source": "https://www.labiennale.org/en/cinema/2023/orizzonti/gasoline-rainbow",
-      "id": 2762,
+      "id": 2764,
       "tmdb_id": 1156110,
       "imdb_id": "tt28494031",
       "director": "Bill Ross, Turner Ross",
+      "festival_year": 2023,
+      "provider_release_date": "2024-05-10",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "En attendant la nuit",
       "source": "https://www.labiennale.org/en/cinema/2023/orizzonti/en-attendant-la-nuit",
-      "id": 2763,
+      "id": 2765,
       "tmdb_id": 1158416,
       "imdb_id": "tt22986716",
       "director": "Céline Rouzet",
+      "festival_year": 2023,
+      "provider_release_date": "2024-06-05",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1060,24 +1320,30 @@
       "tmdb_id": 1081593,
       "imdb_id": "tt24244436",
       "director": "Goran Stolevski",
+      "festival_year": 2023,
+      "provider_release_date": "2024-04-05",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Hokage",
       "source": "https://www.labiennale.org/en/cinema/2023/orizzonti/hokage-shadow-fire",
-      "id": 2764,
+      "id": 2766,
       "tmdb_id": 1077877,
       "imdb_id": "tt28497692",
       "director": "Shinya Tsukamoto",
+      "festival_year": 2023,
+      "provider_release_date": "2023-11-25",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Yurt",
       "source": "https://www.labiennale.org/en/cinema/2023/orizzonti/yurt-dormitory",
-      "id": 2765,
+      "id": 2767,
       "tmdb_id": 1156208,
       "imdb_id": "tt20236042",
       "director": "Nehir Tuna",
+      "festival_year": 2023,
+      "provider_release_date": "2024-04-03",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1087,15 +1353,19 @@
       "tmdb_id": 1088514,
       "imdb_id": "tt29439114",
       "director": "Pedro Almodóvar",
+      "festival_year": 2024,
+      "provider_release_date": "2024-10-07",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Campo di battaglia",
       "source": "https://www.labiennale.org/en/cinema/2024/venezia-81-competition/campo-di-battaglia",
-      "id": 2766,
+      "id": 2768,
       "tmdb_id": 1174246,
       "imdb_id": "tt31322960",
       "director": "Gianni Amelio",
+      "festival_year": 2024,
+      "provider_release_date": "2024-09-05",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1105,6 +1375,8 @@
       "tmdb_id": 1103678,
       "imdb_id": "tt28522540",
       "director": "Ludovic Boukherma, Zoran Boukherma",
+      "festival_year": 2024,
+      "provider_release_date": "2024-12-04",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1114,6 +1386,8 @@
       "tmdb_id": 549509,
       "imdb_id": "tt8999762",
       "director": "Brady Corbet",
+      "festival_year": 2024,
+      "provider_release_date": "2024-12-20",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1123,6 +1397,8 @@
       "tmdb_id": 1118848,
       "imdb_id": "tt28601337",
       "director": "Delphine Coulin, Muriel Coulin",
+      "festival_year": 2024,
+      "provider_release_date": "2025-01-22",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1132,15 +1408,19 @@
       "tmdb_id": 1151244,
       "imdb_id": "tt28618488",
       "director": "Maura Delpero",
+      "festival_year": 2024,
+      "provider_release_date": "2024-09-19",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Iddu",
       "source": "https://www.labiennale.org/en/cinema/2024/venezia-81-competition/iddu-sicilian-letters",
-      "id": 2767,
+      "id": 2769,
       "tmdb_id": 1148663,
       "imdb_id": "tt28297850",
       "director": "Fabio Grassadonia, Antonio Piazza",
+      "festival_year": 2024,
+      "provider_release_date": "2024-10-10",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1150,15 +1430,19 @@
       "tmdb_id": 1059128,
       "imdb_id": "tt24176060",
       "director": "Luca Guadagnino",
+      "festival_year": 2024,
+      "provider_release_date": "2024-11-27",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Kjærlighet",
       "source": "https://www.labiennale.org/en/cinema/2024/venezia-81-competition/kj%C3%A6rlighet-love",
-      "id": 2768,
+      "id": 2770,
       "tmdb_id": 1228685,
       "imdb_id": "tt30810792",
       "director": "Dag Johan Haugerud",
+      "festival_year": 2024,
+      "provider_release_date": "2024-11-10",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1168,6 +1452,8 @@
       "tmdb_id": 1064021,
       "imdb_id": "tt31350080",
       "director": "Dea Kulumbegashvili",
+      "festival_year": 2024,
+      "provider_release_date": "2025-01-29",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1177,6 +1463,8 @@
       "tmdb_id": 1082195,
       "imdb_id": "tt26625693",
       "director": "Justin Kurzel",
+      "festival_year": 2024,
+      "provider_release_date": "2024-12-05",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1186,6 +1474,8 @@
       "tmdb_id": 1038263,
       "imdb_id": "tt22893404",
       "director": "Pablo Larraín",
+      "festival_year": 2024,
+      "provider_release_date": "2024-11-27",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1195,15 +1485,19 @@
       "tmdb_id": 1137245,
       "imdb_id": "tt30325268",
       "director": "Emmanuel Mouret",
+      "festival_year": 2024,
+      "provider_release_date": "2024-11-06",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "El Jockey",
       "source": "https://www.labiennale.org/en/cinema/2024/venezia-81-competition/el-jockey-kill-jockey",
-      "id": 2769,
+      "id": 2771,
       "tmdb_id": 1104937,
       "imdb_id": "tt28231777",
       "director": "Luis Ortega",
+      "festival_year": 2024,
+      "provider_release_date": "2024-09-26",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1213,6 +1507,8 @@
       "tmdb_id": 889737,
       "imdb_id": "tt11315808",
       "director": "Todd Phillips",
+      "festival_year": 2024,
+      "provider_release_date": "2024-10-01",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1222,6 +1518,8 @@
       "tmdb_id": 1097549,
       "imdb_id": "tt30057084",
       "director": "Halina Reijn",
+      "festival_year": 2024,
+      "provider_release_date": "2024-12-25",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1231,42 +1529,52 @@
       "tmdb_id": 1000837,
       "imdb_id": "tt14961016",
       "director": "Walter Salles",
+      "festival_year": 2024,
+      "provider_release_date": "2024-09-19",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Diva Futura",
       "source": "https://www.labiennale.org/en/cinema/2024/venezia-81-competition/diva-futura",
-      "id": 2770,
+      "id": 2772,
       "tmdb_id": 1141163,
       "imdb_id": "tt31105878",
       "director": "Giulia Louise Steigerwalt",
+      "festival_year": 2024,
+      "provider_release_date": "2025-02-06",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Harvest",
       "source": "https://www.labiennale.org/en/cinema/2024/venezia-81-competition/harvest",
-      "id": 2771,
+      "id": 2773,
       "tmdb_id": 936946,
       "imdb_id": "tt13610344",
       "director": "Athina Rachel Tsangari",
+      "festival_year": 2024,
+      "provider_release_date": "2025-04-16",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Qing Chun: Gui",
       "source": "https://www.labiennale.org/en/cinema/2024/venezia-81-competition/qing-chun-gui-youth-homecoming",
-      "id": 2772,
+      "id": 2774,
       "tmdb_id": 1319196,
       "imdb_id": "tt33029375",
       "director": "Wang Bing",
+      "festival_year": 2024,
+      "provider_release_date": "2025-07-09",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Stranger eyes",
       "source": "https://www.labiennale.org/en/cinema/2024/venezia-81-competition/stranger-eyes",
-      "id": 2773,
+      "id": 2775,
       "tmdb_id": 948184,
       "imdb_id": "tt28419037",
       "director": "Yeo Siew Hua",
+      "festival_year": 2024,
+      "provider_release_date": "2024-11-14",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1276,6 +1584,8 @@
       "tmdb_id": 1195100,
       "imdb_id": "tt29298085",
       "director": "Aitor Arregi, Jon Garaño",
+      "festival_year": 2024,
+      "provider_release_date": "2024-11-08",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1285,96 +1595,118 @@
       "tmdb_id": 1003722,
       "imdb_id": "tt33030320",
       "director": "Alexandros Avranas",
+      "festival_year": 2024,
+      "provider_release_date": "2025-01-01",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Mon inséparable",
       "source": "https://www.labiennale.org/en/cinema/2024/orizzonti/mon-ins%C3%A9parable",
-      "id": 2774,
+      "id": 2776,
       "tmdb_id": 1032765,
       "imdb_id": "tt21993128",
       "director": "Anne-Sophie Bailly",
+      "festival_year": 2024,
+      "provider_release_date": "2024-12-25",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Aïcha",
       "source": "https://www.labiennale.org/en/cinema/2024/orizzonti/a%C3%AFcha",
-      "id": 2775,
+      "id": 2777,
       "tmdb_id": 1108795,
       "imdb_id": "tt27907962",
       "director": "Mehdi M. Barsaoui",
+      "festival_year": 2024,
+      "provider_release_date": "2025-01-22",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Happy holidays",
       "source": "https://www.labiennale.org/en/cinema/2024/orizzonti/happy-holidays",
-      "id": 2776,
+      "id": 2778,
       "tmdb_id": 1195108,
       "imdb_id": "tt28522171",
       "director": "Scandar Copti",
+      "festival_year": 2024,
+      "provider_release_date": "2025-07-03",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Familia",
       "source": "https://www.labiennale.org/en/cinema/2024/orizzonti/familia",
-      "id": 2777,
+      "id": 2779,
       "tmdb_id": 1313006,
       "imdb_id": "tt31710037",
       "director": "Francesco Costabile",
+      "festival_year": 2024,
+      "provider_release_date": "2024-10-02",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Hemme’nin öldüğü günlerden biri",
       "source": "https://www.labiennale.org/en/cinema/2024/orizzonti/hemme%E2%80%99nin-%C3%B6ld%C3%BC%C4%9F%C3%BC-g%C3%BCnlerden-biri-one-those-days-when-hemme-dies",
-      "id": 2778,
+      "id": 2780,
       "tmdb_id": 1320279,
       "imdb_id": "tt33030347",
       "director": "Murat Fıratoğlu",
+      "festival_year": 2024,
+      "provider_release_date": "2024-12-13",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Familiar Touch",
       "source": "https://www.labiennale.org/en/cinema/2024/orizzonti/familiar-touch",
-      "id": 2779,
+      "id": 2781,
       "tmdb_id": 1265717,
       "imdb_id": "tt32928666",
       "director": "Sarah Friedland",
+      "festival_year": 2024,
+      "provider_release_date": "2025-06-20",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Carissa",
       "source": "https://www.labiennale.org/en/cinema/2024/orizzonti/carissa",
-      "id": 2780,
+      "id": 2782,
       "tmdb_id": 1195113,
       "imdb_id": "tt28522108",
       "director": "Jason Jacobs, Devon Delmar",
+      "festival_year": 2024,
+      "provider_release_date": "2025-09-26",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Wishing on a star",
       "source": "https://www.labiennale.org/en/cinema/2024/orizzonti/wishing-star",
-      "id": 2781,
+      "id": 2783,
       "tmdb_id": 1315541,
       "imdb_id": "tt33030357",
       "director": "Peter Kerekeš",
+      "festival_year": 2024,
+      "provider_release_date": "2024-09-26",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Mistress Dispeller",
       "source": "https://www.labiennale.org/en/cinema/2024/orizzonti/mistress-dispeller",
-      "id": 2782,
+      "id": 2784,
       "tmdb_id": 951055,
       "imdb_id": "tt22060498",
       "director": "Elizabeth Lo",
+      "festival_year": 2024,
+      "provider_release_date": "2025-01-29",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Nonostante",
       "source": "https://www.labiennale.org/en/cinema/2024/orizzonti/nonostante",
-      "id": 2783,
+      "id": 2785,
       "tmdb_id": 1319473,
       "imdb_id": "tt29429122",
       "director": "Valerio Mastandrea",
+      "festival_year": 2024,
+      "provider_release_date": "2025-03-27",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1384,6 +1716,8 @@
       "tmdb_id": 1320276,
       "imdb_id": "tt33030375",
       "director": "Bogdan Mureșanu",
+      "festival_year": 2024,
+      "provider_release_date": "2024-09-27",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1393,24 +1727,30 @@
       "tmdb_id": 1025011,
       "imdb_id": "tt33030379",
       "director": "Deepak Rauniyar",
+      "festival_year": 2024,
+      "provider_release_date": "2025-05-14",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Al klavim veanashim",
       "source": "https://www.labiennale.org/en/cinema/2024/orizzonti/al-klavim-veanashim-dogs-and-men",
-      "id": 2784,
+      "id": 2786,
       "tmdb_id": 1299351,
       "imdb_id": "tt32432999",
       "director": "Dani Rosenberg",
+      "festival_year": 2024,
+      "provider_release_date": "2024-09-06",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Pavements",
       "source": "https://www.labiennale.org/en/cinema/2024/orizzonti/pavements",
-      "id": 2785,
+      "id": 2787,
       "tmdb_id": 1063307,
       "imdb_id": "tt30253514",
       "director": "Alex Ross Perry",
+      "festival_year": 2024,
+      "provider_release_date": "2025-05-02",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1420,24 +1760,30 @@
       "tmdb_id": 730251,
       "imdb_id": "tt29279903",
       "director": "Neo Sora",
+      "festival_year": 2024,
+      "provider_release_date": "2024-10-04",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "L’attachement",
       "source": "https://www.labiennale.org/en/cinema/2024/orizzonti/l%E2%80%99attachement",
-      "id": 2786,
+      "id": 2788,
       "tmdb_id": 1096642,
       "imdb_id": "tt33030403",
       "director": "Carine Tardieu",
+      "festival_year": 2024,
+      "provider_release_date": "2025-02-19",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Diciannove",
       "source": "https://www.labiennale.org/en/cinema/2024/orizzonti/diciannove",
-      "id": 2787,
+      "id": 2789,
       "tmdb_id": 1118770,
       "imdb_id": "tt27706317",
       "director": "Giovanni Tortorici",
+      "festival_year": 2024,
+      "provider_release_date": "2025-02-27",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1447,6 +1793,8 @@
       "tmdb_id": 1291659,
       "imdb_id": "tt32386654",
       "director": "Olivier Assayas",
+      "festival_year": 2025,
+      "provider_release_date": "2026-01-21",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1456,6 +1804,8 @@
       "tmdb_id": 1069905,
       "imdb_id": "tt30446847",
       "director": "Noah Baumbach",
+      "festival_year": 2025,
+      "provider_release_date": "2025-11-14",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1465,6 +1815,8 @@
       "tmdb_id": 1480382,
       "imdb_id": "tt36943034",
       "director": "Kaouther Ben Hania",
+      "festival_year": 2025,
+      "provider_release_date": "2025-09-10",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1474,6 +1826,8 @@
       "tmdb_id": 1290159,
       "imdb_id": "tt32376165",
       "director": "Kathryn Bigelow",
+      "festival_year": 2025,
+      "provider_release_date": "2025-10-02",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1483,6 +1837,8 @@
       "tmdb_id": 1329673,
       "imdb_id": "tt32907482",
       "director": "Cai Shangjun",
+      "festival_year": 2025,
+      "provider_release_date": "2025-11-07",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1492,6 +1848,8 @@
       "tmdb_id": 1062722,
       "imdb_id": "tt1312221",
       "director": "Guillermo del Toro",
+      "festival_year": 2025,
+      "provider_release_date": "2025-10-17",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1501,6 +1859,8 @@
       "tmdb_id": 1438959,
       "imdb_id": "tt37660578",
       "director": "Leonardo Di Costanzo",
+      "festival_year": 2025,
+      "provider_release_date": "2025-09-05",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1510,6 +1870,8 @@
       "tmdb_id": 1430820,
       "imdb_id": "tt37660587",
       "director": "Valérie Donzelli",
+      "festival_year": 2025,
+      "provider_release_date": "2026-02-04",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1519,6 +1881,8 @@
       "tmdb_id": 1168719,
       "imdb_id": "tt27811632",
       "director": "Ildikó Enyedi",
+      "festival_year": 2025,
+      "provider_release_date": "2026-01-15",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1528,6 +1892,8 @@
       "tmdb_id": 1401281,
       "imdb_id": "tt34819091",
       "director": "Mona Fastvold",
+      "festival_year": 2025,
+      "provider_release_date": "2025-12-25",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1537,6 +1903,8 @@
       "tmdb_id": 1159206,
       "imdb_id": "tt31189315",
       "director": "Jim Jarmusch",
+      "festival_year": 2025,
+      "provider_release_date": "2025-12-01",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1546,6 +1914,8 @@
       "tmdb_id": 701387,
       "imdb_id": "tt12300742",
       "director": "Yorgos Lanthimos",
+      "festival_year": 2025,
+      "provider_release_date": "2025-10-23",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1555,6 +1925,8 @@
       "tmdb_id": 1291202,
       "imdb_id": "tt31415482",
       "director": "Pietro Marcello",
+      "festival_year": 2025,
+      "provider_release_date": "2025-09-11",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1564,6 +1936,8 @@
       "tmdb_id": 1276271,
       "imdb_id": "tt30874362",
       "director": "Franco Maresco",
+      "festival_year": 2025,
+      "provider_release_date": "2025-09-05",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1573,6 +1947,8 @@
       "tmdb_id": 803208,
       "imdb_id": "tt31065630",
       "director": "László Nemes",
+      "festival_year": 2025,
+      "provider_release_date": "2025-10-23",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1582,6 +1958,8 @@
       "tmdb_id": 1429348,
       "imdb_id": "tt36243564",
       "director": "François Ozon",
+      "festival_year": 2025,
+      "provider_release_date": "2025-10-29",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1591,6 +1969,8 @@
       "tmdb_id": 639988,
       "imdb_id": "tt1527793",
       "director": "Park Chan-wook",
+      "festival_year": 2025,
+      "provider_release_date": "2025-09-24",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1600,6 +1980,8 @@
       "tmdb_id": 1457188,
       "imdb_id": "tt36874833",
       "director": "Gianfranco Rosi",
+      "festival_year": 2025,
+      "provider_release_date": "2025-09-18",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1609,6 +1991,8 @@
       "tmdb_id": 760329,
       "imdb_id": "tt11214558",
       "director": "Benny Safdie",
+      "festival_year": 2025,
+      "provider_release_date": "2025-10-01",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1618,6 +2002,8 @@
       "tmdb_id": 1357759,
       "imdb_id": "tt33396536",
       "director": "Shu Qi",
+      "festival_year": 2025,
+      "provider_release_date": "2025-10-31",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1627,60 +2013,74 @@
       "tmdb_id": 1397364,
       "imdb_id": "tt34886821",
       "director": "Paolo Sorrentino",
+      "festival_year": 2025,
+      "provider_release_date": "2025-12-05",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Komedie elahi",
       "source": "https://www.labiennale.org/en/cinema/2025/orizzonti/komedie-elahi-divine-comedy",
-      "id": 2788,
+      "id": 2790,
       "tmdb_id": 1517062,
       "imdb_id": "tt37660493",
       "director": "Ali Asgari",
+      "festival_year": 2025,
+      "provider_release_date": "2026-01-15",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Hiedra",
       "source": "https://www.labiennale.org/en/cinema/2025/orizzonti/hiedra",
-      "id": 2789,
+      "id": 2791,
       "tmdb_id": 794228,
       "imdb_id": "tt38045572",
       "director": "Ana Cristina Barragán",
+      "festival_year": 2025,
+      "provider_release_date": "2026-03-13",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Il rapimento di Arabella",
       "source": "https://www.labiennale.org/en/cinema/2025/orizzonti/il-rapimento-di-arabella",
-      "id": 2790,
+      "id": 2792,
       "tmdb_id": 1339666,
       "imdb_id": "tt33292601",
       "director": "Carolina Cavalli",
+      "festival_year": 2025,
+      "provider_release_date": "2025-12-04",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Estrany riu",
       "source": "https://www.labiennale.org/en/cinema/2025/orizzonti/estrany-riu-strange-river",
-      "id": 2791,
+      "id": 2793,
       "tmdb_id": 1025389,
       "imdb_id": "tt33023305",
       "director": "Jaume Claret Muxart",
+      "festival_year": 2025,
+      "provider_release_date": "2025-10-03",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Harà Watan",
       "source": "https://www.labiennale.org/en/cinema/2025/orizzonti/har%C3%A0-watan-lost-land",
-      "id": 2792,
+      "id": 2794,
       "tmdb_id": 1517120,
       "imdb_id": "tt37660506",
       "director": "Akio Fujimoto",
+      "festival_year": 2025,
+      "provider_release_date": "2026-04-22",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Grand Ciel",
       "source": "https://www.labiennale.org/en/cinema/2025/orizzonti/grand-ciel",
-      "id": 2793,
+      "id": 2795,
       "tmdb_id": 1000879,
       "imdb_id": "tt15435004",
       "director": "Akihiro Hata",
+      "festival_year": 2025,
+      "provider_release_date": "2026-01-21",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1690,42 +2090,52 @@
       "tmdb_id": 1399525,
       "imdb_id": "tt35674521",
       "director": "Mark Jenkin",
+      "festival_year": 2025,
+      "provider_release_date": "2026-04-24",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Late Fame",
       "source": "https://www.labiennale.org/en/cinema/2025/orizzonti/late-fame",
-      "id": 2794,
+      "id": 2796,
       "tmdb_id": 1285895,
       "imdb_id": "tt32298494",
       "director": "Kent Jones",
+      "festival_year": 2025,
+      "provider_release_date": "2026-08-07",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Dinți de lapte",
       "source": "https://www.labiennale.org/en/cinema/2025/orizzonti/din%C8%9Bi-de-lapte-milk-teeth",
-      "id": 2795,
+      "id": 2797,
       "tmdb_id": 1517125,
       "imdb_id": "tt28084384",
       "director": "Mihai Mincan",
+      "festival_year": 2025,
+      "provider_release_date": "2025-10-17",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Pin de fartie",
       "source": "https://www.labiennale.org/en/cinema/2025/orizzonti/pin-de-fartie",
-      "id": 2796,
+      "id": 2798,
       "tmdb_id": 1517070,
       "imdb_id": "tt37660507",
       "director": "Alejo Moguillansky",
+      "festival_year": 2025,
+      "provider_release_date": "2025-09-03",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Otec",
       "source": "https://www.labiennale.org/en/cinema/2025/orizzonti/otec-father",
-      "id": 2797,
+      "id": 2799,
       "tmdb_id": 1516518,
       "imdb_id": "tt28876088",
       "director": "Tereza Nvotová",
+      "festival_year": 2025,
+      "provider_release_date": "2025-09-11",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
@@ -1735,60 +2145,90 @@
       "tmdb_id": 1517123,
       "imdb_id": "tt37660509",
       "director": "David Pablos",
+      "festival_year": 2025,
+      "provider_release_date": "2026-06-03",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Songs of Forgotten Trees",
       "source": "https://www.labiennale.org/en/cinema/2025/orizzonti/songs-forgotten-trees",
-      "id": 2798,
+      "id": 2800,
       "tmdb_id": 1517129,
       "imdb_id": "tt37660512",
       "director": "Anuparna Roy",
+      "festival_year": 2025,
+      "provider_release_date": "2025-08-31",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Un anno di scuola",
       "source": "https://www.labiennale.org/en/cinema/2025/orizzonti/un-anno-di-scuola",
-      "id": 2799,
+      "id": 2801,
       "tmdb_id": 1442922,
       "imdb_id": "tt31778123",
       "director": "Laura Samani",
+      "festival_year": 2025,
+      "provider_release_date": "2026-04-09",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "The Souffleur",
       "source": "https://www.labiennale.org/en/cinema/2025/orizzonti/souffleur",
-      "id": 2800,
+      "id": 2802,
       "tmdb_id": 1418361,
       "imdb_id": "tt33305621",
       "director": "Gastón Solnicki",
+      "festival_year": 2025,
+      "provider_release_date": "2026-02-13",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Barrio triste",
       "source": "https://www.labiennale.org/en/cinema/2025/orizzonti/barrio-triste",
-      "id": 2801,
+      "id": 2803,
       "tmdb_id": 1310573,
       "imdb_id": "tt37660515",
       "director": "STILLZ",
+      "festival_year": 2025,
+      "provider_release_date": "2026-07-10",
+      "method": "Official selection title/aliases and director; unique feature-film provider identity"
+    },
+    {
+      "title": "Mother",
+      "source": "https://www.labiennale.org/en/cinema/2025/orizzonti/mother",
+      "id": 262,
+      "tmdb_id": 1292123,
+      "imdb_id": "tt18246200",
+      "director": "Teona Strugar Mitevska",
+      "provider_director": "Teona Strugar Mitevska, Vuk Mitevski",
+      "correction_evidence": [
+        "https://www.labiennale.org/en/cinema/2025/orizzonti/mother",
+        "https://www.fraufilm.dk/mother/"
+      ],
+      "festival_year": 2025,
+      "provider_release_date": "2025-12-03",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Human Resource",
       "source": "https://www.labiennale.org/en/cinema/2025/orizzonti/human-resource",
-      "id": 2802,
+      "id": 2804,
       "tmdb_id": 1319520,
       "imdb_id": "tt36948837",
       "director": "Nawapol Thamrongrattanarit",
+      "festival_year": 2025,
+      "provider_release_date": "2026-01-29",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     },
     {
       "title": "Funeral Casino Blues",
       "source": "https://www.labiennale.org/en/cinema/2025/orizzonti/funeral-casino-blues",
-      "id": 2803,
+      "id": 2805,
       "tmdb_id": 1517064,
       "imdb_id": "tt37660518",
       "director": "Roderick Warich",
+      "festival_year": 2025,
+      "provider_release_date": "2026-08-13",
       "method": "Official selection title/aliases and director; unique feature-film provider identity"
     }
   ],
@@ -1916,6 +2356,19 @@
     },
     {
       "id": 2684,
+      "title": "Captain Volkonogov Escaped",
+      "director": "Natalya Merkulova, Alexey Chupov",
+      "year": 2021,
+      "tmdb_id": 818621,
+      "imdb_id": "tt13322726",
+      "original_title": "Капитан Волконогов бежал",
+      "original_language": "ru",
+      "alternate_titles": [
+        "Kapitan Volkonogov bezhal"
+      ]
+    },
+    {
+      "id": 2685,
       "title": "The Card Counter",
       "director": "Paul Schrader",
       "year": 2021,
@@ -1926,7 +2379,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2685,
+      "id": 2686,
       "title": "Reflection",
       "director": "Valentyn Vasyanovych",
       "year": 2021,
@@ -1939,7 +2392,7 @@
       ]
     },
     {
-      "id": 2686,
+      "id": 2687,
       "title": "The Box",
       "director": "Lorenzo Vigas",
       "year": 2021,
@@ -1950,7 +2403,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2687,
+      "id": 2688,
       "title": "Atlantide",
       "director": "Yuri Ancarani",
       "year": 2021,
@@ -1961,7 +2414,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2688,
+      "id": 2689,
       "title": "Miracle",
       "director": "Bogdan George Apetri",
       "year": 2021,
@@ -1972,7 +2425,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2689,
+      "id": 2690,
       "title": "Pilgrims",
       "director": "Laurynas Bareiša",
       "year": 2021,
@@ -1983,7 +2436,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2690,
+      "id": 2691,
       "title": "The Peacock’s Paradise",
       "director": "Laura Bispuri",
       "year": 2021,
@@ -1994,7 +2447,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2691,
+      "id": 2692,
       "title": "The Falls",
       "director": "Chung Mong-hong",
       "year": 2021,
@@ -2007,7 +2460,7 @@
       ]
     },
     {
-      "id": 2692,
+      "id": 2693,
       "title": "The Hole in the Fence",
       "director": "Joaquín del Paso",
       "year": 2021,
@@ -2018,7 +2471,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2693,
+      "id": 2694,
       "title": "Amira",
       "director": "Mohamed Diab",
       "year": 2021,
@@ -2029,7 +2482,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2694,
+      "id": 2695,
       "title": "Full Time",
       "director": "Eric Gravel",
       "year": 2021,
@@ -2040,7 +2493,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2695,
+      "id": 2696,
       "title": "107 Mothers",
       "director": "Peter Kerekeš",
       "year": 2021,
@@ -2053,7 +2506,7 @@
       ]
     },
     {
-      "id": 2696,
+      "id": 2697,
       "title": "Vera Dreams of the Sea",
       "director": "Kaltrina Krasniqi",
       "year": 2021,
@@ -2064,7 +2517,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2697,
+      "id": 2698,
       "title": "Promises",
       "director": "Thomas Kruithof",
       "year": 2021,
@@ -2075,7 +2528,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2698,
+      "id": 2699,
       "title": "White Building",
       "director": "Kavich Neang",
       "year": 2021,
@@ -2088,7 +2541,7 @@
       ]
     },
     {
-      "id": 2699,
+      "id": 2700,
       "title": "Anatomy of Time",
       "director": "Jakrawal Nilthamrong",
       "year": 2021,
@@ -2101,7 +2554,7 @@
       ]
     },
     {
-      "id": 2700,
+      "id": 2701,
       "title": "The Other Tom",
       "director": "Rodrigo Plá, Laura Santullo",
       "year": 2021,
@@ -2112,7 +2565,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2701,
+      "id": 2702,
       "title": "The Great Movement",
       "director": "Kiro Russo",
       "year": 2021,
@@ -2123,7 +2576,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2702,
+      "id": 2703,
       "title": "Once Upon a Time in Calcutta",
       "director": "Aditya Vikram Sengupta",
       "year": 2021,
@@ -2134,7 +2587,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2703,
+      "id": 2704,
       "title": "Rhino",
       "director": "Oleh Sentsov",
       "year": 2021,
@@ -2147,7 +2600,7 @@
       ]
     },
     {
-      "id": 2704,
+      "id": 2705,
       "title": "True Things",
       "director": "Harry Wootliff",
       "year": 2021,
@@ -2158,7 +2611,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2705,
+      "id": 2706,
       "title": "Lord of the Ants",
       "director": "Gianni Amelio",
       "year": 2022,
@@ -2169,7 +2622,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2706,
+      "id": 2707,
       "title": "L'immensità",
       "director": "Emanuele Crialese",
       "year": 2022,
@@ -2180,7 +2633,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2707,
+      "id": 2708,
       "title": "Saint Omer",
       "director": "Alice Diop",
       "year": 2022,
@@ -2191,7 +2644,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2708,
+      "id": 2709,
       "title": "Love Life",
       "director": "Koji Fukada",
       "year": 2022,
@@ -2202,7 +2655,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2709,
+      "id": 2710,
       "title": "Athena",
       "director": "Romain Gavras",
       "year": 2022,
@@ -2213,7 +2666,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2710,
+      "id": 2711,
       "title": "The Eternal Daughter",
       "director": "Joanna Hogg",
       "year": 2022,
@@ -2224,7 +2677,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2711,
+      "id": 2712,
       "title": "Beyond The Wall",
       "director": "Vahid Jalilvand",
       "year": 2022,
@@ -2237,7 +2690,7 @@
       ]
     },
     {
-      "id": 2712,
+      "id": 2713,
       "title": "Chiara",
       "director": "Susanna Nicchiarelli",
       "year": 2022,
@@ -2248,7 +2701,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2713,
+      "id": 2714,
       "title": "Monica",
       "director": "Andrea Pallaoro",
       "year": 2022,
@@ -2259,7 +2712,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2714,
+      "id": 2715,
       "title": "No Bears",
       "director": "Jafar Panahi",
       "year": 2022,
@@ -2272,7 +2725,7 @@
       ]
     },
     {
-      "id": 2715,
+      "id": 2716,
       "title": "A Couple",
       "director": "Frederick Wiseman",
       "year": 2022,
@@ -2283,7 +2736,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2716,
+      "id": 2717,
       "title": "Our Ties",
       "director": "Roschdy Zem",
       "year": 2022,
@@ -2294,7 +2747,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2717,
+      "id": 2718,
       "title": "Other People's Children",
       "director": "Rebecca Zlotowski",
       "year": 2022,
@@ -2305,7 +2758,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2718,
+      "id": 2719,
       "title": "Victim",
       "director": "Michal Blaško",
       "year": 2022,
@@ -2316,7 +2769,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2719,
+      "id": 2720,
       "title": "On the Fringe",
       "director": "Juan Diego Botto",
       "year": 2022,
@@ -2327,7 +2780,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2720,
+      "id": 2721,
       "title": "Trenque Lauquen",
       "director": "Laura Citarella",
       "year": 2022,
@@ -2338,7 +2791,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2721,
+      "id": 2722,
       "title": "Vera",
       "director": "Rainer Frimmel, Tizza Covi",
       "year": 2022,
@@ -2349,7 +2802,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2722,
+      "id": 2723,
       "title": "Innocence",
       "director": "Guy Davidi",
       "year": 2022,
@@ -2360,7 +2813,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2723,
+      "id": 2724,
       "title": "Princess",
       "director": "Roberto De Paolis",
       "year": 2022,
@@ -2371,7 +2824,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2724,
+      "id": 2725,
       "title": "Blanquita",
       "director": "Fernando Guzzoni",
       "year": 2022,
@@ -2382,7 +2835,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2725,
+      "id": 2726,
       "title": "For My Country",
       "director": "Rachid Hami",
       "year": 2022,
@@ -2393,7 +2846,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2726,
+      "id": 2727,
       "title": "A Man",
       "director": "Kei Ishikawa",
       "year": 2022,
@@ -2406,7 +2859,7 @@
       ]
     },
     {
-      "id": 2727,
+      "id": 2728,
       "title": "Bread and Salt",
       "director": "Damian Kocur",
       "year": 2022,
@@ -2417,7 +2870,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2728,
+      "id": 2729,
       "title": "Luxembourg, Luxembourg",
       "director": "Antonio Lukich",
       "year": 2022,
@@ -2428,7 +2881,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2729,
+      "id": 2730,
       "title": "Burning Hearts",
       "director": "Pippo Mezzapesa",
       "year": 2022,
@@ -2439,7 +2892,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2730,
+      "id": 2731,
       "title": "To the North",
       "director": "Mihai Mincan",
       "year": 2022,
@@ -2450,7 +2903,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2731,
+      "id": 2732,
       "title": "Autobiography",
       "director": "Makbul Mubarak",
       "year": 2022,
@@ -2461,7 +2914,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2732,
+      "id": 2733,
       "title": "La Syndicaliste",
       "director": "Jean-Paul Salomé",
       "year": 2022,
@@ -2472,7 +2925,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2733,
+      "id": 2734,
       "title": "World War III",
       "director": "Houman Seyyedi",
       "year": 2022,
@@ -2485,7 +2938,7 @@
       ]
     },
     {
-      "id": 2734,
+      "id": 2735,
       "title": "The Happiest Man in the World",
       "director": "Teona Strugar Mitevska",
       "year": 2022,
@@ -2498,7 +2951,7 @@
       ]
     },
     {
-      "id": 2735,
+      "id": 2736,
       "title": "The Bride",
       "director": "Sérgio Tréfaut",
       "year": 2022,
@@ -2509,7 +2962,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2736,
+      "id": 2737,
       "title": "Dogman",
       "director": "Luc Besson",
       "year": 2023,
@@ -2520,7 +2973,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2737,
+      "id": 2738,
       "title": "Out of Season",
       "director": "Stéphane Brizé",
       "year": 2023,
@@ -2531,7 +2984,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2738,
+      "id": 2739,
       "title": "Enea",
       "director": "Pietro Castellitto",
       "year": 2023,
@@ -2542,7 +2995,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2739,
+      "id": 2740,
       "title": "Finally Dawn",
       "director": "Saverio Costanzo",
       "year": 2023,
@@ -2553,7 +3006,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2740,
+      "id": 2741,
       "title": "The Commander",
       "director": "Edoardo De Angelis",
       "year": 2023,
@@ -2564,7 +3017,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2741,
+      "id": 2742,
       "title": "Lubo",
       "director": "Giorgio Diritti",
       "year": 2023,
@@ -2575,7 +3028,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2742,
+      "id": 2743,
       "title": "Origin",
       "director": "Ava DuVernay",
       "year": 2023,
@@ -2586,7 +3039,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2743,
+      "id": 2744,
       "title": "The Killer",
       "director": "David Fincher",
       "year": 2023,
@@ -2597,7 +3050,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2744,
+      "id": 2745,
       "title": "The Universal Theory",
       "director": "Timm Kröger",
       "year": 2023,
@@ -2608,7 +3061,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2745,
+      "id": 2746,
       "title": "El Conde",
       "director": "Pablo Larraín",
       "year": 2023,
@@ -2619,7 +3072,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2746,
+      "id": 2747,
       "title": "Ferrari",
       "director": "Michael Mann",
       "year": 2023,
@@ -2630,7 +3083,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2747,
+      "id": 2748,
       "title": "Adagio",
       "director": "Stefano Sollima",
       "year": 2023,
@@ -2641,7 +3094,18 @@
       "alternate_titles": []
     },
     {
-      "id": 2748,
+      "id": 2749,
+      "title": "Woman of...",
+      "director": "Małgorzata Szumowska, Michał Englert",
+      "year": 2023,
+      "tmdb_id": 1156130,
+      "imdb_id": "tt26746630",
+      "original_title": "Kobieta z...",
+      "original_language": "pl",
+      "alternate_titles": []
+    },
+    {
+      "id": 2750,
       "title": "Holly",
       "director": "Fien Troch",
       "year": 2023,
@@ -2652,7 +3116,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2749,
+      "id": 2751,
       "title": "Upon Open Sky",
       "director": "Mariana Arriaga, Santiago Arriaga",
       "year": 2023,
@@ -2663,7 +3127,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2750,
+      "id": 2752,
       "title": "Almost Paradise",
       "director": "Enrico Maria Artale",
       "year": 2023,
@@ -2674,7 +3138,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2751,
+      "id": 2753,
       "title": "Behind the Mountains",
       "director": "Mohamed Ben Attia",
       "year": 2023,
@@ -2687,7 +3151,7 @@
       ]
     },
     {
-      "id": 2752,
+      "id": 2754,
       "title": "The Red Suitcase",
       "director": "Fidel Devkota",
       "year": 2023,
@@ -2698,7 +3162,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2753,
+      "id": 2755,
       "title": "Paradise Is Burning",
       "director": "Mika Gustafson",
       "year": 2023,
@@ -2709,7 +3173,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2754,
+      "id": 2756,
       "title": "The Featherweight",
       "director": "Robert Kolodny",
       "year": 2023,
@@ -2720,7 +3184,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2755,
+      "id": 2757,
       "title": "Nowhere",
       "director": "Simone Massi",
       "year": 2023,
@@ -2731,7 +3195,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2756,
+      "id": 2758,
       "title": "Hesitation Wound",
       "director": "Selman Nacar",
       "year": 2023,
@@ -2742,7 +3206,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2757,
+      "id": 2759,
       "title": "Tatami",
       "director": "Guy Nattiv, Zar Amir Ebrahimi",
       "year": 2023,
@@ -2753,7 +3217,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2758,
+      "id": 2760,
       "title": "Heartless",
       "director": "Tião, Nara Normande",
       "year": 2023,
@@ -2764,7 +3228,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2759,
+      "id": 2761,
       "title": "An Endless Sunday",
       "director": "Alain Parroni",
       "year": 2023,
@@ -2775,7 +3239,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2760,
+      "id": 2762,
       "title": "City of Wind",
       "director": "Lkhagvadulam Purev-Ochir",
       "year": 2023,
@@ -2788,7 +3252,7 @@
       ]
     },
     {
-      "id": 2761,
+      "id": 2763,
       "title": "Explanation for Everything",
       "director": "Gábor Reisz",
       "year": 2023,
@@ -2799,7 +3263,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2762,
+      "id": 2764,
       "title": "Gasoline Rainbow",
       "director": "Bill Ross, Turner Ross",
       "year": 2023,
@@ -2810,7 +3274,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2763,
+      "id": 2765,
       "title": "For Night Will Come",
       "director": "Céline Rouzet",
       "year": 2023,
@@ -2821,7 +3285,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2764,
+      "id": 2766,
       "title": "Shadow of Fire",
       "director": "Shinya Tsukamoto",
       "year": 2023,
@@ -2834,7 +3298,7 @@
       ]
     },
     {
-      "id": 2765,
+      "id": 2767,
       "title": "Dormitory",
       "director": "Nehir Tuna",
       "year": 2023,
@@ -2845,7 +3309,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2766,
+      "id": 2768,
       "title": "Battlefield",
       "director": "Gianni Amelio",
       "year": 2024,
@@ -2856,7 +3320,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2767,
+      "id": 2769,
       "title": "Sicilian Letters",
       "director": "Fabio Grassadonia, Antonio Piazza",
       "year": 2024,
@@ -2869,7 +3333,7 @@
       ]
     },
     {
-      "id": 2768,
+      "id": 2770,
       "title": "Love",
       "director": "Dag Johan Haugerud",
       "year": 2024,
@@ -2880,7 +3344,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2769,
+      "id": 2771,
       "title": "Kill the Jockey",
       "director": "Luis Ortega",
       "year": 2024,
@@ -2891,7 +3355,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2770,
+      "id": 2772,
       "title": "Diva Futura",
       "director": "Giulia Louise Steigerwalt",
       "year": 2024,
@@ -2902,7 +3366,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2771,
+      "id": 2773,
       "title": "Harvest",
       "director": "Athina Rachel Tsangari",
       "year": 2024,
@@ -2913,7 +3377,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2772,
+      "id": 2774,
       "title": "Youth (Homecoming)",
       "director": "Wang Bing",
       "year": 2024,
@@ -2926,7 +3390,7 @@
       ]
     },
     {
-      "id": 2773,
+      "id": 2775,
       "title": "Stranger Eyes",
       "director": "Yeo Siew Hua",
       "year": 2024,
@@ -2937,7 +3401,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2774,
+      "id": 2776,
       "title": "My Everything",
       "director": "Anne-Sophie Bailly",
       "year": 2024,
@@ -2948,7 +3412,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2775,
+      "id": 2777,
       "title": "Aicha",
       "director": "Mehdi M. Barsaoui",
       "year": 2024,
@@ -2959,7 +3423,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2776,
+      "id": 2778,
       "title": "Happy Holidays",
       "director": "Scandar Copti",
       "year": 2024,
@@ -2970,7 +3434,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2777,
+      "id": 2779,
       "title": "Familia",
       "director": "Francesco Costabile",
       "year": 2024,
@@ -2981,7 +3445,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2778,
+      "id": 2780,
       "title": "One of Those Days When Hemme Dies",
       "director": "Murat Fıratoğlu",
       "year": 2024,
@@ -2992,7 +3456,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2779,
+      "id": 2781,
       "title": "Familiar Touch",
       "director": "Sarah Friedland",
       "year": 2024,
@@ -3003,7 +3467,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2780,
+      "id": 2782,
       "title": "Carissa",
       "director": "Jason Jacobs, Devon Delmar",
       "year": 2024,
@@ -3014,7 +3478,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2781,
+      "id": 2783,
       "title": "Wishing on a Star",
       "director": "Peter Kerekeš",
       "year": 2024,
@@ -3025,7 +3489,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2782,
+      "id": 2784,
       "title": "Mistress Dispeller",
       "director": "Elizabeth Lo",
       "year": 2024,
@@ -3036,7 +3500,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2783,
+      "id": 2785,
       "title": "Feeling Better",
       "director": "Valerio Mastandrea",
       "year": 2024,
@@ -3047,7 +3511,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2784,
+      "id": 2786,
       "title": "Of Dogs and Men",
       "director": "Dani Rosenberg",
       "year": 2024,
@@ -3060,7 +3524,7 @@
       ]
     },
     {
-      "id": 2785,
+      "id": 2787,
       "title": "Pavements",
       "director": "Alex Ross Perry",
       "year": 2024,
@@ -3071,7 +3535,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2786,
+      "id": 2788,
       "title": "The Ties That Bind Us",
       "director": "Carine Tardieu",
       "year": 2024,
@@ -3082,7 +3546,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2787,
+      "id": 2789,
       "title": "Nineteen",
       "director": "Giovanni Tortorici",
       "year": 2024,
@@ -3093,7 +3557,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2788,
+      "id": 2790,
       "title": "Divine Comedy",
       "director": "Ali Asgari",
       "year": 2025,
@@ -3106,7 +3570,7 @@
       ]
     },
     {
-      "id": 2789,
+      "id": 2791,
       "title": "The Ivy",
       "director": "Ana Cristina Barragán",
       "year": 2025,
@@ -3117,7 +3581,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2790,
+      "id": 2792,
       "title": "The Kidnapping of Arabella",
       "director": "Carolina Cavalli",
       "year": 2025,
@@ -3128,7 +3592,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2791,
+      "id": 2793,
       "title": "Strange River",
       "director": "Jaume Claret Muxart",
       "year": 2025,
@@ -3139,7 +3603,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2792,
+      "id": 2794,
       "title": "Lost Land",
       "director": "Akio Fujimoto",
       "year": 2025,
@@ -3150,7 +3614,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2793,
+      "id": 2795,
       "title": "The Site",
       "director": "Akihiro Hata",
       "year": 2025,
@@ -3161,7 +3625,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2794,
+      "id": 2796,
       "title": "Late Fame",
       "director": "Kent Jones",
       "year": 2025,
@@ -3172,7 +3636,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2795,
+      "id": 2797,
       "title": "Milk Teeth",
       "director": "Mihai Mincan",
       "year": 2025,
@@ -3183,7 +3647,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2796,
+      "id": 2798,
       "title": "Pin de Fartie",
       "director": "Alejo Moguillansky",
       "year": 2025,
@@ -3194,7 +3658,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2797,
+      "id": 2799,
       "title": "Father",
       "director": "Tereza Nvotová",
       "year": 2025,
@@ -3205,7 +3669,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2798,
+      "id": 2800,
       "title": "Songs of Forgotten Trees",
       "director": "Anuparna Roy",
       "year": 2025,
@@ -3216,7 +3680,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2799,
+      "id": 2801,
       "title": "A Year of School",
       "director": "Laura Samani",
       "year": 2025,
@@ -3227,7 +3691,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2800,
+      "id": 2802,
       "title": "The Souffleur",
       "director": "Gastón Solnicki",
       "year": 2025,
@@ -3238,7 +3702,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2801,
+      "id": 2803,
       "title": "Barrio Triste",
       "director": "STILLZ",
       "year": 2025,
@@ -3249,7 +3713,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2802,
+      "id": 2804,
       "title": "Human Resource",
       "director": "Nawapol Thamrongrattanarit",
       "year": 2025,
@@ -3260,7 +3724,7 @@
       "alternate_titles": []
     },
     {
-      "id": 2803,
+      "id": 2805,
       "title": "Funeral Casino Blues",
       "director": "Roderick Warich",
       "year": 2025,
@@ -3271,37 +3735,5 @@
       "alternate_titles": []
     }
   ],
-  "unresolved": [
-    {
-      "title": "Kapitan Volkonogov bezhal",
-      "aliases": [
-        "Captain Volkonogov Escaped"
-      ],
-      "director": "Natasha Merkulova, Aleksey Chupov",
-      "year": 2021,
-      "runtime": 126,
-      "source": "https://www.labiennale.org/en/cinema/2021/lineup/venezia-78-competition/kapitan-volkonogov-bezhal-captain-volkonogov-escaped",
-      "reason": "Expected one title/director feature match; found 0; candidates [{\"id\":818621,\"title\":\"Captain Volkonogov Escaped\",\"year\":\"2023-01-05\",\"director\":\"Natalya Merkulova, Alexey Chupov\",\"imdb_id\":\"tt13322726\",\"runtime\":125,\"cast\":[\"Yura Borisov\",\"Timofey Tribuntsev\",\"Nikita Kukushkin\",\"Aleksandr Yatsenko\",\"Natalya Kudryashova\",\"Viktoriya Tolstoganova\",\"Anastasiya Ukolova\",\"Vitaliya Kornienko\"]}]"
-    },
-    {
-      "title": "Kobieta Z...",
-      "aliases": [
-        "Woman of"
-      ],
-      "director": "Małgorzata Szumowska, Michał Englert",
-      "year": 2023,
-      "runtime": 132,
-      "source": "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/kobieta-z-woman",
-      "reason": "Expected one title/director feature match; found 0; candidates [{\"id\":1156130,\"title\":\"Woman of...\",\"year\":\"2024-04-05\",\"director\":\"Małgorzata Szumowska, Michał Englert\",\"imdb_id\":\"tt26746630\",\"runtime\":0,\"cast\":[\"Małgorzata Hajewska-Krzysztofik\",\"Joanna Kulig\",\"Mateusz Więcławek\",\"Bogumiła Bajor\",\"Jerzy Bończak\",\"Anna Tomaszewska\",\"Jacek Braciak\",\"Franciszek Englert\"]}]"
-    },
-    {
-      "title": "Mother",
-      "aliases": [],
-      "director": "Teona Strugar Mitevska",
-      "year": 2025,
-      "runtime": 104,
-      "source": "https://www.labiennale.org/en/cinema/2025/orizzonti/mother",
-      "reason": "Expected one title/director feature match; found 0; candidates [{\"id\":1306289,\"title\":\"Mother\",\"year\":\"2024-06-17\",\"director\":\"Giuseppe Marone\",\"imdb_id\":null,\"runtime\":2,\"cast\":[\"Emanuele Camerlingo\",\"Michela Maglione\",\"Michele Maragno\"]},{\"id\":1292123,\"title\":\"Mother\",\"year\":\"2025-12-03\",\"director\":\"Teona Strugar Mitevska, Vuk Mitevski\",\"imdb_id\":\"tt18246200\",\"runtime\":103,\"cast\":[\"Noomi Rapace\",\"Nikola Ristanovski\",\"Sylvia Hoeks\",\"Ekin Corapci\",\"Marijke Pinoy\",\"Labina Mitevska\",\"Vala Norén\",\"Akshay Kapoor\"]},{\"id\":1230328,\"title\":\"Mother\",\"year\":\"2025-08-01\",\"director\":\"Tara Salas\",\"imdb_id\":\"tt30252530\",\"runtime\":15,\"cast\":[\"Lisa Riesner\",\"Sofie Lassen-Kahlke\",\"Diêm Camille\",\"Alban Lendorf\",\"Coco Hjardemaal\",\"Aske Bang\"]},{\"id\":1477351,\"title\":\"Mother\",\"year\":\"2025-05-02\",\"director\":\"Kahu Kaiha\",\"imdb_id\":null,\"runtime\":12,\"cast\":[\"Genevieve Kiikoro\",\"Athens Koloi\",\"Jeziah Barwig-Uini\",\"Jovahn Barwig-Uini\",\"Tekuhei Kaiha\",\"Nora A'ati\",\"Esther Mauga\",\"Jonathan Porter\"]}]"
-    }
-  ]
+  "unresolved": []
 }
