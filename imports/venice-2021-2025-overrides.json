@@ -13,5 +13,37 @@
     "director_aliases": [
       "Mehdi M. Barsaoui"
     ]
+  },
+  "https://www.labiennale.org/en/cinema/2025/orizzonti/mother": {
+    "tmdb_id": 1292123,
+    "director_aliases": [
+      "Teona Strugar Mitevska, Vuk Mitevski"
+    ],
+    "canonical_director": "Teona Strugar Mitevska",
+    "required_cast": [
+      "Noomi Rapace",
+      "Sylvia Hoeks",
+      "Nikola Ristanovski"
+    ],
+    "evidence": [
+      "https://www.labiennale.org/en/cinema/2025/orizzonti/mother",
+      "https://www.fraufilm.dk/mother/"
+    ],
+    "note": "Official festival and producer credit Teona alone as director; Vuk is the production designer. Verify provider cast and fixed identity, then use the authoritative director credit for this new entry.",
+    "expected_imdb": "tt18246200"
+  },
+  "https://www.labiennale.org/en/cinema/2021/lineup/venezia-78-competition/kapitan-volkonogov-bezhal-captain-volkonogov-escaped": {
+    "director_aliases": [
+      "Natalya Merkulova, Alexey Chupov"
+    ]
+  },
+  "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/kobieta-z-woman": {
+    "tmdb_id": 1156130,
+    "expected_imdb": "tt26746630",
+    "runtime": 132,
+    "evidence": [
+      "https://www.labiennale.org/en/cinema/2023/venezia-80-competition/kobieta-z-woman"
+    ],
+    "note": "Provider runtime is missing; use the official 132-minute feature runtime after fixed provider ID/IMDb/director verification."
   }
 }
