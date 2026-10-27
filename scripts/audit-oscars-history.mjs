@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+import vm from 'node:vm';
+const context={window:{}};vm.runInNewContext(fs.readFileSync('film-catalog.js','utf8'),context);
+const films=context.window.CULTURE_CATALOG;
+const norm=s=>String(s||'').normalize('NFKD').replace(/\p{M}/gu,'').toLowerCase().replace(/[^\p{L}\p{N}]/gu,'');
+const source=JSON.parse(fs.readFileSync('imports/oscars-2021-2025-source.json','utf8'));
+const rows=source.events.flatMap(e=>e.categories.flatMap(c=>c.entries.map(r=>({...r,ceremony_year:e.year,category:c.name}))));
+const titles=[...new Set(rows.map(r=>r.title))];
+const audit=titles.map(title=>({title,candidates:films.filter(f=>[f.title,f.original_title,...f.alternate_titles||[]].some(t=>norm(t)===norm(title))).map(f=>({id:f.id,title:f.title,year:f.year,director:f.director,tmdb_id:f.tmdb_id})),status:'requires identity review'}));
+fs.writeFileSync('imports/oscars-2021-2025-identity-review.json',JSON.stringify({note:'Title matches are candidates, not verified identities. No catalogue or rating changes.',ceremonies:source.events.length,categories:source.events.reduce((n,e)=>n+e.categories.length,0),nomination_entries:rows.length,distinct_titles:titles.length,identities:audit},null,2)+'\n');
+console.log(JSON.stringify({distinct:titles.length,noMatch:audit.filter(r=>!r.candidates.length).length,ambiguous:audit.filter(r=>r.candidates.length>1).length}));

@@ -1,0 +1,1225 @@
+{
+  "note": "Title matches are candidates, not verified identities. No catalogue or rating changes.",
+  "ceremonies": 5,
+  "categories": 55,
+  "nomination_entries": 298,
+  "distinct_titles": 144,
+  "identities": [
+    {
+      "title": "Nomadland",
+      "candidates": [
+        {
+          "id": 1492,
+          "title": "Nomadland",
+          "year": 2021,
+          "director": "Chloé Zhao",
+          "tmdb_id": 581734
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "The Father",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Judas and the Black Messiah",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Mank",
+      "candidates": [
+        {
+          "id": 338,
+          "title": "Mank",
+          "year": 2020,
+          "director": "David Fincher",
+          "tmdb_id": 614560
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Minari",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Promising Young Woman",
+      "candidates": [
+        {
+          "id": 337,
+          "title": "Promising Young Woman",
+          "year": 2020,
+          "director": "Emerald Fennell",
+          "tmdb_id": 582014
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Sound of Metal",
+      "candidates": [
+        {
+          "id": 348,
+          "title": "Sound of Metal",
+          "year": 2020,
+          "director": "Darius Marder",
+          "tmdb_id": 502033
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "The Trial of the Chicago 7",
+      "candidates": [
+        {
+          "id": 336,
+          "title": "The Trial of the Chicago 7",
+          "year": 2020,
+          "director": "Aaron Sorkin",
+          "tmdb_id": 556984
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Another Round",
+      "candidates": [
+        {
+          "id": 331,
+          "title": "Another Round",
+          "year": 2020,
+          "director": "Thomas Vinterberg",
+          "tmdb_id": 580175
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Ma Rainey's Black Bottom",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "The United States vs. Billie Holiday",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Pieces of a Woman",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "One Night in Miami...",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Borat Subsequent Moviefilm: Delivery of Prodigious Bribe to American Regime for Make Benefit Once Glorious Nation of Kazakhstan",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Hillbilly Elegy",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "The White Tiger",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Better Days",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Collective",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "The Man Who Sold His Skin",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Quo Vadis, Aida?",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "My Octopus Teacher",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Crip Camp",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "The Mole Agent",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Time",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Soul",
+      "candidates": [
+        {
+          "id": 1487,
+          "title": "Soul",
+          "year": 2020,
+          "director": "Pete Docter",
+          "tmdb_id": 508442
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Onward",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Over the Moon",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "A Shaun the Sheep Movie: Farmageddon",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Wolfwalkers",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "CODA",
+      "candidates": [
+        {
+          "id": 1474,
+          "title": "CODA",
+          "year": 2021,
+          "director": "Sian Heder",
+          "tmdb_id": 776503
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Belfast",
+      "candidates": [
+        {
+          "id": 320,
+          "title": "Belfast",
+          "year": 2021,
+          "director": "Kenneth Branagh",
+          "tmdb_id": 777270
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Don't Look Up",
+      "candidates": [
+        {
+          "id": 324,
+          "title": "Don't Look Up",
+          "year": 2021,
+          "director": "Adam McKay",
+          "tmdb_id": 646380
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Drive My Car",
+      "candidates": [
+        {
+          "id": 327,
+          "title": "Drive My Car",
+          "year": 2021,
+          "director": "Ryusuke Hamaguchi",
+          "tmdb_id": 758866
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Dune",
+      "candidates": [
+        {
+          "id": 321,
+          "title": "Dune",
+          "year": 2021,
+          "director": "Denis Villeneuve",
+          "tmdb_id": 438631
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "King Richard",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Licorice Pizza",
+      "candidates": [
+        {
+          "id": 318,
+          "title": "Licorice Pizza",
+          "year": 2021,
+          "director": "Paul Thomas Anderson",
+          "tmdb_id": 718032
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Nightmare Alley",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "The Power of the Dog",
+      "candidates": [
+        {
+          "id": 1479,
+          "title": "The Power of the Dog",
+          "year": 2021,
+          "director": "Jane Campion",
+          "tmdb_id": 600583
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "West Side Story",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Being the Ricardos",
+      "candidates": [
+        {
+          "id": 1482,
+          "title": "Being the Ricardos",
+          "year": 2021,
+          "director": "Aaron Sorkin",
+          "tmdb_id": 517088
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "tick, tick...BOOM!",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "The Tragedy of Macbeth",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "The Eyes of Tammy Faye",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "The Lost Daughter",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Parallel Mothers",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Spencer",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "The Worst Person in the World",
+      "candidates": [
+        {
+          "id": 325,
+          "title": "The Worst Person in the World",
+          "year": 2021,
+          "director": "Joachim Trier",
+          "tmdb_id": 660120
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Flee",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "The Hand of God",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Lunana: A Yak in the Classroom",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Summer of Soul (...Or, When the Revolution Could Not Be Televised)",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Ascension",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Attica",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Writing with Fire",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Encanto",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Luca",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "The Mitchells vs. the Machines",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Raya and the Last Dragon",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Everything Everywhere All at Once",
+      "candidates": [
+        {
+          "id": 1478,
+          "title": "Everything Everywhere All at Once",
+          "year": 2022,
+          "director": "Daniel Scheinert, Daniel Kwan",
+          "tmdb_id": 545611
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "All Quiet on the Western Front",
+      "candidates": [
+        {
+          "id": 308,
+          "title": "All Quiet on the Western Front",
+          "year": 2022,
+          "director": "Edward Berger",
+          "tmdb_id": 49046
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Avatar: The Way of Water",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "The Banshees of Inisherin",
+      "candidates": [
+        {
+          "id": 313,
+          "title": "The Banshees of Inisherin",
+          "year": 2022,
+          "director": "Martin McDonagh",
+          "tmdb_id": 674324
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Elvis",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "The Fabelmans",
+      "candidates": [
+        {
+          "id": 1472,
+          "title": "The Fabelmans",
+          "year": 2022,
+          "director": "Steven Spielberg",
+          "tmdb_id": 804095
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Tár",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Top Gun: Maverick",
+      "candidates": [
+        {
+          "id": 312,
+          "title": "Top Gun: Maverick",
+          "year": 2022,
+          "director": "Joseph Kosinski",
+          "tmdb_id": 361743
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Triangle of Sadness",
+      "candidates": [
+        {
+          "id": 315,
+          "title": "Triangle of Sadness",
+          "year": 2022,
+          "director": "Ruben Östlund",
+          "tmdb_id": 497828
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Women Talking",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "The Whale",
+      "candidates": [
+        {
+          "id": 306,
+          "title": "The Whale",
+          "year": 2022,
+          "director": "Darren Aronofsky",
+          "tmdb_id": 785084
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Aftersun",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Living",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Blonde",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "To Leslie",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Causeway",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Black Panther: Wakanda Forever",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Glass Onion: A Knives Out Mystery",
+      "candidates": [
+        {
+          "id": 1469,
+          "title": "Glass Onion: A Knives Out Mystery",
+          "year": 2022,
+          "director": "Rian Johnson",
+          "tmdb_id": 661374
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Argentina, 1985",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Close",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "EO",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "The Quiet Girl",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Navalny",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "All That Breathes",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "All the Beauty and the Bloodshed",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Fire of Love",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "A House Made of Splinters",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Guillermo del Toro's Pinocchio",
+      "candidates": [
+        {
+          "id": 309,
+          "title": "Guillermo del Toro's Pinocchio",
+          "year": 2022,
+          "director": "Mark Gustafson, Guillermo del Toro",
+          "tmdb_id": 555604
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Marcel the Shell with Shoes On",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Puss in Boots: The Last Wish",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "The Sea Beast",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Turning Red",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Oppenheimer",
+      "candidates": [
+        {
+          "id": 298,
+          "title": "Oppenheimer",
+          "year": 2023,
+          "director": "Christopher Nolan",
+          "tmdb_id": 872585
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "American Fiction",
+      "candidates": [
+        {
+          "id": 293,
+          "title": "American Fiction",
+          "year": 2023,
+          "director": "Cord Jefferson",
+          "tmdb_id": 1056360
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Anatomy of a Fall",
+      "candidates": [
+        {
+          "id": 305,
+          "title": "Anatomy of a Fall",
+          "year": 2023,
+          "director": "Justine Triet",
+          "tmdb_id": 915935
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Barbie",
+      "candidates": [
+        {
+          "id": 292,
+          "title": "Barbie",
+          "year": 2023,
+          "director": "Greta Gerwig",
+          "tmdb_id": 346698
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "The Holdovers",
+      "candidates": [
+        {
+          "id": 299,
+          "title": "The Holdovers",
+          "year": 2023,
+          "director": "Alexander Payne",
+          "tmdb_id": 840430
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Killers of the Flower Moon",
+      "candidates": [
+        {
+          "id": 301,
+          "title": "Killers of the Flower Moon",
+          "year": 2023,
+          "director": "Martin Scorsese",
+          "tmdb_id": 466420
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Maestro",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Past Lives",
+      "candidates": [
+        {
+          "id": 302,
+          "title": "Past Lives",
+          "year": 2023,
+          "director": "Celine Song",
+          "tmdb_id": 666277
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Poor Things",
+      "candidates": [
+        {
+          "id": 296,
+          "title": "Poor Things",
+          "year": 2023,
+          "director": "Yorgos Lanthimos",
+          "tmdb_id": 792307
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "The Zone of Interest",
+      "candidates": [
+        {
+          "id": 122,
+          "title": "The Zone of Interest",
+          "year": 2024,
+          "director": "Jonathan Glazer",
+          "tmdb_id": 467244
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Rustin",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Nyad",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "The Color Purple",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "May December",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Io Capitano",
+      "candidates": [
+        {
+          "id": 291,
+          "title": "Io Capitano",
+          "year": 2023,
+          "director": "Matteo Garrone",
+          "tmdb_id": 937746
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Perfect Days",
+      "candidates": [
+        {
+          "id": 121,
+          "title": "Perfect Days",
+          "year": 2024,
+          "director": "Wim Wenders",
+          "tmdb_id": 976893
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Society of the Snow",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "The Teachers' Lounge",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "20 Days in Mariupol",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Bobi Wine: The People's President",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "The Eternal Memory",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Four Daughters",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "To Kill a Tiger",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "The Boy and the Heron",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Elemental",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Nimona",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Robot Dreams",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Spider-Man: Across the Spider-Verse",
+      "candidates": [],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Anora",
+      "candidates": [
+        {
+          "id": 101,
+          "title": "Anora",
+          "year": 2024,
+          "director": "Sean Baker",
+          "tmdb_id": 1064213
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "The Brutalist",
+      "candidates": [
+        {
+          "id": 102,
+          "title": "The Brutalist",
+          "year": 2024,
+          "director": "Brady Corbet",
+          "tmdb_id": 549509
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "A Complete Unknown",
+      "candidates": [
+        {
+          "id": 220,
+          "title": "A Complete Unknown",
+          "year": 2025,
+          "director": "James Mangold",
+          "tmdb_id": 661539
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Conclave",
+      "candidates": [
+        {
+          "id": 116,
+          "title": "Conclave",
+          "year": 2024,
+          "director": "Edward Berger",
+          "tmdb_id": 974576
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Dune: Part Two",
+      "candidates": [
+        {
+          "id": 198,
+          "title": "Dune: Part Two",
+          "year": 2024,
+          "director": "Denis Villeneuve",
+          "tmdb_id": 693134
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Emilia Pérez",
+      "candidates": [
+        {
+          "id": 117,
+          "title": "Emilia Pérez",
+          "year": 2024,
+          "director": "Jacques Audiard",
+          "tmdb_id": 974950
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "I'm Still Here",
+      "candidates": [
+        {
+          "id": 109,
+          "title": "I'm Still Here",
+          "year": 2024,
+          "director": "Walter Salles",
+          "tmdb_id": 1000837
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Nickel Boys",
+      "candidates": [
+        {
+          "id": 111,
+          "title": "Nickel Boys",
+          "year": 2024,
+          "director": "RaMell Ross",
+          "tmdb_id": 1028196
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "The Substance",
+      "candidates": [
+        {
+          "id": 104,
+          "title": "The Substance",
+          "year": 2024,
+          "director": "Coralie Fargeat",
+          "tmdb_id": 933260
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Wicked",
+      "candidates": [
+        {
+          "id": 200,
+          "title": "Wicked",
+          "year": 2024,
+          "director": "Jon M. Chu",
+          "tmdb_id": 402431
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Sing Sing",
+      "candidates": [
+        {
+          "id": 149,
+          "title": "Sing Sing",
+          "year": 2024,
+          "director": "Greg Kwedar",
+          "tmdb_id": 1155828
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "The Apprentice",
+      "candidates": [
+        {
+          "id": 147,
+          "title": "The Apprentice",
+          "year": 2024,
+          "director": "Ali Abbasi",
+          "tmdb_id": 1182047
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "A Real Pain",
+      "candidates": [
+        {
+          "id": 110,
+          "title": "A Real Pain",
+          "year": 2024,
+          "director": "Jesse Eisenberg",
+          "tmdb_id": 1013850
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "September 5",
+      "candidates": [
+        {
+          "id": 221,
+          "title": "September 5",
+          "year": 2025,
+          "director": "Tim Fehlbaum",
+          "tmdb_id": 1211472
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "The Girl with the Needle",
+      "candidates": [
+        {
+          "id": 114,
+          "title": "The Girl with the Needle",
+          "year": 2024,
+          "director": "Magnus von Horn",
+          "tmdb_id": 1232827
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "The Seed of the Sacred Fig",
+      "candidates": [
+        {
+          "id": 105,
+          "title": "The Seed of the Sacred Fig",
+          "year": 2024,
+          "director": "Mohammad Rasoulof",
+          "tmdb_id": 1278263
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Flow",
+      "candidates": [
+        {
+          "id": 107,
+          "title": "Flow",
+          "year": 2024,
+          "director": "Gints Zilbalodis",
+          "tmdb_id": 823219
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "No Other Land",
+      "candidates": [
+        {
+          "id": 112,
+          "title": "No Other Land",
+          "year": 2024,
+          "director": "Basel Adra & Yuval Abraham & Hamdan Ballal & Rachel Szor",
+          "tmdb_id": 1232493
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Black Box Diaries",
+      "candidates": [
+        {
+          "id": 192,
+          "title": "Black Box Diaries",
+          "year": 2024,
+          "director": "Shiori Itō",
+          "tmdb_id": 1214499
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Porcelain War",
+      "candidates": [
+        {
+          "id": 222,
+          "title": "Porcelain War",
+          "year": 2025,
+          "director": "Brendan Bellomo, Slava Leontyev",
+          "tmdb_id": 1214527
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Soundtrack to a Coup d'Etat",
+      "candidates": [
+        {
+          "id": 187,
+          "title": "Soundtrack to a Coup d'Etat",
+          "year": 2024,
+          "director": "Johan Grimonprez",
+          "tmdb_id": 1214539
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Sugarcane",
+      "candidates": [
+        {
+          "id": 188,
+          "title": "Sugarcane",
+          "year": 2024,
+          "director": "Julian Brave NoiseCat & Emily Kassie",
+          "tmdb_id": 1158874
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Inside Out 2",
+      "candidates": [
+        {
+          "id": 182,
+          "title": "Inside Out 2",
+          "year": 2024,
+          "director": "Kelsey Mann",
+          "tmdb_id": 1022789
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Memoir of a Snail",
+      "candidates": [
+        {
+          "id": 179,
+          "title": "Memoir of a Snail",
+          "year": 2024,
+          "director": "Adam Elliot",
+          "tmdb_id": 1064486
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "Wallace & Gromit: Vengeance Most Fowl",
+      "candidates": [
+        {
+          "id": 183,
+          "title": "Wallace & Gromit: Vengeance Most Fowl",
+          "year": 2024,
+          "director": "Nick Park & Merlin Crossingham",
+          "tmdb_id": 929204
+        }
+      ],
+      "status": "requires identity review"
+    },
+    {
+      "title": "The Wild Robot",
+      "candidates": [
+        {
+          "id": 115,
+          "title": "The Wild Robot",
+          "year": 2024,
+          "director": "Chris Sanders",
+          "tmdb_id": 1184918
+        }
+      ],
+      "status": "requires identity review"
+    }
+  ]
+}
