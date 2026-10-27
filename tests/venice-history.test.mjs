@@ -7,7 +7,7 @@ test('Venice history preserves every selected film and aggregates jury prizes wi
  for(let f of p.selection){const id=ids.get(f.source),row=c.entries.find(r=>r.film_id===id);assert.ok(catalog.some(f=>f.id===id));let prizes=p.prizes.flatMap(prize=>prize.entries.filter(r=>r.winner&&[f.title,...f.aliases||[]].some(t=>norm(t)===norm(r.title))).map(r=>prize.name+(r.people?.length?' · '+r.people.join(', '):'')));assert.deepEqual(row.prizes,prizes);assert.equal(row.winner,prizes.length>0);assert.deepEqual(event.films.find(f=>f.id===id).awards,prizes);}
  }
  }
- const e=events.find(e=>e.event==='Venice'&&e.year===2024),film=catalog.find(f=>f.title==='Familiar Touch');assert.equal(e.films.find(f=>f.id===film.id).awards.length,3);
+ const e=events.find(e=>e.event==='Venice'&&e.year===2024),film=catalog.find(f=>f.title==='Familiar Touch');assert.equal(e.films.find(f=>f.id===film.id).awards.length,3);const mother=catalog.find(f=>f.id===262);assert.equal(mother.director,'Teona Strugar Mitevska');assert.equal(audit.metadata_corrections.length,1);
 
 });
 
@@ -17,7 +17,9 @@ test('Historical Golden Globess deployment is idempotent, preserves existing dat
  const audit=JSON.parse(fs.readFileSync(new URL('../imports/venice-2021-2025-audit.json',import.meta.url),'utf8'));
  try{
   await db.exec("create table media_catalogue(work_key text primary key,work_type text,film_id bigint unique,metadata jsonb,is_static boolean);create table media_provider_links(provider_key text primary key,work_key text references media_catalogue);create table film_progress(film_id bigint primary key,rating numeric,notes text);insert into film_progress values (1,8.5,'Preserve my notes');");
-  await db.exec(sql);assert.equal((await db.query('select count(*) as n from media_catalogue')).rows[0].n,audit.new_canonical_ids.length);
+  await db.exec(`insert into media_catalogue values('movie:262','movie',262,'{"tmdb_id":1292123,"director":"Teona Strugar Mitevska, Vuk Mitevski","custom":"preserve"}',true);insert into media_provider_links values('movie:1292123','movie:262');`);
+  await db.exec(sql);assert.equal((await db.query('select count(*) as n from media_catalogue')).rows[0].n,audit.new_canonical_ids.length+1);
+  const mother=(await db.query("select metadata from media_catalogue where film_id=262")).rows[0].metadata;assert.equal(mother.director,'Teona Strugar Mitevska');assert.equal(mother.custom,'preserve');
   const first=audit.new_canonical_ids[0];await db.query("update media_catalogue set metadata=metadata||'{\"curated\":true}'::jsonb where film_id=$1",[first.id]);
   await db.exec(sql);assert.equal((await db.query('select metadata from media_catalogue where film_id=$1',[first.id])).rows[0].metadata.curated,true);assert.equal(Number((await db.query('select rating from film_progress')).rows[0].rating),8.5);assert.equal((await db.query('select notes from film_progress')).rows[0].notes,'Preserve my notes');
   await db.exec("insert into media_catalogue values('movie:999999','movie',999999,'{}',false)");await db.query('update media_provider_links set work_key=$1 where provider_key=$2',['movie:999999','movie:'+first.tmdb_id]);

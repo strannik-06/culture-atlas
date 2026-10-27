@@ -18,3 +18,14 @@ const guard=`do $$ begin
 end $$;`;
 fs.writeFileSync('imports/venice-2021-2025-catalogue-sync.sql','-- Venice 2021–2025: '+rows.length+' verified catalogue identities and provider links.\n-- Apply after merging the catalogue PR. Existing rows are preserved.\nbegin;\n'+guard+'\n'+inserts.join('\n')+'\ncommit;\n');
 console.log('Prepared '+rows.length+' catalogue rows and '+rows.length+' provider links; no rating writes.');
+
+// A narrowly guarded public metadata correction; no personal progress writes.
+for(const correction of report.metadata_corrections||[]){
+ const literal=v=>"'"+String(v).replaceAll("'","''")+"'";
+ const sql=`do $$ begin
+ if exists(select 1 from public.media_catalogue where work_key='movie:${correction.id}' and (work_type<>'movie' or (metadata->>'tmdb_id')::bigint is distinct from ${correction.tmdb_id} or coalesce(metadata->>'director','') not in (${literal(correction.from)},${literal(correction.director)}))) then raise exception 'Reviewed director correction identity changed'; end if;
+end $$;
+update public.media_catalogue set metadata=jsonb_set(metadata,'{director}',to_jsonb(${literal(correction.director)}::text)) where work_key='movie:${correction.id}' and (metadata->>'tmdb_id')::bigint=${correction.tmdb_id} and metadata->>'director'=${literal(correction.from)};
+`;
+ const path='imports/venice-2021-2025-catalogue-sync.sql',current=fs.readFileSync(path,'utf8');fs.writeFileSync(path,current.replace(/commit;\n$/,'-- Reviewed public director metadata correction for Mother; existing ID and all other fields preserved.\n'+sql+'commit;\n'));
+}
