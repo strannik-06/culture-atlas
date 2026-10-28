@@ -290,7 +290,7 @@ $('award-year').addEventListener('change',()=>{configureAwardCategories();render
 const ratingPopover=document.createElement('div');
 ratingPopover.className='star-picker';ratingPopover.hidden=true;ratingPopover.innerHTML='<div class="star-choices" role="group" aria-label="Choose a rating out of ten">'+Array.from({length:10},(_,i)=>'<button type="button" class="star-choice" data-index="'+i+'" aria-label="'+(i+1)+' stars"><span class="star-empty">★</span><span class="star-fill">★</span></button>').join('')+'</div><span class="rating-preview" aria-live="polite"></span><div class="rating-actions"><button type="button" class="clear-rating">Clear rating</button><button type="button" class="action rating-save" hidden>Save</button></div>';
 document.body.append(ratingPopover);
-let activeFilm=null,previewRating=null,filmRatingDraft=false,pendingFilmRating=null,originalFilmRating=null;
+let activeFilm=null,previewRating=null,filmRatingDraft=false,pendingFilmRating=null,originalFilmRating=null,filmRatingAnchor=null,filmRatingAnchorTop=0;
 function paintStars(value){
  ratingPopover.querySelectorAll('.star-choice').forEach((button,i)=>{
   button.querySelector('.star-fill').style.width=(Math.max(0,Math.min(1,value-i))*100)+'%';
@@ -298,7 +298,7 @@ function paintStars(value){
  ratingPopover.querySelector('.rating-preview').textContent=value?value.toFixed(1)+' / 10':'Not rated';
 }
 function placeRatingPopover(trigger){
- const rect=trigger.getBoundingClientRect(),width=Math.min(300,innerWidth-20),height=ratingPopover.offsetHeight;
+ const rect=trigger.getBoundingClientRect();filmRatingAnchor=trigger;filmRatingAnchorTop=rect.top;const width=Math.min(300,innerWidth-20),height=ratingPopover.offsetHeight;
  ratingPopover.style.left=Math.max(10,Math.min(innerWidth-width-10,rect.left))+'px';
  ratingPopover.style.top=(rect.top>=height+12?rect.top-height-8:Math.min(innerHeight-height-10,rect.bottom+8))+'px';
 }
@@ -343,7 +343,7 @@ ratingPopover.addEventListener('keydown',e=>{
  if((e.key==='Enter'||e.key===' ')&&previewRating!==null&&!e.target.closest('.rating-save')){e.preventDefault();stageFilmRating(previewRating)}
 });
 document.addEventListener('pointerdown',e=>{if(!ratingPopover.hidden&&!ratingPopover.contains(e.target)&&!e.target.closest('[data-open-stars]'))closeRatingPopover()});
-window.addEventListener('scroll',()=>{if(!ratingPopover.hidden)closeRatingPopover()},{passive:true});
+window.addEventListener('scroll',()=>{if(!ratingPopover.hidden&&filmRatingAnchor&&Math.abs(filmRatingAnchor.getBoundingClientRect().top-filmRatingAnchorTop)>1)closeRatingPopover()},{passive:true});
 window.addEventListener('resize',()=>{if(!ratingPopover.hidden)closeRatingPopover()});
 $('account-toggle').addEventListener('click',()=>{const panel=$('account');panel.hidden=!panel.hidden;$('account-toggle').setAttribute('aria-expanded',String(!panel.hidden))});
 document.addEventListener('click',e=>{if(!$('account').hidden&&!$('account').contains(e.target)&&!$('account-toggle').contains(e.target)){$('account').hidden=true;$('account-toggle').setAttribute('aria-expanded','false')}});
