@@ -251,3 +251,7 @@ test('Quick series and season stars require Save, dismiss drafts and preserve no
  d.querySelector('#tv-detail-close').click();d.querySelector('[data-tv-edit="tv:247718"]').click();p.querySelector('[data-quick-star="7"]').click();p.querySelector('.rating-save').click();await settle();assert.equal(h.writes.at(-1).args.p_work_key,'tv:247718');assert.equal(h.writes.at(-1).args.p_rating,8);
  }finally{await w.happyDOM.close();}
 });
+test('Quick-rating errors retain the draft and repeated Save clicks cannot issue duplicate requests',async()=>{
+ const h=await setupUI(),w=h.window,d=w.document;try{await w.CultureTV.setSession({id:a});const original=h.client.rpc;let calls=0,finish;h.client.rpc=async()=>{calls++;await new Promise(r=>finish=r);return{error:{message:'Changed on another device'}};};d.querySelector('[data-tv-edit="tv:247718"]').click();const p=d.querySelector('#tv-quick-stars');p.querySelector('[data-quick-star="7"]').click();p.querySelector('.rating-save').click();await settle();p.querySelector('.rating-save').click();assert.equal(calls,1);finish();await settle();assert.equal(p.hidden,false);assert.match(p.querySelector('.rating-popup-status').textContent,/Changed on another device/);assert.match(p.querySelector('.rating-preview').textContent,/8.0/);h.client.rpc=original;p.querySelector('.rating-save').click();await settle();assert.equal(p.hidden,true);
+ }finally{await w.happyDOM.close();}
+});

@@ -97,13 +97,13 @@
       quickPicker.addEventListener('click',e=>{const b=e.target.closest('[data-quick-star]');if(b)stage(e.detail===0?Number(b.dataset.quickStar)+1:pointer(e,b));if(e.target.closest('.rating-save'))saveQuick();});
       quickPicker.addEventListener('keydown',e=>{if(e.key==='Escape'){e.preventDefault();e.stopPropagation();closeQuick();}if(['ArrowLeft','ArrowDown','ArrowRight','ArrowUp'].includes(e.key)){e.preventDefault();stage(Math.max(.5,Math.min(10,(quickState?.value||0)+(['ArrowRight','ArrowUp'].includes(e.key)?.5:-.5))));}});
       document.addEventListener('pointerdown',e=>{if(quickState&&!quickPicker.contains(e.target)&&!e.target.closest('[data-tv-edit]'))closeQuick();});
-      window.addEventListener('resize',closeQuick);window.addEventListener('scroll',closeQuick,{passive:true});
+      window.addEventListener('resize',closeQuick);const dismissMoved=()=>{if(quickState?.anchor&&Math.abs(quickState.anchor.getBoundingClientRect().top-quickState.anchorTop)>1)closeQuick();};window.addEventListener('scroll',dismissMoved,{passive:true});$('tv-editor').addEventListener('scroll',dismissMoved,{passive:true});
     }
     ($('tv-editor').open?$('tv-editor'):document.body).append(quickPicker);quickPicker.hidden=false;
     quickPicker.querySelector('.rating-popup-title').textContent=work.series_kind==='season'?work.title:'Whole series · '+work.title;
     quickPicker.querySelector('.rating-popup-status').textContent='';quickPicker.querySelector('.rating-save').hidden=true;quickPicker.querySelectorAll('button').forEach(b=>b.disabled=false);
     quickPicker.querySelectorAll('.star-choice').forEach((b,i)=>b.querySelector('.star-fill').style.width=`${Math.max(0,Math.min(1,(quickState.value||0)-i))*100}%`);quickPicker.querySelector('.rating-preview').textContent=quickState.value?quickState.value.toFixed(1)+' / 10':'Not rated';
-    const r=trigger.getBoundingClientRect(),height=quickPicker.offsetHeight,width=Math.min(300,innerWidth-20);quickPicker.style.left=Math.max(10,Math.min(innerWidth-width-10,r.left))+'px';quickPicker.style.top=Math.max(10,Math.min(innerHeight-height-10,r.top>=height+12?r.top-height-8:r.bottom+8))+'px';
+    const r=trigger.getBoundingClientRect();quickState.anchor=trigger;quickState.anchorTop=r.top;const height=quickPicker.offsetHeight,width=Math.min(300,innerWidth-20);quickPicker.style.left=Math.max(10,Math.min(innerWidth-width-10,r.left))+'px';quickPicker.style.top=Math.max(10,Math.min(innerHeight-height-10,r.top>=height+12?r.top-height-8:r.bottom+8))+'px';
   }
   async function saveQuick(){
     const draft=quickState;if(!draft||draft.saving||!validRating(draft.value)||draft.value===draft.original)return;

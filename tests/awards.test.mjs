@@ -61,7 +61,7 @@ test('Ceremony performer nominations still repeat and share one rating',async()=
  const a=await boot('#/films/awards?event=Oscars&year=2026');try{
   const{w,$}=a,groups=$('awards-grid').querySelectorAll('.award-category'),id=groups[0].querySelector('article').dataset.filmId;
   const first=$('awards-grid').querySelector(`[data-film-id="${id}"]`);first.querySelector('[data-open-stars]').click();const stars=$('star-picker')||w.document.querySelector('.star-picker:not([hidden])');assert.ok(stars);
-  for(let i=0;i<16;i++)stars.dispatchEvent(new w.KeyboardEvent('keydown',{key:'ArrowRight',bubbles:true}));stars.dispatchEvent(new w.KeyboardEvent('keydown',{key:'Enter',bubbles:true}));
+  for(let i=0;i<16;i++)stars.dispatchEvent(new w.KeyboardEvent('keydown',{key:'ArrowRight',bubbles:true}));stars.dispatchEvent(new w.KeyboardEvent('keydown',{key:'Enter',bubbles:true}));stars.querySelector('.rating-save').click();
   const copies=$('awards-grid').querySelectorAll(`[data-film-id="${id}"] [data-open-stars]`);assert.ok(copies.length>1);for(const copy of copies)assert.match(copy.textContent,/8.0\/10/);
  }finally{await a.close();}
 });
