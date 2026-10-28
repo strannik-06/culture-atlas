@@ -1,0 +1,23 @@
+name: Review explicit rating save in Chromium
+on:
+  push:
+    branches: [feat/explicit-rating-save]
+permissions:
+  contents: read
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci --ignore-scripts
+      - run: npm install --no-save --package-lock=false --ignore-scripts playwright@1.62.1
+      - run: node scripts/preview-rating-save.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: rating-save-previews
+          path: docs/previews/rating-save-*.png

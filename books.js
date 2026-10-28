@@ -135,12 +135,13 @@
     starPicker=document.createElement('div');
     starPicker.id='book-star-picker';starPicker.className='star-picker';starPicker.hidden=true;
     starPicker.setAttribute('role','dialog');starPicker.setAttribute('aria-label','Choose a personal book rating');
-    starPicker.innerHTML='<div class="star-choices" role="group" aria-label="Choose a rating out of ten">'+Array.from({length:10},(_,i)=>`<button type="button" class="star-choice" data-index="${i}" aria-label="${i+1} stars"><span class="star-empty">★</span><span class="star-fill">★</span></button>`).join('')+'</div><span class="rating-preview" aria-live="polite"></span><button type="button" class="clear-rating">Clear rating</button>';
+    starPicker.innerHTML='<div class="star-choices" role="group" aria-label="Choose a rating out of ten">'+Array.from({length:10},(_,i)=>`<button type="button" class="star-choice" data-index="${i}" aria-label="${i+1} stars"><span class="star-empty">★</span><span class="star-fill">★</span></button>`).join('')+'</div><span class="rating-preview" aria-live="polite"></span><div class="rating-actions"><button type="button" class="clear-rating">Clear rating</button><button type="button" class="action rating-save" hidden>Save</button></div>';
     $('book-editor').append(starPicker);
+    let pending=null,original=null;const stage=value=>{pending=value;starPreview=null;paintBookStars(value);starPicker.querySelector('.rating-save').hidden=value===original;};
     const trigger=$('book-rating-trigger');
     trigger.addEventListener('click',()=>{
       if(!starPicker.hidden) {closeBookStars();return;}
-      starPreview=null;starPicker.hidden=false;trigger.setAttribute('aria-expanded','true');
+      original=Number($('book-rating').value)||null;pending=original;starPicker.querySelector('.rating-save').hidden=true;starPreview=null;starPicker.hidden=false;trigger.setAttribute('aria-expanded','true');
       paintBookStars(Number($('book-rating').value)||0);
       const rect=trigger.getBoundingClientRect(),width=Math.min(300,window.innerWidth-20),height=starPicker.offsetHeight;
       starPicker.style.left=Math.max(10,Math.min(window.innerWidth-width-10,rect.left))+'px';
@@ -160,19 +161,20 @@
       const button=event.target.closest('.star-choice');if(!button)return;
       starPreview=pointerValue(event,button);paintBookStars(starPreview);
     });
-    starPicker.querySelector('.star-choices').addEventListener('pointerleave',()=>{starPreview=null;paintBookStars(Number($('book-rating').value)||0);});
+    starPicker.querySelector('.star-choices').addEventListener('pointerleave',()=>{starPreview=null;paintBookStars(pending||0);});
     starPicker.addEventListener('click',event=>{
       const button=event.target.closest('.star-choice');
-      if(button) commit(event.detail===0?(starPreview??Number(button.dataset.index)+1):pointerValue(event,button));
-      else if(event.target.closest('.clear-rating')) commit(null);
+      if(button) stage(event.detail===0?(starPreview??Number(button.dataset.index)+1):pointerValue(event,button));
+      else if(event.target.closest('.clear-rating')) stage(null);
+      else if(event.target.closest('.rating-save'))commit(pending);
     });
     starPicker.addEventListener('keydown',event=>{
       if(event.key==='Escape') {event.preventDefault();event.stopPropagation();closeBookStars(true);return;}
       if(['ArrowLeft','ArrowDown','ArrowRight','ArrowUp'].includes(event.key)) {
-        event.preventDefault();starPreview=Math.max(.5,Math.min(10,(starPreview??(Number($('book-rating').value)||0))+(['ArrowRight','ArrowUp'].includes(event.key)?.5:-.5)));paintBookStars(starPreview);
+        event.preventDefault();starPreview=Math.max(.5,Math.min(10,(starPreview??(pending||0))+(['ArrowRight','ArrowUp'].includes(event.key)?.5:-.5)));paintBookStars(starPreview);
       }
-      if((event.key==='Enter'||event.key===' ')&&starPreview!==null) {event.preventDefault();commit(starPreview);}
-      if(event.key==='Tab') closeBookStars(true);
+      if((event.key==='Enter'||event.key===' ')&&starPreview!==null&&!event.target.closest('.rating-save')) {event.preventDefault();stage(starPreview);}
+
     });
     document.addEventListener('pointerdown',event=>{if(!starPicker.hidden&&!starPicker.contains(event.target)&&!trigger.contains(event.target)) closeBookStars();});
     window.addEventListener('scroll',()=>closeBookStars(),{passive:true});

@@ -50,35 +50,70 @@
   }
   let client,user=null,generation=0,loading=false,busy=false,ready=false,current=null,editorVersion=null,tab='catalogue';
   let rows=new Map(),linked=new Map(),shows=[],aliases=[],hooks={};
-  let awardBrowser;
+  let awardBrowser;let quickPicker,quickState=null;
   let picker,preview=null,editorHydrated=false,editing=false;const detailMetadata=new Map();
   function message(text){$('tv-message').textContent=text;}
   function closeStars(){if(picker)picker.hidden=true;$('tv-star-trigger')?.setAttribute('aria-expanded','false');preview=null;}
-  function closeEditor(){closeStars();current=null;editorVersion=null;$('tv-editor').close();$('tv-editor').hidden=true;$('tv-rating-form').reset();$('tv-editor').append($('tv-selected-title'),$('tv-selected-meta'));$('tv-detail-read').replaceChildren();}
+  function closeEditor(){closeQuick();closeStars();current=null;editorVersion=null;$('tv-editor').close();$('tv-editor').hidden=true;$('tv-rating-form').reset();$('tv-editor').append($('tv-selected-title'),$('tv-selected-meta'));$('tv-detail-read').replaceChildren();}
   function paint(value){picker.querySelectorAll('.star-choice').forEach((b,i)=>b.querySelector('.star-fill').style.width=`${Math.max(0,Math.min(1,value-i))*100}%`);picker.querySelector('.rating-preview').textContent=value?`${value.toFixed(1)} / 10`:'Not rated';}
   function setRating(value){$('tv-rating').value=value??'';$('tv-star-trigger').innerHTML=value?`★ <span class="value">${value.toFixed(1)}/10</span>`:'☆ <span class="value">Rate</span>';paint(value||0);}
   function initStars(){
     picker=document.createElement('div');picker.className='star-picker';picker.id='tv-star-picker';picker.hidden=true;picker.setAttribute('role','dialog');picker.setAttribute('aria-label','Choose a TV rating');
-    picker.innerHTML='<div class="star-choices" role="group" aria-label="Rating out of ten">'+Array.from({length:10},(_,i)=>`<button class="star-choice" type="button" data-star="${i}" aria-label="${i+1} stars"><span class="star-empty">★</span><span class="star-fill">★</span></button>`).join('')+'</div><span class="rating-preview" aria-live="polite"></span>';
+    picker.innerHTML='<div class="star-choices" role="group" aria-label="Rating out of ten">'+Array.from({length:10},(_,i)=>`<button class="star-choice" type="button" data-star="${i}" aria-label="${i+1} stars"><span class="star-empty">★</span><span class="star-fill">★</span></button>`).join('')+'</div><span class="rating-preview" aria-live="polite"></span><div class="rating-actions"><button type="button" class="action rating-save" hidden>Save</button></div>';
+    let pending=null,original=null;const stage=value=>{pending=value;preview=null;paint(value);picker.querySelector('.rating-save').hidden=value===original;};
     $('tv-editor').append(picker);
     $('tv-star-trigger').addEventListener('click',()=>{
-      if(!picker.hidden){closeStars();return;}picker.hidden=false;preview=null;paint(Number($('tv-rating').value)||0);$('tv-star-trigger').setAttribute('aria-expanded','true');
+      if(!picker.hidden){closeStars();return;}original=Number($('tv-rating').value)||null;pending=original;picker.querySelector('.rating-save').hidden=true;picker.hidden=false;preview=null;paint(pending||0);$('tv-star-trigger').setAttribute('aria-expanded','true');
       const r=$('tv-star-trigger').getBoundingClientRect(),width=Math.min(300,innerWidth-20),height=picker.offsetHeight;
       picker.style.left=Math.max(10,Math.min(innerWidth-width-10,r.left))+'px';picker.style.top=(r.top>height+12?r.top-height-8:Math.max(10,Math.min(innerHeight-height-10,r.bottom+8)))+'px';
       picker.querySelectorAll('.star-choice')[Math.max(0,Math.ceil(Number($('tv-rating').value)||1)-1)].focus();
     });
     const pointer=(e,b)=>Number(b.dataset.star)+(e.clientX-b.getBoundingClientRect().left<b.getBoundingClientRect().width/2?.5:1);
     picker.addEventListener('pointermove',e=>{const b=e.target.closest('[data-star]');if(b){preview=pointer(e,b);paint(preview);}});
-    picker.addEventListener('pointerleave',()=>{preview=null;paint(Number($('tv-rating').value)||0);});
-    picker.addEventListener('click',e=>{const b=e.target.closest('[data-star]');if(!b)return;setRating(e.detail===0?(preview??Number(b.dataset.star)+1):pointer(e,b));closeStars();$('tv-star-trigger').focus();});
+    picker.addEventListener('pointerleave',()=>{preview=null;paint(pending||0);});
+    picker.addEventListener('click',e=>{const b=e.target.closest('[data-star]');if(b)stage(e.detail===0?(preview??Number(b.dataset.star)+1):pointer(e,b));if(e.target.closest('.rating-save')){setRating(pending);closeStars();$('tv-star-trigger').focus();}});
     picker.addEventListener('keydown',e=>{
       if(e.key==='Escape'){e.preventDefault();e.stopPropagation();closeStars();$('tv-star-trigger').focus();}
-      if(['ArrowLeft','ArrowDown','ArrowRight','ArrowUp'].includes(e.key)){e.preventDefault();preview=Math.max(.5,Math.min(10,(preview??(Number($('tv-rating').value)||0))+(['ArrowRight','ArrowUp'].includes(e.key)?.5:-.5)));paint(preview);}
-      if((e.key==='Enter'||e.key===' ')&&preview!==null){e.preventDefault();setRating(preview);closeStars();$('tv-star-trigger').focus();}
-      if(e.key==='Tab')closeStars();
+      if(['ArrowLeft','ArrowDown','ArrowRight','ArrowUp'].includes(e.key)){e.preventDefault();preview=Math.max(.5,Math.min(10,(preview??(pending||0))+(['ArrowRight','ArrowUp'].includes(e.key)?.5:-.5)));paint(preview);}
+      if((e.key==='Enter'||e.key===' ')&&preview!==null&&!e.target.closest('.rating-save')){e.preventDefault();stage(preview);}
+
     });
     document.addEventListener('pointerdown',e=>{if(!picker.hidden&&!picker.contains(e.target)&&!$('tv-star-trigger').contains(e.target))closeStars();});
     window.addEventListener('scroll',closeStars,{passive:true});window.addEventListener('resize',closeStars);
+  }
+  function closeQuick(){if(quickState?.saving)return;quickState=null;if(quickPicker)quickPicker.hidden=true;}
+  function openQuick(trigger,key){
+    if(!user||!ready||busy||loading){message('Sign in and load your ratings to rate this work.');return;}
+    if(quickState?.saving)return;
+    const work=shows.find(w=>w.id===key);if(!work)return;
+    const old=rows.get(key);quickState={key,old:old?{...old}:null,value:Number(old?.rating)||null,original:Number(old?.rating)||null,generation,owner:user.id,saving:false};
+    if(!quickPicker){quickPicker=document.createElement('div');quickPicker.id='tv-quick-stars';quickPicker.className='star-picker';quickPicker.setAttribute('role','dialog');quickPicker.setAttribute('aria-label','Rate series or season');
+      quickPicker.innerHTML='<p class="rating-popup-title"></p><div class="star-choices">'+Array.from({length:10},(_,i)=>`<button type="button" class="star-choice" data-quick-star="${i}" aria-label="${i+1} stars"><span class="star-empty">★</span><span class="star-fill">★</span></button>`).join('')+'</div><span class="rating-preview" aria-live="polite"></span><div class="rating-actions"><button type="button" class="action rating-save" hidden>Save</button></div><p class="rating-popup-status" role="status"></p>';
+      const paintQuick=value=>{quickPicker.querySelectorAll('.star-choice').forEach((b,i)=>b.querySelector('.star-fill').style.width=`${Math.max(0,Math.min(1,(value||0)-i))*100}%`);quickPicker.querySelector('.rating-preview').textContent=value?value.toFixed(1)+' / 10':'Not rated';};
+      const stage=value=>{if(!quickState||quickState.saving)return;quickState.value=value;paintQuick(value);quickPicker.querySelector('.rating-save').hidden=value===quickState.original;};
+      const pointer=(e,b)=>Number(b.dataset.quickStar)+(e.clientX-b.getBoundingClientRect().left<b.getBoundingClientRect().width/2?.5:1);
+      quickPicker.addEventListener('pointermove',e=>{const b=e.target.closest('[data-quick-star]');if(b&&quickState&&!quickState.saving)paintQuick(pointer(e,b));});
+      quickPicker.querySelector('.star-choices').addEventListener('pointerleave',()=>{if(quickState)paintQuick(quickState.value);});
+      quickPicker.addEventListener('click',e=>{const b=e.target.closest('[data-quick-star]');if(b)stage(e.detail===0?Number(b.dataset.quickStar)+1:pointer(e,b));if(e.target.closest('.rating-save'))saveQuick();});
+      quickPicker.addEventListener('keydown',e=>{if(e.key==='Escape'){e.preventDefault();e.stopPropagation();closeQuick();}if(['ArrowLeft','ArrowDown','ArrowRight','ArrowUp'].includes(e.key)){e.preventDefault();stage(Math.max(.5,Math.min(10,(quickState?.value||0)+(['ArrowRight','ArrowUp'].includes(e.key)?.5:-.5))));}});
+      document.addEventListener('pointerdown',e=>{if(quickState&&!quickPicker.contains(e.target)&&!e.target.closest('[data-tv-edit]'))closeQuick();});
+      window.addEventListener('resize',closeQuick);window.addEventListener('scroll',closeQuick,{passive:true});
+    }
+    ($('tv-editor').open?$('tv-editor'):document.body).append(quickPicker);quickPicker.hidden=false;
+    quickPicker.querySelector('.rating-popup-title').textContent=work.series_kind==='season'?work.title:'Whole series · '+work.title;
+    quickPicker.querySelector('.rating-popup-status').textContent='';quickPicker.querySelector('.rating-save').hidden=true;quickPicker.querySelectorAll('button').forEach(b=>b.disabled=false);
+    quickPicker.querySelectorAll('.star-choice').forEach((b,i)=>b.querySelector('.star-fill').style.width=`${Math.max(0,Math.min(1,(quickState.value||0)-i))*100}%`);quickPicker.querySelector('.rating-preview').textContent=quickState.value?quickState.value.toFixed(1)+' / 10':'Not rated';
+    const r=trigger.getBoundingClientRect(),height=quickPicker.offsetHeight,width=Math.min(300,innerWidth-20);quickPicker.style.left=Math.max(10,Math.min(innerWidth-width-10,r.left))+'px';quickPicker.style.top=Math.max(10,Math.min(innerHeight-height-10,r.top>=height+12?r.top-height-8:r.bottom+8))+'px';
+  }
+  async function saveQuick(){
+    const draft=quickState;if(!draft||draft.saving||!validRating(draft.value)||draft.value===draft.original)return;
+    draft.saving=true;quickPicker.querySelectorAll('button').forEach(b=>b.disabled=true);quickPicker.querySelector('.rating-popup-status').textContent='Saving…';
+    try{await checkSession(draft.generation);if(user.id!==draft.owner)throw Error('Your account changed. Reopen the rating popup.');
+      const old=draft.old;
+      const {data,error}=await client.rpc('save_tv_rating',{p_work_key:draft.key,p_rating:draft.value,p_scope:old?.rating_scope||'whole_work',p_notes:old?.notes||'',p_watched_date:old?.watched_date||null,p_expected_updated_at:old?.updated_at||null});if(error)throw error;
+      if(generation!==draft.generation)return;rows.set(draft.key,data);draft.saving=false;closeQuick();render();if(current&&!editing){renderDetails();editorVersion=rows.get(current.id)?.updated_at||null;}message('TV rating saved to your account.');
+    }catch(error){if(quickState===draft)quickPicker.querySelector('.rating-popup-status').textContent=error.message||'Could not save rating.';}
+    finally{draft.saving=false;if(quickPicker)quickPicker.querySelectorAll('button').forEach(b=>b.disabled=false);}
   }
   async function readAll(table,fields,owner){
     const result=[];
@@ -92,7 +127,7 @@
   async function setSession(nextUser){
     const changed=user?.id!==nextUser?.id;
     user=nextUser||null;const version=++generation;ready=false;loading=!!user;
-    if(changed){closeEditor();rows=new Map();linked=new Map();closeStars();current=null;editorVersion=null;$('tv-editor').hidden=true;$('tv-rating-form').reset();}
+    if(changed){if(quickState)quickState.saving=false;closeQuick();closeEditor();rows=new Map();linked=new Map();closeStars();current=null;editorVersion=null;$('tv-editor').hidden=true;$('tv-rating-form').reset();}
     render();
     if(!user){message('Sign in using your account menu to save and import TV ratings.');return;}
     if(!client){loading=false;message('Cloud connection is unavailable.');render();return;}
@@ -249,7 +284,7 @@
     $('tv-search').addEventListener('input',render);$('tv-kind').addEventListener('change',render);$('tv-sort').addEventListener('change',render);$('tv-import').addEventListener('change',importFile);$('tv-import-button').addEventListener('click',()=>$('tv-import').click());$('tv-export').addEventListener('click',exportFile);$('tv-refresh').addEventListener('click',()=>setSession(user));
     section.addEventListener('click',e=>{
       const button=e.target.closest('[data-tv-tab]');if(button){tab=button.dataset.tvTab;closeEditor();section.querySelectorAll('[data-tv-tab]').forEach(b=>{b.classList.toggle('active',b===button);b.setAttribute('aria-pressed',String(b===button));});render();return;}
-      const edit=e.target.closest('[data-tv-edit]');if(edit){choose(edit.dataset.tvEdit);editMode(true);return;}
+      const edit=e.target.closest('[data-tv-edit]');if(edit){openQuick(edit,edit.dataset.tvEdit);return;}
       const card=e.target.closest('article[data-tv-work]');if(card&&!e.target.closest('a,button')){if(card.dataset.tvWork.startsWith('movie:'))hooks.onOpenFilm?.(Number(card.dataset.tvWork.split(':')[1]));else choose(card.dataset.tvWork);}
       const link=e.target.closest('[data-linked-film]');if(link)hooks.onOpenFilm?.(Number(link.dataset.linkedFilm));
     });

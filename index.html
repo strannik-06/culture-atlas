@@ -17,7 +17,7 @@
  .ratings-pagination[hidden]{display:none}
  .ratings-pagination button{background:#202536;color:inherit;border:1px solid #485067;border-radius:8px;padding:.7rem 1rem;cursor:pointer}
  .ratings-pagination button:disabled{opacity:.4;cursor:not-allowed}
-</style><link rel="stylesheet" href="awards.css"><link rel="stylesheet" href="books.css"><link rel="stylesheet" href="tv.css"><link rel="stylesheet" href="media.css"><link rel="stylesheet" href="details.css"></head><body>
+.rating-actions{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:6px}.rating-save{margin-left:auto;padding:5px 12px;font-size:12px}.rating-save[hidden]{display:none}.rating-popup-status{font-size:12px;color:#efc4ab;margin:6px 0 0}.rating-popup-title{font-size:13px;margin:0 0 8px;color:#e6d2ad}</style><link rel="stylesheet" href="awards.css"><link rel="stylesheet" href="books.css"><link rel="stylesheet" href="tv.css"><link rel="stylesheet" href="media.css"><link rel="stylesheet" href="details.css"></head><body>
 <header><div class="shell top"><div class="brand">CULTURE <b>ATLAS</b></div><nav class="nav"><button type="button" class="nav-tab active" data-section="films" aria-pressed="true">Films</button><button type="button" class="nav-tab" data-section="tv" aria-pressed="false">TV Series</button><button type="button" class="nav-tab" data-section="books" aria-pressed="false">Books</button><span class="soon" title="Coming later">Music</span></nav><button id="account-toggle" class="action account-toggle" type="button" aria-controls="account" aria-expanded="false">Account ▾</button></div></header>
 <main class="shell"><div id="cinema-area"><nav class="film-subnav" aria-label="Films sections"><button class="film-subtab active" type="button" data-view="films">Top 100</button><button class="film-subtab" type="button" data-view="awards">Awards</button><button class="film-subtab" type="button" data-view="ratings">My ratings</button><button class="film-subtab" type="button" data-view="catalogue">Catalogue</button></nav><section class="hero" id="films-hero"><div class="eyebrow">Your curated cultural collection</div><h1>Cinema worth exploring.</h1><p>A personal atlas of remarkable films, from festival discoveries to animation and documentaries. Explore the 2024 and 2025 selections, keep track of what you've seen and rate your favorites.</p></section>
 <div id="films-view"><section class="stats"><div class="stat"><strong id="total">100</strong><small>Films selected</small></div><div class="stat"><strong id="seen">0</strong><small>Films watched</small><div class="bar"><i id="progress" style="width:0%"></i></div></div><div class="stat"><strong id="avg">—</strong><small>Average personal rating</small></div></section>
@@ -288,9 +288,9 @@ $('award-year').addEventListener('change',()=>{configureAwardCategories();render
 ['search','year','tier','genre','status'].forEach(id=>$(id).addEventListener(id==='search'?'input':'change',render));
 // Keep the rating popover outside the card grid so no card can clip it.
 const ratingPopover=document.createElement('div');
-ratingPopover.className='star-picker';ratingPopover.hidden=true;ratingPopover.innerHTML='<div class="star-choices" role="group" aria-label="Choose a rating out of ten">'+Array.from({length:10},(_,i)=>'<button type="button" class="star-choice" data-index="'+i+'" aria-label="'+(i+1)+' stars"><span class="star-empty">★</span><span class="star-fill">★</span></button>').join('')+'</div><span class="rating-preview" aria-live="polite"></span><button type="button" class="clear-rating">Clear rating</button>';
+ratingPopover.className='star-picker';ratingPopover.hidden=true;ratingPopover.innerHTML='<div class="star-choices" role="group" aria-label="Choose a rating out of ten">'+Array.from({length:10},(_,i)=>'<button type="button" class="star-choice" data-index="'+i+'" aria-label="'+(i+1)+' stars"><span class="star-empty">★</span><span class="star-fill">★</span></button>').join('')+'</div><span class="rating-preview" aria-live="polite"></span><div class="rating-actions"><button type="button" class="clear-rating">Clear rating</button><button type="button" class="action rating-save" hidden>Save</button></div>';
 document.body.append(ratingPopover);
-let activeFilm=null,previewRating=null,filmRatingDraft=false;
+let activeFilm=null,previewRating=null,filmRatingDraft=false,pendingFilmRating=null,originalFilmRating=null;
 function paintStars(value){
  ratingPopover.querySelectorAll('.star-choice').forEach((button,i)=>{
   button.querySelector('.star-fill').style.width=(Math.max(0,Math.min(1,value-i))*100)+'%';
@@ -306,12 +306,13 @@ function closeRatingPopover(){ratingPopover.hidden=true;activeFilm=null;previewR
 function openRatingPopover(trigger,id,draft=false){
  if(activeFilm===id&&!ratingPopover.hidden){closeRatingPopover();return}
  (draft?$('film-detail-dialog'):document.body).append(ratingPopover);filmRatingDraft=draft;activeFilm=id;previewRating=null;ratingPopover.hidden=false;
- paintStars(draft?(filmDetailState?.rating||0):(Number(progress[id]?.rating)||0));placeRatingPopover(trigger);
+ originalFilmRating=draft?(filmDetailState?.rating??null):(Number(progress[id]?.rating)||null);pendingFilmRating=originalFilmRating;ratingPopover.querySelector('.rating-save').hidden=true;paintStars(pendingFilmRating||0);placeRatingPopover(trigger);
 }
 function pointerRating(event,button){
  const rect=button.getBoundingClientRect();
  return Number(button.dataset.index)+(event.clientX-rect.left<rect.width/2?0.5:1);
 }
+function stageFilmRating(value){pendingFilmRating=value;previewRating=null;paintStars(value||0);ratingPopover.querySelector('.rating-save').hidden=value===originalFilmRating;}
 function commitRating(value){
  if(!activeFilm)return;
  if(filmRatingDraft){filmDetailState.rating=value;const b=$('film-detail-stars');b.innerHTML=(value?'★':'☆')+' <span class="value">'+(value?value.toFixed(1)+'/10':'Rate')+'</span>';closeRatingPopover();b.focus();return;}
@@ -325,20 +326,21 @@ ratingPopover.addEventListener('pointermove',e=>{
  const button=e.target.closest('.star-choice');if(!button||!activeFilm)return;
  previewRating=pointerRating(e,button);paintStars(previewRating);
 });
-ratingPopover.querySelector('.star-choices').addEventListener('pointerleave',()=>{previewRating=null;paintStars(Number(progress[activeFilm]?.rating)||0)});
+ratingPopover.querySelector('.star-choices').addEventListener('pointerleave',()=>{previewRating=null;paintStars(pendingFilmRating||0)});
 ratingPopover.addEventListener('click',e=>{
  const button=e.target.closest('.star-choice');
- if(button){commitRating(pointerRating(e,button));return}
- if(e.target.closest('.clear-rating'))commitRating(null);
+ if(e.target.closest('.rating-save')){commitRating(pendingFilmRating);return}
+ if(button)stageFilmRating(e.detail===0?(previewRating??Number(button.dataset.index)+1):pointerRating(e,button));
+ if(e.target.closest('.clear-rating'))stageFilmRating(null);
 });
 ratingPopover.addEventListener('keydown',e=>{
  if(!activeFilm)return;
  if(e.key==='Escape'){e.preventDefault();e.stopPropagation();closeRatingPopover();return}
  if(['ArrowLeft','ArrowDown','ArrowRight','ArrowUp'].includes(e.key)){
-  e.preventDefault();previewRating=Math.max(.5,Math.min(10,(previewRating??(filmRatingDraft?filmDetailState?.rating:(Number(progress[activeFilm]?.rating)||0))??0)+((e.key==='ArrowRight'||e.key==='ArrowUp') ? 0.5 : -0.5)));
+  e.preventDefault();previewRating=Math.max(.5,Math.min(10,(previewRating??(pendingFilmRating)??0)+((e.key==='ArrowRight'||e.key==='ArrowUp') ? 0.5 : -0.5)));
   paintStars(previewRating);
  }
- if((e.key==='Enter'||e.key===' ')&&previewRating!==null){e.preventDefault();commitRating(previewRating)}
+ if((e.key==='Enter'||e.key===' ')&&previewRating!==null&&!e.target.closest('.rating-save')){e.preventDefault();stageFilmRating(previewRating)}
 });
 document.addEventListener('pointerdown',e=>{if(!ratingPopover.hidden&&!ratingPopover.contains(e.target)&&!e.target.closest('[data-open-stars]'))closeRatingPopover()});
 window.addEventListener('scroll',()=>{if(!ratingPopover.hidden)closeRatingPopover()},{passive:true});
