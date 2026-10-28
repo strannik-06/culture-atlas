@@ -1,0 +1,1731 @@
+{
+  "reviewed_on": "2026-10-28",
+  "editions": [
+    {
+      "section": "books",
+      "event": "Booker Prize",
+      "year": 2011,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2011-10-18",
+          "source": "https://en.wikipedia.org/wiki/2011_Man_Booker_Prize"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Booker Prize",
+      "year": 2012,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2012-10-16",
+          "source": "https://en.wikipedia.org/wiki/2012_Man_Booker_Prize"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Booker Prize",
+      "year": 2013,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2013-10-15",
+          "source": "https://en.wikipedia.org/wiki/2013_Man_Booker_Prize"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Booker Prize",
+      "year": 2014,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2014-10-14",
+          "source": "https://en.wikipedia.org/wiki/2014_Man_Booker_Prize"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Booker Prize",
+      "year": 2015,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2015-10-13",
+          "source": "https://en.wikipedia.org/wiki/2015_Man_Booker_Prize"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Booker Prize",
+      "year": 2016,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2016-10-25",
+          "source": "https://en.wikipedia.org/wiki/2016_Man_Booker_Prize"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Booker Prize",
+      "year": 2017,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2017-10-17",
+          "source": "https://en.wikipedia.org/wiki/2017_Man_Booker_Prize"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Booker Prize",
+      "year": 2018,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2018-10-16",
+          "source": "https://en.wikipedia.org/wiki/2018_Man_Booker_Prize"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Booker Prize",
+      "year": 2019,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2019-10-14",
+          "source": "https://en.wikipedia.org/wiki/2019_Booker_Prize"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Booker Prize",
+      "year": 2020,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2020-11-19",
+          "source": "https://thebookerprizes.com/media-centre/press-releases/shuggie-bain-wins-2020-booker-prize"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Booker Prize",
+      "year": 2021,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2021-11-03",
+          "source": "https://thebookerprizes.com/media-centre/press-releases/the-2021-booker-prize-winner-ceremony"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Booker Prize",
+      "year": 2022,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2022-10-17",
+          "source": "https://thebookerprizes.com/media-centre/press-releases/the-seven-moons-of-maali-almeida-wins-the-booker-prize-2022"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Booker Prize",
+      "year": 2023,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2023-11-26",
+          "source": "https://thebookerprizes.com/media-centre/press-releases/prophet-song-paul-lynch-wins-booker-prize-2023"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Booker Prize",
+      "year": 2024,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2024-11-12",
+          "source": "https://thebookerprizes.com/media-centre/press-releases/orbital-by-samantha-harvey-wins-the-booker-prize-2024"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Booker Prize",
+      "year": 2025,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2025-11-10",
+          "source": "https://thebookerprizes.com/media-centre/press-releases/flesh-by-david-szalay-wins-the-booker-prize-2025"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Booker Prize",
+      "year": 2026,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2026-11-09",
+          "source": "https://thebookerprizes.com/the-booker-library/prize-years/2026",
+          "scheduled": true
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "International Booker",
+      "year": 2011,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2011-05-18",
+          "source": "https://www.theguardian.com/books/2011/may/18/philip-roth-wins-man-booker-international"
+        },
+        {
+          "label": "Ceremony",
+          "start": "2011-06-28",
+          "source": "https://thebookerprizes.com/the-booker-library/prize-years/international/2011"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "International Booker",
+      "year": 2012,
+      "status": "not-held",
+      "dates": [],
+      "source": "https://thebookerprizes.com/the-booker-library/features/full-list-of-international-booker-prize-winners-shortlisted-authors-and-their-books"
+    },
+    {
+      "section": "books",
+      "event": "International Booker",
+      "year": 2013,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2013-05-22",
+          "source": "https://thebookerprizes.com/the-booker-library/prize-years/international/2013"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "International Booker",
+      "year": 2014,
+      "status": "not-held",
+      "dates": [],
+      "source": "https://thebookerprizes.com/the-booker-library/features/full-list-of-international-booker-prize-winners-shortlisted-authors-and-their-books"
+    },
+    {
+      "section": "books",
+      "event": "International Booker",
+      "year": 2015,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2015-05-19",
+          "source": "https://thebookerprizes.com/the-booker-library/prize-years/international/2015"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "International Booker",
+      "year": 2016,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2016-05-16",
+          "source": "https://www.theguardian.com/books/2016/may/16/man-booker-international-prize-serves-up-victory-to-the-vegetarian-han-kang-deborah-smith"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "International Booker",
+      "year": 2017,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2017-06-14",
+          "source": "https://www.theguardian.com/books/2017/jun/14/israeli-author-david-grossman-wins-man-booker-international-prize"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "International Booker",
+      "year": 2018,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2018-05-22",
+          "source": "https://www.theguardian.com/books/2018/may/22/olga-tokarczuk-flights-wins-man-booker-international-prize-polish"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "International Booker",
+      "year": 2019,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2019-05-21",
+          "source": "https://www.theguardian.com/books/2019/may/21/man-booker-international-prize-jokha-alharthi-wins-celestial-bodies-oman"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "International Booker",
+      "year": 2020,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2020-08-26",
+          "source": "https://thebookerprizes.com/the-booker-library/prize-years/international/2020"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "International Booker",
+      "year": 2021,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2021-06-02",
+          "source": "https://thebookerprizes.com/the-booker-library/prize-years/international/2021"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "International Booker",
+      "year": 2022,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2022-05-26",
+          "source": "https://thebookerprizes.com/the-booker-library/prize-years/international/2022"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "International Booker",
+      "year": 2023,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2023-05-23",
+          "source": "https://thebookerprizes.com/the-booker-library/prize-years/international/2023"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "International Booker",
+      "year": 2024,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2024-05-21",
+          "source": "https://thebookerprizes.com/the-booker-library/prize-years/international/2024"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "International Booker",
+      "year": 2025,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2025-05-20",
+          "source": "https://thebookerprizes.com/the-booker-library/prize-years/international/2025"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "International Booker",
+      "year": 2026,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2026-05-19",
+          "source": "https://thebookerprizes.com/the-booker-library/prize-years/international/2026"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "National Book Awards",
+      "year": 2011,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2011-11-16",
+          "source": "https://vimeo.com/32468325"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "National Book Awards",
+      "year": 2012,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2012-11-14",
+          "source": "https://www.bookreporter.com/features/awards/the-national-book-awards-2012"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "National Book Awards",
+      "year": 2013,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2013-11-20",
+          "source": "https://www.bookreporter.com/features/awards/the-national-book-awards-2013"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "National Book Awards",
+      "year": 2014,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2014-11-19",
+          "source": "https://www.bookreporter.com/features/awards/the-national-book-awards-2014"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "National Book Awards",
+      "year": 2015,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2015-11-18",
+          "source": "https://www.nationalbook.org/awards-prizes/national-book-awards-2015/"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "National Book Awards",
+      "year": 2016,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2016-11-16",
+          "source": "https://www.bookreporter.com/features/awards/the-national-book-awards-2016"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "National Book Awards",
+      "year": 2017,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2017-11-15",
+          "source": "https://www.bookreporter.com/features/awards/the-national-book-awards-2017"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "National Book Awards",
+      "year": 2018,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2018-11-14",
+          "source": "https://www.nationalbook.org/watch-the-2018-national-book-awards-ceremony-live/"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "National Book Awards",
+      "year": 2019,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2019-11-20",
+          "source": "https://www.nationalbook.org/2019-national-book-awards-judges/"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "National Book Awards",
+      "year": 2020,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2020-11-18",
+          "source": "https://www.nationalbook.org/the-71st-national-book-awards/"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "National Book Awards",
+      "year": 2021,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2021-11-17",
+          "source": "https://www.nationalbook.org/2021-national-book-awards-judges/"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "National Book Awards",
+      "year": 2022,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2022-11-16",
+          "source": "https://www.nationalbook.org/coming-soon-ceremony-information-about-the-2022-national-book-awards/"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "National Book Awards",
+      "year": 2023,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2023-11-15",
+          "source": "https://www.nationalbook.org/awards2023/"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "National Book Awards",
+      "year": 2024,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2024-11-20",
+          "source": "https://www.nationalbook.org/awards2024/timeline/"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "National Book Awards",
+      "year": 2025,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2025-11-19",
+          "source": "https://www.nationalbook.org/awards2025/"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "National Book Awards",
+      "year": 2026,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2026-11-18",
+          "source": "https://www.nationalbook.org/awards2026/",
+          "scheduled": true
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Nobel Literature",
+      "year": 2011,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2011-10-06",
+          "source": "https://www.nobelprize.org/prizes/literature/2011/press-release/"
+        },
+        {
+          "label": "Prize ceremony",
+          "start": "2011-12-10",
+          "source": "https://www.nobelprize.org/prizes/literature/2011/award-video/"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Nobel Literature",
+      "year": 2012,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2012-10-11",
+          "source": "https://www.nobelprize.org/prizes/literature/2012/press-release/"
+        },
+        {
+          "label": "Prize ceremony",
+          "start": "2012-12-10",
+          "source": "https://www.nobelprize.org/prizes/literature/2012/award-video/"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Nobel Literature",
+      "year": 2013,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2013-10-10",
+          "source": "https://www.nobelprize.org/prizes/literature/2013/press-release/"
+        },
+        {
+          "label": "Prize ceremony",
+          "start": "2013-12-10",
+          "source": "https://www.nobelprize.org/prizes/literature/2013/award-video/"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Nobel Literature",
+      "year": 2014,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2014-10-09",
+          "source": "https://www.nobelprize.org/prizes/literature/2014/press-release/"
+        },
+        {
+          "label": "Prize ceremony",
+          "start": "2014-12-10",
+          "source": "https://www.nobelprize.org/prizes/literature/2014/award-video/"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Nobel Literature",
+      "year": 2015,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2015-10-08",
+          "source": "https://www.nobelprize.org/prizes/literature/2015/press-release/"
+        },
+        {
+          "label": "Prize ceremony",
+          "start": "2015-12-10",
+          "source": "https://www.nobelprize.org/prizes/literature/2015/award-video/"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Nobel Literature",
+      "year": 2016,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2016-10-13",
+          "source": "https://www.nobelprize.org/prizes/literature/2016/press-release/"
+        },
+        {
+          "label": "Prize ceremony",
+          "start": "2016-12-10",
+          "source": "https://www.nobelprize.org/prizes/literature/2016/award-video/"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Nobel Literature",
+      "year": 2017,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2017-10-05",
+          "source": "https://www.nobelprize.org/prizes/literature/2017/press-release/"
+        },
+        {
+          "label": "Prize ceremony",
+          "start": "2017-12-10",
+          "source": "https://www.nobelprize.org/prizes/literature/2017/award-video/"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Nobel Literature",
+      "year": 2018,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2019-10-10",
+          "source": "https://www.nobelprize.org/prizes/literature/2018/prize-announcement/"
+        },
+        {
+          "label": "Prize ceremony",
+          "start": "2019-12-10",
+          "source": "https://www.nobelprize.org/prizes/literature/2019/award-video/"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Nobel Literature",
+      "year": 2019,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2019-10-10",
+          "source": "https://www.nobelprize.org/prizes/literature/2019/press-release/"
+        },
+        {
+          "label": "Prize ceremony",
+          "start": "2019-12-10",
+          "source": "https://www.nobelprize.org/prizes/literature/2019/award-video/"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Nobel Literature",
+      "year": 2020,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2020-10-08",
+          "source": "https://www.nobelprize.org/prizes/literature/2020/press-release/"
+        },
+        {
+          "label": "Prize ceremony broadcast",
+          "start": "2020-12-10",
+          "source": "https://www.nobelprize.org/prizes/literature/2020/award-video/"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Nobel Literature",
+      "year": 2021,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2021-10-07",
+          "source": "https://www.nobelprize.org/prizes/literature/2021/press-release/"
+        },
+        {
+          "label": "Prize ceremony broadcast",
+          "start": "2021-12-10",
+          "source": "https://www.nobelprize.org/prizes/literature/2021/award-video/"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Nobel Literature",
+      "year": 2022,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2022-10-06",
+          "source": "https://www.nobelprize.org/prizes/literature/2022/press-release/"
+        },
+        {
+          "label": "Prize ceremony",
+          "start": "2022-12-10",
+          "source": "https://www.nobelprize.org/prizes/literature/2022/award-video/"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Nobel Literature",
+      "year": 2023,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2023-10-05",
+          "source": "https://www.nobelprize.org/prizes/literature/2023/press-release/"
+        },
+        {
+          "label": "Prize ceremony",
+          "start": "2023-12-10",
+          "source": "https://www.nobelprize.org/prizes/literature/2023/award-video/"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Nobel Literature",
+      "year": 2024,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2024-10-10",
+          "source": "https://www.nobelprize.org/prizes/literature/2024/press-release/"
+        },
+        {
+          "label": "Prize ceremony",
+          "start": "2024-12-10",
+          "source": "https://www.nobelprize.org/prizes/literature/2024/award-video/"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Nobel Literature",
+      "year": 2025,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2025-10-09",
+          "source": "https://www.nobelprize.org/prizes/literature/2025/press-release/"
+        },
+        {
+          "label": "Prize ceremony",
+          "start": "2025-12-10",
+          "source": "https://www.nobelprize.org/prizes/literature/2025/award-video/"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Nobel Literature",
+      "year": 2026,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2026-10-08",
+          "source": "https://www.nobelprize.org/prizes/about/prize-announcement-dates/"
+        },
+        {
+          "label": "Prize ceremony",
+          "start": "2026-12-10",
+          "source": "https://www.nobelprize.org/ceremonies/",
+          "scheduled": true
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Prix Goncourt",
+      "year": 2011,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2011-11-02",
+          "source": "https://www.calagenda.fr/histoire-evt-Goncourt.html"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Prix Goncourt",
+      "year": 2012,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2012-11-07",
+          "source": "https://www.calagenda.fr/histoire-evt-Goncourt.html"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Prix Goncourt",
+      "year": 2013,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2013-11-04",
+          "source": "https://www.calagenda.fr/histoire-evt-Goncourt.html"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Prix Goncourt",
+      "year": 2014,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2014-11-05",
+          "source": "https://www.livreshebdo.fr/article/le-goncourt-pour-lydie-salvayre"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Prix Goncourt",
+      "year": 2015,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2015-11-03",
+          "source": "https://www.calagenda.fr/histoire-evt-Goncourt.html"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Prix Goncourt",
+      "year": 2016,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2016-11-03",
+          "source": "https://www.tf1info.fr/culture/le-prix-goncourt-2016-a-ete-decerne-a-chanson-douce-de-leila-slimani-2010795.html"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Prix Goncourt",
+      "year": 2017,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2017-11-06",
+          "source": "https://www.calagenda.fr/histoire-evt-Goncourt.html"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Prix Goncourt",
+      "year": 2018,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2018-11-07",
+          "source": "https://www.calagenda.fr/histoire-evt-Goncourt.html"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Prix Goncourt",
+      "year": 2019,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2019-11-04",
+          "source": "https://www.calagenda.fr/histoire-evt-Goncourt.html"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Prix Goncourt",
+      "year": 2020,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2020-11-30",
+          "source": "https://www.calagenda.fr/histoire-evt-Goncourt.html"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Prix Goncourt",
+      "year": 2021,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2021-11-03",
+          "source": "https://www.lemonde.fr/culture/article/2021/11/03/le-prix-goncourt-2021-recompense-mohamed-mbougar-sarr-pour-la-plus-secrete-memoire-des-hommes_6100802_3246.html"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Prix Goncourt",
+      "year": 2022,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2022-11-03",
+          "source": "https://www.calagenda.fr/histoire-evt-Goncourt.html"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Prix Goncourt",
+      "year": 2023,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2023-11-07",
+          "source": "https://www.calagenda.fr/histoire-evt-Goncourt.html"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Prix Goncourt",
+      "year": 2024,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2024-11-04",
+          "source": "https://www.calagenda.fr/histoire-evt-Goncourt.html"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Prix Goncourt",
+      "year": 2025,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2025-11-04",
+          "source": "https://www.academiegoncourt.com/prix-goncourt-2025"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Prix Goncourt",
+      "year": 2026,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2026-11-03",
+          "source": "https://www.academiegoncourt.com/calendrier-des-reunions",
+          "scheduled": true
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Pulitzer Prize",
+      "year": 2011,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2011-04-18",
+          "source": "https://www.pbs.org/newshour/arts/2011-pulitzer-winners-announced"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Pulitzer Prize",
+      "year": 2012,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2012-04-16",
+          "source": "https://www.ajc.com/news/national/2012-pulitzer-prize-winners/T1az0Niv1t1e7rg4CdaJyM/"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Pulitzer Prize",
+      "year": 2013,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2013-04-15",
+          "source": "https://www.pulitzer.org/files/2013/2013LongListPressRelease.pdf"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Pulitzer Prize",
+      "year": 2014,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2014-04-14",
+          "source": "https://www.pbs.org/newshour/arts/2014-pulitzer-prize-winners-announced"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Pulitzer Prize",
+      "year": 2015,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2015-04-20",
+          "source": "https://www.upi.com/Entertainment_News/2015/04/20/Gregory-Pardlo-Anthony-Doerr-Stephen-Adly-Guirgis-win-Pulitzer-Prizes/8921429568066/"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Pulitzer Prize",
+      "year": 2016,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2016-04-18",
+          "source": "https://www.pulitzer.org/news/2016-prize-announcement"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Pulitzer Prize",
+      "year": 2017,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2017-04-10",
+          "source": "https://www.pulitzer.org/news/video-2017-pulitzer-prize-announcement"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Pulitzer Prize",
+      "year": 2018,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2018-04-16",
+          "source": "https://www.pulitzer.org/news/announcement-2018-pulitzer-prize-winners"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Pulitzer Prize",
+      "year": 2019,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2019-04-15",
+          "source": "https://www.pulitzer.org/news/announcement-2019-pulitzer-prize-winners"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Pulitzer Prize",
+      "year": 2020,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2020-05-04",
+          "source": "https://www.pulitzer.org/news/announcement-2020-pulitzer-prize-winners"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Pulitzer Prize",
+      "year": 2021,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2021-06-11",
+          "source": "https://www.pulitzer.org/article/2021-pulitzer-prize-announcement"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Pulitzer Prize",
+      "year": 2022,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2022-05-09",
+          "source": "https://www.pulitzer.org/news/2022-pulitzer-prize-announcement"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Pulitzer Prize",
+      "year": 2023,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2023-05-08",
+          "source": "https://www.pulitzer.org/news/2023-pulitzer-prize-announcement"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Pulitzer Prize",
+      "year": 2024,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2024-05-06",
+          "source": "https://www.pulitzer.org/news/2024-pulitzer-prize-announcement-0"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Pulitzer Prize",
+      "year": 2025,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2025-05-05",
+          "source": "https://www.pulitzer.org/node/2025-pulitzer-prize-announcement"
+        }
+      ]
+    },
+    {
+      "section": "books",
+      "event": "Pulitzer Prize",
+      "year": 2026,
+      "dates": [
+        {
+          "label": "Winner announcement",
+          "start": "2026-05-04",
+          "source": "https://www.pulitzer.org/news/2026-pulitzer-prize-announcement"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "BAFTA",
+      "year": 2021,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2021-04-10",
+          "source": "https://www.bafta.org/media-centre/press-releases/awards-presenters-musical-performances-and-more-details-have-been-revealed-for-the-ee-bafta-film-awards-weekend-on-10-11-april/",
+          "end": "2021-04-11"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "BAFTA",
+      "year": 2022,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2022-03-13",
+          "source": "https://www.bafta.org/media-centre/press-releases/2022-date-ee-british-academy-film-awards/"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "BAFTA",
+      "year": 2023,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2023-02-19",
+          "source": "https://www.bafta.org/media-centre/press-releases/ee-bafta-film-awards-winners-announced-2023/"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "BAFTA",
+      "year": 2024,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2024-02-18",
+          "source": "https://www.bafta.org/media-centre/press-releases/bafta-sets-out-key-dates-for-the-2024-film-awards/"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "BAFTA",
+      "year": 2025,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2025-02-16",
+          "source": "https://www.bafta.org/media-centre/press-releases/bafta-sets-date-for-the-2025-bafta-film-awards/"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "BAFTA",
+      "year": 2026,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2026-02-22",
+          "source": "https://www.bafta.org/awards/film/?award-year=2026"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Berlinale",
+      "year": 2021,
+      "dates": [
+        {
+          "label": "Online industry event",
+          "start": "2021-03-01",
+          "source": "https://b2b.berlinale.de/en/partner/postings/1328-review-berlinale-summer-special",
+          "end": "2021-03-05"
+        },
+        {
+          "label": "Public Summer Special",
+          "start": "2021-06-09",
+          "end": "2021-06-20",
+          "source": "https://b2b.berlinale.de/en/partner/postings/1328-review-berlinale-summer-special"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Berlinale",
+      "year": 2022,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2022-02-10",
+          "source": "https://www.screendaily.com/news/berlinale-confirms-physical-event-for-2022/5164058.article",
+          "end": "2022-02-20"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Berlinale",
+      "year": 2023,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2023-02-16",
+          "source": "https://digital-strategy.ec.europa.eu/en/events/european-commission-gets-ready-berlinale",
+          "end": "2023-02-26"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Berlinale",
+      "year": 2024,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2024-02-15",
+          "source": "https://en.wikipedia.org/wiki/74th_Berlin_International_Film_Festival",
+          "end": "2024-02-25"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Berlinale",
+      "year": 2025,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2025-02-13",
+          "source": "https://digital-strategy.ec.europa.eu/en/news/european-commission-berlinale-2025",
+          "end": "2025-02-23"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Berlinale",
+      "year": 2026,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2026-02-12",
+          "source": "https://www.berlinale.de/en/2026/topics/competition-2026.html",
+          "end": "2026-02-22"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Cannes",
+      "year": 2021,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2021-07-06",
+          "source": "https://www.festival-cannes.com/en/press/press-releases/press-release-new-dates-for-the-74th-festival-de-cannes/",
+          "end": "2021-07-17"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Cannes",
+      "year": 2022,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2022-05-17",
+          "source": "https://www.festival-cannes.com/en/retrospective/2022/",
+          "end": "2022-05-28"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Cannes",
+      "year": 2023,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2023-05-16",
+          "source": "https://www.festival-cannes.com/en/retrospective/2023/",
+          "end": "2023-05-27"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Cannes",
+      "year": 2024,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2024-05-14",
+          "source": "https://www.festival-cannes.com/en/retrospective/2024/",
+          "end": "2024-05-25"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Cannes",
+      "year": 2025,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2025-05-13",
+          "source": "https://www.festival-cannes.com/en/retrospective/2025/",
+          "end": "2025-05-24"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Cannes",
+      "year": 2026,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2026-05-12",
+          "source": "https://www.festival-cannes.com/en/press/press-releases/the-films-of-the-official-selection-2026/",
+          "end": "2026-05-23"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Golden Globes",
+      "year": 2021,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2021-02-28",
+          "source": "https://goldenglobes.com/articles/hfpa-announces-the-timetable-for-the-78th-golden-globe-awards/"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Golden Globes",
+      "year": 2022,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2022-01-09",
+          "source": "https://goldenglobes.com/articles/golden-globes-2022-the-hfpa-announces-details-for-the-79th-annual-golden-globe-awards/"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Golden Globes",
+      "year": 2023,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2023-01-10",
+          "source": "https://goldenglobes.com/articles/the-hfpa-announces-awards-timetable-for-the-80th-annual-golden-globe-awards/"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Golden Globes",
+      "year": 2024,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2024-01-07",
+          "source": "https://goldenglobes.com/articles/date-announced-for-the-81st-annual-golden-globe-awards-sunday-january-7-2024/"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Golden Globes",
+      "year": 2025,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2025-01-05",
+          "source": "https://goldenglobes.com/articles/everything-to-know-about-the-82nd-annual-golden-globes/"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Golden Globes",
+      "year": 2026,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2026-01-11",
+          "source": "https://goldenglobes.com/nominations/2026"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Oscars",
+      "year": 2021,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2021-04-25",
+          "source": "https://www.oscars.org/oscars/ceremonies/2021"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Oscars",
+      "year": 2022,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2022-03-27",
+          "source": "https://www.oscars.org/oscars/ceremonies/2022"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Oscars",
+      "year": 2023,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2023-03-12",
+          "source": "https://www.oscars.org/oscars/ceremonies/2023"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Oscars",
+      "year": 2024,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2024-03-10",
+          "source": "https://www.oscars.org/oscars/ceremonies/2024"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Oscars",
+      "year": 2025,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2025-03-02",
+          "source": "https://www.oscars.org/oscars/ceremonies/2025"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Oscars",
+      "year": 2026,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2026-03-15",
+          "source": "https://www.oscars.org/oscars/ceremonies/2026"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Venice",
+      "year": 2021,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2021-09-01",
+          "source": "https://www.labiennale.org/en/cinema/2021",
+          "end": "2021-09-11"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Venice",
+      "year": 2022,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2022-08-31",
+          "source": "https://www.labiennale.org/en/cinema/2022",
+          "end": "2022-09-10"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Venice",
+      "year": 2023,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2023-08-30",
+          "source": "https://www.labiennale.org/en/cinema/2023",
+          "end": "2023-09-09"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Venice",
+      "year": 2024,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2024-08-28",
+          "source": "https://www.labiennale.org/en/cinema/2024",
+          "end": "2024-09-07"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Venice",
+      "year": 2025,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2025-08-27",
+          "source": "https://www.labiennale.org/en/cinema/2025",
+          "end": "2025-09-06"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Venice",
+      "year": 2026,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2026-09-02",
+          "source": "https://www.labiennale.org/en/cinema/2026/venezia-83-competition",
+          "end": "2026-09-12"
+        }
+      ]
+    },
+    {
+      "section": "tv",
+      "event": "BAFTA Television",
+      "year": 2025,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2025-05-11",
+          "source": "https://www.bafta.org/media-centre/press-releases/2025-tv-awards-attendees/"
+        }
+      ]
+    },
+    {
+      "section": "tv",
+      "event": "Emmys",
+      "year": 2025,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2025-09-14",
+          "source": "https://www.televisionacademy.com/features/news/awards-news/77th-emmy-awards-release"
+        }
+      ]
+    },
+    {
+      "section": "tv",
+      "event": "Golden Globes",
+      "year": 2025,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2025-01-05",
+          "source": "https://goldenglobes.com/articles/everything-to-know-about-the-82nd-annual-golden-globes/"
+        }
+      ]
+    }
+  ]
+}
