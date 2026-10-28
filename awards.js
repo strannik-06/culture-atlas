@@ -29,6 +29,8 @@
    $('award-category').value=[...$('award-category').options].some(o=>o.value===previous)?previous:/^\d+$/.test(previous)&&list[Number(previous)]?String(list[Number(previous)].id||previous):'all';
   }
   function render(){
+   let dateLine=$('award-event-dates');if(!dateLine){dateLine=document.createElement('p');dateLine.id=prefix+'award-event-dates';dateLine.className='award-event-dates';dateLine.setAttribute('aria-live','polite');$('awards-count').before(dateLine);}
+   dateLine.replaceChildren();dateLine.hidden=true;
    const name=$('award-event').value,year=Number($('award-year').value),edition=events.find(e=>e.event===name&&e.year===year),available=years(name),index=available.indexOf(year);
    $('award-tabs').innerHTML=names.map(n=>`<a class="award-tab${n===name?' active':''}" href="${esc(url(n,years(n)[0]))}" ${n===name?'aria-current="page"':''}><img src="${esc(awardBrands[n].icon.includes('/')?awardBrands[n].icon:'assets/awards/'+awardBrands[n].icon+'.svg')}" alt="" width="32" height="32"><span>${esc(n)}</span></a>`).join('');
    const previous=available[index+1],next=available[index-1];
@@ -37,10 +39,11 @@
    $('award-years').innerHTML=available.map(y=>`<a href="${esc(url(name,y))}" ${y===year?'aria-current="page"':''}>${y}</a>`).join('');
    const rail=$('award-years'),activeYear=rail.querySelector('[aria-current="page"]');if(activeYear&&rail.scrollWidth>rail.clientWidth)rail.scrollLeft+=activeYear.getBoundingClientRect().left-rail.getBoundingClientRect().left-(rail.clientWidth-activeYear.offsetWidth)/2;
    if(!edition){$('awards-grid').innerHTML='<p class="empty">This edition has not been added yet. Choose an available year above.</p>';$('awards-count').textContent='';$('awards-source').replaceChildren();$('awards-event-details').textContent='';if($('award-intro'))$('award-intro').replaceChildren();return;}
+   dateLine.innerHTML=window.CultureAwardDates?.render(section,edition)||'';dateLine.hidden=!dateLine.innerHTML;
    const festival=section==='films'&&!!awardBrands[name].prize,groups=getCategories(edition),selected=$('award-category').value,winnersOnly=$('award-filter').value==='winners',byId=new Map(getItems(edition).map(f=>[f.id,f]));
    const shown=selected==='all'?groups:groups.filter((c,i)=>(c.id||String(i))===selected||String(i)===selected);
    $('awards-count').textContent=edition.status==='not-held'?'No prize this year':`${getItems(edition).length} ${edition.item_noun||itemNoun} · ${groups.length} ${groups.length===1?(festival?'section':'category'):(festival?'sections':'categories')}`+(winnersOnly?' · Winners only':'');
-   $('awards-event-details').textContent=(edition.dates?edition.dates+' · ':'')+(edition.note||(section==='books'?'Prize edition year; books may have been published earlier.':festival?'Festival selections, with prizes shown on each winning film.':'Ceremony year; films may have premiered in the previous year.'));
+   $('awards-event-details').textContent=(!window.CultureAwardDates&&edition.dates?edition.dates+' · ':'')+(edition.note||(section==='books'?'Prize edition year; books may have been published earlier.':festival?'Festival selections, with prizes shown on each winning film.':'Ceremony year; films may have premiered in the previous year.'));
    if($('award-intro'))$('award-intro').innerHTML=renderIntro(edition);
    $('awards-source').innerHTML=`Official sources: <a href="${esc(edition.source)}" target="_blank" rel="noopener noreferrer">${section==='books'?'Award information':section==='tv'?'Nominees and results':edition.section==='Major Film Categories'?'Nominees and results':'Competition selection'}</a>`+(edition.awardsSource&&edition.awardsSource!==edition.source?` · <a href="${esc(edition.awardsSource)}" target="_blank" rel="noopener noreferrer">Prize results</a>`:'');
    $('awards-grid').innerHTML=edition.status==='not-held'?`<p class="empty">${esc(edition.note)}</p>`:shown.map((c,i)=>{
