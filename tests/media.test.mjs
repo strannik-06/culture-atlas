@@ -166,3 +166,7 @@ test('Smart search: one query combines films/directors, parses years, and keeps 
  assert.equal(parseSearchQuery('1984').year,null);assert.equal(parseSearchQuery('2001 A Space Odyssey').year,null);assert.equal(parseSearchQuery('Dune (2021)').year,'2021');
  const tv=await search('TV title 2020','tv');assert.equal(tv.results[0].title,'TV title');assert.ok(calls.some(u=>u.searchParams.get('first_air_date_year')==='2020'));
 });
+test('New Add film saves start review discovery; failed lookup keeps film saved and existing edits skip discovery',async()=>{
+ const h=await setupMediaUI(),calls=[];h.w.CultureFilmReviews={find:async(_,id)=>{calls.push(id);throw Error('Search unavailable');}};
+ try{await h.search();h.rate(h.card(10),8);h.submit(h.card(10));await h.settle();assert.equal(calls.length,0);h.rate(h.card(11),8);h.submit(h.card(11));await h.settle();assert.deepEqual(calls,[1]);assert.equal(h.state.saved.length,2);assert.match(h.card(11).querySelector('[data-status]').textContent,/Film saved.*Search unavailable/);assert.equal(h.card(11).querySelector('fieldset').disabled,false);}finally{await h.w.happyDOM.close();}
+});
