@@ -113,8 +113,11 @@
   const body={action:'save',type,id:card.id,season:card.season,rating:card.draft.rating,notes:card.draft.notes,date:card.draft.date,scope:card.draft.scope,expected_updated_at:card.data.progress?.updated_at||null};
   card.busy=true;card.element.querySelector('fieldset').disabled=true;const target=card.element.querySelector('[data-season]');if(target)target.disabled=true;notice(card,'Saving…');
   try{
-   const data=await call(body);if(!alive(turn,serial)||version!==card.version)return;
-   card.data.progress=data.progress;card.data.existing={work_key:data.work_key,work_type:data.work_key.startsWith('movie:')?'movie':'tv'};card.draft.date=data.progress?.watched_date??body.date;card.drafts.set(String(card.season),{data:card.data,draft:card.draft});card.busy=false;renderEditor(card);notice(card,'Saved.');
+   const isNewFilm=type==='movie'&&!card.data.existing;
+   const data=await call(body);
+   const reviewTask=isNewFilm&&data.work_key?.startsWith('movie:')?window.CultureFilmReviews?.find(client,Number(data.work_key.slice(6))).then(()=>null,e=>e.message):null;
+   if(!alive(turn,serial)||version!==card.version)return;
+   card.data.progress=data.progress;card.data.existing={work_key:data.work_key,work_type:data.work_key.startsWith('movie:')?'movie':'tv'};card.draft.date=data.progress?.watched_date??body.date;card.drafts.set(String(card.season),{data:card.data,draft:card.draft});card.busy=false;renderEditor(card);notice(card,reviewTask?'Saved. Finding ratings and reviews…':'Saved.');if(reviewTask)reviewTask.then(error=>{if(alive(turn,serial)&&version===card.version)notice(card,error?'Film saved. '+error:'Saved. Ratings and reviews updated.');});
    try{await loadCatalogue();if(alive(turn,serial))await hooks.onSaved();}catch(e){if(alive(turn,serial))notice(card,'Rating saved. '+e.message);}
   }catch(e){if(alive(turn,serial)&&version===card.version){card.busy=false;card.element.querySelector('fieldset').disabled=false;if(target)target.disabled=false;notice(card,e.message);
    if(/changed|removed/i.test(e.message)){
