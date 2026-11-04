@@ -1,6 +1,8 @@
 // Produce the small, insert-only deployment batch for the new award identities.
 import fs from 'node:fs';
-const report=JSON.parse(fs.readFileSync('imports/film-awards-2016-2020-audit.json','utf8'));
+const batch=process.argv[2]||'2016-2020';
+if(!['2016-2020','2011-2015'].includes(batch))throw Error('Unsupported award batch');
+const report=JSON.parse(fs.readFileSync(`imports/film-awards-${batch}-audit.json`,'utf8'));
 if(report.unresolved.length)throw Error('Resolve every award identity before preparing deployment');
 const rows=report.new_canonical_ids,ids=new Set(rows.map(f=>String(f.id)));
 const values=rows.map(f=>`('movie:${f.tmdb_id}','movie:${f.id}',${f.tmdb_id})`).join(',\n');
@@ -16,5 +18,5 @@ const guard=`do $$ begin
      or (c.work_key is not null and (c.work_type<>'movie' or (c.metadata->>'tmdb_id')::bigint is distinct from expected.tmdb_id))
  ) then raise exception 'An award provider identity already points to a different work. Reconcile it before deployment.'; end if;
 end $$;`;
-fs.writeFileSync('imports/film-awards-2016-2020-catalogue-sync.sql','-- Film awards 2016–2020: '+rows.length+' verified catalogue identities and provider links.\n-- Apply after merging the catalogue PR. Existing rows are preserved.\nbegin;\n'+guard+'\n'+inserts.join('\n')+'\ncommit;\n');
+fs.writeFileSync(`imports/film-awards-${batch}-catalogue-sync.sql`,'-- Film awards '+batch+': '+rows.length+' verified catalogue identities and provider links.\n-- Apply after merging the catalogue PR. Existing rows are preserved.\nbegin;\n'+guard+'\n'+inserts.join('\n')+'\ncommit;\n');
 console.log('Prepared '+rows.length+' catalogue rows and '+rows.length+' provider links; no rating writes.');

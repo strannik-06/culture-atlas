@@ -1,0 +1,2527 @@
+{
+  "scope": "Twelve established film categories; original category labels retained; ceremony year",
+  "source_corrections": [
+    {
+      "year": 2012,
+      "category": "Best Screenplay - Motion Picture",
+      "source_id": 72166,
+      "title": "Moneyball",
+      "source_original_person": "Aaron Sorkin, Stan Chervin",
+      "corrected_person": "Stan Chervin, Steven Zaillian, Aaron Sorkin",
+      "reason": "The current database omits Steven Zaillian; the contemporary official nominations announcement names all three writers.",
+      "source": "https://goldenglobes.com/articles/69th-annual-golden-globe-awards-nominations/"
+    }
+  ],
+  "events": [
+    {
+      "event": "Golden Globes",
+      "year": 2011,
+      "section": "Major Film Categories",
+      "source": "https://goldenglobes.com/winners-nominees/?year=2011",
+      "data_source": "https://goldenglobes.com/wp-json/awdb/v1/winners-and-nominees/?year=2011",
+      "ceremony_date": "2011-01-16",
+      "date_source": "https://goldenglobes.com/articles/hfpa-announces-timetable-68th-annual-golden-globe-awards/",
+      "categories": [
+        {
+          "name": "Best Motion Picture - Drama",
+          "original_category": "Best Motion Picture - Drama",
+          "entries": [
+            {
+              "title": "Black Swan",
+              "person": "",
+              "winner": false,
+              "source_id": 71942,
+              "film_source": "https://goldenglobes.com/film/black-swan/"
+            },
+            {
+              "title": "The Fighter",
+              "person": "",
+              "winner": false,
+              "source_id": 71943,
+              "film_source": "https://goldenglobes.com/film/fighter-the/"
+            },
+            {
+              "title": "Inception",
+              "person": "",
+              "winner": false,
+              "source_id": 71944,
+              "film_source": "https://goldenglobes.com/film/inception/"
+            },
+            {
+              "title": "The King's Speech",
+              "person": "",
+              "winner": false,
+              "source_id": 71945,
+              "film_source": "https://goldenglobes.com/film/the-kings-speech/"
+            },
+            {
+              "title": "The Social Network",
+              "person": "",
+              "winner": true,
+              "source_id": 71946,
+              "film_source": "https://goldenglobes.com/film/the-social-network/"
+            }
+          ]
+        },
+        {
+          "name": "Best Motion Picture - Musical or Comedy",
+          "original_category": "Best Motion Picture - Musical or Comedy",
+          "entries": [
+            {
+              "title": "The Tourist",
+              "person": "",
+              "winner": false,
+              "source_id": 71951,
+              "film_source": "https://goldenglobes.com/film/tourist-the/"
+            },
+            {
+              "title": "Alice in Wonderland",
+              "person": "",
+              "winner": false,
+              "source_id": 71947,
+              "film_source": "https://goldenglobes.com/film/alice-in-wonderland/"
+            },
+            {
+              "title": "Burlesque",
+              "person": "",
+              "winner": false,
+              "source_id": 71948,
+              "film_source": "https://goldenglobes.com/film/burlesque/"
+            },
+            {
+              "title": "The Kids Are All Right",
+              "person": "",
+              "winner": true,
+              "source_id": 71949,
+              "film_source": "https://goldenglobes.com/film/kids-are-all-right-the/"
+            },
+            {
+              "title": "Red",
+              "person": "",
+              "winner": false,
+              "source_id": 71950,
+              "film_source": "https://goldenglobes.com/film/red/"
+            }
+          ]
+        },
+        {
+          "name": "Best Motion Picture - Animated",
+          "original_category": "Best Motion Picture - Animated",
+          "entries": [
+            {
+              "title": "Despicable Me",
+              "person": "",
+              "winner": false,
+              "source_id": 71952,
+              "film_source": "https://goldenglobes.com/film/despicable-me/"
+            },
+            {
+              "title": "How To Train Your Dragon",
+              "person": "",
+              "winner": false,
+              "source_id": 71953,
+              "film_source": "https://goldenglobes.com/film/how-to-train-your-dragon/"
+            },
+            {
+              "title": "The Illusionist",
+              "person": "",
+              "winner": false,
+              "source_id": 71954,
+              "film_source": "https://goldenglobes.com/film/illusionist-the/"
+            },
+            {
+              "title": "Tangled",
+              "person": "",
+              "winner": false,
+              "source_id": 71955,
+              "film_source": "https://goldenglobes.com/film/tangled/"
+            },
+            {
+              "title": "Toy Story 3",
+              "person": "",
+              "winner": true,
+              "source_id": 71956,
+              "film_source": "https://goldenglobes.com/film/toy-story-3/"
+            }
+          ]
+        },
+        {
+          "name": "Best Motion Picture – Non-English Language",
+          "original_category": "Best Motion Picture – Non-English Language",
+          "entries": [
+            {
+              "title": "The Edge",
+              "person": "",
+              "winner": false,
+              "source_id": 71301,
+              "film_source": "https://goldenglobes.com/film/the-edge/"
+            },
+            {
+              "title": "I Am Love",
+              "person": "",
+              "winner": false,
+              "source_id": 71302,
+              "film_source": "https://goldenglobes.com/film/i-am-love/"
+            },
+            {
+              "title": "In A Better World",
+              "person": "",
+              "winner": true,
+              "source_id": 71303,
+              "film_source": "https://goldenglobes.com/film/in-a-better-world/"
+            },
+            {
+              "title": "Biutiful",
+              "person": "",
+              "winner": false,
+              "source_id": 71299,
+              "film_source": "https://goldenglobes.com/film/biutiful/"
+            },
+            {
+              "title": "The Concert",
+              "person": "",
+              "winner": false,
+              "source_id": 71300,
+              "film_source": "https://goldenglobes.com/film/the-concert/"
+            }
+          ]
+        },
+        {
+          "name": "Best Performance by a Female Actor in a Motion Picture – Drama",
+          "original_category": "Best Performance by an Actress in a Motion Picture - Drama",
+          "entries": [
+            {
+              "title": "Winter's Bone",
+              "person": "Jennifer Lawrence",
+              "winner": false,
+              "source_id": 71281,
+              "film_source": "https://goldenglobes.com/film/winters-bone/"
+            },
+            {
+              "title": "Black Swan",
+              "person": "Natalie Portman",
+              "winner": true,
+              "source_id": 71282,
+              "film_source": "https://goldenglobes.com/film/black-swan/"
+            },
+            {
+              "title": "Blue Valentine",
+              "person": "Michelle Williams",
+              "winner": false,
+              "source_id": 71283,
+              "film_source": "https://goldenglobes.com/film/blue-valentine/"
+            },
+            {
+              "title": "Frankie & Alice",
+              "person": "Halle Berry",
+              "winner": false,
+              "source_id": 71279,
+              "film_source": "https://goldenglobes.com/film/frankie-alice/"
+            },
+            {
+              "title": "Rabbit Hole",
+              "person": "Nicole Kidman",
+              "winner": false,
+              "source_id": 71280,
+              "film_source": "https://goldenglobes.com/film/rabbit-hole/"
+            }
+          ]
+        },
+        {
+          "name": "Best Performance by a Male Actor in a Motion Picture – Drama",
+          "original_category": "Best Performance by an Actor in a Motion Picture - Drama",
+          "entries": [
+            {
+              "title": "The Social Network",
+              "person": "Jesse Eisenberg",
+              "winner": false,
+              "source_id": 71284,
+              "film_source": "https://goldenglobes.com/film/the-social-network/"
+            },
+            {
+              "title": "The King's Speech",
+              "person": "Colin Firth",
+              "winner": true,
+              "source_id": 71285,
+              "film_source": "https://goldenglobes.com/film/the-kings-speech/"
+            },
+            {
+              "title": "127 Hours",
+              "person": "James Franco",
+              "winner": false,
+              "source_id": 71286,
+              "film_source": "https://goldenglobes.com/film/127-hours/"
+            },
+            {
+              "title": "Blue Valentine",
+              "person": "Ryan Gosling",
+              "winner": false,
+              "source_id": 71287,
+              "film_source": "https://goldenglobes.com/film/blue-valentine/"
+            },
+            {
+              "title": "The Fighter",
+              "person": "Mark Wahlberg",
+              "winner": false,
+              "source_id": 71288,
+              "film_source": "https://goldenglobes.com/film/fighter-the/"
+            }
+          ]
+        },
+        {
+          "name": "Best Performance by a Female Actor in a Motion Picture – Musical or Comedy",
+          "original_category": "Best Performance by an Actress in a Motion Picture - Musical or Comedy",
+          "entries": [
+            {
+              "title": "The Tourist",
+              "person": "Angelina Jolie",
+              "winner": false,
+              "source_id": 71291,
+              "film_source": "https://goldenglobes.com/film/tourist-the/"
+            },
+            {
+              "title": "The Kids Are All Right",
+              "person": "Julianne Moore",
+              "winner": false,
+              "source_id": 71292,
+              "film_source": "https://goldenglobes.com/film/kids-are-all-right-the/"
+            },
+            {
+              "title": "Easy A",
+              "person": "Emma Stone",
+              "winner": false,
+              "source_id": 71293,
+              "film_source": "https://goldenglobes.com/film/easy-a/"
+            },
+            {
+              "title": "The Kids Are All Right",
+              "person": "Annette Bening",
+              "winner": true,
+              "source_id": 71289,
+              "film_source": "https://goldenglobes.com/film/kids-are-all-right-the/"
+            },
+            {
+              "title": "Love & Other Drugs",
+              "person": "Anne Hathaway",
+              "winner": false,
+              "source_id": 71290,
+              "film_source": "https://goldenglobes.com/film/love-other-drugs/"
+            }
+          ]
+        },
+        {
+          "name": "Best Performance by a Male Actor in a Motion Picture – Musical or Comedy",
+          "original_category": "Best Performance by an Actor in a Motion Picture - Musical or Comedy",
+          "entries": [
+            {
+              "title": "Alice in Wonderland",
+              "person": "Johnny Depp",
+              "winner": false,
+              "source_id": 71294,
+              "film_source": "https://goldenglobes.com/film/alice-in-wonderland/"
+            },
+            {
+              "title": "The Tourist",
+              "person": "Johnny Depp",
+              "winner": false,
+              "source_id": 71295,
+              "film_source": "https://goldenglobes.com/film/tourist-the/"
+            },
+            {
+              "title": "Barney's Version",
+              "person": "Paul Giamatti",
+              "winner": true,
+              "source_id": 71296,
+              "film_source": "https://goldenglobes.com/film/barneys-version/"
+            },
+            {
+              "title": "Love & Other Drugs",
+              "person": "Jake Gyllenhaal",
+              "winner": false,
+              "source_id": 71297,
+              "film_source": "https://goldenglobes.com/film/love-other-drugs/"
+            },
+            {
+              "title": "Casino Jack",
+              "person": "Kevin Spacey",
+              "winner": false,
+              "source_id": 71298,
+              "film_source": "https://goldenglobes.com/film/casino-jack/"
+            }
+          ]
+        },
+        {
+          "name": "Best Performance by a Female Actor in a Supporting Role in any Motion Picture",
+          "original_category": "Best Performance by an Actress in a Supporting Role in any Motion Picture",
+          "entries": [
+            {
+              "title": "The Fighter",
+              "person": "Amy Adams",
+              "winner": false,
+              "source_id": 71304,
+              "film_source": "https://goldenglobes.com/film/fighter-the/"
+            },
+            {
+              "title": "The King's Speech",
+              "person": "Helena Bonham Carter",
+              "winner": false,
+              "source_id": 71305,
+              "film_source": "https://goldenglobes.com/film/the-kings-speech/"
+            },
+            {
+              "title": "Black Swan",
+              "person": "Mila Kunis",
+              "winner": false,
+              "source_id": 71306,
+              "film_source": "https://goldenglobes.com/film/black-swan/"
+            },
+            {
+              "title": "The Fighter",
+              "person": "Melissa Leo",
+              "winner": true,
+              "source_id": 71307,
+              "film_source": "https://goldenglobes.com/film/fighter-the/"
+            },
+            {
+              "title": "Animal Kingdom",
+              "person": "Jacki Weaver",
+              "winner": false,
+              "source_id": 71308,
+              "film_source": "https://goldenglobes.com/film/animal-kingdom/"
+            }
+          ]
+        },
+        {
+          "name": "Best Performance by a Male Actor in a Supporting Role in any Motion Picture",
+          "original_category": "Best Performance by an Actor in a Supporting Role in any Motion Picture",
+          "entries": [
+            {
+              "title": "The Social Network",
+              "person": "Andrew Garfield",
+              "winner": false,
+              "source_id": 71311,
+              "film_source": "https://goldenglobes.com/film/the-social-network/"
+            },
+            {
+              "title": "The Town",
+              "person": "Jeremy Renner",
+              "winner": false,
+              "source_id": 71312,
+              "film_source": "https://goldenglobes.com/film/town-the/"
+            },
+            {
+              "title": "The King's Speech",
+              "person": "Geoffrey Rush",
+              "winner": false,
+              "source_id": 71313,
+              "film_source": "https://goldenglobes.com/film/the-kings-speech/"
+            },
+            {
+              "title": "The Fighter",
+              "person": "Christian Bale",
+              "winner": true,
+              "source_id": 71309,
+              "film_source": "https://goldenglobes.com/film/fighter-the/"
+            },
+            {
+              "title": "Wall Street: Money Never Sleeps",
+              "person": "Michael Douglas",
+              "winner": false,
+              "source_id": 71310,
+              "film_source": "https://goldenglobes.com/film/wall-street-money-never-sleeps/"
+            }
+          ]
+        },
+        {
+          "name": "Best Director - Motion Picture",
+          "original_category": "Best Director - Motion Picture",
+          "entries": [
+            {
+              "title": "Black Swan",
+              "person": "Darren Aronofsky",
+              "winner": false,
+              "source_id": 71314,
+              "film_source": "https://goldenglobes.com/film/black-swan/"
+            },
+            {
+              "title": "The Social Network",
+              "person": "David Fincher",
+              "winner": true,
+              "source_id": 71315,
+              "film_source": "https://goldenglobes.com/film/the-social-network/"
+            },
+            {
+              "title": "The King's Speech",
+              "person": "Tom Hooper",
+              "winner": false,
+              "source_id": 71316,
+              "film_source": "https://goldenglobes.com/film/the-kings-speech/"
+            },
+            {
+              "title": "Inception",
+              "person": "Christopher Nolan",
+              "winner": false,
+              "source_id": 71317,
+              "film_source": "https://goldenglobes.com/film/inception/"
+            },
+            {
+              "title": "The Fighter",
+              "person": "David O. Russell",
+              "winner": false,
+              "source_id": 71318,
+              "film_source": "https://goldenglobes.com/film/fighter-the/"
+            }
+          ]
+        },
+        {
+          "name": "Best Screenplay - Motion Picture",
+          "original_category": "Best Screenplay - Motion Picture",
+          "entries": [
+            {
+              "title": "The Social Network",
+              "person": "Aaron Sorkin",
+              "winner": true,
+              "source_id": 72165,
+              "film_source": "https://goldenglobes.com/film/the-social-network/"
+            },
+            {
+              "title": "127 Hours",
+              "person": "Danny Boyle, Simon Beaufoy",
+              "winner": false,
+              "source_id": 71957,
+              "film_source": "https://goldenglobes.com/film/127-hours/"
+            },
+            {
+              "title": "The Kids Are All Right",
+              "person": "Lisa Cholodenko, Stuart Blumberg",
+              "winner": false,
+              "source_id": 71958,
+              "film_source": "https://goldenglobes.com/film/kids-are-all-right-the/"
+            },
+            {
+              "title": "Inception",
+              "person": "Christopher Nolan",
+              "winner": false,
+              "source_id": 71959,
+              "film_source": "https://goldenglobes.com/film/inception/"
+            },
+            {
+              "title": "The King's Speech",
+              "person": "David Seidler",
+              "winner": false,
+              "source_id": 71960,
+              "film_source": "https://goldenglobes.com/film/the-kings-speech/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "Golden Globes",
+      "year": 2012,
+      "section": "Major Film Categories",
+      "source": "https://goldenglobes.com/winners-nominees/?year=2012",
+      "data_source": "https://goldenglobes.com/wp-json/awdb/v1/winners-and-nominees/?year=2012",
+      "ceremony_date": "2012-01-15",
+      "date_source": "https://goldenglobes.com/articles/hfpa-announces-timetable-69th-annual-golden-globe-awards/",
+      "categories": [
+        {
+          "name": "Best Motion Picture - Drama",
+          "original_category": "Best Motion Picture - Drama",
+          "entries": [
+            {
+              "title": "Moneyball",
+              "person": "",
+              "winner": false,
+              "source_id": 71981,
+              "film_source": "https://goldenglobes.com/film/moneyball/"
+            },
+            {
+              "title": "War Horse",
+              "person": "",
+              "winner": false,
+              "source_id": 71982,
+              "film_source": "https://goldenglobes.com/film/war-horse/"
+            },
+            {
+              "title": "The Descendants",
+              "person": "",
+              "winner": true,
+              "source_id": 71977,
+              "film_source": "https://goldenglobes.com/film/descendants-the/"
+            },
+            {
+              "title": "The Help",
+              "person": "",
+              "winner": false,
+              "source_id": 71978,
+              "film_source": "https://goldenglobes.com/film/the-help/"
+            },
+            {
+              "title": "Hugo",
+              "person": "",
+              "winner": false,
+              "source_id": 71979,
+              "film_source": "https://goldenglobes.com/film/hugo/"
+            },
+            {
+              "title": "The Ides of March",
+              "person": "",
+              "winner": false,
+              "source_id": 71980,
+              "film_source": "https://goldenglobes.com/film/ides-of-march-the/"
+            }
+          ]
+        },
+        {
+          "name": "Best Motion Picture - Musical or Comedy",
+          "original_category": "Best Motion Picture - Musical or Comedy",
+          "entries": [
+            {
+              "title": "50/50",
+              "person": "",
+              "winner": false,
+              "source_id": 71983,
+              "film_source": "https://goldenglobes.com/film/50-50/"
+            },
+            {
+              "title": "The Artist",
+              "person": "",
+              "winner": true,
+              "source_id": 71984,
+              "film_source": "https://goldenglobes.com/film/the-artist/"
+            },
+            {
+              "title": "Bridesmaids",
+              "person": "",
+              "winner": false,
+              "source_id": 71985,
+              "film_source": "https://goldenglobes.com/film/bridesmaids/"
+            },
+            {
+              "title": "Midnight In Paris",
+              "person": "",
+              "winner": false,
+              "source_id": 71986,
+              "film_source": "https://goldenglobes.com/film/midnight-in-paris/"
+            },
+            {
+              "title": "My Week With Marilyn",
+              "person": "",
+              "winner": false,
+              "source_id": 71987,
+              "film_source": "https://goldenglobes.com/film/my-week-with-marilyn/"
+            }
+          ]
+        },
+        {
+          "name": "Best Motion Picture - Animated",
+          "original_category": "Best Motion Picture - Animated",
+          "entries": [
+            {
+              "title": "Puss In Boots",
+              "person": "",
+              "winner": false,
+              "source_id": 71991,
+              "film_source": "https://goldenglobes.com/film/puss-in-boots/"
+            },
+            {
+              "title": "Rango",
+              "person": "",
+              "winner": false,
+              "source_id": 71992,
+              "film_source": "https://goldenglobes.com/film/rango/"
+            },
+            {
+              "title": "The Adventures of Tintin",
+              "person": "",
+              "winner": true,
+              "source_id": 71988,
+              "film_source": "https://goldenglobes.com/film/the-adventures-of-tintin/"
+            },
+            {
+              "title": "Arthur Christmas",
+              "person": "",
+              "winner": false,
+              "source_id": 71989,
+              "film_source": "https://goldenglobes.com/film/arthur-christmas/"
+            },
+            {
+              "title": "Cars 2",
+              "person": "",
+              "winner": false,
+              "source_id": 71990,
+              "film_source": "https://goldenglobes.com/film/cars-2/"
+            }
+          ]
+        },
+        {
+          "name": "Best Motion Picture – Non-English Language",
+          "original_category": "Best Motion Picture – Non-English Language",
+          "entries": [
+            {
+              "title": "The Skin I Live In",
+              "person": "",
+              "winner": false,
+              "source_id": 72148,
+              "film_source": "https://goldenglobes.com/film/the-skin-i-live-in/"
+            },
+            {
+              "title": "The Flowers Of War",
+              "person": "",
+              "winner": false,
+              "source_id": 71384,
+              "film_source": "https://goldenglobes.com/film/the-flowers-of-war/"
+            },
+            {
+              "title": "In the Land of Blood and Honey",
+              "person": "",
+              "winner": false,
+              "source_id": 71385,
+              "film_source": "https://goldenglobes.com/film/in-the-land-of-blood-and-honey/"
+            },
+            {
+              "title": "The Kid With A Bike",
+              "person": "",
+              "winner": false,
+              "source_id": 71386,
+              "film_source": "https://goldenglobes.com/film/the-kid-with-a-bike/"
+            },
+            {
+              "title": "A Separation",
+              "person": "",
+              "winner": true,
+              "source_id": 71387,
+              "film_source": "https://goldenglobes.com/film/a-separation/"
+            }
+          ]
+        },
+        {
+          "name": "Best Performance by a Female Actor in a Motion Picture – Drama",
+          "original_category": "Best Performance by an Actress in a Motion Picture - Drama",
+          "entries": [
+            {
+              "title": "Albert Nobbs",
+              "person": "Glenn Close",
+              "winner": false,
+              "source_id": 71364,
+              "film_source": "https://goldenglobes.com/film/albert-nobbs/"
+            },
+            {
+              "title": "The Help",
+              "person": "Viola Davis",
+              "winner": false,
+              "source_id": 71365,
+              "film_source": "https://goldenglobes.com/film/the-help/"
+            },
+            {
+              "title": "The Girl With The Dragon Tattoo",
+              "person": "Rooney Mara",
+              "winner": false,
+              "source_id": 71366,
+              "film_source": "https://goldenglobes.com/film/the-girl-with-the-dragon-tattoo/"
+            },
+            {
+              "title": "The Iron Lady",
+              "person": "Meryl Streep",
+              "winner": true,
+              "source_id": 71367,
+              "film_source": "https://goldenglobes.com/film/iron-lady-the/"
+            },
+            {
+              "title": "We Need To Talk About Kevin",
+              "person": "Tilda Swinton",
+              "winner": false,
+              "source_id": 71368,
+              "film_source": "https://goldenglobes.com/film/we-need-to-talk-about-kevin/"
+            }
+          ]
+        },
+        {
+          "name": "Best Performance by a Male Actor in a Motion Picture – Drama",
+          "original_category": "Best Performance by an Actor in a Motion Picture - Drama",
+          "entries": [
+            {
+              "title": "Shame",
+              "person": "Michael Fassbender",
+              "winner": false,
+              "source_id": 71371,
+              "film_source": "https://goldenglobes.com/film/shame/"
+            },
+            {
+              "title": "The Ides of March",
+              "person": "Ryan Gosling",
+              "winner": false,
+              "source_id": 71372,
+              "film_source": "https://goldenglobes.com/film/ides-of-march-the/"
+            },
+            {
+              "title": "Moneyball",
+              "person": "Brad Pitt",
+              "winner": false,
+              "source_id": 71373,
+              "film_source": "https://goldenglobes.com/film/moneyball/"
+            },
+            {
+              "title": "The Descendants",
+              "person": "George Clooney",
+              "winner": true,
+              "source_id": 71369,
+              "film_source": "https://goldenglobes.com/film/descendants-the/"
+            },
+            {
+              "title": "J. Edgar",
+              "person": "Leonardo DiCaprio",
+              "winner": false,
+              "source_id": 71370,
+              "film_source": "https://goldenglobes.com/film/j-edgar/"
+            }
+          ]
+        },
+        {
+          "name": "Best Performance by a Female Actor in a Motion Picture – Musical or Comedy",
+          "original_category": "Best Performance by an Actress in a Motion Picture - Musical or Comedy",
+          "entries": [
+            {
+              "title": "Carnage",
+              "person": "Jodie Foster",
+              "winner": false,
+              "source_id": 71374,
+              "film_source": "https://goldenglobes.com/film/carnage/"
+            },
+            {
+              "title": "Young Adult",
+              "person": "Charlize Theron",
+              "winner": false,
+              "source_id": 71375,
+              "film_source": "https://goldenglobes.com/film/young-adult/"
+            },
+            {
+              "title": "Bridesmaids",
+              "person": "Kristen Wiig",
+              "winner": false,
+              "source_id": 71376,
+              "film_source": "https://goldenglobes.com/film/bridesmaids/"
+            },
+            {
+              "title": "My Week With Marilyn",
+              "person": "Michelle Williams",
+              "winner": true,
+              "source_id": 71377,
+              "film_source": "https://goldenglobes.com/film/my-week-with-marilyn/"
+            },
+            {
+              "title": "Carnage",
+              "person": "Kate Winslet",
+              "winner": false,
+              "source_id": 71378,
+              "film_source": "https://goldenglobes.com/film/carnage/"
+            }
+          ]
+        },
+        {
+          "name": "Best Performance by a Male Actor in a Motion Picture – Musical or Comedy",
+          "original_category": "Best Performance by an Actor in a Motion Picture - Musical or Comedy",
+          "entries": [
+            {
+              "title": "50/50",
+              "person": "Joseph Gordon-Levitt",
+              "winner": false,
+              "source_id": 71381,
+              "film_source": "https://goldenglobes.com/film/50-50/"
+            },
+            {
+              "title": "Crazy, Stupid, Love.",
+              "person": "Ryan Gosling",
+              "winner": false,
+              "source_id": 71382,
+              "film_source": "https://goldenglobes.com/film/crazy-stupid-love/"
+            },
+            {
+              "title": "Midnight In Paris",
+              "person": "Owen Wilson",
+              "winner": false,
+              "source_id": 71383,
+              "film_source": "https://goldenglobes.com/film/midnight-in-paris/"
+            },
+            {
+              "title": "The Artist",
+              "person": "Jean Dujardin",
+              "winner": true,
+              "source_id": 71379,
+              "film_source": "https://goldenglobes.com/film/the-artist/"
+            },
+            {
+              "title": "The Guard",
+              "person": "Brendan Gleeson",
+              "winner": false,
+              "source_id": 71380,
+              "film_source": "https://goldenglobes.com/film/guard-the/"
+            }
+          ]
+        },
+        {
+          "name": "Best Performance by a Female Actor in a Supporting Role in any Motion Picture",
+          "original_category": "Best Performance by an Actress in a Supporting Role in any Motion Picture",
+          "entries": [
+            {
+              "title": "The Help",
+              "person": "Octavia Spencer",
+              "winner": true,
+              "source_id": 71391,
+              "film_source": "https://goldenglobes.com/film/the-help/"
+            },
+            {
+              "title": "The Descendants",
+              "person": "Shailene Woodley",
+              "winner": false,
+              "source_id": 71392,
+              "film_source": "https://goldenglobes.com/film/descendants-the/"
+            },
+            {
+              "title": "The Artist",
+              "person": "Berenice Bejo",
+              "winner": false,
+              "source_id": 71388,
+              "film_source": "https://goldenglobes.com/film/the-artist/"
+            },
+            {
+              "title": "The Help",
+              "person": "Jessica Chastain",
+              "winner": false,
+              "source_id": 71389,
+              "film_source": "https://goldenglobes.com/film/the-help/"
+            },
+            {
+              "title": "Albert Nobbs",
+              "person": "Janet McTeer",
+              "winner": false,
+              "source_id": 71390,
+              "film_source": "https://goldenglobes.com/film/albert-nobbs/"
+            }
+          ]
+        },
+        {
+          "name": "Best Performance by a Male Actor in a Supporting Role in any Motion Picture",
+          "original_category": "Best Performance by an Actor in a Supporting Role in any Motion Picture",
+          "entries": [
+            {
+              "title": "My Week With Marilyn",
+              "person": "Kenneth Branagh",
+              "winner": false,
+              "source_id": 71393,
+              "film_source": "https://goldenglobes.com/film/my-week-with-marilyn/"
+            },
+            {
+              "title": "Drive",
+              "person": "Albert Brooks",
+              "winner": false,
+              "source_id": 71394,
+              "film_source": "https://goldenglobes.com/film/drive/"
+            },
+            {
+              "title": "Moneyball",
+              "person": "Jonah Hill",
+              "winner": false,
+              "source_id": 71395,
+              "film_source": "https://goldenglobes.com/film/moneyball/"
+            },
+            {
+              "title": "A Dangerous Method",
+              "person": "Viggo Mortensen",
+              "winner": false,
+              "source_id": 71396,
+              "film_source": "https://goldenglobes.com/film/dangerous-method-a/"
+            },
+            {
+              "title": "Beginners",
+              "person": "Christopher Plummer",
+              "winner": true,
+              "source_id": 71397,
+              "film_source": "https://goldenglobes.com/film/beginners/"
+            }
+          ]
+        },
+        {
+          "name": "Best Director - Motion Picture",
+          "original_category": "Best Director - Motion Picture",
+          "entries": [
+            {
+              "title": "The Descendants",
+              "person": "Alexander Payne",
+              "winner": false,
+              "source_id": 71401,
+              "film_source": "https://goldenglobes.com/film/descendants-the/"
+            },
+            {
+              "title": "Hugo",
+              "person": "Martin Scorsese",
+              "winner": true,
+              "source_id": 71402,
+              "film_source": "https://goldenglobes.com/film/hugo/"
+            },
+            {
+              "title": "Midnight In Paris",
+              "person": "Woody Allen",
+              "winner": false,
+              "source_id": 71398,
+              "film_source": "https://goldenglobes.com/film/midnight-in-paris/"
+            },
+            {
+              "title": "The Ides of March",
+              "person": "George Clooney",
+              "winner": false,
+              "source_id": 71399,
+              "film_source": "https://goldenglobes.com/film/ides-of-march-the/"
+            },
+            {
+              "title": "The Artist",
+              "person": "Michel Hazanavicius",
+              "winner": false,
+              "source_id": 71400,
+              "film_source": "https://goldenglobes.com/film/the-artist/"
+            }
+          ]
+        },
+        {
+          "name": "Best Screenplay - Motion Picture",
+          "original_category": "Best Screenplay - Motion Picture",
+          "entries": [
+            {
+              "title": "Moneyball",
+              "person": "Stan Chervin, Steven Zaillian, Aaron Sorkin",
+              "winner": false,
+              "source_id": 72166,
+              "film_source": "https://goldenglobes.com/film/moneyball/",
+              "source_original_person": "Aaron Sorkin, Stan Chervin",
+              "person_source": "https://goldenglobes.com/articles/69th-annual-golden-globe-awards-nominations/"
+            },
+            {
+              "title": "The Descendants",
+              "person": "Nat Faxon, Jim Rash, Alexander Payne",
+              "winner": false,
+              "source_id": 72168,
+              "film_source": "https://goldenglobes.com/film/descendants-the/"
+            },
+            {
+              "title": "Midnight In Paris",
+              "person": "Woody Allen",
+              "winner": true,
+              "source_id": 71993,
+              "film_source": "https://goldenglobes.com/film/midnight-in-paris/"
+            },
+            {
+              "title": "The Ides of March",
+              "person": "George Clooney, Grant Heslov, Beau Willimon",
+              "winner": false,
+              "source_id": 71994,
+              "film_source": "https://goldenglobes.com/film/ides-of-march-the/"
+            },
+            {
+              "title": "The Artist",
+              "person": "Michel Hazanavicius",
+              "winner": false,
+              "source_id": 71995,
+              "film_source": "https://goldenglobes.com/film/the-artist/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "Golden Globes",
+      "year": 2013,
+      "section": "Major Film Categories",
+      "source": "https://goldenglobes.com/winners-nominees/?year=2013",
+      "data_source": "https://goldenglobes.com/wp-json/awdb/v1/winners-and-nominees/?year=2013",
+      "ceremony_date": "2013-01-13",
+      "date_source": "https://goldenglobes.com/articles/70th-golden-globes-timeline-announced/",
+      "categories": [
+        {
+          "name": "Best Motion Picture - Drama",
+          "original_category": "Best Motion Picture - Drama",
+          "entries": [
+            {
+              "title": "Argo",
+              "person": "",
+              "winner": true,
+              "source_id": 72011,
+              "film_source": "https://goldenglobes.com/film/argo/"
+            },
+            {
+              "title": "Life of Pi",
+              "person": "",
+              "winner": false,
+              "source_id": 72012,
+              "film_source": "https://goldenglobes.com/film/life-of-pi/"
+            },
+            {
+              "title": "Lincoln",
+              "person": "",
+              "winner": false,
+              "source_id": 72013,
+              "film_source": "https://goldenglobes.com/film/lincoln/"
+            },
+            {
+              "title": "Zero Dark Thirty",
+              "person": "",
+              "winner": false,
+              "source_id": 72014,
+              "film_source": "https://goldenglobes.com/film/zero-dark-thirty/"
+            },
+            {
+              "title": "Django Unchained",
+              "person": "",
+              "winner": false,
+              "source_id": 70034,
+              "film_source": "https://goldenglobes.com/film/django-unchained/"
+            }
+          ]
+        },
+        {
+          "name": "Best Motion Picture - Musical or Comedy",
+          "original_category": "Best Motion Picture - Musical or Comedy",
+          "entries": [
+            {
+              "title": "The Best Exotic Marigold Hotel",
+              "person": "",
+              "winner": false,
+              "source_id": 71451,
+              "film_source": "https://goldenglobes.com/film/best-exotic-marigold-hotel-the/"
+            },
+            {
+              "title": "Les Misérables",
+              "person": "",
+              "winner": true,
+              "source_id": 71452,
+              "film_source": "https://goldenglobes.com/film/les-miserables/"
+            },
+            {
+              "title": "Moonrise Kingdom",
+              "person": "",
+              "winner": false,
+              "source_id": 71453,
+              "film_source": "https://goldenglobes.com/film/moonrise-kingdom/"
+            },
+            {
+              "title": "Salmon Fishing in the Yemen",
+              "person": "",
+              "winner": false,
+              "source_id": 71454,
+              "film_source": "https://goldenglobes.com/film/salmon-fishing-in-the-yemen/"
+            },
+            {
+              "title": "Silver Linings Playbook",
+              "person": "",
+              "winner": false,
+              "source_id": 71455,
+              "film_source": "https://goldenglobes.com/film/silver-linings-playbook/"
+            }
+          ]
+        },
+        {
+          "name": "Best Motion Picture - Animated",
+          "original_category": "Best Motion Picture - Animated",
+          "entries": [
+            {
+              "title": "Brave",
+              "person": "",
+              "winner": true,
+              "source_id": 71456,
+              "film_source": "https://goldenglobes.com/film/brave/"
+            },
+            {
+              "title": "Frankenweenie",
+              "person": "",
+              "winner": false,
+              "source_id": 71457,
+              "film_source": "https://goldenglobes.com/film/frankenweenie/"
+            },
+            {
+              "title": "Hotel Transylvania",
+              "person": "",
+              "winner": false,
+              "source_id": 71458,
+              "film_source": "https://goldenglobes.com/film/hotel-transylvania/"
+            },
+            {
+              "title": "Rise of the Guardians",
+              "person": "",
+              "winner": false,
+              "source_id": 71459,
+              "film_source": "https://goldenglobes.com/film/rise-of-the-guardians/"
+            },
+            {
+              "title": "Wreck-It Ralph",
+              "person": "",
+              "winner": false,
+              "source_id": 71460,
+              "film_source": "https://goldenglobes.com/film/wreck-it-ralph/"
+            }
+          ]
+        },
+        {
+          "name": "Best Motion Picture – Non-English Language",
+          "original_category": "Best Motion Picture – Non-English Language",
+          "entries": [
+            {
+              "title": "Amour",
+              "person": "",
+              "winner": true,
+              "source_id": 71461,
+              "film_source": "https://goldenglobes.com/film/amour/"
+            },
+            {
+              "title": "A Royal Affair",
+              "person": "",
+              "winner": false,
+              "source_id": 71462,
+              "film_source": "https://goldenglobes.com/film/a-royal-affair/"
+            },
+            {
+              "title": "The Intouchables",
+              "person": "",
+              "winner": false,
+              "source_id": 71463,
+              "film_source": "https://goldenglobes.com/film/the-intouchables/"
+            },
+            {
+              "title": "Kon Tiki",
+              "person": "",
+              "winner": false,
+              "source_id": 71464,
+              "film_source": "https://goldenglobes.com/film/kon-tiki/"
+            },
+            {
+              "title": "Rust and Bone",
+              "person": "",
+              "winner": false,
+              "source_id": 71465,
+              "film_source": "https://goldenglobes.com/film/rust-and-bone/"
+            }
+          ]
+        },
+        {
+          "name": "Best Performance by a Female Actor in a Motion Picture – Drama",
+          "original_category": "Best Performance by an Actress in a Motion Picture - Drama",
+          "entries": [
+            {
+              "title": "Hitchcock",
+              "person": "Helen Mirren",
+              "winner": false,
+              "source_id": 70051,
+              "film_source": "https://goldenglobes.com/film/hitchcock/"
+            },
+            {
+              "title": "The Impossible",
+              "person": "Naomi Watts",
+              "winner": false,
+              "source_id": 70052,
+              "film_source": "https://goldenglobes.com/film/impossible-the/"
+            },
+            {
+              "title": "The Deep Blue Sea",
+              "person": "Rachel Weisz",
+              "winner": false,
+              "source_id": 70053,
+              "film_source": "https://goldenglobes.com/film/deep-blue-sea-the/"
+            },
+            {
+              "title": "Zero Dark Thirty",
+              "person": "Jessica Chastain",
+              "winner": true,
+              "source_id": 70049,
+              "film_source": "https://goldenglobes.com/film/zero-dark-thirty/"
+            },
+            {
+              "title": "Rust and Bone",
+              "person": "Marion Cotillard",
+              "winner": false,
+              "source_id": 70050,
+              "film_source": "https://goldenglobes.com/film/rust-and-bone/"
+            }
+          ]
+        },
+        {
+          "name": "Best Performance by a Male Actor in a Motion Picture – Drama",
+          "original_category": "Best Performance by an Actor in a Motion Picture - Drama",
+          "entries": [
+            {
+              "title": "Arbitrage",
+              "person": "Richard Gere",
+              "winner": false,
+              "source_id": 70054,
+              "film_source": "https://goldenglobes.com/film/arbitrage/"
+            },
+            {
+              "title": "The Master",
+              "person": "Joaquin Phoenix",
+              "winner": false,
+              "source_id": 70055,
+              "film_source": "https://goldenglobes.com/film/master/"
+            },
+            {
+              "title": "Flight",
+              "person": "Denzel Washington",
+              "winner": false,
+              "source_id": 70056,
+              "film_source": "https://goldenglobes.com/film/flight/"
+            },
+            {
+              "title": "The Sessions",
+              "person": "John Hawkes",
+              "winner": false,
+              "source_id": 70057,
+              "film_source": "https://goldenglobes.com/film/sessions-the/"
+            },
+            {
+              "title": "Lincoln",
+              "person": "Daniel Day-Lewis",
+              "winner": true,
+              "source_id": 70039,
+              "film_source": "https://goldenglobes.com/film/lincoln/"
+            }
+          ]
+        },
+        {
+          "name": "Best Performance by a Female Actor in a Motion Picture – Musical or Comedy",
+          "original_category": "Best Performance by an Actress in a Motion Picture - Musical or Comedy",
+          "entries": [
+            {
+              "title": "Salmon Fishing in the Yemen",
+              "person": "Emily Blunt",
+              "winner": false,
+              "source_id": 70044,
+              "film_source": "https://goldenglobes.com/film/salmon-fishing-in-the-yemen/"
+            },
+            {
+              "title": "The Best Exotic Marigold Hotel",
+              "person": "Judi Dench",
+              "winner": false,
+              "source_id": 70045,
+              "film_source": "https://goldenglobes.com/film/best-exotic-marigold-hotel-the/"
+            },
+            {
+              "title": "Silver Linings Playbook",
+              "person": "Jennifer Lawrence",
+              "winner": true,
+              "source_id": 70046,
+              "film_source": "https://goldenglobes.com/film/silver-linings-playbook/"
+            },
+            {
+              "title": "Quartet",
+              "person": "Maggie Smith",
+              "winner": false,
+              "source_id": 70047,
+              "film_source": "https://goldenglobes.com/film/quartet/"
+            },
+            {
+              "title": "Hope Springs",
+              "person": "Meryl Streep",
+              "winner": false,
+              "source_id": 70048,
+              "film_source": "https://goldenglobes.com/film/hope-springs/"
+            }
+          ]
+        },
+        {
+          "name": "Best Performance by a Male Actor in a Motion Picture – Musical or Comedy",
+          "original_category": "Best Performance by an Actor in a Motion Picture - Musical or Comedy",
+          "entries": [
+            {
+              "title": "Hyde Park on Hudson",
+              "person": "Bill Murray",
+              "winner": false,
+              "source_id": 70061,
+              "film_source": "https://goldenglobes.com/film/hyde-park-on-hudson/"
+            },
+            {
+              "title": "Silver Linings Playbook",
+              "person": "Bradley Cooper",
+              "winner": false,
+              "source_id": 70062,
+              "film_source": "https://goldenglobes.com/film/silver-linings-playbook/"
+            },
+            {
+              "title": "Bernie",
+              "person": "Jack Black",
+              "winner": false,
+              "source_id": 70058,
+              "film_source": "https://goldenglobes.com/film/bernie/"
+            },
+            {
+              "title": "Les Misérables",
+              "person": "Hugh Jackman",
+              "winner": true,
+              "source_id": 70059,
+              "film_source": "https://goldenglobes.com/film/les-miserables/"
+            },
+            {
+              "title": "Salmon Fishing in the Yemen",
+              "person": "Ewan McGregor",
+              "winner": false,
+              "source_id": 70060,
+              "film_source": "https://goldenglobes.com/film/salmon-fishing-in-the-yemen/"
+            }
+          ]
+        },
+        {
+          "name": "Best Performance by a Female Actor in a Supporting Role in any Motion Picture",
+          "original_category": "Best Performance by an Actress in a Supporting Role in any Motion Picture",
+          "entries": [
+            {
+              "title": "The Master",
+              "person": "Amy Adams",
+              "winner": false,
+              "source_id": 70063,
+              "film_source": "https://goldenglobes.com/film/master/"
+            },
+            {
+              "title": "Les Misérables",
+              "person": "Anne Hathaway",
+              "winner": true,
+              "source_id": 70064,
+              "film_source": "https://goldenglobes.com/film/les-miserables/"
+            },
+            {
+              "title": "The Sessions",
+              "person": "Helen Hunt",
+              "winner": false,
+              "source_id": 70065,
+              "film_source": "https://goldenglobes.com/film/sessions-the/"
+            },
+            {
+              "title": "The Paperboy",
+              "person": "Nicole Kidman",
+              "winner": false,
+              "source_id": 70066,
+              "film_source": "https://goldenglobes.com/film/paperboy-the/"
+            },
+            {
+              "title": "Lincoln",
+              "person": "Sally Field",
+              "winner": false,
+              "source_id": 70067,
+              "film_source": "https://goldenglobes.com/film/lincoln/"
+            }
+          ]
+        },
+        {
+          "name": "Best Performance by a Male Actor in a Supporting Role in any Motion Picture",
+          "original_category": "Best Performance by an Actor in a Supporting Role in any Motion Picture",
+          "entries": [
+            {
+              "title": "The Master",
+              "person": "Philip Seymour Hoffman",
+              "winner": false,
+              "source_id": 70068,
+              "film_source": "https://goldenglobes.com/film/master/"
+            },
+            {
+              "title": "Argo",
+              "person": "Alan Arkin",
+              "winner": false,
+              "source_id": 70032,
+              "film_source": "https://goldenglobes.com/film/argo/"
+            },
+            {
+              "title": "Django Unchained",
+              "person": "Leonardo DiCaprio",
+              "winner": false,
+              "source_id": 70035,
+              "film_source": "https://goldenglobes.com/film/django-unchained/"
+            },
+            {
+              "title": "Django Unchained",
+              "person": "Christoph Waltz",
+              "winner": true,
+              "source_id": 70036,
+              "film_source": "https://goldenglobes.com/film/django-unchained/"
+            },
+            {
+              "title": "Lincoln",
+              "person": "Tommy Lee Jones",
+              "winner": false,
+              "source_id": 70040,
+              "film_source": "https://goldenglobes.com/film/lincoln/"
+            }
+          ]
+        },
+        {
+          "name": "Best Director - Motion Picture",
+          "original_category": "Best Director - Motion Picture",
+          "entries": [
+            {
+              "title": "Django Unchained",
+              "person": "Quentin Tarantino",
+              "winner": false,
+              "source_id": 71449,
+              "film_source": "https://goldenglobes.com/film/django-unchained/"
+            },
+            {
+              "title": "Zero Dark Thirty",
+              "person": "Kathryn Bigelow",
+              "winner": false,
+              "source_id": 70069,
+              "film_source": "https://goldenglobes.com/film/zero-dark-thirty/"
+            },
+            {
+              "title": "Lincoln",
+              "person": "Steven Spielberg",
+              "winner": false,
+              "source_id": 70041,
+              "film_source": "https://goldenglobes.com/film/lincoln/"
+            },
+            {
+              "title": "Argo",
+              "person": "Ben Affleck",
+              "winner": true,
+              "source_id": 70033,
+              "film_source": "https://goldenglobes.com/film/argo/"
+            },
+            {
+              "title": "Life of Pi",
+              "person": "Ang Lee",
+              "winner": false,
+              "source_id": 70038,
+              "film_source": "https://goldenglobes.com/film/life-of-pi/"
+            }
+          ]
+        },
+        {
+          "name": "Best Screenplay - Motion Picture",
+          "original_category": "Best Screenplay - Motion Picture",
+          "entries": [
+            {
+              "title": "Django Unchained",
+              "person": "Quentin Tarantino",
+              "winner": true,
+              "source_id": 71450,
+              "film_source": "https://goldenglobes.com/film/django-unchained/"
+            },
+            {
+              "title": "Silver Linings Playbook",
+              "person": "David O. Russell",
+              "winner": false,
+              "source_id": 70071,
+              "film_source": "https://goldenglobes.com/film/silver-linings-playbook/"
+            },
+            {
+              "title": "Zero Dark Thirty",
+              "person": "Mark Boal",
+              "winner": false,
+              "source_id": 70070,
+              "film_source": "https://goldenglobes.com/film/zero-dark-thirty/"
+            },
+            {
+              "title": "Lincoln",
+              "person": "Tony Kushner",
+              "winner": false,
+              "source_id": 70043,
+              "film_source": "https://goldenglobes.com/film/lincoln/"
+            },
+            {
+              "title": "Argo",
+              "person": "Chris Terrio",
+              "winner": false,
+              "source_id": 70031,
+              "film_source": "https://goldenglobes.com/film/argo/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "Golden Globes",
+      "year": 2014,
+      "section": "Major Film Categories",
+      "source": "https://goldenglobes.com/winners-nominees/?year=2014",
+      "data_source": "https://goldenglobes.com/wp-json/awdb/v1/winners-and-nominees/?year=2014",
+      "ceremony_date": "2014-01-12",
+      "date_source": "https://goldenglobes.com/articles/nominations-have-been-announced/",
+      "categories": [
+        {
+          "name": "Best Motion Picture - Drama",
+          "original_category": "Best Motion Picture - Drama",
+          "entries": [
+            {
+              "title": "12 Years a Slave",
+              "person": "",
+              "winner": true,
+              "source_id": 72015,
+              "film_source": "https://goldenglobes.com/film/12-years-a-slave/"
+            },
+            {
+              "title": "Captain Phillips",
+              "person": "",
+              "winner": false,
+              "source_id": 71481,
+              "film_source": "https://goldenglobes.com/film/captain-phillips/"
+            },
+            {
+              "title": "Gravity",
+              "person": "",
+              "winner": false,
+              "source_id": 71482,
+              "film_source": "https://goldenglobes.com/film/gravity/"
+            },
+            {
+              "title": "Philomena",
+              "person": "",
+              "winner": false,
+              "source_id": 71483,
+              "film_source": "https://goldenglobes.com/film/philomena/"
+            },
+            {
+              "title": "Rush",
+              "person": "",
+              "winner": false,
+              "source_id": 71484,
+              "film_source": "https://goldenglobes.com/film/rush/"
+            }
+          ]
+        },
+        {
+          "name": "Best Motion Picture - Musical or Comedy",
+          "original_category": "Best Motion Picture - Musical or Comedy",
+          "entries": [
+            {
+              "title": "American Hustle",
+              "person": "",
+              "winner": true,
+              "source_id": 71485,
+              "film_source": "https://goldenglobes.com/film/american-hustle/"
+            },
+            {
+              "title": "Nebraska",
+              "person": "",
+              "winner": false,
+              "source_id": 71486,
+              "film_source": "https://goldenglobes.com/film/nebraska/"
+            },
+            {
+              "title": "Inside Llewyn Davis",
+              "person": "",
+              "winner": false,
+              "source_id": 71487,
+              "film_source": "https://goldenglobes.com/film/inside-llewyn-davis/"
+            },
+            {
+              "title": "Her",
+              "person": "",
+              "winner": false,
+              "source_id": 71488,
+              "film_source": "https://goldenglobes.com/film/her/"
+            },
+            {
+              "title": "The Wolf of Wall Street",
+              "person": "",
+              "winner": false,
+              "source_id": 71490,
+              "film_source": "https://goldenglobes.com/film/wolf-of-wall-street-the/"
+            }
+          ]
+        },
+        {
+          "name": "Best Motion Picture - Animated",
+          "original_category": "Best Motion Picture - Animated",
+          "entries": [
+            {
+              "title": "Despicable Me 2",
+              "person": "",
+              "winner": false,
+              "source_id": 71492,
+              "film_source": "https://goldenglobes.com/film/despicable-me-2/"
+            },
+            {
+              "title": "The Croods",
+              "person": "",
+              "winner": false,
+              "source_id": 71493,
+              "film_source": "https://goldenglobes.com/film/croods-the/"
+            },
+            {
+              "title": "Frozen",
+              "person": "",
+              "winner": true,
+              "source_id": 71489,
+              "film_source": "https://goldenglobes.com/film/frozen/"
+            }
+          ]
+        },
+        {
+          "name": "Best Motion Picture – Non-English Language",
+          "original_category": "Best Motion Picture – Non-English Language",
+          "entries": [
+            {
+              "title": "Blue is the Warmest Color",
+              "person": "",
+              "winner": false,
+              "source_id": 71491,
+              "film_source": "https://goldenglobes.com/film/blue-is-the-warmest-color/"
+            },
+            {
+              "title": "The Great Beauty",
+              "person": "",
+              "winner": true,
+              "source_id": 71494,
+              "film_source": "https://goldenglobes.com/film/the-great-beauty/"
+            },
+            {
+              "title": "The Hunt",
+              "person": "",
+              "winner": false,
+              "source_id": 71495,
+              "film_source": "https://goldenglobes.com/film/the-hunt/"
+            },
+            {
+              "title": "The Past",
+              "person": "",
+              "winner": false,
+              "source_id": 71496,
+              "film_source": "https://goldenglobes.com/film/the-past/"
+            },
+            {
+              "title": "The Wind Rises",
+              "person": "",
+              "winner": false,
+              "source_id": 71497,
+              "film_source": "https://goldenglobes.com/film/the-wind-rises/"
+            }
+          ]
+        },
+        {
+          "name": "Best Performance by a Female Actor in a Motion Picture – Drama",
+          "original_category": "Best Performance by an Actress in a Motion Picture - Drama",
+          "entries": [
+            {
+              "title": "Labor Day",
+              "person": "Kate Winslet",
+              "winner": false,
+              "source_id": 70156,
+              "film_source": "https://goldenglobes.com/film/labor-day/"
+            },
+            {
+              "title": "Saving Mr. Banks",
+              "person": "Emma Thompson",
+              "winner": false,
+              "source_id": 70157,
+              "film_source": "https://goldenglobes.com/film/saving-mr-banks/"
+            },
+            {
+              "title": "Blue Jasmine",
+              "person": "Cate Blanchett",
+              "winner": true,
+              "source_id": 70148,
+              "film_source": "https://goldenglobes.com/film/blue-jasmine/"
+            },
+            {
+              "title": "Gravity",
+              "person": "Sandra Bullock",
+              "winner": false,
+              "source_id": 70123,
+              "film_source": "https://goldenglobes.com/film/gravity/"
+            },
+            {
+              "title": "Philomena",
+              "person": "Judi Dench",
+              "winner": false,
+              "source_id": 70126,
+              "film_source": "https://goldenglobes.com/film/philomena/"
+            }
+          ]
+        },
+        {
+          "name": "Best Performance by a Male Actor in a Motion Picture – Drama",
+          "original_category": "Best Performance by an Actor in a Motion Picture - Drama",
+          "entries": [
+            {
+              "title": "All Is Lost",
+              "person": "Robert Redford",
+              "winner": false,
+              "source_id": 70146,
+              "film_source": "https://goldenglobes.com/film/all-is-lost/"
+            },
+            {
+              "title": "Dallas Buyers Club",
+              "person": "Matthew McConaughey",
+              "winner": true,
+              "source_id": 70150,
+              "film_source": "https://goldenglobes.com/film/dallas-buyers-club/"
+            },
+            {
+              "title": "Mandela: Long Walk to Freedom",
+              "person": "Idris Elba",
+              "winner": false,
+              "source_id": 70140,
+              "film_source": "https://goldenglobes.com/film/mandela-long-walk-to-freedom/"
+            },
+            {
+              "title": "12 Years a Slave",
+              "person": "Chiwetel Ejiofor",
+              "winner": false,
+              "source_id": 70114,
+              "film_source": "https://goldenglobes.com/film/12-years-a-slave/"
+            },
+            {
+              "title": "Captain Phillips",
+              "person": "Tom Hanks",
+              "winner": false,
+              "source_id": 70120,
+              "film_source": "https://goldenglobes.com/film/captain-phillips/"
+            }
+          ]
+        },
+        {
+          "name": "Best Performance by a Female Actor in a Motion Picture – Musical or Comedy",
+          "original_category": "Best Performance by an Actress in a Motion Picture - Musical or Comedy",
+          "entries": [
+            {
+              "title": "Before Midnight",
+              "person": "Julie Delpy",
+              "winner": false,
+              "source_id": 70153,
+              "film_source": "https://goldenglobes.com/film/before-midnight/"
+            },
+            {
+              "title": "Enough Said",
+              "person": "Julia Louis-Dreyfus",
+              "winner": false,
+              "source_id": 70154,
+              "film_source": "https://goldenglobes.com/film/enough-said/"
+            },
+            {
+              "title": "Frances Ha",
+              "person": "Greta Gerwig",
+              "winner": false,
+              "source_id": 70155,
+              "film_source": "https://goldenglobes.com/film/frances-ha/"
+            },
+            {
+              "title": "August: Osage County",
+              "person": "Meryl Streep",
+              "winner": false,
+              "source_id": 70144,
+              "film_source": "https://goldenglobes.com/film/august-osage-county/"
+            },
+            {
+              "title": "American Hustle",
+              "person": "Amy Adams",
+              "winner": true,
+              "source_id": 70129,
+              "film_source": "https://goldenglobes.com/film/american-hustle/"
+            }
+          ]
+        },
+        {
+          "name": "Best Performance by a Male Actor in a Motion Picture – Musical or Comedy",
+          "original_category": "Best Performance by an Actor in a Motion Picture - Musical or Comedy",
+          "entries": [
+            {
+              "title": "The Wolf of Wall Street",
+              "person": "Leonardo DiCaprio",
+              "winner": true,
+              "source_id": 70152,
+              "film_source": "https://goldenglobes.com/film/wolf-of-wall-street-the/"
+            },
+            {
+              "title": "Her",
+              "person": "Joaquin Phoenix",
+              "winner": false,
+              "source_id": 70142,
+              "film_source": "https://goldenglobes.com/film/her/"
+            },
+            {
+              "title": "Nebraska",
+              "person": "Bruce Dern",
+              "winner": false,
+              "source_id": 70135,
+              "film_source": "https://goldenglobes.com/film/nebraska/"
+            },
+            {
+              "title": "Inside Llewyn Davis",
+              "person": "Oscar Isaac",
+              "winner": false,
+              "source_id": 70139,
+              "film_source": "https://goldenglobes.com/film/inside-llewyn-davis/"
+            },
+            {
+              "title": "American Hustle",
+              "person": "Christian Bale",
+              "winner": false,
+              "source_id": 70130,
+              "film_source": "https://goldenglobes.com/film/american-hustle/"
+            }
+          ]
+        },
+        {
+          "name": "Best Performance by a Female Actor in a Supporting Role in any Motion Picture",
+          "original_category": "Best Performance by an Actress in a Supporting Role in any Motion Picture",
+          "entries": [
+            {
+              "title": "August: Osage County",
+              "person": "Julia Roberts",
+              "winner": false,
+              "source_id": 70145,
+              "film_source": "https://goldenglobes.com/film/august-osage-county/"
+            },
+            {
+              "title": "Blue Jasmine",
+              "person": "Sally Hawkins",
+              "winner": false,
+              "source_id": 70149,
+              "film_source": "https://goldenglobes.com/film/blue-jasmine/"
+            },
+            {
+              "title": "American Hustle",
+              "person": "Jennifer Lawrence",
+              "winner": true,
+              "source_id": 70131,
+              "film_source": "https://goldenglobes.com/film/american-hustle/"
+            },
+            {
+              "title": "Nebraska",
+              "person": "June Squibb",
+              "winner": false,
+              "source_id": 70136,
+              "film_source": "https://goldenglobes.com/film/nebraska/"
+            },
+            {
+              "title": "12 Years a Slave",
+              "person": "Lupita Nyong’o",
+              "winner": false,
+              "source_id": 70115,
+              "film_source": "https://goldenglobes.com/film/12-years-a-slave/"
+            }
+          ]
+        },
+        {
+          "name": "Best Performance by a Male Actor in a Supporting Role in any Motion Picture",
+          "original_category": "Best Performance by an Actor in a Supporting Role in any Motion Picture",
+          "entries": [
+            {
+              "title": "Dallas Buyers Club",
+              "person": "Jared Leto",
+              "winner": true,
+              "source_id": 70151,
+              "film_source": "https://goldenglobes.com/film/dallas-buyers-club/"
+            },
+            {
+              "title": "American Hustle",
+              "person": "Bradley Cooper",
+              "winner": false,
+              "source_id": 70132,
+              "film_source": "https://goldenglobes.com/film/american-hustle/"
+            },
+            {
+              "title": "Captain Phillips",
+              "person": "Barkhad Abdi",
+              "winner": false,
+              "source_id": 70121,
+              "film_source": "https://goldenglobes.com/film/captain-phillips/"
+            },
+            {
+              "title": "Rush",
+              "person": "Daniel Brühl",
+              "winner": false,
+              "source_id": 70128,
+              "film_source": "https://goldenglobes.com/film/rush/"
+            },
+            {
+              "title": "12 Years a Slave",
+              "person": "Michael Fassbender",
+              "winner": false,
+              "source_id": 70116,
+              "film_source": "https://goldenglobes.com/film/12-years-a-slave/"
+            }
+          ]
+        },
+        {
+          "name": "Best Director - Motion Picture",
+          "original_category": "Best Director - Motion Picture",
+          "entries": [
+            {
+              "title": "American Hustle",
+              "person": "David O. Russell",
+              "winner": false,
+              "source_id": 70133,
+              "film_source": "https://goldenglobes.com/film/american-hustle/"
+            },
+            {
+              "title": "Nebraska",
+              "person": "Alexander Payne",
+              "winner": false,
+              "source_id": 70137,
+              "film_source": "https://goldenglobes.com/film/nebraska/"
+            },
+            {
+              "title": "Captain Phillips",
+              "person": "Paul Greengrass",
+              "winner": false,
+              "source_id": 70122,
+              "film_source": "https://goldenglobes.com/film/captain-phillips/"
+            },
+            {
+              "title": "Gravity",
+              "person": "Alfonso Cuarón",
+              "winner": true,
+              "source_id": 70124,
+              "film_source": "https://goldenglobes.com/film/gravity/"
+            },
+            {
+              "title": "12 Years a Slave",
+              "person": "Steve McQueen",
+              "winner": false,
+              "source_id": 70117,
+              "film_source": "https://goldenglobes.com/film/12-years-a-slave/"
+            }
+          ]
+        },
+        {
+          "name": "Best Screenplay - Motion Picture",
+          "original_category": "Best Screenplay - Motion Picture",
+          "entries": [
+            {
+              "title": "Her",
+              "person": "Spike Jonze",
+              "winner": true,
+              "source_id": 70143,
+              "film_source": "https://goldenglobes.com/film/her/"
+            },
+            {
+              "title": "American Hustle",
+              "person": "David O. Russell, Eric Singer",
+              "winner": false,
+              "source_id": 70134,
+              "film_source": "https://goldenglobes.com/film/american-hustle/"
+            },
+            {
+              "title": "Nebraska",
+              "person": "Bob Nelson",
+              "winner": false,
+              "source_id": 70138,
+              "film_source": "https://goldenglobes.com/film/nebraska/"
+            },
+            {
+              "title": "Philomena",
+              "person": "Jeff Pope, Steve Coogan",
+              "winner": false,
+              "source_id": 70127,
+              "film_source": "https://goldenglobes.com/film/philomena/"
+            },
+            {
+              "title": "12 Years a Slave",
+              "person": "John Ridley",
+              "winner": false,
+              "source_id": 70118,
+              "film_source": "https://goldenglobes.com/film/12-years-a-slave/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "Golden Globes",
+      "year": 2015,
+      "section": "Major Film Categories",
+      "source": "https://goldenglobes.com/winners-nominees/?year=2015",
+      "data_source": "https://goldenglobes.com/wp-json/awdb/v1/winners-and-nominees/?year=2015",
+      "ceremony_date": "2015-01-11",
+      "date_source": "https://goldenglobes.com/articles/nominations-have-been-announced-0/",
+      "categories": [
+        {
+          "name": "Best Motion Picture - Drama",
+          "original_category": "Best Motion Picture - Drama",
+          "entries": [
+            {
+              "title": "The Theory of Everything",
+              "person": "",
+              "winner": false,
+              "source_id": 72016,
+              "film_source": "https://goldenglobes.com/film/the-theory-of-everything/"
+            },
+            {
+              "title": "Boyhood",
+              "person": "",
+              "winner": true,
+              "source_id": 72017,
+              "film_source": "https://goldenglobes.com/film/boyhood/"
+            },
+            {
+              "title": "The Imitation Game",
+              "person": "",
+              "winner": false,
+              "source_id": 72018,
+              "film_source": "https://goldenglobes.com/film/the-imitation-game/"
+            },
+            {
+              "title": "Selma",
+              "person": "",
+              "winner": false,
+              "source_id": 71514,
+              "film_source": "https://goldenglobes.com/film/selma/"
+            },
+            {
+              "title": "Foxcatcher",
+              "person": "",
+              "winner": false,
+              "source_id": 71515,
+              "film_source": "https://goldenglobes.com/film/foxcatcher/"
+            }
+          ]
+        },
+        {
+          "name": "Best Motion Picture - Musical or Comedy",
+          "original_category": "Best Motion Picture - Musical or Comedy",
+          "entries": [
+            {
+              "title": "Birdman",
+              "person": "",
+              "winner": false,
+              "source_id": 72019,
+              "film_source": "https://goldenglobes.com/film/birdman/"
+            },
+            {
+              "title": "Pride",
+              "person": "",
+              "winner": false,
+              "source_id": 71527,
+              "film_source": "https://goldenglobes.com/film/pride/"
+            },
+            {
+              "title": "The Grand Budapest Hotel",
+              "person": "",
+              "winner": true,
+              "source_id": 71513,
+              "film_source": "https://goldenglobes.com/film/grand-budapest-hotel-the/"
+            },
+            {
+              "title": "Into the Woods",
+              "person": "",
+              "winner": false,
+              "source_id": 71516,
+              "film_source": "https://goldenglobes.com/film/into-the-woods/"
+            },
+            {
+              "title": "St. Vincent",
+              "person": "",
+              "winner": false,
+              "source_id": 71517,
+              "film_source": "https://goldenglobes.com/film/st-vincent/"
+            }
+          ]
+        },
+        {
+          "name": "Best Motion Picture - Animated",
+          "original_category": "Best Motion Picture - Animated",
+          "entries": [
+            {
+              "title": "How to Train Your Dragon 2",
+              "person": "",
+              "winner": true,
+              "source_id": 71523,
+              "film_source": "https://goldenglobes.com/film/how-to-train-your-dragon-2/"
+            },
+            {
+              "title": "The LEGO Movie",
+              "person": "",
+              "winner": false,
+              "source_id": 71525,
+              "film_source": "https://goldenglobes.com/film/lego-movie-the/"
+            },
+            {
+              "title": "Big Hero 6",
+              "person": "",
+              "winner": false,
+              "source_id": 71518,
+              "film_source": "https://goldenglobes.com/film/big-hero-6/"
+            },
+            {
+              "title": "The Book of Life",
+              "person": "",
+              "winner": false,
+              "source_id": 71519,
+              "film_source": "https://goldenglobes.com/film/book-of-life-the/"
+            },
+            {
+              "title": "The Boxtrolls",
+              "person": "",
+              "winner": false,
+              "source_id": 71520,
+              "film_source": "https://goldenglobes.com/film/boxtrolls-the/"
+            }
+          ]
+        },
+        {
+          "name": "Best Motion Picture – Non-English Language",
+          "original_category": "Best Motion Picture – Non-English Language",
+          "entries": [
+            {
+              "title": "Force Majeure",
+              "person": "",
+              "winner": false,
+              "source_id": 71521,
+              "film_source": "https://goldenglobes.com/film/force-majeure/"
+            },
+            {
+              "title": "Gett: The Trial of Viviane Amsalem",
+              "person": "",
+              "winner": false,
+              "source_id": 71522,
+              "film_source": "https://goldenglobes.com/film/gett-the-trial-of-viviane-amsalem/"
+            },
+            {
+              "title": "Ida",
+              "person": "",
+              "winner": false,
+              "source_id": 71524,
+              "film_source": "https://goldenglobes.com/film/ida/"
+            },
+            {
+              "title": "Leviathan",
+              "person": "",
+              "winner": true,
+              "source_id": 71526,
+              "film_source": "https://goldenglobes.com/film/leviathan/"
+            },
+            {
+              "title": "Tangerines",
+              "person": "",
+              "winner": false,
+              "source_id": 71528,
+              "film_source": "https://goldenglobes.com/film/tangerines/"
+            }
+          ]
+        },
+        {
+          "name": "Best Performance by a Female Actor in a Motion Picture – Drama",
+          "original_category": "Best Performance by an Actress in a Motion Picture - Drama",
+          "entries": [
+            {
+              "title": "Wild",
+              "person": "Reese Witherspoon",
+              "winner": false,
+              "source_id": 70242,
+              "film_source": "https://goldenglobes.com/film/wild/"
+            },
+            {
+              "title": "Still Alice",
+              "person": "Julianne Moore",
+              "winner": true,
+              "source_id": 70240,
+              "film_source": "https://goldenglobes.com/film/still-alice/"
+            },
+            {
+              "title": "Gone Girl",
+              "person": "Rosamund Pike",
+              "winner": false,
+              "source_id": 70217,
+              "film_source": "https://goldenglobes.com/film/gone-girl/"
+            },
+            {
+              "title": "The Theory of Everything",
+              "person": "Felicity Jones",
+              "winner": false,
+              "source_id": 70201,
+              "film_source": "https://goldenglobes.com/film/the-theory-of-everything/"
+            },
+            {
+              "title": "Cake",
+              "person": "Jennifer Aniston",
+              "winner": false,
+              "source_id": 70200,
+              "film_source": "https://goldenglobes.com/film/cake/"
+            }
+          ]
+        },
+        {
+          "name": "Best Performance by a Male Actor in a Motion Picture – Drama",
+          "original_category": "Best Performance by an Actor in a Motion Picture - Drama",
+          "entries": [
+            {
+              "title": "Nightcrawler",
+              "person": "Jake Gyllenhaal",
+              "winner": false,
+              "source_id": 70239,
+              "film_source": "https://goldenglobes.com/film/nightcrawler/"
+            },
+            {
+              "title": "Selma",
+              "person": "David Oyelowo",
+              "winner": false,
+              "source_id": 70224,
+              "film_source": "https://goldenglobes.com/film/selma/"
+            },
+            {
+              "title": "Foxcatcher",
+              "person": "Steve Carell",
+              "winner": false,
+              "source_id": 70228,
+              "film_source": "https://goldenglobes.com/film/foxcatcher/"
+            },
+            {
+              "title": "The Imitation Game",
+              "person": "Benedict Cumberbatch",
+              "winner": false,
+              "source_id": 70213,
+              "film_source": "https://goldenglobes.com/film/the-imitation-game/"
+            },
+            {
+              "title": "The Theory of Everything",
+              "person": "Eddie Redmayne",
+              "winner": true,
+              "source_id": 70202,
+              "film_source": "https://goldenglobes.com/film/the-theory-of-everything/"
+            }
+          ]
+        },
+        {
+          "name": "Best Performance by a Female Actor in a Motion Picture – Musical or Comedy",
+          "original_category": "Best Performance by an Actress in a Motion Picture - Musical or Comedy",
+          "entries": [
+            {
+              "title": "Annie (2014)",
+              "person": "Quvenzhané Wallis",
+              "winner": false,
+              "source_id": 70243,
+              "film_source": "https://goldenglobes.com/film/annie-2014/"
+            },
+            {
+              "title": "The Hundred-Foot Journey",
+              "person": "Helen Mirren",
+              "winner": false,
+              "source_id": 70234,
+              "film_source": "https://goldenglobes.com/film/hundred-foot-journey-the/"
+            },
+            {
+              "title": "Maps To The Stars",
+              "person": "Julianne Moore",
+              "winner": false,
+              "source_id": 70238,
+              "film_source": "https://goldenglobes.com/film/maps-to-the-stars/"
+            },
+            {
+              "title": "Big Eyes",
+              "person": "Amy Adams",
+              "winner": true,
+              "source_id": 70226,
+              "film_source": "https://goldenglobes.com/film/big-eyes/"
+            },
+            {
+              "title": "Into the Woods",
+              "person": "Emily Blunt",
+              "winner": false,
+              "source_id": 70230,
+              "film_source": "https://goldenglobes.com/film/into-the-woods/"
+            }
+          ]
+        },
+        {
+          "name": "Best Performance by a Male Actor in a Motion Picture – Musical or Comedy",
+          "original_category": "Best Performance by an Actor in a Motion Picture - Musical or Comedy",
+          "entries": [
+            {
+              "title": "St. Vincent",
+              "person": "Bill Murray",
+              "winner": false,
+              "source_id": 70232,
+              "film_source": "https://goldenglobes.com/film/st-vincent/"
+            },
+            {
+              "title": "Inherent Vice",
+              "person": "Joaquin Phoenix",
+              "winner": false,
+              "source_id": 70235,
+              "film_source": "https://goldenglobes.com/film/inherent-vice/"
+            },
+            {
+              "title": "The Grand Budapest Hotel",
+              "person": "Ralph Fiennes",
+              "winner": false,
+              "source_id": 70221,
+              "film_source": "https://goldenglobes.com/film/grand-budapest-hotel-the/"
+            },
+            {
+              "title": "Big Eyes",
+              "person": "Christoph Waltz",
+              "winner": false,
+              "source_id": 70227,
+              "film_source": "https://goldenglobes.com/film/big-eyes/"
+            },
+            {
+              "title": "Birdman",
+              "person": "Michael Keaton",
+              "winner": true,
+              "source_id": 70207,
+              "film_source": "https://goldenglobes.com/film/birdman/"
+            }
+          ]
+        },
+        {
+          "name": "Best Performance by a Female Actor in a Supporting Role in any Motion Picture",
+          "original_category": "Best Performance by an Actress in a Supporting Role in any Motion Picture",
+          "entries": [
+            {
+              "title": "Into the Woods",
+              "person": "Meryl Streep",
+              "winner": false,
+              "source_id": 70231,
+              "film_source": "https://goldenglobes.com/film/into-the-woods/"
+            },
+            {
+              "title": "A Most Violent Year",
+              "person": "Jessica Chastain",
+              "winner": false,
+              "source_id": 70233,
+              "film_source": "https://goldenglobes.com/film/a-most-violent-year/"
+            },
+            {
+              "title": "The Imitation Game",
+              "person": "Keira Knightley",
+              "winner": false,
+              "source_id": 70214,
+              "film_source": "https://goldenglobes.com/film/the-imitation-game/"
+            },
+            {
+              "title": "Boyhood",
+              "person": "Patricia Arquette",
+              "winner": true,
+              "source_id": 70204,
+              "film_source": "https://goldenglobes.com/film/boyhood/"
+            },
+            {
+              "title": "Birdman",
+              "person": "Emma Stone",
+              "winner": false,
+              "source_id": 70208,
+              "film_source": "https://goldenglobes.com/film/birdman/"
+            }
+          ]
+        },
+        {
+          "name": "Best Performance by a Male Actor in a Supporting Role in any Motion Picture",
+          "original_category": "Best Performance by an Actor in a Supporting Role in any Motion Picture",
+          "entries": [
+            {
+              "title": "Boyhood",
+              "person": "Ethan Hawke",
+              "winner": false,
+              "source_id": 71803,
+              "film_source": "https://goldenglobes.com/film/boyhood/"
+            },
+            {
+              "title": "Whiplash",
+              "person": "J.K. Simmons",
+              "winner": true,
+              "source_id": 70241,
+              "film_source": "https://goldenglobes.com/film/whiplash/"
+            },
+            {
+              "title": "The Judge",
+              "person": "Robert Duvall",
+              "winner": false,
+              "source_id": 70237,
+              "film_source": "https://goldenglobes.com/film/judge-the/"
+            },
+            {
+              "title": "Foxcatcher",
+              "person": "Mark Ruffalo",
+              "winner": false,
+              "source_id": 70229,
+              "film_source": "https://goldenglobes.com/film/foxcatcher/"
+            },
+            {
+              "title": "Birdman",
+              "person": "Edward Norton",
+              "winner": false,
+              "source_id": 70209,
+              "film_source": "https://goldenglobes.com/film/birdman/"
+            }
+          ]
+        },
+        {
+          "name": "Best Director - Motion Picture",
+          "original_category": "Best Director - Motion Picture",
+          "entries": [
+            {
+              "title": "The Grand Budapest Hotel",
+              "person": "Wes Anderson",
+              "winner": false,
+              "source_id": 70223,
+              "film_source": "https://goldenglobes.com/film/grand-budapest-hotel-the/"
+            },
+            {
+              "title": "Selma",
+              "person": "Ava DuVernay",
+              "winner": false,
+              "source_id": 70225,
+              "film_source": "https://goldenglobes.com/film/selma/"
+            },
+            {
+              "title": "Gone Girl",
+              "person": "David Fincher",
+              "winner": false,
+              "source_id": 70218,
+              "film_source": "https://goldenglobes.com/film/gone-girl/"
+            },
+            {
+              "title": "Boyhood",
+              "person": "Richard Linklater",
+              "winner": true,
+              "source_id": 70205,
+              "film_source": "https://goldenglobes.com/film/boyhood/"
+            },
+            {
+              "title": "Birdman",
+              "person": "Alejandro González Iñárritu",
+              "winner": false,
+              "source_id": 70210,
+              "film_source": "https://goldenglobes.com/film/birdman/"
+            }
+          ]
+        },
+        {
+          "name": "Best Screenplay - Motion Picture",
+          "original_category": "Best Screenplay - Motion Picture",
+          "entries": [
+            {
+              "title": "The Grand Budapest Hotel",
+              "person": "Wes Anderson",
+              "winner": false,
+              "source_id": 70222,
+              "film_source": "https://goldenglobes.com/film/grand-budapest-hotel-the/"
+            },
+            {
+              "title": "Birdman",
+              "person": "Alejandro González Iñárritu, Nicolás Giacobone, Alexander Dinelaris, Armando Bó",
+              "winner": true,
+              "source_id": 70211,
+              "film_source": "https://goldenglobes.com/film/birdman/"
+            },
+            {
+              "title": "The Imitation Game",
+              "person": "Graham Moore",
+              "winner": false,
+              "source_id": 70215,
+              "film_source": "https://goldenglobes.com/film/the-imitation-game/"
+            },
+            {
+              "title": "Gone Girl",
+              "person": "Gillian Flynn",
+              "winner": false,
+              "source_id": 70219,
+              "film_source": "https://goldenglobes.com/film/gone-girl/"
+            },
+            {
+              "title": "Boyhood",
+              "person": "Richard Linklater",
+              "winner": false,
+              "source_id": 70206,
+              "film_source": "https://goldenglobes.com/film/boyhood/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

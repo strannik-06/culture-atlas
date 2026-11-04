@@ -3,7 +3,10 @@ import fs from 'node:fs';
 import vm from 'node:vm';
 import crypto from 'node:crypto';
 import {mergeMetadata,fields,present} from './complete-film-metadata.mjs';
-const batch='2016-2020',slugs=['oscars','bafta','globes','cannes','venice','berlinale'];
+const batch=process.argv[2]||'2016-2020';
+if(!['2016-2020','2011-2015'].includes(batch))throw Error('Unsupported award batch');
+const [firstYear,lastYear]=batch.split('-').map(Number);
+const slugs=['oscars','bafta','globes','cannes','venice','berlinale'];
 const read=(p,k)=>{const c={window:{}};vm.runInNewContext(fs.readFileSync(p,'utf8'),c);return JSON.parse(JSON.stringify(c.window[k]));};
 const write=(p,k,v)=>fs.writeFileSync(p,'window.'+k+' = '+JSON.stringify(v,null,2)+';\n');
 const norm=s=>String(s||'').normalize('NFKD').replace(/\p{M}/gu,'').replace(/[łŁ]/g,'l').replace(/[øØ]/g,'o').replace(/[đĐðÐ]/g,'d').replace(/æ/gi,'ae').replace(/œ/gi,'oe').replace(/ı/g,'i').toLowerCase().replace(/[^\p{L}\p{N}]/gu,'');
@@ -69,7 +72,7 @@ if(audit.unresolved.length){console.log(JSON.stringify(audit.unresolved,null,2))
   }):e.categories.map(c=>{const entries=c.entries.map(r=>({film_id:results.get(`${e.event}/${e.year}/${r.title}`),person:r.person,winner:r.winner})),winners=entries.filter(r=>r.winner).map(r=>r.film_id);return {id:c.name.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/-$/,''),name:c.name,entries,nominees:[...new Set(entries.map(r=>r.film_id))],winners,winner:winners[0]};});
   generated.push({event:e.event,year:e.year,section:e.section,source:e.source,awardsSource:e.awardsSource||e.source,resultsUrl:e.awardsSource||e.source,...(e.note?{note:e.note}:{}),categories,films:[...new Set(categories.flatMap(c=>c.nominees))].map(id=>({id,awards:categories.flatMap(c=>{return [...new Set(c.entries.filter(r=>r.film_id===id&&r.winner).flatMap(r=>r.prizes||[c.name]))];})}))});
  }
- const old=read('awards-2025.js','CULTURE_AWARDS').filter(e=>e.year<2016||e.year>2020);write('awards-2025.js','CULTURE_AWARDS',[...old,...generated]);
- const report=JSON.parse(fs.readFileSync('imports/film-metadata-completion.json'));report.total=films.length;report.after=Object.fromEntries(fields.map(k=>[k,films.filter(f=>present(details[f.id]?.[k])).length]));report.catalogue_extension='Film awards 2016–2020: appended verified identities; earlier audit history preserved';fs.writeFileSync('imports/film-metadata-completion.json',JSON.stringify(report,null,2)+'\n');
+ const old=read('awards-2025.js','CULTURE_AWARDS').filter(e=>e.year<firstYear||e.year>lastYear);write('awards-2025.js','CULTURE_AWARDS',[...old,...generated]);
+ const report=JSON.parse(fs.readFileSync('imports/film-metadata-completion.json'));report.total=films.length;report.after=Object.fromEntries(fields.map(k=>[k,films.filter(f=>present(details[f.id]?.[k])).length]));report.catalogue_extension=`Film awards ${batch}: appended verified identities; earlier audit history preserved`;fs.writeFileSync('imports/film-metadata-completion.json',JSON.stringify(report,null,2)+'\n');
  console.log(`Complete: ${generated.length} editions, ${audit.verified.length} source identities, ${audit.new_canonical_ids.length} new catalogue entries.`);
 }

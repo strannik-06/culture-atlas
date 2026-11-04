@@ -1,0 +1,62 @@
+[
+  {
+    "section": "films",
+    "event": "Oscars",
+    "year": 2011,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2011-02-27",
+        "source": "https://www.oscars.org/oscars/ceremonies/2011"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Oscars",
+    "year": 2012,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2012-02-26",
+        "source": "https://www.oscars.org/oscars/ceremonies/2012"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Oscars",
+    "year": 2013,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2013-02-24",
+        "source": "https://www.oscars.org/oscars/ceremonies/2013"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Oscars",
+    "year": 2014,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2014-03-02",
+        "source": "https://www.oscars.org/oscars/ceremonies/2014"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Oscars",
+    "year": 2015,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2015-02-22",
+        "source": "https://www.oscars.org/oscars/ceremonies/2015"
+      }
+    ]
+  }
+]

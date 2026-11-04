@@ -1,0 +1,34 @@
+{
+  "https://www.festival-cannes.com/en/f/la-vie-d-adele-chapitre-1-2/": {
+    "aliases": [
+      "Blue Is the Warmest Color",
+      "Blue Is the Warmest Colour"
+    ],
+    "note": "Retrospective groups international names in nested parentheses. Official2013 selection announcement confirms American spelling directly.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/2013/2013-official-selection/",
+      "https://www.festival-cannes.com/en/the-festival/the-palme-d-or/"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/be-omid-e-didar/": {
+    "aliases": [
+      "Goodbye",
+      "Au Revoir"
+    ],
+    "note": "Retrospective omits English translation; Cannes contemporary film notes and later director article explicitly identify Goodbye.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/2024/the-seed-of-the-sacred-fig-the-tense-return-of-mohammad-rasoulof/",
+      "https://www.festival-cannes.com/f/be-omid-e-didar/"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/jimmy-p-psychotherapy-of-a-plains-indian/": {
+    "aliases": [
+      "Jimmy P."
+    ],
+    "note": "The official title expands Jimmy P. with a subtitle; original Cannes selection and official filmography also use the short title.",
+    "source_urls": [
+      "https://www.festival-cannes.com/2013/la-selection-officielle-2013/",
+      "https://cdn.festival-cannes.com/media/uploads/2023/03/78272.pdf"
+    ]
+  }
+}

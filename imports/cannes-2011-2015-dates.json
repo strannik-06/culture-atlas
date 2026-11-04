@@ -1,0 +1,67 @@
+[
+  {
+    "section": "films",
+    "event": "Cannes",
+    "year": 2011,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2011-05-11",
+        "end": "2011-05-22",
+        "source": "https://www.festival-cannes.com/en/2011/woody-allens-midnight-in-paris-is-to-open-the-64th-festival-de-cannes/"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Cannes",
+    "year": 2012,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2012-05-16",
+        "end": "2012-05-27",
+        "source": "https://www.festival-cannes.com/en/2012/moonrise-kingdom-by-wes-anderson-is-the-opening-film-of-the-65th-festival-de-cannes/"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Cannes",
+    "year": 2013,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2013-05-15",
+        "end": "2013-05-26",
+        "source": "https://www.festival-cannes.com/en/2013/india-special-guest-country-in-2013/"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Cannes",
+    "year": 2014,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2014-05-14",
+        "end": "2014-05-25",
+        "source": "https://www.festival-cannes.com/en/2014/jane-campion-to-preside-the-jury-of-the-67th-festival-de-cannes/"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Cannes",
+    "year": 2015,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2015-05-13",
+        "end": "2015-05-24",
+        "source": "https://www.festival-cannes.com/en/2015/it-s-poster-time-at-the-festival-de-cannes/"
+      }
+    ]
+  }
+]
