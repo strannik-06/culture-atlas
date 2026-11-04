@@ -110757,5 +110757,38 @@ window.CULTURE_FILM_DETAILS = {
     "imdb": {
       "url": "https://www.imdb.com/title/tt8526370/"
     }
+  },
+  "3488": {
+    "tmdb_id": 223706,
+    "title": "Boy & the World",
+    "original_title": "O Menino e o Mundo",
+    "overview": "Suffering because of his father's departure to the big city, a boy leaves his village and discovers a fantastic world dominated by bug-engines and strange beings. An unusual animation with various artistic techniques that portrays the issues of the modern world through the eyes of a child.",
+    "runtime": 80,
+    "release_date": "2014-01-17",
+    "genres": [
+      "Animation",
+      "Fantasy",
+      "Adventure",
+      "Family"
+    ],
+    "countries": [
+      "BR"
+    ],
+    "original_language": "pt",
+    "director": "Alê Abreu",
+    "cast": [
+      "Vinicius Garcia",
+      "Lu Horta",
+      "Marco Aurélio Campos",
+      "Felipe Zilse",
+      "Alê Abreu"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/g5Lyl1LtntJ0zJfOGynGeRE9kED.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/zmIFeh3xutkIFZBKYatzWF1XDu0.jpg",
+    "tmdb_rating": 7.4,
+    "tmdb_votes": 265,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt3183630/"
+    }
   }
 };

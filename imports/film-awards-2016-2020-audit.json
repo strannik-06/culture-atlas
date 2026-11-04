@@ -4550,7 +4550,7 @@
     },
     {
       "key": "https://www.berlinale.de/en/2017/programme/201711635.html",
-      "signature": "98b6f443f81ef7cdcfd0f0ed3ead32119f237175e27232958f76dc48a87144a9",
+      "signature": "e48ca92ccfd1b54918ef5e5c95a79f82c36381db63685e4fccbfebb14753eec9",
       "title": "Pokot",
       "source": "https://www.berlinale.de/en/2017/programme/201711635.html",
       "id": 3481,
@@ -9346,6 +9346,18 @@
       "imdb_id": "tt2401878",
       "director": "Duke Johnson, Charlie Kaufman",
       "provider_release_date": "2015-12-30",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "Oscars/2016/Boy and the World",
+      "signature": "ad8f6f40e496d9b0455760c363989ec773ca3e9d896acc27f412c061bf987c0e",
+      "title": "Boy and the World",
+      "source": "https://www.oscars.org/oscars/ceremonies/2016",
+      "id": 3488,
+      "tmdb_id": 223706,
+      "imdb_id": "tt3183630",
+      "director": "Alê Abreu",
+      "provider_release_date": "2014-01-17",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -17415,20 +17427,21 @@
       "original_title": "Favolacce",
       "original_language": "it",
       "alternate_titles": []
+    },
+    {
+      "id": 3488,
+      "title": "Boy & the World",
+      "director": "Alê Abreu",
+      "year": 2014,
+      "tmdb_id": 223706,
+      "imdb_id": "tt3183630",
+      "original_title": "O Menino e o Mundo",
+      "original_language": "pt",
+      "alternate_titles": [
+        "Boy and the World",
+        "The Boy and the World"
+      ]
     }
   ],
-  "unresolved": [
-    {
-      "key": "Oscars/2016/Boy and the World",
-      "event": "Oscars",
-      "year": 2016,
-      "title": "Boy and the World",
-      "source": "https://www.oscars.org/oscars/ceremonies/2016",
-      "anchors": [],
-      "category_names": [
-        "Animated Feature Film"
-      ],
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    }
-  ]
+  "unresolved": []
 }

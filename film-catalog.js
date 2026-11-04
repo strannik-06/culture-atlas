@@ -35949,5 +35949,19 @@ window.CULTURE_CATALOG = [
     "original_title": "Favolacce",
     "original_language": "it",
     "alternate_titles": []
+  },
+  {
+    "id": 3488,
+    "title": "Boy & the World",
+    "director": "Alê Abreu",
+    "year": 2014,
+    "tmdb_id": 223706,
+    "imdb_id": "tt3183630",
+    "original_title": "O Menino e o Mundo",
+    "original_language": "pt",
+    "alternate_titles": [
+      "Boy and the World",
+      "The Boy and the World"
+    ]
   }
 ];
