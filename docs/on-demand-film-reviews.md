@@ -1,6 +1,6 @@
 # On-demand film ratings and reviews
 
-Film Details loads a shared Supabase snapshot when available and offers Find ratings and reviews, or Refresh when existing data is present. Opening a film performs no discovery. The action checks IMDb, The Guardian, Little White Lies, Roger Ebert and IndieWire. Publisher review links retain individual critic names when published. Existing curated links stay visible, and refresh merges verified links without deleting earlier reviews or scores that could not be retrieved this time. Private notes and ratings are untouched.
+Film Details loads a shared Supabase snapshot when available and offers Find ratings and reviews, or Refresh when existing data is present. Opening a film performs no discovery. The action checks IMDb, The Guardian, Little White Lies, Roger Ebert and IndieWire. Selected critic discovery also checks Sight and Sound, Time Out, Los Angeles Times and A.V. Club, following the existing curated-review selection. Publisher review links retain individual critic names when published. Existing curated links stay visible, and refresh merges verified links without deleting earlier reviews or scores that could not be retrieved this time. Private notes and ratings are untouched.
 
 Adding a previously unregistered movie through Add film starts the same lookup after its catalogue/rating save succeeds. Discovery failure is reported separately and never rolls back the film save. Retry using the Details button. Existing movie rating edits do not automatically repeat discovery.
 

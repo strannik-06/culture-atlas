@@ -1,4 +1,4 @@
-const publishers={guardian:{name:'The Guardian',host:'theguardian.com'},lwl:{name:'Little White Lies',host:'lwlies.com'},ebert:{name:'Roger Ebert',host:'rogerebert.com'},indiewire:{name:'IndieWire',host:'indiewire.com'},imdb:{name:'IMDb',host:'imdb.com'}};
+const publishers={guardian:{name:'The Guardian',host:'theguardian.com'},lwl:{name:'Little White Lies',host:'lwlies.com'},ebert:{name:'Roger Ebert',host:'rogerebert.com'},indiewire:{name:'IndieWire',host:'indiewire.com'},imdb:{name:'IMDb',host:'imdb.com'},bfi:{name:'Sight and Sound',host:'bfi.org.uk',reviewOnly:true},timeout:{name:'Time Out',host:'timeout.com',reviewOnly:true},latimes:{name:'Los Angeles Times',host:'latimes.com',reviewOnly:true},avclub:{name:'A.V. Club',host:'avclub.com',reviewOnly:true}};
 const norm=s=>String(s||'').normalize('NFKD').replace(/\p{M}/gu,'').toLowerCase().replace(/[^a-z0-9]/g,'');
 export function allowed(url,source){try{const u=new URL(url);return u.protocol==='https:'&&!u.username&&!u.password&&!u.port&&(u.hostname===publishers[source].host||u.hostname==='www.'+publishers[source].host);}catch{return false;}}
 export function extract(html,film,source,url){
@@ -14,7 +14,7 @@ export function extract(html,film,source,url){
  const review=nodes.find(n=>[].concat(n['@type']||[]).includes('Review')&&(n.itemReviewed===movie||titles.includes(norm(n.itemReviewed?.name))))||([].concat(movie.review||[])[0]);
  const rating=source==='imdb'?movie.aggregateRating:review?.reviewRating;
  const value=Number(rating?.ratingValue),best=Number(rating?.bestRating),worst=Number(rating?.worstRating??0);
- const score=Number.isFinite(value)&&Number.isFinite(best)&&best>0&&value>=worst&&value<=best?`${value}/${best}`:null;
+ const score=!publishers[source].reviewOnly&&Number.isFinite(value)&&Number.isFinite(best)&&best>0&&value>=worst&&value<=best?`${value}/${best}`:null;
  const author=[].concat(review?.author||[]).map(x=>typeof x==='string'?x:x.name).filter(Boolean).join(', ');
  if(source!=='imdb'&&!review)return null;
  return {source,url,score,author,label:publishers[source].name+(author?' · '+author:''),verified_at:new Date().toISOString()};
