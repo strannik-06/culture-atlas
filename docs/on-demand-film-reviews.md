@@ -16,3 +16,13 @@ The authenticated film-reviews Edge Function uses BRAVE_SEARCH_API_KEY for bound
 Shared snapshots have public read access and privileged backend-only writes; no private data is stored in them. Discovery requests require sign-in, allowed-origin validation and a registered numeric film ID. Source-page redirects are restricted to the exact publisher hosts, with bounded requests/timeouts. Refreshes within one minute reuse the last successful snapshot. Database merging handles concurrent refreshes and preserves earlier ratings during partial responses.
 
 Automated checks use mocked network services and an isolated Postgres engine. Live search-provider availability and credentials require activation verification; neither the database migration nor function is deployed by this PR.
+
+## Discovery reliability update
+
+Discovery first searches the quoted title + review + publisher domain, without forcing the production year or director into the query. If no page verifies, it retries with original title/director evidence. Each query requests five candidates and checks up to three new publisher URLs, prioritizing review paths. A publisher has a shared twenty-second time budget. Parser version changes bypass old successful-cache entries.
+
+Director evidence can come from a review headline, article metadata, structured article text or the actual article body. HTML entities in critic names are decoded. IndieWire grades are accepted only from an explicit Grade heading on an identity-verified article; unrelated letters are never ratings.
+
+Search failures, blocked pages, absent search results and failed identity checks produce different messages. An inaccessible publisher result may be saved as an explicitly labelled “Review link (page unavailable)” only when its publisher URL, review title and director/year search evidence agree. Such discovery-only links have no rating, no inferred critic name and no verified timestamp. Earlier page-verified records are preserved. Search snippets are never copied into stored review text or scores.
+
+Regression case: Sound of Falling (2025) verifies Guardian / Peter Bradshaw (link), RogerEbert.com / Sheila O’Malley (3.5/4), and IndieWire / David Ehrlich (A-), using actual publisher pages. No full review text is stored in the repository.

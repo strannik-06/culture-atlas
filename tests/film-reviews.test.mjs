@@ -21,3 +21,21 @@ test('Publisher article metadata verifies critic links without inventing scores 
  const r=extract(page(),f,'guardian',u);assert.equal(r.author,'Peter Bradshaw');assert.equal(r.score,null);assert.equal(extract(page('Another Director'),f,'guardian',u),null);assert.equal(extract(page('Steven Soderbergh',2015),f,'guardian',u),null);assert.equal(extract(page('Steven Soderbergh',2025,''),f,'guardian',u),null);
  assert.equal(extract(html().replace('"datePublished"','"director":{"name":"Another Director"},"datePublished"'),film,'ebert',url),null);
 });
+test('Guardian body-only director evidence and encoded critic names survive real publisher layouts',()=>{
+ const f={title:'Sound of Falling',year:2025,director:'Mascha Schilinski'};
+ const page='<script type="application/ld+json">'+JSON.stringify({'@type':'NewsArticle',headline:'Sound of Falling review',datePublished:'2025-05-14',author:{name:'Peter Bradshaw'}})+'</script><article><p>Mascha Schilinski directs this film.</p></article>';
+ const r=extract(page,f,'guardian','https://www.theguardian.com/film/2025/may/14/sound-of-falling-review');assert.equal(r.author,'Peter Bradshaw');assert.equal(r.score,null);assert.equal(extract(page.replace('Mascha Schilinski','Another Director'),f,'guardian',r.url),null);
+ assert.equal(extract(html().replace('Roger Ebert','Sheila O&#039;Malley'),film,'ebert',url).author,"Sheila O'Malley");
+});
+test('Discovery starts without year/director, retries with director, and distinguishes blocked links from extracted ratings',async()=>{
+ const queries=[],writes=[];const f={title:'Sound of Falling',year:2025,director:'Mascha Schilinski'};
+ const env=k=>({SUPABASE_URL:'https://db.test',SUPABASE_ANON_KEY:'anon',SUPABASE_SERVICE_ROLE_KEY:'service',BRAVE_SEARCH_API_KEY:'search'})[k];
+ const target='https://www.indiewire.com/criticism/movies/sound-of-falling-review-1235122968/';
+ const fetcher=async(u,o={})=>{u=String(u);if(u.endsWith('/auth/v1/user'))return Response.json({id:'user'});if(u.includes('/media_catalogue?'))return Response.json([{metadata:f}]);if(u.includes('/film_review_snapshots?'))return Response.json([]);if(u.includes('api.search.brave.com')){const q=new URL(u).searchParams.get('q');queries.push(q);return Response.json({web:{results:q.includes('Mascha Schilinski')?[{url:target,title:'Sound of Falling Review',description:'Mascha Schilinski film review'}]:[]}});}if(u===target)return new Response('',{status:402});if(u.endsWith('/rpc/merge_film_reviews')){const row=JSON.parse(o.body);writes.push(row);return Response.json({items:row.p_items,warnings:row.p_warnings});}throw Error('Unexpected fetch');};
+ const r=await createHandler(env,fetcher)(new Request('https://function.test',{method:'POST',headers:{Authorization:'Bearer jwt'},body:'{"film_id":6}'}));assert.equal(r.status,200);assert.ok(queries.includes('"Sound of Falling" review site:indiewire.com'));assert.ok(queries.includes('"Sound of Falling" Mascha Schilinski review site:indiewire.com'));assert.ok(!queries[0].includes('2025'));const item=writes[0].p_items[0];assert.equal(item.source,'indiewire');assert.equal(item.score,null);assert.equal(item.verification,'search_result');assert.match(item.label,/page unavailable/);assert.ok(writes[0].p_warnings.some(w=>/IndieWire.*link found.*HTTP 402/.test(w)));
+});
+test('IndieWire headline director evidence and explicit grade are accepted, unrelated A-grade text is ignored',()=>{
+ const f={title:'Sound of Falling',year:2025,director:'Mascha Schilinski'},u='https://www.indiewire.com/criticism/movies/sound-of-falling-review-1235122968/';
+ const page='<script type="application/ld+json">'+JSON.stringify({'@type':'NewsArticle',headline:"‘Sound of Falling’ Review: Mascha Schilinski’s Film",datePublished:'2026-01-12',author:{name:'David Ehrlich'}})+'</script>';
+ assert.equal(extract(page+'<h2 id="grade-a">Grade: A-</h2>',f,'indiewire',u).score,'A-');assert.equal(extract(page+'<p>Other movie: A+</p>',f,'indiewire',u).score,null);assert.equal(extract(page.replace('Mascha Schilinski','Another Director')+'<h2>Grade: A-</h2>',f,'indiewire',u),null);
+});
