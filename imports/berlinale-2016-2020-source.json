@@ -1,0 +1,1877 @@
+{
+  "scope": "Main Competition (final actual competitors) 2016–2020; Encounters 2020, its inaugural year. Official jury prizes and cross-section official prizes for selected films. Excludes out-of-competition screenings, withdrawn films, independent juries, other sections and honorary awards.",
+  "events": [
+    {
+      "event": "Berlinale",
+      "year": 2016,
+      "section": "Official Selection",
+      "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2016/o=asc/p=1/rp=200",
+      "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2016/o=desc/p=1/rp=40",
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2016-02-11",
+          "end": "2016-02-21",
+          "source": "https://www.berlinale.de/en/archive/yearbooks/2016.html"
+        }
+      ],
+      "date_source_text": "February 11 – 21, 2016",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2016/o=asc/p=1/rp=200",
+          "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2016/o=desc/p=1/rp=40",
+          "selection": [
+            {
+              "title": "24 Wochen",
+              "aliases": [
+                "24 Weeks"
+              ],
+              "director": "Anne Zohra Berrached",
+              "year": 2016,
+              "runtime": 102,
+              "source": "https://www.berlinale.de/en/2016/programme/201607590.html"
+            },
+            {
+              "title": "Alone in Berlin",
+              "aliases": [
+                "Jeder stirbt für sich allein"
+              ],
+              "director": "Vincent Perez",
+              "year": 2016,
+              "runtime": 103,
+              "source": "https://www.berlinale.de/en/2016/programme/201610503.html"
+            },
+            {
+              "title": "Boris sans Béatrice",
+              "aliases": [
+                "Boris without Béatrice"
+              ],
+              "director": "Denis Côté",
+              "year": 2016,
+              "runtime": 93,
+              "source": "https://www.berlinale.de/en/2016/programme/201607356.html"
+            },
+            {
+              "title": "Cartas da guerra",
+              "aliases": [
+                "Letters from War"
+              ],
+              "director": "Ivo M. Ferreira",
+              "year": 2016,
+              "runtime": 105,
+              "source": "https://www.berlinale.de/en/2016/programme/201607442.html"
+            },
+            {
+              "title": "Chang Jiang Tu",
+              "aliases": [
+                "Crosscurrent"
+              ],
+              "director": "Yang Chao",
+              "year": 2015,
+              "runtime": 116,
+              "source": "https://www.berlinale.de/en/2016/programme/201614160.html"
+            },
+            {
+              "title": "Ejhdeha Vared Mishavad!",
+              "aliases": [
+                "A Dragon Arrives!"
+              ],
+              "director": "Mani Haghighi",
+              "year": 2016,
+              "runtime": 107,
+              "source": "https://www.berlinale.de/en/2016/programme/201614525.html"
+            },
+            {
+              "title": "Fuocoammare",
+              "aliases": [
+                "Fire at Sea"
+              ],
+              "director": "Gianfranco Rosi",
+              "year": 2015,
+              "runtime": 108,
+              "source": "https://www.berlinale.de/en/2016/programme/201614479.html"
+            },
+            {
+              "title": "Genius",
+              "aliases": [],
+              "director": "Michael Grandage",
+              "year": 2016,
+              "runtime": 104,
+              "source": "https://www.berlinale.de/en/2016/programme/201608614.html"
+            },
+            {
+              "title": "Hele Sa Hiwagang Hapis",
+              "aliases": [
+                "A Lullaby to the Sorrowful Mystery"
+              ],
+              "director": "Lav Diaz",
+              "year": 2016,
+              "runtime": 485,
+              "source": "https://www.berlinale.de/en/2016/programme/201613645.html"
+            },
+            {
+              "title": "Inhebbek Hedi",
+              "aliases": [
+                "Hedi"
+              ],
+              "director": "Mohamed Ben Attia",
+              "year": 2016,
+              "runtime": 88,
+              "source": "https://www.berlinale.de/en/2016/programme/201610522.html"
+            },
+            {
+              "title": "Kollektivet",
+              "aliases": [
+                "The Commune"
+              ],
+              "director": "Thomas Vinterberg",
+              "year": 2015,
+              "runtime": 111,
+              "source": "https://www.berlinale.de/en/2016/programme/201609209.html"
+            },
+            {
+              "title": "L' avenir",
+              "aliases": [
+                "Things to Come"
+              ],
+              "director": "Mia Hansen-Løve",
+              "year": 2016,
+              "runtime": 100,
+              "source": "https://www.berlinale.de/en/2016/programme/201609145.html"
+            },
+            {
+              "title": "Midnight Special",
+              "aliases": [],
+              "director": "Jeff Nichols",
+              "year": 2015,
+              "runtime": 112,
+              "source": "https://www.berlinale.de/en/2016/programme/201614406.html"
+            },
+            {
+              "title": "Quand on a 17 ans",
+              "aliases": [
+                "Being 17"
+              ],
+              "director": "André Téchiné",
+              "year": 2016,
+              "runtime": 116,
+              "source": "https://www.berlinale.de/en/2016/programme/201614460.html"
+            },
+            {
+              "title": "Smrt u Sarajevu / Mort à Sarajevo",
+              "aliases": [
+                "Death in Sarajevo"
+              ],
+              "director": "Danis Tanović",
+              "year": 2016,
+              "runtime": 85,
+              "source": "https://www.berlinale.de/en/2016/programme/201613856.html"
+            },
+            {
+              "title": "Soy Nero",
+              "aliases": [],
+              "director": "Rafi Pitts",
+              "year": 2016,
+              "runtime": 120,
+              "source": "https://www.berlinale.de/en/2016/programme/201609093.html"
+            },
+            {
+              "title": "Zero Days",
+              "aliases": [],
+              "director": "Alex Gibney",
+              "year": 2016,
+              "runtime": 116,
+              "source": "https://www.berlinale.de/en/2016/programme/201608480.html"
+            },
+            {
+              "title": "Zjednoczone stany miłości",
+              "aliases": [
+                "United States of Love"
+              ],
+              "director": "Tomasz Wasilewski",
+              "year": 2016,
+              "runtime": 104,
+              "source": "https://www.berlinale.de/en/2016/programme/201609089.html"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Bear for Best Film",
+              "source_name": "Golden Bear",
+              "jury": "International Jury 2016",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2016/o=desc/p=1/rp=40",
+              "source_text": "Fuocoammare by Gianfranco Rosi",
+              "entries": [
+                {
+                  "title": "Fuocoammare",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Grand Jury Prize",
+              "source_name": "Silver Bear Grand Jury Prize",
+              "jury": "International Jury 2016",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2016/o=desc/p=1/rp=40",
+              "source_text": "Smrt u Sarajevu / Mort à Sarajevo by Danis Tanović",
+              "entries": [
+                {
+                  "title": "Smrt u Sarajevu / Mort à Sarajevo",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Alfred Bauer Prize",
+              "source_name": "Silver Bear Alfred Bauer Prize",
+              "jury": "International Jury 2016",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2016/o=desc/p=1/rp=40",
+              "source_text": "Hele Sa Hiwagang Hapis by Lav Diaz",
+              "entries": [
+                {
+                  "title": "Hele Sa Hiwagang Hapis",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Director",
+              "source_name": "Silver Bear for Best Director",
+              "jury": "International Jury 2016",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2016/o=desc/p=1/rp=40",
+              "source_text": "Mia Hansen-Løve L' avenir by Mia Hansen-Løve",
+              "entries": [
+                {
+                  "title": "L' avenir",
+                  "winner": true,
+                  "people": [
+                    "Mia Hansen-Løve"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actress",
+              "source_name": "Silver Bear for Best Actress",
+              "jury": "International Jury 2016",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2016/o=desc/p=1/rp=40",
+              "source_text": "Trine Dyrholm Kollektivet by Thomas Vinterberg",
+              "entries": [
+                {
+                  "title": "Kollektivet",
+                  "winner": true,
+                  "people": [
+                    "Trine Dyrholm"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actor",
+              "source_name": "Silver Bear for Best Actor",
+              "jury": "International Jury 2016",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2016/o=desc/p=1/rp=40",
+              "source_text": "Majd Mastoura Inhebbek Hedi by Mohamed Ben Attia",
+              "entries": [
+                {
+                  "title": "Inhebbek Hedi",
+                  "winner": true,
+                  "people": [
+                    "Majd Mastoura"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Screenplay",
+              "source_name": "Silver Bear for Best Script",
+              "jury": "International Jury 2016",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2016/o=desc/p=1/rp=40",
+              "source_text": "Tomasz Wasilewski Zjednoczone stany miłości by Tomasz Wasilewski",
+              "entries": [
+                {
+                  "title": "Zjednoczone stany miłości",
+                  "winner": true,
+                  "people": [
+                    "Tomasz Wasilewski"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Outstanding Artistic Contribution",
+              "source_name": "Silver Bear for Outstanding Artistic Contribution",
+              "jury": "International Jury 2016",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2016/o=desc/p=1/rp=40",
+              "source_text": "Mark Lee Ping-Bing for the cinematography in Chang Jiang Tu by Yang Chao",
+              "entries": [
+                {
+                  "title": "Chang Jiang Tu",
+                  "winner": true,
+                  "people": [
+                    "Mark Lee Ping-Bing"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "GWFF Best First Feature Award",
+              "source_name": "Best First Feature Award",
+              "jury": "Best First Feature Award Jury 2016",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2016/o=desc/p=1/rp=40",
+              "source_text": "Inhebbek Hedi by Mohamed Ben Attia",
+              "entries": [
+                {
+                  "title": "Inhebbek Hedi",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "Berlinale",
+      "year": 2017,
+      "section": "Official Selection",
+      "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2017/o=asc/p=1/rp=200",
+      "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2017/o=desc/p=1/rp=40",
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2017-02-09",
+          "end": "2017-02-19",
+          "source": "https://www.berlinale.de/en/archive/yearbooks/2017.html"
+        }
+      ],
+      "date_source_text": "February 9 – 19, 2017",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2017/o=asc/p=1/rp=200",
+          "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2017/o=desc/p=1/rp=40",
+          "selection": [
+            {
+              "title": "Ana, mon amour",
+              "aliases": [],
+              "director": "Călin Peter Netzer",
+              "year": 2016,
+              "runtime": 127,
+              "source": "https://www.berlinale.de/en/2017/programme/201711626.html"
+            },
+            {
+              "title": "Bamui haebyun-eoseo honja",
+              "aliases": [
+                "On the Beach at Night Alone"
+              ],
+              "director": "Hong Sangsoo",
+              "year": 2017,
+              "runtime": 101,
+              "source": "https://www.berlinale.de/en/2017/programme/201713061.html"
+            },
+            {
+              "title": "Beuys",
+              "aliases": [],
+              "director": "Andres Veiel",
+              "year": 2017,
+              "runtime": 107,
+              "source": "https://www.berlinale.de/en/2017/programme/201713472.html"
+            },
+            {
+              "title": "Colo",
+              "aliases": [],
+              "director": "Teresa Villaverde",
+              "year": 2017,
+              "runtime": 136,
+              "source": "https://www.berlinale.de/en/2017/programme/201712400.html"
+            },
+            {
+              "title": "Django",
+              "aliases": [],
+              "director": "Etienne Comar",
+              "year": 2017,
+              "runtime": 117,
+              "source": "https://www.berlinale.de/en/2017/programme/201714390.html"
+            },
+            {
+              "title": "Félicité",
+              "aliases": [],
+              "director": "Alain Gomis",
+              "year": 2017,
+              "runtime": 123,
+              "source": "https://www.berlinale.de/en/2017/programme/201711638.html"
+            },
+            {
+              "title": "Hao ji le",
+              "aliases": [
+                "Have a Nice Day",
+                "Einen schönen Tag noch"
+              ],
+              "director": "Liu Jian",
+              "year": 2017,
+              "runtime": 75,
+              "source": "https://www.berlinale.de/en/2017/programme/201718718.html"
+            },
+            {
+              "title": "Helle Nächte",
+              "aliases": [
+                "Bright Nights"
+              ],
+              "director": "Thomas Arslan",
+              "year": 2017,
+              "runtime": 86,
+              "source": "https://www.berlinale.de/en/2017/programme/201712040.html"
+            },
+            {
+              "title": "Joaquim",
+              "aliases": [],
+              "director": "Marcelo Gomes",
+              "year": 2017,
+              "runtime": 97,
+              "source": "https://www.berlinale.de/en/2017/programme/201713326.html"
+            },
+            {
+              "title": "Mr. Long",
+              "aliases": [],
+              "director": "Sabu",
+              "year": 2017,
+              "runtime": 129,
+              "source": "https://www.berlinale.de/en/2017/programme/201713905.html"
+            },
+            {
+              "title": "Pokot",
+              "aliases": [
+                "Spoor"
+              ],
+              "director": "Agnieszka Holland",
+              "year": 2017,
+              "runtime": 128,
+              "source": "https://www.berlinale.de/en/2017/programme/201711635.html"
+            },
+            {
+              "title": "Return to Montauk",
+              "aliases": [
+                "Rückkehr nach Montauk"
+              ],
+              "director": "Volker Schlöndorff",
+              "year": 2017,
+              "runtime": 106,
+              "source": "https://www.berlinale.de/en/2017/programme/201719812.html"
+            },
+            {
+              "title": "Testről és lélekről",
+              "aliases": [
+                "On Body and Soul"
+              ],
+              "director": "Ildikó Enyedi",
+              "year": 2017,
+              "runtime": 116,
+              "source": "https://www.berlinale.de/en/2017/programme/201712288.html"
+            },
+            {
+              "title": "The Dinner",
+              "aliases": [],
+              "director": "Oren Moverman",
+              "year": 2016,
+              "runtime": 120,
+              "source": "https://www.berlinale.de/en/2017/programme/201712295.html"
+            },
+            {
+              "title": "The Party",
+              "aliases": [],
+              "director": "Sally Potter",
+              "year": 2017,
+              "runtime": 71,
+              "source": "https://www.berlinale.de/en/2017/programme/201715091.html"
+            },
+            {
+              "title": "Toivon tuolla puolen",
+              "aliases": [
+                "The Other Side of Hope",
+                "Die andere Seite der Hoffnung"
+              ],
+              "director": "Aki Kaurismäki",
+              "year": 2017,
+              "runtime": 98,
+              "source": "https://www.berlinale.de/en/2017/programme/201719257.html"
+            },
+            {
+              "title": "Una mujer fantástica",
+              "aliases": [
+                "A Fantastic Woman"
+              ],
+              "director": "Sebastián Lelio",
+              "year": 2017,
+              "runtime": 104,
+              "source": "https://www.berlinale.de/en/2017/programme/201712954.html"
+            },
+            {
+              "title": "Wilde Maus",
+              "aliases": [
+                "Wild Mouse"
+              ],
+              "director": "Josef Hader",
+              "year": 2017,
+              "runtime": 103,
+              "source": "https://www.berlinale.de/en/2017/programme/201712958.html"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Bear for Best Film",
+              "source_name": "Golden Bear",
+              "jury": "International Jury 2017",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2017/o=desc/p=1/rp=40",
+              "source_text": "Testről és lélekről by Ildikó Enyedi",
+              "entries": [
+                {
+                  "title": "Testről és lélekről",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Grand Jury Prize",
+              "source_name": "Silver Bear Grand Jury Prize",
+              "jury": "International Jury 2017",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2017/o=desc/p=1/rp=40",
+              "source_text": "Félicité by Alain Gomis",
+              "entries": [
+                {
+                  "title": "Félicité",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Alfred Bauer Prize",
+              "source_name": "Silver Bear Alfred Bauer Prize",
+              "jury": "International Jury 2017",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2017/o=desc/p=1/rp=40",
+              "source_text": "Pokot by Agnieszka Holland",
+              "entries": [
+                {
+                  "title": "Pokot",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Director",
+              "source_name": "Silver Bear for Best Director",
+              "jury": "International Jury 2017",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2017/o=desc/p=1/rp=40",
+              "source_text": "Aki Kaurismäki Toivon tuolla puolen by Aki Kaurismäki",
+              "entries": [
+                {
+                  "title": "Toivon tuolla puolen",
+                  "winner": true,
+                  "people": [
+                    "Aki Kaurismäki"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actress",
+              "source_name": "Silver Bear for Best Actress",
+              "jury": "International Jury 2017",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2017/o=desc/p=1/rp=40",
+              "source_text": "Kim Minhee Bamui haebyun-eoseo honja by Hong Sangsoo",
+              "entries": [
+                {
+                  "title": "Bamui haebyun-eoseo honja",
+                  "winner": true,
+                  "people": [
+                    "Kim Minhee"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actor",
+              "source_name": "Silver Bear for Best Actor",
+              "jury": "International Jury 2017",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2017/o=desc/p=1/rp=40",
+              "source_text": "Georg Friedrich Helle Nächte by Thomas Arslan",
+              "entries": [
+                {
+                  "title": "Helle Nächte",
+                  "winner": true,
+                  "people": [
+                    "Georg Friedrich"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Screenplay",
+              "source_name": "Silver Bear for Best Screenplay",
+              "jury": "International Jury 2017",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2017/o=desc/p=1/rp=40",
+              "source_text": "Sebastián Lelio and Gonzalo Maza Una mujer fantástica by Sebastián Lelio",
+              "entries": [
+                {
+                  "title": "Una mujer fantástica",
+                  "winner": true,
+                  "people": [
+                    "Sebastián Lelio and Gonzalo Maza"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Outstanding Artistic Contribution",
+              "source_name": "Silver Bear for Outstanding Artistic Contribution",
+              "jury": "International Jury 2017",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2017/o=desc/p=1/rp=40",
+              "source_text": "Dana Bunescu for the editing in Ana, mon amour by Călin Peter Netzer",
+              "entries": [
+                {
+                  "title": "Ana, mon amour",
+                  "winner": true,
+                  "people": [
+                    "Dana Bunescu"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "Berlinale",
+      "year": 2018,
+      "section": "Official Selection",
+      "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2018/o=asc/p=1/rp=200",
+      "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2018/o=desc/p=1/rp=40",
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2018-02-15",
+          "end": "2018-02-25",
+          "source": "https://www.berlinale.de/en/archive/yearbooks/2018.html"
+        }
+      ],
+      "date_source_text": "February 15 – 25, 2018",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2018/o=asc/p=1/rp=200",
+          "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2018/o=desc/p=1/rp=40",
+          "selection": [
+            {
+              "title": "3 Tage in Quiberon",
+              "aliases": [
+                "3 Days in Quiberon"
+              ],
+              "director": "Emily Atef",
+              "year": 2018,
+              "runtime": 115,
+              "source": "https://www.berlinale.de/en/2018/programme/201818984.html"
+            },
+            {
+              "title": "Ang Panahon ng Halimaw",
+              "aliases": [
+                "Season of the Devil",
+                "In Zeiten des Teufels"
+              ],
+              "director": "Lav Diaz",
+              "year": 2018,
+              "runtime": 234,
+              "source": "https://www.berlinale.de/en/2018/programme/201815186.html"
+            },
+            {
+              "title": "Damsel",
+              "aliases": [],
+              "director": "David & Nathan Zellner",
+              "year": 2017,
+              "runtime": 113,
+              "source": "https://www.berlinale.de/en/2018/programme/201814634.html"
+            },
+            {
+              "title": "Don’t Worry, He Won’t Get Far on Foot",
+              "aliases": [],
+              "director": "Gus Van Sant",
+              "year": 2018,
+              "runtime": 113,
+              "source": "https://www.berlinale.de/en/2018/programme/201816397.html"
+            },
+            {
+              "title": "Dovlatov",
+              "aliases": [],
+              "director": "Alexey German Jr.",
+              "year": 2018,
+              "runtime": 126,
+              "source": "https://www.berlinale.de/en/2018/programme/201816008.html"
+            },
+            {
+              "title": "Eva",
+              "aliases": [],
+              "director": "Benoit Jacquot",
+              "year": 2017,
+              "runtime": 102,
+              "source": "https://www.berlinale.de/en/2018/programme/201812383.html"
+            },
+            {
+              "title": "Figlia mia",
+              "aliases": [
+                "Daughter of Mine"
+              ],
+              "director": "Laura Bispuri",
+              "year": 2018,
+              "runtime": 100,
+              "source": "https://www.berlinale.de/en/2018/programme/201813980.html"
+            },
+            {
+              "title": "In den Gängen",
+              "aliases": [
+                "In the Aisles"
+              ],
+              "director": "Thomas Stuber",
+              "year": 2018,
+              "runtime": 125,
+              "source": "https://www.berlinale.de/en/2018/programme/201815252.html"
+            },
+            {
+              "title": "Isle of Dogs",
+              "aliases": [
+                "Isle of Dogs – Ataris Reise"
+              ],
+              "director": "Wes Anderson",
+              "year": 2018,
+              "runtime": 101,
+              "source": "https://www.berlinale.de/en/2018/programme/201819628.html"
+            },
+            {
+              "title": "Khook",
+              "aliases": [
+                "Pig",
+                "Schwein"
+              ],
+              "director": "Mani Haghighi",
+              "year": 2018,
+              "runtime": 108,
+              "source": "https://www.berlinale.de/en/2018/programme/201819710.html"
+            },
+            {
+              "title": "La prière",
+              "aliases": [
+                "The Prayer"
+              ],
+              "director": "Cédric Kahn",
+              "year": 2018,
+              "runtime": 107,
+              "source": "https://www.berlinale.de/en/2018/programme/201814371.html"
+            },
+            {
+              "title": "Las herederas",
+              "aliases": [
+                "The Heiresses"
+              ],
+              "director": "Marcelo Martinessi",
+              "year": 2018,
+              "runtime": 95,
+              "source": "https://www.berlinale.de/en/2018/programme/201814226.html"
+            },
+            {
+              "title": "Mein Bruder heißt Robert und ist ein Idiot",
+              "aliases": [
+                "My Brother's Name is Robert and He is an Idiot"
+              ],
+              "director": "Philip Gröning",
+              "year": 2018,
+              "runtime": 174,
+              "source": "https://www.berlinale.de/en/2018/programme/201810231.html"
+            },
+            {
+              "title": "Museo",
+              "aliases": [
+                "Museum"
+              ],
+              "director": "Alonso Ruizpalacios",
+              "year": 2018,
+              "runtime": 128,
+              "source": "https://www.berlinale.de/en/2018/programme/201813586.html"
+            },
+            {
+              "title": "Toppen av ingenting",
+              "aliases": [
+                "The Real Estate"
+              ],
+              "director": "Axel Petersén, Måns Månsson",
+              "year": 2018,
+              "runtime": 88,
+              "source": "https://www.berlinale.de/en/2018/programme/201814189.html"
+            },
+            {
+              "title": "Touch Me Not",
+              "aliases": [],
+              "director": "Adina Pintilie",
+              "year": 2018,
+              "runtime": 125,
+              "source": "https://www.berlinale.de/en/2018/programme/201815652.html"
+            },
+            {
+              "title": "Transit",
+              "aliases": [],
+              "director": "Christian Petzold",
+              "year": 2018,
+              "runtime": 101,
+              "source": "https://www.berlinale.de/en/2018/programme/201815866.html"
+            },
+            {
+              "title": "Twarz",
+              "aliases": [
+                "Mug"
+              ],
+              "director": "Małgorzata Szumowska",
+              "year": 2018,
+              "runtime": 91,
+              "source": "https://www.berlinale.de/en/2018/programme/201815889.html"
+            },
+            {
+              "title": "Utøya 22. juli",
+              "aliases": [
+                "U – July 22"
+              ],
+              "director": "Erik Poppe",
+              "year": 2018,
+              "runtime": 90,
+              "source": "https://www.berlinale.de/en/2018/programme/201814411.html"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Bear for Best Film",
+              "source_name": "Golden Bear",
+              "jury": "International Jury 2018",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2018/o=desc/p=1/rp=40",
+              "source_text": "Touch Me Not by Adina Pintilie",
+              "entries": [
+                {
+                  "title": "Touch Me Not",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Grand Jury Prize",
+              "source_name": "Silver Bear Grand Jury Prize",
+              "jury": "International Jury 2018",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2018/o=desc/p=1/rp=40",
+              "source_text": "Twarz by Małgorzata Szumowska",
+              "entries": [
+                {
+                  "title": "Twarz",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Alfred Bauer Prize",
+              "source_name": "Silver Bear Alfred Bauer Prize",
+              "jury": "International Jury 2018",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2018/o=desc/p=1/rp=40",
+              "source_text": "Las herederas by Marcelo Martinessi",
+              "entries": [
+                {
+                  "title": "Las herederas",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Director",
+              "source_name": "Silver Bear for Best Director",
+              "jury": "International Jury 2018",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2018/o=desc/p=1/rp=40",
+              "source_text": "Wes Anderson Isle of Dogs by Wes Anderson",
+              "entries": [
+                {
+                  "title": "Isle of Dogs",
+                  "winner": true,
+                  "people": [
+                    "Wes Anderson"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actress",
+              "source_name": "Silver Bear for Best Actress",
+              "jury": "International Jury 2018",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2018/o=desc/p=1/rp=40",
+              "source_text": "Ana Brun Las herederas by Marcelo Martinessi",
+              "entries": [
+                {
+                  "title": "Las herederas",
+                  "winner": true,
+                  "people": [
+                    "Ana Brun"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actor",
+              "source_name": "Silver Bear for Best Actor",
+              "jury": "International Jury 2018",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2018/o=desc/p=1/rp=40",
+              "source_text": "Anthony Bajon La prière by Cédric Kahn",
+              "entries": [
+                {
+                  "title": "La prière",
+                  "winner": true,
+                  "people": [
+                    "Anthony Bajon"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Screenplay",
+              "source_name": "Silver Bear for Best Screenplay",
+              "jury": "International Jury 2018",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2018/o=desc/p=1/rp=40",
+              "source_text": "Manuel Alcalá, Alonso Ruizpalacios Museo by Alonso Ruizpalacios",
+              "entries": [
+                {
+                  "title": "Museo",
+                  "winner": true,
+                  "people": [
+                    "Manuel Alcalá, Alonso Ruizpalacios"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Outstanding Artistic Contribution",
+              "source_name": "Silver Bear for Outstanding Artistic Contribution",
+              "jury": "International Jury 2018",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2018/o=desc/p=1/rp=40",
+              "source_text": "Elena Okopnaya (in the category costume and production design) Dovlatov by Alexey German Jr.",
+              "entries": [
+                {
+                  "title": "Dovlatov",
+                  "winner": true,
+                  "people": [
+                    "Elena Okopnaya"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "GWFF Best First Feature Award",
+              "source_name": "GWFF Best First Feature Award",
+              "jury": "GWFF Best First Feature Award Jury 2018",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2018/o=desc/p=1/rp=40",
+              "source_text": "Touch Me Not by Adina Pintilie produced by Bianca Oana, Philippe Avril, Adina Pintilie",
+              "entries": [
+                {
+                  "title": "Touch Me Not",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "Berlinale",
+      "year": 2019,
+      "section": "Official Selection",
+      "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2019/o=asc/p=1/rp=200",
+      "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2019/o=desc/p=1/rp=40",
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2019-02-07",
+          "end": "2019-02-17",
+          "source": "https://www.berlinale.de/en/archive/yearbooks/2019.html"
+        }
+      ],
+      "date_source_text": "February 07 – 17, 2019",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2019/o=asc/p=1/rp=200",
+          "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2019/o=desc/p=1/rp=40",
+          "selection": [
+            {
+              "title": "Der Boden unter den Füßen",
+              "aliases": [
+                "The Ground beneath My Feet"
+              ],
+              "director": "Marie Kreutzer",
+              "year": 2019,
+              "runtime": 108,
+              "source": "https://www.berlinale.de/en/2019/programme/201917499.html"
+            },
+            {
+              "title": "Der Goldene Handschuh",
+              "aliases": [
+                "The Golden Glove"
+              ],
+              "director": "Fatih Akin",
+              "year": 2019,
+              "runtime": 110,
+              "source": "https://www.berlinale.de/en/2019/programme/201913303.html"
+            },
+            {
+              "title": "Di jiu tian chang",
+              "aliases": [
+                "So Long, My Son"
+              ],
+              "director": "Wang Xiaoshuai",
+              "year": 2019,
+              "runtime": 175,
+              "source": "https://www.berlinale.de/en/2019/programme/201914264.html"
+            },
+            {
+              "title": "Elisa y Marcela",
+              "aliases": [
+                "Elisa & Marcela",
+                "Elisa und Marcela"
+              ],
+              "director": "Isabel Coixet",
+              "year": 2018,
+              "runtime": 113,
+              "source": "https://www.berlinale.de/en/2019/programme/201914539.html"
+            },
+            {
+              "title": "Gospod postoi, imeto i’ e Petrunija",
+              "aliases": [
+                "God Exists, Her Name Is Petrunya"
+              ],
+              "director": "Teona Strugar Mitevska",
+              "year": 2019,
+              "runtime": 100,
+              "source": "https://www.berlinale.de/en/2019/programme/201916992.html"
+            },
+            {
+              "title": "Grâce à Dieu",
+              "aliases": [
+                "By the Grace of God",
+                "Gelobt sei Gott"
+              ],
+              "director": "François Ozon",
+              "year": 2019,
+              "runtime": 137,
+              "source": "https://www.berlinale.de/en/2019/programme/201912152.html"
+            },
+            {
+              "title": "Ich war zuhause, aber",
+              "aliases": [
+                "I Was at Home, But"
+              ],
+              "director": "Angela Schanelec",
+              "year": 2019,
+              "runtime": 105,
+              "source": "https://www.berlinale.de/en/2019/programme/201915867.html"
+            },
+            {
+              "title": "Kız Kardeşler",
+              "aliases": [
+                "A Tale of Three Sisters"
+              ],
+              "director": "Emin Alper",
+              "year": 2019,
+              "runtime": 108,
+              "source": "https://www.berlinale.de/en/2019/programme/201910987.html"
+            },
+            {
+              "title": "La paranza dei bambini",
+              "aliases": [
+                "Piranhas"
+              ],
+              "director": "Claudio Giovannesi",
+              "year": 2018,
+              "runtime": 110,
+              "source": "https://www.berlinale.de/en/2019/programme/201913537.html"
+            },
+            {
+              "title": "Mr. Jones",
+              "aliases": [],
+              "director": "Agnieszka Holland",
+              "year": 2019,
+              "runtime": 141,
+              "source": "https://www.berlinale.de/en/2019/programme/201912053.html"
+            },
+            {
+              "title": "Öndög",
+              "aliases": [],
+              "director": "Wang Quan'an",
+              "year": 2019,
+              "runtime": 100,
+              "source": "https://www.berlinale.de/en/2019/programme/201912284.html"
+            },
+            {
+              "title": "Répertoire des villes disparues",
+              "aliases": [
+                "Ghost Town Anthology"
+              ],
+              "director": "Denis Côté",
+              "year": 2018,
+              "runtime": 96,
+              "source": "https://www.berlinale.de/en/2019/programme/201910892.html"
+            },
+            {
+              "title": "Synonymes",
+              "aliases": [
+                "Synonyms",
+                "Synonyme"
+              ],
+              "director": "Nadav Lapid",
+              "year": 2019,
+              "runtime": 123,
+              "source": "https://www.berlinale.de/en/2019/programme/201912245.html"
+            },
+            {
+              "title": "Systemsprenger",
+              "aliases": [
+                "System Crasher"
+              ],
+              "director": "Nora Fingscheidt",
+              "year": 2019,
+              "runtime": 118,
+              "source": "https://www.berlinale.de/en/2019/programme/201913679.html"
+            },
+            {
+              "title": "The Kindness of Strangers",
+              "aliases": [],
+              "director": "Lone Scherfig",
+              "year": 2019,
+              "runtime": 112,
+              "source": "https://www.berlinale.de/en/2019/programme/201911386.html"
+            },
+            {
+              "title": "Ut og stjæle hester",
+              "aliases": [
+                "Out Stealing Horses",
+                "Pferde stehlen"
+              ],
+              "director": "Hans Petter Moland",
+              "year": 2019,
+              "runtime": 122,
+              "source": "https://www.berlinale.de/en/2019/programme/201912851.html"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Bear for Best Film",
+              "source_name": "Golden Bear",
+              "jury": "International Jury 2019",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2019/o=desc/p=1/rp=40",
+              "source_text": "Synonymes by Nadav Lapid",
+              "entries": [
+                {
+                  "title": "Synonymes",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Grand Jury Prize",
+              "source_name": "Silver Bear Grand Jury Prize",
+              "jury": "International Jury 2019",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2019/o=desc/p=1/rp=40",
+              "source_text": "Grâce à Dieu by François Ozon",
+              "entries": [
+                {
+                  "title": "Grâce à Dieu",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Alfred Bauer Prize",
+              "source_name": "Silver Bear Alfred Bauer Prize",
+              "jury": "International Jury 2019",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2019/o=desc/p=1/rp=40",
+              "source_text": "Systemsprenger by Nora Fingscheidt",
+              "entries": [
+                {
+                  "title": "Systemsprenger",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Director",
+              "source_name": "Silver Bear for Best Director",
+              "jury": "International Jury 2019",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2019/o=desc/p=1/rp=40",
+              "source_text": "Angela Schanelec Ich war zuhause, aber by Angela Schanelec",
+              "entries": [
+                {
+                  "title": "Ich war zuhause, aber",
+                  "winner": true,
+                  "people": [
+                    "Angela Schanelec"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actress",
+              "source_name": "Silver Bear for Best Actress",
+              "jury": "International Jury 2019",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2019/o=desc/p=1/rp=40",
+              "source_text": "Yong Mei Di jiu tian chang by Wang Xiaoshuai",
+              "entries": [
+                {
+                  "title": "Di jiu tian chang",
+                  "winner": true,
+                  "people": [
+                    "Yong Mei"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actor",
+              "source_name": "Silver Bear for Best Actor",
+              "jury": "International Jury 2019",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2019/o=desc/p=1/rp=40",
+              "source_text": "Wang Jingchun Di jiu tian chang by Wang Xiaoshuai",
+              "entries": [
+                {
+                  "title": "Di jiu tian chang",
+                  "winner": true,
+                  "people": [
+                    "Wang Jingchun"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Screenplay",
+              "source_name": "Silver Bear for Best Screenplay",
+              "jury": "International Jury 2019",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2019/o=desc/p=1/rp=40",
+              "source_text": "Maurizio Braucci, Claudio Giovannesi, Roberto Saviano La paranza dei bambini by Claudio Giovannesi",
+              "entries": [
+                {
+                  "title": "La paranza dei bambini",
+                  "winner": true,
+                  "people": [
+                    "Maurizio Braucci, Claudio Giovannesi, Roberto Saviano"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Outstanding Artistic Contribution",
+              "source_name": "Silver Bear for Outstanding Artistic Contribution",
+              "jury": "International Jury 2019",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2019/o=desc/p=1/rp=40",
+              "source_text": "Rasmus Videbæk for the cinematography in Ut og stjæle hester by Hans Petter Moland",
+              "entries": [
+                {
+                  "title": "Ut og stjæle hester",
+                  "winner": true,
+                  "people": [
+                    "Rasmus Videbæk"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "excluded_withdrawn": [
+        {
+          "title": "Yi miao zhong",
+          "aliases": [
+            "One Second"
+          ],
+          "director": "Zhang Yimou",
+          "source": "https://www.berlinale.de/en/2019/programme/201912814.html",
+          "reason": "Withdrawn before its scheduled festival screening; no participation in the final competition.",
+          "evidence": "https://www.berlinale.de/en/archive/yearbooks/2019.html"
+        }
+      ],
+      "note": "Final competition excludes One Second, withdrawn before its scheduled screening."
+    },
+    {
+      "event": "Berlinale",
+      "year": 2020,
+      "section": "Official Selection",
+      "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2020/o=asc/p=1/rp=200",
+      "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2020/o=desc/p=1/rp=40",
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2020-02-20",
+          "end": "2020-03-01",
+          "source": "https://www.berlinale.de/en/archive/yearbooks/2020.html"
+        }
+      ],
+      "date_source_text": "February 20 – March 1, 2020",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2020/o=asc/p=1/rp=200",
+          "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2020/o=desc/p=1/rp=40",
+          "selection": [
+            {
+              "title": "Berlin Alexanderplatz",
+              "aliases": [],
+              "director": "Burhan Qurbani",
+              "year": 2020,
+              "runtime": 183,
+              "source": "https://www.berlinale.de/en/2020/programme/202012396.html"
+            },
+            {
+              "title": "DAU. Natasha",
+              "aliases": [],
+              "director": "Ilya Khrzhanovskiy, Jekaterina Oertel",
+              "year": 2020,
+              "runtime": 145,
+              "source": "https://www.berlinale.de/en/2020/programme/202012389.html"
+            },
+            {
+              "title": "Domangchin yeoja",
+              "aliases": [
+                "The Woman Who Ran",
+                "Die Frau, die rannte"
+              ],
+              "director": "Hong Sangsoo",
+              "year": 2019,
+              "runtime": 77,
+              "source": "https://www.berlinale.de/en/2020/programme/202011933.html"
+            },
+            {
+              "title": "Effacer l’historique",
+              "aliases": [
+                "Delete History"
+              ],
+              "director": "Benoît Delépine, Gustave Kervern",
+              "year": 2019,
+              "runtime": 110,
+              "source": "https://www.berlinale.de/en/2020/programme/202010890.html"
+            },
+            {
+              "title": "El prófugo",
+              "aliases": [
+                "The Intruder"
+              ],
+              "director": "Natalia Meta",
+              "year": 2020,
+              "runtime": 90,
+              "source": "https://www.berlinale.de/en/2020/programme/202005437.html"
+            },
+            {
+              "title": "Favolacce",
+              "aliases": [
+                "Bad Tales"
+              ],
+              "director": "Fabio & Damiano D'Innocenzo",
+              "year": 2020,
+              "runtime": 98,
+              "source": "https://www.berlinale.de/en/2020/programme/202010903.html"
+            },
+            {
+              "title": "First Cow",
+              "aliases": [],
+              "director": "Kelly Reichardt",
+              "year": 2019,
+              "runtime": 122,
+              "source": "https://www.berlinale.de/en/2020/programme/202003808.html"
+            },
+            {
+              "title": "Irradiés",
+              "aliases": [
+                "Irradiated"
+              ],
+              "director": "Rithy Panh",
+              "year": 2020,
+              "runtime": 88,
+              "source": "https://www.berlinale.de/en/2020/programme/202012719.html"
+            },
+            {
+              "title": "Le sel des larmes",
+              "aliases": [
+                "The Salt of Tears"
+              ],
+              "director": "Philippe Garrel",
+              "year": 2019,
+              "runtime": 100,
+              "source": "https://www.berlinale.de/en/2020/programme/202004479.html"
+            },
+            {
+              "title": "Never Rarely Sometimes Always",
+              "aliases": [],
+              "director": "Eliza Hittman",
+              "year": 2020,
+              "runtime": 101,
+              "source": "https://www.berlinale.de/en/2020/programme/202012290.html"
+            },
+            {
+              "title": "Rizi",
+              "aliases": [
+                "Days"
+              ],
+              "director": "Tsai Ming-Liang",
+              "year": 2019,
+              "runtime": 127,
+              "source": "https://www.berlinale.de/en/2020/programme/202005396.html"
+            },
+            {
+              "title": "Schwesterlein",
+              "aliases": [
+                "My Little Sister"
+              ],
+              "director": "Stéphanie Chuat, Véronique Reymond",
+              "year": 2020,
+              "runtime": 99,
+              "source": "https://www.berlinale.de/en/2020/programme/202003211.html"
+            },
+            {
+              "title": "Sheytan vojud nadarad",
+              "aliases": [
+                "There Is No Evil",
+                "Es gibt kein Böses"
+              ],
+              "director": "Mohammad Rasoulof",
+              "year": 2020,
+              "runtime": 150,
+              "source": "https://www.berlinale.de/en/2020/programme/202006819.html"
+            },
+            {
+              "title": "Siberia",
+              "aliases": [],
+              "director": "Abel Ferrara",
+              "year": 2020,
+              "runtime": 92,
+              "source": "https://www.berlinale.de/en/2020/programme/202010951.html"
+            },
+            {
+              "title": "The Roads Not Taken",
+              "aliases": [],
+              "director": "Sally Potter",
+              "year": 2020,
+              "runtime": 85,
+              "source": "https://www.berlinale.de/en/2020/programme/202008864.html"
+            },
+            {
+              "title": "Todos os mortos",
+              "aliases": [
+                "All the Dead Ones",
+                "All die Toten"
+              ],
+              "director": "Caetano Gotardo, Marco Dutra",
+              "year": 2020,
+              "runtime": 120,
+              "source": "https://www.berlinale.de/en/2020/programme/202008626.html"
+            },
+            {
+              "title": "Undine",
+              "aliases": [],
+              "director": "Christian Petzold",
+              "year": 2020,
+              "runtime": 90,
+              "source": "https://www.berlinale.de/en/2020/programme/202011035.html"
+            },
+            {
+              "title": "Volevo nascondermi",
+              "aliases": [
+                "Hidden Away"
+              ],
+              "director": "Giorgio Diritti",
+              "year": 2019,
+              "runtime": 118,
+              "source": "https://www.berlinale.de/en/2020/programme/202007198.html"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Bear for Best Film",
+              "source_name": "Golden Bear for Best Film (awarded to the film’s producers)",
+              "jury": "International Jury 2020",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2020/o=desc/p=1/rp=40",
+              "source_text": "Sheytan vojud nadarad by Mohammad Rasoulof produced by Mohammad Rasoulof, Kaveh Farnam, Farzad Pak",
+              "entries": [
+                {
+                  "title": "Sheytan vojud nadarad",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Grand Jury Prize",
+              "source_name": "Silver Bear Grand Jury Prize",
+              "jury": "International Jury 2020",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2020/o=desc/p=1/rp=40",
+              "source_text": "Never Rarely Sometimes Always by Eliza Hittman",
+              "entries": [
+                {
+                  "title": "Never Rarely Sometimes Always",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Director",
+              "source_name": "Silver Bear for Best Director",
+              "jury": "International Jury 2020",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2020/o=desc/p=1/rp=40",
+              "source_text": "Hong Sangsoo Domangchin yeoja",
+              "entries": [
+                {
+                  "title": "Domangchin yeoja",
+                  "winner": true,
+                  "people": [
+                    "Hong Sangsoo"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actress",
+              "source_name": "Silver Bear for Best Actress",
+              "jury": "International Jury 2020",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2020/o=desc/p=1/rp=40",
+              "source_text": "Paula Beer Undine by Christian Petzold",
+              "entries": [
+                {
+                  "title": "Undine",
+                  "winner": true,
+                  "people": [
+                    "Paula Beer"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actor",
+              "source_name": "Silver Bear for Best Actor",
+              "jury": "International Jury 2020",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2020/o=desc/p=1/rp=40",
+              "source_text": "Elio Germano Volevo nascondermi by Giorgio Diritti",
+              "entries": [
+                {
+                  "title": "Volevo nascondermi",
+                  "winner": true,
+                  "people": [
+                    "Elio Germano"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Screenplay",
+              "source_name": "Silver Bear for Best Screenplay",
+              "jury": "International Jury 2020",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2020/o=desc/p=1/rp=40",
+              "source_text": "D'Innocenzo Brothers Favolacce by Fabio & Damiano D'Innocenzo",
+              "entries": [
+                {
+                  "title": "Favolacce",
+                  "winner": true,
+                  "people": [
+                    "D'Innocenzo Brothers"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Outstanding Artistic Contribution",
+              "source_name": "Silver Bear for Outstanding Artistic Contribution",
+              "jury": "International Jury 2020",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2020/o=desc/p=1/rp=40",
+              "source_text": "Jürgen Jürges for the cinematography in DAU. Natasha by Ilya Khrzhanovskiy, Jekaterina Oertel",
+              "entries": [
+                {
+                  "title": "DAU. Natasha",
+                  "winner": true,
+                  "people": [
+                    "Jürgen Jürges"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "The Silver Bear - 70th Berlinale",
+              "source_name": "The Silver Bear - 70th Berlinale",
+              "jury": "International Jury 2020",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2020/o=desc/p=1/rp=40",
+              "source_text": "Effacer l’historique by Benoît Delépine, Gustave Kervern",
+              "entries": [
+                {
+                  "title": "Effacer l’historique",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Berlinale Documentary Award",
+              "source_name": "Berlinale Documentary Award",
+              "jury": "Jury Berlinale Documentary Award 2020",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2020/o=desc/p=1/rp=40",
+              "source_text": "Irradiés by Rithy Panh produced by Catherine Dussart",
+              "entries": [
+                {
+                  "title": "Irradiés",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Encounters",
+          "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2020/o=asc/p=1/rp=200",
+          "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2020/o=desc/p=1/rp=40",
+          "selection": [
+            {
+              "title": "A metamorfose dos pássaros",
+              "aliases": [
+                "The Metamorphosis of Birds"
+              ],
+              "director": "Catarina Vasconcelos",
+              "year": 2020,
+              "runtime": 101,
+              "source": "https://www.berlinale.de/en/2020/programme/202006770.html"
+            },
+            {
+              "title": "Die letzte Stadt",
+              "aliases": [
+                "The Last City"
+              ],
+              "director": "Heinz Emigholz",
+              "year": 2020,
+              "runtime": 100,
+              "source": "https://www.berlinale.de/en/2020/programme/202007184.html"
+            },
+            {
+              "title": "Funny Face",
+              "aliases": [],
+              "director": "Tim Sutton",
+              "year": 2019,
+              "runtime": 95,
+              "source": "https://www.berlinale.de/en/2020/programme/202006951.html"
+            },
+            {
+              "title": "Gunda",
+              "aliases": [],
+              "director": "Victor Kossakovsky",
+              "year": 2020,
+              "runtime": 93,
+              "source": "https://www.berlinale.de/en/2020/programme/202003145.html"
+            },
+            {
+              "title": "Isabella",
+              "aliases": [],
+              "director": "Matías Piñeiro",
+              "year": 2020,
+              "runtime": 80,
+              "source": "https://www.berlinale.de/en/2020/programme/202012106.html"
+            },
+            {
+              "title": "Laila aur satt geet",
+              "aliases": [
+                "The Shepherdess and the Seven Songs"
+              ],
+              "director": "Pushpendra Singh",
+              "year": 2020,
+              "runtime": 96,
+              "source": "https://www.berlinale.de/en/2020/programme/202007647.html"
+            },
+            {
+              "title": "Los conductos",
+              "aliases": [],
+              "director": "Camilo Restrepo",
+              "year": 2020,
+              "runtime": 70,
+              "source": "https://www.berlinale.de/en/2020/programme/202006986.html"
+            },
+            {
+              "title": "Malmkrog",
+              "aliases": [],
+              "director": "Cristi Puiu",
+              "year": 2020,
+              "runtime": 200,
+              "source": "https://www.berlinale.de/en/2020/programme/202012556.html"
+            },
+            {
+              "title": "Nackte Tiere",
+              "aliases": [
+                "Naked Animals"
+              ],
+              "director": "Melanie Waelde",
+              "year": 2020,
+              "runtime": 83,
+              "source": "https://www.berlinale.de/en/2020/programme/202003777.html"
+            },
+            {
+              "title": "Orphea",
+              "aliases": [],
+              "director": "Alexander Kluge, Khavn",
+              "year": 2020,
+              "runtime": 99,
+              "source": "https://www.berlinale.de/en/2020/programme/202011777.html"
+            },
+            {
+              "title": "Shirley",
+              "aliases": [],
+              "director": "Josephine Decker",
+              "year": 2020,
+              "runtime": 106,
+              "source": "https://www.berlinale.de/en/2020/programme/202011904.html"
+            },
+            {
+              "title": "Služobníci",
+              "aliases": [
+                "Servants"
+              ],
+              "director": "Ivan Ostrochovský",
+              "year": 2020,
+              "runtime": 80,
+              "source": "https://www.berlinale.de/en/2020/programme/202007305.html"
+            },
+            {
+              "title": "The Trouble With Being Born",
+              "aliases": [],
+              "director": "Sandra Wollner",
+              "year": 2020,
+              "runtime": 94,
+              "source": "https://www.berlinale.de/en/2020/programme/202007593.html"
+            },
+            {
+              "title": "The Works and Days (of Tayoko Shiojiri in the Shiotani Basin)",
+              "aliases": [
+                "Werke und Tage (der Tayoko Shiojiri im Shiotanibecken)"
+              ],
+              "director": "C.W. Winter, Anders Edström",
+              "year": 2020,
+              "runtime": 480,
+              "source": "https://www.berlinale.de/en/2020/programme/202002329.html"
+            },
+            {
+              "title": "Zabij to i wyjedz z tego miasta",
+              "aliases": [
+                "Kill It and Leave This Town"
+              ],
+              "director": "Mariusz Wilczyński",
+              "year": 2019,
+              "runtime": 88,
+              "source": "https://www.berlinale.de/en/2020/programme/202007298.html"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "GWFF Best First Feature Award",
+              "source_name": "GWFF Best First Feature",
+              "jury": "Jury GWFF Best First Feature Award 2020",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2020/o=desc/p=1/rp=40",
+              "source_text": "Los conductos by Camilo Restrepo produced by Helen Olive, Martin Bertier, Felipe Guerrero",
+              "entries": [
+                {
+                  "title": "Los conductos",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "GWFF Best First Feature Award – Special Mention",
+              "source_name": "Special Mention",
+              "jury": "Jury GWFF Best First Feature Award 2020",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2020/o=desc/p=1/rp=40",
+              "source_text": "Nackte Tiere by Melanie Waelde produced by Anja Wedell",
+              "entries": [
+                {
+                  "title": "Nackte Tiere",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Encounters Best Film",
+              "source_name": "Best Film",
+              "jury": "Jury Encounters 2020",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2020/o=desc/p=1/rp=40",
+              "source_text": "The Works and Days (of Tayoko Shiojiri in the Shiotani Basin) by C.W. Winter, Anders Edström",
+              "entries": [
+                {
+                  "title": "The Works and Days (of Tayoko Shiojiri in the Shiotani Basin)",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Encounters Special Jury Award",
+              "source_name": "Special Jury Award",
+              "jury": "Jury Encounters 2020",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2020/o=desc/p=1/rp=40",
+              "source_text": "The Trouble With Being Born by Sandra Wollner",
+              "entries": [
+                {
+                  "title": "The Trouble With Being Born",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Encounters Best Director",
+              "source_name": "Best Director",
+              "jury": "Jury Encounters 2020",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2020/o=desc/p=1/rp=40",
+              "source_text": "Cristi Puiu Malmkrog",
+              "entries": [
+                {
+                  "title": "Malmkrog",
+                  "winner": true,
+                  "people": [
+                    "Cristi Puiu"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Encounters Special Mention",
+              "source_name": "Special Mention",
+              "jury": "Jury Encounters 2020",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2020/o=desc/p=1/rp=40",
+              "source_text": "Isabella by Matías Piñeiro",
+              "entries": [
+                {
+                  "title": "Isabella",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

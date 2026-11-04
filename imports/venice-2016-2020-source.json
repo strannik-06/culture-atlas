@@ -1,0 +1,2881 @@
+{
+  "scope": "Venezia Competition and feature-length Orizzonti Competition; official jury prizes and Lion of the Future recipients within those sections. Shorts, special screenings, other sections and collateral awards excluded.",
+  "events": [
+    {
+      "event": "Venice",
+      "year": 2016,
+      "section": "Official Selection",
+      "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2016",
+      "awardsSource": "https://asac.labiennale.org/attivita/cinema/annali?anno=2016",
+      "programmes": [
+        {
+          "name": "Venezia Competition",
+          "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2016",
+          "awardsSource": "https://asac.labiennale.org/attivita/cinema/annali?anno=2016",
+          "selection": [
+            {
+              "title": "Ang Babaeng Humayo",
+              "aliases": [
+                "The Woman Who left"
+              ],
+              "director": "Lav Diaz",
+              "year": 2016,
+              "runtime": 226,
+              "source": "https://asac.labiennale.org/attivita/cinema/264254"
+            },
+            {
+              "title": "Arrival",
+              "aliases": [],
+              "director": "Denis Villeneuve",
+              "year": 2016,
+              "runtime": 116,
+              "source": "https://asac.labiennale.org/attivita/cinema/264243"
+            },
+            {
+              "title": "Brimstone",
+              "aliases": [],
+              "director": "Martin Koolhoven",
+              "year": 2016,
+              "runtime": 148,
+              "source": "https://asac.labiennale.org/attivita/cinema/264227"
+            },
+            {
+              "title": "El ciudadano ilustre",
+              "aliases": [
+                "The Distinguished Citizen"
+              ],
+              "director": "Mariano Cohn, Gastón Duprat",
+              "year": 2016,
+              "runtime": 118,
+              "source": "https://asac.labiennale.org/attivita/cinema/264249"
+            },
+            {
+              "title": "El Cristo ciego",
+              "aliases": [
+                "The Blind Christ"
+              ],
+              "director": "Christopher Murray",
+              "year": 2016,
+              "runtime": 85,
+              "source": "https://asac.labiennale.org/attivita/cinema/264240"
+            },
+            {
+              "title": "Frantz",
+              "aliases": [],
+              "director": "François Ozon",
+              "year": 2016,
+              "runtime": 113,
+              "source": "https://asac.labiennale.org/attivita/cinema/264241"
+            },
+            {
+              "title": "Jackie",
+              "aliases": [],
+              "director": "Pablo Larrain",
+              "year": 2016,
+              "runtime": 95,
+              "source": "https://asac.labiennale.org/attivita/cinema/264238"
+            },
+            {
+              "title": "La La Land",
+              "aliases": [],
+              "director": "Damien Chazelle",
+              "year": 2016,
+              "runtime": 127,
+              "source": "https://asac.labiennale.org/attivita/cinema/264246"
+            },
+            {
+              "title": "La región salvaje",
+              "aliases": [],
+              "director": "Amat Escalante",
+              "year": 2016,
+              "runtime": 100,
+              "source": "https://asac.labiennale.org/attivita/cinema/264259"
+            },
+            {
+              "title": "Les beaux jours d'Aranjuez",
+              "aliases": [
+                "The beautiful days of Aranjuez"
+              ],
+              "director": "Wim Wenders",
+              "year": 2016,
+              "runtime": 97,
+              "source": "https://asac.labiennale.org/attivita/cinema/264247"
+            },
+            {
+              "title": "Na Mlijecnom putu",
+              "aliases": [
+                "On the Milky Road"
+              ],
+              "director": "Emir Kusturica",
+              "year": 2016,
+              "runtime": 125,
+              "source": "https://asac.labiennale.org/attivita/cinema/264233"
+            },
+            {
+              "title": "Nocturnal Animals",
+              "aliases": [],
+              "director": "Tom Ford",
+              "year": 2016,
+              "runtime": 115,
+              "source": "https://asac.labiennale.org/attivita/cinema/264262"
+            },
+            {
+              "title": "Piuma",
+              "aliases": [
+                "Feather"
+              ],
+              "director": "Roan Johnson",
+              "year": 2016,
+              "runtime": 98,
+              "source": "https://asac.labiennale.org/attivita/cinema/264263"
+            },
+            {
+              "title": "Questi giorni",
+              "aliases": [
+                "These Days"
+              ],
+              "director": "Giuseppe Piccioni",
+              "year": 2016,
+              "runtime": 120,
+              "source": "https://asac.labiennale.org/attivita/cinema/264242"
+            },
+            {
+              "title": "Ray",
+              "aliases": [
+                "Paradise"
+              ],
+              "director": "Andrey Konchalovskiy",
+              "year": 2016,
+              "runtime": 130,
+              "source": "https://asac.labiennale.org/attivita/cinema/264226"
+            },
+            {
+              "title": "Spira Mirabilis",
+              "aliases": [],
+              "director": "Martina Parenti, Massimo D'Anolfi",
+              "year": 2016,
+              "runtime": 121,
+              "source": "https://asac.labiennale.org/attivita/cinema/264250"
+            },
+            {
+              "title": "The Bad Batch",
+              "aliases": [],
+              "director": "Ana Lily Amirpour",
+              "year": 2016,
+              "runtime": 115,
+              "source": "https://asac.labiennale.org/attivita/cinema/264244"
+            },
+            {
+              "title": "The Light Between Oceans",
+              "aliases": [],
+              "director": "Derek Cianfrance",
+              "year": 2016,
+              "runtime": 133,
+              "source": "https://asac.labiennale.org/attivita/cinema/264248"
+            },
+            {
+              "title": "Une vie",
+              "aliases": [
+                "A Woman's Life"
+              ],
+              "director": "Stéphane Brizé",
+              "year": 2016,
+              "runtime": 119,
+              "source": "https://asac.labiennale.org/attivita/cinema/264245"
+            },
+            {
+              "title": "Voyage of Time: Life's Journey",
+              "aliases": [],
+              "director": "Terrence Malick",
+              "year": 2016,
+              "runtime": 90,
+              "source": "https://asac.labiennale.org/attivita/cinema/264239"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Lion",
+              "original_name": "Leone d'oro per il miglior film",
+              "raw_text": "Leone d'oro per il miglior film · Ang Babaeng Humayo",
+              "entries": [
+                {
+                  "title": "Ang Babaeng Humayo",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Grand Jury Prize",
+              "original_name": "Leone d'argento - Gran Premio della Giuria",
+              "raw_text": "Leone d'argento - Gran Premio della Giuria · Nocturnal Animals",
+              "entries": [
+                {
+                  "title": "Nocturnal Animals",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Best Director",
+              "original_name": "Leone d'argento per la migliore regia",
+              "raw_text": "Leone d'argento per la migliore regia · La región salvaje · Amat Escalante",
+              "entries": [
+                {
+                  "title": "La región salvaje",
+                  "winner": true,
+                  "people": [
+                    "Amat Escalante"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Best Director",
+              "original_name": "Leone d'argento per la migliore regia",
+              "raw_text": "Leone d'argento per la migliore regia · Ray · Andrey Konchalovskiy",
+              "entries": [
+                {
+                  "title": "Ray",
+                  "winner": true,
+                  "people": [
+                    "Andrey Konchalovskiy"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Special Jury Prize",
+              "original_name": "Premio speciale della Giuria",
+              "raw_text": "Premio speciale della Giuria · The Bad Batch",
+              "entries": [
+                {
+                  "title": "The Bad Batch",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Best Actor",
+              "original_name": "Coppa Volpi per la migliore interpretazione maschile",
+              "raw_text": "Coppa Volpi per la migliore interpretazione maschile · El ciudadano ilustre · Óscar Martínez",
+              "entries": [
+                {
+                  "title": "El ciudadano ilustre",
+                  "winner": true,
+                  "people": [
+                    "Óscar Martínez"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Best Actress",
+              "original_name": "Coppa Volpi per la migliore interpretazione femminile",
+              "raw_text": "Coppa Volpi per la migliore interpretazione femminile · La La Land · Emma Stone",
+              "entries": [
+                {
+                  "title": "La La Land",
+                  "winner": true,
+                  "people": [
+                    "Emma Stone"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Marcello Mastroianni Award",
+              "original_name": "Premio \"Marcello Mastroianni\" (a un giovane attore/attrice emergente)",
+              "raw_text": "Premio \"Marcello Mastroianni\" (a un giovane attore/attrice emergente) · Frantz · Paula Beer",
+              "entries": [
+                {
+                  "title": "Frantz",
+                  "winner": true,
+                  "people": [
+                    "Paula Beer"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Best Screenplay",
+              "original_name": "Premio per la migliore sceneggiatura",
+              "raw_text": "Premio per la migliore sceneggiatura · Jackie · Noah Oppenheim",
+              "entries": [
+                {
+                  "title": "Jackie",
+                  "winner": true,
+                  "people": [
+                    "Noah Oppenheim"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Orizzonti",
+          "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2016",
+          "awardsSource": "https://asac.labiennale.org/attivita/cinema/annali?anno=2016",
+          "selection": [
+            {
+              "title": "Boys in the Trees",
+              "aliases": [],
+              "director": "Nicholas Verso",
+              "year": 2016,
+              "runtime": 112,
+              "source": "https://asac.labiennale.org/attivita/cinema/265901"
+            },
+            {
+              "title": "Dawson City: Frozen Time",
+              "aliases": [],
+              "director": "Bill Morrison",
+              "year": 2016,
+              "runtime": 112,
+              "source": "https://asac.labiennale.org/attivita/cinema/265353"
+            },
+            {
+              "title": "Die Einsiedler",
+              "aliases": [
+                "The Eremites"
+              ],
+              "director": "Ronny Trocker",
+              "year": 2016,
+              "runtime": 110,
+              "source": "https://asac.labiennale.org/attivita/cinema/265428"
+            },
+            {
+              "title": "Gukôroku - Traces of Sin",
+              "aliases": [],
+              "director": "Kei Ishikawa",
+              "year": 2016,
+              "runtime": 120,
+              "source": "https://asac.labiennale.org/attivita/cinema/266296"
+            },
+            {
+              "title": "Home",
+              "aliases": [],
+              "director": "Fien Troch",
+              "year": 2016,
+              "runtime": 103,
+              "source": "https://asac.labiennale.org/attivita/cinema/265424"
+            },
+            {
+              "title": "Il più grande sogno",
+              "aliases": [
+                "I was a dreamer"
+              ],
+              "director": "Michele Vannucci",
+              "year": 2016,
+              "runtime": 97,
+              "source": "https://asac.labiennale.org/attivita/cinema/265897"
+            },
+            {
+              "title": "King of the Belgians",
+              "aliases": [],
+              "director": "Jessica Hope Woodworth, Peter Brosens",
+              "year": 2016,
+              "runtime": 94,
+              "source": "https://asac.labiennale.org/attivita/cinema/266188"
+            },
+            {
+              "title": "Koca Dunya",
+              "aliases": [
+                "Big big world"
+              ],
+              "director": "Reha Erdem",
+              "year": 2016,
+              "runtime": 100,
+              "source": "https://asac.labiennale.org/attivita/cinema/266259"
+            },
+            {
+              "title": "Ku Qian",
+              "aliases": [
+                "Bitter Money"
+              ],
+              "director": "Bing (III) Wang",
+              "year": 2016,
+              "runtime": 150,
+              "source": "https://asac.labiennale.org/attivita/cinema/265905"
+            },
+            {
+              "title": "Kékszakállú",
+              "aliases": [],
+              "director": "Gastón Solnicki",
+              "year": 2016,
+              "runtime": 72,
+              "source": "https://asac.labiennale.org/attivita/cinema/265399"
+            },
+            {
+              "title": "Laavor et Hakir",
+              "aliases": [
+                "Through the Wall",
+                "The Wedding Plan"
+              ],
+              "director": "Rama Burshtein",
+              "year": 2016,
+              "runtime": 110,
+              "source": "https://asac.labiennale.org/attivita/cinema/266218"
+            },
+            {
+              "title": "Liberami",
+              "aliases": [
+                "Deliver Me"
+              ],
+              "director": "Federica Di Giacomo",
+              "year": 2016,
+              "runtime": 89,
+              "source": "https://asac.labiennale.org/attivita/cinema/266246"
+            },
+            {
+              "title": "Malaria",
+              "aliases": [],
+              "director": "Parviz Shahbazi",
+              "year": 2016,
+              "runtime": 90,
+              "source": "https://asac.labiennale.org/attivita/cinema/265392"
+            },
+            {
+              "title": "Maudite Poutine",
+              "aliases": [
+                "Damned Poutine"
+              ],
+              "director": "Karl Lemieux",
+              "year": 2016,
+              "runtime": 91,
+              "source": "https://asac.labiennale.org/attivita/cinema/265342"
+            },
+            {
+              "title": "Réparer les vivants",
+              "aliases": [
+                "Heal the living"
+              ],
+              "director": "Katell Quillévéré",
+              "year": 2016,
+              "runtime": 104,
+              "source": "https://asac.labiennale.org/attivita/cinema/265355"
+            },
+            {
+              "title": "Seto Surya",
+              "aliases": [
+                "White Sun"
+              ],
+              "director": "Deepak Rauniyar",
+              "year": 2016,
+              "runtime": 87,
+              "source": "https://asac.labiennale.org/attivita/cinema/265360"
+            },
+            {
+              "title": "São Jorge",
+              "aliases": [
+                "Saint Jorge"
+              ],
+              "director": "Marco Martins",
+              "year": 2016,
+              "runtime": 112,
+              "source": "https://asac.labiennale.org/attivita/cinema/265352"
+            },
+            {
+              "title": "Tarde para la ira",
+              "aliases": [
+                "The Fury of a Patient Man"
+              ],
+              "director": "Raúl Arévalo",
+              "year": 2016,
+              "runtime": 92,
+              "source": "https://asac.labiennale.org/attivita/cinema/265316"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Orizzonti Award for Best Film",
+              "original_name": "Premio Orizzonti per il miglior film",
+              "raw_text": "Premio Orizzonti per il miglior film · Liberami",
+              "entries": [
+                {
+                  "title": "Liberami",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Best Director",
+              "original_name": "Premio Orizzonti per la migliore regia",
+              "raw_text": "Premio Orizzonti per la migliore regia · Home · Fien Troch",
+              "entries": [
+                {
+                  "title": "Home",
+                  "winner": true,
+                  "people": [
+                    "Fien Troch"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Special Orizzonti Jury Prize",
+              "original_name": "Premio Speciale della Giuria Orizzonti",
+              "raw_text": "Premio Speciale della Giuria Orizzonti · Koca Dunya",
+              "entries": [
+                {
+                  "title": "Koca Dunya",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Best Screenplay",
+              "original_name": "Premio Orizzonti per la migliore sceneggiatura",
+              "raw_text": "Premio Orizzonti per la migliore sceneggiatura · Ku Qian",
+              "entries": [
+                {
+                  "title": "Ku Qian",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Best Actress",
+              "original_name": "Premio Orizzonti per la migliore interpretazione femminile",
+              "raw_text": "Premio Orizzonti per la migliore interpretazione femminile · Tarde para la ira · Ruth Díaz",
+              "entries": [
+                {
+                  "title": "Tarde para la ira",
+                  "winner": true,
+                  "people": [
+                    "Ruth Díaz"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Best Actor",
+              "original_name": "Premio Orizzonti per la migliore interpretazione maschile",
+              "raw_text": "Premio Orizzonti per la migliore interpretazione maschile · São Jorge · Nuno Lopes",
+              "entries": [
+                {
+                  "title": "São Jorge",
+                  "winner": true,
+                  "people": [
+                    "Nuno Lopes"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2016-08-31",
+          "end": "2016-09-10",
+          "source": "https://www.labiennale.org/en/history/recent-years"
+        },
+        {
+          "label": "Awards ceremony",
+          "start": "2016-09-10",
+          "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2016"
+        }
+      ]
+    },
+    {
+      "event": "Venice",
+      "year": 2017,
+      "section": "Official Selection",
+      "source": "https://www.labiennale.org/en/cinema/2017/biennale-cinema-2017-film-concorso",
+      "awardsSource": "https://www.labiennale.org/en/news/official-awards-74th-venice-film-festival",
+      "programmes": [
+        {
+          "name": "Venezia Competition",
+          "source": "https://www.labiennale.org/en/cinema/2017/biennale-cinema-2017-film-concorso",
+          "awardsSource": "https://www.labiennale.org/en/news/official-awards-74th-venice-film-festival",
+          "selection": [
+            {
+              "title": "HUMAN FLOW",
+              "aliases": [],
+              "director": "AI WEIWEI",
+              "year": 2017,
+              "runtime": 140,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/ai-weiwei-human-flow"
+            },
+            {
+              "title": "MOTHER!",
+              "aliases": [],
+              "director": "DARREN ARONOFSKY",
+              "year": 2017,
+              "runtime": 120,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/darren-aronofsky-mother"
+            },
+            {
+              "title": "SUBURBICON",
+              "aliases": [],
+              "director": "GEORGE CLOONEY",
+              "year": 2017,
+              "runtime": 104,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/george-clooney-suburbicon"
+            },
+            {
+              "title": "THE SHAPE OF WATER",
+              "aliases": [],
+              "director": "GUILLERMO DEL TORO",
+              "year": 2017,
+              "runtime": 119,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/guillermo-del-toro-shape-water"
+            },
+            {
+              "title": "THE INSULT",
+              "aliases": [],
+              "director": "ZIAD DOUEIRI",
+              "year": 2017,
+              "runtime": 110,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/ziad-doueiri-insult"
+            },
+            {
+              "title": "LA VILLA",
+              "aliases": [],
+              "director": "ROBERT GUÉDIGUIAN",
+              "year": 2017,
+              "runtime": 107,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/robert-gu%C3%A9diguian-la-villa"
+            },
+            {
+              "title": "LEAN ON PETE",
+              "aliases": [],
+              "director": "ANDREW HAIGH",
+              "year": 2017,
+              "runtime": 121,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/andrew-haigh-lean-pete"
+            },
+            {
+              "title": "MEKTOUB, MY LOVE: CANTO UNO",
+              "aliases": [],
+              "director": "ABDELLATIF KECHICHE",
+              "year": 2017,
+              "runtime": 180,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/abdellatif-kechiche-mektoub-my-love-canto-uno"
+            },
+            {
+              "title": "SANDOME NO SATSUJIN",
+              "aliases": [
+                "THE THIRD MURDER"
+              ],
+              "director": "KORE-EDA HIROKAZU",
+              "year": 2017,
+              "runtime": 124,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/kore-eda-hirokazu-sandome-no-satsujin-third-murder"
+            },
+            {
+              "title": "JUSQU’À LA GARDE",
+              "aliases": [
+                "CUSTODY"
+              ],
+              "director": "XAVIER LEGRAND",
+              "year": 2017,
+              "runtime": 90,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/xavier-legrand-jusqu%E2%80%99%C3%A0-la-garde-custody"
+            },
+            {
+              "title": "AMMORE E MALAVITA",
+              "aliases": [],
+              "director": "MANETTI Bros.",
+              "year": 2017,
+              "runtime": 134,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/manetti-bros-ammore-e-malavita"
+            },
+            {
+              "title": "FOXTROT",
+              "aliases": [],
+              "director": "SAMUEL MAOZ",
+              "year": 2017,
+              "runtime": 113,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/samuel-maoz-foxtrot"
+            },
+            {
+              "title": "THREE BILLBOARDS OUTSIDE EBBING, MISSOURI",
+              "aliases": [],
+              "director": "MARTIN McDONAGH",
+              "year": 2017,
+              "runtime": 110,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/martin-mcdonagh-three-billboards-outside-ebbing-missouri"
+            },
+            {
+              "title": "HANNAH",
+              "aliases": [],
+              "director": "ANDREA PALLAORO",
+              "year": 2017,
+              "runtime": 95,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/andrea-pallaoro-hannah"
+            },
+            {
+              "title": "DOWNSIZING",
+              "aliases": [],
+              "director": "ALEXANDER PAYNE",
+              "year": 2017,
+              "runtime": 135,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/alexander-payne-downsizing"
+            },
+            {
+              "title": "JIA NIAN HUA",
+              "aliases": [
+                "ANGELS WEAR WHITE"
+              ],
+              "director": "VIVIAN QU",
+              "year": 2017,
+              "runtime": 107,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/vivian-qu-jia-nian-hua-angels-wear-white-0"
+            },
+            {
+              "title": "UNA FAMIGLIA",
+              "aliases": [],
+              "director": "SEBASTIANO RISO",
+              "year": 2017,
+              "runtime": 105,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/sebastiano-riso-una-famiglia"
+            },
+            {
+              "title": "FIRST REFORMED",
+              "aliases": [],
+              "director": "PAUL SCHRADER",
+              "year": 2017,
+              "runtime": 108,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/paul-schrader-first-reformed-0"
+            },
+            {
+              "title": "SWEET COUNTRY",
+              "aliases": [],
+              "director": "WARWICK THORNTON",
+              "year": 2017,
+              "runtime": 112,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/warwick-thornton-sweet-country"
+            },
+            {
+              "title": "THE LEISURE SEEKER",
+              "aliases": [],
+              "director": "PAOLO VIRZÌ",
+              "year": 2017,
+              "runtime": 112,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/paolo-virz%C3%AC-leisure-seeker"
+            },
+            {
+              "title": "EX LIBRIS - THE NEW YORK PUBLIC LIBRARY",
+              "aliases": [],
+              "director": "FREDERICK WISEMAN",
+              "year": 2017,
+              "runtime": 197,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/frederick-wiseman-ex-libris-new-york-public-library-0"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Lion",
+              "raw_text": "GOLDEN LION for Best Film to: THE SHAPE OF WATER by Guillermo del Toro (USA)",
+              "entries": [
+                {
+                  "title": "THE SHAPE OF WATER",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "GOLDEN LION for Best Film"
+            },
+            {
+              "name": "Grand Jury Prize",
+              "raw_text": "SILVER LION - GRAND JURY PRIZE to: FOXTROT by Samuel Maoz (Israel, Germany, France, Switzerland)",
+              "entries": [
+                {
+                  "title": "FOXTROT",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "SILVER LION - GRAND JURY PRIZE"
+            },
+            {
+              "name": "Best Director",
+              "raw_text": "SILVER LION - AWARD FOR BEST DIRECTOR to: Xavier Legrand for the film JUSQU’À LA GARDE (France)",
+              "entries": [
+                {
+                  "title": "JUSQU’À LA GARDE",
+                  "winner": true,
+                  "people": [
+                    "Xavier Legrand"
+                  ]
+                }
+              ],
+              "original_name": "SILVER LION - AWARD FOR BEST DIRECTOR"
+            },
+            {
+              "name": "Best Actress",
+              "raw_text": "COPPA VOLPI for Best Actress: Charlotte Rampling in the film HANNAH by Andrea Pallaoro (Italy, Belgium, France)",
+              "entries": [
+                {
+                  "title": "HANNAH",
+                  "winner": true,
+                  "people": [
+                    "Charlotte Rampling"
+                  ]
+                }
+              ],
+              "original_name": "COPPA VOLPI for Best Actress"
+            },
+            {
+              "name": "Best Actor",
+              "raw_text": "COPPA VOLPI for Best Actor: Kamel El Basha in the film THE INSULT by Ziad Doueiri (Lebanon, France)",
+              "entries": [
+                {
+                  "title": "THE INSULT",
+                  "winner": true,
+                  "people": [
+                    "Kamel El Basha"
+                  ]
+                }
+              ],
+              "original_name": "COPPA VOLPI for Best Actor"
+            },
+            {
+              "name": "Best Screenplay",
+              "raw_text": "AWARD FOR BEST SCREENPLAY to: Martin McDonagh for the film THREE BILLBOARDS OUTSIDE EBBING, MISSOURI by Martin McDonagh (Great Britain)",
+              "entries": [
+                {
+                  "title": "THREE BILLBOARDS OUTSIDE EBBING, MISSOURI",
+                  "winner": true,
+                  "people": [
+                    "Martin McDonagh"
+                  ]
+                }
+              ],
+              "original_name": "AWARD FOR BEST SCREENPLAY"
+            },
+            {
+              "name": "Special Jury Prize",
+              "raw_text": "SPECIAL JURY PRIZE to: SWEET COUNTRY by Warwick Thornton (Australia)",
+              "entries": [
+                {
+                  "title": "SWEET COUNTRY",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "SPECIAL JURY PRIZE"
+            },
+            {
+              "name": "Marcello Mastroianni Award",
+              "raw_text": "MARCELLO MASTROIANNI AWARD for Best Young Actor or Actress to: Charlie Plummer in the film LEAN ON PETE by Andrew Haigh (Great Britain)",
+              "entries": [
+                {
+                  "title": "LEAN ON PETE",
+                  "winner": true,
+                  "people": [
+                    "Charlie Plummer"
+                  ]
+                }
+              ],
+              "original_name": "MARCELLO MASTROIANNI AWARD for Best Young Actor or Actress"
+            },
+            {
+              "name": "Lion of the Future",
+              "raw_text": "LION OF THE FUTURE “LUIGI DE LAURENTIIS” VENICE AWARD FOR A DEBUT FILM to: JUSQU’À LA GARDE by Xavier Legrand (France) VENEZIA 74",
+              "entries": [
+                {
+                  "title": "JUSQU’À LA GARDE",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "LION OF THE FUTURE “LUIGI DE LAURENTIIS” VENICE AWARD FOR A DEBUT FILM"
+            }
+          ]
+        },
+        {
+          "name": "Orizzonti",
+          "source": "https://www.labiennale.org/en/cinema/2017/biennale-cinema-2017-orizzonti",
+          "awardsSource": "https://www.labiennale.org/en/news/official-awards-74th-venice-film-festival",
+          "selection": [
+            {
+              "title": "NAPADID SHODAN",
+              "aliases": [
+                "DISAPPEARANCE"
+              ],
+              "director": "ALI ASGARI",
+              "year": 2017,
+              "runtime": 89,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/ali-asgari-napadid-shodan-disappearance-0"
+            },
+            {
+              "title": "ESPÈCES MENACÉES",
+              "aliases": [],
+              "director": "GILLES BOURDOS",
+              "year": 2017,
+              "runtime": 105,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/gilles-bourdos-esp%C3%A8ces-menac%C3%A9es"
+            },
+            {
+              "title": "THE RAPE OF RECY TAYLOR",
+              "aliases": [],
+              "director": "NANCY BUIRSKI",
+              "year": 2017,
+              "runtime": 91,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/nancy-buirski-rape-recy-taylor"
+            },
+            {
+              "title": "CANIBA",
+              "aliases": [],
+              "director": "VERENA PARAVEL, LUCIEN CASTAING-TAYLOR",
+              "year": 2017,
+              "runtime": 96,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/verena-paravel-lucien-castaing-taylor-caniba"
+            },
+            {
+              "title": "LES BIENHEUREUX",
+              "aliases": [],
+              "director": "SOFIA DJAMA",
+              "year": 2017,
+              "runtime": 102,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/sofia-djama-les-bienheureux"
+            },
+            {
+              "title": "MARVIN",
+              "aliases": [],
+              "director": "ANNE FONTAINE",
+              "year": 2017,
+              "runtime": 115,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/anne-fontaine-marvin"
+            },
+            {
+              "title": "INVISIBLE",
+              "aliases": [],
+              "director": "PABLO GIORGELLI",
+              "year": 2017,
+              "runtime": 87,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/pablo-giorgelli-invisible"
+            },
+            {
+              "title": "BRUTTI E CATTIVI",
+              "aliases": [
+                "UGLY NASTY PEOPLE"
+              ],
+              "director": "COSIMO GOMEZ",
+              "year": 2017,
+              "runtime": 87,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/cosimo-gomez-brutti-e-cattivi-ugly-nasty-people"
+            },
+            {
+              "title": "HA BEN DOD",
+              "aliases": [
+                "THE COUSIN"
+              ],
+              "director": "TZAHI GRAD",
+              "year": 2017,
+              "runtime": 92,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/tzahi-grad-ha-ben-dod-cousin"
+            },
+            {
+              "title": "HA EDUT",
+              "aliases": [
+                "THE TESTAMENT"
+              ],
+              "director": "AMICHAI GREENBERG",
+              "year": 2017,
+              "runtime": 91,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/amichai-greenberg-ha%E2%80%99edut-testament"
+            },
+            {
+              "title": "BEDOUNE TARIKH, BEDOUNE EMZA",
+              "aliases": [
+                "NO DATE, NO SIGNATURE"
+              ],
+              "director": "VAHID JALILVAND",
+              "year": 2017,
+              "runtime": 104,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/vahid-jalilvand-bedoune-tarikh-bedoune-emza-no-date-no-signature"
+            },
+            {
+              "title": "LOS VERSOS DEL OLVIDO",
+              "aliases": [],
+              "director": "ALIREZA KHATAMI",
+              "year": 2017,
+              "runtime": 92,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/alireza-khatami-los-versos-del-olvido"
+            },
+            {
+              "title": "LA NUIT OÙ J’AI NAGÉ - OYOGISUGITA YORU",
+              "aliases": [],
+              "director": "DAMIEN MANIVEL, IGARASHI KOHEI",
+              "year": 2017,
+              "runtime": 79,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/damien-manivel-igarashi-kohei-la-nuit-o%C3%B9-jai-nag%C3%A9-oyogisugita-yoru"
+            },
+            {
+              "title": "NICO, 1988",
+              "aliases": [],
+              "director": "SUSANNA NICCHIARELLI",
+              "year": 2017,
+              "runtime": 93,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/susanna-nicchiarelli-nico-1988"
+            },
+            {
+              "title": "KRIEG",
+              "aliases": [],
+              "director": "RICK OSTERMANN",
+              "year": 2017,
+              "runtime": 93,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/rick-ostermann-krieg"
+            },
+            {
+              "title": "WEST OF SUNSHINE",
+              "aliases": [],
+              "director": "JASON RAFTOPOULOS",
+              "year": 2017,
+              "runtime": 78,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/jason-raftopoulos-west-sunshine"
+            },
+            {
+              "title": "GATTA CENERENTOLA",
+              "aliases": [],
+              "director": "ALESSANDRO RAK, IVAN CAPPIELLO, MARINO GUARNIERI, DARIO SANSONE",
+              "year": 2017,
+              "runtime": 86,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/alessandro-rak-ivan-cappiello-marino-guarnieri-dario-sansone-gatta-cenerentola"
+            },
+            {
+              "title": "UNDIR TRÉNU",
+              "aliases": [
+                "UNDER THE TREE"
+              ],
+              "director": "HAFSTEINN GUNNAR SIGURÐSSON",
+              "year": 2017,
+              "runtime": 89,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/hafsteinn-gunnar-sigur%C3%B0sson-undir-tr%C3%A9nu-under-tree"
+            },
+            {
+              "title": "LA VITA IN COMUNE",
+              "aliases": [
+                "THE ARK OF DISPERATA"
+              ],
+              "director": "EDOARDO WINSPEARE",
+              "year": 2017,
+              "runtime": 110,
+              "source": "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/edoardo-winspeare-la-vita-comune-ark-disperata"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Orizzonti Award for Best Film",
+              "raw_text": "the ORIZZONTI AWARD FOR BEST FILM to: NICO, 1988 by Susanna Nicchiarelli (Italy, Belgium)",
+              "entries": [
+                {
+                  "title": "NICO, 1988",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "the ORIZZONTI AWARD FOR BEST FILM"
+            },
+            {
+              "name": "Best Director",
+              "raw_text": "the ORIZZONTI AWARD FOR BEST DIRECTOR to: Vahid Jalilvand for BEDOUNE TARIKH, BEDOUNE EMZA (NO DATE, NO SIGNATURE) (Iran)",
+              "entries": [
+                {
+                  "title": "BEDOUNE TARIKH, BEDOUNE EMZA",
+                  "winner": true,
+                  "people": [
+                    "Vahid Jalilvand"
+                  ]
+                }
+              ],
+              "original_name": "the ORIZZONTI AWARD FOR BEST DIRECTOR"
+            },
+            {
+              "name": "Special Orizzonti Jury Prize",
+              "raw_text": "the SPECIAL ORIZZONTI JURY PRIZE to: CANIBA by Véréna Paravel and Lucien Castaing-Taylor (France, USA)",
+              "entries": [
+                {
+                  "title": "CANIBA",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "the SPECIAL ORIZZONTI JURY PRIZE"
+            },
+            {
+              "name": "Best Actress",
+              "raw_text": "the ORIZZONTI AWARD FOR BEST ACTRESS to: Lyna Khoudri in LES BIENHEUREUX by Sofia Djama (France, Belgium, Qatar)",
+              "entries": [
+                {
+                  "title": "LES BIENHEUREUX",
+                  "winner": true,
+                  "people": [
+                    "Lyna Khoudri"
+                  ]
+                }
+              ],
+              "original_name": "the ORIZZONTI AWARD FOR BEST ACTRESS"
+            },
+            {
+              "name": "Best Actor",
+              "raw_text": "the ORIZZONTI AWARD FOR BEST ACTOR to: Navid Mohammadzadeh in BEDOUNE TARIKH, BEDOUNE EMZA (NO DATE, NO SIGNATURE) by Vahid Jalilvand (Iran)",
+              "entries": [
+                {
+                  "title": "BEDOUNE TARIKH, BEDOUNE EMZA",
+                  "winner": true,
+                  "people": [
+                    "Navid Mohammadzadeh"
+                  ]
+                }
+              ],
+              "original_name": "the ORIZZONTI AWARD FOR BEST ACTOR"
+            },
+            {
+              "name": "Best Screenplay",
+              "raw_text": "the ORIZZONTI AWARD FOR BEST SCREENPLAY to: Alireza Khatami for LOS VERSOS DEL OLVIDO by Alireza Khatami (France, Germany, Netherlands, Chile)",
+              "entries": [
+                {
+                  "title": "LOS VERSOS DEL OLVIDO",
+                  "winner": true,
+                  "people": [
+                    "Alireza Khatami"
+                  ]
+                }
+              ],
+              "original_name": "the ORIZZONTI AWARD FOR BEST SCREENPLAY"
+            }
+          ]
+        }
+      ],
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2017-08-30",
+          "end": "2017-09-09",
+          "source": "https://www.labiennale.org/en/cinema/2017/74th-venice-film-festival"
+        },
+        {
+          "label": "Awards ceremony",
+          "start": "2017-09-09",
+          "source": "https://www.labiennale.org/en/news/official-awards-74th-venice-film-festival"
+        }
+      ]
+    },
+    {
+      "event": "Venice",
+      "year": 2018,
+      "section": "Official Selection",
+      "source": "https://www.labiennale.org/en/cinema/2018/lineup/venezia-75-competition",
+      "awardsSource": "https://www.labiennale.org/en/news/official-awards-75th-venice-film-festival",
+      "programmes": [
+        {
+          "name": "Venezia Competition",
+          "source": "https://www.labiennale.org/en/cinema/2018/lineup/venezia-75-competition",
+          "awardsSource": "https://www.labiennale.org/en/news/official-awards-75th-venice-film-festival",
+          "selection": [
+            {
+              "title": "The Mountain",
+              "aliases": [],
+              "director": "Rick Alverson",
+              "year": 2018,
+              "runtime": 106,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/venezia-75-competition/mountain"
+            },
+            {
+              "title": "Doubles vies",
+              "aliases": [],
+              "director": "Olivier Assayas",
+              "year": 2018,
+              "runtime": 107,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/venezia-75-competition/doubles-vies"
+            },
+            {
+              "title": "The Sisters Brothers",
+              "aliases": [],
+              "director": "Jacques Audiard",
+              "year": 2018,
+              "runtime": 120,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/venezia-75-competition/sisters-brothers"
+            },
+            {
+              "title": "First Man",
+              "aliases": [],
+              "director": "Damien Chazelle",
+              "year": 2018,
+              "runtime": 135,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/venezia-75-competition/first-man"
+            },
+            {
+              "title": "The Ballad of Buster Scruggs",
+              "aliases": [],
+              "director": "Ethan Coen, Joel Coen",
+              "year": 2018,
+              "runtime": 132,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/venezia-75-competition/ballad-buster-scruggs"
+            },
+            {
+              "title": "Vox Lux",
+              "aliases": [],
+              "director": "Brady Corbet",
+              "year": 2018,
+              "runtime": 110,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/venezia-75-competition/vox-lux"
+            },
+            {
+              "title": "Roma",
+              "aliases": [],
+              "director": "Alfonso Cuarón",
+              "year": 2018,
+              "runtime": 135,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/venezia-75-competition/roma"
+            },
+            {
+              "title": "22 July",
+              "aliases": [],
+              "director": "Paul Greengrass",
+              "year": 2018,
+              "runtime": 143,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/venezia-75-competition/22-july"
+            },
+            {
+              "title": "Suspiria",
+              "aliases": [],
+              "director": "Luca Guadagnino",
+              "year": 2018,
+              "runtime": 152,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/venezia-75-competition/suspiria"
+            },
+            {
+              "title": "Werk ohne Autor",
+              "aliases": [],
+              "director": "Florian Henckel von Donnersmarck",
+              "year": 2018,
+              "runtime": 188,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/venezia-75-competition/werk-ohne-autor"
+            },
+            {
+              "title": "The Nightingale",
+              "aliases": [],
+              "director": "Jennifer Kent",
+              "year": 2018,
+              "runtime": 136,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/venezia-75-competition/nightingale"
+            },
+            {
+              "title": "The Favourite",
+              "aliases": [],
+              "director": "Yorgos Lanthimos",
+              "year": 2018,
+              "runtime": 120,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/venezia-75-competition/favourite"
+            },
+            {
+              "title": "Peterloo",
+              "aliases": [],
+              "director": "Mike Leigh",
+              "year": 2018,
+              "runtime": 154,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/venezia-75-competition/peterloo"
+            },
+            {
+              "title": "Capri-Revolution",
+              "aliases": [],
+              "director": "Mario Martone",
+              "year": 2018,
+              "runtime": 122,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/venezia-75-competition/capri-revolution"
+            },
+            {
+              "title": "What You Gonna Do When The World’s On Fire?",
+              "aliases": [],
+              "director": "Roberto Minervini",
+              "year": 2018,
+              "runtime": 123,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/venezia-75-competition/what-you-gonna-do-when-world%E2%80%99s-fire"
+            },
+            {
+              "title": "Napszállta",
+              "aliases": [
+                "Sunset"
+              ],
+              "director": "László Nemes",
+              "year": 2018,
+              "runtime": 142,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/venezia-75-competition/napsz%C3%A1llta-sunset"
+            },
+            {
+              "title": "Frères ennemis",
+              "aliases": [],
+              "director": "David Oelhoffen",
+              "year": 2018,
+              "runtime": 111,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/venezia-75-competition/fr%C3%A8res-ennemis"
+            },
+            {
+              "title": "Nuestro tiempo",
+              "aliases": [],
+              "director": "Carlos Reygadas",
+              "year": 2018,
+              "runtime": 173,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/venezia-75-competition/nuestro-tiempo"
+            },
+            {
+              "title": "At Eternity’s Gate",
+              "aliases": [],
+              "director": "Julian Schnabel",
+              "year": 2018,
+              "runtime": 110,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/venezia-75-competition/eternity%E2%80%99s-gate"
+            },
+            {
+              "title": "Acusada",
+              "aliases": [],
+              "director": "Gonzalo Tobal",
+              "year": 2018,
+              "runtime": 108,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/venezia-75-competition/acusada"
+            },
+            {
+              "title": "Zan",
+              "aliases": [
+                "Killing"
+              ],
+              "director": "Shinya Tsukamoto",
+              "year": 2018,
+              "runtime": 80,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/venezia-75-competition/zan-killing"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Lion",
+              "raw_text": "GOLDEN LION for Best Film to: ROMA by Alfonso Cuarón (Mexico)",
+              "entries": [
+                {
+                  "title": "Roma",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "GOLDEN LION for Best Film"
+            },
+            {
+              "name": "Grand Jury Prize",
+              "raw_text": "SILVER LION - GRAND JURY PRIZE to: THE FAVOURITE by Yorgos Lanthimos (UK, Ireland, USA)",
+              "entries": [
+                {
+                  "title": "The Favourite",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "SILVER LION - GRAND JURY PRIZE"
+            },
+            {
+              "name": "Best Director",
+              "raw_text": "SILVER LION - AWARD FOR BEST DIRECTOR to: Jacques Audiard for the film THE SISTERS BROTHERS (France, Belgium, Romania, Spain)",
+              "entries": [
+                {
+                  "title": "The Sisters Brothers",
+                  "winner": true,
+                  "people": [
+                    "Jacques Audiard"
+                  ]
+                }
+              ],
+              "original_name": "SILVER LION - AWARD FOR BEST DIRECTOR"
+            },
+            {
+              "name": "Best Actress",
+              "raw_text": "COPPA VOLPI for Best Actress: Olivia Colman in the film THE FAVOURITE by Yorgos Lanthimos (UK, Ireland, USA)",
+              "entries": [
+                {
+                  "title": "The Favourite",
+                  "winner": true,
+                  "people": [
+                    "Olivia Colman"
+                  ]
+                }
+              ],
+              "original_name": "COPPA VOLPI for Best Actress"
+            },
+            {
+              "name": "Best Actor",
+              "raw_text": "COPPA VOLPI for Best Actor: Willem Dafoe in the film AT ETERNITY’S GATE by Julian Schnabel (USA, France)",
+              "entries": [
+                {
+                  "title": "At Eternity’s Gate",
+                  "winner": true,
+                  "people": [
+                    "Willem Dafoe"
+                  ]
+                }
+              ],
+              "original_name": "COPPA VOLPI for Best Actor"
+            },
+            {
+              "name": "Best Screenplay",
+              "raw_text": "AWARD FOR BEST SCREENPLAY to: Joel Coen and Ethan Coen for the film THE BALLAD OF BUSTER SCRUGGS by Joel Coen and Ethan Coen (USA)",
+              "entries": [
+                {
+                  "title": "The Ballad of Buster Scruggs",
+                  "winner": true,
+                  "people": [
+                    "Joel Coen",
+                    "Ethan Coen"
+                  ]
+                }
+              ],
+              "original_name": "AWARD FOR BEST SCREENPLAY"
+            },
+            {
+              "name": "Special Jury Prize",
+              "raw_text": "SPECIAL JURY PRIZE to: THE NIGHTINGALE by Jennifer Kent (Australia)",
+              "entries": [
+                {
+                  "title": "The Nightingale",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "SPECIAL JURY PRIZE"
+            },
+            {
+              "name": "Marcello Mastroianni Award",
+              "raw_text": "MARCELLO MASTROIANNI AWARD for Best Young Actor or Actress to: Baykali Ganambarr in the film THE NIGHTINGALE by Jennifer Kent (Australia)",
+              "entries": [
+                {
+                  "title": "The Nightingale",
+                  "winner": true,
+                  "people": [
+                    "Baykali Ganambarr"
+                  ]
+                }
+              ],
+              "original_name": "MARCELLO MASTROIANNI AWARD for Best Young Actor or Actress"
+            }
+          ]
+        },
+        {
+          "name": "Orizzonti",
+          "source": "https://www.labiennale.org/en/cinema/2018/lineup/orizzonti",
+          "awardsSource": "https://www.labiennale.org/en/news/official-awards-75th-venice-film-festival",
+          "selection": [
+            {
+              "title": "Kraben Rahu",
+              "aliases": [
+                "Manta Ray"
+              ],
+              "director": "Phuttiphong Aroonpheng",
+              "year": 2018,
+              "runtime": 105,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/orizzonti/kraben-rahu-manta-ray"
+            },
+            {
+              "title": "Soni",
+              "aliases": [],
+              "director": "Ivan Ayr",
+              "year": 2018,
+              "runtime": 97,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/orizzonti/soni"
+            },
+            {
+              "title": "Ozen",
+              "aliases": [
+                "The River"
+              ],
+              "director": "Emir Baigazin",
+              "year": 2018,
+              "runtime": 108,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/orizzonti/ozen-river"
+            },
+            {
+              "title": "La noche de 12 años",
+              "aliases": [],
+              "director": "Álvaro Brechner",
+              "year": 2018,
+              "runtime": 123,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/orizzonti/la-noche-de-12-a%C3%B1os"
+            },
+            {
+              "title": "Deslembro",
+              "aliases": [],
+              "director": "Flavia Castro",
+              "year": 2018,
+              "runtime": 96,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/orizzonti/deslembro"
+            },
+            {
+              "title": "Anons",
+              "aliases": [
+                "The Announcement"
+              ],
+              "director": "Mahmut Fazil Coşkun",
+              "year": 2018,
+              "runtime": 95,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/orizzonti/anons-announcement"
+            },
+            {
+              "title": "Sulla mia pelle",
+              "aliases": [],
+              "director": "Alessio Cremonini",
+              "year": 2018,
+              "runtime": 100,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/orizzonti/sulla-mia-pelle"
+            },
+            {
+              "title": "Un giorno all’improvviso",
+              "aliases": [
+                "If life gives you lemons"
+              ],
+              "director": "Ciro D'Emilio",
+              "year": 2018,
+              "runtime": 89,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/orizzonti/un-giorno-all%E2%80%99improvviso-if-life-gives-you-lemons"
+            },
+            {
+              "title": "Charlie Says",
+              "aliases": [],
+              "director": "Mary Harron",
+              "year": 2018,
+              "runtime": 104,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/orizzonti/charlie-says"
+            },
+            {
+              "title": "Amanda",
+              "aliases": [],
+              "director": "Mikhaël Hers",
+              "year": 2018,
+              "runtime": 107,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/orizzonti/amanda"
+            },
+            {
+              "title": "Yom Adaatou Zouli",
+              "aliases": [
+                "The Day I Lost My Shadow"
+              ],
+              "director": "Soudade Kaadan",
+              "year": 2018,
+              "runtime": 94,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/orizzonti/yom-adaatou-zouli-day-i-lost-my-shadow"
+            },
+            {
+              "title": "L’Enkas",
+              "aliases": [],
+              "director": "Sarah Marx",
+              "year": 2018,
+              "runtime": 85,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/orizzonti/l%E2%80%99enkas"
+            },
+            {
+              "title": "Tchelovek kotorij udivil vseh",
+              "aliases": [
+                "The Man Who Surprised Everyone"
+              ],
+              "director": "Natasha Merkulova, Aleksey Chupov",
+              "year": 2018,
+              "runtime": 105,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/orizzonti/tchelovek-kotorij-udivil-vseh-man-who-surprised-everyone"
+            },
+            {
+              "title": "Kucumbu tubuh indahku",
+              "aliases": [
+                "Memories of my Body"
+              ],
+              "director": "Garin Nugroho",
+              "year": 2018,
+              "runtime": 105,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/orizzonti/kucumbu-tubuh-indahku-memories-my-body"
+            },
+            {
+              "title": "Hamchenan ke mimordam",
+              "aliases": [
+                "As I Lay Dying"
+              ],
+              "director": "Mostafa Sayari",
+              "year": 2018,
+              "runtime": 73,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/orizzonti/hamchenan-ke-mimordam-i-lay-dying"
+            },
+            {
+              "title": "La profezia dell’armadillo",
+              "aliases": [],
+              "director": "Emanuele Scaringi",
+              "year": 2018,
+              "runtime": 99,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/orizzonti/la-profezia-dell%E2%80%99armadillo"
+            },
+            {
+              "title": "Erom",
+              "aliases": [
+                "Stripped"
+              ],
+              "director": "Yaron Shani",
+              "year": 2018,
+              "runtime": 119,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/orizzonti/erom-stripped"
+            },
+            {
+              "title": "Jinpa",
+              "aliases": [],
+              "director": "Pema Tseden",
+              "year": 2018,
+              "runtime": 86,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/orizzonti/jinpa"
+            },
+            {
+              "title": "Tel Aviv On Fire",
+              "aliases": [],
+              "director": "Sameh Zoabi",
+              "year": 2018,
+              "runtime": 97,
+              "source": "https://www.labiennale.org/en/cinema/2018/lineup/orizzonti/tel-aviv-fire"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Orizzonti Award for Best Film",
+              "raw_text": "the ORIZZONTI AWARD FOR BEST FILM to: KRABEN RAHU (MANTA RAY) by Phuttiphong Aroonpheng (Thailand, France, China)",
+              "entries": [
+                {
+                  "title": "Kraben Rahu",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "the ORIZZONTI AWARD FOR BEST FILM"
+            },
+            {
+              "name": "Best Director",
+              "raw_text": "the ORIZZONTI AWARD FOR BEST DIRECTOR to: Emir Baigazin for the film OZEN (THE RIVER) (Kazakhstan, Poland, Norway)",
+              "entries": [
+                {
+                  "title": "Ozen",
+                  "winner": true,
+                  "people": [
+                    "Emir Baigazin"
+                  ]
+                }
+              ],
+              "original_name": "the ORIZZONTI AWARD FOR BEST DIRECTOR"
+            },
+            {
+              "name": "Special Orizzonti Jury Prize",
+              "raw_text": "the SPECIAL ORIZZONTI JURY PRIZE to: ANONS (THE ANNOUNCEMENT) by Mahmut Fazıl Coşkun (Turkey, Bulgaria)",
+              "entries": [
+                {
+                  "title": "Anons",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "the SPECIAL ORIZZONTI JURY PRIZE"
+            },
+            {
+              "name": "Best Actress",
+              "raw_text": "the ORIZZONTI AWARD FOR BEST ACTRESS to: Natalya Kudryashova in TCHELOVEK KOTORIJ UDIVIL VSEH (THE MAN WHO SURPRISED EVERYONE) by Natasha Merkulova e Aleksey Chupov (Russia, Estonia, France)",
+              "entries": [
+                {
+                  "title": "Tchelovek kotorij udivil vseh",
+                  "winner": true,
+                  "people": [
+                    "Natalya Kudryashova"
+                  ]
+                }
+              ],
+              "original_name": "the ORIZZONTI AWARD FOR BEST ACTRESS"
+            },
+            {
+              "name": "Best Actor",
+              "raw_text": "the ORIZZONTI AWARD FOR BEST ACTOR to: Kais Nashif in TEL AVIV ON FIRE by Sameh Zoabi (Luxembourg, France, Israel, Belgium)",
+              "entries": [
+                {
+                  "title": "Tel Aviv On Fire",
+                  "winner": true,
+                  "people": [
+                    "Kais Nashif"
+                  ]
+                }
+              ],
+              "original_name": "the ORIZZONTI AWARD FOR BEST ACTOR"
+            },
+            {
+              "name": "Best Screenplay",
+              "raw_text": "the ORIZZONTI AWARD FOR BEST SCREENPLAY to: Pema Tseden for JINPA by Pema Tseden (China)",
+              "entries": [
+                {
+                  "title": "Jinpa",
+                  "winner": true,
+                  "people": [
+                    "Pema Tseden"
+                  ]
+                }
+              ],
+              "original_name": "the ORIZZONTI AWARD FOR BEST SCREENPLAY"
+            },
+            {
+              "name": "Lion of the Future",
+              "raw_text": "LION OF THE FUTURE “LUIGI DE LAURENTIIS” VENICE AWARD FOR A DEBUT FILM to: YOM ADAATOU ZOULI (THE DAY I LOST MY SHADOW) by Soudade Kaadan (Syrian Arab Republic, Lebanon, France, Qatar) ORIZZONTI",
+              "entries": [
+                {
+                  "title": "Yom Adaatou Zouli",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "LION OF THE FUTURE “LUIGI DE LAURENTIIS” VENICE AWARD FOR A DEBUT FILM"
+            }
+          ]
+        }
+      ],
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2018-08-29",
+          "end": "2018-09-08",
+          "source": "https://www.labiennale.org/en/cinema/2018"
+        },
+        {
+          "label": "Awards ceremony",
+          "start": "2018-09-08",
+          "source": "https://www.labiennale.org/en/news/official-awards-75th-venice-film-festival"
+        }
+      ]
+    },
+    {
+      "event": "Venice",
+      "year": 2019,
+      "section": "Official Selection",
+      "source": "https://www.labiennale.org/en/cinema/2019/venezia-76-competition",
+      "awardsSource": "https://www.labiennale.org/en/news/official-awards-76th-venice-film-festival",
+      "programmes": [
+        {
+          "name": "Venezia Competition",
+          "source": "https://www.labiennale.org/en/cinema/2019/venezia-76-competition",
+          "awardsSource": "https://www.labiennale.org/en/news/official-awards-76th-venice-film-festival",
+          "selection": [
+            {
+              "title": "The Perfect Candidate",
+              "aliases": [],
+              "director": "Haifaa Al Mansour",
+              "year": 2019,
+              "runtime": 101,
+              "source": "https://www.labiennale.org/en/cinema/2019/venezia-76-competition/perfect-candidate"
+            },
+            {
+              "title": "Om det oändliga",
+              "aliases": [
+                "About Endlessness"
+              ],
+              "director": "Roy Andersson",
+              "year": 2019,
+              "runtime": 76,
+              "source": "https://www.labiennale.org/en/cinema/2019/venezia-76-competition/om-det-o%C3%A4ndliga-about-endlessness"
+            },
+            {
+              "title": "Wasp Network",
+              "aliases": [],
+              "director": "Olivier Assayas",
+              "year": 2019,
+              "runtime": 123,
+              "source": "https://www.labiennale.org/en/cinema/2019/venezia-76-competition/wasp-network"
+            },
+            {
+              "title": "Marriage Story",
+              "aliases": [],
+              "director": "Noah Baumbach",
+              "year": 2019,
+              "runtime": 135,
+              "source": "https://www.labiennale.org/en/cinema/2019/venezia-76-competition/marriage-story"
+            },
+            {
+              "title": "Guest of Honour",
+              "aliases": [],
+              "director": "Atom Egoyan",
+              "year": 2019,
+              "runtime": 104,
+              "source": "https://www.labiennale.org/en/cinema/2019/venezia-76-competition/guest-honour"
+            },
+            {
+              "title": "Ad astra",
+              "aliases": [],
+              "director": "James Gray",
+              "year": 2019,
+              "runtime": 124,
+              "source": "https://www.labiennale.org/en/cinema/2019/venezia-76-competition/ad-astra"
+            },
+            {
+              "title": "A herdade",
+              "aliases": [
+                "The Domain"
+              ],
+              "director": "Tiago Guedes",
+              "year": 2019,
+              "runtime": 164,
+              "source": "https://www.labiennale.org/en/cinema/2019/venezia-76-competition/herdade-domain"
+            },
+            {
+              "title": "Gloria Mundi",
+              "aliases": [],
+              "director": "Robert Guédiguian",
+              "year": 2019,
+              "runtime": 107,
+              "source": "https://www.labiennale.org/en/cinema/2019/venezia-76-competition/gloria-mundi"
+            },
+            {
+              "title": "Waiting for the Barbarians",
+              "aliases": [],
+              "director": "Ciro Guerra",
+              "year": 2019,
+              "runtime": 112,
+              "source": "https://www.labiennale.org/en/cinema/2019/venezia-76-competition/waiting-barbarians"
+            },
+            {
+              "title": "La vérité",
+              "aliases": [
+                "The Truth"
+              ],
+              "director": "Kore-eda Hirokazu",
+              "year": 2019,
+              "runtime": 106,
+              "source": "https://www.labiennale.org/en/cinema/2019/venezia-76-competition/la-v%C3%A9rit%C3%A9-truth"
+            },
+            {
+              "title": "Ema",
+              "aliases": [],
+              "director": "Pablo Larraín",
+              "year": 2019,
+              "runtime": 102,
+              "source": "https://www.labiennale.org/en/cinema/2019/venezia-76-competition/ema"
+            },
+            {
+              "title": "Lan xin da ju yuan",
+              "aliases": [
+                "Saturday Fiction"
+              ],
+              "director": "Ye Lou",
+              "year": 2019,
+              "runtime": 126,
+              "source": "https://www.labiennale.org/en/cinema/2019/venezia-76-competition/lan-xin-da-ju-yuan-saturday-fiction"
+            },
+            {
+              "title": "Martin Eden",
+              "aliases": [],
+              "director": "Pietro Marcello",
+              "year": 2019,
+              "runtime": 129,
+              "source": "https://www.labiennale.org/en/cinema/2019/venezia-76-competition/martin-eden"
+            },
+            {
+              "title": "La mafia non è più quella di una volta",
+              "aliases": [],
+              "director": "Franco Maresco",
+              "year": 2019,
+              "runtime": 107,
+              "source": "https://www.labiennale.org/en/cinema/2019/venezia-76-competition/la-mafia-non-%C3%A8-pi%C3%B9-quella-di-una-volta"
+            },
+            {
+              "title": "The Painted Bird",
+              "aliases": [],
+              "director": "Václav Marhoul",
+              "year": 2019,
+              "runtime": 169,
+              "source": "https://www.labiennale.org/en/cinema/2019/venezia-76-competition/painted-bird"
+            },
+            {
+              "title": "Il sindaco del Rione Sanità",
+              "aliases": [
+                "The Mayor of Rione Sanità"
+              ],
+              "director": "Mario Martone",
+              "year": 2019,
+              "runtime": 118,
+              "source": "https://www.labiennale.org/en/cinema/2019/venezia-76-competition/il-sindaco-del-rione-sanit%C3%A0-mayor-rione-sanit%C3%A0"
+            },
+            {
+              "title": "Babyteeth",
+              "aliases": [],
+              "director": "Shannon Murphy",
+              "year": 2019,
+              "runtime": 120,
+              "source": "https://www.labiennale.org/en/cinema/2019/venezia-76-competition/babyteeth"
+            },
+            {
+              "title": "Joker",
+              "aliases": [],
+              "director": "Todd Phillips",
+              "year": 2019,
+              "runtime": 118,
+              "source": "https://www.labiennale.org/en/cinema/2019/venezia-76-competition/joker"
+            },
+            {
+              "title": "J’accuse",
+              "aliases": [
+                "An Officer And A Spy"
+              ],
+              "director": "Roman Polanski",
+              "year": 2019,
+              "runtime": 132,
+              "source": "https://www.labiennale.org/en/cinema/2019/venezia-76-competition/j%E2%80%99accuse-officer-and-spy"
+            },
+            {
+              "title": "The Laundromat",
+              "aliases": [],
+              "director": "Steven Soderbergh",
+              "year": 2019,
+              "runtime": 96,
+              "source": "https://www.labiennale.org/en/cinema/2019/venezia-76-competition/laundromat"
+            },
+            {
+              "title": "Ji Yuan Tai Qi Hao",
+              "aliases": [
+                "No. 7 Cherry Lane"
+              ],
+              "director": "Yonfan",
+              "year": 2019,
+              "runtime": 125,
+              "source": "https://www.labiennale.org/en/cinema/2019/venezia-76-competition/ji-yuan-tai-qi-hao-no-7-cherry-lane"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Lion",
+              "raw_text": "GOLDEN LION for Best Film to: JOKER by Todd Phillips (USA)",
+              "entries": [
+                {
+                  "title": "Joker",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "GOLDEN LION for Best Film"
+            },
+            {
+              "name": "Grand Jury Prize",
+              "raw_text": "SILVER LION - GRAND JURY PRIZE to: J’ACCUSE by Roman Polanski (France, Italy)",
+              "entries": [
+                {
+                  "title": "J’accuse",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "SILVER LION - GRAND JURY PRIZE"
+            },
+            {
+              "name": "Best Director",
+              "raw_text": "SILVER LION - AWARD FOR BEST DIRECTOR to: Roy Andersson for the film OM DET OÄNDLIGA (ABOUT ENDLESSNESS) (Sweden, Germany, Norway)",
+              "entries": [
+                {
+                  "title": "Om det oändliga",
+                  "winner": true,
+                  "people": [
+                    "Roy Andersson"
+                  ]
+                }
+              ],
+              "original_name": "SILVER LION - AWARD FOR BEST DIRECTOR"
+            },
+            {
+              "name": "Best Actress",
+              "raw_text": "COPPA VOLPI for Best Actress: Ariane Ascaride in the film GLORIA MUNDI by Robert Guédiguian (France, Italy)",
+              "entries": [
+                {
+                  "title": "Gloria Mundi",
+                  "winner": true,
+                  "people": [
+                    "Ariane Ascaride"
+                  ]
+                }
+              ],
+              "original_name": "COPPA VOLPI for Best Actress"
+            },
+            {
+              "name": "Best Actor",
+              "raw_text": "COPPA VOLPI for Best Actor: Luca Marinelli in the film MARTIN EDEN by Pietro Marcello (Italy, France)",
+              "entries": [
+                {
+                  "title": "Martin Eden",
+                  "winner": true,
+                  "people": [
+                    "Luca Marinelli"
+                  ]
+                }
+              ],
+              "original_name": "COPPA VOLPI for Best Actor"
+            },
+            {
+              "name": "Best Screenplay",
+              "raw_text": "AWARD FOR BEST SCREENPLAY to: Yonfan for the film JI YUAN TAI QI HAO (No.7 CHERRY LANE) by Yonfan (Hong Kong SAR, China)",
+              "entries": [
+                {
+                  "title": "Ji Yuan Tai Qi Hao",
+                  "winner": true,
+                  "people": [
+                    "Yonfan"
+                  ]
+                }
+              ],
+              "original_name": "AWARD FOR BEST SCREENPLAY"
+            },
+            {
+              "name": "Special Jury Prize",
+              "raw_text": "SPECIAL JURY PRIZE to: LA MAFIA NON È PIÙ QUELLA DI UNA VOLTA by Franco Maresco (Italy)",
+              "entries": [
+                {
+                  "title": "La mafia non è più quella di una volta",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "SPECIAL JURY PRIZE"
+            },
+            {
+              "name": "Marcello Mastroianni Award",
+              "raw_text": "MARCELLO MASTROIANNI AWARD for Best Young Actor or Actress to: Toby Wallace in the film BABYTEETH by Shannon Murphy (Australia)",
+              "entries": [
+                {
+                  "title": "Babyteeth",
+                  "winner": true,
+                  "people": [
+                    "Toby Wallace"
+                  ]
+                }
+              ],
+              "original_name": "MARCELLO MASTROIANNI AWARD for Best Young Actor or Actress"
+            }
+          ]
+        },
+        {
+          "name": "Orizzonti",
+          "source": "https://www.labiennale.org/en/cinema/2019/orizzonti",
+          "awardsSource": "https://www.labiennale.org/en/news/official-awards-76th-venice-film-festival",
+          "selection": [
+            {
+              "title": "Zumiriki",
+              "aliases": [],
+              "director": "Oskar Alegria",
+              "year": 2019,
+              "runtime": 122,
+              "source": "https://www.labiennale.org/en/cinema/2019/orizzonti/zumiriki"
+            },
+            {
+              "title": "Bik eneich - Un fils",
+              "aliases": [],
+              "director": "Mehdi M. Barsaoui",
+              "year": 2019,
+              "runtime": 96,
+              "source": "https://www.labiennale.org/en/cinema/2019/orizzonti/bik-eneich-un-fils"
+            },
+            {
+              "title": "Blanco en Blanco",
+              "aliases": [],
+              "director": "Théo Court",
+              "year": 2019,
+              "runtime": 100,
+              "source": "https://www.labiennale.org/en/cinema/2019/orizzonti/blanco-en-blanco"
+            },
+            {
+              "title": "Mes jours de gloire",
+              "aliases": [],
+              "director": "Antoine de Bary",
+              "year": 2019,
+              "runtime": 98,
+              "source": "https://www.labiennale.org/en/cinema/2019/orizzonti/mes-jours-de-gloire"
+            },
+            {
+              "title": "Nevia",
+              "aliases": [],
+              "director": "Nunzia De Stefano",
+              "year": 2019,
+              "runtime": 86,
+              "source": "https://www.labiennale.org/en/cinema/2019/orizzonti/nevia"
+            },
+            {
+              "title": "Pelikanblut",
+              "aliases": [],
+              "director": "Katrin Gebbe",
+              "year": 2019,
+              "runtime": 121,
+              "source": "https://www.labiennale.org/en/cinema/2019/orizzonti/pelikanblut"
+            },
+            {
+              "title": "Moffie",
+              "aliases": [],
+              "director": "Oliver Hermanus",
+              "year": 2019,
+              "runtime": 103,
+              "source": "https://www.labiennale.org/en/cinema/2019/orizzonti/moffie"
+            },
+            {
+              "title": "Hava, Maryam, Ayesha",
+              "aliases": [],
+              "director": "Sahraa Karimi",
+              "year": 2019,
+              "runtime": 86,
+              "source": "https://www.labiennale.org/en/cinema/2019/orizzonti/hava-maryam-ayesha"
+            },
+            {
+              "title": "Rialto",
+              "aliases": [],
+              "director": "Peter Mackie Burns",
+              "year": 2019,
+              "runtime": 90,
+              "source": "https://www.labiennale.org/en/cinema/2019/orizzonti/rialto"
+            },
+            {
+              "title": "Borotmokmedi",
+              "aliases": [
+                "The Criminal Man"
+              ],
+              "director": "Dmitry Mamuliya",
+              "year": 2019,
+              "runtime": 135,
+              "source": "https://www.labiennale.org/en/cinema/2019/orizzonti/borotmokmedi-criminal-man"
+            },
+            {
+              "title": "Revenir",
+              "aliases": [],
+              "director": "Jessica Palud",
+              "year": 2019,
+              "runtime": 76,
+              "source": "https://www.labiennale.org/en/cinema/2019/orizzonti/revenir"
+            },
+            {
+              "title": "Giants Being Lonely",
+              "aliases": [],
+              "director": "Grear Patterson",
+              "year": 2019,
+              "runtime": 81,
+              "source": "https://www.labiennale.org/en/cinema/2019/orizzonti/giants-being-lonely"
+            },
+            {
+              "title": "Qiqiu",
+              "aliases": [
+                "Balloon"
+              ],
+              "director": "Pema Tseden",
+              "year": 2019,
+              "runtime": 102,
+              "source": "https://www.labiennale.org/en/cinema/2019/orizzonti/qiqiu-balloon"
+            },
+            {
+              "title": "Verdict",
+              "aliases": [],
+              "director": "Raymund Ribay Gutierrez",
+              "year": 2019,
+              "runtime": 126,
+              "source": "https://www.labiennale.org/en/cinema/2019/orizzonti/verdict"
+            },
+            {
+              "title": "Metri Shesho Nim",
+              "aliases": [
+                "Just 6.5"
+              ],
+              "director": "Saeed Roustaee",
+              "year": 2019,
+              "runtime": 135,
+              "source": "https://www.labiennale.org/en/cinema/2019/orizzonti/metri-shesho-nim-just-65"
+            },
+            {
+              "title": "Chola",
+              "aliases": [
+                "Shadow of Water"
+              ],
+              "director": "Sanal Kumar Sasidharan",
+              "year": 2019,
+              "runtime": 120,
+              "source": "https://www.labiennale.org/en/cinema/2019/orizzonti/chola-shadow-water"
+            },
+            {
+              "title": "Sole",
+              "aliases": [],
+              "director": "Carlo Sironi",
+              "year": 2019,
+              "runtime": 102,
+              "source": "https://www.labiennale.org/en/cinema/2019/orizzonti/sole"
+            },
+            {
+              "title": "Madre",
+              "aliases": [],
+              "director": "Rodrigo Sorogoyen",
+              "year": 2019,
+              "runtime": 129,
+              "source": "https://www.labiennale.org/en/cinema/2019/orizzonti/madre"
+            },
+            {
+              "title": "Atlantis",
+              "aliases": [],
+              "director": "Valentyn Vasyanovych",
+              "year": 2019,
+              "runtime": 106,
+              "source": "https://www.labiennale.org/en/cinema/2019/orizzonti/atlantis"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Orizzonti Award for Best Film",
+              "raw_text": "the ORIZZONTI AWARD FOR BEST FILM to: ATLANTIS by Valentyn Vasyanovych (Ukraine)",
+              "entries": [
+                {
+                  "title": "Atlantis",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "the ORIZZONTI AWARD FOR BEST FILM"
+            },
+            {
+              "name": "Best Director",
+              "raw_text": "the ORIZZONTI AWARD FOR BEST DIRECTOR to: Théo Court for the film BLANCO EN BLANCO (Spain, Chile, France, Germany)",
+              "entries": [
+                {
+                  "title": "Blanco en Blanco",
+                  "winner": true,
+                  "people": [
+                    "Théo Court"
+                  ]
+                }
+              ],
+              "original_name": "the ORIZZONTI AWARD FOR BEST DIRECTOR"
+            },
+            {
+              "name": "Special Orizzonti Jury Prize",
+              "raw_text": "the SPECIAL ORIZZONTI JURY PRIZE to: VERDICT by Raymund Ribay Gutierrez (Filippine)",
+              "entries": [
+                {
+                  "title": "Verdict",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "the SPECIAL ORIZZONTI JURY PRIZE"
+            },
+            {
+              "name": "Best Actress",
+              "raw_text": "the ORIZZONTI AWARD FOR BEST ACTRESS to: Marta Nieto in the film MADRE by Rodrigo Sorogoyen (Spain, France)",
+              "entries": [
+                {
+                  "title": "Madre",
+                  "winner": true,
+                  "people": [
+                    "Marta Nieto"
+                  ]
+                }
+              ],
+              "original_name": "the ORIZZONTI AWARD FOR BEST ACTRESS"
+            },
+            {
+              "name": "Best Actor",
+              "raw_text": "the ORIZZONTI AWARD FOR BEST ACTOR to: Sami Bouajila in the film BIK ENEICH – UN FILS by Mehdi M. Barsaoui (Tunisia, France, Lebanon, Qatar)",
+              "entries": [
+                {
+                  "title": "Bik eneich - Un fils",
+                  "winner": true,
+                  "people": [
+                    "Sami Bouajila"
+                  ]
+                }
+              ],
+              "original_name": "the ORIZZONTI AWARD FOR BEST ACTOR"
+            },
+            {
+              "name": "Best Screenplay",
+              "raw_text": "the ORIZZONTI AWARD FOR BEST SCREENPLAY to: Jessica Palud, Philippe Lioret, Diastème for the film REVENIR by Jessica Palud (France)",
+              "entries": [
+                {
+                  "title": "Revenir",
+                  "winner": true,
+                  "people": [
+                    "Jessica Palud",
+                    "Philippe Lioret",
+                    "Diastème"
+                  ]
+                }
+              ],
+              "original_name": "the ORIZZONTI AWARD FOR BEST SCREENPLAY"
+            }
+          ]
+        }
+      ],
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2019-08-28",
+          "end": "2019-09-07",
+          "source": "https://www.labiennale.org/en/cinema/2019/76th-festival"
+        },
+        {
+          "label": "Awards ceremony",
+          "start": "2019-09-07",
+          "source": "https://www.labiennale.org/en/news/official-awards-76th-venice-film-festival"
+        }
+      ]
+    },
+    {
+      "event": "Venice",
+      "year": 2020,
+      "section": "Official Selection",
+      "source": "https://www.labiennale.org/en/cinema/2020/venezia-77-competition",
+      "awardsSource": "https://www.labiennale.org/en/news/official-awards-77th-venice-film-festival",
+      "programmes": [
+        {
+          "name": "Venezia Competition",
+          "source": "https://www.labiennale.org/en/cinema/2020/venezia-77-competition",
+          "awardsSource": "https://www.labiennale.org/en/news/official-awards-77th-venice-film-festival",
+          "selection": [
+            {
+              "title": "Səpələnmiş Ölümlər Arasında",
+              "aliases": [
+                "In Between Dying"
+              ],
+              "director": "Hilal Baydarov",
+              "year": 2020,
+              "runtime": 88,
+              "source": "https://www.labiennale.org/en/cinema/2020/venezia-77-competition/s%C9%99p%C9%99l%C9%99nmi%C5%9F-%C3%B6l%C3%BCml%C9%99r-aras%C4%B1nda-between-dying"
+            },
+            {
+              "title": "Le sorelle Macaluso",
+              "aliases": [
+                "The Macaluso Sisters"
+              ],
+              "director": "Emma Dante",
+              "year": 2020,
+              "runtime": 89,
+              "source": "https://www.labiennale.org/en/cinema/2020/venezia-77-competition/le-sorelle-macaluso-macaluso-sisters"
+            },
+            {
+              "title": "The World To Come",
+              "aliases": [],
+              "director": "Mona Fastvold",
+              "year": 2020,
+              "runtime": 98,
+              "source": "https://www.labiennale.org/en/cinema/2020/venezia-77-competition/world-come"
+            },
+            {
+              "title": "Nuevo orden",
+              "aliases": [],
+              "director": "Michel Franco",
+              "year": 2020,
+              "runtime": 86,
+              "source": "https://www.labiennale.org/en/cinema/2020/venezia-77-competition/nuevo-orden"
+            },
+            {
+              "title": "Amants",
+              "aliases": [
+                "Lovers"
+              ],
+              "director": "Nicole Garcia",
+              "year": 2020,
+              "runtime": 103,
+              "source": "https://www.labiennale.org/en/cinema/2020/venezia-77-competition/amants-lovers"
+            },
+            {
+              "title": "Laila in Haifa",
+              "aliases": [],
+              "director": "Amos Gitai",
+              "year": 2020,
+              "runtime": 99,
+              "source": "https://www.labiennale.org/en/cinema/2020/venezia-77-competition/laila-haifa"
+            },
+            {
+              "title": "Und morgen die ganze Welt",
+              "aliases": [
+                "And Tomorrow The Entire World"
+              ],
+              "director": "Julia von Heinz",
+              "year": 2020,
+              "runtime": 111,
+              "source": "https://www.labiennale.org/en/cinema/2020/venezia-77-competition/und-morgen-die-ganze-welt-and-tomorrow-entire-world"
+            },
+            {
+              "title": "Dorogie Tovarischi!",
+              "aliases": [
+                "Dear Comrades!"
+              ],
+              "director": "Andrei Konchalovsky",
+              "year": 2020,
+              "runtime": 120,
+              "source": "https://www.labiennale.org/en/cinema/2020/venezia-77-competition/dorogie-tovarischi-dear-comrades"
+            },
+            {
+              "title": "Spy no Tsuma",
+              "aliases": [
+                "Wife of a Spy"
+              ],
+              "director": "Kiyoshi Kurosawa",
+              "year": 2020,
+              "runtime": 115,
+              "source": "https://www.labiennale.org/en/cinema/2020/venezia-77-competition/spy-no-tsuma-wife-spy"
+            },
+            {
+              "title": "Khorshid",
+              "aliases": [
+                "Sun Children"
+              ],
+              "director": "Majid Majidi",
+              "year": 2020,
+              "runtime": 99,
+              "source": "https://www.labiennale.org/en/cinema/2020/venezia-77-competition/khorshid-sun-children"
+            },
+            {
+              "title": "Pieces of a Woman",
+              "aliases": [],
+              "director": "Kornél Mundruczó",
+              "year": 2020,
+              "runtime": 128,
+              "source": "https://www.labiennale.org/en/cinema/2020/venezia-77-competition/pieces-woman"
+            },
+            {
+              "title": "Miss Marx",
+              "aliases": [],
+              "director": "Susanna Nicchiarelli",
+              "year": 2020,
+              "runtime": 108,
+              "source": "https://www.labiennale.org/en/cinema/2020/venezia-77-competition/miss-marx"
+            },
+            {
+              "title": "Padrenostro",
+              "aliases": [],
+              "director": "Claudio Noce",
+              "year": 2020,
+              "runtime": 122,
+              "source": "https://www.labiennale.org/en/cinema/2020/venezia-77-competition/padrenostro"
+            },
+            {
+              "title": "Notturno",
+              "aliases": [],
+              "director": "Gianfranco Rosi",
+              "year": 2020,
+              "runtime": 100,
+              "source": "https://www.labiennale.org/en/cinema/2020/venezia-77-competition/notturno"
+            },
+            {
+              "title": "Śniegu już nigdy nie będzie",
+              "aliases": [
+                "Never Gonna Snow Again"
+              ],
+              "director": "Małgorzata Szumowska, Michał Englert",
+              "year": 2020,
+              "runtime": 115,
+              "source": "https://www.labiennale.org/en/cinema/2020/venezia-77-competition/%C5%9Bniegu-ju%C5%BC-nigdy-nie-b%C4%99dzie-never-gonna-snow-again"
+            },
+            {
+              "title": "The Disciple",
+              "aliases": [],
+              "director": "Chaitanya Tamhane",
+              "year": 2020,
+              "runtime": 128,
+              "source": "https://www.labiennale.org/en/cinema/2020/venezia-77-competition/disciple"
+            },
+            {
+              "title": "Quo vadis, Aida?",
+              "aliases": [],
+              "director": "Jasmila Žbanić",
+              "year": 2020,
+              "runtime": 104,
+              "source": "https://www.labiennale.org/en/cinema/2020/venezia-77-competition/quo-vadis-aida"
+            },
+            {
+              "title": "Nomadland",
+              "aliases": [],
+              "director": "Chloé Zhao",
+              "year": 2020,
+              "runtime": 108,
+              "source": "https://www.labiennale.org/en/cinema/2020/venezia-77-competition/nomadland"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Lion",
+              "raw_text": "GOLDEN LION for Best Film to: NOMADLAND by Chloé Zhao (USA)",
+              "entries": [
+                {
+                  "title": "Nomadland",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "GOLDEN LION for Best Film"
+            },
+            {
+              "name": "Grand Jury Prize",
+              "raw_text": "SILVER LION - GRAND JURY PRIZE to: NUEVO ORDEN (NEW ORDER) by Michel Franco (Mexico, France)",
+              "entries": [
+                {
+                  "title": "Nuevo orden",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "SILVER LION - GRAND JURY PRIZE"
+            },
+            {
+              "name": "Best Director",
+              "raw_text": "SILVER LION - AWARD FOR BEST DIRECTOR to: Kiyoshi Kurosawa for the film SPY NO TSUMA (WIFE OF A SPY) (Japan)",
+              "entries": [
+                {
+                  "title": "Spy no Tsuma",
+                  "winner": true,
+                  "people": [
+                    "Kiyoshi Kurosawa"
+                  ]
+                }
+              ],
+              "original_name": "SILVER LION - AWARD FOR BEST DIRECTOR"
+            },
+            {
+              "name": "Best Actress",
+              "raw_text": "COPPA VOLPI for Best Actress: Vanessa Kirby in the film PIECES OF A WOMAN by Kornél Mundruczó (Canada, Hungary)",
+              "entries": [
+                {
+                  "title": "Pieces of a Woman",
+                  "winner": true,
+                  "people": [
+                    "Vanessa Kirby"
+                  ]
+                }
+              ],
+              "original_name": "COPPA VOLPI for Best Actress"
+            },
+            {
+              "name": "Best Actor",
+              "raw_text": "COPPA VOLPI for Best Actor: Pierfrancesco Favino in the film PADRENOSTRO by Claudio Noce (Italy)",
+              "entries": [
+                {
+                  "title": "Padrenostro",
+                  "winner": true,
+                  "people": [
+                    "Pierfrancesco Favino"
+                  ]
+                }
+              ],
+              "original_name": "COPPA VOLPI for Best Actor"
+            },
+            {
+              "name": "Best Screenplay",
+              "raw_text": "AWARD FOR BEST SCREENPLAY to: Chaitanya Tamhane for the film THE DISCIPLE (India)",
+              "entries": [
+                {
+                  "title": "The Disciple",
+                  "winner": true,
+                  "people": [
+                    "Chaitanya Tamhane"
+                  ]
+                }
+              ],
+              "original_name": "AWARD FOR BEST SCREENPLAY"
+            },
+            {
+              "name": "Special Jury Prize",
+              "raw_text": "SPECIAL JURY PRIZE to: DOROGIE TOVARISCHI! (DEAR COMRADES!) by Andrei Konchalovsky (Russia)",
+              "entries": [
+                {
+                  "title": "Dorogie Tovarischi!",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "SPECIAL JURY PRIZE"
+            },
+            {
+              "name": "Marcello Mastroianni Award",
+              "raw_text": "MARCELLO MASTROIANNI AWARD for Best Young Actor or Actress to: Rouhollah Zamani in the film KHORSHID (SUN CHILDREN) by Majid Majidi (Iran)",
+              "entries": [
+                {
+                  "title": "Khorshid",
+                  "winner": true,
+                  "people": [
+                    "Rouhollah Zamani"
+                  ]
+                }
+              ],
+              "original_name": "MARCELLO MASTROIANNI AWARD for Best Young Actor or Actress"
+            }
+          ]
+        },
+        {
+          "name": "Orizzonti",
+          "source": "https://www.labiennale.org/en/cinema/2020/orizzonti",
+          "awardsSource": "https://www.labiennale.org/en/news/official-awards-77th-venice-film-festival",
+          "selection": [
+            {
+              "title": "La troisième guerre",
+              "aliases": [],
+              "director": "Giovanni Aloi",
+              "year": 2020,
+              "runtime": 90,
+              "source": "https://www.labiennale.org/en/cinema/2020/orizzonti/la-troisi%C3%A8me-guerre"
+            },
+            {
+              "title": "Meel Patthar",
+              "aliases": [
+                "Milestone"
+              ],
+              "director": "Ivan Ayr",
+              "year": 2020,
+              "runtime": 98,
+              "source": "https://www.labiennale.org/en/cinema/2020/orizzonti/meel-patthar-milestone"
+            },
+            {
+              "title": "Dashte Khamoush",
+              "aliases": [
+                "The Wasteland"
+              ],
+              "director": "Ahmad Bahrami",
+              "year": 2020,
+              "runtime": 103,
+              "source": "https://www.labiennale.org/en/cinema/2020/orizzonti/dashte-khamoush-wasteland"
+            },
+            {
+              "title": "The Man Who Sold His Skin",
+              "aliases": [],
+              "director": "Kaouther Ben Hania",
+              "year": 2020,
+              "runtime": 104,
+              "source": "https://www.labiennale.org/en/cinema/2020/orizzonti/man-who-sold-his-skin"
+            },
+            {
+              "title": "I predatori",
+              "aliases": [],
+              "director": "Pietro Castellitto",
+              "year": 2020,
+              "runtime": 109,
+              "source": "https://www.labiennale.org/en/cinema/2020/orizzonti/i-predatori"
+            },
+            {
+              "title": "Mainstream",
+              "aliases": [],
+              "director": "Gia Coppola",
+              "year": 2020,
+              "runtime": 95,
+              "source": "https://www.labiennale.org/en/cinema/2020/orizzonti/mainstream"
+            },
+            {
+              "title": "Lahi, Hayop",
+              "aliases": [
+                "Genus Pan"
+              ],
+              "director": "Lav Diaz",
+              "year": 2020,
+              "runtime": 157,
+              "source": "https://www.labiennale.org/en/cinema/2020/orizzonti/lahi-hayop-genus-pan"
+            },
+            {
+              "title": "Zanka Contact",
+              "aliases": [],
+              "director": "Ismaël el Iraki",
+              "year": 2020,
+              "runtime": 120,
+              "source": "https://www.labiennale.org/en/cinema/2020/orizzonti/zanka-contact"
+            },
+            {
+              "title": "La nuit des rois",
+              "aliases": [],
+              "director": "Philippe Lacôte",
+              "year": 2020,
+              "runtime": 92,
+              "source": "https://www.labiennale.org/en/cinema/2020/orizzonti/la-nuit-des-rois"
+            },
+            {
+              "title": "The Furnace",
+              "aliases": [],
+              "director": "Roderick MacKay",
+              "year": 2020,
+              "runtime": 116,
+              "source": "https://www.labiennale.org/en/cinema/2020/orizzonti/furnace"
+            },
+            {
+              "title": "Jenayat-e bi deghat",
+              "aliases": [
+                "Careless Crime"
+              ],
+              "director": "Shahram Mokri",
+              "year": 2020,
+              "runtime": 139,
+              "source": "https://www.labiennale.org/en/cinema/2020/orizzonti/jenayat-e-bi-deghat-careless-crime"
+            },
+            {
+              "title": "Gaza mon amour",
+              "aliases": [],
+              "director": "Tarzan Nasser, Arab Nasser",
+              "year": 2020,
+              "runtime": 88,
+              "source": "https://www.labiennale.org/en/cinema/2020/orizzonti/gaza-mon-amour"
+            },
+            {
+              "title": "Mila",
+              "aliases": [
+                "Apples"
+              ],
+              "director": "Christos Nikou",
+              "year": 2020,
+              "runtime": 90,
+              "source": "https://www.labiennale.org/en/cinema/2020/orizzonti/mila-apples"
+            },
+            {
+              "title": "Selva trágica",
+              "aliases": [],
+              "director": "Yulene Olaizola",
+              "year": 2020,
+              "runtime": 96,
+              "source": "https://www.labiennale.org/en/cinema/2020/orizzonti/selva-tr%C3%A1gica"
+            },
+            {
+              "title": "Guerra e pace",
+              "aliases": [],
+              "director": "Martina Parenti, Massimo D’Anolfi",
+              "year": 2020,
+              "runtime": 128,
+              "source": "https://www.labiennale.org/en/cinema/2020/orizzonti/guerra-e-pace"
+            },
+            {
+              "title": "Nowhere Special",
+              "aliases": [],
+              "director": "Uberto Pasolini",
+              "year": 2020,
+              "runtime": 96,
+              "source": "https://www.labiennale.org/en/cinema/2020/orizzonti/nowhere-special"
+            },
+            {
+              "title": "Listen",
+              "aliases": [],
+              "director": "Ana Rocha de Sousa",
+              "year": 2020,
+              "runtime": 74,
+              "source": "https://www.labiennale.org/en/cinema/2020/orizzonti/listen"
+            },
+            {
+              "title": "Bu zhi bu xiu",
+              "aliases": [
+                "The Best Is Yet To Come"
+              ],
+              "director": "Jing Wang",
+              "year": 2020,
+              "runtime": 115,
+              "source": "https://www.labiennale.org/en/cinema/2020/orizzonti/bu-zhi-bu-xiu-best-yet-come"
+            },
+            {
+              "title": "Zheltaya koshka",
+              "aliases": [
+                "Yellow cat"
+              ],
+              "director": "Adilkhan Yerzhanov",
+              "year": 2020,
+              "runtime": 90,
+              "source": "https://www.labiennale.org/en/cinema/2020/orizzonti/zheltaya-koshka-yellow-cat"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Orizzonti Award for Best Film",
+              "raw_text": "the ORIZZONTI AWARD FOR BEST FILM to: DASHTE KHAMOUSH (THE WASTELAND) by Ahmad Bahrami (Iran)",
+              "entries": [
+                {
+                  "title": "Dashte Khamoush",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "the ORIZZONTI AWARD FOR BEST FILM"
+            },
+            {
+              "name": "Best Director",
+              "raw_text": "the ORIZZONTI AWARD FOR BEST DIRECTOR to: Lav Diaz for the film LAHI, HAYOP (GENUS PAN) (Philippines)",
+              "entries": [
+                {
+                  "title": "Lahi, Hayop",
+                  "winner": true,
+                  "people": [
+                    "Lav Diaz"
+                  ]
+                }
+              ],
+              "original_name": "the ORIZZONTI AWARD FOR BEST DIRECTOR"
+            },
+            {
+              "name": "Special Orizzonti Jury Prize",
+              "raw_text": "the SPECIAL ORIZZONTI JURY PRIZE to: LISTEN by Ana Rocha de Sousa (United Kingdom, Portugal)",
+              "entries": [
+                {
+                  "title": "Listen",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "the SPECIAL ORIZZONTI JURY PRIZE"
+            },
+            {
+              "name": "Best Actress",
+              "raw_text": "the ORIZZONTI AWARD FOR BEST ACTRESS to: Khansa Batma in the film ZANKA CONTACT by Ismaël El Iraki (France, Morocco, Belgium)",
+              "entries": [
+                {
+                  "title": "Zanka Contact",
+                  "winner": true,
+                  "people": [
+                    "Khansa Batma"
+                  ]
+                }
+              ],
+              "original_name": "the ORIZZONTI AWARD FOR BEST ACTRESS"
+            },
+            {
+              "name": "Best Actor",
+              "raw_text": "the ORIZZONTI AWARD FOR BEST ACTOR to: Yahya Mahayni in the film THE MAN WHO SOLD HIS SKIN by Kaouther Ben Hania (Tunisia, France, Germany, Belgium, Sweden)",
+              "entries": [
+                {
+                  "title": "The Man Who Sold His Skin",
+                  "winner": true,
+                  "people": [
+                    "Yahya Mahayni"
+                  ]
+                }
+              ],
+              "original_name": "the ORIZZONTI AWARD FOR BEST ACTOR"
+            },
+            {
+              "name": "Best Screenplay",
+              "raw_text": "the ORIZZONTI AWARD FOR BEST SCREENPLAY to: Pietro Castellitto for the film I PREDATORI (Italy)",
+              "entries": [
+                {
+                  "title": "I predatori",
+                  "winner": true,
+                  "people": [
+                    "Pietro Castellitto"
+                  ]
+                }
+              ],
+              "original_name": "the ORIZZONTI AWARD FOR BEST SCREENPLAY"
+            },
+            {
+              "name": "Lion of the Future",
+              "raw_text": "LION OF THE FUTURE “LUIGI DE LAURENTIIS” VENICE AWARD FOR A DEBUT FILM to: LISTEN by Ana Rocha de Sousa (United Kingdom, Portugal) ORIZZONTI",
+              "entries": [
+                {
+                  "title": "Listen",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "original_name": "LION OF THE FUTURE “LUIGI DE LAURENTIIS” VENICE AWARD FOR A DEBUT FILM"
+            }
+          ]
+        }
+      ],
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2020-09-02",
+          "end": "2020-09-12",
+          "source": "https://www.labiennale.org/en/cinema/2020/77th-festival"
+        },
+        {
+          "label": "Awards ceremony",
+          "start": "2020-09-12",
+          "source": "https://www.labiennale.org/en/news/official-awards-77th-venice-film-festival"
+        }
+      ]
+    }
+  ]
+}

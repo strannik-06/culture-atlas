@@ -1,0 +1,1785 @@
+{
+  "scope": "Eleven established major feature-film categories; ceremony year",
+  "events": [
+    {
+      "event": "Oscars",
+      "year": 2016,
+      "section": "Major Film Categories",
+      "source": "https://www.oscars.org/oscars/ceremonies/2016",
+      "categories": [
+        {
+          "name": "Best Picture",
+          "entries": [
+            {
+              "title": "Spotlight",
+              "person": "Michael Sugar, Steve Golin, Nicole Rocklin and Blye Pagon Faust, Producers",
+              "winner": true
+            },
+            {
+              "title": "The Big Short",
+              "person": "Brad Pitt, Dede Gardner and Jeremy Kleiner, Producers",
+              "winner": false
+            },
+            {
+              "title": "Bridge of Spies",
+              "person": "Steven Spielberg, Marc Platt and Kristie Macosko Krieger, Producers",
+              "winner": false
+            },
+            {
+              "title": "Brooklyn",
+              "person": "Finola Dwyer and Amanda Posey, Producers",
+              "winner": false
+            },
+            {
+              "title": "Mad Max: Fury Road",
+              "person": "Doug Mitchell and George Miller, Producers",
+              "winner": false
+            },
+            {
+              "title": "The Martian",
+              "person": "Simon Kinberg, Ridley Scott, Michael Schaefer and Mark Huffam, Producers",
+              "winner": false
+            },
+            {
+              "title": "The Revenant",
+              "person": "Arnon Milchan, Steve Golin, Alejandro G. Iñárritu, Mary Parent and Keith Redmon, Producers",
+              "winner": false
+            },
+            {
+              "title": "Room",
+              "person": "Ed Guiney, Producer",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Directing",
+          "entries": [
+            {
+              "title": "The Revenant",
+              "person": "Alejandro G. Iñárritu",
+              "winner": true
+            },
+            {
+              "title": "The Big Short",
+              "person": "Adam McKay",
+              "winner": false
+            },
+            {
+              "title": "Mad Max: Fury Road",
+              "person": "George Miller",
+              "winner": false
+            },
+            {
+              "title": "Room",
+              "person": "Lenny Abrahamson",
+              "winner": false
+            },
+            {
+              "title": "Spotlight",
+              "person": "Tom McCarthy",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Actor in a Leading Role",
+          "entries": [
+            {
+              "title": "The Revenant",
+              "person": "Leonardo DiCaprio",
+              "winner": true
+            },
+            {
+              "title": "Trumbo",
+              "person": "Bryan Cranston",
+              "winner": false
+            },
+            {
+              "title": "The Martian",
+              "person": "Matt Damon",
+              "winner": false
+            },
+            {
+              "title": "Steve Jobs",
+              "person": "Michael Fassbender",
+              "winner": false
+            },
+            {
+              "title": "The Danish Girl",
+              "person": "Eddie Redmayne",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Actress in a Leading Role",
+          "entries": [
+            {
+              "title": "Room",
+              "person": "Brie Larson",
+              "winner": true
+            },
+            {
+              "title": "Carol",
+              "person": "Cate Blanchett",
+              "winner": false
+            },
+            {
+              "title": "Joy",
+              "person": "Jennifer Lawrence",
+              "winner": false
+            },
+            {
+              "title": "45 Years",
+              "person": "Charlotte Rampling",
+              "winner": false
+            },
+            {
+              "title": "Brooklyn",
+              "person": "Saoirse Ronan",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Actor in a Supporting Role",
+          "entries": [
+            {
+              "title": "Bridge of Spies",
+              "person": "Mark Rylance",
+              "winner": true
+            },
+            {
+              "title": "The Big Short",
+              "person": "Christian Bale",
+              "winner": false
+            },
+            {
+              "title": "The Revenant",
+              "person": "Tom Hardy",
+              "winner": false
+            },
+            {
+              "title": "Spotlight",
+              "person": "Mark Ruffalo",
+              "winner": false
+            },
+            {
+              "title": "Creed",
+              "person": "Sylvester Stallone",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Actress in a Supporting Role",
+          "entries": [
+            {
+              "title": "The Danish Girl",
+              "person": "Alicia Vikander",
+              "winner": true
+            },
+            {
+              "title": "The Hateful Eight",
+              "person": "Jennifer Jason Leigh",
+              "winner": false
+            },
+            {
+              "title": "Carol",
+              "person": "Rooney Mara",
+              "winner": false
+            },
+            {
+              "title": "Spotlight",
+              "person": "Rachel McAdams",
+              "winner": false
+            },
+            {
+              "title": "Steve Jobs",
+              "person": "Kate Winslet",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Writing (Original Screenplay)",
+          "entries": [
+            {
+              "title": "Spotlight",
+              "person": "Written by Josh Singer & Tom McCarthy",
+              "winner": true
+            },
+            {
+              "title": "Bridge of Spies",
+              "person": "Written by Matt Charman and Ethan Coen & Joel Coen",
+              "winner": false
+            },
+            {
+              "title": "Ex Machina",
+              "person": "Written by Alex Garland",
+              "winner": false
+            },
+            {
+              "title": "Inside Out",
+              "person": "Screenplay by Pete Docter, Meg LeFauve, Josh Cooley; Original story by Pete Docter, Ronnie del Carmen",
+              "winner": false
+            },
+            {
+              "title": "Straight Outta Compton",
+              "person": "Screenplay by Jonathan Herman and Andrea Berloff; Story by S. Leigh Savidge & Alan Wenkus and Andrea Berloff",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Writing (Adapted Screenplay)",
+          "entries": [
+            {
+              "title": "The Big Short",
+              "person": "Screenplay by Charles Randolph and Adam McKay",
+              "winner": true
+            },
+            {
+              "title": "Brooklyn",
+              "person": "Screenplay by Nick Hornby",
+              "winner": false
+            },
+            {
+              "title": "Carol",
+              "person": "Screenplay by Phyllis Nagy",
+              "winner": false
+            },
+            {
+              "title": "The Martian",
+              "person": "Screenplay by Drew Goddard",
+              "winner": false
+            },
+            {
+              "title": "Room",
+              "person": "Screenplay by Emma Donoghue",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "International Feature Film",
+          "entries": [
+            {
+              "title": "Son of Saul",
+              "person": "Hungary",
+              "winner": true
+            },
+            {
+              "title": "Embrace of the Serpent",
+              "person": "Colombia",
+              "winner": false
+            },
+            {
+              "title": "Mustang",
+              "person": "France",
+              "winner": false
+            },
+            {
+              "title": "Theeb",
+              "person": "Jordan",
+              "winner": false
+            },
+            {
+              "title": "A War",
+              "person": "Denmark",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Documentary Feature Film",
+          "entries": [
+            {
+              "title": "Amy",
+              "person": "Asif Kapadia and James Gay-Rees",
+              "winner": true
+            },
+            {
+              "title": "Cartel Land",
+              "person": "Matthew Heineman and Tom Yellin",
+              "winner": false
+            },
+            {
+              "title": "The Look of Silence",
+              "person": "Joshua Oppenheimer and Signe Byrge Sørensen",
+              "winner": false
+            },
+            {
+              "title": "What Happened, Miss Simone?",
+              "person": "Liz Garbus, Amy Hobby and Justin Wilkes",
+              "winner": false
+            },
+            {
+              "title": "Winter on Fire: Ukraine’s Fight for Freedom",
+              "person": "Evgeny Afineevsky and Den Tolmor",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Animated Feature Film",
+          "entries": [
+            {
+              "title": "Inside Out",
+              "person": "Pete Docter and Jonas Rivera",
+              "winner": true
+            },
+            {
+              "title": "Anomalisa",
+              "person": "Charlie Kaufman, Duke Johnson and Rosa Tran",
+              "winner": false
+            },
+            {
+              "title": "Boy and the World",
+              "person": "Alê Abreu",
+              "winner": false
+            },
+            {
+              "title": "Shaun the Sheep Movie",
+              "person": "Mark Burton and Richard Starzak",
+              "winner": false
+            },
+            {
+              "title": "When Marnie Was There",
+              "person": "Hiromasa Yonebayashi and Yoshiaki Nishimura",
+              "winner": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "Oscars",
+      "year": 2017,
+      "section": "Major Film Categories",
+      "source": "https://www.oscars.org/oscars/ceremonies/2017",
+      "categories": [
+        {
+          "name": "Best Picture",
+          "entries": [
+            {
+              "title": "Moonlight",
+              "person": "Adele Romanski, Dede Gardner and Jeremy Kleiner, Producers",
+              "winner": true
+            },
+            {
+              "title": "Arrival",
+              "person": "Shawn Levy, Dan Levine, Aaron Ryder and David Linde, Producers",
+              "winner": false
+            },
+            {
+              "title": "Fences",
+              "person": "Scott Rudin, Denzel Washington and Todd Black, Producers",
+              "winner": false
+            },
+            {
+              "title": "Hacksaw Ridge",
+              "person": "Bill Mechanic and David Permut, Producers",
+              "winner": false
+            },
+            {
+              "title": "Hell or High Water",
+              "person": "Carla Hacken and Julie Yorn, Producers",
+              "winner": false
+            },
+            {
+              "title": "Hidden Figures",
+              "person": "Donna Gigliotti, Peter Chernin, Jenno Topping, Pharrell Williams and Theodore Melfi, Producers",
+              "winner": false
+            },
+            {
+              "title": "La La Land",
+              "person": "Fred Berger, Jordan Horowitz and Marc Platt, Producers",
+              "winner": false
+            },
+            {
+              "title": "Lion",
+              "person": "Emile Sherman, Iain Canning and Angie Fielder, Producers",
+              "winner": false
+            },
+            {
+              "title": "Manchester by the Sea",
+              "person": "Matt Damon, Kimberly Steward, Chris Moore, Lauren Beck and Kevin J. Walsh, Producers",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Directing",
+          "entries": [
+            {
+              "title": "La La Land",
+              "person": "Damien Chazelle",
+              "winner": true
+            },
+            {
+              "title": "Arrival",
+              "person": "Denis Villeneuve",
+              "winner": false
+            },
+            {
+              "title": "Hacksaw Ridge",
+              "person": "Mel Gibson",
+              "winner": false
+            },
+            {
+              "title": "Manchester by the Sea",
+              "person": "Kenneth Lonergan",
+              "winner": false
+            },
+            {
+              "title": "Moonlight",
+              "person": "Barry Jenkins",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Actor in a Leading Role",
+          "entries": [
+            {
+              "title": "Manchester by the Sea",
+              "person": "Casey Affleck",
+              "winner": true
+            },
+            {
+              "title": "Hacksaw Ridge",
+              "person": "Andrew Garfield",
+              "winner": false
+            },
+            {
+              "title": "La La Land",
+              "person": "Ryan Gosling",
+              "winner": false
+            },
+            {
+              "title": "Captain Fantastic",
+              "person": "Viggo Mortensen",
+              "winner": false
+            },
+            {
+              "title": "Fences",
+              "person": "Denzel Washington",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Actress in a Leading Role",
+          "entries": [
+            {
+              "title": "La La Land",
+              "person": "Emma Stone",
+              "winner": true
+            },
+            {
+              "title": "Elle",
+              "person": "Isabelle Huppert",
+              "winner": false
+            },
+            {
+              "title": "Loving",
+              "person": "Ruth Negga",
+              "winner": false
+            },
+            {
+              "title": "Jackie",
+              "person": "Natalie Portman",
+              "winner": false
+            },
+            {
+              "title": "Florence Foster Jenkins",
+              "person": "Meryl Streep",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Actor in a Supporting Role",
+          "entries": [
+            {
+              "title": "Moonlight",
+              "person": "Mahershala Ali",
+              "winner": true
+            },
+            {
+              "title": "Hell or High Water",
+              "person": "Jeff Bridges",
+              "winner": false
+            },
+            {
+              "title": "Manchester by the Sea",
+              "person": "Lucas Hedges",
+              "winner": false
+            },
+            {
+              "title": "Lion",
+              "person": "Dev Patel",
+              "winner": false
+            },
+            {
+              "title": "Nocturnal Animals",
+              "person": "Michael Shannon",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Actress in a Supporting Role",
+          "entries": [
+            {
+              "title": "Fences",
+              "person": "Viola Davis",
+              "winner": true
+            },
+            {
+              "title": "Moonlight",
+              "person": "Naomie Harris",
+              "winner": false
+            },
+            {
+              "title": "Lion",
+              "person": "Nicole Kidman",
+              "winner": false
+            },
+            {
+              "title": "Hidden Figures",
+              "person": "Octavia Spencer",
+              "winner": false
+            },
+            {
+              "title": "Manchester by the Sea",
+              "person": "Michelle Williams",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Writing (Original Screenplay)",
+          "entries": [
+            {
+              "title": "Manchester by the Sea",
+              "person": "Written by Kenneth Lonergan",
+              "winner": true
+            },
+            {
+              "title": "Hell or High Water",
+              "person": "Written by Taylor Sheridan",
+              "winner": false
+            },
+            {
+              "title": "La La Land",
+              "person": "Written by Damien Chazelle",
+              "winner": false
+            },
+            {
+              "title": "The Lobster",
+              "person": "Written by Yorgos Lanthimos, Efthimis Filippou",
+              "winner": false
+            },
+            {
+              "title": "20th Century Women",
+              "person": "Written by Mike Mills",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Writing (Adapted Screenplay)",
+          "entries": [
+            {
+              "title": "Moonlight",
+              "person": "Screenplay by Barry Jenkins; Story by Tarell Alvin McCraney",
+              "winner": true
+            },
+            {
+              "title": "Arrival",
+              "person": "Screenplay by Eric Heisserer",
+              "winner": false
+            },
+            {
+              "title": "Fences",
+              "person": "Screenplay by August Wilson",
+              "winner": false
+            },
+            {
+              "title": "Hidden Figures",
+              "person": "Screenplay by Allison Schroeder and Theodore Melfi",
+              "winner": false
+            },
+            {
+              "title": "Lion",
+              "person": "Screenplay by Luke Davies",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "International Feature Film",
+          "entries": [
+            {
+              "title": "The Salesman",
+              "person": "Iran",
+              "winner": true
+            },
+            {
+              "title": "Land of Mine",
+              "person": "Denmark",
+              "winner": false
+            },
+            {
+              "title": "A Man Called Ove",
+              "person": "Sweden",
+              "winner": false
+            },
+            {
+              "title": "Tanna",
+              "person": "Australia",
+              "winner": false
+            },
+            {
+              "title": "Toni Erdmann",
+              "person": "Germany",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Documentary Feature Film",
+          "entries": [
+            {
+              "title": "O.J.: Made in America",
+              "person": "Ezra Edelman and Caroline Waterlow",
+              "winner": true
+            },
+            {
+              "title": "Fire at Sea",
+              "person": "Gianfranco Rosi and Donatella Palermo",
+              "winner": false
+            },
+            {
+              "title": "I Am Not Your Negro",
+              "person": "Raoul Peck, Rémi Grellety and Hébert Peck",
+              "winner": false
+            },
+            {
+              "title": "Life, Animated",
+              "person": "Roger Ross Williams and Julie Goldman",
+              "winner": false
+            },
+            {
+              "title": "13th",
+              "person": "Ava DuVernay, Spencer Averick and Howard Barish",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Animated Feature Film",
+          "entries": [
+            {
+              "title": "Zootopia",
+              "person": "Byron Howard, Rich Moore and Clark Spencer",
+              "winner": true
+            },
+            {
+              "title": "Kubo and the Two Strings",
+              "person": "Travis Knight and Arianne Sutner",
+              "winner": false
+            },
+            {
+              "title": "Moana",
+              "person": "John Musker, Ron Clements and Osnat Shurer",
+              "winner": false
+            },
+            {
+              "title": "My Life as a Zucchini",
+              "person": "Claude Barras and Max Karli",
+              "winner": false
+            },
+            {
+              "title": "The Red Turtle",
+              "person": "Michael Dudok de Wit and Toshio Suzuki",
+              "winner": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "Oscars",
+      "year": 2018,
+      "section": "Major Film Categories",
+      "source": "https://www.oscars.org/oscars/ceremonies/2018",
+      "categories": [
+        {
+          "name": "Best Picture",
+          "entries": [
+            {
+              "title": "The Shape of Water",
+              "person": "Guillermo del Toro and J. Miles Dale, Producers",
+              "winner": true
+            },
+            {
+              "title": "Call Me by Your Name",
+              "person": "Peter Spears, Luca Guadagnino, Emilie Georges and Marco Morabito, Producers",
+              "winner": false
+            },
+            {
+              "title": "Darkest Hour",
+              "person": "Tim Bevan, Eric Fellner, Lisa Bruce, Anthony McCarten and Douglas Urbanski, Producers",
+              "winner": false
+            },
+            {
+              "title": "Dunkirk",
+              "person": "Emma Thomas and Christopher Nolan, Producers",
+              "winner": false
+            },
+            {
+              "title": "Get Out",
+              "person": "Sean McKittrick, Jason Blum, Edward H. Hamm Jr. and Jordan Peele, Producers",
+              "winner": false
+            },
+            {
+              "title": "Lady Bird",
+              "person": "Scott Rudin, Eli Bush and Evelyn O'Neill, Producers",
+              "winner": false
+            },
+            {
+              "title": "Phantom Thread",
+              "person": "JoAnne Sellar, Paul Thomas Anderson, Megan Ellison and Daniel Lupi, Producers",
+              "winner": false
+            },
+            {
+              "title": "The Post",
+              "person": "Amy Pascal, Steven Spielberg and Kristie Macosko Krieger, Producers",
+              "winner": false
+            },
+            {
+              "title": "Three Billboards outside Ebbing, Missouri",
+              "person": "Graham Broadbent, Pete Czernin and Martin McDonagh, Producers",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Directing",
+          "entries": [
+            {
+              "title": "The Shape of Water",
+              "person": "Guillermo del Toro",
+              "winner": true
+            },
+            {
+              "title": "Dunkirk",
+              "person": "Christopher Nolan",
+              "winner": false
+            },
+            {
+              "title": "Get Out",
+              "person": "Jordan Peele",
+              "winner": false
+            },
+            {
+              "title": "Lady Bird",
+              "person": "Greta Gerwig",
+              "winner": false
+            },
+            {
+              "title": "Phantom Thread",
+              "person": "Paul Thomas Anderson",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Actor in a Leading Role",
+          "entries": [
+            {
+              "title": "Darkest Hour",
+              "person": "Gary Oldman",
+              "winner": true
+            },
+            {
+              "title": "Call Me by Your Name",
+              "person": "Timothée Chalamet",
+              "winner": false
+            },
+            {
+              "title": "Phantom Thread",
+              "person": "Daniel Day-Lewis",
+              "winner": false
+            },
+            {
+              "title": "Get Out",
+              "person": "Daniel Kaluuya",
+              "winner": false
+            },
+            {
+              "title": "Roman J. Israel, Esq.",
+              "person": "Denzel Washington",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Actress in a Leading Role",
+          "entries": [
+            {
+              "title": "Three Billboards outside Ebbing, Missouri",
+              "person": "Frances McDormand",
+              "winner": true
+            },
+            {
+              "title": "The Shape of Water",
+              "person": "Sally Hawkins",
+              "winner": false
+            },
+            {
+              "title": "I, Tonya",
+              "person": "Margot Robbie",
+              "winner": false
+            },
+            {
+              "title": "Lady Bird",
+              "person": "Saoirse Ronan",
+              "winner": false
+            },
+            {
+              "title": "The Post",
+              "person": "Meryl Streep",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Actor in a Supporting Role",
+          "entries": [
+            {
+              "title": "Three Billboards outside Ebbing, Missouri",
+              "person": "Sam Rockwell",
+              "winner": true
+            },
+            {
+              "title": "The Florida Project",
+              "person": "Willem Dafoe",
+              "winner": false
+            },
+            {
+              "title": "Three Billboards outside Ebbing, Missouri",
+              "person": "Woody Harrelson",
+              "winner": false
+            },
+            {
+              "title": "The Shape of Water",
+              "person": "Richard Jenkins",
+              "winner": false
+            },
+            {
+              "title": "All the Money in the World",
+              "person": "Christopher Plummer",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Actress in a Supporting Role",
+          "entries": [
+            {
+              "title": "I, Tonya",
+              "person": "Allison Janney",
+              "winner": true
+            },
+            {
+              "title": "Mudbound",
+              "person": "Mary J. Blige",
+              "winner": false
+            },
+            {
+              "title": "Phantom Thread",
+              "person": "Lesley Manville",
+              "winner": false
+            },
+            {
+              "title": "Lady Bird",
+              "person": "Laurie Metcalf",
+              "winner": false
+            },
+            {
+              "title": "The Shape of Water",
+              "person": "Octavia Spencer",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Writing (Original Screenplay)",
+          "entries": [
+            {
+              "title": "Get Out",
+              "person": "Written by Jordan Peele",
+              "winner": true
+            },
+            {
+              "title": "The Big Sick",
+              "person": "Written by Emily V. Gordon & Kumail Nanjiani",
+              "winner": false
+            },
+            {
+              "title": "Lady Bird",
+              "person": "Written by Greta Gerwig",
+              "winner": false
+            },
+            {
+              "title": "The Shape of Water",
+              "person": "Screenplay by Guillermo del Toro & Vanessa Taylor; Story by Guillermo del Toro",
+              "winner": false
+            },
+            {
+              "title": "Three Billboards outside Ebbing, Missouri",
+              "person": "Written by Martin McDonagh",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Writing (Adapted Screenplay)",
+          "entries": [
+            {
+              "title": "Call Me by Your Name",
+              "person": "Screenplay by James Ivory",
+              "winner": true
+            },
+            {
+              "title": "The Disaster Artist",
+              "person": "Screenplay by Scott Neustadter & Michael H. Weber",
+              "winner": false
+            },
+            {
+              "title": "Logan",
+              "person": "Screenplay by Scott Frank & James Mangold and Michael Green; Story by James Mangold",
+              "winner": false
+            },
+            {
+              "title": "Molly's Game",
+              "person": "Written for the screen by Aaron Sorkin",
+              "winner": false
+            },
+            {
+              "title": "Mudbound",
+              "person": "Screenplay by Virgil Williams and Dee Rees",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "International Feature Film",
+          "entries": [
+            {
+              "title": "A Fantastic Woman",
+              "person": "Chile",
+              "winner": true
+            },
+            {
+              "title": "The Insult",
+              "person": "Lebanon",
+              "winner": false
+            },
+            {
+              "title": "Loveless",
+              "person": "Russia",
+              "winner": false
+            },
+            {
+              "title": "On Body and Soul",
+              "person": "Hungary",
+              "winner": false
+            },
+            {
+              "title": "The Square",
+              "person": "Sweden",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Documentary Feature Film",
+          "entries": [
+            {
+              "title": "Icarus",
+              "person": "Bryan Fogel and Dan Cogan",
+              "winner": true
+            },
+            {
+              "title": "Abacus: Small Enough to Jail",
+              "person": "Steve James, Mark Mitten and Julie Goldman",
+              "winner": false
+            },
+            {
+              "title": "Faces Places",
+              "person": "Agnès Varda, JR and Rosalie Varda",
+              "winner": false
+            },
+            {
+              "title": "Last Men in Aleppo",
+              "person": "Feras Fayyad, Kareem Abeed and Søren Steen Jespersen",
+              "winner": false
+            },
+            {
+              "title": "Strong Island",
+              "person": "Yance Ford and Joslyn Barnes",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Animated Feature Film",
+          "entries": [
+            {
+              "title": "Coco",
+              "person": "Lee Unkrich and Darla K. Anderson",
+              "winner": true
+            },
+            {
+              "title": "The Boss Baby",
+              "person": "Tom McGrath and Ramsey Naito",
+              "winner": false
+            },
+            {
+              "title": "The Breadwinner",
+              "person": "Nora Twomey and Anthony Leo",
+              "winner": false
+            },
+            {
+              "title": "Ferdinand",
+              "person": "Carlos Saldanha and Lori Forte",
+              "winner": false
+            },
+            {
+              "title": "Loving Vincent",
+              "person": "Dorota Kobiela, Hugh Welchman and Ivan Mactaggart",
+              "winner": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "Oscars",
+      "year": 2019,
+      "section": "Major Film Categories",
+      "source": "https://www.oscars.org/oscars/ceremonies/2019",
+      "categories": [
+        {
+          "name": "Best Picture",
+          "entries": [
+            {
+              "title": "Green Book",
+              "person": "Jim Burke, Charles B. Wessler, Brian Currie, Peter Farrelly and Nick Vallelonga, Producers",
+              "winner": true
+            },
+            {
+              "title": "Black Panther",
+              "person": "Kevin Feige, Producer",
+              "winner": false
+            },
+            {
+              "title": "BlacKkKlansman",
+              "person": "Sean McKittrick, Jason Blum, Raymond Mansfield, Jordan Peele and Spike Lee, Producers",
+              "winner": false
+            },
+            {
+              "title": "Bohemian Rhapsody",
+              "person": "Graham King, Producer",
+              "winner": false
+            },
+            {
+              "title": "The Favourite",
+              "person": "Ceci Dempsey, Ed Guiney, Lee Magiday and Yorgos Lanthimos, Producers",
+              "winner": false
+            },
+            {
+              "title": "Roma",
+              "person": "Gabriela Rodríguez and Alfonso Cuarón, Producers",
+              "winner": false
+            },
+            {
+              "title": "A Star Is Born",
+              "person": "Bill Gerber, Bradley Cooper and Lynette Howell Taylor, Producers",
+              "winner": false
+            },
+            {
+              "title": "Vice",
+              "person": "Dede Gardner, Jeremy Kleiner, Adam McKay and Kevin Messick, Producers",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Directing",
+          "entries": [
+            {
+              "title": "Roma",
+              "person": "Alfonso Cuarón",
+              "winner": true
+            },
+            {
+              "title": "BlacKkKlansman",
+              "person": "Spike Lee",
+              "winner": false
+            },
+            {
+              "title": "Cold War",
+              "person": "Paweł Pawlikowski",
+              "winner": false
+            },
+            {
+              "title": "The Favourite",
+              "person": "Yorgos Lanthimos",
+              "winner": false
+            },
+            {
+              "title": "Vice",
+              "person": "Adam McKay",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Actor in a Leading Role",
+          "entries": [
+            {
+              "title": "Bohemian Rhapsody",
+              "person": "Rami Malek",
+              "winner": true
+            },
+            {
+              "title": "Vice",
+              "person": "Christian Bale",
+              "winner": false
+            },
+            {
+              "title": "A Star Is Born",
+              "person": "Bradley Cooper",
+              "winner": false
+            },
+            {
+              "title": "At Eternity's Gate",
+              "person": "Willem Dafoe",
+              "winner": false
+            },
+            {
+              "title": "Green Book",
+              "person": "Viggo Mortensen",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Actress in a Leading Role",
+          "entries": [
+            {
+              "title": "The Favourite",
+              "person": "Olivia Colman",
+              "winner": true
+            },
+            {
+              "title": "Roma",
+              "person": "Yalitza Aparicio",
+              "winner": false
+            },
+            {
+              "title": "The Wife",
+              "person": "Glenn Close",
+              "winner": false
+            },
+            {
+              "title": "A Star Is Born",
+              "person": "Lady Gaga",
+              "winner": false
+            },
+            {
+              "title": "Can You Ever Forgive Me?",
+              "person": "Melissa McCarthy",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Actor in a Supporting Role",
+          "entries": [
+            {
+              "title": "Green Book",
+              "person": "Mahershala Ali",
+              "winner": true
+            },
+            {
+              "title": "BlacKkKlansman",
+              "person": "Adam Driver",
+              "winner": false
+            },
+            {
+              "title": "A Star Is Born",
+              "person": "Sam Elliott",
+              "winner": false
+            },
+            {
+              "title": "Can You Ever Forgive Me?",
+              "person": "Richard E. Grant",
+              "winner": false
+            },
+            {
+              "title": "Vice",
+              "person": "Sam Rockwell",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Actress in a Supporting Role",
+          "entries": [
+            {
+              "title": "If Beale Street Could Talk",
+              "person": "Regina King",
+              "winner": true
+            },
+            {
+              "title": "Vice",
+              "person": "Amy Adams",
+              "winner": false
+            },
+            {
+              "title": "Roma",
+              "person": "Marina de Tavira",
+              "winner": false
+            },
+            {
+              "title": "The Favourite",
+              "person": "Emma Stone",
+              "winner": false
+            },
+            {
+              "title": "The Favourite",
+              "person": "Rachel Weisz",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Writing (Original Screenplay)",
+          "entries": [
+            {
+              "title": "Green Book",
+              "person": "Written by Nick Vallelonga, Brian Currie, Peter Farrelly",
+              "winner": true
+            },
+            {
+              "title": "The Favourite",
+              "person": "Written by Deborah Davis and Tony McNamara",
+              "winner": false
+            },
+            {
+              "title": "First Reformed",
+              "person": "Written by Paul Schrader",
+              "winner": false
+            },
+            {
+              "title": "Roma",
+              "person": "Written by Alfonso Cuarón",
+              "winner": false
+            },
+            {
+              "title": "Vice",
+              "person": "Written by Adam McKay",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Writing (Adapted Screenplay)",
+          "entries": [
+            {
+              "title": "BlacKkKlansman",
+              "person": "Written by Charlie Wachtel & David Rabinowitz and Kevin Willmott & Spike Lee",
+              "winner": true
+            },
+            {
+              "title": "The Ballad of Buster Scruggs",
+              "person": "Written by Joel Coen & Ethan Coen",
+              "winner": false
+            },
+            {
+              "title": "Can You Ever Forgive Me?",
+              "person": "Screenplay by Nicole Holofcener and Jeff Whitty",
+              "winner": false
+            },
+            {
+              "title": "If Beale Street Could Talk",
+              "person": "Written for the screen by Barry Jenkins",
+              "winner": false
+            },
+            {
+              "title": "A Star Is Born",
+              "person": "Screenplay by Eric Roth and Bradley Cooper & Will Fetters",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "International Feature Film",
+          "entries": [
+            {
+              "title": "Roma",
+              "person": "Mexico",
+              "winner": true
+            },
+            {
+              "title": "Capernaum",
+              "person": "Lebanon",
+              "winner": false
+            },
+            {
+              "title": "Cold War",
+              "person": "Poland",
+              "winner": false
+            },
+            {
+              "title": "Never Look Away",
+              "person": "Germany",
+              "winner": false
+            },
+            {
+              "title": "Shoplifters",
+              "person": "Japan",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Documentary Feature Film",
+          "entries": [
+            {
+              "title": "Free Solo",
+              "person": "Elizabeth Chai Vasarhelyi, Jimmy Chin, Evan Hayes and Shannon Dill",
+              "winner": true
+            },
+            {
+              "title": "Hale County This Morning, This Evening",
+              "person": "RaMell Ross, Joslyn Barnes and Su Kim",
+              "winner": false
+            },
+            {
+              "title": "Minding the Gap",
+              "person": "Bing Liu and Diane Quon",
+              "winner": false
+            },
+            {
+              "title": "Of Fathers and Sons",
+              "person": "Talal Derki, Ansgar Frerich, Eva Kemme and Tobias N. Siebert",
+              "winner": false
+            },
+            {
+              "title": "RBG",
+              "person": "Betsy West and Julie Cohen",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Animated Feature Film",
+          "entries": [
+            {
+              "title": "Spider-Man: Into the Spider-Verse",
+              "person": "Bob Persichetti, Peter Ramsey, Rodney Rothman, Phil Lord and Christopher Miller",
+              "winner": true
+            },
+            {
+              "title": "Incredibles 2",
+              "person": "Brad Bird, John Walker and Nicole Paradis Grindle",
+              "winner": false
+            },
+            {
+              "title": "Isle of Dogs",
+              "person": "Wes Anderson, Scott Rudin, Steven Rales and Jeremy Dawson",
+              "winner": false
+            },
+            {
+              "title": "Mirai",
+              "person": "Mamoru Hosoda and Yuichiro Saito",
+              "winner": false
+            },
+            {
+              "title": "Ralph Breaks the Internet",
+              "person": "Rich Moore, Phil Johnston and Clark Spencer",
+              "winner": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "Oscars",
+      "year": 2020,
+      "section": "Major Film Categories",
+      "source": "https://www.oscars.org/oscars/ceremonies/2020",
+      "categories": [
+        {
+          "name": "Best Picture",
+          "entries": [
+            {
+              "title": "Parasite",
+              "person": "Kwak Sin Ae and Bong Joon Ho, Producers",
+              "winner": true
+            },
+            {
+              "title": "Ford v Ferrari",
+              "person": "Peter Chernin, Jenno Topping and James Mangold, Producers",
+              "winner": false
+            },
+            {
+              "title": "The Irishman",
+              "person": "Martin Scorsese, Robert De Niro, Jane Rosenthal and Emma Tillinger Koskoff, Producers",
+              "winner": false
+            },
+            {
+              "title": "Jojo Rabbit",
+              "person": "Carthew Neal, Taika Waititi and Chelsea Winstanley, Producers",
+              "winner": false
+            },
+            {
+              "title": "Joker",
+              "person": "Todd Phillips, Bradley Cooper and Emma Tillinger Koskoff, Producers",
+              "winner": false
+            },
+            {
+              "title": "Little Women",
+              "person": "Amy Pascal, Producer",
+              "winner": false
+            },
+            {
+              "title": "Marriage Story",
+              "person": "Noah Baumbach and David Heyman, Producers",
+              "winner": false
+            },
+            {
+              "title": "1917",
+              "person": "Sam Mendes, Pippa Harris, Jayne-Ann Tenggren and Callum McDougall, Producers",
+              "winner": false
+            },
+            {
+              "title": "Once upon a Time...in Hollywood",
+              "person": "David Heyman, Shannon McIntosh and Quentin Tarantino, Producers",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Directing",
+          "entries": [
+            {
+              "title": "Parasite",
+              "person": "Bong Joon Ho",
+              "winner": true
+            },
+            {
+              "title": "The Irishman",
+              "person": "Martin Scorsese",
+              "winner": false
+            },
+            {
+              "title": "Joker",
+              "person": "Todd Phillips",
+              "winner": false
+            },
+            {
+              "title": "1917",
+              "person": "Sam Mendes",
+              "winner": false
+            },
+            {
+              "title": "Once upon a Time...in Hollywood",
+              "person": "Quentin Tarantino",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Actor in a Leading Role",
+          "entries": [
+            {
+              "title": "Joker",
+              "person": "Joaquin Phoenix",
+              "winner": true
+            },
+            {
+              "title": "Pain and Glory",
+              "person": "Antonio Banderas",
+              "winner": false
+            },
+            {
+              "title": "Once upon a Time...in Hollywood",
+              "person": "Leonardo DiCaprio",
+              "winner": false
+            },
+            {
+              "title": "Marriage Story",
+              "person": "Adam Driver",
+              "winner": false
+            },
+            {
+              "title": "The Two Popes",
+              "person": "Jonathan Pryce",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Actress in a Leading Role",
+          "entries": [
+            {
+              "title": "Judy",
+              "person": "Renée Zellweger",
+              "winner": true
+            },
+            {
+              "title": "Harriet",
+              "person": "Cynthia Erivo",
+              "winner": false
+            },
+            {
+              "title": "Marriage Story",
+              "person": "Scarlett Johansson",
+              "winner": false
+            },
+            {
+              "title": "Little Women",
+              "person": "Saoirse Ronan",
+              "winner": false
+            },
+            {
+              "title": "Bombshell",
+              "person": "Charlize Theron",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Actor in a Supporting Role",
+          "entries": [
+            {
+              "title": "Once upon a Time...in Hollywood",
+              "person": "Brad Pitt",
+              "winner": true
+            },
+            {
+              "title": "A Beautiful Day in the Neighborhood",
+              "person": "Tom Hanks",
+              "winner": false
+            },
+            {
+              "title": "The Two Popes",
+              "person": "Anthony Hopkins",
+              "winner": false
+            },
+            {
+              "title": "The Irishman",
+              "person": "Al Pacino",
+              "winner": false
+            },
+            {
+              "title": "The Irishman",
+              "person": "Joe Pesci",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Actress in a Supporting Role",
+          "entries": [
+            {
+              "title": "Marriage Story",
+              "person": "Laura Dern",
+              "winner": true
+            },
+            {
+              "title": "Richard Jewell",
+              "person": "Kathy Bates",
+              "winner": false
+            },
+            {
+              "title": "Jojo Rabbit",
+              "person": "Scarlett Johansson",
+              "winner": false
+            },
+            {
+              "title": "Little Women",
+              "person": "Florence Pugh",
+              "winner": false
+            },
+            {
+              "title": "Bombshell",
+              "person": "Margot Robbie",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Writing (Original Screenplay)",
+          "entries": [
+            {
+              "title": "Parasite",
+              "person": "Screenplay by Bong Joon Ho, Han Jin Won; Story by Bong Joon Ho",
+              "winner": true
+            },
+            {
+              "title": "Knives Out",
+              "person": "Written by Rian Johnson",
+              "winner": false
+            },
+            {
+              "title": "Marriage Story",
+              "person": "Written by Noah Baumbach",
+              "winner": false
+            },
+            {
+              "title": "1917",
+              "person": "Written by Sam Mendes & Krysty Wilson-Cairns",
+              "winner": false
+            },
+            {
+              "title": "Once upon a Time...in Hollywood",
+              "person": "Written by Quentin Tarantino",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Writing (Adapted Screenplay)",
+          "entries": [
+            {
+              "title": "Jojo Rabbit",
+              "person": "Screenplay by Taika Waititi",
+              "winner": true
+            },
+            {
+              "title": "The Irishman",
+              "person": "Screenplay by Steven Zaillian",
+              "winner": false
+            },
+            {
+              "title": "Joker",
+              "person": "Written by Todd Phillips & Scott Silver",
+              "winner": false
+            },
+            {
+              "title": "Little Women",
+              "person": "Written for the screen by Greta Gerwig",
+              "winner": false
+            },
+            {
+              "title": "The Two Popes",
+              "person": "Written by Anthony McCarten",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "International Feature Film",
+          "entries": [
+            {
+              "title": "Parasite",
+              "person": "South Korea",
+              "winner": true
+            },
+            {
+              "title": "Corpus Christi",
+              "person": "Poland",
+              "winner": false
+            },
+            {
+              "title": "Honeyland",
+              "person": "North Macedonia",
+              "winner": false
+            },
+            {
+              "title": "Les Misérables",
+              "person": "France",
+              "winner": false
+            },
+            {
+              "title": "Pain and Glory",
+              "person": "Spain",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Documentary Feature Film",
+          "entries": [
+            {
+              "title": "American Factory",
+              "person": "Steven Bognar, Julia Reichert and Jeff Reichert",
+              "winner": true
+            },
+            {
+              "title": "The Cave",
+              "person": "Feras Fayyad, Kirstine Barfod and Sigrid Dyekjær",
+              "winner": false
+            },
+            {
+              "title": "The Edge of Democracy",
+              "person": "Petra Costa, Joanna Natasegara, Shane Boris and Tiago Pavan",
+              "winner": false
+            },
+            {
+              "title": "For Sama",
+              "person": "Waad al-Kateab and Edward Watts",
+              "winner": false
+            },
+            {
+              "title": "Honeyland",
+              "person": "Ljubo Stefanov, Tamara Kotevska and Atanas Georgiev",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Animated Feature Film",
+          "entries": [
+            {
+              "title": "Toy Story 4",
+              "person": "Josh Cooley, Mark Nielsen and Jonas Rivera",
+              "winner": true
+            },
+            {
+              "title": "How to Train Your Dragon: The Hidden World",
+              "person": "Dean DeBlois, Bradford Lewis and Bonnie Arnold",
+              "winner": false
+            },
+            {
+              "title": "I Lost My Body",
+              "person": "Jérémy Clapin and Marc du Pontavice",
+              "winner": false
+            },
+            {
+              "title": "Klaus",
+              "person": "Sergio Pablos, Jinko Gotoh and Marisa Román",
+              "winner": false
+            },
+            {
+              "title": "Missing Link",
+              "person": "Chris Butler, Arianne Sutner and Travis Knight",
+              "winner": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

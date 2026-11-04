@@ -1,7 +1,7 @@
 {
   "format": "culture-atlas-metadata-completion-v1",
   "generated_at": "2026-10-20T15:58:07.766Z",
-  "total": 2936,
+  "total": 3487,
   "before": {
     "poster": 2250,
     "overview": 2247,
@@ -431,13 +431,13 @@
     }
   ],
   "after": {
-    "poster": 2936,
-    "overview": 2936,
-    "runtime": 2923,
-    "release_date": 2936,
-    "genres": 2936,
-    "countries": 2933,
-    "cast": 2900
+    "poster": 3487,
+    "overview": 3487,
+    "runtime": 3474,
+    "release_date": 3487,
+    "genres": 3487,
+    "countries": 3484,
+    "cast": 3445
   },
   "initial_before": {
     "poster": 243,
@@ -2601,5 +2601,5 @@
       ]
     }
   ],
-  "catalogue_extension": "Berlinale 2021–2025: appended identities; earlier audit history preserved"
+  "catalogue_extension": "Film awards 2016–2020: appended verified identities; earlier audit history preserved"
 }

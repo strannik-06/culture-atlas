@@ -1,0 +1,264 @@
+{
+  "https://asac.labiennale.org/attivita/cinema/264226": {
+    "aliases": [
+      "Paradise",
+      "Рай"
+    ],
+    "director_aliases": [
+      "Andrei Konchalovsky"
+    ],
+    "imdb_id": "tt4551318",
+    "note": "ASAC transliterates the director as Andrey Konchalovskiy; distributor uses Andrei Konchalovsky for the same 2016 film.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/264226",
+      "https://filmmovement.com/press/film/paradise",
+      "https://www.imdb.com/title/tt4551318/"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/265905": {
+    "aliases": [
+      "Bitter Money"
+    ],
+    "director_aliases": [
+      "Wang Bing"
+    ],
+    "tmdb_id": 412366,
+    "imdb_id": "tt6028412",
+    "note": "ASAC sorts Chinese names and marks this person Bing (III) Wang; IMDb and release metadata identify director Wang Bing. 2018 provider distribution date follows the 2016 Venice premiere.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/265905",
+      "https://www.imdb.com/title/tt6028412/"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/266296": {
+    "aliases": [
+      "Traces of Sin",
+      "Gukoroku",
+      "愚行録",
+      "Gukoroku - Traces of Sin"
+    ],
+    "director_aliases": [],
+    "imdb_id": "tt5560592",
+    "note": "Festival title combines original and translated titles; provider may use English Traces of Sin. Japanese film database identifies the same Kei Ishikawa feature.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/266296",
+      "https://jfdb.jp/en/title/6885",
+      "https://www.filmlinc.org/films/traces-of-sin/",
+      "https://www.imdb.com/title/tt5560592/"
+    ]
+  },
+  "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/anne-fontaine-marvin": {
+    "aliases": [
+      "Reinventing Marvin",
+      "Marvin ou la belle éducation"
+    ],
+    "director_aliases": [],
+    "imdb_id": "tt5989394",
+    "note": "Final release title extends the short festival title Marvin; Anne Fontaine and the Finnegan Oldfield/Grégory Gadebois cast identify the feature.",
+    "source_urls": [
+      "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/anne-fontaine-marvin",
+      "https://www.imdb.com/title/tt5989394/",
+      "https://medias.unifrance.org/medias/185/206/183993/presse/reinventing-marvin-presskit-english.pdf"
+    ]
+  },
+  "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/damien-manivel-igarashi-kohei-la-nuit-o%C3%B9-jai-nag%C3%A9-oyogisugita-yoru": {
+    "aliases": [
+      "The Night I Swam",
+      "La nuit où j’ai nagé",
+      "Oyogisugita yoru",
+      "泳ぎすぎた夜"
+    ],
+    "director_aliases": [
+      "Damien Manivel, Kohei Igarashi"
+    ],
+    "imdb_id": "tt7336012",
+    "note": "Festival lists both French and Japanese titles and family-name-first Igarashi Kohei; international release title is The Night I Swam.",
+    "source_urls": [
+      "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/damien-manivel-igarashi-kohei-la-nuit-o%C3%B9-jai-nag%C3%A9-oyogisugita-yoru",
+      "https://www.imdb.com/title/tt7336012/"
+    ]
+  },
+  "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/manetti-bros-ammore-e-malavita": {
+    "aliases": [
+      "Love and Bullets"
+    ],
+    "director_aliases": [
+      "Antonio Manetti, Marco Manetti"
+    ],
+    "tmdb_id": 468302,
+    "note": "Manetti Bros. is the established collective credit for Antonio Manetti and Marco Manetti; Italian film promotion agency lists both for Ammore e malavita.",
+    "source_urls": [
+      "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/manetti-bros-ammore-e-malavita",
+      "https://filmitalia.org/en/film/97778/"
+    ]
+  },
+  "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/pablo-giorgelli-invisible": {
+    "aliases": [
+      "Invisible"
+    ],
+    "director_aliases": [],
+    "imdb_id": "tt6596630",
+    "note": "Pin IMDb discovery to Pablo Giorgelli’s 2017 feature with Mora Arenillas, Mara Bestelli and Diego Cremonesi; broad title searches return unrelated Invisible films.",
+    "source_urls": [
+      "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/pablo-giorgelli-invisible",
+      "https://www.imdb.com/title/tt6596630/"
+    ]
+  },
+  "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/rick-ostermann-krieg": {
+    "aliases": [
+      "Fremder Feind"
+    ],
+    "director_aliases": [],
+    "imdb_id": "tt7217962",
+    "note": "Krieg is the festival/working title of Rick Ostermann’s Fremder Feind; German producer/crew and filmportal records verify the same 2017 film.",
+    "source_urls": [
+      "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/rick-ostermann-krieg",
+      "https://www.filmportal.de/film/fremder-feind_90c85e1a26be441ca5c8181d8913d087",
+      "https://www.crew-united.com/en/Fremder-Feind__225026.html",
+      "https://www.imdb.com/title/tt7217962/"
+    ]
+  },
+  "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/sebastiano-riso-una-famiglia": {
+    "aliases": [
+      "A Family"
+    ],
+    "director_aliases": [
+      "Levi Riso"
+    ],
+    "tmdb_id": 460060,
+    "note": "Director is now credited as Levi Riso. IMDb lists Una famiglia under that same person with historical Sebastiano Riso credit; the source retains the 2017 festival credit.",
+    "source_urls": [
+      "https://www.labiennale.org/en/cinema/2017/program-cinema-2017/sebastiano-riso-una-famiglia",
+      "https://www.imdb.com/it/name/nm2526956/",
+      "https://www.vanityfair.it/article/levi-riso-basta-binarismo-tossico",
+      "https://www.cinematografo.it/cast/sebastiano-riso-e0r3fpro"
+    ]
+  },
+  "https://www.labiennale.org/en/cinema/2018/lineup/orizzonti/anons-announcement": {
+    "aliases": [
+      "The Announcement"
+    ],
+    "director_aliases": [
+      "Mahmut Fazıl Coşkun"
+    ],
+    "tmdb_id": 538102,
+    "note": "Turkish dotless ı spelling variant of the director’s name; official film title Anons and international title The Announcement retained.",
+    "source_urls": [
+      "https://www.labiennale.org/en/cinema/2018/lineup/orizzonti/anons-announcement",
+      "https://www.labiennale.org/en/news/official-awards-75th-venice-film-festival"
+    ]
+  },
+  "https://www.labiennale.org/en/cinema/2018/lineup/orizzonti/l%E2%80%99enkas": {
+    "aliases": [
+      "L'Enkas",
+      "K contraire",
+      "The Truk"
+    ],
+    "director_aliases": [],
+    "note": "Renamed K contraire for French release; international festival title The Truk. Same Sarah Marx feature, Sandor Funtek and Sandrine Bonnaire.",
+    "source_urls": [
+      "https://www.labiennale.org/en/cinema/2018/lineup/orizzonti/l%E2%80%99enkas",
+      "https://www.filmlinc.org/films/the-truk/",
+      "https://impactfilm.fr/en/project/k-contraire/",
+      "https://www.academie-cinema.org/films/k-contraire/-42558/"
+    ]
+  },
+  "https://www.labiennale.org/en/cinema/2018/lineup/orizzonti/tchelovek-kotorij-udivil-vseh-man-who-surprised-everyone": {
+    "aliases": [
+      "The Man Who Surprised Everyone"
+    ],
+    "director_aliases": [
+      "Natalya Merkulova, Alexey Chupov"
+    ],
+    "tmdb_id": 537878,
+    "imdb_id": "tt8900172",
+    "note": "Natasha/Natalya Merkulova and Aleksey/Alexey Chupov are source/provider name variants, also used in the earlier Venice identity audit.",
+    "source_urls": [
+      "https://www.labiennale.org/en/cinema/2018/lineup/orizzonti/tchelovek-kotorij-udivil-vseh-man-who-surprised-everyone",
+      "https://www.imdb.com/title/tt8900172/",
+      "https://www.imdb.com/title/tt8900172/fullcredits/"
+    ]
+  },
+  "https://www.labiennale.org/en/cinema/2019/orizzonti/atlantis": {
+    "aliases": [
+      "Atlantis",
+      "Атлантида",
+      "Atlantyda"
+    ],
+    "director_aliases": [],
+    "imdb_id": "tt10749786",
+    "note": "Pin IMDb discovery to Valentyn Vasyanovych’s 2019 Ukrainian feature, not other films with the same generic English title.",
+    "source_urls": [
+      "https://www.labiennale.org/en/cinema/2019/orizzonti/atlantis",
+      "https://www.imdb.com/title/tt10749786/",
+      "https://iffr.com/en/iffr/2020/films/atlantis"
+    ]
+  },
+  "https://www.labiennale.org/en/cinema/2019/orizzonti/bik-eneich-un-fils": {
+    "aliases": [
+      "A Son",
+      "Un fils",
+      "Bik Eneich: Un fils"
+    ],
+    "director_aliases": [
+      "Mehdi Barsaoui"
+    ],
+    "imdb_id": "tt10749760",
+    "note": "Official compound Arabic/French title becomes A Son internationally; source uses middle initial M., provider omits it.",
+    "source_urls": [
+      "https://www.labiennale.org/en/cinema/2019/orizzonti/bik-eneich-un-fils",
+      "https://www.thepartysales.com/movie/a-son/",
+      "https://en.unifrance.org/movie/47218/a-son",
+      "https://www.imdb.com/title/tt10749760/"
+    ]
+  },
+  "https://www.labiennale.org/en/cinema/2019/orizzonti/metri-shesho-nim-just-65": {
+    "aliases": [
+      "Law of Tehran",
+      "Just 6.5",
+      "Metri Shesh Va Nim",
+      "متری شش و نیم"
+    ],
+    "director_aliases": [
+      "Saeed Roustayi"
+    ],
+    "imdb_id": "tt9817070",
+    "note": "Romanized original title and later English Law of Tehran/Just 6.5 refer to the same Saeed Roustaee/Roustayi feature.",
+    "source_urls": [
+      "https://www.labiennale.org/en/cinema/2019/orizzonti/metri-shesho-nim-just-65",
+      "https://www.imdb.com/title/tt9817070/",
+      "https://www.eyefilm.nl/en/whats-on/just-6-5/265853"
+    ]
+  },
+  "https://www.labiennale.org/en/cinema/2020/orizzonti/zanka-contact": {
+    "aliases": [
+      "Burning Casablanca",
+      "Burning Casablanca (Zanka Contact)"
+    ],
+    "director_aliases": [],
+    "imdb_id": "tt12668892",
+    "note": "Distributor’s later title Burning Casablanca retains Zanka Contact in parentheses; same Ismaël El Iraki feature and Khansa Batma/Ahmed Hammoud cast.",
+    "source_urls": [
+      "https://www.labiennale.org/en/cinema/2020/orizzonti/zanka-contact",
+      "https://www.ufo-distribution.com/movie/burning-casablanca-zanka-contact/",
+      "https://www.imdb.com/title/tt12668892/"
+    ]
+  },
+  "https://www.labiennale.org/en/cinema/2020/venezia-77-competition/%C5%9Bniegu-ju%C5%BC-nigdy-nie-b%C4%99dzie-never-gonna-snow-again": {
+    "aliases": [
+      "Never Gonna Snow Again"
+    ],
+    "director_aliases": [
+      "Małgorzata Szumowska"
+    ],
+    "tmdb_id": 726151,
+    "imdb_id": "tt9526784",
+    "note": "Provider credits Szumowska as Director but omits Englert’s co-director role. Producer Lava Films and sales agent Match Factory explicitly distinguish directed by Szumowska / co-directed by Englert; accepts provider identity without changing authoritative festival credit.",
+    "source_urls": [
+      "https://www.labiennale.org/en/cinema/2020/venezia-77-competition/%C5%9Bniegu-ju%C5%BC-nigdy-nie-b%C4%99dzie-never-gonna-snow-again",
+      "https://lavafilms.pl/en/sniegu.html",
+      "https://www.the-match-factory.com/catalogue/films/sniegu-ju%C5%BC-nigdy-nie-b%C4%99dzie.html",
+      "https://www.imdb.com/title/tt9526784/fullcredits/"
+    ]
+  }
+}

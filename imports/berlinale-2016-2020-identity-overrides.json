@@ -1,0 +1,90 @@
+{
+  "https://www.berlinale.de/en/2017/programme/201711635.html": {
+    "tmdb_id": 432799,
+    "director_aliases": [
+      "Agnieszka Holland, Kasia Adamik"
+    ],
+    "note": "Official Berlinale lists Agnieszka Holland; Slovak Film Institute explicitly credits both Holland and Kasia Adamik, and Filmportal lists Adamik as co-director. The provider combined directing credit is the same film, not a conflicting identity.",
+    "source_urls": [
+      "https://www.berlinale.de/en/2017/programme/201711635.html",
+      "https://sfu.sk/en/films/spoor/"
+    ]
+  },
+  "https://www.berlinale.de/en/2018/programme/201814634.html": {
+    "tmdb_id": 414018,
+    "director_aliases": [
+      "David Zellner, Nathan Zellner"
+    ],
+    "note": "Berlinale combines the brothers surname as David & Nathan Zellner. Karlovy Vary separately credits David Zellner and Nathan Zellner for the 2018 feature.",
+    "source_urls": [
+      "https://www.berlinale.de/en/2018/programme/201814634.html",
+      "https://www.kviff.com/en/programme/film/50/26077-damsel"
+    ]
+  },
+  "https://www.berlinale.de/en/2018/programme/201816008.html": {
+    "tmdb_id": 493655,
+    "director_aliases": [
+      "Aleksei German Jr."
+    ],
+    "note": "Alexey/Aleksei are transliterations of the same director. Eye Filmmuseum uses Aleksei German Jr. for this Dovlatov film; official Berlin credits Alexey German Jr.",
+    "source_urls": [
+      "https://www.berlinale.de/en/2018/programme/201816008.html",
+      "https://www.eyefilm.nl/whats-on/dovlatov/264873"
+    ]
+  },
+  "https://www.berlinale.de/en/2020/programme/202003145.html": {
+    "tmdb_id": 664601,
+    "director_aliases": [
+      "Viktor Kossakovsky"
+    ],
+    "note": "Victor/Viktor is a spelling variant. The official film website credits Viktor Kossakovsky, while Berlinale and Eye credit Victor for the same 93-minute film.",
+    "source_urls": [
+      "https://www.berlinale.de/en/2020/programme/202003145.html",
+      "https://www.gunda.movie/",
+      "https://www.eyefilm.nl/whats-on/gunda/335160"
+    ]
+  },
+  "https://www.berlinale.de/en/2020/programme/202005396.html": {
+    "tmdb_id": 662400,
+    "imdb_id": "tt11697820",
+    "aliases": [
+      "日子"
+    ],
+    "required_cast": [
+      "Lee Kang-sheng",
+      "Anong Houngheuangsy"
+    ],
+    "note": "Pinned after broad Days/Rizi title searches missed the provider result. Must still match title, Tsai Ming-liang, IMDb tt11697820, and both lead performers. Official Berlinale, Taiwan Film and Audiovisual Institute, BFI and distributor establish the 127-minute feature; this is not an unrelated work called Days.",
+    "source_urls": [
+      "https://www.berlinale.de/en/2020/programme/202005396.html",
+      "https://www.bfi.org.uk/film/86377707-e1b5-51c6-8fd3-cfcfb034f8b8/rizi",
+      "https://grasshopperfilm.com/film/days/",
+      "https://www.tfai.org.tw/en/program/movieDetail/2c9580828ab07611018bdb74bc2a01be",
+      "https://www.imdb.com/title/tt11697820/"
+    ]
+  },
+  "https://www.berlinale.de/en/2020/programme/202010903.html": {
+    "tmdb_id": 614292,
+    "director_aliases": [
+      "Fabio D'Innocenzo, Damiano D'Innocenzo"
+    ],
+    "note": "Berlinale combines the repeated surname as Fabio & Damiano D’Innocenzo. European Film Academy and Filmitalia separately credit both directors for Favolacce / Bad Tales.",
+    "source_urls": [
+      "https://www.berlinale.de/en/2020/programme/202010903.html",
+      "https://www.europeanfilmawards.eu/efa-movie/bad-tales/",
+      "https://filmitalia.org/en/film/118742/"
+    ]
+  },
+  "https://www.berlinale.de/en/2020/programme/202012389.html": {
+    "tmdb_id": 667995,
+    "director_aliases": [
+      "Ilya Khrzhanovsky, Jekaterina Oertel"
+    ],
+    "note": "Khrzhanovskiy/Khrzhanovsky is a transliteration variant. Berlinale and the sales pressbook use Khrzhanovskiy; the official DAU project website uses Khrzhanovsky. Co-director Jekaterina Oertel remains required.",
+    "source_urls": [
+      "https://www.berlinale.de/en/2020/programme/202012389.html",
+      "https://dau.film/en",
+      "https://coproductionoffice.eu/assets/films/dau-natasha/presskit/DAU_NAT_Booklet_2020-Digital_compressed-2.pdf"
+    ]
+  }
+}
