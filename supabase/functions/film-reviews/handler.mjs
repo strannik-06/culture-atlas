@@ -8,9 +8,22 @@ export function extract(html,film,source,url){
  const titles=[film.title,film.original_title].filter(Boolean).map(norm);
  const movie=nodes.find(n=>[].concat(n['@type']||[]).includes('Movie')&&titles.includes(norm(n.name)));
  // Require an exact film identity plus year/director evidence; snippets alone never qualify.
- if(!movie)return null;
+ if(!movie){
+  if(source==='imdb')return null;
+  const article=nodes.find(n=>[].concat(n['@type']||[]).some(t=>['Article','NewsArticle','Review'].includes(t))&&titles.some(t=>norm(n.headline||n.name).startsWith(t+'review')));
+  if(!article)return null;
+  const descriptions=[article.description||'',...(html.match(/<meta\b[^>]*>/gi)||[]).filter(t=>/\b(?:name|property)=["'](?:description|og:description|article:tag)["']/i.test(t)).map(t=>t.match(/\bcontent=["']([^"']*)["']/i)?.[1]||'')].join(' ');
+  const published=Number(String(article.datePublished||'').slice(0,4));
+  const directors=String(film.director||'').split(/,| & | and /).map(norm).filter(Boolean);
+  if(!directors.length||!directors.some(d=>norm(descriptions).includes(d))||!Number.isInteger(film.year)||!Number.isInteger(published)||published<film.year||published>film.year+3)return null;
+  const author=[].concat(article.author||[]).map(a=>typeof a==='string'?a:a.name).filter(Boolean).join(', ');
+  if(!author)return null;
+  return {source,url,score:null,author,label:publishers[source].name+' · '+author,verified_at:new Date().toISOString()};
+ }
  const year=String(movie.datePublished||movie.dateCreated||'').slice(0,4),directors=[].concat(movie.director||[]).map(x=>typeof x==='string'?x:x.name).filter(Boolean);
- if(year!==String(film.year)&&!directors.some(d=>norm(film.director).includes(norm(d))))return null;
+ const directorMatches=directors.some(d=>norm(film.director).includes(norm(d)));
+ if(directors.length&&film.director&&!directorMatches)return null;
+ if(year!==String(film.year)&&!directorMatches)return null;
  const review=nodes.find(n=>[].concat(n['@type']||[]).includes('Review')&&(n.itemReviewed===movie||titles.includes(norm(n.itemReviewed?.name))))||([].concat(movie.review||[])[0]);
  const rating=source==='imdb'?movie.aggregateRating:review?.reviewRating;
  const value=Number(rating?.ratingValue),best=Number(rating?.bestRating),worst=Number(rating?.worstRating??0);
