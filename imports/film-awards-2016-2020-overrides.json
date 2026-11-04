@@ -93,9 +93,19 @@
   },
   "Oscars/2016/Boy and the World": {
     "aliases": [
-      "The Boy and the World"
+      "The Boy and the World",
+      "O Menino e o Mundo"
     ],
-    "note": "Regional/international title variant; source spelling preserved."
+    "imdb_id": "tt3183630",
+    "director_aliases": [
+      "Alê Abreu"
+    ],
+    "note": "Original Portuguese title and international title; Academy animated feature nominee by Alê Abreu. IMDb identity agrees with the official festival catalogue.",
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2016",
+      "https://www.imdb.com/title/tt3183630/",
+      "https://www.monstrafestival.com/wp-content/uploads/2023/06/Monstra-2014.pdf"
+    ]
   },
   "Golden Globes/2016/The Revenant": {
     "director_anchor_aliases": [
@@ -111,8 +121,7 @@
     "note": "Official Berlinale lists Agnieszka Holland; Slovak Film Institute explicitly credits both Holland and Kasia Adamik, and Filmportal lists Adamik as co-director. The provider combined directing credit is the same film, not a conflicting identity.",
     "source_urls": [
       "https://www.berlinale.de/en/2017/programme/201711635.html",
-      "https://sfu.sk/en/films/spoor/",
-      "https://www.filmportal.de/en/movie/die-spur_"
+      "https://sfu.sk/en/films/spoor/"
     ]
   },
   "https://www.berlinale.de/en/2018/programme/201814634.html": {
