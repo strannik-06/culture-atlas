@@ -34,9 +34,12 @@ async function resolve(t){const override=overrides[t.key]||{};const signature=cr
  for(const f of films)if(f.tmdb_id&&f.year>=t.year-3&&f.year<=t.year+(t.festival?4:0)&&[f.title,f.original_title,...f.alternate_titles||[]].some(n=>names.some(a=>norm(n)===norm(a))))ids.add(f.tmdb_id);
  for(const query of names){const response=await api('search/movie',{query,include_adult:false});for(const m of response.results||[])if([m.title,m.original_title].some(n=>names.some(a=>norm(n)===norm(a)))&&Number(m.release_date?.slice(0,4))>=t.year-3&&Number(m.release_date?.slice(0,4))<=t.year+(t.festival?4:0))ids.add(m.id);}
  }
+ for(const id of override.candidate_tmdb_ids||[])ids.add(id);
  const matches=[],reviewed=[];
  for(const id of ids){const m=await movie(id),directors=m.credits.crew.filter(p=>p.job==='Director').map(p=>p.name).join(', ');reviewed.push({tmdb_id:id,title:m.title,year:m.release_date,director:directors});
  if(![m.title,m.original_title].some(n=>names.some(a=>norm(n)===norm(a))))continue;
+ if(override.required_release_year&&Number(m.release_date?.slice(0,4))!==override.required_release_year)continue;
+ if(override.required_runtime_range&&(m.runtime<override.required_runtime_range[0]||m.runtime>override.required_runtime_range[1]))continue;
  if(m.runtime<40&&!(override.runtime&&override.runtime>=40&&t.runtime===override.runtime))continue;
  if(t.category_names?.some(n=>/Documentary/.test(n))&&!m.genres?.some(g=>g.name==='Documentary'))continue;
  if(t.category_names?.some(n=>/Animated/.test(n))&&!m.genres?.some(g=>g.name==='Animation'))continue;
