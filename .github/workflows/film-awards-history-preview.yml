@@ -15,6 +15,7 @@ jobs:
           node-version: '22'
       - run: npm ci --ignore-scripts
       - run: npm install --no-save --package-lock=false --ignore-scripts playwright@1.62.1
+      - run: npx playwright install --with-deps chromium
       - run: node scripts/preview-film-awards-history.mjs
       - uses: actions/upload-artifact@v4
         if: always()
