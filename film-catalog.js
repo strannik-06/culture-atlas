@@ -35494,5 +35494,460 @@ window.CULTURE_CATALOG = [
     "original_title": "Orphea",
     "original_language": "de",
     "alternate_titles": []
+  },
+  {
+    "id": 3451,
+    "title": "Amy",
+    "director": "Asif Kapadia",
+    "year": 2015,
+    "tmdb_id": 331781,
+    "imdb_id": "tt2870648",
+    "original_title": "Amy",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 3452,
+    "title": "Denial",
+    "director": "Mick Jackson",
+    "year": 2016,
+    "tmdb_id": 402298,
+    "imdb_id": "tt4645330",
+    "original_title": "Denial",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 3453,
+    "title": "Jane",
+    "director": "Brett Morgen",
+    "year": 2017,
+    "tmdb_id": 470819,
+    "imdb_id": "tt7207238",
+    "original_title": "Jane",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 3454,
+    "title": "An Inconvenient Sequel: Truth to Power",
+    "director": "Bonni Cohen, Jon Shenk",
+    "year": 2017,
+    "tmdb_id": 432602,
+    "imdb_id": "tt6322922",
+    "original_title": "An Inconvenient Sequel: Truth to Power",
+    "original_language": "en",
+    "alternate_titles": [
+      "An Inconvenient Sequel"
+    ]
+  },
+  {
+    "id": 3455,
+    "title": "McQueen",
+    "director": "Ian Bonhôte, Peter Ettedgui",
+    "year": 2018,
+    "tmdb_id": 508003,
+    "imdb_id": "tt6510332",
+    "original_title": "McQueen",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 3456,
+    "title": "Sing",
+    "director": "Garth Jennings",
+    "year": 2016,
+    "tmdb_id": 335797,
+    "imdb_id": "tt3470600",
+    "original_title": "Sing",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 3457,
+    "title": "Neruda",
+    "director": "Pablo Larraín",
+    "year": 2016,
+    "tmdb_id": 351454,
+    "imdb_id": "tt4698584",
+    "original_title": "Neruda",
+    "original_language": "es",
+    "alternate_titles": []
+  },
+  {
+    "id": 3458,
+    "title": "Ma' Rosa",
+    "director": "Brillante Ma Mendoza",
+    "year": 2016,
+    "tmdb_id": 392790,
+    "imdb_id": "tt5638094",
+    "original_title": "Ma' Rosa",
+    "original_language": "tl",
+    "alternate_titles": []
+  },
+  {
+    "id": 3459,
+    "title": "Out",
+    "director": "György Kristóf",
+    "year": 2017,
+    "tmdb_id": 451990,
+    "imdb_id": "tt4415410",
+    "original_title": "Out",
+    "original_language": "sk",
+    "alternate_titles": []
+  },
+  {
+    "id": 3460,
+    "title": "Yomeddine",
+    "director": "Abu Bakr Shawky",
+    "year": 2018,
+    "tmdb_id": 517286,
+    "imdb_id": "tt6846432",
+    "original_title": "يوم الدين",
+    "original_language": "ar",
+    "alternate_titles": []
+  },
+  {
+    "id": 3461,
+    "title": "El Angel",
+    "director": "Luis Ortega",
+    "year": 2018,
+    "tmdb_id": 507505,
+    "imdb_id": "tt7204348",
+    "original_title": "El Ángel",
+    "original_language": "es",
+    "alternate_titles": [
+      "L’ANGE"
+    ]
+  },
+  {
+    "id": 3462,
+    "title": "Sofia",
+    "director": "Meryem Benm'Barek-Aloïsi",
+    "year": 2018,
+    "tmdb_id": 517963,
+    "imdb_id": "tt8296592",
+    "original_title": "Sofia",
+    "original_language": "fr",
+    "alternate_titles": []
+  },
+  {
+    "id": 3463,
+    "title": "Matthias & Maxime",
+    "director": "Xavier Dolan",
+    "year": 2019,
+    "tmdb_id": 519141,
+    "imdb_id": "tt8767908",
+    "original_title": "Matthias & Maxime",
+    "original_language": "fr",
+    "alternate_titles": [
+      "MATTHIAS ET MAXIME",
+      "MATTHIAS AND MAXIME",
+      "Matthias and Maxime"
+    ]
+  },
+  {
+    "id": 3464,
+    "title": "Homeward",
+    "director": "Nariman Aliev",
+    "year": 2019,
+    "tmdb_id": 595930,
+    "imdb_id": "tt9431740",
+    "original_title": "Evge",
+    "original_language": "uk",
+    "alternate_titles": []
+  },
+  {
+    "id": 3465,
+    "title": "Invisible Life",
+    "director": "Karim Aïnouz",
+    "year": 2019,
+    "tmdb_id": 548544,
+    "imdb_id": "tt6390668",
+    "original_title": "A Vida Invisível",
+    "original_language": "pt",
+    "alternate_titles": [
+      "A VIDA INVISÍVEL DE EURÍDICE GUSMÃO",
+      "THE INVISIBLE LIFE OF EURÍDICE GUSMÃO",
+      "The Invisible Life of Eurídice Gusmão"
+    ]
+  },
+  {
+    "id": 3466,
+    "title": "Bitter Money",
+    "director": "Wang Bing",
+    "year": 2016,
+    "tmdb_id": 412366,
+    "imdb_id": "tt6028412",
+    "original_title": "苦钱",
+    "original_language": "zh",
+    "alternate_titles": [
+      "Ku Qian"
+    ]
+  },
+  {
+    "id": 3467,
+    "title": "Paradise",
+    "director": "Andrei Konchalovsky",
+    "year": 2016,
+    "tmdb_id": 408539,
+    "imdb_id": "tt4551318",
+    "original_title": "Рай",
+    "original_language": "ru",
+    "alternate_titles": [
+      "Ray"
+    ]
+  },
+  {
+    "id": 3468,
+    "title": "A Family",
+    "director": "Levi Riso",
+    "year": 2017,
+    "tmdb_id": 460060,
+    "imdb_id": "tt6256056",
+    "original_title": "Una Famiglia",
+    "original_language": "it",
+    "alternate_titles": []
+  },
+  {
+    "id": 3469,
+    "title": "Traces of Sin",
+    "director": "Kei Ishikawa",
+    "year": 2016,
+    "tmdb_id": 412692,
+    "imdb_id": "tt5560592",
+    "original_title": "愚行録",
+    "original_language": "ja",
+    "alternate_titles": [
+      "Gukôroku - Traces of Sin",
+      "Gukoroku",
+      "Gukoroku - Traces of Sin"
+    ]
+  },
+  {
+    "id": 3470,
+    "title": "The Night I Swam",
+    "director": "Igarashi Kohei, Damien Manivel",
+    "year": 2017,
+    "tmdb_id": 474206,
+    "imdb_id": "tt7336012",
+    "original_title": "泳ぎすぎた夜",
+    "original_language": "ja",
+    "alternate_titles": [
+      "LA NUIT OÙ J’AI NAGÉ - OYOGISUGITA YORU",
+      "La nuit où j’ai nagé",
+      "Oyogisugita yoru"
+    ]
+  },
+  {
+    "id": 3471,
+    "title": "Fremder Feind",
+    "director": "Rick Ostermann",
+    "year": 2017,
+    "tmdb_id": 472647,
+    "imdb_id": "tt7217962",
+    "original_title": "Fremder Feind",
+    "original_language": "de",
+    "alternate_titles": [
+      "KRIEG"
+    ]
+  },
+  {
+    "id": 3472,
+    "title": "Love and Bullets",
+    "director": "Antonio Manetti, Marco Manetti",
+    "year": 2017,
+    "tmdb_id": 468302,
+    "imdb_id": "tt7204006",
+    "original_title": "Ammore e malavita",
+    "original_language": "it",
+    "alternate_titles": []
+  },
+  {
+    "id": 3473,
+    "title": "The Announcement",
+    "director": "Mahmut Fazıl Coşkun",
+    "year": 2018,
+    "tmdb_id": 538102,
+    "imdb_id": "tt8751804",
+    "original_title": "Anons",
+    "original_language": "tr",
+    "alternate_titles": []
+  },
+  {
+    "id": 3474,
+    "title": "Reinventing Marvin",
+    "director": "Anne Fontaine",
+    "year": 2017,
+    "tmdb_id": 446178,
+    "imdb_id": "tt5989394",
+    "original_title": "Marvin ou la belle éducation",
+    "original_language": "fr",
+    "alternate_titles": [
+      "MARVIN"
+    ]
+  },
+  {
+    "id": 3475,
+    "title": "The Man Who Surprised Everyone",
+    "director": "Natalya Merkulova, Alexey Chupov",
+    "year": 2018,
+    "tmdb_id": 537878,
+    "imdb_id": "tt8900172",
+    "original_title": "Человек, который удивил всех",
+    "original_language": "ru",
+    "alternate_titles": [
+      "Tchelovek kotorij udivil vseh"
+    ]
+  },
+  {
+    "id": 3476,
+    "title": "A Son",
+    "director": "Mehdi M. Barsaoui",
+    "year": 2019,
+    "tmdb_id": 618224,
+    "imdb_id": "tt10749760",
+    "original_title": "بيك نعيش",
+    "original_language": "ar",
+    "alternate_titles": [
+      "Bik eneich - Un fils",
+      "Un fils",
+      "Bik Eneich: Un fils"
+    ]
+  },
+  {
+    "id": 3477,
+    "title": "Invisible",
+    "director": "Pablo Giorgelli",
+    "year": 2017,
+    "tmdb_id": 473637,
+    "imdb_id": "tt6596630",
+    "original_title": "Invisible",
+    "original_language": "es",
+    "alternate_titles": []
+  },
+  {
+    "id": 3478,
+    "title": "Law of Tehran",
+    "director": "Saeed Roustaee",
+    "year": 2019,
+    "tmdb_id": 583794,
+    "imdb_id": "tt9817070",
+    "original_title": "متری شش و نیم",
+    "original_language": "fa",
+    "alternate_titles": [
+      "Metri Shesho Nim",
+      "Just 6.5",
+      "Metri Shesh Va Nim"
+    ]
+  },
+  {
+    "id": 3479,
+    "title": "Never Gonna Snow Again",
+    "director": "Małgorzata Szumowska, Michał Englert",
+    "year": 2020,
+    "tmdb_id": 726151,
+    "imdb_id": "tt9526784",
+    "original_title": "Śniegu już nigdy nie będzie",
+    "original_language": "pl",
+    "alternate_titles": []
+  },
+  {
+    "id": 3480,
+    "title": "Atlantis",
+    "director": "Valentyn Vasyanovych",
+    "year": 2019,
+    "tmdb_id": 618245,
+    "imdb_id": "tt10749786",
+    "original_title": "Атлантида",
+    "original_language": "uk",
+    "alternate_titles": [
+      "Atlantyda"
+    ]
+  },
+  {
+    "id": 3481,
+    "title": "Spoor",
+    "director": "Agnieszka Holland, Kasia Adamik",
+    "year": 2017,
+    "tmdb_id": 432799,
+    "imdb_id": "tt5328350",
+    "original_title": "Pokot",
+    "original_language": "pl",
+    "alternate_titles": []
+  },
+  {
+    "id": 3482,
+    "title": "Damsel",
+    "director": "David Zellner, Nathan Zellner",
+    "year": 2017,
+    "tmdb_id": 414018,
+    "imdb_id": "tt5881528",
+    "original_title": "Damsel",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 3483,
+    "title": "Burning Casablanca",
+    "director": "Ismaël el Iraki",
+    "year": 2020,
+    "tmdb_id": 728135,
+    "imdb_id": "tt12668892",
+    "original_title": "الزنقة كونتاكت",
+    "original_language": "ar",
+    "alternate_titles": [
+      "Zanka Contact",
+      "Burning Casablanca (Zanka Contact)"
+    ]
+  },
+  {
+    "id": 3484,
+    "title": "Days",
+    "director": "Tsai Ming-liang",
+    "year": 2019,
+    "tmdb_id": 662400,
+    "imdb_id": "tt11697820",
+    "original_title": "日子",
+    "original_language": "zh",
+    "alternate_titles": [
+      "Rizi"
+    ]
+  },
+  {
+    "id": 3485,
+    "title": "The Truk",
+    "director": "Sarah Marx",
+    "year": 2018,
+    "tmdb_id": 539048,
+    "imdb_id": "tt8847018",
+    "original_title": "K contraire",
+    "original_language": "fr",
+    "alternate_titles": [
+      "L’Enkas",
+      "L'Enkas"
+    ]
+  },
+  {
+    "id": 3486,
+    "title": "DAU. Natasha",
+    "director": "Ilya Khrzhanovsky, Jekaterina Oertel",
+    "year": 2020,
+    "tmdb_id": 667995,
+    "imdb_id": "tt11697832",
+    "original_title": "DAU. Natasha",
+    "original_language": "ru",
+    "alternate_titles": []
+  },
+  {
+    "id": 3487,
+    "title": "Bad Tales",
+    "director": "Fabio D'Innocenzo, Damiano D'Innocenzo",
+    "year": 2020,
+    "tmdb_id": 614292,
+    "imdb_id": "tt8526370",
+    "original_title": "Favolacce",
+    "original_language": "it",
+    "alternate_titles": []
   }
 ];

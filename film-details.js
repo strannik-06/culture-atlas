@@ -109596,5 +109596,1166 @@ window.CULTURE_FILM_DETAILS = {
     "imdb": {
       "url": "https://www.imdb.com/title/tt11771882/"
     }
+  },
+  "3451": {
+    "tmdb_id": 331781,
+    "title": "Amy",
+    "original_title": "Amy",
+    "overview": "A documentary on the life of Amy Winehouse, the immensely talented yet doomed songstress. We see her from her teen years, where she already showed her singing abilities, to her finding success and then her downward spiral into alcoholism and drugs.",
+    "runtime": 128,
+    "release_date": "2015-07-02",
+    "genres": [
+      "Documentary",
+      "Music"
+    ],
+    "countries": [
+      "GB"
+    ],
+    "original_language": "en",
+    "director": "Asif Kapadia",
+    "cast": [
+      "Amy Winehouse",
+      "Mark Ronson",
+      "Tony Bennett",
+      "Pete Doherty",
+      "Juliette Ashby"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/qL0RepWSNUuZoeDXfyhqowVYhrn.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/8YiAnbmo8ARHNVt25Cp5fVt4rNd.jpg",
+    "tmdb_rating": 7.565,
+    "tmdb_votes": 1344,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt2870648/"
+    }
+  },
+  "3452": {
+    "tmdb_id": 402298,
+    "title": "Denial",
+    "original_title": "Denial",
+    "overview": "Acclaimed writer and historian Deborah E. Lipstadt must battle for historical truth to prove the Holocaust actually occurred when David Irving, a renowned denier, sues her for libel.",
+    "runtime": 109,
+    "release_date": "2016-09-30",
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "countries": [
+      "GB",
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Mick Jackson",
+    "cast": [
+      "Rachel Weisz",
+      "Tom Wilkinson",
+      "Timothy Spall",
+      "Andrew Scott",
+      "Jack Lowden"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/cJLbcWqV6sKwPpX5uT4xaklTgQz.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/rnNj2g7BhPIjxs0WR5VS2f0im7.jpg",
+    "tmdb_rating": 6.822,
+    "tmdb_votes": 718,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt4645330/"
+    }
+  },
+  "3453": {
+    "tmdb_id": 470819,
+    "title": "Jane",
+    "original_title": "Jane",
+    "overview": "Drawing from never-before-seen footage that has been tucked away in the National Geographic archives, director Brett Morgen tells the story of Jane Goodall, a woman whose chimpanzee research revolutionized our understanding of the natural world.",
+    "runtime": 90,
+    "release_date": "2017-12-28",
+    "genres": [
+      "Documentary"
+    ],
+    "countries": [
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Brett Morgen",
+    "cast": [
+      "Jane Goodall",
+      "Hugo van Lawick",
+      "Hugo Eric Louis van Lawick"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/lasO6v47evkx4JfRqf4Rhqp8FZd.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/bNRKlh05MdlDECJUaA6Nzw5t9UA.jpg",
+    "tmdb_rating": 7.5,
+    "tmdb_votes": 158,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt7207238/"
+    }
+  },
+  "3454": {
+    "tmdb_id": 432602,
+    "title": "An Inconvenient Sequel: Truth to Power",
+    "original_title": "An Inconvenient Sequel: Truth to Power",
+    "overview": "A decade after An Inconvenient Truth brought climate change into the heart of popular culture comes the riveting and rousing follow-up that shows just how close we are to a real energy revolution. Vice President Al Gore continues his tireless fight, traveling around the world training an army of climate champions and influencing international climate policy. Cameras follow him behind the scenes—in moments private and public, funny and poignant—as he pursues the empowering notion that while the stakes have never been higher, the perils of climate change can be overcome with human ingenuity and passion.",
+    "runtime": 100,
+    "release_date": "2017-07-28",
+    "genres": [
+      "Documentary"
+    ],
+    "countries": [
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Bonni Cohen, Jon Shenk",
+    "cast": [
+      "Al Gore",
+      "Barack Obama",
+      "Donald Trump",
+      "Angela Merkel",
+      "Justin Trudeau"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/2WauUg4DcUxng5nwhisu7UFZq4Z.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/9trJj4yG18FGT29pPnUjtJd2ouq.jpg",
+    "tmdb_rating": 6.6,
+    "tmdb_votes": 187,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt6322922/"
+    }
+  },
+  "3455": {
+    "tmdb_id": 508003,
+    "title": "McQueen",
+    "original_title": "McQueen",
+    "overview": "Alexander McQueen's rags-to-riches story is a modern-day fairy tale, laced with the gothic. Mirroring the savage beauty, boldness and vivacity of his design, this documentary is an intimate revelation of McQueen's own world, both tortured and inspired, which celebrates a radical and mesmerizing genius of profound influence.",
+    "runtime": 111,
+    "release_date": "2018-06-08",
+    "genres": [
+      "Documentary"
+    ],
+    "countries": [
+      "GB"
+    ],
+    "original_language": "en",
+    "director": "Ian Bonhôte, Peter Ettedgui",
+    "cast": [
+      "Bernard Arnault",
+      "Joseph Bennett",
+      "Magdalena Frackowiak",
+      "Jodie Kidd",
+      "Kate Moss"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/bc5kAqhNfLitH7zMlLvLRbxV0xD.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/k0o0sFSbv8BPsQijH6QWxUlDpoG.jpg",
+    "tmdb_rating": 7.4,
+    "tmdb_votes": 147,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt6510332/"
+    }
+  },
+  "3456": {
+    "tmdb_id": 335797,
+    "title": "Sing",
+    "original_title": "Sing",
+    "overview": "A koala named Buster recruits his best friend to help him drum up business for his theater by hosting a singing competition.",
+    "runtime": 108,
+    "release_date": "2016-11-23",
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Family",
+      "Music"
+    ],
+    "countries": [
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Garth Jennings",
+    "cast": [
+      "Matthew McConaughey",
+      "Reese Witherspoon",
+      "Seth MacFarlane",
+      "Scarlett Johansson",
+      "John C. Reilly"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/rwopfpHqPCYBSgBuZwkaXXqHp14.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/z9ft5HYHzWcasR6SGcgeluxTznB.jpg",
+    "tmdb_rating": 7.124,
+    "tmdb_votes": 8654,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt3470600/"
+    }
+  },
+  "3457": {
+    "tmdb_id": 351454,
+    "title": "Neruda",
+    "original_title": "Neruda",
+    "overview": "It’s 1948 and the Cold War has arrived in Chile. In the Congress, prominent Communist Senator and popular poet Pablo Neruda accuses the government of betraying the Party and is stripped of his parliamentary immunity by President González Videla. The Chief of Investigative Police instructs inspector Óscar Peluchonneau to arrest the poet. Neruda tries to escape from the country with his wife, the painter Delia del Carril, but they are forced to go underground.",
+    "runtime": 108,
+    "release_date": "2016-08-11",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "US",
+      "AR",
+      "CL",
+      "FR",
+      "ES"
+    ],
+    "original_language": "es",
+    "director": "Pablo Larraín",
+    "cast": [
+      "Gael García Bernal",
+      "Luis Gnecco",
+      "Mercedes Morán",
+      "Emilio Gutiérrez Caba",
+      "Diego Muñoz"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/7WwGjSjEEyP7NrgrI97o3mCezvL.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/xZmLlXi7WYE42He0TWsK0891ACM.jpg",
+    "tmdb_rating": 6.3,
+    "tmdb_votes": 285,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt4698584/"
+    }
+  },
+  "3458": {
+    "tmdb_id": 392790,
+    "title": "Ma' Rosa",
+    "original_title": "Ma' Rosa",
+    "overview": "Ma’ Rosa has four children. She owns a small convenience store in a poor section of Manila where everybody knows her. To make ends meet, Rosa and her husband, Nestor, resell small amounts of narcotics on the side. One day, they get arrested. Rosa’s children are ready to do anything to buy their parents’ freedom from the corrupt police.",
+    "runtime": 110,
+    "release_date": "2016-11-09",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "PH"
+    ],
+    "original_language": "tl",
+    "director": "Brillante Ma Mendoza",
+    "cast": [
+      "Jaclyn Jose",
+      "Julio Díaz",
+      "Andi Eigenmann",
+      "Felix Roco",
+      "Jomari Angeles"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/bKfnlEoZHewglGvNmWvnJ9X1Bt7.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/tTMGaeVu4Xaikba5QaHqvIf915Q.jpg",
+    "tmdb_rating": 6.5,
+    "tmdb_votes": 23,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt5638094/"
+    }
+  },
+  "3459": {
+    "tmdb_id": 451990,
+    "title": "Out",
+    "original_title": "Out",
+    "overview": "OUT is an odyssey about 50 year old family man Agoston wandering through East Europe. After loosing his lifelong job in a power plant of small Slovak village Agoston takes the shady but alluring opportunity to work as a welder in a shipyard in Latvia. The journey in hopes of a new job in reality turns into a accelerating whirlwind of absurd events of short encounters, newly found-and-lost-again friendships subtracting from Agoston all his possessions and everything he once believed to be his whole life. However Agoston doesn't give up his search for income and decides to persuade his dream of catching a big sea fish.",
+    "runtime": 88,
+    "release_date": "2017-06-15",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "CZ",
+      "LV",
+      "HU",
+      "SK"
+    ],
+    "original_language": "sk",
+    "director": "György Kristóf",
+    "cast": [
+      "Sándor Terhes",
+      "Judit Pecháček",
+      "Attila Bocsárszky",
+      "Ieva Norvele",
+      "Guna Zariņa"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/9eoGSPJW3OTZW5Mc4w8ROyLoqLH.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/njFScRtQrbUVjD474bCNHD8nyiE.jpg",
+    "tmdb_rating": 4.7,
+    "tmdb_votes": 3,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt4415410/"
+    }
+  },
+  "3460": {
+    "tmdb_id": 517286,
+    "title": "Yomeddine",
+    "original_title": "يوم الدين",
+    "overview": "A Coptic leper and his orphaned apprentice leave the confines of the leper colony for the first time and embark on a journey across Egypt to search for what is left of their families.",
+    "runtime": 97,
+    "release_date": "2018-11-21",
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Drama"
+    ],
+    "countries": [
+      "AT",
+      "EG",
+      "US"
+    ],
+    "original_language": "ar",
+    "director": "Abu Bakr Shawky",
+    "cast": [
+      "Rady Gamal",
+      "Shahira Fahmy",
+      "Ahmed Abdelhafiz",
+      "Shehab Ibrahim",
+      "Mohamed Abd El Azim"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/i9v06DMMNDSG4EDcE3Y7RLGo1pD.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/2sb7Dy7wDqbYN5ADmAK78djMWMT.jpg",
+    "tmdb_rating": 7,
+    "tmdb_votes": 37,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt6846432/"
+    }
+  },
+  "3461": {
+    "tmdb_id": 507505,
+    "title": "El Angel",
+    "original_title": "El Ángel",
+    "overview": "Buenos Aires, Argentina, 1971. Carlos Robledo Puch is a 19-year-old boy with an angelic face, but a vocational thief as well, who acts ruthlessly, without remorse. When he meets Ramón, they follow together a dark path of crime and death.",
+    "runtime": 115,
+    "release_date": "2018-08-09",
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "countries": [
+      "AR",
+      "ES"
+    ],
+    "original_language": "es",
+    "director": "Luis Ortega",
+    "cast": [
+      "Lorenzo Ferro",
+      "Chino Darín",
+      "Mercedes Morán",
+      "Daniel Fanego",
+      "Luis Gnecco"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/hKtxOC2Mx9v4vx5TNJprzrFiy7.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/gRxlzFYDKdzNnhu8OFIKm3i9b6f.jpg",
+    "tmdb_rating": 7.368,
+    "tmdb_votes": 591,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt7204348/"
+    }
+  },
+  "3462": {
+    "tmdb_id": 517963,
+    "title": "Sofia",
+    "original_title": "Sofia",
+    "overview": "Sofia, 20, lives with her parents in Casablanca. Suffering from pregnancy denial, she finds herself breaking the law by giving birth to a baby out of wedlock. The hospital gives her 24 hours to provide the father's papers before informing the authorities…",
+    "runtime": 80,
+    "release_date": "2018-09-05",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "BE",
+      "FR"
+    ],
+    "original_language": "fr",
+    "director": "Meryem Benm'Barek-Aloïsi",
+    "cast": [
+      "Maha Alemi",
+      "Lubna Azabal",
+      "Sarah Perles",
+      "Faouzi Bensaïdi",
+      "Hamza Khafif"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/v9UhfCyNc29znDK6delNhPvNReI.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/ozySjkVh8r227p20D7MwuYaKmNB.jpg",
+    "tmdb_rating": 6.2,
+    "tmdb_votes": 50,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt8296592/"
+    }
+  },
+  "3463": {
+    "tmdb_id": 519141,
+    "title": "Matthias & Maxime",
+    "original_title": "Matthias & Maxime",
+    "overview": "Two childhood best friends are asked to share a kiss for the purposes of a student short film. Soon, a lingering doubt sets in, confronting both men with their preferences, threatening the brotherhood of their social circle, and, eventually, changing their lives.",
+    "runtime": 120,
+    "release_date": "2019-10-09",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "original_language": "fr",
+    "director": "Xavier Dolan",
+    "cast": [
+      "Gabriel D'Almeida Freitas",
+      "Xavier Dolan",
+      "Pier-Luc Funk",
+      "Samuel Gauthier",
+      "Antoine Pilon"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/j3DI3UjYBRqIbO1keUU1Bzn5qG6.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/27xckIk5qdMina9WEtnMjp3oJHX.jpg",
+    "tmdb_rating": 7.08,
+    "tmdb_votes": 523,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt8767908/"
+    }
+  },
+  "3464": {
+    "tmdb_id": 595930,
+    "title": "Homeward",
+    "original_title": "Evge",
+    "overview": "Having lost his oldest son in the war between Russia and Ukraine, Mustafa resolves to bring the boy’s body to the land of his birth: Crimea. Together, he and his younger son set out on a journey that will profoundly mark their relationship.",
+    "runtime": 96,
+    "release_date": "2019-11-07",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "original_language": "uk",
+    "director": "Nariman Aliev",
+    "cast": [
+      "Akhtem Seitablaiev",
+      "Remzi Bilyalov",
+      "Daria Barikhashvili",
+      "Anatolii Marempolskyi",
+      "Viktor Zhdanov"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/brg4qMLRJqpNf59RgBG2yhoAOm0.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/i7jcGaDZwdSgXnD3Qv1gZBBMdZw.jpg",
+    "tmdb_rating": 7.3,
+    "tmdb_votes": 32,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt9431740/"
+    }
+  },
+  "3465": {
+    "tmdb_id": 548544,
+    "title": "Invisible Life",
+    "original_title": "A Vida Invisível",
+    "overview": "Rio de Janeiro, Brazil, 1950. In the conservative home of the Gusmão family, Eurídice and Guida are two inseparable sisters who support each other. While Guida can share with her younger sister the details of her romantic adventures, Eurídice finds in her older sister the encouragement she needs to pursue her dream of becoming a professional pianist.",
+    "runtime": 140,
+    "release_date": "2019-08-30",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "BR",
+      "DE"
+    ],
+    "original_language": "pt",
+    "director": "Karim Aïnouz",
+    "cast": [
+      "Carol Duarte",
+      "Julia Stockler",
+      "Fernanda Montenegro",
+      "Gregório Duvivier",
+      "Bárbara Santos"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/dHmy5vHcEfeBfy72sWxAdeSBLmn.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/u2Av6NyDeLkwYTBXxIGousLNzz.jpg",
+    "tmdb_rating": 7.746,
+    "tmdb_votes": 353,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt6390668/"
+    }
+  },
+  "3466": {
+    "tmdb_id": 412366,
+    "title": "Bitter Money",
+    "original_title": "苦钱",
+    "overview": "In a fast growing city of East China, migrants have been arriving and living for a dream of a better life. But what they find there is little opportunities and poor living conditions that push people, even couples, into violent and oppressive relations. Xiao Min, Ling Ling and Lao Yeh are some of the characters of this bitter chronicle of today China.",
+    "runtime": 163,
+    "release_date": "2018-01-12",
+    "genres": [
+      "Documentary"
+    ],
+    "countries": [
+      "FR",
+      "HK"
+    ],
+    "original_language": "zh",
+    "director": "Wang Bing",
+    "poster": "https://image.tmdb.org/t/p/w500/hEKkV7NTqOw4Pbfc39yjA1mpYpJ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/hkY0Dkp9m2i2anuXxZyF5nYPrgQ.jpg",
+    "tmdb_rating": 6.1,
+    "tmdb_votes": 12,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt6028412/"
+    }
+  },
+  "3467": {
+    "tmdb_id": 408539,
+    "title": "Paradise",
+    "original_title": "Рай",
+    "overview": "The historical drama set during the Second World War centres on three people whose paths cross: a Russian aristocratic emigrant and member of the French resistance, a French collaborator and a high-ranking German SS officer.",
+    "runtime": 130,
+    "release_date": "2016-09-01",
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "countries": [
+      "RU",
+      "DE"
+    ],
+    "original_language": "ru",
+    "director": "Andrei Konchalovsky",
+    "cast": [
+      "Yuliya Vysotskaya",
+      "Philippe Duquesne",
+      "Viktor Sukhorukov",
+      "Vera Voronkova",
+      "Jakob Diehl"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/kI3BSS2pzKimLa8uHk6ap8Ole3o.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/btTpt2VAdDyKHdgvrRZeLUdv2HU.jpg",
+    "tmdb_rating": 7,
+    "tmdb_votes": 56,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt4551318/"
+    }
+  },
+  "3468": {
+    "tmdb_id": 460060,
+    "title": "A Family",
+    "original_title": "Una Famiglia",
+    "overview": "Vincent was born near Paris, but has cut off every link with his roots. Maria, fifteen years younger, grew up in Ostia, but no longer sees her family. Together they form a couple that does not seem to need anyone. They lead a secluded life in contemporary Rome, indolent and distracted. Furthermore, Vincent and Maria are good at blending in with their environment. When they return home, they make love with the passion of young lovers in a suburban apartment that she has carefully furnished. Yet, on closer inspection, their everyday life betrays what lies behind their seemingly normal appearance: a project carried out by him with a clear determination and accepted by her only by virtue of unconditional love. A plan to help couples who cannot have children. Maria decides that it is time to create a real family. This choice has an inevitable consequence: the rebellion against Vincent, the man of her life.",
+    "runtime": 97,
+    "release_date": "2017-09-28",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "original_language": "it",
+    "director": "Levi Riso",
+    "cast": [
+      "Micaela Ramazzotti",
+      "Patrick Bruel",
+      "Pippo Delbono",
+      "Fortunato Cerlino",
+      "Marco Leonardi"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/94S1RcilGRqlYQoYMaHnkcf2Hrg.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/n6RYSjh4heZjnY17aqqMu5diGWc.jpg",
+    "tmdb_rating": 5.8,
+    "tmdb_votes": 40,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt6256056/"
+    }
+  },
+  "3469": {
+    "tmdb_id": 412692,
+    "title": "Traces of Sin",
+    "original_title": "愚行録",
+    "overview": "A year has gone by without any progress on the Tako family's murder, in which an elite businessman, his beautiful and perfect wife, and adorable daughter were brutally killed. Weekly magazine journalist Tanaka gives the case another shot and digs for the truth, but people connected with the case describe a family far-flung from the seemingly picture-perfect couple, and then he discovers a reality more terrifying than anyone had imagined.",
+    "runtime": 120,
+    "release_date": "2017-02-18",
+    "genres": [
+      "Thriller",
+      "Drama"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "original_language": "ja",
+    "director": "Kei Ishikawa",
+    "cast": [
+      "Satoshi Tsumabuki",
+      "Hikari Mitsushima",
+      "Keisuke Koide",
+      "Asami Usuda",
+      "Yui Ichikawa"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/jKo8GpdjO0iFjplIptyYJstpbxP.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/2BaFwtdgRkI0b9R2qXk1HYyucic.jpg",
+    "tmdb_rating": 6.6,
+    "tmdb_votes": 34,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt5560592/"
+    }
+  },
+  "3470": {
+    "tmdb_id": 474206,
+    "title": "The Night I Swam",
+    "original_title": "泳ぎすぎた夜",
+    "overview": "Snow covered mountains in Japan. Every night, a fisherman makes his way to the market in town.  His 6 year old son is awoken by his departure and finds it impossible to fall back to sleep. In the sleeping household, the young boy draws a picture he then slips into his satchel. On his way to school, still drowsy, he strays off the path and wanders into the snow...",
+    "runtime": 79,
+    "release_date": "2018-05-02",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "FR",
+      "JP"
+    ],
+    "original_language": "ja",
+    "director": "Igarashi Kohei, Damien Manivel",
+    "cast": [
+      "Kogawa Takara",
+      "Takashi Kogawa",
+      "Keiki Kogawa",
+      "Chisato Kogawa",
+      "Yûji Kudô"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/dFAz97rEy9rt4SbwcFhMfKvsW5c.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/vimYYdFyFODmpTbGdkZkUw5gQqS.jpg",
+    "tmdb_rating": 6.4,
+    "tmdb_votes": 30,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt7336012/"
+    }
+  },
+  "3471": {
+    "tmdb_id": 472647,
+    "title": "Fremder Feind",
+    "original_title": "Fremder Feind",
+    "overview": "It was a devastating day for Arnold and his wife, Karen when their son, Christian, a soldier in the German armed forces, told them he was going to be deployed abroad. Everything is different now. Arnold has decided to retreat to a secluded mountain hut in Tirol along with his dog in order to finally find some peace of mind. Barely has he reached his snow drenched destination, when he discovers the threatening traces of an intruder. While ruminating over the news of his son and the conversations he had with his wife, Arnold must also battle against an unknown fiend if he wants to save his own life.",
+    "runtime": 93,
+    "release_date": "2017-10-17",
+    "genres": [
+      "Thriller",
+      "Drama"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "original_language": "de",
+    "director": "Rick Ostermann",
+    "cast": [
+      "Ulrich Matthes",
+      "Barbara Auer",
+      "Jördis Triebel",
+      "Thomas Loibl",
+      "Lili Epply"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/h2zYsYuE9niK9Fh9oHVb8VrVJW5.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/i8gA1Wz74oAiOROyiUevSSwWoSQ.jpg",
+    "tmdb_rating": 5,
+    "tmdb_votes": 6,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt7217962/"
+    }
+  },
+  "3472": {
+    "tmdb_id": 468302,
+    "title": "Love and Bullets",
+    "original_title": "Ammore e malavita",
+    "overview": "A Mafia boss fakes his own death aiming at a fresh start, but a nurse happens to see him alive and well after the funeral. A hitman is promptly sent to get rid of her, only to find out she's his first and unforgotten love.",
+    "runtime": 140,
+    "release_date": "2017-08-01",
+    "genres": [
+      "Music",
+      "Comedy",
+      "Romance",
+      "Crime"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "original_language": "it",
+    "director": "Antonio Manetti, Marco Manetti",
+    "cast": [
+      "Giampaolo Morelli",
+      "Serena Rossi",
+      "Claudia Gerini",
+      "Carlo Buccirosso",
+      "Raiz"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/gjgTPRxVWpqHBa1dNRSfaiVDxWp.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/4xcZkjdkPZ0iJ53AyBJ9b9SdSDD.jpg",
+    "tmdb_rating": 6.6,
+    "tmdb_votes": 265,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt7204006/"
+    }
+  },
+  "3473": {
+    "tmdb_id": 538102,
+    "title": "The Announcement",
+    "original_title": "Anons",
+    "overview": "May 22nd, 1963. Unhappy with the existing social and political situation in Turkey, a group of military officers has planned a coup d’état to take down the government in Ankara. Meanwhile in Istanbul, their conspirators have undertaken the vital mission of taking over the National Radio station and making a formal announcement about the coup. But nothing goes to plan. Faced with a number of obstacles, including a sudden rainstorm, the absence of the radio station technician, a betrayal, the lack of feedback from Ankara and their very own inefficiency, the conspirators scramble to keep their plan on track and announce the success of the coup – that is, if the coup in the capital has taken place at all.",
+    "runtime": 94,
+    "release_date": "2017-12-29",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "BG",
+      "TR"
+    ],
+    "original_language": "tr",
+    "director": "Mahmut Fazıl Coşkun",
+    "cast": [
+      "Ali Seçkiner Alıcı",
+      "Murat Kılıç",
+      "Tarhan Karagöz",
+      "Şencan Güleryüz",
+      "Serkan Ercan"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/pbv0MSL9JKwu06CsaTrLCppkARR.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/7hxJebQVniAo93o5YIl9RDG7vk4.jpg",
+    "tmdb_rating": 6.1,
+    "tmdb_votes": 26,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt8751804/"
+    }
+  },
+  "3474": {
+    "tmdb_id": 446178,
+    "title": "Reinventing Marvin",
+    "original_title": "Marvin ou la belle éducation",
+    "overview": "Telling the true story of Marvin Bijou, a young boy from a working-class family in a small village, who suffers constant bullying at school and home for being ‘different’ – too sensitive and too feminine. A chance encounter with a drama teacher opens the doors to a world that offers him the chance to escape his situation.",
+    "runtime": 115,
+    "release_date": "2017-11-22",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "original_language": "fr",
+    "director": "Anne Fontaine",
+    "cast": [
+      "Finnegan Oldfield",
+      "Jules Porier",
+      "Catherine Mouchet",
+      "Isabelle Huppert",
+      "Catherine Salée"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/f49OJVemvwazXkCRQoeLmgHTzJf.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/ybZA4xlpeLC8NxlPOMkGijto1GC.jpg",
+    "tmdb_rating": 6.597,
+    "tmdb_votes": 119,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt5989394/"
+    }
+  },
+  "3475": {
+    "tmdb_id": 537878,
+    "title": "The Man Who Surprised Everyone",
+    "original_title": "Человек, который удивил всех",
+    "overview": "Egor Korshunov (40) is a Siberian forest guard who works in a local environmental company, fighting fearlessly against poachers in taiga. Egor is a great family man, respected by his fellow villagers. He and his wife Natalia are expecting a second child. Unexpectedly, Egor finds out that he has terminal cancer and has only two months left to live. No traditional medicine or shamanic magic can save Egor. Finally, left with no other options, he decides to take the last desperate step. He attempts to completely change his identity in order to fool the oncoming death, just like Zhamba the drake, the hero of a legendary ancient Siberian epos, did.",
+    "runtime": 105,
+    "release_date": "2018-10-25",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "EE",
+      "FR",
+      "RU"
+    ],
+    "original_language": "ru",
+    "director": "Natalya Merkulova, Alexey Chupov",
+    "cast": [
+      "Evgeny Tsyganov",
+      "Natalya Kudryashova",
+      "Yuriy Kuznetsov",
+      "Vasya Popov",
+      "Pavel Maykov"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/jP6a1bKf5vmmFdxxNJoEDkoLD0T.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/lUZBIUjsnaFSvy0eDAsTTEVsvHi.jpg",
+    "tmdb_rating": 5.7,
+    "tmdb_votes": 21,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt8900172/"
+    }
+  },
+  "3476": {
+    "tmdb_id": 618224,
+    "title": "A Son",
+    "original_title": "بيك نعيش",
+    "overview": "Tunisia, summer 2011. The holiday to the South of the country ends in disaster for Fares, Meriem and their 10-year-old son Aziz, when he is accidentally shot in an ambush. His injury will change their lives: Aziz needs a liver transplant, which leads to discovery of a long-buried secret. Will Aziz and the relationship survive?",
+    "runtime": 96,
+    "release_date": "2020-01-15",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "FR",
+      "LB",
+      "QA",
+      "TN"
+    ],
+    "original_language": "ar",
+    "director": "Mehdi M. Barsaoui",
+    "cast": [
+      "Sami Bouajila",
+      "Najla Ben Abdallah",
+      "Youssef Khemiri",
+      "Noomene Hamda",
+      "Slah Msadak"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/eZStVC3LeOy4g5jI4a7xFBtFRU.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/iFtW0rCJ3VIp0DI7F5o0vgJZV4N.jpg",
+    "tmdb_rating": 7.1,
+    "tmdb_votes": 45,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt10749760/"
+    }
+  },
+  "3477": {
+    "tmdb_id": 473637,
+    "title": "Invisible",
+    "original_title": "Invisible",
+    "overview": "Ely is 17 years old. After school, she works few hours at a pet shop. When Ely learns that she is pregnant, her inner world explodes even though she tries to go on with her daily routine as if nothing was different. She is afraid and upset, and she knows that, whatever she decides to do, there is no turning back.",
+    "runtime": 87,
+    "release_date": "2017-03-21",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "AR",
+      "BR",
+      "FR",
+      "DE",
+      "UY"
+    ],
+    "original_language": "es",
+    "director": "Pablo Giorgelli",
+    "cast": [
+      "Mora Arenillas",
+      "Mara Bestelli",
+      "Diego Cremonesi",
+      "Jorge Waldhorn",
+      "Agustina Fernández"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/zBMBBcKgtrnDLBuk2uPYN7Dx20G.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/gL8sdTFraVBTBRh1oCzIYpqQezy.jpg",
+    "tmdb_rating": 5.7,
+    "tmdb_votes": 40,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt6596630/"
+    }
+  },
+  "3478": {
+    "tmdb_id": 583794,
+    "title": "Law of Tehran",
+    "original_title": "متری شش و نیم",
+    "overview": "Samad is nobody’s fool. The narcotics officer has seen his share of a drug dealer’s lies and games, and his patience has come to run thin. While searching for the infamous drug baron Nasser Khakzad, he and his colleague Hamid scour the streets of Tehran, turning an overcrowded prison on its head. With his rough and dubious approach, Samad finally manages to find the criminal’s whereabouts – but things do not quite go according to plan...",
+    "runtime": 134,
+    "release_date": "2019-03-17",
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "countries": [
+      "IR"
+    ],
+    "original_language": "fa",
+    "director": "Saeed Roustaee",
+    "cast": [
+      "Payman Maadi",
+      "Navid Mohammadzadeh",
+      "Parinaz Izadyar",
+      "Farhad Aslani",
+      "Houman Kiai"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/ujNhy2Vu7S1FHuwePMIYMkIbGTj.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/ubn9Em9G2aFNtogNGCR6IoDBqM.jpg",
+    "tmdb_rating": 7.192,
+    "tmdb_votes": 284,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt9817070/"
+    }
+  },
+  "3479": {
+    "tmdb_id": 726151,
+    "title": "Never Gonna Snow Again",
+    "original_title": "Śniegu już nigdy nie będzie",
+    "overview": "Zenia is an industrious Ukrainian migrant worker in Poland who makes house calls as a masseur to the needy and aspirational residents of a middle-class gated community near Warsaw. He is privy to all of their problems, anxieties and secrets – and something of an unwitting guru figure. Zenia’s grounded spirituality, apparent healing powers and broad shoulders make him an object of lust for many of the lost souls in the community.",
+    "runtime": 116,
+    "release_date": "2021-03-18",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "countries": [
+      "DE",
+      "NL",
+      "PL"
+    ],
+    "original_language": "pl",
+    "director": "Małgorzata Szumowska, Michał Englert",
+    "cast": [
+      "Alec Utgoff",
+      "Maja Ostaszewska",
+      "Agata Kulesza",
+      "Weronika Rosati",
+      "Katarzyna Figura"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/vzp2uKcS7JYwOOFKh022MOamCpK.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/kXgtY2BKrRJ1pysWDUw2tERd6Wf.jpg",
+    "tmdb_rating": 6.172,
+    "tmdb_votes": 67,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt9526784/"
+    }
+  },
+  "3480": {
+    "tmdb_id": 618245,
+    "title": "Atlantis",
+    "original_title": "Атлантида",
+    "overview": "A soldier suffering from PTSD befriends a young volunteer hoping to restore peaceful energy to a war-torn society.",
+    "runtime": 106,
+    "release_date": "2020-09-17",
+    "genres": [
+      "War",
+      "Drama",
+      "Science Fiction"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "original_language": "uk",
+    "director": "Valentyn Vasyanovych",
+    "cast": [
+      "Andrii Rymaruk",
+      "Liudmyla Bileka",
+      "Vasyl Antoniak",
+      "Kateryna Popravka",
+      "Oleksandr Sobko"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/8dtC60nTU9h8L71QtPYpkMuO0C.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/zXVSr2AovV17IAJjBy25Juc2DmX.jpg",
+    "tmdb_rating": 6.5,
+    "tmdb_votes": 57,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt10749786/"
+    }
+  },
+  "3481": {
+    "tmdb_id": 432799,
+    "title": "Spoor",
+    "original_title": "Pokot",
+    "overview": "A story about Janina Duszejko, an elderly woman, who lives alone in the Klodzko Valley where a series of mysterious crimes are committed. Duszejko is convinced that she knows who (or what) is the murderer, but nobody believes her.",
+    "runtime": 128,
+    "release_date": "2017-02-24",
+    "genres": [
+      "Crime",
+      "Mystery",
+      "Thriller"
+    ],
+    "countries": [
+      "PL",
+      "DE",
+      "CZ",
+      "SE"
+    ],
+    "original_language": "pl",
+    "director": "Agnieszka Holland, Kasia Adamik",
+    "cast": [
+      "Agnieszka Mandat",
+      "Wiktor Zborowski",
+      "Jakub Gierszał",
+      "Patrycja Volny",
+      "Miroslav Krobot"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/8a3rRg9hMp1swcejSGbUSDdSFl1.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/p5rlMIvxWI7jBXur6wjeNiaZVPj.jpg",
+    "tmdb_rating": 6.1,
+    "tmdb_votes": 192,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt5328350/"
+    }
+  },
+  "3482": {
+    "tmdb_id": 414018,
+    "title": "Damsel",
+    "original_title": "Damsel",
+    "overview": "Oregon, a small town near the sea, around 1870. Henry, a grieving man who aspires to preach as a way to overcome his unfortunate past, reunites with eccentric pioneer Samuel Alabaster, who has hired him to officiate at his marriage to the precious Penelope. What Henry ignores is that both must embark on a dangerous journey through the inhospitable wilderness to meet her.",
+    "runtime": 113,
+    "release_date": "2018-06-22",
+    "genres": [
+      "Western",
+      "Drama",
+      "Comedy"
+    ],
+    "countries": [
+      "US"
+    ],
+    "original_language": "en",
+    "director": "David Zellner, Nathan Zellner",
+    "cast": [
+      "Robert Pattinson",
+      "Mia Wasikowska",
+      "David Zellner",
+      "Nathan Zellner",
+      "Joseph Billingiere"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/dNZxjsJwmKorpPvd0kquJffYROr.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/g0axK3OABLOB037PSRQGNxngDWf.jpg",
+    "tmdb_rating": 5.3,
+    "tmdb_votes": 168,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt5881528/"
+    }
+  },
+  "3483": {
+    "tmdb_id": 728135,
+    "title": "Burning Casablanca",
+    "original_title": "الزنقة كونتاكت",
+    "overview": "In hellish Casablanca, a car-crash sets ablaze a burning, passionate love story between has-been rocker Larsen and the streetwise amazon Rajae. An unspoken trauma is their common history; rock n' roll their mutual saviour. Larsen's snakeskin-covered guitar and Rajae's liquid gold voice could be heaven, if only everything from his drug-induced visions to her music-buff pimp didn't get in the way. The only hope for their blooming romance is to skip this ferocious town. Is there a way out of this crazy Moroccan underworld with its menagerie of sadistic cops, venomous snakes, metal concerts and shotgun-wielding modern-day Calamity Janes? For these punk Romeo and Juliet, maybe the answer lies in a song - the one they've been writing and dreaming together : Zanka Contact",
+    "runtime": 120,
+    "release_date": "2021-06-21",
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "countries": [
+      "BE",
+      "FR",
+      "MA"
+    ],
+    "original_language": "ar",
+    "director": "Ismaël el Iraki",
+    "cast": [
+      "Ahmed Hammoud",
+      "Said Bey",
+      "Mourad Zaoui",
+      "Fatima Attif",
+      "Khansa Batma"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/4Aa2JNdo8rA30hHLLKtNkZEsIeL.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/vApJhgtmMb2FGiYsCGRAb1qhr3t.jpg",
+    "tmdb_rating": 5.9,
+    "tmdb_votes": 9,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt12668892/"
+    }
+  },
+  "3484": {
+    "tmdb_id": 662400,
+    "title": "Days",
+    "original_title": "日子",
+    "overview": "Kang lives alone in a big house, Non in a small apartment in town. They meet, and then part, their days flowing on as before.",
+    "runtime": 126,
+    "release_date": "2021-05-21",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "TW"
+    ],
+    "original_language": "zh",
+    "director": "Tsai Ming-liang",
+    "cast": [
+      "Lee Kang-sheng",
+      "Anong Houngheuangsy"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/xH5M5KOm7FrGAPEqnh4zPkPfTN1.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/xXnpAzwQmP9ByQ7kBDQjHgGOJbL.jpg",
+    "tmdb_rating": 6.3,
+    "tmdb_votes": 45,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt11697820/"
+    }
+  },
+  "3485": {
+    "tmdb_id": 539048,
+    "title": "The Truk",
+    "original_title": "K contraire",
+    "overview": "Fresh out of jail, Ulysse has only one idea in mind: making money. Confronted by his depressed mother, Gabrielle, the bills that never stop piling up and his desire to live his life to the full, he makes a plan. With his best friend, David, he travels from rave to rave, selling a mixture of water and Ketamine from their food truck. Together, they hit the road...",
+    "runtime": 83,
+    "release_date": "2018-08-30",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "FR",
+      "UA"
+    ],
+    "original_language": "fr",
+    "director": "Sarah Marx",
+    "cast": [
+      "Sandor Funtek",
+      "Alexis Manenti",
+      "Sandrine Bonnaire",
+      "Lauréna Thellier",
+      "Virginie Acariès"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/uqV9TCwXvXaHz1vm9jX0alsp4ea.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/qSx6erNOL99qncseoC2vFkSr933.jpg",
+    "tmdb_rating": 6,
+    "tmdb_votes": 22,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt8847018/"
+    }
+  },
+  "3486": {
+    "tmdb_id": 667995,
+    "title": "DAU. Natasha",
+    "original_title": "DAU. Natasha",
+    "overview": "Natasha runs the canteen at a secret 1950s Soviet research institute. This is the beating heart of the DAU universe, everyone drops in here: the institute's employees, scientists and visiting foreign guests. Natasha's world is a small one, split between the demands of the canteen during the day and alcohol fuelled nights with her younger colleague Olga, during which the two confide their hopes of romance and for a different future. At a party one evening Natasha becomes close to a visiting French scientist Luc Bige and the two sleep together. The following day her life takes a dramatic turn when she is summoned to an interrogation by the KGB's General Vladimir Azhippo who questions the nature of her relationship with the foreign guest.",
+    "runtime": 138,
+    "release_date": "2021-08-26",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "GB",
+      "DE",
+      "RU",
+      "UA"
+    ],
+    "original_language": "ru",
+    "director": "Ilya Khrzhanovsky, Jekaterina Oertel",
+    "cast": [
+      "Natalia Berezhnaya",
+      "Olga Shkabarnya",
+      "Vladimir Azhippo",
+      "Alexey Blinov",
+      "Luc Bigé"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/d4DNYzlDcKcsuA9d9hlhvB1aSE6.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/7cMWa2cuHQc9QiHCSWCznhDS3Ux.jpg",
+    "tmdb_rating": 5.65,
+    "tmdb_votes": 20,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt11697832/"
+    }
+  },
+  "3487": {
+    "tmdb_id": 614292,
+    "title": "Bad Tales",
+    "original_title": "Favolacce",
+    "overview": "In a small suburb on the outskirts of Rome, the cheerful heat of summer camouflages a stifling atmosphere of alienation. From a distance, the families seem normal, but it’s an illusion: in the houses, courtyards and gardens, silence shrouds the subtle sadism of the fathers, the passivity of the mothers and the guilty indifference of adults. But it’s the desperation and repressed rage of the children that will explode and cut through this grotesque façade, with devastating consequences for the entire community.",
+    "runtime": 98,
+    "release_date": "2020-06-15",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "IT",
+      "CH"
+    ],
+    "original_language": "it",
+    "director": "Fabio D'Innocenzo, Damiano D'Innocenzo",
+    "cast": [
+      "Elio Germano",
+      "Tommaso Di Cola",
+      "Giulietta Rebeggiani",
+      "Gabriel Montesi",
+      "Justin Alexander Korovkin"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/k2NTmlJkdHhEZtKGQhQz5ovozAB.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/e0uN3SIAeo3rOiXa8WppXXjoiew.jpg",
+    "tmdb_rating": 6.7,
+    "tmdb_votes": 620,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt8526370/"
+    }
   }
 };
