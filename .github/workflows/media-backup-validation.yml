@@ -17,7 +17,7 @@ jobs:
       - run: npm ci --ignore-scripts
       - run: node scripts/prepare-award-dates.mjs
       - run: git diff --exit-code -- award-dates-data.js
-      - run: node --test tests/award-dates.test.mjs tests/media.test.mjs tests/routes.test.mjs tests/details.test.mjs tests/awards.test.mjs tests/oscars-history.test.mjs tests/bafta-history.test.mjs tests/globes-history.test.mjs tests/cannes-history.test.mjs tests/venice-history.test.mjs tests/berlinale-history.test.mjs
+      - run: node --test tests/film-awards-history.test.mjs tests/award-dates.test.mjs tests/media.test.mjs tests/routes.test.mjs tests/details.test.mjs tests/awards.test.mjs tests/oscars-history.test.mjs tests/bafta-history.test.mjs tests/globes-history.test.mjs tests/cannes-history.test.mjs tests/venice-history.test.mjs tests/berlinale-history.test.mjs
       - name: Ensure canonical identity seed is current
         run: |
           node scripts/seed-media-catalogue.mjs

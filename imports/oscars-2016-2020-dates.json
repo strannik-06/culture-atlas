@@ -1,0 +1,62 @@
+[
+  {
+    "section": "films",
+    "event": "Oscars",
+    "year": 2016,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2016-02-28",
+        "source": "https://www.oscars.org/oscars/ceremonies/2016"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Oscars",
+    "year": 2017,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2017-02-26",
+        "source": "https://www.oscars.org/oscars/ceremonies/2017"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Oscars",
+    "year": 2018,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2018-03-04",
+        "source": "https://www.oscars.org/oscars/ceremonies/2018"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Oscars",
+    "year": 2019,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2019-02-24",
+        "source": "https://www.oscars.org/oscars/ceremonies/2019"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Oscars",
+    "year": 2020,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2020-02-09",
+        "source": "https://www.oscars.org/oscars/ceremonies/2020"
+      }
+    ]
+  }
+]

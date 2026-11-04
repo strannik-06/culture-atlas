@@ -1725,5 +1725,401 @@ window.CULTURE_AWARD_EVENT_DATES = [
         "source": "https://goldenglobes.com/articles/everything-to-know-about-the-82nd-annual-golden-globes/"
       }
     ]
+  },
+  {
+    "section": "films",
+    "event": "Oscars",
+    "year": 2016,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2016-02-28",
+        "source": "https://www.oscars.org/oscars/ceremonies/2016"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Oscars",
+    "year": 2017,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2017-02-26",
+        "source": "https://www.oscars.org/oscars/ceremonies/2017"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Oscars",
+    "year": 2018,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2018-03-04",
+        "source": "https://www.oscars.org/oscars/ceremonies/2018"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Oscars",
+    "year": 2019,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2019-02-24",
+        "source": "https://www.oscars.org/oscars/ceremonies/2019"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Oscars",
+    "year": 2020,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2020-02-09",
+        "source": "https://www.oscars.org/oscars/ceremonies/2020"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "BAFTA",
+    "year": 2016,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2016-02-14",
+        "source": "https://www.bafta.org/media-centre/press-releases/ee-british-academy-film-awards-winners-announced-2/"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "BAFTA",
+    "year": 2017,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2017-02-12",
+        "source": "https://www.bafta.org/media-centre/press-releases/winners-announced-for-the-ee-british-academy-film-awards-in-2017/"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "BAFTA",
+    "year": 2018,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2018-02-18",
+        "source": "https://www.bafta.org/media-centre/press-releases/winners-announced-for-the-ee-british-academy-film-awards-in-2018/"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "BAFTA",
+    "year": 2019,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2019-02-10",
+        "source": "https://www.bafta.org/media-centre/press-releases/winners-announced-ee-british-academy-film-awards-in-2019/"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "BAFTA",
+    "year": 2020,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2020-02-02",
+        "source": "https://www.bafta.org/media-centre/press-releases/winners-announced-ee-british-academy-film-awards-2020/"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Golden Globes",
+    "year": 2016,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2016-01-10",
+        "source": "https://goldenglobes.com/articles/date-set-2016-golden-globes/"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Golden Globes",
+    "year": 2017,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2017-01-08",
+        "source": "https://goldenglobes.com/articles/presenters-at-the-74th-annual-golden-globe-awards/"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Golden Globes",
+    "year": 2018,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2018-01-07",
+        "source": "https://goldenglobes.com/articles/logo-unveiled-celebrating-golden-globes-75th-anniversary/"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Golden Globes",
+    "year": 2019,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2019-01-06",
+        "source": "https://goldenglobes.com/articles/hfpa-announces-timetable-for-the-76th-golden-globe-awards/"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Golden Globes",
+    "year": 2020,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2020-01-05",
+        "source": "https://goldenglobes.com/articles/timeline-for-77th-golden-globes-announced/"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Berlinale",
+    "year": 2016,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2016-02-11",
+        "end": "2016-02-21",
+        "source": "https://www.berlinale.de/en/archive/yearbooks/2016.html"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Berlinale",
+    "year": 2017,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2017-02-09",
+        "end": "2017-02-19",
+        "source": "https://www.berlinale.de/en/archive/yearbooks/2017.html"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Berlinale",
+    "year": 2018,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2018-02-15",
+        "end": "2018-02-25",
+        "source": "https://www.berlinale.de/en/archive/yearbooks/2018.html"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Berlinale",
+    "year": 2019,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2019-02-07",
+        "end": "2019-02-17",
+        "source": "https://www.berlinale.de/en/archive/yearbooks/2019.html"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Berlinale",
+    "year": 2020,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2020-02-20",
+        "end": "2020-03-01",
+        "source": "https://www.berlinale.de/en/archive/yearbooks/2020.html"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Venice",
+    "year": 2016,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2016-08-31",
+        "end": "2016-09-10",
+        "source": "https://www.labiennale.org/en/history/recent-years"
+      },
+      {
+        "label": "Awards ceremony",
+        "start": "2016-09-10",
+        "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2016"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Venice",
+    "year": 2017,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2017-08-30",
+        "end": "2017-09-09",
+        "source": "https://www.labiennale.org/en/cinema/2017/74th-venice-film-festival"
+      },
+      {
+        "label": "Awards ceremony",
+        "start": "2017-09-09",
+        "source": "https://www.labiennale.org/en/news/official-awards-74th-venice-film-festival"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Venice",
+    "year": 2018,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2018-08-29",
+        "end": "2018-09-08",
+        "source": "https://www.labiennale.org/en/cinema/2018"
+      },
+      {
+        "label": "Awards ceremony",
+        "start": "2018-09-08",
+        "source": "https://www.labiennale.org/en/news/official-awards-75th-venice-film-festival"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Venice",
+    "year": 2019,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2019-08-28",
+        "end": "2019-09-07",
+        "source": "https://www.labiennale.org/en/cinema/2019/76th-festival"
+      },
+      {
+        "label": "Awards ceremony",
+        "start": "2019-09-07",
+        "source": "https://www.labiennale.org/en/news/official-awards-76th-venice-film-festival"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Venice",
+    "year": 2020,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2020-09-02",
+        "end": "2020-09-12",
+        "source": "https://www.labiennale.org/en/cinema/2020/77th-festival"
+      },
+      {
+        "label": "Awards ceremony",
+        "start": "2020-09-12",
+        "source": "https://www.labiennale.org/en/news/official-awards-77th-venice-film-festival"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Cannes",
+    "year": 2016,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2016-05-11",
+        "end": "2016-05-22",
+        "source": "https://www.festival-cannes.com/en/press/press-releases/official-poster-for-the-69th-festival-de-cannes/"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Cannes",
+    "year": 2017,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2017-05-17",
+        "end": "2017-05-28",
+        "source": "https://www.festival-cannes.com/en/2016/submission-of-films-for-2017/"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Cannes",
+    "year": 2018,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2018-05-08",
+        "end": "2018-05-19",
+        "source": "https://www.festival-cannes.com/en/press/press-releases/dates-for-the-2018-festival-de-cannes/"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Cannes",
+    "year": 2019,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2019-05-14",
+        "end": "2019-05-25",
+        "source": "https://www.festival-cannes.com/en/press/press-releases/alejandro-gonzalez-inarritu-jury-president-of-the-festival-de-cannes-2019/"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Cannes",
+    "year": 2020,
+    "status": "not-held",
+    "dates": [],
+    "note": "Usual feature competitions and jury awards were not held.",
+    "source": "https://www.festival-cannes.com/en/press/press-releases/the-official-selection-2020/"
   }
 ];
