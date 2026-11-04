@@ -6,15 +6,17 @@
       "桃姐"
     ],
     "director_aliases": [],
-    "note": "Official festival romanization Taojie corresponds to the Cantonese Tou ze / international A Simple Life. Ann Hui, Andy Lau and Deanie Ip identify the 2011 feature.",
+    "note": "Official festival romanization Taojie corresponds to the Cantonese Tou ze / international A Simple Life. Ann Hui, Andy Lau and Deanie Ip identify the 2011 feature. The provider uses the fuller actor name Andy Lau Tak-wah; Hong Kong Baptist University’s honorary-degree citation independently confirms that full name and his A Simple Life role.",
     "source_urls": [
       "https://asac.labiennale.org/attivita/cinema/225276",
-      "https://www.imdb.com/title/tt2008006/"
+      "https://www.imdb.com/title/tt2008006/",
+      "https://www.hkbu.edu.hk/en/about/honorary-doctorates-and-honorary-university-fellows/andy-lau-tak-wah.html"
     ],
     "imdb_id": "tt2008006",
     "required_cast": [
-      "Andy Lau"
-    ]
+      "Andy Lau Tak-wah"
+    ],
+    "tmdb_id": 91186
   },
   "https://asac.labiennale.org/attivita/cinema/225279": {
     "aliases": [],
@@ -79,17 +81,22 @@
       "Thy Womb",
       "Sinapupunan"
     ],
-    "director_aliases": [],
-    "note": "Festival source combines Filipino and English titles; the Asia Pacific Screen Awards identifies Brillante Mendoza’s Thy Womb in the 2012 Venice Competition.",
+    "director_aliases": [
+      "Brillante Ma Mendoza"
+    ],
+    "note": "Festival source combines Filipino and English titles; the Asia Pacific Screen Awards identifies Brillante Mendoza’s Thy Womb in the 2012 Venice Competition. Brillante Ma Mendoza is the credited fuller director name, verified by the Asia Pacific Screen Awards film page and IMDb’s original credit; it is the same filmmaker.",
     "source_urls": [
       "https://asac.labiennale.org/attivita/cinema/230594",
       "https://www.asiapacificscreenawards.com/films/thy-womb",
-      "https://www.imdb.com/title/tt2395459/"
+      "https://www.imdb.com/title/tt2395459/",
+      "https://www.asiapacificscreenawards.com/apsa-academy-members/brillante-ma-mendoza",
+      "https://www.imdb.com/title/tt2395459/fullcredits/"
     ],
     "imdb_id": "tt2395459",
     "required_cast": [
       "Nora Aunor"
-    ]
+    ],
+    "tmdb_id": 122080
   },
   "https://asac.labiennale.org/attivita/cinema/230632": {
     "aliases": [],

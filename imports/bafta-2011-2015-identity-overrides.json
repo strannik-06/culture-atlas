@@ -7,12 +7,16 @@
     "director_aliases": [
       "Martin Scorsese"
     ],
-    "note": "Shorter official title/search form for the 2011 Martin Scorsese feature documentary. The contemporary BAFTA nomination PDF credits Scorsese, Olivia Harrison and Nigel Sinclair; the artist's official film announcement confirms the full title, director and 2011 release.",
+    "note": "Shorter official title/search form for the 2011 Martin Scorsese feature documentary. The contemporary BAFTA nomination PDF credits Scorsese, Olivia Harrison and Nigel Sinclair; the artist's official film announcement confirms the full title, director and 2011 release. IMDb confirms tt1113829 as the 2011 Martin Scorsese 208-minute film; the US distributor listing also identifies a 208-minute movie. Other services carry a two-part television presentation. Do not substitute a TMDB TV ID into a movie provider link.",
     "sources": [
       "https://static.bafta.org/files/nominees-1112-1282.pdf",
       "https://www.georgeharrison.com/george-harrison-documentary-and-book-announced/",
-      "https://www.georgeharrison.com/films/living-in-the-material-world/"
-    ]
+      "https://www.georgeharrison.com/films/living-in-the-material-world/",
+      "https://www.imdb.com/Title/tt1113829/",
+      "https://tv.apple.com/us/movie/george-harrison-living-in-the-material-world/umc.cmc.22gunbi1g7j5hpk3rolicxy6t",
+      "https://www.georgeharrison.com/london-premiere-of-george-documentary-on-sunday-2nd-october/"
+    ],
+    "imdb_id": "tt1113829"
   },
   "BAFTA/2012/The Adventures Of Tintin: The Secret Of The Unicorn": {
     "aliases": [
