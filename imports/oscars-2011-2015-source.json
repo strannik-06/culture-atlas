@@ -742,9 +742,12 @@
               "winner": false
             },
             {
-              "title": "Les Mis_rables",
+              "title": "Les Misérables",
               "person": "Tim Bevan, Eric Fellner, Debra Hayward and Cameron Mackintosh, Producers",
-              "winner": false
+              "winner": false,
+              "source_original_title": "Les Mis_rables",
+              "normalization_note": "Academy archive typo in Best Picture title; corrected to the spelling used for Hugh Jackman and Anne Hathaway nominations on this same official ceremony page.",
+              "normalization_source": "https://www.oscars.org/oscars/ceremonies/2013"
             },
             {
               "title": "Life of Pi",

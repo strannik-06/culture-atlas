@@ -33,8 +33,849 @@
   },
   "Golden Globes/2015/Birdman": {
     "director_anchor_aliases": [
+      "Alejandro G. Iñárritu",
+      "Alejandro González Iñárritu",
+      "Alejandro Iñárritu"
+    ],
+    "note": "The official Globes short title Birdman is the 2014 Iñárritu feature. Distributor Searchlight explicitly expands it to Birdman or The Unexpected Virtue of Ignorance and credits Iñárritu and Michael Keaton. Its IMDb full-title record is tt2562232. Excludes Guy Bolongaro’s unrelated 2015 Birdman.",
+    "imdb_id": "tt2562232",
+    "aliases": [
+      "Birdman or (The Unexpected Virtue of Ignorance)",
+      "Birdman or The Unexpected Virtue of Ignorance"
+    ],
+    "director_aliases": [
+      "Alejandro González Iñárritu",
+      "Alejandro G. Iñárritu",
+      "Alejandro Iñárritu"
+    ],
+    "required_cast": [
+      "Michael Keaton",
+      "Emma Stone",
+      "Edward Norton"
+    ],
+    "source_urls": [
+      "https://goldenglobes.com/film/birdman/",
+      "https://www.searchlightpictures.com/birdman",
+      "https://www.imdb.com/title/tt2562232/"
+    ]
+  },
+  "BAFTA/2013/Anna Karenina": {
+    "director_aliases": [
+      "Joe Wright"
+    ],
+    "note": "Disambiguates same-title features using the ceremony release window and reviewed directing identity."
+  },
+  "BAFTA/2013/The Hunt": {
+    "director_aliases": [
+      "Thomas Vinterberg"
+    ],
+    "note": "Disambiguates same-title features using the ceremony release window and reviewed directing identity."
+  },
+  "Golden Globes/2014/The Hunt": {
+    "director_aliases": [
+      "Thomas Vinterberg"
+    ],
+    "note": "Disambiguates same-title features using the ceremony release window and reviewed directing identity."
+  },
+  "Oscars/2014/The Hunt": {
+    "director_aliases": [
+      "Thomas Vinterberg"
+    ],
+    "note": "Disambiguates same-title features using the ceremony release window and reviewed directing identity."
+  },
+  "BAFTA/2015/Leviathan": {
+    "director_aliases": [
+      "Andrey Zvyagintsev"
+    ],
+    "note": "Disambiguates same-title features using the ceremony release window and reviewed directing identity."
+  },
+  "Golden Globes/2015/Leviathan": {
+    "director_aliases": [
+      "Andrey Zvyagintsev"
+    ],
+    "note": "Disambiguates same-title features using the ceremony release window and reviewed directing identity."
+  },
+  "Oscars/2015/Leviathan": {
+    "director_aliases": [
+      "Andrey Zvyagintsev"
+    ],
+    "note": "Disambiguates same-title features using the ceremony release window and reviewed directing identity."
+  },
+  "Oscars/2011/Outside the Law (Hors-la-loi)": {
+    "aliases": [
+      "Outside the Law",
+      "Outside of the Law",
+      "Hors la loi"
+    ],
+    "imdb_id": "tt1229381",
+    "director_aliases": [
+      "Rachid Bouchareb"
+    ],
+    "note": "Academy title includes the French title in parentheses; official Cannes record confirms 2010 feature, Rachid Bouchareb and both titles.",
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2011",
+      "https://www.festival-cannes.com/en/f/hors-la-loi/",
+      "https://www.imdb.com/title/tt1229381/"
+    ]
+  },
+  "Oscars/2012/In Darkness": {
+    "tmdb_id": 73686,
+    "director_aliases": [
+      "Agnieszka Holland"
+    ],
+    "note": "Polish Academy nominee is Agnieszka Holland's feature, not Çağan Irmak's 2009 film of the same English title. Distributor explicitly identifies director and nominee status.",
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2012",
+      "https://www.sonypictures.com/movies/indarkness",
+      "https://www.sonyclassics.com/indarkness/"
+    ]
+  },
+  "Oscars/2013/5 Broken Cameras": {
+    "aliases": [
+      "Five Broken Cameras"
+    ],
+    "imdb_id": "tt2125423",
+    "director_aliases": [
+      "Emad Burnat, Guy Davidi"
+    ],
+    "note": "Provider spells the initial numeral as Five. Distributor and Academy identify Emad Burnat and Guy Davidi's documentary.",
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2013",
+      "https://kinolorber.com/film/5brokencameras",
+      "https://www.imdb.com/title/tt2125423/"
+    ]
+  },
+  "Oscars/2013/No": {
+    "imdb_id": "tt2059255",
+    "director_aliases": [
+      "Pablo Larraín"
+    ],
+    "note": "Short generic title is lost in broad provider search. Distributor and festival identify Pablo Larraín's 2012 Chilean film with Gael García Bernal.",
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2013",
+      "https://www.bfdistribution.cl/pelicula/no/",
+      "https://iffr.com/en/iffr/2013/films/no",
+      "https://www.imdb.com/title/tt2059255/"
+    ]
+  },
+  "Oscars/2013/The Pirates! Band of Misfits": {
+    "aliases": [
+      "The Pirates! In an Adventure with Scientists!",
+      "The Pirates! In an Adventure with Scientists"
+    ],
+    "imdb_id": "tt1430626",
+    "director_aliases": [
+      "Peter Lord"
+    ],
+    "note": "US Academy title and UK producer title refer to the same 2012 Aardman feature directed by Peter Lord.",
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2013",
+      "https://aardman.com/film-tv-games/the-pirates/",
+      "https://www.imdb.com/title/tt1430626/"
+    ]
+  },
+  "Oscars/2014/Omar": {
+    "imdb_id": "tt2852406",
+    "director_aliases": [
+      "Hany Abu-Assad"
+    ],
+    "note": "Short title needs direct identity lookup. Official Cannes page and distributor identify Hany Abu-Assad's 2013 Palestinian feature.",
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2014",
+      "https://cinemadedemain.festival-cannes.com/en/f/omar/",
+      "https://kinolorber.com/film/omar",
+      "https://www.imdb.com/title/tt2852406/"
+    ]
+  },
+  "BAFTA/2012/George Harrison: Living In The Material World": {
+    "aliases": [
+      "Living in the Material World",
+      "George Harrison"
+    ],
+    "director_aliases": [
+      "Martin Scorsese"
+    ],
+    "note": "Shorter official title/search form for the 2011 Martin Scorsese feature documentary. The contemporary BAFTA nomination PDF credits Scorsese, Olivia Harrison and Nigel Sinclair; the artist's official film announcement confirms the full title, director and 2011 release.",
+    "sources": [
+      "https://static.bafta.org/files/nominees-1112-1282.pdf",
+      "https://www.georgeharrison.com/george-harrison-documentary-and-book-announced/",
+      "https://www.georgeharrison.com/films/living-in-the-material-world/"
+    ]
+  },
+  "BAFTA/2012/The Adventures Of Tintin: The Secret Of The Unicorn": {
+    "aliases": [
+      "The Adventures of Tintin"
+    ],
+    "director_aliases": [
+      "Steven Spielberg"
+    ],
+    "note": "BAFTA's title contains the Secret of the Unicorn subtitle; the producer and distributor use The Adventures of Tintin for the same 2011 Steven Spielberg animated feature.",
+    "sources": [
+      "https://static.bafta.org/files/nominees-1112-1282.pdf",
+      "https://www.paramount.com/movies/the-adventures-of-tintin",
+      "https://amblin.com/movie/the-adventures-of-tintin/",
+      "https://www.tintin.com/en/videos/460/the-adventures-of-tintin-trailer-"
+    ]
+  },
+  "BAFTA/2013/Untouchable": {
+    "aliases": [
+      "The Intouchables",
+      "Intouchables"
+    ],
+    "director_aliases": [
+      "Olivier Nakache, Éric Toledano"
+    ],
+    "imdb_id": "tt1675434",
+    "note": "British title Untouchable identifies the 2011 French feature Intouchables, not the unrelated same-title Kristin Hansen film. The directors in the contemporary BAFTA PDF, European Film Academy entry and San Sebastián festival page establish the regional-title identity; the existing catalogue identity supplies the reviewed IMDb pin.",
+    "sources": [
+      "https://static.bafta.org/files/film-1213-nominees-1647.pdf",
+      "https://www.europeanfilmawards.eu/efa-movie/untouchable/",
+      "https://www.sansebastianfestival.com/secciones_y_peliculas/7/590068/es"
+    ]
+  },
+  "BAFTA/2014/Blue Is The Warmest Colour": {
+    "aliases": [
+      "Blue Is the Warmest Color",
+      "La Vie d'Adèle - Chapitres 1 et 2"
+    ],
+    "director_aliases": [
+      "Abdellatif Kechiche"
+    ],
+    "imdb_id": "tt2278871",
+    "note": "British Colour and US Color spellings identify Abdellatif Kechiche's 2013 feature. Cannes preserves the original title and British English title; the US distributor uses Color. Reuses the existing reviewed catalogue IMDb identity.",
+    "sources": [
+      "https://static.bafta.org/files/film-1314-nominations-master-list-2141.pdf",
+      "https://www.festival-cannes.com/en/f/la-vie-d-adele-chapitre-1-2/",
+      "https://www.independentfilmco.com/films/blue-is-the-warmest-color"
+    ]
+  },
+  "BAFTA/2015/Birdman": {
+    "aliases": [
+      "Birdman or (The Unexpected Virtue of Ignorance)",
+      "Birdman or The Unexpected Virtue of Ignorance"
+    ],
+    "director_aliases": [
       "Alejandro G. Iñárritu"
     ],
-    "note": "Provider uses middle initial G. for González; remaining film title, year and nominated credits are verified."
+    "imdb_id": "tt2562232",
+    "note": "BAFTA's short title expands to the full distributor title. Match Alejandro G. Iñárritu and all three nominated actors (Michael Keaton, Edward Norton, Emma Stone), not the unrelated 2015 Guy Bolongaro film. Reuses the existing reviewed catalogue IMDb identity.",
+    "sources": [
+      "https://static.bafta.org/uploads_pre_202411/bafta-film-nominations-list-2015.pdf",
+      "https://www.searchlightpictures.com/birdman",
+      "https://www.20thcenturystudios.com/movies/birdman-or-the-unexpected-virtue-of-ignorance"
+    ]
+  },
+  "Golden Globes/2011/The Edge": {
+    "imdb_id": "tt1706414",
+    "aliases": [
+      "Kray",
+      "Край",
+      "Edge of War"
+    ],
+    "director_aliases": [
+      "Alexey Uchitel",
+      "Aleksey Uchitel",
+      "Alexei Uchitel"
+    ],
+    "required_cast": [
+      "Vladimir Mashkov",
+      "Anjorka Strechel"
+    ],
+    "note": "The 2011 Golden Globes foreign-language nominee is the 2010 Russian feature Kray, directed by Uchitel, about Ignat and Siberian locomotives. The award record, official producer filmography and distribution credits distinguish it from the 1997 American thriller and unrelated films. The IMDb identifier points to this exact original title/year/director. Provider title aliases retain transliteration and Cyrillic original title.",
+    "source_urls": [
+      "https://goldenglobes.com/film/the-edge/",
+      "https://www.imdb.com/title/tt1706414/",
+      "https://cdn-media.festival-cannes.com/pdf/0001/45/bc207496ced344164760193ecd99767483201354.pdf",
+      "https://tv.apple.com/us/movie/the-edge/umc.cmc.11sxsf9he359ihk2q5lf66wbc"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/11-25-jiketsu-no-hi-mishima-yukio-to-wakamonotachi/": {
+    "imdb_id": "tt1728686",
+    "aliases": [
+      "11.25: The Day He Chose His Own Fate",
+      "11.25 The Day He Chose His Own Fate"
+    ],
+    "note": "Shortened English international title confirmed by IMDb and Kinodvor, matching Koji Wakamatsu and Mishima plot; Cannes2012 entry notes2011 production, a120-minute feature.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/11-25-jiketsu-no-hi-mishima-yukio-to-wakamonotachi/",
+      "https://www.imdb.com/title/tt1728686/",
+      "https://www.kinodvor.org/en/film/mishima-25-11-dan-ko-si-je-sodil-sam/"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/alias-maria/": {
+    "tmdb_id": 337115,
+    "imdb_id": "tt3685554",
+    "director_aliases": [
+      "José Luis Rugeles"
+    ],
+    "note": "Colombian film agency lists the same2015 film and director using shortened surname without Gracia.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/alias-maria/",
+      "https://www.proimagenescolombia.com/secciones/cine_colombiano/peliculas_colombianas/pelicula_plantilla.php?id_pelicula=2118",
+      "https://www.imdb.com/title/tt3685554/"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/la-playa-d-c/": {
+    "tmdb_id": 133878,
+    "imdb_id": "tt2369025",
+    "director_aliases": [
+      "Juan Andrés Arango Garcia"
+    ],
+    "note": "IMDb director credit includes additional surname Garcia; matches2012 film and Cannes synopsis, production and duration.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/la-playa-d-c/",
+      "https://www.imdb.com/title/tt2369025/fullcredits/"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/mystery/": {
+    "imdb_id": "tt2369127",
+    "aliases": [
+      "Fu cheng mi shi"
+    ],
+    "director_aliases": [
+      "Ye Lou"
+    ],
+    "note": "IMDb original title and2012 director verified against Cannes Mystery record and named cast/synopsis. Crowded English title requires IMDb lookup.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/mystery/",
+      "https://www.imdb.com/title/tt2369127/",
+      "https://www.festival-cannes.com/en/2012/lou-ye-presents-mystery-opening-un-certain-regard/"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/okhotnik/": {
+    "imdb_id": "tt1922675",
+    "aliases": [
+      "The Hunter"
+    ],
+    "note": "IMDb confirms original Okhotnik and Bakur Bakuradze2011 Russian feature, distinct from Daniel Nettheim film and shorts.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/okhotnik/",
+      "https://www.imdb.com/title/tt1922675/"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/omar/": {
+    "imdb_id": "tt2852406",
+    "note": "IMDb title/director/year and Palestinian informant story identify Hany Abu-Assad2013 feature.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/omar/",
+      "https://www.imdb.com/title/tt2852406/"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/rak-ti-khon-kaen/": {
+    "aliases": [
+      "Cemetery of Splendor"
+    ],
+    "note": "US distributor confirms American spelling Splendor for Apichatpong Weerasethakul feature,122 minutes, with Banlop Lomnoi and Jenjira Pongpas. Avoid ambiguous duplicate IMDb URL; provider identity is verified by title, director and feature runtime.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/rak-ti-khon-kaen/",
+      "https://strandreleasing.com/films/cemetery-of-splendor/"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/run/": {
+    "imdb_id": "tt2375473",
+    "note": "IMDb identifies Philippe Lacôte2014 Ivorian feature,100 minutes, with Abdoul-Karim Konate and Isaach De Bankolé, distinct from homonymous films.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/run/",
+      "https://www.imdb.com/title/tt2375473/"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/student/": {
+    "imdb_id": "tt2369333",
+    "note": "IMDb identifies Darezhan Omirbayev2012 Crime and Punishment adaptation,90 minutes, matching the official Cannes feature.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/student/",
+      "https://www.imdb.com/title/tt2369333/"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/taklub/": {
+    "tmdb_id": 334876,
+    "imdb_id": "tt4636000",
+    "aliases": [
+      "Trap"
+    ],
+    "director_aliases": [
+      "Brillante Ma Mendoza"
+    ],
+    "note": "IMDb international title Trap and original Taklub; Brillante Ma Mendoza is director professional-name variant already independently documented for Ma Rosa. Cannes director profile links both works.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/taklub/",
+      "https://www.imdb.com/title/tt4636000/",
+      "https://www.festival-cannes.com/en/p/brillante-mendoza/",
+      "https://www.torinofilmfest.org/en/34-torino-film-festival/film/ma%27-rosa/29713/"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/the-disappearance-of-eleanor-rigby/": {
+    "imdb_id": "tt3729920",
+    "aliases": [
+      "The Disappearance of Eleanor Rigby: Them"
+    ],
+    "required_cast": [
+      "James McAvoy",
+      "Jessica Chastain"
+    ],
+    "note": "Cannes2014 Ned Benson interview explicitly describes this third film taking an omniscient view of Them, rather than His/Hers. Thus select Them2014, not either2013 companion feature. Official runtime119 minutes; current IMDb runtime123 minutes is a presentation difference, not a different identity.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/the-disappearance-of-eleanor-rigby/",
+      "https://www.festival-cannes.com/en/2014/un-certain-regard-rendez-vous-the-disappearance-of-eleanor-rigby-by-ned-benson/",
+      "https://www.imdb.com/title/tt3729920/"
+    ]
+  },
+  "https://www.berlinale.de/en/2011/programme/20113291.html": {
+    "tmdb_id": 64744,
+    "director_aliases": [
+      "Aleksandr Mindadze"
+    ],
+    "note": "Alexander/Aleksandr Mindadze are transliterations of the same director. Official Berlinale uses Alexander; Norwegian film-club federation credits Aleksandr for the same Chernobyl film.",
+    "source_urls": [
+      "https://www.berlinale.de/en/2011/programme/20113291.html",
+      "https://filmklubb.no/film/innocent-saturday/",
+      "https://miff.com.au/festival-archive/films/24432/innocent-saturday"
+    ]
+  },
+  "https://www.berlinale.de/en/2011/programme/20116885.html": {
+    "imdb_id": "tt1832382",
+    "aliases": [
+      "A Separation"
+    ],
+    "note": "The official original title and longer English alias correspond to the international release title A Separation. Discover through the verified IMDb identity, then retain exact title/director/year checks. Cineart distributor pressbook confirms Farhadi, 2011 and 123 minutes.",
+    "source_urls": [
+      "https://www.berlinale.de/en/2011/programme/20116885.html",
+      "https://www.imdb.com/title/tt1832382",
+      "https://www.cineart.nl/download/file/id/2314"
+    ]
+  },
+  "https://www.berlinale.de/en/2012/programme/20123683.html": {
+    "tmdb_id": 110383,
+    "director_aliases": [
+      "Benedek Fliegauf"
+    ],
+    "note": "Bence is the familiar form of Benedek Fliegauf. Hungarian National Film Institute uses Bence in its film description and Benedek in its on-set photograph credit for Just the Wind.",
+    "source_urls": [
+      "https://www.berlinale.de/en/2012/programme/20123683.html",
+      "https://nfi.hu/en/core-films-1/films-3/feature-films-1/just-the-wind.html",
+      "https://www.filmgalerie451.de/en/films/just-wind"
+    ]
+  },
+  "https://www.berlinale.de/en/2012/programme/20124620.html": {
+    "tmdb_id": 98203,
+    "director_aliases": [
+      "Brillante Ma Mendoza"
+    ],
+    "note": "Brillante Mendoza / Brillante Ma Mendoza / Brillante Ma. Mendoza are director-name variants. Sales agent Playtime explicitly credits Brillante Ma Mendoza for Captive (2012); Unifrance pressbook credits Brillante Ma. Mendoza. Official archive production year 2011 and 2012 festival/release year are compatible.",
+    "source_urls": [
+      "https://www.berlinale.de/en/2012/programme/20124620.html",
+      "https://playtime.group/film/5e539a9c1bf81e41842ceece",
+      "https://medias.unifrance.org/medias/74/105/92490/presse/captive-presskit-english.pdf"
+    ]
+  },
+  "https://www.berlinale.de/en/2012/programme/20125150.html": {
+    "tmdb_id": 96821,
+    "director_aliases": [
+      "Paolo Taviani, Vittorio Taviani"
+    ],
+    "note": "The official archive abbreviates the repeated surname as Paolo & Vittorio Taviani. Filmitalia and Karlovy Vary separately credit both directors for Caesar Must Die.",
+    "source_urls": [
+      "https://www.berlinale.de/en/2012/programme/20125150.html",
+      "https://filmitalia.org/en/film/60315/",
+      "https://www.kviff.com/en/programme/film/25/6818-caesar-must-die"
+    ]
+  },
+  "https://www.berlinale.de/en/2013/programme/20132334.html": {
+    "tmdb_id": 160165,
+    "director_aliases": [
+      "Małgorzata Szumowska"
+    ],
+    "note": "Malgoska/Małgośka and Małgorzata are documented forms of the same director name, explicitly cross-referenced by Filmportal. Other official festival sources connect both variants to In the Name Of.",
+    "source_urls": [
+      "https://www.berlinale.de/en/2013/programme/20132334.html",
+      "https://www.filmportal.de/en/person/malgoska-szumowska_ef75a8fb8fc9d153e03053d50b370e84",
+      "https://frauenfilmfest.com/en/movie/in-the-name-of/"
+    ]
+  },
+  "https://www.berlinale.de/en/2013/programme/20137122.html": {
+    "imdb_id": "tt1196948",
+    "aliases": [
+      "Charlie Countryman"
+    ],
+    "note": "The Necessary Death of Charlie Countryman was released as Charlie Countryman. AFI credits Fredrik Bond and 2013 for that film; IMDb retains the longer original title. Use verified IMDb discovery and short-title alias, preserving exact director/title checks.",
+    "source_urls": [
+      "https://www.berlinale.de/en/2013/programme/20137122.html",
+      "https://catalog.afi.com/Catalog/MovieDetails/69839",
+      "https://www.imdb.com/title/tt1196948/"
+    ]
+  },
+  "https://www.berlinale.de/en/2013/programme/20137882.html": {
+    "tmdb_id": 160171,
+    "director_aliases": [
+      "Jafar Panahi, Kambuzia Partovi"
+    ],
+    "note": "Kamboziya/Kambuzia Partovi is a transliteration variant; both directors remain required. IFC Center separately credits Jafar Panahi and Kambuzia Partovi for Closed Curtain, while Berlinale uses Kamboziya.",
+    "source_urls": [
+      "https://www.berlinale.de/en/2013/programme/20137882.html",
+      "https://www.ifccenter.com/films/closed-curtain/",
+      "https://celluloid-dreams.com/films/closed-curtain/"
+    ]
+  },
+  "https://www.berlinale.de/en/2015/programme/201506040.html": {
+    "imdb_id": "tt4358230",
+    "aliases": [
+      "Ciało",
+      "Cialo",
+      "Body/Ciało"
+    ],
+    "note": "Generic Body searches omitted the 2015 Polish feature. Verified IMDb discovery identifies Małgorzata Szumowska’s film, also distributed as Body/Ciało. Official Polish distributor Kino Świat confirms title, director and year.",
+    "source_urls": [
+      "https://www.berlinale.de/en/2015/programme/201506040.html",
+      "https://www.imdb.com/title/tt4358230/",
+      "https://kinoswiat.pl/film/bodycialo/",
+      "https://www.eyefilm.nl/whats-on/body/263717"
+    ]
+  },
+  "https://www.berlinale.de/en/2015/programme/201507331.html": {
+    "tmdb_id": 320005,
+    "director_aliases": [
+      "Aleksei German Jr."
+    ],
+    "note": "Alexey/Aleksei is a transliteration variant of German Jr. Film at Lincoln Center credits Aleksei for Under Electric Clouds, while the official Berlinale and sales agent Films Boutique use Alexey.",
+    "source_urls": [
+      "https://www.berlinale.de/en/2015/programme/201507331.html",
+      "https://www.filmlinc.org/films/under-electric-clouds/",
+      "https://filmsboutique.com/film/under-electric-clouds/"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/225276": {
+    "aliases": [
+      "A Simple Life",
+      "Tou ze",
+      "桃姐"
+    ],
+    "director_aliases": [],
+    "note": "Official festival romanization Taojie corresponds to the Cantonese Tou ze / international A Simple Life. Ann Hui, Andy Lau and Deanie Ip identify the 2011 feature.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/225276",
+      "https://www.imdb.com/title/tt2008006/"
+    ],
+    "imdb_id": "tt2008006",
+    "required_cast": [
+      "Andy Lau"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/225279": {
+    "aliases": [],
+    "director_aliases": [
+      "Yorgos Lanthimos"
+    ],
+    "note": "Giorgos/Yorgos is the same director’s Greek-name romanization; the producer and IFFR list Alps/Alpeis as Yorgos Lanthimos’s 2011 feature.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/225279",
+      "https://marnifilms.gr/portfolio/alps/",
+      "https://iffr.com/en/iffr/2012/films/alps"
+    ],
+    "tmdb_id": 81857
+  },
+  "https://asac.labiennale.org/attivita/cinema/225306": {
+    "aliases": [
+      "Himizu",
+      "ヒミズ"
+    ],
+    "director_aliases": [
+      "Sion Sono"
+    ],
+    "note": "ASAC Shion Sono and Japanese film agency SONO Sion refer to the same director. ASAC’s additional English alias Themis is erroneous and is not evidence for matching any other film.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/225306",
+      "https://jfdb.jp/en/title/3192"
+    ],
+    "tmdb_id": 98631
+  },
+  "https://asac.labiennale.org/attivita/cinema/225359": {
+    "aliases": [],
+    "director_aliases": [],
+    "note": "Generic title requires IMDb discovery pin; Japanese film agency verifies Amir Naderi’s Japanese-language feature with Hidetoshi Nishijima and Takako Tokiwa.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/225359",
+      "https://jfdb.jp/en/title/2972",
+      "https://www.imdb.com/title/tt1720905/"
+    ],
+    "imdb_id": "tt1720905",
+    "required_cast": [
+      "Hidetoshi Nishijima",
+      "Takako Tokiwa"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/225383": {
+    "aliases": [
+      "I'm Carolyn Parker",
+      "I'm Carolyn Parker: The Good, the Mad, and the Beautiful"
+    ],
+    "director_aliases": [],
+    "note": "The shortened provider title identifies Jonathan Demme’s 91-minute documentary; PBS and MoMA retain the subtitle.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/225383",
+      "https://www.pbs.org/pov/films/carolynparker/",
+      "https://www.moma.org/calendar/events/4059",
+      "https://www.imdb.com/title/tt1872083/"
+    ],
+    "imdb_id": "tt1872083"
+  },
+  "https://asac.labiennale.org/attivita/cinema/230594": {
+    "aliases": [
+      "Thy Womb",
+      "Sinapupunan"
+    ],
+    "director_aliases": [],
+    "note": "Festival source combines Filipino and English titles; the Asia Pacific Screen Awards identifies Brillante Mendoza’s Thy Womb in the 2012 Venice Competition.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/230594",
+      "https://www.asiapacificscreenawards.com/films/thy-womb",
+      "https://www.imdb.com/title/tt2395459/"
+    ],
+    "imdb_id": "tt2395459",
+    "required_cast": [
+      "Nora Aunor"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/230632": {
+    "aliases": [],
+    "director_aliases": [
+      "Kianush Ayyari"
+    ],
+    "note": "Kianoush Ayari/Kianush Ayyari are romanization variants of the same Iranian director. Festival year remains 2012 despite delayed release metadata.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/230632",
+      "https://letterboxd.com/film/the-paternal-house/",
+      "https://telescopefilm.com/films/80481-the-paternal-house"
+    ],
+    "tmdb_id": 182829
+  },
+  "https://asac.labiennale.org/attivita/cinema/230656": {
+    "aliases": [
+      "Three Sisters",
+      "San zimei",
+      "三姊妹"
+    ],
+    "director_aliases": [
+      "Wang Bing"
+    ],
+    "note": "ASAC’s sorted person heading Bing (III) Wang is Wang Bing. The distributor’s presskit identifies the full 2012 153-minute Three Sisters, distinguished from unrelated same-title films and the shorter Alone edit.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/230656",
+      "https://misc.icarusfilms.com/press/pdfs/sis_pk.pdf",
+      "https://www.imdb.com/title/tt2361042/"
+    ],
+    "imdb_id": "tt2361042"
+  },
+  "https://asac.labiennale.org/attivita/cinema/234857": {
+    "aliases": [],
+    "director_aliases": [],
+    "note": "Generic title uses IMDb discovery pin for John Curran’s feature with Mia Wasikowska and Adam Driver.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/234857",
+      "https://www.imdb.com/title/tt2167266/"
+    ],
+    "imdb_id": "tt2167266",
+    "required_cast": [
+      "Mia Wasikowska",
+      "Adam Driver"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/234868": {
+    "aliases": [
+      "The Wind Rises",
+      "風立ちぬ"
+    ],
+    "director_aliases": [],
+    "note": "Official Japanese romanization Kaze tachinu corresponds to Hayao Miyazaki’s The Wind Rises, not an unrelated title.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/234868",
+      "https://www.imdb.com/title/tt2013293/"
+    ],
+    "imdb_id": "tt2013293"
+  },
+  "https://asac.labiennale.org/attivita/cinema/235089": {
+    "aliases": [],
+    "director_aliases": [
+      "Serik Aprimov",
+      "Serik Aprymov"
+    ],
+    "note": "ASAC spells the given name Seric; Viennale and FilmFestival Cottbus identify Serik Aprimov/Aprymov and Bauyr/Little Brother.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/235089",
+      "https://www.viennale.at/de/film/bauyr",
+      "https://www.filmfestivalcottbus.de/en/program-en/movie/2492.html"
+    ],
+    "tmdb_id": 217478
+  },
+  "https://asac.labiennale.org/attivita/cinema/235216": {
+    "aliases": [
+      "Fish & Cat",
+      "ماهی و گربه"
+    ],
+    "director_aliases": [],
+    "note": "Provider title uses ampersand rather than ASAC’s English word and. IMDb pins Shahram Mokri’s feature.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/235216",
+      "https://www.imdb.com/title/tt3257072/"
+    ],
+    "imdb_id": "tt3257072"
+  },
+  "https://asac.labiennale.org/attivita/cinema/235402": {
+    "aliases": [],
+    "director_aliases": [
+      "Sion Sono"
+    ],
+    "note": "Shion/Sion Sono are source/provider romanization variants; Japanese film agency lists this same feature in SONO Sion’s filmography.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/235402",
+      "https://jfdb.jp/en/person/3634"
+    ],
+    "tmdb_id": 134350
+  },
+  "https://asac.labiennale.org/attivita/cinema/249095": {
+    "aliases": [],
+    "director_aliases": [
+      "Andrei Konchalovsky"
+    ],
+    "note": "Andrey Konchalovskiy/Andrei Konchalovsky transliteration variant, independently confirmed by European Film Academy film and credits.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/249095",
+      "https://www.europeanfilmawards.eu/efa-movie/the-postmans-white-nights/",
+      "https://www.imdb.com/title/tt3591984/"
+    ],
+    "imdb_id": "tt3591984",
+    "tmdb_id": 283703
+  },
+  "https://asac.labiennale.org/attivita/cinema/249670": {
+    "aliases": [],
+    "director_aliases": [
+      "Benoît Delépine, Gustave Kervern"
+    ],
+    "note": "ASAC omits co-director Gustave Kervern. French national promotion agency and distributor confirm both Delépine and Kervern for this 87-minute feature.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/249670",
+      "https://en.unifrance.org/movie/38207/near-death-experience",
+      "https://www.advitamdistribution.com/films/near-death-experience/",
+      "https://www.imdb.com/title/tt3800012/"
+    ],
+    "imdb_id": "tt3800012",
+    "tmdb_id": 290158,
+    "required_cast": [
+      "Michel Houellebecq"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/250263": {
+    "aliases": [],
+    "director_aliases": [
+      "Elchin Guliyev"
+    ],
+    "note": "Elchin Musaoglu and Elchin Guliyev are professional/full-name variants of Elchin Musaoglu Guliyev, not different filmmakers; Chicago’s official festival winner page uses the combined full name for Nabat.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/250263",
+      "https://www.chicagofilmfestival.com/one-day-only-encore-presentation-of-the-top-festival-winners-at-the-best-of-the-fest/",
+      "https://fipresci.org/report/nabat-a-human-testament/"
+    ],
+    "tmdb_id": 292359
+  },
+  "https://asac.labiennale.org/attivita/cinema/250265": {
+    "aliases": [],
+    "director_aliases": [
+      "Josh Safdie, Benny Safdie"
+    ],
+    "note": "Joshua/Josh and Ben/Benny Safdie are name variants of the same director pair; AFI’s 2014 screening lists Josh and Benny, with the same film/cast.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/250265",
+      "https://fest.afi.com/2014/american-independents-2014/heaven-knows-what/"
+    ],
+    "tmdb_id": 285024,
+    "required_cast": [
+      "Arielle Holmes",
+      "Caleb Landry Jones"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/257221": {
+    "aliases": [],
+    "director_aliases": [
+      "Sue Brooks"
+    ],
+    "note": "ASAC’s parenthesized (I) is a person disambiguator, not part of Sue Brooks’s credited name. Screen Australia verifies the feature’s 2015 completion and 97-minute runtime.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/257221",
+      "https://www.screenaustralia.gov.au/screen-guide/Looking-for-Grace-12270/"
+    ],
+    "tmdb_id": 352156,
+    "required_cast": [
+      "Odessa Young",
+      "Radha Mitchell"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/257237": {
+    "aliases": [],
+    "director_aliases": [
+      "Cary Joji Fukunaga"
+    ],
+    "note": "The distributor Netflix uses the director’s fuller name Cary Joji Fukunaga; same film, year and lead cast.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/257237",
+      "https://media.netflix.com/en/only-on-netflix/80044545"
+    ],
+    "tmdb_id": 283587,
+    "required_cast": [
+      "Abraham Attah",
+      "Idris Elba"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/257244": {
+    "aliases": [
+      "For Your Love",
+      "Anna"
+    ],
+    "director_aliases": [
+      "Giuseppe M. Gaudino",
+      "Giuseppe Gaudino"
+    ],
+    "note": "Giuseppe Mario/Giuseppe M./Giuseppe Gaudino are full/abbreviated credits for the same filmmaker. Filmitalia verifies the original Per amor vostro, international Anna and Valeria Golino cast.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/257244",
+      "https://filmitalia.org/en/film/82083/",
+      "https://www.imdb.com/title/tt4898888/"
+    ],
+    "imdb_id": "tt4898888",
+    "tmdb_id": 352199,
+    "required_cast": [
+      "Valeria Golino"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/257988": {
+    "aliases": [
+      "Mountain",
+      "Ha'har"
+    ],
+    "director_aliases": [],
+    "note": "IMDb discovery pin selects Yaelle Kayam’s Israeli 2015 debut, also verified by Israel Film Archive; excludes unrelated documentaries/shorts with generic Mountain title.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/257988",
+      "https://jfc.org.il/en/movie/50906-2/",
+      "https://www.imdb.com/title/tt4917622/"
+    ],
+    "imdb_id": "tt4917622",
+    "required_cast": [
+      "Shani Klein"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/257992": {
+    "aliases": [
+      "Visaranai",
+      "Interrogation",
+      "விசாரணை"
+    ],
+    "director_aliases": [
+      "Vetrimaaran"
+    ],
+    "note": "One/two-a romanization variation and Tamil original title identify Vetrimaaran’s feature. IMDb pin separates it from the unrelated English-language Interrogation.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/257992",
+      "https://www.imdb.com/title/tt4991384/"
+    ],
+    "imdb_id": "tt4991384"
   }
 }

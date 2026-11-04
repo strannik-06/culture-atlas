@@ -1,4 +1,4 @@
-// Resolve the complete 2016–2020 batch before publishing any of its award pages.
+// Resolve a complete historical batch before publishing any of its award pages.
 import fs from 'node:fs';
 import vm from 'node:vm';
 import crypto from 'node:crypto';
@@ -10,7 +10,7 @@ const slugs=['oscars','bafta','globes','cannes','venice','berlinale'];
 const read=(p,k)=>{const c={window:{}};vm.runInNewContext(fs.readFileSync(p,'utf8'),c);return JSON.parse(JSON.stringify(c.window[k]));};
 const write=(p,k,v)=>fs.writeFileSync(p,'window.'+k+' = '+JSON.stringify(v,null,2)+';\n');
 const norm=s=>String(s||'').normalize('NFKD').replace(/\p{M}/gu,'').replace(/[łŁ]/g,'l').replace(/[øØ]/g,'o').replace(/[đĐðÐ]/g,'d').replace(/æ/gi,'ae').replace(/œ/gi,'oe').replace(/ı/g,'i').toLowerCase().replace(/[^\p{L}\p{N}]/gu,'');
-const directorKey=s=>norm(s).split('').sort().join('');
+const directorKey=s=>norm(String(s||'').replace(/\s+(?:and|&)\s+/gi,', ')).split('').sort().join('');
 const overrides=JSON.parse(fs.readFileSync(`imports/film-awards-${batch}-overrides.json`,'utf8'));
 const sources=slugs.map(slug=>({slug,...JSON.parse(fs.readFileSync(`imports/${slug}-${batch}-source.json`,'utf8'))}));
 const films=read('film-catalog.js','CULTURE_CATALOG'),details=read('film-details.js','CULTURE_FILM_DETAILS');
@@ -58,6 +58,10 @@ async function resolve(t){const override=overrides[t.key]||{};const signature=cr
 const queue=[...tasks.values()];let done=0;
 await Promise.all(Array.from({length:5},async()=>{while(queue.length){const t=queue.shift();try{await resolve(t);}catch(error){audit.unresolved.push({...t,reason:error.message});}if(++done%50===0)console.log(`Checked ${done}/${tasks.size}; unresolved ${audit.unresolved.length}`);}}));
 audit.verified.sort((a,b)=>a.key.localeCompare(b.key));audit.unresolved.sort((a,b)=>a.key.localeCompare(b.key));
+audit.poster_recovery=previous.poster_recovery||[];audit.unavailable_posters=[];
+for(const f of audit.new_canonical_ids)if(!present(details[f.id]?.poster)){
+ try{const images=await api('movie/'+f.tmdb_id+'/images');const posters=(images.posters||[]).filter(p=>/^\/[a-zA-Z0-9_./-]+$/.test(p.file_path||'')).sort((a,b)=>(b.iso_639_1==='en')-(a.iso_639_1==='en')||(b.vote_count||0)-(a.vote_count||0));if(posters.length){details[f.id].poster='https://image.tmdb.org/t/p/w500'+posters[0].file_path;audit.poster_recovery.push({id:f.id,tmdb_id:f.tmdb_id,method:'Provider image collection fallback'});}else audit.unavailable_posters.push({id:f.id,title:f.title,tmdb_id:f.tmdb_id});}catch(error){audit.unavailable_posters.push({id:f.id,title:f.title,reason:error.message});}
+}
 fs.writeFileSync(auditPath,JSON.stringify(audit,null,2)+'\n');
 // Persist only verified appended identities; an unresolved source never becomes a page.
 write('film-catalog.js','CULTURE_CATALOG',films);write('film-details.js','CULTURE_FILM_DETAILS',details);

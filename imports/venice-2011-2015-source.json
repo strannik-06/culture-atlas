@@ -89,13 +89,16 @@
             },
             {
               "title": "Himizu",
-              "aliases": [
-                "Themis"
-              ],
+              "aliases": [],
               "director": "Shion Sono",
               "year": 2011,
               "runtime": 129,
-              "source": "https://asac.labiennale.org/attivita/cinema/225306"
+              "source": "https://asac.labiennale.org/attivita/cinema/225306",
+              "source_aliases": [
+                "Themis"
+              ],
+              "normalization_note": "ASAC unrelated Themis alias excluded; Japanese film agency confirms Himizu identity.",
+              "normalization_source": "https://jfdb.jp/en/title/3192"
             },
             {
               "title": "Killer Joe",

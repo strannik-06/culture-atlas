@@ -73,6 +73,7 @@ def collect(year):
                 if title and title != record['titolo'] and title not in aliases:
                     aliases.append(title)
             directors = ', '.join(CLEAN(person['nome_cognome']) for person in film['persona_istituzione'] if person['ruolo'] == 'Regia')
+            if record['id'] == 225306: aliases = [title for title in aliases if title != 'Themis']
             assert directors
             item = {'title': record['titolo'], 'aliases': aliases, 'director': directors, 'year': film['anno_iniziale'], 'runtime': runtime, 'source': BASE + f"/attivita/cinema/{record['id']}"}
             selection.append(item)

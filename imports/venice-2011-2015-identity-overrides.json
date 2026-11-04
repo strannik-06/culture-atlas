@@ -1,0 +1,337 @@
+{
+  "https://asac.labiennale.org/attivita/cinema/225276": {
+    "aliases": [
+      "A Simple Life",
+      "Tou ze",
+      "桃姐"
+    ],
+    "director_aliases": [],
+    "note": "Official festival romanization Taojie corresponds to the Cantonese Tou ze / international A Simple Life. Ann Hui, Andy Lau and Deanie Ip identify the 2011 feature.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/225276",
+      "https://www.imdb.com/title/tt2008006/"
+    ],
+    "imdb_id": "tt2008006",
+    "required_cast": [
+      "Andy Lau"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/225279": {
+    "aliases": [],
+    "director_aliases": [
+      "Yorgos Lanthimos"
+    ],
+    "note": "Giorgos/Yorgos is the same director’s Greek-name romanization; the producer and IFFR list Alps/Alpeis as Yorgos Lanthimos’s 2011 feature.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/225279",
+      "https://marnifilms.gr/portfolio/alps/",
+      "https://iffr.com/en/iffr/2012/films/alps"
+    ],
+    "tmdb_id": 81857
+  },
+  "https://asac.labiennale.org/attivita/cinema/225306": {
+    "aliases": [
+      "Himizu",
+      "ヒミズ"
+    ],
+    "director_aliases": [
+      "Sion Sono"
+    ],
+    "note": "ASAC Shion Sono and Japanese film agency SONO Sion refer to the same director. ASAC’s additional English alias Themis is erroneous and is not evidence for matching any other film.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/225306",
+      "https://jfdb.jp/en/title/3192"
+    ],
+    "tmdb_id": 98631
+  },
+  "https://asac.labiennale.org/attivita/cinema/225359": {
+    "aliases": [],
+    "director_aliases": [],
+    "note": "Generic title requires IMDb discovery pin; Japanese film agency verifies Amir Naderi’s Japanese-language feature with Hidetoshi Nishijima and Takako Tokiwa.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/225359",
+      "https://jfdb.jp/en/title/2972",
+      "https://www.imdb.com/title/tt1720905/"
+    ],
+    "imdb_id": "tt1720905",
+    "required_cast": [
+      "Hidetoshi Nishijima",
+      "Takako Tokiwa"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/225383": {
+    "aliases": [
+      "I'm Carolyn Parker",
+      "I'm Carolyn Parker: The Good, the Mad, and the Beautiful"
+    ],
+    "director_aliases": [],
+    "note": "The shortened provider title identifies Jonathan Demme’s 91-minute documentary; PBS and MoMA retain the subtitle.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/225383",
+      "https://www.pbs.org/pov/films/carolynparker/",
+      "https://www.moma.org/calendar/events/4059",
+      "https://www.imdb.com/title/tt1872083/"
+    ],
+    "imdb_id": "tt1872083"
+  },
+  "https://asac.labiennale.org/attivita/cinema/230594": {
+    "aliases": [
+      "Thy Womb",
+      "Sinapupunan"
+    ],
+    "director_aliases": [],
+    "note": "Festival source combines Filipino and English titles; the Asia Pacific Screen Awards identifies Brillante Mendoza’s Thy Womb in the 2012 Venice Competition.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/230594",
+      "https://www.asiapacificscreenawards.com/films/thy-womb",
+      "https://www.imdb.com/title/tt2395459/"
+    ],
+    "imdb_id": "tt2395459",
+    "required_cast": [
+      "Nora Aunor"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/230632": {
+    "aliases": [],
+    "director_aliases": [
+      "Kianush Ayyari"
+    ],
+    "note": "Kianoush Ayari/Kianush Ayyari are romanization variants of the same Iranian director. Festival year remains 2012 despite delayed release metadata.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/230632",
+      "https://letterboxd.com/film/the-paternal-house/",
+      "https://telescopefilm.com/films/80481-the-paternal-house"
+    ],
+    "tmdb_id": 182829
+  },
+  "https://asac.labiennale.org/attivita/cinema/230656": {
+    "aliases": [
+      "Three Sisters",
+      "San zimei",
+      "三姊妹"
+    ],
+    "director_aliases": [
+      "Wang Bing"
+    ],
+    "note": "ASAC’s sorted person heading Bing (III) Wang is Wang Bing. The distributor’s presskit identifies the full 2012 153-minute Three Sisters, distinguished from unrelated same-title films and the shorter Alone edit.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/230656",
+      "https://misc.icarusfilms.com/press/pdfs/sis_pk.pdf",
+      "https://www.imdb.com/title/tt2361042/"
+    ],
+    "imdb_id": "tt2361042"
+  },
+  "https://asac.labiennale.org/attivita/cinema/234857": {
+    "aliases": [],
+    "director_aliases": [],
+    "note": "Generic title uses IMDb discovery pin for John Curran’s feature with Mia Wasikowska and Adam Driver.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/234857",
+      "https://www.imdb.com/title/tt2167266/"
+    ],
+    "imdb_id": "tt2167266",
+    "required_cast": [
+      "Mia Wasikowska",
+      "Adam Driver"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/234868": {
+    "aliases": [
+      "The Wind Rises",
+      "風立ちぬ"
+    ],
+    "director_aliases": [],
+    "note": "Official Japanese romanization Kaze tachinu corresponds to Hayao Miyazaki’s The Wind Rises, not an unrelated title.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/234868",
+      "https://www.imdb.com/title/tt2013293/"
+    ],
+    "imdb_id": "tt2013293"
+  },
+  "https://asac.labiennale.org/attivita/cinema/235089": {
+    "aliases": [],
+    "director_aliases": [
+      "Serik Aprimov",
+      "Serik Aprymov"
+    ],
+    "note": "ASAC spells the given name Seric; Viennale and FilmFestival Cottbus identify Serik Aprimov/Aprymov and Bauyr/Little Brother.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/235089",
+      "https://www.viennale.at/de/film/bauyr",
+      "https://www.filmfestivalcottbus.de/en/program-en/movie/2492.html"
+    ],
+    "tmdb_id": 217478
+  },
+  "https://asac.labiennale.org/attivita/cinema/235216": {
+    "aliases": [
+      "Fish & Cat",
+      "ماهی و گربه"
+    ],
+    "director_aliases": [],
+    "note": "Provider title uses ampersand rather than ASAC’s English word and. IMDb pins Shahram Mokri’s feature.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/235216",
+      "https://www.imdb.com/title/tt3257072/"
+    ],
+    "imdb_id": "tt3257072"
+  },
+  "https://asac.labiennale.org/attivita/cinema/235402": {
+    "aliases": [],
+    "director_aliases": [
+      "Sion Sono"
+    ],
+    "note": "Shion/Sion Sono are source/provider romanization variants; Japanese film agency lists this same feature in SONO Sion’s filmography.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/235402",
+      "https://jfdb.jp/en/person/3634"
+    ],
+    "tmdb_id": 134350
+  },
+  "https://asac.labiennale.org/attivita/cinema/249095": {
+    "aliases": [],
+    "director_aliases": [
+      "Andrei Konchalovsky"
+    ],
+    "note": "Andrey Konchalovskiy/Andrei Konchalovsky transliteration variant, independently confirmed by European Film Academy film and credits.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/249095",
+      "https://www.europeanfilmawards.eu/efa-movie/the-postmans-white-nights/",
+      "https://www.imdb.com/title/tt3591984/"
+    ],
+    "imdb_id": "tt3591984",
+    "tmdb_id": 283703
+  },
+  "https://asac.labiennale.org/attivita/cinema/249670": {
+    "aliases": [],
+    "director_aliases": [
+      "Benoît Delépine, Gustave Kervern"
+    ],
+    "note": "ASAC omits co-director Gustave Kervern. French national promotion agency and distributor confirm both Delépine and Kervern for this 87-minute feature.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/249670",
+      "https://en.unifrance.org/movie/38207/near-death-experience",
+      "https://www.advitamdistribution.com/films/near-death-experience/",
+      "https://www.imdb.com/title/tt3800012/"
+    ],
+    "imdb_id": "tt3800012",
+    "tmdb_id": 290158,
+    "required_cast": [
+      "Michel Houellebecq"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/250263": {
+    "aliases": [],
+    "director_aliases": [
+      "Elchin Guliyev"
+    ],
+    "note": "Elchin Musaoglu and Elchin Guliyev are professional/full-name variants of Elchin Musaoglu Guliyev, not different filmmakers; Chicago’s official festival winner page uses the combined full name for Nabat.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/250263",
+      "https://www.chicagofilmfestival.com/one-day-only-encore-presentation-of-the-top-festival-winners-at-the-best-of-the-fest/",
+      "https://fipresci.org/report/nabat-a-human-testament/"
+    ],
+    "tmdb_id": 292359
+  },
+  "https://asac.labiennale.org/attivita/cinema/250265": {
+    "aliases": [],
+    "director_aliases": [
+      "Josh Safdie, Benny Safdie"
+    ],
+    "note": "Joshua/Josh and Ben/Benny Safdie are name variants of the same director pair; AFI’s 2014 screening lists Josh and Benny, with the same film/cast.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/250265",
+      "https://fest.afi.com/2014/american-independents-2014/heaven-knows-what/"
+    ],
+    "tmdb_id": 285024,
+    "required_cast": [
+      "Arielle Holmes",
+      "Caleb Landry Jones"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/257221": {
+    "aliases": [],
+    "director_aliases": [
+      "Sue Brooks"
+    ],
+    "note": "ASAC’s parenthesized (I) is a person disambiguator, not part of Sue Brooks’s credited name. Screen Australia verifies the feature’s 2015 completion and 97-minute runtime.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/257221",
+      "https://www.screenaustralia.gov.au/screen-guide/Looking-for-Grace-12270/"
+    ],
+    "tmdb_id": 352156,
+    "required_cast": [
+      "Odessa Young",
+      "Radha Mitchell"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/257237": {
+    "aliases": [],
+    "director_aliases": [
+      "Cary Joji Fukunaga"
+    ],
+    "note": "The distributor Netflix uses the director’s fuller name Cary Joji Fukunaga; same film, year and lead cast.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/257237",
+      "https://media.netflix.com/en/only-on-netflix/80044545"
+    ],
+    "tmdb_id": 283587,
+    "required_cast": [
+      "Abraham Attah",
+      "Idris Elba"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/257244": {
+    "aliases": [
+      "For Your Love",
+      "Anna"
+    ],
+    "director_aliases": [
+      "Giuseppe M. Gaudino",
+      "Giuseppe Gaudino"
+    ],
+    "note": "Giuseppe Mario/Giuseppe M./Giuseppe Gaudino are full/abbreviated credits for the same filmmaker. Filmitalia verifies the original Per amor vostro, international Anna and Valeria Golino cast.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/257244",
+      "https://filmitalia.org/en/film/82083/",
+      "https://www.imdb.com/title/tt4898888/"
+    ],
+    "imdb_id": "tt4898888",
+    "tmdb_id": 352199,
+    "required_cast": [
+      "Valeria Golino"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/257988": {
+    "aliases": [
+      "Mountain",
+      "Ha'har"
+    ],
+    "director_aliases": [],
+    "note": "IMDb discovery pin selects Yaelle Kayam’s Israeli 2015 debut, also verified by Israel Film Archive; excludes unrelated documentaries/shorts with generic Mountain title.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/257988",
+      "https://jfc.org.il/en/movie/50906-2/",
+      "https://www.imdb.com/title/tt4917622/"
+    ],
+    "imdb_id": "tt4917622",
+    "required_cast": [
+      "Shani Klein"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/257992": {
+    "aliases": [
+      "Visaranai",
+      "Interrogation",
+      "விசாரணை"
+    ],
+    "director_aliases": [
+      "Vetrimaaran"
+    ],
+    "note": "One/two-a romanization variation and Tamil original title identify Vetrimaaran’s feature. IMDb pin separates it from the unrelated English-language Interrogation.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/257992",
+      "https://www.imdb.com/title/tt4991384/"
+    ],
+    "imdb_id": "tt4991384"
+  }
+}
