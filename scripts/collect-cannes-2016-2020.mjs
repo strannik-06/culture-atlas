@@ -15,7 +15,7 @@ for(let year=2016;year<=2019;year++){
   if(heading!=='Un Certain Regard'&&!(heading==='In Competition'&&clean(container.querySelector('h3')?.textContent)==='Feature films'))continue;
   const rows=[...container.querySelectorAll('.list_item')].map(row=>{
    const link=row.querySelector('a.list_item__content__title'),title=clean(link.querySelector('p')?.textContent),whole=clean(link.textContent);
-   const aliases=whole===title?[]:[whole.slice(title.length).replace(/^\(|\)$/g,'')];
+   const aliases=whole===title?[]:[whole.slice(title.length).trim().replace(/^\(|\)$/g,'')];
    // This single director is omitted by the retrospective listing; the official film page supplies it.
    const director=clean(link.parentElement.querySelector('span')?.textContent).replace(/^by /,'')||(link.href==='https://www.festival-cannes.com/en/f/aala-kaf-ifrit/'?'Kaouther BEN HANIA':'');
    if(!director||!title)throw Error('Missing selection identity');

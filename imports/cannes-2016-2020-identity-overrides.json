@@ -1,0 +1,135 @@
+{
+  "https://www.festival-cannes.com/en/f/a-vida-invisivel-de-euridice-gusmao/": {
+    "aliases": [
+      "Invisible Life",
+      "A Vida Invisível",
+      "The Invisible Life of Eurídice Gusmão"
+    ],
+    "note": "Official Cannes media uses the shortened international title; MoMA confirms 2019 Karim Aïnouz feature.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/medialibrary/karim-ainouz-a-vida-invisivel-the-invisible-life/",
+      "https://www.moma.org/calendar/events/6064"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/ayka/": {
+    "tmdb_id": 519185,
+    "director_aliases": [
+      "Sergei Dvortsevoy"
+    ],
+    "note": "Sergey/Sergei transliteration variant; official film and provider agree on 2018 Ayka.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/ayka/"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/capharnaum/": {
+    "tmdb_id": 517814,
+    "imdb_id": "tt8267604",
+    "aliases": [
+      "Capernaum"
+    ],
+    "note": "Official English selection announcement uses Capernaum for Nadine Labaki film. Existing canonical identity reused.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/press/press-releases/the-2018-official-selection/"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/evge/": {
+    "tmdb_id": 595930,
+    "aliases": [
+      "Homeward"
+    ],
+    "director_aliases": [
+      "Nariman Aliev"
+    ],
+    "note": "Official film page itself uses Aliiev in heading and Aliev in video labels; English title Homeward.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/evge/",
+      "https://www.festival-cannes.com/en/2019/evge-homeward-as-seen-by-nariman-aliev/"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/l-ange/": {
+    "aliases": [
+      "El Angel",
+      "El Ángel"
+    ],
+    "note": "Official film page video and official 2018 selection identify Luis Ortega film as El Angel.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/l-ange/",
+      "https://www.festival-cannes.com/en/press/press-releases/the-2018-official-selection/"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/ma-rosa/": {
+    "tmdb_id": 392790,
+    "director_aliases": [
+      "Brillante Ma Mendoza"
+    ],
+    "note": "Full professional name matches official Torino festival director credit for 2016 Ma Rosa.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/ma-rosa/",
+      "https://www.torinofilmfest.org/en/34-torino-film-festival/film/ma%27-rosa/29713/"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/matthias-et-maxime/": {
+    "tmdb_id": 519141,
+    "imdb_id": "tt8767908",
+    "aliases": [
+      "Matthias & Maxime",
+      "Matthias and Maxime"
+    ],
+    "note": "Official director biography uses Matthias & Maxime; original and international title variants for Xavier Dolan 2019 feature.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/matthias-et-maxime/",
+      "https://www.festival-cannes.com/en/p/xavier-dolan/"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/out/": {
+    "imdb_id": "tt4415410",
+    "director_aliases": [
+      "György Kristóf"
+    ],
+    "note": "Official Cannes string contains Cyrillic ӧ; Hungarian NFI and Czech Film Center confirm Latin György Kristóf and 88-minute 2017 debut. IMDb identity checked against director and synopsis.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/out/",
+      "https://nfi.hu/en/films/out.html",
+      "https://www.filmcenter.gov.cz/en/films-series/3193-out",
+      "https://www.imdb.com/title/tt4415410/"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/sofia/": {
+    "tmdb_id": 517963,
+    "director_aliases": [
+      "Meryem Benm'Barek-Aloïsi"
+    ],
+    "note": "Director full surname confirmed by Eye Filmmuseum for 2018 Sofia, winner of Cannes UCR screenplay award.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/sofia/",
+      "https://www.eyefilm.nl/whats-on/sofia/268057"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/yomeddine/": {
+    "tmdb_id": 517286,
+    "director_aliases": [
+      "Abu Bakr Shawky",
+      "A.B. Shawky"
+    ],
+    "note": "Official retrospective Ahmed Shawky label differs from director professional name; contemporaneous Cannes article credits Abu Bakr Shawky.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/yomeddine/",
+      "https://www.festival-cannes.com/en/2018/yomeddine-the-struggle-against-indifference-by-egypt-s-lepers/"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/zimna-wojna/": {
+    "tmdb_id": 440298,
+    "imdb_id": "tt6543652",
+    "aliases": [
+      "Cold War"
+    ],
+    "director_aliases": [
+      "Paweł Pawlikowski"
+    ],
+    "note": "Polish ł is not removed by NFKD normalization; official Cannes jury biography confirms Paweł Pawlikowski and Cold War. Existing canonical identity reused.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/zimna-wojna/",
+      "https://www.festival-cannes.com/en/press/press-releases/the-jury-of-the-72nd-festival-de-cannes/"
+    ]
+  }
+}

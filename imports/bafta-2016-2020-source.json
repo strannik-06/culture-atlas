@@ -364,7 +364,8 @@
         }
       ],
       "ceremony_date": "2016-02-14",
-      "date_source": "https://www.bafta.org/media-centre/press-releases/ee-british-academy-film-awards-winners-announced-2/"
+      "date_source": "https://www.bafta.org/media-centre/press-releases/ee-british-academy-film-awards-winners-announced-2/",
+      "contemporary_source": "https://static.bafta.org/uploads_pre_202411/baftafilm1516nominationsandwinners.pdf"
     },
     {
       "event": "BAFTA",
@@ -442,8 +443,9 @@
             },
             {
               "title": "American Honey",
-              "person": "Andrea Arnold",
-              "winner": false
+              "person": "Andrea Arnold, Lars Knudsen, Pouya Shahbazian, Jay Van Hoy",
+              "winner": false,
+              "source": "https://www.bafta.org/media-centre/press-releases/nominations-list-for-the-ee-british-academy-film-awards-in-2017-plain-text/"
             },
             {
               "title": "Fantastic Beasts and Where to Find Them",
@@ -626,9 +628,10 @@
               "winner": true
             },
             {
-              "title": "Dick Van Dyke",
-              "person": "Dick Van Dyke",
-              "winner": false
+              "title": "Arrival",
+              "person": "Eric Heisserer",
+              "winner": false,
+              "source": "https://www.bafta.org/media-centre/press-releases/nominations-list-for-the-ee-british-academy-film-awards-in-2017-plain-text/"
             },
             {
               "title": "Hacksaw Ridge",
@@ -734,7 +737,25 @@
         }
       ],
       "ceremony_date": "2017-02-12",
-      "date_source": "https://www.bafta.org/media-centre/press-releases/winners-announced-for-the-ee-british-academy-film-awards-in-2017/"
+      "date_source": "https://www.bafta.org/media-centre/press-releases/winners-announced-for-the-ee-british-academy-film-awards-in-2017/",
+      "corrections": [
+        {
+          "category": "Adapted Screenplay",
+          "archive_title": "Dick Van Dyke",
+          "archive_person": "Dick Van Dyke",
+          "title": "Arrival",
+          "person": "Eric Heisserer",
+          "reason": "The current awards database has a corrupted nomination. The contemporary official nomination announcement identifies Arrival and Eric Heisserer.",
+          "source": "https://www.bafta.org/media-centre/press-releases/nominations-list-for-the-ee-british-academy-film-awards-in-2017-plain-text/"
+        },
+        {
+          "category": "Outstanding British Film",
+          "title": "American Honey",
+          "reason": "The current archive lists only Andrea Arnold; the contemporary official nomination announcement supplies the full credited nominee list.",
+          "source": "https://www.bafta.org/media-centre/press-releases/nominations-list-for-the-ee-british-academy-film-awards-in-2017-plain-text/"
+        }
+      ],
+      "contemporary_source": "https://www.bafta.org/media-centre/press-releases/nominations-list-for-the-ee-british-academy-film-awards-in-2017-plain-text/"
     },
     {
       "event": "BAFTA",
@@ -1099,7 +1120,8 @@
         }
       ],
       "ceremony_date": "2018-02-18",
-      "date_source": "https://www.bafta.org/media-centre/press-releases/winners-announced-for-the-ee-british-academy-film-awards-in-2018/"
+      "date_source": "https://www.bafta.org/media-centre/press-releases/winners-announced-for-the-ee-british-academy-film-awards-in-2018/",
+      "contemporary_source": "https://www.bafta.org/media-centre/press-releases/film-awards-2018-winners-list/"
     },
     {
       "event": "BAFTA",
@@ -1464,7 +1486,8 @@
         }
       ],
       "ceremony_date": "2019-02-10",
-      "date_source": "https://www.bafta.org/media-centre/press-releases/winners-announced-ee-british-academy-film-awards-in-2019/"
+      "date_source": "https://www.bafta.org/media-centre/press-releases/winners-announced-ee-british-academy-film-awards-in-2019/",
+      "contemporary_source": "https://static.bafta.org/uploads_pre_202411/2.baftafilm1819nominationsandwinners.pdf"
     },
     {
       "event": "BAFTA",
@@ -1834,7 +1857,8 @@
         }
       ],
       "ceremony_date": "2020-02-02",
-      "date_source": "https://www.bafta.org/media-centre/press-releases/winners-announced-ee-british-academy-film-awards-2020/"
+      "date_source": "https://www.bafta.org/media-centre/press-releases/winners-announced-ee-british-academy-film-awards-2020/",
+      "contemporary_source": "https://static.bafta.org/uploads_pre_202411/2020eebritishacademyfilmawardswinnersnominationslist.pdf"
     }
   ]
 }

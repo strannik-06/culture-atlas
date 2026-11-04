@@ -6,7 +6,7 @@ import {mergeMetadata,fields,present} from './complete-film-metadata.mjs';
 const batch='2016-2020',slugs=['oscars','bafta','globes','cannes','venice','berlinale'];
 const read=(p,k)=>{const c={window:{}};vm.runInNewContext(fs.readFileSync(p,'utf8'),c);return JSON.parse(JSON.stringify(c.window[k]));};
 const write=(p,k,v)=>fs.writeFileSync(p,'window.'+k+' = '+JSON.stringify(v,null,2)+';\n');
-const norm=s=>String(s||'').normalize('NFKD').replace(/\p{M}/gu,'').toLowerCase().replace(/[^\p{L}\p{N}]/gu,'');
+const norm=s=>String(s||'').normalize('NFKD').replace(/\p{M}/gu,'').replace(/[łŁ]/g,'l').replace(/[øØ]/g,'o').replace(/[đĐðÐ]/g,'d').replace(/æ/gi,'ae').replace(/œ/gi,'oe').replace(/ı/g,'i').toLowerCase().replace(/[^\p{L}\p{N}]/gu,'');
 const directorKey=s=>norm(s).split('').sort().join('');
 const overrides=JSON.parse(fs.readFileSync(`imports/film-awards-${batch}-overrides.json`,'utf8'));
 const sources=slugs.map(slug=>({slug,...JSON.parse(fs.readFileSync(`imports/${slug}-${batch}-source.json`,'utf8'))}));
@@ -17,7 +17,7 @@ const tasks=new Map();
 for(const source of sources)for(const e of source.events){
  if(e.status==='not-held')continue;
  for(const p of e.programmes||[])for(const f of p.selection){const key=f.source;if(!tasks.has(key))tasks.set(key,{key,event:e.event,year:e.year,...f,festival:true});}
- for(const c of e.categories||[])for(const r of c.entries){const key=`${e.event}/${e.year}/${r.title}`;if(!tasks.has(key))tasks.set(key,{key,event:e.event,year:e.year,title:r.title,source:e.source,anchors:[]});const t=tasks.get(key);if(c.name==='Directing'||c.name==='Director'||/^Best Director/.test(c.name))t.anchors.push({person:r.person,director:true});else if(/^(Actor|Actress) in |^(Leading|Supporting) (Actor|Actress)$|^Best Performance/.test(c.name))t.anchors.push({person:r.person});}
+ for(const c of e.categories||[])for(const r of c.entries){const key=`${e.event}/${e.year}/${r.title}`;if(!tasks.has(key))tasks.set(key,{key,event:e.event,year:e.year,title:r.title,source:e.source,anchors:[],category_names:[]});const t=tasks.get(key);t.category_names.push(c.name);if(c.name==='Directing'||c.name==='Director'||/^Best Director/.test(c.name))t.anchors.push({person:r.person,director:true});else if(/^(Actor|Actress) in |^(Leading|Supporting) (Actor|Actress)$|^Best Performance/.test(c.name))t.anchors.push({person:r.person});}
 }
 async function api(path,params={}){const u=new URL('https://api.themoviedb.org/3/'+path);for(const [k,v]of Object.entries(params))u.searchParams.set(k,v);if(!process.env.TMDB_READ_ACCESS_TOKEN)u.searchParams.set('api_key',process.env.TMDB_API_KEY);for(let i=0;i<3;i++){try{const r=await fetch(u,{headers:process.env.TMDB_READ_ACCESS_TOKEN?{Authorization:'Bearer '+process.env.TMDB_READ_ACCESS_TOKEN}:{},signal:AbortSignal.timeout(25000)});if(r.ok)return await r.json();if(r.status!==429&&r.status<500)throw Error('TMDB HTTP '+r.status);}catch(error){if(i===2)throw error;}}throw Error('Provider unavailable');}
 const providerCache=new Map();
@@ -26,17 +26,19 @@ const results=new Map();
 async function resolve(t){const override=overrides[t.key]||{};const signature=crypto.createHash('sha256').update(JSON.stringify({t,override})).digest('hex');
  const cached=previous.verified?.find(r=>r.key===t.key&&r.signature===signature);if(cached&&films.some(f=>f.id===cached.id&&f.tmdb_id===cached.tmdb_id)){audit.verified.push(cached);results.set(t.key,cached.id);return;}
  const names=[...new Set([t.title,t.title.replace(/\s*\(\d{4}\)$/,''),...t.aliases||[],...override.aliases||[]])],expected=[t.director,...override.director_aliases||[]].filter(Boolean),ids=new Set();
- if(override.tmdb_id)ids.add(override.tmdb_id);else{
+ if(override.tmdb_id)ids.add(override.tmdb_id);else if(override.imdb_id){const found=await api('find/'+override.imdb_id,{external_source:'imdb_id'});for(const m of found.movie_results||[])ids.add(m.id);}else{
  // Reuse catalogue candidates but still verify their provider identity and credits.
- for(const f of films)if(f.tmdb_id&&f.year>=t.year-3&&f.year<=t.year+4&&[f.title,f.original_title,...f.alternate_titles||[]].some(n=>names.some(a=>norm(n)===norm(a))))ids.add(f.tmdb_id);
+ for(const f of films)if(f.tmdb_id&&f.year>=t.year-3&&f.year<=t.year+(t.festival?4:0)&&[f.title,f.original_title,...f.alternate_titles||[]].some(n=>names.some(a=>norm(n)===norm(a))))ids.add(f.tmdb_id);
  for(const query of names){const response=await api('search/movie',{query,include_adult:false});for(const m of response.results||[])if([m.title,m.original_title].some(n=>names.some(a=>norm(n)===norm(a)))&&Number(m.release_date?.slice(0,4))>=t.year-3&&Number(m.release_date?.slice(0,4))<=t.year+(t.festival?4:0))ids.add(m.id);}
  }
  const matches=[],reviewed=[];
  for(const id of ids){const m=await movie(id),directors=m.credits.crew.filter(p=>p.job==='Director').map(p=>p.name).join(', ');reviewed.push({tmdb_id:id,title:m.title,year:m.release_date,director:directors});
  if(![m.title,m.original_title].some(n=>names.some(a=>norm(n)===norm(a))))continue;
  if(m.runtime<40&&!(override.runtime&&override.runtime>=40&&t.runtime===override.runtime))continue;
+ if(t.category_names?.some(n=>/Documentary/.test(n))&&!m.genres?.some(g=>g.name==='Documentary'))continue;
+ if(t.category_names?.some(n=>/Animated/.test(n))&&!m.genres?.some(g=>g.name==='Animation'))continue;
  if(expected.length&&!expected.some(d=>directorKey(d)===directorKey(directors)))continue;
- if((t.anchors||[]).some(a=>a.director?directorKey(a.person)!==directorKey(directors):!m.credits.cast.some(p=>[p.name,p.original_name].some(n=>norm(n)===norm(a.person)))))continue;
+ if((t.anchors||[]).some(a=>a.director?![a.person,...override.director_anchor_aliases||[]].some(n=>directorKey(n)===directorKey(directors)):!m.credits.cast.some(p=>[p.name,p.original_name].some(n=>norm(n)===norm(a.person)))))continue;
  if(override.imdb_id&&override.imdb_id!==m.imdb_id)continue;
  if(override.required_cast?.some(n=>!m.credits.cast.some(p=>norm(p.name)===norm(n))))continue;
  if(override.runtime&&!m.runtime)m.runtime=override.runtime;
@@ -47,7 +49,7 @@ async function resolve(t){const override=overrides[t.key]||{};const signature=cr
  if(!directors||!m.imdb_id)throw Error('Missing director or IMDb identity');
  const old=films.filter(f=>f.tmdb_id===m.id||f.imdb_id===m.imdb_id);if(old.length>1)throw Error('Duplicate catalogue provider identity');let f=old[0];
  if(f&&directorKey(f.director)!==directorKey(directors)&&!expected.some(d=>directorKey(d)===directorKey(f.director)))throw Error('Existing director differs: '+f.director+' / '+directors);
- if(!f){f={id:Math.max(...films.map(f=>f.id))+1,title:m.title,director:directors,year:t.festival?t.year:Number(m.release_date.slice(0,4)),tmdb_id:m.id,imdb_id:m.imdb_id,original_title:m.original_title,original_language:m.original_language,alternate_titles:names.filter(n=>![norm(m.title),norm(m.original_title)].includes(norm(n)))};films.push(f);details[f.id]=mergeMetadata(f,{},m);audit.new_canonical_ids.push(f);}
+ if(!f){f={id:Math.max(...films.map(f=>f.id))+1,title:m.title,director:override.authoritative_director||directors,year:t.festival?t.year:Number(m.release_date.slice(0,4)),tmdb_id:m.id,imdb_id:m.imdb_id,original_title:m.original_title,original_language:m.original_language,alternate_titles:names.filter(n=>![norm(m.title),norm(m.original_title)].includes(norm(n)))};films.push(f);details[f.id]=mergeMetadata(f,{},m);if(override.authoritative_director)details[f.id].director=override.authoritative_director;audit.new_canonical_ids.push(f);}
  results.set(t.key,f.id);audit.verified.push({key:t.key,signature,title:t.title,source:t.source,id:f.id,tmdb_id:m.id,imdb_id:m.imdb_id,director:directors,provider_release_date:m.release_date,method:'Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity'});
 }
 const queue=[...tasks.values()];let done=0;

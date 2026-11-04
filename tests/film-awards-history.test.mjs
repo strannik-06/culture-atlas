@@ -25,3 +25,9 @@ test('Previously merged catalogue identities and detail metadata remain byte-equ
  assert.equal(hash(read('film-catalog.js','CULTURE_CATALOG').filter(f=>ids.has(f.id))),b.catalogue_sha256);
  assert.equal(hash(Object.fromEntries(Object.entries(read('film-details.js','CULTURE_FILM_DETAILS')).filter(([id])=>ids.has(Number(id))))),b.details_sha256);
 });
+
+test('Main prizes use the correct historical editions and canonical films',()=>{
+ const events=read('awards-2025.js','CULTURE_AWARDS'),films=read('film-catalog.js','CULTURE_CATALOG');
+ const expected={Oscars:['Spotlight','Moonlight','The Shape of Water','Green Book','Parasite'],BAFTA:['The Revenant','La La Land','Three Billboards Outside Ebbing, Missouri','Roma','1917'],Cannes:['I, Daniel Blake','The Square','Shoplifters','Parasite',null],Venice:['The Woman Who Left','The Shape of Water','Roma','Joker','Nomadland'],Berlinale:['Fire at Sea','On Body and Soul','Touch Me Not','Synonyms','There Is No Evil']};
+ for(const[event,titles]of Object.entries(expected))for(const[i,title]of titles.entries()){if(!title)continue;const e=events.find(e=>e.event===event&&e.year===2016+i),id=e.categories[0].winner;assert.equal(norm(films.find(f=>f.id===id)?.title),norm(title),event+' '+(2016+i));}
+});
