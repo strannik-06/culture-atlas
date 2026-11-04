@@ -28088,13 +28088,13 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Jury Prize"
             ],
-            "prize_rank": 1
+            "prize_rank": 5
           },
           {
             "film_id": 3101,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3115,
@@ -28102,13 +28102,13 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Award for Best Director (Ex-Aequo) · Cristian MUNGIU"
             ],
-            "prize_rank": 1
+            "prize_rank": 2
           },
           {
             "film_id": 1535,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 1541,
@@ -28117,7 +28117,7 @@ window.CULTURE_AWARDS = [
               "Award for Best Screenplay · Asghar FARHADI",
               "Award for Best Actor · Shahab HOSSEINI"
             ],
-            "prize_rank": 1
+            "prize_rank": 4
           },
           {
             "film_id": 414,
@@ -28131,7 +28131,7 @@ window.CULTURE_AWARDS = [
             "film_id": 3103,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3104,
@@ -28145,19 +28145,19 @@ window.CULTURE_AWARDS = [
             "film_id": 3106,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 2956,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3105,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3458,
@@ -28165,25 +28165,25 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Award for Best Actress · Jaclyn JOSE"
             ],
-            "prize_rank": 1
+            "prize_rank": 6
           },
           {
             "film_id": 3044,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3107,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 425,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3108,
@@ -28191,37 +28191,37 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Award for Best Director (Ex-Aequo) · Olivier ASSAYAS"
             ],
-            "prize_rank": 1
+            "prize_rank": 3
           },
           {
             "film_id": 3109,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3110,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3111,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3113,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 408,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           }
         ],
         "nominees": [
@@ -28249,12 +28249,12 @@ window.CULTURE_AWARDS = [
         ],
         "winners": [
           414,
-          3032,
-          3115,
-          1541,
           3104,
-          3458,
-          3108
+          3115,
+          3108,
+          1541,
+          3032,
+          3458
         ],
         "winner": 414
       },
@@ -28269,7 +28269,7 @@ window.CULTURE_AWARDS = [
             "film_id": 3114,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 416,
@@ -28277,19 +28277,19 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Directing - Un Certain Regard · Matt ROSS"
             ],
-            "prize_rank": 1
+            "prize_rank": 2
           },
           {
             "film_id": 3119,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3123,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3116,
@@ -28303,7 +28303,7 @@ window.CULTURE_AWARDS = [
             "film_id": 2953,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3118,
@@ -28311,19 +28311,19 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Un Certain Regard Prize"
             ],
-            "prize_rank": 1
+            "prize_rank": 0
           },
           {
             "film_id": 3117,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3120,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 1536,
@@ -28331,49 +28331,49 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Un Certain Regard Special Prize"
             ],
-            "prize_rank": 1
+            "prize_rank": 4
           },
           {
             "film_id": 3121,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3125,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3124,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3122,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 418,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3129,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3126,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3128,
@@ -28381,7 +28381,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Screenplay - Un Certain Regard · Muriel COULIN, Delphine COULIN"
             ],
-            "prize_rank": 1
+            "prize_rank": 3
           }
         ],
         "nominees": [
@@ -28405,13 +28405,13 @@ window.CULTURE_AWARDS = [
           3128
         ],
         "winners": [
-          416,
-          3116,
           3118,
-          1536,
-          3128
+          3116,
+          416,
+          3128,
+          1536
         ],
-        "winner": 416
+        "winner": 3118
       }
     ],
     "films": [
@@ -28627,55 +28627,55 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Award for Best Actress · Diane KRUGER"
             ],
-            "prize_rank": 1
+            "prize_rank": 6
           },
           {
             "film_id": 3139,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3127,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3131,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3130,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3132,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3133,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3134,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3136,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 394,
@@ -28683,19 +28683,19 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Jury Prize"
             ],
-            "prize_rank": 1
+            "prize_rank": 5
           },
           {
             "film_id": 1528,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3137,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 1526,
@@ -28703,7 +28703,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Award for Best Director · Sofia COPPOLA"
             ],
-            "prize_rank": 1
+            "prize_rank": 2
           },
           {
             "film_id": 397,
@@ -28711,13 +28711,13 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Award for Best Screenplay (Ex-Aequo) · Yorgos LANTHIMOS, Efthimis FILIPPOU"
             ],
-            "prize_rank": 1
+            "prize_rank": 3
           },
           {
             "film_id": 3138,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 406,
@@ -28731,7 +28731,7 @@ window.CULTURE_AWARDS = [
             "film_id": 3141,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 1529,
@@ -28740,7 +28740,7 @@ window.CULTURE_AWARDS = [
               "Award for Best Screenplay (Ex-Aequo) · Lynne RAMSAY",
               "Award for Best Actor · Joaquin PHOENIX"
             ],
-            "prize_rank": 1
+            "prize_rank": 4
           }
         ],
         "nominees": [
@@ -28767,11 +28767,11 @@ window.CULTURE_AWARDS = [
         "winners": [
           406,
           3135,
-          3091,
-          394,
           1526,
           397,
-          1529
+          1529,
+          394,
+          3091
         ],
         "winner": 406
       },
@@ -28786,7 +28786,7 @@ window.CULTURE_AWARDS = [
             "film_id": 3140,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3144,
@@ -28794,19 +28794,19 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Prize for the Best Poetic Narrative - Un Certain Regard"
             ],
-            "prize_rank": 1
+            "prize_rank": 2
           },
           {
             "film_id": 3143,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3145,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3142,
@@ -28822,25 +28822,25 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Caméra d'or"
             ],
-            "prize_rank": 1
+            "prize_rank": 5
           },
           {
             "film_id": 3149,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3152,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3146,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3147,
@@ -28848,7 +28848,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Jury's Prize - Un Certain Regard"
             ],
-            "prize_rank": 1
+            "prize_rank": 3
           },
           {
             "film_id": 3148,
@@ -28856,43 +28856,43 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Un Certain Regard Prize"
             ],
-            "prize_rank": 1
+            "prize_rank": 0
           },
           {
             "film_id": 3154,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3459,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3151,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3157,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 388,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3153,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3155,
@@ -28900,7 +28900,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Directing - Un Certain Regard · Taylor SHERIDAN"
             ],
-            "prize_rank": 1
+            "prize_rank": 4
           }
         ],
         "nominees": [
@@ -28924,14 +28924,14 @@ window.CULTURE_AWARDS = [
           3155
         ],
         "winners": [
-          3144,
-          3142,
-          3150,
-          3147,
           3148,
-          3155
+          3142,
+          3144,
+          3147,
+          3155,
+          3150
         ],
-        "winner": 3144
+        "winner": 3148
       }
     ],
     "films": [
@@ -29133,13 +29133,13 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Award for Best Screenplay (Ex-Aequo) · Jafar PANAHI"
             ],
-            "prize_rank": 1
+            "prize_rank": 5
           },
           {
             "film_id": 3158,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 363,
@@ -29147,7 +29147,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Award for Best Actress · Samal YESLYAMOVA"
             ],
-            "prize_rank": 1
+            "prize_rank": 7
           },
           {
             "film_id": 1510,
@@ -29155,13 +29155,13 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Grand Prix"
             ],
-            "prize_rank": 1
+            "prize_rank": 2
           },
           {
             "film_id": 3162,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 367,
@@ -29169,7 +29169,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Jury Prize"
             ],
-            "prize_rank": 1
+            "prize_rank": 6
           },
           {
             "film_id": 3159,
@@ -29177,19 +29177,19 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Award for Best Actor · Marcello FONTE"
             ],
-            "prize_rank": 1
+            "prize_rank": 8
           },
           {
             "film_id": 3160,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3164,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 1515,
@@ -29197,7 +29197,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Award for Best Screenplay (Ex-Aequo) · Alice ROHRWACHER"
             ],
-            "prize_rank": 1
+            "prize_rank": 4
           },
           {
             "film_id": 3161,
@@ -29205,19 +29205,19 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Special Palme d'Or"
             ],
-            "prize_rank": 0
+            "prize_rank": 1
           },
           {
             "film_id": 3163,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 376,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 366,
@@ -29231,37 +29231,37 @@ window.CULTURE_AWARDS = [
             "film_id": 383,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3169,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3165,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3168,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3166,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3460,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 1514,
@@ -29269,7 +29269,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Award for Best Director · Pawel PAWLIKOWSKI"
             ],
-            "prize_rank": 1
+            "prize_rank": 3
           }
         ],
         "nominees": [
@@ -29296,17 +29296,17 @@ window.CULTURE_AWARDS = [
           1514
         ],
         "winners": [
-          3161,
           366,
-          3156,
-          363,
+          3161,
           1510,
-          367,
-          3159,
+          1514,
           1515,
-          1514
+          3156,
+          367,
+          363,
+          3159
         ],
-        "winner": 3161
+        "winner": 366
       },
       {
         "id": "un-certain-regard",
@@ -29319,7 +29319,7 @@ window.CULTURE_AWARDS = [
             "film_id": 3167,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3171,
@@ -29333,13 +29333,13 @@ window.CULTURE_AWARDS = [
             "film_id": 3173,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3186,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3170,
@@ -29347,13 +29347,13 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Directing - Un Certain Regard · Sergei LOZNITSA"
             ],
-            "prize_rank": 1
+            "prize_rank": 2
           },
           {
             "film_id": 3175,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3086,
@@ -29362,7 +29362,7 @@ window.CULTURE_AWARDS = [
               "Prize of the best actor · Victor POLSTER",
               "Caméra d'or"
             ],
-            "prize_rank": 1
+            "prize_rank": 4
           },
           {
             "film_id": 3172,
@@ -29370,61 +29370,61 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Un Certain Regard Prize"
             ],
-            "prize_rank": 1
+            "prize_rank": 0
           },
           {
             "film_id": 3174,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3176,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3461,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3177,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3178,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3179,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3180,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3191,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3182,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3462,
@@ -29432,7 +29432,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Screenplay - Un Certain Regard · Meryem BENM’BAREK"
             ],
-            "prize_rank": 1
+            "prize_rank": 3
           }
         ],
         "nominees": [
@@ -29456,13 +29456,13 @@ window.CULTURE_AWARDS = [
           3462
         ],
         "winners": [
+          3172,
           3171,
           3170,
-          3086,
-          3172,
-          3462
+          3462,
+          3086
         ],
-        "winner": 3171
+        "winner": 3172
       }
     ],
     "films": [
@@ -29672,7 +29672,7 @@ window.CULTURE_AWARDS = [
             "film_id": 3181,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3187,
@@ -29688,7 +29688,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Jury Prize (Ex-Aequo)"
             ],
-            "prize_rank": 1
+            "prize_rank": 4
           },
           {
             "film_id": 341,
@@ -29696,13 +29696,13 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Award for Best Actor · Antonio BANDERAS"
             ],
-            "prize_rank": 1
+            "prize_rank": 7
           },
           {
             "film_id": 3184,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 1497,
@@ -29716,7 +29716,7 @@ window.CULTURE_AWARDS = [
             "film_id": 3185,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3188,
@@ -29724,13 +29724,13 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Special Mention · Elia SULEIMAN"
             ],
-            "prize_rank": 1
+            "prize_rank": 8
           },
           {
             "film_id": 1498,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 346,
@@ -29738,7 +29738,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Award for Best Director"
             ],
-            "prize_rank": 1
+            "prize_rank": 3
           },
           {
             "film_id": 2476,
@@ -29746,7 +29746,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Jury Prize (Ex-Aequo)"
             ],
-            "prize_rank": 1
+            "prize_rank": 5
           },
           {
             "film_id": 3189,
@@ -29754,31 +29754,31 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Award for Best Actress · Emily BEECHAM"
             ],
-            "prize_rank": 1
+            "prize_rank": 6
           },
           {
             "film_id": 3463,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3190,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3192,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 353,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 1499,
@@ -29786,31 +29786,31 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Award for Best Screenplay · Céline SCIAMMA"
             ],
-            "prize_rank": 1
+            "prize_rank": 2
           },
           {
             "film_id": 3193,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3194,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3058,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 356,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           }
         ],
         "nominees": [
@@ -29839,13 +29839,13 @@ window.CULTURE_AWARDS = [
         "winners": [
           1497,
           3187,
-          3183,
-          341,
-          3188,
+          1499,
           346,
+          3183,
           2476,
           3189,
-          1499
+          341,
+          3188
         ],
         "winner": 1497
       },
@@ -29862,13 +29862,13 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Un Certain Regard Prize"
             ],
-            "prize_rank": 1
+            "prize_rank": 0
           },
           {
             "film_id": 3202,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 344,
@@ -29876,13 +29876,13 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Directing - Un Certain Regard · Kantemir BALAGOV"
             ],
-            "prize_rank": 1
+            "prize_rank": 3
           },
           {
             "film_id": 3195,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3196,
@@ -29890,13 +29890,13 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Prize for Best Performance · Chiara MASTROIANNI"
             ],
-            "prize_rank": 1
+            "prize_rank": 2
           },
           {
             "film_id": 3464,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3197,
@@ -29904,13 +29904,13 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Un Certain Regard Jury's Special Mention"
             ],
-            "prize_rank": 1
+            "prize_rank": 5
           },
           {
             "film_id": 3198,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3200,
@@ -29918,13 +29918,13 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Un Certain Regard Jury's \"Coup de Coeur\" (Ex-Aequo)"
             ],
-            "prize_rank": 1
+            "prize_rank": 6
           },
           {
             "film_id": 3199,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3204,
@@ -29932,19 +29932,19 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Special Jury Prize - Un Certain Regard"
             ],
-            "prize_rank": 1
+            "prize_rank": 4
           },
           {
             "film_id": 3201,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3208,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3213,
@@ -29958,19 +29958,19 @@ window.CULTURE_AWARDS = [
             "film_id": 3203,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3205,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3206,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3209,
@@ -29978,7 +29978,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Un Certain Regard Jury's \"Coup de Coeur\" (Ex-Aequo)"
             ],
-            "prize_rank": 1
+            "prize_rank": 7
           }
         ],
         "nominees": [
@@ -30003,12 +30003,12 @@ window.CULTURE_AWARDS = [
         ],
         "winners": [
           3465,
-          344,
+          3213,
           3196,
+          344,
+          3204,
           3197,
           3200,
-          3204,
-          3213,
           3209
         ],
         "winner": 3465
@@ -30246,13 +30246,13 @@ window.CULTURE_AWARDS = [
             "film_id": 411,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3212,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3219,
@@ -30260,13 +30260,13 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Actor · Óscar Martínez"
             ],
-            "prize_rank": 1
+            "prize_rank": 5
           },
           {
             "film_id": 3210,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3211,
@@ -30274,7 +30274,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Marcello Mastroianni Award · Paula Beer"
             ],
-            "prize_rank": 1
+            "prize_rank": 7
           },
           {
             "film_id": 2958,
@@ -30282,7 +30282,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Screenplay · Noah Oppenheim"
             ],
-            "prize_rank": 1
+            "prize_rank": 8
           },
           {
             "film_id": 1542,
@@ -30290,7 +30290,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Actress · Emma Stone"
             ],
-            "prize_rank": 1
+            "prize_rank": 6
           },
           {
             "film_id": 3214,
@@ -30298,19 +30298,19 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Director · Amat Escalante"
             ],
-            "prize_rank": 1
+            "prize_rank": 2
           },
           {
             "film_id": 3215,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3216,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 422,
@@ -30324,13 +30324,13 @@ window.CULTURE_AWARDS = [
             "film_id": 3224,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3226,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3467,
@@ -30338,13 +30338,13 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Director · Andrey Konchalovskiy"
             ],
-            "prize_rank": 1
+            "prize_rank": 3
           },
           {
             "film_id": 3217,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3218,
@@ -30352,25 +30352,25 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Special Jury Prize"
             ],
-            "prize_rank": 1
+            "prize_rank": 4
           },
           {
             "film_id": 3220,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3221,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3222,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           }
         ],
         "nominees": [
@@ -30397,14 +30397,14 @@ window.CULTURE_AWARDS = [
         ],
         "winners": [
           3207,
-          3219,
-          3211,
-          2958,
-          1542,
-          3214,
           422,
+          3214,
           3467,
-          3218
+          3218,
+          3219,
+          1542,
+          3211,
+          2958
         ],
         "winner": 3207
       },
@@ -30419,25 +30419,25 @@ window.CULTURE_AWARDS = [
             "film_id": 3223,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3227,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3237,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3469,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3225,
@@ -30451,13 +30451,13 @@ window.CULTURE_AWARDS = [
             "film_id": 3228,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3229,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3231,
@@ -30465,7 +30465,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Special Orizzonti Jury Prize"
             ],
-            "prize_rank": 1
+            "prize_rank": 2
           },
           {
             "film_id": 3466,
@@ -30473,19 +30473,19 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Screenplay"
             ],
-            "prize_rank": 1
+            "prize_rank": 3
           },
           {
             "film_id": 3233,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3232,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3230,
@@ -30493,31 +30493,31 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Orizzonti Award for Best Film"
             ],
-            "prize_rank": 1
+            "prize_rank": 0
           },
           {
             "film_id": 3235,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3234,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3241,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3236,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3240,
@@ -30525,7 +30525,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Actor · Nuno Lopes"
             ],
-            "prize_rank": 1
+            "prize_rank": 5
           },
           {
             "film_id": 3243,
@@ -30533,7 +30533,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Actress · Ruth Díaz"
             ],
-            "prize_rank": 1
+            "prize_rank": 4
           }
         ],
         "nominees": [
@@ -30557,14 +30557,14 @@ window.CULTURE_AWARDS = [
           3243
         ],
         "winners": [
+          3230,
           3225,
           3231,
           3466,
-          3230,
-          3240,
-          3243
+          3243,
+          3240
         ],
-        "winner": 3225
+        "winner": 3230
       }
     ],
     "films": [
@@ -30771,19 +30771,19 @@ window.CULTURE_AWARDS = [
             "film_id": 3238,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 387,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3239,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 393,
@@ -30799,13 +30799,13 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Actor · Kamel El Basha"
             ],
-            "prize_rank": 1
+            "prize_rank": 4
           },
           {
             "film_id": 3244,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3242,
@@ -30813,19 +30813,19 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Marcello Mastroianni Award · Charlie Plummer"
             ],
-            "prize_rank": 1
+            "prize_rank": 7
           },
           {
             "film_id": 1525,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3247,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3246,
@@ -30834,13 +30834,13 @@ window.CULTURE_AWARDS = [
               "Best Director · Xavier Legrand",
               "Lion of the Future"
             ],
-            "prize_rank": 1
+            "prize_rank": 2
           },
           {
             "film_id": 3472,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 399,
@@ -30856,7 +30856,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Screenplay · Martin McDonagh"
             ],
-            "prize_rank": 1
+            "prize_rank": 5
           },
           {
             "film_id": 3245,
@@ -30864,31 +30864,31 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Actress · Charlotte Rampling"
             ],
-            "prize_rank": 1
+            "prize_rank": 3
           },
           {
             "film_id": 3084,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3248,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3468,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 2995,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3250,
@@ -30896,19 +30896,19 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Special Jury Prize"
             ],
-            "prize_rank": 1
+            "prize_rank": 6
           },
           {
             "film_id": 3081,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3254,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           }
         ],
         "nominees": [
@@ -30936,13 +30936,13 @@ window.CULTURE_AWARDS = [
         ],
         "winners": [
           393,
-          2987,
-          3242,
-          3246,
           399,
-          398,
+          3246,
           3245,
-          3250
+          2987,
+          398,
+          3250,
+          3242
         ],
         "winner": 393
       },
@@ -30957,19 +30957,19 @@ window.CULTURE_AWARDS = [
             "film_id": 3255,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3249,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3253,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3251,
@@ -30977,7 +30977,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Special Orizzonti Jury Prize"
             ],
-            "prize_rank": 1
+            "prize_rank": 2
           },
           {
             "film_id": 3252,
@@ -30985,37 +30985,37 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Actress · Lyna Khoudri"
             ],
-            "prize_rank": 1
+            "prize_rank": 3
           },
           {
             "film_id": 3474,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3477,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3256,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3261,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3264,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3270,
@@ -31032,13 +31032,13 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Screenplay · Alireza Khatami"
             ],
-            "prize_rank": 1
+            "prize_rank": 5
           },
           {
             "film_id": 3470,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3258,
@@ -31046,37 +31046,37 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Orizzonti Award for Best Film"
             ],
-            "prize_rank": 1
+            "prize_rank": 0
           },
           {
             "film_id": 3471,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3259,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3260,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3265,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3262,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           }
         ],
         "nominees": [
@@ -31101,13 +31101,13 @@ window.CULTURE_AWARDS = [
           3262
         ],
         "winners": [
+          3258,
+          3270,
           3251,
           3252,
-          3270,
-          3257,
-          3258
+          3257
         ],
-        "winner": 3251
+        "winner": 3258
       }
     ],
     "films": [
@@ -31320,13 +31320,13 @@ window.CULTURE_AWARDS = [
             "film_id": 3278,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3263,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 1513,
@@ -31334,13 +31334,13 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Director · Jacques Audiard"
             ],
-            "prize_rank": 1
+            "prize_rank": 2
           },
           {
             "film_id": 1520,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 2996,
@@ -31348,13 +31348,13 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Screenplay · Joel Coen, Ethan Coen"
             ],
-            "prize_rank": 1
+            "prize_rank": 5
           },
           {
             "film_id": 3266,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 1507,
@@ -31368,19 +31368,19 @@ window.CULTURE_AWARDS = [
             "film_id": 3267,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3268,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 2997,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3274,
@@ -31389,7 +31389,7 @@ window.CULTURE_AWARDS = [
               "Special Jury Prize",
               "Marcello Mastroianni Award · Baykali Ganambarr"
             ],
-            "prize_rank": 1
+            "prize_rank": 6
           },
           {
             "film_id": 368,
@@ -31404,37 +31404,37 @@ window.CULTURE_AWARDS = [
             "film_id": 3271,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3269,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3279,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3272,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3273,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3275,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 2994,
@@ -31442,19 +31442,19 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Actor · Willem Dafoe"
             ],
-            "prize_rank": 1
+            "prize_rank": 4
           },
           {
             "film_id": 3276,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3280,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           }
         ],
         "nominees": [
@@ -31482,11 +31482,11 @@ window.CULTURE_AWARDS = [
         ],
         "winners": [
           1507,
-          1513,
-          2996,
-          3274,
           368,
-          2994
+          1513,
+          2994,
+          2996,
+          3274
         ],
         "winner": 1507
       },
@@ -31503,13 +31503,13 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Orizzonti Award for Best Film"
             ],
-            "prize_rank": 1
+            "prize_rank": 0
           },
           {
             "film_id": 3277,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3305,
@@ -31523,13 +31523,13 @@ window.CULTURE_AWARDS = [
             "film_id": 3281,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3282,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3473,
@@ -31537,31 +31537,31 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Special Orizzonti Jury Prize"
             ],
-            "prize_rank": 1
+            "prize_rank": 2
           },
           {
             "film_id": 3283,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3284,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3286,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3290,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3288,
@@ -31569,13 +31569,13 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Lion of the Future"
             ],
-            "prize_rank": 1
+            "prize_rank": 6
           },
           {
             "film_id": 3485,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3475,
@@ -31583,31 +31583,31 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Actress · Natalya Kudryashova"
             ],
-            "prize_rank": 1
+            "prize_rank": 3
           },
           {
             "film_id": 3287,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3292,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3289,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3295,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3291,
@@ -31615,7 +31615,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Screenplay · Pema Tseden"
             ],
-            "prize_rank": 1
+            "prize_rank": 5
           },
           {
             "film_id": 3293,
@@ -31623,7 +31623,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Actor · Kais Nashif"
             ],
-            "prize_rank": 1
+            "prize_rank": 4
           }
         ],
         "nominees": [
@@ -31651,10 +31651,10 @@ window.CULTURE_AWARDS = [
           3285,
           3305,
           3473,
-          3288,
           3475,
+          3293,
           3291,
-          3293
+          3288
         ],
         "winner": 3285
       }
@@ -31869,7 +31869,7 @@ window.CULTURE_AWARDS = [
             "film_id": 3294,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3297,
@@ -31877,37 +31877,37 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Director · Roy Andersson"
             ],
-            "prize_rank": 1
+            "prize_rank": 2
           },
           {
             "film_id": 3296,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 2180,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3299,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3304,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3298,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3302,
@@ -31915,31 +31915,31 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Actress · Ariane Ascaride"
             ],
-            "prize_rank": 1
+            "prize_rank": 3
           },
           {
             "film_id": 3300,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3301,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3306,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3303,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3312,
@@ -31947,7 +31947,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Actor · Luca Marinelli"
             ],
-            "prize_rank": 1
+            "prize_rank": 4
           },
           {
             "film_id": 3307,
@@ -31955,19 +31955,19 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Special Jury Prize"
             ],
-            "prize_rank": 1
+            "prize_rank": 6
           },
           {
             "film_id": 3308,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3316,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 2464,
@@ -31975,7 +31975,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Marcello Mastroianni Award · Toby Wallace"
             ],
-            "prize_rank": 1
+            "prize_rank": 7
           },
           {
             "film_id": 354,
@@ -31997,7 +31997,7 @@ window.CULTURE_AWARDS = [
             "film_id": 3309,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3315,
@@ -32005,7 +32005,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Screenplay · Yonfan"
             ],
-            "prize_rank": 1
+            "prize_rank": 5
           }
         ],
         "nominees": [
@@ -32033,13 +32033,13 @@ window.CULTURE_AWARDS = [
         ],
         "winners": [
           354,
+          3310,
           3297,
           3302,
           3312,
+          3315,
           3307,
-          2464,
-          3310,
-          3315
+          2464
         ],
         "winner": 354
       },
@@ -32054,7 +32054,7 @@ window.CULTURE_AWARDS = [
             "film_id": 3311,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3476,
@@ -32062,7 +32062,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Actor · Sami Bouajila"
             ],
-            "prize_rank": 1
+            "prize_rank": 4
           },
           {
             "film_id": 3321,
@@ -32076,43 +32076,43 @@ window.CULTURE_AWARDS = [
             "film_id": 3313,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3314,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3317,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3318,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3319,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3320,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3323,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3324,
@@ -32120,19 +32120,19 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Screenplay · Jessica Palud, Philippe Lioret, Diastème"
             ],
-            "prize_rank": 1
+            "prize_rank": 5
           },
           {
             "film_id": 3322,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3328,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3326,
@@ -32140,25 +32140,25 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Special Orizzonti Jury Prize"
             ],
-            "prize_rank": 1
+            "prize_rank": 2
           },
           {
             "film_id": 3478,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3325,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3327,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3334,
@@ -32166,7 +32166,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Actress · Marta Nieto"
             ],
-            "prize_rank": 1
+            "prize_rank": 3
           },
           {
             "film_id": 3480,
@@ -32174,7 +32174,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Orizzonti Award for Best Film"
             ],
-            "prize_rank": 1
+            "prize_rank": 0
           }
         ],
         "nominees": [
@@ -32199,14 +32199,14 @@ window.CULTURE_AWARDS = [
           3480
         ],
         "winners": [
-          3476,
+          3480,
           3321,
-          3324,
           3326,
           3334,
-          3480
+          3476,
+          3324
         ],
-        "winner": 3476
+        "winner": 3480
       }
     ],
     "films": [
@@ -32419,19 +32419,19 @@ window.CULTURE_AWARDS = [
             "film_id": 3330,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3341,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3339,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3329,
@@ -32445,19 +32445,19 @@ window.CULTURE_AWARDS = [
             "film_id": 3332,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3331,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3333,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 2475,
@@ -32465,7 +32465,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Special Jury Prize"
             ],
-            "prize_rank": 1
+            "prize_rank": 6
           },
           {
             "film_id": 3335,
@@ -32473,7 +32473,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Director · Kiyoshi Kurosawa"
             ],
-            "prize_rank": 1
+            "prize_rank": 2
           },
           {
             "film_id": 3336,
@@ -32481,7 +32481,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Marcello Mastroianni Award · Rouhollah Zamani"
             ],
-            "prize_rank": 1
+            "prize_rank": 7
           },
           {
             "film_id": 2385,
@@ -32489,13 +32489,13 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Actress · Vanessa Kirby"
             ],
-            "prize_rank": 1
+            "prize_rank": 3
           },
           {
             "film_id": 3337,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3338,
@@ -32503,19 +32503,19 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Actor · Pierfrancesco Favino"
             ],
-            "prize_rank": 1
+            "prize_rank": 4
           },
           {
             "film_id": 3342,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3479,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3340,
@@ -32523,13 +32523,13 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Screenplay · Chaitanya Tamhane"
             ],
-            "prize_rank": 1
+            "prize_rank": 5
           },
           {
             "film_id": 2393,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 1492,
@@ -32563,12 +32563,12 @@ window.CULTURE_AWARDS = [
         "winners": [
           1492,
           3329,
-          2475,
           3335,
-          3336,
           2385,
           3338,
-          3340
+          3340,
+          2475,
+          3336
         ],
         "winner": 1492
       },
@@ -32583,13 +32583,13 @@ window.CULTURE_AWARDS = [
             "film_id": 3345,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3353,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3349,
@@ -32597,7 +32597,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Orizzonti Award for Best Film"
             ],
-            "prize_rank": 1
+            "prize_rank": 0
           },
           {
             "film_id": 2392,
@@ -32605,7 +32605,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Actor · Yahya Mahayni"
             ],
-            "prize_rank": 1
+            "prize_rank": 4
           },
           {
             "film_id": 3343,
@@ -32613,13 +32613,13 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Screenplay · Pietro Castellitto"
             ],
-            "prize_rank": 1
+            "prize_rank": 5
           },
           {
             "film_id": 3344,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3346,
@@ -32635,55 +32635,55 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Best Actress · Khansa Batma"
             ],
-            "prize_rank": 1
+            "prize_rank": 3
           },
           {
             "film_id": 3347,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3348,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3355,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3351,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3365,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3350,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3352,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3354,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3363,
@@ -32692,19 +32692,19 @@ window.CULTURE_AWARDS = [
               "Special Orizzonti Jury Prize",
               "Lion of the Future"
             ],
-            "prize_rank": 1
+            "prize_rank": 2
           },
           {
             "film_id": 3356,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3357,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           }
         ],
         "nominees": [
@@ -32730,11 +32730,11 @@ window.CULTURE_AWARDS = [
         ],
         "winners": [
           3349,
-          2392,
-          3343,
           3346,
+          3363,
           3483,
-          3363
+          2392,
+          3343
         ],
         "winner": 3349
       }
@@ -32938,25 +32938,25 @@ window.CULTURE_AWARDS = [
             "film_id": 3362,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3358,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3359,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3361,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3360,
@@ -32964,13 +32964,13 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Silver Bear for Outstanding Artistic Contribution · Mark Lee Ping-Bing"
             ],
-            "prize_rank": 1
+            "prize_rank": 7
           },
           {
             "film_id": 3366,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 2966,
@@ -32984,7 +32984,7 @@ window.CULTURE_AWARDS = [
             "film_id": 3364,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3370,
@@ -32992,7 +32992,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Silver Bear Alfred Bauer Prize"
             ],
-            "prize_rank": 1
+            "prize_rank": 2
           },
           {
             "film_id": 3367,
@@ -33001,7 +33001,7 @@ window.CULTURE_AWARDS = [
               "Silver Bear for Best Actor · Majd Mastoura",
               "GWFF Best First Feature Award"
             ],
-            "prize_rank": 1
+            "prize_rank": 5
           },
           {
             "film_id": 3372,
@@ -33009,7 +33009,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Silver Bear for Best Actress · Trine Dyrholm"
             ],
-            "prize_rank": 1
+            "prize_rank": 4
           },
           {
             "film_id": 3369,
@@ -33017,19 +33017,19 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Silver Bear for Best Director · Mia Hansen-Løve"
             ],
-            "prize_rank": 1
+            "prize_rank": 3
           },
           {
             "film_id": 3371,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3368,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3376,
@@ -33043,13 +33043,13 @@ window.CULTURE_AWARDS = [
             "film_id": 3386,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3373,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3374,
@@ -33057,7 +33057,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Silver Bear for Best Screenplay · Tomasz Wasilewski"
             ],
-            "prize_rank": 1
+            "prize_rank": 6
           }
         ],
         "nominees": [
@@ -33082,13 +33082,13 @@ window.CULTURE_AWARDS = [
         ],
         "winners": [
           2966,
-          3360,
-          3370,
-          3367,
-          3372,
-          3369,
           3376,
-          3374
+          3370,
+          3369,
+          3372,
+          3367,
+          3374,
+          3360
         ],
         "winner": 2966
       }
@@ -33206,7 +33206,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Silver Bear for Outstanding Artistic Contribution · Dana Bunescu"
             ],
-            "prize_rank": 1
+            "prize_rank": 7
           },
           {
             "film_id": 3379,
@@ -33214,25 +33214,25 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Silver Bear for Best Actress · Kim Minhee"
             ],
-            "prize_rank": 1
+            "prize_rank": 4
           },
           {
             "film_id": 3377,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3378,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3380,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3384,
@@ -33246,7 +33246,7 @@ window.CULTURE_AWARDS = [
             "film_id": 3388,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3381,
@@ -33254,19 +33254,19 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Silver Bear for Best Actor · Georg Friedrich"
             ],
-            "prize_rank": 1
+            "prize_rank": 5
           },
           {
             "film_id": 3382,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3383,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3481,
@@ -33274,13 +33274,13 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Silver Bear Alfred Bauer Prize"
             ],
-            "prize_rank": 1
+            "prize_rank": 2
           },
           {
             "film_id": 3385,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 2989,
@@ -33294,13 +33294,13 @@ window.CULTURE_AWARDS = [
             "film_id": 3390,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3391,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3392,
@@ -33308,7 +33308,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Silver Bear for Best Director · Aki Kaurismäki"
             ],
-            "prize_rank": 1
+            "prize_rank": 3
           },
           {
             "film_id": 2982,
@@ -33316,13 +33316,13 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Silver Bear for Best Screenplay · Sebastián Lelio and Gonzalo Maza"
             ],
-            "prize_rank": 1
+            "prize_rank": 6
           },
           {
             "film_id": 3387,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           }
         ],
         "nominees": [
@@ -33347,13 +33347,13 @@ window.CULTURE_AWARDS = [
         ],
         "winners": [
           2989,
-          3375,
-          3379,
           3384,
-          3381,
           3481,
           3392,
-          2982
+          3379,
+          3381,
+          2982,
+          3375
         ],
         "winner": 2989
       }
@@ -33468,25 +33468,25 @@ window.CULTURE_AWARDS = [
             "film_id": 3389,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3395,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3482,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 359,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 360,
@@ -33494,25 +33494,25 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Silver Bear for Outstanding Artistic Contribution · Elena Okopnaya"
             ],
-            "prize_rank": 1
+            "prize_rank": 7
           },
           {
             "film_id": 3398,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3393,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3394,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 357,
@@ -33520,13 +33520,13 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Silver Bear for Best Director · Wes Anderson"
             ],
-            "prize_rank": 1
+            "prize_rank": 3
           },
           {
             "film_id": 3397,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3403,
@@ -33534,7 +33534,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Silver Bear for Best Actor · Anthony Bajon"
             ],
-            "prize_rank": 1
+            "prize_rank": 5
           },
           {
             "film_id": 3396,
@@ -33543,13 +33543,13 @@ window.CULTURE_AWARDS = [
               "Silver Bear Alfred Bauer Prize",
               "Silver Bear for Best Actress · Ana Brun"
             ],
-            "prize_rank": 1
+            "prize_rank": 2
           },
           {
             "film_id": 3401,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3404,
@@ -33557,13 +33557,13 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Silver Bear for Best Screenplay · Manuel Alcalá, Alonso Ruizpalacios"
             ],
-            "prize_rank": 1
+            "prize_rank": 6
           },
           {
             "film_id": 3400,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3399,
@@ -33578,7 +33578,7 @@ window.CULTURE_AWARDS = [
             "film_id": 3405,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3402,
@@ -33592,7 +33592,7 @@ window.CULTURE_AWARDS = [
             "film_id": 3419,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           }
         ],
         "nominees": [
@@ -33618,12 +33618,12 @@ window.CULTURE_AWARDS = [
         ],
         "winners": [
           3399,
-          360,
+          3402,
+          3396,
           357,
           3403,
-          3396,
           3404,
-          3402
+          360
         ],
         "winner": 3399
       }
@@ -33743,13 +33743,13 @@ window.CULTURE_AWARDS = [
             "film_id": 3408,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3406,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3407,
@@ -33758,19 +33758,19 @@ window.CULTURE_AWARDS = [
               "Silver Bear for Best Actress · Yong Mei",
               "Silver Bear for Best Actor · Wang Jingchun"
             ],
-            "prize_rank": 1
+            "prize_rank": 4
           },
           {
             "film_id": 3409,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3410,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3411,
@@ -33786,13 +33786,13 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Silver Bear for Best Director · Angela Schanelec"
             ],
-            "prize_rank": 1
+            "prize_rank": 3
           },
           {
             "film_id": 3412,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3414,
@@ -33800,25 +33800,25 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Silver Bear for Best Screenplay · Maurizio Braucci, Claudio Giovannesi, Roberto Saviano"
             ],
-            "prize_rank": 1
+            "prize_rank": 6
           },
           {
             "film_id": 3413,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3415,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3416,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3420,
@@ -33834,13 +33834,13 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Silver Bear Alfred Bauer Prize"
             ],
-            "prize_rank": 1
+            "prize_rank": 2
           },
           {
             "film_id": 3421,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3426,
@@ -33848,7 +33848,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Silver Bear for Outstanding Artistic Contribution · Rasmus Videbæk"
             ],
-            "prize_rank": 1
+            "prize_rank": 7
           }
         ],
         "nominees": [
@@ -33871,11 +33871,11 @@ window.CULTURE_AWARDS = [
         ],
         "winners": [
           3420,
-          3407,
           3411,
-          3417,
-          3414,
           3418,
+          3417,
+          3407,
+          3414,
           3426
         ],
         "winner": 3420
@@ -33982,7 +33982,7 @@ window.CULTURE_AWARDS = [
             "film_id": 3424,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3486,
@@ -33990,7 +33990,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Silver Bear for Outstanding Artistic Contribution · Jürgen Jürges"
             ],
-            "prize_rank": 1
+            "prize_rank": 6
           },
           {
             "film_id": 3423,
@@ -33998,7 +33998,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Silver Bear for Best Director · Hong Sangsoo"
             ],
-            "prize_rank": 1
+            "prize_rank": 2
           },
           {
             "film_id": 3422,
@@ -34006,13 +34006,13 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "The Silver Bear - 70th Berlinale"
             ],
-            "prize_rank": 1
+            "prize_rank": 7
           },
           {
             "film_id": 3429,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3487,
@@ -34020,13 +34020,13 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Silver Bear for Best Screenplay · D'Innocenzo Brothers"
             ],
-            "prize_rank": 1
+            "prize_rank": 5
           },
           {
             "film_id": 3425,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3427,
@@ -34034,13 +34034,13 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Berlinale Documentary Award"
             ],
-            "prize_rank": 1
+            "prize_rank": 8
           },
           {
             "film_id": 3433,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3428,
@@ -34054,13 +34054,13 @@ window.CULTURE_AWARDS = [
             "film_id": 3484,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3430,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 1490,
@@ -34074,19 +34074,19 @@ window.CULTURE_AWARDS = [
             "film_id": 3432,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3431,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3436,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3434,
@@ -34094,7 +34094,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Silver Bear for Best Actress · Paula Beer"
             ],
-            "prize_rank": 1
+            "prize_rank": 3
           },
           {
             "film_id": 3435,
@@ -34102,7 +34102,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Silver Bear for Best Actor · Elio Germano"
             ],
-            "prize_rank": 1
+            "prize_rank": 4
           }
         ],
         "nominees": [
@@ -34127,14 +34127,14 @@ window.CULTURE_AWARDS = [
         ],
         "winners": [
           1490,
-          3486,
-          3423,
-          3422,
-          3487,
-          3427,
           3428,
+          3423,
           3434,
-          3435
+          3435,
+          3487,
+          3486,
+          3422,
+          3427
         ],
         "winner": 1490
       },
@@ -34149,25 +34149,25 @@ window.CULTURE_AWARDS = [
             "film_id": 3438,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3437,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3449,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 333,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3443,
@@ -34175,13 +34175,13 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Encounters Special Mention"
             ],
-            "prize_rank": 1
+            "prize_rank": 5
           },
           {
             "film_id": 3442,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3439,
@@ -34189,7 +34189,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "GWFF Best First Feature Award"
             ],
-            "prize_rank": 1
+            "prize_rank": 0
           },
           {
             "film_id": 3440,
@@ -34197,7 +34197,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Encounters Best Director · Cristi Puiu"
             ],
-            "prize_rank": 1
+            "prize_rank": 4
           },
           {
             "film_id": 3441,
@@ -34211,19 +34211,19 @@ window.CULTURE_AWARDS = [
             "film_id": 3450,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3444,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3446,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           },
           {
             "film_id": 3445,
@@ -34231,7 +34231,7 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Encounters Special Jury Award"
             ],
-            "prize_rank": 1
+            "prize_rank": 3
           },
           {
             "film_id": 3447,
@@ -34239,13 +34239,13 @@ window.CULTURE_AWARDS = [
             "prizes": [
               "Encounters Best Film"
             ],
-            "prize_rank": 1
+            "prize_rank": 2
           },
           {
             "film_id": 3448,
             "winner": false,
             "prizes": [],
-            "prize_rank": 1
+            "prize_rank": -1
           }
         ],
         "nominees": [
@@ -34266,14 +34266,14 @@ window.CULTURE_AWARDS = [
           3448
         ],
         "winners": [
-          3443,
           3439,
-          3440,
           3441,
+          3447,
           3445,
-          3447
+          3440,
+          3443
         ],
-        "winner": 3443
+        "winner": 3439
       }
     ],
     "films": [
