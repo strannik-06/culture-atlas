@@ -64,3 +64,8 @@ test('manual identities require evidence without made-up provider IDs', () => {
   assert.equal(registry.get(manual.id).imdb_id,'tt4324832');
   for(const invalid of [{...manual,tmdb_id:123},{...manual,evidence_urls:[]},{...manual,imdb_id:'tt4324833'}])assert.throws(()=>identities.createRegistry([],[invalid]));
 });
+
+test('A reviewed complete cinema film can use a TV provider without inventing a movie identity',()=>{
+ const f={id:99999,title:'A complete documentary',tmdb_id:null,tmdb_tv_id:43107,imdb_id:'tt1113829',identity_status:'reviewed_complete_film_tv_provider',identity_scope:'complete-film',identity_sources:['https://publisher.test/film']};
+ const r=identities.createRegistry([f],[]);assert.equal(r.byExternalId('tv',43107).work_key,'movie:99999');assert.throws(()=>identities.createRegistry([{...f,identity_status:undefined}],[]),/reviewed complete-film/);
+});

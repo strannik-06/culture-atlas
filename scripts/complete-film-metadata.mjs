@@ -33,6 +33,7 @@ export async function complete({films,details,api,overrides=[],progress=()=>{}})
   while(next<targets.length){
    const film=targets[next++];report.requested++;
    try{
+    if(!film.tmdb_id&&film.tmdb_tv_id&&film.identity_status==='reviewed_complete_film_tv_provider'){report.unavailable.push({id:film.id,title:film.title,fields:fields.filter(k=>!present(details[film.id]?.[k])),reason:'Reviewed complete-film metadata uses a TV provider; movie-only completion skipped'});done++;continue;}
     if(!Number.isSafeInteger(film.tmdb_id)||film.tmdb_id<1)throw Error('Missing verified TMDB ID');
     const current=details[film.id]||{},movie=await api('movie/'+film.tmdb_id,{append_to_response:'credits,external_ids'});
     // Check identity before making optional image requests, too.

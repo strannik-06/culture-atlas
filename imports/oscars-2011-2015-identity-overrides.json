@@ -1,0 +1,88 @@
+{
+  "Oscars/2011/Outside the Law (Hors-la-loi)": {
+    "aliases": [
+      "Outside the Law",
+      "Outside of the Law",
+      "Hors la loi"
+    ],
+    "imdb_id": "tt1229381",
+    "director_aliases": [
+      "Rachid Bouchareb"
+    ],
+    "note": "Academy title includes the French title in parentheses; official Cannes record confirms 2010 feature, Rachid Bouchareb and both titles.",
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2011",
+      "https://www.festival-cannes.com/en/f/hors-la-loi/",
+      "https://www.imdb.com/title/tt1229381/"
+    ]
+  },
+  "Oscars/2012/In Darkness": {
+    "tmdb_id": 73686,
+    "director_aliases": [
+      "Agnieszka Holland"
+    ],
+    "note": "Polish Academy nominee is Agnieszka Holland's feature, not Çağan Irmak's 2009 film of the same English title. Distributor explicitly identifies director and nominee status.",
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2012",
+      "https://www.sonypictures.com/movies/indarkness",
+      "https://www.sonyclassics.com/indarkness/"
+    ]
+  },
+  "Oscars/2013/5 Broken Cameras": {
+    "aliases": [
+      "Five Broken Cameras"
+    ],
+    "imdb_id": "tt2125423",
+    "director_aliases": [
+      "Emad Burnat, Guy Davidi"
+    ],
+    "note": "Provider spells the initial numeral as Five. Distributor and Academy identify Emad Burnat and Guy Davidi's documentary.",
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2013",
+      "https://kinolorber.com/film/5brokencameras",
+      "https://www.imdb.com/title/tt2125423/"
+    ]
+  },
+  "Oscars/2013/No": {
+    "imdb_id": "tt2059255",
+    "director_aliases": [
+      "Pablo Larraín"
+    ],
+    "note": "Short generic title is lost in broad provider search. Distributor and festival identify Pablo Larraín's 2012 Chilean film with Gael García Bernal.",
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2013",
+      "https://www.bfdistribution.cl/pelicula/no/",
+      "https://iffr.com/en/iffr/2013/films/no",
+      "https://www.imdb.com/title/tt2059255/"
+    ]
+  },
+  "Oscars/2013/The Pirates! Band of Misfits": {
+    "aliases": [
+      "The Pirates! In an Adventure with Scientists!",
+      "The Pirates! In an Adventure with Scientists"
+    ],
+    "imdb_id": "tt1430626",
+    "director_aliases": [
+      "Peter Lord"
+    ],
+    "note": "US Academy title and UK producer title refer to the same 2012 Aardman feature directed by Peter Lord.",
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2013",
+      "https://aardman.com/film-tv-games/the-pirates/",
+      "https://www.imdb.com/title/tt1430626/"
+    ]
+  },
+  "Oscars/2014/Omar": {
+    "imdb_id": "tt2852406",
+    "director_aliases": [
+      "Hany Abu-Assad"
+    ],
+    "note": "Short title needs direct identity lookup. Official Cannes page and distributor identify Hany Abu-Assad's 2013 Palestinian feature.",
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2014",
+      "https://cinemadedemain.festival-cannes.com/en/f/omar/",
+      "https://kinolorber.com/film/omar",
+      "https://www.imdb.com/title/tt2852406/"
+    ]
+  }
+}

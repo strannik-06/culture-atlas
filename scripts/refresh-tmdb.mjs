@@ -18,7 +18,7 @@ const apply=process.argv.includes('--apply');
 const delay=ms=>new Promise(resolve=>setTimeout(resolve,ms));
 const report={total:catalog.length,linked:catalog.filter(f=>f.tmdb_id).length,validated:0,missingIds:[],mismatches:[],warnings:[],failed:[],applied:false};
 const seen=new Map();
-for(const film of catalog){
+for(const film of catalog.filter(f=>f.tmdb_id)){
  if(!film.tmdb_id){report.missingIds.push({id:film.id,title:film.title});continue}
  if(seen.has(film.tmdb_id)){report.mismatches.push({id:film.id,title:film.title,reason:'Duplicate TMDB ID',otherId:seen.get(film.tmdb_id)});continue}
  seen.set(film.tmdb_id,film.id);

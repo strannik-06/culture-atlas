@@ -1,0 +1,1710 @@
+{
+  "scope": "Main Competition (final actual competitors) 2011–2015. Encounters did not yet exist. Official jury prizes and cross-section official prizes for selected films. Excludes out-of-competition screenings, withdrawn films, independent juries, other sections and honorary awards.",
+  "events": [
+    {
+      "event": "Berlinale",
+      "year": 2011,
+      "section": "Official Selection",
+      "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2011/o=asc/p=1/rp=200",
+      "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2011/o=desc/p=1/rp=40",
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2011-02-10",
+          "end": "2011-02-20",
+          "source": "https://www.berlinale.de/en/archive/yearbooks/2011.html"
+        }
+      ],
+      "date_source_text": "February 10 – 20, 2011",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2011/o=asc/p=1/rp=200",
+          "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2011/o=desc/p=1/rp=40",
+          "selection": [
+            {
+              "title": "A torinói ló",
+              "aliases": [
+                "The Turin Horse",
+                "Das Turiner Pferd"
+              ],
+              "director": "Béla Tarr",
+              "year": 2010,
+              "runtime": 146,
+              "source": "https://www.berlinale.de/en/2011/programme/20115947.html"
+            },
+            {
+              "title": "Bizim Büyük Çaresizligimiz",
+              "aliases": [
+                "Our Grand Despair"
+              ],
+              "director": "Seyfi Teoman",
+              "year": 2010,
+              "runtime": 102,
+              "source": "https://www.berlinale.de/en/2011/programme/20112332.html"
+            },
+            {
+              "title": "Coriolanus",
+              "aliases": [],
+              "director": "Ralph Fiennes",
+              "year": 2010,
+              "runtime": 122,
+              "source": "https://www.berlinale.de/en/2011/programme/20112328.html"
+            },
+            {
+              "title": "El premio",
+              "aliases": [
+                "The Prize"
+              ],
+              "director": "Paula Markovitch",
+              "year": 2010,
+              "runtime": 115,
+              "source": "https://www.berlinale.de/en/2011/programme/20116750.html"
+            },
+            {
+              "title": "Jodaeiye Nader az Simin",
+              "aliases": [
+                "Nader And Simin, A Separation"
+              ],
+              "director": "Asghar Farhadi",
+              "year": 2011,
+              "runtime": 123,
+              "source": "https://www.berlinale.de/en/2011/programme/20116885.html"
+            },
+            {
+              "title": "Les contes de la nuit",
+              "aliases": [
+                "Tales Of The Night"
+              ],
+              "director": "Michel Ocelot",
+              "year": 2011,
+              "runtime": 84,
+              "source": "https://www.berlinale.de/en/2011/programme/20115955.html"
+            },
+            {
+              "title": "Margin Call",
+              "aliases": [],
+              "director": "JC Chandor",
+              "year": 2010,
+              "runtime": 110,
+              "source": "https://www.berlinale.de/en/2011/programme/20112343.html"
+            },
+            {
+              "title": "Odem",
+              "aliases": [
+                "Lipstikka"
+              ],
+              "director": "Jonathan Sagall",
+              "year": 2010,
+              "runtime": 90,
+              "source": "https://www.berlinale.de/en/2011/programme/20110904.html"
+            },
+            {
+              "title": "Saranghanda, Saranghaji Anneunda",
+              "aliases": [
+                "Come Rain, Come Shine",
+                "Kommt Regen, kommt Sonnenschein"
+              ],
+              "director": "Lee Yoon-ki",
+              "year": 2011,
+              "runtime": 105,
+              "source": "https://www.berlinale.de/en/2011/programme/20114349.html"
+            },
+            {
+              "title": "Schlafkrankheit",
+              "aliases": [
+                "Sleeping Sickness"
+              ],
+              "director": "Ulrich Köhler",
+              "year": 2011,
+              "runtime": 91,
+              "source": "https://www.berlinale.de/en/2011/programme/20112825.html"
+            },
+            {
+              "title": "The Forgiveness Of Blood",
+              "aliases": [],
+              "director": "Joshua Marston",
+              "year": 2010,
+              "runtime": 109,
+              "source": "https://www.berlinale.de/en/2011/programme/20113101.html"
+            },
+            {
+              "title": "The Future",
+              "aliases": [],
+              "director": "Miranda July",
+              "year": 2011,
+              "runtime": 91,
+              "source": "https://www.berlinale.de/en/2011/programme/20112139.html"
+            },
+            {
+              "title": "Un Mundo Misterioso",
+              "aliases": [
+                "A Mysterious World",
+                "Rätselhafte Welt"
+              ],
+              "director": "Rodrigo Moreno",
+              "year": 2011,
+              "runtime": 107,
+              "source": "https://www.berlinale.de/en/2011/programme/20112685.html"
+            },
+            {
+              "title": "V Subbotu",
+              "aliases": [
+                "Innocent Saturday",
+                "An einem Samstag"
+              ],
+              "director": "Alexander Mindadze",
+              "year": 2011,
+              "runtime": 99,
+              "source": "https://www.berlinale.de/en/2011/programme/20113291.html"
+            },
+            {
+              "title": "Wer wenn nicht wir",
+              "aliases": [
+                "If Not Us, Who"
+              ],
+              "director": "Andres Veiel",
+              "year": 2011,
+              "runtime": 124,
+              "source": "https://www.berlinale.de/en/2011/programme/20113348.html"
+            },
+            {
+              "title": "Yelling To The Sky",
+              "aliases": [],
+              "director": "Victoria Mahoney",
+              "year": 2010,
+              "runtime": 96,
+              "source": "https://www.berlinale.de/en/2011/programme/20110651.html"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Bear for Best Film",
+              "source_name": "Golden Bear for Best Film",
+              "jury": "International Jury 2011",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2011/o=desc/p=1/rp=40",
+              "source_text": "Jodaeiye Nader az Simin by Asghar Farhadi",
+              "entries": [
+                {
+                  "title": "Jodaeiye Nader az Simin",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Grand Jury Prize",
+              "source_name": "Jury Grand Prix - Silver Bear",
+              "jury": "International Jury 2011",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2011/o=desc/p=1/rp=40",
+              "source_text": "A torinói ló by Béla Tarr",
+              "entries": [
+                {
+                  "title": "A torinói ló",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Director",
+              "source_name": "Silver Bear for Best Director",
+              "jury": "International Jury 2011",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2011/o=desc/p=1/rp=40",
+              "source_text": "Ulrich Köhler Schlafkrankheit by Ulrich Köhler",
+              "entries": [
+                {
+                  "title": "Schlafkrankheit",
+                  "winner": true,
+                  "people": [
+                    "Ulrich Köhler"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actress",
+              "source_name": "Silver Bear for Best Actress",
+              "jury": "International Jury 2011",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2011/o=desc/p=1/rp=40",
+              "source_text": "Actress-ensemble Jodaeiye Nader az Simin by Asghar Farhadi",
+              "entries": [
+                {
+                  "title": "Jodaeiye Nader az Simin",
+                  "winner": true,
+                  "people": [
+                    "Actress-ensemble"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actor",
+              "source_name": "Silver Bear for Best Actor",
+              "jury": "International Jury 2011",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2011/o=desc/p=1/rp=40",
+              "source_text": "Actor-ensemble Jodaeiye Nader az Simin by Asghar Farhadi",
+              "entries": [
+                {
+                  "title": "Jodaeiye Nader az Simin",
+                  "winner": true,
+                  "people": [
+                    "Actor-ensemble"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Screenplay",
+              "source_name": "Silver Bear for Best Script",
+              "jury": "International Jury 2011",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2011/o=desc/p=1/rp=40",
+              "source_text": "Joshua Marston and Andamion Murataj The Forgiveness Of Blood by Joshua Marston",
+              "entries": [
+                {
+                  "title": "The Forgiveness Of Blood",
+                  "winner": true,
+                  "people": [
+                    "Joshua Marston and Andamion Murataj"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Outstanding Artistic Contribution",
+              "source_name": "Silver Bear for Outstanding Artistic Contribution",
+              "jury": "International Jury 2011",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2011/o=desc/p=1/rp=40",
+              "source_text": "ex aequo Wojciech Staron for the camera in El premio by Paula Markovitch",
+              "entries": [
+                {
+                  "title": "El premio",
+                  "winner": true,
+                  "people": [
+                    "Wojciech Staron"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Outstanding Artistic Contribution",
+              "source_name": "Silver Bear for Outstanding Artistic Contribution",
+              "jury": "International Jury 2011",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2011/o=desc/p=1/rp=40",
+              "source_text": "ex aequo Barbara Enriquez for the production design in El premio by Paula Markovitch",
+              "entries": [
+                {
+                  "title": "El premio",
+                  "winner": true,
+                  "people": [
+                    "Barbara Enriquez"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Alfred Bauer Prize",
+              "source_name": "Alfred Bauer Prize",
+              "jury": "International Jury 2011",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2011/o=desc/p=1/rp=40",
+              "source_text": "Wer wenn nicht wir by Andres Veiel",
+              "entries": [
+                {
+                  "title": "Wer wenn nicht wir",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "Berlinale",
+      "year": 2012,
+      "section": "Official Selection",
+      "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2012/o=asc/p=1/rp=200",
+      "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2012/o=desc/p=1/rp=40",
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2012-02-09",
+          "end": "2012-02-19",
+          "source": "https://www.berlinale.de/en/archive/yearbooks/2012.html"
+        }
+      ],
+      "date_source_text": "February 9 – 19, 2012",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2012/o=asc/p=1/rp=200",
+          "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2012/o=desc/p=1/rp=40",
+          "selection": [
+            {
+              "title": "A moi seule",
+              "aliases": [
+                "Coming Home"
+              ],
+              "director": "Frédéric Videau",
+              "year": 2011,
+              "runtime": 91,
+              "source": "https://www.berlinale.de/en/2012/programme/20126700.html"
+            },
+            {
+              "title": "Aujourd'hui",
+              "aliases": [
+                "Tey"
+              ],
+              "director": "Alain Gomis",
+              "year": 2011,
+              "runtime": 86,
+              "source": "https://www.berlinale.de/en/2012/programme/20125282.html"
+            },
+            {
+              "title": "Bai lu yuan",
+              "aliases": [
+                "White Deer Plain"
+              ],
+              "director": "Wang Quan'an",
+              "year": 2011,
+              "runtime": 177,
+              "source": "https://www.berlinale.de/en/2012/programme/20120121.html"
+            },
+            {
+              "title": "Barbara",
+              "aliases": [],
+              "director": "Christian Petzold",
+              "year": 2012,
+              "runtime": 105,
+              "source": "https://www.berlinale.de/en/2012/programme/20122349.html"
+            },
+            {
+              "title": "Captive",
+              "aliases": [],
+              "director": "Brillante Mendoza",
+              "year": 2011,
+              "runtime": 120,
+              "source": "https://www.berlinale.de/en/2012/programme/20124620.html"
+            },
+            {
+              "title": "Cesare deve morire",
+              "aliases": [
+                "Caesar Must Die"
+              ],
+              "director": "Paolo & Vittorio Taviani",
+              "year": 2011,
+              "runtime": 76,
+              "source": "https://www.berlinale.de/en/2012/programme/20125150.html"
+            },
+            {
+              "title": "Csak a szél",
+              "aliases": [
+                "Just The Wind"
+              ],
+              "director": "Bence Fliegauf",
+              "year": 2012,
+              "runtime": 98,
+              "source": "https://www.berlinale.de/en/2012/programme/20123683.html"
+            },
+            {
+              "title": "Dictado",
+              "aliases": [
+                "Childish Games"
+              ],
+              "director": "Antonio Chavarrías",
+              "year": 2011,
+              "runtime": 95,
+              "source": "https://www.berlinale.de/en/2012/programme/20120512.html"
+            },
+            {
+              "title": "En Kongelig Affære",
+              "aliases": [
+                "A Royal Affair",
+                "Die Königin und der Leibarzt"
+              ],
+              "director": "Nikolaj Arcel",
+              "year": 2012,
+              "runtime": 137,
+              "source": "https://www.berlinale.de/en/2012/programme/20123815.html"
+            },
+            {
+              "title": "Gnade",
+              "aliases": [
+                "Mercy"
+              ],
+              "director": "Matthias Glasner",
+              "year": 2012,
+              "runtime": 132,
+              "source": "https://www.berlinale.de/en/2012/programme/20122121.html"
+            },
+            {
+              "title": "Jayne Mansfield's Car",
+              "aliases": [],
+              "director": "Billy Bob Thornton",
+              "year": 2011,
+              "runtime": 122,
+              "source": "https://www.berlinale.de/en/2012/programme/20124833.html"
+            },
+            {
+              "title": "Kebun binatang",
+              "aliases": [
+                "Postcards From The Zoo"
+              ],
+              "director": "Edwin",
+              "year": 2012,
+              "runtime": 95,
+              "source": "https://www.berlinale.de/en/2012/programme/20126625.html"
+            },
+            {
+              "title": "L'enfant d'en haut",
+              "aliases": [
+                "Sister"
+              ],
+              "director": "Ursula Meier",
+              "year": 2012,
+              "runtime": 97,
+              "source": "https://www.berlinale.de/en/2012/programme/20122182.html"
+            },
+            {
+              "title": "Les adieux à la Reine",
+              "aliases": [
+                "Farewell My Queen",
+                "Leb wohl, meine Königin!"
+              ],
+              "director": "Benoït Jacquot",
+              "year": 2011,
+              "runtime": 100,
+              "source": "https://www.berlinale.de/en/2012/programme/20123500.html"
+            },
+            {
+              "title": "Metéora",
+              "aliases": [
+                "Meteora"
+              ],
+              "director": "Spiros Stathoulopoulos",
+              "year": 2012,
+              "runtime": 82,
+              "source": "https://www.berlinale.de/en/2012/programme/20123647.html"
+            },
+            {
+              "title": "Rebelle",
+              "aliases": [
+                "War Witch"
+              ],
+              "director": "Kim Nguyen",
+              "year": 2012,
+              "runtime": 90,
+              "source": "https://www.berlinale.de/en/2012/programme/20126301.html"
+            },
+            {
+              "title": "Tabu",
+              "aliases": [],
+              "director": "Miguel Gomes",
+              "year": 2012,
+              "runtime": 119,
+              "source": "https://www.berlinale.de/en/2012/programme/20122884.html"
+            },
+            {
+              "title": "Was bleibt",
+              "aliases": [
+                "Home For The Weekend"
+              ],
+              "director": "Hans-Christian Schmid",
+              "year": 2012,
+              "runtime": 84,
+              "source": "https://www.berlinale.de/en/2012/programme/20123503.html"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Bear for Best Film",
+              "source_name": "Golden Bear for Best Film",
+              "jury": "International Jury 2012",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2012/o=desc/p=1/rp=40",
+              "source_text": "Cesare deve morire by Paolo & Vittorio Taviani",
+              "entries": [
+                {
+                  "title": "Cesare deve morire",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Grand Jury Prize",
+              "source_name": "Jury Grand Prix - Silver Bear",
+              "jury": "International Jury 2012",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2012/o=desc/p=1/rp=40",
+              "source_text": "Csak a szél by Bence Fliegauf",
+              "entries": [
+                {
+                  "title": "Csak a szél",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Director",
+              "source_name": "Silver Bear for Best Director",
+              "jury": "International Jury 2012",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2012/o=desc/p=1/rp=40",
+              "source_text": "Christian Petzold Barbara by Christian Petzold",
+              "entries": [
+                {
+                  "title": "Barbara",
+                  "winner": true,
+                  "people": [
+                    "Christian Petzold"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actress",
+              "source_name": "Silver Bear for Best Actress",
+              "jury": "International Jury 2012",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2012/o=desc/p=1/rp=40",
+              "source_text": "Rachel Mwanza Rebelle by Kim Nguyen",
+              "entries": [
+                {
+                  "title": "Rebelle",
+                  "winner": true,
+                  "people": [
+                    "Rachel Mwanza"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actor",
+              "source_name": "Silver Bear for Best Actor",
+              "jury": "International Jury 2012",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2012/o=desc/p=1/rp=40",
+              "source_text": "Mikkel Boe Følsgaard En kongelig affære by Nikolaj Arcel",
+              "entries": [
+                {
+                  "title": "En Kongelig Affære",
+                  "winner": true,
+                  "people": [
+                    "Mikkel Boe Følsgaard"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Screenplay",
+              "source_name": "Silver Bear for Best Script",
+              "jury": "International Jury 2012",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2012/o=desc/p=1/rp=40",
+              "source_text": "Nikolaj Arcel, Rasmus Heisterberg En kongelig affære by Nikolaj Arcel",
+              "entries": [
+                {
+                  "title": "En Kongelig Affære",
+                  "winner": true,
+                  "people": [
+                    "Nikolaj Arcel, Rasmus Heisterberg"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Outstanding Artistic Contribution",
+              "source_name": "Silver Bear for Outstanding Artistic Contribution",
+              "jury": "International Jury 2012",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2012/o=desc/p=1/rp=40",
+              "source_text": "Lutz Reitemeier for the photography in Bai lu yuan by Wang Quan'an",
+              "entries": [
+                {
+                  "title": "Bai lu yuan",
+                  "winner": true,
+                  "people": [
+                    "Lutz Reitemeier"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Special Award Silver Bear",
+              "source_name": "Special Award Silver Bear",
+              "jury": "International Jury 2012",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2012/o=desc/p=1/rp=40",
+              "source_text": "L’enfant d’en haut by Ursula Meier",
+              "entries": [
+                {
+                  "title": "L'enfant d'en haut",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Alfred Bauer Prize",
+              "source_name": "Alfred Bauer Prize",
+              "jury": "International Jury 2012",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2012/o=desc/p=1/rp=40",
+              "source_text": "Tabu by Miguel Gomes",
+              "entries": [
+                {
+                  "title": "Tabu",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "Berlinale",
+      "year": 2013,
+      "section": "Official Selection",
+      "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2013/o=asc/p=1/rp=200",
+      "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2013/o=desc/p=1/rp=40",
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2013-02-07",
+          "end": "2013-02-17",
+          "source": "https://www.berlinale.de/en/archive/yearbooks/2013.html"
+        }
+      ],
+      "date_source_text": "February 7 – 17, 2013",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2013/o=asc/p=1/rp=200",
+          "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2013/o=desc/p=1/rp=40",
+          "selection": [
+            {
+              "title": "Camille Claudel 1915",
+              "aliases": [],
+              "director": "Bruno Dumont",
+              "year": 2012,
+              "runtime": 97,
+              "source": "https://www.berlinale.de/en/2013/programme/20137202.html"
+            },
+            {
+              "title": "Dolgaya schastlivaya zhizn",
+              "aliases": [
+                "A Long and Happy Life"
+              ],
+              "director": "Boris Khlebnikov",
+              "year": 2013,
+              "runtime": 77,
+              "source": "https://www.berlinale.de/en/2013/programme/20136364.html"
+            },
+            {
+              "title": "Elle s'en va",
+              "aliases": [
+                "On my Way"
+              ],
+              "director": "Emmanuelle Bercot",
+              "year": 2013,
+              "runtime": 116,
+              "source": "https://www.berlinale.de/en/2013/programme/20138238.html"
+            },
+            {
+              "title": "Epizoda u zivotu beraca zeljeza",
+              "aliases": [
+                "An Episode in the Life of an Iron Picker"
+              ],
+              "director": "Danis Tanovic",
+              "year": 2013,
+              "runtime": 75,
+              "source": "https://www.berlinale.de/en/2013/programme/20138127.html"
+            },
+            {
+              "title": "Gloria",
+              "aliases": [],
+              "director": "Sebastián Lelio",
+              "year": 2012,
+              "runtime": 105,
+              "source": "https://www.berlinale.de/en/2013/programme/20132062.html"
+            },
+            {
+              "title": "Gold",
+              "aliases": [],
+              "director": "Thomas Arslan",
+              "year": 2013,
+              "runtime": 113,
+              "source": "https://www.berlinale.de/en/2013/programme/20132256.html"
+            },
+            {
+              "title": "La Religieuse",
+              "aliases": [
+                "The Nun",
+                "Die Nonne"
+              ],
+              "director": "Guillaume Nicloux",
+              "year": 2012,
+              "runtime": 114,
+              "source": "https://www.berlinale.de/en/2013/programme/20137050.html"
+            },
+            {
+              "title": "Layla Fourie",
+              "aliases": [],
+              "director": "Pia Marais",
+              "year": 2013,
+              "runtime": 105,
+              "source": "https://www.berlinale.de/en/2013/programme/20135061.html"
+            },
+            {
+              "title": "Nugu-ui Ttal-do Anin Haewon",
+              "aliases": [
+                "Nobody's Daughter Haewon"
+              ],
+              "director": "Hong Sangsoo",
+              "year": 2013,
+              "runtime": 90,
+              "source": "https://www.berlinale.de/en/2013/programme/20137266.html"
+            },
+            {
+              "title": "PARADIES: Hoffnung",
+              "aliases": [
+                "PARADISE: Hope"
+              ],
+              "director": "Ulrich Seidl",
+              "year": 2013,
+              "runtime": 91,
+              "source": "https://www.berlinale.de/en/2013/programme/20137369.html"
+            },
+            {
+              "title": "Pardé",
+              "aliases": [
+                "Closed Curtain"
+              ],
+              "director": "Jafar Panahi, Kamboziya Partovi",
+              "year": 2013,
+              "runtime": 106,
+              "source": "https://www.berlinale.de/en/2013/programme/20137882.html"
+            },
+            {
+              "title": "Pozitia Copilului",
+              "aliases": [
+                "Child's Pose"
+              ],
+              "director": "Calin Peter Netzer",
+              "year": 2012,
+              "runtime": 112,
+              "source": "https://www.berlinale.de/en/2013/programme/20133745.html"
+            },
+            {
+              "title": "Prince Avalanche",
+              "aliases": [],
+              "director": "David Gordon Green",
+              "year": 2013,
+              "runtime": 94,
+              "source": "https://www.berlinale.de/en/2013/programme/20138104.html"
+            },
+            {
+              "title": "Promised Land",
+              "aliases": [],
+              "director": "Gus Van Sant",
+              "year": 2012,
+              "runtime": 106,
+              "source": "https://www.berlinale.de/en/2013/programme/20137606.html"
+            },
+            {
+              "title": "Side Effects",
+              "aliases": [],
+              "director": "Steven Soderbergh",
+              "year": 2013,
+              "runtime": 106,
+              "source": "https://www.berlinale.de/en/2013/programme/20137391.html"
+            },
+            {
+              "title": "The Necessary Death of Charlie Countryman",
+              "aliases": [],
+              "director": "Fredrik Bond",
+              "year": 2013,
+              "runtime": 107,
+              "source": "https://www.berlinale.de/en/2013/programme/20137122.html"
+            },
+            {
+              "title": "Uroki Garmonii",
+              "aliases": [
+                "Harmony Lessons"
+              ],
+              "director": "Emir Baigazin",
+              "year": 2013,
+              "runtime": 115,
+              "source": "https://www.berlinale.de/en/2013/programme/20131573.html"
+            },
+            {
+              "title": "Vic+Flo ont vu un ours",
+              "aliases": [
+                "Vic+Flo Saw a Bear",
+                "Vic+Flo haben einen Bären gesehen"
+              ],
+              "director": "Denis Côté",
+              "year": 2013,
+              "runtime": 90,
+              "source": "https://www.berlinale.de/en/2013/programme/20134827.html"
+            },
+            {
+              "title": "W imie...",
+              "aliases": [
+                "In the Name of"
+              ],
+              "director": "Malgoska Szumowska",
+              "year": 2012,
+              "runtime": 102,
+              "source": "https://www.berlinale.de/en/2013/programme/20132334.html"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Bear for Best Film",
+              "source_name": "Golden Bear for Best Film",
+              "jury": "International Jury 2013",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2013/o=desc/p=1/rp=40",
+              "source_text": "Poziţia Copilului by Calin Peter Netzer",
+              "entries": [
+                {
+                  "title": "Pozitia Copilului",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Grand Jury Prize",
+              "source_name": "Jury Grand Prix (Silver Bear)",
+              "jury": "International Jury 2013",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2013/o=desc/p=1/rp=40",
+              "source_text": "Epizoda u zivotu beraca zeljeza by Danis Tanovic",
+              "entries": [
+                {
+                  "title": "Epizoda u zivotu beraca zeljeza",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Alfred Bauer Prize",
+              "source_name": "Alfred Bauer Prize (Silver Bear)",
+              "jury": "International Jury 2013",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2013/o=desc/p=1/rp=40",
+              "source_text": "Vic + Flo ont vu un ours by Denis Côté",
+              "entries": [
+                {
+                  "title": "Vic+Flo ont vu un ours",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Director",
+              "source_name": "Award for Best Director (Silver Bear)",
+              "jury": "International Jury 2013",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2013/o=desc/p=1/rp=40",
+              "source_text": "David Gordon Green Prince Avalanche by David Gordon Green",
+              "entries": [
+                {
+                  "title": "Prince Avalanche",
+                  "winner": true,
+                  "people": [
+                    "David Gordon Green"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actress",
+              "source_name": "Award for Best Actress (Silver Bear)",
+              "jury": "International Jury 2013",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2013/o=desc/p=1/rp=40",
+              "source_text": "Paulina García Gloria by Sebastián Lelio",
+              "entries": [
+                {
+                  "title": "Gloria",
+                  "winner": true,
+                  "people": [
+                    "Paulina García"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actor",
+              "source_name": "Award for Best Actor (Silver Bear)",
+              "jury": "International Jury 2013",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2013/o=desc/p=1/rp=40",
+              "source_text": "Nazif Mujić Epizoda u zivotu beraca zeljeza by Danis Tanovic",
+              "entries": [
+                {
+                  "title": "Epizoda u zivotu beraca zeljeza",
+                  "winner": true,
+                  "people": [
+                    "Nazif Mujić"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Screenplay",
+              "source_name": "Award for Best Script (Silver Bear)",
+              "jury": "International Jury 2013",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2013/o=desc/p=1/rp=40",
+              "source_text": "Jafar Panahi Pardé by Jafar Panahi, Kamboziya Partovi",
+              "entries": [
+                {
+                  "title": "Pardé",
+                  "winner": true,
+                  "people": [
+                    "Jafar Panahi"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Outstanding Artistic Contribution",
+              "source_name": "Silver Bear for Outstanding Artistic Contribution",
+              "jury": "International Jury 2013",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2013/o=desc/p=1/rp=40",
+              "source_text": "Aziz Zhambakiyev for the camera in Uroki Garmonii by Emir Baigazin",
+              "entries": [
+                {
+                  "title": "Uroki Garmonii",
+                  "winner": true,
+                  "people": [
+                    "Aziz Zhambakiyev"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Honourable Mention",
+              "source_name": "Honourable Mention",
+              "jury": "International Jury 2013",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2013/o=desc/p=1/rp=40",
+              "source_text": "Layla Fourie by Pia Marais",
+              "entries": [
+                {
+                  "title": "Layla Fourie",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Honourable Mention",
+              "source_name": "Honourable Mention",
+              "jury": "International Jury 2013",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2013/o=desc/p=1/rp=40",
+              "source_text": "Promised Land by Gus Van Sant",
+              "entries": [
+                {
+                  "title": "Promised Land",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "Berlinale",
+      "year": 2014,
+      "section": "Official Selection",
+      "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2014/o=asc/p=1/rp=200",
+      "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2014/o=desc/p=1/rp=40",
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2014-02-06",
+          "end": "2014-02-16",
+          "source": "https://www.berlinale.de/en/archive/yearbooks/2014.html"
+        }
+      ],
+      "date_source_text": "February 6 – 16, 2014",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2014/o=asc/p=1/rp=200",
+          "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2014/o=desc/p=1/rp=40",
+          "selection": [
+            {
+              "title": "'71",
+              "aliases": [],
+              "director": "Yann Demange",
+              "year": 2014,
+              "runtime": 100,
+              "source": "https://www.berlinale.de/en/2014/programme/20140777.html"
+            },
+            {
+              "title": "Aimer, boire et chanter",
+              "aliases": [
+                "Life of Riley"
+              ],
+              "director": "Alain Resnais",
+              "year": 2013,
+              "runtime": 108,
+              "source": "https://www.berlinale.de/en/2014/programme/20146915.html"
+            },
+            {
+              "title": "Aloft",
+              "aliases": [],
+              "director": "Claudia Llosa",
+              "year": 2013,
+              "runtime": 112,
+              "source": "https://www.berlinale.de/en/2014/programme/20147700.html"
+            },
+            {
+              "title": "Bai Ri Yan Huo",
+              "aliases": [
+                "Black Coal, Thin Ice"
+              ],
+              "director": "Diao Yinan",
+              "year": 2014,
+              "runtime": 106,
+              "source": "https://www.berlinale.de/en/2014/programme/20143347.html"
+            },
+            {
+              "title": "Boyhood",
+              "aliases": [],
+              "director": "Richard Linklater",
+              "year": 2013,
+              "runtime": 164,
+              "source": "https://www.berlinale.de/en/2014/programme/20148190.html"
+            },
+            {
+              "title": "Chiisai Ouchi",
+              "aliases": [
+                "The Little House"
+              ],
+              "director": "Yoji Yamada",
+              "year": 2014,
+              "runtime": 136,
+              "source": "https://www.berlinale.de/en/2014/programme/20147010.html"
+            },
+            {
+              "title": "Die geliebten Schwestern",
+              "aliases": [
+                "Beloved Sisters"
+              ],
+              "director": "Dominik Graf",
+              "year": 2014,
+              "runtime": 170,
+              "source": "https://www.berlinale.de/en/2014/programme/20147812.html"
+            },
+            {
+              "title": "Historia del miedo",
+              "aliases": [
+                "History of Fear"
+              ],
+              "director": "Benjamin Naishtat",
+              "year": 2014,
+              "runtime": 79,
+              "source": "https://www.berlinale.de/en/2014/programme/20142588.html"
+            },
+            {
+              "title": "Jack",
+              "aliases": [],
+              "director": "Edward Berger",
+              "year": 2014,
+              "runtime": 103,
+              "source": "https://www.berlinale.de/en/2014/programme/20142060.html"
+            },
+            {
+              "title": "Kraftidioten",
+              "aliases": [
+                "In Order of Disappearance"
+              ],
+              "director": "Hans Petter Moland",
+              "year": 2013,
+              "runtime": 115,
+              "source": "https://www.berlinale.de/en/2014/programme/20141257.html"
+            },
+            {
+              "title": "Kreuzweg",
+              "aliases": [
+                "Stations of the Cross"
+              ],
+              "director": "Dietrich Brüggemann",
+              "year": 2014,
+              "runtime": 107,
+              "source": "https://www.berlinale.de/en/2014/programme/20147599.html"
+            },
+            {
+              "title": "La tercera orilla",
+              "aliases": [
+                "The Third Side of the River"
+              ],
+              "director": "Celina Murga",
+              "year": 2014,
+              "runtime": 92,
+              "source": "https://www.berlinale.de/en/2014/programme/20142336.html"
+            },
+            {
+              "title": "La voie de l'ennemi",
+              "aliases": [
+                "Two Men in Town"
+              ],
+              "director": "Rachid Bouchareb",
+              "year": 2013,
+              "runtime": 120,
+              "source": "https://www.berlinale.de/en/2014/programme/20144685.html"
+            },
+            {
+              "title": "Macondo",
+              "aliases": [],
+              "director": "Sudabeh Mortezai",
+              "year": 2013,
+              "runtime": 98,
+              "source": "https://www.berlinale.de/en/2014/programme/20143697.html"
+            },
+            {
+              "title": "Praia do futuro",
+              "aliases": [
+                "Praia do Futuro"
+              ],
+              "director": "Karim Aïnouz",
+              "year": 2013,
+              "runtime": 106,
+              "source": "https://www.berlinale.de/en/2014/programme/20142433.html"
+            },
+            {
+              "title": "The Grand Budapest Hotel",
+              "aliases": [
+                "Grand Budapest Hotel"
+              ],
+              "director": "Wes Anderson",
+              "year": 2014,
+              "runtime": 100,
+              "source": "https://www.berlinale.de/en/2014/programme/20146244.html"
+            },
+            {
+              "title": "To mikro psari",
+              "aliases": [
+                "Stratos"
+              ],
+              "director": "Yannis Economides",
+              "year": 2014,
+              "runtime": 137,
+              "source": "https://www.berlinale.de/en/2014/programme/20142517.html"
+            },
+            {
+              "title": "Tui Na",
+              "aliases": [
+                "Blind Massage"
+              ],
+              "director": "Lou Ye",
+              "year": 2014,
+              "runtime": 114,
+              "source": "https://www.berlinale.de/en/2014/programme/20144041.html"
+            },
+            {
+              "title": "Wu Ren Qu",
+              "aliases": [
+                "No Man’s Land"
+              ],
+              "director": "Ning Hao",
+              "year": 2013,
+              "runtime": 117,
+              "source": "https://www.berlinale.de/en/2014/programme/20147226.html"
+            },
+            {
+              "title": "Zwischen Welten",
+              "aliases": [
+                "Inbetween Worlds"
+              ],
+              "director": "Feo Aladag",
+              "year": 2014,
+              "runtime": 103,
+              "source": "https://www.berlinale.de/en/2014/programme/20142518.html"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Bear for Best Film",
+              "source_name": "Golden Bear for Best Film",
+              "jury": "International Jury 2014",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2014/o=desc/p=1/rp=40",
+              "source_text": "Bai Ri Yan Huo by Diao Yinan",
+              "entries": [
+                {
+                  "title": "Bai Ri Yan Huo",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Grand Jury Prize",
+              "source_name": "Silver Bear Grand Jury Prize",
+              "jury": "International Jury 2014",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2014/o=desc/p=1/rp=40",
+              "source_text": "The Grand Budapest Hotel by Wes Anderson",
+              "entries": [
+                {
+                  "title": "The Grand Budapest Hotel",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Alfred Bauer Prize",
+              "source_name": "Silver Bear Alfred Bauer Prize",
+              "jury": "International Jury 2014",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2014/o=desc/p=1/rp=40",
+              "source_text": "Aimer, boire et chanter by Alain Resnais",
+              "entries": [
+                {
+                  "title": "Aimer, boire et chanter",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Director",
+              "source_name": "Silver Bear for Best Director",
+              "jury": "International Jury 2014",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2014/o=desc/p=1/rp=40",
+              "source_text": "Richard Linklater Boyhood by Richard Linklater",
+              "entries": [
+                {
+                  "title": "Boyhood",
+                  "winner": true,
+                  "people": [
+                    "Richard Linklater"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actress",
+              "source_name": "Silver Bear for Best Actress",
+              "jury": "International Jury 2014",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2014/o=desc/p=1/rp=40",
+              "source_text": "Haru Kuroki Chiisai Ouchi by Yoji Yamada",
+              "entries": [
+                {
+                  "title": "Chiisai Ouchi",
+                  "winner": true,
+                  "people": [
+                    "Haru Kuroki"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actor",
+              "source_name": "Silver Bear for Best Actor",
+              "jury": "International Jury 2014",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2014/o=desc/p=1/rp=40",
+              "source_text": "Liao Fan Bai Ri Yan Huo by Diao Yinan",
+              "entries": [
+                {
+                  "title": "Bai Ri Yan Huo",
+                  "winner": true,
+                  "people": [
+                    "Liao Fan"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Screenplay",
+              "source_name": "Silver Bear for Best Script",
+              "jury": "International Jury 2014",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2014/o=desc/p=1/rp=40",
+              "source_text": "Dietrich Brüggemann, Anna Brüggemann Kreuzweg by Dietrich Brüggemann",
+              "entries": [
+                {
+                  "title": "Kreuzweg",
+                  "winner": true,
+                  "people": [
+                    "Dietrich Brüggemann, Anna Brüggemann"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Outstanding Artistic Contribution",
+              "source_name": "Silver Bear for Outstanding Artistic Contribution",
+              "jury": "International Jury 2014",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2014/o=desc/p=1/rp=40",
+              "source_text": "Zeng Jian for the camera in Tui Na by Lou Ye",
+              "entries": [
+                {
+                  "title": "Tui Na",
+                  "winner": true,
+                  "people": [
+                    "Zeng Jian"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "Berlinale",
+      "year": 2015,
+      "section": "Official Selection",
+      "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2015/o=asc/p=1/rp=200",
+      "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2015/o=desc/p=1/rp=40",
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2015-02-05",
+          "end": "2015-02-15",
+          "source": "https://www.berlinale.de/en/archive/yearbooks/2015.html"
+        }
+      ],
+      "date_source_text": "February 5 – 15, 2015",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2015/o=asc/p=1/rp=200",
+          "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2015/o=desc/p=1/rp=40",
+          "selection": [
+            {
+              "title": "45 Years",
+              "aliases": [],
+              "director": "Andrew Haigh",
+              "year": 2015,
+              "runtime": 93,
+              "source": "https://www.berlinale.de/en/2015/programme/201506056.html"
+            },
+            {
+              "title": "Aferim!",
+              "aliases": [],
+              "director": "Radu Jude",
+              "year": 2015,
+              "runtime": 108,
+              "source": "https://www.berlinale.de/en/2015/programme/201508081.html"
+            },
+            {
+              "title": "Als wir träumten",
+              "aliases": [
+                "As We Were Dreaming"
+              ],
+              "director": "Andreas Dresen",
+              "year": 2015,
+              "runtime": 117,
+              "source": "https://www.berlinale.de/en/2015/programme/201505689.html"
+            },
+            {
+              "title": "Body",
+              "aliases": [],
+              "director": "Małgorzata Szumowska",
+              "year": 2015,
+              "runtime": 90,
+              "source": "https://www.berlinale.de/en/2015/programme/201506040.html"
+            },
+            {
+              "title": "Cha và con và",
+              "aliases": [
+                "Big Father, Small Father and Other Stories",
+                "Unsere sonnigen Tage"
+              ],
+              "director": "Phan Dang Di",
+              "year": 2014,
+              "runtime": 100,
+              "source": "https://www.berlinale.de/en/2015/programme/201508904.html"
+            },
+            {
+              "title": "Eisenstein in Guanajuato",
+              "aliases": [],
+              "director": "Peter Greenaway",
+              "year": 2014,
+              "runtime": 105,
+              "source": "https://www.berlinale.de/en/2015/programme/201504777.html"
+            },
+            {
+              "title": "El botón de nácar",
+              "aliases": [
+                "The Pearl Button",
+                "Der Perlmuttknopf"
+              ],
+              "director": "Patricio Guzmán",
+              "year": 2015,
+              "runtime": 82,
+              "source": "https://www.berlinale.de/en/2015/programme/201511107.html"
+            },
+            {
+              "title": "El Club",
+              "aliases": [
+                "The Club"
+              ],
+              "director": "Pablo Larraín",
+              "year": 2015,
+              "runtime": 98,
+              "source": "https://www.berlinale.de/en/2015/programme/201505162.html"
+            },
+            {
+              "title": "Ixcanul",
+              "aliases": [
+                "Ixcanul Volcano"
+              ],
+              "director": "Jayro Bustamante",
+              "year": 2015,
+              "runtime": 90,
+              "source": "https://www.berlinale.de/en/2015/programme/201504290.html"
+            },
+            {
+              "title": "Journal d’une femme de chambre",
+              "aliases": [
+                "Diary of a Chambermaid"
+              ],
+              "director": "Benoit Jacquot",
+              "year": 2015,
+              "runtime": 96,
+              "source": "https://www.berlinale.de/en/2015/programme/201510882.html"
+            },
+            {
+              "title": "Knight of Cups",
+              "aliases": [],
+              "director": "Terrence Malick",
+              "year": 2014,
+              "runtime": 118,
+              "source": "https://www.berlinale.de/en/2015/programme/201510268.html"
+            },
+            {
+              "title": "Nadie quiere la noche",
+              "aliases": [
+                "Nobody Wants the Night"
+              ],
+              "director": "Isabel Coixet",
+              "year": 2014,
+              "runtime": 118,
+              "source": "https://www.berlinale.de/en/2015/programme/201510869.html"
+            },
+            {
+              "title": "Pod electricheskimi oblakami",
+              "aliases": [
+                "Under Electric Clouds"
+              ],
+              "director": "Alexey German Jr.",
+              "year": 2015,
+              "runtime": 138,
+              "source": "https://www.berlinale.de/en/2015/programme/201507331.html"
+            },
+            {
+              "title": "Queen of the Desert",
+              "aliases": [],
+              "director": "Werner Herzog",
+              "year": 2014,
+              "runtime": 128,
+              "source": "https://www.berlinale.de/en/2015/programme/201510428.html"
+            },
+            {
+              "title": "Taxi",
+              "aliases": [],
+              "director": "Jafar Panahi",
+              "year": 2015,
+              "runtime": 82,
+              "source": "https://www.berlinale.de/en/2015/programme/201511112.html"
+            },
+            {
+              "title": "Ten no chasuke",
+              "aliases": [
+                "Chasuke’s Journey"
+              ],
+              "director": "Sabu",
+              "year": 2014,
+              "runtime": 106,
+              "source": "https://www.berlinale.de/en/2015/programme/201510405.html"
+            },
+            {
+              "title": "Vergine giurata",
+              "aliases": [
+                "Sworn Virgin"
+              ],
+              "director": "Laura Bispuri",
+              "year": 2015,
+              "runtime": 90,
+              "source": "https://www.berlinale.de/en/2015/programme/201506319.html"
+            },
+            {
+              "title": "Victoria",
+              "aliases": [],
+              "director": "Sebastian Schipper",
+              "year": 2015,
+              "runtime": 140,
+              "source": "https://www.berlinale.de/en/2015/programme/201505757.html"
+            },
+            {
+              "title": "Yi bu zhi yao",
+              "aliases": [
+                "Gone With The Bullets"
+              ],
+              "director": "Jiang Wen",
+              "year": 2014,
+              "runtime": 120,
+              "source": "https://www.berlinale.de/en/2015/programme/201510528.html"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Bear for Best Film",
+              "source_name": "Golden Bear for Best Film",
+              "jury": "International Jury 2015",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2015/o=desc/p=1/rp=40",
+              "source_text": "Taxi by Jafar Panahi",
+              "entries": [
+                {
+                  "title": "Taxi",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Grand Jury Prize",
+              "source_name": "Silver Bear Grand Jury Prize",
+              "jury": "International Jury 2015",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2015/o=desc/p=1/rp=40",
+              "source_text": "El Club by Pablo Larraín",
+              "entries": [
+                {
+                  "title": "El Club",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Alfred Bauer Prize",
+              "source_name": "Silver Bear Alfred Bauer Prize",
+              "jury": "International Jury 2015",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2015/o=desc/p=1/rp=40",
+              "source_text": "Ixcanul by Jayro Bustamante",
+              "entries": [
+                {
+                  "title": "Ixcanul",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Director",
+              "source_name": "Silver Bear for Best Director",
+              "jury": "International Jury 2015",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2015/o=desc/p=1/rp=40",
+              "source_text": "ex aequo Małgorzata Szumowska Body by Małgorzata Szumowska",
+              "entries": [
+                {
+                  "title": "Body",
+                  "winner": true,
+                  "people": [
+                    "Małgorzata Szumowska"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Director",
+              "source_name": "Silver Bear for Best Director",
+              "jury": "International Jury 2015",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2015/o=desc/p=1/rp=40",
+              "source_text": "ex aequo Radu Jude Aferim! by Radu Jude",
+              "entries": [
+                {
+                  "title": "Aferim!",
+                  "winner": true,
+                  "people": [
+                    "Radu Jude"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actress",
+              "source_name": "Silver Bear for Best Actress",
+              "jury": "International Jury 2015",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2015/o=desc/p=1/rp=40",
+              "source_text": "Charlotte Rampling 45 Years by Andrew Haigh",
+              "entries": [
+                {
+                  "title": "45 Years",
+                  "winner": true,
+                  "people": [
+                    "Charlotte Rampling"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actor",
+              "source_name": "Silver Bear for Best Actor",
+              "jury": "International Jury 2015",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2015/o=desc/p=1/rp=40",
+              "source_text": "Tom Courtenay 45 Years by Andrew Haigh",
+              "entries": [
+                {
+                  "title": "45 Years",
+                  "winner": true,
+                  "people": [
+                    "Tom Courtenay"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Screenplay",
+              "source_name": "Silver Bear for Best Script",
+              "jury": "International Jury 2015",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2015/o=desc/p=1/rp=40",
+              "source_text": "Patricio Guzmán El botón de nácar by Patricio Guzmán",
+              "entries": [
+                {
+                  "title": "El botón de nácar",
+                  "winner": true,
+                  "people": [
+                    "Patricio Guzmán"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Outstanding Artistic Contribution",
+              "source_name": "Silver Bear for Outstanding Artistic Contribution",
+              "jury": "International Jury 2015",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2015/o=desc/p=1/rp=40",
+              "source_text": "ex aequo Evgeniy Privin and Sergey Mikhalchuk for the camera in Pod electricheskimi oblakami by Alexey German Jr.",
+              "entries": [
+                {
+                  "title": "Pod electricheskimi oblakami",
+                  "winner": true,
+                  "people": [
+                    "Evgeniy Privin and Sergey Mikhalchuk"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Outstanding Artistic Contribution",
+              "source_name": "Silver Bear for Outstanding Artistic Contribution",
+              "jury": "International Jury 2015",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2015/o=desc/p=1/rp=40",
+              "source_text": "ex aequo Sturla Brandth Grøvlen for the camera in Victoria by Sebastian Schipper",
+              "entries": [
+                {
+                  "title": "Victoria",
+                  "winner": true,
+                  "people": [
+                    "Sturla Brandth Grøvlen"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

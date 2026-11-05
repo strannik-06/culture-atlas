@@ -1,0 +1,24 @@
+name: Review 2011–2015 film awards in Chromium
+on:
+  push:
+    branches: [feat/film-awards-2011-2015]
+permissions:
+  contents: read
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci --ignore-scripts
+      - run: npm install --no-save --package-lock=false --ignore-scripts playwright@1.62.1
+      - run: npx playwright install --with-deps chromium
+      - run: node scripts/preview-film-awards-2011-2015.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: film-awards-2011-2015-previews
+          path: docs/previews/film-awards-*.png

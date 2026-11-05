@@ -2122,6 +2122,396 @@
       "dates": [],
       "note": "Usual feature competitions and jury awards were not held.",
       "source": "https://www.festival-cannes.com/en/press/press-releases/the-official-selection-2020/"
+    },
+    {
+      "section": "films",
+      "event": "Oscars",
+      "year": 2011,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2011-02-27",
+          "source": "https://www.oscars.org/oscars/ceremonies/2011"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Oscars",
+      "year": 2012,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2012-02-26",
+          "source": "https://www.oscars.org/oscars/ceremonies/2012"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Oscars",
+      "year": 2013,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2013-02-24",
+          "source": "https://www.oscars.org/oscars/ceremonies/2013"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Oscars",
+      "year": 2014,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2014-03-02",
+          "source": "https://www.oscars.org/oscars/ceremonies/2014"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Oscars",
+      "year": 2015,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2015-02-22",
+          "source": "https://www.oscars.org/oscars/ceremonies/2015"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "BAFTA",
+      "year": 2011,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2011-02-13",
+          "source": "https://www.bafta.org/media-centre/press-releases/film-awards-2011-winners-list/"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "BAFTA",
+      "year": 2012,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2012-02-12",
+          "source": "https://www.bafta.org/media-centre/press-releases/2012-orange-british-academy-film-awards-winners-announced/"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "BAFTA",
+      "year": 2013,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2013-02-10",
+          "source": "https://www.bafta.org/media-centre/press-releases/ee-british-academy-film-awards-in-2013-winners-announced/"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "BAFTA",
+      "year": 2014,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2014-02-16",
+          "source": "https://www.bafta.org/media-centre/press-releases/ee-british-academy-film-awards-winners-announced-4/"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "BAFTA",
+      "year": 2015,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2015-02-08",
+          "source": "https://www.bafta.org/media-centre/press-releases/ee-british-academy-film-awards-winners-announced-3/"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Golden Globes",
+      "year": 2011,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2011-01-16",
+          "source": "https://goldenglobes.com/articles/hfpa-announces-timetable-68th-annual-golden-globe-awards/"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Golden Globes",
+      "year": 2012,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2012-01-15",
+          "source": "https://goldenglobes.com/articles/hfpa-announces-timetable-69th-annual-golden-globe-awards/"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Golden Globes",
+      "year": 2013,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2013-01-13",
+          "source": "https://goldenglobes.com/articles/70th-golden-globes-timeline-announced/"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Golden Globes",
+      "year": 2014,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2014-01-12",
+          "source": "https://goldenglobes.com/articles/nominations-have-been-announced/"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Golden Globes",
+      "year": 2015,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2015-01-11",
+          "source": "https://goldenglobes.com/articles/nominations-have-been-announced-0/"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Berlinale",
+      "year": 2011,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2011-02-10",
+          "end": "2011-02-20",
+          "source": "https://www.berlinale.de/en/archive/yearbooks/2011.html"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Berlinale",
+      "year": 2012,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2012-02-09",
+          "end": "2012-02-19",
+          "source": "https://www.berlinale.de/en/archive/yearbooks/2012.html"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Berlinale",
+      "year": 2013,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2013-02-07",
+          "end": "2013-02-17",
+          "source": "https://www.berlinale.de/en/archive/yearbooks/2013.html"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Berlinale",
+      "year": 2014,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2014-02-06",
+          "end": "2014-02-16",
+          "source": "https://www.berlinale.de/en/archive/yearbooks/2014.html"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Berlinale",
+      "year": 2015,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2015-02-05",
+          "end": "2015-02-15",
+          "source": "https://www.berlinale.de/en/archive/yearbooks/2015.html"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Venice",
+      "year": 2011,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2011-08-31",
+          "end": "2011-09-10",
+          "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2011"
+        },
+        {
+          "label": "Awards ceremony",
+          "start": "2011-09-10",
+          "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2011"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Venice",
+      "year": 2012,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2012-08-29",
+          "end": "2012-09-08",
+          "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2012"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Venice",
+      "year": 2013,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2013-08-28",
+          "end": "2013-09-07",
+          "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2013"
+        },
+        {
+          "label": "Awards ceremony",
+          "start": "2013-09-07",
+          "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2013"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Venice",
+      "year": 2014,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2014-08-27",
+          "end": "2014-09-06",
+          "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2014"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Venice",
+      "year": 2015,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2015-09-02",
+          "end": "2015-09-12",
+          "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2015"
+        },
+        {
+          "label": "Awards ceremony",
+          "start": "2015-09-12",
+          "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2015"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Cannes",
+      "year": 2011,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2011-05-11",
+          "end": "2011-05-22",
+          "source": "https://www.festival-cannes.com/en/2011/woody-allens-midnight-in-paris-is-to-open-the-64th-festival-de-cannes/"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Cannes",
+      "year": 2012,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2012-05-16",
+          "end": "2012-05-27",
+          "source": "https://www.festival-cannes.com/en/2012/moonrise-kingdom-by-wes-anderson-is-the-opening-film-of-the-65th-festival-de-cannes/"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Cannes",
+      "year": 2013,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2013-05-15",
+          "end": "2013-05-26",
+          "source": "https://www.festival-cannes.com/en/2013/india-special-guest-country-in-2013/"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Cannes",
+      "year": 2014,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2014-05-14",
+          "end": "2014-05-25",
+          "source": "https://www.festival-cannes.com/en/2014/jane-campion-to-preside-the-jury-of-the-67th-festival-de-cannes/"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Cannes",
+      "year": 2015,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2015-05-13",
+          "end": "2015-05-24",
+          "source": "https://www.festival-cannes.com/en/2015/it-s-poster-time-at-the-festival-de-cannes/"
+        }
+      ]
     }
   ]
 }

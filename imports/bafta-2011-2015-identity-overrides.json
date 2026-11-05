@@ -1,0 +1,84 @@
+{
+  "BAFTA/2012/George Harrison: Living In The Material World": {
+    "aliases": [
+      "Living in the Material World",
+      "George Harrison"
+    ],
+    "director_aliases": [
+      "Martin Scorsese"
+    ],
+    "note": "Shorter official title/search form for the 2011 Martin Scorsese feature documentary. The contemporary BAFTA nomination PDF credits Scorsese, Olivia Harrison and Nigel Sinclair; the artist's official film announcement confirms the full title, director and 2011 release. IMDb confirms tt1113829 as the 2011 Martin Scorsese 208-minute film; the US distributor listing also identifies a 208-minute movie. Other services carry a two-part television presentation. Do not substitute a TMDB TV ID into a movie provider link.",
+    "sources": [
+      "https://static.bafta.org/files/nominees-1112-1282.pdf",
+      "https://www.georgeharrison.com/george-harrison-documentary-and-book-announced/",
+      "https://www.georgeharrison.com/films/living-in-the-material-world/",
+      "https://www.imdb.com/Title/tt1113829/",
+      "https://tv.apple.com/us/movie/george-harrison-living-in-the-material-world/umc.cmc.22gunbi1g7j5hpk3rolicxy6t",
+      "https://www.georgeharrison.com/london-premiere-of-george-documentary-on-sunday-2nd-october/"
+    ],
+    "imdb_id": "tt1113829"
+  },
+  "BAFTA/2012/The Adventures Of Tintin: The Secret Of The Unicorn": {
+    "aliases": [
+      "The Adventures of Tintin"
+    ],
+    "director_aliases": [
+      "Steven Spielberg"
+    ],
+    "note": "BAFTA's title contains the Secret of the Unicorn subtitle; the producer and distributor use The Adventures of Tintin for the same 2011 Steven Spielberg animated feature.",
+    "sources": [
+      "https://static.bafta.org/files/nominees-1112-1282.pdf",
+      "https://www.paramount.com/movies/the-adventures-of-tintin",
+      "https://amblin.com/movie/the-adventures-of-tintin/",
+      "https://www.tintin.com/en/videos/460/the-adventures-of-tintin-trailer-"
+    ]
+  },
+  "BAFTA/2013/Untouchable": {
+    "aliases": [
+      "The Intouchables",
+      "Intouchables"
+    ],
+    "director_aliases": [
+      "Olivier Nakache, Éric Toledano"
+    ],
+    "imdb_id": "tt1675434",
+    "note": "British title Untouchable identifies the 2011 French feature Intouchables, not the unrelated same-title Kristin Hansen film. The directors in the contemporary BAFTA PDF, European Film Academy entry and San Sebastián festival page establish the regional-title identity; the existing catalogue identity supplies the reviewed IMDb pin.",
+    "sources": [
+      "https://static.bafta.org/files/film-1213-nominees-1647.pdf",
+      "https://www.europeanfilmawards.eu/efa-movie/untouchable/",
+      "https://www.sansebastianfestival.com/secciones_y_peliculas/7/590068/es"
+    ]
+  },
+  "BAFTA/2014/Blue Is The Warmest Colour": {
+    "aliases": [
+      "Blue Is the Warmest Color",
+      "La Vie d'Adèle - Chapitres 1 et 2"
+    ],
+    "director_aliases": [
+      "Abdellatif Kechiche"
+    ],
+    "imdb_id": "tt2278871",
+    "note": "British Colour and US Color spellings identify Abdellatif Kechiche's 2013 feature. Cannes preserves the original title and British English title; the US distributor uses Color. Reuses the existing reviewed catalogue IMDb identity.",
+    "sources": [
+      "https://static.bafta.org/files/film-1314-nominations-master-list-2141.pdf",
+      "https://www.festival-cannes.com/en/f/la-vie-d-adele-chapitre-1-2/",
+      "https://www.independentfilmco.com/films/blue-is-the-warmest-color"
+    ]
+  },
+  "BAFTA/2015/Birdman": {
+    "aliases": [
+      "Birdman or (The Unexpected Virtue of Ignorance)",
+      "Birdman or The Unexpected Virtue of Ignorance"
+    ],
+    "director_aliases": [
+      "Alejandro G. Iñárritu"
+    ],
+    "imdb_id": "tt2562232",
+    "note": "BAFTA's short title expands to the full distributor title. Match Alejandro G. Iñárritu and all three nominated actors (Michael Keaton, Edward Norton, Emma Stone), not the unrelated 2015 Guy Bolongaro film. Reuses the existing reviewed catalogue IMDb identity.",
+    "sources": [
+      "https://static.bafta.org/uploads_pre_202411/bafta-film-nominations-list-2015.pdf",
+      "https://www.searchlightpictures.com/birdman",
+      "https://www.20thcenturystudios.com/movies/birdman-or-the-unexpected-virtue-of-ignorance"
+    ]
+  }
+}

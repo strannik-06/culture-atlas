@@ -1,0 +1,54 @@
+{
+  "Golden Globes/2011/The Edge": {
+    "imdb_id": "tt1706414",
+    "aliases": [
+      "Kray",
+      "Край",
+      "Edge of War"
+    ],
+    "director_aliases": [
+      "Alexey Uchitel",
+      "Aleksey Uchitel",
+      "Alexei Uchitel"
+    ],
+    "required_cast": [
+      "Vladimir Mashkov",
+      "Anjorka Strechel"
+    ],
+    "note": "The 2011 Golden Globes foreign-language nominee is the 2010 Russian feature Kray, directed by Uchitel, about Ignat and Siberian locomotives. The award record, official producer filmography and distribution credits distinguish it from the 1997 American thriller and unrelated films. The IMDb identifier points to this exact original title/year/director. Provider title aliases retain transliteration and Cyrillic original title.",
+    "source_urls": [
+      "https://goldenglobes.com/film/the-edge/",
+      "https://www.imdb.com/title/tt1706414/",
+      "https://cdn-media.festival-cannes.com/pdf/0001/45/bc207496ced344164760193ecd99767483201354.pdf",
+      "https://tv.apple.com/us/movie/the-edge/umc.cmc.11sxsf9he359ihk2q5lf66wbc"
+    ]
+  },
+  "Golden Globes/2015/Birdman": {
+    "imdb_id": "tt2562232",
+    "aliases": [
+      "Birdman or (The Unexpected Virtue of Ignorance)",
+      "Birdman or The Unexpected Virtue of Ignorance"
+    ],
+    "director_aliases": [
+      "Alejandro González Iñárritu",
+      "Alejandro G. Iñárritu",
+      "Alejandro Iñárritu"
+    ],
+    "director_anchor_aliases": [
+      "Alejandro González Iñárritu",
+      "Alejandro G. Iñárritu",
+      "Alejandro Iñárritu"
+    ],
+    "required_cast": [
+      "Michael Keaton",
+      "Emma Stone",
+      "Edward Norton"
+    ],
+    "note": "The official Globes short title Birdman is the 2014 Iñárritu feature. Distributor Searchlight explicitly expands it to Birdman or The Unexpected Virtue of Ignorance and credits Iñárritu and Michael Keaton. Its IMDb full-title record is tt2562232. Excludes Guy Bolongaro’s unrelated 2015 Birdman.",
+    "source_urls": [
+      "https://goldenglobes.com/film/birdman/",
+      "https://www.searchlightpictures.com/birdman",
+      "https://www.imdb.com/title/tt2562232/"
+    ]
+  }
+}

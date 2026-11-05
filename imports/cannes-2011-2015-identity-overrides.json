@@ -1,0 +1,165 @@
+{
+  "https://www.festival-cannes.com/en/f/la-vie-d-adele-chapitre-1-2/": {
+    "aliases": [
+      "Blue Is the Warmest Color",
+      "Blue Is the Warmest Colour"
+    ],
+    "note": "Retrospective groups international names in nested parentheses. Official2013 selection announcement confirms American spelling directly.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/2013/2013-official-selection/",
+      "https://www.festival-cannes.com/en/the-festival/the-palme-d-or/"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/be-omid-e-didar/": {
+    "aliases": [
+      "Goodbye",
+      "Au Revoir"
+    ],
+    "note": "Retrospective omits English translation; Cannes contemporary film notes and later director article explicitly identify Goodbye.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/2024/the-seed-of-the-sacred-fig-the-tense-return-of-mohammad-rasoulof/",
+      "https://www.festival-cannes.com/f/be-omid-e-didar/"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/jimmy-p-psychotherapy-of-a-plains-indian/": {
+    "aliases": [
+      "Jimmy P."
+    ],
+    "note": "The official title expands Jimmy P. with a subtitle; original Cannes selection and official filmography also use the short title.",
+    "source_urls": [
+      "https://www.festival-cannes.com/2013/la-selection-officielle-2013/",
+      "https://cdn.festival-cannes.com/media/uploads/2023/03/78272.pdf"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/11-25-jiketsu-no-hi-mishima-yukio-to-wakamonotachi/": {
+    "imdb_id": "tt1728686",
+    "aliases": [
+      "11.25: The Day He Chose His Own Fate",
+      "11.25 The Day He Chose His Own Fate"
+    ],
+    "note": "Shortened English international title confirmed by IMDb and Kinodvor, matching Koji Wakamatsu and Mishima plot; Cannes2012 entry notes2011 production, a120-minute feature.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/11-25-jiketsu-no-hi-mishima-yukio-to-wakamonotachi/",
+      "https://www.imdb.com/title/tt1728686/",
+      "https://www.kinodvor.org/en/film/mishima-25-11-dan-ko-si-je-sodil-sam/"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/alias-maria/": {
+    "tmdb_id": 337115,
+    "imdb_id": "tt3685554",
+    "director_aliases": [
+      "José Luis Rugeles"
+    ],
+    "note": "Colombian film agency lists the same2015 film and director using shortened surname without Gracia.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/alias-maria/",
+      "https://www.proimagenescolombia.com/secciones/cine_colombiano/peliculas_colombianas/pelicula_plantilla.php?id_pelicula=2118",
+      "https://www.imdb.com/title/tt3685554/"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/la-playa-d-c/": {
+    "tmdb_id": 133878,
+    "imdb_id": "tt2369025",
+    "director_aliases": [
+      "Juan Andrés Arango Garcia"
+    ],
+    "note": "IMDb director credit includes additional surname Garcia; matches2012 film and Cannes synopsis, production and duration.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/la-playa-d-c/",
+      "https://www.imdb.com/title/tt2369025/fullcredits/"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/mystery/": {
+    "imdb_id": "tt2369127",
+    "aliases": [
+      "Fu cheng mi shi"
+    ],
+    "director_aliases": [
+      "Ye Lou"
+    ],
+    "note": "IMDb original title and2012 director verified against Cannes Mystery record and named cast/synopsis. Crowded English title requires IMDb lookup.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/mystery/",
+      "https://www.imdb.com/title/tt2369127/",
+      "https://www.festival-cannes.com/en/2012/lou-ye-presents-mystery-opening-un-certain-regard/"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/okhotnik/": {
+    "imdb_id": "tt1922675",
+    "aliases": [
+      "The Hunter"
+    ],
+    "note": "IMDb confirms original Okhotnik and Bakur Bakuradze2011 Russian feature, distinct from Daniel Nettheim film and shorts.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/okhotnik/",
+      "https://www.imdb.com/title/tt1922675/"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/omar/": {
+    "imdb_id": "tt2852406",
+    "note": "IMDb title/director/year and Palestinian informant story identify Hany Abu-Assad2013 feature.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/omar/",
+      "https://www.imdb.com/title/tt2852406/"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/rak-ti-khon-kaen/": {
+    "aliases": [
+      "Cemetery of Splendor"
+    ],
+    "note": "US distributor confirms American spelling Splendor for Apichatpong Weerasethakul feature,122 minutes, with Banlop Lomnoi and Jenjira Pongpas. Avoid ambiguous duplicate IMDb URL; provider identity is verified by title, director and feature runtime.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/rak-ti-khon-kaen/",
+      "https://strandreleasing.com/films/cemetery-of-splendor/"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/run/": {
+    "imdb_id": "tt2375473",
+    "note": "IMDb identifies Philippe Lacôte2014 Ivorian feature,100 minutes, with Abdoul-Karim Konate and Isaach De Bankolé, distinct from homonymous films.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/run/",
+      "https://www.imdb.com/title/tt2375473/"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/student/": {
+    "imdb_id": "tt2369333",
+    "note": "IMDb identifies Darezhan Omirbayev2012 Crime and Punishment adaptation,90 minutes, matching the official Cannes feature.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/student/",
+      "https://www.imdb.com/title/tt2369333/"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/taklub/": {
+    "tmdb_id": 334876,
+    "imdb_id": "tt4636000",
+    "aliases": [
+      "Trap"
+    ],
+    "director_aliases": [
+      "Brillante Ma Mendoza"
+    ],
+    "note": "IMDb international title Trap and original Taklub; Brillante Ma Mendoza is director professional-name variant already independently documented for Ma Rosa. Cannes director profile links both works.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/taklub/",
+      "https://www.imdb.com/title/tt4636000/",
+      "https://www.festival-cannes.com/en/p/brillante-mendoza/",
+      "https://www.torinofilmfest.org/en/34-torino-film-festival/film/ma%27-rosa/29713/"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/the-disappearance-of-eleanor-rigby/": {
+    "imdb_id": "tt3729920",
+    "aliases": [
+      "The Disappearance of Eleanor Rigby: Them"
+    ],
+    "required_cast": [
+      "James McAvoy",
+      "Jessica Chastain"
+    ],
+    "note": "Cannes2014 Ned Benson interview explicitly describes this third film taking an omniscient view of Them, rather than His/Hers. Thus select Them2014, not either2013 companion feature. Official runtime119 minutes; current IMDb runtime123 minutes is a presentation difference, not a different identity.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/the-disappearance-of-eleanor-rigby/",
+      "https://www.festival-cannes.com/en/2014/un-certain-regard-rendez-vous-the-disappearance-of-eleanor-rigby-by-ned-benson/",
+      "https://www.imdb.com/title/tt3729920/"
+    ]
+  }
+}
