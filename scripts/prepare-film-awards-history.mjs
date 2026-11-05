@@ -51,7 +51,7 @@ async function resolve(t){const override=overrides[t.key]||{};const signature=cr
  }
  for(const id of override.candidate_tmdb_ids||[])ids.add(id);
  const matches=[],reviewed=[];
- for(const id of ids){const m=await movie(id),directors=m.credits.crew.filter(p=>p.job==='Director').map(p=>p.name).join(', ');reviewed.push({tmdb_id:id,title:m.title,year:m.release_date,director:directors});
+ for(const id of ids){const m=await movie(id),directors=m.credits.crew.filter(p=>p.job==='Director').map(p=>p.name).join(', ');reviewed.push({tmdb_id:id,title:m.title,year:m.release_date,director:directors,runtime:m.runtime,imdb_id:m.imdb_id,genres:m.genres?.map(g=>g.name)});
  if(![m.title,m.original_title].some(n=>names.some(a=>norm(n)===norm(a))))continue;
  if(override.required_release_year&&Number(m.release_date?.slice(0,4))!==override.required_release_year)continue;
  if(override.required_runtime_range&&(m.runtime<override.required_runtime_range[0]||m.runtime>override.required_runtime_range[1]))continue;

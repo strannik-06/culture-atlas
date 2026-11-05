@@ -161,5 +161,19 @@
       "https://www.bafta.org/awards/film/?award-year=2007",
       "https://static.bafta.org/files/bafta-ar-2006-07-79.pdf"
     ]
+  },
+  "BAFTA/2009/Hunger": {
+    "director_aliases": [
+      "Steve McQueen"
+    ],
+    "note": "The BAFTA British Film nominee is Steve McQueen’s 2008 feature starring Michael Fassbender, not the unrelated Steven Hentges feature. BAFTA’s same-year Carl Foreman directing credit and contemporary nomination ballot identify McQueen; Criterion independently confirms the director, year and 96-minute feature.",
+    "source_urls": [
+      "https://www.bafta.org/awards/film/?award-year=2009",
+      "https://static.bafta.org/files/film09sweepstakes-240.pdf",
+      "https://www.criterion.com/films/477-hunger",
+      "https://www.imdb.com/title/tt0986233/",
+      "https://www.festival-cannes.com/en/f/hunger/"
+    ],
+    "imdb_id": "tt0986233"
   }
 }

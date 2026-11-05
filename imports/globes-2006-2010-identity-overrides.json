@@ -89,5 +89,57 @@
       "https://goldenglobes.com/film/the-white-ribbon-das-weise-band-eine-deutsche-kindergeschichte/"
     ],
     "note": "Official title combines English and German titles; official Haneke director credit distinguishes identity."
+  },
+  "Golden Globes/2007/Babel": {
+    "director_anchor_aliases": [
+      "Alejandro G. Iñárritu",
+      "Alejandro Iñárritu"
+    ],
+    "director_aliases": [
+      "Alejandro González Iñárritu",
+      "Alejandro G. Iñárritu",
+      "Alejandro Iñárritu"
+    ],
+    "note": "Provider abbreviates the nominated director’s middle name to G. The official Globes director biography identifies Alejandro González Iñárritu as Babel’s director; the film page also uses Alejandro Iñárritu. All nominated cast anchors remain required.",
+    "source_urls": [
+      "https://goldenglobes.com/film/babel/",
+      "https://goldenglobes.com/person/alejandro-inarritu/"
+    ]
+  },
+  "Golden Globes/2007/Dreamgirls": {
+    "actor_aliases": {
+      "Beyoncé Knowles": [
+        "Beyoncé"
+      ]
+    },
+    "director_aliases": [
+      "Bill Condon"
+    ],
+    "note": "The official Globes retrospective explicitly identifies Beyoncé as billed in this film as Beyoncé Knowles. Provider uses her stage name Beyoncé. This is a scoped cast-credit alias; Jennifer Hudson and Eddie Murphy nominated cast checks remain required.",
+    "source_urls": [
+      "https://goldenglobes.com/film/dreamgirls/",
+      "https://goldenglobes.com/articles/2007-musical-or-comedy-dreamgirls/",
+      "https://goldenglobes.com/person/beyonce/"
+    ]
+  },
+  "Golden Globes/2010/Nine": {
+    "imdb_id": "tt0875034",
+    "aliases": [
+      "9"
+    ],
+    "director_aliases": [
+      "Rob Marshall"
+    ],
+    "required_cast": [
+      "Daniel Day-Lewis",
+      "Marion Cotillard",
+      "Penélope Cruz"
+    ],
+    "note": "Pin the 2009 Rob Marshall musical to its IMDb identity rather than an unreliable generic Nine search. The award page and IMDb both credit Marshall and all three nominated performers. Numeric search/title alias is permitted only with this fixed IMDb identity and director/cast checks, excluding Shane Acker’s unrelated animated 9.",
+    "source_urls": [
+      "https://goldenglobes.com/film/nine/",
+      "https://www.imdb.com/title/tt0875034/",
+      "https://cdn-media.festival-cannes.com/film_film/0002/20/0db4cd5ba83cc3ee323096d1fda30502c8270e3e.pdf"
+    ]
   }
 }

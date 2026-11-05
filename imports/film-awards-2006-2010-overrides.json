@@ -198,7 +198,7 @@
         "https://www.festival-cannes.com/en/2008/competition-che-by-steven-soderbergh/",
         "https://www.criterion.com/films/20987-che"
       ],
-      "note": "Complete two-part Cannes competition feature, premiered21May2008. Cannes lists268minutes(PartOne137+PartTwo131); Criterion director-approved later release lists271minutes. The complete work has no verified combined TMDB/IMDb identity; neither PartOne nor PartTwo provider ID is assigned. Cover is Criterion complete-film artwork; Cannes retrospective image was inspected and rejected because its small print explicitly says CHE PART ONE."
+      "note": "Complete two-part Cannes competition feature, premiered 21 May 2008. Cannes lists 268 minutes(Part One 137 + Part Two 131); Criterion director-approved later release lists 271 minutes. The complete work has no verified combined TMDB/IMDb identity; neither Part One nor Part Two provider ID is assigned. Cover is Criterion complete-film artwork; Cannes retrospective image was inspected and rejected because its small print explicitly says CHE PART ONE."
     },
     "note": "Reviewed providerless complete-film identity; preserves Cannes whole-work selection and Benicio Del Toro BestActor prize without falsely reusing individual-part provider identities.",
     "source_urls": [
@@ -362,21 +362,35 @@
     "director_aliases": [
       "Spike Lee"
     ],
-    "tmdb_id": 58923,
     "imdb_id": "tt0783612",
     "required_runtime_range": [
       250,
       260
     ],
     "required_release_year": 2006,
-    "note": "ASAC misspells Levees as Leeves. The selected work is Spike Lee’s complete original four-act documentary, 255 minutes, not an individual act or the later 2007 epilogue. MoMA independently verifies complete-film scope, year, director and runtime. TMDB movie58923 is discovered through the public BetaSeries external provider link; generation must verify the API identity and runtime before use.",
+    "note": "Complete original four-act 2006 documentary, 255 minutes, excludes later 2007 epilogue. Movie 58923 returns HTTP 404; TV 16468 is the complete original work provider fallback. TV episode count 4 must be API verified.",
     "source_urls": [
       "https://asac.labiennale.org/attivita/cinema/11292",
       "https://www.moma.org/calendar/events/10759",
       "https://www.imdb.com/title/tt0783612/releaseinfo/",
       "https://www.betaseries.com/en/movie/60922-when-the-levees-broke-a-requiem-in-four-acts",
       "https://www.themoviedb.org/movie/58923"
-    ]
+    ],
+    "complete_film_tv": {
+      "id": 16468,
+      "year": 2006,
+      "episodes": 4,
+      "runtime": 255,
+      "release_date": "2006-08-16",
+      "director": "Spike Lee",
+      "scope_note": "Original four acts, excludes later epilogue",
+      "sources": [
+        "https://asac.labiennale.org/attivita/cinema/11292",
+        "https://www.moma.org/calendar/events/10759",
+        "https://www.imdb.com/title/tt0783612/releaseinfo/",
+        "https://jephmann.com/movies/tv.php?id=16468"
+      ]
+    }
   },
   "Golden Globes/2006/Memoirs of a Geisha": {
     "actor_aliases": {
@@ -387,5 +401,1092 @@
     "sources": [
       "https://goldenglobes.com/film/memoirs-of-a-geisha/"
     ]
+  },
+  "https://www.festival-cannes.com/en/f/paris-je-t-aime/": {
+    "director_aliases": [
+      "Gurinder CHADHA, Bruno PODALYDES, Gus VAN SANT, Joel COEN, Ethan COEN, Daniela THOMAS, Walter SALLES, Christopher DOYLE, Isabel COIXET, Nobuhiro SUWA, Sylvain CHOMET, Alfonso CUARON, Olivier ASSAYAS, Oliver Schmitz, Richard LAGRAVENESE, Vincenzo NATALI, Wes CRAVEN, Tom TYKWER, Frédéric AUBURTIN, Gérard DEPARDIEU, Alexander PAYNE",
+      "Gurinder CHADHA, Bruno PODALYDES, Gus VAN SANT, Joel COEN, Ethan COEN, Daniela THOMAS, Walter SALLES, Christopher DOYLE, Isabel COIXET, Nobuhiro SUWA, Sylvain CHOMET, Alfonso CUARON, Olivier ASSAYAS, Oliver Schmitz, Richard LAGRAVENESE, Vincenzo NATALI, Wes CRAVEN, Tom TYKWER, Frédéric AUBURTIN, Gérard DEPARDIEU, Alexander PAYNE, Emmanuel Benbihy"
+    ],
+    "note": "Cannes archival display truncates Oliver Schmitz to Oliver. The contemporary Cannes opening announcement and official Sony distributor biography identify Schmitz. San Sebastian lists the same complete film with Emmanuel Benbihy also credited for transitions. Both full director groups are reviewed rather than dropping credit verification.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/2006/63459/",
+      "https://www.sonyclassics.com/downloads/LifeAboveAll-Release.pdf",
+      "https://www.sansebastianfestival.com/2006/sections_and_films/pearls/7/540149/in",
+      "https://medias.unifrance.org/medias/152/134/34456/presse/paris-je-t-aime-presskit-french.pdf"
+    ]
+  },
+  "BAFTA/2009/Hunger": {
+    "director_aliases": [
+      "Steve McQueen"
+    ],
+    "note": "The BAFTA British Film nominee is Steve McQueen’s 2008 feature starring Michael Fassbender, not the unrelated Steven Hentges feature. BAFTA’s same-year Carl Foreman directing credit and contemporary nomination ballot identify McQueen; Criterion independently confirms the director, year and 96-minute feature.",
+    "source_urls": [
+      "https://www.bafta.org/awards/film/?award-year=2009",
+      "https://static.bafta.org/files/film09sweepstakes-240.pdf",
+      "https://www.criterion.com/films/477-hunger",
+      "https://www.imdb.com/title/tt0986233/",
+      "https://www.festival-cannes.com/en/f/hunger/"
+    ],
+    "imdb_id": "tt0986233"
+  },
+  "https://www.berlinale.de/en/2006/programme/20063971.html": {
+    "tmdb_id": 40977,
+    "imdb_id": "tt0499141",
+    "director_aliases": [
+      "Edmond Pang Ho-cheung"
+    ],
+    "note": "Pang Ho-cheung and Edmond Pang Ho-cheung are the same director. Hong Kong government press release explicitly names Edmond Pang Ho-cheung as Isabella director, while official Berlinale and producer Media Asia use Pang Ho-cheung. IMDb pins the same 2006 feature and excludes unrelated films titled Isabella.",
+    "source_urls": [
+      "https://www.berlinale.de/en/2006/programme/20063971.html",
+      "https://www.info.gov.hk/gia/general/200608/04/P200608040141.htm",
+      "https://www.mediaasia.com/En/Movies/Info/69/",
+      "https://www.imdb.com/title/tt0499141/"
+    ]
+  },
+  "https://www.berlinale.de/en/2007/programme/20073709.html": {
+    "imdb_id": "tt0783767",
+    "note": "Broad Angel searches omit the 2007 François Ozon feature. Discover through its verified IMDb identity, then keep title and director checks. Official Berlinale and Unifrance production pressbook identify Ozon, Angel, 2007 and the Romola Garai/Michael Fassbender cast.",
+    "source_urls": [
+      "https://www.berlinale.de/en/2007/programme/20073709.html",
+      "https://www.imdb.com/title/tt0783767/",
+      "https://medias.unifrance.org/medias/16/100/25616/presse/angel-presskit-french.pdf"
+    ]
+  },
+  "https://www.berlinale.de/en/2008/programme/20082449.html": {
+    "imdb_id": "tt1075644",
+    "note": "Use IMDb discovery for Amos Kollek’s Restless, excluding the unrelated 2011 Gus Van Sant film found by broad title search. Producer Entre Chien et Loup and Israeli Films confirm the 2008 Berlin premiere and film identity. Official archive production year 2007 is compatible with the 2008 release/festival year.",
+    "source_urls": [
+      "https://www.berlinale.de/en/2008/programme/20082449.html",
+      "https://www.imdb.com/title/tt1075644/",
+      "https://www.entrechienetloup.be/en/film/9/restless",
+      "https://www.israelifilms.co.il/catalogue/restless"
+    ]
+  },
+  "https://www.berlinale.de/en/2009/programme/20097120.html": {
+    "imdb_id": "tt0768239",
+    "note": "Use verified IMDb discovery for Hans-Christian Schmid’s Storm / Sturm, rather than the unrelated 2009 Giacomo Campeotto film returned by broad title search. Film Movement’s official pressbook confirms director and 2009 German/Danish/Dutch production. All existing title/director checks remain required.",
+    "source_urls": [
+      "https://www.berlinale.de/en/2009/programme/20097120.html",
+      "https://www.imdb.com/title/tt0768239/",
+      "https://filmmovement.com/userFiles/uploads/films/storm/storm_presskit.pdf"
+    ]
+  },
+  "https://www.berlinale.de/en/2010/programme/20104775.html": {
+    "tmdb_id": 38325,
+    "imdb_id": "tt1588875",
+    "director_aliases": [
+      "Alexey Popogrebsky"
+    ],
+    "note": "Alexei/Alexey and Popogrebsky/Popogrebskiy are transliteration variants of the same director. Official Berlinale, Karlovy Vary and distributor New Wave credit Alexei; goEast credits Alexey Popogrebskiy for this same 124-minute film. The verified IMDb identity and full director/title checks remain required.",
+    "source_urls": [
+      "https://www.berlinale.de/en/2010/programme/20104775.html",
+      "https://www.kviff.com/en/programme/film/19/5481-how-i-ended-this-summer",
+      "https://www.filmfestival-goeast.de/en/filme/how-i-ended-this-summer/",
+      "https://newwavefilms.co.uk/films/how-i-ended-this-summer/",
+      "https://www.boxofficemojo.com/title/tt1588875/"
+    ]
+  },
+  "https://www.berlinale.de/en/2010/programme/20105362.html": {
+    "tmdb_id": 37832,
+    "director_aliases": [
+      "Benoît Delépine, Gustave Kervern"
+    ],
+    "note": "Gustave de Kervern / Gustave Kervern and Benoit / Benoît Delépine are the same directing pair; director order is not significant. Film France CNC, Unifrance and official distributor Ad Vitam separately credit Benoît Delépine and Gustave Kervern for Mammuth.",
+    "source_urls": [
+      "https://www.berlinale.de/en/2010/programme/20105362.html",
+      "https://www.filmfrance.net/en/once-upon-a-time/mammuth-2/",
+      "https://en.unifrance.org/movie/31074/mammuth",
+      "https://www.advitamdistribution.com/films/mammuth/"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/alexandra/": {
+    "note": "Alexander Sokourov/Aleksandr Sokurov transliteration variant; official Cannes page uses both names in director/screenplay credits for the same Russian feature.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/alexandra/",
+      "https://www.imdb.com/title/tt1034427/"
+    ],
+    "imdb_id": "tt1034427",
+    "tmdb_id": 17479,
+    "director_aliases": [
+      "Aleksandr Sokurov"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/amintiri-din-epoca-de-aur/": {
+    "note": "Complete five-director anthology credit retained. Berlinale Talents project names Constantin Popescu jr; provider adds same suffix and Romanian diacritics.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/amintiri-din-epoca-de-aur/",
+      "https://www.berlinale-talents.de/bt/project/profile/64356",
+      "https://iffr.com/en/iffr/2010/films/tales-from-the-golden-age",
+      "https://www.imdb.com/title/tt1422122/"
+    ],
+    "imdb_id": "tt1422122",
+    "tmdb_id": 39376,
+    "director_aliases": [
+      "Cristian Mungiu, Ioana Uricaru, Constantin Popescu Jr., Răzvan Marculescu, Hanno Höfer"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/babel/": {
+    "note": "Professional abbreviated González initial; IMDb confirms Babel 2006 director and principal cast. Full and abbreviated names identify same filmmaker.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/babel/",
+      "https://www.imdb.com/title/tt0449467/"
+    ],
+    "imdb_id": "tt0449467",
+    "tmdb_id": 1164,
+    "director_aliases": [
+      "Alejandro G. Iñárritu"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/bihisht-faqat-baroi-murdagon/": {
+    "note": "Djamshed/Jamshed transliteration; IMDb confirms original Tajik title and 2006 feature.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/bihisht-faqat-baroi-murdagon/",
+      "https://www.imdb.com/title/tt0792988/"
+    ],
+    "imdb_id": "tt0792988",
+    "tmdb_id": 120393,
+    "aliases": [
+      "To Get to Heaven, First You Have to Die"
+    ],
+    "director_aliases": [
+      "Jamshed Usmonov"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/biutiful/": {
+    "note": "Professional abbreviation documented in contemporary production participant TVC page, which uses both González and G.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/biutiful/",
+      "https://www.3cat.cat/tv3/ficcio-i-cinema/bbiutifulb-participada-per-tvc-al-festival-de-canes/noticia/2722763/",
+      "https://www.imdb.com/title/tt1164999/"
+    ],
+    "imdb_id": "tt1164999",
+    "tmdb_id": 45958,
+    "director_aliases": [
+      "Alejandro G. Iñárritu"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/california-dreamin-nesfarsit/": {
+    "note": "IMDb confirms original subtitled name California Dreamin Nesfarsit and shorter international title for Cristian Nemescu 2007 feature.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/california-dreamin-nesfarsit/",
+      "https://www.imdb.com/title/tt0449573/"
+    ],
+    "imdb_id": "tt0449573",
+    "aliases": [
+      "California Dreamin'"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/cronica-de-una-fuga/": {
+    "note": "Israel Adrián Caetano/Adrián Caetano professional-name variant; IMDb confirms original Spanish title,2006 year and escape synopsis.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/cronica-de-una-fuga/",
+      "https://www.imdb.com/title/tt0479354/"
+    ],
+    "imdb_id": "tt0479354",
+    "tmdb_id": 25532,
+    "aliases": [
+      "Chronicle of an Escape",
+      "Buenos Aires,1977"
+    ],
+    "director_aliases": [
+      "Adrián Caetano"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/el-bano-del-papa/": {
+    "note": "ABC in Cannes César Charlone credit is cinematographers association membership, not an additional director. IMDb and MoMA confirm both actual directors.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/el-bano-del-papa/",
+      "https://www.moma.org/calendar/film/869",
+      "https://abcine.org.br/socios/cesar-charlone-abc-scu/",
+      "https://www.imdb.com/title/tt0482901/"
+    ],
+    "imdb_id": "tt0482901",
+    "tmdb_id": 8267,
+    "aliases": [
+      "The Pope's Toilet"
+    ],
+    "director_aliases": [
+      "César Charlone, Enrique Fernández"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/er-shi-si-cheng-ji/": {
+    "note": "IMDb original romanized title and IFFR identify Jia Zhangke 2008 feature under24 City English title.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/er-shi-si-cheng-ji/",
+      "https://iffr.com/nl/iffr/2009/films/24-city",
+      "https://www.imdb.com/title/tt1103963/"
+    ],
+    "imdb_id": "tt1103963",
+    "aliases": [
+      "24 City"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/gwai-wik/": {
+    "note": "Full Pang brothers professional-name variants. Unique IMDb identity confirms both brothers, original Gwai wik title and Angelica Lee lead; no director check is removed.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/gwai-wik/",
+      "https://www.imdb.com/title/tt0498311/fullcredits/",
+      "https://www.imdb.com/title/tt0498311/"
+    ],
+    "imdb_id": "tt0498311",
+    "tmdb_id": 13402,
+    "director_aliases": [
+      "Oxide Pang Chun, Danny Pang Phat",
+      "Oxide Chun Pang, Danny Pang"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/kinatay/": {
+    "note": "Brillante Ma Mendoza professional-name variant confirmed by Asia Pacific Screen Awards biography, specifically naming Kinatay 2009 directing award.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/kinatay/",
+      "https://www.asiapacificscreenawards.com/apsa-academy-members/brillante-ma-mendoza",
+      "https://www.imdb.com/title/tt1423592/"
+    ],
+    "imdb_id": "tt1423592",
+    "tmdb_id": 64450,
+    "aliases": [
+      "Butchered"
+    ],
+    "director_aliases": [
+      "Brillante Ma Mendoza"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/my-magic/": {
+    "note": "Cannes archival film listing truncates surname to Eric; contemporary festival article explicitly credits Eric Khoo and gives identical father/son/magician synopsis.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/my-magic/",
+      "https://www.festival-cannes.com/en/2008/competition-my-magic-by-eric-khoo/",
+      "https://www.sgfilmdb.com/features/my-magic"
+    ],
+    "tmdb_id": 8903,
+    "director_aliases": [
+      "Eric Khoo"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/octubre/": {
+    "note": "Full surnames for both Vega brothers, confirmed in IMDb director/writer credits for 2010 moneylender/newborn story.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/octubre/",
+      "https://www.imdb.com/title/tt1646118/"
+    ],
+    "imdb_id": "tt1646118",
+    "tmdb_id": 52322,
+    "director_aliases": [
+      "Daniel Vega Vidal, Diego Vega Vidal"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/precious/": {
+    "note": "Academy 2010 title supplies provider subtitle. IMDb disambiguates Lee Daniels 2009 feature from homonymous films.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/precious/",
+      "https://www.oscars.org/oscars/ceremonies/2010",
+      "https://www.imdb.com/title/tt0929632/"
+    ],
+    "imdb_id": "tt0929632",
+    "aliases": [
+      "Precious: Based on the Novel 'Push' by Sapphire"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/salvador/": {
+    "note": "IMDb supplies full original title and confirms Manuel Huerga 2006 biographical feature, not unrelated shorts or earlier Salvador.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/salvador/",
+      "https://www.imdb.com/title/tt0445691/"
+    ],
+    "imdb_id": "tt0445691",
+    "aliases": [
+      "Salvador (Puig Antich)"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/serbis/": {
+    "note": "Same Brillante Ma Mendoza professional-name variant documented by Asia Pacific Screen Awards; IMDb and TIFF official archive identify 2008 Serbis/Service.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/serbis/",
+      "https://www.asiapacificscreenawards.com/apsa-academy-members/brillante-ma-mendoza",
+      "https://www.tiff08.ca/filmsandschedules/films/serbis/",
+      "https://www.imdb.com/title/tt1225296/"
+    ],
+    "imdb_id": "tt1225296",
+    "tmdb_id": 8904,
+    "aliases": [
+      "Service"
+    ],
+    "director_aliases": [
+      "Brillante Ma Mendoza"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/ten-canoes/": {
+    "note": "Complete two-director credit includes Peter Djigirr, omitted from Cannes director list. Producer Vertigo explicitly credits Djigirr as co-director; NZIFF 2006 credits both.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/ten-canoes/",
+      "https://vertigoproductions.com.au/ten_canoes_overview.php",
+      "https://www1.nziff.co.nz/2006/archive/ten-canoes/"
+    ],
+    "tmdb_id": 14064,
+    "director_aliases": [
+      "Rolf de Heer, Peter Djigirr"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/the-terror-s-advocate/": {
+    "note": "Official director site gives title without leading The and original French title for 2007 Jacques Vergès documentary.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/the-terror-s-advocate/",
+      "https://barbet-schroeder.com/movies/terrors-advocate-2007/",
+      "https://www.imdb.com/title/tt1032854/"
+    ],
+    "imdb_id": "tt1032854",
+    "aliases": [
+      "Terror's Advocate",
+      "L'Avocat de la terreur"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/ting-che/": {
+    "note": "IMDb and Vesoul official festival archive identify Ting che as Parking, Chung Mong-hong 2008 feature with matching Taipei double-parking plot.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/ting-che/",
+      "https://archives.cinemas-asie.com/en/movies/item/3595-parking.html",
+      "https://www.imdb.com/title/tt1232827/"
+    ],
+    "imdb_id": "tt1232827",
+    "aliases": [
+      "Parking"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/tulpan/": {
+    "note": "Sergey/Sergei transliteration variant; IMDb and Eye Filmmuseum confirm 2008 Kazakhstan feature and Cannes UCR winner.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/tulpan/",
+      "https://www.eyefilm.nl/whats-on/tulpan/267903",
+      "https://www.imdb.com/title/tt0436854/"
+    ],
+    "imdb_id": "tt0436854",
+    "tmdb_id": 8939,
+    "director_aliases": [
+      "Sergei Dvortsevoy"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/two-thirty-7/": {
+    "note": "Numeric international title confirmed by IMDb for Murali K. Thalluri 2006 school ensemble drama; original Cannes uses written-out time.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/two-thirty-7/",
+      "https://www.imdb.com/title/tt0472582/"
+    ],
+    "imdb_id": "tt0472582",
+    "aliases": [
+      "2:37"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/tzar/": {
+    "note": "Tzar/Tsar title and Lounguine/Lungin transliteration variants; IMDb confirms 2009 Ivan the Terrible film and Pavel Lungin director.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/tzar/",
+      "https://www.imdb.com/title/tt1424431/"
+    ],
+    "imdb_id": "tt1424431",
+    "aliases": [
+      "Tsar"
+    ],
+    "director_aliases": [
+      "Pavel Lungin"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/utomlyonnye-solntsem-2-predstoyanie/": {
+    "note": "IMDb confirms original Predstoyanie title, Nikita Mikhalkov and 2010 EasternFront feature; distinct from 2011 sequel Citadel or TV re-edit.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/utomlyonnye-solntsem-2-predstoyanie/",
+      "https://www.imdb.com/title/tt0403645/"
+    ],
+    "imdb_id": "tt0403645",
+    "aliases": [
+      "Burnt by the Sun 2",
+      "Burnt by the Sun 2: Exodus",
+      "Utomlennye solntsem 2: Predstoyanie"
+    ]
+  },
+  "Golden Globes/2007/Babel": {
+    "director_anchor_aliases": [
+      "Alejandro G. Iñárritu",
+      "Alejandro Iñárritu"
+    ],
+    "director_aliases": [
+      "Alejandro González Iñárritu",
+      "Alejandro G. Iñárritu",
+      "Alejandro Iñárritu"
+    ],
+    "note": "Provider abbreviates the nominated director’s middle name to G. The official Globes director biography identifies Alejandro González Iñárritu as Babel’s director; the film page also uses Alejandro Iñárritu. All nominated cast anchors remain required.",
+    "source_urls": [
+      "https://goldenglobes.com/film/babel/",
+      "https://goldenglobes.com/person/alejandro-inarritu/"
+    ]
+  },
+  "Golden Globes/2007/Dreamgirls": {
+    "actor_aliases": {
+      "Beyoncé Knowles": [
+        "Beyoncé"
+      ]
+    },
+    "director_aliases": [
+      "Bill Condon"
+    ],
+    "note": "The official Globes retrospective explicitly identifies Beyoncé as billed in this film as Beyoncé Knowles. Provider uses her stage name Beyoncé. This is a scoped cast-credit alias; Jennifer Hudson and Eddie Murphy nominated cast checks remain required.",
+    "source_urls": [
+      "https://goldenglobes.com/film/dreamgirls/",
+      "https://goldenglobes.com/articles/2007-musical-or-comedy-dreamgirls/",
+      "https://goldenglobes.com/person/beyonce/"
+    ]
+  },
+  "Golden Globes/2010/Nine": {
+    "imdb_id": "tt0875034",
+    "aliases": [
+      "9"
+    ],
+    "director_aliases": [
+      "Rob Marshall"
+    ],
+    "required_cast": [
+      "Daniel Day-Lewis",
+      "Marion Cotillard",
+      "Penélope Cruz"
+    ],
+    "note": "Pin the 2009 Rob Marshall musical to its IMDb identity rather than an unreliable generic Nine search. The award page and IMDb both credit Marshall and all three nominated performers. Numeric search/title alias is permitted only with this fixed IMDb identity and director/cast checks, excluding Shane Acker’s unrelated animated 9.",
+    "source_urls": [
+      "https://goldenglobes.com/film/nine/",
+      "https://www.imdb.com/title/tt0875034/",
+      "https://cdn-media.festival-cannes.com/film_film/0002/20/0db4cd5ba83cc3ee323096d1fda30502c8270e3e.pdf"
+    ]
+  },
+  "Oscars/2006/Match Point": {
+    "tmdb_id": 116,
+    "director_aliases": [
+      "Woody Allen"
+    ],
+    "note": "Exact title is shared by a Thai film in the same year. Official Cannes credits identify Woody Allen as director and screenwriter of the nominated UK feature.",
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2006",
+      "https://www.festival-cannes.com/en/f/match-point/",
+      "https://filmsandfestivals.britishcouncil.org/projects/match-point"
+    ]
+  },
+  "Oscars/2007/Babel": {
+    "director_anchor_aliases": [
+      "Alejandro G. Iñárritu"
+    ],
+    "director_aliases": [
+      "Alejandro G. Iñárritu",
+      "Alejandro González Iñárritu"
+    ],
+    "note": "Provider abbreviates the director middle surname as G.; the Academy Database supplies the expanded name. Film title and both nominated supporting actresses remain required.",
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2007",
+      "https://www.festival-cannes.com/en/f/babel/"
+    ]
+  },
+  "Oscars/2007/Days of Glory (Indigènes)": {
+    "aliases": [
+      "Days of Glory",
+      "Indigènes"
+    ],
+    "director_aliases": [
+      "Rachid Bouchareb"
+    ],
+    "note": "Academy combines international and original titles in parentheses. Official Cannes page gives both and director Rachid Bouchareb for the 2006 feature.",
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2007",
+      "https://www.festival-cannes.com/en/f/indigenes/"
+    ]
+  },
+  "Oscars/2007/Water": {
+    "imdb_id": "tt0240200",
+    "director_aliases": [
+      "Deepa Mehta"
+    ],
+    "note": "Generic title not returned by broad provider search. Direct identity discovery is checked against producer credits, title, feature runtime and year.",
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2007",
+      "https://www.hamiltonmehta.com/water",
+      "https://www.wonder-worldwide.com/productions/water",
+      "https://www.imdb.com/title/tt0240200/"
+    ]
+  },
+  "Oscars/2009/The Class": {
+    "tmdb_id": 8841,
+    "aliases": [
+      "Entre les murs"
+    ],
+    "director_aliases": [
+      "Laurent Cantet"
+    ],
+    "note": "Several contemporaneous features share this English title. Official Cannes and distributor records identify Laurent Cantet and French original title.",
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2009",
+      "https://www.festival-cannes.com/en/f/entre-les-murs/",
+      "https://www.sonyclassics.com/downloads/TheClass-Release.pdf"
+    ]
+  },
+  "Oscars/2010/Burma VJ": {
+    "imdb_id": "tt1333634",
+    "aliases": [
+      "Burma VJ: Reporting from a Closed Country",
+      "Burma VJ: Reporter i et lukket land"
+    ],
+    "director_aliases": [
+      "Anders Østergaard"
+    ],
+    "note": "Provider uses a subtitle; direct IMDb discovery retains strict official title/alias and director verification. Official Academy Database supplies Anders Østergaard and Lise Lense-Møller as nominees.",
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2010",
+      "https://burmavj.vhx.tv/",
+      "https://peabodyawards.com/award-profile/burma-vj/",
+      "https://www.imdb.com/title/tt1333634/"
+    ]
+  },
+  "Oscars/2010/Nine": {
+    "imdb_id": "tt0875034",
+    "director_aliases": [
+      "Rob Marshall"
+    ],
+    "required_cast": [
+      "Penélope Cruz"
+    ],
+    "note": "Short title not returned by broad provider search. Direct discovery identifies Rob Marshall musical, independently confirmed by official Golden Globes and distributor listing. Penélope Cruz acting anchor remains required.",
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2010",
+      "https://goldenglobes.com/film/nine/",
+      "https://tv.apple.com/nl/movie/nine/umc.cmc.6tcgo1pg4h9cfivt8k33r2fi9",
+      "https://www.imdb.com/title/tt0875034/"
+    ]
+  },
+  "Oscars/2010/The Most Dangerous Man in America: Daniel Ellsberg and the Pentagon Papers": {
+    "imdb_id": "tt1319726",
+    "aliases": [
+      "The Most Dangerous Man in America"
+    ],
+    "director_aliases": [
+      "Judith Ehrlich, Rick Goldsmith"
+    ],
+    "note": "Long source title needs direct discovery; official film site, broadcaster and distributor identify both directors and connect the full title to its shortened display form.",
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2010",
+      "https://www.mostdangerousman.org/about/filmmakers/",
+      "https://archive.pov.org/mostdangerousman/",
+      "https://www.firstrunfeatures.com/newsletter/Publicity/mostdangerousman_dvd.html",
+      "https://www.imdb.com/title/tt1319726/"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/112266": {
+    "aliases": [
+      "The Other One"
+    ],
+    "director_aliases": [],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/112266",
+      "https://www.imdb.com/title/tt1171704/"
+    ],
+    "imdb_id": "tt1171704"
+  },
+  "https://asac.labiennale.org/attivita/cinema/112271": {
+    "aliases": [
+      "Paper Soldier",
+      "Бумажный солдат"
+    ],
+    "director_aliases": [
+      "Aleksey German Jr.",
+      "Aleksei Alekseivich German",
+      "Alexey German Jr."
+    ],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/112271",
+      "https://www.imdb.com/title/tt1284576/"
+    ],
+    "imdb_id": "tt1284576"
+  },
+  "https://asac.labiennale.org/attivita/cinema/112301": {
+    "aliases": [
+      "Achilles and the Tortoise",
+      "Akiresu to kame",
+      "アキレスと亀"
+    ],
+    "director_aliases": [],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/112301",
+      "https://www.imdb.com/title/tt1217243/"
+    ],
+    "imdb_id": "tt1217243"
+  },
+  "https://asac.labiennale.org/attivita/cinema/112376": {
+    "aliases": [],
+    "director_aliases": [],
+    "note": "Ross McElwee alone directs, films and edits according to his own film page; provider adds Marilyn Levine incorrectly. Retain authoritative sole director.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/112376",
+      "https://www.imdb.com/title/tt1270651/",
+      "https://rossmcelwee.com/in-paraguay-1"
+    ],
+    "imdb_id": "tt1270651",
+    "authoritative_director": "Ross McElwee"
+  },
+  "https://asac.labiennale.org/attivita/cinema/112415": {
+    "aliases": [
+      "Puisque nous sommes nés"
+    ],
+    "director_aliases": [
+      "Jean-Pierre Duret, Andrea Santana"
+    ],
+    "note": "IFFR verifies both Jean-Pierre Duret and Andréa Santana; ASAC omitted Duret.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/112415",
+      "https://iffr.com/en/iffr/2009/films/puisque-nous-sommes-n%C3%A9s"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/11270": {
+    "aliases": [
+      "I Am the One Who Brings Flowers to Her Grave",
+      "I Am the One Who Carries Flowers to Her Grave"
+    ],
+    "director_aliases": [
+      "Ammar Al Beik, Hala Alabdalla",
+      "Ammar Al Beik, Hala Abdallah"
+    ],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/11270",
+      "https://www.imdb.com/title/tt0921777/"
+    ],
+    "imdb_id": "tt0921777"
+  },
+  "https://asac.labiennale.org/attivita/cinema/11271": {
+    "aliases": [],
+    "director_aliases": [],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/11271"
+    ],
+    "runtime": 180
+  },
+  "https://asac.labiennale.org/attivita/cinema/11275": {
+    "aliases": [
+      "Heimat-Fragmente: Die Frauen"
+    ],
+    "director_aliases": [],
+    "note": "Sales agent and distributor Arthaus credit Edgar Reitz alone as director; provider adds producer/cinematographer Christian Reitz. Retain authoritative sole director.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/11275",
+      "https://www.imdb.com/title/tt0810894/",
+      "https://www.playmaker.de/films/heimat-fragments-the-women/"
+    ],
+    "imdb_id": "tt0810894",
+    "authoritative_director": "Edgar Reitz"
+  },
+  "https://asac.labiennale.org/attivita/cinema/11280": {
+    "aliases": [
+      "Courthouse on Horseback",
+      "Ma bei shang de fa ting"
+    ],
+    "director_aliases": [
+      "Liu Jie",
+      "Jie Liu"
+    ],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/11280",
+      "https://www.imdb.com/title/tt1064775/"
+    ],
+    "imdb_id": "tt1064775"
+  },
+  "https://asac.labiennale.org/attivita/cinema/11281": {
+    "aliases": [],
+    "director_aliases": [],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/11281"
+    ],
+    "runtime": 96
+  },
+  "https://asac.labiennale.org/attivita/cinema/11284": {
+    "aliases": [],
+    "director_aliases": [],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/11284"
+    ],
+    "runtime": 75
+  },
+  "https://asac.labiennale.org/attivita/cinema/11288": {
+    "aliases": [
+      "Tachigui: The Amazing Lives of the Fast Food Grifters",
+      "Tachiguishi",
+      "Tachiguishi-Retsuden"
+    ],
+    "director_aliases": [],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/11288",
+      "https://www.imdb.com/title/tt0480586/"
+    ],
+    "imdb_id": "tt0480586"
+  },
+  "https://asac.labiennale.org/attivita/cinema/11289": {
+    "aliases": [
+      "Rain Dogs"
+    ],
+    "director_aliases": [],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/11289",
+      "https://www.imdb.com/title/tt0851579/"
+    ],
+    "imdb_id": "tt0851579"
+  },
+  "https://asac.labiennale.org/attivita/cinema/11338": {
+    "aliases": [],
+    "director_aliases": [
+      "Ivan Vyrypaev"
+    ],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/11338"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/11339": {
+    "aliases": [
+      "Falling"
+    ],
+    "director_aliases": [],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/11339",
+      "https://www.imdb.com/title/tt0832347/"
+    ],
+    "imdb_id": "tt0832347"
+  },
+  "https://asac.labiennale.org/attivita/cinema/11350": {
+    "aliases": [
+      "Syndromes and a Century"
+    ],
+    "director_aliases": [],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/11350",
+      "https://www.imdb.com/title/tt0477731/"
+    ],
+    "imdb_id": "tt0477731"
+  },
+  "https://asac.labiennale.org/attivita/cinema/123500": {
+    "aliases": [
+      "Tedium",
+      "Khastegi",
+      "Sex My Life"
+    ],
+    "director_aliases": [
+      "Bahman Motamedian"
+    ],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/123500",
+      "https://www.imdb.com/title/tt1284579/"
+    ],
+    "imdb_id": "tt1284579"
+  },
+  "https://asac.labiennale.org/attivita/cinema/179313": {
+    "aliases": [],
+    "director_aliases": [
+      "Soi Cheang"
+    ],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/179313"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/179314": {
+    "aliases": [],
+    "director_aliases": [
+      "Shoja Azari, Shirin Neshat"
+    ],
+    "note": "Official press kit credits Shirin Neshat in collaboration with Shoja Azari; IFFR lists both directors, matching provider.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/179314",
+      "https://www.imdb.com/title/tt1498887/",
+      "https://coproductionoffice.eu/assets/films/women-without-men/presskit/WOMEN_BD310809.pdf"
+    ],
+    "imdb_id": "tt1498887"
+  },
+  "https://asac.labiennale.org/attivita/cinema/179351": {
+    "aliases": [],
+    "director_aliases": [],
+    "note": "Viennale confirms Germany 2009, Romuald Karmakar, 110 minutes; fills missing ASAC production year.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/179351",
+      "https://www.imdb.com/title/tt1500762/",
+      "https://www.viennale.at/en/films/villalobos"
+    ],
+    "imdb_id": "tt1500762"
+  },
+  "https://asac.labiennale.org/attivita/cinema/179356": {
+    "aliases": [],
+    "director_aliases": [
+      "Kirill Serebrennikov, Pyotr Buslov, Boris Khlebnikov, Ivan Vyrypaev, Aleksei German Jr."
+    ],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/179356"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/179357": {
+    "aliases": [],
+    "director_aliases": [
+      "Liu Jie"
+    ],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/179357"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/179364": {
+    "aliases": [],
+    "director_aliases": [
+      "Marco S. Puccioni"
+    ],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/179364"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/179367": {
+    "aliases": [
+      "Toto",
+      "Totó"
+    ],
+    "director_aliases": [],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/179367",
+      "https://www.imdb.com/title/tt1499697/"
+    ],
+    "imdb_id": "tt1499697"
+  },
+  "https://asac.labiennale.org/attivita/cinema/179373": {
+    "aliases": [
+      "Bets & Wedding Dresses"
+    ],
+    "director_aliases": [],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/179373"
+    ],
+    "runtime": 138
+  },
+  "https://asac.labiennale.org/attivita/cinema/179378": {
+    "aliases": [
+      "Once Upon a Time Proletarian",
+      "Once Upon a Time Proletarian: 12 Tales of a Country"
+    ],
+    "director_aliases": [],
+    "note": "Contemporaneous Hamburg programme verifies international title, Xiaolu Guo, 2009 and 76 minutes.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/179378",
+      "https://www.filmfesthamburg.de/en/film-info/once-upon-a-time-proletarian-12-tales-of-a-country/"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/179381": {
+    "aliases": [
+      "Cow",
+      "斗牛"
+    ],
+    "director_aliases": [],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/179381",
+      "https://www.imdb.com/title/tt1500703/"
+    ],
+    "imdb_id": "tt1500703"
+  },
+  "https://asac.labiennale.org/attivita/cinema/180185": {
+    "aliases": [],
+    "director_aliases": [
+      "Brillante Ma Mendoza"
+    ],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/180185"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/216594": {
+    "aliases": [],
+    "director_aliases": [
+      "Isabella Sandri, Giuseppe M. Gaudino"
+    ],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/216594"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/216599": {
+    "aliases": [
+      "Reconstructing Faith"
+    ],
+    "director_aliases": [
+      "Wenhai Huang"
+    ],
+    "note": "Chinese Independent Film Archive verifies international title and filmmaker Wen Hai/Huang Wenhai.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/216599",
+      "https://chinaindiefilm.com/films/reconstructing-faith/"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/216617": {
+    "aliases": [],
+    "director_aliases": [
+      "Paul Morrissey"
+    ],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/216617"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/216621": {
+    "aliases": [],
+    "director_aliases": [
+      "F.J. Ossang"
+    ],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/216621"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/216634": {
+    "aliases": [
+      "We Were Communists",
+      "When We Were Communists",
+      "Nous étions communistes"
+    ],
+    "director_aliases": [],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/216634"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/216665": {
+    "aliases": [],
+    "director_aliases": [
+      "Mustapha Hasnaoui, Marianne Khoury"
+    ],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/216665"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/217200": {
+    "aliases": [],
+    "director_aliases": [
+      "Wang Bing"
+    ],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/217200"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/52683": {
+    "aliases": [
+      "Chaos, This Is?"
+    ],
+    "director_aliases": [
+      "Youssef Chahine, Khaled Youssef"
+    ],
+    "note": "Filmmaker confirms co-signed Youssef Chahine/Khaled Youssef work.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/52683",
+      "https://khaledyoussef.com/films/heya-fawda/"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/52703": {
+    "aliases": [],
+    "director_aliases": [
+      "Jiang Wen"
+    ],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/52703"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/52708": {
+    "aliases": [
+      "Help Me, Eros",
+      "Help Me Eros"
+    ],
+    "director_aliases": [],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/52708",
+      "https://www.imdb.com/title/tt1076251/"
+    ],
+    "imdb_id": "tt1076251"
+  },
+  "https://asac.labiennale.org/attivita/cinema/52713": {
+    "aliases": [
+      "Mothers"
+    ],
+    "director_aliases": [],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/52713"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/52715": {
+    "aliases": [],
+    "director_aliases": [],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/52715",
+      "https://www.imdb.com/title/tt1094643/"
+    ],
+    "imdb_id": "tt1094643"
+  },
+  "https://asac.labiennale.org/attivita/cinema/52751": {
+    "aliases": [],
+    "director_aliases": [
+      "Abdellatif Kechiche"
+    ],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/52751"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/52818": {
+    "aliases": [],
+    "director_aliases": [],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/52818",
+      "https://www.imdb.com/title/tt1094235/"
+    ],
+    "imdb_id": "tt1094235"
+  },
+  "https://asac.labiennale.org/attivita/cinema/52859": {
+    "aliases": [
+      "With a Girl of Black Soil"
+    ],
+    "director_aliases": [
+      "Jeon Soo-il"
+    ],
+    "note": "KVIFF confirms international title and Jeon Soo-il.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/52859",
+      "https://www.imdb.com/title/tt1094635/",
+      "https://www.kviff.com/en/programme/film/14/3967-with-a-girl-of-black-soil"
+    ],
+    "imdb_id": "tt1094635"
+  },
+  "https://asac.labiennale.org/attivita/cinema/52868": {
+    "aliases": [],
+    "director_aliases": [],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/52868",
+      "https://www.imdb.com/title/tt1094655/"
+    ],
+    "imdb_id": "tt1094655"
   }
 }

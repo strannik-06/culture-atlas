@@ -55,5 +55,123 @@
       "https://awardsdatabase.oscars.org/search/getresults?query=%7B%22Nominee%22%3A%22Page%22%2C%22Sort%22%3A%221-Nominee-Alpha%22%2C%22AwardShowNumberFrom%22%3A0%2C%22AwardShowNumberTo%22%3A0%2C%22Search%22%3A30%7D",
       "https://www.20thcenturystudios.com/movies/juno"
     ]
+  },
+  "Oscars/2006/Match Point": {
+    "tmdb_id": 116,
+    "director_aliases": [
+      "Woody Allen"
+    ],
+    "note": "Exact title is shared by a Thai film in the same year. Official Cannes credits identify Woody Allen as director and screenwriter of the nominated UK feature.",
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2006",
+      "https://www.festival-cannes.com/en/f/match-point/",
+      "https://filmsandfestivals.britishcouncil.org/projects/match-point"
+    ]
+  },
+  "Oscars/2007/Babel": {
+    "director_anchor_aliases": [
+      "Alejandro G. Iñárritu"
+    ],
+    "director_aliases": [
+      "Alejandro G. Iñárritu",
+      "Alejandro González Iñárritu"
+    ],
+    "note": "Provider abbreviates the director middle surname as G.; the Academy Database supplies the expanded name. Film title and both nominated supporting actresses remain required.",
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2007",
+      "https://www.festival-cannes.com/en/f/babel/"
+    ]
+  },
+  "Oscars/2007/Days of Glory (Indigènes)": {
+    "aliases": [
+      "Days of Glory",
+      "Indigènes"
+    ],
+    "director_aliases": [
+      "Rachid Bouchareb"
+    ],
+    "note": "Academy combines international and original titles in parentheses. Official Cannes page gives both and director Rachid Bouchareb for the 2006 feature.",
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2007",
+      "https://www.festival-cannes.com/en/f/indigenes/"
+    ]
+  },
+  "Oscars/2007/Water": {
+    "imdb_id": "tt0240200",
+    "director_aliases": [
+      "Deepa Mehta"
+    ],
+    "note": "Generic title not returned by broad provider search. Direct identity discovery is checked against producer credits, title, feature runtime and year.",
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2007",
+      "https://www.hamiltonmehta.com/water",
+      "https://www.wonder-worldwide.com/productions/water",
+      "https://www.imdb.com/title/tt0240200/"
+    ]
+  },
+  "Oscars/2009/The Class": {
+    "tmdb_id": 8841,
+    "aliases": [
+      "Entre les murs"
+    ],
+    "director_aliases": [
+      "Laurent Cantet"
+    ],
+    "note": "Several contemporaneous features share this English title. Official Cannes and distributor records identify Laurent Cantet and French original title.",
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2009",
+      "https://www.festival-cannes.com/en/f/entre-les-murs/",
+      "https://www.sonyclassics.com/downloads/TheClass-Release.pdf"
+    ]
+  },
+  "Oscars/2010/Burma VJ": {
+    "imdb_id": "tt1333634",
+    "aliases": [
+      "Burma VJ: Reporting from a Closed Country",
+      "Burma VJ: Reporter i et lukket land"
+    ],
+    "director_aliases": [
+      "Anders Østergaard"
+    ],
+    "note": "Provider uses a subtitle; direct IMDb discovery retains strict official title/alias and director verification. Official Academy Database supplies Anders Østergaard and Lise Lense-Møller as nominees.",
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2010",
+      "https://burmavj.vhx.tv/",
+      "https://peabodyawards.com/award-profile/burma-vj/",
+      "https://www.imdb.com/title/tt1333634/"
+    ]
+  },
+  "Oscars/2010/Nine": {
+    "imdb_id": "tt0875034",
+    "director_aliases": [
+      "Rob Marshall"
+    ],
+    "required_cast": [
+      "Penélope Cruz"
+    ],
+    "note": "Short title not returned by broad provider search. Direct discovery identifies Rob Marshall musical, independently confirmed by official Golden Globes and distributor listing. Penélope Cruz acting anchor remains required.",
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2010",
+      "https://goldenglobes.com/film/nine/",
+      "https://tv.apple.com/nl/movie/nine/umc.cmc.6tcgo1pg4h9cfivt8k33r2fi9",
+      "https://www.imdb.com/title/tt0875034/"
+    ]
+  },
+  "Oscars/2010/The Most Dangerous Man in America: Daniel Ellsberg and the Pentagon Papers": {
+    "imdb_id": "tt1319726",
+    "aliases": [
+      "The Most Dangerous Man in America"
+    ],
+    "director_aliases": [
+      "Judith Ehrlich, Rick Goldsmith"
+    ],
+    "note": "Long source title needs direct discovery; official film site, broadcaster and distributor identify both directors and connect the full title to its shortened display form.",
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2010",
+      "https://www.mostdangerousman.org/about/filmmakers/",
+      "https://archive.pov.org/mostdangerousman/",
+      "https://www.firstrunfeatures.com/newsletter/Publicity/mostdangerousman_dvd.html",
+      "https://www.imdb.com/title/tt1319726/"
+    ]
   }
 }

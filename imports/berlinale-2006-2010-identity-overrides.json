@@ -1,0 +1,72 @@
+{
+  "https://www.berlinale.de/en/2006/programme/20063971.html": {
+    "tmdb_id": 40977,
+    "imdb_id": "tt0499141",
+    "director_aliases": [
+      "Edmond Pang Ho-cheung"
+    ],
+    "note": "Pang Ho-cheung and Edmond Pang Ho-cheung are the same director. Hong Kong government press release explicitly names Edmond Pang Ho-cheung as Isabella director, while official Berlinale and producer Media Asia use Pang Ho-cheung. IMDb pins the same 2006 feature and excludes unrelated films titled Isabella.",
+    "source_urls": [
+      "https://www.berlinale.de/en/2006/programme/20063971.html",
+      "https://www.info.gov.hk/gia/general/200608/04/P200608040141.htm",
+      "https://www.mediaasia.com/En/Movies/Info/69/",
+      "https://www.imdb.com/title/tt0499141/"
+    ]
+  },
+  "https://www.berlinale.de/en/2007/programme/20073709.html": {
+    "imdb_id": "tt0783767",
+    "note": "Broad Angel searches omit the 2007 François Ozon feature. Discover through its verified IMDb identity, then keep title and director checks. Official Berlinale and Unifrance production pressbook identify Ozon, Angel, 2007 and the Romola Garai/Michael Fassbender cast.",
+    "source_urls": [
+      "https://www.berlinale.de/en/2007/programme/20073709.html",
+      "https://www.imdb.com/title/tt0783767/",
+      "https://medias.unifrance.org/medias/16/100/25616/presse/angel-presskit-french.pdf"
+    ]
+  },
+  "https://www.berlinale.de/en/2008/programme/20082449.html": {
+    "imdb_id": "tt1075644",
+    "note": "Use IMDb discovery for Amos Kollek’s Restless, excluding the unrelated 2011 Gus Van Sant film found by broad title search. Producer Entre Chien et Loup and Israeli Films confirm the 2008 Berlin premiere and film identity. Official archive production year 2007 is compatible with the 2008 release/festival year.",
+    "source_urls": [
+      "https://www.berlinale.de/en/2008/programme/20082449.html",
+      "https://www.imdb.com/title/tt1075644/",
+      "https://www.entrechienetloup.be/en/film/9/restless",
+      "https://www.israelifilms.co.il/catalogue/restless"
+    ]
+  },
+  "https://www.berlinale.de/en/2009/programme/20097120.html": {
+    "imdb_id": "tt0768239",
+    "note": "Use verified IMDb discovery for Hans-Christian Schmid’s Storm / Sturm, rather than the unrelated 2009 Giacomo Campeotto film returned by broad title search. Film Movement’s official pressbook confirms director and 2009 German/Danish/Dutch production. All existing title/director checks remain required.",
+    "source_urls": [
+      "https://www.berlinale.de/en/2009/programme/20097120.html",
+      "https://www.imdb.com/title/tt0768239/",
+      "https://filmmovement.com/userFiles/uploads/films/storm/storm_presskit.pdf"
+    ]
+  },
+  "https://www.berlinale.de/en/2010/programme/20104775.html": {
+    "tmdb_id": 38325,
+    "imdb_id": "tt1588875",
+    "director_aliases": [
+      "Alexey Popogrebsky"
+    ],
+    "note": "Alexei/Alexey and Popogrebsky/Popogrebskiy are transliteration variants of the same director. Official Berlinale, Karlovy Vary and distributor New Wave credit Alexei; goEast credits Alexey Popogrebskiy for this same 124-minute film. The verified IMDb identity and full director/title checks remain required.",
+    "source_urls": [
+      "https://www.berlinale.de/en/2010/programme/20104775.html",
+      "https://www.kviff.com/en/programme/film/19/5481-how-i-ended-this-summer",
+      "https://www.filmfestival-goeast.de/en/filme/how-i-ended-this-summer/",
+      "https://newwavefilms.co.uk/films/how-i-ended-this-summer/",
+      "https://www.boxofficemojo.com/title/tt1588875/"
+    ]
+  },
+  "https://www.berlinale.de/en/2010/programme/20105362.html": {
+    "tmdb_id": 37832,
+    "director_aliases": [
+      "Benoît Delépine, Gustave Kervern"
+    ],
+    "note": "Gustave de Kervern / Gustave Kervern and Benoit / Benoît Delépine are the same directing pair; director order is not significant. Film France CNC, Unifrance and official distributor Ad Vitam separately credit Benoît Delépine and Gustave Kervern for Mammuth.",
+    "source_urls": [
+      "https://www.berlinale.de/en/2010/programme/20105362.html",
+      "https://www.filmfrance.net/en/once-upon-a-time/mammuth-2/",
+      "https://en.unifrance.org/movie/31074/mammuth",
+      "https://www.advitamdistribution.com/films/mammuth/"
+    ]
+  }
+}
