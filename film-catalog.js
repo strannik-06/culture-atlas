@@ -49662,5 +49662,79 @@ window.CULTURE_CATALOG = [
     "original_title": "Mammuth",
     "original_language": "fr",
     "alternate_titles": []
+  },
+  {
+    "id": 4676,
+    "title": "Heimat Fragments: The Women",
+    "director": "Edgar Reitz",
+    "year": 2006,
+    "tmdb_id": 299541,
+    "imdb_id": "tt0810894",
+    "original_title": "Heimat-Fragmente: Die Frauen",
+    "original_language": "de",
+    "alternate_titles": [
+      "Heimat - Fragmente",
+      "Heimat - Fragments"
+    ]
+  },
+  {
+    "id": 4677,
+    "title": "In Paraguay",
+    "director": "Ross McElwee",
+    "year": 2008,
+    "tmdb_id": 396142,
+    "imdb_id": "tt1270651",
+    "original_title": "In Paraguay",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 4678,
+    "title": "Anabazys: O Terceiro Testamento de Glauber Rocha",
+    "director": "Joel Pizzini, Paloma Rocha",
+    "year": 2007,
+    "tmdb_id": 329234,
+    "imdb_id": "tt1094235",
+    "original_title": "Anabazys: O Terceiro Testamento de Glauber Rocha",
+    "original_language": "pt",
+    "alternate_titles": [
+      "Anabazys",
+      "Ascension"
+    ]
+  },
+  {
+    "id": 4679,
+    "title": "Il colore delle parole",
+    "director": "Marco S. Puccioni",
+    "year": 2009,
+    "tmdb_id": 580589,
+    "imdb_id": "tt1499662",
+    "original_title": "Il colore delle parole",
+    "original_language": "it",
+    "alternate_titles": [
+      "The Color of Words"
+    ]
+  },
+  {
+    "id": 4680,
+    "title": "Mothers",
+    "director": "Barbara Cupisti",
+    "year": 2007,
+    "tmdb_id": 502297,
+    "imdb_id": "tt1094648",
+    "original_title": "Madri",
+    "original_language": "it",
+    "alternate_titles": []
+  },
+  {
+    "id": 4681,
+    "title": "Per Questi Stretti Morire",
+    "director": "Giuseppe M. Gaudino, Isabella Sandri",
+    "year": 2010,
+    "tmdb_id": 358252,
+    "imdb_id": "tt1714884",
+    "original_title": "Per Questi Stretti Morire",
+    "original_language": "it",
+    "alternate_titles": []
   }
 ];

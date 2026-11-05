@@ -3553,6 +3553,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://asac.labiennale.org/attivita/cinema/112376",
+      "signature": "1e346f0039c1974fb799b00d477a09aceed81c99c534fcc5752664d159ef0b7b",
+      "title": "In Paraguay",
+      "source": "https://asac.labiennale.org/attivita/cinema/112376",
+      "id": 4677,
+      "tmdb_id": 396142,
+      "imdb_id": "tt1270651",
+      "director": "Ross McElwee, Marilyn Levine",
+      "provider_release_date": "2008-09-01",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://asac.labiennale.org/attivita/cinema/112377",
       "signature": "ffd2bc4ff450c43dc5a4630a5f8ba7fd4f16a22a43f40373135e00899e6cda25",
       "title": "Z32",
@@ -3778,6 +3790,18 @@
       "imdb_id": "tt0462230",
       "director": "Paul Leduc",
       "provider_release_date": "2007-11-15",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://asac.labiennale.org/attivita/cinema/11275",
+      "signature": "8ca3888a271ffa534d354b974910d47adcb8216b0a95b5d71adddec3c4e37f04",
+      "title": "Heimat - Fragmente",
+      "source": "https://asac.labiennale.org/attivita/cinema/11275",
+      "id": 4676,
+      "tmdb_id": 299541,
+      "imdb_id": "tt0810894",
+      "director": "Edgar Reitz, Christian Reitz",
+      "provider_release_date": "2006-10-28",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -4538,7 +4562,7 @@
     },
     {
       "key": "https://asac.labiennale.org/attivita/cinema/179351",
-      "signature": "f700698bfe8f4a5a4e6d811717ec88beccb98577738f8a4eb69de58d57c60033",
+      "signature": "845a125d309aa4d620d143d0602a764598fc3ba2ea02fd69334c0a0f9ff92bc6",
       "title": "Villalobos",
       "source": "https://asac.labiennale.org/attivita/cinema/179351",
       "id": 4659,
@@ -4630,6 +4654,18 @@
       "imdb_id": "tt1424053",
       "director": "Pepe Diokno",
       "provider_release_date": "2009-07-18",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://asac.labiennale.org/attivita/cinema/179364",
+      "signature": "32abfd8ae794cc42ed6fb66007304ca5c6e1dedf5a5c19ec6e556d457c82dc0c",
+      "title": "Il colore delle parole",
+      "source": "https://asac.labiennale.org/attivita/cinema/179364",
+      "id": 4679,
+      "tmdb_id": 580589,
+      "imdb_id": "tt1499662",
+      "director": "Marco S. Puccioni",
+      "provider_release_date": "2009-09-03",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -5137,6 +5173,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://asac.labiennale.org/attivita/cinema/216594",
+      "signature": "390e5fa787348b5901df781aceba818f31f11a6b3d0b79688ec2c9f5357ccf8f",
+      "title": "Per questi stretti morire",
+      "source": "https://asac.labiennale.org/attivita/cinema/216594",
+      "id": 4681,
+      "tmdb_id": 358252,
+      "imdb_id": "tt1714884",
+      "director": "Giuseppe M. Gaudino, Isabella Sandri",
+      "provider_release_date": "2010-09-07",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://asac.labiennale.org/attivita/cinema/216596",
       "signature": "e200e56b4dbabb0c5a1442cd205093efde1980f60a1a1e948b6ef50f26d003d3",
       "title": "Guest",
@@ -5569,6 +5617,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://asac.labiennale.org/attivita/cinema/52713",
+      "signature": "8eace9a3720b426b1832030b88b1d50fc05bfaf69d85d44306283f0a1b469d15",
+      "title": "Madri",
+      "source": "https://asac.labiennale.org/attivita/cinema/52713",
+      "id": 4680,
+      "tmdb_id": 502297,
+      "imdb_id": "tt1094648",
+      "director": "Barbara Cupisti",
+      "provider_release_date": "2007-09-03",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://asac.labiennale.org/attivita/cinema/52715",
       "signature": "83906ebd7c036cbb50078c368af55722d40a9137a530f855a1547dabebcb1a7e",
       "title": "Kagadanan sa banwaan ning mga engkanto",
@@ -5734,6 +5794,18 @@
       "imdb_id": "tt0989890",
       "director": "Lü Yue",
       "provider_release_date": "2007-03-23",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://asac.labiennale.org/attivita/cinema/52818",
+      "signature": "28078ccf2d860ceda4130182db1d687bff54cd57733b2d7b69837367ff0bbc8b",
+      "title": "Anabazys",
+      "source": "https://asac.labiennale.org/attivita/cinema/52818",
+      "id": 4678,
+      "tmdb_id": 329234,
+      "imdb_id": "tt1094235",
+      "director": "Joel Pizzini, Paloma Rocha",
+      "provider_release_date": "2007-11-26",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -18753,62 +18825,83 @@
       "original_title": "Mammuth",
       "original_language": "fr",
       "alternate_titles": []
+    },
+    {
+      "id": 4676,
+      "title": "Heimat Fragments: The Women",
+      "director": "Edgar Reitz",
+      "year": 2006,
+      "tmdb_id": 299541,
+      "imdb_id": "tt0810894",
+      "original_title": "Heimat-Fragmente: Die Frauen",
+      "original_language": "de",
+      "alternate_titles": [
+        "Heimat - Fragmente",
+        "Heimat - Fragments"
+      ]
+    },
+    {
+      "id": 4677,
+      "title": "In Paraguay",
+      "director": "Ross McElwee",
+      "year": 2008,
+      "tmdb_id": 396142,
+      "imdb_id": "tt1270651",
+      "original_title": "In Paraguay",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 4678,
+      "title": "Anabazys: O Terceiro Testamento de Glauber Rocha",
+      "director": "Joel Pizzini, Paloma Rocha",
+      "year": 2007,
+      "tmdb_id": 329234,
+      "imdb_id": "tt1094235",
+      "original_title": "Anabazys: O Terceiro Testamento de Glauber Rocha",
+      "original_language": "pt",
+      "alternate_titles": [
+        "Anabazys",
+        "Ascension"
+      ]
+    },
+    {
+      "id": 4679,
+      "title": "Il colore delle parole",
+      "director": "Marco S. Puccioni",
+      "year": 2009,
+      "tmdb_id": 580589,
+      "imdb_id": "tt1499662",
+      "original_title": "Il colore delle parole",
+      "original_language": "it",
+      "alternate_titles": [
+        "The Color of Words"
+      ]
+    },
+    {
+      "id": 4680,
+      "title": "Mothers",
+      "director": "Barbara Cupisti",
+      "year": 2007,
+      "tmdb_id": 502297,
+      "imdb_id": "tt1094648",
+      "original_title": "Madri",
+      "original_language": "it",
+      "alternate_titles": []
+    },
+    {
+      "id": 4681,
+      "title": "Per Questi Stretti Morire",
+      "director": "Giuseppe M. Gaudino, Isabella Sandri",
+      "year": 2010,
+      "tmdb_id": 358252,
+      "imdb_id": "tt1714884",
+      "original_title": "Per Questi Stretti Morire",
+      "original_language": "it",
+      "alternate_titles": []
     }
   ],
   "unresolved": [
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/112376",
-      "event": "Venice",
-      "year": 2008,
-      "title": "In Paraguay",
-      "aliases": [],
-      "director": "Ross McElwee",
-      "runtime": 78,
-      "source": "https://asac.labiennale.org/attivita/cinema/112376",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":396142,\"title\":\"In Paraguay\",\"year\":\"2008-09-01\",\"director\":\"Ross McElwee, Marilyn Levine\",\"runtime\":78,\"imdb_id\":\"tt1270651\",\"genres\":[\"Documentary\"]}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/11275",
-      "event": "Venice",
-      "year": 2006,
-      "title": "Heimat - Fragmente",
-      "aliases": [
-        "Heimat - Fragments",
-        "Heimat Fragments: The Women"
-      ],
-      "director": "Edgar Reitz",
-      "runtime": 145,
-      "source": "https://asac.labiennale.org/attivita/cinema/11275",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":299541,\"title\":\"Heimat Fragments: The Women\",\"year\":\"2006-10-28\",\"director\":\"Edgar Reitz, Christian Reitz\",\"runtime\":146,\"imdb_id\":\"tt0810894\",\"genres\":[\"Music\",\"Drama\"]}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/179364",
-      "event": "Venice",
-      "year": 2009,
-      "title": "Il colore delle parole",
-      "aliases": [
-        "The Color of Words"
-      ],
-      "director": "Marco Simon Puccioni",
-      "runtime": 70,
-      "source": "https://asac.labiennale.org/attivita/cinema/179364",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":580589,\"title\":\"Il colore delle parole\",\"year\":\"2009-09-03\",\"director\":\"Marco S. Puccioni\",\"runtime\":0,\"imdb_id\":\"tt1499662\",\"genres\":[\"Documentary\"]}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/216594",
-      "event": "Venice",
-      "year": 2010,
-      "title": "Per questi stretti morire",
-      "aliases": [],
-      "director": "Isabella Sandri, Giuseppe Mario Gaudino",
-      "runtime": 90,
-      "source": "https://asac.labiennale.org/attivita/cinema/216594",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":358252,\"title\":\"Per Questi Stretti Morire\",\"year\":\"2010-09-07\",\"director\":\"Giuseppe M. Gaudino, Isabella Sandri\",\"runtime\":0,\"imdb_id\":\"tt1714884\",\"genres\":[\"Documentary\",\"Adventure\"]}]"
-    },
     {
       "key": "https://asac.labiennale.org/attivita/cinema/216599",
       "event": "Venice",
@@ -18819,33 +18912,7 @@
       "runtime": 78,
       "source": "https://asac.labiennale.org/attivita/cinema/216599",
       "festival": true,
-      "reason": "Missing director or IMDb identity"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/52713",
-      "event": "Venice",
-      "year": 2007,
-      "title": "Madri",
-      "aliases": [],
-      "director": "Barbara Cupisti",
-      "runtime": 90,
-      "source": "https://asac.labiennale.org/attivita/cinema/52713",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":502297,\"title\":\"Mothers\",\"year\":\"2007-09-03\",\"director\":\"Barbara Cupisti\",\"runtime\":0,\"imdb_id\":\"tt1094648\",\"genres\":[\"Documentary\"]}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/52818",
-      "event": "Venice",
-      "year": 2007,
-      "title": "Anabazys",
-      "aliases": [
-        "Ascension"
-      ],
-      "director": "Paloma Rocha, Joel Pizzini",
-      "runtime": 140,
-      "source": "https://asac.labiennale.org/attivita/cinema/52818",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":329234,\"title\":\"Anabazys: O Terceiro Testamento de Glauber Rocha\",\"year\":\"2007-11-26\",\"director\":\"Joel Pizzini, Paloma Rocha\",\"runtime\":100,\"imdb_id\":\"tt1094235\",\"genres\":[\"Documentary\"]}]"
+      "reason": "Duplicate catalogue provider identity"
     }
   ],
   "poster_recovery": [],
@@ -18859,6 +18926,16 @@
       "id": 4453,
       "title": "Perfect Life",
       "tmdb_id": 247483
+    },
+    {
+      "id": 4677,
+      "title": "In Paraguay",
+      "tmdb_id": 396142
+    },
+    {
+      "id": 4679,
+      "title": "Il colore delle parole",
+      "tmdb_id": 580589
     }
   ]
 }

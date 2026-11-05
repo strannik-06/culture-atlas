@@ -148004,5 +148004,155 @@ window.CULTURE_FILM_DETAILS = {
     "imdb": {
       "url": "https://www.imdb.com/title/tt1473074/"
     }
+  },
+  "4676": {
+    "tmdb_id": 299541,
+    "title": "Heimat Fragments: The Women",
+    "original_title": "Heimat-Fragmente: Die Frauen",
+    "overview": "Lulu, the daughter of musician Hermann Simon, is looking for something she feels is missing from her life. She delves into the past and is transported to the lives of her ancestors via dreamlike sequences that show the hopes and realities of her female relations over the course of an entire century. Heimat Fragments is an intoxicating trip into the lives of venerable characters from different periods in Lulu's family history, from long-forgotten scenes of war to every day family life on the farm. This gripping film shows fragments of the lives that shaped her own. Her gaze into the past does not simply signal the end of her youth, it means the beginning of a newly gained freedom.",
+    "runtime": 146,
+    "release_date": "2006-10-28",
+    "genres": [
+      "Music",
+      "Drama"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "original_language": "de",
+    "director": "Edgar Reitz",
+    "cast": [
+      "Nicola Schössler",
+      "Henry Arnold",
+      "Salome Kammer",
+      "Caspar Arnhold",
+      "Gudrun Landgrebe"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/6CmkmNhLbJ2QeixqvYo3PGzvu2b.jpg",
+    "tmdb_rating": 6,
+    "tmdb_votes": 5,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0810894/"
+    }
+  },
+  "4677": {
+    "tmdb_id": 396142,
+    "title": "In Paraguay",
+    "original_title": "In Paraguay",
+    "overview": "Documentary film by Ross McElwee about his family's process to adopt a Paraguayan infant girl named Mariah.",
+    "runtime": 78,
+    "release_date": "2008-09-01",
+    "genres": [
+      "Documentary"
+    ],
+    "countries": [
+      "PY",
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Ross McElwee",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt1270651/"
+    }
+  },
+  "4678": {
+    "tmdb_id": 329234,
+    "title": "Anabazys: O Terceiro Testamento de Glauber Rocha",
+    "original_title": "Anabazys: O Terceiro Testamento de Glauber Rocha",
+    "overview": "A behind-the-scenes look at the making of Glauber Rocha's 1980 production \"A Idade da Terra\" (The Age of Earth), including unedited clips taken from the sixty hours of recovered raw footage.",
+    "runtime": 140,
+    "release_date": "2007-11-26",
+    "genres": [
+      "Documentary"
+    ],
+    "countries": [
+      "BR"
+    ],
+    "original_language": "pt",
+    "director": "Joel Pizzini, Paloma Rocha",
+    "cast": [
+      "Glauber Rocha",
+      "Tarcísio Meira",
+      "Norma Bengell",
+      "Ana Maria Magalhães",
+      "Antônio Pitanga"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/9iUojZAaEslKg0FM8V8SCotHae8.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/merChZTbXL78petjBAW8g4AWNz9.jpg",
+    "tmdb_rating": 5,
+    "tmdb_votes": 3,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt1094235/"
+    },
+    "version_note": "Exact provider expanded title reconciled using IMDb tt1094235, both directors and 2007. Venice ASAC records 140 minutes; official Rosario 2012 festival programme independently confirms the same documentary at 140 minutes. Provider runtime100 is discrepant and does not establish a separately selected work or version. Retain source festival runtime140 as evidence; do not invent a100-minute Venice cut.",
+    "runtime_sources": [
+      "https://asac.labiennale.org/attivita/cinema/52818",
+      "https://www.imdb.com/title/tt1094235/",
+      "https://www.flvr2012.centroaudiovisual.gob.ar/page/fuera_de_competencia/id/9/title/El-cine-de-Glauber-Rocha",
+      "https://flvr2012.centroaudiovisual.gob.ar/uploadsarchivos/catalogo2012.pdf"
+    ]
+  },
+  "4679": {
+    "tmdb_id": 580589,
+    "title": "Il colore delle parole",
+    "original_title": "Il colore delle parole",
+    "overview": "Teodoro, Martin, Justin, and Steve are African men who have lived in Italy for over thirty years without obtaining citizenship. They arrived in the 1970s to study and have since built lives in Italy, forming a band, playing soccer, and raising Italian-feeling children. Despite their integration, they face racism and are not considered Italian. Puccioni highlights Italy’s struggle with integration and racism, affecting a second generation of immigrants.",
+    "runtime": 70,
+    "release_date": "2009-09-03",
+    "genres": [
+      "Documentary"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "original_language": "it",
+    "director": "Marco S. Puccioni",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt1499662/"
+    }
+  },
+  "4680": {
+    "tmdb_id": 502297,
+    "title": "Mothers",
+    "original_title": "Madri",
+    "overview": "Through the testimonies of Israeli and Palestinian mothers living in a land torn apart by endless war, terrified that their children will not return home, the film shows the conflicts and private dramas that tell the story of history. A collection of testimonies of life, everyday moments, archive footage, and private video material to tell stories of pain and anger.",
+    "runtime": 90,
+    "release_date": "2007-09-03",
+    "genres": [
+      "Documentary"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "original_language": "it",
+    "director": "Barbara Cupisti",
+    "poster": "https://image.tmdb.org/t/p/w500/zB037cywUuCWLCMXfumYNkIwFXe.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt1094648/"
+    }
+  },
+  "4681": {
+    "tmdb_id": 358252,
+    "title": "Per Questi Stretti Morire",
+    "original_title": "Per Questi Stretti Morire",
+    "overview": "A compelling reconstruction of the adventurous life and works of explorer, filmmaker, and photographer Father Alberto Maria De Agostini (1883-1960). At the age of 26, he left a small village in Piedmont to become a missionary in South America. In 1910, he reached Patagonia and Tierra del Fuego, which were still largely unexplored. He climbed mountains, discovered fjords and glaciers, and gave them names. Faced with the anguish and pain of the disappearance of the last Indios, he entrusted his testimony to the images captured on his photographic plates or on the frames of his film 'Terre Magellaniche'.",
+    "runtime": 90,
+    "release_date": "2010-09-07",
+    "genres": [
+      "Documentary",
+      "Adventure"
+    ],
+    "original_language": "it",
+    "director": "Giuseppe M. Gaudino, Isabella Sandri",
+    "cast": [
+      "Emanuele Buganza",
+      "Federico Tolardo"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/yU9MRRuVUkvxe7KjbipSbrBcIke.jpg",
+    "tmdb_rating": 10,
+    "tmdb_votes": 1,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt1714884/"
+    }
   }
 };
