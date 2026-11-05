@@ -27,4 +27,6 @@ The previously merged catalogue identities, detail metadata and award editions a
 
 The completed audit resolves all 959 event/title identities to 718 distinct catalogue works, including 638 new catalogue entries. No identities remain unresolved. Two works have no provider poster; cover-source exceptions are retained in the audit. Complete-work exceptions are documented above.
 
-Final GitHub validation and the Chromium review are being rerun against the completed generated catalogue. Registration remains deferred until merge; this document does not claim that live registration or browser validation has completed.
+The completed catalogue passed all 70 awards/media tests and four backup tests in GitHub Actions. Chromium passed all 30 editions, dates, winners filters, year navigation, refresh and mobile layout. Canonical catalogue validation reported 4,681 films, 126 award events and zero errors. The metadata test now checks the complete Che cover against its exact reviewed Criterion artwork and official complete-work identity; the final CI run verifies this assertion.
+
+Registration remains deferred until merge. No live registration has been performed for this batch.
