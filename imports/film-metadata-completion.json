@@ -1,7 +1,7 @@
 {
   "format": "culture-atlas-metadata-completion-v1",
   "generated_at": "2026-10-20T15:58:07.766Z",
-  "total": 4043,
+  "total": 4681,
   "before": {
     "poster": 2250,
     "overview": 2247,
@@ -431,13 +431,13 @@
     }
   ],
   "after": {
-    "poster": 4608,
-    "overview": 4043,
-    "runtime": 4030,
-    "release_date": 4043,
-    "genres": 4043,
-    "countries": 4037,
-    "cast": 3994
+    "poster": 4679,
+    "overview": 4681,
+    "runtime": 4668,
+    "release_date": 4681,
+    "genres": 4674,
+    "countries": 4667,
+    "cast": 4605
   },
   "initial_before": {
     "poster": 243,
@@ -2601,5 +2601,5 @@
       ]
     }
   ],
-  "catalogue_extension": "Film awards 2011-2015: appended verified identities; earlier audit history preserved"
+  "catalogue_extension": "Film awards 2006-2010: appended verified identities; earlier audit history preserved"
 }

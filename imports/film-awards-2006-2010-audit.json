@@ -5221,6 +5221,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://asac.labiennale.org/attivita/cinema/216599",
+      "signature": "f983460844d02fdd8fda2287cd68684a75d494d9b54a0add4eedb28f371c34c5",
+      "title": "Xifang qu ci bu yuan",
+      "source": "https://asac.labiennale.org/attivita/cinema/216599",
+      "id": 4682,
+      "tmdb_id": 634323,
+      "imdb_id": null,
+      "director": "Wenhai Huang",
+      "provider_release_date": "2009-11-03",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://asac.labiennale.org/attivita/cinema/216617",
       "signature": "655513298d27a931dec2776e54ed5ce35cdeb61f0660fafc1bcf191556ca521c",
       "title": "News from Nowhere",
@@ -18899,43 +18911,51 @@
       "original_title": "Per Questi Stretti Morire",
       "original_language": "it",
       "alternate_titles": []
-    }
-  ],
-  "unresolved": [
+    },
     {
-      "key": "https://asac.labiennale.org/attivita/cinema/216599",
-      "event": "Venice",
+      "id": 4682,
+      "title": "Reconstructing Faith",
+      "director": "Wenhai Huang",
       "year": 2010,
-      "title": "Xifang qu ci bu yuan",
-      "aliases": [],
-      "director": "Huang Wenhai",
-      "runtime": 78,
-      "source": "https://asac.labiennale.org/attivita/cinema/216599",
-      "festival": true,
-      "reason": "Duplicate catalogue provider identity"
+      "tmdb_id": 634323,
+      "imdb_id": null,
+      "identity_status": "reviewed_tmdb_without_imdb",
+      "identity_sources": [
+        "https://asac.labiennale.org/attivita/cinema/216599",
+        "https://chinaindiefilm.com/films/reconstructing-faith/",
+        "https://letterboxd.com/film/reconstructing-faith/",
+        "https://www.themoviedb.org/movie/634323/"
+      ],
+      "original_title": "西方去此不遠",
+      "original_language": "zh",
+      "alternate_titles": [
+        "Xifang qu ci bu yuan",
+        "西方去此不远"
+      ]
     }
   ],
+  "unresolved": [],
   "poster_recovery": [],
   "unavailable_posters": [
     {
-      "id": 4371,
-      "title": "Rebecca H. (Return to the Dogs)",
-      "tmdb_id": 123889
-    },
-    {
-      "id": 4453,
-      "title": "Perfect Life",
-      "tmdb_id": 247483
-    },
-    {
       "id": 4677,
-      "title": "In Paraguay",
-      "tmdb_id": 396142
+      "title": "In Paraguay"
     },
     {
       "id": 4679,
-      "title": "Il colore delle parole",
-      "tmdb_id": 580589
+      "title": "Il colore delle parole"
+    }
+  ],
+  "cover_sources": [
+    {
+      "id": 4371,
+      "kind": "official-festival-film-still",
+      "source": "https://www.festival-cannes.com/en/f/rebecca-h-return-to-the-dogs/"
+    },
+    {
+      "id": 4453,
+      "kind": "official-festival-film-still",
+      "source": "https://www.sansebastianfestival.com/2011/sections_and_films/digital_shadows/7/590096/in"
     }
   ]
 }

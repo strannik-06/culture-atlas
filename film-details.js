@@ -138690,7 +138690,10 @@ window.CULTURE_FILM_DETAILS = {
     "tmdb_votes": 1,
     "imdb": {
       "url": "https://www.imdb.com/title/tt1646121/"
-    }
+    },
+    "poster": "assets/film-posters/4371.jpg",
+    "poster_source_url": "https://www.festival-cannes.com/en/f/rebecca-h-return-to-the-dogs/",
+    "cover_image_kind": "official-festival-film-still"
   },
   "4372": {
     "tmdb_id": 78400,
@@ -141192,7 +141195,10 @@ window.CULTURE_FILM_DETAILS = {
     ],
     "imdb": {
       "url": "https://www.imdb.com/title/tt1510857/"
-    }
+    },
+    "poster": "assets/film-posters/4453.jpg",
+    "poster_source_url": "https://www.sansebastianfestival.com/2011/sections_and_films/digital_shadows/7/590096/in",
+    "cover_image_kind": "official-festival-film-still"
   },
   "4454": {
     "tmdb_id": 95585,
@@ -148154,5 +148160,22 @@ window.CULTURE_FILM_DETAILS = {
     "imdb": {
       "url": "https://www.imdb.com/title/tt1714884/"
     }
+  },
+  "4682": {
+    "tmdb_id": 634323,
+    "title": "Reconstructing Faith",
+    "original_title": "西方去此不遠",
+    "overview": "The Temple Of Violet Bamboo Forest is a Buddhist organization in China's Yueyang City where Master Liao Guo has established an archive of writings and artifacts pertaining to the faith.",
+    "runtime": 84,
+    "release_date": "2009-11-03",
+    "genres": [
+      "Documentary"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "original_language": "zh",
+    "director": "Wenhai Huang",
+    "poster": "https://image.tmdb.org/t/p/w500/l795SDosXdH24DSvn2DcKiNOdEG.jpg"
   }
 };

@@ -49736,5 +49736,26 @@ window.CULTURE_CATALOG = [
     "original_title": "Per Questi Stretti Morire",
     "original_language": "it",
     "alternate_titles": []
+  },
+  {
+    "id": 4682,
+    "title": "Reconstructing Faith",
+    "director": "Wenhai Huang",
+    "year": 2010,
+    "tmdb_id": 634323,
+    "imdb_id": null,
+    "identity_status": "reviewed_tmdb_without_imdb",
+    "identity_sources": [
+      "https://asac.labiennale.org/attivita/cinema/216599",
+      "https://chinaindiefilm.com/films/reconstructing-faith/",
+      "https://letterboxd.com/film/reconstructing-faith/",
+      "https://www.themoviedb.org/movie/634323/"
+    ],
+    "original_title": "西方去此不遠",
+    "original_language": "zh",
+    "alternate_titles": [
+      "Xifang qu ci bu yuan",
+      "西方去此不远"
+    ]
   }
 ];
