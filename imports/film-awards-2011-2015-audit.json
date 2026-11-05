@@ -301,6 +301,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "BAFTA/2012/George Harrison: Living In The Material World",
+      "signature": "99ca3b7bdf0b00b46c57f483c6eddaa0142e5cd68dd4423b826b4727b93e926e",
+      "title": "George Harrison: Living In The Material World",
+      "source": "https://www.bafta.org/awards/film/?award-year=2012",
+      "id": 4044,
+      "tmdb_id": null,
+      "tmdb_tv_id": 43107,
+      "imdb_id": "tt1113829",
+      "director": "Martin Scorsese",
+      "method": "Complete cinema film verified by official release/runtime sources; TV provider verified by IMDb/title/year/two episodes/cast"
+    },
+    {
       "key": "BAFTA/2012/Hugo",
       "signature": "6a444e807ff39bb92d04810a6a4ee59f90c4269acdc33e1bd2697960d0fcf762",
       "title": "Hugo",
@@ -17514,22 +17526,27 @@
       "alternate_titles": [
         "Sinapupunan (Thy Womb)"
       ]
-    }
-  ],
-  "unresolved": [
+    },
     {
-      "key": "BAFTA/2012/George Harrison: Living In The Material World",
-      "event": "BAFTA",
-      "year": 2012,
-      "title": "George Harrison: Living In The Material World",
-      "source": "https://www.bafta.org/awards/film/?award-year=2012",
-      "anchors": [],
-      "category_names": [
-        "Documentary"
+      "id": 4044,
+      "title": "George Harrison: Living in the Material World",
+      "director": "Martin Scorsese",
+      "year": 2011,
+      "tmdb_id": null,
+      "tmdb_tv_id": 43107,
+      "imdb_id": "tt1113829",
+      "identity_status": "reviewed_complete_film_tv_provider",
+      "identity_scope": "complete-film",
+      "identity_sources": [
+        "https://www.georgeharrison.com/london-premiere-of-george-documentary-on-sunday-2nd-october/",
+        "https://tv.apple.com/us/movie/george-harrison-living-in-the-material-world/umc.cmc.22gunbi1g7j5hpk3rolicxy6t"
       ],
-      "reason": "TMDB HTTP 404"
+      "original_title": "George Harrison: Living in the Material World",
+      "original_language": "en",
+      "alternate_titles": []
     }
   ],
+  "unresolved": [],
   "poster_recovery": [],
   "unavailable_posters": [
     {

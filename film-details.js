@@ -128240,5 +128240,30 @@ window.CULTURE_FILM_DETAILS = {
     "imdb": {
       "url": "https://www.imdb.com/title/tt2395459/"
     }
+  },
+  "4044": {
+    "title": "George Harrison: Living in the Material World",
+    "director": "Martin Scorsese",
+    "tmdb_tv_id": 43107,
+    "overview": "He was part of the most famous rock-'n'-roll quartet in history. But George Harrison was much more than just a member of The Beatles.",
+    "runtime": 208,
+    "release_date": "2011-10-04",
+    "genres": [
+      "Documentary"
+    ],
+    "countries": [
+      "US"
+    ],
+    "cast": [
+      "George Harrison",
+      "Paul McCartney",
+      "Klaus Voormann",
+      "Ringo Starr",
+      "John Lennon"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/tA16kVP6zyiPeUK0ZmkPieujVqI.jpg",
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt1113829/"
+    }
   }
 };
