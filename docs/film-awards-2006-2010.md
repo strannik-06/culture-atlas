@@ -23,4 +23,8 @@ When the Levees Broke is the complete four-act 255-minute work shown at Venice; 
 
 The previously merged catalogue identities, detail metadata and award editions are fingerprinted and preserved. Registration is insert-only and conflict-guarded; no personal ratings, viewing history or notes are updated. Live registration is deferred until this PR is merged. The previous 2011–2015 batch was registered after PR #127 merged: all 556 rows and 556 provider links verified with zero identity mismatches.
 
-Identity counts, remaining exception notes and final validation will be recorded after generation finishes.
+## Identity audit and validation
+
+The completed audit resolves all 959 event/title identities to 718 distinct catalogue works, including 638 new catalogue entries. No identities remain unresolved. Two works have no provider poster; cover-source exceptions are retained in the audit. Complete-work exceptions are documented above.
+
+Final GitHub validation and the Chromium review are being rerun against the completed generated catalogue. Registration remains deferred until merge; this document does not claim that live registration or browser validation has completed.
