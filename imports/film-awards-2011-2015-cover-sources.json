@@ -1,0 +1,44 @@
+{
+  "scope": "Reviewed fallback public cover sources for new festival catalogue entries. Use only if no provider poster is available; preserve image kind and source provenance.",
+  "verification": "All three exact image URLs returned HTTP 200 image/jpeg and were visually inspected. No catalogue or detail records changed by this research.",
+  "films": [
+    {
+      "film_id": 3791,
+      "title": "The Flock of the Lord",
+      "tmdb_id": 541427,
+      "imdb_id": "tt6711276",
+      "image_url": "https://images.squarespace-cdn.com/content/v1/5724ab6027d4bd23efd03ef6/1546267400277-4HXY3IW7JOLJUO8LICPO/HDH_Titelbild.jpeg",
+      "image_kind": "official-film-still",
+      "source_page": "https://www.romuald-karmakar.de/film/die-herde-des-herrn",
+      "source_owner": "Romuald Karmakar, director",
+      "source_image_label": "HDH_Titelbild.jpeg",
+      "width": 2481,
+      "height": 1823,
+      "note": "Authentic still displayed on the director's film page, whose credits identify the 2011 Venice Orizzonti feature. This is a landscape film still, not a theatrical poster."
+    },
+    {
+      "film_id": 3804,
+      "title": "Shock Head Soul",
+      "tmdb_id": 111114,
+      "imdb_id": "tt2120832",
+      "image_url": "https://hotpropertyfilms.com/wp-content/uploads/2014/12/Shock-Head-Soul.jpg",
+      "image_kind": "official-promotional-artwork",
+      "source_page": "https://hotpropertyfilms.com/film/shock-head-soul/",
+      "source_owner": "Hot Property Films, producer",
+      "source_image_label": "Shock Head Soul",
+      "note": "Landscape promotional montage displayed as the producer's film-page hero. This is official promotional artwork, not a theatrical poster."
+    },
+    {
+      "film_id": 3920,
+      "title": "Madame Courage",
+      "tmdb_id": 358759,
+      "imdb_id": "tt4076766",
+      "image_url": "https://www.lesasphofilms.com/img/poster/madameCourage-poster.jpg",
+      "image_kind": "official-poster",
+      "source_page": "https://www.lesasphofilms.com/en/catalog/madame-courage",
+      "source_owner": "Les Asphofilms, producer catalogue",
+      "source_image_label": "Poster of the film Madame Courage",
+      "note": "Portrait theatrical poster explicitly labelled as a poster in the producer catalogue. Artwork identifies Merzak Allouache and 72nd Venice Orizzonti 2015."
+    }
+  ]
+}

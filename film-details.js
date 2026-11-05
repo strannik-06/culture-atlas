@@ -120375,7 +120375,10 @@ window.CULTURE_FILM_DETAILS = {
     "director": "Romuald Karmakar",
     "imdb": {
       "url": "https://www.imdb.com/title/tt6711276/"
-    }
+    },
+    "poster": "assets/film-posters/3791.jpg",
+    "poster_source_url": "https://www.romuald-karmakar.de/film/die-herde-des-herrn",
+    "cover_image_kind": "official-film-still"
   },
   "3792": {
     "tmdb_id": 92643,
@@ -120752,7 +120755,10 @@ window.CULTURE_FILM_DETAILS = {
     "tmdb_votes": 5,
     "imdb": {
       "url": "https://www.imdb.com/title/tt2120832/"
-    }
+    },
+    "poster": "assets/film-posters/3804.jpg",
+    "poster_source_url": "https://hotpropertyfilms.com/film/shock-head-soul/",
+    "cover_image_kind": "official-promotional-artwork"
   },
   "3805": {
     "tmdb_id": 97762,
@@ -124344,7 +124350,10 @@ window.CULTURE_FILM_DETAILS = {
     "tmdb_votes": 3,
     "imdb": {
       "url": "https://www.imdb.com/title/tt4076766/"
-    }
+    },
+    "poster": "assets/film-posters/3920.jpg",
+    "poster_source_url": "https://www.lesasphofilms.com/en/catalog/madame-courage",
+    "cover_image_kind": "official-poster"
   },
   "3921": {
     "tmdb_id": 296523,

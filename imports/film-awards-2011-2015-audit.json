@@ -17548,21 +17548,22 @@
   ],
   "unresolved": [],
   "poster_recovery": [],
-  "unavailable_posters": [
+  "unavailable_posters": [],
+  "cover_sources": [
     {
       "id": 3791,
-      "title": "The Flock of the Lord",
-      "tmdb_id": 541427
+      "kind": "official-film-still",
+      "source": "https://www.romuald-karmakar.de/film/die-herde-des-herrn"
     },
     {
       "id": 3804,
-      "title": "Shock Head Soul",
-      "tmdb_id": 111114
+      "kind": "official-promotional-artwork",
+      "source": "https://hotpropertyfilms.com/film/shock-head-soul/"
     },
     {
       "id": 3920,
-      "title": "Madame Courage",
-      "tmdb_id": 358759
+      "kind": "official-poster",
+      "source": "https://www.lesasphofilms.com/en/catalog/madame-courage"
     }
   ]
 }
