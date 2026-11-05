@@ -841,6 +841,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "BAFTA/2009/Hunger",
+      "signature": "4d8ed57641ca5ef0e046c78f01a8fc688fd6736b43c498fe96946726c4256ca4",
+      "title": "Hunger",
+      "source": "https://www.bafta.org/awards/film/?award-year=2009",
+      "id": 4300,
+      "tmdb_id": 10360,
+      "imdb_id": "tt0986233",
+      "director": "Steve McQueen",
+      "provider_release_date": "2008-05-15",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "BAFTA/2009/I've Loved You So Long",
       "signature": "37123d88e9ea410cc25f5dcddb4182e326ca9e476c2a5ee9510e8e859c3c5d9e",
       "title": "I've Loved You So Long",
@@ -1765,6 +1777,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "Golden Globes/2007/Babel",
+      "signature": "ed8d48aa7f88f5e06c8af65e981a3daff157ed3c6b604476ad9020c0b8bcdc2d",
+      "title": "Babel",
+      "source": "https://goldenglobes.com/winners-nominees/?year=2007",
+      "id": 768,
+      "tmdb_id": 1164,
+      "imdb_id": "tt0449467",
+      "director": "Alejandro G. Iñárritu",
+      "provider_release_date": "2006-10-26",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "Golden Globes/2007/Blood Diamond",
       "signature": "578e02c391f2b05a5fbf7cf1b3dc351f6bf2f8d4038a20341c44e7410da3db23",
       "title": "Blood Diamond",
@@ -1810,6 +1834,18 @@
       "imdb_id": "tt0317219",
       "director": "John Lasseter",
       "provider_release_date": "2006-06-08",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "Golden Globes/2007/Dreamgirls",
+      "signature": "d0f9eb7ae3485b33bca2636d9e2802c09780ee2e1baacf9128763d1686e7c108",
+      "title": "Dreamgirls",
+      "source": "https://goldenglobes.com/winners-nominees/?year=2007",
+      "id": 4080,
+      "tmdb_id": 1125,
+      "imdb_id": "tt0443489",
+      "director": "Bill Condon",
+      "provider_release_date": "2006-12-25",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -3049,6 +3085,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "Golden Globes/2010/Nine",
+      "signature": "061e0639dac5d1e4fc071e4a0804ff747449babf3b5a1dffbcff944d904ddb4a",
+      "title": "Nine",
+      "source": "https://goldenglobes.com/winners-nominees/?year=2010",
+      "id": 4611,
+      "tmdb_id": 10197,
+      "imdb_id": "tt0875034",
+      "director": "Rob Marshall",
+      "provider_release_date": "2009-12-03",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "Golden Globes/2010/Precious: Based on the novel Push by Sapphire",
       "signature": "e72457c90bf9e419e6f7d1c22523fe3906c90d4b005a97440c1322cbbedeef30",
       "title": "Precious: Based on the novel Push by Sapphire",
@@ -3289,6 +3337,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://asac.labiennale.org/attivita/cinema/112266",
+      "signature": "61889eb78bc1f7989174073979d3dbc4595cf8bf85448a2b242cd3849edecc99",
+      "title": "L'autre",
+      "source": "https://asac.labiennale.org/attivita/cinema/112266",
+      "id": 4649,
+      "tmdb_id": 12425,
+      "imdb_id": "tt1171704",
+      "director": "Patrick Mario Bernard, Pierre Trividic",
+      "provider_release_date": "2009-02-04",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://asac.labiennale.org/attivita/cinema/112267",
       "signature": "7bcf66ae45d89cdb92567865ad8c272f7003e967fa9a1162216c6d608bae3603",
       "title": "The Hurt Locker",
@@ -3337,6 +3397,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://asac.labiennale.org/attivita/cinema/112271",
+      "signature": "1fafa598013b62a7c59eab0f1c8bf29dc816ded08a9f31ec16fe0c3617e48dcf",
+      "title": "Bumazhnyy soldat",
+      "source": "https://asac.labiennale.org/attivita/cinema/112271",
+      "id": 663,
+      "tmdb_id": 12428,
+      "imdb_id": "tt1284576",
+      "director": "Aleksei German Jr.",
+      "provider_release_date": "2008-11-13",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://asac.labiennale.org/attivita/cinema/112300",
       "signature": "737d4ba67b333975ae07d3770ced0301f2f76600bc45189921a5a2af9337137a",
       "title": "Süt",
@@ -3346,6 +3418,18 @@
       "imdb_id": "tt1284591",
       "director": "Semih Kaplanoğlu",
       "provider_release_date": "2009-01-01",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://asac.labiennale.org/attivita/cinema/112301",
+      "signature": "3816d5b9f01620c56fde25956b52e5f2a93c0ad11205355debce56d2dab6e19c",
+      "title": "Akires to kame",
+      "source": "https://asac.labiennale.org/attivita/cinema/112301",
+      "id": 4648,
+      "tmdb_id": 12166,
+      "imdb_id": "tt1217243",
+      "director": "Takeshi Kitano",
+      "provider_release_date": "2008-09-20",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -3637,6 +3721,42 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://asac.labiennale.org/attivita/cinema/112415",
+      "signature": "dbc82897583459c3e8b44a49fdbcde402c28cd7dd00f5cc77efdb9f3afb15b75",
+      "title": "Puisque nous sommes nes",
+      "source": "https://asac.labiennale.org/attivita/cinema/112415",
+      "id": 4656,
+      "tmdb_id": 79766,
+      "imdb_id": "tt1270680",
+      "director": "Jean-Pierre Duret, Andrea Santana",
+      "provider_release_date": "2009-02-04",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://asac.labiennale.org/attivita/cinema/11270",
+      "signature": "5fedc0432df42e80b6a73e3fa2c7408de6d109d6e601d85a54bccbed58a7538e",
+      "title": "Ana alati tahmol azouhour ila qabriha",
+      "source": "https://asac.labiennale.org/attivita/cinema/11270",
+      "id": 4644,
+      "tmdb_id": 644365,
+      "imdb_id": "tt0921777",
+      "director": "Hala Alabdalla, Ammar al-Beik",
+      "provider_release_date": "2006-11-25",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://asac.labiennale.org/attivita/cinema/11271",
+      "signature": "64abe5c8405e6a499631e21cc69b69786bacea703da4cad9d6268066a82c9cb3",
+      "title": "Bellissime 2",
+      "source": "https://asac.labiennale.org/attivita/cinema/11271",
+      "id": 4635,
+      "tmdb_id": 553126,
+      "imdb_id": "tt1549828",
+      "director": "Giovanna Gagliardo",
+      "provider_release_date": "2006-10-18",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://asac.labiennale.org/attivita/cinema/11273",
       "signature": "9aa6090c9d59937064127d59b6cd201a7496c443bd98570f656efe63d97bd77d",
       "title": "Dong",
@@ -3685,6 +3805,30 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://asac.labiennale.org/attivita/cinema/11280",
+      "signature": "4dcf6c29a0b46715b5c920dd71cb3c821875d12c68977876651f457d66fb1562",
+      "title": "Mabei shang de fating",
+      "source": "https://asac.labiennale.org/attivita/cinema/11280",
+      "id": 4636,
+      "tmdb_id": 83267,
+      "imdb_id": "tt1064775",
+      "director": "Liu Jie",
+      "provider_release_date": "2006-09-06",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://asac.labiennale.org/attivita/cinema/11281",
+      "signature": "46fca418f9ebac3b41409211e1db8b420db4bbfbbe7a261a73797574d59de66a",
+      "title": "Non prendere impegni stasera",
+      "source": "https://asac.labiennale.org/attivita/cinema/11281",
+      "id": 4642,
+      "tmdb_id": 106999,
+      "imdb_id": "tt0874959",
+      "director": "Gianluca Maria Tavarelli",
+      "provider_release_date": "2007-06-15",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://asac.labiennale.org/attivita/cinema/11282",
       "signature": "6f603075d3dce42b0adeea014c8d3869ab800e65ef823cc6395d48975267681d",
       "title": "Opera Jawa",
@@ -3694,6 +3838,18 @@
       "imdb_id": "tt0844742",
       "director": "Garin Nugroho",
       "provider_release_date": "2006-08-07",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://asac.labiennale.org/attivita/cinema/11284",
+      "signature": "743839e1f8b2156efafa39b2bf9d067c3d71b96d61c7cfbfbcd0cdd68f98fa47",
+      "title": "Quijote",
+      "source": "https://asac.labiennale.org/attivita/cinema/11284",
+      "id": 4637,
+      "tmdb_id": 97476,
+      "imdb_id": "tt1018924",
+      "director": "Mimmo Paladino",
+      "provider_release_date": "2006-08-30",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -3733,6 +3889,30 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://asac.labiennale.org/attivita/cinema/11288",
+      "signature": "76d805f07577e6344cb3263e12db826dbb7b8d25c02ddfebca09e0f2a5558ce1",
+      "title": "Tachiguishi retsuden",
+      "source": "https://asac.labiennale.org/attivita/cinema/11288",
+      "id": 4638,
+      "tmdb_id": 39267,
+      "imdb_id": "tt0480586",
+      "director": "Mamoru Oshii",
+      "provider_release_date": "2006-04-08",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://asac.labiennale.org/attivita/cinema/11289",
+      "signature": "93feb1270fb75594ff7222de42e91c4a66e49c72d8c3815e3ca8cdbba0b8a15b",
+      "title": "Tai yang yue",
+      "source": "https://asac.labiennale.org/attivita/cinema/11289",
+      "id": 4640,
+      "tmdb_id": 102347,
+      "imdb_id": "tt0851579",
+      "director": "Ho Yuhang",
+      "provider_release_date": "2006-10-19",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://asac.labiennale.org/attivita/cinema/11290",
       "signature": "af1716329eeb2206939a649c70f6c615c4df5fb386ae01cd01c2ad1b6c7939b3",
       "title": "The Hottest State",
@@ -3755,6 +3935,18 @@
       "director": "John Scheinfeld, David Leaf",
       "provider_release_date": "2006-09-15",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://asac.labiennale.org/attivita/cinema/11292",
+      "signature": "cc4c1d248894185dfb34d8820a12ae34c4bd755dff26d8e0fbd94a23690b413e",
+      "title": "When the Leeves Broke. A Requiem in four Acts",
+      "source": "https://asac.labiennale.org/attivita/cinema/11292",
+      "id": 4639,
+      "tmdb_id": null,
+      "tmdb_tv_id": 16468,
+      "imdb_id": "tt0783612",
+      "director": "Spike Lee",
+      "method": "Complete festival film verified by official release/runtime sources; TV provider verified by IMDb/title/year/episode count/cast"
     },
     {
       "key": "https://asac.labiennale.org/attivita/cinema/11334",
@@ -3802,6 +3994,30 @@
       "imdb_id": "tt0825241",
       "director": "Mahamat-Saleh Haroun",
       "provider_release_date": "2006-09-01",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://asac.labiennale.org/attivita/cinema/11338",
+      "signature": "79b6e7f452fe47ac4ee79b2d752bf556602bd6643779f6800b437650af34bbdd",
+      "title": "Eyforiya",
+      "source": "https://asac.labiennale.org/attivita/cinema/11338",
+      "id": 4631,
+      "tmdb_id": 72891,
+      "imdb_id": "tt0847877",
+      "director": "Ivan Vyrypaev",
+      "provider_release_date": "2006-02-11",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://asac.labiennale.org/attivita/cinema/11339",
+      "signature": "be03be83a20bf28cf346c2e44ee9e7b9608441c242ed2e6e42f724d02f19ed7c",
+      "title": "Fallen",
+      "source": "https://asac.labiennale.org/attivita/cinema/11339",
+      "id": 4634,
+      "tmdb_id": 79072,
+      "imdb_id": "tt0832347",
+      "director": "Barbara Albert",
+      "provider_release_date": "2006-09-08",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -3913,6 +4129,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://asac.labiennale.org/attivita/cinema/11350",
+      "signature": "882b347f35b718fe71a98c2552fdd6911da6cb2d5b9d6329cbc95b25207a20cd",
+      "title": "Sang sattawat",
+      "source": "https://asac.labiennale.org/attivita/cinema/11350",
+      "id": 4633,
+      "tmdb_id": 27904,
+      "imdb_id": "tt0477731",
+      "director": "Apichatpong Weerasethakul",
+      "provider_release_date": "2006-08-31",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://asac.labiennale.org/attivita/cinema/11351",
       "signature": "b38a7cb776632804fc5e3c6bb9874ff8cdc4d12e3db2fe877b4bb161ba38a789",
       "title": "The Black Dahlia",
@@ -3958,6 +4186,18 @@
       "imdb_id": "tt0389557",
       "director": "Paul Verhoeven",
       "provider_release_date": "2006-09-14",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://asac.labiennale.org/attivita/cinema/123500",
+      "signature": "4752267ca364c68eaf484abf9c9b95722bae5b092013e82072ed580d44f706f2",
+      "title": "Khastegi (Tedium)",
+      "source": "https://asac.labiennale.org/attivita/cinema/123500",
+      "id": 4651,
+      "tmdb_id": 461640,
+      "imdb_id": "tt1284579",
+      "director": "Bahman Motamedian",
+      "provider_release_date": "2008-09-02",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -4066,6 +4306,30 @@
       "imdb_id": "tt1232207",
       "director": "Michael Moore",
       "provider_release_date": "2009-09-06",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://asac.labiennale.org/attivita/cinema/179313",
+      "signature": "3fe077aec0abc0a20571086991a05a18ba3ef5f5a9db615be50c97f89c6ef469",
+      "title": "Yi ngoi",
+      "source": "https://asac.labiennale.org/attivita/cinema/179313",
+      "id": 4653,
+      "tmdb_id": 25474,
+      "imdb_id": "tt1202514",
+      "director": "Soi Cheang",
+      "provider_release_date": "2009-09-24",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://asac.labiennale.org/attivita/cinema/179314",
+      "signature": "3268690d16de5ee0c5307c296459311f4d54c0acbf3bf4092520869b3aadcb9a",
+      "title": "Zanan-e-bedun-e mardan",
+      "source": "https://asac.labiennale.org/attivita/cinema/179314",
+      "id": 4654,
+      "tmdb_id": 44159,
+      "imdb_id": "tt1498887",
+      "director": "Shoja Azari, Shirin Neshat",
+      "provider_release_date": "2009-07-01",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -4273,6 +4537,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://asac.labiennale.org/attivita/cinema/179351",
+      "signature": "f700698bfe8f4a5a4e6d811717ec88beccb98577738f8a4eb69de58d57c60033",
+      "title": "Villalobos",
+      "source": "https://asac.labiennale.org/attivita/cinema/179351",
+      "id": 4659,
+      "tmdb_id": 29956,
+      "imdb_id": "tt1500762",
+      "director": "Romuald Karmakar",
+      "provider_release_date": "2009-09-08",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://asac.labiennale.org/attivita/cinema/179352",
       "signature": "16ba2e1e426a498672726a3ff8d273c74d6c34d7fa9fe41effeeb4454b5ab99e",
       "title": "Zarte Parasiten",
@@ -4294,6 +4570,30 @@
       "imdb_id": "tt1499639",
       "director": "Bùi Thạc Chuyên",
       "provider_release_date": "2009-11-13",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://asac.labiennale.org/attivita/cinema/179356",
+      "signature": "370a1d8cacb42ef6e707d13a7c4c16cfef768aa9eed73c3dde87f63df3db219b",
+      "title": "Korotkoye zamykanie",
+      "source": "https://asac.labiennale.org/attivita/cinema/179356",
+      "id": 4674,
+      "tmdb_id": 70137,
+      "imdb_id": "tt1437224",
+      "director": "Kirill Serebrennikov, Pyotr Buslov, Boris Khlebnikov, Ivan Vyrypaev, Aleksei German Jr.",
+      "provider_release_date": "2009-11-11",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://asac.labiennale.org/attivita/cinema/179357",
+      "signature": "042ddef5f406eafee3980036b2bfb1c6e8e903e7e34d5dae4f1e21354ee23fb8",
+      "title": "Touxi",
+      "source": "https://asac.labiennale.org/attivita/cinema/179357",
+      "id": 4667,
+      "tmdb_id": 57322,
+      "imdb_id": "tt1499698",
+      "director": "Liu Jie",
+      "provider_release_date": "2010-03-24",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -4357,6 +4657,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://asac.labiennale.org/attivita/cinema/179367",
+      "signature": "7eb5214758ab4ec810c79218188b82ce2c7acf5c0de9028a7ac65f1260685ae5",
+      "title": "Totò",
+      "source": "https://asac.labiennale.org/attivita/cinema/179367",
+      "id": 4657,
+      "tmdb_id": 373574,
+      "imdb_id": "tt1499697",
+      "director": "Peter Schreiner",
+      "provider_release_date": "2009-01-02",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://asac.labiennale.org/attivita/cinema/179368",
       "signature": "a70771259235c493557ca321ac5f130259866c6e972843704a23ab955a4ee20e",
       "title": "1428",
@@ -4390,6 +4702,18 @@
       "imdb_id": "tt1500741",
       "director": "Héctor Gálvez",
       "provider_release_date": "2009-09-08",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://asac.labiennale.org/attivita/cinema/179373",
+      "signature": "3eba476b91ff2f4192a9eff013b57a54e77db01a30e9e4b29b3b255413ff7b2c",
+      "title": "Tris di donne & abiti nuziali",
+      "source": "https://asac.labiennale.org/attivita/cinema/179373",
+      "id": 4664,
+      "tmdb_id": 41181,
+      "imdb_id": "tt1295083",
+      "director": "Vincenzo Terracciano",
+      "provider_release_date": "2009-09-18",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -4429,6 +4753,30 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://asac.labiennale.org/attivita/cinema/179378",
+      "signature": "7957fb513a2fc35b1f34e0c916d9b41285e1c0ce323eb3f1da8e1a9e222a8416",
+      "title": "Women ceng jing de wuchanzhe",
+      "source": "https://asac.labiennale.org/attivita/cinema/179378",
+      "id": 4660,
+      "tmdb_id": 462891,
+      "imdb_id": "tt1485046",
+      "director": "Xiaolu Guo",
+      "provider_release_date": "2009-09-02",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://asac.labiennale.org/attivita/cinema/179381",
+      "signature": "f6050b2f4bc2350b6d23b3179739da1cfd0b12155ef55057218274f217518b3a",
+      "title": "Dou Niu",
+      "source": "https://asac.labiennale.org/attivita/cinema/179381",
+      "id": 4655,
+      "tmdb_id": 44714,
+      "imdb_id": "tt1500703",
+      "director": "Guan Hu",
+      "provider_release_date": "2009-09-11",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://asac.labiennale.org/attivita/cinema/180046",
       "signature": "2ea091bae6d54a59eab84a8829cf79e4fd27cd129ca5e4d2ed634e5d6a4ea3f9",
       "title": "My Son, My Son, What Have Ye Done?",
@@ -4438,6 +4786,18 @@
       "imdb_id": "tt1233219",
       "director": "Werner Herzog",
       "provider_release_date": "2010-07-08",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://asac.labiennale.org/attivita/cinema/180185",
+      "signature": "d190cde3b7af58bb073f58040f198a989082e31b06c003ddca3cf49581f82151",
+      "title": "Lola",
+      "source": "https://asac.labiennale.org/attivita/cinema/180185",
+      "id": 4652,
+      "tmdb_id": 72985,
+      "imdb_id": "tt1496792",
+      "director": "Brillante Ma Mendoza",
+      "provider_release_date": "2009-09-23",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -4813,6 +5173,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://asac.labiennale.org/attivita/cinema/216617",
+      "signature": "655513298d27a931dec2776e54ed5ce35cdeb61f0660fafc1bcf191556ca521c",
+      "title": "News from Nowhere",
+      "source": "https://asac.labiennale.org/attivita/cinema/216617",
+      "id": 4673,
+      "tmdb_id": 340365,
+      "imdb_id": "tt2354274",
+      "director": "Paul Morrissey",
+      "provider_release_date": "2010-09-02",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://asac.labiennale.org/attivita/cinema/216619",
       "signature": "37e7e77a9cf5e7e3de09a035339b505ab5304354245296d3a121e8c5c37f8d89",
       "title": "A Espada e a Rosa",
@@ -4822,6 +5194,18 @@
       "imdb_id": "tt1686635",
       "director": "João Nicolau",
       "provider_release_date": "2010-09-09",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://asac.labiennale.org/attivita/cinema/216621",
+      "signature": "7f470a8830d7247d86350e7a75e725949af12af9c2c72a4ac1fe104d0dde0c30",
+      "title": "Dharma Guns (La succession Starkov)",
+      "source": "https://asac.labiennale.org/attivita/cinema/216621",
+      "id": 4663,
+      "tmdb_id": 103443,
+      "imdb_id": "tt1847577",
+      "director": "F.J. Ossang",
+      "provider_release_date": "2011-03-09",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -4846,6 +5230,18 @@
       "imdb_id": "tt1760956",
       "director": "Gianfranco Rosi",
       "provider_release_date": "2010-11-03",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://asac.labiennale.org/attivita/cinema/216634",
+      "signature": "7023d196acf525283045069735665ab935ff041dfd12fbbf2fe4e525086dffba",
+      "title": "Sheoeyin kenna",
+      "source": "https://asac.labiennale.org/attivita/cinema/216634",
+      "id": 4665,
+      "tmdb_id": 584944,
+      "imdb_id": "tt1847690",
+      "director": "Maher Abi Samra",
+      "provider_release_date": "2010-09-01",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -4885,6 +5281,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://asac.labiennale.org/attivita/cinema/216665",
+      "signature": "01053a81b647d6f4c463da448e79953f0bb9f13db7d974857275ed7862782dee",
+      "title": "Zelal",
+      "source": "https://asac.labiennale.org/attivita/cinema/216665",
+      "id": 4671,
+      "tmdb_id": 300576,
+      "imdb_id": "tt2754544",
+      "director": "Mustapha Hasnaoui, Marianne Khoury",
+      "provider_release_date": "2010-09-09",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://asac.labiennale.org/attivita/cinema/216666",
       "signature": "a869666a786df93025d30d5c1a27eaa77d06038c33117b4694dd41140062d9d4",
       "title": "Bangdokpi",
@@ -4906,6 +5314,18 @@
       "imdb_id": "tt1561768",
       "director": "Jerzy Skolimowski",
       "provider_release_date": "2010-09-06",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://asac.labiennale.org/attivita/cinema/217200",
+      "signature": "b44f889d83a7d66f48d6647232febd8b5b739bc6dba2e41c2ad06ffa77751394",
+      "title": "Le Fossé",
+      "source": "https://asac.labiennale.org/attivita/cinema/217200",
+      "id": 4661,
+      "tmdb_id": 91067,
+      "imdb_id": "tt1723112",
+      "director": "Wang Bing",
+      "provider_release_date": "2011-04-15",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -4978,6 +5398,18 @@
       "imdb_id": "tt0465538",
       "director": "Tony Gilroy",
       "provider_release_date": "2007-09-28",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://asac.labiennale.org/attivita/cinema/52683",
+      "signature": "609339881e6db2d006436d3770b0092804c78a9eafb4cc4afcef0e1919377e7c",
+      "title": "Heya fawda",
+      "source": "https://asac.labiennale.org/attivita/cinema/52683",
+      "id": 4658,
+      "tmdb_id": 163660,
+      "imdb_id": "tt1085799",
+      "director": "Youssef Chahine, Khaled Youssef",
+      "provider_release_date": "2007-11-28",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -5065,6 +5497,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://asac.labiennale.org/attivita/cinema/52703",
+      "signature": "060f0c606c741553bfa85aacae584f0b2757716fbd5b51b504e945ff89cdf98a",
+      "title": "Tai yang zhao chang sheng qi",
+      "source": "https://asac.labiennale.org/attivita/cinema/52703",
+      "id": 4662,
+      "tmdb_id": 51885,
+      "imdb_id": "tt0769507",
+      "director": "Jiang Wen",
+      "provider_release_date": "2007-09-20",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://asac.labiennale.org/attivita/cinema/52705",
       "signature": "91cbb7b16a7e6f5a11f8303b1107f55fffb3f6ec88c5bfa085c4b5e1670266f8",
       "title": "Mal Nascida",
@@ -5086,6 +5530,18 @@
       "imdb_id": "tt0943982",
       "director": "Alex Cox",
       "provider_release_date": "2010-10-26",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://asac.labiennale.org/attivita/cinema/52708",
+      "signature": "d2144aa6072fa0948e795afbd6eee40a2fabaa299152cb0e3e5214a15a7a82f2",
+      "title": "Bangbang wo aishen",
+      "source": "https://asac.labiennale.org/attivita/cinema/52708",
+      "id": 4641,
+      "tmdb_id": 54326,
+      "imdb_id": "tt1076251",
+      "director": "Lee Kang-sheng",
+      "provider_release_date": "2007-09-04",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -5113,6 +5569,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://asac.labiennale.org/attivita/cinema/52715",
+      "signature": "83906ebd7c036cbb50078c368af55722d40a9137a530f855a1547dabebcb1a7e",
+      "title": "Kagadanan sa banwaan ning mga engkanto",
+      "source": "https://asac.labiennale.org/attivita/cinema/52715",
+      "id": 4646,
+      "tmdb_id": 167710,
+      "imdb_id": "tt1094643",
+      "director": "Lav Diaz",
+      "provider_release_date": "2015-12-30",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://asac.labiennale.org/attivita/cinema/52718",
       "signature": "8a41cb585926917263c22f8b749279b4eac0e0ed0960707083179f8e67458f3d",
       "title": "Man from Plains",
@@ -5122,6 +5590,18 @@
       "imdb_id": "tt0913958",
       "director": "Jonathan Demme",
       "provider_release_date": "2007-10-26",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://asac.labiennale.org/attivita/cinema/52751",
+      "signature": "fb6efcf9959a0dbfebf68f331bd10721c843c2549d70cd05dbf1847b8b044e31",
+      "title": "La Graine et le mulet",
+      "source": "https://asac.labiennale.org/attivita/cinema/52751",
+      "id": 4650,
+      "tmdb_id": 8280,
+      "imdb_id": "tt0487419",
+      "director": "Abdellatif Kechiche",
+      "provider_release_date": "2007-12-12",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -5281,6 +5761,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://asac.labiennale.org/attivita/cinema/52859",
+      "signature": "2e91d79177b0c03f6f9a8b1da17361a7c4cd7bedbcafab2931c39f37d416f4ca",
+      "title": "Geomen tangyi sonyeo oi",
+      "source": "https://asac.labiennale.org/attivita/cinema/52859",
+      "id": 4645,
+      "tmdb_id": 26859,
+      "imdb_id": "tt1094635",
+      "director": "Jeon Soo-il",
+      "provider_release_date": "2007-01-09",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://asac.labiennale.org/attivita/cinema/52861",
       "signature": "2ec6645599de3fa68f1574892a856886bb8a419b2c924eb0bbdf7749715ef362",
       "title": "L'Histoire de Richard O.",
@@ -5314,6 +5806,18 @@
       "imdb_id": "tt1094621",
       "director": "Arnaud Desplechin",
       "provider_release_date": "2007-01-04",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://asac.labiennale.org/attivita/cinema/52868",
+      "signature": "4676e37b0c8bf0fd9c98605420ffaebc6bf8e083f1ce375b24727abfaf4af4e1",
+      "title": "San",
+      "source": "https://asac.labiennale.org/attivita/cinema/52868",
+      "id": 4647,
+      "tmdb_id": 291135,
+      "imdb_id": "tt1094655",
+      "director": "Du Haibin",
+      "provider_release_date": "2007-09-02",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -5557,6 +6061,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://www.berlinale.de/en/2006/programme/20063971.html",
+      "signature": "bf1280d34ef3fbf9ce7edf347bfc5b49bc08eb97e1a3175f3e6c08829e44a6bb",
+      "title": "Isabella",
+      "source": "https://www.berlinale.de/en/2006/programme/20063971.html",
+      "id": 4666,
+      "tmdb_id": 40977,
+      "imdb_id": "tt0499141",
+      "director": "Edmond Pang Ho-cheung",
+      "provider_release_date": "2006-04-06",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://www.berlinale.de/en/2006/programme/20064227.html",
       "signature": "657d5004fa74b4dc66a7e650b5ddc95043b28929d530cc7755e4f0db01377e23",
       "title": "Offside",
@@ -5746,6 +6262,18 @@
       "imdb_id": "tt0499540",
       "director": "Ariel Rotter",
       "provider_release_date": "2007-05-10",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.berlinale.de/en/2007/programme/20073709.html",
+      "signature": "a75325287fd78b6313ba2d0971aa0c6859735a163c0a96d47ea040b71ef2f476",
+      "title": "Angel",
+      "source": "https://www.berlinale.de/en/2007/programme/20073709.html",
+      "id": 4672,
+      "tmdb_id": 11801,
+      "imdb_id": "tt0783767",
+      "director": "François Ozon",
+      "provider_release_date": "2007-02-17",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -5974,6 +6502,18 @@
       "imdb_id": "tt1101675",
       "director": "Fernando Eimbcke",
       "provider_release_date": "2008-07-16",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.berlinale.de/en/2008/programme/20082449.html",
+      "signature": "e8fc8f77e77dcc89333ca0e7cd7a7ed26aa0b3464bb54e5f73885d1fd5777852",
+      "title": "Restless",
+      "source": "https://www.berlinale.de/en/2008/programme/20082449.html",
+      "id": 4668,
+      "tmdb_id": 16705,
+      "imdb_id": "tt1075644",
+      "director": "Amos Kollek",
+      "provider_release_date": "2008-05-29",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -6241,6 +6781,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://www.berlinale.de/en/2009/programme/20097120.html",
+      "signature": "e46870e1051f365707d16c62b2e6761c98e78dc85fedb72845e55d340877d143",
+      "title": "Storm",
+      "source": "https://www.berlinale.de/en/2009/programme/20097120.html",
+      "id": 4669,
+      "tmdb_id": 35619,
+      "imdb_id": "tt0768239",
+      "director": "Hans-Christian Schmid",
+      "provider_release_date": "2009-09-10",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://www.berlinale.de/en/2009/programme/20097450.html",
       "signature": "43ce92eb6fefa16b9f7f16537ddde50bc80102bfbc9b0435f70a4d5c309dd253",
       "title": "My One And Only",
@@ -6421,6 +6973,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://www.berlinale.de/en/2010/programme/20104775.html",
+      "signature": "2b55d37e94be17b423608f3c795462411ba24d1d62e9b41503275b03e40a1a83",
+      "title": "Kak ya provel etim letom",
+      "source": "https://www.berlinale.de/en/2010/programme/20104775.html",
+      "id": 4670,
+      "tmdb_id": 38325,
+      "imdb_id": "tt1588875",
+      "director": "Alexey Popogrebsky",
+      "provider_release_date": "2010-04-01",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://www.berlinale.de/en/2010/programme/20104820.html",
       "signature": "4009d85781d5f67a7a8ae9bd6b4a1eb229e739d2988189cc9455adc1d06ae2b5",
       "title": "The Killer Inside Me",
@@ -6430,6 +6994,18 @@
       "imdb_id": "tt0954947",
       "director": "Michael Winterbottom",
       "provider_release_date": "2010-02-19",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.berlinale.de/en/2010/programme/20105362.html",
+      "signature": "73aefdd20f8a489a59e201c631963dc557198e408f0c26b3db770587e55e5b25",
+      "title": "Mammuth",
+      "source": "https://www.berlinale.de/en/2010/programme/20105362.html",
+      "id": 4675,
+      "tmdb_id": 37832,
+      "imdb_id": "tt1473074",
+      "director": "Gustave Kervern, Benoît Delépine",
+      "provider_release_date": "2010-04-21",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -6589,6 +7165,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://www.festival-cannes.com/en/f/alexandra/",
+      "signature": "37ccfd20c981145549194a80fd908468145f75267114970e04c07b24b1c990f0",
+      "title": "ALEXANDRA",
+      "source": "https://www.festival-cannes.com/en/f/alexandra/",
+      "id": 4630,
+      "tmdb_id": 17479,
+      "imdb_id": "tt1034427",
+      "director": "Aleksandr Sokurov",
+      "provider_release_date": "2007-06-03",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://www.festival-cannes.com/en/f/am-ende-kommen-touristen/",
       "signature": "2cedcad8f7278a6ebd2a534e2bc161e5dd15c87899f05f5fff6b0e919fed4b4a",
       "title": "AM ENDE KOMMEN TOURISTEN",
@@ -6598,6 +7186,18 @@
       "imdb_id": "tt0775417",
       "director": "Robert Thalheim",
       "provider_release_date": "2007-05-21",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.festival-cannes.com/en/f/amintiri-din-epoca-de-aur/",
+      "signature": "1d534db44ff38fb0a1d2064101931244e7b36a28c71be4d746260e091d47f9fa",
+      "title": "AMINTIRI DIN EPOCA DE AUR",
+      "source": "https://www.festival-cannes.com/en/f/amintiri-din-epoca-de-aur/",
+      "id": 1669,
+      "tmdb_id": 39376,
+      "imdb_id": "tt1422122",
+      "director": "Cristian Mungiu, Ioana Uricaru, Constantin Popescu Jr., Răzvan Marculescu, Hanno Höfer",
+      "provider_release_date": "2009-05-29",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -6649,6 +7249,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://www.festival-cannes.com/en/f/babel/",
+      "signature": "5cf2f4402b43d540c8b6bfb824544d9b7b5b651973dc0c6628ac30957b096548",
+      "title": "BABEL",
+      "source": "https://www.festival-cannes.com/en/f/babel/",
+      "id": 768,
+      "tmdb_id": 1164,
+      "imdb_id": "tt0449467",
+      "director": "Alejandro G. Iñárritu",
+      "provider_release_date": "2006-10-26",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://www.festival-cannes.com/en/f/bak-jwi/",
       "signature": "a6aaf9cac057cb85288681503146605a5b95df6681b4a24c79832258739607c8",
       "title": "BAK-JWI",
@@ -6661,6 +7273,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://www.festival-cannes.com/en/f/bihisht-faqat-baroi-murdagon/",
+      "signature": "52a9d707cd768da341c90b0046638c09cecbd5e74a5ed5b8a7d874b2063900a4",
+      "title": "BIHISHT FAQAT BAROI MURDAGON",
+      "source": "https://www.festival-cannes.com/en/f/bihisht-faqat-baroi-murdagon/",
+      "id": 4614,
+      "tmdb_id": 120393,
+      "imdb_id": "tt0792988",
+      "director": "Jamshed Usmonov",
+      "provider_release_date": "2006-10-04",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://www.festival-cannes.com/en/f/bikur-hatizmoret/",
       "signature": "1c68bfb7cfec6add81be20ddef3476279da3d132b727c8556ec629ca09f82a6d",
       "title": "BIKUR HATIZMORET",
@@ -6670,6 +7294,18 @@
       "imdb_id": "tt1032856",
       "director": "Eran Kolirin",
       "provider_release_date": "2007-09-13",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.festival-cannes.com/en/f/biutiful/",
+      "signature": "5a190b1a26fec307fb884d907440a5b314cca41feab822aaa32bb9b2adedc466",
+      "title": "BIUTIFUL",
+      "source": "https://www.festival-cannes.com/en/f/biutiful/",
+      "id": 651,
+      "tmdb_id": 45958,
+      "imdb_id": "tt1164999",
+      "director": "Alejandro G. Iñárritu",
+      "provider_release_date": "2010-10-20",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -6721,6 +7357,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://www.festival-cannes.com/en/f/california-dreamin-nesfarsit/",
+      "signature": "ffd2c4c5a5620e5ef62a40c1507be681e8f5225628787558b6e0dcc735b3686c",
+      "title": "CALIFORNIA DREAMIN’ (NESFARSIT)",
+      "source": "https://www.festival-cannes.com/en/f/california-dreamin-nesfarsit/",
+      "id": 4643,
+      "tmdb_id": 24220,
+      "imdb_id": "tt0449573",
+      "director": "Cristian Nemescu",
+      "provider_release_date": "2007-06-01",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://www.festival-cannes.com/en/f/calle-santa-fe/",
       "signature": "5d54644006f986df1962bcff4b185fed0c2d53ac0c4729c64ccc6dfac4e139c5",
       "title": "CALLE SANTA FE",
@@ -6758,7 +7406,7 @@
     },
     {
       "key": "https://www.festival-cannes.com/en/f/che/",
-      "signature": "89eafdbcb4e175ebec5a3494b6b023c3b669aa858047cde46b6d7cda5cef6f2a",
+      "signature": "a3e71ed0d468d15d46348d9c2b4c8852e07a95ad765e9443c29afce252c98c87",
       "title": "CHE",
       "source": "https://www.festival-cannes.com/en/f/che/",
       "id": 4282,
@@ -6790,6 +7438,18 @@
       "imdb_id": "tt1020773",
       "director": "Abbas Kiarostami",
       "provider_release_date": "2010-05-19",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.festival-cannes.com/en/f/cronica-de-una-fuga/",
+      "signature": "f25980f26bc47674e722f2111ec0775bf1a7530ed99688a87ed4210b141bc53f",
+      "title": "CRÓNICA DE UNA FUGA",
+      "source": "https://www.festival-cannes.com/en/f/cronica-de-una-fuga/",
+      "id": 4615,
+      "tmdb_id": 25532,
+      "imdb_id": "tt0479354",
+      "director": "Adrián Caetano",
+      "provider_release_date": "2006-04-27",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -6889,6 +7549,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://www.festival-cannes.com/en/f/el-bano-del-papa/",
+      "signature": "1c342ffc11ad19b4e6338143fbf011b83667fff62d1bde7ab2466be1826094b4",
+      "title": "EL BAÑO DEL PAPA",
+      "source": "https://www.festival-cannes.com/en/f/el-bano-del-papa/",
+      "id": 4619,
+      "tmdb_id": 8267,
+      "imdb_id": "tt0482901",
+      "director": "César Charlone, Enrique Fernández",
+      "provider_release_date": "2007-05-21",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://www.festival-cannes.com/en/f/el-laberinto-del-fauno/",
       "signature": "a30bf83549ad8fa619907f5ed9a7cf0ab8f824920f892b057dbb6e438230055c",
       "title": "EL LABERINTO DEL FAUNO",
@@ -6934,6 +7606,18 @@
       "imdb_id": "tt1068646",
       "director": "Laurent Cantet",
       "provider_release_date": "2008-09-24",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.festival-cannes.com/en/f/er-shi-si-cheng-ji/",
+      "signature": "2a55066b6b6e5a3eae93a45baaaa768a2879ad3cf414d93b72cbe242953f9c79",
+      "title": "ER SHI SI CHENG JI",
+      "source": "https://www.festival-cannes.com/en/f/er-shi-si-cheng-ji/",
+      "id": 4621,
+      "tmdb_id": 29972,
+      "imdb_id": "tt1103963",
+      "director": "Jia Zhangke",
+      "provider_release_date": "2008-09-27",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -7030,6 +7714,18 @@
       "imdb_id": "tt0929425",
       "director": "Matteo Garrone",
       "provider_release_date": "2008-05-16",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.festival-cannes.com/en/f/gwai-wik/",
+      "signature": "e62e9173abb134177ed9408f3afb31ab27a2e096d0191f38e3009501fa2f8c5a",
+      "title": "GWAÏ WIK",
+      "source": "https://www.festival-cannes.com/en/f/gwai-wik/",
+      "id": 4616,
+      "tmdb_id": 13402,
+      "imdb_id": "tt0498311",
+      "director": "Oxide Pang Chun, Danny Pang Phat",
+      "provider_release_date": "2006-06-30",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -7258,6 +7954,18 @@
       "imdb_id": "tt1426378",
       "director": "Bahman Ghobadi",
       "provider_release_date": "2009-12-23",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.festival-cannes.com/en/f/kinatay/",
+      "signature": "c3bca776e2a85c7cc42d20412f3f12205b7984636ab3ca6806644a42611f4bf2",
+      "title": "KINATAY",
+      "source": "https://www.festival-cannes.com/en/f/kinatay/",
+      "id": 4626,
+      "tmdb_id": 64450,
+      "imdb_id": "tt1423592",
+      "director": "Brillante Ma Mendoza",
+      "provider_release_date": "2009-09-23",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -7813,6 +8521,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://www.festival-cannes.com/en/f/my-magic/",
+      "signature": "248411dc6b1273fa5f9115b2f0be388a7c4d0b35d45052972b9e83b87348d3b6",
+      "title": "MY MAGIC",
+      "source": "https://www.festival-cannes.com/en/f/my-magic/",
+      "id": 4622,
+      "tmdb_id": 8903,
+      "imdb_id": "tt1233329",
+      "director": "Eric Khoo",
+      "provider_release_date": "2008-05-23",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://www.festival-cannes.com/en/f/naissance-des-pieuvres/",
       "signature": "1f413afd42e1a42d4a9dab5cc3e6de1069fd00376460bfd6316f9df05142fbc6",
       "title": "NAISSANCE DES PIEUVRES",
@@ -7885,6 +8605,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://www.festival-cannes.com/en/f/octubre/",
+      "signature": "ee4e83401644594934990ed8ad4072df3d926764eac47f538b56f5c707b85315",
+      "title": "OCTUBRE",
+      "source": "https://www.festival-cannes.com/en/f/octubre/",
+      "id": 4628,
+      "tmdb_id": 52322,
+      "imdb_id": "tt1646118",
+      "director": "Daniel Vega Vidal, Diego Vega Vidal",
+      "provider_release_date": "2010-09-29",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://www.festival-cannes.com/en/f/outrage/",
       "signature": "bda54ef2bb1303ce819689d60965f9f3465a0e65890850074a71265fe290186f",
       "title": "OUTRAGE",
@@ -7933,6 +8665,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://www.festival-cannes.com/en/f/paris-je-t-aime/",
+      "signature": "a861f9badafaf0c1c8a0ee056bcca7628de92728256656517c64831aab300aeb",
+      "title": "PARIS, JE T’AIME",
+      "source": "https://www.festival-cannes.com/en/f/paris-je-t-aime/",
+      "id": 1706,
+      "tmdb_id": 2266,
+      "imdb_id": "tt0401711",
+      "director": "Olivier Assayas, Frédéric Auburtin, Gurinder Chadha, Sylvain Chomet, Isabel Coixet, Wes Craven, Alfonso Cuarón, Gérard Depardieu, Christopher Doyle, Richard LaGravenese, Vincenzo Natali, Alexander Payne, Walter Salles, Oliver Schmitz, Nobuhiro Suwa, Daniela Thomas, Tom Tykwer, Gus Van Sant, Joel Coen, Ethan Coen, Bruno Podalydès",
+      "provider_release_date": "2006-06-21",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://www.festival-cannes.com/en/f/persepolis/",
       "signature": "52f7765b9b779433bc3f6357371ad7ed1a51fcaef612977751d96ee78d0aa319",
       "title": "PERSEPOLIS",
@@ -7966,6 +8710,18 @@
       "imdb_id": "tt1337051",
       "director": "Corneliu Porumboiu",
       "provider_release_date": "2009-07-03",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.festival-cannes.com/en/f/precious/",
+      "signature": "b05a3c6fe0b8e5cadd5d1cbec267c9f32fbf6e7ada750a9c31f36297c7388c62",
+      "title": "PRECIOUS",
+      "source": "https://www.festival-cannes.com/en/f/precious/",
+      "id": 4144,
+      "tmdb_id": 25793,
+      "imdb_id": "tt0929632",
+      "director": "Lee Daniels",
+      "provider_release_date": "2009-11-06",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -8053,6 +8809,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://www.festival-cannes.com/en/f/salvador/",
+      "signature": "820a76ee4238318129769078add4e63efa15f991008042876639e9d0acd379d8",
+      "title": "SALVADOR",
+      "source": "https://www.festival-cannes.com/en/f/salvador/",
+      "id": 4629,
+      "tmdb_id": 1896,
+      "imdb_id": "tt0445691",
+      "director": "Manuel Huerga",
+      "provider_release_date": "2006-05-23",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://www.festival-cannes.com/en/f/samson-and-delilah/",
       "signature": "b95b83d01c5346cdfa077f29dabd29c132be716ee56d4fc0b6f8afe226910b4e",
       "title": "SAMSON AND DELILAH",
@@ -8110,6 +8878,18 @@
       "imdb_id": "tt3993394",
       "director": "Lianto Luseno, Viva Westi, Tonny Trimarsanto, Garin Nugroho",
       "provider_release_date": "2005-03-24",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.festival-cannes.com/en/f/serbis/",
+      "signature": "aa68104ca1e2c7c7530b25881e1b337b6594a9a6ec5399b299ff58a6c1ac586c",
+      "title": "SERBIS",
+      "source": "https://www.festival-cannes.com/en/f/serbis/",
+      "id": 4623,
+      "tmdb_id": 8904,
+      "imdb_id": "tt1225296",
+      "director": "Brillante Ma Mendoza",
+      "provider_release_date": "2008-06-24",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -8269,6 +9049,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://www.festival-cannes.com/en/f/ten-canoes/",
+      "signature": "3fd57e89ac5092721249ab665eab4ea7fc441aba75c620fed01554764e0b3549",
+      "title": "TEN CANOES",
+      "source": "https://www.festival-cannes.com/en/f/ten-canoes/",
+      "id": 4617,
+      "tmdb_id": 14064,
+      "imdb_id": "tt0466399",
+      "director": "Rolf de Heer, Peter Djigirr",
+      "provider_release_date": "2006-06-29",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://www.festival-cannes.com/en/f/the-housemaid/",
       "signature": "73c37e4e838cbb4b218c7104364bcfbaca8097abe64364d15fb7d020ee692854",
       "title": "THE HOUSEMAID",
@@ -8302,6 +9094,18 @@
       "imdb_id": "tt1189008",
       "director": "Jean van de Velde",
       "provider_release_date": "2008-12-11",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.festival-cannes.com/en/f/the-terror-s-advocate/",
+      "signature": "bdfe3885efd4749ace566abec9b5c41d77c1a3559de090187ddc9ff7059f3b1a",
+      "title": "THE TERROR’S ADVOCATE",
+      "source": "https://www.festival-cannes.com/en/f/the-terror-s-advocate/",
+      "id": 4620,
+      "tmdb_id": 22521,
+      "imdb_id": "tt1032854",
+      "director": "Barbet Schroeder",
+      "provider_release_date": "2007-06-06",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -8341,6 +9145,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://www.festival-cannes.com/en/f/ting-che/",
+      "signature": "33478770ab88f62482fe0374e97a162a0fa72a8d3ef9cc7e01d2406823c14188",
+      "title": "TING CHE",
+      "source": "https://www.festival-cannes.com/en/f/ting-che/",
+      "id": 4625,
+      "tmdb_id": 8935,
+      "imdb_id": "tt1232827",
+      "director": "Chung Mong-hong",
+      "provider_release_date": "2008-05-23",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://www.festival-cannes.com/en/f/tokyo-sonata/",
       "signature": "0847d2c61f849e3cc481b1dba10944021a4770e1a8fd65c9c2d4ef55f90a9bba",
       "title": "TOKYO SONATA",
@@ -8377,6 +9193,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://www.festival-cannes.com/en/f/tulpan/",
+      "signature": "edc6d18cc20d3a867ccb659f61585ca9448f3671c601738add4ac96697335b5d",
+      "title": "TULPAN",
+      "source": "https://www.festival-cannes.com/en/f/tulpan/",
+      "id": 4624,
+      "tmdb_id": 8939,
+      "imdb_id": "tt0436854",
+      "director": "Sergei Dvortsevoy",
+      "provider_release_date": "2009-03-04",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://www.festival-cannes.com/en/f/two-lovers/",
       "signature": "058d0276649db8cf1717cce6c1b54d57d9aad4ccae4347c30e5d9646ae715ee9",
       "title": "TWO LOVERS",
@@ -8389,6 +9217,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://www.festival-cannes.com/en/f/two-thirty-7/",
+      "signature": "d27e14ca6b9163737b91760eb8fbc99ed2e1855e1a3f1d8d9f266e0ddb172b42",
+      "title": "TWO THIRTY 7",
+      "source": "https://www.festival-cannes.com/en/f/two-thirty-7/",
+      "id": 4618,
+      "tmdb_id": 2168,
+      "imdb_id": "tt0472582",
+      "director": "Murali K. Thalluri",
+      "provider_release_date": "2006-05-26",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://www.festival-cannes.com/en/f/tyson/",
       "signature": "fefd0bacd53874508470b019975793e641a693e633a21ba62efc11d2743f6f00",
       "title": "TYSON",
@@ -8398,6 +9238,18 @@
       "imdb_id": "tt1032821",
       "director": "James Toback",
       "provider_release_date": "2008-05-16",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.festival-cannes.com/en/f/tzar/",
+      "signature": "1cc326e1959254e263e53bdb3eaa2c3317943d1b60f9087bd8f106bc01ab2ecc",
+      "title": "TZAR",
+      "source": "https://www.festival-cannes.com/en/f/tzar/",
+      "id": 4627,
+      "tmdb_id": 41545,
+      "imdb_id": "tt1424431",
+      "director": "Pavel Lungin",
+      "provider_release_date": "2009-11-04",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -8506,6 +9358,18 @@
       "imdb_id": "tt0497539",
       "director": "Stefan Faldbakken",
       "provider_release_date": "2006-08-25",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.festival-cannes.com/en/f/utomlyonnye-solntsem-2-predstoyanie/",
+      "signature": "3b72ec1a13f7b941bef92d9a8a8da297345df3fa29fb9dff1ca5f2d5531cfcb2",
+      "title": "UTOMLYONNYE SOLNTSEM 2: PREDSTOYANIE",
+      "source": "https://www.festival-cannes.com/en/f/utomlyonnye-solntsem-2-predstoyanie/",
+      "id": 4632,
+      "tmdb_id": 38318,
+      "imdb_id": "tt0403645",
+      "director": "Nikita Mikhalkov",
+      "provider_release_date": "2010-04-22",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -8833,6 +9697,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "Oscars/2006/Match Point",
+      "signature": "ae0756f44f28c47399c6889c7d75148bb43ba3ecf5249f355d5100bfeb24e7f0",
+      "title": "Match Point",
+      "source": "https://www.oscars.org/oscars/ceremonies/2006",
+      "id": 775,
+      "tmdb_id": 116,
+      "imdb_id": "tt0416320",
+      "director": "Woody Allen",
+      "provider_release_date": "2005-10-26",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "Oscars/2006/Mrs. Henderson Presents",
       "signature": "b4eff6821164c74720cb3c1a7f7ef72d602fa34302c865e203747060628724f4",
       "title": "Mrs. Henderson Presents",
@@ -9049,6 +9925,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "Oscars/2007/Babel",
+      "signature": "fabc8000970189d335171e1f464e01db465465f64b4e06dae5e5584a535c9e55",
+      "title": "Babel",
+      "source": "https://www.oscars.org/oscars/ceremonies/2007",
+      "id": 768,
+      "tmdb_id": 1164,
+      "imdb_id": "tt0449467",
+      "director": "Alejandro G. Iñárritu",
+      "provider_release_date": "2006-10-26",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "Oscars/2007/Blood Diamond",
       "signature": "c8862aa6d676474a83bb418fa14f98fa1484b27efffabd5cd563a419420a303a",
       "title": "Blood Diamond",
@@ -9094,6 +9982,18 @@
       "imdb_id": "tt0206634",
       "director": "Alfonso Cuarón",
       "provider_release_date": "2006-09-22",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "Oscars/2007/Days of Glory (Indigènes)",
+      "signature": "50ab48a7f4cd5a8f14b3590bbd28261fad4c8d022dcb3b23a360e14d0a51f205",
+      "title": "Days of Glory (Indigènes)",
+      "source": "https://www.oscars.org/oscars/ceremonies/2007",
+      "id": 4221,
+      "tmdb_id": 2016,
+      "imdb_id": "tt0444182",
+      "director": "Rachid Bouchareb",
+      "provider_release_date": "2006-09-27",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -9358,6 +10258,18 @@
       "imdb_id": "tt0441909",
       "director": "Pedro Almodóvar",
       "provider_release_date": "2006-03-17",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "Oscars/2007/Water",
+      "signature": "99b6d98e70c458b00e5827cb4e2fa8f6cadde8d36c2f0f3e42e8aff3ce6a4561",
+      "title": "Water",
+      "source": "https://www.oscars.org/oscars/ceremonies/2007",
+      "id": 4610,
+      "tmdb_id": 7509,
+      "imdb_id": "tt0240200",
+      "director": "Deepa Mehta",
+      "provider_release_date": "2005-11-04",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -9973,6 +10885,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "Oscars/2009/The Class",
+      "signature": "69ced5284bf2dcc4ad9a4cf5b566d68eb0c3f0cdd3ff93b0c9512350c8e464bd",
+      "title": "The Class",
+      "source": "https://www.oscars.org/oscars/ceremonies/2009",
+      "id": 4289,
+      "tmdb_id": 8841,
+      "imdb_id": "tt1068646",
+      "director": "Laurent Cantet",
+      "provider_release_date": "2008-09-24",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "Oscars/2009/The Curious Case of Benjamin Button",
       "signature": "b610cf7179ecd44ad10db093b3571f624ee8dbf2eb2a30ab9cb3fc1c49f83d38",
       "title": "The Curious Case of Benjamin Button",
@@ -10177,6 +11101,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "Oscars/2010/Burma VJ",
+      "signature": "2ae6d64ee4f12cf63bf05edf75a0119dcb7255fe87e70ab3a2f097f1b24f08c8",
+      "title": "Burma VJ",
+      "source": "https://www.oscars.org/oscars/ceremonies/2010",
+      "id": 4612,
+      "tmdb_id": 26763,
+      "imdb_id": "tt1333634",
+      "director": "Anders Østergaard",
+      "provider_release_date": "2008-11-12",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "Oscars/2010/Coraline",
       "signature": "fd40083748a2821b58f57d80094434f04d149380d95d343789bb8f0cc4cbb881",
       "title": "Coraline",
@@ -10285,6 +11221,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "Oscars/2010/Nine",
+      "signature": "38114216a8903bb45f24b67a384c81e49e584d39c39d94effce12044e3b82720",
+      "title": "Nine",
+      "source": "https://www.oscars.org/oscars/ceremonies/2010",
+      "id": 4611,
+      "tmdb_id": 10197,
+      "imdb_id": "tt0875034",
+      "director": "Rob Marshall",
+      "provider_release_date": "2009-12-03",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "Oscars/2010/Precious: Based on the Novel 'Push' by Sapphire",
       "signature": "f2eaf8b267340efa0918e6f8c97a2573b59bca580279fc223630e4334fe9792e",
       "title": "Precious: Based on the Novel 'Push' by Sapphire",
@@ -10378,6 +11326,18 @@
       "imdb_id": "tt1206488",
       "director": "Claudia Llosa",
       "provider_release_date": "2009-02-13",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "Oscars/2010/The Most Dangerous Man in America: Daniel Ellsberg and the Pentagon Papers",
+      "signature": "e952ee53cb67d3d38d55a332478224f120aaaffd0e5214694fe3925898bd6857",
+      "title": "The Most Dangerous Man in America: Daniel Ellsberg and the Pentagon Papers",
+      "source": "https://www.oscars.org/oscars/ceremonies/2010",
+      "id": 4613,
+      "tmdb_id": 34576,
+      "imdb_id": "tt1319726",
+      "director": "Judith Ehrlich, Rick Goldsmith",
+      "provider_release_date": "2009-10-16",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -16951,140 +17911,851 @@
       "original_title": "The Killer Inside Me",
       "original_language": "en",
       "alternate_titles": []
+    },
+    {
+      "id": 4610,
+      "title": "Water",
+      "director": "Deepa Mehta",
+      "year": 2005,
+      "tmdb_id": 7509,
+      "imdb_id": "tt0240200",
+      "original_title": "Water",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 4611,
+      "title": "Nine",
+      "director": "Rob Marshall",
+      "year": 2009,
+      "tmdb_id": 10197,
+      "imdb_id": "tt0875034",
+      "original_title": "Nine",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 4612,
+      "title": "Burma VJ: Reporting from a Closed Country",
+      "director": "Anders Østergaard",
+      "year": 2008,
+      "tmdb_id": 26763,
+      "imdb_id": "tt1333634",
+      "original_title": "Burma VJ: Reporter i et lukket land",
+      "original_language": "en",
+      "alternate_titles": [
+        "Burma VJ"
+      ]
+    },
+    {
+      "id": 4613,
+      "title": "The Most Dangerous Man in America",
+      "director": "Judith Ehrlich, Rick Goldsmith",
+      "year": 2009,
+      "tmdb_id": 34576,
+      "imdb_id": "tt1319726",
+      "original_title": "The Most Dangerous Man in America",
+      "original_language": "en",
+      "alternate_titles": [
+        "The Most Dangerous Man in America: Daniel Ellsberg and the Pentagon Papers"
+      ]
+    },
+    {
+      "id": 4614,
+      "title": "To Get to Heaven First, You Have to Die",
+      "director": "Jamshed Usmonov",
+      "year": 2006,
+      "tmdb_id": 120393,
+      "imdb_id": "tt0792988",
+      "original_title": "Bihisht faqat baroi murdagon",
+      "original_language": "tg",
+      "alternate_titles": []
+    },
+    {
+      "id": 4615,
+      "title": "Chronicle of an Escape",
+      "director": "Adrián Caetano",
+      "year": 2006,
+      "tmdb_id": 25532,
+      "imdb_id": "tt0479354",
+      "original_title": "Crónica de una fuga",
+      "original_language": "es",
+      "alternate_titles": [
+        "BUENOS AIRES, 1977 (CRÓNICA DE UNA FUGA)",
+        "Buenos Aires,1977"
+      ]
+    },
+    {
+      "id": 4616,
+      "title": "Re-cycle",
+      "director": "Oxide Pang Chun, Danny Pang Phat",
+      "year": 2006,
+      "tmdb_id": 13402,
+      "imdb_id": "tt0498311",
+      "original_title": "鬼域",
+      "original_language": "cn",
+      "alternate_titles": [
+        "GWAÏ WIK"
+      ]
+    },
+    {
+      "id": 4617,
+      "title": "Ten Canoes",
+      "director": "Rolf de Heer, Peter Djigirr",
+      "year": 2006,
+      "tmdb_id": 14064,
+      "imdb_id": "tt0466399",
+      "original_title": "Ten Canoes",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 4618,
+      "title": "2:37",
+      "director": "Murali K. Thalluri",
+      "year": 2006,
+      "tmdb_id": 2168,
+      "imdb_id": "tt0472582",
+      "original_title": "2:37",
+      "original_language": "en",
+      "alternate_titles": [
+        "TWO THIRTY 7"
+      ]
+    },
+    {
+      "id": 4619,
+      "title": "The Pope's Toilet",
+      "director": "César Charlone, Enrique Fernández",
+      "year": 2007,
+      "tmdb_id": 8267,
+      "imdb_id": "tt0482901",
+      "original_title": "El baño del Papa",
+      "original_language": "es",
+      "alternate_titles": []
+    },
+    {
+      "id": 4620,
+      "title": "Terror's Advocate",
+      "director": "Barbet Schroeder",
+      "year": 2007,
+      "tmdb_id": 22521,
+      "imdb_id": "tt1032854",
+      "original_title": "L'avocat de la terreur",
+      "original_language": "fr",
+      "alternate_titles": [
+        "THE TERROR’S ADVOCATE"
+      ]
+    },
+    {
+      "id": 4621,
+      "title": "24 City",
+      "director": "Jia Zhangke",
+      "year": 2008,
+      "tmdb_id": 29972,
+      "imdb_id": "tt1103963",
+      "original_title": "二十四城记",
+      "original_language": "zh",
+      "alternate_titles": [
+        "ER SHI SI CHENG JI"
+      ]
+    },
+    {
+      "id": 4622,
+      "title": "My Magic",
+      "director": "Eric Khoo",
+      "year": 2008,
+      "tmdb_id": 8903,
+      "imdb_id": "tt1233329",
+      "original_title": "My Magic",
+      "original_language": "ta",
+      "alternate_titles": []
+    },
+    {
+      "id": 4623,
+      "title": "Serbis",
+      "director": "Brillante Ma Mendoza",
+      "year": 2008,
+      "tmdb_id": 8904,
+      "imdb_id": "tt1225296",
+      "original_title": "Serbis",
+      "original_language": "tl",
+      "alternate_titles": [
+        "Service"
+      ]
+    },
+    {
+      "id": 4624,
+      "title": "Tulpan",
+      "director": "Sergei Dvortsevoy",
+      "year": 2008,
+      "tmdb_id": 8939,
+      "imdb_id": "tt0436854",
+      "original_title": "Тюльпан",
+      "original_language": "kk",
+      "alternate_titles": []
+    },
+    {
+      "id": 4625,
+      "title": "Parking",
+      "director": "Chung Mong-hong",
+      "year": 2008,
+      "tmdb_id": 8935,
+      "imdb_id": "tt1232827",
+      "original_title": "停車",
+      "original_language": "zh",
+      "alternate_titles": [
+        "TING CHE"
+      ]
+    },
+    {
+      "id": 4626,
+      "title": "Butchered",
+      "director": "Brillante Ma Mendoza",
+      "year": 2009,
+      "tmdb_id": 64450,
+      "imdb_id": "tt1423592",
+      "original_title": "Kinatay",
+      "original_language": "tl",
+      "alternate_titles": []
+    },
+    {
+      "id": 4627,
+      "title": "Tsar",
+      "director": "Pavel Lungin",
+      "year": 2009,
+      "tmdb_id": 41545,
+      "imdb_id": "tt1424431",
+      "original_title": "Царь",
+      "original_language": "ru",
+      "alternate_titles": [
+        "TZAR"
+      ]
+    },
+    {
+      "id": 4628,
+      "title": "October",
+      "director": "Daniel Vega Vidal, Diego Vega Vidal",
+      "year": 2010,
+      "tmdb_id": 52322,
+      "imdb_id": "tt1646118",
+      "original_title": "Octubre",
+      "original_language": "es",
+      "alternate_titles": []
+    },
+    {
+      "id": 4629,
+      "title": "Salvador (Puig Antich)",
+      "director": "Manuel Huerga",
+      "year": 2006,
+      "tmdb_id": 1896,
+      "imdb_id": "tt0445691",
+      "original_title": "Salvador (Puig Antich)",
+      "original_language": "ca",
+      "alternate_titles": [
+        "SALVADOR"
+      ]
+    },
+    {
+      "id": 4630,
+      "title": "Alexandra",
+      "director": "Aleksandr Sokurov",
+      "year": 2007,
+      "tmdb_id": 17479,
+      "imdb_id": "tt1034427",
+      "original_title": "Александра",
+      "original_language": "ru",
+      "alternate_titles": []
+    },
+    {
+      "id": 4631,
+      "title": "Euphoria",
+      "director": "Ivan Vyrypaev",
+      "year": 2005,
+      "tmdb_id": 72891,
+      "imdb_id": "tt0847877",
+      "original_title": "Эйфория",
+      "original_language": "ru",
+      "alternate_titles": [
+        "Eyforiya",
+        "Ejforija"
+      ]
+    },
+    {
+      "id": 4632,
+      "title": "Burnt by the Sun 2: Exodus",
+      "director": "Nikita Mikhalkov",
+      "year": 2010,
+      "tmdb_id": 38318,
+      "imdb_id": "tt0403645",
+      "original_title": "Утомлённые солнцем 2: Предстояние",
+      "original_language": "ru",
+      "alternate_titles": [
+        "UTOMLYONNYE SOLNTSEM 2: PREDSTOYANIE",
+        "THE EXODUS - BURNT BY THE SUN 2",
+        "Burnt by the Sun 2",
+        "Utomlennye solntsem 2: Predstoyanie"
+      ]
+    },
+    {
+      "id": 4633,
+      "title": "Syndromes and a Century",
+      "director": "Apichatpong Weerasethakul",
+      "year": 2006,
+      "tmdb_id": 27904,
+      "imdb_id": "tt0477731",
+      "original_title": "แสงศตวรรษ",
+      "original_language": "th",
+      "alternate_titles": [
+        "Sang sattawat"
+      ]
+    },
+    {
+      "id": 4634,
+      "title": "Falling",
+      "director": "Barbara Albert",
+      "year": 2006,
+      "tmdb_id": 79072,
+      "imdb_id": "tt0832347",
+      "original_title": "Fallen",
+      "original_language": "de",
+      "alternate_titles": []
+    },
+    {
+      "id": 4635,
+      "title": "Bellissime 2",
+      "director": "Giovanna Gagliardo",
+      "year": 2006,
+      "tmdb_id": 553126,
+      "imdb_id": "tt1549828",
+      "original_title": "Bellissime 2",
+      "original_language": "it",
+      "alternate_titles": [
+        "Bellissime seconda parte. Dal 1960 ad oggi dalla parte di \"lei\"",
+        "Simply Beautiful - Part Two. Since 1960 till Today on HER Side"
+      ]
+    },
+    {
+      "id": 4636,
+      "title": "Courthouse on Horseback",
+      "director": "Liu Jie",
+      "year": 2006,
+      "tmdb_id": 83267,
+      "imdb_id": "tt1064775",
+      "original_title": "马背上的法庭",
+      "original_language": "zh",
+      "alternate_titles": [
+        "Mabei shang de fating",
+        "Courthouse on the Horseback",
+        "Ma bei shang de fa ting"
+      ]
+    },
+    {
+      "id": 4637,
+      "title": "Quijote",
+      "director": "Mimmo Paladino",
+      "year": 2006,
+      "tmdb_id": 97476,
+      "imdb_id": "tt1018924",
+      "original_title": "Quijote",
+      "original_language": "it",
+      "alternate_titles": []
+    },
+    {
+      "id": 4638,
+      "title": "Tachigui: The Amazing Lives of the Fast Food Grifters",
+      "director": "Mamoru Oshii",
+      "year": 2006,
+      "tmdb_id": 39267,
+      "imdb_id": "tt0480586",
+      "original_title": "立喰師列伝",
+      "original_language": "ja",
+      "alternate_titles": [
+        "Tachiguishi retsuden",
+        "Tachiguishi",
+        "Tachiguishi-Retsuden"
+      ]
+    },
+    {
+      "id": 4639,
+      "title": "When the Levees Broke: A Requiem in Four Acts",
+      "director": "Spike Lee",
+      "year": 2006,
+      "tmdb_id": null,
+      "tmdb_tv_id": 16468,
+      "imdb_id": "tt0783612",
+      "identity_status": "reviewed_complete_film_tv_provider",
+      "identity_scope": "complete-film",
+      "identity_sources": [
+        "https://asac.labiennale.org/attivita/cinema/11292",
+        "https://www.moma.org/calendar/events/10759",
+        "https://www.imdb.com/title/tt0783612/releaseinfo/",
+        "https://jephmann.com/movies/tv.php?id=16468"
+      ],
+      "original_title": "When the Levees Broke: A Requiem in Four Acts",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 4640,
+      "title": "Rain Dogs",
+      "director": "Ho Yuhang",
+      "year": 2006,
+      "tmdb_id": 102347,
+      "imdb_id": "tt0851579",
+      "original_title": "太陽雨",
+      "original_language": "cn",
+      "alternate_titles": [
+        "Tai yang yue",
+        "Taiyang yu"
+      ]
+    },
+    {
+      "id": 4641,
+      "title": "Help Me, Eros",
+      "director": "Lee Kang-sheng",
+      "year": 2007,
+      "tmdb_id": 54326,
+      "imdb_id": "tt1076251",
+      "original_title": "帮帮我,爱神",
+      "original_language": "zh",
+      "alternate_titles": [
+        "Bangbang wo aishen"
+      ]
+    },
+    {
+      "id": 4642,
+      "title": "Don't Make Any Plans for Tonight",
+      "director": "Gianluca Maria Tavarelli",
+      "year": 2005,
+      "tmdb_id": 106999,
+      "imdb_id": "tt0874959",
+      "original_title": "Non prendere impegni stasera",
+      "original_language": "it",
+      "alternate_titles": []
+    },
+    {
+      "id": 4643,
+      "title": "California Dreamin'",
+      "director": "Cristian Nemescu",
+      "year": 2007,
+      "tmdb_id": 24220,
+      "imdb_id": "tt0449573",
+      "original_title": "Nesfârșit",
+      "original_language": "ro",
+      "alternate_titles": [
+        "CALIFORNIA DREAMIN’ (NESFARSIT)",
+        "CALIFORNIA DREAMIN' (ENDLESS)"
+      ]
+    },
+    {
+      "id": 4644,
+      "title": "I Am the One Who Brings Flowers to Her Grave",
+      "director": "Hala Alabdalla, Ammar al-Beik",
+      "year": 2006,
+      "tmdb_id": 644365,
+      "imdb_id": "tt0921777",
+      "original_title": "أنا التي تحمل الزهور إلى قبرها",
+      "original_language": "ar",
+      "alternate_titles": [
+        "Ana alati tahmol azouhour ila qabriha",
+        "I Am the One Who Brings Flowers to Her own Grave",
+        "I Am the One Who Carries Flowers to Her Grave"
+      ]
+    },
+    {
+      "id": 4645,
+      "title": "With a Girl of Black Soil",
+      "director": "Jeon Soo-il",
+      "year": 2007,
+      "tmdb_id": 26859,
+      "imdb_id": "tt1094635",
+      "original_title": "검은 땅의 소녀와",
+      "original_language": "ko",
+      "alternate_titles": [
+        "Geomen tangyi sonyeo oi",
+        "With the Girl of Black Soil"
+      ]
+    },
+    {
+      "id": 4646,
+      "title": "Death in the Land of Encantos",
+      "director": "Lav Diaz",
+      "year": 2007,
+      "tmdb_id": 167710,
+      "imdb_id": "tt1094643",
+      "original_title": "Kagadanan sa Banwaan Ning mga Engkanto",
+      "original_language": "tl",
+      "alternate_titles": []
+    },
+    {
+      "id": 4647,
+      "title": "Umbrella",
+      "director": "Du Haibin",
+      "year": 2007,
+      "tmdb_id": 291135,
+      "imdb_id": "tt1094655",
+      "original_title": "伞",
+      "original_language": "zh",
+      "alternate_titles": [
+        "San"
+      ]
+    },
+    {
+      "id": 4648,
+      "title": "Achilles and the Tortoise",
+      "director": "Takeshi Kitano",
+      "year": 2008,
+      "tmdb_id": 12166,
+      "imdb_id": "tt1217243",
+      "original_title": "アキレスと亀",
+      "original_language": "ja",
+      "alternate_titles": [
+        "Akires to kame",
+        "Akiresu to kame"
+      ]
+    },
+    {
+      "id": 4649,
+      "title": "The Other One",
+      "director": "Patrick Mario Bernard, Pierre Trividic",
+      "year": 2008,
+      "tmdb_id": 12425,
+      "imdb_id": "tt1171704",
+      "original_title": "L'Autre",
+      "original_language": "fr",
+      "alternate_titles": []
+    },
+    {
+      "id": 4650,
+      "title": "The Secret of the Grain",
+      "director": "Abdellatif Kechiche",
+      "year": 2007,
+      "tmdb_id": 8280,
+      "imdb_id": "tt0487419",
+      "original_title": "La Graine et le Mulet",
+      "original_language": "fr",
+      "alternate_titles": [
+        "Grain and Mullet",
+        "Couscous"
+      ]
+    },
+    {
+      "id": 4651,
+      "title": "Sex My Life",
+      "director": "Bahman Motamedian",
+      "year": 2008,
+      "tmdb_id": 461640,
+      "imdb_id": "tt1284579",
+      "original_title": "Khastegi",
+      "original_language": "fa",
+      "alternate_titles": [
+        "Khastegi (Tedium)",
+        "Tedium"
+      ]
+    },
+    {
+      "id": 4652,
+      "title": "Grandmother",
+      "director": "Brillante Ma Mendoza",
+      "year": 2009,
+      "tmdb_id": 72985,
+      "imdb_id": "tt1496792",
+      "original_title": "Lola",
+      "original_language": "tl",
+      "alternate_titles": []
+    },
+    {
+      "id": 4653,
+      "title": "Accident",
+      "director": "Soi Cheang",
+      "year": 2009,
+      "tmdb_id": 25474,
+      "imdb_id": "tt1202514",
+      "original_title": "意外",
+      "original_language": "cn",
+      "alternate_titles": [
+        "Yi ngoi"
+      ]
+    },
+    {
+      "id": 4654,
+      "title": "Women Without Men",
+      "director": "Shoja Azari, Shirin Neshat",
+      "year": 2009,
+      "tmdb_id": 44159,
+      "imdb_id": "tt1498887",
+      "original_title": "زنان بدون مردان",
+      "original_language": "fa",
+      "alternate_titles": [
+        "Zanan-e-bedun-e mardan",
+        "Zanan bedoone mardan"
+      ]
+    },
+    {
+      "id": 4655,
+      "title": "Cow",
+      "director": "Guan Hu",
+      "year": 2009,
+      "tmdb_id": 44714,
+      "imdb_id": "tt1500703",
+      "original_title": "斗牛",
+      "original_language": "zh",
+      "alternate_titles": [
+        "Dou Niu"
+      ]
+    },
+    {
+      "id": 4656,
+      "title": "Because We Were Born",
+      "director": "Jean-Pierre Duret, Andrea Santana",
+      "year": 2008,
+      "tmdb_id": 79766,
+      "imdb_id": "tt1270680",
+      "original_title": "Puisque nous sommes nés",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 4657,
+      "title": "Totò",
+      "director": "Peter Schreiner",
+      "year": 2009,
+      "tmdb_id": 373574,
+      "imdb_id": "tt1499697",
+      "original_title": "Totò",
+      "original_language": "de",
+      "alternate_titles": []
+    },
+    {
+      "id": 4658,
+      "title": "Chaos, This Is?",
+      "director": "Youssef Chahine, Khaled Youssef",
+      "year": 2007,
+      "tmdb_id": 163660,
+      "imdb_id": "tt1085799",
+      "original_title": "هي فوضى..؟",
+      "original_language": "ar",
+      "alternate_titles": [
+        "Heya fawda",
+        "Chaos"
+      ]
+    },
+    {
+      "id": 4659,
+      "title": "Villalobos",
+      "director": "Romuald Karmakar",
+      "year": null,
+      "tmdb_id": 29956,
+      "imdb_id": "tt1500762",
+      "original_title": "Villalobos",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 4660,
+      "title": "Once Upon a Time Proletarian",
+      "director": "Xiaolu Guo",
+      "year": 2009,
+      "tmdb_id": 462891,
+      "imdb_id": "tt1485046",
+      "original_title": "曾经的无产者",
+      "original_language": "zh",
+      "alternate_titles": [
+        "Women ceng jing de wuchanzhe",
+        "Women Cengjing de Wuchanzhe",
+        "Once upon a time proletarian : 12 tales of a Country",
+        "Once Upon a Time Proletarian: 12 Tales of a Country"
+      ]
+    },
+    {
+      "id": 4661,
+      "title": "The Ditch",
+      "director": "Wang Bing",
+      "year": 2010,
+      "tmdb_id": 91067,
+      "imdb_id": "tt1723112",
+      "original_title": "夹边沟",
+      "original_language": "zh",
+      "alternate_titles": [
+        "Le Fossé"
+      ]
+    },
+    {
+      "id": 4662,
+      "title": "The Sun Also Rises",
+      "director": "Jiang Wen",
+      "year": 2007,
+      "tmdb_id": 51885,
+      "imdb_id": "tt0769507",
+      "original_title": "太阳照常升起",
+      "original_language": "zh",
+      "alternate_titles": [
+        "Tai yang zhao chang sheng qi",
+        "Taiyang zhao hang shengqi"
+      ]
+    },
+    {
+      "id": 4663,
+      "title": "Dharma Guns",
+      "director": "F.J. Ossang",
+      "year": 2010,
+      "tmdb_id": 103443,
+      "imdb_id": "tt1847577",
+      "original_title": "Dharma Guns (La Succession Starkov)",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 4664,
+      "title": "Bets & Wedding Dresses",
+      "director": "Vincenzo Terracciano",
+      "year": 2009,
+      "tmdb_id": 41181,
+      "imdb_id": "tt1295083",
+      "original_title": "Tris di donne e abiti nuziali",
+      "original_language": "it",
+      "alternate_titles": [
+        "Tris di donne & abiti nuziali"
+      ]
+    },
+    {
+      "id": 4665,
+      "title": "We Were Communists",
+      "director": "Maher Abi Samra",
+      "year": 2010,
+      "tmdb_id": 584944,
+      "imdb_id": "tt1847690",
+      "original_title": "شيوعيين كنّا",
+      "original_language": "ar",
+      "alternate_titles": [
+        "Sheoeyin kenna",
+        "We Were Communist",
+        "When We Were Communists",
+        "Nous étions communistes"
+      ]
+    },
+    {
+      "id": 4666,
+      "title": "Isabella",
+      "director": "Edmond Pang Ho-cheung",
+      "year": 2006,
+      "tmdb_id": 40977,
+      "imdb_id": "tt0499141",
+      "original_title": "伊莎貝拉",
+      "original_language": "cn",
+      "alternate_titles": []
+    },
+    {
+      "id": 4667,
+      "title": "Judge",
+      "director": "Liu Jie",
+      "year": 2009,
+      "tmdb_id": 57322,
+      "imdb_id": "tt1499698",
+      "original_title": "透析",
+      "original_language": "zh",
+      "alternate_titles": [
+        "Touxi"
+      ]
+    },
+    {
+      "id": 4668,
+      "title": "Restless",
+      "director": "Amos Kollek",
+      "year": 2007,
+      "tmdb_id": 16705,
+      "imdb_id": "tt1075644",
+      "original_title": "חסר מנוחה",
+      "original_language": "he",
+      "alternate_titles": []
+    },
+    {
+      "id": 4669,
+      "title": "Storm",
+      "director": "Hans-Christian Schmid",
+      "year": 2009,
+      "tmdb_id": 35619,
+      "imdb_id": "tt0768239",
+      "original_title": "Storm",
+      "original_language": "en",
+      "alternate_titles": [
+        "Sturm"
+      ]
+    },
+    {
+      "id": 4670,
+      "title": "How I Ended This Summer",
+      "director": "Alexey Popogrebsky",
+      "year": 2010,
+      "tmdb_id": 38325,
+      "imdb_id": "tt1588875",
+      "original_title": "Как я провёл этим летом",
+      "original_language": "ru",
+      "alternate_titles": [
+        "Kak ya provel etim letom"
+      ]
+    },
+    {
+      "id": 4671,
+      "title": "Zelal",
+      "director": "Mustapha Hasnaoui, Marianne Khoury",
+      "year": 2010,
+      "tmdb_id": 300576,
+      "imdb_id": "tt2754544",
+      "original_title": "ظلال",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 4672,
+      "title": "Angel",
+      "director": "François Ozon",
+      "year": 2007,
+      "tmdb_id": 11801,
+      "imdb_id": "tt0783767",
+      "original_title": "Angel",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 4673,
+      "title": "News from Nowhere",
+      "director": "Paul Morrissey",
+      "year": 2010,
+      "tmdb_id": 340365,
+      "imdb_id": "tt2354274",
+      "original_title": "News from Nowhere",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 4674,
+      "title": "Crush",
+      "director": "Kirill Serebrennikov, Pyotr Buslov, Boris Khlebnikov, Ivan Vyrypaev, Aleksei German Jr.",
+      "year": 2009,
+      "tmdb_id": 70137,
+      "imdb_id": "tt1437224",
+      "original_title": "Короткое замыкание",
+      "original_language": "ru",
+      "alternate_titles": [
+        "Korotkoye zamykanie",
+        "Korotkoe zamykanie",
+        "Short Circuit"
+      ]
+    },
+    {
+      "id": 4675,
+      "title": "Mammuth",
+      "director": "Gustave Kervern, Benoît Delépine",
+      "year": 2010,
+      "tmdb_id": 37832,
+      "imdb_id": "tt1473074",
+      "original_title": "Mammuth",
+      "original_language": "fr",
+      "alternate_titles": []
     }
   ],
   "unresolved": [
-    {
-      "key": "BAFTA/2009/Hunger",
-      "event": "BAFTA",
-      "year": 2009,
-      "title": "Hunger",
-      "source": "https://www.bafta.org/awards/film/?award-year=2009",
-      "anchors": [],
-      "category_names": [
-        "Outstanding British Film"
-      ],
-      "reason": "Expected one title/year/credit match; found 2; candidates [{\"tmdb_id\":10360,\"title\":\"Hunger\",\"year\":\"2008-05-15\",\"director\":\"Steve McQueen\"},{\"tmdb_id\":173672,\"title\":\"Hunger\",\"year\":\"2009-05-12\",\"director\":\"Steven Hentges\"}]"
-    },
-    {
-      "key": "Golden Globes/2007/Babel",
-      "event": "Golden Globes",
-      "year": 2007,
-      "title": "Babel",
-      "source": "https://goldenglobes.com/winners-nominees/?year=2007",
-      "anchors": [
-        {
-          "person": "Rinko Kikuchi"
-        },
-        {
-          "person": "Adriana Barraza"
-        },
-        {
-          "person": "Brad Pitt"
-        },
-        {
-          "person": "Alejandro González Iñárritu",
-          "director": true
-        }
-      ],
-      "category_names": [
-        "Best Motion Picture - Drama",
-        "Best Performance by a Female Actor in a Supporting Role in any Motion Picture",
-        "Best Performance by a Female Actor in a Supporting Role in any Motion Picture",
-        "Best Performance by a Male Actor in a Supporting Role in any Motion Picture",
-        "Best Director - Motion Picture",
-        "Best Screenplay - Motion Picture"
-      ],
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":1164,\"title\":\"Babel\",\"year\":\"2006-10-26\",\"director\":\"Alejandro G. Iñárritu\"}]"
-    },
-    {
-      "key": "Golden Globes/2007/Dreamgirls",
-      "event": "Golden Globes",
-      "year": 2007,
-      "title": "Dreamgirls",
-      "source": "https://goldenglobes.com/winners-nominees/?year=2007",
-      "anchors": [
-        {
-          "person": "Beyoncé Knowles"
-        },
-        {
-          "person": "Jennifer Hudson"
-        },
-        {
-          "person": "Eddie Murphy"
-        }
-      ],
-      "category_names": [
-        "Best Motion Picture - Musical or Comedy",
-        "Best Performance by a Female Actor in a Motion Picture – Musical or Comedy",
-        "Best Performance by a Female Actor in a Supporting Role in any Motion Picture",
-        "Best Performance by a Male Actor in a Supporting Role in any Motion Picture"
-      ],
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":1125,\"title\":\"Dreamgirls\",\"year\":\"2006-12-25\",\"director\":\"Bill Condon\"}]"
-    },
-    {
-      "key": "Golden Globes/2010/Nine",
-      "event": "Golden Globes",
-      "year": 2010,
-      "title": "Nine",
-      "source": "https://goldenglobes.com/winners-nominees/?year=2010",
-      "anchors": [
-        {
-          "person": "Marion Cotillard"
-        },
-        {
-          "person": "Daniel Day-Lewis"
-        },
-        {
-          "person": "Penélope Cruz"
-        }
-      ],
-      "category_names": [
-        "Best Motion Picture - Musical or Comedy",
-        "Best Performance by a Female Actor in a Motion Picture – Musical or Comedy",
-        "Best Performance by a Male Actor in a Motion Picture – Musical or Comedy",
-        "Best Performance by a Female Actor in a Supporting Role in any Motion Picture"
-      ],
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/112266",
-      "event": "Venice",
-      "year": 2008,
-      "title": "L'autre",
-      "aliases": [],
-      "director": "Pierre Trividic, Patrick-Mario Bernard",
-      "runtime": 97,
-      "source": "https://asac.labiennale.org/attivita/cinema/112266",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/112271",
-      "event": "Venice",
-      "year": 2008,
-      "title": "Bumazhnyy soldat",
-      "aliases": [
-        "Bumažnyj soldat"
-      ],
-      "director": "Aleksei German Jr.",
-      "runtime": 116,
-      "source": "https://asac.labiennale.org/attivita/cinema/112271",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/112301",
-      "event": "Venice",
-      "year": 2008,
-      "title": "Akires to kame",
-      "aliases": [],
-      "director": "Takeshi Kitano",
-      "runtime": 119,
-      "source": "https://asac.labiennale.org/attivita/cinema/112301",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
     {
       "key": "https://asac.labiennale.org/attivita/cinema/112376",
       "event": "Venice",
@@ -17095,50 +18766,7 @@
       "runtime": 78,
       "source": "https://asac.labiennale.org/attivita/cinema/112376",
       "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":396142,\"title\":\"In Paraguay\",\"year\":\"2008-09-01\",\"director\":\"Ross McElwee, Marilyn Levine\"}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/112415",
-      "event": "Venice",
-      "year": 2008,
-      "title": "Puisque nous sommes nes",
-      "aliases": [
-        "Because We Were Born"
-      ],
-      "director": "Andrea Santana",
-      "runtime": 90,
-      "source": "https://asac.labiennale.org/attivita/cinema/112415",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":79766,\"title\":\"Because We Were Born\",\"year\":\"2009-02-04\",\"director\":\"Jean-Pierre Duret, Andrea Santana\"}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/11270",
-      "event": "Venice",
-      "year": 2006,
-      "title": "Ana alati tahmol azouhour ila qabriha",
-      "aliases": [
-        "I Am the One Who Brings Flowers to Her own Grave"
-      ],
-      "director": "Ammar Al Beik, Hala Alabdalla Yakoub",
-      "runtime": 110,
-      "source": "https://asac.labiennale.org/attivita/cinema/11270",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/11271",
-      "event": "Venice",
-      "year": 2006,
-      "title": "Bellissime 2",
-      "aliases": [
-        "Bellissime seconda parte. Dal 1960 ad oggi dalla parte di \"lei\"",
-        "Simply Beautiful - Part Two. Since 1960 till Today on HER Side"
-      ],
-      "director": "Giovanna Gagliardo",
-      "runtime": 180,
-      "source": "https://asac.labiennale.org/attivita/cinema/11271",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":553126,\"title\":\"Bellissime 2\",\"year\":\"2006-10-18\",\"director\":\"Giovanna Gagliardo\"}]"
+      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":396142,\"title\":\"In Paraguay\",\"year\":\"2008-09-01\",\"director\":\"Ross McElwee, Marilyn Levine\",\"runtime\":78,\"imdb_id\":\"tt1270651\",\"genres\":[\"Documentary\"]}]"
     },
     {
       "key": "https://asac.labiennale.org/attivita/cinema/11275",
@@ -17153,209 +18781,7 @@
       "runtime": 145,
       "source": "https://asac.labiennale.org/attivita/cinema/11275",
       "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":299541,\"title\":\"Heimat Fragments: The Women\",\"year\":\"2006-10-28\",\"director\":\"Edgar Reitz, Christian Reitz\"}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/11280",
-      "event": "Venice",
-      "year": 2006,
-      "title": "Mabei shang de fating",
-      "aliases": [
-        "Courthouse on the Horseback"
-      ],
-      "director": "Liu (III) Jie",
-      "runtime": 105,
-      "source": "https://asac.labiennale.org/attivita/cinema/11280",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/11281",
-      "event": "Venice",
-      "year": 2005,
-      "title": "Non prendere impegni stasera",
-      "aliases": [
-        "Don't Make Any Plans for Tonight"
-      ],
-      "director": "Gianluca Maria Tavarelli",
-      "runtime": 96,
-      "source": "https://asac.labiennale.org/attivita/cinema/11281",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":106999,\"title\":\"Don't Make Any Plans for Tonight\",\"year\":\"2007-06-15\",\"director\":\"Gianluca Maria Tavarelli\"}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/11284",
-      "event": "Venice",
-      "year": 2006,
-      "title": "Quijote",
-      "aliases": [],
-      "director": "Mimmo Paladino",
-      "runtime": 75,
-      "source": "https://asac.labiennale.org/attivita/cinema/11284",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":97476,\"title\":\"Quijote\",\"year\":\"2006-08-30\",\"director\":\"Mimmo Paladino\"}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/11288",
-      "event": "Venice",
-      "year": 2006,
-      "title": "Tachiguishi retsuden",
-      "aliases": [],
-      "director": "Mamoru Oshii",
-      "runtime": 104,
-      "source": "https://asac.labiennale.org/attivita/cinema/11288",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/11289",
-      "event": "Venice",
-      "year": 2006,
-      "title": "Tai yang yue",
-      "aliases": [
-        "Taiyang yu"
-      ],
-      "director": "Yuhang Ho",
-      "runtime": 102,
-      "source": "https://asac.labiennale.org/attivita/cinema/11289",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/11292",
-      "event": "Venice",
-      "year": 2006,
-      "title": "When the Leeves Broke. A Requiem in four Acts",
-      "aliases": [
-        "When the Levees Broke"
-      ],
-      "director": "Spike Lee",
-      "runtime": 255,
-      "source": "https://asac.labiennale.org/attivita/cinema/11292",
-      "festival": true,
-      "reason": "TMDB HTTP 404"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/11338",
-      "event": "Venice",
-      "year": 2005,
-      "title": "Eyforiya",
-      "aliases": [
-        "Ejforija",
-        "Euphoria"
-      ],
-      "director": "Ivan Vyrypayev",
-      "runtime": 75,
-      "source": "https://asac.labiennale.org/attivita/cinema/11338",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":72891,\"title\":\"Euphoria\",\"year\":\"2006-02-11\",\"director\":\"Ivan Vyrypaev\"}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/11339",
-      "event": "Venice",
-      "year": 2006,
-      "title": "Fallen",
-      "aliases": [],
-      "director": "Barbara Albert",
-      "runtime": 85,
-      "source": "https://asac.labiennale.org/attivita/cinema/11339",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":376986,\"title\":\"Fallen\",\"year\":\"2004-11-30\",\"director\":\"Omar Madha\"},{\"tmdb_id\":50126,\"title\":\"Fallen\",\"year\":\"2006-07-23\",\"director\":\"Mikael Salomon\"},{\"tmdb_id\":351047,\"title\":\"Fallen\",\"year\":\"2004-07-22\",\"director\":\"Peter Kaboth\"}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/11350",
-      "event": "Venice",
-      "year": 2006,
-      "title": "Sang sattawat",
-      "aliases": [],
-      "director": "Apichatpong Weerasethakul",
-      "runtime": 105,
-      "source": "https://asac.labiennale.org/attivita/cinema/11350",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/123500",
-      "event": "Venice",
-      "year": 2008,
-      "title": "Khastegi (Tedium)",
-      "aliases": [],
-      "director": "Bahman Mo'tamedian",
-      "runtime": 76,
-      "source": "https://asac.labiennale.org/attivita/cinema/123500",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/179313",
-      "event": "Venice",
-      "year": 2009,
-      "title": "Yi ngoi",
-      "aliases": [
-        "Accident"
-      ],
-      "director": "Pou-Soi Cheang",
-      "runtime": 89,
-      "source": "https://asac.labiennale.org/attivita/cinema/179313",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":25474,\"title\":\"Accident\",\"year\":\"2009-09-24\",\"director\":\"Soi Cheang\"},{\"tmdb_id\":282539,\"title\":\"Accident\",\"year\":\"2008-04-04\",\"director\":\"Ramesh Aravind\"},{\"tmdb_id\":975044,\"title\":\"Accident\",\"year\":\"2013-01-01\",\"director\":\"Teco Benson\"},{\"tmdb_id\":329623,\"title\":\"Accident\",\"year\":\"2006-09-01\",\"director\":\"Pablo Lobato, Cao Guimarães\"}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/179314",
-      "event": "Venice",
-      "year": 2009,
-      "title": "Zanan-e-bedun-e mardan",
-      "aliases": [
-        "Zanan bedoone mardan",
-        "Women Without Men"
-      ],
-      "director": "Shirin Neshat",
-      "runtime": 95,
-      "source": "https://asac.labiennale.org/attivita/cinema/179314",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":44159,\"title\":\"Women Without Men\",\"year\":\"2009-07-01\",\"director\":\"Shoja Azari, Shirin Neshat\"}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/179351",
-      "event": "Venice",
-      "year": null,
-      "title": "Villalobos",
-      "aliases": [],
-      "director": "Romuald Karmakar",
-      "runtime": 110,
-      "source": "https://asac.labiennale.org/attivita/cinema/179351",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/179356",
-      "event": "Venice",
-      "year": 2009,
-      "title": "Korotkoye zamykanie",
-      "aliases": [
-        "Korotkoe zamykanie",
-        "Short Circuit",
-        "Crush"
-      ],
-      "director": "Ivan Vyrypayev, Kirill Serebrennikov, Boris Khlebnikov, Aleksei German Jr., Pyotr Buslov",
-      "runtime": 95,
-      "source": "https://asac.labiennale.org/attivita/cinema/179356",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":70137,\"title\":\"Crush\",\"year\":\"2009-11-11\",\"director\":\"Kirill Serebrennikov, Pyotr Buslov, Boris Khlebnikov, Ivan Vyrypaev, Aleksei German Jr.\"},{\"tmdb_id\":183662,\"title\":\"Crush\",\"year\":\"2013-03-13\",\"director\":\"Malik Bader\"},{\"tmdb_id\":108283,\"title\":\"Crush\",\"year\":\"2011-09-01\",\"director\":\"Gloria La Morte\"}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/179357",
-      "event": "Venice",
-      "year": 2009,
-      "title": "Touxi",
-      "aliases": [
-        "Judge"
-      ],
-      "director": "Jie (I) Liu",
-      "runtime": 100,
-      "source": "https://asac.labiennale.org/attivita/cinema/179357",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":57322,\"title\":\"Judge\",\"year\":\"2010-03-24\",\"director\":\"Liu Jie\"},{\"tmdb_id\":336190,\"title\":\"Judge\",\"year\":\"2013-11-09\",\"director\":\"Yo Kohatsu\"}]"
+      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":299541,\"title\":\"Heimat Fragments: The Women\",\"year\":\"2006-10-28\",\"director\":\"Edgar Reitz, Christian Reitz\",\"runtime\":146,\"imdb_id\":\"tt0810894\",\"genres\":[\"Music\",\"Drama\"]}]"
     },
     {
       "key": "https://asac.labiennale.org/attivita/cinema/179364",
@@ -17369,76 +18795,7 @@
       "runtime": 70,
       "source": "https://asac.labiennale.org/attivita/cinema/179364",
       "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":580589,\"title\":\"Il colore delle parole\",\"year\":\"2009-09-03\",\"director\":\"Marco S. Puccioni\"}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/179367",
-      "event": "Venice",
-      "year": 2009,
-      "title": "Totò",
-      "aliases": [],
-      "director": "Peter Schreiner",
-      "runtime": 128,
-      "source": "https://asac.labiennale.org/attivita/cinema/179367",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/179373",
-      "event": "Venice",
-      "year": 2009,
-      "title": "Tris di donne & abiti nuziali",
-      "aliases": [
-        "Tris di donne e abiti nuziali"
-      ],
-      "director": "Vincenzo Terracciano",
-      "runtime": 138,
-      "source": "https://asac.labiennale.org/attivita/cinema/179373",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":41181,\"title\":\"Bets & Wedding Dresses\",\"year\":\"2009-09-18\",\"director\":\"Vincenzo Terracciano\"}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/179378",
-      "event": "Venice",
-      "year": 2009,
-      "title": "Women ceng jing de wuchanzhe",
-      "aliases": [
-        "Women Cengjing de Wuchanzhe",
-        "Once upon a time proletarian : 12 tales of a Country"
-      ],
-      "director": "Xiaolu Guo",
-      "runtime": 76,
-      "source": "https://asac.labiennale.org/attivita/cinema/179378",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/179381",
-      "event": "Venice",
-      "year": 2009,
-      "title": "Dou Niu",
-      "aliases": [
-        "Cow"
-      ],
-      "director": "Hu Guan",
-      "runtime": 105,
-      "source": "https://asac.labiennale.org/attivita/cinema/179381",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":1136202,\"title\":\"Cow\",\"year\":\"2013-12-02\",\"director\":\"Julia Ocker\"}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/180185",
-      "event": "Venice",
-      "year": 2009,
-      "title": "Lola",
-      "aliases": [
-        "Grandmother"
-      ],
-      "director": "Brillante Mendoza",
-      "runtime": 110,
-      "source": "https://asac.labiennale.org/attivita/cinema/180185",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":72985,\"title\":\"Grandmother\",\"year\":\"2009-09-23\",\"director\":\"Brillante Ma Mendoza\"},{\"tmdb_id\":188858,\"title\":\"Lola\",\"year\":\"2006-09-28\",\"director\":\"Javier Rebollo\"},{\"tmdb_id\":461028,\"title\":\"Grandmother\",\"year\":\"2010-03-19\",\"director\":\"Yuki Kawamura\"},{\"tmdb_id\":590239,\"title\":\"Grandmother\",\"year\":\"2011-01-01\",\"director\":\"Galip Iyitanir\"}]"
+      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":580589,\"title\":\"Il colore delle parole\",\"year\":\"2009-09-03\",\"director\":\"Marco S. Puccioni\",\"runtime\":0,\"imdb_id\":\"tt1499662\",\"genres\":[\"Documentary\"]}]"
     },
     {
       "key": "https://asac.labiennale.org/attivita/cinema/216594",
@@ -17450,7 +18807,7 @@
       "runtime": 90,
       "source": "https://asac.labiennale.org/attivita/cinema/216594",
       "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":358252,\"title\":\"Per Questi Stretti Morire\",\"year\":\"2010-09-07\",\"director\":\"Isabella Sandri, Giuseppe M. Gaudino\"}]"
+      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":358252,\"title\":\"Per Questi Stretti Morire\",\"year\":\"2010-09-07\",\"director\":\"Giuseppe M. Gaudino, Isabella Sandri\",\"runtime\":0,\"imdb_id\":\"tt1714884\",\"genres\":[\"Documentary\",\"Adventure\"]}]"
     },
     {
       "key": "https://asac.labiennale.org/attivita/cinema/216599",
@@ -17462,115 +18819,7 @@
       "runtime": 78,
       "source": "https://asac.labiennale.org/attivita/cinema/216599",
       "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/216617",
-      "event": "Venice",
-      "year": 2010,
-      "title": "News from Nowhere",
-      "aliases": [],
-      "director": "Paul Morrisey",
-      "runtime": 94,
-      "source": "https://asac.labiennale.org/attivita/cinema/216617",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":340365,\"title\":\"News from Nowhere\",\"year\":\"2010-09-02\",\"director\":\"Paul Morrissey\"}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/216621",
-      "event": "Venice",
-      "year": 2010,
-      "title": "Dharma Guns (La succession Starkov)",
-      "aliases": [
-        "Dharma Guns"
-      ],
-      "director": "François-Jacques Ossang",
-      "runtime": 93,
-      "source": "https://asac.labiennale.org/attivita/cinema/216621",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":103443,\"title\":\"Dharma Guns\",\"year\":\"2011-03-09\",\"director\":\"F.J. Ossang\"}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/216634",
-      "event": "Venice",
-      "year": 2010,
-      "title": "Sheoeyin kenna",
-      "aliases": [
-        "We Were Communist"
-      ],
-      "director": "Maher Abi Samra",
-      "runtime": 85,
-      "source": "https://asac.labiennale.org/attivita/cinema/216634",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/216665",
-      "event": "Venice",
-      "year": 2010,
-      "title": "Zelal",
-      "aliases": [],
-      "director": "Mustafa Hasnaoui, Marianne Khoury",
-      "runtime": 90,
-      "source": "https://asac.labiennale.org/attivita/cinema/216665",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":300576,\"title\":\"Zelal\",\"year\":\"2010-09-09\",\"director\":\"Mustapha Hasnaoui, Marianne Khoury\"}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/217200",
-      "event": "Venice",
-      "year": 2010,
-      "title": "Le Fossé",
-      "aliases": [
-        "The Ditch"
-      ],
-      "director": "Bing (III) Wang",
-      "runtime": 109,
-      "source": "https://asac.labiennale.org/attivita/cinema/217200",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":91067,\"title\":\"The Ditch\",\"year\":\"2011-04-15\",\"director\":\"Wang Bing\"},{\"tmdb_id\":599658,\"title\":\"The Ditch\",\"year\":\"2012-08-23\",\"director\":\"Adrian Silișteanu\"},{\"tmdb_id\":407593,\"title\":\"The Ditch\",\"year\":\"2008-04-07\",\"director\":\"Brian Holcomb\"}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/52683",
-      "event": "Venice",
-      "year": 2007,
-      "title": "Heya fawda",
-      "aliases": [
-        "Chaos",
-        "Chaos, This Is"
-      ],
-      "director": "Youssef Chahine",
-      "runtime": 124,
-      "source": "https://asac.labiennale.org/attivita/cinema/52683",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":163660,\"title\":\"Chaos, This Is?\",\"year\":\"2007-11-28\",\"director\":\"Youssef Chahine, Khaled Youssef\"},{\"tmdb_id\":5289,\"title\":\"Chaos\",\"year\":\"2005-01-17\",\"director\":\"Tony Giglio\"},{\"tmdb_id\":39914,\"title\":\"Chaos\",\"year\":\"2005-08-10\",\"director\":\"David DeFalco\"}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/52703",
-      "event": "Venice",
-      "year": 2007,
-      "title": "Tai yang zhao chang sheng qi",
-      "aliases": [
-        "Taiyang zhao hang shengqi",
-        "The Sun Also Rises"
-      ],
-      "director": "Jiang We",
-      "runtime": 116,
-      "source": "https://asac.labiennale.org/attivita/cinema/52703",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":51885,\"title\":\"The Sun Also Rises\",\"year\":\"2007-09-20\",\"director\":\"Jiang Wen\"}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/52708",
-      "event": "Venice",
-      "year": 2007,
-      "title": "Bangbang wo aishen",
-      "aliases": [],
-      "director": "Lee Kang-sheng",
-      "runtime": 107,
-      "source": "https://asac.labiennale.org/attivita/cinema/52708",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
+      "reason": "Missing director or IMDb identity"
     },
     {
       "key": "https://asac.labiennale.org/attivita/cinema/52713",
@@ -17582,37 +18831,7 @@
       "runtime": 90,
       "source": "https://asac.labiennale.org/attivita/cinema/52713",
       "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":502297,\"title\":\"Mothers\",\"year\":\"2007-09-03\",\"director\":\"Barbara Cupisti\"}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/52715",
-      "event": "Venice",
-      "year": 2007,
-      "title": "Kagadanan sa banwaan ning mga engkanto",
-      "aliases": [
-        "Death in the Land of Encantos"
-      ],
-      "director": "Lav Diaz",
-      "runtime": 540,
-      "source": "https://asac.labiennale.org/attivita/cinema/52715",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/52751",
-      "event": "Venice",
-      "year": 2007,
-      "title": "La Graine et le mulet",
-      "aliases": [
-        "Grain and Mullet",
-        "Couscous",
-        "The Secret of the Grain"
-      ],
-      "director": "Abdel Kechiche",
-      "runtime": 151,
-      "source": "https://asac.labiennale.org/attivita/cinema/52751",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":8280,\"title\":\"The Secret of the Grain\",\"year\":\"2007-12-12\",\"director\":\"Abdellatif Kechiche\"}]"
+      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":502297,\"title\":\"Mothers\",\"year\":\"2007-09-03\",\"director\":\"Barbara Cupisti\",\"runtime\":0,\"imdb_id\":\"tt1094648\",\"genres\":[\"Documentary\"]}]"
     },
     {
       "key": "https://asac.labiennale.org/attivita/cinema/52818",
@@ -17626,504 +18845,7 @@
       "runtime": 140,
       "source": "https://asac.labiennale.org/attivita/cinema/52818",
       "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":741081,\"title\":\"Ascension\",\"year\":\"2009-05-02\",\"director\":\"Pavel Medvedev\"}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/52859",
-      "event": "Venice",
-      "year": 2007,
-      "title": "Geomen tangyi sonyeo oi",
-      "aliases": [
-        "With the Girl of Black Soil"
-      ],
-      "director": "Soo-il Jeon",
-      "runtime": 90,
-      "source": "https://asac.labiennale.org/attivita/cinema/52859",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/52868",
-      "event": "Venice",
-      "year": 2007,
-      "title": "San",
-      "aliases": [
-        "Umbrella"
-      ],
-      "director": "Haibin Du",
-      "runtime": 123,
-      "source": "https://asac.labiennale.org/attivita/cinema/52868",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://www.berlinale.de/en/2006/programme/20063971.html",
-      "event": "Berlinale",
-      "year": 2006,
-      "title": "Isabella",
-      "aliases": [],
-      "director": "Pang Ho-cheung",
-      "runtime": 91,
-      "source": "https://www.berlinale.de/en/2006/programme/20063971.html",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":659691,\"title\":\"Isabella\",\"year\":\"2008-01-01\",\"director\":\"Anders Engström\"},{\"tmdb_id\":40977,\"title\":\"Isabella\",\"year\":\"2006-04-06\",\"director\":\"Edmond Pang Ho-cheung\"}]"
-    },
-    {
-      "key": "https://www.berlinale.de/en/2007/programme/20073709.html",
-      "event": "Berlinale",
-      "year": 2007,
-      "title": "Angel",
-      "aliases": [],
-      "director": "François Ozon",
-      "runtime": 137,
-      "source": "https://www.berlinale.de/en/2007/programme/20073709.html",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://www.berlinale.de/en/2008/programme/20082449.html",
-      "event": "Berlinale",
-      "year": 2007,
-      "title": "Restless",
-      "aliases": [],
-      "director": "Amos Kollek",
-      "runtime": 100,
-      "source": "https://www.berlinale.de/en/2008/programme/20082449.html",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":47760,\"title\":\"Restless\",\"year\":\"2011-09-16\",\"director\":\"Gus Van Sant\"}]"
-    },
-    {
-      "key": "https://www.berlinale.de/en/2009/programme/20097120.html",
-      "event": "Berlinale",
-      "year": 2009,
-      "title": "Storm",
-      "aliases": [
-        "Sturm"
-      ],
-      "director": "Hans-Christian Schmid",
-      "runtime": 110,
-      "source": "https://www.berlinale.de/en/2009/programme/20097120.html",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":50548,\"title\":\"Storm\",\"year\":\"2009-10-02\",\"director\":\"Giacomo Campeotto\"}]"
-    },
-    {
-      "key": "https://www.berlinale.de/en/2010/programme/20104775.html",
-      "event": "Berlinale",
-      "year": 2010,
-      "title": "Kak ya provel etim letom",
-      "aliases": [
-        "How I Ended This Summer"
-      ],
-      "director": "Alexei Popogrebsky",
-      "runtime": 124,
-      "source": "https://www.berlinale.de/en/2010/programme/20104775.html",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":38325,\"title\":\"How I Ended This Summer\",\"year\":\"2010-04-01\",\"director\":\"Alexey Popogrebsky\"}]"
-    },
-    {
-      "key": "https://www.berlinale.de/en/2010/programme/20105362.html",
-      "event": "Berlinale",
-      "year": 2010,
-      "title": "Mammuth",
-      "aliases": [],
-      "director": "Benoit Delépine, Gustave de Kervern",
-      "runtime": 90,
-      "source": "https://www.berlinale.de/en/2010/programme/20105362.html",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":37832,\"title\":\"Mammuth\",\"year\":\"2010-04-21\",\"director\":\"Gustave Kervern, Benoît Delépine\"}]"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/alexandra/",
-      "event": "Cannes",
-      "year": 2007,
-      "title": "ALEXANDRA",
-      "aliases": [],
-      "director": "Alexander SOKOUROV",
-      "source": "https://www.festival-cannes.com/en/f/alexandra/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":17479,\"title\":\"Alexandra\",\"year\":\"2007-06-03\",\"director\":\"Aleksandr Sokurov\"},{\"tmdb_id\":306263,\"title\":\"Alexandra\",\"year\":\"2006-12-10\",\"director\":\"Radu Jude\"}]"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/amintiri-din-epoca-de-aur/",
-      "event": "Cannes",
-      "year": 2009,
-      "title": "AMINTIRI DIN EPOCA DE AUR",
-      "aliases": [
-        "TALES FROM THE GOLDEN AGE"
-      ],
-      "director": "Hanno HÖFER, Razvan MARCULESCU, Cristian MUNGIU, Constantin POPESCU, Ioana URICARU",
-      "source": "https://www.festival-cannes.com/en/f/amintiri-din-epoca-de-aur/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":39376,\"title\":\"Tales from the Golden Age\",\"year\":\"2009-05-29\",\"director\":\"Cristian Mungiu, Ioana Uricaru, Constantin Popescu Jr., Răzvan Marculescu, Hanno Höfer\"}]"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/babel/",
-      "event": "Cannes",
-      "year": 2006,
-      "title": "BABEL",
-      "aliases": [],
-      "director": "Alejandro González IÑÁRRITU",
-      "source": "https://www.festival-cannes.com/en/f/babel/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":1164,\"title\":\"Babel\",\"year\":\"2006-10-26\",\"director\":\"Alejandro G. Iñárritu\"},{\"tmdb_id\":240192,\"title\":\"Babel\",\"year\":\"2008-10-15\",\"director\":\"Hendrick Dusollier\"}]"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/bihisht-faqat-baroi-murdagon/",
-      "event": "Cannes",
-      "year": 2006,
-      "title": "BIHISHT FAQAT BAROI MURDAGON",
-      "aliases": [
-        "TO GET TO HEAVEN FIRST YOU HAVE TO DIE"
-      ],
-      "director": "Djamshed USMONOV",
-      "source": "https://www.festival-cannes.com/en/f/bihisht-faqat-baroi-murdagon/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":120393,\"title\":\"To Get to Heaven First, You Have to Die\",\"year\":\"2006-10-04\",\"director\":\"Jamshed Usmonov\"}]"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/biutiful/",
-      "event": "Cannes",
-      "year": 2010,
-      "title": "BIUTIFUL",
-      "aliases": [],
-      "director": "Alejandro González IÑÁRRITU",
-      "source": "https://www.festival-cannes.com/en/f/biutiful/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":45958,\"title\":\"Biutiful\",\"year\":\"2010-10-20\",\"director\":\"Alejandro G. Iñárritu\"}]"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/california-dreamin-nesfarsit/",
-      "event": "Cannes",
-      "year": 2007,
-      "title": "CALIFORNIA DREAMIN’ (NESFARSIT)",
-      "aliases": [
-        "CALIFORNIA DREAMIN' (ENDLESS)"
-      ],
-      "director": "Cristian NEMESCU",
-      "source": "https://www.festival-cannes.com/en/f/california-dreamin-nesfarsit/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/cronica-de-una-fuga/",
-      "event": "Cannes",
-      "year": 2006,
-      "title": "CRÓNICA DE UNA FUGA",
-      "aliases": [
-        "BUENOS AIRES, 1977 (CRÓNICA DE UNA FUGA)"
-      ],
-      "director": "Israel Adrián CAETANO",
-      "source": "https://www.festival-cannes.com/en/f/cronica-de-una-fuga/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":25532,\"title\":\"Chronicle of an Escape\",\"year\":\"2006-04-27\",\"director\":\"Adrián Caetano\"}]"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/el-bano-del-papa/",
-      "event": "Cannes",
-      "year": 2007,
-      "title": "EL BAÑO DEL PAPA",
-      "aliases": [],
-      "director": "César CHARLONE, ABC, Enrique FERNANDEZ",
-      "source": "https://www.festival-cannes.com/en/f/el-bano-del-papa/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":8267,\"title\":\"The Pope's Toilet\",\"year\":\"2007-05-21\",\"director\":\"César Charlone, Enrique Fernández\"}]"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/er-shi-si-cheng-ji/",
-      "event": "Cannes",
-      "year": 2008,
-      "title": "ER SHI SI CHENG JI",
-      "aliases": [],
-      "director": "JIA Zhang-Ke",
-      "source": "https://www.festival-cannes.com/en/f/er-shi-si-cheng-ji/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/gwai-wik/",
-      "event": "Cannes",
-      "year": 2006,
-      "title": "GWAÏ WIK",
-      "aliases": [
-        "RE-CYCLE"
-      ],
-      "director": "Danny PANG, Oxide PANG",
-      "source": "https://www.festival-cannes.com/en/f/gwai-wik/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":13402,\"title\":\"Re-cycle\",\"year\":\"2006-06-30\",\"director\":\"Oxide Pang Chun, Danny Pang Phat\"}]"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/kinatay/",
-      "event": "Cannes",
-      "year": 2009,
-      "title": "KINATAY",
-      "aliases": [],
-      "director": "Brillante MENDOZA",
-      "source": "https://www.festival-cannes.com/en/f/kinatay/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":64450,\"title\":\"Butchered\",\"year\":\"2009-09-23\",\"director\":\"Brillante Ma Mendoza\"}]"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/my-magic/",
-      "event": "Cannes",
-      "year": 2008,
-      "title": "MY MAGIC",
-      "aliases": [],
-      "director": "Eric",
-      "source": "https://www.festival-cannes.com/en/f/my-magic/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":8903,\"title\":\"My Magic\",\"year\":\"2008-05-23\",\"director\":\"Eric Khoo\"}]"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/octubre/",
-      "event": "Cannes",
-      "year": 2010,
-      "title": "OCTUBRE",
-      "aliases": [
-        "OCTOBER"
-      ],
-      "director": "Daniel VEGA, Diego VEGA",
-      "source": "https://www.festival-cannes.com/en/f/octubre/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":52322,\"title\":\"October\",\"year\":\"2010-09-29\",\"director\":\"Daniel Vega Vidal, Diego Vega Vidal\"},{\"tmdb_id\":1356408,\"title\":\"October\",\"year\":\"2012-03-08\",\"director\":\"Sacha Biton\"}]"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/paris-je-t-aime/",
-      "event": "Cannes",
-      "year": 2006,
-      "title": "PARIS, JE T’AIME",
-      "aliases": [],
-      "director": "Gurinder CHADHA, Bruno PODALYDES, Gus VAN SANT, Joel COEN, Ethan COEN, Daniela THOMAS, Walter SALLES, Christopher DOYLE, Isabel COIXET, Nobuhiro SUWA, Sylvain CHOMET, Alfonso CUARON, Olivier ASSAYAS, Oliver, Richard LAGRAVENESE, Vincenzo NATALI, Wes CRAVEN, Tom TYKWER, Frédéric AUBURTIN, Gérard DEPARDIEU, Alexander PAYNE",
-      "source": "https://www.festival-cannes.com/en/f/paris-je-t-aime/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":2266,\"title\":\"Paris Je T'aime\",\"year\":\"2006-06-21\",\"director\":\"Olivier Assayas, Frédéric Auburtin, Gurinder Chadha, Sylvain Chomet, Isabel Coixet, Wes Craven, Alfonso Cuarón, Gérard Depardieu, Christopher Doyle, Richard LaGravenese, Vincenzo Natali, Alexander Payne, Walter Salles, Oliver Schmitz, Nobuhiro Suwa, Daniela Thomas, Tom Tykwer, Gus Van Sant, Joel Coen, Ethan Coen, Bruno Podalydès\"}]"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/precious/",
-      "event": "Cannes",
-      "year": 2009,
-      "title": "PRECIOUS",
-      "aliases": [],
-      "director": "Lee DANIELS",
-      "source": "https://www.festival-cannes.com/en/f/precious/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/salvador/",
-      "event": "Cannes",
-      "year": 2006,
-      "title": "SALVADOR",
-      "aliases": [],
-      "director": "Manuel HUERGA",
-      "source": "https://www.festival-cannes.com/en/f/salvador/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":1729633,\"title\":\"Salvador\",\"year\":\"2008-01-01\",\"director\":\"Víctor Checa\"},{\"tmdb_id\":1187526,\"title\":\"Salvador\",\"year\":\"2008-01-01\",\"director\":\"Víctor Salcido\"}]"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/serbis/",
-      "event": "Cannes",
-      "year": 2008,
-      "title": "SERBIS",
-      "aliases": [],
-      "director": "Brillante MENDOZA",
-      "source": "https://www.festival-cannes.com/en/f/serbis/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":8904,\"title\":\"Serbis\",\"year\":\"2008-06-24\",\"director\":\"Brillante Ma Mendoza\"}]"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/ten-canoes/",
-      "event": "Cannes",
-      "year": 2006,
-      "title": "TEN CANOES",
-      "aliases": [],
-      "director": "Rolf DE HEER",
-      "source": "https://www.festival-cannes.com/en/f/ten-canoes/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":14064,\"title\":\"Ten Canoes\",\"year\":\"2006-06-29\",\"director\":\"Rolf de Heer, Peter Djigirr\"}]"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/the-terror-s-advocate/",
-      "event": "Cannes",
-      "year": 2007,
-      "title": "THE TERROR’S ADVOCATE",
-      "aliases": [],
-      "director": "Barbet SCHROEDER",
-      "source": "https://www.festival-cannes.com/en/f/the-terror-s-advocate/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/ting-che/",
-      "event": "Cannes",
-      "year": 2008,
-      "title": "TING CHE",
-      "aliases": [],
-      "director": "Mong-Hong CHUNG",
-      "source": "https://www.festival-cannes.com/en/f/ting-che/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/tulpan/",
-      "event": "Cannes",
-      "year": 2008,
-      "title": "TULPAN",
-      "aliases": [],
-      "director": "Sergey DVORTSEVOY",
-      "source": "https://www.festival-cannes.com/en/f/tulpan/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":8939,\"title\":\"Tulpan\",\"year\":\"2009-03-04\",\"director\":\"Sergei Dvortsevoy\"}]"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/two-thirty-7/",
-      "event": "Cannes",
-      "year": 2006,
-      "title": "TWO THIRTY 7",
-      "aliases": [],
-      "director": "Murali K. THALLURI",
-      "source": "https://www.festival-cannes.com/en/f/two-thirty-7/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/tzar/",
-      "event": "Cannes",
-      "year": 2009,
-      "title": "TZAR",
-      "aliases": [],
-      "director": "Pavel LOUNGUINE",
-      "source": "https://www.festival-cannes.com/en/f/tzar/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/utomlyonnye-solntsem-2-predstoyanie/",
-      "event": "Cannes",
-      "year": 2010,
-      "title": "UTOMLYONNYE SOLNTSEM 2: PREDSTOYANIE",
-      "aliases": [
-        "THE EXODUS - BURNT BY THE SUN 2"
-      ],
-      "director": "Nikita MIKHALKOV",
-      "source": "https://www.festival-cannes.com/en/f/utomlyonnye-solntsem-2-predstoyanie/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "Oscars/2006/Match Point",
-      "event": "Oscars",
-      "year": 2006,
-      "title": "Match Point",
-      "source": "https://www.oscars.org/oscars/ceremonies/2006",
-      "anchors": [],
-      "category_names": [
-        "Writing (Original Screenplay)"
-      ],
-      "reason": "Expected one title/year/credit match; found 2; candidates [{\"tmdb_id\":116,\"title\":\"Match Point\",\"year\":\"2005-10-26\",\"director\":\"Woody Allen\"},{\"tmdb_id\":227977,\"title\":\"Match Point\",\"year\":\"2005-11-24\",\"director\":\"Thanapon Thanangkul\"}]"
-    },
-    {
-      "key": "Oscars/2007/Babel",
-      "event": "Oscars",
-      "year": 2007,
-      "title": "Babel",
-      "source": "https://www.oscars.org/oscars/ceremonies/2007",
-      "anchors": [
-        {
-          "person": "Alejandro González Iñárritu",
-          "director": true
-        },
-        {
-          "person": "Adriana Barraza"
-        },
-        {
-          "person": "Rinko Kikuchi"
-        }
-      ],
-      "category_names": [
-        "Best Picture",
-        "Directing",
-        "Actress in a Supporting Role",
-        "Actress in a Supporting Role",
-        "Writing (Original Screenplay)"
-      ],
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":1164,\"title\":\"Babel\",\"year\":\"2006-10-26\",\"director\":\"Alejandro G. Iñárritu\"}]"
-    },
-    {
-      "key": "Oscars/2007/Days of Glory (Indigènes)",
-      "event": "Oscars",
-      "year": 2007,
-      "title": "Days of Glory (Indigènes)",
-      "source": "https://www.oscars.org/oscars/ceremonies/2007",
-      "anchors": [],
-      "category_names": [
-        "International Feature Film"
-      ],
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "Oscars/2007/Water",
-      "event": "Oscars",
-      "year": 2007,
-      "title": "Water",
-      "source": "https://www.oscars.org/oscars/ceremonies/2007",
-      "anchors": [],
-      "category_names": [
-        "International Feature Film"
-      ],
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "Oscars/2009/The Class",
-      "event": "Oscars",
-      "year": 2009,
-      "title": "The Class",
-      "source": "https://www.oscars.org/oscars/ceremonies/2009",
-      "anchors": [],
-      "category_names": [
-        "International Feature Film"
-      ],
-      "reason": "Expected one title/year/credit match; found 3; candidates [{\"tmdb_id\":28205,\"title\":\"The Class\",\"year\":\"2007-03-16\",\"director\":\"Ilmar Raag\"},{\"tmdb_id\":8841,\"title\":\"The Class\",\"year\":\"2008-09-24\",\"director\":\"Laurent Cantet\"},{\"tmdb_id\":467843,\"title\":\"The Class\",\"year\":\"2007-03-15\",\"director\":\"Faruk Aksoy\"}]"
-    },
-    {
-      "key": "Oscars/2010/Burma VJ",
-      "event": "Oscars",
-      "year": 2010,
-      "title": "Burma VJ",
-      "source": "https://www.oscars.org/oscars/ceremonies/2010",
-      "anchors": [],
-      "category_names": [
-        "Documentary Feature Film"
-      ],
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "Oscars/2010/Nine",
-      "event": "Oscars",
-      "year": 2010,
-      "title": "Nine",
-      "source": "https://www.oscars.org/oscars/ceremonies/2010",
-      "anchors": [
-        {
-          "person": "Penélope Cruz"
-        }
-      ],
-      "category_names": [
-        "Actress in a Supporting Role"
-      ],
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "Oscars/2010/The Most Dangerous Man in America: Daniel Ellsberg and the Pentagon Papers",
-      "event": "Oscars",
-      "year": 2010,
-      "title": "The Most Dangerous Man in America: Daniel Ellsberg and the Pentagon Papers",
-      "source": "https://www.oscars.org/oscars/ceremonies/2010",
-      "anchors": [],
-      "category_names": [
-        "Documentary Feature Film"
-      ],
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
+      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":329234,\"title\":\"Anabazys: O Terceiro Testamento de Glauber Rocha\",\"year\":\"2007-11-26\",\"director\":\"Joel Pizzini, Paloma Rocha\",\"runtime\":100,\"imdb_id\":\"tt1094235\",\"genres\":[\"Documentary\"]}]"
     }
   ],
   "poster_recovery": [],
