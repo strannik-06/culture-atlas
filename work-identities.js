@@ -47,7 +47,8 @@
     }
     for (const film of films) {
       if (film.work_type !== undefined && film.work_type !== 'movie') throw new Error('Movie registry received another media type');
-      add(film, movieKey(film.id), 'movie');
+      if(film.tmdb_tv_id&&(film.tmdb_id||film.identity_status!=='reviewed_complete_film_tv_provider'||film.identity_scope!=='complete-film'||!film.imdb_id||!film.identity_sources?.length))throw new Error('TV-backed film requires reviewed complete-film identity');
+      add(film, movieKey(film.id), 'movie', film.tmdb_tv_id ? externalKey('tv',film.tmdb_tv_id) : externalKey('movie',film.tmdb_id));
     }
     for (const show of series) {
       if (show.work_type !== 'tv') throw new Error('TV catalogue requires an explicit namespaced identity');

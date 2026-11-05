@@ -23,7 +23,7 @@ for(const film of catalog){
  if(!Number.isSafeInteger(film.id)||film.id<=0)errors.push('Invalid internal ID '+film.id);
  if(ids.has(film.id))errors.push('Duplicate internal ID '+film.id);
  ids.add(film.id);
- if(!film.tmdb_id)errors.push('Missing TMDB ID for '+film.id);
+ if(!film.tmdb_id&&!(film.identity_status==='reviewed_complete_film_tv_provider'&&film.identity_scope==='complete-film'&&Number.isSafeInteger(film.tmdb_tv_id)&&film.tmdb_tv_id>0&&/^tt\d+$/.test(film.imdb_id||'')&&film.identity_sources?.length>=2&&film.identity_sources.every(s=>/^https:\/\//.test(s))))errors.push('Missing verified provider identity for '+film.id);
  for(const [name,value,map] of [['TMDB',film.tmdb_id,tmdb],['IMDb',film.imdb_id,imdb]]){
   if(!value)continue;
   if(map.has(value))errors.push('Duplicate '+name+' '+value+' for '+map.get(value)+' and '+film.id);

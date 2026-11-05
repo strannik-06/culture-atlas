@@ -9,7 +9,8 @@ const links=[];
 for(const [type,items] of [['movie',w.CULTURE_CATALOG],['tv',w.CULTURE_TV_CATALOG]])for(const item of items){
  const key=type==='movie'?'movie:'+item.id:item.id;
  lines.push(`insert into public.media_catalogue(work_key,work_type,film_id,metadata,is_static) values(${quote(key)},${quote(type)},${type==='movie'?item.id:'null'},${quote(JSON.stringify(item))}::jsonb,true) on conflict do nothing;`);
- if(item.tmdb_id){const provider=type==='movie'?'movie:'+item.tmdb_id:item.tmdb_media_type==='movie'?'movie:'+item.tmdb_id:key.startsWith('tv:'+item.tmdb_id)?key:'tv:'+item.tmdb_id;links.push([provider,key]);}
+ if(type==='movie'&&item.tmdb_tv_id)links.push(['tv:'+item.tmdb_tv_id,key]);
+ else if(item.tmdb_id){const provider=type==='movie'?'movie:'+item.tmdb_id:item.tmdb_media_type==='movie'?'movie:'+item.tmdb_id:key.startsWith('tv:'+item.tmdb_id)?key:'tv:'+item.tmdb_id;links.push([provider,key]);}
 }
 for(const a of w.CULTURE_TV_FILM_ALIASES)links.push(['tv:'+a.tmdb_id,a.work_key]);
 const seen=new Map();for(const [p,k]of links){if(seen.has(p)&&seen.get(p)!==k)throw Error('Conflicting provider '+p);seen.set(p,k);lines.push(`insert into public.media_provider_links values(${quote(p)},${quote(k)}) on conflict do nothing;`);}

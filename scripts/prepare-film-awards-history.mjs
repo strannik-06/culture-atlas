@@ -27,8 +27,15 @@ const providerCache=new Map();
 function movie(id){if(!providerCache.has(id))providerCache.set(id,api('movie/'+id,{append_to_response:'credits,external_ids'}));return providerCache.get(id);}
 const results=new Map();
 async function resolve(t){const override=overrides[t.key]||{};const signature=crypto.createHash('sha256').update(JSON.stringify({t,override})).digest('hex');
- const cached=previous.verified?.find(r=>r.key===t.key&&r.signature===signature);if(cached&&films.some(f=>f.id===cached.id&&f.tmdb_id===cached.tmdb_id)){audit.verified.push(cached);results.set(t.key,cached.id);return;}
+ const cached=previous.verified?.find(r=>r.key===t.key&&r.signature===signature);if(cached&&films.some(f=>f.id===cached.id&&f.tmdb_id===cached.tmdb_id&&f.tmdb_tv_id===cached.tmdb_tv_id&&f.imdb_id===cached.imdb_id)){audit.verified.push(cached);results.set(t.key,cached.id);return;}
  const names=[...new Set([t.title,t.title.replace(/\s*\(\d{4}\)$/,''),...t.aliases||[],...override.aliases||[]])],expected=[t.director,...override.director_aliases||[]].filter(Boolean),ids=new Set();
+ if(override.complete_film_tv){
+  const o=override.complete_film_tv,m=await api('tv/'+o.id,{append_to_response:'credits,external_ids'});
+  if(m.external_ids?.imdb_id!==override.imdb_id||![m.name,m.original_name].some(n=>names.some(a=>norm(a)===norm(n)))||Number(m.first_air_date?.slice(0,4))!==2011||m.number_of_episodes!==2||!m.genres?.some(g=>g.name==='Documentary')||(override.required_cast||[]).some(n=>!m.credits.cast.some(p=>norm(p.name)===norm(n))))throw Error('Complete-film TV-provider identity failed verification');
+  const old=films.filter(f=>f.imdb_id===override.imdb_id||f.tmdb_tv_id===o.id);if(old.length>1)throw Error('Conflicting whole-film identity');let f=old[0];
+  if(!f){f={id:Math.max(...films.map(f=>f.id))+1,title:m.name,director:o.director,year:2011,tmdb_id:null,tmdb_tv_id:o.id,imdb_id:override.imdb_id,identity_status:'reviewed_complete_film_tv_provider',identity_scope:'complete-film',identity_sources:o.sources,original_title:m.original_name,original_language:m.original_language,alternate_titles:[]};films.push(f);details[f.id]={title:m.name,director:o.director,tmdb_tv_id:o.id,overview:m.overview,runtime:o.runtime,release_date:o.release_date,genres:m.genres.map(g=>g.name),countries:(m.production_countries||[]).map(c=>c.iso_3166_1),cast:m.credits.cast.slice(0,5).map(p=>p.name),poster:m.poster_path?'https://image.tmdb.org/t/p/w500'+m.poster_path:null,imdb:{url:'https://www.imdb.com/title/'+f.imdb_id+'/'}};audit.new_canonical_ids.push(f);}
+  results.set(t.key,f.id);audit.verified.push({key:t.key,signature,title:t.title,source:t.source,id:f.id,tmdb_id:null,tmdb_tv_id:o.id,imdb_id:f.imdb_id,director:o.director,method:'Complete cinema film verified by official release/runtime sources; TV provider verified by IMDb/title/year/two episodes/cast'});return;
+ }
  if(override.tmdb_id)ids.add(override.tmdb_id);else if(override.imdb_id){const found=await api('find/'+override.imdb_id,{external_source:'imdb_id'});for(const m of found.movie_results||[])ids.add(m.id);}else{
  // Reuse catalogue candidates but still verify their provider identity and credits.
  for(const f of films)if(f.tmdb_id&&f.year>=t.year-3&&f.year<=t.year+(t.festival?4:0)&&[f.title,f.original_title,...f.alternate_titles||[]].some(n=>names.some(a=>norm(n)===norm(a))))ids.add(f.tmdb_id);
@@ -63,7 +70,7 @@ await Promise.all(Array.from({length:5},async()=>{while(queue.length){const t=qu
 audit.verified.sort((a,b)=>a.key.localeCompare(b.key));audit.unresolved.sort((a,b)=>a.key.localeCompare(b.key));
 audit.poster_recovery=previous.poster_recovery||[];audit.unavailable_posters=[];
 for(const f of audit.new_canonical_ids)if(!present(details[f.id]?.poster)){
- try{const images=await api('movie/'+f.tmdb_id+'/images');const posters=(images.posters||[]).filter(p=>/^\/[a-zA-Z0-9_./-]+$/.test(p.file_path||'')).sort((a,b)=>(b.iso_639_1==='en')-(a.iso_639_1==='en')||(b.vote_count||0)-(a.vote_count||0));if(posters.length){details[f.id].poster='https://image.tmdb.org/t/p/w500'+posters[0].file_path;audit.poster_recovery.push({id:f.id,tmdb_id:f.tmdb_id,method:'Provider image collection fallback'});}else audit.unavailable_posters.push({id:f.id,title:f.title,tmdb_id:f.tmdb_id});}catch(error){audit.unavailable_posters.push({id:f.id,title:f.title,reason:error.message});}
+ try{const images=await api((f.tmdb_tv_id?'tv/'+f.tmdb_tv_id:'movie/'+f.tmdb_id)+'/images');const posters=(images.posters||[]).filter(p=>/^\/[a-zA-Z0-9_./-]+$/.test(p.file_path||'')).sort((a,b)=>(b.iso_639_1==='en')-(a.iso_639_1==='en')||(b.vote_count||0)-(a.vote_count||0));if(posters.length){details[f.id].poster='https://image.tmdb.org/t/p/w500'+posters[0].file_path;audit.poster_recovery.push({id:f.id,tmdb_id:f.tmdb_id,method:'Provider image collection fallback'});}else audit.unavailable_posters.push({id:f.id,title:f.title,tmdb_id:f.tmdb_id});}catch(error){audit.unavailable_posters.push({id:f.id,title:f.title,reason:error.message});}
 }
 fs.writeFileSync(auditPath,JSON.stringify(audit,null,2)+'\n');
 // Persist only verified appended identities; an unresolved source never becomes a page.

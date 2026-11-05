@@ -195,7 +195,7 @@
     "director_aliases": [
       "Martin Scorsese"
     ],
-    "note": "Shorter official title/search form for the 2011 Martin Scorsese feature documentary. The contemporary BAFTA nomination PDF credits Scorsese, Olivia Harrison and Nigel Sinclair; the artist's official film announcement confirms the full title, director and 2011 release. IMDb confirms tt1113829 as the 2011 Martin Scorsese 208-minute film; the US distributor listing also identifies a 208-minute movie. Other services carry a two-part television presentation. Do not substitute a TMDB TV ID into a movie provider link. Movie ID 1676821 is an unverified discovery candidate from a public Wikidata claim, not an accepted pin: generator must independently verify exact IMDb, full-film runtime, director, release year, title and cast before reuse.",
+    "note": "The complete 208-minute film had a UK cinema release and a two-part HBO presentation. Verify its existing TV-provider record by IMDb, title, year, two episodes and cast; preserve film scope and never create a movie-provider ID from a TV ID.",
     "sources": [
       "https://static.bafta.org/files/nominees-1112-1282.pdf",
       "https://www.georgeharrison.com/george-harrison-documentary-and-book-announced/",
@@ -205,9 +205,6 @@
       "https://www.georgeharrison.com/london-premiere-of-george-documentary-on-sunday-2nd-october/"
     ],
     "imdb_id": "tt1113829",
-    "candidate_tmdb_ids": [
-      1676821
-    ],
     "required_runtime_range": [
       200,
       215
@@ -217,7 +214,17 @@
       "George Harrison",
       "Ringo Starr"
     ],
-    "discovery_url": "https://www.wikidata.org/wiki/Q1139311"
+    "discovery_url": "https://www.wikidata.org/wiki/Q1139311",
+    "complete_film_tv": {
+      "id": 43107,
+      "runtime": 208,
+      "release_date": "2011-10-04",
+      "director": "Martin Scorsese",
+      "sources": [
+        "https://www.georgeharrison.com/london-premiere-of-george-documentary-on-sunday-2nd-october/",
+        "https://tv.apple.com/us/movie/george-harrison-living-in-the-material-world/umc.cmc.22gunbi1g7j5hpk3rolicxy6t"
+      ]
+    }
   },
   "BAFTA/2012/The Adventures Of Tintin: The Secret Of The Unicorn": {
     "aliases": [
