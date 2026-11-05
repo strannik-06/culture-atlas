@@ -78,6 +78,8 @@ def collect(year):
                 aliases.append('Jimmy Carter: Man from Plains')
             assert directors
             item = {'title': record['titolo'], 'aliases': aliases, 'director': directors, 'year': film['anno_iniziale'], 'runtime': runtime, 'source': BASE + f"/attivita/cinema/{record['id']}"}
+            if record['id'] == 179351 or str(record['id']) == '179351':
+                item['year'] = 2009  # Viennale 2009 and filmmaker press kit; ASAC leaves year empty.
             if record['id'] == 52718:
                 item['additional_sources'] = ['https://www.sonyclassics.com/downloads/Sony_Pictures_Classics_Non-Theatrical_Catalogue.pdf']
             selection.append(item)
