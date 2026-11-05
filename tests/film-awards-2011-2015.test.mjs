@@ -23,7 +23,7 @@ test('New catalogue registration is repeatable and preserves ratings and curated
 test('Previously merged catalogue identities and detail metadata remain byte-equivalent',async()=>{
  const {createHash}=await import('node:crypto'),b=json('imports/film-awards-2011-2015-baseline.json'),ids=new Set(b.ids),hash=o=>createHash('sha256').update(JSON.stringify(o)).digest('hex');
  assert.equal(hash(read('film-catalog.js','CULTURE_CATALOG').filter(f=>ids.has(f.id))),b.catalogue_sha256);
- assert.equal(hash(read('awards-2025.js','CULTURE_AWARDS').filter(e=>e.year<2011||e.year>2015)),b.awards_sha256);
+ assert.equal(hash(read('awards-2025.js','CULTURE_AWARDS').filter(e=>e.year>2015)),b.awards_sha256);
  assert.equal(hash(Object.fromEntries(Object.entries(read('film-details.js','CULTURE_FILM_DETAILS')).filter(([id])=>ids.has(Number(id))))),b.details_sha256);
 });
 

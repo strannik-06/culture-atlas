@@ -1,0 +1,46 @@
+{
+  "https://www.festival-cannes.com/en/f/che/": {
+    "manual_complete_film": {
+      "identity_key": "festival:cannes:2008:che",
+      "title": "Che",
+      "year": 2008,
+      "director": "Steven Soderbergh",
+      "runtime": 268,
+      "release_date": "2008-05-21",
+      "overview": "Steven Soderbergh follows Ernesto Che Guevara through two revolutionary campaigns. The first part traces his involvement in overthrowing the Batista regime in Cuba; the second follows his attempt to build a guerrilla movement in Bolivia. Benicio Del Toro portrays Guevara across the complete two-part film.",
+      "genres": [
+        "Drama",
+        "History",
+        "War"
+      ],
+      "countries": [
+        "US",
+        "FR",
+        "ES"
+      ],
+      "cast": [
+        "Benicio Del Toro",
+        "Demian Bichir",
+        "Julia Ormond",
+        "Carlos Bardem",
+        "Victor Rasuk"
+      ],
+      "original_language": "es",
+      "poster": "https://s3.amazonaws.com/criterion-production/films/4c9d05c3a4e297288956d667b30332c7/hCINFPsLgP4ggTVxwTci7CxtXIy8Y8_large.jpg",
+      "poster_source_url": "https://www.criterion.com/films/20987-che",
+      "cover_image_kind": "official-complete-film-cover",
+      "sources": [
+        "https://www.festival-cannes.com/en/f/che/",
+        "https://cdn-media.festival-cannes.com/film_film/0001/89/c31dc22f36be410e543e5955d0a2ba97c407b8e9.pdf",
+        "https://www.festival-cannes.com/en/2008/competition-che-by-steven-soderbergh/",
+        "https://www.criterion.com/films/20987-che"
+      ],
+      "note": "Complete two-part Cannes competition feature, premiered21May2008. Cannes lists268minutes(PartOne137+PartTwo131); Criterion director-approved later release lists271minutes. The complete work has no verified combined TMDB/IMDb identity; neither PartOne nor PartTwo provider ID is assigned. Cover is Criterion complete-film artwork; Cannes retrospective image was inspected and rejected because its small print explicitly says CHE PART ONE."
+    },
+    "note": "Reviewed providerless complete-film identity; preserves Cannes whole-work selection and Benicio Del Toro BestActor prize without falsely reusing individual-part provider identities.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/che/",
+      "https://www.criterion.com/films/20987-che"
+    ]
+  }
+}

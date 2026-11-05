@@ -2511,5 +2511,390 @@ window.CULTURE_AWARD_EVENT_DATES = [
         "source": "https://www.festival-cannes.com/en/2015/it-s-poster-time-at-the-festival-de-cannes/"
       }
     ]
+  },
+  {
+    "section": "films",
+    "event": "Oscars",
+    "year": 2006,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2006-03-05",
+        "source": "https://www.oscars.org/oscars/ceremonies/2006"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Oscars",
+    "year": 2007,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2007-02-25",
+        "source": "https://www.oscars.org/oscars/ceremonies/2007"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Oscars",
+    "year": 2008,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2008-02-24",
+        "source": "https://www.oscars.org/oscars/ceremonies/2008"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Oscars",
+    "year": 2009,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2009-02-22",
+        "source": "https://www.oscars.org/oscars/ceremonies/2009"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Oscars",
+    "year": 2010,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2010-03-07",
+        "source": "https://www.oscars.org/oscars/ceremonies/2010"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "BAFTA",
+    "year": 2006,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2006-02-19",
+        "source": "https://www.gettyimages.co.uk/detail/news-photo/film-director-ang-lee-poses-for-photographs-after-winning-news-photo/56886491"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "BAFTA",
+    "year": 2007,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2007-02-11",
+        "source": "https://static.bafta.org/files/bafta-ar-2006-07-79.pdf"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "BAFTA",
+    "year": 2008,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2008-02-10",
+        "source": "https://www.bafta.org/media-centre/press-releases/winners-announced/"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "BAFTA",
+    "year": 2009,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2009-02-08",
+        "source": "https://www.bafta.org/media-centre/press-releases/film-awards-in-2009-winners-announced/"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "BAFTA",
+    "year": 2010,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2010-02-21",
+        "source": "https://static.bafta.org/static/site/reviewoftheyear10/BAFTA_Review_of_the_Year_2009_2010.pdf"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Golden Globes",
+    "year": 2006,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2006-01-16",
+        "source": "https://goldenglobes.com/articles/golden-globe-announcements-november-16/"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Golden Globes",
+    "year": 2007,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2007-01-15",
+        "source": "https://goldenglobes.com/articles/hfpa-announces-timetable-64th-annual-golden-globe-awards/"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Golden Globes",
+    "year": 2008,
+    "dates": [
+      {
+        "label": "Winners announcement",
+        "start": "2008-01-13",
+        "source": "https://goldenglobes.com/articles/recipients-65th-annual-golden-globe-awards-be-announced-beverly-hilton-press-conference/"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Golden Globes",
+    "year": 2009,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2009-01-11",
+        "source": "https://goldenglobes.com/articles/66th-annual-golden-globe-award-winners/"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Golden Globes",
+    "year": 2010,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2010-01-17",
+        "source": "https://goldenglobes.com/articles/hfpa-finalizes-timetable-67th-annual-golden-globe-awards-telecast-will-be-aired-live-nbc/"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Berlinale",
+    "year": 2006,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2006-02-09",
+        "end": "2006-02-19",
+        "source": "https://www.berlinale.de/en/archive/yearbooks/2006.html"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Berlinale",
+    "year": 2007,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2007-02-08",
+        "end": "2007-02-18",
+        "source": "https://www.berlinale.de/en/archive/yearbooks/2007.html"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Berlinale",
+    "year": 2008,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2008-02-07",
+        "end": "2008-02-17",
+        "source": "https://www.berlinale.de/en/archive/yearbooks/2008.html"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Berlinale",
+    "year": 2009,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2009-02-05",
+        "end": "2009-02-15",
+        "source": "https://www.berlinale.de/en/archive/yearbooks/2009.html"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Berlinale",
+    "year": 2010,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2010-02-11",
+        "end": "2010-02-21",
+        "source": "https://www.berlinale.de/en/archive/yearbooks/2010.html"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Venice",
+    "year": 2006,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2006-08-30",
+        "end": "2006-09-09",
+        "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2006"
+      },
+      {
+        "label": "Awards ceremony",
+        "start": "2006-09-09",
+        "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2006"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Venice",
+    "year": 2007,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2007-08-29",
+        "end": "2007-09-08",
+        "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2007"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Venice",
+    "year": 2008,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2008-08-27",
+        "end": "2008-09-06",
+        "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2008"
+      },
+      {
+        "label": "Awards ceremony",
+        "start": "2008-09-06",
+        "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2008"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Venice",
+    "year": 2009,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2009-09-02",
+        "end": "2009-09-12",
+        "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2009"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Venice",
+    "year": 2010,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2010-09-01",
+        "end": "2010-09-11",
+        "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2010"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Cannes",
+    "year": 2006,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2006-05-17",
+        "end": "2006-05-28",
+        "source": "https://www.festival-cannes.com/2006/vincent-cassel-maitre-de-ceremonie-du-59eme-festival-de-cannes/"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Cannes",
+    "year": 2007,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2007-05-16",
+        "end": "2007-05-27",
+        "source": "https://www.festival-cannes.com/en/2007/diane-kruger-master-of-ceremonies-for-the-60th-festival-de-cannes/"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Cannes",
+    "year": 2008,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2008-05-14",
+        "end": "2008-05-25",
+        "source": "https://www.festival-cannes.com/en/2008/sean-penn-president-of-the-jury-of-the-61st-festival-de-cannes/"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Cannes",
+    "year": 2009,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2009-05-13",
+        "end": "2009-05-24",
+        "source": "https://www.festival-cannes.com/en/2009/isabelle-huppert-will-be-the-president-of-the-jury-of-the-62nd-festival-de-cannes/"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Cannes",
+    "year": 2010,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2010-05-12",
+        "end": "2010-05-23",
+        "source": "https://www.festival-cannes.com/en/2010/tim-burton-president-of-the-jury-of-the-63rd-festival-de-cannes/"
+      }
+    ]
   }
 ];

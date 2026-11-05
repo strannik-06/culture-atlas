@@ -1,0 +1,62 @@
+[
+  {
+    "section": "films",
+    "event": "Oscars",
+    "year": 2006,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2006-03-05",
+        "source": "https://www.oscars.org/oscars/ceremonies/2006"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Oscars",
+    "year": 2007,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2007-02-25",
+        "source": "https://www.oscars.org/oscars/ceremonies/2007"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Oscars",
+    "year": 2008,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2008-02-24",
+        "source": "https://www.oscars.org/oscars/ceremonies/2008"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Oscars",
+    "year": 2009,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2009-02-22",
+        "source": "https://www.oscars.org/oscars/ceremonies/2009"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Oscars",
+    "year": 2010,
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2010-03-07",
+        "source": "https://www.oscars.org/oscars/ceremonies/2010"
+      }
+    ]
+  }
+]

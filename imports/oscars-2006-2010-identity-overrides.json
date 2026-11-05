@@ -1,0 +1,59 @@
+{
+  "Oscars/2006/Wallace & Gromit in The Curse of the Were-Rabbit": {
+    "aliases": [
+      "Wallace & Gromit: The Curse of the Were-Rabbit",
+      "Wallace & Gromit: The Curse of the Were Rabbit"
+    ],
+    "director_aliases": [
+      "Nick Park, Steve Box"
+    ],
+    "note": "Academy title uses 'in'; producer uses a colon. Same 2005 feature directed by Nick Park and Steve Box.",
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2006",
+      "https://www.aardman.com/film-tv-games/the-curse-of-the-were-rabbit/",
+      "https://filmsandfestivals.britishcouncil.org/projects/wallace-and-gromit-the-curse-of-the-were-rabbit"
+    ]
+  },
+  "Oscars/2006/Tim Burton's Corpse Bride": {
+    "aliases": [
+      "Corpse Bride"
+    ],
+    "director_aliases": [
+      "Mike Johnson, Tim Burton"
+    ],
+    "note": "Provider may omit possessive director branding from the 2005 feature title.",
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2006",
+      "https://www.warnerbros.com/movies/tim-burtons-corpse-bride",
+      "https://www.bbfc.co.uk/release/corpse-bride-q29sbgvjdglvbjpwwc00mdy0ntq"
+    ]
+  },
+  "Oscars/2008/Mongol": {
+    "aliases": [
+      "Mongol: The Rise of Genghis Khan",
+      "Mongol: The Rise to Power of Genghis Khan"
+    ],
+    "director_aliases": [
+      "Sergei Bodrov"
+    ],
+    "note": "English distribution title includes a subtitle. Primary AFI and distributor records connect it to the 2008 Oscar nominee.",
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2008",
+      "https://watch.afi.com/movie/mongol",
+      "https://www.filmconsortium.com/mongol"
+    ]
+  },
+  "Oscars/2008/Juno": {
+    "actor_aliases": {
+      "Ellen Page": [
+        "Elliot Page"
+      ]
+    },
+    "note": "Ceremony archive retains the originally submitted nominee name. Academy Awards Database now identifies Elliot Page and explicitly notes the nomination was originally submitted under his prior name; current distributor credits agree.",
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2008",
+      "https://awardsdatabase.oscars.org/search/getresults?query=%7B%22Nominee%22%3A%22Page%22%2C%22Sort%22%3A%221-Nominee-Alpha%22%2C%22AwardShowNumberFrom%22%3A0%2C%22AwardShowNumberTo%22%3A0%2C%22Search%22%3A30%7D",
+      "https://www.20thcenturystudios.com/movies/juno"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "https://asac.labiennale.org/attivita/cinema/11292": {
+    "aliases": [
+      "When the Levees Broke: A Requiem in Four Acts",
+      "When the Levees Broke"
+    ],
+    "director_aliases": [
+      "Spike Lee"
+    ],
+    "tmdb_id": 58923,
+    "imdb_id": "tt0783612",
+    "required_runtime_range": [
+      250,
+      260
+    ],
+    "required_release_year": 2006,
+    "note": "ASAC misspells Levees as Leeves. The selected work is Spike Lee’s complete original four-act documentary, 255 minutes, not an individual act or the later 2007 epilogue. MoMA independently verifies complete-film scope, year, director and runtime. TMDB movie58923 is discovered through the public BetaSeries external provider link; generation must verify the API identity and runtime before use.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/11292",
+      "https://www.moma.org/calendar/events/10759",
+      "https://www.imdb.com/title/tt0783612/releaseinfo/",
+      "https://www.betaseries.com/en/movie/60922-when-the-levees-broke-a-requiem-in-four-acts",
+      "https://www.themoviedb.org/movie/58923"
+    ]
+  }
+}
