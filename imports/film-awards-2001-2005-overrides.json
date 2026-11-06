@@ -1052,5 +1052,14 @@
       "https://www.festival-cannes.com/en/f/marock/"
     ],
     "note": "Provider runtime is zero. Cannes official film record specifies 102 minutes; no curated existing metadata is overwritten."
+  },
+  "https://asac.labiennale.org/attivita/cinema/608": {
+    "imdb_id": "tt0295159",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/608",
+      "https://www.imdb.com/title/tt0295159/",
+      "https://eventbook.ro/film/bilete-cinemateca-online-ambasadori-cautam-patrie?hall=online"
+    ],
+    "note": "ASAC lists the complete feature in 2004 Orizzonti but omits runtime. The Romanian cinematheque screening identifies Mircea Daneliuc, 2003 and 111 minutes; IMDb discovery anchors the same feature. Source production-year difference is retained. Do not omit selected works solely because the archive has no duration."
   }
 }

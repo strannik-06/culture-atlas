@@ -62,7 +62,7 @@ def collect(year):
             # These historical second sections are competing features/docs.
             # Two 2004 archive records omit runtime; provider verification must
             # establish feature length before inclusion.
-            if name != 'Venezia Competition' and runtime < 40:
+            if name != 'Venezia Competition' and 0 < runtime < 40:
                 continue
             assert runtime >= 40 or record['id'] in [7681,608], (year,record['id'],record['titolo'])
             aliases = []

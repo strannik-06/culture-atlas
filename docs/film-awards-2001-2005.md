@@ -8,10 +8,10 @@ Thirty editions extend the six existing film awards/festivals through 2001. Edit
 | BAFTA | Ten established major feature categories available in these years | 252 |
 | Golden Globes | Eleven established major feature categories available in these years | 284 |
 | Cannes | Main Competition and feature Un Certain Regard | 212 |
-| Venice | Main Competition and historical second feature competition | 196 |
+| Venice | Main Competition and historical second feature competition | 197 |
 | Berlinale | Main Competition | 113 |
 
-The batch contains 1,321 nomination/selection records. Award-source files are `imports/{event}-2001-2005-source.json`. The combined identity audit and reviewed crosswalks are `imports/film-awards-2001-2005-{audit,overrides}.json`.
+The batch contains 1,322 nomination/selection records. Award-source files are `imports/{event}-2001-2005-source.json`. The combined identity audit and reviewed crosswalks are `imports/film-awards-2001-2005-{audit,overrides}.json`.
 
 ## Historical categories and sections
 
@@ -42,9 +42,8 @@ The prior 2006–2010 batch was registered after PR #128 merged: 638 catalogue r
 
 ## Completed identity and metadata audit
 
-All 921 source identities resolve to 700 distinct catalogue works, including 599 new entries. The catalogue grows from 4,681 to 5,280 films; award history grows from 126 to 156 editions. No source identities remain unresolved. Every new entry has a production year, synopsis and cover.
+Final source-count reconciliation restores the 2004 Orizzonti feature Ambassadors Seek Country (ASAC omits its runtime); the provider verifies its complete feature identity. Final identity totals follow generation. The baseline catalogue contains 4,681 films; award history grows from 126 to 156 editions. Every previously resolved new entry has a production year, synopsis and cover.
 
 Five missing provider covers are supplied from reviewed public film sources: Cannes release artwork for A Dog's Day and September, the cinematographer's official Tirana Year Zero still, Casablanca's Lilly's Story release poster, and the archived Temptations theatrical poster cross-checked against the Berlinale film identity. Source URLs and original image URLs are retained in `imports/film-awards-2001-2005-cover-sources.json`. Covers apply only to this batch's appended verified IDs.
 
 Validation compares all 30 editions with the normalized sources, checks historical category introductions and the shared 2002 Golden Bear, fingerprints all previously merged records, and executes registration twice in an isolated test database. The SQL preserves curated metadata and progress and aborts on provider conflicts. Final CI and Chromium review cover date visibility, winner filters, navigation, refresh and mobile layout.
-
