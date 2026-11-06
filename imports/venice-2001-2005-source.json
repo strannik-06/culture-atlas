@@ -1,0 +1,2723 @@
+{
+  "scope": "Venezia Competition and the official second feature competition: Cinema del Presente (2001), Controcorrente (2002–2003), Orizzonti (2004–2005). Historical section and prize names are retained. Shorts, special screenings, out-of-competition titles, independent parallel sections and honorary/collateral awards excluded.",
+  "events": [
+    {
+      "event": "Venice",
+      "year": 2001,
+      "section": "Official Selection",
+      "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2001",
+      "awardsSource": "https://asac.labiennale.org/attivita/cinema/annali?anno=2001",
+      "programmes": [
+        {
+          "name": "Venezia Competition",
+          "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2001",
+          "awardsSource": "https://asac.labiennale.org/attivita/cinema/annali?anno=2001",
+          "selection": [
+            {
+              "title": "Abril despedaçado",
+              "aliases": [
+                "Behind the Sun"
+              ],
+              "director": "Walter Salles",
+              "year": 2001,
+              "runtime": 106,
+              "source": "https://asac.labiennale.org/attivita/cinema/736"
+            },
+            {
+              "title": "Bully",
+              "aliases": [],
+              "director": "Larry Clark",
+              "year": 2001,
+              "runtime": 106,
+              "source": "https://asac.labiennale.org/attivita/cinema/578"
+            },
+            {
+              "title": "Dupa-amiaza unui tortionar",
+              "aliases": [
+                "L'après-midi d'un tortionnaire",
+                "The Afternoon of a Torturer"
+              ],
+              "director": "Lucian Pintilie",
+              "year": 2000,
+              "runtime": 88,
+              "source": "https://asac.labiennale.org/attivita/cinema/732"
+            },
+            {
+              "title": "Eden",
+              "aliases": [],
+              "director": "Amos Gitaï",
+              "year": 2001,
+              "runtime": 91,
+              "source": "https://asac.labiennale.org/attivita/cinema/581"
+            },
+            {
+              "title": "Heung gong yau gok hor lei wood",
+              "aliases": [
+                "Hollywood Hong-Kong"
+              ],
+              "director": "Fruit Chan",
+              "year": 2001,
+              "runtime": 105,
+              "source": "https://asac.labiennale.org/attivita/cinema/665"
+            },
+            {
+              "title": "How Harry Became a Tree",
+              "aliases": [
+                "Bitter Harvest"
+              ],
+              "director": "Goran Paskaljevic",
+              "year": 2001,
+              "runtime": 100,
+              "source": "https://asac.labiennale.org/attivita/cinema/700"
+            },
+            {
+              "title": "Hundstage",
+              "aliases": [
+                "Dog Days"
+              ],
+              "director": "Ulrich Seidl",
+              "year": 2001,
+              "runtime": 120,
+              "source": "https://asac.labiennale.org/attivita/cinema/741"
+            },
+            {
+              "title": "Loin",
+              "aliases": [
+                "Far",
+                "Faraway"
+              ],
+              "director": "Faouzi Bensaïdi, André Téchiné",
+              "year": 2000,
+              "runtime": 120,
+              "source": "https://asac.labiennale.org/attivita/cinema/756"
+            },
+            {
+              "title": "Luce dei miei occhi",
+              "aliases": [
+                "Light of My Eyes"
+              ],
+              "director": "Giuseppe Piccioni",
+              "year": 2001,
+              "runtime": 114,
+              "source": "https://asac.labiennale.org/attivita/cinema/721"
+            },
+            {
+              "title": "Luna rossa",
+              "aliases": [
+                "Red Moon"
+              ],
+              "director": "Antonio Capuano",
+              "year": 2001,
+              "runtime": 116,
+              "source": "https://asac.labiennale.org/attivita/cinema/577"
+            },
+            {
+              "title": "Monsoon Wedding",
+              "aliases": [],
+              "director": "Mira Nair",
+              "year": 2000,
+              "runtime": 114,
+              "source": "https://asac.labiennale.org/attivita/cinema/694"
+            },
+            {
+              "title": "Quem és tu?",
+              "aliases": [
+                "Who Are You?"
+              ],
+              "director": "João Botelho",
+              "year": 2001,
+              "runtime": 112,
+              "source": "https://asac.labiennale.org/attivita/cinema/576"
+            },
+            {
+              "title": "Raye Makhfi",
+              "aliases": [
+                "Secret Ballot",
+                "Void Votes"
+              ],
+              "director": "Babak Payami",
+              "year": 2001,
+              "runtime": 105,
+              "source": "https://asac.labiennale.org/attivita/cinema/708"
+            },
+            {
+              "title": "Sauvage innocence",
+              "aliases": [
+                "Wild Innocence"
+              ],
+              "director": "Philippe Garrel",
+              "year": 2001,
+              "runtime": 125,
+              "source": "https://asac.labiennale.org/attivita/cinema/580"
+            },
+            {
+              "title": "Suchwiin bulmyeong",
+              "aliases": [
+                "Soochwieen boolmyung",
+                "Address Unknown"
+              ],
+              "director": "Kim Ki-duk",
+              "year": 2001,
+              "runtime": 117,
+              "source": "https://asac.labiennale.org/attivita/cinema/670"
+            },
+            {
+              "title": "The Navigators",
+              "aliases": [],
+              "director": "Ken Loach",
+              "year": 2001,
+              "runtime": 92,
+              "source": "https://asac.labiennale.org/attivita/cinema/683"
+            },
+            {
+              "title": "The Others",
+              "aliases": [
+                "The Darkness"
+              ],
+              "director": "Alejandro Amenábar",
+              "year": 2001,
+              "runtime": 104,
+              "source": "https://asac.labiennale.org/attivita/cinema/575"
+            },
+            {
+              "title": "The Triumph of Love",
+              "aliases": [],
+              "director": "Clare Peploe",
+              "year": 2001,
+              "runtime": 107,
+              "source": "https://asac.labiennale.org/attivita/cinema/716"
+            },
+            {
+              "title": "Waking Life",
+              "aliases": [],
+              "director": "Richard Linklater",
+              "year": 2001,
+              "runtime": 100,
+              "source": "https://asac.labiennale.org/attivita/cinema/677"
+            },
+            {
+              "title": "Y tu mamá también",
+              "aliases": [
+                "And Your Mother Too"
+              ],
+              "director": "Alfonso Cuarón",
+              "year": 2001,
+              "runtime": 105,
+              "source": "https://asac.labiennale.org/attivita/cinema/579"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Lion",
+              "original_name": "Leone d'oro per il miglior film",
+              "entries": [
+                {
+                  "title": "Monsoon Wedding",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2001"
+            },
+            {
+              "name": "Special Directing Award",
+              "original_name": "Premio speciale per la regia",
+              "entries": [
+                {
+                  "title": "Raye Makhfi",
+                  "winner": true,
+                  "people": [
+                    "Babak Payami"
+                  ]
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2001"
+            },
+            {
+              "name": "Grand Jury Prize",
+              "original_name": "Gran Premio della Giuria",
+              "entries": [
+                {
+                  "title": "Hundstage",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2001"
+            },
+            {
+              "name": "Best Actor",
+              "original_name": "Coppa Volpi per la migliore interpretazione maschile",
+              "entries": [
+                {
+                  "title": "Luce dei miei occhi",
+                  "winner": true,
+                  "people": [
+                    "Luigi Lo Cascio"
+                  ]
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2001"
+            },
+            {
+              "name": "Best Actress",
+              "original_name": "Coppa Volpi per la migliore interpretazione femminile",
+              "entries": [
+                {
+                  "title": "Luce dei miei occhi",
+                  "winner": true,
+                  "people": [
+                    "Sandra Ceccarelli"
+                  ]
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2001"
+            },
+            {
+              "name": "Marcello Mastroianni Award",
+              "original_name": "Premio \"Marcello Mastroianni\" (a un giovane attore/attrice emergente)",
+              "entries": [
+                {
+                  "title": "Y tu mamá también",
+                  "winner": true,
+                  "people": [
+                    "Diego Luna",
+                    "Gael García Bernal"
+                  ]
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2001"
+            },
+            {
+              "name": "Best Screenplay",
+              "original_name": "Premio per la migliore sceneggiatura",
+              "entries": [
+                {
+                  "title": "Y tu mamá también",
+                  "winner": true,
+                  "people": [
+                    "Alfonso Cuarón",
+                    "Carlos Cuarón"
+                  ]
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2001"
+            }
+          ]
+        },
+        {
+          "name": "Cinema del Presente",
+          "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2001",
+          "awardsSource": "https://asac.labiennale.org/attivita/cinema/annali?anno=2001",
+          "selection": [
+            {
+              "title": "Fifi Martingale",
+              "aliases": [],
+              "director": "Jacques Rozier",
+              "year": 2001,
+              "runtime": 127,
+              "source": "https://asac.labiennale.org/attivita/cinema/1090"
+            },
+            {
+              "title": "Figli - Hijos",
+              "aliases": [
+                "Sons and Daughters"
+              ],
+              "director": "Marco Bechis",
+              "year": 2001,
+              "runtime": 100,
+              "source": "https://asac.labiennale.org/attivita/cinema/1051"
+            },
+            {
+              "title": "Gaichu",
+              "aliases": [
+                "Harmful Insect"
+              ],
+              "director": "Akihiko Shiota",
+              "year": 2001,
+              "runtime": 92,
+              "source": "https://asac.labiennale.org/attivita/cinema/1091"
+            },
+            {
+              "title": "Ggot seom",
+              "aliases": [
+                "Flower Island"
+              ],
+              "director": "Il-gon Song",
+              "year": 2001,
+              "runtime": 119,
+              "source": "https://asac.labiennale.org/attivita/cinema/1092"
+            },
+            {
+              "title": "Haixian",
+              "aliases": [
+                "Hai Xian",
+                "Seafood"
+              ],
+              "director": "Wen Zhu",
+              "year": 2001,
+              "runtime": 83,
+              "source": "https://asac.labiennale.org/attivita/cinema/1100"
+            },
+            {
+              "title": "Invincible",
+              "aliases": [],
+              "director": "Werner Herzog",
+              "year": 2001,
+              "runtime": 130,
+              "source": "https://asac.labiennale.org/attivita/cinema/1079"
+            },
+            {
+              "title": "L'amore imperfetto",
+              "aliases": [],
+              "director": "Giovanni Davide Maderna",
+              "year": 2001,
+              "runtime": 92,
+              "source": "https://asac.labiennale.org/attivita/cinema/1088"
+            },
+            {
+              "title": "L'amore probabilmente",
+              "aliases": [
+                "Probably Love"
+              ],
+              "director": "Giuseppe Bertolucci",
+              "year": 2000,
+              "runtime": 108,
+              "source": "https://asac.labiennale.org/attivita/cinema/1056"
+            },
+            {
+              "title": "L'emploi du temps",
+              "aliases": [
+                "Time out"
+              ],
+              "director": "Laurent Cantet",
+              "year": 2001,
+              "runtime": 133,
+              "source": "https://asac.labiennale.org/attivita/cinema/1065"
+            },
+            {
+              "title": "L'uomo in più",
+              "aliases": [
+                "One Man up"
+              ],
+              "director": "Paolo Sorrentino",
+              "year": 2001,
+              "runtime": 100,
+              "source": "https://asac.labiennale.org/attivita/cinema/1093"
+            },
+            {
+              "title": "La fiebre del loco",
+              "aliases": [],
+              "director": "Andrés Wood",
+              "year": 2001,
+              "runtime": 90,
+              "source": "https://asac.labiennale.org/attivita/cinema/1098"
+            },
+            {
+              "title": "Le souffle",
+              "aliases": [
+                "Deep Breath"
+              ],
+              "director": "Damien Odoul",
+              "year": 2000,
+              "runtime": 80,
+              "source": "https://asac.labiennale.org/attivita/cinema/1089"
+            },
+            {
+              "title": "Me without You",
+              "aliases": [],
+              "director": "Sandra Goldbacher",
+              "year": 2001,
+              "runtime": 107,
+              "source": "https://asac.labiennale.org/attivita/cinema/1070"
+            },
+            {
+              "title": "Reines d'un jour",
+              "aliases": [
+                "A Hell of a Day"
+              ],
+              "director": "Marion Vernoux",
+              "year": 2001,
+              "runtime": 94,
+              "source": "https://asac.labiennale.org/attivita/cinema/1095"
+            },
+            {
+              "title": "Syostry",
+              "aliases": [
+                "Sestry",
+                "Sisters"
+              ],
+              "director": "Sergei Bodrov Jr.",
+              "year": 2001,
+              "runtime": 85,
+              "source": "https://asac.labiennale.org/attivita/cinema/1059"
+            },
+            {
+              "title": "Sábado",
+              "aliases": [
+                "Saturday"
+              ],
+              "director": "Juan (II) Villegas",
+              "year": 2001,
+              "runtime": 70,
+              "source": "https://asac.labiennale.org/attivita/cinema/1097"
+            },
+            {
+              "title": "Thirteen Conversations about one Thing",
+              "aliases": [
+                "13 Conversations About One Thing",
+                "13 Conversations"
+              ],
+              "director": "Jill Sprecher",
+              "year": 2001,
+              "runtime": 94,
+              "source": "https://asac.labiennale.org/attivita/cinema/1094"
+            },
+            {
+              "title": "Tirana Year Zero",
+              "aliases": [],
+              "director": "Fatmir Koçi",
+              "year": 2001,
+              "runtime": 89,
+              "source": "https://asac.labiennale.org/attivita/cinema/1085"
+            },
+            {
+              "title": "Tuhog",
+              "aliases": [
+                "Larger than Life"
+              ],
+              "director": "Jeffrey Jeturian",
+              "year": 2000,
+              "runtime": 105,
+              "source": "https://asac.labiennale.org/attivita/cinema/1081"
+            },
+            {
+              "title": "Zuotian",
+              "aliases": [
+                "Quitting"
+              ],
+              "director": "Yang (II) Zhang",
+              "year": 2001,
+              "runtime": 118,
+              "source": "https://asac.labiennale.org/attivita/cinema/1099"
+            },
+            {
+              "title": "Água e sal",
+              "aliases": [
+                "Water and Salt"
+              ],
+              "director": "Teresa Villaverde",
+              "year": 2001,
+              "runtime": 117,
+              "source": "https://asac.labiennale.org/attivita/cinema/1096"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Cinema del Presente — Lion of the Year",
+              "original_name": "Cinema del Presente - Leone dell'anno",
+              "entries": [
+                {
+                  "title": "L'emploi du temps",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2001"
+            },
+            {
+              "name": "Cinema del Presente Special Jury Prize",
+              "original_name": "Premio speciale della Giuria Cinema del Presente (Ex aequo)",
+              "entries": [
+                {
+                  "title": "Haixian",
+                  "winner": true,
+                  "people": []
+                },
+                {
+                  "title": "Le souffle",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2001"
+            }
+          ]
+        }
+      ],
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2001-08-29",
+          "end": "2001-09-08",
+          "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2001"
+        }
+      ]
+    },
+    {
+      "event": "Venice",
+      "year": 2002,
+      "section": "Official Selection",
+      "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2002",
+      "awardsSource": "https://asac.labiennale.org/attivita/cinema/annali?anno=2002",
+      "programmes": [
+        {
+          "name": "Venezia Competition",
+          "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2002",
+          "awardsSource": "https://asac.labiennale.org/attivita/cinema/annali?anno=2002",
+          "selection": [
+            {
+              "title": "Au plus près du paradis",
+              "aliases": [
+                "Nearest to Heaven"
+              ],
+              "director": "Tonie Marshall",
+              "year": 2002,
+              "runtime": 90,
+              "source": "https://asac.labiennale.org/attivita/cinema/3036"
+            },
+            {
+              "title": "Bear's Kiss",
+              "aliases": [],
+              "director": "Sergei Bodrov",
+              "year": 2002,
+              "runtime": 92,
+              "source": "https://asac.labiennale.org/attivita/cinema/3021"
+            },
+            {
+              "title": "Dirty Pretty Things",
+              "aliases": [],
+              "director": "Stephen Frears",
+              "year": 2002,
+              "runtime": 98,
+              "source": "https://asac.labiennale.org/attivita/cinema/3027"
+            },
+            {
+              "title": "Dolls",
+              "aliases": [],
+              "director": "Takeshi Kitano",
+              "year": 2002,
+              "runtime": 113,
+              "source": "https://asac.labiennale.org/attivita/cinema/3032"
+            },
+            {
+              "title": "Dom durakov",
+              "aliases": [
+                "Dom durakov - La maison de fous",
+                "House of Fools"
+              ],
+              "director": "Andrey Konchalovskiy",
+              "year": 2002,
+              "runtime": 104,
+              "source": "https://asac.labiennale.org/attivita/cinema/3033"
+            },
+            {
+              "title": "Far from Heaven",
+              "aliases": [],
+              "director": "Todd Haynes",
+              "year": 2002,
+              "runtime": 107,
+              "source": "https://asac.labiennale.org/attivita/cinema/3030"
+            },
+            {
+              "title": "Frida",
+              "aliases": [
+                "Frida Kahlo"
+              ],
+              "director": "Julie Taymor",
+              "year": 2002,
+              "runtime": 119,
+              "source": "https://asac.labiennale.org/attivita/cinema/3040"
+            },
+            {
+              "title": "Führer Ex",
+              "aliases": [],
+              "director": "Winfried Bonengel",
+              "year": 2002,
+              "runtime": 105,
+              "source": "https://asac.labiennale.org/attivita/cinema/3022"
+            },
+            {
+              "title": "Julie Walking Home",
+              "aliases": [
+                "The Healer"
+              ],
+              "director": "Agnieszka Holland",
+              "year": 2002,
+              "runtime": 118,
+              "source": "https://asac.labiennale.org/attivita/cinema/3031"
+            },
+            {
+              "title": "L'homme du train",
+              "aliases": [
+                "The Train Man",
+                "Man on the Train"
+              ],
+              "director": "Patrice Leconte",
+              "year": 2002,
+              "runtime": 90,
+              "source": "https://asac.labiennale.org/attivita/cinema/3034"
+            },
+            {
+              "title": "La forza del passato",
+              "aliases": [
+                "The Power of the Past"
+              ],
+              "director": "Piergiorgio Gay",
+              "year": 2002,
+              "runtime": 98,
+              "source": "https://asac.labiennale.org/attivita/cinema/3028"
+            },
+            {
+              "title": "Mei li shi guang",
+              "aliases": [
+                "Meili shiguang",
+                "The Best of Times"
+              ],
+              "director": "Tso-chi Chang",
+              "year": 2002,
+              "runtime": 109,
+              "source": "https://asac.labiennale.org/attivita/cinema/3023"
+            },
+            {
+              "title": "Nackt",
+              "aliases": [
+                "Naked"
+              ],
+              "director": "Doris Dörrie",
+              "year": 2002,
+              "runtime": 100,
+              "source": "https://asac.labiennale.org/attivita/cinema/3026"
+            },
+            {
+              "title": "Nha fala",
+              "aliases": [
+                "My Voice"
+              ],
+              "director": "Flora Gomes",
+              "year": 2002,
+              "runtime": 90,
+              "source": "https://asac.labiennale.org/attivita/cinema/3029"
+            },
+            {
+              "title": "Oasis",
+              "aliases": [],
+              "director": "Chang-dong Lee",
+              "year": 2002,
+              "runtime": 132,
+              "source": "https://asac.labiennale.org/attivita/cinema/3035"
+            },
+            {
+              "title": "Road to Perdition",
+              "aliases": [],
+              "director": "Sam Mendes",
+              "year": 2002,
+              "runtime": 119,
+              "source": "https://asac.labiennale.org/attivita/cinema/3037"
+            },
+            {
+              "title": "The Magdalene Sisters",
+              "aliases": [],
+              "director": "Peter Mullan",
+              "year": 2002,
+              "runtime": 119,
+              "source": "https://asac.labiennale.org/attivita/cinema/3038"
+            },
+            {
+              "title": "The Tracker",
+              "aliases": [],
+              "director": "Rolf de Heer",
+              "year": 2002,
+              "runtime": 98,
+              "source": "https://asac.labiennale.org/attivita/cinema/3024"
+            },
+            {
+              "title": "Un monde presque paisible",
+              "aliases": [
+                "Almost Peaceful World",
+                "Almost Peaceful"
+              ],
+              "director": "Michel Deville",
+              "year": 2002,
+              "runtime": 93,
+              "source": "https://asac.labiennale.org/attivita/cinema/3025"
+            },
+            {
+              "title": "Un viaggio chiamato amore",
+              "aliases": [
+                "A Journey Called Love",
+                "A Scandalous Journey"
+              ],
+              "director": "Michele Placido",
+              "year": 2002,
+              "runtime": 96,
+              "source": "https://asac.labiennale.org/attivita/cinema/3039"
+            },
+            {
+              "title": "Velocità massima",
+              "aliases": [
+                "Maximum Velocity"
+              ],
+              "director": "Daniele Vicari",
+              "year": 2002,
+              "runtime": 111,
+              "source": "https://asac.labiennale.org/attivita/cinema/3041"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Lion",
+              "original_name": "Leone d'oro per il miglior film",
+              "entries": [
+                {
+                  "title": "The Magdalene Sisters",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2002"
+            },
+            {
+              "name": "Special Directing Award",
+              "original_name": "Premio speciale per la regia",
+              "entries": [
+                {
+                  "title": "Oasis",
+                  "winner": true,
+                  "people": [
+                    "Chang-dong Lee"
+                  ]
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2002"
+            },
+            {
+              "name": "Grand Jury Prize",
+              "original_name": "Gran Premio della Giuria",
+              "entries": [
+                {
+                  "title": "Dom durakov",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2002"
+            },
+            {
+              "name": "Best Actor",
+              "original_name": "Coppa Volpi per la migliore interpretazione maschile",
+              "entries": [
+                {
+                  "title": "Un viaggio chiamato amore",
+                  "winner": true,
+                  "people": [
+                    "Stefano Accorsi"
+                  ]
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2002"
+            },
+            {
+              "name": "Best Actress",
+              "original_name": "Coppa Volpi per la migliore interpretazione femminile",
+              "entries": [
+                {
+                  "title": "Far from Heaven",
+                  "winner": true,
+                  "people": [
+                    "Julianne Moore"
+                  ]
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2002"
+            },
+            {
+              "name": "Marcello Mastroianni Award",
+              "original_name": "Premio \"Marcello Mastroianni\" (a un giovane attore/attrice emergente)",
+              "entries": [
+                {
+                  "title": "Oasis",
+                  "winner": true,
+                  "people": [
+                    "So-ri Moon"
+                  ]
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2002"
+            },
+            {
+              "name": "Outstanding Individual Contribution",
+              "original_name": "Premio per un contributo individuale di particolare rilievo",
+              "entries": [
+                {
+                  "title": "Far from Heaven",
+                  "winner": true,
+                  "people": [
+                    "Edward Lachman"
+                  ]
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2002"
+            }
+          ]
+        },
+        {
+          "name": "Controcorrente",
+          "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2002",
+          "awardsSource": "https://asac.labiennale.org/attivita/cinema/annali?anno=2002",
+          "selection": [
+            {
+              "title": "Full Frontal",
+              "aliases": [],
+              "director": "Steven Soderbergh",
+              "year": 2002,
+              "runtime": 111,
+              "source": "https://asac.labiennale.org/attivita/cinema/3064"
+            },
+            {
+              "title": "Hwajangshil eodieyo?",
+              "aliases": [
+                "Ren min gong che",
+                "Public Toilet"
+              ],
+              "director": "Fruit Chan",
+              "year": 2002,
+              "runtime": 102,
+              "source": "https://asac.labiennale.org/attivita/cinema/3051"
+            },
+            {
+              "title": "Ken Park",
+              "aliases": [],
+              "director": "Edward Lachman, Larry Clark",
+              "year": 2002,
+              "runtime": 96,
+              "source": "https://asac.labiennale.org/attivita/cinema/3052"
+            },
+            {
+              "title": "L'anima gemella",
+              "aliases": [
+                "Soul Mate"
+              ],
+              "director": "Sergio Rubini",
+              "year": 2002,
+              "runtime": 104,
+              "source": "https://asac.labiennale.org/attivita/cinema/3062"
+            },
+            {
+              "title": "La virgen de la lujuria",
+              "aliases": [
+                "The Virgin of Lust"
+              ],
+              "director": "Arturo Ripstein",
+              "year": 2001,
+              "runtime": 140,
+              "source": "https://asac.labiennale.org/attivita/cinema/3061"
+            },
+            {
+              "title": "Lilja 4-ever",
+              "aliases": [],
+              "director": "Lukas Moodysson",
+              "year": 2002,
+              "runtime": 109,
+              "source": "https://asac.labiennale.org/attivita/cinema/3060"
+            },
+            {
+              "title": "Lilly's Story",
+              "aliases": [],
+              "director": "Roviros Manthoulis",
+              "year": 2002,
+              "runtime": 130,
+              "source": "https://asac.labiennale.org/attivita/cinema/3059"
+            },
+            {
+              "title": "Musikk for bryllup og begravelser",
+              "aliases": [
+                "Music for Weddings and Funerals"
+              ],
+              "director": "Unni Straume",
+              "year": 2002,
+              "runtime": 97,
+              "source": "https://asac.labiennale.org/attivita/cinema/3065"
+            },
+            {
+              "title": "Nizhalkkuthu",
+              "aliases": [
+                "Nizhalkkuthu / Ombres obscures"
+              ],
+              "director": "Adoor Gopalakrishnan",
+              "year": 2002,
+              "runtime": 90,
+              "source": "https://asac.labiennale.org/attivita/cinema/3055"
+            },
+            {
+              "title": "Nuomos sutartis",
+              "aliases": [
+                "The Lease"
+              ],
+              "director": "Kristijonas Vildziunas",
+              "year": 2002,
+              "runtime": 78,
+              "source": "https://asac.labiennale.org/attivita/cinema/3068"
+            },
+            {
+              "title": "Poniente",
+              "aliases": [],
+              "director": "Chus Gutiérrez",
+              "year": 2002,
+              "runtime": 96,
+              "source": "https://asac.labiennale.org/attivita/cinema/3056"
+            },
+            {
+              "title": "Rokugatsu no hebi",
+              "aliases": [
+                "A Snake of June"
+              ],
+              "director": "Shinya Tsukamoto",
+              "year": 2002,
+              "runtime": 77,
+              "source": "https://asac.labiennale.org/attivita/cinema/3067"
+            },
+            {
+              "title": "Rosa la china",
+              "aliases": [],
+              "director": "Valeria Sarmiento",
+              "year": 2002,
+              "runtime": 102,
+              "source": "https://asac.labiennale.org/attivita/cinema/3063"
+            },
+            {
+              "title": "Un homme sans l'Occident",
+              "aliases": [
+                "A Man Without the West",
+                "Untouched by the West"
+              ],
+              "director": "Raymond Depardon",
+              "year": 2002,
+              "runtime": 105,
+              "source": "https://asac.labiennale.org/attivita/cinema/3054"
+            },
+            {
+              "title": "Vendredi soir",
+              "aliases": [
+                "Friday Night"
+              ],
+              "director": "Claire Denis",
+              "year": 2002,
+              "runtime": 90,
+              "source": "https://asac.labiennale.org/attivita/cinema/3053"
+            },
+            {
+              "title": "Xiao cheng zhi chun",
+              "aliases": [],
+              "director": "Zhuangzhuang Tian",
+              "year": 2002,
+              "runtime": 116,
+              "source": "https://asac.labiennale.org/attivita/cinema/3066"
+            },
+            {
+              "title": "Xun qiang",
+              "aliases": [
+                "The Missing Gun"
+              ],
+              "director": "Chuan Lu",
+              "year": 2001,
+              "runtime": 90,
+              "source": "https://asac.labiennale.org/attivita/cinema/3058"
+            },
+            {
+              "title": "Zendan-e zanan",
+              "aliases": [
+                "Women's Prison"
+              ],
+              "director": "Manijeh Hekmat",
+              "year": 2002,
+              "runtime": 106,
+              "source": "https://asac.labiennale.org/attivita/cinema/3057"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Special Jury Prize",
+              "original_name": "Premio speciale della Giuria",
+              "entries": [
+                {
+                  "title": "Rokugatsu no hebi",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2002"
+            },
+            {
+              "name": "San Marco Award",
+              "original_name": "Premio San Marco",
+              "entries": [
+                {
+                  "title": "Xiao cheng zhi chun",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2002"
+            },
+            {
+              "name": "Special Mention",
+              "original_name": "Menzione Speciale",
+              "entries": [
+                {
+                  "title": "Hwajangshil eodieyo?",
+                  "winner": true,
+                  "people": []
+                },
+                {
+                  "title": "La virgen de la lujuria",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2002"
+            }
+          ]
+        }
+      ],
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2002-08-29",
+          "end": "2002-09-08",
+          "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2002"
+        }
+      ]
+    },
+    {
+      "event": "Venice",
+      "year": 2003,
+      "section": "Official Selection",
+      "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2003",
+      "awardsSource": "https://asac.labiennale.org/attivita/cinema/annali?anno=2003",
+      "programmes": [
+        {
+          "name": "Venezia Competition",
+          "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2003",
+          "awardsSource": "https://asac.labiennale.org/attivita/cinema/annali?anno=2003",
+          "selection": [
+            {
+              "title": "21 Grams",
+              "aliases": [],
+              "director": "Alejandro G. Iñárritu",
+              "year": 2003,
+              "runtime": 125,
+              "source": "https://asac.labiennale.org/attivita/cinema/1983"
+            },
+            {
+              "title": "Alila",
+              "aliases": [],
+              "director": "Amos Gitaï",
+              "year": 2003,
+              "runtime": 120,
+              "source": "https://asac.labiennale.org/attivita/cinema/1982"
+            },
+            {
+              "title": "Baramnan gajok",
+              "aliases": [
+                "Baram-Nam Gajok",
+                "A Good Lawyer's Wife"
+              ],
+              "director": "Sangsoo Im",
+              "year": 2003,
+              "runtime": 104,
+              "source": "https://asac.labiennale.org/attivita/cinema/1985"
+            },
+            {
+              "title": "Bu jian bu san",
+              "aliases": [
+                "Bu San",
+                "Good Bye, Dragon Inn"
+              ],
+              "director": "Tsai Ming-liang",
+              "year": 2003,
+              "runtime": 82,
+              "source": "https://asac.labiennale.org/attivita/cinema/1993"
+            },
+            {
+              "title": "Buongiorno, notte",
+              "aliases": [
+                "Goodmorning, Night",
+                "Good Morning, Night"
+              ],
+              "director": "Marco Bellocchio",
+              "year": 2003,
+              "runtime": 105,
+              "source": "https://asac.labiennale.org/attivita/cinema/1975"
+            },
+            {
+              "title": "Code 46",
+              "aliases": [],
+              "director": "Michael Winterbottom",
+              "year": 2003,
+              "runtime": 90,
+              "source": "https://asac.labiennale.org/attivita/cinema/1995"
+            },
+            {
+              "title": "Il Miracolo",
+              "aliases": [
+                "The Miracle"
+              ],
+              "director": "Edoardo Winspeare",
+              "year": 2003,
+              "runtime": 93,
+              "source": "https://asac.labiennale.org/attivita/cinema/1994"
+            },
+            {
+              "title": "Imagining Argentina",
+              "aliases": [],
+              "director": "Christopher Hampton",
+              "year": 2002,
+              "runtime": 107,
+              "source": "https://asac.labiennale.org/attivita/cinema/1984"
+            },
+            {
+              "title": "Le cerf-volant",
+              "aliases": [
+                "The Kite"
+              ],
+              "director": "Randa Chahal Sabbag",
+              "year": 2003,
+              "runtime": 80,
+              "source": "https://asac.labiennale.org/attivita/cinema/1977"
+            },
+            {
+              "title": "Les sentiments",
+              "aliases": [
+                "Feelings"
+              ],
+              "director": "Noémie Lvovsky",
+              "year": 2003,
+              "runtime": 90,
+              "source": "https://asac.labiennale.org/attivita/cinema/1990"
+            },
+            {
+              "title": "Lian zhi feng jing",
+              "aliases": [
+                "The Floating Landscape"
+              ],
+              "director": "Carol Lai Miu Suet",
+              "year": 2003,
+              "runtime": 100,
+              "source": "https://asac.labiennale.org/attivita/cinema/1989"
+            },
+            {
+              "title": "Pornografia",
+              "aliases": [
+                "Pornography"
+              ],
+              "director": "Jan Jakub Kolski",
+              "year": 2003,
+              "runtime": 118,
+              "source": "https://asac.labiennale.org/attivita/cinema/1988"
+            },
+            {
+              "title": "Raja",
+              "aliases": [],
+              "director": "Jacques Doillon",
+              "year": 2003,
+              "runtime": 112,
+              "source": "https://asac.labiennale.org/attivita/cinema/1980"
+            },
+            {
+              "title": "Rosenstrasse",
+              "aliases": [],
+              "director": "Margarethe von Trotta",
+              "year": 2003,
+              "runtime": 136,
+              "source": "https://asac.labiennale.org/attivita/cinema/1992"
+            },
+            {
+              "title": "Segreti di stato",
+              "aliases": [
+                "Secret File"
+              ],
+              "director": "Paolo Benvenuti",
+              "year": 2003,
+              "runtime": 85,
+              "source": "https://asac.labiennale.org/attivita/cinema/1976"
+            },
+            {
+              "title": "Sjaj u očima",
+              "aliases": [
+                "Loving Glances"
+              ],
+              "director": "Srdjan Karanovic",
+              "year": 2003,
+              "runtime": 97,
+              "source": "https://asac.labiennale.org/attivita/cinema/1986"
+            },
+            {
+              "title": "Twentynine Palms",
+              "aliases": [],
+              "director": "Bruno Dumont",
+              "year": 2003,
+              "runtime": 109,
+              "source": "https://asac.labiennale.org/attivita/cinema/1981"
+            },
+            {
+              "title": "Um filme falado",
+              "aliases": [
+                "A Talking Picture"
+              ],
+              "director": "Manoel de Oliveira",
+              "year": 2003,
+              "runtime": 96,
+              "source": "https://asac.labiennale.org/attivita/cinema/1991"
+            },
+            {
+              "title": "Vozvrashcheniye",
+              "aliases": [
+                "The Return"
+              ],
+              "director": "Andrei Zvyagintsev",
+              "year": 2003,
+              "runtime": 105,
+              "source": "https://asac.labiennale.org/attivita/cinema/1996"
+            },
+            {
+              "title": "Zatôichi",
+              "aliases": [
+                "Zatoichi",
+                "The Blind Swordsman: Zatoichi",
+                "Takeshi Kitano's Zatoichi"
+              ],
+              "director": "Takeshi Kitano",
+              "year": 2003,
+              "runtime": 115,
+              "source": "https://asac.labiennale.org/attivita/cinema/1987"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Lion",
+              "original_name": "Leone d'oro per il miglior film",
+              "entries": [
+                {
+                  "title": "Vozvrashcheniye",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2003"
+            },
+            {
+              "name": "Silver Lion — Grand Jury Prize",
+              "original_name": "Leone d'argento - Gran Premio della Giuria",
+              "entries": [
+                {
+                  "title": "Le cerf-volant",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2003"
+            },
+            {
+              "name": "Best Director",
+              "original_name": "Leone d'argento per la migliore regia",
+              "entries": [
+                {
+                  "title": "Zatôichi",
+                  "winner": true,
+                  "people": [
+                    "Takeshi Kitano"
+                  ]
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2003"
+            },
+            {
+              "name": "Volpi Cup",
+              "original_name": "Coppa Volpi",
+              "entries": [
+                {
+                  "title": "21 Grams",
+                  "winner": true,
+                  "people": [
+                    "Sean Penn"
+                  ]
+                },
+                {
+                  "title": "Rosenstrasse",
+                  "winner": true,
+                  "people": [
+                    "Katja Riemann"
+                  ]
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2003"
+            },
+            {
+              "name": "Marcello Mastroianni Award",
+              "original_name": "Premio \"Marcello Mastroianni\" (a un giovane attore/attrice emergente)",
+              "entries": [
+                {
+                  "title": "Raja",
+                  "winner": true,
+                  "people": [
+                    "Najat Benssallem"
+                  ]
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2003"
+            },
+            {
+              "name": "Lion of the Future",
+              "original_name": "Leone del Futuro - Premio Venezia Opera Prima “Luigi De Laurentiis”",
+              "entries": [
+                {
+                  "title": "Vozvrashcheniye",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2003"
+            },
+            {
+              "name": "Outstanding Individual Contribution",
+              "original_name": "Premio per un contributo individuale di particolare rilievo",
+              "entries": [
+                {
+                  "title": "Buongiorno, notte",
+                  "winner": true,
+                  "people": [
+                    "Marco Bellocchio"
+                  ]
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2003"
+            }
+          ]
+        },
+        {
+          "name": "Controcorrente",
+          "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2003",
+          "awardsSource": "https://asac.labiennale.org/attivita/cinema/annali?anno=2003",
+          "selection": [
+            {
+              "title": "Abar Arannye",
+              "aliases": [
+                "In the Forest... Again"
+              ],
+              "director": "Goutam Ghose",
+              "year": 2003,
+              "runtime": 123,
+              "source": "https://asac.labiennale.org/attivita/cinema/2626"
+            },
+            {
+              "title": "Abjad",
+              "aliases": [
+                "The First Letter"
+              ],
+              "director": "Abolfazl Jalili",
+              "year": 2003,
+              "runtime": 110,
+              "source": "https://asac.labiennale.org/attivita/cinema/2630"
+            },
+            {
+              "title": "Antena",
+              "aliases": [
+                "Antenna"
+              ],
+              "director": "Kazuyoshi Kumakiri",
+              "year": 2002,
+              "runtime": 117,
+              "source": "https://asac.labiennale.org/attivita/cinema/2632"
+            },
+            {
+              "title": "Casa de los Babys",
+              "aliases": [],
+              "director": "John Sayles",
+              "year": 2002,
+              "runtime": 96,
+              "source": "https://asac.labiennale.org/attivita/cinema/2691"
+            },
+            {
+              "title": "De Fem Benspænd",
+              "aliases": [],
+              "director": "Jørgen Leth, Lars von Trier",
+              "year": 2003,
+              "runtime": 90,
+              "source": "https://asac.labiennale.org/attivita/cinema/2635"
+            },
+            {
+              "title": "Il ritorno di Cagliostro",
+              "aliases": [
+                "The Return of Cagliostro"
+              ],
+              "director": "Franco Maresco, Daniele Ciprì",
+              "year": 2003,
+              "runtime": 100,
+              "source": "https://asac.labiennale.org/attivita/cinema/2586"
+            },
+            {
+              "title": "La quimera de los heroes",
+              "aliases": [
+                "The Chimera of Heroes"
+              ],
+              "director": "Daniel Rosenfeld",
+              "year": 2003,
+              "runtime": 70,
+              "source": "https://asac.labiennale.org/attivita/cinema/2670"
+            },
+            {
+              "title": "Le soleil assassiné",
+              "aliases": [
+                "The Assassinated Sun"
+              ],
+              "director": "Abdelkrim Bahloul",
+              "year": 2002,
+              "runtime": 90,
+              "source": "https://asac.labiennale.org/attivita/cinema/2561"
+            },
+            {
+              "title": "Liberi",
+              "aliases": [
+                "Break Free"
+              ],
+              "director": "Gianluca Maria Tavarelli",
+              "year": 2003,
+              "runtime": 113,
+              "source": "https://asac.labiennale.org/attivita/cinema/2695"
+            },
+            {
+              "title": "Lost in Translation",
+              "aliases": [],
+              "director": "Sofia Coppola",
+              "year": 2003,
+              "runtime": 105,
+              "source": "https://asac.labiennale.org/attivita/cinema/2589"
+            },
+            {
+              "title": "Pitons",
+              "aliases": [
+                "The Python"
+              ],
+              "director": "Laila Pakalniña",
+              "year": 2003,
+              "runtime": 88,
+              "source": "https://asac.labiennale.org/attivita/cinema/2656"
+            },
+            {
+              "title": "Ruang rak noi nid mahasan",
+              "aliases": [
+                "Last Life in the Universe"
+              ],
+              "director": "Pen-Ek Ratanaruang",
+              "year": 2003,
+              "runtime": 112,
+              "source": "https://asac.labiennale.org/attivita/cinema/2666"
+            },
+            {
+              "title": "Schultze Get the Blues",
+              "aliases": [],
+              "director": "Michael Schorr",
+              "year": 2003,
+              "runtime": 109,
+              "source": "https://asac.labiennale.org/attivita/cinema/2694"
+            },
+            {
+              "title": "Travellers and Magicians",
+              "aliases": [
+                "Chang hup the gi tril nung"
+              ],
+              "director": "Khyentse Norbu",
+              "year": 2003,
+              "runtime": 107,
+              "source": "https://asac.labiennale.org/attivita/cinema/2644"
+            },
+            {
+              "title": "Une place parmi les vivants",
+              "aliases": [],
+              "director": "Raoul Ruiz",
+              "year": 2003,
+              "runtime": 103,
+              "source": "https://asac.labiennale.org/attivita/cinema/2682"
+            },
+            {
+              "title": "Vodka Lemon",
+              "aliases": [],
+              "director": "Hiner Saleem",
+              "year": 2003,
+              "runtime": 88,
+              "source": "https://asac.labiennale.org/attivita/cinema/2685"
+            },
+            {
+              "title": "Çamur",
+              "aliases": [
+                "Mud"
+              ],
+              "director": "Dervis Zaim",
+              "year": 2003,
+              "runtime": 97,
+              "source": "https://asac.labiennale.org/attivita/cinema/2696"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Special Directing Award",
+              "original_name": "Premio speciale per la regia",
+              "entries": [
+                {
+                  "title": "Schultze Get the Blues",
+                  "winner": true,
+                  "people": [
+                    "Michael Schorr"
+                  ]
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2003"
+            },
+            {
+              "name": "San Marco Award",
+              "original_name": "Premio San Marco",
+              "entries": [
+                {
+                  "title": "Vodka Lemon",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2003"
+            },
+            {
+              "name": "Controcorrente Award",
+              "original_name": "Premio Controcorrente",
+              "entries": [
+                {
+                  "title": "Lost in Translation",
+                  "winner": true,
+                  "people": [
+                    "Scarlett Johansson"
+                  ]
+                },
+                {
+                  "title": "Ruang rak noi nid mahasan",
+                  "winner": true,
+                  "people": [
+                    "Tadanobu Asano"
+                  ]
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2003"
+            },
+            {
+              "name": "Controcorrente Special Mention",
+              "original_name": "Menzione Speciale - Controcorrente",
+              "entries": [
+                {
+                  "title": "La quimera de los heroes",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2003"
+            }
+          ]
+        }
+      ],
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2003-08-27",
+          "end": "2003-09-06",
+          "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2003"
+        }
+      ]
+    },
+    {
+      "event": "Venice",
+      "year": 2004,
+      "section": "Official Selection",
+      "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2004",
+      "awardsSource": "https://asac.labiennale.org/attivita/cinema/annali?anno=2004",
+      "programmes": [
+        {
+          "name": "Orizzonti",
+          "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2004",
+          "awardsSource": "https://asac.labiennale.org/attivita/cinema/annali?anno=2004",
+          "selection": [
+            {
+              "title": "A Love Song for Bobby Long",
+              "aliases": [],
+              "director": "Shainee Gabel",
+              "year": 2004,
+              "runtime": 119,
+              "source": "https://asac.labiennale.org/attivita/cinema/611"
+            },
+            {
+              "title": "Agnes und seine Brüder",
+              "aliases": [
+                "Agnes and His Brothers"
+              ],
+              "director": "Oskar Roehler",
+              "year": 2004,
+              "runtime": 116,
+              "source": "https://asac.labiennale.org/attivita/cinema/649"
+            },
+            {
+              "title": "Criminal",
+              "aliases": [],
+              "director": "Gregory Jacobs",
+              "year": 2004,
+              "runtime": 87,
+              "source": "https://asac.labiennale.org/attivita/cinema/622"
+            },
+            {
+              "title": "Familia rodante",
+              "aliases": [
+                "Rolling Family"
+              ],
+              "director": "Pablo Trapero",
+              "year": 2004,
+              "runtime": 103,
+              "source": "https://asac.labiennale.org/attivita/cinema/671"
+            },
+            {
+              "title": "Izo",
+              "aliases": [],
+              "director": "Takashi Miike",
+              "year": 2004,
+              "runtime": 128,
+              "source": "https://asac.labiennale.org/attivita/cinema/633"
+            },
+            {
+              "title": "L'enfant endormi",
+              "aliases": [
+                "The Spleeping Child"
+              ],
+              "director": "Yasmine Kassari",
+              "year": 2004,
+              "runtime": 95,
+              "source": "https://asac.labiennale.org/attivita/cinema/625"
+            },
+            {
+              "title": "La femme de Gilles",
+              "aliases": [
+                "Gilles' Wife"
+              ],
+              "director": "Frédéric Fonteyne",
+              "year": 2004,
+              "runtime": 108,
+              "source": "https://asac.labiennale.org/attivita/cinema/610"
+            },
+            {
+              "title": "Les petits fils",
+              "aliases": [
+                "The Grand Sons"
+              ],
+              "director": "Ilan Duran Cohen",
+              "year": 2004,
+              "runtime": 84,
+              "source": "https://asac.labiennale.org/attivita/cinema/609"
+            },
+            {
+              "title": "Les revenants",
+              "aliases": [
+                "Those Who Come Back",
+                "They Came Back"
+              ],
+              "director": "Robin Campillo",
+              "year": 2004,
+              "runtime": 104,
+              "source": "https://asac.labiennale.org/attivita/cinema/607"
+            },
+            {
+              "title": "Lettre d'amour zoulou",
+              "aliases": [
+                "Zulu Love Letter"
+              ],
+              "director": "Ramadan Suleman",
+              "year": 2004,
+              "runtime": 105,
+              "source": "https://asac.labiennale.org/attivita/cinema/662"
+            },
+            {
+              "title": "Melancholian 3 huonetta",
+              "aliases": [
+                "Melancholian Kolme Huonetta",
+                "The 3 Rooms of Melancholia",
+                "The Three Rooms of Melancholy"
+              ],
+              "director": "Pirjo Honkasalo",
+              "year": 2004,
+              "runtime": 106,
+              "source": "https://asac.labiennale.org/attivita/cinema/615"
+            },
+            {
+              "title": "Mysterious Skin",
+              "aliases": [],
+              "director": "Gregg Araki",
+              "year": 2004,
+              "runtime": 99,
+              "source": "https://asac.labiennale.org/attivita/cinema/606"
+            },
+            {
+              "title": "Saimir",
+              "aliases": [],
+              "director": "Francesco Munzi",
+              "year": 2004,
+              "runtime": 88,
+              "source": "https://asac.labiennale.org/attivita/cinema/645"
+            },
+            {
+              "title": "Stryker",
+              "aliases": [],
+              "director": "Noam Gonick",
+              "year": 2004,
+              "runtime": 92,
+              "source": "https://asac.labiennale.org/attivita/cinema/612"
+            },
+            {
+              "title": "Te lo leggo negli occhi",
+              "aliases": [
+                "I Can See It in Your Eyes"
+              ],
+              "director": "Valia Santella",
+              "year": 2004,
+              "runtime": 82,
+              "source": "https://asac.labiennale.org/attivita/cinema/657"
+            },
+            {
+              "title": "Un mundo menos peor",
+              "aliases": [
+                "A Less Worse World",
+                "A Less Bad World"
+              ],
+              "director": "Alejandro Agresti",
+              "year": 2004,
+              "runtime": 92,
+              "source": "https://asac.labiennale.org/attivita/cinema/605"
+            },
+            {
+              "title": "Vento di terra",
+              "aliases": [
+                "Land Wind"
+              ],
+              "director": "Vincenzo Marra",
+              "year": 2004,
+              "runtime": 90,
+              "source": "https://asac.labiennale.org/attivita/cinema/628"
+            },
+            {
+              "title": "Vital",
+              "aliases": [],
+              "director": "Shinya Tsukamoto",
+              "year": 2004,
+              "runtime": 86,
+              "source": "https://asac.labiennale.org/attivita/cinema/676"
+            },
+            {
+              "title": "Yesterday",
+              "aliases": [],
+              "director": "Darrell Roodt",
+              "year": 2004,
+              "runtime": 91,
+              "source": "https://asac.labiennale.org/attivita/cinema/651"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Orizzonti Award",
+              "original_name": "Premio Venezia Orizzonti",
+              "entries": [
+                {
+                  "title": "Les petits fils",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2004"
+            },
+            {
+              "name": "Lion of the Future — Special Mention",
+              "original_name": "Menzione Speciale della Giuria - Venezia Opera Prima",
+              "entries": [
+                {
+                  "title": "Saimir",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2004"
+            },
+            {
+              "name": "Orizzonti Jury Special Mention",
+              "original_name": "Menzione Speciale della Giuria - Venezia Orizzonti",
+              "entries": [
+                {
+                  "title": "Vento di terra",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2004"
+            }
+          ]
+        },
+        {
+          "name": "Venezia Competition",
+          "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2004",
+          "awardsSource": "https://asac.labiennale.org/attivita/cinema/annali?anno=2004",
+          "selection": [
+            {
+              "title": "5x2",
+              "aliases": [
+                "5x2 (Cinq fois deux)",
+                "Five Times Two"
+              ],
+              "director": "François Ozon",
+              "year": 2004,
+              "runtime": 90,
+              "source": "https://asac.labiennale.org/attivita/cinema/508"
+            },
+            {
+              "title": "Bin-jip",
+              "aliases": [
+                "3-Iron"
+              ],
+              "director": "Kim Ki-duk",
+              "year": 2004,
+              "runtime": null,
+              "source": "https://asac.labiennale.org/attivita/cinema/7681"
+            },
+            {
+              "title": "Birth",
+              "aliases": [],
+              "director": "Jonathan Glazer",
+              "year": 2004,
+              "runtime": 100,
+              "source": "https://asac.labiennale.org/attivita/cinema/500"
+            },
+            {
+              "title": "Delivery",
+              "aliases": [],
+              "director": "Nikos Panayotopoulos",
+              "year": 2004,
+              "runtime": 100,
+              "source": "https://asac.labiennale.org/attivita/cinema/510"
+            },
+            {
+              "title": "Haryu insaeng",
+              "aliases": [
+                "Riding the Tiger",
+                "Jailbreak",
+                "Raging Years"
+              ],
+              "director": "Kwon-taek Im",
+              "year": 2004,
+              "runtime": 99,
+              "source": "https://asac.labiennale.org/attivita/cinema/502"
+            },
+            {
+              "title": "Hauru no ugoku shiro",
+              "aliases": [
+                "Howl's Moving Castle"
+              ],
+              "director": "Hayao Miyazaki",
+              "year": 2004,
+              "runtime": 119,
+              "source": "https://asac.labiennale.org/attivita/cinema/506"
+            },
+            {
+              "title": "Kohi jikou",
+              "aliases": [
+                "Coffee Time",
+                "Café Lumière"
+              ],
+              "director": "Hsiao-hsien Hou",
+              "year": 2004,
+              "runtime": 104,
+              "source": "https://asac.labiennale.org/attivita/cinema/501"
+            },
+            {
+              "title": "L'intrus",
+              "aliases": [
+                "The Intruder",
+                "The Intuder"
+              ],
+              "director": "Claire Denis",
+              "year": 2004,
+              "runtime": 130,
+              "source": "https://asac.labiennale.org/attivita/cinema/497"
+            },
+            {
+              "title": "Land of Plenty",
+              "aliases": [
+                "Angst and Alienation in America"
+              ],
+              "director": "Wim Wenders",
+              "year": 2004,
+              "runtime": 118,
+              "source": "https://asac.labiennale.org/attivita/cinema/584"
+            },
+            {
+              "title": "Lavorare con lentezza - Radio Alice 100.6 MHz",
+              "aliases": [
+                "Working Slowly (Radio Alice)"
+              ],
+              "director": "Guido Chiesa",
+              "year": 2004,
+              "runtime": 111,
+              "source": "https://asac.labiennale.org/attivita/cinema/495"
+            },
+            {
+              "title": "Le chiavi di casa",
+              "aliases": [
+                "The House Keys",
+                "The Keys to the House"
+              ],
+              "director": "Gianni Amelio",
+              "year": 2004,
+              "runtime": 105,
+              "source": "https://asac.labiennale.org/attivita/cinema/492"
+            },
+            {
+              "title": "Mar adentro",
+              "aliases": [
+                "The Sea Within",
+                "The Sea Inside"
+              ],
+              "director": "Alejandro Amenábar",
+              "year": 2004,
+              "runtime": 125,
+              "source": "https://asac.labiennale.org/attivita/cinema/494"
+            },
+            {
+              "title": "Ovunque sei",
+              "aliases": [
+                "Wherever You Are",
+                "Another Life"
+              ],
+              "director": "Michele Placido",
+              "year": 2004,
+              "runtime": 85,
+              "source": "https://asac.labiennale.org/attivita/cinema/511"
+            },
+            {
+              "title": "Palindromes",
+              "aliases": [],
+              "director": "Todd Solondz",
+              "year": 2004,
+              "runtime": 100,
+              "source": "https://asac.labiennale.org/attivita/cinema/583"
+            },
+            {
+              "title": "Promised Land",
+              "aliases": [],
+              "director": "Amos Gitaï",
+              "year": 2004,
+              "runtime": 90,
+              "source": "https://asac.labiennale.org/attivita/cinema/499"
+            },
+            {
+              "title": "Rois et Reine",
+              "aliases": [
+                "Kings and Queen",
+                "Kings & Queen"
+              ],
+              "director": "Arnaud Desplechin",
+              "year": 2004,
+              "runtime": 150,
+              "source": "https://asac.labiennale.org/attivita/cinema/498"
+            },
+            {
+              "title": "Sag-haye velgard",
+              "aliases": [
+                "Stray Dogs"
+              ],
+              "director": "Marziyeh Meshkini",
+              "year": 2004,
+              "runtime": 93,
+              "source": "https://asac.labiennale.org/attivita/cinema/505"
+            },
+            {
+              "title": "Shijie",
+              "aliases": [
+                "The World"
+              ],
+              "director": "Zhang Ke Jia",
+              "year": 2004,
+              "runtime": 140,
+              "source": "https://asac.labiennale.org/attivita/cinema/503"
+            },
+            {
+              "title": "Tout un hiver sans feu",
+              "aliases": [
+                "A Long Winter Without Fire",
+                "All Winter Without Fire"
+              ],
+              "director": "Greg Zglinski",
+              "year": 2004,
+              "runtime": 91,
+              "source": "https://asac.labiennale.org/attivita/cinema/585"
+            },
+            {
+              "title": "Udalyonnyy dostup",
+              "aliases": [
+                "Udalionnyj Dostup",
+                "Remote Access"
+              ],
+              "director": "Svetlana Proskurina",
+              "year": 2004,
+              "runtime": 85,
+              "source": "https://asac.labiennale.org/attivita/cinema/582"
+            },
+            {
+              "title": "Vanity Fair",
+              "aliases": [],
+              "director": "Mira Nair",
+              "year": 2004,
+              "runtime": 110,
+              "source": "https://asac.labiennale.org/attivita/cinema/507"
+            },
+            {
+              "title": "Vera Drake",
+              "aliases": [],
+              "director": "Mike Leigh",
+              "year": 2004,
+              "runtime": 125,
+              "source": "https://asac.labiennale.org/attivita/cinema/504"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Lion",
+              "original_name": "Leone d'oro per il miglior film",
+              "entries": [
+                {
+                  "title": "Vera Drake",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2004"
+            },
+            {
+              "name": "Silver Lion — Grand Jury Prize",
+              "original_name": "Leone d'argento - Gran Premio della Giuria",
+              "entries": [
+                {
+                  "title": "Mar adentro",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2004"
+            },
+            {
+              "name": "Silver Lion — Special Directing Award",
+              "original_name": "Leone d'Argento - Premio Speciale per la Regia",
+              "entries": [
+                {
+                  "title": "Bin-jip",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2004"
+            },
+            {
+              "name": "Best Actor",
+              "original_name": "Coppa Volpi per la migliore interpretazione maschile",
+              "entries": [
+                {
+                  "title": "Mar adentro",
+                  "winner": true,
+                  "people": [
+                    "Javier Bardem"
+                  ]
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2004"
+            },
+            {
+              "name": "Best Actress",
+              "original_name": "Coppa Volpi per la migliore interpretazione femminile",
+              "entries": [
+                {
+                  "title": "Vera Drake",
+                  "winner": true,
+                  "people": [
+                    "Imelda Staunton"
+                  ]
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2004"
+            },
+            {
+              "name": "Marcello Mastroianni Award",
+              "original_name": "Premio \"Marcello Mastroianni\" (a un giovane attore/attrice emergente)",
+              "entries": [
+                {
+                  "title": "Lavorare con lentezza - Radio Alice 100.6 MHz",
+                  "winner": true,
+                  "people": [
+                    "Marco Luisi",
+                    "Tommaso Ramenghi"
+                  ]
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2004"
+            },
+            {
+              "name": "Special Osella",
+              "original_name": "Osella Speciale",
+              "entries": [
+                {
+                  "title": "Hauru no ugoku shiro",
+                  "winner": true,
+                  "people": [
+                    "Studio Ghibli"
+                  ]
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2004"
+            }
+          ]
+        }
+      ],
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2004-09-01",
+          "end": "2004-09-11",
+          "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2004"
+        },
+        {
+          "label": "Awards ceremony",
+          "start": "2004-09-11",
+          "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2004"
+        }
+      ]
+    },
+    {
+      "event": "Venice",
+      "year": 2005,
+      "section": "Official Selection",
+      "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2005",
+      "awardsSource": "https://asac.labiennale.org/attivita/cinema/annali?anno=2005",
+      "programmes": [
+        {
+          "name": "Venezia Competition",
+          "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2005",
+          "awardsSource": "https://asac.labiennale.org/attivita/cinema/annali?anno=2005",
+          "selection": [
+            {
+              "title": "Brokeback Mountain",
+              "aliases": [],
+              "director": "Ang Lee",
+              "year": 2004,
+              "runtime": 134,
+              "source": "https://asac.labiennale.org/attivita/cinema/11"
+            },
+            {
+              "title": "Changhen ge",
+              "aliases": [
+                "Everlasting Regret"
+              ],
+              "director": "Stanley Kwan",
+              "year": 2005,
+              "runtime": 120,
+              "source": "https://asac.labiennale.org/attivita/cinema/31"
+            },
+            {
+              "title": "Chin-jeol-han Geum-ja-set",
+              "aliases": [
+                "Lady Vengeance"
+              ],
+              "director": "Chan-wook Park",
+              "year": 2005,
+              "runtime": 112,
+              "source": "https://asac.labiennale.org/attivita/cinema/35"
+            },
+            {
+              "title": "Espelho mágico",
+              "aliases": [
+                "Magic Mirror"
+              ],
+              "director": "Manoel de Oliveira",
+              "year": 2005,
+              "runtime": 137,
+              "source": "https://asac.labiennale.org/attivita/cinema/34"
+            },
+            {
+              "title": "Gabrielle",
+              "aliases": [],
+              "director": "Patrice Chéreau",
+              "year": 2005,
+              "runtime": 90,
+              "source": "https://asac.labiennale.org/attivita/cinema/27"
+            },
+            {
+              "title": "Garpastum",
+              "aliases": [],
+              "director": "Aleksei German Jr.",
+              "year": 2005,
+              "runtime": 116,
+              "source": "https://asac.labiennale.org/attivita/cinema/29"
+            },
+            {
+              "title": "Good Night, and Good Luck.",
+              "aliases": [
+                "Goodnight, and Good Luck."
+              ],
+              "director": "George Clooney",
+              "year": 2005,
+              "runtime": 90,
+              "source": "https://asac.labiennale.org/attivita/cinema/14"
+            },
+            {
+              "title": "I giorni dell'abbandono",
+              "aliases": [
+                "The Days of Abandonment"
+              ],
+              "director": "Roberto Faenza",
+              "year": 2005,
+              "runtime": 96,
+              "source": "https://asac.labiennale.org/attivita/cinema/28"
+            },
+            {
+              "title": "La bestia nel cuore",
+              "aliases": [
+                "The Beast in the Heart",
+                "Don't Tell"
+              ],
+              "director": "Cristina Comencini",
+              "year": 2005,
+              "runtime": 120,
+              "source": "https://asac.labiennale.org/attivita/cinema/15"
+            },
+            {
+              "title": "La seconda notte di nozze",
+              "aliases": [
+                "The Second Wedding Night"
+              ],
+              "director": "Pupi Avati",
+              "year": 2005,
+              "runtime": 103,
+              "source": "https://asac.labiennale.org/attivita/cinema/23"
+            },
+            {
+              "title": "Les Amants réguliers",
+              "aliases": [
+                "Regular Lovers"
+              ],
+              "director": "Philippe Garrel",
+              "year": 2004,
+              "runtime": 178,
+              "source": "https://asac.labiennale.org/attivita/cinema/12"
+            },
+            {
+              "title": "Mary",
+              "aliases": [],
+              "director": "Abel Ferrara",
+              "year": 2005,
+              "runtime": 83,
+              "source": "https://asac.labiennale.org/attivita/cinema/13"
+            },
+            {
+              "title": "O Fatalista",
+              "aliases": [
+                "The Fatalist"
+              ],
+              "director": "João Botelho",
+              "year": 2005,
+              "runtime": 99,
+              "source": "https://asac.labiennale.org/attivita/cinema/26"
+            },
+            {
+              "title": "Persona non grata",
+              "aliases": [
+                "Not Grateful Person"
+              ],
+              "director": "Krzysztof Zanussi",
+              "year": 2005,
+              "runtime": 117,
+              "source": "https://asac.labiennale.org/attivita/cinema/37"
+            },
+            {
+              "title": "Proof",
+              "aliases": [],
+              "director": "John Madden",
+              "year": 2005,
+              "runtime": 100,
+              "source": "https://asac.labiennale.org/attivita/cinema/32"
+            },
+            {
+              "title": "Romance & Cigarettes",
+              "aliases": [],
+              "director": "John Turturro",
+              "year": 2004,
+              "runtime": 105,
+              "source": "https://asac.labiennale.org/attivita/cinema/36"
+            },
+            {
+              "title": "Takeshis",
+              "aliases": [],
+              "director": "Takeshi Kitano",
+              "year": 2005,
+              "runtime": 108,
+              "source": "https://asac.labiennale.org/attivita/cinema/313"
+            },
+            {
+              "title": "The Brothers Grimm",
+              "aliases": [],
+              "director": "Terry Gilliam",
+              "year": 2005,
+              "runtime": 120,
+              "source": "https://asac.labiennale.org/attivita/cinema/30"
+            },
+            {
+              "title": "The Constant Gardener",
+              "aliases": [
+                "The Constant Gardner"
+              ],
+              "director": "Fernando Meirelles",
+              "year": 2004,
+              "runtime": 128,
+              "source": "https://asac.labiennale.org/attivita/cinema/33"
+            },
+            {
+              "title": "Vers le sud",
+              "aliases": [],
+              "director": "Laurent Cantet",
+              "year": 2005,
+              "runtime": 105,
+              "source": "https://asac.labiennale.org/attivita/cinema/16"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Lion",
+              "original_name": "Leone d'oro per il miglior film",
+              "entries": [
+                {
+                  "title": "Brokeback Mountain",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2005"
+            },
+            {
+              "name": "Best Director",
+              "original_name": "Leone d'argento per la migliore regia",
+              "entries": [
+                {
+                  "title": "Les Amants réguliers",
+                  "winner": true,
+                  "people": [
+                    "Philippe Garrel"
+                  ]
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2005"
+            },
+            {
+              "name": "Special Jury Prize",
+              "original_name": "Premio speciale della Giuria",
+              "entries": [
+                {
+                  "title": "Mary",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2005"
+            },
+            {
+              "name": "Best Actor",
+              "original_name": "Coppa Volpi per la migliore interpretazione maschile",
+              "entries": [
+                {
+                  "title": "Good Night, and Good Luck.",
+                  "winner": true,
+                  "people": [
+                    "David Strathairn"
+                  ]
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2005"
+            },
+            {
+              "name": "Best Actress",
+              "original_name": "Coppa Volpi per la migliore interpretazione femminile",
+              "entries": [
+                {
+                  "title": "La bestia nel cuore",
+                  "winner": true,
+                  "people": [
+                    "Giovanna Mezzogiorno"
+                  ]
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2005"
+            },
+            {
+              "name": "Marcello Mastroianni Award",
+              "original_name": "Premio \"Marcello Mastroianni\" (a un giovane attore/attrice emergente)",
+              "entries": [
+                {
+                  "title": "Vers le sud",
+                  "winner": true,
+                  "people": [
+                    "Ménothy Cesar"
+                  ]
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2005"
+            },
+            {
+              "name": "Best Screenplay",
+              "original_name": "Osella per la migliore sceneggiatura",
+              "entries": [
+                {
+                  "title": "Good Night, and Good Luck.",
+                  "winner": true,
+                  "people": [
+                    "George Clooney",
+                    "Grant Heslov"
+                  ]
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2005"
+            },
+            {
+              "name": "Best Technical Contribution",
+              "original_name": "Osella per il migliore contributo tecnico",
+              "entries": [
+                {
+                  "title": "Les Amants réguliers",
+                  "winner": true,
+                  "people": [
+                    "William Lubtchansky"
+                  ]
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2005"
+            }
+          ]
+        },
+        {
+          "name": "Orizzonti",
+          "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2005",
+          "awardsSource": "https://asac.labiennale.org/attivita/cinema/annali?anno=2005",
+          "selection": [
+            {
+              "title": "Carmen",
+              "aliases": [],
+              "director": "Jean-Pierre Limosin",
+              "year": 2005,
+              "runtime": 100,
+              "source": "https://asac.labiennale.org/attivita/cinema/47"
+            },
+            {
+              "title": "Die große Stille",
+              "aliases": [
+                "Into great Silence"
+              ],
+              "director": "Philip Gröning",
+              "year": 2005,
+              "runtime": 164,
+              "source": "https://asac.labiennale.org/attivita/cinema/199"
+            },
+            {
+              "title": "Drawing Restraint 9",
+              "aliases": [],
+              "director": "Matthew Barney",
+              "year": 2005,
+              "runtime": 150,
+              "source": "https://asac.labiennale.org/attivita/cinema/197"
+            },
+            {
+              "title": "East of Paradise",
+              "aliases": [],
+              "director": "Lech Kowalski",
+              "year": 2005,
+              "runtime": 105,
+              "source": "https://asac.labiennale.org/attivita/cinema/17"
+            },
+            {
+              "title": "Everything Is Illuminated",
+              "aliases": [
+                "The Collector"
+              ],
+              "director": "Liev Schreiber",
+              "year": 2005,
+              "runtime": 102,
+              "source": "https://asac.labiennale.org/attivita/cinema/207"
+            },
+            {
+              "title": "Hongyan",
+              "aliases": [],
+              "director": "Li Yu",
+              "year": 2005,
+              "runtime": 93,
+              "source": "https://asac.labiennale.org/attivita/cinema/203"
+            },
+            {
+              "title": "La dignidad de los Nadies",
+              "aliases": [
+                "The Dignity of the Nobodies"
+              ],
+              "director": "Fernando Ezequiel Solanas",
+              "year": 2005,
+              "runtime": 120,
+              "source": "https://asac.labiennale.org/attivita/cinema/208"
+            },
+            {
+              "title": "La vida secreta de las palabras",
+              "aliases": [
+                "The Secret Life of Words"
+              ],
+              "director": "Isabel Coixet",
+              "year": 2005,
+              "runtime": 112,
+              "source": "https://asac.labiennale.org/attivita/cinema/49"
+            },
+            {
+              "title": "Musikanten",
+              "aliases": [],
+              "director": "Franco Battiato",
+              "year": 2005,
+              "runtime": 90,
+              "source": "https://asac.labiennale.org/attivita/cinema/198"
+            },
+            {
+              "title": "Pervye na lune",
+              "aliases": [
+                "First on the Moon"
+              ],
+              "director": "Aleksey Fedorchenko",
+              "year": 2005,
+              "runtime": 75,
+              "source": "https://asac.labiennale.org/attivita/cinema/18"
+            },
+            {
+              "title": "Texas",
+              "aliases": [],
+              "director": "Fausto Paravidino",
+              "year": 2005,
+              "runtime": 105,
+              "source": "https://asac.labiennale.org/attivita/cinema/206"
+            },
+            {
+              "title": "The wild blue Yonder",
+              "aliases": [],
+              "director": "Werner Herzog",
+              "year": 2005,
+              "runtime": 81,
+              "source": "https://asac.labiennale.org/attivita/cinema/200"
+            },
+            {
+              "title": "Veruschka - Die Inszenierung (m)eines Körpers",
+              "aliases": [
+                "Veruschka (m)ein inszenierter Körper",
+                "Veruschka",
+                "Veruschka: A Life for the Camera"
+              ],
+              "director": "Bernd Böhm, Paul Morrissey",
+              "year": 2005,
+              "runtime": 80,
+              "source": "https://asac.labiennale.org/attivita/cinema/204"
+            },
+            {
+              "title": "Vokaldy paralelder",
+              "aliases": [
+                "Vocal Parallels"
+              ],
+              "director": "Rustam Khamdamov",
+              "year": 2005,
+              "runtime": 65,
+              "source": "https://asac.labiennale.org/attivita/cinema/201"
+            },
+            {
+              "title": "Workingman's Death",
+              "aliases": [],
+              "director": "Michael Glawogger",
+              "year": 2005,
+              "runtime": 122,
+              "source": "https://asac.labiennale.org/attivita/cinema/71"
+            },
+            {
+              "title": "Wu qiong dong",
+              "aliases": [
+                "Wuqiong dong",
+                "Perpetual Motion"
+              ],
+              "director": "Ying Ning",
+              "year": 2005,
+              "runtime": 86,
+              "source": "https://asac.labiennale.org/attivita/cinema/205"
+            },
+            {
+              "title": "Yolda - Rüzgar geri getirirse",
+              "aliases": [
+                "Yolda",
+                "On the Way"
+              ],
+              "director": "Erden Kiral",
+              "year": 2005,
+              "runtime": 90,
+              "source": "https://asac.labiennale.org/attivita/cinema/202"
+            },
+            {
+              "title": "Árido Movie",
+              "aliases": [],
+              "director": "Lírio Ferreira",
+              "year": 2005,
+              "runtime": 115,
+              "source": "https://asac.labiennale.org/attivita/cinema/48"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Orizzonti Award for Best Film",
+              "original_name": "Premio Orizzonti",
+              "entries": [
+                {
+                  "title": "East of Paradise",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2005"
+            },
+            {
+              "name": "Orizzonti Documentary Award",
+              "original_name": "Premio Orizzonti Doc",
+              "entries": [
+                {
+                  "title": "Pervye na lune",
+                  "winner": true,
+                  "people": []
+                }
+              ],
+              "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2005"
+            }
+          ]
+        }
+      ],
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2005-08-31",
+          "end": "2005-09-10",
+          "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2005"
+        },
+        {
+          "label": "Awards ceremony",
+          "start": "2005-09-10",
+          "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2005"
+        }
+      ]
+    }
+  ]
+}

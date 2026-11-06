@@ -1,7 +1,7 @@
 // Produce the small, insert-only deployment batch for the new award identities.
 import fs from 'node:fs';
 const batch=process.argv[2]||'2016-2020';
-if(!['2016-2020','2011-2015','2006-2010'].includes(batch))throw Error('Unsupported award batch');
+if(!['2016-2020','2011-2015','2006-2010','2001-2005'].includes(batch))throw Error('Unsupported award batch');
 const report=JSON.parse(fs.readFileSync(`imports/film-awards-${batch}-audit.json`,'utf8'));
 if(report.unresolved.length)throw Error('Resolve every award identity before preparing deployment');
 const rows=report.new_canonical_ids,ids=new Set(rows.map(f=>String(f.id)));
