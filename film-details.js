@@ -166933,5 +166933,35 @@ window.CULTURE_FILM_DETAILS = {
     "imdb": {
       "url": "https://www.imdb.com/title/tt0439817/"
     }
+  },
+  "5280": {
+    "tmdb_id": 62415,
+    "title": "17 fois Cécile Cassard",
+    "original_title": "17 fois Cécile Cassard",
+    "overview": "A portrait of a woman, composed of 17 moments from her life.",
+    "runtime": 105,
+    "release_date": "2002-07-10",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "original_language": "fr",
+    "director": "Christophe Honoré",
+    "cast": [
+      "Béatrice Dalle",
+      "Romain Duris",
+      "Jeanne Balibar",
+      "Ange Ruzé",
+      "Jérôme Kircher"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/7U8hBiL4KxE7xlujEtaaxsOtUZR.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/FyfHZqz1YpS8e7iWRVGfSKKwhn.jpg",
+    "tmdb_rating": 5.1,
+    "tmdb_votes": 24,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0296591/"
+    }
   }
 };

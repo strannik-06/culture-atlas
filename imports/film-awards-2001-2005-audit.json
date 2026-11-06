@@ -7273,6 +7273,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://www.festival-cannes.com/en/f/dix-sept-fois-cecile-cassard/",
+      "signature": "516cdb6afe1eb4145a1e3e40ea81c69ecb613c49bc6d2ba9ef6c7e454c955782",
+      "title": "DIX-SEPT FOIS CECILE CASSARD",
+      "source": "https://www.festival-cannes.com/en/f/dix-sept-fois-cecile-cassard/",
+      "id": 5280,
+      "tmdb_id": 62415,
+      "imdb_id": "tt0296591",
+      "director": "Christophe Honoré",
+      "provider_release_date": "2002-07-10",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://www.festival-cannes.com/en/f/dogville/",
       "signature": "20c0d354b8cfaa1d3ac6bf9e2265017a481774d702a7d52ddec898269609169e",
       "title": "DOGVILLE",
@@ -17990,20 +18002,24 @@
         "Solnze",
         "Die Sonne"
       ]
+    },
+    {
+      "id": 5280,
+      "title": "17 fois Cécile Cassard",
+      "director": "Christophe Honoré",
+      "year": 2002,
+      "tmdb_id": 62415,
+      "imdb_id": "tt0296591",
+      "original_title": "17 fois Cécile Cassard",
+      "original_language": "fr",
+      "alternate_titles": [
+        "DIX-SEPT FOIS CECILE CASSARD",
+        "Seventeen Times Cécile Cassard",
+        "17 Times Cécile Cassard"
+      ]
     }
   ],
   "unresolved": [
-    {
-      "key": "https://www.festival-cannes.com/en/f/dix-sept-fois-cecile-cassard/",
-      "event": "Cannes",
-      "year": 2002,
-      "title": "DIX-SEPT FOIS CECILE CASSARD",
-      "aliases": [],
-      "director": "Christophe HONORÉ",
-      "source": "https://www.festival-cannes.com/en/f/dix-sept-fois-cecile-cassard/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":62415,\"title\":\"17 fois Cécile Cassard\",\"year\":\"2002-07-10\",\"director\":\"Christophe Honoré\",\"runtime\":105,\"imdb_id\":\"tt0296591\",\"genres\":[\"Drama\"]}]"
-    },
     {
       "key": "https://www.festival-cannes.com/en/f/september/",
       "event": "Cannes",
@@ -18012,6 +18028,8 @@
       "aliases": [],
       "director": "Max FAERBERBOECK",
       "source": "https://www.festival-cannes.com/en/f/september/",
+      "runtime": 112,
+      "runtime_source": "https://www.festival-cannes.com/en/f/september/",
       "festival": true,
       "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":385138,\"title\":\"September\",\"year\":\"2003-06-26\",\"director\":\"Max Färberböck\",\"runtime\":0,\"imdb_id\":\"tt0308865\",\"genres\":[\"Drama\"]}]"
     }
