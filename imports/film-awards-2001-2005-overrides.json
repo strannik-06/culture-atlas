@@ -1041,7 +1041,10 @@
       "https://www.imdb.com/title/tt0308865/"
     ],
     "note": "Cannes gives 112-minute festival runtime; provider runtime is zero. Retain official festival runtime rather than inventing a duration.",
-    "runtime": 112
+    "runtime": 112,
+    "director_aliases": [
+      "Max Färberböck"
+    ]
   },
   "https://www.festival-cannes.com/en/f/marock/": {
     "runtime": 102,
