@@ -529,7 +529,8 @@
   "https://www.festival-cannes.com/en/f/dix-sept-fois-cecile-cassard/": {
     "aliases": [
       "Seventeen Times Cécile Cassard",
-      "17 Times Cécile Cassard"
+      "17 Times Cécile Cassard",
+      "17 fois Cécile Cassard"
     ],
     "source_urls": [
       "https://www.festival-cannes.com/en/f/dix-sept-fois-cecile-cassard/",
@@ -1039,7 +1040,8 @@
       "https://www.x-verleih.de/filme/september/",
       "https://www.imdb.com/title/tt0308865/"
     ],
-    "note": "Reviewed primary film/festival record and IMDb discovery crosswalk. Full provider title/director/release-window checks remain mandatory."
+    "note": "Cannes gives 112-minute festival runtime; provider runtime is zero. Retain official festival runtime rather than inventing a duration.",
+    "runtime": 112
   },
   "https://www.festival-cannes.com/en/f/marock/": {
     "runtime": 102,

@@ -19,7 +19,7 @@ for(let year=2001;year<=2005;year++){
    const aliases=whole===title?[]:[whole.slice(title.length).trim().replace(/^\(|\)$/g,'').trim()];
    const director=clean(link.parentElement.querySelector('span')?.textContent).replace(/^by /,'');
    if(!director||!title)throw Error('Missing selection identity');
-   return {title,aliases,director,year,source:link.href,...(link.href==='https://www.festival-cannes.com/en/f/marock/'?{runtime:102,runtime_source:link.href}: {})};
+   return {title,aliases,director,year,source:link.href,...({'https://www.festival-cannes.com/en/f/marock/':102,'https://www.festival-cannes.com/en/f/september/':112}[link.href]?{runtime:{'https://www.festival-cannes.com/en/f/marock/':102,'https://www.festival-cannes.com/en/f/september/':112}[link.href],runtime_source:link.href}:{})};
   });
   programmes.push({name:heading==='In Competition'?'Main Competition':heading,source:base+'selection/',awardsSource:base+'awards/',selection:rows,prizes:[]});
  }

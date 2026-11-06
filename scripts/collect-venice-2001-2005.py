@@ -71,15 +71,8 @@ def collect(year):
                 if title and title != record['titolo'] and title not in aliases:
                     aliases.append(title)
             directors = ', '.join(CLEAN(person['nome_cognome']) for person in film.get('persona_istituzione', []) if person['ruolo'] == 'Regia')
-            if record['id'] == 52718:
-                directors = 'Jonathan Demme'
-                aliases.append('Jimmy Carter: Man from Plains')
             assert directors
             item = {'title': record['titolo'], 'aliases': aliases, 'director': directors, 'year': film['anno_iniziale'], 'runtime': runtime or None, 'source': BASE + f"/attivita/cinema/{record['id']}"}
-            if record['id'] == 179351 or str(record['id']) == '179351':
-                item['year'] = 2009  # Viennale 2009 and filmmaker press kit; ASAC leaves year empty.
-            if record['id'] == 52718:
-                item['additional_sources'] = ['https://www.sonyclassics.com/downloads/Sony_Pictures_Classics_Non-Theatrical_Catalogue.pdf']
             selection.append(item)
             selected_ids[record['id']] = item
         labels = {4:'Silver Lion — Grand Jury Prize',26:'Volpi Cup',31:'Special Mention',39:'Lion of the Future — Special Mention',40:'Orizzonti Award',41:'Orizzonti Jury Special Mention',45:'Special Osella',258:'Outstanding Individual Contribution',259:'San Marco Award',260:'Special Directing Award',261:'Controcorrente Award',656:'Silver Lion — Special Directing Award',664:'Grand Jury Prize',665:'Best Screenplay',669:'Cinema del Presente — Lion of the Year',1362:'Cinema del Presente Special Jury Prize',1363:'Lion of the Future',1364:'Controcorrente Special Mention',1366:'Lion of the Future — Special Mention',2: 'Marcello Mastroianni Award', 6: 'Best Actor', 7: 'Best Actress', 8: 'Best Technical Contribution', 18: 'Special Jury Prize', 20: 'Golden Lion', 23: 'Best Director', 28: 'Orizzonti Award for Best Film', 29: 'Orizzonti Documentary Award', 34: 'Lion of the Future', 47: 'Silver Lion — Revelation', 586: 'Best Screenplay', 587: 'Best Cinematography', 718: 'Special Orizzonti Jury Prize', 1077: 'Special Jury Prize', 1369: 'Best Technical Contribution', 1372: 'Special Mention — Orizzonti Jury', 1373: 'Special Lion for Cinematic Innovation', 1374: 'Orizzonti Documentary Award'}

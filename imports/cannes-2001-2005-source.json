@@ -1326,7 +1326,9 @@
               "aliases": [],
               "director": "Max FAERBERBOECK",
               "year": 2003,
-              "source": "https://www.festival-cannes.com/en/f/september/"
+              "source": "https://www.festival-cannes.com/en/f/september/",
+              "runtime": 112,
+              "runtime_source": "https://www.festival-cannes.com/en/f/september/"
             },
             {
               "title": "SOLDADOS DE SALAMINA",

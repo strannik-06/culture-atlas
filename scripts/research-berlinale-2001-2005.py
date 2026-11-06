@@ -54,10 +54,6 @@ for year in range(2001,2006):
             if section==f'Competition {year}':name='Main Competition'
             else:continue
             title=content(node,'ft__title')
-            if year==2007 and title=='Letters From Iwo Jima':
-                evidence='https://www.berlinale.de/media/download/presse/dossier/57ifb/pressedossier2007.pdf'
-                event['excluded_out_of_competition']=[{'title':title,'source':BASE+row['targetPath'],'evidence':evidence,'reason':'The archive section tag omits the out-of-competition qualifier; the official 2007 press dossier explicitly lists this film under Außer Konkurrenz.'}]
-                continue
             aliases=[clean(v) for v in content(node,'ft__other-title').split('|') if clean(v)]
             staff=content(node,'staff')
             director=staff.split(' | with ')[0].removeprefix('by ')
