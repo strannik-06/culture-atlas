@@ -1,0 +1,1862 @@
+{
+  "scope": "Historically available established major feature-film categories; ceremony year",
+  "events": [
+    {
+      "event": "BAFTA",
+      "year": 2001,
+      "section": "Major Film Categories",
+      "source": "https://www.bafta.org/awards/film/?award-year=2001",
+      "note": "Documentary and Animated Film were not awarded in this edition. Historical category names and nomination counts are retained.",
+      "categories": [
+        {
+          "name": "Best Film",
+          "source_name": "Film",
+          "entries": [
+            {
+              "title": "Gladiator",
+              "person": "Douglas Wick, David Franzoni, Branko Lustig",
+              "winner": true,
+              "source_id": "343259"
+            },
+            {
+              "title": "Almost Famous",
+              "person": "Cameron Crowe, Ian Bryce",
+              "winner": false,
+              "source_id": "343256"
+            },
+            {
+              "title": "Billy Elliot",
+              "person": "Greg Brenman, Jon Finn",
+              "winner": false,
+              "source_id": "343257"
+            },
+            {
+              "title": "Erin Brockovich",
+              "person": "Danny De Vito, Michael Shamberg, Stacey Sher",
+              "winner": false,
+              "source_id": "343258"
+            },
+            {
+              "title": "Crouching Tiger, Hidden Dragon (Wo Hu Cang Long)",
+              "person": "Bill Kong, Hsu Li Kong, Ang Lee",
+              "winner": false,
+              "source_id": "343260"
+            }
+          ]
+        },
+        {
+          "name": "Director",
+          "source_name": "David Lean Award for Achievement in Direction",
+          "entries": [
+            {
+              "title": "Crouching Tiger, Hidden Dragon (Wo Hu Cang Long)",
+              "person": "Ang Lee",
+              "winner": true,
+              "source_id": "343250"
+            },
+            {
+              "title": "Billy Elliot",
+              "person": "Stephen Daldry",
+              "winner": false,
+              "source_id": "343246"
+            },
+            {
+              "title": "Erin Brockovich",
+              "person": "Steven Soderbergh",
+              "winner": false,
+              "source_id": "343247"
+            },
+            {
+              "title": "Gladiator",
+              "person": "Ridley Scott",
+              "winner": false,
+              "source_id": "343248"
+            },
+            {
+              "title": "Traffic",
+              "person": "Steven Soderbergh",
+              "winner": false,
+              "source_id": "343249"
+            }
+          ]
+        },
+        {
+          "name": "Outstanding British Film",
+          "source_name": "Alexander Korda Award for the outstanding British Film of the Year",
+          "entries": [
+            {
+              "title": "Billy Elliot",
+              "person": "Greg Brenman, Jon Finn, Stephen Daldry",
+              "winner": true,
+              "source_id": "343221"
+            },
+            {
+              "title": "Chicken Run",
+              "person": "Peter Lord, David Sproxton, Nick Park",
+              "winner": false,
+              "source_id": "343222"
+            },
+            {
+              "title": "The House Of Mirth",
+              "person": "Olivia Stewart, Terence Davies",
+              "winner": false,
+              "source_id": "343223"
+            },
+            {
+              "title": "Last Resort",
+              "person": "Ruth Caleb, Pawel Pawlikowski",
+              "winner": false,
+              "source_id": "343224"
+            },
+            {
+              "title": "Sexy Beast",
+              "person": "Jeremy Thomas, Jonathan Glazer",
+              "winner": false,
+              "source_id": "343225"
+            }
+          ]
+        },
+        {
+          "name": "Leading Actor",
+          "source_name": "Leading Actor",
+          "entries": [
+            {
+              "title": "Billy Elliot",
+              "person": "Jamie Bell",
+              "winner": true,
+              "source_id": "343196"
+            },
+            {
+              "title": "Gladiator",
+              "person": "Russell Crowe",
+              "winner": false,
+              "source_id": "343197"
+            },
+            {
+              "title": "Wonder Boys",
+              "person": "Michael Douglas",
+              "winner": false,
+              "source_id": "343198"
+            },
+            {
+              "title": "Cast Away",
+              "person": "Tom Hanks",
+              "winner": false,
+              "source_id": "343199"
+            },
+            {
+              "title": "Quills",
+              "person": "Geoffrey Rush",
+              "winner": false,
+              "source_id": "343200"
+            }
+          ]
+        },
+        {
+          "name": "Leading Actress",
+          "source_name": "Leading Actress",
+          "entries": [
+            {
+              "title": "Erin Brockovich",
+              "person": "Julia Roberts",
+              "winner": true,
+              "source_id": "343208"
+            },
+            {
+              "title": "Chocolat",
+              "person": "Juliette Binoche",
+              "winner": false,
+              "source_id": "343206"
+            },
+            {
+              "title": "Almost Famous",
+              "person": "Kate Hudson",
+              "winner": false,
+              "source_id": "343207"
+            },
+            {
+              "title": "Boys Don't Cry",
+              "person": "Hilary Swank",
+              "winner": false,
+              "source_id": "343209"
+            },
+            {
+              "title": "Crouching Tiger, Hidden Dragon (Wo Hu Cang Long)",
+              "person": "Michelle Yeoh",
+              "winner": false,
+              "source_id": "343210"
+            }
+          ]
+        },
+        {
+          "name": "Supporting Actor",
+          "source_name": "Supporting Actor",
+          "entries": [
+            {
+              "title": "Traffic",
+              "person": "Benicio Del Toro",
+              "winner": true,
+              "source_id": "343201"
+            },
+            {
+              "title": "Erin Brockovich",
+              "person": "Albert Finney",
+              "winner": false,
+              "source_id": "343202"
+            },
+            {
+              "title": "Billy Elliot",
+              "person": "Gary Lewis",
+              "winner": false,
+              "source_id": "343203"
+            },
+            {
+              "title": "Gladiator",
+              "person": "Joaquin Phoenix",
+              "winner": false,
+              "source_id": "343204"
+            },
+            {
+              "title": "Gladiator",
+              "person": "Oliver Reed",
+              "winner": false,
+              "source_id": "343205"
+            }
+          ]
+        },
+        {
+          "name": "Supporting Actress",
+          "source_name": "Supporting Actress",
+          "entries": [
+            {
+              "title": "Billy Elliot",
+              "person": "Julie Walters",
+              "winner": true,
+              "source_id": "343214"
+            },
+            {
+              "title": "Chocolat",
+              "person": "Judi Dench",
+              "winner": false,
+              "source_id": "343211"
+            },
+            {
+              "title": "Almost Famous",
+              "person": "Frances McDormand",
+              "winner": false,
+              "source_id": "343212"
+            },
+            {
+              "title": "Chocolat",
+              "person": "Lena Olin",
+              "winner": false,
+              "source_id": "343213"
+            },
+            {
+              "title": "Crouching Tiger, Hidden Dragon (Wo Hu Cang Long)",
+              "person": "Zhang Ziyi",
+              "winner": false,
+              "source_id": "343215"
+            }
+          ]
+        },
+        {
+          "name": "Original Screenplay",
+          "source_name": "Original Screenplay",
+          "entries": [
+            {
+              "title": "Almost Famous",
+              "person": "Cameron Crowe",
+              "winner": true,
+              "source_id": "343272"
+            },
+            {
+              "title": "O Brother Where Art Thou?",
+              "person": "Ethan Coen, Joel Coen",
+              "winner": false,
+              "source_id": "343276"
+            },
+            {
+              "title": "Billy Elliot",
+              "person": "Lee Hall",
+              "winner": false,
+              "source_id": "343273"
+            },
+            {
+              "title": "Erin Brockovich",
+              "person": "Susannah Grant",
+              "winner": false,
+              "source_id": "343274"
+            },
+            {
+              "title": "Gladiator",
+              "person": "David Franzoni, John Logan, William Nicholson",
+              "winner": false,
+              "source_id": "343275"
+            }
+          ]
+        },
+        {
+          "name": "Adapted Screenplay",
+          "source_name": "Adapted Screenplay",
+          "entries": [
+            {
+              "title": "Traffic",
+              "person": "Stephen Gaghan",
+              "winner": true,
+              "source_id": "343218"
+            },
+            {
+              "title": "Chocolat",
+              "person": "Robert Nelson Jacobs",
+              "winner": false,
+              "source_id": "343216"
+            },
+            {
+              "title": "High Fidelity",
+              "person": "DV De Vincentis, Steve Pink, John Cusack, Scott Rosenberg",
+              "winner": false,
+              "source_id": "343217"
+            },
+            {
+              "title": "Crouching Tiger, Hidden Dragon (Wo Hu Cang Long)",
+              "person": "James Schamus, Wang Hui-Ling, Tsai Kuo-Jung",
+              "winner": false,
+              "source_id": "343219"
+            },
+            {
+              "title": "Wonder Boys",
+              "person": "Steve Kloves",
+              "winner": false,
+              "source_id": "343220"
+            }
+          ]
+        },
+        {
+          "name": "Film Not in the English Language",
+          "source_name": "Film Not in the English Language",
+          "entries": [
+            {
+              "title": "Crouching Tiger, Hidden Dragon (Wo Hu Cang Long)",
+              "person": "Bill Kong, Hsu Li Kong, Ang Lee",
+              "winner": true,
+              "source_id": "343265"
+            },
+            {
+              "title": "In The Mood For Love (Fa Yeung Nin Wa)",
+              "person": "Wong Kar-Wai",
+              "winner": false,
+              "source_id": "343261"
+            },
+            {
+              "title": "The Girl On The Bridge (La Fille Sur Le Pont)",
+              "person": "Christian Fechner, Patrice Leconte",
+              "winner": false,
+              "source_id": "343262"
+            },
+            {
+              "title": "Harry, He's Here To Help (Harry, Un Ami Qui Vous Veut Du Bien)",
+              "person": "Michel Saint-Jean, Dominik Moll",
+              "winner": false,
+              "source_id": "343263"
+            },
+            {
+              "title": "Malena",
+              "person": "Harvey Weinstein, Carlo Bernasconi, Giuseppe Tornatore",
+              "winner": false,
+              "source_id": "343264"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "BAFTA",
+      "year": 2002,
+      "section": "Major Film Categories",
+      "source": "https://www.bafta.org/awards/film/?award-year=2002",
+      "note": "Documentary and Animated Film were not awarded in this edition. Historical category names and nomination counts are retained.",
+      "categories": [
+        {
+          "name": "Best Film",
+          "source_name": "Film",
+          "entries": [
+            {
+              "title": "The Lord Of The Rings: The Fellowship Of The Ring",
+              "person": "Peter Jackson, Barrie M Osborne, Fran Walsh, Tim Sanders",
+              "winner": true,
+              "source_id": "343359"
+            },
+            {
+              "title": "Amélie",
+              "person": "Claudie Ossard",
+              "winner": false,
+              "source_id": "343357"
+            },
+            {
+              "title": "A Beautiful Mind",
+              "person": "Brian Grazer, Ron Howard",
+              "winner": false,
+              "source_id": "343358"
+            },
+            {
+              "title": "Moulin Rouge",
+              "person": "Martin Brown, Baz Luhrmann, Fred Baron",
+              "winner": false,
+              "source_id": "343360"
+            },
+            {
+              "title": "Shrek",
+              "person": "Aron Warner, John H Williams, Jeffrey Katzenberg",
+              "winner": false,
+              "source_id": "343361"
+            }
+          ]
+        },
+        {
+          "name": "Director",
+          "source_name": "David Lean Award for Achievement in Direction",
+          "entries": [
+            {
+              "title": "The Lord Of The Rings: The Fellowship Of The Ring",
+              "person": "Peter Jackson",
+              "winner": true,
+              "source_id": "343350"
+            },
+            {
+              "title": "Amélie",
+              "person": "Jean-Pierre Jeunet",
+              "winner": false,
+              "source_id": "343347"
+            },
+            {
+              "title": "A Beautiful Mind",
+              "person": "Ron Howard",
+              "winner": false,
+              "source_id": "343348"
+            },
+            {
+              "title": "Gosford Park",
+              "person": "Robert Altman",
+              "winner": false,
+              "source_id": "343349"
+            },
+            {
+              "title": "Moulin Rouge",
+              "person": "Baz Luhrmann",
+              "winner": false,
+              "source_id": "343351"
+            }
+          ]
+        },
+        {
+          "name": "Outstanding British Film",
+          "source_name": "Alexander Korda Award for the outstanding British Film of the Year",
+          "entries": [
+            {
+              "title": "Gosford Park",
+              "person": "Robert Altman, Bob Balaban, David Levy",
+              "winner": true,
+              "source_id": "343322"
+            },
+            {
+              "title": "Bridget Jones's Diary",
+              "person": "Tim Bevan, Eric Fellner, Jonathan Cavendish, Sharon Maguire",
+              "winner": false,
+              "source_id": "343321"
+            },
+            {
+              "title": "Harry Potter And The Philosopher's Stone",
+              "person": "David Heyman, Chris Columbus",
+              "winner": false,
+              "source_id": "343323"
+            },
+            {
+              "title": "Iris",
+              "person": "Robert Fox, Scott Rudin, Richard Eyre",
+              "winner": false,
+              "source_id": "343324"
+            },
+            {
+              "title": "Me Without You",
+              "person": "Finola Dwyer, Sandra Goldbacher",
+              "winner": false,
+              "source_id": "343325"
+            }
+          ]
+        },
+        {
+          "name": "Leading Actor",
+          "source_name": "Leading Actor",
+          "entries": [
+            {
+              "title": "A Beautiful Mind",
+              "person": "Russell Crowe",
+              "winner": true,
+              "source_id": "343302"
+            },
+            {
+              "title": "Iris",
+              "person": "Jim Broadbent",
+              "winner": false,
+              "source_id": "343301"
+            },
+            {
+              "title": "The Lord Of The Rings: The Fellowship Of The Ring",
+              "person": "Ian McKellen",
+              "winner": false,
+              "source_id": "343303"
+            },
+            {
+              "title": "The Shipping News",
+              "person": "Kevin Spacey",
+              "winner": false,
+              "source_id": "343304"
+            },
+            {
+              "title": "In The Bedroom",
+              "person": "Tom Wilkinson",
+              "winner": false,
+              "source_id": "343305"
+            }
+          ]
+        },
+        {
+          "name": "Leading Actress",
+          "source_name": "Leading Actress",
+          "entries": [
+            {
+              "title": "Iris",
+              "person": "Judi Dench",
+              "winner": true,
+              "source_id": "343311"
+            },
+            {
+              "title": "The Others",
+              "person": "Nicole Kidman",
+              "winner": false,
+              "source_id": "343312"
+            },
+            {
+              "title": "In The Bedroom",
+              "person": "Sissy Spacek",
+              "winner": false,
+              "source_id": "343313"
+            },
+            {
+              "title": "Amélie",
+              "person": "Audrey Tautou",
+              "winner": false,
+              "source_id": "343314"
+            },
+            {
+              "title": "Bridget Jones's Diary",
+              "person": "Renée Zellweger",
+              "winner": false,
+              "source_id": "343315"
+            }
+          ]
+        },
+        {
+          "name": "Supporting Actor",
+          "source_name": "Supporting Actor",
+          "entries": [
+            {
+              "title": "Moulin Rouge",
+              "person": "Jim Broadbent",
+              "winner": true,
+              "source_id": "343307"
+            },
+            {
+              "title": "Iris",
+              "person": "Hugh Bonneville",
+              "winner": false,
+              "source_id": "343306"
+            },
+            {
+              "title": "Harry Potter And The Philosopher's Stone",
+              "person": "Robbie Coltrane",
+              "winner": false,
+              "source_id": "343308"
+            },
+            {
+              "title": "Bridget Jones's Diary",
+              "person": "Colin Firth",
+              "winner": false,
+              "source_id": "343309"
+            },
+            {
+              "title": "Shrek",
+              "person": "Eddie Murphy",
+              "winner": false,
+              "source_id": "343310"
+            }
+          ]
+        },
+        {
+          "name": "Supporting Actress",
+          "source_name": "Supporting Actress",
+          "entries": [
+            {
+              "title": "A Beautiful Mind",
+              "person": "Jennifer Connelly",
+              "winner": true,
+              "source_id": "343316"
+            },
+            {
+              "title": "The Shipping News",
+              "person": "Judi Dench",
+              "winner": false,
+              "source_id": "343317"
+            },
+            {
+              "title": "Gosford Park",
+              "person": "Helen Mirren",
+              "winner": false,
+              "source_id": "343318"
+            },
+            {
+              "title": "Gosford Park",
+              "person": "Maggie Smith",
+              "winner": false,
+              "source_id": "343319"
+            },
+            {
+              "title": "Iris",
+              "person": "Kate Winslet",
+              "winner": false,
+              "source_id": "343320"
+            }
+          ]
+        },
+        {
+          "name": "Original Screenplay",
+          "source_name": "Original Screenplay",
+          "entries": [
+            {
+              "title": "Amélie",
+              "person": "Guillaume Laurant, Jean-Pierre Jeunet",
+              "winner": true,
+              "source_id": "343383"
+            },
+            {
+              "title": "The Others",
+              "person": "Alejandro Amen bar",
+              "winner": false,
+              "source_id": "343386"
+            },
+            {
+              "title": "The Royal Tenenbaums",
+              "person": "Wes Anderson, Owen Wilson",
+              "winner": false,
+              "source_id": "343387"
+            },
+            {
+              "title": "Gosford Park",
+              "person": "Julian Fellowes",
+              "winner": false,
+              "source_id": "343384"
+            },
+            {
+              "title": "Moulin Rouge",
+              "person": "Baz Luhrmann, Craig Pearce",
+              "winner": false,
+              "source_id": "343385"
+            }
+          ]
+        },
+        {
+          "name": "Adapted Screenplay",
+          "source_name": "Adapted Screenplay",
+          "entries": [
+            {
+              "title": "Shrek",
+              "person": "Ted Elliott, Terry Rossio, Joe Stillman, Roger SH Schulman",
+              "winner": true,
+              "source_id": "343382"
+            },
+            {
+              "title": "A Beautiful Mind",
+              "person": "Akiva Goldsman",
+              "winner": false,
+              "source_id": "343378"
+            },
+            {
+              "title": "Bridget Jones's Diary",
+              "person": "Helen Fielding, Andrew Davies, Richard Curtis",
+              "winner": false,
+              "source_id": "343379"
+            },
+            {
+              "title": "Iris",
+              "person": "Richard Eyre, Charles Wood",
+              "winner": false,
+              "source_id": "343380"
+            },
+            {
+              "title": "The Lord Of The Rings: The Fellowship Of The Ring",
+              "person": "Fran Walsh, Philippa Boyens, Peter Jackson",
+              "winner": false,
+              "source_id": "343381"
+            }
+          ]
+        },
+        {
+          "name": "Film Not in the English Language",
+          "source_name": "Film Not in the English Language",
+          "entries": [
+            {
+              "title": "Amores Perros",
+              "person": "Alejandro González Iñárritu",
+              "winner": true,
+              "source_id": "343363"
+            },
+            {
+              "title": "The Piano Teacher",
+              "person": "Veit Heiduschka, Michael Haneke",
+              "winner": false,
+              "source_id": "343366"
+            },
+            {
+              "title": "Amélie",
+              "person": "Claudie Ossard, Jean-Pierre Jeunet",
+              "winner": false,
+              "source_id": "343362"
+            },
+            {
+              "title": "Behind The Sun",
+              "person": "Arthur Cohn, Walter Salles",
+              "winner": false,
+              "source_id": "343364"
+            },
+            {
+              "title": "Monsoon Wedding",
+              "person": "Caroline Baron, Mira Nair",
+              "winner": false,
+              "source_id": "343365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "BAFTA",
+      "year": 2003,
+      "section": "Major Film Categories",
+      "source": "https://www.bafta.org/awards/film/?award-year=2003",
+      "note": "Documentary and Animated Film were not awarded in this edition. Historical category names and nomination counts are retained.",
+      "categories": [
+        {
+          "name": "Best Film",
+          "source_name": "Film",
+          "entries": [
+            {
+              "title": "The Pianist",
+              "person": "Roman Polanski, Robert Benmussa, Alain Sarde",
+              "winner": true,
+              "source_id": "343461"
+            },
+            {
+              "title": "Chicago",
+              "person": "Martin Richards",
+              "winner": false,
+              "source_id": "343457"
+            },
+            {
+              "title": "Gangs Of New York",
+              "person": "Alberto Grimaldi, Harvey Weinstein",
+              "winner": false,
+              "source_id": "343458"
+            },
+            {
+              "title": "The Hours",
+              "person": "Scott Rudin, Robert Fox",
+              "winner": false,
+              "source_id": "343459"
+            },
+            {
+              "title": "The Lord Of The Rings: The Two Towers",
+              "person": "Barrie M Osborne, Fran Walsh, Peter Jackson",
+              "winner": false,
+              "source_id": "343460"
+            }
+          ]
+        },
+        {
+          "name": "Director",
+          "source_name": "David Lean Award for Achievement in Direction",
+          "entries": [
+            {
+              "title": "The Pianist",
+              "person": "Roman Polanski",
+              "winner": true,
+              "source_id": "343451"
+            },
+            {
+              "title": "Chicago",
+              "person": "Rob Marshall",
+              "winner": false,
+              "source_id": "343447"
+            },
+            {
+              "title": "Gangs Of New York",
+              "person": "Martin Scorsese",
+              "winner": false,
+              "source_id": "343448"
+            },
+            {
+              "title": "The Hours",
+              "person": "Stephen Daldry",
+              "winner": false,
+              "source_id": "343449"
+            },
+            {
+              "title": "The Lord Of The Rings: The Two Towers",
+              "person": "Peter Jackson",
+              "winner": false,
+              "source_id": "343450"
+            }
+          ]
+        },
+        {
+          "name": "Outstanding British Film",
+          "source_name": "Alexander Korda Award for the outstanding British Film of the Year",
+          "entries": [
+            {
+              "title": "The Warrior",
+              "person": "Bertrand Faivre, Asif Kapadia",
+              "winner": true,
+              "source_id": "343432"
+            },
+            {
+              "title": "Bend It Like Beckham",
+              "person": "Deepak Nayar, Gurinder Chadha",
+              "winner": false,
+              "source_id": "343428"
+            },
+            {
+              "title": "Dirty Pretty Things",
+              "person": "Tracey Seaward, Robert Jones, Stephen Frears",
+              "winner": false,
+              "source_id": "343429"
+            },
+            {
+              "title": "The Hours",
+              "person": "Scott Rudin, Robert Fox, Stephen Daldry",
+              "winner": false,
+              "source_id": "343430"
+            },
+            {
+              "title": "The Magdalene Sisters",
+              "person": "Frances Higson, Peter Mullan",
+              "winner": false,
+              "source_id": "343431"
+            }
+          ]
+        },
+        {
+          "name": "Leading Actor",
+          "source_name": "Leading Actor",
+          "entries": [
+            {
+              "title": "Gangs Of New York",
+              "person": "Daniel Day-Lewis",
+              "winner": true,
+              "source_id": "343411"
+            },
+            {
+              "title": "The Pianist",
+              "person": "Adrien Brody",
+              "winner": false,
+              "source_id": "343408"
+            },
+            {
+              "title": "Adaptation",
+              "person": "Nicolas Cage",
+              "winner": false,
+              "source_id": "343409"
+            },
+            {
+              "title": "The Quiet American",
+              "person": "Michael Caine",
+              "winner": false,
+              "source_id": "343410"
+            },
+            {
+              "title": "About Schmidt",
+              "person": "Jack Nicholson",
+              "winner": false,
+              "source_id": "343412"
+            }
+          ]
+        },
+        {
+          "name": "Leading Actress",
+          "source_name": "Leading Actress",
+          "entries": [
+            {
+              "title": "The Hours",
+              "person": "Nicole Kidman",
+              "winner": true,
+              "source_id": "343420"
+            },
+            {
+              "title": "Monster's Ball",
+              "person": "Halle Berry",
+              "winner": false,
+              "source_id": "343418"
+            },
+            {
+              "title": "Frida",
+              "person": "Salma Hayek",
+              "winner": false,
+              "source_id": "343419"
+            },
+            {
+              "title": "The Hours",
+              "person": "Meryl Streep",
+              "winner": false,
+              "source_id": "343421"
+            },
+            {
+              "title": "Chicago",
+              "person": "Renée Zellweger",
+              "winner": false,
+              "source_id": "343422"
+            }
+          ]
+        },
+        {
+          "name": "Supporting Actor",
+          "source_name": "Supporting Actor",
+          "entries": [
+            {
+              "title": "Catch Me If You Can",
+              "person": "Christopher Walken",
+              "winner": true,
+              "source_id": "343417"
+            },
+            {
+              "title": "Road To Perdition",
+              "person": "Paul Newman",
+              "winner": false,
+              "source_id": "343416"
+            },
+            {
+              "title": "Adaptation",
+              "person": "Chris Cooper",
+              "winner": false,
+              "source_id": "343413"
+            },
+            {
+              "title": "The Hours",
+              "person": "Ed Harris",
+              "winner": false,
+              "source_id": "343414"
+            },
+            {
+              "title": "Frida",
+              "person": "Alfred Molina",
+              "winner": false,
+              "source_id": "343415"
+            }
+          ]
+        },
+        {
+          "name": "Supporting Actress",
+          "source_name": "Supporting Actress",
+          "entries": [
+            {
+              "title": "Chicago",
+              "person": "Catherine Zeta-Jones",
+              "winner": true,
+              "source_id": "343427"
+            },
+            {
+              "title": "Adaptation",
+              "person": "Meryl Streep",
+              "winner": false,
+              "source_id": "343426"
+            },
+            {
+              "title": "About A Boy",
+              "person": "Toni Collette",
+              "winner": false,
+              "source_id": "343423"
+            },
+            {
+              "title": "Chicago",
+              "person": "Queen Latifah",
+              "winner": false,
+              "source_id": "343424"
+            },
+            {
+              "title": "The Hours",
+              "person": "Julianne Moore",
+              "winner": false,
+              "source_id": "343425"
+            }
+          ]
+        },
+        {
+          "name": "Original Screenplay",
+          "source_name": "Original Screenplay",
+          "entries": [
+            {
+              "title": "Talk To Her (Hable Con Ella)",
+              "person": "Pedro Almodóvar",
+              "winner": true,
+              "source_id": "343487"
+            },
+            {
+              "title": "The Magdalene Sisters",
+              "person": "Peter Mullan",
+              "winner": false,
+              "source_id": "343486"
+            },
+            {
+              "title": "And Your Mother Too (Y Tu Mama Tambien)",
+              "person": "Carlos Cuarón, Alfonso Cuarón",
+              "winner": false,
+              "source_id": "343483"
+            },
+            {
+              "title": "Dirty Pretty Things",
+              "person": "Steven Knight",
+              "winner": false,
+              "source_id": "343484"
+            },
+            {
+              "title": "Gangs Of New York",
+              "person": "Jay Cocks, Steven Zaillian, Kenneth Lonergan",
+              "winner": false,
+              "source_id": "343485"
+            }
+          ]
+        },
+        {
+          "name": "Adapted Screenplay",
+          "source_name": "Adapted Screenplay",
+          "entries": [
+            {
+              "title": "Adaptation",
+              "person": "Charlie Kaufman, Donald Kaufman",
+              "winner": true,
+              "source_id": "343479"
+            },
+            {
+              "title": "About A Boy",
+              "person": "Peter Hedges, Chris Weitz, Paul Weitz",
+              "winner": false,
+              "source_id": "343478"
+            },
+            {
+              "title": "Catch Me If You Can",
+              "person": "Jeff Nathanson",
+              "winner": false,
+              "source_id": "343480"
+            },
+            {
+              "title": "The Hours",
+              "person": "David Hare",
+              "winner": false,
+              "source_id": "343481"
+            },
+            {
+              "title": "The Pianist",
+              "person": "Ronald Harwood",
+              "winner": false,
+              "source_id": "343482"
+            }
+          ]
+        },
+        {
+          "name": "Film Not in the English Language",
+          "source_name": "Film Not in the English Language",
+          "entries": [
+            {
+              "title": "Talk To Her (Hable Con Ella)",
+              "person": "Agustín Almodóvar, Pedro Almodóvar",
+              "winner": true,
+              "source_id": "343464"
+            },
+            {
+              "title": "And Your Mother Too (Y Tu Mama Tambien)",
+              "person": "Jorge Vergara, Alfonso Cuarón",
+              "winner": false,
+              "source_id": "343466"
+            },
+            {
+              "title": "City Of God (Cidade De Deus)",
+              "person": "Andrea Barata Ribeiro, Mauricio Andrade Ramos, Fernando Meirelles",
+              "winner": false,
+              "source_id": "343462"
+            },
+            {
+              "title": "Devdas",
+              "person": "Bharat Shah, Sanjay Leela Bhansali",
+              "winner": false,
+              "source_id": "343463"
+            },
+            {
+              "title": "The Warrior",
+              "person": "Bertrand Faivre, Asif Kapadia",
+              "winner": false,
+              "source_id": "343465"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "BAFTA",
+      "year": 2004,
+      "section": "Major Film Categories",
+      "source": "https://www.bafta.org/awards/film/?award-year=2004",
+      "note": "Documentary and Animated Film were not awarded in this edition. Historical category names and nomination counts are retained.",
+      "categories": [
+        {
+          "name": "Best Film",
+          "source_name": "Film",
+          "entries": [
+            {
+              "title": "The Lord Of The Rings: The Return Of The King",
+              "person": "Barrie M Osborne, Fran Walsh, Peter Jackson",
+              "winner": true,
+              "source_id": "343571"
+            },
+            {
+              "title": "Big Fish",
+              "person": "Bruce Cohen, Dan Jinks, Richard D Zanuck",
+              "winner": false,
+              "source_id": "343569"
+            },
+            {
+              "title": "Cold Mountain",
+              "person": "Sydney Pollack, William Horberg, Albert Berger, Ron Yerxa",
+              "winner": false,
+              "source_id": "343570"
+            },
+            {
+              "title": "Lost In Translation",
+              "person": "Sofia Coppola, Ross Katz",
+              "winner": false,
+              "source_id": "343572"
+            },
+            {
+              "title": "Master And Commander: The Far Side Of The World",
+              "person": "Samuel Goldwyn Jr, Peter Weir, Duncan Henderson",
+              "winner": false,
+              "source_id": "343573"
+            }
+          ]
+        },
+        {
+          "name": "Director",
+          "source_name": "David Lean Award for Achievement in Direction",
+          "entries": [
+            {
+              "title": "Master And Commander: The Far Side Of The World",
+              "person": "Peter Weir",
+              "winner": true,
+              "source_id": "343563"
+            },
+            {
+              "title": "Big Fish",
+              "person": "Tim Burton",
+              "winner": false,
+              "source_id": "343559"
+            },
+            {
+              "title": "Cold Mountain",
+              "person": "Anthony Minghella",
+              "winner": false,
+              "source_id": "343560"
+            },
+            {
+              "title": "The Lord Of The Rings: The Return Of The King",
+              "person": "Peter Jackson",
+              "winner": false,
+              "source_id": "343561"
+            },
+            {
+              "title": "Lost In Translation",
+              "person": "Sofia Coppola",
+              "winner": false,
+              "source_id": "343562"
+            }
+          ]
+        },
+        {
+          "name": "Outstanding British Film",
+          "source_name": "Alexander Korda Award for the outstanding British Film of the Year",
+          "entries": [
+            {
+              "title": "Touching The Void",
+              "person": "John Smithson, Kevin Macdonald",
+              "winner": true,
+              "source_id": "343539"
+            },
+            {
+              "title": "Girl With A Pearl Earring",
+              "person": "Andy Paterson, Anand Tucker, Peter Webber",
+              "winner": false,
+              "source_id": "343536"
+            },
+            {
+              "title": "In This World",
+              "person": "Andrew Eaton, Anita Overland, Michael Winterbottom",
+              "winner": false,
+              "source_id": "343537"
+            },
+            {
+              "title": "Love Actually",
+              "person": "Duncan Kenworthy, Tim Bevan, Eric Fellner, Richard Curtis",
+              "winner": false,
+              "source_id": "343538"
+            },
+            {
+              "title": "Cold Mountain",
+              "person": "Sydney Pollack, William Horberg, Albert Berger, Ron Yerxa, Anthony Minghella",
+              "winner": false,
+              "source_id": "343535"
+            }
+          ]
+        },
+        {
+          "name": "Leading Actor",
+          "source_name": "Leading Actor",
+          "entries": [
+            {
+              "title": "Lost In Translation",
+              "person": "Bill Murray",
+              "winner": true,
+              "source_id": "343517"
+            },
+            {
+              "title": "Cold Mountain",
+              "person": "Jude Law",
+              "winner": false,
+              "source_id": "343516"
+            },
+            {
+              "title": "21 Grams",
+              "person": "Sean Penn",
+              "winner": false,
+              "source_id": "343518"
+            },
+            {
+              "title": "Mystic River",
+              "person": "Sean Penn",
+              "winner": false,
+              "source_id": "343519"
+            },
+            {
+              "title": "21 Grams",
+              "person": "Benicio Del Toro",
+              "winner": false,
+              "source_id": "343514"
+            },
+            {
+              "title": "Pirates Of The Caribbean: The Curse Of The Black Pearl",
+              "person": "Johnny Depp",
+              "winner": false,
+              "source_id": "343515"
+            }
+          ]
+        },
+        {
+          "name": "Leading Actress",
+          "source_name": "Leading Actress",
+          "entries": [
+            {
+              "title": "Lost In Translation",
+              "person": "Scarlett Johansson",
+              "winner": true,
+              "source_id": "343526"
+            },
+            {
+              "title": "The Mother",
+              "person": "Anne Reid",
+              "winner": false,
+              "source_id": "343527"
+            },
+            {
+              "title": "Kill Bill Vol 1",
+              "person": "Uma Thurman",
+              "winner": false,
+              "source_id": "343528"
+            },
+            {
+              "title": "21 Grams",
+              "person": "Naomi Watts",
+              "winner": false,
+              "source_id": "343529"
+            },
+            {
+              "title": "Girl With A Pearl Earring",
+              "person": "Scarlett Johansson",
+              "winner": false,
+              "source_id": "343525"
+            }
+          ]
+        },
+        {
+          "name": "Supporting Actor",
+          "source_name": "Supporting Actor",
+          "entries": [
+            {
+              "title": "Love Actually",
+              "person": "Bill Nighy",
+              "winner": true,
+              "source_id": "343523"
+            },
+            {
+              "title": "Master And Commander: The Far Side Of The World",
+              "person": "Paul Bettany",
+              "winner": false,
+              "source_id": "343520"
+            },
+            {
+              "title": "Big Fish",
+              "person": "Albert Finney",
+              "winner": false,
+              "source_id": "343521"
+            },
+            {
+              "title": "The Lord Of The Rings: The Return Of The King",
+              "person": "Ian McKellen",
+              "winner": false,
+              "source_id": "343522"
+            },
+            {
+              "title": "Mystic River",
+              "person": "Tim Robbins",
+              "winner": false,
+              "source_id": "343524"
+            }
+          ]
+        },
+        {
+          "name": "Supporting Actress",
+          "source_name": "Supporting Actress",
+          "entries": [
+            {
+              "title": "Cold Mountain",
+              "person": "Renée Zellweger",
+              "winner": true,
+              "source_id": "343534"
+            },
+            {
+              "title": "Thirteen",
+              "person": "Holly Hunter",
+              "winner": false,
+              "source_id": "343530"
+            },
+            {
+              "title": "Mystic River",
+              "person": "Laura Linney",
+              "winner": false,
+              "source_id": "343531"
+            },
+            {
+              "title": "Girl With A Pearl Earring",
+              "person": "Judy Parfitt",
+              "winner": false,
+              "source_id": "343532"
+            },
+            {
+              "title": "Love Actually",
+              "person": "Emma Thompson",
+              "winner": false,
+              "source_id": "343533"
+            }
+          ]
+        },
+        {
+          "name": "Original Screenplay",
+          "source_name": "Original Screenplay",
+          "entries": [
+            {
+              "title": "The Station Agent",
+              "person": "Tom McCarthy",
+              "winner": true,
+              "source_id": "343599"
+            },
+            {
+              "title": "The Barbarian Invasions (Les Invasions Barbares)",
+              "person": "Denys Arcand",
+              "winner": false,
+              "source_id": "343596"
+            },
+            {
+              "title": "Finding Nemo",
+              "person": "Andrew Stanton, Bob Peterson, David Reynolds",
+              "winner": false,
+              "source_id": "343597"
+            },
+            {
+              "title": "Lost In Translation",
+              "person": "Sofia Coppola",
+              "winner": false,
+              "source_id": "343598"
+            },
+            {
+              "title": "21 Grams",
+              "person": "Guillermo Arriaga",
+              "winner": false,
+              "source_id": "343600"
+            }
+          ]
+        },
+        {
+          "name": "Adapted Screenplay",
+          "source_name": "Adapted Screenplay",
+          "entries": [
+            {
+              "title": "The Lord Of The Rings: The Return Of The King",
+              "person": "Fran Walsh, Philippa Boyens, Peter Jackson",
+              "winner": true,
+              "source_id": "343594"
+            },
+            {
+              "title": "Big Fish",
+              "person": "John August",
+              "winner": false,
+              "source_id": "343591"
+            },
+            {
+              "title": "Cold Mountain",
+              "person": "Anthony Minghella",
+              "winner": false,
+              "source_id": "343592"
+            },
+            {
+              "title": "Girl With A Pearl Earring",
+              "person": "Olivia Hetreed",
+              "winner": false,
+              "source_id": "343593"
+            },
+            {
+              "title": "Mystic River",
+              "person": "Brian Helgeland",
+              "winner": false,
+              "source_id": "343595"
+            }
+          ]
+        },
+        {
+          "name": "Film Not in the English Language",
+          "source_name": "Film Not in the English Language",
+          "entries": [
+            {
+              "title": "In This World",
+              "person": "Andrew Eaton, Anita Overland, Michael Winterbottom",
+              "winner": true,
+              "source_id": "343577"
+            },
+            {
+              "title": "Goodbye Lenin!",
+              "person": "Stefan Arndt, Wolfgang Becker",
+              "winner": false,
+              "source_id": "343576"
+            },
+            {
+              "title": "The Barbarian Invasions (Les Invasions Barbares)",
+              "person": "Denise Robert, Daniel Louis, Denys Arcand",
+              "winner": false,
+              "source_id": "343578"
+            },
+            {
+              "title": "Spirited Away",
+              "person": "Toshio Suzuki, Hayao Miyazaki",
+              "winner": false,
+              "source_id": "343579"
+            },
+            {
+              "title": "Belleville Rendez-Vous",
+              "person": "Didier Brunner, Sylvain Chomet",
+              "winner": false,
+              "source_id": "343574"
+            },
+            {
+              "title": "Etre Et Avoir",
+              "person": "Gilles Sandoz, Nicolas Philibert",
+              "winner": false,
+              "source_id": "343575"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "BAFTA",
+      "year": 2005,
+      "section": "Major Film Categories",
+      "source": "https://www.bafta.org/awards/film/?award-year=2005",
+      "note": "Documentary and Animated Film were not awarded in this edition. Historical category names and nomination counts are retained.",
+      "categories": [
+        {
+          "name": "Best Film",
+          "source_name": "Film",
+          "entries": [
+            {
+              "title": "The Aviator",
+              "person": "Michael Mann, Sandy Climan, Graham King, Charles Evans Jr",
+              "winner": true,
+              "source_id": "343681"
+            },
+            {
+              "title": "The Motorcycle Diaries (Diarios De Motocicleta)",
+              "person": "Michael Nozik, Edgard Tenenbaum, Karen Tenkhoff",
+              "winner": false,
+              "source_id": "343682"
+            },
+            {
+              "title": "Eternal Sunshine Of The Spotless Mind",
+              "person": "Steve Golin, Anthony Bregman",
+              "winner": false,
+              "source_id": "343683"
+            },
+            {
+              "title": "Finding Neverland",
+              "person": "Richard N Gladstein, Nellie Bellflower",
+              "winner": false,
+              "source_id": "343684"
+            },
+            {
+              "title": "Vera Drake",
+              "person": "Simon Channing Williams, Alain Sarde",
+              "winner": false,
+              "source_id": "343685"
+            }
+          ]
+        },
+        {
+          "name": "Director",
+          "source_name": "David Lean Award for Achievement in Direction",
+          "entries": [
+            {
+              "title": "Vera Drake",
+              "person": "Mike Leigh",
+              "winner": true,
+              "source_id": "343675"
+            },
+            {
+              "title": "The Aviator",
+              "person": "Martin Scorsese",
+              "winner": false,
+              "source_id": "343671"
+            },
+            {
+              "title": "Collateral",
+              "person": "Michael Mann",
+              "winner": false,
+              "source_id": "343672"
+            },
+            {
+              "title": "Eternal Sunshine Of The Spotless Mind",
+              "person": "Michel Gondry",
+              "winner": false,
+              "source_id": "343673"
+            },
+            {
+              "title": "Finding Neverland",
+              "person": "Marc Forster",
+              "winner": false,
+              "source_id": "343674"
+            }
+          ]
+        },
+        {
+          "name": "Outstanding British Film",
+          "source_name": "Alexander Korda Award for the outstanding British Film of the Year",
+          "entries": [
+            {
+              "title": "My Summer Of Love",
+              "person": "Tanya Seghatchian, Christopher Collins, Pawel Pawlikowski",
+              "winner": true,
+              "source_id": "343648"
+            },
+            {
+              "title": "Dead Man's Shoes",
+              "person": "Mark Herbert, Shane Meadows",
+              "winner": false,
+              "source_id": "343646"
+            },
+            {
+              "title": "Harry Potter And The Prisoner Of Azkaban",
+              "person": "David Heyman, Chris Columbus, Mark Radcliffe, Alfonso Cuarón",
+              "winner": false,
+              "source_id": "343647"
+            },
+            {
+              "title": "Shaun Of The Dead",
+              "person": "Nira Park, Edgar Wright",
+              "winner": false,
+              "source_id": "343649"
+            },
+            {
+              "title": "Vera Drake",
+              "person": "Simon Channing Williams, Alain Sarde, Mike Leigh",
+              "winner": false,
+              "source_id": "343650"
+            }
+          ]
+        },
+        {
+          "name": "Leading Actor",
+          "source_name": "Leading Actor",
+          "entries": [
+            {
+              "title": "Ray",
+              "person": "Jamie Foxx",
+              "winner": true,
+              "source_id": "343625"
+            },
+            {
+              "title": "The Motorcycle Diaries (Diarios De Motocicleta)",
+              "person": "Gael García Bernal",
+              "winner": false,
+              "source_id": "343621"
+            },
+            {
+              "title": "Eternal Sunshine Of The Spotless Mind",
+              "person": "Jim Carrey",
+              "winner": false,
+              "source_id": "343622"
+            },
+            {
+              "title": "Finding Neverland",
+              "person": "Johnny Depp",
+              "winner": false,
+              "source_id": "343623"
+            },
+            {
+              "title": "The Aviator",
+              "person": "Leonardo DiCaprio",
+              "winner": false,
+              "source_id": "343624"
+            }
+          ]
+        },
+        {
+          "name": "Leading Actress",
+          "source_name": "Leading Actress",
+          "entries": [
+            {
+              "title": "Vera Drake",
+              "person": "Imelda Staunton",
+              "winner": true,
+              "source_id": "343631"
+            },
+            {
+              "title": "Monster",
+              "person": "Charlize Theron",
+              "winner": false,
+              "source_id": "343632"
+            },
+            {
+              "title": "Eternal Sunshine Of The Spotless Mind",
+              "person": "Kate Winslet",
+              "winner": false,
+              "source_id": "343633"
+            },
+            {
+              "title": "Finding Neverland",
+              "person": "Kate Winslet",
+              "winner": false,
+              "source_id": "343634"
+            },
+            {
+              "title": "House Of Flying Daggers (Shi Mian Mai Fu)",
+              "person": "Ziyi Zhang",
+              "winner": false,
+              "source_id": "343635"
+            }
+          ]
+        },
+        {
+          "name": "Supporting Actor",
+          "source_name": "Supporting Actor",
+          "entries": [
+            {
+              "title": "Closer",
+              "person": "Clive Owen",
+              "winner": true,
+              "source_id": "343630"
+            },
+            {
+              "title": "The Aviator",
+              "person": "Alan Alda",
+              "winner": false,
+              "source_id": "343626"
+            },
+            {
+              "title": "Vera Drake",
+              "person": "Phil Davis",
+              "winner": false,
+              "source_id": "343627"
+            },
+            {
+              "title": "The Motorcycle Diaries (Diarios De Motocicleta)",
+              "person": "Rodrigo De La Serna",
+              "winner": false,
+              "source_id": "343628"
+            },
+            {
+              "title": "Collateral",
+              "person": "Jamie Foxx",
+              "winner": false,
+              "source_id": "343629"
+            }
+          ]
+        },
+        {
+          "name": "Supporting Actress",
+          "source_name": "Supporting Actress",
+          "entries": [
+            {
+              "title": "The Aviator",
+              "person": "Cate Blanchett",
+              "winner": true,
+              "source_id": "343636"
+            },
+            {
+              "title": "Finding Neverland",
+              "person": "Julie Christie",
+              "winner": false,
+              "source_id": "343637"
+            },
+            {
+              "title": "Vera Drake",
+              "person": "Heather Craney",
+              "winner": false,
+              "source_id": "343638"
+            },
+            {
+              "title": "Closer",
+              "person": "Natalie Portman",
+              "winner": false,
+              "source_id": "343639"
+            },
+            {
+              "title": "The Manchurian Candidate",
+              "person": "Meryl Streep",
+              "winner": false,
+              "source_id": "343640"
+            }
+          ]
+        },
+        {
+          "name": "Original Screenplay",
+          "source_name": "Original Screenplay",
+          "entries": [
+            {
+              "title": "Eternal Sunshine Of The Spotless Mind",
+              "person": "Charlie Kaufman",
+              "winner": true,
+              "source_id": "343699"
+            },
+            {
+              "title": "The Aviator",
+              "person": "John Logan",
+              "winner": false,
+              "source_id": "343697"
+            },
+            {
+              "title": "Collateral",
+              "person": "Stuart Beattie",
+              "winner": false,
+              "source_id": "343698"
+            },
+            {
+              "title": "Ray",
+              "person": "James L White",
+              "winner": false,
+              "source_id": "343700"
+            },
+            {
+              "title": "Vera Drake",
+              "person": "Mike Leigh",
+              "winner": false,
+              "source_id": "343701"
+            }
+          ]
+        },
+        {
+          "name": "Adapted Screenplay",
+          "source_name": "Adapted Screenplay",
+          "entries": [
+            {
+              "title": "Sideways",
+              "person": "Alexander Payne, Jim Taylor",
+              "winner": true,
+              "source_id": "343645"
+            },
+            {
+              "title": "The Chorus (Les Choristes)",
+              "person": "Christophe Barratier, Philippe Lopes-Curval",
+              "winner": false,
+              "source_id": "343641"
+            },
+            {
+              "title": "Closer",
+              "person": "Patrick Marber",
+              "winner": false,
+              "source_id": "343642"
+            },
+            {
+              "title": "The Motorcycle Diaries (Diarios De Motocicleta)",
+              "person": "José Rivera",
+              "winner": false,
+              "source_id": "343643"
+            },
+            {
+              "title": "Finding Neverland",
+              "person": "David Magee",
+              "winner": false,
+              "source_id": "343644"
+            }
+          ]
+        },
+        {
+          "name": "Film Not in the English Language",
+          "source_name": "Film Not in the English Language",
+          "entries": [
+            {
+              "title": "The Motorcycle Diaries (Diarios De Motocicleta)",
+              "person": "Michael Nozik, Edgard Tenenbaum, Karen Tenkhoff, Walter Salles",
+              "winner": true,
+              "source_id": "343687"
+            },
+            {
+              "title": "The Chorus (Les Choristes)",
+              "person": "Arthur Cohn, Nicolas Mauvernay, Jacques Perrin, Christophe Barratier",
+              "winner": false,
+              "source_id": "343686"
+            },
+            {
+              "title": "A Very Long Engagement (Un Long Dimanche De Fiançailles)",
+              "person": "Francis Boespflug, Jean-Pierre Jeunet",
+              "winner": false,
+              "source_id": "343688"
+            },
+            {
+              "title": "Bad Education (La Mala Educación)",
+              "person": "Agustín Almodóvar, Pedro Almodóvar",
+              "winner": false,
+              "source_id": "343689"
+            },
+            {
+              "title": "House Of Flying Daggers (Shi Mian Mai Fu)",
+              "person": "Bill Kong, Zhang Yimou",
+              "winner": false,
+              "source_id": "343690"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

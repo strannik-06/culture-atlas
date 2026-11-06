@@ -4,7 +4,7 @@ import vm from 'node:vm';
 import crypto from 'node:crypto';
 import {mergeMetadata,fields,present} from './complete-film-metadata.mjs';
 const batch=process.argv[2]||'2016-2020';
-if(!['2016-2020','2011-2015','2006-2010'].includes(batch))throw Error('Unsupported award batch');
+if(!['2016-2020','2011-2015','2006-2010','2001-2005'].includes(batch))throw Error('Unsupported award batch');
 const [firstYear,lastYear]=batch.split('-').map(Number);
 const slugs=['oscars','bafta','globes','cannes','venice','berlinale'];
 const read=(p,k)=>{const c={window:{}};vm.runInNewContext(fs.readFileSync(p,'utf8'),c);return JSON.parse(JSON.stringify(c.window[k]));};

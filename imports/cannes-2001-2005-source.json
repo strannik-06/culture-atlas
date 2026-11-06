@@ -1,0 +1,2361 @@
+{
+  "events": [
+    {
+      "event": "Cannes",
+      "year": 2001,
+      "section": "Official Selection",
+      "source": "https://www.festival-cannes.com/en/retrospective/2001/selection/",
+      "awardsSource": "https://www.festival-cannes.com/en/retrospective/2001/awards/",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.festival-cannes.com/en/retrospective/2001/selection/",
+          "awardsSource": "https://www.festival-cannes.com/en/retrospective/2001/awards/",
+          "selection": [
+            {
+              "title": "AKAI HASHI NOSHITANO NURUI MIZU",
+              "aliases": [],
+              "director": "Shôhei IMAMURA",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/akai-hashi-noshitano-nurui-mizu/"
+            },
+            {
+              "title": "DESERT MOON",
+              "aliases": [],
+              "director": "Shinji AOYAMA",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/desert-moon/"
+            },
+            {
+              "title": "DISTANCE",
+              "aliases": [],
+              "director": "KOREEDA Hirokazu",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/distance/"
+            },
+            {
+              "title": "ELOGE DE L’AMOUR",
+              "aliases": [],
+              "director": "Jean-Luc GODARD",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/eloge-de-l-amour/"
+            },
+            {
+              "title": "IL MESTIERE DELLE ARMI",
+              "aliases": [],
+              "director": "Ermanno OLMI",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/il-mestiere-delle-armi/"
+            },
+            {
+              "title": "LA CHAMBRE DES OFFICIERS",
+              "aliases": [],
+              "director": "François DUPEYRON",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/la-chambre-des-officiers/"
+            },
+            {
+              "title": "LA PIANISTE",
+              "aliases": [],
+              "director": "Michael HANEKE",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/la-pianiste/"
+            },
+            {
+              "title": "LA REPETITION",
+              "aliases": [],
+              "director": "Catherine CORSINI",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/la-repetition/"
+            },
+            {
+              "title": "LA STANZA DEL FIGLIO",
+              "aliases": [
+                "THE SON'S ROOM"
+              ],
+              "director": "Nanni MORETTI",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/la-stanza-del-figlio/"
+            },
+            {
+              "title": "MILLENNIUM MAMBO",
+              "aliases": [],
+              "director": "HOU Hsiao-Hsien",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/millennium-mambo/"
+            },
+            {
+              "title": "MOULIN ROUGE",
+              "aliases": [],
+              "director": "Baz LUHRMANN",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/moulin-rouge-2/"
+            },
+            {
+              "title": "MULHOLLAND DRIVE",
+              "aliases": [],
+              "director": "David LYNCH",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/mulholland-drive-2/"
+            },
+            {
+              "title": "NI NEI PIEN CHI TIEN",
+              "aliases": [],
+              "director": "Ming-Liang TSAI",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/ni-nei-pien-chi-tien/"
+            },
+            {
+              "title": "NO MAN’S LAND",
+              "aliases": [],
+              "director": "Danis TANOVIC",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/no-man-s-land/"
+            },
+            {
+              "title": "PAU I EL SEU GERMA",
+              "aliases": [],
+              "director": "Marc RECHA",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/pau-i-el-seu-germa/"
+            },
+            {
+              "title": "ROBERTO SUCCO",
+              "aliases": [],
+              "director": "Cédric KAHN",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/roberto-succo/"
+            },
+            {
+              "title": "SAFAR E GANDEHAR",
+              "aliases": [
+                "QANDAHAR"
+              ],
+              "director": "Mohsen MAKHMALBAF",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/safar-e-gandehar/"
+            },
+            {
+              "title": "SHREK",
+              "aliases": [],
+              "director": "Vicky JENSON, Andrew ADAMSON",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/shrek/"
+            },
+            {
+              "title": "TAURUS",
+              "aliases": [],
+              "director": "Alexander SOKOUROV",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/taurus/"
+            },
+            {
+              "title": "THE MAN WHO WASN’T THERE",
+              "aliases": [],
+              "director": "Joel COEN",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/the-man-who-wasn-t-there/"
+            },
+            {
+              "title": "THE PLEDGE",
+              "aliases": [],
+              "director": "Sean PENN",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/the-pledge/"
+            },
+            {
+              "title": "VA SAVOIR",
+              "aliases": [],
+              "director": "Jacques RIVETTE",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/va-savoir/"
+            },
+            {
+              "title": "VOU PARA CASA",
+              "aliases": [],
+              "director": "Manoel DE OLIVEIRA",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/vou-para-casa/"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Palme d'or",
+              "entries": [
+                {
+                  "title": "LA STANZA DEL FIGLIO",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Grand Prix",
+              "entries": [
+                {
+                  "title": "LA PIANISTE",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Director (Ex-Aequo)",
+              "entries": [
+                {
+                  "title": "MULHOLLAND DRIVE",
+                  "winner": true,
+                  "people": [
+                    "David LYNCH"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Director (Ex-Aequo)",
+              "entries": [
+                {
+                  "title": "THE MAN WHO WASN’T THERE",
+                  "winner": true,
+                  "people": [
+                    "Joel COEN"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Screenplay",
+              "entries": [
+                {
+                  "title": "NO MAN’S LAND",
+                  "winner": true,
+                  "people": [
+                    "Danis TANOVIC"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Actress",
+              "entries": [
+                {
+                  "title": "LA PIANISTE",
+                  "winner": true,
+                  "people": [
+                    "Isabelle HUPPERT"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Actor",
+              "entries": [
+                {
+                  "title": "LA PIANISTE",
+                  "winner": true,
+                  "people": [
+                    "Benoit MAGIMEL"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Prix du Jury à un technicien",
+              "entries": [
+                {
+                  "title": "MILLENNIUM MAMBO",
+                  "winner": true,
+                  "people": [
+                    "Duu-Chih TU"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Prix du Jury à un technicien",
+              "entries": [
+                {
+                  "title": "NI NEI PIEN CHI TIEN",
+                  "winner": true,
+                  "people": [
+                    "Duu-Chih TU"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Un Certain Regard",
+          "source": "https://www.festival-cannes.com/en/retrospective/2001/selection/",
+          "awardsSource": "https://www.festival-cannes.com/en/retrospective/2001/awards/",
+          "selection": [
+            {
+              "title": "AMOUR D’ENFANCE",
+              "aliases": [],
+              "director": "Yves CAUMON",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/amour-d-enfance/"
+            },
+            {
+              "title": "ARUKU-HITO",
+              "aliases": [
+                "THE MAN WALKING ON THE SNOW"
+              ],
+              "director": "Masahiro KOBAYASHI",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/aruku-hito/"
+            },
+            {
+              "title": "ATANARJUAT THE FAST RUNNER",
+              "aliases": [],
+              "director": "Zacharias KUNUK",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/atanarjuat-the-fast-runner/"
+            },
+            {
+              "title": "CARREMENT A L’OUEST",
+              "aliases": [],
+              "director": "Jacques DOILLON",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/carrement-a-l-ouest/"
+            },
+            {
+              "title": "CLEMENT",
+              "aliases": [],
+              "director": "Emmanuelle BERCOT",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/clement/"
+            },
+            {
+              "title": "DOMANI",
+              "aliases": [
+                "TOMORROW"
+              ],
+              "director": "Francesca ARCHIBUGI",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/domani/"
+            },
+            {
+              "title": "FAH TALAI JONE",
+              "aliases": [
+                "TEARS OF THE BLACK TIGER"
+              ],
+              "director": "Wisit SASANATIENG",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/fah-talai-jone/"
+            },
+            {
+              "title": "GANHAR A VIDA",
+              "aliases": [
+                "GET A LIFE"
+              ],
+              "director": "Joao CANIJO",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/ganhar-a-vida/"
+            },
+            {
+              "title": "H STORY",
+              "aliases": [],
+              "director": "Nobuhiro SUWA",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/h-story/"
+            },
+            {
+              "title": "HATOUNA MEHUHERET",
+              "aliases": [
+                "LATE MARRIAGE"
+              ],
+              "director": "Dover KOSASHVILI",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/hatouna-mehuheret/"
+            },
+            {
+              "title": "HIJACK STORIES",
+              "aliases": [],
+              "director": "Oliver",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/hijack-stories/"
+            },
+            {
+              "title": "JOL",
+              "aliases": [
+                "THE ROAD"
+              ],
+              "director": "Darejan OMIRBAEV",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/jol/"
+            },
+            {
+              "title": "KAIRO",
+              "aliases": [],
+              "director": "KUROSAWA Kiyoshi",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/kairo/"
+            },
+            {
+              "title": "LA LIBERTAD",
+              "aliases": [],
+              "director": "Lisandro ALONSO",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/la-libertad/"
+            },
+            {
+              "title": "LAN YU",
+              "aliases": [
+                "LAN YU AND I"
+              ],
+              "director": "Stanley KWAN",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/lan-yu/"
+            },
+            {
+              "title": "LE PAROLE DI MIO PADRE",
+              "aliases": [],
+              "director": "Francesca COMENCINI",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/le-parole-di-mio-padre/"
+            },
+            {
+              "title": "LOVELY RITA",
+              "aliases": [],
+              "director": "Jessica HAUSNER",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/lovely-rita/"
+            },
+            {
+              "title": "MAIMIL",
+              "aliases": [
+                "THE CHIMP"
+              ],
+              "director": "Aktan ABDYKALYKOV",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/maimil/"
+            },
+            {
+              "title": "NO SUCH THING",
+              "aliases": [],
+              "director": "Hal HARTLEY",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/no-such-thing/"
+            },
+            {
+              "title": "PATTIYUDE DIVASAM",
+              "aliases": [
+                "A DOG'S DAY"
+              ],
+              "director": "Murali NAIR",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/pattiyude-divasam/"
+            },
+            {
+              "title": "R XMAS",
+              "aliases": [],
+              "director": "Abel FERRARA",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/r-xmas/"
+            },
+            {
+              "title": "STORYTELLING",
+              "aliases": [],
+              "director": "Todd SOLONDZ",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/storytelling/"
+            },
+            {
+              "title": "THE ANNIVERSARY PARTY",
+              "aliases": [],
+              "director": "Jennifer Jason LEIGH, Alan CUMMING",
+              "year": 2001,
+              "source": "https://www.festival-cannes.com/en/f/the-anniversary-party/"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Un Certain Regard Prize - Groupama Gan Foundation for Cinema",
+              "entries": [
+                {
+                  "title": "AMOUR D’ENFANCE",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Caméra d'or",
+              "entries": [
+                {
+                  "title": "ATANARJUAT THE FAST RUNNER",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "excluded_short_selections": [
+        {
+          "title": "TY DA IA DA MY S TOBO",
+          "aliases": [
+            "JUST THE TWO OF US"
+          ],
+          "director": "Alexandre VELEDINSKY",
+          "year": 2001,
+          "source": "https://www.festival-cannes.com/en/f/ty-da-ia-da-my-s-tobo/",
+          "runtime": 27,
+          "reason": "Short film selected within Un Certain Regard; excluded from this feature-film catalogue batch."
+        }
+      ],
+      "excluded_short_awards": [
+        {
+          "title": "DADDY’S GIRL",
+          "label": "Jury Prize (Ex-Aequo)",
+          "reason": "Official selection identifies this work in the short-film competition; retrospective laureates misgroup it under feature films."
+        },
+        {
+          "title": "PIZZA PASSIONATA",
+          "label": "Jury Prize (Ex-Aequo)",
+          "reason": "Official selection identifies this work in the short-film competition; retrospective laureates misgroup it under feature films."
+        }
+      ]
+    },
+    {
+      "event": "Cannes",
+      "year": 2002,
+      "section": "Official Selection",
+      "source": "https://www.festival-cannes.com/en/retrospective/2002/selection/",
+      "awardsSource": "https://www.festival-cannes.com/en/retrospective/2002/awards/",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.festival-cannes.com/en/retrospective/2002/selection/",
+          "awardsSource": "https://www.festival-cannes.com/en/retrospective/2002/awards/",
+          "selection": [
+            {
+              "title": "24 HOUR PARTY PEOPLE",
+              "aliases": [],
+              "director": "Michael WINTERBOTTOM",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/24-hour-party-people/"
+            },
+            {
+              "title": "ABOUT SCHMIDT",
+              "aliases": [],
+              "director": "Alexander PAYNE",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/about-schmidt/"
+            },
+            {
+              "title": "ALL OR NOTHING",
+              "aliases": [],
+              "director": "Mike LEIGH",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/all-or-nothing/"
+            },
+            {
+              "title": "BOWLING FOR COLUMBINE",
+              "aliases": [],
+              "director": "Michael MOORE",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/bowling-for-columbine/"
+            },
+            {
+              "title": "CHIHWASEON",
+              "aliases": [],
+              "director": "Kwon-Taek IM",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/chihwaseon/"
+            },
+            {
+              "title": "DEMONLOVER",
+              "aliases": [],
+              "director": "Olivier ASSAYAS",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/demonlover/"
+            },
+            {
+              "title": "IRRÉVERSIBLE",
+              "aliases": [],
+              "director": "Gaspar NOE",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/irreversible/"
+            },
+            {
+              "title": "KEDMA",
+              "aliases": [],
+              "director": "Amos GITAI",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/kedma/"
+            },
+            {
+              "title": "L’ADVERSAIRE",
+              "aliases": [],
+              "director": "Nicole GARCIA",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/l-adversaire/"
+            },
+            {
+              "title": "L’ORA DI RELIGIONE (IL SORRISO DI MIA MADRE)",
+              "aliases": [],
+              "director": "Marco BELLOCCHIO",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/l-ora-di-religione-il-sorriso-di-mia-madre/"
+            },
+            {
+              "title": "LE FILS",
+              "aliases": [],
+              "director": "Jean-Pierre DARDENNE, Bruce BROWN",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/le-fils/"
+            },
+            {
+              "title": "MARIE-JO ET SES DEUX AMOURS",
+              "aliases": [],
+              "director": "Robert GUÉDIGUIAN",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/marie-jo-et-ses-deux-amours/"
+            },
+            {
+              "title": "MIES VAILLA MENNEISYYTTÄ",
+              "aliases": [
+                "THE MAN WITHOUT A PAST"
+              ],
+              "director": "Aki KAURISMAKI",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/mies-vailla-menneisyytta/"
+            },
+            {
+              "title": "O PRINCÍPIO DA INCERTEZA",
+              "aliases": [],
+              "director": "Manoel DE OLIVEIRA",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/o-principio-da-incerteza/"
+            },
+            {
+              "title": "PUNCH-DRUNK LOVE",
+              "aliases": [],
+              "director": "Paul Thomas ANDERSON",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/punch-drunk-love/"
+            },
+            {
+              "title": "REN XIAO YAO",
+              "aliases": [
+                "UNKNOWN PLEASURES"
+              ],
+              "director": "JIA Zhang-Ke",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/ren-xiao-yao/"
+            },
+            {
+              "title": "RUSSIAN ARK",
+              "aliases": [],
+              "director": "Alexander SOKOUROV",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/russian-ark/"
+            },
+            {
+              "title": "SPIDER",
+              "aliases": [],
+              "director": "David CRONENBERG",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/spider/"
+            },
+            {
+              "title": "SWEET SIXTEEN",
+              "aliases": [],
+              "director": "Ken LOACH",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/sweet-sixteen/"
+            },
+            {
+              "title": "TEN",
+              "aliases": [],
+              "director": "Abbas KIAROSTAMI",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/ten/"
+            },
+            {
+              "title": "THE PIANIST",
+              "aliases": [],
+              "director": "Roman POLANSKI",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/the-pianist/"
+            },
+            {
+              "title": "YADON ILAHEYYA",
+              "aliases": [],
+              "director": "Elia SULEIMAN",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/yadon-ilaheyya/"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Palme d'or",
+              "entries": [
+                {
+                  "title": "THE PIANIST",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Grand Prix",
+              "entries": [
+                {
+                  "title": "MIES VAILLA MENNEISYYTTÄ",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Director (Ex-Aequo)",
+              "entries": [
+                {
+                  "title": "PUNCH-DRUNK LOVE",
+                  "winner": true,
+                  "people": [
+                    "Paul Thomas ANDERSON"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Director (Ex-Aequo)",
+              "entries": [
+                {
+                  "title": "CHIHWASEON",
+                  "winner": true,
+                  "people": [
+                    "Kwon-Taek IM"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Screenplay",
+              "entries": [
+                {
+                  "title": "SWEET SIXTEEN",
+                  "winner": true,
+                  "people": [
+                    "Paul LAVERTY"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Jury Prize",
+              "entries": [
+                {
+                  "title": "YADON ILAHEYYA",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Actress",
+              "entries": [
+                {
+                  "title": "MIES VAILLA MENNEISYYTTÄ",
+                  "winner": true,
+                  "people": [
+                    "Kati OUTINEN"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Actor",
+              "entries": [
+                {
+                  "title": "LE FILS",
+                  "winner": true,
+                  "people": [
+                    "Olivier GOURMET"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "55th Anniversary Prize (Remis à l'unanimité)",
+              "entries": [
+                {
+                  "title": "BOWLING FOR COLUMBINE",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Un Certain Regard",
+          "source": "https://www.festival-cannes.com/en/retrospective/2002/selection/",
+          "awardsSource": "https://www.festival-cannes.com/en/retrospective/2002/awards/",
+          "selection": [
+            {
+              "title": "AVAZHAYÉ SARZAMINÉ MADARIYAM",
+              "aliases": [
+                "SONGS FROM MY MOTHER'S COUNTRY"
+              ],
+              "director": "Bahman GHOBADI",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/avazhaye-sarzamine-madariyam/"
+            },
+            {
+              "title": "BALZAC ET LA PETITE TAILLEUSE CHINOISE",
+              "aliases": [
+                "BALZAC AND THE LITTLE CHINESE SEAMSTRESS"
+              ],
+              "director": "Sijie DAI",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/balzac-et-la-petite-tailleuse-chinoise/"
+            },
+            {
+              "title": "BEMANI",
+              "aliases": [],
+              "director": "Dariush MEHRJUI",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/bemani/"
+            },
+            {
+              "title": "CARNAGES",
+              "aliases": [],
+              "director": "Delphine GLEIZE",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/carnages/"
+            },
+            {
+              "title": "DIX-SEPT FOIS CECILE CASSARD",
+              "aliases": [],
+              "director": "Christophe HONORÉ",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/dix-sept-fois-cecile-cassard/"
+            },
+            {
+              "title": "DOUBLE VISION",
+              "aliases": [],
+              "director": "Kuo-Fu CHEN",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/double-vision/"
+            },
+            {
+              "title": "EL BONAERENSE",
+              "aliases": [],
+              "director": "Pablo TRAPERO",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/el-bonaerense/"
+            },
+            {
+              "title": "FARISHTAY KITFI ROST",
+              "aliases": [],
+              "director": "Djamshed USMONOV",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/farishtay-kitfi-rost/"
+            },
+            {
+              "title": "HEREMAKONO",
+              "aliases": [],
+              "director": "Abderrahmane SISSAKO",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/heremakono/"
+            },
+            {
+              "title": "ITIRAF",
+              "aliases": [
+                "CONFESSION"
+              ],
+              "director": "Zeki DEMIRKUBUZ",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/itiraf/"
+            },
+            {
+              "title": "KU QI DE NÜ REN",
+              "aliases": [],
+              "director": "Yuanjian LIU",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/ku-qi-de-nu-ren/"
+            },
+            {
+              "title": "LA CHATTE A DEUX TETES",
+              "aliases": [],
+              "director": "Jacques NOLOT",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/la-chatte-a-deux-tetes/"
+            },
+            {
+              "title": "LONG WAY HOME",
+              "aliases": [],
+              "director": "Peter SOLLETT",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/long-way-home/"
+            },
+            {
+              "title": "MADAME SATA",
+              "aliases": [],
+              "director": "Karim AÏNOUZ",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/madame-sata/"
+            },
+            {
+              "title": "RACHIDA",
+              "aliases": [],
+              "director": "Yamina BACHIR-CHOUIKH",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/rachida/"
+            },
+            {
+              "title": "SUD SANAEHA",
+              "aliases": [
+                "BLISSFULLY YOURS"
+              ],
+              "director": "Apichatpong WEERASETHAKUL",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/sud-sanaeha/"
+            },
+            {
+              "title": "SUNDÛQ AL-DUNYÂ",
+              "aliases": [],
+              "director": "Oussama MOHAMMAD",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/sunduq-al-dunya/"
+            },
+            {
+              "title": "TEN MINUTES OLDER",
+              "aliases": [],
+              "director": "Jim JARMUSCH, Spike LEE, Aki KAURISMAKI, Wim WENDERS, Werner HERZOG, Victor ERICE, Kaige CHEN",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/ten-minutes-older/"
+            },
+            {
+              "title": "TERRA INCOGNITA",
+              "aliases": [],
+              "director": "Ghassan SALHAB",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/terra-incognita/"
+            },
+            {
+              "title": "TOMORROW LA SCALA!",
+              "aliases": [],
+              "director": "Francesca JOSEPH",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/tomorrow-la-scala/"
+            },
+            {
+              "title": "UNE PART DU CIEL",
+              "aliases": [],
+              "director": "Bénédicte LIENARD",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/une-part-du-ciel/"
+            },
+            {
+              "title": "YAZGI",
+              "aliases": [],
+              "director": "Zeki DEMIRKUBUZ",
+              "year": 2002,
+              "source": "https://www.festival-cannes.com/en/f/yazgi/"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Un Certain Regard Prize - Groupama Gan Foundation for Cinema",
+              "entries": [
+                {
+                  "title": "SUD SANAEHA",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "Cannes",
+      "year": 2003,
+      "section": "Official Selection",
+      "source": "https://www.festival-cannes.com/en/retrospective/2003/selection/",
+      "awardsSource": "https://www.festival-cannes.com/en/retrospective/2003/awards/",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.festival-cannes.com/en/retrospective/2003/selection/",
+          "awardsSource": "https://www.festival-cannes.com/en/retrospective/2003/awards/",
+          "selection": [
+            {
+              "title": "AKARUI MIRAI",
+              "aliases": [
+                "BRIGHT FUTURE"
+              ],
+              "director": "KUROSAWA Kiyoshi",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/akarui-mirai/"
+            },
+            {
+              "title": "CARANDIRU",
+              "aliases": [],
+              "director": "Hector BABENCO",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/carandiru/"
+            },
+            {
+              "title": "CE JOUR-LÀ",
+              "aliases": [],
+              "director": "Raoul RUIZ",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/ce-jour-la/"
+            },
+            {
+              "title": "DOGVILLE",
+              "aliases": [],
+              "director": "Lars VON TRIER",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/dogville/"
+            },
+            {
+              "title": "ELEPHANT",
+              "aliases": [],
+              "director": "Gus VAN SANT",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/elephant/"
+            },
+            {
+              "title": "IL CUORE ALTROVE",
+              "aliases": [],
+              "director": "Pupi AVATI",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/il-cuore-altrove/"
+            },
+            {
+              "title": "LA PETITE LILI",
+              "aliases": [],
+              "director": "Claude MILLER",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/la-petite-lili/"
+            },
+            {
+              "title": "LES CÔTELETTES",
+              "aliases": [],
+              "director": "Bertrand BLIER",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/les-cotelettes/"
+            },
+            {
+              "title": "LES INVASIONS BARBARES",
+              "aliases": [],
+              "director": "Denys ARCAND",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/les-invasions-barbares/"
+            },
+            {
+              "title": "LES ÉGARÉS",
+              "aliases": [
+                "STRAYED"
+              ],
+              "director": "André TÉCHINÉ",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/les-egares/"
+            },
+            {
+              "title": "MYSTIC RIVER",
+              "aliases": [],
+              "director": "Clint EASTWOOD",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/mystic-river/"
+            },
+            {
+              "title": "OTETS Y SYN",
+              "aliases": [
+                "FATHER AND SON"
+              ],
+              "director": "Aleksandr SOKUROV",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/otets-y-syn/"
+            },
+            {
+              "title": "PANJ É ASR",
+              "aliases": [],
+              "director": "Samira MAKHMALBAF",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/panj-e-asr/"
+            },
+            {
+              "title": "PURPLE BUTTERFLY",
+              "aliases": [],
+              "director": "LOU Ye",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/purple-butterfly/"
+            },
+            {
+              "title": "SHARASOJYU",
+              "aliases": [],
+              "director": "Naomi KAWASE",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/sharasojyu/"
+            },
+            {
+              "title": "SWIMMING POOL",
+              "aliases": [],
+              "director": "François OZON",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/swimming-pool/"
+            },
+            {
+              "title": "THE BROWN BUNNY",
+              "aliases": [],
+              "director": "Vincent GALLO",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/the-brown-bunny/"
+            },
+            {
+              "title": "THE TULSE LUPER SUITCASES-PART I. THE MOAB STORY",
+              "aliases": [],
+              "director": "Peter GREENAWAY",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/the-tulse-luper-suitcases-part-i-the-moab-story/"
+            },
+            {
+              "title": "TIRESIA",
+              "aliases": [],
+              "director": "Bertrand BONELLO",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/tiresia/"
+            },
+            {
+              "title": "UZAK",
+              "aliases": [],
+              "director": "Nuri Bilge CEYLAN",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/uzak/"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Palme d'or",
+              "entries": [
+                {
+                  "title": "ELEPHANT",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Grand Prix",
+              "entries": [
+                {
+                  "title": "UZAK",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Director",
+              "entries": [
+                {
+                  "title": "ELEPHANT",
+                  "winner": true,
+                  "people": [
+                    "Gus VAN SANT"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Screenplay",
+              "entries": [
+                {
+                  "title": "LES INVASIONS BARBARES",
+                  "winner": true,
+                  "people": [
+                    "Denys ARCAND"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Jury Prize",
+              "entries": [
+                {
+                  "title": "PANJ É ASR",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Actress",
+              "entries": [
+                {
+                  "title": "LES INVASIONS BARBARES",
+                  "winner": true,
+                  "people": [
+                    "Marie-Josée CROZE"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Actor (Ex-Aequo)",
+              "entries": [
+                {
+                  "title": "UZAK",
+                  "winner": true,
+                  "people": [
+                    "Muzaffer ÖZDEMIR, Mehmet Emin TOPRAK"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Un Certain Regard",
+          "source": "https://www.festival-cannes.com/en/retrospective/2003/selection/",
+          "awardsSource": "https://www.festival-cannes.com/en/retrospective/2003/awards/",
+          "selection": [
+            {
+              "title": "ALL TOMORROW’S PARTIES",
+              "aliases": [],
+              "director": "Lik Wai YU",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/all-tomorrow-s-parties/"
+            },
+            {
+              "title": "AMERICAN SPLENDOR",
+              "aliases": [],
+              "director": "Shari Springer BERMAN, Robert PULCINI",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/american-splendor/"
+            },
+            {
+              "title": "ARIMPARA",
+              "aliases": [
+                "A STORY THAT BEGINS AT THE END"
+              ],
+              "director": "Murali NAIR",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/arimpara/"
+            },
+            {
+              "title": "DRIFTERS",
+              "aliases": [],
+              "director": "Xiaoshuai WANG",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/drifters/"
+            },
+            {
+              "title": "EN JOUANT “DANS LA COMPAGNIE DES HOMMES”",
+              "aliases": [],
+              "director": "Arnaud DESPLECHIN",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/en-jouant-dans-la-compagnie-des-hommes/"
+            },
+            {
+              "title": "HOY Y MAÑANA",
+              "aliases": [
+                "TODAY AND TOMORROW"
+              ],
+              "director": "Alejandro CHOMSKI",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/hoy-y-manana/"
+            },
+            {
+              "title": "JAPANESE STORY",
+              "aliases": [],
+              "director": "Sue BROOKS",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/japanese-story/"
+            },
+            {
+              "title": "KISS OF LIFE",
+              "aliases": [],
+              "director": "Emily YOUNG",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/kiss-of-life/"
+            },
+            {
+              "title": "LA CRUZ DEL SUR",
+              "aliases": [
+                "THE SOUTHERN CROSS"
+              ],
+              "director": "Pablo REYERO",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/la-cruz-del-sur/"
+            },
+            {
+              "title": "LA MEGLIO GIOVENTU",
+              "aliases": [],
+              "director": "Marco Tullio GIORDANA",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/la-meglio-gioventu/"
+            },
+            {
+              "title": "LES MAINS VIDES",
+              "aliases": [],
+              "director": "Marc RECHA",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/les-mains-vides/"
+            },
+            {
+              "title": "MILLE MOIS",
+              "aliases": [
+                "A THOUSAND MONTHS"
+              ],
+              "director": "Faouzi BENSAÏDI",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/mille-mois/"
+            },
+            {
+              "title": "ROBINSON’S CRUSOE",
+              "aliases": [],
+              "director": "Chen-Sheng LIN",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/robinson-s-crusoe/"
+            },
+            {
+              "title": "SEPTEMBER",
+              "aliases": [],
+              "director": "Max FAERBERBOECK",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/september/",
+              "runtime": 112,
+              "runtime_source": "https://www.festival-cannes.com/en/f/september/"
+            },
+            {
+              "title": "SOLDADOS DE SALAMINA",
+              "aliases": [
+                "SOLDIERS OF SALAMINA"
+              ],
+              "director": "David TRUEBA",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/soldados-de-salamina/"
+            },
+            {
+              "title": "STORMY WEATHER",
+              "aliases": [],
+              "director": "Solveig ANSPACH",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/stormy-weather/"
+            },
+            {
+              "title": "STRUGGLE",
+              "aliases": [],
+              "director": "Ruth MADER",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/struggle/"
+            },
+            {
+              "title": "TALAYE SORGH",
+              "aliases": [
+                "CRIMSON GOLD"
+              ],
+              "director": "Jafar PANAHI",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/talaye-sorgh/"
+            },
+            {
+              "title": "YOUNG ADAM",
+              "aliases": [],
+              "director": "David MACKENZIE",
+              "year": 2003,
+              "source": "https://www.festival-cannes.com/en/f/young-adam/"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Un Certain Regard Prize - Groupama Gan Foundation for Cinema",
+              "entries": [
+                {
+                  "title": "LA MEGLIO GIOVENTU",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Jury's Prize - Un Certain Regard",
+              "entries": [
+                {
+                  "title": "TALAYE SORGH",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Prix le Premier Regard - Un Certain Regard",
+              "entries": [
+                {
+                  "title": "MILLE MOIS",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "Cannes",
+      "year": 2004,
+      "section": "Official Selection",
+      "source": "https://www.festival-cannes.com/en/retrospective/2004/selection/",
+      "awardsSource": "https://www.festival-cannes.com/en/retrospective/2004/awards/",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.festival-cannes.com/en/retrospective/2004/selection/",
+          "awardsSource": "https://www.festival-cannes.com/en/retrospective/2004/awards/",
+          "selection": [
+            {
+              "title": "2046",
+              "aliases": [],
+              "director": "WONG Kar Wai",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/2046/"
+            },
+            {
+              "title": "CLEAN",
+              "aliases": [],
+              "director": "Olivier ASSAYAS",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/clean/"
+            },
+            {
+              "title": "COMME UNE IMAGE",
+              "aliases": [
+                "LOOK AT ME"
+              ],
+              "director": "Agnès JAOUI",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/comme-une-image/"
+            },
+            {
+              "title": "DAREMO SHIRANAI",
+              "aliases": [
+                "NOBODY KNOWS"
+              ],
+              "director": "KOREEDA Hirokazu",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/daremo-shiranai/"
+            },
+            {
+              "title": "DIARIOS DE MOTOCICLETA",
+              "aliases": [
+                "THE MOTORCYCLE DIARIES"
+              ],
+              "director": "Walter SALLES",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/diarios-de-motocicleta/"
+            },
+            {
+              "title": "DIE FETTEN JAHRE SIND VORBEI",
+              "aliases": [
+                "THE EDUKATORS"
+              ],
+              "director": "Hans WEINGARTNER",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/die-fetten-jahre-sind-vorbei/"
+            },
+            {
+              "title": "EXILS",
+              "aliases": [],
+              "director": "Tony GATLIF",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/exils/"
+            },
+            {
+              "title": "FAHRENHEIT 9/11",
+              "aliases": [
+                "FAHRENHEIT 911"
+              ],
+              "director": "Michael MOORE",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/fahrenheit-9-11/"
+            },
+            {
+              "title": "INNOCENCE",
+              "aliases": [
+                "GHOST IN THE SHELL 2: INNOCENCE"
+              ],
+              "director": "Mamoru OSHII",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/innocence/"
+            },
+            {
+              "title": "LA FEMME EST L’AVENIR DE L’HOMME",
+              "aliases": [
+                "WOMAN IS THE FUTURE OF MAN"
+              ],
+              "director": "Sangsoo HONG",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/la-femme-est-l-avenir-de-l-homme/"
+            },
+            {
+              "title": "LA NINA SANTA",
+              "aliases": [
+                "THE HOLY GIRL"
+              ],
+              "director": "Lucrecia MARTEL",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/la-nina-santa/"
+            },
+            {
+              "title": "LE CONSEGUENZE DELL’AMORE",
+              "aliases": [
+                "CONSEQUENCES OF LOVE"
+              ],
+              "director": "Paolo SORRENTINO",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/le-conseguenze-dell-amore/"
+            },
+            {
+              "title": "MONDOVINO",
+              "aliases": [],
+              "director": "Jonathan NOSSITER",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/mondovino/"
+            },
+            {
+              "title": "OLD BOY",
+              "aliases": [],
+              "director": "PARK Chan-Wook",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/old-boy/"
+            },
+            {
+              "title": "SHREK 2",
+              "aliases": [],
+              "director": "Andrew ADAMSON, Kelly ASBURY, Conrad VERNON",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/shrek-2/"
+            },
+            {
+              "title": "SUD PRALAD",
+              "aliases": [],
+              "director": "Apichatpong WEERASETHAKUL",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/sud-pralad/"
+            },
+            {
+              "title": "THE LADYKILLERS",
+              "aliases": [],
+              "director": "Ethan COEN, Joel COEN",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/the-ladykillers/"
+            },
+            {
+              "title": "THE LIFE AND DEATH OF PETER SELLERS",
+              "aliases": [],
+              "director": "Stephen HOPKINS",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/the-life-and-death-of-peter-sellers/"
+            },
+            {
+              "title": "ZIVOT JE CUDO",
+              "aliases": [
+                "LIFE IS A MIRACLE"
+              ],
+              "director": "Emir KUSTURICA",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/zivot-je-cudo/"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Palme d'or",
+              "entries": [
+                {
+                  "title": "FAHRENHEIT 9/11",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Grand Prix",
+              "entries": [
+                {
+                  "title": "OLD BOY",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Director",
+              "entries": [
+                {
+                  "title": "EXILS",
+                  "winner": true,
+                  "people": [
+                    "Tony GATLIF"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Screenplay",
+              "entries": [
+                {
+                  "title": "COMME UNE IMAGE",
+                  "winner": true,
+                  "people": [
+                    "Agnès JAOUI, Jean-Pierre BACRI"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Jury Prize",
+              "entries": [
+                {
+                  "title": "THE LADYKILLERS",
+                  "winner": true,
+                  "people": [
+                    "Irma P. HALL"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Jury Prize (Ex-Aequo)",
+              "entries": [
+                {
+                  "title": "SUD PRALAD",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Actress",
+              "entries": [
+                {
+                  "title": "CLEAN",
+                  "winner": true,
+                  "people": [
+                    "Maggie CHEUNG"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Actor",
+              "entries": [
+                {
+                  "title": "DAREMO SHIRANAI",
+                  "winner": true,
+                  "people": [
+                    "YAGIRA Yuya"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Un Certain Regard",
+          "source": "https://www.festival-cannes.com/en/retrospective/2004/selection/",
+          "awardsSource": "https://www.festival-cannes.com/en/retrospective/2004/awards/",
+          "selection": [
+            {
+              "title": "10 ON TEN",
+              "aliases": [],
+              "director": "Abbas KIAROSTAMI",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/10-on-ten/"
+            },
+            {
+              "title": "A CE SOIR.",
+              "aliases": [
+                "NELLY"
+              ],
+              "director": "Laure DUTHILLEUL",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/a-ce-soir/"
+            },
+            {
+              "title": "A TOUT DE SUITE",
+              "aliases": [],
+              "director": "Benoît JACQUOT",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/a-tout-de-suite/"
+            },
+            {
+              "title": "ALEXANDRIE… NEW YORK",
+              "aliases": [],
+              "director": "Youssef CHAHINE",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/alexandrie-new-york/"
+            },
+            {
+              "title": "BIENVENUE EN SUISSE",
+              "aliases": [],
+              "director": "Léa FAZER",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/bienvenue-en-suisse/"
+            },
+            {
+              "title": "CHEONG-PUNG-MYEONG-WEOL (SWORD IN THE MOON)",
+              "aliases": [
+                "SWORD IN THE MOON"
+              ],
+              "director": "Eui-Suk KIM",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/cheong-pung-myeong-weol-sword-in-the-moon/"
+            },
+            {
+              "title": "CRONICAS",
+              "aliases": [],
+              "director": "Sebastián CORDERO",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/cronicas/"
+            },
+            {
+              "title": "DEAR FRANKIE",
+              "aliases": [],
+              "director": "Shona AUERBACH",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/dear-frankie/"
+            },
+            {
+              "title": "HOTEL",
+              "aliases": [],
+              "director": "Jessica HAUSNER",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/hotel/"
+            },
+            {
+              "title": "KHÂKESTAR-O-KHÂK",
+              "aliases": [
+                "EARTH AND ASHES"
+              ],
+              "director": "Atiq RAHIMI",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/khakestar-o-khak/"
+            },
+            {
+              "title": "KONTROLL",
+              "aliases": [],
+              "director": "Nimród ANTAL",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/kontroll/"
+            },
+            {
+              "title": "LU CHENG",
+              "aliases": [],
+              "director": "Chao YANG",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/lu-cheng/"
+            },
+            {
+              "title": "MARSEILLE",
+              "aliases": [],
+              "director": "Angela SCHANELEC",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/marseille/"
+            },
+            {
+              "title": "MOOLAADE",
+              "aliases": [],
+              "director": "Ousmane SEMBENE",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/moolaade/"
+            },
+            {
+              "title": "NOITE ESCURA",
+              "aliases": [],
+              "director": "Joao CANIJO",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/noite-escura/"
+            },
+            {
+              "title": "NON TI MUOVERE",
+              "aliases": [
+                "DON'T MOVE"
+              ],
+              "director": "Sergio CASTELLITTO",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/non-ti-muovere/"
+            },
+            {
+              "title": "POIDS LEGER",
+              "aliases": [],
+              "director": "Jean-Pierre AMERIS",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/poids-leger/"
+            },
+            {
+              "title": "SCHIZO",
+              "aliases": [],
+              "director": "Guka OMAROVA",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/schizo/"
+            },
+            {
+              "title": "SOMERSAULT",
+              "aliases": [],
+              "director": "Cate SHORTLAND",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/somersault/"
+            },
+            {
+              "title": "THE ASSASSINATION OF RICHARD NIXON",
+              "aliases": [],
+              "director": "Niels MUELLER",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/the-assassination-of-richard-nixon/"
+            },
+            {
+              "title": "WHISKY",
+              "aliases": [],
+              "director": "Juan Pablo REBELLA, Pablo STOLL",
+              "year": 2004,
+              "source": "https://www.festival-cannes.com/en/f/whisky/"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Un Certain Regard Prize - Groupama Gan Foundation for Cinema",
+              "entries": [
+                {
+                  "title": "MOOLAADE",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Prix du Regard Original",
+              "entries": [
+                {
+                  "title": "WHISKY",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Prix du Regard vers l'Avenir",
+              "entries": [
+                {
+                  "title": "KHÂKESTAR-O-KHÂK",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Caméra d'Or - Special Distinction (Ex-Aequo)",
+              "entries": [
+                {
+                  "title": "LU CHENG",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "Cannes",
+      "year": 2005,
+      "section": "Official Selection",
+      "source": "https://www.festival-cannes.com/en/retrospective/2005/selection/",
+      "awardsSource": "https://www.festival-cannes.com/en/retrospective/2005/awards/",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.festival-cannes.com/en/retrospective/2005/selection/",
+          "awardsSource": "https://www.festival-cannes.com/en/retrospective/2005/awards/",
+          "selection": [
+            {
+              "title": "A HISTORY OF VIOLENCE",
+              "aliases": [],
+              "director": "David CRONENBERG",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/a-history-of-violence/"
+            },
+            {
+              "title": "BASHING",
+              "aliases": [],
+              "director": "Masahiro KOBAYASHI",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/bashing/"
+            },
+            {
+              "title": "BATALLA EN EL CIELO",
+              "aliases": [
+                "BATTLE IN HEAVEN"
+              ],
+              "director": "Carlos REYGADAS",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/batalla-en-el-cielo/"
+            },
+            {
+              "title": "BROKEN FLOWERS",
+              "aliases": [],
+              "director": "Jim JARMUSCH",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/broken-flowers/"
+            },
+            {
+              "title": "CACHÉ",
+              "aliases": [
+                "HIDDEN"
+              ],
+              "director": "Michael HANEKE",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/cache/"
+            },
+            {
+              "title": "DON’T COME KNOCKING",
+              "aliases": [],
+              "director": "Wim WENDERS",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/don-t-come-knocking/"
+            },
+            {
+              "title": "ELECTION",
+              "aliases": [],
+              "director": "Johnnie TO",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/election/"
+            },
+            {
+              "title": "FREE ZONE",
+              "aliases": [],
+              "director": "Amos GITAI",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/free-zone/"
+            },
+            {
+              "title": "KEUK JANG JEON",
+              "aliases": [
+                "TALE OF CINEMA"
+              ],
+              "director": "Sangsoo HONG",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/keuk-jang-jeon/"
+            },
+            {
+              "title": "KILOMETRE ZERO",
+              "aliases": [],
+              "director": "Hiner SALEEM",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/kilometre-zero/"
+            },
+            {
+              "title": "L’ENFANT",
+              "aliases": [],
+              "director": "Jean-Pierre DARDENNE, Luc DARDENNE",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/l-enfant/"
+            },
+            {
+              "title": "LAST DAYS",
+              "aliases": [],
+              "director": "Gus VAN SANT",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/last-days/"
+            },
+            {
+              "title": "LEMMING",
+              "aliases": [],
+              "director": "Dominik MOLL",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/lemming/"
+            },
+            {
+              "title": "MANDERLAY",
+              "aliases": [],
+              "director": "Lars VON TRIER",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/manderlay/"
+            },
+            {
+              "title": "PEINDRE OU FAIRE L’AMOUR",
+              "aliases": [],
+              "director": "Jean-Marie LARRIEU, Arnaud LARRIEU",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/peindre-ou-faire-l-amour/"
+            },
+            {
+              "title": "QUANDO SEI NATO NON PUOI PIU NASCONDERTI",
+              "aliases": [],
+              "director": "Marco Tullio GIORDANA",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/quando-sei-nato-non-puoi-piu-nasconderti/"
+            },
+            {
+              "title": "SHANGHAI DREAMS",
+              "aliases": [],
+              "director": "Xiaoshuai WANG",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/shanghai-dreams/"
+            },
+            {
+              "title": "SIN CITY",
+              "aliases": [],
+              "director": "Robert RODRIGUEZ, Frank MILLER",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/sin-city/"
+            },
+            {
+              "title": "THE THREE BURIALS OF MELQUIADES ESTRADA",
+              "aliases": [],
+              "director": "Tommy Lee JONES",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/the-three-burials-of-melquiades-estrada/"
+            },
+            {
+              "title": "THREE TIMES",
+              "aliases": [],
+              "director": "HOU Hsiao-Hsien",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/three-times/"
+            },
+            {
+              "title": "WHERE THE TRUTH LIES",
+              "aliases": [],
+              "director": "Atom EGOYAN",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/where-the-truth-lies/"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Palme d'or",
+              "entries": [
+                {
+                  "title": "L’ENFANT",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Grand Prix",
+              "entries": [
+                {
+                  "title": "BROKEN FLOWERS",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Director",
+              "entries": [
+                {
+                  "title": "CACHÉ",
+                  "winner": true,
+                  "people": [
+                    "Michael HANEKE"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Screenplay",
+              "entries": [
+                {
+                  "title": "THE THREE BURIALS OF MELQUIADES ESTRADA",
+                  "winner": true,
+                  "people": [
+                    "Guillermo ARRIAGA"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Jury Prize",
+              "entries": [
+                {
+                  "title": "SHANGHAI DREAMS",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Actress",
+              "entries": [
+                {
+                  "title": "FREE ZONE",
+                  "winner": true,
+                  "people": [
+                    "Hanna LASLO"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Actor",
+              "entries": [
+                {
+                  "title": "THE THREE BURIALS OF MELQUIADES ESTRADA",
+                  "winner": true,
+                  "people": [
+                    "Tommy Lee JONES"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Un Certain Regard",
+          "source": "https://www.festival-cannes.com/en/retrospective/2005/selection/",
+          "awardsSource": "https://www.festival-cannes.com/en/retrospective/2005/awards/",
+          "selection": [
+            {
+              "title": "CIDADE BAIXA",
+              "aliases": [
+                "LOWER CITY"
+              ],
+              "director": "Sergio MACHADO",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/cidade-baixa/"
+            },
+            {
+              "title": "CINEMA, ASPIRINAS E URUBUS",
+              "aliases": [
+                "CINEMA, ASPIRINS AND VULTURES"
+              ],
+              "director": "Marcelo GOMES",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/cinema-aspirinas-e-urubus/"
+            },
+            {
+              "title": "DELWENDE",
+              "aliases": [],
+              "director": "S. Pierre YAMEOGO",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/delwende/"
+            },
+            {
+              "title": "DOWN IN THE VALLEY",
+              "aliases": [],
+              "director": "David JACOBSON",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/down-in-the-valley/"
+            },
+            {
+              "title": "ELI, ELI, LEMA SABACHTHANI?",
+              "aliases": [],
+              "director": "Shinji AOYAMA",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/eli-eli-lema-sabachthani/"
+            },
+            {
+              "title": "FALSCHER BEKENNER",
+              "aliases": [
+                "LOW PROFILE"
+              ],
+              "director": "Christoph HOCHHÄUSLER",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/falscher-bekenner/"
+            },
+            {
+              "title": "HABANA BLUES",
+              "aliases": [
+                "HAVANA BLUES"
+              ],
+              "director": "Benito ZAMBRANO",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/habana-blues/"
+            },
+            {
+              "title": "HWAL",
+              "aliases": [
+                "THE BOW"
+              ],
+              "director": "Ki-Duk KIM",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/hwal/"
+            },
+            {
+              "title": "JEWBOY",
+              "aliases": [],
+              "director": "Tony KRAWITZ",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/jewboy/"
+            },
+            {
+              "title": "JOHANNA",
+              "aliases": [
+                "JOAN"
+              ],
+              "director": "Kornél MUNDRUCZÓ",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/johanna/"
+            },
+            {
+              "title": "LE FILMEUR",
+              "aliases": [],
+              "director": "Alain CAVALIER",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/le-filmeur/"
+            },
+            {
+              "title": "LE TEMPS QUI RESTE",
+              "aliases": [],
+              "director": "François OZON",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/le-temps-qui-reste/"
+            },
+            {
+              "title": "MAROCK",
+              "aliases": [],
+              "director": "Laïla MARRAKCHI",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/marock/",
+              "runtime": 102,
+              "runtime_source": "https://www.festival-cannes.com/en/f/marock/"
+            },
+            {
+              "title": "MOARTEA DOMNULUI LAZARESCU",
+              "aliases": [
+                "THE DEATH OF MR. LAZARESCU"
+              ],
+              "director": "Cristi PUIU",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/moartea-domnului-lazarescu/"
+            },
+            {
+              "title": "NORDESTE",
+              "aliases": [],
+              "director": "Juan SOLANAS",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/nordeste/"
+            },
+            {
+              "title": "SANGRE",
+              "aliases": [],
+              "director": "Amat ESCALANTE",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/sangre/"
+            },
+            {
+              "title": "SCHLÄFER",
+              "aliases": [
+                "SLEEPER"
+              ],
+              "director": "Benjamin HEISENBERG",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/schlafer/"
+            },
+            {
+              "title": "SULANGA ENU PINISA",
+              "aliases": [
+                "THE FORSAKEN LAND"
+              ],
+              "director": "Vimukthi JAYASUNDARA",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/sulanga-enu-pinisa/"
+            },
+            {
+              "title": "THE KING",
+              "aliases": [],
+              "director": "James MARSH",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/the-king/"
+            },
+            {
+              "title": "VOKSNE MENNESKER",
+              "aliases": [
+                "DARK HORSE"
+              ],
+              "director": "Dagur KARI",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/voksne-mennesker/"
+            },
+            {
+              "title": "YEK SHAB",
+              "aliases": [
+                "ONE NIGHT"
+              ],
+              "director": "Niki KARIMI",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/yek-shab/"
+            },
+            {
+              "title": "ZIM AND CO",
+              "aliases": [],
+              "director": "Pierre JOLIVET",
+              "year": 2005,
+              "source": "https://www.festival-cannes.com/en/f/zim-and-co/"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Un Certain Regard Prize - Groupama Gan Foundation for Cinema",
+              "entries": [
+                {
+                  "title": "MOARTEA DOMNULUI LAZARESCU",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Un Certain Regard - Prix de l'intimité",
+              "entries": [
+                {
+                  "title": "LE FILMEUR",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Prize of Hope",
+              "entries": [
+                {
+                  "title": "DELWENDE",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Caméra d'or (Ex-Aequo)",
+              "entries": [
+                {
+                  "title": "SULANGA ENU PINISA",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "excluded_short_selections": [
+        {
+          "title": "YELLOW FELLA",
+          "aliases": [],
+          "director": "Ivan SEN",
+          "year": 2005,
+          "source": "https://www.festival-cannes.com/en/f/yellow-fella/",
+          "runtime": 25,
+          "reason": "Short film selected within Un Certain Regard; excluded from this feature-film catalogue batch."
+        }
+      ]
+    }
+  ]
+}

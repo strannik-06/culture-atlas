@@ -1,0 +1,2001 @@
+{
+  "scope": "Main Competition (final actual competitors) 2001–2005. Encounters did not yet exist. Official jury prizes and cross-section official prizes for selected films. Excludes out-of-competition screenings, withdrawn films, independent juries, other sections and honorary awards.",
+  "events": [
+    {
+      "event": "Berlinale",
+      "year": 2001,
+      "section": "Official Selection",
+      "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2001/o=asc/p=1/rp=200",
+      "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2001/o=desc/p=1/rp=40",
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2001-02-07",
+          "end": "2001-02-18",
+          "source": "https://www.berlinale.de/en/archive/yearbooks/2001.html"
+        }
+      ],
+      "date_source_text": "February 7 – 18, 2001",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2001/o=asc/p=1/rp=200",
+          "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2001/o=desc/p=1/rp=40",
+          "selection": [
+            {
+              "title": "À ma soeur!",
+              "aliases": [
+                "Fat Girl"
+              ],
+              "director": "Catherine Breillat",
+              "year": 2000,
+              "runtime": 95,
+              "source": "https://www.berlinale.de/en/2001/programme/20012145.html"
+            },
+            {
+              "title": "Ai ni ai wo",
+              "aliases": [
+                "Betelnut Beauty"
+              ],
+              "director": "Lin Cheng-sheng",
+              "year": 2000,
+              "runtime": 106,
+              "source": "https://www.berlinale.de/en/2001/programme/20011713.html"
+            },
+            {
+              "title": "Bamboozled",
+              "aliases": [
+                "It's Showtime"
+              ],
+              "director": "Spike Lee",
+              "year": 2000,
+              "runtime": 135,
+              "source": "https://www.berlinale.de/en/2001/programme/20010199.html"
+            },
+            {
+              "title": "Chloe",
+              "aliases": [],
+              "director": "Go Riju",
+              "year": 2000,
+              "runtime": 128,
+              "source": "https://www.berlinale.de/en/2001/programme/20011821.html"
+            },
+            {
+              "title": "Chocolat",
+              "aliases": [],
+              "director": "Lasse Hallström",
+              "year": 2000,
+              "runtime": 121,
+              "source": "https://www.berlinale.de/en/2001/programme/20010407.html"
+            },
+            {
+              "title": "Félix et Lola",
+              "aliases": [
+                "Felix & Lola"
+              ],
+              "director": "Patrice Leconte",
+              "year": 2001,
+              "runtime": 89,
+              "source": "https://www.berlinale.de/en/2001/programme/20012144.html"
+            },
+            {
+              "title": "Finding Forrester",
+              "aliases": [
+                "Forrester - Gefunden!"
+              ],
+              "director": "Gus Van Sant",
+              "year": 2000,
+              "runtime": 136,
+              "source": "https://www.berlinale.de/en/2001/programme/20011769.html"
+            },
+            {
+              "title": "Gong dong kyung bi gu yuk JSA",
+              "aliases": [
+                "J.S.A. (Joint Security Area)"
+              ],
+              "director": "Park Chan-Wook",
+              "year": 2000,
+              "runtime": 110,
+              "source": "https://www.berlinale.de/en/2001/programme/20011241.html"
+            },
+            {
+              "title": "Intimacy",
+              "aliases": [
+                "Intimität"
+              ],
+              "director": "Patrice Chéreau",
+              "year": 2000,
+              "runtime": 119,
+              "source": "https://www.berlinale.de/en/2001/programme/20011888.html"
+            },
+            {
+              "title": "Inugami",
+              "aliases": [],
+              "director": "Masato Harada",
+              "year": 2000,
+              "runtime": 105,
+              "source": "https://www.berlinale.de/en/2001/programme/20011822.html"
+            },
+            {
+              "title": "Italiensk for begyndere",
+              "aliases": [
+                "Italian For Beginners",
+                "Italienisch für Anfänger"
+              ],
+              "director": "Lone Scherfig",
+              "year": 2000,
+              "runtime": 118,
+              "source": "https://www.berlinale.de/en/2001/programme/20010002.html"
+            },
+            {
+              "title": "La ciénaga",
+              "aliases": [
+                "The Swamp",
+                "Der Morast"
+              ],
+              "director": "Lucrecia Martel",
+              "year": 2000,
+              "runtime": 103,
+              "source": "https://www.berlinale.de/en/2001/programme/20010625.html"
+            },
+            {
+              "title": "Le fate ignoranti",
+              "aliases": [
+                "(The Ignorant Fairies)"
+              ],
+              "director": "Ferzan Ozpetek",
+              "year": 2000,
+              "runtime": 105,
+              "source": "https://www.berlinale.de/en/2001/programme/20011764.html"
+            },
+            {
+              "title": "Little Senegal",
+              "aliases": [],
+              "director": "Rachid Bouchareb",
+              "year": 2000,
+              "runtime": 97,
+              "source": "https://www.berlinale.de/en/2001/programme/20011001.html"
+            },
+            {
+              "title": "Malèna",
+              "aliases": [
+                "Der Zauber von Malèna"
+              ],
+              "director": "Giuseppe Tornatore",
+              "year": 2000,
+              "runtime": 94,
+              "source": "https://www.berlinale.de/en/2001/programme/20010344.html"
+            },
+            {
+              "title": "My Sweet Home",
+              "aliases": [],
+              "director": "Filippos Tsitos",
+              "year": 2000,
+              "runtime": 83,
+              "source": "https://www.berlinale.de/en/2001/programme/20010587.html"
+            },
+            {
+              "title": "Shi qi sui de dan che",
+              "aliases": [
+                "Beijing Bicycle"
+              ],
+              "director": "Wang Xiao-shuai",
+              "year": 2000,
+              "runtime": 113,
+              "source": "https://www.berlinale.de/en/2001/programme/20011716.html"
+            },
+            {
+              "title": "The Claim",
+              "aliases": [],
+              "director": "Michael Winterbottom",
+              "year": 2000,
+              "runtime": 120,
+              "source": "https://www.berlinale.de/en/2001/programme/20010271.html"
+            },
+            {
+              "title": "The Tailor of Panama",
+              "aliases": [
+                "Der Schneider von Panama"
+              ],
+              "director": "John Boorman",
+              "year": 2000,
+              "runtime": 115,
+              "source": "https://www.berlinale.de/en/2001/programme/20011227.html"
+            },
+            {
+              "title": "Traffic",
+              "aliases": [],
+              "director": "Steven Soderbergh",
+              "year": 2001,
+              "runtime": 143,
+              "source": "https://www.berlinale.de/en/2001/programme/20012136.html"
+            },
+            {
+              "title": "Weiser",
+              "aliases": [],
+              "director": "Wojciech Marczewski",
+              "year": 2000,
+              "runtime": 94,
+              "source": "https://www.berlinale.de/en/2001/programme/20010789.html"
+            },
+            {
+              "title": "Wit",
+              "aliases": [],
+              "director": "Mike Nichols",
+              "year": 2001,
+              "runtime": 99,
+              "source": "https://www.berlinale.de/en/2001/programme/20011697.html"
+            },
+            {
+              "title": "You're The One (Una historia de entonces)",
+              "aliases": [
+                "You're the One (A Tale From Then)",
+                "You're The One (Eine Geschichte von damals)"
+              ],
+              "director": "José Luis Garci",
+              "year": 2000,
+              "runtime": 103,
+              "source": "https://www.berlinale.de/en/2001/programme/20010293.html"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Bear for Best Film",
+              "source_name": "Golden Bear",
+              "jury": "International Jury 2001",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2001/o=desc/p=1/rp=40",
+              "source_text": "Intimacy by Patrice Chéreau",
+              "entries": [
+                {
+                  "title": "Intimacy",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Grand Jury Prize",
+              "source_name": "Jury Grand Prix - Silver Bear",
+              "jury": "International Jury 2001",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2001/o=desc/p=1/rp=40",
+              "source_text": "Shi qi sui de dan che by Wang Xiao-shuai",
+              "entries": [
+                {
+                  "title": "Shi qi sui de dan che",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Director",
+              "source_name": "Silver Bear for Best Director",
+              "jury": "International Jury 2001",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2001/o=desc/p=1/rp=40",
+              "source_text": "Lin Cheng-Sheng Ai ni ai wo by Lin Cheng-sheng",
+              "entries": [
+                {
+                  "title": "Ai ni ai wo",
+                  "winner": true,
+                  "people": [
+                    "Lin Cheng-Sheng"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actress",
+              "source_name": "Silver Bear for Best Actress",
+              "jury": "International Jury 2001",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2001/o=desc/p=1/rp=40",
+              "source_text": "Kerry Fox Intimacy by Patrice Chéreau",
+              "entries": [
+                {
+                  "title": "Intimacy",
+                  "winner": true,
+                  "people": [
+                    "Kerry Fox"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actor",
+              "source_name": "Silver Bear for Best Actor",
+              "jury": "International Jury 2001",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2001/o=desc/p=1/rp=40",
+              "source_text": "Benicio Del Toro Traffic by Steven Soderbergh",
+              "entries": [
+                {
+                  "title": "Traffic",
+                  "winner": true,
+                  "people": [
+                    "Benicio Del Toro"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for an outstanding single achievement",
+              "source_name": "Silver Bear for an outstanding single achievement",
+              "jury": "International Jury 2001",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2001/o=desc/p=1/rp=40",
+              "source_text": "Cinematographer Raúl Pérez Cubero You're The One (Una historia de entonces) by José Luis Garci",
+              "entries": [
+                {
+                  "title": "You're The One (Una historia de entonces)",
+                  "winner": true,
+                  "people": [
+                    "Cinematographer Raúl Pérez Cubero"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Jury Prize Silver Bear",
+              "source_name": "Jury Prize Silver Bear",
+              "jury": "International Jury 2001",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2001/o=desc/p=1/rp=40",
+              "source_text": "Italiensk for begyndere by Lone Scherfig",
+              "entries": [
+                {
+                  "title": "Italiensk for begyndere",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Alfred Bauer Prize",
+              "source_name": "Alfred Bauer Prize",
+              "jury": "International Jury 2001",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2001/o=desc/p=1/rp=40",
+              "source_text": "La ciénaga by Lucrecia Martel",
+              "entries": [
+                {
+                  "title": "La ciénaga",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Blue Angel Award",
+              "source_name": "Blue Angel Award",
+              "jury": "International Jury 2001",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2001/o=desc/p=1/rp=40",
+              "source_text": "Patrice Chéreau Intimacy by Patrice Chéreau",
+              "entries": [
+                {
+                  "title": "Intimacy",
+                  "winner": true,
+                  "people": [
+                    "Patrice Chéreau"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Piper Heidsieck New Talent Award for the best young actress",
+              "source_name": "Piper Heidsieck New Talent Award for the best young actress",
+              "jury": "International Jury 2001",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2001/o=desc/p=1/rp=40",
+              "source_text": "ex aequo: Angelica Lee Sinje Ai ni ai wo by Lin Cheng-sheng",
+              "entries": [
+                {
+                  "title": "Ai ni ai wo",
+                  "winner": true,
+                  "people": [
+                    ": Angelica Lee Sinje"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Piper Heidsieck New Talent Award for the best young actor",
+              "source_name": "Piper Heidsieck New Talent Award for the best young actor",
+              "jury": "International Jury 2001",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2001/o=desc/p=1/rp=40",
+              "source_text": "ex aequo: Cui Lin und Li Bin Shi qi sui de dan che by Wang Xiao-shuai",
+              "entries": [
+                {
+                  "title": "Shi qi sui de dan che",
+                  "winner": true,
+                  "people": [
+                    ": Cui Lin und Li Bin"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "Berlinale",
+      "year": 2002,
+      "section": "Official Selection",
+      "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2002/o=asc/p=1/rp=200",
+      "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2002/o=desc/p=1/rp=40",
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2002-02-06",
+          "end": "2002-02-17",
+          "source": "https://www.berlinale.de/en/archive/yearbooks/2002.html"
+        }
+      ],
+      "date_source_text": "February 6 – 17, 2002",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2002/o=asc/p=1/rp=200",
+          "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2002/o=desc/p=1/rp=40",
+          "selection": [
+            {
+              "title": "8 femmes",
+              "aliases": [],
+              "director": "François Ozon",
+              "year": 2002,
+              "runtime": 103,
+              "source": "https://www.berlinale.de/en/2002/programme/20020468.html"
+            },
+            {
+              "title": "Amen.",
+              "aliases": [
+                "Der Stellvertreter"
+              ],
+              "director": "Costa-Gavras",
+              "year": 2002,
+              "runtime": 130,
+              "source": "https://www.berlinale.de/en/2002/programme/20020469.html"
+            },
+            {
+              "title": "Baader",
+              "aliases": [],
+              "director": "Christopher Roth",
+              "year": 2002,
+              "runtime": 129,
+              "source": "https://www.berlinale.de/en/2002/programme/20022113.html"
+            },
+            {
+              "title": "Beneath Clouds",
+              "aliases": [
+                "Unter Wolken"
+              ],
+              "director": "Ivan Sen",
+              "year": 2001,
+              "runtime": 85,
+              "source": "https://www.berlinale.de/en/2002/programme/20022640.html"
+            },
+            {
+              "title": "Bloody Sunday",
+              "aliases": [],
+              "director": "Paul Greengrass",
+              "year": 2002,
+              "runtime": 107,
+              "source": "https://www.berlinale.de/en/2002/programme/20022493.html"
+            },
+            {
+              "title": "Bridget",
+              "aliases": [],
+              "director": "Amos Kollek",
+              "year": 2001,
+              "runtime": 90,
+              "source": "https://www.berlinale.de/en/2002/programme/20020979.html"
+            },
+            {
+              "title": "Brucio nel vento",
+              "aliases": [
+                "Burning In The Wind",
+                "Brenne im Wind"
+              ],
+              "director": "Silvio Soldini",
+              "year": 2002,
+              "runtime": 122,
+              "source": "https://www.berlinale.de/en/2002/programme/20020891.html"
+            },
+            {
+              "title": "Dekapentavgoustos",
+              "aliases": [
+                "One Day In August",
+                "Ein Tag im August"
+              ],
+              "director": "Constantinos Giannaris",
+              "year": 2001,
+              "runtime": 105,
+              "source": "https://www.berlinale.de/en/2002/programme/20021164.html"
+            },
+            {
+              "title": "Der Felsen",
+              "aliases": [
+                "A Map Of The Heart"
+              ],
+              "director": "Dominik Graf",
+              "year": 2001,
+              "runtime": 116,
+              "source": "https://www.berlinale.de/en/2002/programme/20020065.html"
+            },
+            {
+              "title": "Halbe Treppe",
+              "aliases": [
+                "Grill Point"
+              ],
+              "director": "Andreas Dresen",
+              "year": 2001,
+              "runtime": 105,
+              "source": "https://www.berlinale.de/en/2002/programme/20022817.html"
+            },
+            {
+              "title": "Heaven",
+              "aliases": [],
+              "director": "Tom Tykwer",
+              "year": 2002,
+              "runtime": 93,
+              "source": "https://www.berlinale.de/en/2002/programme/20020160.html"
+            },
+            {
+              "title": "Iris",
+              "aliases": [],
+              "director": "Richard Eyre",
+              "year": 2002,
+              "runtime": 95,
+              "source": "https://www.berlinale.de/en/2002/programme/20022552.html"
+            },
+            {
+              "title": "Kísértések",
+              "aliases": [
+                "Temptations",
+                "Versuchungen"
+              ],
+              "director": "Zoltán Kamondi",
+              "year": 2002,
+              "runtime": 88,
+              "source": "https://www.berlinale.de/en/2002/programme/20022717.html"
+            },
+            {
+              "title": "KT",
+              "aliases": [],
+              "director": "Junji Sakamoto",
+              "year": 2002,
+              "runtime": 138,
+              "source": "https://www.berlinale.de/en/2002/programme/20022314.html"
+            },
+            {
+              "title": "Laissez-Passer",
+              "aliases": [
+                "Safe Conduct",
+                "Der Passierschein"
+              ],
+              "director": "Bertrand Tavernier",
+              "year": 2001,
+              "runtime": 170,
+              "source": "https://www.berlinale.de/en/2002/programme/20022788.html"
+            },
+            {
+              "title": "Lundi Matin",
+              "aliases": [
+                "Monday Morning",
+                "Montag Morgen"
+              ],
+              "director": "Otar Iosseliani",
+              "year": 2001,
+              "runtime": 120,
+              "source": "https://www.berlinale.de/en/2002/programme/20020983.html"
+            },
+            {
+              "title": "Monster's Ball",
+              "aliases": [],
+              "director": "Marc Forster",
+              "year": 2001,
+              "runtime": 111,
+              "source": "https://www.berlinale.de/en/2002/programme/20020428.html"
+            },
+            {
+              "title": "Na-bbun-nam-ja",
+              "aliases": [
+                "Bad Guy"
+              ],
+              "director": "Kim Ki-Duk",
+              "year": 2001,
+              "runtime": 100,
+              "source": "https://www.berlinale.de/en/2002/programme/20022296.html"
+            },
+            {
+              "title": "Piedras",
+              "aliases": [
+                "Stones",
+                "Steine"
+              ],
+              "director": "Ramón Salazar",
+              "year": 2001,
+              "runtime": 130,
+              "source": "https://www.berlinale.de/en/2002/programme/20022858.html"
+            },
+            {
+              "title": "Sen to chihiro no kamikakushi",
+              "aliases": [
+                "Spirited Away"
+              ],
+              "director": "Hayao Miyazaki",
+              "year": 2001,
+              "runtime": 125,
+              "source": "https://www.berlinale.de/en/2002/programme/20023223.html"
+            },
+            {
+              "title": "Små ulykker",
+              "aliases": [
+                "Minor Mishaps"
+              ],
+              "director": "Annette K. Olesen",
+              "year": 2001,
+              "runtime": 109,
+              "source": "https://www.berlinale.de/en/2002/programme/20022373.html"
+            },
+            {
+              "title": "The Royal Tenenbaums",
+              "aliases": [
+                "Die Royal Tenenbaums"
+              ],
+              "director": "Wes Anderson",
+              "year": 2001,
+              "runtime": 110,
+              "source": "https://www.berlinale.de/en/2002/programme/20020197.html"
+            },
+            {
+              "title": "The Shipping News",
+              "aliases": [
+                "Schiffsmeldungen"
+              ],
+              "director": "Lasse Hallström",
+              "year": 2002,
+              "runtime": 111,
+              "source": "https://www.berlinale.de/en/2002/programme/20020581.html"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Bear for Best Film",
+              "source_name": "Golden Bear",
+              "jury": "International Jury 2002",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2002/o=desc/p=1/rp=40",
+              "source_text": "ex aequo Sen to chihiro no kamikakushi by Hayao Miyazaki",
+              "entries": [
+                {
+                  "title": "Sen to chihiro no kamikakushi",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Golden Bear for Best Film",
+              "source_name": "Golden Bear",
+              "jury": "International Jury 2002",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2002/o=desc/p=1/rp=40",
+              "source_text": "ex aequo Bloody Sunday by Paul Greengrass",
+              "entries": [
+                {
+                  "title": "Bloody Sunday",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Grand Jury Prize",
+              "source_name": "Jury Grand Prix - Silver Bear",
+              "jury": "International Jury 2002",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2002/o=desc/p=1/rp=40",
+              "source_text": "Halbe Treppe by Andreas Dresen",
+              "entries": [
+                {
+                  "title": "Halbe Treppe",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Director",
+              "source_name": "Silver Bear for Best Director",
+              "jury": "International Jury 2002",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2002/o=desc/p=1/rp=40",
+              "source_text": "Otar Iosseliani Lundi Matin by Otar Iosseliani",
+              "entries": [
+                {
+                  "title": "Lundi Matin",
+                  "winner": true,
+                  "people": [
+                    "Otar Iosseliani"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actress",
+              "source_name": "Silver Bear for Best Actress",
+              "jury": "International Jury 2002",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2002/o=desc/p=1/rp=40",
+              "source_text": "Halle Barry Monster's Ball by Marc Forster",
+              "entries": [
+                {
+                  "title": "Monster's Ball",
+                  "winner": true,
+                  "people": [
+                    "Halle Barry"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actor",
+              "source_name": "Silver Bear for Best Actor",
+              "jury": "International Jury 2002",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2002/o=desc/p=1/rp=40",
+              "source_text": "Jacques Gamblin Laissez-Passer by Bertrand Tavernier",
+              "entries": [
+                {
+                  "title": "Laissez-Passer",
+                  "winner": true,
+                  "people": [
+                    "Jacques Gamblin"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for an outstanding artistic contribution",
+              "source_name": "Silver Bear for an outstanding artistic contribution",
+              "jury": "International Jury 2002",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2002/o=desc/p=1/rp=40",
+              "source_text": "ensemble of actresses 8 femmes by François Ozon",
+              "entries": [
+                {
+                  "title": "8 femmes",
+                  "winner": true,
+                  "people": [
+                    "ensemble of actresses"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear (Best Film Music)",
+              "source_name": "Silver Bear (Best Film Music)",
+              "jury": "International Jury 2002",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2002/o=desc/p=1/rp=40",
+              "source_text": "Antoine Duhamel Laissez-Passer by Bertrand Tavernier",
+              "entries": [
+                {
+                  "title": "Laissez-Passer",
+                  "winner": true,
+                  "people": [
+                    "Antoine Duhamel"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Alfred Bauer Prize",
+              "source_name": "Alfred Bauer Prize",
+              "jury": "International Jury 2002",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2002/o=desc/p=1/rp=40",
+              "source_text": "Baader by Christopher Roth",
+              "entries": [
+                {
+                  "title": "Baader",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Blue Angel Award",
+              "source_name": "Blue Angel Award",
+              "jury": "International Jury 2002",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2002/o=desc/p=1/rp=40",
+              "source_text": "Små ulykker by Annette K. Olesen",
+              "entries": [
+                {
+                  "title": "Små ulykker",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Piper Heidsieck New Talent Award for the best young actress",
+              "source_name": "Piper Heidsieck New Talent Award for the best young actress",
+              "jury": "International Jury 2002",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2002/o=desc/p=1/rp=40",
+              "source_text": "Danielle Hall Beneath Clouds by Ivan Sen",
+              "entries": [
+                {
+                  "title": "Beneath Clouds",
+                  "winner": true,
+                  "people": [
+                    "Danielle Hall"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Piper Heidsieck New Talent Award for the best young actor",
+              "source_name": "Piper Heidsieck New Talent Award for the best young actor",
+              "jury": "International Jury 2002",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2002/o=desc/p=1/rp=40",
+              "source_text": "Hugh Bonneville Iris by Richard Eyre",
+              "entries": [
+                {
+                  "title": "Iris",
+                  "winner": true,
+                  "people": [
+                    "Hugh Bonneville"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "Berlinale",
+      "year": 2003,
+      "section": "Official Selection",
+      "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2003/o=asc/p=1/rp=200",
+      "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2003/o=desc/p=1/rp=40",
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2003-02-06",
+          "end": "2003-02-16",
+          "source": "https://www.berlinale.de/en/archive/yearbooks/2003.html"
+        }
+      ],
+      "date_source_text": "February 6 – 16, 2003",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2003/o=asc/p=1/rp=200",
+          "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2003/o=desc/p=1/rp=40",
+          "selection": [
+            {
+              "title": "25th Hour",
+              "aliases": [
+                "25 Stunden"
+              ],
+              "director": "Spike Lee",
+              "year": 2002,
+              "runtime": 135,
+              "source": "https://www.berlinale.de/en/2003/programme/20031038.html"
+            },
+            {
+              "title": "Adaptation",
+              "aliases": [
+                "Adaption"
+              ],
+              "director": "Spike Jonze",
+              "year": 2002,
+              "runtime": 117,
+              "source": "https://www.berlinale.de/en/2003/programme/20031289.html"
+            },
+            {
+              "title": "Alexandra's Project",
+              "aliases": [
+                "Alexandras Projekt"
+              ],
+              "director": "Rolf de Heer",
+              "year": 2002,
+              "runtime": 103,
+              "source": "https://www.berlinale.de/en/2003/programme/20032555.html"
+            },
+            {
+              "title": "Confessions Of A Dangerous Mind",
+              "aliases": [],
+              "director": "George Clooney",
+              "year": 2002,
+              "runtime": 113,
+              "source": "https://www.berlinale.de/en/2003/programme/20031719.html"
+            },
+            {
+              "title": "Der Alte Affe Angst",
+              "aliases": [
+                "Angst"
+              ],
+              "director": "Oskar Roehler",
+              "year": 2002,
+              "runtime": 92,
+              "source": "https://www.berlinale.de/en/2003/programme/20031391.html"
+            },
+            {
+              "title": "Good Bye, Lenin!",
+              "aliases": [],
+              "director": "Wolfgang Becker",
+              "year": 2002,
+              "runtime": 119,
+              "source": "https://www.berlinale.de/en/2003/programme/20030167.html"
+            },
+            {
+              "title": "In This World",
+              "aliases": [
+                "Auf der Welt"
+              ],
+              "director": "Michael Winterbottom",
+              "year": 2002,
+              "runtime": 90,
+              "source": "https://www.berlinale.de/en/2003/programme/20032076.html"
+            },
+            {
+              "title": "Io non ho paura",
+              "aliases": [
+                "I'm Not Scared",
+                "Ich habe keine Angst"
+              ],
+              "director": "Gabriele Salvatores",
+              "year": 2002,
+              "runtime": 109,
+              "source": "https://www.berlinale.de/en/2003/programme/20032097.html"
+            },
+            {
+              "title": "Ja zuster, nee zuster",
+              "aliases": [
+                "Yes Nurse, No Nurse",
+                "Ja Schwester, nein Schwester"
+              ],
+              "director": "Pieter Kramer",
+              "year": 2002,
+              "runtime": 104,
+              "source": "https://www.berlinale.de/en/2003/programme/20031091.html"
+            },
+            {
+              "title": "La fleur du mal",
+              "aliases": [
+                "The Flower Of Evil",
+                "Die Blume des Bösen"
+              ],
+              "director": "Claude Chabrol",
+              "year": 2002,
+              "runtime": 104,
+              "source": "https://www.berlinale.de/en/2003/programme/20032342.html"
+            },
+            {
+              "title": "Lichter",
+              "aliases": [
+                "Distant Lights"
+              ],
+              "director": "Hans-Christian Schmid",
+              "year": 2002,
+              "runtime": 105,
+              "source": "https://www.berlinale.de/en/2003/programme/20031409.html"
+            },
+            {
+              "title": "Madame Brouette",
+              "aliases": [
+                "Frau Brouette"
+              ],
+              "director": "Moussa Sene Absa",
+              "year": 2002,
+              "runtime": 104,
+              "source": "https://www.berlinale.de/en/2003/programme/20030290.html"
+            },
+            {
+              "title": "Mang Jing",
+              "aliases": [
+                "Blind Shaft",
+                "Blinder Schacht"
+              ],
+              "director": "Li Yang",
+              "year": 2002,
+              "runtime": 92,
+              "source": "https://www.berlinale.de/en/2003/programme/20031714.html"
+            },
+            {
+              "title": "My Life Without Me",
+              "aliases": [
+                "Mein Leben ohne mich"
+              ],
+              "director": "Isabel Coixet",
+              "year": 2002,
+              "runtime": 100,
+              "source": "https://www.berlinale.de/en/2003/programme/20030081.html"
+            },
+            {
+              "title": "Petites Coupures",
+              "aliases": [
+                "Minor Injuries",
+                "Kleine Wunden"
+              ],
+              "director": "Pascal Bonitzer",
+              "year": 2003,
+              "runtime": 95,
+              "source": "https://www.berlinale.de/en/2003/programme/20032139.html"
+            },
+            {
+              "title": "Rezervni Deli",
+              "aliases": [
+                "Spare Parts",
+                "Ersatzteile"
+              ],
+              "director": "Damjan Kozole",
+              "year": 2002,
+              "runtime": 87,
+              "source": "https://www.berlinale.de/en/2003/programme/20031699.html"
+            },
+            {
+              "title": "Solaris",
+              "aliases": [],
+              "director": "Steven Soderbergh",
+              "year": 2002,
+              "runtime": 98,
+              "source": "https://www.berlinale.de/en/2003/programme/20031720.html"
+            },
+            {
+              "title": "Son frère",
+              "aliases": [
+                "His Brother",
+                "Sein Bruder"
+              ],
+              "director": "Patrice Chéreau",
+              "year": 2002,
+              "runtime": 95,
+              "source": "https://www.berlinale.de/en/2003/programme/20032140.html"
+            },
+            {
+              "title": "Tasogare Seibei",
+              "aliases": [
+                "The Twilight Samurai",
+                "Samurai in der Dämmerung"
+              ],
+              "director": "Yoji Yamada",
+              "year": 2002,
+              "runtime": 129,
+              "source": "https://www.berlinale.de/en/2003/programme/20031291.html"
+            },
+            {
+              "title": "The Hours",
+              "aliases": [],
+              "director": "Stephen Daldry",
+              "year": 2002,
+              "runtime": 110,
+              "source": "https://www.berlinale.de/en/2003/programme/20031725.html"
+            },
+            {
+              "title": "The Life of David Gale",
+              "aliases": [
+                "Das Leben des David Gale"
+              ],
+              "director": "Alan Parker",
+              "year": 2003,
+              "runtime": 131,
+              "source": "https://www.berlinale.de/en/2003/programme/20031049.html"
+            },
+            {
+              "title": "Ying xiong",
+              "aliases": [
+                "Hero"
+              ],
+              "director": "Zhang Yimou",
+              "year": 2002,
+              "runtime": 96,
+              "source": "https://www.berlinale.de/en/2003/programme/20031716.html"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Bear for Best Film",
+              "source_name": "Golden Bear",
+              "jury": "International Jury 2003",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2003/o=desc/p=1/rp=40",
+              "source_text": "In This World by Michael Winterbottom",
+              "entries": [
+                {
+                  "title": "In This World",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Grand Jury Prize",
+              "source_name": "Jury Grand Prix - Silver Bear",
+              "jury": "International Jury 2003",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2003/o=desc/p=1/rp=40",
+              "source_text": "Adaptation by Spike Jonze",
+              "entries": [
+                {
+                  "title": "Adaptation",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Director",
+              "source_name": "Silver Bear for Best Director",
+              "jury": "International Jury 2003",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2003/o=desc/p=1/rp=40",
+              "source_text": "Patrice Chéreau Son frère by Patrice Chéreau",
+              "entries": [
+                {
+                  "title": "Son frère",
+                  "winner": true,
+                  "people": [
+                    "Patrice Chéreau"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actress",
+              "source_name": "Silver Bear for Best Actress",
+              "jury": "International Jury 2003",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2003/o=desc/p=1/rp=40",
+              "source_text": "Meryl Streep, Nicole Kidman, Julianne Moore The Hours by Stephen Daldry",
+              "entries": [
+                {
+                  "title": "The Hours",
+                  "winner": true,
+                  "people": [
+                    "Meryl Streep, Nicole Kidman, Julianne Moore"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actor",
+              "source_name": "Silver Bear for Best Actor",
+              "jury": "International Jury 2003",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2003/o=desc/p=1/rp=40",
+              "source_text": "Sam Rockwell Confessions Of A Dangerous Mind by George Clooney",
+              "entries": [
+                {
+                  "title": "Confessions Of A Dangerous Mind",
+                  "winner": true,
+                  "people": [
+                    "Sam Rockwell"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for an outstanding artistic contribution",
+              "source_name": "Silver Bear for an outstanding artistic contribution",
+              "jury": "International Jury 2003",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2003/o=desc/p=1/rp=40",
+              "source_text": "Li Yang Mang Jing by Li Yang",
+              "entries": [
+                {
+                  "title": "Mang Jing",
+                  "winner": true,
+                  "people": [
+                    "Li Yang"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear (Best Film Music)",
+              "source_name": "Silver Bear (Best Film Music)",
+              "jury": "International Jury 2003",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2003/o=desc/p=1/rp=40",
+              "source_text": "Majoly, Serge Fiori, Mamadou Diabaté Madame Brouette by Moussa Sene Absa",
+              "entries": [
+                {
+                  "title": "Madame Brouette",
+                  "winner": true,
+                  "people": [
+                    "Majoly, Serge Fiori, Mamadou Diabaté"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Alfred Bauer Prize",
+              "source_name": "Alfred Bauer Prize",
+              "jury": "International Jury 2003",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2003/o=desc/p=1/rp=40",
+              "source_text": "Ying xiong by Zhang Yimou",
+              "entries": [
+                {
+                  "title": "Ying xiong",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Blue Angel Award",
+              "source_name": "Blue Angel Award",
+              "jury": "International Jury 2003",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2003/o=desc/p=1/rp=40",
+              "source_text": "Good Bye, Lenin! by Wolfgang Becker",
+              "entries": [
+                {
+                  "title": "Good Bye, Lenin!",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "Berlinale",
+      "year": 2004,
+      "section": "Official Selection",
+      "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2004/o=asc/p=1/rp=200",
+      "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2004/o=desc/p=1/rp=40",
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2004-02-05",
+          "end": "2004-02-15",
+          "source": "https://www.berlinale.de/en/archive/yearbooks/2004.html"
+        }
+      ],
+      "date_source_text": "February 5 – 15, 2004",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2004/o=asc/p=1/rp=200",
+          "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2004/o=desc/p=1/rp=40",
+          "selection": [
+            {
+              "title": "20:30:40",
+              "aliases": [],
+              "director": "Sylvia Chang",
+              "year": 2003,
+              "runtime": 107,
+              "source": "https://www.berlinale.de/en/2004/programme/20042386.html"
+            },
+            {
+              "title": "25 degrés en hiver",
+              "aliases": [
+                "25 Degrees In Winter",
+                "25 Grad im Winter"
+              ],
+              "director": "Stéphane Vuillet",
+              "year": 2003,
+              "runtime": 90,
+              "source": "https://www.berlinale.de/en/2004/programme/20040337.html"
+            },
+            {
+              "title": "Ae Fond Kiss",
+              "aliases": [],
+              "director": "Ken Loach",
+              "year": 2003,
+              "runtime": 103,
+              "source": "https://www.berlinale.de/en/2004/programme/20042366.html"
+            },
+            {
+              "title": "Beautiful Country",
+              "aliases": [],
+              "director": "Hans Petter Moland",
+              "year": 2003,
+              "runtime": 126,
+              "source": "https://www.berlinale.de/en/2004/programme/20040163.html"
+            },
+            {
+              "title": "Before Sunset",
+              "aliases": [],
+              "director": "Richard Linklater",
+              "year": 2003,
+              "runtime": 80,
+              "source": "https://www.berlinale.de/en/2004/programme/20042762.html"
+            },
+            {
+              "title": "Confidences trop intimes",
+              "aliases": [
+                "Intimate Strangers",
+                "Intimste Fremde"
+              ],
+              "director": "Patrice Leconte",
+              "year": 2004,
+              "runtime": 104,
+              "source": "https://www.berlinale.de/en/2004/programme/20042625.html"
+            },
+            {
+              "title": "Country Of My Skull",
+              "aliases": [],
+              "director": "John Boorman",
+              "year": 2003,
+              "runtime": 100,
+              "source": "https://www.berlinale.de/en/2004/programme/20042170.html"
+            },
+            {
+              "title": "Die Nacht singt ihre Lieder",
+              "aliases": [
+                "Nightsongs"
+              ],
+              "director": "Romuald Karmakar",
+              "year": 2003,
+              "runtime": 95,
+              "source": "https://www.berlinale.de/en/2004/programme/20040136.html"
+            },
+            {
+              "title": "El abrazo partido",
+              "aliases": [
+                "Lost Embrace"
+              ],
+              "director": "Daniel Burman",
+              "year": 2004,
+              "runtime": 100,
+              "source": "https://www.berlinale.de/en/2004/programme/20041806.html"
+            },
+            {
+              "title": "Feux rouges",
+              "aliases": [
+                "Red Lights",
+                "Schlusslichter"
+              ],
+              "director": "Cédric Kahn",
+              "year": 2003,
+              "runtime": 106,
+              "source": "https://www.berlinale.de/en/2004/programme/20042626.html"
+            },
+            {
+              "title": "Forbrydelser",
+              "aliases": [
+                "In Your Hands",
+                "In Deinen Händen"
+              ],
+              "director": "Annette K. Olesen",
+              "year": 2003,
+              "runtime": 101,
+              "source": "https://www.berlinale.de/en/2004/programme/20040031.html"
+            },
+            {
+              "title": "Gegen die Wand",
+              "aliases": [
+                "Head-On"
+              ],
+              "director": "Fatih Akin",
+              "year": 2003,
+              "runtime": 123,
+              "source": "https://www.berlinale.de/en/2004/programme/20040096.html"
+            },
+            {
+              "title": "La vida que te espera",
+              "aliases": [
+                "Your Next Life"
+              ],
+              "director": "Manuel Gutiérrez Aragón",
+              "year": 2003,
+              "runtime": 108,
+              "source": "https://www.berlinale.de/en/2004/programme/20042244.html"
+            },
+            {
+              "title": "Maria, llena eres de gracia",
+              "aliases": [
+                "Maria Full Of Grace",
+                "Maria voll der Gnade"
+              ],
+              "director": "Joshua Marston",
+              "year": 2003,
+              "runtime": 101,
+              "source": "https://www.berlinale.de/en/2004/programme/20040143.html"
+            },
+            {
+              "title": "Monster",
+              "aliases": [],
+              "director": "Patty Jenkins",
+              "year": 2003,
+              "runtime": 110,
+              "source": "https://www.berlinale.de/en/2004/programme/20041861.html"
+            },
+            {
+              "title": "Om jag vänder mig om",
+              "aliases": [
+                "Daybreak",
+                "Morgengrauen"
+              ],
+              "director": "Björn Runge",
+              "year": 2003,
+              "runtime": 108,
+              "source": "https://www.berlinale.de/en/2004/programme/20042070.html"
+            },
+            {
+              "title": "Primo Amore",
+              "aliases": [
+                "First Love"
+              ],
+              "director": "Matteo Garrone",
+              "year": 2003,
+              "runtime": 100,
+              "source": "https://www.berlinale.de/en/2004/programme/20041406.html"
+            },
+            {
+              "title": "Samaria",
+              "aliases": [
+                "Samaritan Girl"
+              ],
+              "director": "Kim Ki-Duk",
+              "year": 2004,
+              "runtime": 95,
+              "source": "https://www.berlinale.de/en/2004/programme/20042845.html"
+            },
+            {
+              "title": "Svjedoci",
+              "aliases": [
+                "The Witnesses",
+                "Die Zeugen"
+              ],
+              "director": "Vinko Brešan",
+              "year": 2003,
+              "runtime": 88,
+              "source": "https://www.berlinale.de/en/2004/programme/20040017.html"
+            },
+            {
+              "title": "The Final Cut",
+              "aliases": [],
+              "director": "Omar Naïm",
+              "year": 2003,
+              "runtime": 105,
+              "source": "https://www.berlinale.de/en/2004/programme/20041360.html"
+            },
+            {
+              "title": "The Missing",
+              "aliases": [],
+              "director": "Ron Howard",
+              "year": 2003,
+              "runtime": 137,
+              "source": "https://www.berlinale.de/en/2004/programme/20040162.html"
+            },
+            {
+              "title": "Trilogia: To livadi pou dakrisi",
+              "aliases": [
+                "Trilogy: The Weeping Meadow",
+                "Trilogie: Die Erde weint"
+              ],
+              "director": "Theo Angelopoulos",
+              "year": 2003,
+              "runtime": 170,
+              "source": "https://www.berlinale.de/en/2004/programme/20040479.html"
+            },
+            {
+              "title": "Triple Agent",
+              "aliases": [],
+              "director": "Eric Rohmer",
+              "year": 2004,
+              "runtime": 115,
+              "source": "https://www.berlinale.de/en/2004/programme/20040893.html"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Bear for Best Film",
+              "source_name": "Golden Bear",
+              "jury": "International Jury 2004",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2004/o=desc/p=1/rp=40",
+              "source_text": "Gegen die Wand by Fatih Akin",
+              "entries": [
+                {
+                  "title": "Gegen die Wand",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Grand Jury Prize",
+              "source_name": "Jury Grand Prix (Silver Bear)",
+              "jury": "International Jury 2004",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2004/o=desc/p=1/rp=40",
+              "source_text": "El abrazo partido by Daniel Burman",
+              "entries": [
+                {
+                  "title": "El abrazo partido",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Director",
+              "source_name": "Silver Bear for Best Director",
+              "jury": "International Jury 2004",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2004/o=desc/p=1/rp=40",
+              "source_text": "Kim Ki-Duck Samaria by Kim Ki-Duk",
+              "entries": [
+                {
+                  "title": "Samaria",
+                  "winner": true,
+                  "people": [
+                    "Kim Ki-Duck"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actress",
+              "source_name": "Silver Bear for Best Actress",
+              "jury": "International Jury 2004",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2004/o=desc/p=1/rp=40",
+              "source_text": "ex aequo Catalina Sanino Moreno Maria, llena eres de gracia by Joshua Marston",
+              "entries": [
+                {
+                  "title": "Maria, llena eres de gracia",
+                  "winner": true,
+                  "people": [
+                    "Catalina Sanino Moreno"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actress",
+              "source_name": "Silver Bear for Best Actress",
+              "jury": "International Jury 2004",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2004/o=desc/p=1/rp=40",
+              "source_text": "ex aequo Charlize Theron Monster by Patty Jenkins",
+              "entries": [
+                {
+                  "title": "Monster",
+                  "winner": true,
+                  "people": [
+                    "Charlize Theron"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actor",
+              "source_name": "Silver Bear for Best Actor",
+              "jury": "International Jury 2004",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2004/o=desc/p=1/rp=40",
+              "source_text": "Daniel Hendler El abrazo partido by Daniel Burman",
+              "entries": [
+                {
+                  "title": "El abrazo partido",
+                  "winner": true,
+                  "people": [
+                    "Daniel Hendler"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Outstanding Artistic Contribution",
+              "source_name": "Silver Bear for Outstanding Artistic Contribution",
+              "jury": "International Jury 2004",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2004/o=desc/p=1/rp=40",
+              "source_text": "ensemble of actors Om jag vänder mig om by Björn Runge",
+              "entries": [
+                {
+                  "title": "Om jag vänder mig om",
+                  "winner": true,
+                  "people": [
+                    "ensemble of actors"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for the Best Music",
+              "source_name": "Silver Bear for the Best Music",
+              "jury": "International Jury 2004",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2004/o=desc/p=1/rp=40",
+              "source_text": "Bandis Osiris Primo Amore by Matteo Garrone",
+              "entries": [
+                {
+                  "title": "Primo Amore",
+                  "winner": true,
+                  "people": [
+                    "Bandis Osiris"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Alfred Bauer Prize",
+              "source_name": "Alfred Bauer Prize",
+              "jury": "International Jury 2004",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2004/o=desc/p=1/rp=40",
+              "source_text": "Maria, llena eres de gracia by Joshua Marston",
+              "entries": [
+                {
+                  "title": "Maria, llena eres de gracia",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Blue Angel Award",
+              "source_name": "Blue Angel Award",
+              "jury": "International Jury 2004",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2004/o=desc/p=1/rp=40",
+              "source_text": "Om jag vänder mig om by Björn Runge",
+              "entries": [
+                {
+                  "title": "Om jag vänder mig om",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "Berlinale",
+      "year": 2005,
+      "section": "Official Selection",
+      "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2005/o=asc/p=1/rp=200",
+      "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2005/o=desc/p=1/rp=40",
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2005-02-10",
+          "end": "2005-02-20",
+          "source": "https://www.berlinale.de/en/archive/yearbooks/2005.html"
+        }
+      ],
+      "date_source_text": "February 10 – 20, 2005",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2005/o=asc/p=1/rp=200",
+          "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2005/o=desc/p=1/rp=40",
+          "selection": [
+            {
+              "title": "Anklaget",
+              "aliases": [
+                "Accused"
+              ],
+              "director": "Jacob Thuesen",
+              "year": 2004,
+              "runtime": 103,
+              "source": "https://www.berlinale.de/en/2005/programme/20050161.html"
+            },
+            {
+              "title": "Asylum",
+              "aliases": [],
+              "director": "David MacKenzie",
+              "year": 2004,
+              "runtime": 93,
+              "source": "https://www.berlinale.de/en/2005/programme/20051153.html"
+            },
+            {
+              "title": "De battre mon coeur s'est arrêté",
+              "aliases": [
+                "The Beat That My Heart Skipped",
+                "Der Schlag, der mein Herz verspielte"
+              ],
+              "director": "Jacques Audiard",
+              "year": 2004,
+              "runtime": 107,
+              "source": "https://www.berlinale.de/en/2005/programme/20053377.html"
+            },
+            {
+              "title": "Fateless",
+              "aliases": [],
+              "director": "Lájos Koltai",
+              "year": 2004,
+              "runtime": 130,
+              "source": "https://www.berlinale.de/en/2005/programme/20051193.html"
+            },
+            {
+              "title": "Gespenster",
+              "aliases": [
+                "Ghosts"
+              ],
+              "director": "Christian Petzold",
+              "year": 2004,
+              "runtime": 85,
+              "source": "https://www.berlinale.de/en/2005/programme/20052176.html"
+            },
+            {
+              "title": "In Good Company",
+              "aliases": [
+                "Reine Chefsache"
+              ],
+              "director": "Paul Weitz",
+              "year": 2004,
+              "runtime": 109,
+              "source": "https://www.berlinale.de/en/2005/programme/20050851.html"
+            },
+            {
+              "title": "Kakushi Ken - Oni no Tsume",
+              "aliases": [
+                "The Hidden Blade"
+              ],
+              "director": "Yoji Yamada",
+              "year": 2004,
+              "runtime": 132,
+              "source": "https://www.berlinale.de/en/2005/programme/20052838.html"
+            },
+            {
+              "title": "Kong que",
+              "aliases": [
+                "Peacock"
+              ],
+              "director": "Gu Changwei",
+              "year": 2004,
+              "runtime": 144,
+              "source": "https://www.berlinale.de/en/2005/programme/20050003.html"
+            },
+            {
+              "title": "Le promeneur du Champ de Mars",
+              "aliases": [
+                "The Last Mitterrand",
+                "Der späte Mitterrand"
+              ],
+              "director": "Robert Guédiguian",
+              "year": 2004,
+              "runtime": 116,
+              "source": "https://www.berlinale.de/en/2005/programme/20053155.html"
+            },
+            {
+              "title": "Les mots bleus",
+              "aliases": [
+                "Words In Blue",
+                "Worte in Blau"
+              ],
+              "director": "Alain Corneau",
+              "year": 2004,
+              "runtime": 114,
+              "source": "https://www.berlinale.de/en/2005/programme/20053376.html"
+            },
+            {
+              "title": "Les temps qui changent",
+              "aliases": [
+                "Changing Times"
+              ],
+              "director": "André Téchiné",
+              "year": 2004,
+              "runtime": 98,
+              "source": "https://www.berlinale.de/en/2005/programme/20053375.html"
+            },
+            {
+              "title": "Man To Man",
+              "aliases": [],
+              "director": "Régis Wargnier",
+              "year": 2005,
+              "runtime": 122,
+              "source": "https://www.berlinale.de/en/2005/programme/20053374.html"
+            },
+            {
+              "title": "One Day In Europe",
+              "aliases": [],
+              "director": "Hannes Stöhr",
+              "year": 2005,
+              "runtime": 100,
+              "source": "https://www.berlinale.de/en/2005/programme/20051192.html"
+            },
+            {
+              "title": "Paradise Now",
+              "aliases": [],
+              "director": "Hany Abu-Assad",
+              "year": 2005,
+              "runtime": 90,
+              "source": "https://www.berlinale.de/en/2005/programme/20053181.html"
+            },
+            {
+              "title": "Provincia meccanica",
+              "aliases": [
+                "Smalltown, Italy"
+              ],
+              "director": "Stefano Mordini",
+              "year": 2004,
+              "runtime": 107,
+              "source": "https://www.berlinale.de/en/2005/programme/20052772.html"
+            },
+            {
+              "title": "Solnze",
+              "aliases": [
+                "The Sun",
+                "Die Sonne"
+              ],
+              "director": "Alexander Sokurov",
+              "year": 2004,
+              "runtime": 110,
+              "source": "https://www.berlinale.de/en/2005/programme/20052735.html"
+            },
+            {
+              "title": "Sometimes In April",
+              "aliases": [
+                "Jedes Jahr im April"
+              ],
+              "director": "Raoul Peck",
+              "year": 2004,
+              "runtime": 139,
+              "source": "https://www.berlinale.de/en/2005/programme/20050466.html"
+            },
+            {
+              "title": "Sophie Scholl - Die letzten Tage",
+              "aliases": [
+                "Sophie Scholl - The Final Days"
+              ],
+              "director": "Marc Rothemund",
+              "year": 2004,
+              "runtime": 117,
+              "source": "https://www.berlinale.de/en/2005/programme/20052098.html"
+            },
+            {
+              "title": "The Life Aquatic With Steve Zissou",
+              "aliases": [
+                "Die Tiefseetaucher"
+              ],
+              "director": "Wes Anderson",
+              "year": 2004,
+              "runtime": 118,
+              "source": "https://www.berlinale.de/en/2005/programme/20050462.html"
+            },
+            {
+              "title": "Thumbsucker",
+              "aliases": [],
+              "director": "Mike Mills",
+              "year": 2004,
+              "runtime": 96,
+              "source": "https://www.berlinale.de/en/2005/programme/20050848.html"
+            },
+            {
+              "title": "Tian bian yi duo yun",
+              "aliases": [
+                "The Wayward Cloud"
+              ],
+              "director": "Tsai Ming Liang",
+              "year": 2004,
+              "runtime": 112,
+              "source": "https://www.berlinale.de/en/2005/programme/20053550.html"
+            },
+            {
+              "title": "U-Carmen eKhayelitsha",
+              "aliases": [],
+              "director": "Mark Dornford-May",
+              "year": 2004,
+              "runtime": 120,
+              "source": "https://www.berlinale.de/en/2005/programme/20050142.html"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Bear for Best Film",
+              "source_name": "Golden Bear",
+              "jury": "International Jury 2005",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2005/o=desc/p=1/rp=40",
+              "source_text": "U-Carmen eKhayelitsha by Mark Dornford-May",
+              "entries": [
+                {
+                  "title": "U-Carmen eKhayelitsha",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Grand Jury Prize",
+              "source_name": "Jury Grand Prix (Silver Bear)",
+              "jury": "International Jury 2005",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2005/o=desc/p=1/rp=40",
+              "source_text": "Kong que by Gu Changwei",
+              "entries": [
+                {
+                  "title": "Kong que",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Director",
+              "source_name": "Silver Bear for Best Director",
+              "jury": "International Jury 2005",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2005/o=desc/p=1/rp=40",
+              "source_text": "Marc Rothemund Sophie Scholl - Die letzten Tage by Marc Rothemund",
+              "entries": [
+                {
+                  "title": "Sophie Scholl - Die letzten Tage",
+                  "winner": true,
+                  "people": [
+                    "Marc Rothemund"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actress",
+              "source_name": "Silver Bear for Best Actress",
+              "jury": "International Jury 2005",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2005/o=desc/p=1/rp=40",
+              "source_text": "Julia Jentsch Sophie Scholl - Die letzten Tage by Marc Rothemund",
+              "entries": [
+                {
+                  "title": "Sophie Scholl - Die letzten Tage",
+                  "winner": true,
+                  "people": [
+                    "Julia Jentsch"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actor",
+              "source_name": "Silver Bear for Best Actor",
+              "jury": "International Jury 2005",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2005/o=desc/p=1/rp=40",
+              "source_text": "Lou Taylor Pucci Thumbsucker by Mike Mills",
+              "entries": [
+                {
+                  "title": "Thumbsucker",
+                  "winner": true,
+                  "people": [
+                    "Lou Taylor Pucci"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Outstanding Artistic Contribution",
+              "source_name": "Silver Bear for Outstanding Artistic Contribution",
+              "jury": "International Jury 2005",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2005/o=desc/p=1/rp=40",
+              "source_text": "Tsai Ming Liang for the script of his film Tian bian yi duo yun by Tsai Ming Liang",
+              "entries": [
+                {
+                  "title": "Tian bian yi duo yun",
+                  "winner": true,
+                  "people": [
+                    "Tsai Ming Liang for the script of his film"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear (Best Film Music)",
+              "source_name": "Silver Bear (Best Film Music)",
+              "jury": "International Jury 2005",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2005/o=desc/p=1/rp=40",
+              "source_text": "Alexandre Desplat De battre mon coeur s'est arrêté by Jacques Audiard",
+              "entries": [
+                {
+                  "title": "De battre mon coeur s'est arrêté",
+                  "winner": true,
+                  "people": [
+                    "Alexandre Desplat"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Alfred Bauer Prize",
+              "source_name": "Alfred Bauer Prize",
+              "jury": "International Jury 2005",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2005/o=desc/p=1/rp=40",
+              "source_text": "Tian bian yi duo yun by Tsai Ming Liang",
+              "entries": [
+                {
+                  "title": "Tian bian yi duo yun",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Blue Angel Award",
+              "source_name": "Blue Angel Award",
+              "jury": "International Jury 2005",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2005/o=desc/p=1/rp=40",
+              "source_text": "Hany Abu-Assad Paradise Now by Hany Abu-Assad",
+              "entries": [
+                {
+                  "title": "Paradise Now",
+                  "winner": true,
+                  "people": [
+                    "Hany Abu-Assad"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
