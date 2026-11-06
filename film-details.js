@@ -164224,5 +164224,2283 @@ window.CULTURE_FILM_DETAILS = {
     "imdb": {
       "url": "https://www.imdb.com/title/tt0445760/"
     }
+  },
+  "5194": {
+    "tmdb_id": 19666,
+    "title": "Lagaan: Once Upon a Time in India",
+    "original_title": "लगान",
+    "overview": "The year is 1893 and India is under British occupation. In a small village, the tyrannical Captain Russell has imposed an unprecedented land tax on its citizens. Outraged, Bhuvan, a rebellious farmer, rallies the villagers to publicly oppose the tax. Russell offers a novel way to settle the dispute: he challenges Bhuvan and his men to a game of cricket, a sport completely foreign to India. If Bhuvan and his men can defeat Russell's team, the tax will be repealed.",
+    "runtime": 233,
+    "release_date": "2001-06-15",
+    "genres": [
+      "Adventure",
+      "Drama",
+      "History"
+    ],
+    "countries": [
+      "IN"
+    ],
+    "original_language": "hi",
+    "director": "Ashutosh Gowariker",
+    "cast": [
+      "Aamir Khan",
+      "Gracy Singh",
+      "Rachel Shelley",
+      "Paul Blackthorne",
+      "Suhasini Mulay"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/yNX9lFRAFeNLNRIXdqZK9gYrYKa.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/76VwduxQMkVXOUktps85dE0lLeP.jpg",
+    "tmdb_rating": 7.303,
+    "tmdb_votes": 682,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0169102/"
+    }
+  },
+  "5195": {
+    "tmdb_id": 11197,
+    "title": "Evil",
+    "original_title": "Ondskan",
+    "overview": "Stockholm, in the 1950s.  Erik is expelled from the local school for getting into one brawl too many. To protect Erik from his violent stepfather’s reaction to his expulsion, Erik's mother arranges for Erik to spend a year at Stjärnsberg Boarding School, the only school willing to accept him. This is Erik's last chance to graduate to Upper School and he promises his mother, for his and her sake, to do all he can to stay out of trouble.",
+    "runtime": 113,
+    "release_date": "2003-09-16",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "SE",
+      "DK"
+    ],
+    "original_language": "sv",
+    "director": "Mikael Håfström",
+    "cast": [
+      "Andreas Wilson",
+      "Henrik Lundström",
+      "Gustaf Skarsgård",
+      "Linda Zilliacus",
+      "Jesper Salén"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/1qqI4qh3VP7jUBRTGsIxh1miNKJ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/2EIiauBZJspEHEJQeSw7OvrFG3d.jpg",
+    "tmdb_rating": 7.333,
+    "tmdb_votes": 424,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0338309/"
+    }
+  },
+  "5196": {
+    "tmdb_id": 4464,
+    "title": "Seabiscuit",
+    "original_title": "Seabiscuit",
+    "overview": "True story of the undersized Depression-era racehorse whose victories lifted not only the spirits of the team behind it but also those of their nation.",
+    "runtime": 141,
+    "release_date": "2003-07-22",
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "countries": [
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Gary Ross",
+    "cast": [
+      "Tobey Maguire",
+      "David McCullough",
+      "Jeff Bridges",
+      "Chris Cooper",
+      "Elizabeth Banks"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/5m7NfZvxYsSm2YBCJ2VPQf8ziKr.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/9mxDXwoNLLX1SOeq2uiqEfGg4sN.jpg",
+    "tmdb_rating": 7.072,
+    "tmdb_votes": 977,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0329575/"
+    }
+  },
+  "5197": {
+    "tmdb_id": 58886,
+    "title": "Everybody's Famous!",
+    "original_title": "Iedereen beroemd!",
+    "overview": "Jean is a family man and factory worker who dreams of becoming a songwriter. Pinning his hopes on his teenage daughter, Marva, he takes her to singing contests in which the awkward and overweight girl struggles to belt out a tune. When Jean is suddenly fired because of cut backs, he is ashamed and even more desperate to have his daughter succeed. In a chance meeting Jean kidnaps the most famous pop star in the country and holds her hostage demanding to be heard by the music industry. Catching the attention of the media and the eyes of the nation, Jean and Marva realize that the show must go on until everyone is famous.",
+    "runtime": 97,
+    "release_date": "2000-04-12",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Music"
+    ],
+    "countries": [
+      "BE",
+      "NL",
+      "FR"
+    ],
+    "original_language": "nl",
+    "director": "Dominique Deruddere",
+    "cast": [
+      "Josse De Pauw",
+      "Eva van der Gucht",
+      "Werner De Smedt",
+      "Thekla Reuten",
+      "Victor Löw"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/iPVRGoOQ6N9sMYYJW8OLT2CqDnO.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/t6tLfIFUEWRaqi1lR5ETeNXFf7c.jpg",
+    "tmdb_rating": 5.5,
+    "tmdb_votes": 36,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0209037/"
+    }
+  },
+  "5198": {
+    "tmdb_id": 50314,
+    "title": "My Architect: A Son's Journey",
+    "original_title": "My Architect: A Son's Journey",
+    "overview": "World-famous architect Louis Kahn (Exeter Library, Salk Institute, Bangladeshi Capitol Building) had two illegitimate children with two different women outside of his marriage. Son Nathaniel always hoped that someday his father would come and live with him and his mother, but Kahn never left his wife. Instead, Kahn was found dead in a men's room in Penn Station when Nathaniel was only 11.",
+    "runtime": 116,
+    "release_date": "2003-11-12",
+    "genres": [
+      "Documentary"
+    ],
+    "countries": [
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Nathaniel Kahn",
+    "cast": [
+      "Edmund Bacon",
+      "Edwina Pattison Daniels",
+      "Balkrishna Doshi",
+      "Frank Gehry",
+      "Philip Johnson"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/flpuP2Y2qUkVGghsOYkxj0HkgB9.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/lWka0Rp7dhUu5ijstVW77IjphGG.jpg",
+    "tmdb_rating": 6.9,
+    "tmdb_votes": 35,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0373175/"
+    }
+  },
+  "5199": {
+    "tmdb_id": 31875,
+    "title": "Last Resort",
+    "original_title": "Last Resort",
+    "overview": "Tanya leaves Moscow with her street-wise 10-year-old son Artiom to meet her English fiancée in London. But after he fails to turn up at the airport, Tanya, intent on staying in England, is forced to apply for political asylum and transferred to Stonehaven, a grimy former seaside resort where refugees are housed. Tanya gradually develops a relationship with an amusement arcade manager, who helps them escape. She must then decide whether to stay with him or return to Russia.",
+    "runtime": 73,
+    "release_date": "2000-02-23",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "countries": [
+      "GB"
+    ],
+    "original_language": "en",
+    "director": "Paweł Pawlikowski",
+    "cast": [
+      "Dina Korzun",
+      "Paddy Considine",
+      "Artyom Strelnikov",
+      "Steve Perry",
+      "Perry Benson"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/b2sr7f28WuydA3IlvZtSGKVQ26D.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/fGWpHs4qLg8zvVkYOD6BrINS4GY.jpg",
+    "tmdb_rating": 6.3,
+    "tmdb_votes": 29,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0258761/"
+    }
+  },
+  "5200": {
+    "tmdb_id": 1392,
+    "title": "Born into Brothels: Calcutta's Red Light Kids",
+    "original_title": "Born into Brothels: Calcutta's Red Light Kids",
+    "overview": "Documentary depicting the lives of child prostitutes in the red light district of Songachi, Calcutta. Director Zana Briski went to photograph the prostitutes when she met and became friends with their children. Briski began giving photography lessons to the children and became aware that their photography might be a way for them to lead better lives.",
+    "runtime": 85,
+    "release_date": "2004-12-08",
+    "genres": [
+      "Documentary"
+    ],
+    "countries": [
+      "US",
+      "IN"
+    ],
+    "original_language": "en",
+    "director": "Zana Briski, Ross Kauffman",
+    "cast": [
+      "Zana Briski",
+      "Avijit",
+      "Geeta Masi",
+      "Kochi",
+      "Mamuni"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/e7OWmWptBRCnUKj6MJ2qbxj5ZY5.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/oaCyJfVefkJvugZv1zp3mwOm2Zq.jpg",
+    "tmdb_rating": 6.8,
+    "tmdb_votes": 258,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0388789/"
+    }
+  },
+  "5201": {
+    "tmdb_id": 23305,
+    "title": "The Warrior",
+    "original_title": "The Warrior",
+    "overview": "In feudal India, a warrior who renounces his role as the longtime enforcer to a local lord becomes the prey in a murderous hunt through the Himalayan mountains.",
+    "runtime": 86,
+    "release_date": "2001-09-23",
+    "genres": [
+      "Adventure",
+      "Drama"
+    ],
+    "countries": [
+      "IN",
+      "GB"
+    ],
+    "original_language": "en",
+    "director": "Asif Kapadia",
+    "cast": [
+      "Irrfan Khan",
+      "Puru Chibber",
+      "Aino Annuddin",
+      "Manoj Mishra",
+      "Nanhe Khan"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/wXYKA6s6iFSYerh0nwb2zySFKvB.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/osSvkIHiX0WFURwUTre3RqhFjsA.jpg",
+    "tmdb_rating": 6.3,
+    "tmdb_votes": 47,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0295682/"
+    }
+  },
+  "5202": {
+    "tmdb_id": 47943,
+    "title": "With a Friend Like Harry...",
+    "original_title": "Harry, un ami qui vous veut du bien",
+    "overview": "While fixing up their summer cottage, Michel and his family run into a man who claims to have gone to high school with Michel.",
+    "runtime": 117,
+    "release_date": "2000-08-15",
+    "genres": [
+      "Drama",
+      "Mystery"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "original_language": "fr",
+    "director": "Dominik Moll",
+    "cast": [
+      "Laurent Lucas",
+      "Sergi López",
+      "Mathilde Seigner",
+      "Sophie Guillemin",
+      "Liliane Rovère"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/tQ6Ut3kPOpo3lRhPrW5QfkBDwGk.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/mgNMFGVUezUAgOPJ57N2toQ7d6z.jpg",
+    "tmdb_rating": 6.797,
+    "tmdb_votes": 305,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0216800/"
+    }
+  },
+  "5203": {
+    "tmdb_id": 10401,
+    "title": "The Girl on the Bridge",
+    "original_title": "La Fille sur le pont",
+    "overview": "It's night on a Paris bridge. A girl leans over Seine River with tears in her eyes and a violent yearning to drown her sorrows. Out of nowhere someone takes an interest in her. He is Gabor, a knife thrower who needs a human target for his show. The girl, Adele, has never been lucky and nowhere else to go. So she follows him. They travel along the northern bank of the Mediterranean to perform.",
+    "runtime": 90,
+    "release_date": "1999-03-31",
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Romance"
+    ],
+    "countries": [
+      "FR",
+      "TR",
+      "GR"
+    ],
+    "original_language": "fr",
+    "director": "Patrice Leconte",
+    "cast": [
+      "Vanessa Paradis",
+      "Daniel Auteuil",
+      "Demetre Georgalas",
+      "Catherine Lascault",
+      "Frédéric Pfluger"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/t5hKllCsmpWWA7XpxBXPjx0Gfct.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/jlxwZ7XHK17U4sZUxmDP8iHThC8.jpg",
+    "tmdb_rating": 7,
+    "tmdb_votes": 243,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0144201/"
+    }
+  },
+  "5204": {
+    "tmdb_id": 15917,
+    "title": "Devdas",
+    "original_title": "देवदास",
+    "overview": "In 1900s India, Calcuttan zamindar Devdas Mukherjee — unable to marry his lover — takes up alcohol and the company of a courtesan to alleviate the pain.",
+    "runtime": 185,
+    "release_date": "2002-07-11",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "countries": [
+      "IN"
+    ],
+    "original_language": "hi",
+    "director": "Sanjay Leela Bhansali",
+    "cast": [
+      "Shah Rukh Khan",
+      "Aishwarya Rai Bachchan",
+      "Madhuri Dixit",
+      "Jackie Shroff",
+      "Smita Jaykar"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/4IJObbE9c3rO0bZxMwMtt5n9g2n.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/aqIOQ5UrEGgRTq35BNbwgy7MIU2.jpg",
+    "tmdb_rating": 7.5,
+    "tmdb_votes": 400,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0238936/"
+    }
+  },
+  "5205": {
+    "tmdb_id": 6934,
+    "title": "Yesterday",
+    "original_title": "Yesterday",
+    "overview": "After falling ill, Yesterday learns that she is HIV positive. With her husband in denial and young daughter to tend to, Yesterday's one goal is to live long enough to see her child go to school.",
+    "runtime": 96,
+    "release_date": "2004-09-03",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "ZA"
+    ],
+    "original_language": "zu",
+    "director": "Darrell James Roodt",
+    "cast": [
+      "Leleti Khumalo",
+      "Kenneth Khambula",
+      "Lihle Mvelase",
+      "Camilla Walker",
+      "Mmamputhi Khasu"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/bAwey8xDPRZHqLVcLvqgrU0pomN.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/cFl2vnMIneeNvKUS7waiNMV5UzP.jpg",
+    "tmdb_rating": 7.4,
+    "tmdb_votes": 32,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0419279/"
+    }
+  },
+  "5206": {
+    "tmdb_id": 140,
+    "title": "Bad Education",
+    "original_title": "La mala educación",
+    "overview": "When an old friend brings filmmaker Enrique Goded a semi-autobiographical script chronicling their adolescence, Enrique is forced to relive his youth spent at a Catholic boarding school. Weaving through past and present, the script follows a transvestite performer who reconnects with a grade school sweetheart. Spurred on by this chance encounter, the character reflects on her childhood sexual victimization and the trauma of closeting her sexual orientation.",
+    "runtime": 105,
+    "release_date": "2004-03-19",
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "original_language": "es",
+    "director": "Pedro Almodóvar",
+    "cast": [
+      "Gael García Bernal",
+      "Fele Martínez",
+      "Daniel Giménez Cacho",
+      "Lluís Homar",
+      "Francisco Maestre"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/ir4lkaAMJQrlLFMW1QM3BD9Jeb0.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/wNFiDhGnrnSfyqYxzeAa8mFnUhj.jpg",
+    "tmdb_rating": 7.4,
+    "tmdb_votes": 1110,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0275491/"
+    }
+  },
+  "5207": {
+    "tmdb_id": 8871,
+    "title": "How the Grinch Stole Christmas",
+    "original_title": "How the Grinch Stole Christmas",
+    "overview": "The Grinch decides to rob Whoville of Christmas - but a dash of kindness from little Cindy Lou Who and her family may be enough to melt his heart...",
+    "runtime": 105,
+    "release_date": "2000-11-17",
+    "genres": [
+      "Family",
+      "Comedy",
+      "Fantasy"
+    ],
+    "countries": [
+      "US",
+      "DE"
+    ],
+    "original_language": "en",
+    "director": "Ron Howard",
+    "cast": [
+      "Jim Carrey",
+      "Taylor Momsen",
+      "Jeffrey Tambor",
+      "Christine Baranski",
+      "Bill Irwin"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/1WZbbPApEivA421gCOluuzMMKCk.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/sy0vo1cmpKqwPRiMUiJ45jyLsX7.jpg",
+    "tmdb_rating": 6.783,
+    "tmdb_votes": 8549,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0170016/"
+    }
+  },
+  "5208": {
+    "tmdb_id": 45943,
+    "title": "Taurus",
+    "original_title": "Телец",
+    "overview": "Unfolding over two days in 1924, the film depicts the dying Lenin, world revolutionary and father of the USSR, now powerless and isolated at his Gorki estate. Cared for by his wife, Nadezhda Krupskaia, sister Maniasha, his German doctor and several attendants, Lenin raves about his diminishing faculties, discusses the deaths of great figures (including Marx), rides a car to a picnic in a meadow and ponders his historic legacy.",
+    "runtime": 104,
+    "release_date": "2001-02-24",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "original_language": "ru",
+    "director": "Aleksandr Sokurov",
+    "cast": [
+      "Leonid Mozgovoy",
+      "Mariya Kuznetsova",
+      "Sergei Razhuk",
+      "Natalya Nikulenko",
+      "Lev Eliseev"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/1jnNUnul7DQeCCtrz1eImdT4ZLF.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/qZ2l4LOf2flwcvPklw5MsAAdV6y.jpg",
+    "tmdb_rating": 5.8,
+    "tmdb_votes": 32,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0283623/"
+    }
+  },
+  "5209": {
+    "tmdb_id": 55372,
+    "title": "Va Savoir (Who Knows?)",
+    "original_title": "Va savoir",
+    "overview": "After finding love and success in Italy, French actress Camille returns to Paris, the city she fled three years ago. She secretly dreads confronting her ex-boyfriend Pierre. Her new lover Ugo also has a secret, as he’s meeting with the intriguing Dominique while on his quest for an unpublished manuscript.",
+    "runtime": 154,
+    "release_date": "2001-09-28",
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Romance"
+    ],
+    "countries": [
+      "FR",
+      "IT",
+      "DE"
+    ],
+    "original_language": "fr",
+    "director": "Jacques Rivette",
+    "cast": [
+      "Jeanne Balibar",
+      "Marianne Basler",
+      "Hélène de Fougerolles",
+      "Catherine Rouvel",
+      "Sergio Castellitto"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/8ZW85CU32SYme7MZjoD2d7KUgHO.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/xQv1lUPeqFEaQHmsAlys6YXbsWk.jpg",
+    "tmdb_rating": 6.2,
+    "tmdb_votes": 34,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0242994/"
+    }
+  },
+  "5210": {
+    "tmdb_id": 49685,
+    "title": "I’m Going Home",
+    "original_title": "Je rentre à la maison",
+    "overview": "The comfortable daily routines of aging Parisian actor Gilbert Valence, 76, are suddenly shaken when he learns that his wife, daughter, and son-in-law have been killed in a car crash. Having to take care of his now-orphaned grandson, he struggles to go on with his lifelong acting career like he's used to. But the roles he is offered -- a flashy TV show and a hectic last-minute replacement in an English-language film of Joyce's Ulysses -- finally convince him that it's time to retire.",
+    "runtime": 90,
+    "release_date": "2001-05-13",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "countries": [
+      "FR",
+      "PT"
+    ],
+    "original_language": "fr",
+    "director": "Manoel de Oliveira",
+    "cast": [
+      "Michel Piccoli",
+      "Catherine Deneuve",
+      "John Malkovich",
+      "Antoine Chappey",
+      "Leonor Baldaque"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/sh0VEL1VyTsSMJpw8yFBbugQ9BF.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/oIk31jAIz6f3pjpagyd6PtNxXe7.jpg",
+    "tmdb_rating": 6.755,
+    "tmdb_votes": 47,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0283422/"
+    }
+  },
+  "5211": {
+    "tmdb_id": 24166,
+    "title": "What Time Is It There?",
+    "original_title": "你那邊幾點",
+    "overview": "A street vendor with a grim home-life forges a connection with a young woman on her way to Paris.",
+    "runtime": 116,
+    "release_date": "2001-09-26",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "FR",
+      "TW"
+    ],
+    "original_language": "zh",
+    "director": "Tsai Ming-liang",
+    "cast": [
+      "Lee Kang-sheng",
+      "Chen Shiang-Chyi",
+      "Lu Yi-ching",
+      "Miao Tian",
+      "Liao Ching-Kuo"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/dRsZF1I4s4jx99wEyZyIsOpu3Uw.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/jtttw606rzded55mXL8F3QYeZwo.jpg",
+    "tmdb_rating": 7.056,
+    "tmdb_votes": 126,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0269746/"
+    }
+  },
+  "5212": {
+    "tmdb_id": 49680,
+    "title": "Late Marriage",
+    "original_title": "חתונה מאוחרת",
+    "overview": "Zaza is a 31-year old Israeli bachelor, handsome and intelligent, and his family wants to see him married. But tradition dictates that Zaza has to choose a young virgin. She must be beautiful and from a good family, preferably rich. Zaza's parents, Yasha and Lily drag Zaza to meet potential brides and their families. Zaza has no choice. He plays along with his family, advocates of the suffocating traditions of their Georgian Jewish heritage. But Zaza always manages to somehow get out of being engaged. What his parents don't know is that Zaza is already in love. Judith is sensuous, strong and intriguing. She's also a divorcée with a 6-year-old daughter. So Zaza has kept Judith a secret from his family. He will have to choose between respect of the strict confines of family and tradition, or the love of his life.",
+    "runtime": 102,
+    "release_date": "2001-10-24",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "countries": [
+      "IL",
+      "FR"
+    ],
+    "original_language": "he",
+    "director": "Dover Koshashvili",
+    "cast": [
+      "Lior Ashkenazi",
+      "Ronit Elkabetz",
+      "Moni Moshonov",
+      "Lili Koshashvili",
+      "Aya Steinovitz"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/9IcQsfhjfQamVvRgtpYkwdIKilw.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/m4OpHCXlPjwZ0WJEwM3oUy5HO06.jpg",
+    "tmdb_rating": 6.35,
+    "tmdb_votes": 40,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0287471/"
+    }
+  },
+  "5213": {
+    "tmdb_id": 47123,
+    "title": "Man Walking on Snow",
+    "original_title": "歩く、人",
+    "overview": "A young-at-heart widower leads an independent life in a quiet fishing town in northern Japan. He eases his loneliness by walking in the snow and studying the growth of fish at a breeding center.",
+    "runtime": 103,
+    "release_date": "2002-09-07",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "original_language": "ja",
+    "director": "Masahiro Kobayashi",
+    "cast": [
+      "Ken Ogata",
+      "Yasufumi Hayashi",
+      "Teruyuki Kagawa",
+      "Nene Otsuka",
+      "Fusako Urabe"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/nNwdEoea9PlH7AWNK3YIpTSAuSi.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/dxubfGEnod6s98WkLWdDN3wqiMy.jpg",
+    "tmdb_rating": 6.1,
+    "tmdb_votes": 13,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0307971/"
+    }
+  },
+  "5214": {
+    "tmdb_id": 58169,
+    "title": "Hijack Stories",
+    "original_title": "Hijack Stories",
+    "overview": "A young Soweto actor joins a gang to study up and be more convincing in a gangster role he wants.",
+    "runtime": 90,
+    "release_date": "2001-07-03",
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "countries": [
+      "FR",
+      "DE",
+      "GB",
+      "ZA"
+    ],
+    "original_language": "fr",
+    "director": "Oliver Schmitz",
+    "cast": [
+      "Tony Kgoroge",
+      "Rapulana Seiphemo",
+      "Moshidi Motshegwa",
+      "Percy Matsemela",
+      "Makhaola Ndebele"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/m4oUJoOLLdLnoYZKhOagv0Z6YAw.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/bh6GYCEQcLwnF9lh2hHuUzKy0gV.jpg",
+    "tmdb_rating": 6.2,
+    "tmdb_votes": 5,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0215841/"
+    }
+  },
+  "5215": {
+    "tmdb_id": 27324,
+    "title": "Pulse",
+    "original_title": "回路",
+    "overview": "In the immense city of Tokyo, the darkness of the afterlife lures some of its inhabitants desperately trying to escape the sadness and isolation of the modern world.",
+    "runtime": 119,
+    "release_date": "2001-02-03",
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Mystery"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "original_language": "ja",
+    "director": "Kiyoshi Kurosawa",
+    "cast": [
+      "Haruhiko Kato",
+      "Kumiko Aso",
+      "Koyuki",
+      "Kurume Arisaka",
+      "Masatoshi Matsuo"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/c3zEimDraIyMSasPMGDaNOrhnzn.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/ylQUBfAfcrQUxjWYUIjmPXvlcD1.jpg",
+    "tmdb_rating": 6.7,
+    "tmdb_votes": 756,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0286751/"
+    }
+  },
+  "5216": {
+    "tmdb_id": 27062,
+    "title": "Lan Yu",
+    "original_title": "蓝宇",
+    "overview": "A love story between a country boy in Beijing to study and a wealthy businessman set against the backdrop of the 1989 Tiananmen Square incident.",
+    "runtime": 87,
+    "release_date": "2001-05-18",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "countries": [
+      "CN",
+      "HK"
+    ],
+    "original_language": "zh",
+    "director": "Stanley Kwan Kam-pang",
+    "cast": [
+      "Hu Jun",
+      "Liu Ye",
+      "Li Shuang",
+      "Fang Lu",
+      "Zhang Shaohua"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/kiqzWsQFKPGDPhZV31DESl9JMhH.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/dCQWMhMxuhQwXPImKiqgxQRygDF.jpg",
+    "tmdb_rating": 7.2,
+    "tmdb_votes": 71,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0292066/"
+    }
+  },
+  "5217": {
+    "tmdb_id": 327042,
+    "title": "The Chimp",
+    "original_title": "Маймыл",
+    "overview": "The Chimp is the nickname of a teenage boy (with large ears) who lives in the small town of Balyktchy, Kirghizstan, a former part of the USSR in central Asia. His family is being torn apart by his dad's alcoholism, his emotions are being torn as he sees his friends pair off into couples, and his job working on the railtracks is uninspiring.",
+    "runtime": 90,
+    "release_date": "2001-05-01",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "KG",
+      "JP",
+      "FR"
+    ],
+    "original_language": "ky",
+    "director": "Aktan Arym Kubat",
+    "cast": [
+      "Mirlan Abdykalykov",
+      "Dzylykcy Dzakypov",
+      "Sergey Golovkin",
+      "Alexandra Mitrokhina",
+      "Yuriy Sokolov"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/rVaNjil7qBwFH0lWxeXEl1zQhih.jpg",
+    "tmdb_rating": 5,
+    "tmdb_votes": 10,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0301587/"
+    }
+  },
+  "5218": {
+    "tmdb_id": 35172,
+    "title": "The Son",
+    "original_title": "Le Fils",
+    "overview": "A joinery instructor at a rehab center refuses to take a new teen as his apprentice, but then begins to follow the boy through the hallways and streets.",
+    "runtime": 103,
+    "release_date": "2002-10-04",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "BE",
+      "FR"
+    ],
+    "original_language": "fr",
+    "director": "Jean-Pierre Dardenne, Luc Dardenne",
+    "cast": [
+      "Olivier Gourmet",
+      "Morgan Marinne",
+      "Isabella Soupart",
+      "Nassim Hassaïni",
+      "Pierre Nisse"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/mbAG0JOVgcOIH8LVVynw87ONgej.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/qAo57W8YEn519sjys7FUT3seaOA.jpg",
+    "tmdb_rating": 7.4,
+    "tmdb_votes": 175,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0291172/"
+    }
+  },
+  "5219": {
+    "tmdb_id": 16646,
+    "title": "Russian Ark",
+    "original_title": "Русский ковчег",
+    "overview": "A ghost and a French marquis wander through the Winter Palace in St Petersburg, encountering scenes from many different periods of its history.",
+    "runtime": 99,
+    "release_date": "2002-05-22",
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "History"
+    ],
+    "countries": [
+      "RU",
+      "DE"
+    ],
+    "original_language": "ru",
+    "director": "Aleksandr Sokurov",
+    "cast": [
+      "Sergey Dreyden",
+      "Mariya Kuznetsova",
+      "Leonid Mozgovoy",
+      "Mikhail Piotrovsky",
+      "Edisher (Davit) Giorgobiani"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/dkFM8Q7J0wNpEnbtD1AcWumkShj.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/lLQgQy1nX3qocg83BLTCz1911R4.jpg",
+    "tmdb_rating": 7.228,
+    "tmdb_votes": 527,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0318034/"
+    }
+  },
+  "5220": {
+    "tmdb_id": 44768,
+    "title": "Warm Water Under a Red Bridge",
+    "original_title": "赤い橋の下のぬるい水",
+    "overview": "When a dying friend tells out-of-work salaryman Yosuke about a hidden treasure, he sets off in search of the only clue about its location: a house by a red bridge. What he finds instead is a woman who transcends all his fantasies.",
+    "runtime": 119,
+    "release_date": "2001-11-03",
+    "genres": [
+      "Fantasy",
+      "Drama",
+      "Comedy",
+      "Romance"
+    ],
+    "countries": [
+      "FR",
+      "JP"
+    ],
+    "original_language": "ja",
+    "director": "Shōhei Imamura",
+    "cast": [
+      "Koji Yakusho",
+      "Misa Shimizu",
+      "Mitsuko Baisho",
+      "Mansaku Fuwa",
+      "Isao Natsuyagi"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/brUlHtuwXvHCmRUyDPKCRwH8xYY.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/j1xGWkNCBP3ozPJdgzOIgaOpXQv.jpg",
+    "tmdb_rating": 6.6,
+    "tmdb_votes": 54,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0289054/"
+    }
+  },
+  "5221": {
+    "tmdb_id": 27744,
+    "title": "Divine Intervention",
+    "original_title": "يد إلهية‎",
+    "overview": "Santa Claus tries to outrun a gang of knife-wielding youth. It's one of several vignettes of Palestinian life in Israel - in a neighborhood in Nazareth and at Al-Ram checkpoint in East Jerusalem. Most of the stories are droll, some absurd, one is mythic and fanciful; few words are spoken. A man who goes through his mail methodically each morning has a heart attack. His son visits him in the hospital. The son regularly meets a woman at Al-Ram; they sit in a car, hands caressing. Once, she defies Israeli guards at the checkpoint; later, ninja-like, she takes on soldiers at a target range. A red balloon floats free overhead. Neighbors toss garbage over walls. Life goes on until it doesn't.",
+    "runtime": 92,
+    "release_date": "2002-10-02",
+    "genres": [
+      "Drama",
+      "Romance",
+      "Comedy"
+    ],
+    "countries": [
+      "FR",
+      "MA",
+      "DE",
+      "NL",
+      "PS"
+    ],
+    "original_language": "ar",
+    "director": "Elia Suleiman",
+    "cast": [
+      "Elia Suleiman",
+      "Nayef Fahoum Daher",
+      "Manal Khader",
+      "George Ibrahim",
+      "Jamel Daher"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/pczspk2mTCVmG5eyErnB4BZD2HY.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/mYZ5dUUyZfLHLViuoD9gmwq3xwl.jpg",
+    "tmdb_rating": 6.6,
+    "tmdb_votes": 57,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0274428/"
+    }
+  },
+  "5222": {
+    "tmdb_id": 129185,
+    "title": "The Road",
+    "original_title": "Jol",
+    "overview": "A filmmaker, Kobessov, awakens from an anxiety nightmare: during the preview of his newest film, the projectionist mixes up the reels and begins to show a bad karate film by accident. Although Kobessov objects to the mix-up, the public is ecstatic and refuses to allow the projectionist to interrupt the screening to show Kobessov's film.",
+    "runtime": 85,
+    "release_date": "2001-05-18",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "KZ",
+      "FR",
+      "JP"
+    ],
+    "original_language": "kk",
+    "director": "Darezhan Omirbayev",
+    "cast": [
+      "Jamshed Usmonov",
+      "Saule Toktybayeva",
+      "Alnur Turgambayeva",
+      "Magjane Omirbayev",
+      "Valeria Gouliaeva"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/7jACxfh4YgAhSZCGTWSuZCD829d.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/hRbiXyxU2IK1swCnwmMrjn8O178.jpg",
+    "tmdb_rating": 6.4,
+    "tmdb_votes": 7,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0301481/"
+    }
+  },
+  "5223": {
+    "tmdb_id": 13438,
+    "title": "Marooned in Iraq",
+    "original_title": "جێھێڵراو لە عێراق",
+    "overview": "During the war between Iran and Iraq, a group of Iranian Kurd musicians set off on an almost impossible mission. They will try to find Hanareh, a singer with a magic voice who crossed the border and may now be in danger in the Iraqi Kurdistan. As in his previous films, this Kurdish director is again focusing on the oppression of his people.",
+    "runtime": 108,
+    "release_date": "2002-10-09",
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "countries": [
+      "IR"
+    ],
+    "original_language": "ku",
+    "director": "Bahman Ghobadi",
+    "cast": [
+      "Shahab Ebrahimi",
+      "Rojan Hosseini",
+      "Saeed Mohammadi",
+      "AllahMorad Rashtiani",
+      "Faegh Mohamadi"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/mzWqK0U0APFiXKofG1qzl1OEYgW.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/69dToUkNmREIekgRVDH6tf1fESY.jpg",
+    "tmdb_rating": 7,
+    "tmdb_votes": 13,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0317226/"
+    }
+  },
+  "5224": {
+    "tmdb_id": 25461,
+    "title": "Raising Victor Vargas",
+    "original_title": "Raising Victor Vargas",
+    "overview": "Victor, a Lower East Side teenager, as he deals with his eccentric family, including his strict grandmother, his bratty sister, and a younger brother who completely idolizes him. Along the way he tries to win the affections of Judy, who is very careful and calculating when it comes to how she deals with men.",
+    "runtime": 88,
+    "release_date": "2003-03-28",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "countries": [
+      "FR",
+      "GB",
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Peter Sollett",
+    "cast": [
+      "Victor Rasuk",
+      "Judy Marte",
+      "Melonie Díaz",
+      "Altagracia Guzman",
+      "Silvestre Rasuk"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/cMHMtMBca8VNxjYICc1WHK1Qqe5.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/zI2dRzIeRJtNwUalLTSg5OBmY4o.jpg",
+    "tmdb_rating": 6.8,
+    "tmdb_votes": 52,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0316188/"
+    }
+  },
+  "5225": {
+    "tmdb_id": 48778,
+    "title": "That Day",
+    "original_title": "Ce jour-là",
+    "overview": "A father is scheming to have his slightly mental daughter from an earlier marriage killed by allowing a murderous psychopath to be released from the asylum and led to his house. However, the psychopath and the daughter fall for each other.",
+    "runtime": 105,
+    "release_date": "2003-06-04",
+    "genres": [
+      "Mystery",
+      "Drama",
+      "Comedy",
+      "Crime"
+    ],
+    "countries": [
+      "FR",
+      "CH"
+    ],
+    "original_language": "fr",
+    "director": "Raúl Ruiz",
+    "cast": [
+      "Bernard Giraudeau",
+      "Elsa Zylberstein",
+      "Jean-Luc Bideau",
+      "Jean-François Balmer",
+      "Christian Vadim"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/bvNV2LsASheILAIja1YmDvijkw7.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/gXMObLCMjJEzkgcE0uPjnTLsJQB.jpg",
+    "tmdb_rating": 6.1,
+    "tmdb_votes": 17,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0343524/"
+    }
+  },
+  "5226": {
+    "tmdb_id": 23676,
+    "title": "Ten Minutes Older: The Trumpet",
+    "original_title": "Ten Minutes Older: The Trumpet",
+    "overview": "Ten Minutes Older is a 2002 film project consisting of two compilation feature films entitled The Trumpet and The Cello. The project was conceived by the producer Nicolas McClintock as a reflection on the theme of time at the turn of the Millennium. Fifteen celebrated film-makers were invited to create their own vision of what time means in ten minutes of film.",
+    "runtime": 92,
+    "release_date": "2002-05-18",
+    "genres": [
+      "Drama",
+      "Documentary"
+    ],
+    "countries": [
+      "CN",
+      "DE",
+      "ES",
+      "FI",
+      "GB",
+      "US",
+      "JP",
+      "CA"
+    ],
+    "original_language": "en",
+    "director": "Chen Kaige, Víctor Erice, Werner Herzog, Jim Jarmusch, Aki Kaurismäki, Spike Lee, Wim Wenders",
+    "cast": [
+      "Markku Peltola",
+      "Kati Outinen",
+      "Marko Haavisto",
+      "Ana Sofia Liaño",
+      "Chloë Sevigny"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/yxIKQ2MeZAYiZ5lbJyYrNmXf7Dy.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/3lvQSIawim7dc2FrzrIf72Uxw6v.jpg",
+    "tmdb_rating": 6.8,
+    "tmdb_votes": 52,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0304808/"
+    }
+  },
+  "5227": {
+    "tmdb_id": 43969,
+    "title": "At Five in the Afternoon",
+    "original_title": "پنج عصر",
+    "overview": "Nogreh is a young Afghan woman living with her father and her sister-in-law, Leylomah, whose husband, Akhtar, is missing. Beyond the issue of Akhtar, Leylomah is most concerned with how to feed her baby. She cannot provide milk for her baby as her own hunger is preventing her from lactating. Nogreh, however, aspires toward a life in a western styled democracy. Although the Taliban are no longer in power in Afghanistan, traditional forces are still active in the country. Nogreh often displays signs of rebellion, such as wearing a pair of white pumps instead of the traditional slipper beneath her burqa. But mostly, Nogreh wants to be educated. Without her father's knowledge, Nogreh is attending a secular girls school. Ultimately, she wants to become President of Afghanistan. With the help of a Pakistani refugee who likes her as a woman, Nogreh tries to understand exactly what forces led to current world leaders being elected, those forces which she wants to emulate.",
+    "runtime": 105,
+    "release_date": "2003-08-20",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "IR",
+      "FR"
+    ],
+    "original_language": "fa",
+    "director": "Samira Makhmalbaf",
+    "cast": [
+      "Agheleh Rezaie",
+      "Abdolgani Yousefrazi",
+      "Razi Mohebi",
+      "Marzieh Amiri"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/8Vg7D342cJMB4brLWgfjj6jS5WN.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/gu3RYo6sJBEXVa0govnGR5gAJbc.jpg",
+    "tmdb_rating": 6.6,
+    "tmdb_votes": 24,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0363303/"
+    }
+  },
+  "5228": {
+    "tmdb_id": 44513,
+    "title": "Father and Son",
+    "original_title": "Отец и сын",
+    "overview": "In this dreamlike film, a nameless father and his son, Aleksei, live together in an apartment in St. Petersburg. Aleksei's mother has died and consequently the two have a very close relationship. When Aleksei acquires a girlfriend, she refuses to take a back seat to his bond with his dad, and breaks up with him. Aleksei is also experiencing nightmares, dreading separation from his father to be a part of the military as his father was.",
+    "runtime": 97,
+    "release_date": "2003-09-12",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "FR",
+      "DE",
+      "IT",
+      "NL",
+      "RU"
+    ],
+    "original_language": "ru",
+    "director": "Aleksandr Sokurov",
+    "cast": [
+      "Andrei Shchetinin",
+      "Aleksei Neymyshev",
+      "Aleksandr Razbash",
+      "Fyodor Lavrov",
+      "Marina Zasukhina"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/pGGUrgF5nPyMpJbiN87SlT2zqxB.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/8o2l1tDdEP79o1aKqOFUwQl5Bf5.jpg",
+    "tmdb_rating": 5.7,
+    "tmdb_votes": 45,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0363249/"
+    }
+  },
+  "5229": {
+    "tmdb_id": 28171,
+    "title": "Kandahar",
+    "original_title": "Safar e Ghandehar",
+    "overview": "After an Afghanistan-born woman who lives in Canada receives a letter from her suicidal sister, she takes a perilous journey through Afghanistan to try to find her.",
+    "runtime": 85,
+    "release_date": "2001-05-11",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "IR",
+      "FR"
+    ],
+    "original_language": "en",
+    "director": "Mohsen Makhmalbaf",
+    "cast": [
+      "Nelofer Pazira",
+      "Ike Ogut",
+      "Hassan Tantai",
+      "Sadou Teymouri",
+      "Hoyatala Hakimi"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/uTeYg3RPKlGYbyvEYKq5Ht5QGch.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/2LdpiR2Se0xhxSLA9r2al4YSYYj.jpg",
+    "tmdb_rating": 6.2,
+    "tmdb_votes": 93,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0283431/"
+    }
+  },
+  "5230": {
+    "tmdb_id": 126108,
+    "title": "Playing 'In the Company of Men'",
+    "original_title": "Léo, en jouant « Dans la compagnie des hommes »",
+    "overview": "A troupe of actors rehearse a play. In the play-within-the-film, an ambitious son and his distant father fight for control of an armaments firm and are pushed to eventual destruction by dangerous outside forces and traitorous aides.",
+    "runtime": 121,
+    "release_date": "2003-05-15",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "original_language": "fr",
+    "director": "Arnaud Desplechin",
+    "cast": [
+      "Sami Bouajila",
+      "Jean-Paul Roussillon",
+      "Wladimir Yordanoff",
+      "Szabó László",
+      "Anna Mouglalis"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/yuv24cZRCIYz5kLBf5pyrZxI2Cv.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/acmFNMnwRLOls0YQ05ha0APDuzv.jpg",
+    "tmdb_rating": 7.5,
+    "tmdb_votes": 12,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0353400/"
+    }
+  },
+  "5231": {
+    "tmdb_id": 130268,
+    "title": "Where Is Madame Catherine?",
+    "original_title": "Les mans buides",
+    "overview": "The life in a Catalan (Southern France) village near the border may be quite boring. A young man who is escaping from his homeland is seeking for something and may find it in this weird place. You see the relationship between the people in the village, their dreams, their past and their perspectives in life. The foreigner is hosted there and is messed in the deep whereabouts of these people and tries somehow to fit in.",
+    "runtime": 130,
+    "release_date": "2003-07-05",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "countries": [
+      "ES",
+      "FR"
+    ],
+    "original_language": "fr",
+    "director": "Marc Recha",
+    "cast": [
+      "Dominique Marcas",
+      "Jérémie Lippmann",
+      "Olivier Gourmet",
+      "Eduardo Noriega",
+      "Antoine Pereniguez"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/39Dj9SnSqhUHF1ALQUR79xstLj1.jpg",
+    "tmdb_rating": 5.2,
+    "tmdb_votes": 5,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0347474/"
+    }
+  },
+  "5232": {
+    "tmdb_id": 36281,
+    "title": "Shara",
+    "original_title": "沙羅双樹",
+    "overview": "The Aso family live in the old town of Nara. One Day, Kei, one of the Aso's twin boys suddenly disappears. Five years later seventeen-year old Shun, the remaining twin, is an art student. He now has to move forward with his life, together with his childhood friend, Yu.",
+    "runtime": 100,
+    "release_date": "2003-07-12",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "original_language": "ja",
+    "director": "Naomi Kawase",
+    "cast": [
+      "Kohei Fukungaga",
+      "Yuka Hyyoudo",
+      "Naomi Kawase",
+      "Katsuhisa Namase",
+      "Kanako Higuchi"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/tfsdobIiofqZVHNbDyLDs5d0pzR.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/mZ7RRQFQpTCU8U5Hhy89wv7lTvu.jpg",
+    "tmdb_rating": 6.4,
+    "tmdb_votes": 45,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0363060/"
+    }
+  },
+  "5233": {
+    "tmdb_id": 259066,
+    "title": "Robinson's Crusoe",
+    "original_title": "魯賓遜漂流記",
+    "overview": "The film follows Robinson, a very succesfull real estate broker, who lives in a modern hotel in Taipei. But all the success also hides a lonely man, whose relations are becoming distant, including friends and lovers; Robinson's dream is the Crusoe, an island on the Caribbean, which he wants to try purchase.",
+    "runtime": 103,
+    "release_date": "2003-05-22",
+    "countries": [
+      "TW"
+    ],
+    "original_language": "zh",
+    "director": "Lin Cheng-sheng",
+    "cast": [
+      "Leon Dai",
+      "Phoenix Chang",
+      "Chen Shiang-Chyi",
+      "Yang Kuei-mei",
+      "Angelica Lee"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/ogYNw4UOs4hafuJtOv9z4euOEA4.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/wpTv4jW0NPKPTpjT9opzikZuxZF.jpg",
+    "tmdb_rating": 5.6,
+    "tmdb_votes": 5,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0340642/"
+    }
+  },
+  "5234": {
+    "tmdb_id": 670,
+    "title": "Oldboy",
+    "original_title": "올드보이",
+    "overview": "With no clue how he came to be imprisoned, drugged and tortured for 15 years, a desperate man seeks revenge on his captors.",
+    "runtime": 120,
+    "release_date": "2003-11-21",
+    "genres": [
+      "Thriller",
+      "Mystery"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "original_language": "ko",
+    "director": "Park Chan-wook",
+    "cast": [
+      "Choi Min-sik",
+      "Yoo Ji-tae",
+      "Kang Hye-jung",
+      "Kim Byeong-ok",
+      "Ji Dae-han"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/pWDtjs568ZfOTMbURQBYuT4Qxka.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/rwf5SUTiEsmfkXAgy15R0UtJUtv.jpg",
+    "tmdb_rating": 8.233,
+    "tmdb_votes": 10385,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0364569/"
+    }
+  },
+  "5235": {
+    "tmdb_id": 11534,
+    "title": "Tropical Malady",
+    "original_title": "สัตว์ประหลาด",
+    "overview": "A romance between a soldier and country boy is ruptured by the boy’s sudden disappearance. Their story turns into a mythical venture based on Thai folklore.",
+    "runtime": 118,
+    "release_date": "2004-06-24",
+    "genres": [
+      "Drama",
+      "Romance",
+      "Fantasy"
+    ],
+    "countries": [
+      "TH",
+      "FR",
+      "IT",
+      "DE"
+    ],
+    "original_language": "th",
+    "director": "Apichatpong Weerasethakul",
+    "cast": [
+      "Banlop Lomnoi",
+      "Sakda Kaewbuadee",
+      "Siriwej Jareornchon",
+      "Udom Promma",
+      "Huey Deesom"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/9WJ8ZSZp2NC7jSvweFLskldpzzg.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/6JPh7zM1CYJVytBT8BTyUoOzevA.jpg",
+    "tmdb_rating": 6.7,
+    "tmdb_votes": 141,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0381668/"
+    }
+  },
+  "5236": {
+    "tmdb_id": 100156,
+    "title": "All Tomorrow's Parties",
+    "original_title": "明日天涯",
+    "overview": "In a future century, after the apocalypse, Gui Dao dynasty controls continental Asia. Zhuai and his younger brother Mian are captured and sent to \"Prosperity Camp\" for reeducation. They soon discover that the camp's aim is to brainwash people with propaganda. Five years later, there's a change in government and they are free again. Zhuai falls in love for the beautiful Xuelan and together they take her to an old industrial city, now deserted. They get themselves a place to live in an abandoned apartment and try to rediscover the little pleasures of life.",
+    "runtime": 96,
+    "release_date": "2003-12-31",
+    "genres": [
+      "Drama",
+      "Science Fiction"
+    ],
+    "countries": [
+      "BR",
+      "CN",
+      "HK"
+    ],
+    "original_language": "zh",
+    "director": "Nelson Yu Lik-wai",
+    "cast": [
+      "Cho Yong-won",
+      "Ren Na",
+      "Wei Wei Zhao",
+      "Diao Yinan"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/6RDqbzVyK4uBlOrw4yjtVrI60SN.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/pWAYhGnaiSdUnyceIteyNj5WKUY.jpg",
+    "tmdb_rating": 6.1,
+    "tmdb_votes": 8,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0384804/"
+    }
+  },
+  "5237": {
+    "tmdb_id": 3097,
+    "title": "The Tulse Luper Suitcases, Part 1: The Moab Story",
+    "original_title": "The Tulse Luper Suitcases, Part 1: The Moab Story",
+    "overview": "A comic study of 20th-century history, reconstructing the life of writer, creator and professional prisoner Tulse Luper. Born in 1911 Newport and last heard of in 1989, Luper’s life is pieced together from the evidence found in 92 suitcases scattered across the globe. In the first of three parts, we follow Luper through three distinct episodes: as a child during the First World War; as an explorer in Mormon Utah; and as a writer in Belgium during the rise of fascism.",
+    "runtime": 127,
+    "release_date": "2003-07-18",
+    "genres": [
+      "War",
+      "Drama",
+      "Adventure",
+      "Romance"
+    ],
+    "countries": [
+      "GB",
+      "ES",
+      "IT",
+      "LU",
+      "NL",
+      "RU",
+      "HU",
+      "DE"
+    ],
+    "original_language": "en",
+    "director": "Peter Greenaway",
+    "cast": [
+      "JJ Feild",
+      "Raymond J. Barry",
+      "Ornella Muti",
+      "Michèle Bernier",
+      "Valentina Cervi"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/roUKvEKMSxxjo3Du0MIrwUHzjdN.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/evkP5UCA4mLCEvaZgmCXhkYeBUK.jpg",
+    "tmdb_rating": 5.4,
+    "tmdb_votes": 27,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0307596/"
+    }
+  },
+  "5238": {
+    "tmdb_id": 7276,
+    "title": "Northeast",
+    "original_title": "Nordeste",
+    "overview": "An accidental meeting between a French woman who goes to South America to adopt a baby and an Argentinian woman who with her small son leaves their hopeless village in search for a better life changes both of their lives forever.",
+    "runtime": 104,
+    "release_date": "2005-05-13",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "AR",
+      "BE",
+      "ES",
+      "FR"
+    ],
+    "original_language": "es",
+    "director": "Juan Diego Solanas",
+    "cast": [
+      "Carole Bouquet",
+      "Aymará Rovera",
+      "Mercedes Sampietro",
+      "Jorge Román",
+      "Ignacio Jiménez"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/lK8W7ILxlifrGAvLPnP9JZTMnKL.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/w4q3ophuCarJgc8EBoSsyUVU65M.jpg",
+    "tmdb_rating": 5.8,
+    "tmdb_votes": 15,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0398664/"
+    }
+  },
+  "5239": {
+    "tmdb_id": 47200,
+    "title": "Schizo",
+    "original_title": "Шиzа",
+    "overview": "Fifteen year old Mustafa has a nickname Schizo. He is hired by his mother’s boyfriend to find fighters for illegal fistfights. His life is changed forever when a young man mortally beaten in one of the fights asks Schizo to deliver his prize money to his girlfriend and young son. Schizo takes the money to the woman as promised and falls in love with her. Now he knows for whom he has to make money, no matter what the cost. In fistfights there are no rules… until blood is spilled!",
+    "runtime": 86,
+    "release_date": "2004-01-01",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Romance",
+      "Mystery"
+    ],
+    "countries": [
+      "FR",
+      "DE",
+      "KZ",
+      "RU"
+    ],
+    "original_language": "ru",
+    "director": "Gulshat Omarova",
+    "cast": [
+      "Oldzhas Nusupbayev",
+      "Olga Landina",
+      "Eduard Tabishev",
+      "Viktor Sukhorukov",
+      "Gulnara Yeraliyeva"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/4nvXVYe8pJfsY0mr6tZYtBNjArx.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/9oYrMHXGwuAV4VCxqkq0GU19Rca.jpg",
+    "tmdb_rating": 5.3,
+    "tmdb_votes": 18,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0406216/"
+    }
+  },
+  "5240": {
+    "tmdb_id": 193314,
+    "title": "Alexandria... New York",
+    "original_title": "إسكندرية نيويورك",
+    "overview": "An enthralling look at the relationship between America and the Arab World from an Arab perspective. It tells the story of Yehia, a renowned Egyptian filmmaker whose life has been shaped by a pair of disrupted love affairs, one with an American woman named Ginger, the other with America itself.",
+    "runtime": 128,
+    "release_date": "2004-07-07",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "EG",
+      "FR",
+      "MA"
+    ],
+    "original_language": "ar",
+    "director": "Youssef Chahine",
+    "cast": [
+      "Mahmoud Hemida",
+      "Yousra",
+      "Ahmad Yahya",
+      "Yosra El Lozy",
+      "Hala Sedki"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/5eigBMNZoIZwF3uXzB7c9o7s7m9.jpg",
+    "tmdb_rating": 6.7,
+    "tmdb_votes": 11,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0416465/"
+    }
+  },
+  "5241": {
+    "tmdb_id": 38304,
+    "title": "Far Away",
+    "original_title": "Loin",
+    "overview": "Serge is a long distance lorry driver between Morocco andEurope. In Tangier, he tries to reconcile with his former girlfriend, Sarah. She has refused to have anything to do with him since her mother’s death and intends to join her brother in Canada. Serge appeals to Sarah’s protector, a young Arab named Saïd, to allow him to meet up with Sarah, promising in return to smuggle Saïd into Europe...",
+    "runtime": 120,
+    "release_date": "2001-08-29",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "FR",
+      "ES"
+    ],
+    "original_language": "fr",
+    "director": "André Téchiné",
+    "cast": [
+      "Stéphane Rideau",
+      "Lubna Azabal",
+      "Mohamed Hamaidi",
+      "Yasmina Reza",
+      "Jack Taylor"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/8UAZsEZEEWj6XKsKFQodbxKYsFn.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/dugRgJQjrJJE9666qU8OcsTTGip.jpg",
+    "tmdb_rating": 5.6,
+    "tmdb_votes": 14,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0258242/"
+    }
+  },
+  "5242": {
+    "tmdb_id": 13512,
+    "title": "Sword In The Moon",
+    "original_title": "청풍명월",
+    "overview": "Kingdom of Joseon, ancient Korea. A usurper has conquered the throne. His ministers are being systematically eliminated by a mysterious assassin. An arrogant master swordsman is in charge of putting an end to the carnage.",
+    "runtime": 95,
+    "release_date": "2003-07-15",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "original_language": "ko",
+    "director": "Kim Ui-seok",
+    "cast": [
+      "Choi Min-soo",
+      "Cho Jae-hyun",
+      "Kim Bo-kyung",
+      "Lee Jong-soo",
+      "Yoo Yeon-soo"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/sDp5vC60tzHSfNBxOKzN1M1j8n1.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/5pGkJ9E1b9aDPATh2wjikHzBeih.jpg",
+    "tmdb_rating": 5.3,
+    "tmdb_votes": 52,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0370402/"
+    }
+  },
+  "5243": {
+    "tmdb_id": 123450,
+    "title": "Saturday",
+    "original_title": "Sábado",
+    "overview": "One more Saturday in a desolate Buenos Aires hard to recognize. Six young people that try to avoid their solitude by complicating their daily routes, unsuccessfully looking for a glance that changes something or a new sensation that reveals them some sense. A couple used to their common tediousness, a girl who has already decided she wants to be alone, his boyfriend who does not know how to deal with that, a famous actor who does not seem to feel comfortable anywhere and a girl who pretends to get fun without realizing she's always bored.",
+    "runtime": 72,
+    "release_date": "2002-08-22",
+    "genres": [
+      "Comedy"
+    ],
+    "countries": [
+      "AR"
+    ],
+    "original_language": "es",
+    "director": "Juan Villegas",
+    "cast": [
+      "Gastón Pauls",
+      "Daniel Hendler",
+      "Camila Toker",
+      "Mariana Anghileri",
+      "Leonardo Murúa"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/utqHhOrD8rIA7ANymPv7yLc8M5V.jpg",
+    "tmdb_rating": 6.9,
+    "tmdb_votes": 7,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0284537/"
+    }
+  },
+  "5244": {
+    "tmdb_id": 87481,
+    "title": "Quitting",
+    "original_title": "昨天",
+    "overview": "An actor becomes increasingly introverted and psychotic and his entire family attempts to intervene.",
+    "runtime": 114,
+    "release_date": "2001-09-07",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "original_language": "zh",
+    "director": "Zhang Yang",
+    "cast": [
+      "Jia Hongsheng",
+      "Jia Fengsen",
+      "Tong Wang",
+      "Zhu Hongmao"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/vKI7U9liteQkeGVDSQE0MoVYi8r.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/8nyNGgHaaYmtc9MsbvWejPdGWcj.jpg",
+    "tmdb_rating": 6.7,
+    "tmdb_votes": 23,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0298238/"
+    }
+  },
+  "5245": {
+    "tmdb_id": 72996,
+    "title": "House of Fools",
+    "original_title": "Дом дураков",
+    "overview": "The war film that's not a war film. A film about the mental institution which backdrop is the Chechen war. A story about the patients living in an institution during the war on the border of Chechnia and Russia during the war. The patients have to continue living their day to day life after being invaded twice over, and they have to deal with their sicknesses.",
+    "runtime": 104,
+    "release_date": "2002-12-06",
+    "genres": [
+      "Drama",
+      "Romance",
+      "War"
+    ],
+    "countries": [
+      "FR",
+      "RU"
+    ],
+    "original_language": "ru",
+    "director": "Andrei Konchalovsky",
+    "cast": [
+      "Yuliya Vysotskaya",
+      "Evgeny Mironov",
+      "Vladas Bagdonas",
+      "Marina Politseymako",
+      "Anatoli Adoskin"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/p3q9U27s7czWbynaxkCvcYWBfPQ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/8MVitvSlFmHLCDgJr93NvFX7H34.jpg",
+    "tmdb_rating": 5.9,
+    "tmdb_votes": 53,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0332605/"
+    }
+  },
+  "5246": {
+    "tmdb_id": 61485,
+    "title": "Springtime in a Small Town",
+    "original_title": "小城之春",
+    "overview": "In a mansion decimated during World War II, a frustrated, bored housewife, Yuwen, is torn between caring for her ailing husband and her longing for a former sweetheart, a doctor who has come to treat her husband.",
+    "runtime": 116,
+    "release_date": "2002-09-04",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "original_language": "zh",
+    "director": "Tian Zhuangzhuang",
+    "cast": [
+      "Jingfan Hu",
+      "Wu Jun",
+      "Ye Xiao Keng",
+      "Si Si Lu",
+      "Xin Baiqing"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/usPnOdqJgVIiJBM0acXNwQW3Hya.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/gCwStXfUejqjOOiVdaABgrWSlNn.jpg",
+    "tmdb_rating": 7,
+    "tmdb_votes": 20,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0332831/"
+    }
+  },
+  "5247": {
+    "tmdb_id": 255294,
+    "title": "Shadow Kill",
+    "original_title": "നിഴല്‍ക്കുത്ത്",
+    "overview": "A hangman questions the moral implications of his job after learning that he executed an innocent man.",
+    "runtime": 93,
+    "release_date": "2002-09-07",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "countries": [
+      "IN"
+    ],
+    "original_language": "ml",
+    "director": "Adoor Gopalakrishnan",
+    "cast": [
+      "Oduvil Unnikrishnan",
+      "Sukumari",
+      "Mallika",
+      "Murali",
+      "Thara Kalyan"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/8Sg2vV9mfSwMLMTA8VlHdDMzaLQ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/1UIdTU9xXWANYONLXU0IfjLCKCq.jpg",
+    "tmdb_rating": 6.9,
+    "tmdb_votes": 8,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0329429/"
+    }
+  },
+  "5248": {
+    "tmdb_id": 54633,
+    "title": "Loving Glances",
+    "original_title": "Sjaj u ocima",
+    "overview": "Swan is a lonely Serbian refugee in Belgrade. He hopes for a visa to follow his long-lost fiancée to Chicago, but winds up at the Happy Millennium dating agency. A warm romantic comedy with a twist.",
+    "runtime": 97,
+    "release_date": "2003-09-19",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "countries": [
+      "CS",
+      "GB"
+    ],
+    "original_language": "sh",
+    "director": "Srđan Karanović",
+    "cast": [
+      "Senad Alihodžić",
+      "Ivana Bolanca",
+      "Jelena Đokić",
+      "Milena Dravić",
+      "Gorica Popović"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/ao6MYEzIeOn0otOA3t1tvpoWelX.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/dA5unmWcrXdxrJ4xIzWS4AcHJtz.jpg",
+    "tmdb_rating": 5.2,
+    "tmdb_votes": 10,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0335426/"
+    }
+  },
+  "5249": {
+    "tmdb_id": 9483,
+    "title": "Schultze Gets the Blues",
+    "original_title": "Schultze Gets the Blues",
+    "overview": "Schultze is an accordion player and newly without work. When the local music club celebrates its 50th anniversary, his taste of music changes unexpectedly.",
+    "runtime": 114,
+    "release_date": "2003-09-02",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Music"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "original_language": "de",
+    "director": "Michael Schorr",
+    "cast": [
+      "Horst Krause",
+      "Harald Warmbrunn",
+      "Karl-Fred Müller",
+      "Ursula Schucht",
+      "Hannelore Schubert"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/cYadK5k73gVA88Z8hIkTzXDMhSu.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/qoC5y0MGq6ZVdZES8GLTi2D8JAx.jpg",
+    "tmdb_rating": 6.6,
+    "tmdb_votes": 37,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0388395/"
+    }
+  },
+  "5250": {
+    "tmdb_id": 200002,
+    "title": "A Place Among the Living",
+    "original_title": "Une place parmi les vivants",
+    "overview": "A mediocre pulp novelist is approached by a stranger claiming to be a serial killer with a proposition to chronicle his crimes.",
+    "runtime": 103,
+    "release_date": "2003-08-28",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "original_language": "fr",
+    "director": "Raúl Ruiz",
+    "cast": [
+      "Christian Vadim",
+      "Thierry Gibault",
+      "Valérie Kaprisky",
+      "Cécile Bois",
+      "Jacques Pieiller"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/rV5TYDIGg5eNzdNle7PGaD3upjo.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/zVeMS746LkzhncJvTkUZyxvmTcF.jpg",
+    "tmdb_rating": 6.5,
+    "tmdb_votes": 7,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0408295/"
+    }
+  },
+  "5251": {
+    "tmdb_id": 61814,
+    "title": "Gilles' Wife",
+    "original_title": "La Femme de Gilles",
+    "overview": "Gilles' wife, Elise, who smiles when she thinks of him, cooks and scrubs and cheerfully makes love to him, suspects during her third pregnancy that he is having an affair with her coquettish younger sister, Victorine. Elise suffers, usually in silence. She listens to her husband rave; she asks her priest; she breaks picture frames; she weeps. She decides on a strategy to keep him. Will she succeed?",
+    "runtime": 103,
+    "release_date": "2004-09-15",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "FR",
+      "BE",
+      "CH",
+      "LU",
+      "IT"
+    ],
+    "original_language": "fr",
+    "director": "Frédéric Fonteyne",
+    "cast": [
+      "Emmanuelle Devos",
+      "Clovis Cornillac",
+      "Laura Smet",
+      "Dean Constantin",
+      "Colette Emmanuelle"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/o0G1tZlx5vEiC1sFOjyxP3hSNue.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/6k2EL0wmqc8C1U3F8x2S0yi5khC.jpg",
+    "tmdb_rating": 5.8,
+    "tmdb_votes": 18,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0382691/"
+    }
+  },
+  "5252": {
+    "tmdb_id": 62272,
+    "title": "Te lo leggo negli occhi",
+    "original_title": "Te lo leggo negli occhi",
+    "overview": "Naples. Margherita, a singer who has always been distracted from her husband and daughter Chiara, is experiencing a profound existential crisis as she approaches her sixties. Life is not easy for Chiara either, given her conflictual relationship with Lucia, the daughter she had with a partner who is now expecting another child with a new girlfriend. When Lucia is with her grandmother, she savors the taste of freedom, and Margherita has the relationship with her granddaughter that she was unable to have with Chiara.",
+    "runtime": 82,
+    "release_date": "2004-09-03",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "original_language": "it",
+    "director": "Valia Santella",
+    "cast": [
+      "Stefania Sandrelli",
+      "Teresa Saponangelo",
+      "Camilla Di Nicola",
+      "Luigi Maria Burruano",
+      "Ernesto Mahieux"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/r3HVBwQBi4OYmKfMVbwYyHrIqmS.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/p0HFVNMApmhQAoJWfKuqNDrnDH0.jpg",
+    "tmdb_rating": 8.2,
+    "tmdb_votes": 2,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0432131/"
+    }
+  },
+  "5253": {
+    "tmdb_id": 420710,
+    "title": "L'amore imperfetto",
+    "original_title": "L'amore imperfetto",
+    "overview": "Sergio and Angela are expecting a baby. He works in a shopping center in Genoa, while she, a Spanish woman devoted to the Virgin of Pilar, hopes for a miracle. Yes, because their unborn child has serious malformations, and the couple has decided to give birth anyway so that the baby's organs can be donated to other children...",
+    "runtime": 92,
+    "release_date": "2002-04-12",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "IT",
+      "ES"
+    ],
+    "original_language": "it",
+    "director": "Giovanni Davide Maderna",
+    "cast": [
+      "Enrico Lo Verso",
+      "Marta Belaustegui",
+      "Francesco Carnelutti",
+      "Massimo Tellini",
+      "Valentina Carnelutti"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/x6PVteU9YGyGyTiOq3HQ1E3pE17.jpg",
+    "tmdb_rating": 10,
+    "tmdb_votes": 1,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0312354/"
+    }
+  },
+  "5254": {
+    "tmdb_id": 502928,
+    "title": "Probably Love",
+    "original_title": "L'amore probabilmente",
+    "overview": "Sofia is a young student in an acting class who learns some of the secrets of the trade from three great actresses: Mariangela Melato teaches her to lie, Stefania Sandrelli teaches her to tell the truth, and Alida Valli teaches her about the illusion of art. Lies, truth, and illusion that Sofia tries to apply to everyday life, to her relationship with her man and her best friend.",
+    "runtime": 108,
+    "release_date": "2001-08-30",
+    "original_language": "it",
+    "director": "Giuseppe Bertolucci",
+    "cast": [
+      "Sonia Bergamasco",
+      "Fabrizio Gifuni",
+      "Giorgio Caputo",
+      "Elisabetta Carta",
+      "Marcello Catalano"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/aeOlYspPO6X5cXjyAwNU3X6Q1Is.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/6vnrm0VrOo4cI4WtZ10h1tAyROb.jpg",
+    "tmdb_rating": 7,
+    "tmdb_votes": 2,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0152083/"
+    }
+  },
+  "5255": {
+    "tmdb_id": 177152,
+    "title": "Low Life",
+    "original_title": "하류인생",
+    "overview": "A sprawling story of one man's tumultuous life within the context of the South Korean political situation during the second half of the 20th century.",
+    "runtime": 105,
+    "release_date": "2004-05-21",
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "original_language": "ko",
+    "director": "Im Kwon-taek",
+    "cast": [
+      "Cho Seung-woo",
+      "Kim Gyu-ri",
+      "Kim Hak-jun",
+      "Yu Ha-jun",
+      "Gi Jeong-su"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/iSJCMmxZ5ZFlMkq41qA3yUjQ1yN.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/o4yhDAisLLxa73dTkSIzdwoDp5I.jpg",
+    "tmdb_rating": 5.9,
+    "tmdb_votes": 14,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0403100/"
+    }
+  },
+  "5256": {
+    "tmdb_id": 47293,
+    "title": "Everlasting Regret",
+    "original_title": "長恨歌",
+    "overview": "A person's life is destined to be shorter than that of a city. Having spent her whole life in Shanghai, Qiyao has her moments of prosperity and her fair share of loneliness. She finally fades and disappears but Shanghai remains a metropolitan city. Shanghai in the 1930s is glamorous and seductive.",
+    "runtime": 106,
+    "release_date": "2005-09-29",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "countries": [
+      "HK",
+      "CN"
+    ],
+    "original_language": "zh",
+    "director": "Stanley Kwan Kam-pang",
+    "cast": [
+      "Sammi Cheng Sau-Man",
+      "Tony Leung Ka-fai",
+      "Hu Jun",
+      "Daniel Wu",
+      "Huang Jue"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/xmeNvUoatxydM5AObmItOy9Lkbv.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/mTKa3u6Qu7JVPwcMu7569WPeeWv.jpg",
+    "tmdb_rating": 5.9,
+    "tmdb_votes": 14,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0475263/"
+    }
+  },
+  "5257": {
+    "tmdb_id": 98020,
+    "title": "Dignity of the Nobodies",
+    "original_title": "La Dignidad de los Nadies",
+    "overview": "The degraded socio-economic condition of Argentina leading to the December 2001 rebellions, and its consequent social chaos analyzed by focusing on real people from Buenos Aires poorest shantytowns, crumbling hospitals, and women middle class farmers fighting multi national banks that are shamelessly appropriating their farmlands. Written by Gonz30",
+    "runtime": 120,
+    "release_date": "2005-09-15",
+    "genres": [
+      "Documentary"
+    ],
+    "countries": [
+      "AR"
+    ],
+    "original_language": "es",
+    "director": "Fernando E. Solanas",
+    "poster": "https://image.tmdb.org/t/p/w500/k4lFtkVEzF2odNgxGst3E4XfG96.jpg",
+    "tmdb_rating": 7.2,
+    "tmdb_votes": 11,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0480126/"
+    }
+  },
+  "5258": {
+    "tmdb_id": 43973,
+    "title": "Stray Dogs",
+    "original_title": "سگ‌های ولگرد",
+    "overview": "In post-Taliban Kabul, two lost children, brother and sister whose parents are in prison, try to survive every day by scavenging for food. At night, they join their imprisoned mother.",
+    "runtime": 93,
+    "release_date": "2004-09-08",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "AF",
+      "FR",
+      "IR"
+    ],
+    "original_language": "fa",
+    "director": "Marziyeh Meshkiny",
+    "cast": [
+      "Zahed",
+      "Gol-Ghotai",
+      "Agheleh Rezaie",
+      "Sohrab Akbari",
+      "Jamil Ghanazideh"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/yfleqtV1bMnbYXOMzmXWsjCj69Z.jpg",
+    "tmdb_rating": 7.3,
+    "tmdb_votes": 12,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0423277/"
+    }
+  },
+  "5259": {
+    "tmdb_id": 2440,
+    "title": "Joint Security Area",
+    "original_title": "공동경비구역 JSA",
+    "overview": "Two North Korean soldiers are killed in the border area between North and South Korea, prompting an investigation by a neutral body. The lead investigator (Lee Young-ae) receives differing accounts from the two sides.",
+    "runtime": 108,
+    "release_date": "2000-09-09",
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Mystery"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "original_language": "ko",
+    "director": "Park Chan-wook",
+    "cast": [
+      "Lee Young-ae",
+      "Lee Byung-hun",
+      "Song Kang-ho",
+      "Kim Tae-woo",
+      "Shin Ha-kyun"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/lTpdrei4eWsEsCi4tYYKwdYCFxw.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/z7w6ACQJTeGYASr1plSwfRe6Ytk.jpg",
+    "tmdb_rating": 7.838,
+    "tmdb_votes": 905,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0260991/"
+    }
+  },
+  "5260": {
+    "tmdb_id": 47844,
+    "title": "One Day in August",
+    "original_title": "Δεκαπενταύγουστος",
+    "overview": "Middle August in Athens. Three families, living in a three storey building, leave for their summer vacations. Everyone is wishing for a miracle to happen this summer. In the meantime, a drifter breaks into their apartments and rummages their personal belongings, thus unfolding hidden secrets.",
+    "runtime": 106,
+    "release_date": "2002-10-13",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "GR"
+    ],
+    "original_language": "el",
+    "director": "Constantine Giannaris",
+    "cast": [
+      "Eleni Kastani",
+      "Akyllas Karazisis",
+      "Aimilios Heilakis",
+      "Theodora Tzimou",
+      "Amalia Moutoussi"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/3OM1QOxMYBZS27KVZ6ngoxYSCin.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/1dZsVMqV9RtzTTBspjDy98AVCKe.jpg",
+    "tmdb_rating": 5.7,
+    "tmdb_votes": 19,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0251661/"
+    }
+  },
+  "5261": {
+    "tmdb_id": 41714,
+    "title": "The Beautiful Country",
+    "original_title": "The Beautiful Country",
+    "overview": "After reuniting with his mother in Ho Chi Minh City, a family tragedy causes Binh to flee from Viet Nam to America. Landing in New York, Binh begins a road trip to Texas, where his American father is said to live.",
+    "runtime": 137,
+    "release_date": "2004-03-13",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "NO",
+      "US"
+    ],
+    "original_language": "en",
+    "director": "Hans Petter Moland",
+    "cast": [
+      "Damien Nguyen",
+      "Bai Ling",
+      "Nick Nolte",
+      "Tim Roth",
+      "Temuera Morrison"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/cyPJuYz3c8kL7FcjfJDoB2o5yVt.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/oaiwUCoLOboBr0qLsIX9VfeYUHl.jpg",
+    "tmdb_rating": 6.2,
+    "tmdb_votes": 48,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0273108/"
+    }
+  },
+  "5262": {
+    "tmdb_id": 299285,
+    "title": "Passages",
+    "original_title": "旅程",
+    "overview": "Two students travel across rural China looking for some meaning to their lives.",
+    "runtime": 107,
+    "release_date": "2004-05-14",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "original_language": "zh",
+    "director": "Yang Chao",
+    "cast": [
+      "Geng Le",
+      "Chang Jieping"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/m3kcM6Q5nhXEvwvFWOnNdZDMYXR.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/wFirPMcAYKA7NHTWaPPfoG1XQF6.jpg",
+    "tmdb_rating": 7.2,
+    "tmdb_votes": 5,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0415948/"
+    }
+  },
+  "5263": {
+    "tmdb_id": 37952,
+    "title": "The Weeping Meadow",
+    "original_title": "Το Λιβάδι που δακρύζει",
+    "overview": "The story follows a family of refugees from the early twentieth century through to the Civil War. Through movements, separations, and reunions, personal lives intersect with Greece’s major historical transformations. Space and time are in constant flux, while the characters remain trapped in an unending search for a homeland.",
+    "runtime": 169,
+    "release_date": "2004-02-20",
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "countries": [
+      "GR",
+      "FR",
+      "DE",
+      "IT"
+    ],
+    "original_language": "el",
+    "director": "Theo Angelopoulos",
+    "cast": [
+      "Alexandra Aidini",
+      "Nikos Poursanidis",
+      "Giorgos Armenis",
+      "Vasilis Kolovos",
+      "Eva Kotamanidou"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/4lXTXN5i9rqO55uSQ6dqdAln5i9.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/9JqtSiNILlK59BMGaOTm0z47wOm.jpg",
+    "tmdb_rating": 7.6,
+    "tmdb_votes": 108,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0366721/"
+    }
+  },
+  "5264": {
+    "tmdb_id": 16635,
+    "title": "In My Country",
+    "original_title": "In My Country",
+    "overview": "An American reporter and an Afrikaans poet meet and fall in love while covering South Africa's Truth and Reconciliation Commission hearings.",
+    "runtime": 103,
+    "release_date": "2004-05-04",
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "countries": [
+      "IE",
+      "ZA",
+      "GB",
+      "US"
+    ],
+    "original_language": "en",
+    "director": "John Boorman",
+    "cast": [
+      "Samuel L. Jackson",
+      "Juliette Binoche",
+      "Brendan Gleeson",
+      "Langley Kirkwood",
+      "Harriet Manamela"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/zjyO6TrpJSeDCjxdFZk8RYEg6F6.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/28GYawVOhonTtiEFGC0nLaFkInj.jpg",
+    "tmdb_rating": 6,
+    "tmdb_votes": 57,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0349260/"
+    }
+  },
+  "5265": {
+    "tmdb_id": 99735,
+    "title": "Dam Street",
+    "original_title": "红颜",
+    "overview": "Yun is shunned when she becomes pregnant in school, and her mother gives the child up for adoption. When Yun tutors a boy 10 years later, her mother discovers he is Yun's son.",
+    "runtime": 93,
+    "release_date": "2005-09-09",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "original_language": "zh",
+    "director": "Li Yu",
+    "cast": [
+      "Huang Xingrao",
+      "Yizhu Wang",
+      "Li Kechun",
+      "Liu Rui",
+      "Yi Liu"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/1OVP9azXo56ymqLWxapICebK82D.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/7zc0rDOHXKOyCraGKTSLdUuSVGR.jpg",
+    "tmdb_rating": 6.2,
+    "tmdb_votes": 13,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0477719/"
+    }
   }
 };

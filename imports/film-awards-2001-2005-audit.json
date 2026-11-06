@@ -73,6 +73,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "BAFTA/2001/Crouching Tiger, Hidden Dragon (Wo Hu Cang Long)",
+      "signature": "9bbe64d8f9c394ab5c2f424cc40cbe0fcad688131e45bfafc4e2bcc8f5fe060e",
+      "title": "Crouching Tiger, Hidden Dragon (Wo Hu Cang Long)",
+      "source": "https://www.bafta.org/awards/film/?award-year=2001",
+      "id": 4683,
+      "tmdb_id": 146,
+      "imdb_id": "tt0190332",
+      "director": "Ang Lee",
+      "provider_release_date": "2000-07-06",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "BAFTA/2001/Erin Brockovich",
       "signature": "7fb0331bdffaad39400c6ea4afbf91f47c032275c0714c8bc4ebead9392f1ead",
       "title": "Erin Brockovich",
@@ -97,6 +109,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "BAFTA/2001/Harry, He's Here To Help (Harry, Un Ami Qui Vous Veut Du Bien)",
+      "signature": "cc03aa0223b90b38a8635a49ad085810908eb351c05619b265b9d07a70bdbdb1",
+      "title": "Harry, He's Here To Help (Harry, Un Ami Qui Vous Veut Du Bien)",
+      "source": "https://www.bafta.org/awards/film/?award-year=2001",
+      "id": 5202,
+      "tmdb_id": 47943,
+      "imdb_id": "tt0216800",
+      "director": "Dominik Moll",
+      "provider_release_date": "2000-08-15",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "BAFTA/2001/High Fidelity",
       "signature": "d4b551b9c8b678c7a02bbdce782a3de8768812bdf9205a8ff238b2608ae5a35c",
       "title": "High Fidelity",
@@ -106,6 +130,18 @@
       "imdb_id": "tt0146882",
       "director": "Stephen Frears",
       "provider_release_date": "2000-03-17",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "BAFTA/2001/Last Resort",
+      "signature": "c0a026b98610e712d8ef8adbf5723b12f9bcb245687e149b7f2d6ef3e94dcb11",
+      "title": "Last Resort",
+      "source": "https://www.bafta.org/awards/film/?award-year=2001",
+      "id": 5199,
+      "tmdb_id": 31875,
+      "imdb_id": "tt0258761",
+      "director": "Paweł Pawlikowski",
+      "provider_release_date": "2000-02-23",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -154,6 +190,18 @@
       "imdb_id": "tt0203119",
       "director": "Jonathan Glazer",
       "provider_release_date": "2001-01-12",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "BAFTA/2001/The Girl On The Bridge (La Fille Sur Le Pont)",
+      "signature": "ef5f7594bd88181f58587f6a887c3986de28a15819e73909f896fd7c9b2236e0",
+      "title": "The Girl On The Bridge (La Fille Sur Le Pont)",
+      "source": "https://www.bafta.org/awards/film/?award-year=2001",
+      "id": 5203,
+      "tmdb_id": 10401,
+      "imdb_id": "tt0144201",
+      "director": "Patrice Leconte",
+      "provider_release_date": "1999-03-31",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -445,6 +493,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "BAFTA/2003/And Your Mother Too (Y Tu Mama Tambien)",
+      "signature": "f46f13d08b726d3d31e032fe9dea4074ac88a97ba3a13af49a9e9431d4fa9d6e",
+      "title": "And Your Mother Too (Y Tu Mama Tambien)",
+      "source": "https://www.bafta.org/awards/film/?award-year=2003",
+      "id": 4724,
+      "tmdb_id": 1391,
+      "imdb_id": "tt0245574",
+      "director": "Alfonso Cuarón",
+      "provider_release_date": "2001-06-08",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "BAFTA/2003/Bend It Like Beckham",
       "signature": "742c3340c9abcf9c8f32c698c1640cb832b36f8c4a5847367914a7cea58f85cf",
       "title": "Bend It Like Beckham",
@@ -481,6 +541,30 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "BAFTA/2003/City Of God (Cidade De Deus)",
+      "signature": "221ab1a5accf0499ec704882074410a92808817e0fecf5ae7ccadf8f911b9d67",
+      "title": "City Of God (Cidade De Deus)",
+      "source": "https://www.bafta.org/awards/film/?award-year=2003",
+      "id": 4733,
+      "tmdb_id": 598,
+      "imdb_id": "tt0317248",
+      "director": "Fernando Meirelles",
+      "provider_release_date": "2002-08-30",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "BAFTA/2003/Devdas",
+      "signature": "f562e016edbc393ed73203add85beb03f9743fe7e148f285d8b0973459c4cc78",
+      "title": "Devdas",
+      "source": "https://www.bafta.org/awards/film/?award-year=2003",
+      "id": 5204,
+      "tmdb_id": 15917,
+      "imdb_id": "tt0238936",
+      "director": "Sanjay Leela Bhansali",
+      "provider_release_date": "2002-07-11",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "BAFTA/2003/Dirty Pretty Things",
       "signature": "46ac724e3b05c3e95056a5df5a42b134115a87e7ef7cfaf6053ccadcfea6ec4a",
       "title": "Dirty Pretty Things",
@@ -490,6 +574,18 @@
       "imdb_id": "tt0301199",
       "director": "Stephen Frears",
       "provider_release_date": "2002-09-05",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "BAFTA/2003/Frida",
+      "signature": "836f97cded2102e23c23cf521fef238ce8e02e7b59b9de4a7881c1c857ddc1c8",
+      "title": "Frida",
+      "source": "https://www.bafta.org/awards/film/?award-year=2003",
+      "id": 4994,
+      "tmdb_id": 1360,
+      "imdb_id": "tt0120679",
+      "director": "Julie Taymor",
+      "provider_release_date": "2002-08-29",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -526,6 +622,18 @@
       "imdb_id": "tt0257044",
       "director": "Sam Mendes",
       "provider_release_date": "2002-07-12",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "BAFTA/2003/Talk To Her (Hable Con Ella)",
+      "signature": "4739ed5ab17d1eb2d9fcb41e771f7e827575f28d0de05729cb3ef8746d613cc3",
+      "title": "Talk To Her (Hable Con Ella)",
+      "source": "https://www.bafta.org/awards/film/?award-year=2003",
+      "id": 4715,
+      "tmdb_id": 64,
+      "imdb_id": "tt0287467",
+      "director": "Pedro Almodóvar",
+      "provider_release_date": "2002-03-15",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -589,6 +697,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "BAFTA/2003/The Warrior",
+      "signature": "ab5c3ca505f8c96d150226681af44afcca0b8e97c7f1309278d9fe4bf7135f6e",
+      "title": "The Warrior",
+      "source": "https://www.bafta.org/awards/film/?award-year=2003",
+      "id": 5201,
+      "tmdb_id": 23305,
+      "imdb_id": "tt0295682",
+      "director": "Asif Kapadia",
+      "provider_release_date": "2001-09-23",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "BAFTA/2004/21 Grams",
       "signature": "d337fd9ad70d6a66235f586aef6db0ebaf1127c3aec83c1b500702b4824a936e",
       "title": "21 Grams",
@@ -598,6 +718,18 @@
       "imdb_id": "tt0315733",
       "director": "Alejandro G. Iñárritu",
       "provider_release_date": "2003-11-18",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "BAFTA/2004/Belleville Rendez-Vous",
+      "signature": "d55c235cbbd8b55231d436437355a2c4c1fe033b1ba9c76884ed349dce9f8c19",
+      "title": "Belleville Rendez-Vous",
+      "source": "https://www.bafta.org/awards/film/?award-year=2004",
+      "id": 4759,
+      "tmdb_id": 9662,
+      "imdb_id": "tt0286244",
+      "director": "Sylvain Chomet",
+      "provider_release_date": "2003-06-11",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -769,6 +901,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "BAFTA/2004/The Barbarian Invasions (Les Invasions Barbares)",
+      "signature": "8c5cfcb9fbcf0ba1731364006949e7073f5f5ffd8842b9d628dc33213f202477",
+      "title": "The Barbarian Invasions (Les Invasions Barbares)",
+      "source": "https://www.bafta.org/awards/film/?award-year=2004",
+      "id": 4742,
+      "tmdb_id": 11042,
+      "imdb_id": "tt0338135",
+      "director": "Denys Arcand",
+      "provider_release_date": "2003-05-01",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "BAFTA/2004/The Lord Of The Rings: The Return Of The King",
       "signature": "74c004f36dd908866fa198dbe1a6fbe58322ef8a8b3ae32181a6d64871e69305",
       "title": "The Lord Of The Rings: The Return Of The King",
@@ -826,6 +970,30 @@
       "imdb_id": "tt0379557",
       "director": "Kevin Macdonald",
       "provider_release_date": "2003-09-05",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "BAFTA/2005/A Very Long Engagement (Un Long Dimanche De Fiançailles)",
+      "signature": "22804793a7fcef06e4800beaae86d093b7471e114cf1e79ae58db027ddfd16c7",
+      "title": "A Very Long Engagement (Un Long Dimanche De Fiançailles)",
+      "source": "https://www.bafta.org/awards/film/?award-year=2005",
+      "id": 4817,
+      "tmdb_id": 2841,
+      "imdb_id": "tt0344510",
+      "director": "Jean-Pierre Jeunet",
+      "provider_release_date": "2004-10-27",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "BAFTA/2005/Bad Education (La Mala Educación)",
+      "signature": "cf098a1d33015fc345235c44da768b9c82d2efed6da6b534921ea5a5df3c46c5",
+      "title": "Bad Education (La Mala Educación)",
+      "source": "https://www.bafta.org/awards/film/?award-year=2005",
+      "id": 5206,
+      "tmdb_id": 140,
+      "imdb_id": "tt0275491",
+      "director": "Pedro Almodóvar",
+      "provider_release_date": "2004-03-19",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -973,6 +1141,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "BAFTA/2005/The Chorus (Les Choristes)",
+      "signature": "e694a12b20f0f6fcbc707e12ea316401451a038160cb8ba1b9dcbd67acd0204e",
+      "title": "The Chorus (Les Choristes)",
+      "source": "https://www.bafta.org/awards/film/?award-year=2005",
+      "id": 4822,
+      "tmdb_id": 5528,
+      "imdb_id": "tt0372824",
+      "director": "Christophe Barratier",
+      "provider_release_date": "2004-03-17",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "BAFTA/2005/The Manchurian Candidate",
       "signature": "8c9ef07cf4956a877709530f4acec7b8a4dd099cccd67effa5dd05cd70e2f002",
       "title": "The Manchurian Candidate",
@@ -982,6 +1162,18 @@
       "imdb_id": "tt0368008",
       "director": "Jonathan Demme",
       "provider_release_date": "2004-07-30",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "BAFTA/2005/The Motorcycle Diaries (Diarios De Motocicleta)",
+      "signature": "98d062009b71918550dc0e56e17194d5481738dcff93bcc4ae010cd4781c2296",
+      "title": "The Motorcycle Diaries (Diarios De Motocicleta)",
+      "source": "https://www.bafta.org/awards/film/?award-year=2005",
+      "id": 4763,
+      "tmdb_id": 1653,
+      "imdb_id": "tt0318462",
+      "director": "Walter Salles",
+      "provider_release_date": "2004-02-06",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -1114,6 +1306,18 @@
       "imdb_id": "tt0168629",
       "director": "Lars von Trier",
       "provider_release_date": "2000-09-01",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "Golden Globes/2001/Dr. Seuss' How The Grinch Stole Christmas!",
+      "signature": "69df3427b1f6d3717711c4a028b793696f4d439981fde8ade161a7b9adecb385",
+      "title": "Dr. Seuss' How The Grinch Stole Christmas!",
+      "source": "https://goldenglobes.com/winners-nominees/?year=2001",
+      "id": 5207,
+      "tmdb_id": 8871,
+      "imdb_id": "tt0170016",
+      "director": "Ron Howard",
+      "provider_release_date": "2000-11-17",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -1597,6 +1801,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "Golden Globes/2002/Mulholland Dr.",
+      "signature": "dbc24cf6769c4e1ac7505c2fdad940251ed4a8dc720e843b798c12ae2d98eb80",
+      "title": "Mulholland Dr.",
+      "source": "https://goldenglobes.com/winners-nominees/?year=2002",
+      "id": 1798,
+      "tmdb_id": 1018,
+      "imdb_id": "tt0166924",
+      "director": "David Lynch",
+      "provider_release_date": "2001-06-06",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "Golden Globes/2002/No Man's Land",
       "signature": "a6bd9ac30ec36acb451088f6fe450c397477ae873e26c9a0f38468557e8fa72a",
       "title": "No Man's Land",
@@ -1834,6 +2050,18 @@
       "imdb_id": "tt0297884",
       "director": "Todd Haynes",
       "provider_release_date": "2002-11-08",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "Golden Globes/2003/Frida",
+      "signature": "5ad51e704cb32ae58c4eb39d1c87d771df9e5334de5b93f77cb0642cb0384e9a",
+      "title": "Frida",
+      "source": "https://goldenglobes.com/winners-nominees/?year=2003",
+      "id": 4994,
+      "tmdb_id": 1360,
+      "imdb_id": "tt0120679",
+      "director": "Julie Taymor",
+      "provider_release_date": "2002-08-29",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -2305,6 +2533,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "Golden Globes/2004/Seabiscuit",
+      "signature": "d8a64898ff36ff5cff4b577c9e960401e0ab52faaf0a9f77b76df5a45db03e3d",
+      "title": "Seabiscuit",
+      "source": "https://goldenglobes.com/winners-nominees/?year=2004",
+      "id": 5196,
+      "tmdb_id": 4464,
+      "imdb_id": "tt0329575",
+      "director": "Gary Ross",
+      "provider_release_date": "2003-07-22",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "Golden Globes/2004/Shattered Glass",
       "signature": "e9f07e629ed77d4507a329451a4263e06e5315221f3bb788dc643c765c6055aa",
       "title": "Shattered Glass",
@@ -2761,6 +3001,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://asac.labiennale.org/attivita/cinema/1056",
+      "signature": "c11d8ed9d0ef484599c9e762f02a6d294b29d15232f9cb8908dc3d0484254122",
+      "title": "L'amore probabilmente",
+      "source": "https://asac.labiennale.org/attivita/cinema/1056",
+      "id": 5254,
+      "tmdb_id": 502928,
+      "imdb_id": "tt0152083",
+      "director": "Giuseppe Bertolucci",
+      "provider_release_date": "2001-08-30",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://asac.labiennale.org/attivita/cinema/1059",
       "signature": "c7411a4856ab9cc8a3defacad3b15ae1d2aa16102cbaac923ae167c02dab0d45",
       "title": "Syostry",
@@ -2830,6 +3082,18 @@
       "imdb_id": "tt0295661",
       "director": "Fatmir Koçi",
       "provider_release_date": "2001-09-07",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://asac.labiennale.org/attivita/cinema/1088",
+      "signature": "4643fd5758545d1723c95bb623f402936a088d5c5c5de626f1d55dfb6a3902cf",
+      "title": "L'amore imperfetto",
+      "source": "https://asac.labiennale.org/attivita/cinema/1088",
+      "id": 5253,
+      "tmdb_id": 420710,
+      "imdb_id": "tt0312354",
+      "director": "Giovanni Davide Maderna",
+      "provider_release_date": "2002-04-12",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -2929,6 +3193,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://asac.labiennale.org/attivita/cinema/1097",
+      "signature": "8e4ea1fedcfd38be740ef291983cc8e4e7e760d59a6dc00934d55d15c47b7df9",
+      "title": "Sábado",
+      "source": "https://asac.labiennale.org/attivita/cinema/1097",
+      "id": 5243,
+      "tmdb_id": 123450,
+      "imdb_id": "tt0284537",
+      "director": "Juan Villegas",
+      "provider_release_date": "2002-08-22",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://asac.labiennale.org/attivita/cinema/1098",
       "signature": "639dda81fad412bf49829eb844a93701fda1b23a06cbce06781bbb4922988ea7",
       "title": "La fiebre del loco",
@@ -2938,6 +3214,18 @@
       "imdb_id": "tt0299876",
       "director": "Andrés Wood",
       "provider_release_date": "2001-10-04",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://asac.labiennale.org/attivita/cinema/1099",
+      "signature": "720826186d67afdf0455301c151b272b7d190a0524e83d8c2b5b27efce9abd62",
+      "title": "Zuotian",
+      "source": "https://asac.labiennale.org/attivita/cinema/1099",
+      "id": 5244,
+      "tmdb_id": 87481,
+      "imdb_id": "tt0298238",
+      "director": "Zhang Yang",
+      "provider_release_date": "2001-09-07",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -3181,6 +3469,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://asac.labiennale.org/attivita/cinema/1986",
+      "signature": "594742125408d9cbe8cbfd8542e10a38ffce67c9dad9e6069f57d9b0e891677b",
+      "title": "Sjaj u očima",
+      "source": "https://asac.labiennale.org/attivita/cinema/1986",
+      "id": 5248,
+      "tmdb_id": 54633,
+      "imdb_id": "tt0335426",
+      "director": "Srđan Karanović",
+      "provider_release_date": "2003-09-19",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://asac.labiennale.org/attivita/cinema/1987",
       "signature": "0e4e380237ad7112b3c1dc8528aaf5fdf0ba8b363ec57e8d8faf4f7c3e358c12",
       "title": "Zatôichi",
@@ -3301,6 +3601,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://asac.labiennale.org/attivita/cinema/1996",
+      "signature": "939a2cf17c8b8642deb7b77948d1ef8c706b29b3323381031216347e71ccdbf6",
+      "title": "Vozvrashcheniye",
+      "source": "https://asac.labiennale.org/attivita/cinema/1996",
+      "id": 2169,
+      "tmdb_id": 11190,
+      "imdb_id": "tt0376968",
+      "director": "Andrey Zvyagintsev",
+      "provider_release_date": "2003-06-25",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://asac.labiennale.org/attivita/cinema/200",
       "signature": "46b770ab5047a157f926066b7688d78fcc577ef47e9caf02fddc7e667c6dd18e",
       "title": "The wild blue Yonder",
@@ -3337,6 +3649,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://asac.labiennale.org/attivita/cinema/203",
+      "signature": "8fcdd75ad5d5678d07eb1bffd8d4dfb1bdb608178fab482441cae67f4e1b335d",
+      "title": "Hongyan",
+      "source": "https://asac.labiennale.org/attivita/cinema/203",
+      "id": 5265,
+      "tmdb_id": 99735,
+      "imdb_id": "tt0477719",
+      "director": "Li Yu",
+      "provider_release_date": "2005-09-09",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://asac.labiennale.org/attivita/cinema/204",
       "signature": "9b5005e304ee3a68f7e00b9be05ebc85d3eb4ee194cb06b82b9bd468ad13a89d",
       "title": "Veruschka - Die Inszenierung (m)eines Körpers",
@@ -3370,6 +3694,18 @@
       "imdb_id": "tt0404030",
       "director": "Liev Schreiber",
       "provider_release_date": "2005-09-05",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://asac.labiennale.org/attivita/cinema/208",
+      "signature": "af20e79a680dae013283a91b5797c51dc52c2ee2d517e7a8e675a26db32cbae0",
+      "title": "La dignidad de los Nadies",
+      "source": "https://asac.labiennale.org/attivita/cinema/208",
+      "id": 5257,
+      "tmdb_id": 98020,
+      "imdb_id": "tt0480126",
+      "director": "Fernando E. Solanas",
+      "provider_release_date": "2005-09-15",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -3529,6 +3865,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://asac.labiennale.org/attivita/cinema/2682",
+      "signature": "902bb823f607a3ec446ca81b27b9dc9c7234abc617bf5e6dc2eaec3d607bba90",
+      "title": "Une place parmi les vivants",
+      "source": "https://asac.labiennale.org/attivita/cinema/2682",
+      "id": 5250,
+      "tmdb_id": 200002,
+      "imdb_id": "tt0408295",
+      "director": "Raúl Ruiz",
+      "provider_release_date": "2003-08-28",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://asac.labiennale.org/attivita/cinema/2685",
       "signature": "eb63f21046e0c594386a6abaf383cdf7ff7cf7daffa8fd215dd5d5cc8da046d2",
       "title": "Vodka Lemon",
@@ -3550,6 +3898,18 @@
       "imdb_id": "tt0303830",
       "director": "John Sayles",
       "provider_release_date": "2003-09-19",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://asac.labiennale.org/attivita/cinema/2694",
+      "signature": "da94dd41cd9d3f37b2ecebb347b8f88c1d75ed3adc649e9eee9bb68ef7e40789",
+      "title": "Schultze Get the Blues",
+      "source": "https://asac.labiennale.org/attivita/cinema/2694",
+      "id": 5249,
+      "tmdb_id": 9483,
+      "imdb_id": "tt0388395",
+      "director": "Michael Schorr",
+      "provider_release_date": "2003-09-02",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -3769,6 +4129,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://asac.labiennale.org/attivita/cinema/3033",
+      "signature": "a521bf948ecd7947d2cc3da62461e0a1b62e62237ac6e775e937ceb7cd85cf43",
+      "title": "Dom durakov",
+      "source": "https://asac.labiennale.org/attivita/cinema/3033",
+      "id": 5245,
+      "tmdb_id": 72996,
+      "imdb_id": "tt0332605",
+      "director": "Andrei Konchalovsky",
+      "provider_release_date": "2002-12-06",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://asac.labiennale.org/attivita/cinema/3034",
       "signature": "39f12b72c81c72ef26a30edd060aaed1147bd558d404b4ac32a0d611e0e2cbf3",
       "title": "L'homme du train",
@@ -3913,6 +4285,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://asac.labiennale.org/attivita/cinema/3055",
+      "signature": "77b248321a7ef293d89b34ab07a6e560bf04eac5a5c6b1d5084317ddf1cb8920",
+      "title": "Nizhalkkuthu",
+      "source": "https://asac.labiennale.org/attivita/cinema/3055",
+      "id": 5247,
+      "tmdb_id": 255294,
+      "imdb_id": "tt0329429",
+      "director": "Adoor Gopalakrishnan",
+      "provider_release_date": "2002-09-07",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://asac.labiennale.org/attivita/cinema/3056",
       "signature": "b90ab19b7591f0b926045727b7adfc1474ff35bf138c5502413f4779541c6f5a",
       "title": "Poniente",
@@ -4033,6 +4417,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://asac.labiennale.org/attivita/cinema/3066",
+      "signature": "fc8a7f6eeae5b46478a04c4ac08c5b1b71884137a7627f4c5d80c93fdfbe7f4b",
+      "title": "Xiao cheng zhi chun",
+      "source": "https://asac.labiennale.org/attivita/cinema/3066",
+      "id": 5246,
+      "tmdb_id": 61485,
+      "imdb_id": "tt0332831",
+      "director": "Tian Zhuangzhuang",
+      "provider_release_date": "2002-09-04",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://asac.labiennale.org/attivita/cinema/3067",
       "signature": "0837435802fd0ad1ab9477dd3805257586fb23bd8c83b86d5aec655fed35771b",
       "title": "Rokugatsu no hebi",
@@ -4054,6 +4450,18 @@
       "imdb_id": "tt0334027",
       "director": "Kristijonas Vildžiūnas",
       "provider_release_date": "2002-08-31",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://asac.labiennale.org/attivita/cinema/31",
+      "signature": "c1f116790a99933d10167f319d5007d8d7c304b3923f1f64d0a150cf101a7e90",
+      "title": "Changhen ge",
+      "source": "https://asac.labiennale.org/attivita/cinema/31",
+      "id": 5256,
+      "tmdb_id": 47293,
+      "imdb_id": "tt0475263",
+      "director": "Stanley Kwan Kam-pang",
+      "provider_release_date": "2005-09-29",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -4273,6 +4681,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://asac.labiennale.org/attivita/cinema/502",
+      "signature": "3f0349ddb74396d14e1d76903b58c61977b9ba00b9be3466f409104d7b330292",
+      "title": "Haryu insaeng",
+      "source": "https://asac.labiennale.org/attivita/cinema/502",
+      "id": 5255,
+      "tmdb_id": 177152,
+      "imdb_id": "tt0403100",
+      "director": "Im Kwon-taek",
+      "provider_release_date": "2004-05-21",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://asac.labiennale.org/attivita/cinema/503",
       "signature": "ff9931390d16788565db095781722c881e737e5a25292143bc6078818c6a2b0f",
       "title": "Shijie",
@@ -4294,6 +4714,18 @@
       "imdb_id": "tt0383694",
       "director": "Mike Leigh",
       "provider_release_date": "2004-10-22",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://asac.labiennale.org/attivita/cinema/505",
+      "signature": "f005df6b0e210935027c2c2906b7516806222aba1e2c8d965ebda15055490854",
+      "title": "Sag-haye velgard",
+      "source": "https://asac.labiennale.org/attivita/cinema/505",
+      "id": 5258,
+      "tmdb_id": 43973,
+      "imdb_id": "tt0423277",
+      "director": "Marziyeh Meshkiny",
+      "provider_release_date": "2004-09-08",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -4513,6 +4945,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://asac.labiennale.org/attivita/cinema/610",
+      "signature": "87499d443a5a1317db9601d0651a88644ecab0da8747f25bc457091cc5f5c444",
+      "title": "La femme de Gilles",
+      "source": "https://asac.labiennale.org/attivita/cinema/610",
+      "id": 5251,
+      "tmdb_id": 61814,
+      "imdb_id": "tt0382691",
+      "director": "Frédéric Fonteyne",
+      "provider_release_date": "2004-09-15",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://asac.labiennale.org/attivita/cinema/611",
       "signature": "32a9d0a9259d912c4406f9a98066fb9a4ad9e21fa1e2fbda2cab602114521a1c",
       "title": "A Love Song for Bobby Long",
@@ -4618,6 +5062,30 @@
       "imdb_id": "tt0389738",
       "director": "Oskar Roehler",
       "provider_release_date": "2004-10-13",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://asac.labiennale.org/attivita/cinema/651",
+      "signature": "0710b5c1b02c73f047eda279b1d7c07dd22c74f11594d93d8c09150e0641bd74",
+      "title": "Yesterday",
+      "source": "https://asac.labiennale.org/attivita/cinema/651",
+      "id": 5205,
+      "tmdb_id": 6934,
+      "imdb_id": "tt0419279",
+      "director": "Darrell James Roodt",
+      "provider_release_date": "2004-09-03",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://asac.labiennale.org/attivita/cinema/657",
+      "signature": "5f47b724a2683ceab45b11f232840f167f8daec5043f96e47945718f49c8f587",
+      "title": "Te lo leggo negli occhi",
+      "source": "https://asac.labiennale.org/attivita/cinema/657",
+      "id": 5252,
+      "tmdb_id": 62272,
+      "imdb_id": "tt0432131",
+      "director": "Valia Santella",
+      "provider_release_date": "2004-09-03",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -4813,6 +5281,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://asac.labiennale.org/attivita/cinema/756",
+      "signature": "0492a6b68d224c8540b7f1e581a7598eb7bec24e68df748ad54447d077e944df",
+      "title": "Loin",
+      "source": "https://asac.labiennale.org/attivita/cinema/756",
+      "id": 5241,
+      "tmdb_id": 38304,
+      "imdb_id": "tt0258242",
+      "director": "André Téchiné",
+      "provider_release_date": "2001-08-29",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://asac.labiennale.org/attivita/cinema/7681",
       "signature": "75bac3d399657067c8741fcb14b8fe50028e0bc91e0ff68e243de0a866bcd0cc",
       "title": "Bin-jip",
@@ -4954,6 +5434,18 @@
       "imdb_id": "tt0236784",
       "director": "John Boorman",
       "provider_release_date": "2001-02-11",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.berlinale.de/en/2001/programme/20011241.html",
+      "signature": "5dd7bbefaef619cf60b25a9893b6e5fd5b72378009d996fc58ee12f1cf7ef61a",
+      "title": "Gong dong kyung bi gu yuk JSA",
+      "source": "https://www.berlinale.de/en/2001/programme/20011241.html",
+      "id": 5259,
+      "tmdb_id": 2440,
+      "imdb_id": "tt0260991",
+      "director": "Park Chan-wook",
+      "provider_release_date": "2000-09-09",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -5206,6 +5698,18 @@
       "imdb_id": "tt0284277",
       "director": "Otar Iosseliani",
       "provider_release_date": "2002-02-20",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.berlinale.de/en/2002/programme/20021164.html",
+      "signature": "3714f4ab2903e2bc7c13115396d2891c7f0bfe2edf71bbdd6a2f80111bd851f4",
+      "title": "Dekapentavgoustos",
+      "source": "https://www.berlinale.de/en/2002/programme/20021164.html",
+      "id": 5260,
+      "tmdb_id": 47844,
+      "imdb_id": "tt0251661",
+      "director": "Constantine Giannaris",
+      "provider_release_date": "2002-10-13",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -5689,6 +6193,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://www.berlinale.de/en/2004/programme/20040163.html",
+      "signature": "b2755a1c01b1155e9c7cc19d9c597b1e023ef9a6e5941892ccd1cec1eb540507",
+      "title": "Beautiful Country",
+      "source": "https://www.berlinale.de/en/2004/programme/20040163.html",
+      "id": 5261,
+      "tmdb_id": 41714,
+      "imdb_id": "tt0273108",
+      "director": "Hans Petter Moland",
+      "provider_release_date": "2004-03-13",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://www.berlinale.de/en/2004/programme/20040337.html",
       "signature": "912bdb47bb057cda20ff53054d0045b4186faf3d18ee957c671ff708031c676d",
       "title": "25 degrés en hiver",
@@ -5698,6 +6214,18 @@
       "imdb_id": "tt0356317",
       "director": "Stéphane Vuillet",
       "provider_release_date": "2004-07-21",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.berlinale.de/en/2004/programme/20040479.html",
+      "signature": "3eab20f3abb217a1b15a0f8e1d1b0c44dd7226e31d0c33839d95f7b8f809402b",
+      "title": "Trilogia: To livadi pou dakrisi",
+      "source": "https://www.berlinale.de/en/2004/programme/20040479.html",
+      "id": 5263,
+      "tmdb_id": 37952,
+      "imdb_id": "tt0366721",
+      "director": "Theo Angelopoulos",
+      "provider_release_date": "2004-02-20",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -5770,6 +6298,18 @@
       "imdb_id": "tt0347457",
       "director": "Björn Runge",
       "provider_release_date": "2003-11-14",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.berlinale.de/en/2004/programme/20042170.html",
+      "signature": "b3003005c413e3e87731f0273e09cf81f8a326ce327af5731ffa74d91363fce5",
+      "title": "Country Of My Skull",
+      "source": "https://www.berlinale.de/en/2004/programme/20042170.html",
+      "id": 5264,
+      "tmdb_id": 16635,
+      "imdb_id": "tt0349260",
+      "director": "John Boorman",
+      "provider_release_date": "2004-05-04",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -6193,6 +6733,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://www.festival-cannes.com/en/f/akai-hashi-noshitano-nurui-mizu/",
+      "signature": "42fff8eb9360be756f6a478bd007497a298a83f487a85b40ff0044153e7dd8fb",
+      "title": "AKAI HASHI NOSHITANO NURUI MIZU",
+      "source": "https://www.festival-cannes.com/en/f/akai-hashi-noshitano-nurui-mizu/",
+      "id": 5220,
+      "tmdb_id": 44768,
+      "imdb_id": "tt0289054",
+      "director": "Shōhei Imamura",
+      "provider_release_date": "2001-11-03",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://www.festival-cannes.com/en/f/akarui-mirai/",
       "signature": "aea22655bc776f18ffc08e3aeb8291f4675abb476b3b7972c66db8466e9a0046",
       "title": "AKARUI MIRAI",
@@ -6205,6 +6757,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://www.festival-cannes.com/en/f/alexandrie-new-york/",
+      "signature": "0d6fa7c4e7e9353042c8d45b411bbf0cf48b164189881754463690c5d0806fcf",
+      "title": "ALEXANDRIE… NEW YORK",
+      "source": "https://www.festival-cannes.com/en/f/alexandrie-new-york/",
+      "id": 5240,
+      "tmdb_id": 193314,
+      "imdb_id": "tt0416465",
+      "director": "Youssef Chahine",
+      "provider_release_date": "2004-07-07",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://www.festival-cannes.com/en/f/all-or-nothing/",
       "signature": "a078c2e20b6f12cf52d3f35290fca267e672971287ef3505bf9a935d105d8c9c",
       "title": "ALL OR NOTHING",
@@ -6214,6 +6778,18 @@
       "imdb_id": "tt0286261",
       "director": "Mike Leigh",
       "provider_release_date": "2002-10-18",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.festival-cannes.com/en/f/all-tomorrow-s-parties/",
+      "signature": "36eb22d2b851550bd0360bbefebb3d76c7712580bea703500d86b41945a68395",
+      "title": "ALL TOMORROW’S PARTIES",
+      "source": "https://www.festival-cannes.com/en/f/all-tomorrow-s-parties/",
+      "id": 5236,
+      "tmdb_id": 100156,
+      "imdb_id": "tt0384804",
+      "director": "Nelson Yu Lik-wai",
+      "provider_release_date": "2003-12-31",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -6253,6 +6829,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://www.festival-cannes.com/en/f/aruku-hito/",
+      "signature": "dbf1076334a3f6fad226989b02b226f4b7d2e8c141c843d4349659ffb8738824",
+      "title": "ARUKU-HITO",
+      "source": "https://www.festival-cannes.com/en/f/aruku-hito/",
+      "id": 5213,
+      "tmdb_id": 47123,
+      "imdb_id": "tt0307971",
+      "director": "Masahiro Kobayashi",
+      "provider_release_date": "2002-09-07",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://www.festival-cannes.com/en/f/atanarjuat-the-fast-runner/",
       "signature": "2d7807de448740b978c124b8fefd7df01008834584002fe5a7154c2b998bffc0",
       "title": "ATANARJUAT THE FAST RUNNER",
@@ -6262,6 +6850,18 @@
       "imdb_id": "tt0285441",
       "director": "Zacharias Kunuk",
       "provider_release_date": "2002-02-01",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.festival-cannes.com/en/f/avazhaye-sarzamine-madariyam/",
+      "signature": "f7a47979a03c7c439734f68f835a4d953a91f36ac5deeee5579387348c44e057",
+      "title": "AVAZHAYÉ SARZAMINÉ MADARIYAM",
+      "source": "https://www.festival-cannes.com/en/f/avazhaye-sarzamine-madariyam/",
+      "id": 5223,
+      "tmdb_id": 13438,
+      "imdb_id": "tt0317226",
+      "director": "Bahman Ghobadi",
+      "provider_release_date": "2002-10-09",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -6394,6 +6994,30 @@
       "imdb_id": "tt0268211",
       "director": "Jacques Doillon",
       "provider_release_date": "2001-05-23",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.festival-cannes.com/en/f/ce-jour-la/",
+      "signature": "b4296ef326193b8443ec714e4b68e8236a98d35dfded1dabc557a395183a44bf",
+      "title": "CE JOUR-LÀ",
+      "source": "https://www.festival-cannes.com/en/f/ce-jour-la/",
+      "id": 5225,
+      "tmdb_id": 48778,
+      "imdb_id": "tt0343524",
+      "director": "Raúl Ruiz",
+      "provider_release_date": "2003-06-04",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.festival-cannes.com/en/f/cheong-pung-myeong-weol-sword-in-the-moon/",
+      "signature": "85c640ec70f9f0e001ef110955ef2f89ddfb76a22884d04166fcba406c45e236",
+      "title": "CHEONG-PUNG-MYEONG-WEOL (SWORD IN THE MOON)",
+      "source": "https://www.festival-cannes.com/en/f/cheong-pung-myeong-weol-sword-in-the-moon/",
+      "id": 5242,
+      "tmdb_id": 13512,
+      "imdb_id": "tt0370402",
+      "director": "Kim Ui-seok",
+      "provider_release_date": "2003-07-15",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -6697,6 +7321,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://www.festival-cannes.com/en/f/en-jouant-dans-la-compagnie-des-hommes/",
+      "signature": "9354a6b18fefc5560f8f8edecfae11fbadb06b46a4eec1154924b01f4bc67de8",
+      "title": "EN JOUANT “DANS LA COMPAGNIE DES HOMMES”",
+      "source": "https://www.festival-cannes.com/en/f/en-jouant-dans-la-compagnie-des-hommes/",
+      "id": 5230,
+      "tmdb_id": 126108,
+      "imdb_id": "tt0353400",
+      "director": "Arnaud Desplechin",
+      "provider_release_date": "2003-05-15",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://www.festival-cannes.com/en/f/exils/",
       "signature": "1d0d6b83e00651bf0dea2bc3ae62023dce6e05f5b737955696ef8763bffea6a8",
       "title": "EXILS",
@@ -6793,6 +7429,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://www.festival-cannes.com/en/f/hatouna-mehuheret/",
+      "signature": "144c5deeee66058818f4c96ad1091445d7cc1bc23880cb60633776617bb9fa61",
+      "title": "HATOUNA MEHUHERET",
+      "source": "https://www.festival-cannes.com/en/f/hatouna-mehuheret/",
+      "id": 5212,
+      "tmdb_id": 49680,
+      "imdb_id": "tt0287471",
+      "director": "Dover Koshashvili",
+      "provider_release_date": "2001-10-24",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://www.festival-cannes.com/en/f/heremakono/",
       "signature": "e4d2833184fd3096157f0d47c9d2897ecc15aa122cf401af70de7e81683fb3b5",
       "title": "HEREMAKONO",
@@ -6802,6 +7450,18 @@
       "imdb_id": "tt0308363",
       "director": "Abderrahmane Sissako",
       "provider_release_date": "2002-05-19",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.festival-cannes.com/en/f/hijack-stories/",
+      "signature": "08f51c1c950f35e637489e0bdd67d77b331ead5393023d86da121c9511539af2",
+      "title": "HIJACK STORIES",
+      "source": "https://www.festival-cannes.com/en/f/hijack-stories/",
+      "id": 5214,
+      "tmdb_id": 58169,
+      "imdb_id": "tt0215841",
+      "director": "Oliver Schmitz",
+      "provider_release_date": "2001-07-03",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -6922,6 +7582,30 @@
       "imdb_id": "tt0472832",
       "director": "Kornél Mundruczó",
       "provider_release_date": "2005-11-10",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.festival-cannes.com/en/f/jol/",
+      "signature": "da4acc486f4cd87098c811a4ed740dfdf2871546ef6ef031303ada0e0ec2ec8f",
+      "title": "JOL",
+      "source": "https://www.festival-cannes.com/en/f/jol/",
+      "id": 5222,
+      "tmdb_id": 129185,
+      "imdb_id": "tt0301481",
+      "director": "Darezhan Omirbayev",
+      "provider_release_date": "2001-05-18",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.festival-cannes.com/en/f/kairo/",
+      "signature": "eee585c43e1f419997906e3bf6db45f2383a71facba5645b36e7aa5cec2c85e6",
+      "title": "KAIRO",
+      "source": "https://www.festival-cannes.com/en/f/kairo/",
+      "id": 5215,
+      "tmdb_id": 27324,
+      "imdb_id": "tt0286751",
+      "director": "Kiyoshi Kurosawa",
+      "provider_release_date": "2001-02-03",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -7165,6 +7849,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://www.festival-cannes.com/en/f/lan-yu/",
+      "signature": "0e62d9e4f62d35f89006debf6d16b28ad9eb97a0fddd46f9ae068eb23c4dc06a",
+      "title": "LAN YU",
+      "source": "https://www.festival-cannes.com/en/f/lan-yu/",
+      "id": 5216,
+      "tmdb_id": 27062,
+      "imdb_id": "tt0292066",
+      "director": "Stanley Kwan Kam-pang",
+      "provider_release_date": "2001-05-18",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://www.festival-cannes.com/en/f/last-days/",
       "signature": "6205dc5e6b5799a629e9a08ccaa24043700a10100197e99c033acdc2a9756053",
       "title": "LAST DAYS",
@@ -7198,6 +7894,18 @@
       "imdb_id": "tt0463991",
       "director": "Alain Cavalier",
       "provider_release_date": "2005-09-25",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.festival-cannes.com/en/f/le-fils/",
+      "signature": "7e22841ea311575bfc6b394c82d45575db554c2b5c063a1537443f90a9b2f389",
+      "title": "LE FILS",
+      "source": "https://www.festival-cannes.com/en/f/le-fils/",
+      "id": 5218,
+      "tmdb_id": 35172,
+      "imdb_id": "tt0291172",
+      "director": "Jean-Pierre Dardenne, Luc Dardenne",
+      "provider_release_date": "2002-10-04",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -7273,6 +7981,30 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://www.festival-cannes.com/en/f/les-mains-vides/",
+      "signature": "58601cd3dbd376176a319b1181fc3e8401934e15363b573dd38462e0ad0fc76f",
+      "title": "LES MAINS VIDES",
+      "source": "https://www.festival-cannes.com/en/f/les-mains-vides/",
+      "id": 5231,
+      "tmdb_id": 130268,
+      "imdb_id": "tt0347474",
+      "director": "Marc Recha",
+      "provider_release_date": "2003-07-05",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.festival-cannes.com/en/f/long-way-home/",
+      "signature": "b48a8171090516363e127268737f21e2ae3da4ed594aa6c61a9720181c9baeb0",
+      "title": "LONG WAY HOME",
+      "source": "https://www.festival-cannes.com/en/f/long-way-home/",
+      "id": 5224,
+      "tmdb_id": 25461,
+      "imdb_id": "tt0316188",
+      "director": "Peter Sollett",
+      "provider_release_date": "2003-03-28",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://www.festival-cannes.com/en/f/lovely-rita/",
       "signature": "3e1e5e74c779e4403955e5aa9296db02e43106c37f8cb65758c912229d9303ee",
       "title": "LOVELY RITA",
@@ -7285,6 +8017,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://www.festival-cannes.com/en/f/lu-cheng/",
+      "signature": "973f036b055beed3d2ec9e05ebc9ceda760195449e660b195884bdbb62f0615d",
+      "title": "LU CHENG",
+      "source": "https://www.festival-cannes.com/en/f/lu-cheng/",
+      "id": 5262,
+      "tmdb_id": 299285,
+      "imdb_id": "tt0415948",
+      "director": "Yang Chao",
+      "provider_release_date": "2004-05-14",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://www.festival-cannes.com/en/f/madame-sata/",
       "signature": "1864994931cd52c3474965eba3dfe1f0bc945e4173deac9a0ca85e01794147bf",
       "title": "MADAME SATA",
@@ -7294,6 +8038,18 @@
       "imdb_id": "tt0317887",
       "director": "Karim Aïnouz",
       "provider_release_date": "2002-10-03",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.festival-cannes.com/en/f/maimil/",
+      "signature": "4853208bda39a092b0934bce9a8f6dd11e0c5086af0dc056e5e7fb373ac248b1",
+      "title": "MAIMIL",
+      "source": "https://www.festival-cannes.com/en/f/maimil/",
+      "id": 5217,
+      "tmdb_id": 327042,
+      "imdb_id": "tt0301587",
+      "director": "Aktan Arym Kubat",
+      "provider_release_date": "2001-05-01",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -7441,6 +8197,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://www.festival-cannes.com/en/f/ni-nei-pien-chi-tien/",
+      "signature": "cf0b6f85337072a2c2a9e3a1239d524a8f01489c14847db8d5121d15e59939b6",
+      "title": "NI NEI PIEN CHI TIEN",
+      "source": "https://www.festival-cannes.com/en/f/ni-nei-pien-chi-tien/",
+      "id": 5211,
+      "tmdb_id": 24166,
+      "imdb_id": "tt0269746",
+      "director": "Tsai Ming-liang",
+      "provider_release_date": "2001-09-26",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://www.festival-cannes.com/en/f/no-man-s-land/",
       "signature": "40f074764533c43fc4c0c548da6ab18a3d364ad5c4db38a514c73acfbe9f0251",
       "title": "NO MAN’S LAND",
@@ -7489,6 +8257,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://www.festival-cannes.com/en/f/nordeste/",
+      "signature": "78dde3c87da409447d6074602b30a5893094d67326e5b65355f2a44dc296c1da",
+      "title": "NORDESTE",
+      "source": "https://www.festival-cannes.com/en/f/nordeste/",
+      "id": 5238,
+      "tmdb_id": 7276,
+      "imdb_id": "tt0398664",
+      "director": "Juan Diego Solanas",
+      "provider_release_date": "2005-05-13",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://www.festival-cannes.com/en/f/o-principio-da-incerteza/",
       "signature": "cce9ceb8047f6cd6c1badf836096a9469b363831ab0e0495523d2474700963a9",
       "title": "O PRINCÍPIO DA INCERTEZA",
@@ -7498,6 +8278,42 @@
       "imdb_id": "tt0303162",
       "director": "Manoel de Oliveira",
       "provider_release_date": "2002-05-17",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.festival-cannes.com/en/f/old-boy/",
+      "signature": "616df2ce4a52726ffa60e94969ef55e3357062adbadd99241beaee5455c38418",
+      "title": "OLD BOY",
+      "source": "https://www.festival-cannes.com/en/f/old-boy/",
+      "id": 5234,
+      "tmdb_id": 670,
+      "imdb_id": "tt0364569",
+      "director": "Park Chan-wook",
+      "provider_release_date": "2003-11-21",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.festival-cannes.com/en/f/otets-y-syn/",
+      "signature": "17b5b129a64605691e137ccad6d5eafaff45408d6a06171ff09fdbf76f769dcd",
+      "title": "OTETS Y SYN",
+      "source": "https://www.festival-cannes.com/en/f/otets-y-syn/",
+      "id": 5228,
+      "tmdb_id": 44513,
+      "imdb_id": "tt0363249",
+      "director": "Aleksandr Sokurov",
+      "provider_release_date": "2003-09-12",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.festival-cannes.com/en/f/panj-e-asr/",
+      "signature": "b2728fdf794e470e23938da7960fc4e288060def823236883ec5c37c26c0a038",
+      "title": "PANJ É ASR",
+      "source": "https://www.festival-cannes.com/en/f/panj-e-asr/",
+      "id": 5227,
+      "tmdb_id": 43969,
+      "imdb_id": "tt0363303",
+      "director": "Samira Makhmalbaf",
+      "provider_release_date": "2003-08-20",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -7633,6 +8449,54 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://www.festival-cannes.com/en/f/robinson-s-crusoe/",
+      "signature": "0c40af639b8061a7fc72c478a02a646a721c6d1f794486ac986431075da5cc26",
+      "title": "ROBINSON’S CRUSOE",
+      "source": "https://www.festival-cannes.com/en/f/robinson-s-crusoe/",
+      "id": 5233,
+      "tmdb_id": 259066,
+      "imdb_id": "tt0340642",
+      "director": "Lin Cheng-sheng",
+      "provider_release_date": "2003-05-22",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.festival-cannes.com/en/f/russian-ark/",
+      "signature": "18df9192491f0325d3c7fdc407244d2b5f9622b6b488f6a10f385d1378b02173",
+      "title": "RUSSIAN ARK",
+      "source": "https://www.festival-cannes.com/en/f/russian-ark/",
+      "id": 5219,
+      "tmdb_id": 16646,
+      "imdb_id": "tt0318034",
+      "director": "Aleksandr Sokurov",
+      "provider_release_date": "2002-05-22",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.festival-cannes.com/en/f/safar-e-gandehar/",
+      "signature": "5665c5ac8706372c074953b3ebdea707ef11a48f1592fb612fb139d8e6637b06",
+      "title": "SAFAR E GANDEHAR",
+      "source": "https://www.festival-cannes.com/en/f/safar-e-gandehar/",
+      "id": 5229,
+      "tmdb_id": 28171,
+      "imdb_id": "tt0283431",
+      "director": "Mohsen Makhmalbaf",
+      "provider_release_date": "2001-05-11",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.festival-cannes.com/en/f/schizo/",
+      "signature": "d387fc27746c91147311bed4d576b60ba1526c105028639a8c6454dfc9ce61a1",
+      "title": "SCHIZO",
+      "source": "https://www.festival-cannes.com/en/f/schizo/",
+      "id": 5239,
+      "tmdb_id": 47200,
+      "imdb_id": "tt0406216",
+      "director": "Gulshat Omarova",
+      "provider_release_date": "2004-01-01",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://www.festival-cannes.com/en/f/schlafer/",
       "signature": "248bbeb90c9e2cf2c40f0b264610d2a8bbef20cfd62513f5f0875c93525c7ec3",
       "title": "SCHLÄFER",
@@ -7654,6 +8518,18 @@
       "imdb_id": "tt0456658",
       "director": "Wang Xiaoshuai",
       "provider_release_date": "2005-06-03",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.festival-cannes.com/en/f/sharasojyu/",
+      "signature": "7bf8a0db1e7be3c3cd7c787edc55f6421a0bef9b6e5134ebb7363e26aee82c0d",
+      "title": "SHARASOJYU",
+      "source": "https://www.festival-cannes.com/en/f/sharasojyu/",
+      "id": 5232,
+      "tmdb_id": 36281,
+      "imdb_id": "tt0363060",
+      "director": "Naomi Kawase",
+      "provider_release_date": "2003-07-12",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -7765,6 +8641,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://www.festival-cannes.com/en/f/sud-pralad/",
+      "signature": "efdbb1d433c7ce66ae475e0a01cfbe6bcec72b46a47ab15b61b155389aa8a570",
+      "title": "SUD PRALAD",
+      "source": "https://www.festival-cannes.com/en/f/sud-pralad/",
+      "id": 5235,
+      "tmdb_id": 11534,
+      "imdb_id": "tt0381668",
+      "director": "Apichatpong Weerasethakul",
+      "provider_release_date": "2004-06-24",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://www.festival-cannes.com/en/f/sud-sanaeha/",
       "signature": "1fd59f5c6f8397404f57eb0fc88308ad5bff82cfa104e8f296256fe611566d51",
       "title": "SUD SANAEHA",
@@ -7822,6 +8710,30 @@
       "imdb_id": "tt0371280",
       "director": "Jafar Panahi",
       "provider_release_date": "2003-09-12",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.festival-cannes.com/en/f/taurus/",
+      "signature": "d64881c625d3e140bc936c6feeb76b67d67f7faae19c7117e5302d60b859cc21",
+      "title": "TAURUS",
+      "source": "https://www.festival-cannes.com/en/f/taurus/",
+      "id": 5208,
+      "tmdb_id": 45943,
+      "imdb_id": "tt0283623",
+      "director": "Aleksandr Sokurov",
+      "provider_release_date": "2001-02-24",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.festival-cannes.com/en/f/ten-minutes-older/",
+      "signature": "e78686f6c51f584c1cfa6aa4d376c391df9eb19a138be816866e73c6fcc8bb9b",
+      "title": "TEN MINUTES OLDER",
+      "source": "https://www.festival-cannes.com/en/f/ten-minutes-older/",
+      "id": 5226,
+      "tmdb_id": 23676,
+      "imdb_id": "tt0304808",
+      "director": "Chen Kaige, Víctor Erice, Werner Herzog, Jim Jarmusch, Aki Kaurismäki, Spike Lee, Wim Wenders",
+      "provider_release_date": "2002-05-18",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -7909,6 +8821,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://www.festival-cannes.com/en/f/the-man-who-wasn-t-there/",
+      "signature": "1b613a1cdc6f0d0a5d4c2021345d0f9b1baad1241413e91a84e6fb92dc5978bc",
+      "title": "THE MAN WHO WASN’T THERE",
+      "source": "https://www.festival-cannes.com/en/f/the-man-who-wasn-t-there/",
+      "id": 1795,
+      "tmdb_id": 10778,
+      "imdb_id": "tt0243133",
+      "director": "Joel Coen, Ethan Coen",
+      "provider_release_date": "2001-10-26",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://www.festival-cannes.com/en/f/the-pianist/",
       "signature": "89e80feb3449dbdbad895866bdbbfae673e174240bdbfe7f31c184c2da1ef8b4",
       "title": "THE PIANIST",
@@ -7942,6 +8866,18 @@
       "imdb_id": "tt0419294",
       "director": "Tommy Lee Jones",
       "provider_release_date": "2005-11-17",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.festival-cannes.com/en/f/the-tulse-luper-suitcases-part-i-the-moab-story/",
+      "signature": "abdf983ad8eba3ac932be3cc4cb348cc8bf393ae950d51e63af9aa8730141069",
+      "title": "THE TULSE LUPER SUITCASES-PART I. THE MOAB STORY",
+      "source": "https://www.festival-cannes.com/en/f/the-tulse-luper-suitcases-part-i-the-moab-story/",
+      "id": 5237,
+      "tmdb_id": 3097,
+      "imdb_id": "tt0307596",
+      "director": "Peter Greenaway",
+      "provider_release_date": "2003-07-18",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -8005,6 +8941,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://www.festival-cannes.com/en/f/va-savoir/",
+      "signature": "9cf222868e6370c8a92700c6308cd2652fae21172ff9272d1ef016495919bbcf",
+      "title": "VA SAVOIR",
+      "source": "https://www.festival-cannes.com/en/f/va-savoir/",
+      "id": 5209,
+      "tmdb_id": 55372,
+      "imdb_id": "tt0242994",
+      "director": "Jacques Rivette",
+      "provider_release_date": "2001-09-28",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://www.festival-cannes.com/en/f/voksne-mennesker/",
       "signature": "52cd230ff014d428d8ba1653e6dc11cbbc0375822f751ca644cc9a2d4b328aa3",
       "title": "VOKSNE MENNESKER",
@@ -8014,6 +8962,18 @@
       "imdb_id": "tt0408318",
       "director": "Dagur Kári",
       "provider_release_date": "2005-05-13",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.festival-cannes.com/en/f/vou-para-casa/",
+      "signature": "a7a3ef8d8b3f17069d1513d6c029af88d5db8aaca03a239e6481083a71fd0f32",
+      "title": "VOU PARA CASA",
+      "source": "https://www.festival-cannes.com/en/f/vou-para-casa/",
+      "id": 5210,
+      "tmdb_id": 49685,
+      "imdb_id": "tt0283422",
+      "director": "Manoel de Oliveira",
+      "provider_release_date": "2001-05-13",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -8038,6 +8998,18 @@
       "imdb_id": "tt0331370",
       "director": "Juan Pablo Rebella, Pablo Stoll",
       "provider_release_date": "2004-08-06",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "https://www.festival-cannes.com/en/f/yadon-ilaheyya/",
+      "signature": "4ee6dbb6a6031912b47111d347eeea1aea2cb4aa87354079fbb7e31f1da09740",
+      "title": "YADON ILAHEYYA",
+      "source": "https://www.festival-cannes.com/en/f/yadon-ilaheyya/",
+      "id": 5221,
+      "tmdb_id": 27744,
+      "imdb_id": "tt0274428",
+      "director": "Elia Suleiman",
+      "provider_release_date": "2002-10-02",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -8194,6 +9166,18 @@
       "imdb_id": "tt0195685",
       "director": "Steven Soderbergh",
       "provider_release_date": "2000-03-17",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "Oscars/2001/Everybody Famous!",
+      "signature": "31d1866d9205367c9d3159f296ba4165f28954c22b9d09a850f9980cb475decd",
+      "title": "Everybody Famous!",
+      "source": "https://www.oscars.org/oscars/ceremonies/2001",
+      "id": 5197,
+      "tmdb_id": 58886,
+      "imdb_id": "tt0209037",
+      "director": "Dominique Deruddere",
+      "provider_release_date": "2000-04-12",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -8533,6 +9517,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "Oscars/2002/Lagaan",
+      "signature": "42493f467ef09d256f87309e52c2f50a65fcedfd507cbc8d72484a792dedb978",
+      "title": "Lagaan",
+      "source": "https://www.oscars.org/oscars/ceremonies/2002",
+      "id": 5194,
+      "tmdb_id": 19666,
+      "imdb_id": "tt0169102",
+      "director": "Ashutosh Gowariker",
+      "provider_release_date": "2001-06-15",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "Oscars/2002/LaLee's Kin: The Legacy of Cotton",
       "signature": "50cd164681b61d90ff8718e2067f1981ad429468ec84515a02a3e52bcbca9079",
       "title": "LaLee's Kin: The Legacy of Cotton",
@@ -8830,6 +9826,18 @@
       "imdb_id": "tt0297884",
       "director": "Todd Haynes",
       "provider_release_date": "2002-11-08",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "Oscars/2003/Frida",
+      "signature": "98350eae66e2bc6b5364954491e306d411c42316af9230e515ee1dac7126086e",
+      "title": "Frida",
+      "source": "https://www.oscars.org/oscars/ceremonies/2003",
+      "id": 4994,
+      "tmdb_id": 1360,
+      "imdb_id": "tt0120679",
+      "director": "Julie Taymor",
+      "provider_release_date": "2002-08-29",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -9193,6 +10201,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "Oscars/2004/Evil",
+      "signature": "0768c684b8f5c65be2b037f09eae10a51d37fcad8a10572ed3fa1e26850fd1ec",
+      "title": "Evil",
+      "source": "https://www.oscars.org/oscars/ceremonies/2004",
+      "id": 5195,
+      "tmdb_id": 11197,
+      "imdb_id": "tt0338309",
+      "director": "Mikael Håfström",
+      "provider_release_date": "2003-09-16",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "Oscars/2004/Finding Nemo",
       "signature": "1653569c6fc4537c441619b81e2ac0ab555c81f7d96f6bbea1340a6f551ac1fd",
       "title": "Finding Nemo",
@@ -9265,6 +10285,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "Oscars/2004/My Architect",
+      "signature": "ea5a154b1e5278f1f12a686a518738475ef445c9796da4a00906f1f2c0f8dcd8",
+      "title": "My Architect",
+      "source": "https://www.oscars.org/oscars/ceremonies/2004",
+      "id": 5198,
+      "tmdb_id": 50314,
+      "imdb_id": "tt0373175",
+      "director": "Nathaniel Kahn",
+      "provider_release_date": "2003-11-12",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "Oscars/2004/Mystic River",
       "signature": "3777d300a703be316e47342ea0cbb78155140a78d61c7be97e1496dfc98f0968",
       "title": "Mystic River",
@@ -9298,6 +10330,18 @@
       "imdb_id": "tt0325980",
       "director": "Gore Verbinski",
       "provider_release_date": "2003-07-09",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "Oscars/2004/Seabiscuit",
+      "signature": "ec4407ebaa4139f62e0fbda86aacadc28ddfd693d4e0f42d1af5e5e2873cc48b",
+      "title": "Seabiscuit",
+      "source": "https://www.oscars.org/oscars/ceremonies/2004",
+      "id": 5196,
+      "tmdb_id": 4464,
+      "imdb_id": "tt0329575",
+      "director": "Gary Ross",
+      "provider_release_date": "2003-07-22",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
@@ -9493,6 +10537,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "Oscars/2005/Born into Brothels",
+      "signature": "64bc6d132283241810d7c1e7b1c2dc7110df9cc5b6a6c9c261f23285af3446cc",
+      "title": "Born into Brothels",
+      "source": "https://www.oscars.org/oscars/ceremonies/2005",
+      "id": 5200,
+      "tmdb_id": 1392,
+      "imdb_id": "tt0388789",
+      "director": "Zana Briski, Ross Kauffman",
+      "provider_release_date": "2004-12-08",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "Oscars/2005/Closer",
       "signature": "e517c1f9efc9df6e6bb1d72e6a76acd5f7d26249134340cc67f92e49105072e1",
       "title": "Closer",
@@ -9673,6 +10729,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "Oscars/2005/The Chorus (Les Choristes)",
+      "signature": "694e3ef9be9d16df0d0c727d943f6d04bbf36ace04224a0364bb71bbdd32feeb",
+      "title": "The Chorus (Les Choristes)",
+      "source": "https://www.oscars.org/oscars/ceremonies/2005",
+      "id": 4822,
+      "tmdb_id": 5528,
+      "imdb_id": "tt0372824",
+      "director": "Christophe Barratier",
+      "provider_release_date": "2004-03-17",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "Oscars/2005/The Incredibles",
       "signature": "6a191c469c32fb6764ada3fae7f0cf3c2a77c99389468fdd9b133edcad7ae43b",
       "title": "The Incredibles",
@@ -9754,6 +10822,18 @@
       "imdb_id": "tt0383694",
       "director": "Mike Leigh",
       "provider_release_date": "2004-10-22",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
+      "key": "Oscars/2005/Yesterday",
+      "signature": "b66dac989f799aa21d700fdecf895f92cfaa411f7510a201e413697b82656a58",
+      "title": "Yesterday",
+      "source": "https://www.oscars.org/oscars/ceremonies/2005",
+      "id": 5205,
+      "tmdb_id": 6934,
+      "imdb_id": "tt0419279",
+      "director": "Darrell James Roodt",
+      "provider_release_date": "2004-09-03",
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     }
   ],
@@ -15643,49 +16723,915 @@
       "alternate_titles": [
         "Tian bian yi duo yun"
       ]
+    },
+    {
+      "id": 5194,
+      "title": "Lagaan: Once Upon a Time in India",
+      "director": "Ashutosh Gowariker",
+      "year": 2001,
+      "tmdb_id": 19666,
+      "imdb_id": "tt0169102",
+      "original_title": "लगान",
+      "original_language": "hi",
+      "alternate_titles": [
+        "Lagaan"
+      ]
+    },
+    {
+      "id": 5195,
+      "title": "Evil",
+      "director": "Mikael Håfström",
+      "year": 2003,
+      "tmdb_id": 11197,
+      "imdb_id": "tt0338309",
+      "original_title": "Ondskan",
+      "original_language": "sv",
+      "alternate_titles": []
+    },
+    {
+      "id": 5196,
+      "title": "Seabiscuit",
+      "director": "Gary Ross",
+      "year": 2003,
+      "tmdb_id": 4464,
+      "imdb_id": "tt0329575",
+      "original_title": "Seabiscuit",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 5197,
+      "title": "Everybody's Famous!",
+      "director": "Dominique Deruddere",
+      "year": 2000,
+      "tmdb_id": 58886,
+      "imdb_id": "tt0209037",
+      "original_title": "Iedereen beroemd!",
+      "original_language": "nl",
+      "alternate_titles": [
+        "Everybody Famous!"
+      ]
+    },
+    {
+      "id": 5198,
+      "title": "My Architect: A Son's Journey",
+      "director": "Nathaniel Kahn",
+      "year": 2003,
+      "tmdb_id": 50314,
+      "imdb_id": "tt0373175",
+      "original_title": "My Architect: A Son's Journey",
+      "original_language": "en",
+      "alternate_titles": [
+        "My Architect"
+      ]
+    },
+    {
+      "id": 5199,
+      "title": "Last Resort",
+      "director": "Paweł Pawlikowski",
+      "year": 2000,
+      "tmdb_id": 31875,
+      "imdb_id": "tt0258761",
+      "original_title": "Last Resort",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 5200,
+      "title": "Born into Brothels: Calcutta's Red Light Kids",
+      "director": "Zana Briski, Ross Kauffman",
+      "year": 2004,
+      "tmdb_id": 1392,
+      "imdb_id": "tt0388789",
+      "original_title": "Born into Brothels: Calcutta's Red Light Kids",
+      "original_language": "en",
+      "alternate_titles": [
+        "Born into Brothels"
+      ]
+    },
+    {
+      "id": 5201,
+      "title": "The Warrior",
+      "director": "Asif Kapadia",
+      "year": 2001,
+      "tmdb_id": 23305,
+      "imdb_id": "tt0295682",
+      "original_title": "The Warrior",
+      "original_language": "en",
+      "alternate_titles": []
+    },
+    {
+      "id": 5202,
+      "title": "With a Friend Like Harry...",
+      "director": "Dominik Moll",
+      "year": 2000,
+      "tmdb_id": 47943,
+      "imdb_id": "tt0216800",
+      "original_title": "Harry, un ami qui vous veut du bien",
+      "original_language": "fr",
+      "alternate_titles": [
+        "Harry, He's Here To Help (Harry, Un Ami Qui Vous Veut Du Bien)",
+        "Harry, He's Here To Help"
+      ]
+    },
+    {
+      "id": 5203,
+      "title": "The Girl on the Bridge",
+      "director": "Patrice Leconte",
+      "year": 1999,
+      "tmdb_id": 10401,
+      "imdb_id": "tt0144201",
+      "original_title": "La Fille sur le pont",
+      "original_language": "fr",
+      "alternate_titles": [
+        "The Girl On The Bridge (La Fille Sur Le Pont)"
+      ]
+    },
+    {
+      "id": 5204,
+      "title": "Devdas",
+      "director": "Sanjay Leela Bhansali",
+      "year": 2002,
+      "tmdb_id": 15917,
+      "imdb_id": "tt0238936",
+      "original_title": "देवदास",
+      "original_language": "hi",
+      "alternate_titles": []
+    },
+    {
+      "id": 5205,
+      "title": "Yesterday",
+      "director": "Darrell James Roodt",
+      "year": 2004,
+      "tmdb_id": 6934,
+      "imdb_id": "tt0419279",
+      "original_title": "Yesterday",
+      "original_language": "zu",
+      "alternate_titles": []
+    },
+    {
+      "id": 5206,
+      "title": "Bad Education",
+      "director": "Pedro Almodóvar",
+      "year": 2004,
+      "tmdb_id": 140,
+      "imdb_id": "tt0275491",
+      "original_title": "La mala educación",
+      "original_language": "es",
+      "alternate_titles": [
+        "Bad Education (La Mala Educación)"
+      ]
+    },
+    {
+      "id": 5207,
+      "title": "How the Grinch Stole Christmas",
+      "director": "Ron Howard",
+      "year": 2000,
+      "tmdb_id": 8871,
+      "imdb_id": "tt0170016",
+      "original_title": "How the Grinch Stole Christmas",
+      "original_language": "en",
+      "alternate_titles": [
+        "Dr. Seuss' How The Grinch Stole Christmas!"
+      ]
+    },
+    {
+      "id": 5208,
+      "title": "Taurus",
+      "director": "Aleksandr Sokurov",
+      "year": 2001,
+      "tmdb_id": 45943,
+      "imdb_id": "tt0283623",
+      "original_title": "Телец",
+      "original_language": "ru",
+      "alternate_titles": []
+    },
+    {
+      "id": 5209,
+      "title": "Va Savoir (Who Knows?)",
+      "director": "Jacques Rivette",
+      "year": 2001,
+      "tmdb_id": 55372,
+      "imdb_id": "tt0242994",
+      "original_title": "Va savoir",
+      "original_language": "fr",
+      "alternate_titles": []
+    },
+    {
+      "id": 5210,
+      "title": "I’m Going Home",
+      "director": "Manoel de Oliveira",
+      "year": 2001,
+      "tmdb_id": 49685,
+      "imdb_id": "tt0283422",
+      "original_title": "Je rentre à la maison",
+      "original_language": "fr",
+      "alternate_titles": [
+        "VOU PARA CASA",
+        "I Am Going Home"
+      ]
+    },
+    {
+      "id": 5211,
+      "title": "What Time Is It There?",
+      "director": "Tsai Ming-liang",
+      "year": 2001,
+      "tmdb_id": 24166,
+      "imdb_id": "tt0269746",
+      "original_title": "你那邊幾點",
+      "original_language": "zh",
+      "alternate_titles": [
+        "NI NEI PIEN CHI TIEN"
+      ]
+    },
+    {
+      "id": 5212,
+      "title": "Late Marriage",
+      "director": "Dover Koshashvili",
+      "year": 2001,
+      "tmdb_id": 49680,
+      "imdb_id": "tt0287471",
+      "original_title": "חתונה מאוחרת",
+      "original_language": "he",
+      "alternate_titles": [
+        "HATOUNA MEHUHERET"
+      ]
+    },
+    {
+      "id": 5213,
+      "title": "Man Walking on Snow",
+      "director": "Masahiro Kobayashi",
+      "year": 2001,
+      "tmdb_id": 47123,
+      "imdb_id": "tt0307971",
+      "original_title": "歩く、人",
+      "original_language": "ja",
+      "alternate_titles": [
+        "ARUKU-HITO",
+        "THE MAN WALKING ON THE SNOW"
+      ]
+    },
+    {
+      "id": 5214,
+      "title": "Hijack Stories",
+      "director": "Oliver Schmitz",
+      "year": 2001,
+      "tmdb_id": 58169,
+      "imdb_id": "tt0215841",
+      "original_title": "Hijack Stories",
+      "original_language": "fr",
+      "alternate_titles": []
+    },
+    {
+      "id": 5215,
+      "title": "Pulse",
+      "director": "Kiyoshi Kurosawa",
+      "year": 2001,
+      "tmdb_id": 27324,
+      "imdb_id": "tt0286751",
+      "original_title": "回路",
+      "original_language": "ja",
+      "alternate_titles": [
+        "KAIRO"
+      ]
+    },
+    {
+      "id": 5216,
+      "title": "Lan Yu",
+      "director": "Stanley Kwan Kam-pang",
+      "year": 2001,
+      "tmdb_id": 27062,
+      "imdb_id": "tt0292066",
+      "original_title": "蓝宇",
+      "original_language": "zh",
+      "alternate_titles": [
+        "LAN YU AND I"
+      ]
+    },
+    {
+      "id": 5217,
+      "title": "The Chimp",
+      "director": "Aktan Arym Kubat",
+      "year": 2001,
+      "tmdb_id": 327042,
+      "imdb_id": "tt0301587",
+      "original_title": "Маймыл",
+      "original_language": "ky",
+      "alternate_titles": [
+        "MAIMIL"
+      ]
+    },
+    {
+      "id": 5218,
+      "title": "The Son",
+      "director": "Jean-Pierre Dardenne, Luc Dardenne",
+      "year": 2002,
+      "tmdb_id": 35172,
+      "imdb_id": "tt0291172",
+      "original_title": "Le Fils",
+      "original_language": "fr",
+      "alternate_titles": []
+    },
+    {
+      "id": 5219,
+      "title": "Russian Ark",
+      "director": "Aleksandr Sokurov",
+      "year": 2002,
+      "tmdb_id": 16646,
+      "imdb_id": "tt0318034",
+      "original_title": "Русский ковчег",
+      "original_language": "ru",
+      "alternate_titles": []
+    },
+    {
+      "id": 5220,
+      "title": "Warm Water Under a Red Bridge",
+      "director": "Shōhei Imamura",
+      "year": 2001,
+      "tmdb_id": 44768,
+      "imdb_id": "tt0289054",
+      "original_title": "赤い橋の下のぬるい水",
+      "original_language": "ja",
+      "alternate_titles": [
+        "AKAI HASHI NOSHITANO NURUI MIZU"
+      ]
+    },
+    {
+      "id": 5221,
+      "title": "Divine Intervention",
+      "director": "Elia Suleiman",
+      "year": 2002,
+      "tmdb_id": 27744,
+      "imdb_id": "tt0274428",
+      "original_title": "يد إلهية‎",
+      "original_language": "ar",
+      "alternate_titles": [
+        "YADON ILAHEYYA"
+      ]
+    },
+    {
+      "id": 5222,
+      "title": "The Road",
+      "director": "Darezhan Omirbayev",
+      "year": 2001,
+      "tmdb_id": 129185,
+      "imdb_id": "tt0301481",
+      "original_title": "Jol",
+      "original_language": "kk",
+      "alternate_titles": []
+    },
+    {
+      "id": 5223,
+      "title": "Marooned in Iraq",
+      "director": "Bahman Ghobadi",
+      "year": 2002,
+      "tmdb_id": 13438,
+      "imdb_id": "tt0317226",
+      "original_title": "جێھێڵراو لە عێراق",
+      "original_language": "ku",
+      "alternate_titles": [
+        "AVAZHAYÉ SARZAMINÉ MADARIYAM",
+        "SONGS FROM MY MOTHER'S COUNTRY",
+        "Songs of My Motherland"
+      ]
+    },
+    {
+      "id": 5224,
+      "title": "Raising Victor Vargas",
+      "director": "Peter Sollett",
+      "year": 2002,
+      "tmdb_id": 25461,
+      "imdb_id": "tt0316188",
+      "original_title": "Raising Victor Vargas",
+      "original_language": "en",
+      "alternate_titles": [
+        "LONG WAY HOME"
+      ]
+    },
+    {
+      "id": 5225,
+      "title": "That Day",
+      "director": "Raúl Ruiz",
+      "year": 2003,
+      "tmdb_id": 48778,
+      "imdb_id": "tt0343524",
+      "original_title": "Ce jour-là",
+      "original_language": "fr",
+      "alternate_titles": []
+    },
+    {
+      "id": 5226,
+      "title": "Ten Minutes Older: The Trumpet",
+      "director": "Chen Kaige, Víctor Erice, Werner Herzog, Jim Jarmusch, Aki Kaurismäki, Spike Lee, Wim Wenders",
+      "year": 2002,
+      "tmdb_id": 23676,
+      "imdb_id": "tt0304808",
+      "original_title": "Ten Minutes Older: The Trumpet",
+      "original_language": "en",
+      "alternate_titles": [
+        "TEN MINUTES OLDER"
+      ]
+    },
+    {
+      "id": 5227,
+      "title": "At Five in the Afternoon",
+      "director": "Samira Makhmalbaf",
+      "year": 2003,
+      "tmdb_id": 43969,
+      "imdb_id": "tt0363303",
+      "original_title": "پنج عصر",
+      "original_language": "fa",
+      "alternate_titles": [
+        "PANJ É ASR"
+      ]
+    },
+    {
+      "id": 5228,
+      "title": "Father and Son",
+      "director": "Aleksandr Sokurov",
+      "year": 2003,
+      "tmdb_id": 44513,
+      "imdb_id": "tt0363249",
+      "original_title": "Отец и сын",
+      "original_language": "ru",
+      "alternate_titles": [
+        "OTETS Y SYN"
+      ]
+    },
+    {
+      "id": 5229,
+      "title": "Kandahar",
+      "director": "Mohsen Makhmalbaf",
+      "year": 2001,
+      "tmdb_id": 28171,
+      "imdb_id": "tt0283431",
+      "original_title": "Safar e Ghandehar",
+      "original_language": "en",
+      "alternate_titles": [
+        "SAFAR E GANDEHAR",
+        "QANDAHAR"
+      ]
+    },
+    {
+      "id": 5230,
+      "title": "Playing 'In the Company of Men'",
+      "director": "Arnaud Desplechin",
+      "year": 2003,
+      "tmdb_id": 126108,
+      "imdb_id": "tt0353400",
+      "original_title": "Léo, en jouant « Dans la compagnie des hommes »",
+      "original_language": "fr",
+      "alternate_titles": [
+        "EN JOUANT “DANS LA COMPAGNIE DES HOMMES”",
+        "In the Company of Men"
+      ]
+    },
+    {
+      "id": 5231,
+      "title": "Where Is Madame Catherine?",
+      "director": "Marc Recha",
+      "year": 2003,
+      "tmdb_id": 130268,
+      "imdb_id": "tt0347474",
+      "original_title": "Les mans buides",
+      "original_language": "fr",
+      "alternate_titles": [
+        "LES MAINS VIDES"
+      ]
+    },
+    {
+      "id": 5232,
+      "title": "Shara",
+      "director": "Naomi Kawase",
+      "year": 2003,
+      "tmdb_id": 36281,
+      "imdb_id": "tt0363060",
+      "original_title": "沙羅双樹",
+      "original_language": "ja",
+      "alternate_titles": [
+        "SHARASOJYU",
+        "Sharasojyu"
+      ]
+    },
+    {
+      "id": 5233,
+      "title": "Robinson's Crusoe",
+      "director": "Lin Cheng-sheng",
+      "year": 2003,
+      "tmdb_id": 259066,
+      "imdb_id": "tt0340642",
+      "original_title": "魯賓遜漂流記",
+      "original_language": "zh",
+      "alternate_titles": []
+    },
+    {
+      "id": 5234,
+      "title": "Oldboy",
+      "director": "Park Chan-wook",
+      "year": 2004,
+      "tmdb_id": 670,
+      "imdb_id": "tt0364569",
+      "original_title": "올드보이",
+      "original_language": "ko",
+      "alternate_titles": []
+    },
+    {
+      "id": 5235,
+      "title": "Tropical Malady",
+      "director": "Apichatpong Weerasethakul",
+      "year": 2004,
+      "tmdb_id": 11534,
+      "imdb_id": "tt0381668",
+      "original_title": "สัตว์ประหลาด",
+      "original_language": "th",
+      "alternate_titles": [
+        "SUD PRALAD"
+      ]
+    },
+    {
+      "id": 5236,
+      "title": "All Tomorrow's Parties",
+      "director": "Nelson Yu Lik-wai",
+      "year": 2003,
+      "tmdb_id": 100156,
+      "imdb_id": "tt0384804",
+      "original_title": "明日天涯",
+      "original_language": "zh",
+      "alternate_titles": []
+    },
+    {
+      "id": 5237,
+      "title": "The Tulse Luper Suitcases, Part 1: The Moab Story",
+      "director": "Peter Greenaway",
+      "year": 2003,
+      "tmdb_id": 3097,
+      "imdb_id": "tt0307596",
+      "original_title": "The Tulse Luper Suitcases, Part 1: The Moab Story",
+      "original_language": "en",
+      "alternate_titles": [
+        "THE TULSE LUPER SUITCASES-PART I. THE MOAB STORY"
+      ]
+    },
+    {
+      "id": 5238,
+      "title": "Northeast",
+      "director": "Juan Diego Solanas",
+      "year": 2005,
+      "tmdb_id": 7276,
+      "imdb_id": "tt0398664",
+      "original_title": "Nordeste",
+      "original_language": "es",
+      "alternate_titles": []
+    },
+    {
+      "id": 5239,
+      "title": "Schizo",
+      "director": "Gulshat Omarova",
+      "year": 2004,
+      "tmdb_id": 47200,
+      "imdb_id": "tt0406216",
+      "original_title": "Шиzа",
+      "original_language": "ru",
+      "alternate_titles": []
+    },
+    {
+      "id": 5240,
+      "title": "Alexandria... New York",
+      "director": "Youssef Chahine",
+      "year": 2004,
+      "tmdb_id": 193314,
+      "imdb_id": "tt0416465",
+      "original_title": "إسكندرية نيويورك",
+      "original_language": "ar",
+      "alternate_titles": [
+        "ALEXANDRIE… NEW YORK"
+      ]
+    },
+    {
+      "id": 5241,
+      "title": "Far Away",
+      "director": "André Téchiné",
+      "year": 2000,
+      "tmdb_id": 38304,
+      "imdb_id": "tt0258242",
+      "original_title": "Loin",
+      "original_language": "fr",
+      "alternate_titles": [
+        "Far"
+      ]
+    },
+    {
+      "id": 5242,
+      "title": "Sword In The Moon",
+      "director": "Kim Ui-seok",
+      "year": 2004,
+      "tmdb_id": 13512,
+      "imdb_id": "tt0370402",
+      "original_title": "청풍명월",
+      "original_language": "ko",
+      "alternate_titles": [
+        "CHEONG-PUNG-MYEONG-WEOL (SWORD IN THE MOON)"
+      ]
+    },
+    {
+      "id": 5243,
+      "title": "Saturday",
+      "director": "Juan Villegas",
+      "year": 2001,
+      "tmdb_id": 123450,
+      "imdb_id": "tt0284537",
+      "original_title": "Sábado",
+      "original_language": "es",
+      "alternate_titles": []
+    },
+    {
+      "id": 5244,
+      "title": "Quitting",
+      "director": "Zhang Yang",
+      "year": 2001,
+      "tmdb_id": 87481,
+      "imdb_id": "tt0298238",
+      "original_title": "昨天",
+      "original_language": "zh",
+      "alternate_titles": [
+        "Zuotian"
+      ]
+    },
+    {
+      "id": 5245,
+      "title": "House of Fools",
+      "director": "Andrei Konchalovsky",
+      "year": 2002,
+      "tmdb_id": 72996,
+      "imdb_id": "tt0332605",
+      "original_title": "Дом дураков",
+      "original_language": "ru",
+      "alternate_titles": [
+        "Dom durakov",
+        "Dom durakov - La maison de fous"
+      ]
+    },
+    {
+      "id": 5246,
+      "title": "Springtime in a Small Town",
+      "director": "Tian Zhuangzhuang",
+      "year": 2002,
+      "tmdb_id": 61485,
+      "imdb_id": "tt0332831",
+      "original_title": "小城之春",
+      "original_language": "zh",
+      "alternate_titles": [
+        "Xiao cheng zhi chun"
+      ]
+    },
+    {
+      "id": 5247,
+      "title": "Shadow Kill",
+      "director": "Adoor Gopalakrishnan",
+      "year": 2002,
+      "tmdb_id": 255294,
+      "imdb_id": "tt0329429",
+      "original_title": "നിഴല്‍ക്കുത്ത്",
+      "original_language": "ml",
+      "alternate_titles": [
+        "Nizhalkkuthu",
+        "Nizhalkkuthu / Ombres obscures"
+      ]
+    },
+    {
+      "id": 5248,
+      "title": "Loving Glances",
+      "director": "Srđan Karanović",
+      "year": 2003,
+      "tmdb_id": 54633,
+      "imdb_id": "tt0335426",
+      "original_title": "Sjaj u ocima",
+      "original_language": "sh",
+      "alternate_titles": []
+    },
+    {
+      "id": 5249,
+      "title": "Schultze Gets the Blues",
+      "director": "Michael Schorr",
+      "year": 2003,
+      "tmdb_id": 9483,
+      "imdb_id": "tt0388395",
+      "original_title": "Schultze Gets the Blues",
+      "original_language": "de",
+      "alternate_titles": [
+        "Schultze Get the Blues"
+      ]
+    },
+    {
+      "id": 5250,
+      "title": "A Place Among the Living",
+      "director": "Raúl Ruiz",
+      "year": 2003,
+      "tmdb_id": 200002,
+      "imdb_id": "tt0408295",
+      "original_title": "Une place parmi les vivants",
+      "original_language": "fr",
+      "alternate_titles": []
+    },
+    {
+      "id": 5251,
+      "title": "Gilles' Wife",
+      "director": "Frédéric Fonteyne",
+      "year": 2004,
+      "tmdb_id": 61814,
+      "imdb_id": "tt0382691",
+      "original_title": "La Femme de Gilles",
+      "original_language": "fr",
+      "alternate_titles": []
+    },
+    {
+      "id": 5252,
+      "title": "Te lo leggo negli occhi",
+      "director": "Valia Santella",
+      "year": 2004,
+      "tmdb_id": 62272,
+      "imdb_id": "tt0432131",
+      "original_title": "Te lo leggo negli occhi",
+      "original_language": "it",
+      "alternate_titles": [
+        "I Can See It in Your Eyes"
+      ]
+    },
+    {
+      "id": 5253,
+      "title": "L'amore imperfetto",
+      "director": "Giovanni Davide Maderna",
+      "year": 2001,
+      "tmdb_id": 420710,
+      "imdb_id": "tt0312354",
+      "original_title": "L'amore imperfetto",
+      "original_language": "it",
+      "alternate_titles": []
+    },
+    {
+      "id": 5254,
+      "title": "Probably Love",
+      "director": "Giuseppe Bertolucci",
+      "year": 2000,
+      "tmdb_id": 502928,
+      "imdb_id": "tt0152083",
+      "original_title": "L'amore probabilmente",
+      "original_language": "it",
+      "alternate_titles": []
+    },
+    {
+      "id": 5255,
+      "title": "Low Life",
+      "director": "Im Kwon-taek",
+      "year": 2004,
+      "tmdb_id": 177152,
+      "imdb_id": "tt0403100",
+      "original_title": "하류인생",
+      "original_language": "ko",
+      "alternate_titles": [
+        "Haryu insaeng",
+        "Riding the Tiger",
+        "Jailbreak",
+        "Raging Years"
+      ]
+    },
+    {
+      "id": 5256,
+      "title": "Everlasting Regret",
+      "director": "Stanley Kwan Kam-pang",
+      "year": 2005,
+      "tmdb_id": 47293,
+      "imdb_id": "tt0475263",
+      "original_title": "長恨歌",
+      "original_language": "zh",
+      "alternate_titles": [
+        "Changhen ge"
+      ]
+    },
+    {
+      "id": 5257,
+      "title": "Dignity of the Nobodies",
+      "director": "Fernando E. Solanas",
+      "year": 2005,
+      "tmdb_id": 98020,
+      "imdb_id": "tt0480126",
+      "original_title": "La Dignidad de los Nadies",
+      "original_language": "es",
+      "alternate_titles": [
+        "The Dignity of the Nobodies"
+      ]
+    },
+    {
+      "id": 5258,
+      "title": "Stray Dogs",
+      "director": "Marziyeh Meshkiny",
+      "year": 2004,
+      "tmdb_id": 43973,
+      "imdb_id": "tt0423277",
+      "original_title": "سگ‌های ولگرد",
+      "original_language": "fa",
+      "alternate_titles": [
+        "Sag-haye velgard"
+      ]
+    },
+    {
+      "id": 5259,
+      "title": "Joint Security Area",
+      "director": "Park Chan-wook",
+      "year": 2000,
+      "tmdb_id": 2440,
+      "imdb_id": "tt0260991",
+      "original_title": "공동경비구역 JSA",
+      "original_language": "ko",
+      "alternate_titles": [
+        "Gong dong kyung bi gu yuk JSA",
+        "J.S.A. (Joint Security Area)"
+      ]
+    },
+    {
+      "id": 5260,
+      "title": "One Day in August",
+      "director": "Constantine Giannaris",
+      "year": 2001,
+      "tmdb_id": 47844,
+      "imdb_id": "tt0251661",
+      "original_title": "Δεκαπενταύγουστος",
+      "original_language": "el",
+      "alternate_titles": [
+        "Dekapentavgoustos",
+        "Ein Tag im August"
+      ]
+    },
+    {
+      "id": 5261,
+      "title": "The Beautiful Country",
+      "director": "Hans Petter Moland",
+      "year": 2003,
+      "tmdb_id": 41714,
+      "imdb_id": "tt0273108",
+      "original_title": "The Beautiful Country",
+      "original_language": "en",
+      "alternate_titles": [
+        "Beautiful Country"
+      ]
+    },
+    {
+      "id": 5262,
+      "title": "Passages",
+      "director": "Yang Chao",
+      "year": 2004,
+      "tmdb_id": 299285,
+      "imdb_id": "tt0415948",
+      "original_title": "旅程",
+      "original_language": "zh",
+      "alternate_titles": [
+        "LU CHENG",
+        "The Journey"
+      ]
+    },
+    {
+      "id": 5263,
+      "title": "The Weeping Meadow",
+      "director": "Theo Angelopoulos",
+      "year": 2003,
+      "tmdb_id": 37952,
+      "imdb_id": "tt0366721",
+      "original_title": "Το Λιβάδι που δακρύζει",
+      "original_language": "el",
+      "alternate_titles": [
+        "Trilogia: To livadi pou dakrisi",
+        "Trilogy: The Weeping Meadow",
+        "Trilogie: Die Erde weint"
+      ]
+    },
+    {
+      "id": 5264,
+      "title": "In My Country",
+      "director": "John Boorman",
+      "year": 2003,
+      "tmdb_id": 16635,
+      "imdb_id": "tt0349260",
+      "original_title": "In My Country",
+      "original_language": "en",
+      "alternate_titles": [
+        "Country Of My Skull"
+      ]
+    },
+    {
+      "id": 5265,
+      "title": "Dam Street",
+      "director": "Li Yu",
+      "year": 2005,
+      "tmdb_id": 99735,
+      "imdb_id": "tt0477719",
+      "original_title": "红颜",
+      "original_language": "zh",
+      "alternate_titles": [
+        "Hongyan"
+      ]
     }
   ],
   "unresolved": [
-    {
-      "key": "BAFTA/2001/Crouching Tiger, Hidden Dragon (Wo Hu Cang Long)",
-      "event": "BAFTA",
-      "year": 2001,
-      "title": "Crouching Tiger, Hidden Dragon (Wo Hu Cang Long)",
-      "source": "https://www.bafta.org/awards/film/?award-year=2001",
-      "anchors": [
-        {
-          "person": "Ang Lee",
-          "director": true
-        },
-        {
-          "person": "Michelle Yeoh"
-        },
-        {
-          "person": "Zhang Ziyi"
-        }
-      ],
-      "category_names": [
-        "Best Film",
-        "Director",
-        "Leading Actress",
-        "Supporting Actress",
-        "Adapted Screenplay",
-        "Film Not in the English Language"
-      ],
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "BAFTA/2001/Harry, He's Here To Help (Harry, Un Ami Qui Vous Veut Du Bien)",
-      "event": "BAFTA",
-      "year": 2001,
-      "title": "Harry, He's Here To Help (Harry, Un Ami Qui Vous Veut Du Bien)",
-      "source": "https://www.bafta.org/awards/film/?award-year=2001",
-      "anchors": [],
-      "category_names": [
-        "Film Not in the English Language"
-      ],
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
     {
       "key": "BAFTA/2001/In The Mood For Love (Fa Yeung Nin Wa)",
       "event": "BAFTA",
@@ -15696,163 +17642,7 @@
       "category_names": [
         "Film Not in the English Language"
       ],
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "BAFTA/2001/Last Resort",
-      "event": "BAFTA",
-      "year": 2001,
-      "title": "Last Resort",
-      "source": "https://www.bafta.org/awards/film/?award-year=2001",
-      "anchors": [],
-      "category_names": [
-        "Outstanding British Film"
-      ],
-      "reason": "Expected one title/year/credit match; found 2; candidates [{\"tmdb_id\":31875,\"title\":\"Last Resort\",\"year\":\"2000-02-23\",\"director\":\"Paweł Pawlikowski\",\"runtime\":73,\"imdb_id\":\"tt0258761\",\"genres\":[\"Drama\",\"Romance\"]},{\"tmdb_id\":1002850,\"title\":\"Last Resort\",\"year\":\"1999-01-01\",\"director\":\"Aner Preminger\",\"runtime\":95,\"imdb_id\":\"tt6841138\",\"genres\":[]}]"
-    },
-    {
-      "key": "BAFTA/2001/The Girl On The Bridge (La Fille Sur Le Pont)",
-      "event": "BAFTA",
-      "year": 2001,
-      "title": "The Girl On The Bridge (La Fille Sur Le Pont)",
-      "source": "https://www.bafta.org/awards/film/?award-year=2001",
-      "anchors": [],
-      "category_names": [
-        "Film Not in the English Language"
-      ],
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "BAFTA/2003/And Your Mother Too (Y Tu Mama Tambien)",
-      "event": "BAFTA",
-      "year": 2003,
-      "title": "And Your Mother Too (Y Tu Mama Tambien)",
-      "source": "https://www.bafta.org/awards/film/?award-year=2003",
-      "anchors": [],
-      "category_names": [
-        "Original Screenplay",
-        "Film Not in the English Language"
-      ],
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "BAFTA/2003/City Of God (Cidade De Deus)",
-      "event": "BAFTA",
-      "year": 2003,
-      "title": "City Of God (Cidade De Deus)",
-      "source": "https://www.bafta.org/awards/film/?award-year=2003",
-      "anchors": [],
-      "category_names": [
-        "Film Not in the English Language"
-      ],
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "BAFTA/2003/Devdas",
-      "event": "BAFTA",
-      "year": 2003,
-      "title": "Devdas",
-      "source": "https://www.bafta.org/awards/film/?award-year=2003",
-      "anchors": [],
-      "category_names": [
-        "Film Not in the English Language"
-      ],
-      "reason": "Expected one title/year/credit match; found 2; candidates [{\"tmdb_id\":15917,\"title\":\"Devdas\",\"year\":\"2002-07-11\",\"director\":\"Sanjay Leela Bhansali\",\"runtime\":185,\"imdb_id\":\"tt0238936\",\"genres\":[\"Drama\",\"Romance\"]},{\"tmdb_id\":1537735,\"title\":\"Devdas\",\"year\":\"2002-05-10\",\"director\":\"Ashim S. Samanta, Shakti Samanta\",\"runtime\":140,\"imdb_id\":\"tt0322004\",\"genres\":[\"Drama\",\"Romance\"]}]"
-    },
-    {
-      "key": "BAFTA/2003/Frida",
-      "event": "BAFTA",
-      "year": 2003,
-      "title": "Frida",
-      "source": "https://www.bafta.org/awards/film/?award-year=2003",
-      "anchors": [
-        {
-          "person": "Salma Hayek"
-        },
-        {
-          "person": "Alfred Molina"
-        }
-      ],
-      "category_names": [
-        "Leading Actress",
-        "Supporting Actor"
-      ],
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":1360,\"title\":\"Frida\",\"year\":\"2002-08-29\",\"director\":\"Julie Taymor\",\"runtime\":123,\"imdb_id\":\"tt0120679\",\"genres\":[\"Drama\",\"Romance\"]}]"
-    },
-    {
-      "key": "BAFTA/2003/Talk To Her (Hable Con Ella)",
-      "event": "BAFTA",
-      "year": 2003,
-      "title": "Talk To Her (Hable Con Ella)",
-      "source": "https://www.bafta.org/awards/film/?award-year=2003",
-      "anchors": [],
-      "category_names": [
-        "Original Screenplay",
-        "Film Not in the English Language"
-      ],
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "BAFTA/2003/The Warrior",
-      "event": "BAFTA",
-      "year": 2003,
-      "title": "The Warrior",
-      "source": "https://www.bafta.org/awards/film/?award-year=2003",
-      "anchors": [],
-      "category_names": [
-        "Outstanding British Film",
-        "Film Not in the English Language"
-      ],
-      "reason": "Expected one title/year/credit match; found 2; candidates [{\"tmdb_id\":23305,\"title\":\"The Warrior\",\"year\":\"2001-09-23\",\"director\":\"Asif Kapadia\",\"runtime\":86,\"imdb_id\":\"tt0295682\",\"genres\":[\"Adventure\",\"Drama\"]},{\"tmdb_id\":1436,\"title\":\"The Warrior\",\"year\":\"2001-09-07\",\"director\":\"Kim Sung-soo\",\"runtime\":155,\"imdb_id\":\"tt0275083\",\"genres\":[\"History\",\"Drama\",\"Action\",\"War\"]}]"
-    },
-    {
-      "key": "BAFTA/2004/Belleville Rendez-Vous",
-      "event": "BAFTA",
-      "year": 2004,
-      "title": "Belleville Rendez-Vous",
-      "source": "https://www.bafta.org/awards/film/?award-year=2004",
-      "anchors": [],
-      "category_names": [
-        "Film Not in the English Language"
-      ],
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "BAFTA/2004/The Barbarian Invasions (Les Invasions Barbares)",
-      "event": "BAFTA",
-      "year": 2004,
-      "title": "The Barbarian Invasions (Les Invasions Barbares)",
-      "source": "https://www.bafta.org/awards/film/?award-year=2004",
-      "anchors": [],
-      "category_names": [
-        "Original Screenplay",
-        "Film Not in the English Language"
-      ],
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "BAFTA/2005/A Very Long Engagement (Un Long Dimanche De Fiançailles)",
-      "event": "BAFTA",
-      "year": 2005,
-      "title": "A Very Long Engagement (Un Long Dimanche De Fiançailles)",
-      "source": "https://www.bafta.org/awards/film/?award-year=2005",
-      "anchors": [],
-      "category_names": [
-        "Film Not in the English Language"
-      ],
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "BAFTA/2005/Bad Education (La Mala Educación)",
-      "event": "BAFTA",
-      "year": 2005,
-      "title": "Bad Education (La Mala Educación)",
-      "source": "https://www.bafta.org/awards/film/?award-year=2005",
-      "anchors": [],
-      "category_names": [
-        "Film Not in the English Language"
-      ],
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
+      "reason": "Expected one title/year/credit match; found 2; candidates [{\"tmdb_id\":843,\"title\":\"In the Mood for Love\",\"year\":\"2000-09-29\",\"director\":\"Wong Kar-wai\",\"runtime\":99,\"imdb_id\":\"tt0118694\",\"genres\":[\"Drama\",\"Romance\"]},{\"tmdb_id\":654086,\"title\":\"@ in the mood for love\",\"year\":\"2001-12-31\",\"director\":\"Wong Kar-wai\",\"runtime\":51,\"imdb_id\":\"tt16077670\",\"genres\":[\"Documentary\"]}]"
     },
     {
       "key": "BAFTA/2005/House Of Flying Daggers (Shi Mian Mai Fu)",
@@ -15869,205 +17659,7 @@
         "Leading Actress",
         "Film Not in the English Language"
       ],
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "BAFTA/2005/The Chorus (Les Choristes)",
-      "event": "BAFTA",
-      "year": 2005,
-      "title": "The Chorus (Les Choristes)",
-      "source": "https://www.bafta.org/awards/film/?award-year=2005",
-      "anchors": [],
-      "category_names": [
-        "Adapted Screenplay",
-        "Film Not in the English Language"
-      ],
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "BAFTA/2005/The Motorcycle Diaries (Diarios De Motocicleta)",
-      "event": "BAFTA",
-      "year": 2005,
-      "title": "The Motorcycle Diaries (Diarios De Motocicleta)",
-      "source": "https://www.bafta.org/awards/film/?award-year=2005",
-      "anchors": [
-        {
-          "person": "Gael García Bernal"
-        },
-        {
-          "person": "Rodrigo De La Serna"
-        }
-      ],
-      "category_names": [
-        "Best Film",
-        "Leading Actor",
-        "Supporting Actor",
-        "Adapted Screenplay",
-        "Film Not in the English Language"
-      ],
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "Golden Globes/2001/Dr. Seuss' How The Grinch Stole Christmas!",
-      "event": "Golden Globes",
-      "year": 2001,
-      "title": "Dr. Seuss' How The Grinch Stole Christmas!",
-      "source": "https://goldenglobes.com/winners-nominees/?year=2001",
-      "anchors": [
-        {
-          "person": "Jim Carrey"
-        }
-      ],
-      "category_names": [
-        "Best Performance by a Male Actor in a Motion Picture – Musical or Comedy"
-      ],
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "Golden Globes/2002/Mulholland Dr.",
-      "event": "Golden Globes",
-      "year": 2002,
-      "title": "Mulholland Dr.",
-      "source": "https://goldenglobes.com/winners-nominees/?year=2002",
-      "anchors": [
-        {
-          "person": "David Lynch",
-          "director": true
-        }
-      ],
-      "category_names": [
-        "Best Motion Picture - Drama",
-        "Best Director - Motion Picture",
-        "Best Screenplay - Motion Picture"
-      ],
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "Golden Globes/2003/Frida",
-      "event": "Golden Globes",
-      "year": 2003,
-      "title": "Frida",
-      "source": "https://goldenglobes.com/winners-nominees/?year=2003",
-      "anchors": [
-        {
-          "person": "Salma Hayek"
-        }
-      ],
-      "category_names": [
-        "Best Performance by a Female Actor in a Motion Picture – Drama"
-      ],
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":1360,\"title\":\"Frida\",\"year\":\"2002-08-29\",\"director\":\"Julie Taymor\",\"runtime\":123,\"imdb_id\":\"tt0120679\",\"genres\":[\"Drama\",\"Romance\"]}]"
-    },
-    {
-      "key": "Golden Globes/2004/Seabiscuit",
-      "event": "Golden Globes",
-      "year": 2004,
-      "title": "Seabiscuit",
-      "source": "https://goldenglobes.com/winners-nominees/?year=2004",
-      "anchors": [
-        {
-          "person": "William Macy"
-        }
-      ],
-      "category_names": [
-        "Best Motion Picture - Drama",
-        "Best Performance by a Male Actor in a Supporting Role in any Motion Picture"
-      ],
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":4464,\"title\":\"Seabiscuit\",\"year\":\"2003-07-22\",\"director\":\"Gary Ross\",\"runtime\":141,\"imdb_id\":\"tt0329575\",\"genres\":[\"Drama\",\"History\"]},{\"tmdb_id\":1103859,\"title\":\"Seabiscuit\",\"year\":\"2003-04-21\",\"director\":\"Stephen Ives\",\"runtime\":53,\"imdb_id\":\"tt0372513\",\"genres\":[\"Documentary\",\"History\"]}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/1056",
-      "event": "Venice",
-      "year": 2000,
-      "title": "L'amore probabilmente",
-      "aliases": [
-        "Probably Love"
-      ],
-      "director": "Giuseppe Bertolucci",
-      "runtime": 108,
-      "source": "https://asac.labiennale.org/attivita/cinema/1056",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":502928,\"title\":\"Probably Love\",\"year\":\"2001-08-30\",\"director\":\"Giuseppe Bertolucci\",\"runtime\":0,\"imdb_id\":\"tt0152083\",\"genres\":[]}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/1088",
-      "event": "Venice",
-      "year": 2001,
-      "title": "L'amore imperfetto",
-      "aliases": [],
-      "director": "Giovanni Davide Maderna",
-      "runtime": 92,
-      "source": "https://asac.labiennale.org/attivita/cinema/1088",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":420710,\"title\":\"L'amore imperfetto\",\"year\":\"2002-04-12\",\"director\":\"Giovanni Davide Maderna\",\"runtime\":0,\"imdb_id\":\"tt0312354\",\"genres\":[\"Drama\"]}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/1097",
-      "event": "Venice",
-      "year": 2001,
-      "title": "Sábado",
-      "aliases": [
-        "Saturday"
-      ],
-      "director": "Juan (II) Villegas",
-      "runtime": 70,
-      "source": "https://asac.labiennale.org/attivita/cinema/1097",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":123450,\"title\":\"Saturday\",\"year\":\"2002-08-22\",\"director\":\"Juan Villegas\",\"runtime\":72,\"imdb_id\":\"tt0284537\",\"genres\":[\"Comedy\"]}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/1099",
-      "event": "Venice",
-      "year": 2001,
-      "title": "Zuotian",
-      "aliases": [
-        "Quitting"
-      ],
-      "director": "Yang (II) Zhang",
-      "runtime": 118,
-      "source": "https://asac.labiennale.org/attivita/cinema/1099",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":87481,\"title\":\"Quitting\",\"year\":\"2001-09-07\",\"director\":\"Zhang Yang\",\"runtime\":114,\"imdb_id\":\"tt0298238\",\"genres\":[\"Drama\"]}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/1986",
-      "event": "Venice",
-      "year": 2003,
-      "title": "Sjaj u očima",
-      "aliases": [
-        "Loving Glances"
-      ],
-      "director": "Srdjan Karanovic",
-      "runtime": 97,
-      "source": "https://asac.labiennale.org/attivita/cinema/1986",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":54633,\"title\":\"Loving Glances\",\"year\":\"2003-09-19\",\"director\":\"Srđan Karanović\",\"runtime\":97,\"imdb_id\":\"tt0335426\",\"genres\":[\"Comedy\",\"Drama\",\"Romance\"]}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/1996",
-      "event": "Venice",
-      "year": 2003,
-      "title": "Vozvrashcheniye",
-      "aliases": [
-        "The Return"
-      ],
-      "director": "Andrei Zvyagintsev",
-      "runtime": 105,
-      "source": "https://asac.labiennale.org/attivita/cinema/1996",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":11190,\"title\":\"The Return\",\"year\":\"2003-06-25\",\"director\":\"Andrey Zvyagintsev\",\"runtime\":111,\"imdb_id\":\"tt0376968\",\"genres\":[\"Drama\",\"Mystery\"]},{\"tmdb_id\":10093,\"title\":\"The Return\",\"year\":\"2006-11-10\",\"director\":\"Asif Kapadia\",\"runtime\":85,\"imdb_id\":\"tt0433442\",\"genres\":[\"Horror\",\"Drama\",\"Thriller\"]}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/203",
-      "event": "Venice",
-      "year": 2005,
-      "title": "Hongyan",
-      "aliases": [],
-      "director": "Li Yu",
-      "runtime": 93,
-      "source": "https://asac.labiennale.org/attivita/cinema/203",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
+      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":9550,\"title\":\"House of Flying Daggers\",\"year\":\"2004-07-16\",\"director\":\"Zhang Yimou\",\"runtime\":119,\"imdb_id\":\"tt0385004\",\"genres\":[\"Adventure\",\"Drama\",\"Action\"]}]"
     },
     {
       "key": "https://asac.labiennale.org/attivita/cinema/206",
@@ -16080,129 +17672,6 @@
       "source": "https://asac.labiennale.org/attivita/cinema/206",
       "festival": true,
       "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/208",
-      "event": "Venice",
-      "year": 2005,
-      "title": "La dignidad de los Nadies",
-      "aliases": [
-        "The Dignity of the Nobodies"
-      ],
-      "director": "Fernando Ezequiel Solanas",
-      "runtime": 120,
-      "source": "https://asac.labiennale.org/attivita/cinema/208",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":98020,\"title\":\"Dignity of the Nobodies\",\"year\":\"2005-09-15\",\"director\":\"Fernando E. Solanas\",\"runtime\":120,\"imdb_id\":\"tt0480126\",\"genres\":[\"Documentary\"]}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/2682",
-      "event": "Venice",
-      "year": 2003,
-      "title": "Une place parmi les vivants",
-      "aliases": [],
-      "director": "Raoul Ruiz",
-      "runtime": 103,
-      "source": "https://asac.labiennale.org/attivita/cinema/2682",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":200002,\"title\":\"A Place Among the Living\",\"year\":\"2003-08-28\",\"director\":\"Raúl Ruiz\",\"runtime\":103,\"imdb_id\":\"tt0408295\",\"genres\":[\"Drama\"]}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/2694",
-      "event": "Venice",
-      "year": 2003,
-      "title": "Schultze Get the Blues",
-      "aliases": [],
-      "director": "Michael Schorr",
-      "runtime": 109,
-      "source": "https://asac.labiennale.org/attivita/cinema/2694",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/3033",
-      "event": "Venice",
-      "year": 2002,
-      "title": "Dom durakov",
-      "aliases": [
-        "Dom durakov - La maison de fous",
-        "House of Fools"
-      ],
-      "director": "Andrey Konchalovskiy",
-      "runtime": 104,
-      "source": "https://asac.labiennale.org/attivita/cinema/3033",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":72996,\"title\":\"House of Fools\",\"year\":\"2002-12-06\",\"director\":\"Andrei Konchalovsky\",\"runtime\":104,\"imdb_id\":\"tt0332605\",\"genres\":[\"Drama\",\"Romance\",\"War\"]}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/3055",
-      "event": "Venice",
-      "year": 2002,
-      "title": "Nizhalkkuthu",
-      "aliases": [
-        "Nizhalkkuthu / Ombres obscures"
-      ],
-      "director": "Adoor Gopalakrishnan",
-      "runtime": 90,
-      "source": "https://asac.labiennale.org/attivita/cinema/3055",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/3066",
-      "event": "Venice",
-      "year": 2002,
-      "title": "Xiao cheng zhi chun",
-      "aliases": [],
-      "director": "Zhuangzhuang Tian",
-      "runtime": 116,
-      "source": "https://asac.labiennale.org/attivita/cinema/3066",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/31",
-      "event": "Venice",
-      "year": 2005,
-      "title": "Changhen ge",
-      "aliases": [
-        "Everlasting Regret"
-      ],
-      "director": "Stanley Kwan",
-      "runtime": 120,
-      "source": "https://asac.labiennale.org/attivita/cinema/31",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":47293,\"title\":\"Everlasting Regret\",\"year\":\"2005-09-29\",\"director\":\"Stanley Kwan Kam-pang\",\"runtime\":106,\"imdb_id\":\"tt0475263\",\"genres\":[\"Drama\",\"Romance\"]}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/502",
-      "event": "Venice",
-      "year": 2004,
-      "title": "Haryu insaeng",
-      "aliases": [
-        "Riding the Tiger",
-        "Jailbreak",
-        "Raging Years"
-      ],
-      "director": "Kwon-taek Im",
-      "runtime": 99,
-      "source": "https://asac.labiennale.org/attivita/cinema/502",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/505",
-      "event": "Venice",
-      "year": 2004,
-      "title": "Sag-haye velgard",
-      "aliases": [
-        "Stray Dogs"
-      ],
-      "director": "Marziyeh Meshkini",
-      "runtime": 93,
-      "source": "https://asac.labiennale.org/attivita/cinema/505",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":43973,\"title\":\"Stray Dogs\",\"year\":\"2004-09-08\",\"director\":\"Marziyeh Meshkiny\",\"runtime\":93,\"imdb_id\":\"tt0423277\",\"genres\":[\"Drama\"]},{\"tmdb_id\":457411,\"title\":\"Stray Dogs\",\"year\":\"2002-06-03\",\"director\":\"Catherine Crouch\",\"runtime\":97,\"imdb_id\":\"tt0267000\",\"genres\":[\"Drama\"]}]"
     },
     {
       "key": "https://asac.labiennale.org/attivita/cinema/510",
@@ -16229,129 +17698,6 @@
       "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":124821,\"title\":\"Eden\",\"year\":\"1998-03-27\",\"director\":\"Howard Goldberg\",\"runtime\":106,\"imdb_id\":\"tt0119049\",\"genres\":[\"Drama\"]}]"
     },
     {
-      "key": "https://asac.labiennale.org/attivita/cinema/610",
-      "event": "Venice",
-      "year": 2004,
-      "title": "La femme de Gilles",
-      "aliases": [
-        "Gilles' Wife"
-      ],
-      "director": "Frédéric Fonteyne",
-      "runtime": 108,
-      "source": "https://asac.labiennale.org/attivita/cinema/610",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 2; candidates [{\"tmdb_id\":61814,\"title\":\"Gilles' Wife\",\"year\":\"2004-09-15\",\"director\":\"Frédéric Fonteyne\",\"runtime\":103,\"imdb_id\":\"tt0382691\",\"genres\":[\"Drama\"]},{\"tmdb_id\":1642934,\"title\":\"Gille's Wife\",\"year\":\"2004-09-15\",\"director\":\"Frédéric Fonteyne\",\"runtime\":103,\"imdb_id\":null,\"genres\":[\"Drama\"]}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/651",
-      "event": "Venice",
-      "year": 2004,
-      "title": "Yesterday",
-      "aliases": [],
-      "director": "Darrell Roodt",
-      "runtime": 91,
-      "source": "https://asac.labiennale.org/attivita/cinema/651",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":823317,\"title\":\"Yesterday\",\"year\":\"2007-01-18\",\"director\":\"Luca Scivoletto\",\"runtime\":13,\"imdb_id\":null,\"genres\":[\"Drama\"]},{\"tmdb_id\":6934,\"title\":\"Yesterday\",\"year\":\"2004-09-03\",\"director\":\"Darrell James Roodt\",\"runtime\":96,\"imdb_id\":\"tt0419279\",\"genres\":[\"Drama\"]},{\"tmdb_id\":50575,\"title\":\"Yesterday\",\"year\":\"2002-06-13\",\"director\":\"Chong Yun-su\",\"runtime\":120,\"imdb_id\":\"tt0326441\",\"genres\":[\"Action\",\"Crime\",\"Science Fiction\",\"Thriller\"]}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/657",
-      "event": "Venice",
-      "year": 2004,
-      "title": "Te lo leggo negli occhi",
-      "aliases": [
-        "I Can See It in Your Eyes"
-      ],
-      "director": "Valia Santella",
-      "runtime": 82,
-      "source": "https://asac.labiennale.org/attivita/cinema/657",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":62272,\"title\":\"Te lo leggo negli occhi\",\"year\":\"2004-09-03\",\"director\":\"Valia Santella\",\"runtime\":0,\"imdb_id\":\"tt0432131\",\"genres\":[\"Drama\"]}]"
-    },
-    {
-      "key": "https://asac.labiennale.org/attivita/cinema/756",
-      "event": "Venice",
-      "year": 2000,
-      "title": "Loin",
-      "aliases": [
-        "Far",
-        "Faraway"
-      ],
-      "director": "Faouzi Bensaïdi, André Téchiné",
-      "runtime": 120,
-      "source": "https://asac.labiennale.org/attivita/cinema/756",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":38304,\"title\":\"Far Away\",\"year\":\"2001-08-29\",\"director\":\"André Téchiné\",\"runtime\":120,\"imdb_id\":\"tt0258242\",\"genres\":[\"Drama\"]}]"
-    },
-    {
-      "key": "https://www.berlinale.de/en/2001/programme/20011241.html",
-      "event": "Berlinale",
-      "year": 2000,
-      "title": "Gong dong kyung bi gu yuk JSA",
-      "aliases": [
-        "J.S.A. (Joint Security Area)"
-      ],
-      "director": "Park Chan-Wook",
-      "runtime": 110,
-      "source": "https://www.berlinale.de/en/2001/programme/20011241.html",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://www.berlinale.de/en/2002/programme/20021164.html",
-      "event": "Berlinale",
-      "year": 2001,
-      "title": "Dekapentavgoustos",
-      "aliases": [
-        "One Day In August",
-        "Ein Tag im August"
-      ],
-      "director": "Constantinos Giannaris",
-      "runtime": 105,
-      "source": "https://www.berlinale.de/en/2002/programme/20021164.html",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":47844,\"title\":\"One Day in August\",\"year\":\"2002-10-13\",\"director\":\"Constantine Giannaris\",\"runtime\":106,\"imdb_id\":\"tt0251661\",\"genres\":[\"Drama\"]}]"
-    },
-    {
-      "key": "https://www.berlinale.de/en/2004/programme/20040163.html",
-      "event": "Berlinale",
-      "year": 2003,
-      "title": "Beautiful Country",
-      "aliases": [],
-      "director": "Hans Petter Moland",
-      "runtime": 126,
-      "source": "https://www.berlinale.de/en/2004/programme/20040163.html",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://www.berlinale.de/en/2004/programme/20040479.html",
-      "event": "Berlinale",
-      "year": 2003,
-      "title": "Trilogia: To livadi pou dakrisi",
-      "aliases": [
-        "Trilogy: The Weeping Meadow",
-        "Trilogie: Die Erde weint"
-      ],
-      "director": "Theo Angelopoulos",
-      "runtime": 170,
-      "source": "https://www.berlinale.de/en/2004/programme/20040479.html",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://www.berlinale.de/en/2004/programme/20042170.html",
-      "event": "Berlinale",
-      "year": 2003,
-      "title": "Country Of My Skull",
-      "aliases": [],
-      "director": "John Boorman",
-      "runtime": 100,
-      "source": "https://www.berlinale.de/en/2004/programme/20042170.html",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
       "key": "https://www.berlinale.de/en/2005/programme/20052735.html",
       "event": "Berlinale",
       "year": 2004,
@@ -16364,90 +17710,7 @@
       "runtime": 110,
       "source": "https://www.berlinale.de/en/2005/programme/20052735.html",
       "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/akai-hashi-noshitano-nurui-mizu/",
-      "event": "Cannes",
-      "year": 2001,
-      "title": "AKAI HASHI NOSHITANO NURUI MIZU",
-      "aliases": [],
-      "director": "Shôhei IMAMURA",
-      "source": "https://www.festival-cannes.com/en/f/akai-hashi-noshitano-nurui-mizu/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/alexandrie-new-york/",
-      "event": "Cannes",
-      "year": 2004,
-      "title": "ALEXANDRIE… NEW YORK",
-      "aliases": [],
-      "director": "Youssef CHAHINE",
-      "source": "https://www.festival-cannes.com/en/f/alexandrie-new-york/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/all-tomorrow-s-parties/",
-      "event": "Cannes",
-      "year": 2003,
-      "title": "ALL TOMORROW’S PARTIES",
-      "aliases": [],
-      "director": "Lik Wai YU",
-      "source": "https://www.festival-cannes.com/en/f/all-tomorrow-s-parties/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":100156,\"title\":\"All Tomorrow's Parties\",\"year\":\"2003-12-31\",\"director\":\"Nelson Yu Lik-wai\",\"runtime\":96,\"imdb_id\":\"tt0384804\",\"genres\":[\"Drama\",\"Science Fiction\"]}]"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/aruku-hito/",
-      "event": "Cannes",
-      "year": 2001,
-      "title": "ARUKU-HITO",
-      "aliases": [
-        "THE MAN WALKING ON THE SNOW"
-      ],
-      "director": "Masahiro KOBAYASHI",
-      "source": "https://www.festival-cannes.com/en/f/aruku-hito/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/avazhaye-sarzamine-madariyam/",
-      "event": "Cannes",
-      "year": 2002,
-      "title": "AVAZHAYÉ SARZAMINÉ MADARIYAM",
-      "aliases": [
-        "SONGS FROM MY MOTHER'S COUNTRY"
-      ],
-      "director": "Bahman GHOBADI",
-      "source": "https://www.festival-cannes.com/en/f/avazhaye-sarzamine-madariyam/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/ce-jour-la/",
-      "event": "Cannes",
-      "year": 2003,
-      "title": "CE JOUR-LÀ",
-      "aliases": [],
-      "director": "Raoul RUIZ",
-      "source": "https://www.festival-cannes.com/en/f/ce-jour-la/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":48778,\"title\":\"That Day\",\"year\":\"2003-06-04\",\"director\":\"Raúl Ruiz\",\"runtime\":105,\"imdb_id\":\"tt0343524\",\"genres\":[\"Mystery\",\"Drama\",\"Comedy\",\"Crime\"]}]"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/cheong-pung-myeong-weol-sword-in-the-moon/",
-      "event": "Cannes",
-      "year": 2004,
-      "title": "CHEONG-PUNG-MYEONG-WEOL (SWORD IN THE MOON)",
-      "aliases": [
-        "SWORD IN THE MOON"
-      ],
-      "director": "Eui-Suk KIM",
-      "source": "https://www.festival-cannes.com/en/f/cheong-pung-myeong-weol-sword-in-the-moon/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":13512,\"title\":\"Sword In The Moon\",\"year\":\"2003-07-15\",\"director\":\"Kim Ui-seok\",\"runtime\":95,\"imdb_id\":\"tt0370402\",\"genres\":[\"Action\",\"Adventure\",\"Drama\"]}]"
+      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":98246,\"title\":\"The Sun\",\"year\":\"2005-02-17\",\"director\":\"Aleksandr Sokurov\",\"runtime\":111,\"imdb_id\":\"tt0439817\",\"genres\":[\"Drama\",\"History\"]}]"
     },
     {
       "key": "https://www.festival-cannes.com/en/f/dix-sept-fois-cecile-cassard/",
@@ -16472,17 +17735,6 @@
       "reason": "Expected one title/year/credit match; found 0; candidates []"
     },
     {
-      "key": "https://www.festival-cannes.com/en/f/en-jouant-dans-la-compagnie-des-hommes/",
-      "event": "Cannes",
-      "year": 2003,
-      "title": "EN JOUANT “DANS LA COMPAGNIE DES HOMMES”",
-      "aliases": [],
-      "director": "Arnaud DESPLECHIN",
-      "source": "https://www.festival-cannes.com/en/f/en-jouant-dans-la-compagnie-des-hommes/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
       "key": "https://www.festival-cannes.com/en/f/farishtay-kitfi-rost/",
       "event": "Cannes",
       "year": 2002,
@@ -16491,31 +17743,7 @@
       "director": "Djamshed USMONOV",
       "source": "https://www.festival-cannes.com/en/f/farishtay-kitfi-rost/",
       "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/hatouna-mehuheret/",
-      "event": "Cannes",
-      "year": 2001,
-      "title": "HATOUNA MEHUHERET",
-      "aliases": [
-        "LATE MARRIAGE"
-      ],
-      "director": "Dover KOSASHVILI",
-      "source": "https://www.festival-cannes.com/en/f/hatouna-mehuheret/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":49680,\"title\":\"Late Marriage\",\"year\":\"2001-10-24\",\"director\":\"Dover Koshashvili\",\"runtime\":102,\"imdb_id\":\"tt0287471\",\"genres\":[\"Comedy\",\"Drama\",\"Romance\"]}]"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/hijack-stories/",
-      "event": "Cannes",
-      "year": 2001,
-      "title": "HIJACK STORIES",
-      "aliases": [],
-      "director": "Oliver",
-      "source": "https://www.festival-cannes.com/en/f/hijack-stories/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":58169,\"title\":\"Hijack Stories\",\"year\":\"2001-07-03\",\"director\":\"Oliver Schmitz\",\"runtime\":90,\"imdb_id\":\"tt0215841\",\"genres\":[\"Drama\",\"Crime\"]}]"
+      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":125936,\"title\":\"Angel on the Right\",\"year\":\"2002-05-24\",\"director\":\"Jamshed Usmonov\",\"runtime\":91,\"imdb_id\":\"tt0317476\",\"genres\":[\"Drama\",\"Comedy\"]}]"
     },
     {
       "key": "https://www.festival-cannes.com/en/f/hotel/",
@@ -16529,30 +17757,6 @@
       "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":575147,\"title\":\"Hotel\",\"year\":\"2003-01-01\",\"director\":\"Greg Yaitanes\",\"runtime\":0,\"imdb_id\":\"tt0371733\",\"genres\":[]}]"
     },
     {
-      "key": "https://www.festival-cannes.com/en/f/jol/",
-      "event": "Cannes",
-      "year": 2001,
-      "title": "JOL",
-      "aliases": [
-        "THE ROAD"
-      ],
-      "director": "Darejan OMIRBAEV",
-      "source": "https://www.festival-cannes.com/en/f/jol/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":129185,\"title\":\"The Road\",\"year\":\"2001-05-18\",\"director\":\"Darezhan Omirbayev\",\"runtime\":85,\"imdb_id\":\"tt0301481\",\"genres\":[\"Drama\"]}]"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/kairo/",
-      "event": "Cannes",
-      "year": 2001,
-      "title": "KAIRO",
-      "aliases": [],
-      "director": "KUROSAWA Kiyoshi",
-      "source": "https://www.festival-cannes.com/en/f/kairo/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
       "key": "https://www.festival-cannes.com/en/f/ku-qi-de-nu-ren/",
       "event": "Cannes",
       "year": 2002,
@@ -16562,76 +17766,6 @@
       "source": "https://www.festival-cannes.com/en/f/ku-qi-de-nu-ren/",
       "festival": true,
       "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/lan-yu/",
-      "event": "Cannes",
-      "year": 2001,
-      "title": "LAN YU",
-      "aliases": [
-        "LAN YU AND I"
-      ],
-      "director": "Stanley KWAN",
-      "source": "https://www.festival-cannes.com/en/f/lan-yu/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":27062,\"title\":\"Lan Yu\",\"year\":\"2001-05-18\",\"director\":\"Stanley Kwan Kam-pang\",\"runtime\":87,\"imdb_id\":\"tt0292066\",\"genres\":[\"Drama\",\"Romance\"]}]"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/le-fils/",
-      "event": "Cannes",
-      "year": 2002,
-      "title": "LE FILS",
-      "aliases": [],
-      "director": "Jean-Pierre DARDENNE, Bruce BROWN",
-      "source": "https://www.festival-cannes.com/en/f/le-fils/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":35172,\"title\":\"The Son\",\"year\":\"2002-10-04\",\"director\":\"Jean-Pierre Dardenne, Luc Dardenne\",\"runtime\":103,\"imdb_id\":\"tt0291172\",\"genres\":[\"Drama\"]}]"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/les-mains-vides/",
-      "event": "Cannes",
-      "year": 2003,
-      "title": "LES MAINS VIDES",
-      "aliases": [],
-      "director": "Marc RECHA",
-      "source": "https://www.festival-cannes.com/en/f/les-mains-vides/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/long-way-home/",
-      "event": "Cannes",
-      "year": 2002,
-      "title": "LONG WAY HOME",
-      "aliases": [],
-      "director": "Peter SOLLETT",
-      "source": "https://www.festival-cannes.com/en/f/long-way-home/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/lu-cheng/",
-      "event": "Cannes",
-      "year": 2004,
-      "title": "LU CHENG",
-      "aliases": [],
-      "director": "Chao YANG",
-      "source": "https://www.festival-cannes.com/en/f/lu-cheng/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/maimil/",
-      "event": "Cannes",
-      "year": 2001,
-      "title": "MAIMIL",
-      "aliases": [
-        "THE CHIMP"
-      ],
-      "director": "Aktan ABDYKALYKOV",
-      "source": "https://www.festival-cannes.com/en/f/maimil/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":327042,\"title\":\"The Chimp\",\"year\":\"2001-05-01\",\"director\":\"Aktan Arym Kubat\",\"runtime\":90,\"imdb_id\":\"tt0301587\",\"genres\":[\"Drama\"]}]"
     },
     {
       "key": "https://www.festival-cannes.com/en/f/marock/",
@@ -16645,98 +17779,6 @@
       "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":61686,\"title\":\"Marock\",\"year\":\"2005-05-20\",\"director\":\"Laïla Marrakchi\",\"runtime\":0,\"imdb_id\":\"tt0415147\",\"genres\":[\"Drama\",\"Romance\"]}]"
     },
     {
-      "key": "https://www.festival-cannes.com/en/f/ni-nei-pien-chi-tien/",
-      "event": "Cannes",
-      "year": 2001,
-      "title": "NI NEI PIEN CHI TIEN",
-      "aliases": [],
-      "director": "Ming-Liang TSAI",
-      "source": "https://www.festival-cannes.com/en/f/ni-nei-pien-chi-tien/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/nordeste/",
-      "event": "Cannes",
-      "year": 2005,
-      "title": "NORDESTE",
-      "aliases": [],
-      "director": "Juan SOLANAS",
-      "source": "https://www.festival-cannes.com/en/f/nordeste/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":7276,\"title\":\"Northeast\",\"year\":\"2005-05-13\",\"director\":\"Juan Diego Solanas\",\"runtime\":104,\"imdb_id\":\"tt0398664\",\"genres\":[\"Drama\"]}]"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/old-boy/",
-      "event": "Cannes",
-      "year": 2004,
-      "title": "OLD BOY",
-      "aliases": [],
-      "director": "PARK Chan-Wook",
-      "source": "https://www.festival-cannes.com/en/f/old-boy/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/otets-y-syn/",
-      "event": "Cannes",
-      "year": 2003,
-      "title": "OTETS Y SYN",
-      "aliases": [
-        "FATHER AND SON"
-      ],
-      "director": "Aleksandr SOKUROV",
-      "source": "https://www.festival-cannes.com/en/f/otets-y-syn/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":1145062,\"title\":\"Father and Son\",\"year\":\"2005-01-01\",\"director\":\"Roh Gyeong-tae\",\"runtime\":7,\"imdb_id\":null,\"genres\":[]}]"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/panj-e-asr/",
-      "event": "Cannes",
-      "year": 2003,
-      "title": "PANJ É ASR",
-      "aliases": [],
-      "director": "Samira MAKHMALBAF",
-      "source": "https://www.festival-cannes.com/en/f/panj-e-asr/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/robinson-s-crusoe/",
-      "event": "Cannes",
-      "year": 2003,
-      "title": "ROBINSON’S CRUSOE",
-      "aliases": [],
-      "director": "Chen-Sheng LIN",
-      "source": "https://www.festival-cannes.com/en/f/robinson-s-crusoe/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":259066,\"title\":\"Robinson's Crusoe\",\"year\":\"2003-05-22\",\"director\":\"Lin Cheng-sheng\",\"runtime\":103,\"imdb_id\":\"tt0340642\",\"genres\":[]}]"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/russian-ark/",
-      "event": "Cannes",
-      "year": 2002,
-      "title": "RUSSIAN ARK",
-      "aliases": [],
-      "director": "Alexander SOKOUROV",
-      "source": "https://www.festival-cannes.com/en/f/russian-ark/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":16646,\"title\":\"Russian Ark\",\"year\":\"2002-05-22\",\"director\":\"Aleksandr Sokurov\",\"runtime\":99,\"imdb_id\":\"tt0318034\",\"genres\":[\"Drama\",\"Fantasy\",\"History\"]}]"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/safar-e-gandehar/",
-      "event": "Cannes",
-      "year": 2001,
-      "title": "SAFAR E GANDEHAR",
-      "aliases": [
-        "QANDAHAR"
-      ],
-      "director": "Mohsen MAKHMALBAF",
-      "source": "https://www.festival-cannes.com/en/f/safar-e-gandehar/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
       "key": "https://www.festival-cannes.com/en/f/sangre/",
       "event": "Cannes",
       "year": 2005,
@@ -16746,17 +17788,6 @@
       "source": "https://www.festival-cannes.com/en/f/sangre/",
       "festival": true,
       "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":1022727,\"title\":\"Sangre\",\"year\":\"2006-01-01\",\"director\":\"Belita Moreno\",\"runtime\":13,\"imdb_id\":null,\"genres\":[]}]"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/schizo/",
-      "event": "Cannes",
-      "year": 2004,
-      "title": "SCHIZO",
-      "aliases": [],
-      "director": "Guka OMAROVA",
-      "source": "https://www.festival-cannes.com/en/f/schizo/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":47200,\"title\":\"Schizo\",\"year\":\"2004-01-01\",\"director\":\"Gulshat Omarova\",\"runtime\":86,\"imdb_id\":\"tt0406216\",\"genres\":[\"Crime\",\"Drama\",\"Romance\",\"Mystery\"]}]"
     },
     {
       "key": "https://www.festival-cannes.com/en/f/september/",
@@ -16770,28 +17801,6 @@
       "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":445084,\"title\":\"September\",\"year\":\"2005-09-27\",\"director\":\"Danny Clinch\",\"runtime\":19,\"imdb_id\":\"\",\"genres\":[\"Documentary\",\"Music\"]}]"
     },
     {
-      "key": "https://www.festival-cannes.com/en/f/sharasojyu/",
-      "event": "Cannes",
-      "year": 2003,
-      "title": "SHARASOJYU",
-      "aliases": [],
-      "director": "Naomi KAWASE",
-      "source": "https://www.festival-cannes.com/en/f/sharasojyu/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/sud-pralad/",
-      "event": "Cannes",
-      "year": 2004,
-      "title": "SUD PRALAD",
-      "aliases": [],
-      "director": "Apichatpong WEERASETHAKUL",
-      "source": "https://www.festival-cannes.com/en/f/sud-pralad/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
       "key": "https://www.festival-cannes.com/en/f/sunduq-al-dunya/",
       "event": "Cannes",
       "year": 2002,
@@ -16803,28 +17812,6 @@
       "reason": "Expected one title/year/credit match; found 0; candidates []"
     },
     {
-      "key": "https://www.festival-cannes.com/en/f/taurus/",
-      "event": "Cannes",
-      "year": 2001,
-      "title": "TAURUS",
-      "aliases": [],
-      "director": "Alexander SOKOUROV",
-      "source": "https://www.festival-cannes.com/en/f/taurus/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":45943,\"title\":\"Taurus\",\"year\":\"2001-02-24\",\"director\":\"Aleksandr Sokurov\",\"runtime\":104,\"imdb_id\":\"tt0283623\",\"genres\":[\"Drama\"]}]"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/ten-minutes-older/",
-      "event": "Cannes",
-      "year": 2002,
-      "title": "TEN MINUTES OLDER",
-      "aliases": [],
-      "director": "Jim JARMUSCH, Spike LEE, Aki KAURISMAKI, Wim WENDERS, Werner HERZOG, Victor ERICE, Kaige CHEN",
-      "source": "https://www.festival-cannes.com/en/f/ten-minutes-older/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
       "key": "https://www.festival-cannes.com/en/f/the-king/",
       "event": "Cannes",
       "year": 2005,
@@ -16832,74 +17819,6 @@
       "aliases": [],
       "director": "James MARSH",
       "source": "https://www.festival-cannes.com/en/f/the-king/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/the-man-who-wasn-t-there/",
-      "event": "Cannes",
-      "year": 2001,
-      "title": "THE MAN WHO WASN’T THERE",
-      "aliases": [],
-      "director": "Joel COEN",
-      "source": "https://www.festival-cannes.com/en/f/the-man-who-wasn-t-there/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":10778,\"title\":\"The Man Who Wasn't There\",\"year\":\"2001-10-26\",\"director\":\"Joel Coen, Ethan Coen\",\"runtime\":116,\"imdb_id\":\"tt0243133\",\"genres\":[\"Crime\",\"Drama\"]}]"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/the-tulse-luper-suitcases-part-i-the-moab-story/",
-      "event": "Cannes",
-      "year": 2003,
-      "title": "THE TULSE LUPER SUITCASES-PART I. THE MOAB STORY",
-      "aliases": [],
-      "director": "Peter GREENAWAY",
-      "source": "https://www.festival-cannes.com/en/f/the-tulse-luper-suitcases-part-i-the-moab-story/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/ty-da-ia-da-my-s-tobo/",
-      "event": "Cannes",
-      "year": 2001,
-      "title": "TY DA IA DA MY S TOBO",
-      "aliases": [
-        "JUST THE TWO OF US"
-      ],
-      "director": "Alexandre VELEDINSKY",
-      "source": "https://www.festival-cannes.com/en/f/ty-da-ia-da-my-s-tobo/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":1660716,\"title\":\"Just the Two of Us\",\"year\":\"2005-08-23\",\"director\":\"\",\"runtime\":10,\"imdb_id\":\"tt0478688\",\"genres\":[\"Documentary\"]},{\"tmdb_id\":265543,\"title\":\"Just the Two of Us\",\"year\":\"2001-05-14\",\"director\":\"Alexandr Veledinsky\",\"runtime\":27,\"imdb_id\":\"tt2785278\",\"genres\":[\"Drama\",\"Comedy\"]}]"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/va-savoir/",
-      "event": "Cannes",
-      "year": 2001,
-      "title": "VA SAVOIR",
-      "aliases": [],
-      "director": "Jacques RIVETTE",
-      "source": "https://www.festival-cannes.com/en/f/va-savoir/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 2; candidates [{\"tmdb_id\":55372,\"title\":\"Va Savoir (Who Knows?)\",\"year\":\"2001-09-28\",\"director\":\"Jacques Rivette\",\"runtime\":154,\"imdb_id\":\"tt0242994\",\"genres\":[\"Drama\",\"Comedy\",\"Romance\"]},{\"tmdb_id\":1563644,\"title\":\"Va savoir+\",\"year\":\"2001-10-10\",\"director\":\"Jacques Rivette\",\"runtime\":223,\"imdb_id\":null,\"genres\":[\"Comedy\",\"Romance\",\"Drama\"]}]"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/vou-para-casa/",
-      "event": "Cannes",
-      "year": 2001,
-      "title": "VOU PARA CASA",
-      "aliases": [],
-      "director": "Manoel DE OLIVEIRA",
-      "source": "https://www.festival-cannes.com/en/f/vou-para-casa/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "https://www.festival-cannes.com/en/f/yadon-ilaheyya/",
-      "event": "Cannes",
-      "year": 2002,
-      "title": "YADON ILAHEYYA",
-      "aliases": [],
-      "director": "Elia SULEIMAN",
-      "source": "https://www.festival-cannes.com/en/f/yadon-ilaheyya/",
       "festival": true,
       "reason": "Expected one title/year/credit match; found 0; candidates []"
     },
@@ -16917,29 +17836,6 @@
       "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":1522024,\"title\":\"One Night\",\"year\":\"2008-08-06\",\"director\":\"Hani al-Shaibani\",\"runtime\":70,\"imdb_id\":\"tt37516908\",\"genres\":[\"Drama\"]},{\"tmdb_id\":290376,\"title\":\"One Night\",\"year\":\"2005-07-15\",\"director\":\"Emmanuel Dela Cruz\",\"runtime\":105,\"imdb_id\":\"tt0828447\",\"genres\":[\"Drama\"]},{\"tmdb_id\":253471,\"title\":\"One Night\",\"year\":\"2007-01-01\",\"director\":\"Michael Knowles\",\"runtime\":97,\"imdb_id\":\"tt0847216\",\"genres\":[\"Drama\",\"Romance\"]}]"
     },
     {
-      "key": "https://www.festival-cannes.com/en/f/yellow-fella/",
-      "event": "Cannes",
-      "year": 2005,
-      "title": "YELLOW FELLA",
-      "aliases": [],
-      "director": "Ivan SEN",
-      "source": "https://www.festival-cannes.com/en/f/yellow-fella/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":307086,\"title\":\"Yellow Fella\",\"year\":\"2005-05-19\",\"director\":\"Ivan Sen\",\"runtime\":25,\"imdb_id\":\"tt0469998\",\"genres\":[\"Documentary\"]}]"
-    },
-    {
-      "key": "Oscars/2001/Everybody Famous!",
-      "event": "Oscars",
-      "year": 2001,
-      "title": "Everybody Famous!",
-      "source": "https://www.oscars.org/oscars/ceremonies/2001",
-      "anchors": [],
-      "category_names": [
-        "International Feature Film"
-      ],
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
       "key": "Oscars/2001/Legacy",
       "event": "Oscars",
       "year": 2001,
@@ -16950,107 +17846,6 @@
         "Documentary Feature Film"
       ],
       "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "Oscars/2002/Lagaan",
-      "event": "Oscars",
-      "year": 2002,
-      "title": "Lagaan",
-      "source": "https://www.oscars.org/oscars/ceremonies/2002",
-      "anchors": [],
-      "category_names": [
-        "International Feature Film"
-      ],
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "Oscars/2003/Frida",
-      "event": "Oscars",
-      "year": 2003,
-      "title": "Frida",
-      "source": "https://www.oscars.org/oscars/ceremonies/2003",
-      "anchors": [
-        {
-          "person": "Salma Hayek"
-        }
-      ],
-      "category_names": [
-        "Actress in a Leading Role"
-      ],
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":1360,\"title\":\"Frida\",\"year\":\"2002-08-29\",\"director\":\"Julie Taymor\",\"runtime\":123,\"imdb_id\":\"tt0120679\",\"genres\":[\"Drama\",\"Romance\"]}]"
-    },
-    {
-      "key": "Oscars/2004/Evil",
-      "event": "Oscars",
-      "year": 2004,
-      "title": "Evil",
-      "source": "https://www.oscars.org/oscars/ceremonies/2004",
-      "anchors": [],
-      "category_names": [
-        "International Feature Film"
-      ],
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "Oscars/2004/My Architect",
-      "event": "Oscars",
-      "year": 2004,
-      "title": "My Architect",
-      "source": "https://www.oscars.org/oscars/ceremonies/2004",
-      "anchors": [],
-      "category_names": [
-        "Documentary Feature Film"
-      ],
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "Oscars/2004/Seabiscuit",
-      "event": "Oscars",
-      "year": 2004,
-      "title": "Seabiscuit",
-      "source": "https://www.oscars.org/oscars/ceremonies/2004",
-      "anchors": [],
-      "category_names": [
-        "Best Picture",
-        "Writing (Adapted Screenplay)"
-      ],
-      "reason": "Expected one title/year/credit match; found 2; candidates [{\"tmdb_id\":4464,\"title\":\"Seabiscuit\",\"year\":\"2003-07-22\",\"director\":\"Gary Ross\",\"runtime\":141,\"imdb_id\":\"tt0329575\",\"genres\":[\"Drama\",\"History\"]},{\"tmdb_id\":1103859,\"title\":\"Seabiscuit\",\"year\":\"2003-04-21\",\"director\":\"Stephen Ives\",\"runtime\":53,\"imdb_id\":\"tt0372513\",\"genres\":[\"Documentary\",\"History\"]}]"
-    },
-    {
-      "key": "Oscars/2005/Born into Brothels",
-      "event": "Oscars",
-      "year": 2005,
-      "title": "Born into Brothels",
-      "source": "https://www.oscars.org/oscars/ceremonies/2005",
-      "anchors": [],
-      "category_names": [
-        "Documentary Feature Film"
-      ],
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "Oscars/2005/The Chorus (Les Choristes)",
-      "event": "Oscars",
-      "year": 2005,
-      "title": "The Chorus (Les Choristes)",
-      "source": "https://www.oscars.org/oscars/ceremonies/2005",
-      "anchors": [],
-      "category_names": [
-        "International Feature Film"
-      ],
-      "reason": "Expected one title/year/credit match; found 0; candidates []"
-    },
-    {
-      "key": "Oscars/2005/Yesterday",
-      "event": "Oscars",
-      "year": 2005,
-      "title": "Yesterday",
-      "source": "https://www.oscars.org/oscars/ceremonies/2005",
-      "anchors": [],
-      "category_names": [
-        "International Feature Film"
-      ],
-      "reason": "Expected one title/year/credit match; found 2; candidates [{\"tmdb_id\":6934,\"title\":\"Yesterday\",\"year\":\"2004-09-03\",\"director\":\"Darrell James Roodt\",\"runtime\":96,\"imdb_id\":\"tt0419279\",\"genres\":[\"Drama\"]},{\"tmdb_id\":50575,\"title\":\"Yesterday\",\"year\":\"2002-06-13\",\"director\":\"Chong Yun-su\",\"runtime\":120,\"imdb_id\":\"tt0326441\",\"genres\":[\"Action\",\"Crime\",\"Science Fiction\",\"Thriller\"]}]"
     }
   ],
   "poster_recovery": [],
