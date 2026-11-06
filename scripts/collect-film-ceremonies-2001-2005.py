@@ -81,4 +81,4 @@ for year in range(2001,2006):
   assert sum(r['winner'] for r in rows)>=1,(year,label)
   cats.append(dict(name=display,original_category=label,entries=rows))
  events.append(dict(event='Golden Globes',year=year,section='Major Film Categories',source=f'https://goldenglobes.com/winners-nominees/?year={year}',data_source=f'https://goldenglobes.com/wp-json/awdb/v1/winners-and-nominees/?year={year}',note='Animated Feature was not introduced until 2007.',categories=cats))
-save('globes',events)
+save('globes',events,source_corrections=[dict(year=2001,source_id=69617,title='Dancer in the Dark',person='Björk',reason='Restore missing film and nominee from the official Globes retrospective.',source='https://goldenglobes.com/articles/vintage-cannes-2000-year-bjork/'),dict(year=2001,excluded_source_id=72169,person='Tilda Swinton',reason='Misplaced duplicate of the 2002 The Deep End nomination; the official film record and 2002 annual archive supply the correct year.',source='https://goldenglobes.com/film/deep-end-the/')])

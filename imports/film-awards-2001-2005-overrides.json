@@ -1,1 +1,924 @@
-{}
+{
+  "BAFTA/2001/Crouching Tiger, Hidden Dragon (Wo Hu Cang Long)": {
+    "aliases": [
+      "Crouching Tiger, Hidden Dragon",
+      "Wo Hu Cang Long"
+    ],
+    "source_urls": [
+      "https://www.bafta.org/awards/film/?award-year=2001"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "BAFTA/2001/Harry, He's Here To Help (Harry, Un Ami Qui Vous Veut Du Bien)": {
+    "aliases": [
+      "Harry, He's Here To Help",
+      "Harry, Un Ami Qui Vous Veut Du Bien"
+    ],
+    "source_urls": [
+      "https://www.bafta.org/awards/film/?award-year=2001"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "BAFTA/2001/In The Mood For Love (Fa Yeung Nin Wa)": {
+    "aliases": [
+      "In The Mood For Love",
+      "Fa Yeung Nin Wa"
+    ],
+    "source_urls": [
+      "https://www.bafta.org/awards/film/?award-year=2001"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "BAFTA/2001/Last Resort": {
+    "director_aliases": [
+      "Paweł Pawlikowski"
+    ],
+    "source_urls": [
+      "https://www.bafta.org/awards/film/?award-year=2001"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "BAFTA/2001/The Girl On The Bridge (La Fille Sur Le Pont)": {
+    "aliases": [
+      "The Girl On The Bridge",
+      "La Fille Sur Le Pont"
+    ],
+    "source_urls": [
+      "https://www.bafta.org/awards/film/?award-year=2001"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "BAFTA/2003/And Your Mother Too (Y Tu Mama Tambien)": {
+    "aliases": [
+      "And Your Mother Too",
+      "Y Tu Mama Tambien"
+    ],
+    "source_urls": [
+      "https://www.bafta.org/awards/film/?award-year=2003"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "BAFTA/2003/City Of God (Cidade De Deus)": {
+    "aliases": [
+      "City Of God",
+      "Cidade De Deus"
+    ],
+    "source_urls": [
+      "https://www.bafta.org/awards/film/?award-year=2003"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "BAFTA/2003/Devdas": {
+    "director_aliases": [
+      "Sanjay Leela Bhansali"
+    ],
+    "source_urls": [
+      "https://www.bafta.org/awards/film/?award-year=2003"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "BAFTA/2003/Frida": {
+    "actor_aliases": {
+      "Salma Hayek": [
+        "Salma Hayek Pinault"
+      ]
+    },
+    "source_urls": [
+      "https://www.bafta.org/awards/film/?award-year=2003"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "BAFTA/2003/Talk To Her (Hable Con Ella)": {
+    "aliases": [
+      "Talk To Her",
+      "Hable Con Ella"
+    ],
+    "source_urls": [
+      "https://www.bafta.org/awards/film/?award-year=2003"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "BAFTA/2003/The Warrior": {
+    "director_aliases": [
+      "Asif Kapadia"
+    ],
+    "source_urls": [
+      "https://www.bafta.org/awards/film/?award-year=2003"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "BAFTA/2004/Belleville Rendez-Vous": {
+    "aliases": [
+      "The Triplets of Belleville"
+    ],
+    "source_urls": [
+      "https://www.bafta.org/awards/film/?award-year=2004"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "BAFTA/2004/The Barbarian Invasions (Les Invasions Barbares)": {
+    "aliases": [
+      "The Barbarian Invasions",
+      "Les Invasions Barbares"
+    ],
+    "source_urls": [
+      "https://www.bafta.org/awards/film/?award-year=2004"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "BAFTA/2005/A Very Long Engagement (Un Long Dimanche De Fiançailles)": {
+    "aliases": [
+      "A Very Long Engagement",
+      "Un Long Dimanche De Fiançailles"
+    ],
+    "source_urls": [
+      "https://www.bafta.org/awards/film/?award-year=2005"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "BAFTA/2005/Bad Education (La Mala Educación)": {
+    "aliases": [
+      "Bad Education",
+      "La Mala Educación"
+    ],
+    "source_urls": [
+      "https://www.bafta.org/awards/film/?award-year=2005"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "BAFTA/2005/House Of Flying Daggers (Shi Mian Mai Fu)": {
+    "aliases": [
+      "House Of Flying Daggers",
+      "Shi Mian Mai Fu"
+    ],
+    "source_urls": [
+      "https://www.bafta.org/awards/film/?award-year=2005"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "BAFTA/2005/The Chorus (Les Choristes)": {
+    "aliases": [
+      "The Chorus",
+      "Les Choristes"
+    ],
+    "source_urls": [
+      "https://www.bafta.org/awards/film/?award-year=2005"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "BAFTA/2005/The Motorcycle Diaries (Diarios De Motocicleta)": {
+    "aliases": [
+      "The Motorcycle Diaries",
+      "Diarios De Motocicleta"
+    ],
+    "source_urls": [
+      "https://www.bafta.org/awards/film/?award-year=2005"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "Golden Globes/2001/Dr. Seuss' How The Grinch Stole Christmas!": {
+    "aliases": [
+      "How the Grinch Stole Christmas"
+    ],
+    "source_urls": [
+      "https://goldenglobes.com/winners-nominees/?year=2001"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "Golden Globes/2002/Mulholland Dr.": {
+    "aliases": [
+      "Mulholland Drive"
+    ],
+    "source_urls": [
+      "https://goldenglobes.com/winners-nominees/?year=2002"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "Golden Globes/2003/Frida": {
+    "actor_aliases": {
+      "Salma Hayek": [
+        "Salma Hayek Pinault"
+      ]
+    },
+    "source_urls": [
+      "https://goldenglobes.com/winners-nominees/?year=2003"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "Golden Globes/2004/Seabiscuit": {
+    "director_aliases": [
+      "Gary Ross"
+    ],
+    "actor_aliases": {
+      "William Macy": [
+        "William H. Macy"
+      ]
+    },
+    "source_urls": [
+      "https://goldenglobes.com/winners-nominees/?year=2004"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://asac.labiennale.org/attivita/cinema/1056": {
+    "runtime": 108,
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/1056"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://asac.labiennale.org/attivita/cinema/1088": {
+    "runtime": 92,
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/1088"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://asac.labiennale.org/attivita/cinema/1097": {
+    "director_aliases": [
+      "Juan Villegas"
+    ],
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/1097"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://asac.labiennale.org/attivita/cinema/1099": {
+    "director_aliases": [
+      "Zhang Yang"
+    ],
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/1099"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://asac.labiennale.org/attivita/cinema/1986": {
+    "director_aliases": [
+      "Srđan Karanović"
+    ],
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/1986"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://asac.labiennale.org/attivita/cinema/1996": {
+    "director_aliases": [
+      "Andrey Zvyagintsev"
+    ],
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/1996"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://asac.labiennale.org/attivita/cinema/203": {
+    "aliases": [
+      "Dam Street",
+      "红颜"
+    ],
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/203"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://asac.labiennale.org/attivita/cinema/208": {
+    "director_aliases": [
+      "Fernando E. Solanas"
+    ],
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/208"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://asac.labiennale.org/attivita/cinema/2682": {
+    "director_aliases": [
+      "Raúl Ruiz"
+    ],
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/2682"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://asac.labiennale.org/attivita/cinema/2694": {
+    "aliases": [
+      "Schultze Gets the Blues"
+    ],
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/2694"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://asac.labiennale.org/attivita/cinema/3033": {
+    "director_aliases": [
+      "Andrei Konchalovsky"
+    ],
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/3033"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://asac.labiennale.org/attivita/cinema/3055": {
+    "aliases": [
+      "Shadow Kill"
+    ],
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/3055"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://asac.labiennale.org/attivita/cinema/3066": {
+    "aliases": [
+      "Springtime in a Small Town"
+    ],
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/3066"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://asac.labiennale.org/attivita/cinema/31": {
+    "director_aliases": [
+      "Stanley Kwan Kam-pang"
+    ],
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/31"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://asac.labiennale.org/attivita/cinema/502": {
+    "aliases": [
+      "Low Life",
+      "Raging Years"
+    ],
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/502"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://asac.labiennale.org/attivita/cinema/505": {
+    "director_aliases": [
+      "Marziyeh Meshkiny"
+    ],
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/505"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://asac.labiennale.org/attivita/cinema/610": {
+    "tmdb_id": 61814,
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/610"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://asac.labiennale.org/attivita/cinema/651": {
+    "director_aliases": [
+      "Darrell James Roodt"
+    ],
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/651"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://asac.labiennale.org/attivita/cinema/657": {
+    "runtime": 82,
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/657"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://asac.labiennale.org/attivita/cinema/756": {
+    "director_aliases": [
+      "André Téchiné"
+    ],
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/756"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.berlinale.de/en/2001/programme/20011241.html": {
+    "aliases": [
+      "Joint Security Area",
+      "공동경비구역 JSA"
+    ],
+    "source_urls": [
+      "https://www.berlinale.de/en/2001/programme/20011241.html"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.berlinale.de/en/2002/programme/20021164.html": {
+    "director_aliases": [
+      "Constantine Giannaris"
+    ],
+    "source_urls": [
+      "https://www.berlinale.de/en/2002/programme/20021164.html"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.berlinale.de/en/2004/programme/20040163.html": {
+    "aliases": [
+      "The Beautiful Country"
+    ],
+    "source_urls": [
+      "https://www.berlinale.de/en/2004/programme/20040163.html"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.berlinale.de/en/2004/programme/20040479.html": {
+    "aliases": [
+      "The Weeping Meadow",
+      "Trilogy: The Weeping Meadow"
+    ],
+    "source_urls": [
+      "https://www.berlinale.de/en/2004/programme/20040479.html"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.berlinale.de/en/2004/programme/20042170.html": {
+    "aliases": [
+      "In My Country"
+    ],
+    "source_urls": [
+      "https://www.berlinale.de/en/2004/programme/20042170.html"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.berlinale.de/en/2005/programme/20052735.html": {
+    "aliases": [
+      "The Sun",
+      "Солнце"
+    ],
+    "source_urls": [
+      "https://www.berlinale.de/en/2005/programme/20052735.html"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/akai-hashi-noshitano-nurui-mizu/": {
+    "aliases": [
+      "Warm Water Under a Red Bridge"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/akai-hashi-noshitano-nurui-mizu/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/alexandrie-new-york/": {
+    "aliases": [
+      "Alexandria... New York",
+      "Alexandria… New York"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/alexandrie-new-york/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/all-tomorrow-s-parties/": {
+    "director_aliases": [
+      "Nelson Yu Lik-wai"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/all-tomorrow-s-parties/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/aruku-hito/": {
+    "aliases": [
+      "Man Walking on Snow"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/aruku-hito/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/avazhaye-sarzamine-madariyam/": {
+    "aliases": [
+      "Marooned in Iraq",
+      "Songs of My Motherland"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/avazhaye-sarzamine-madariyam/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/ce-jour-la/": {
+    "director_aliases": [
+      "Raúl Ruiz"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/ce-jour-la/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/cheong-pung-myeong-weol-sword-in-the-moon/": {
+    "director_aliases": [
+      "Kim Ui-seok"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/cheong-pung-myeong-weol-sword-in-the-moon/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/dix-sept-fois-cecile-cassard/": {
+    "aliases": [
+      "Seventeen Times Cécile Cassard",
+      "17 Times Cécile Cassard"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/dix-sept-fois-cecile-cassard/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/eli-eli-lema-sabachthani/": {
+    "aliases": [
+      "Eli, Eli, Lema Sabachthani?",
+      "Eli, Eli, Lema Sabachthani"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/eli-eli-lema-sabachthani/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/en-jouant-dans-la-compagnie-des-hommes/": {
+    "aliases": [
+      "Playing \"In the Company of Men\"",
+      "In the Company of Men"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/en-jouant-dans-la-compagnie-des-hommes/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/farishtay-kitfi-rost/": {
+    "aliases": [
+      "Angel on the Right"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/farishtay-kitfi-rost/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/hatouna-mehuheret/": {
+    "director_aliases": [
+      "Dover Koshashvili"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/hatouna-mehuheret/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/hijack-stories/": {
+    "director_aliases": [
+      "Oliver Schmitz"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/hijack-stories/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/jol/": {
+    "director_aliases": [
+      "Darezhan Omirbayev"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/jol/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/kairo/": {
+    "aliases": [
+      "Pulse",
+      "回路"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/kairo/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/ku-qi-de-nu-ren/": {
+    "aliases": [
+      "Crying Woman",
+      "The Crying Woman"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/ku-qi-de-nu-ren/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/lan-yu/": {
+    "director_aliases": [
+      "Stanley Kwan Kam-pang"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/lan-yu/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/le-fils/": {
+    "director_aliases": [
+      "Jean-Pierre Dardenne, Luc Dardenne"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/le-fils/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/les-mains-vides/": {
+    "aliases": [
+      "Where Is Madame Catherine?"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/les-mains-vides/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/long-way-home/": {
+    "aliases": [
+      "Raising Victor Vargas"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/long-way-home/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/lu-cheng/": {
+    "aliases": [
+      "Passages",
+      "The Journey"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/lu-cheng/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/maimil/": {
+    "director_aliases": [
+      "Aktan Arym Kubat"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/maimil/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/ni-nei-pien-chi-tien/": {
+    "aliases": [
+      "What Time Is It There?"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/ni-nei-pien-chi-tien/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/nordeste/": {
+    "director_aliases": [
+      "Juan Diego Solanas"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/nordeste/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/old-boy/": {
+    "aliases": [
+      "Oldboy",
+      "올드보이"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/old-boy/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/otets-y-syn/": {
+    "aliases": [
+      "Father and Son",
+      "Отец и сын"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/otets-y-syn/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/panj-e-asr/": {
+    "aliases": [
+      "At Five in the Afternoon"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/panj-e-asr/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/robinson-s-crusoe/": {
+    "director_aliases": [
+      "Lin Cheng-sheng"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/robinson-s-crusoe/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/russian-ark/": {
+    "director_aliases": [
+      "Aleksandr Sokurov"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/russian-ark/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/safar-e-gandehar/": {
+    "aliases": [
+      "Kandahar",
+      "Safar-e Ghandehar"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/safar-e-gandehar/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/schizo/": {
+    "director_aliases": [
+      "Gulshat Omarova"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/schizo/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/sharasojyu/": {
+    "aliases": [
+      "Shara",
+      "Sharasojyu"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/sharasojyu/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/sud-pralad/": {
+    "aliases": [
+      "Tropical Malady"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/sud-pralad/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/sunduq-al-dunya/": {
+    "aliases": [
+      "The Box of Life",
+      "The Box"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/sunduq-al-dunya/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/taurus/": {
+    "director_aliases": [
+      "Aleksandr Sokurov"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/taurus/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/ten-minutes-older/": {
+    "aliases": [
+      "Ten Minutes Older: The Trumpet"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/ten-minutes-older/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/the-man-who-wasn-t-there/": {
+    "director_aliases": [
+      "Joel Coen, Ethan Coen"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/the-man-who-wasn-t-there/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/the-tulse-luper-suitcases-part-i-the-moab-story/": {
+    "aliases": [
+      "The Tulse Luper Suitcases, Part 1: The Moab Story"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/the-tulse-luper-suitcases-part-i-the-moab-story/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/va-savoir/": {
+    "tmdb_id": 55372,
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/va-savoir/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/vou-para-casa/": {
+    "aliases": [
+      "I’m Going Home",
+      "I Am Going Home"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/vou-para-casa/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://www.festival-cannes.com/en/f/yadon-ilaheyya/": {
+    "aliases": [
+      "Divine Intervention"
+    ],
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/yadon-ilaheyya/"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "Oscars/2001/Everybody Famous!": {
+    "aliases": [
+      "Everybody’s Famous!",
+      "Iedereen beroemd!"
+    ],
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2001"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "Oscars/2002/Lagaan": {
+    "aliases": [
+      "Lagaan: Once Upon a Time in India"
+    ],
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2002"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "Oscars/2003/Frida": {
+    "actor_aliases": {
+      "Salma Hayek": [
+        "Salma Hayek Pinault"
+      ]
+    },
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2003"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "Oscars/2004/Evil": {
+    "aliases": [
+      "Ondskan"
+    ],
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2004"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "Oscars/2004/My Architect": {
+    "aliases": [
+      "My Architect: A Son’s Journey"
+    ],
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2004"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "Oscars/2004/Seabiscuit": {
+    "director_aliases": [
+      "Gary Ross"
+    ],
+    "actor_aliases": {
+      "William Macy": [
+        "William H. Macy"
+      ]
+    },
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2004"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "Oscars/2005/Born into Brothels": {
+    "aliases": [
+      "Born into Brothels: Calcutta’s Red Light Kids"
+    ],
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2005"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "Oscars/2005/The Chorus (Les Choristes)": {
+    "aliases": [
+      "The Chorus",
+      "Les Choristes"
+    ],
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2005"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "Oscars/2005/Yesterday": {
+    "director_aliases": [
+      "Darrell James Roodt"
+    ],
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2005"
+    ],
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  }
+}

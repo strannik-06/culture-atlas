@@ -468,15 +468,6 @@
               "director": "Jennifer Jason LEIGH, Alan CUMMING",
               "year": 2001,
               "source": "https://www.festival-cannes.com/en/f/the-anniversary-party/"
-            },
-            {
-              "title": "TY DA IA DA MY S TOBO",
-              "aliases": [
-                "JUST THE TWO OF US"
-              ],
-              "director": "Alexandre VELEDINSKY",
-              "year": 2001,
-              "source": "https://www.festival-cannes.com/en/f/ty-da-ia-da-my-s-tobo/"
             }
           ],
           "prizes": [
@@ -501,6 +492,19 @@
               ]
             }
           ]
+        }
+      ],
+      "excluded_short_selections": [
+        {
+          "title": "TY DA IA DA MY S TOBO",
+          "aliases": [
+            "JUST THE TWO OF US"
+          ],
+          "director": "Alexandre VELEDINSKY",
+          "year": 2001,
+          "source": "https://www.festival-cannes.com/en/f/ty-da-ia-da-my-s-tobo/",
+          "runtime": 27,
+          "reason": "Short film selected within Un Certain Regard; excluded from this feature-film catalogue batch."
         }
       ],
       "excluded_short_awards": [
@@ -2286,13 +2290,6 @@
               "source": "https://www.festival-cannes.com/en/f/yek-shab/"
             },
             {
-              "title": "YELLOW FELLA",
-              "aliases": [],
-              "director": "Ivan SEN",
-              "year": 2005,
-              "source": "https://www.festival-cannes.com/en/f/yellow-fella/"
-            },
-            {
               "title": "ZIM AND CO",
               "aliases": [],
               "director": "Pierre JOLIVET",
@@ -2342,6 +2339,17 @@
               ]
             }
           ]
+        }
+      ],
+      "excluded_short_selections": [
+        {
+          "title": "YELLOW FELLA",
+          "aliases": [],
+          "director": "Ivan SEN",
+          "year": 2005,
+          "source": "https://www.festival-cannes.com/en/f/yellow-fella/",
+          "runtime": 25,
+          "reason": "Short film selected within Un Certain Regard; excluded from this feature-film catalogue batch."
         }
       ]
     }

@@ -1,5 +1,22 @@
 {
   "scope": "Historically available established major feature-film categories; ceremony year",
+  "source_corrections": [
+    {
+      "year": 2001,
+      "source_id": 69617,
+      "title": "Dancer in the Dark",
+      "person": "Björk",
+      "reason": "Restore missing film and nominee from the official Globes retrospective.",
+      "source": "https://goldenglobes.com/articles/vintage-cannes-2000-year-bjork/"
+    },
+    {
+      "year": 2001,
+      "excluded_source_id": 72169,
+      "person": "Tilda Swinton",
+      "reason": "Misplaced duplicate of the 2002 The Deep End nomination; the official film record and 2002 annual archive supply the correct year.",
+      "source": "https://goldenglobes.com/film/deep-end-the/"
+    }
+  ],
   "events": [
     {
       "event": "Golden Globes",

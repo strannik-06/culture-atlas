@@ -23,6 +23,7 @@ for(let year=2001;year<=2005;year++){
   });
   programmes.push({name:heading==='In Competition'?'Main Competition':heading,source:base+'selection/',awardsSource:base+'awards/',selection:rows,prizes:[]});
  }
+ const excludedShortSelections=[];for(const p of programmes){for(const f of p.selection.filter(f=>['TY DA IA DA MY S TOBO','YELLOW FELLA'].includes(f.title)))excludedShortSelections.push({...f,runtime:f.title.startsWith('TY ')?27:25,reason:'Short film selected within Un Certain Regard; excluded from this feature-film catalogue batch.'});p.selection=p.selection.filter(f=>!excludedShortSelections.some(x=>x.source===f.source));}
  const locate=title=>{const matches=programmes.flatMap(p=>p.selection.filter(f=>[f.title,...f.aliases].some(n=>norm(n)===norm(title))).map(f=>({p,f})));if(matches.length>1)throw Error('Ambiguous prize '+title);return matches[0];};
  for(const h of awards.querySelectorAll('h2')){
   const heading=clean(h.textContent),container=h.parentElement;
@@ -42,7 +43,7 @@ for(let year=2001;year<=2005;year++){
    else match.p.prizes.push({name:label,entries:[{title:match.f.title,winner:true,people}]});
   }
  }
- events.push({event:'Cannes',year,section:'Official Selection',source:base+'selection/',awardsSource:base+'awards/',programmes,...(excludedShortAwards.length?{excluded_short_awards:excludedShortAwards}:{})});
+ events.push({event:'Cannes',year,section:'Official Selection',source:base+'selection/',awardsSource:base+'awards/',programmes,...(excludedShortSelections.length?{excluded_short_selections:excludedShortSelections}:{}),...(excludedShortAwards.length?{excluded_short_awards:excludedShortAwards}:{})});
 }
 fs.writeFileSync('imports/cannes-2001-2005-source.json',JSON.stringify({events},null,2)+'\n');
 console.log(events.map(e=>({year:e.year,sections:e.programmes.map(p=>({name:p.name,films:p.selection.length,prizeRecords:p.prizes.length}))})));

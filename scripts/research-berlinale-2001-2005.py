@@ -102,7 +102,7 @@ for year in range(2001,2006):
                 award={'name':name,'source_name':original_name,'jury':jury,'source':awards,'source_text':clean(detail.text_content()),'entries':[{'title':film['title'],'winner':True,'people':people}]}
                 programme['prizes'].append(award)
     event['programmes']=list(programmes.values())
-    print('Review competition count',year,[len(p['selection']) for p in event['programmes']],flush=True)
+    assert [len(p['selection']) for p in event['programmes']]==expected[year]
 
     events.append(event)
 output={'scope':'Main Competition (final actual competitors) 2001–2005. Encounters did not yet exist. Official jury prizes and cross-section official prizes for selected films. Excludes out-of-competition screenings, withdrawn films, independent juries, other sections and honorary awards.','events':events}

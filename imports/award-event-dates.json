@@ -2897,6 +2897,391 @@
           "source": "https://www.festival-cannes.com/en/2010/tim-burton-president-of-the-jury-of-the-63rd-festival-de-cannes/"
         }
       ]
+    },
+    {
+      "section": "films",
+      "event": "Oscars",
+      "year": 2001,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2001-03-25",
+          "source": "https://www.oscars.org/oscars/ceremonies/2001"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Oscars",
+      "year": 2002,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2002-03-24",
+          "source": "https://www.oscars.org/oscars/ceremonies/2002"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Oscars",
+      "year": 2003,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2003-03-23",
+          "source": "https://www.oscars.org/oscars/ceremonies/2003"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Oscars",
+      "year": 2004,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2004-02-29",
+          "source": "https://www.oscars.org/oscars/ceremonies/2004"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Oscars",
+      "year": 2005,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2005-02-27",
+          "source": "https://www.oscars.org/oscars/ceremonies/2005"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "BAFTA",
+      "year": 2001,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2001-02-25",
+          "source": "https://en.wikipedia.org/wiki/54th_British_Academy_Film_Awards"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "BAFTA",
+      "year": 2002,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2002-02-24",
+          "source": "https://en.wikipedia.org/wiki/55th_British_Academy_Film_Awards"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "BAFTA",
+      "year": 2003,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2003-02-23",
+          "source": "https://en.wikipedia.org/wiki/56th_British_Academy_Film_Awards"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "BAFTA",
+      "year": 2004,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2004-02-15",
+          "source": "https://en.wikipedia.org/wiki/57th_British_Academy_Film_Awards"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "BAFTA",
+      "year": 2005,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2005-02-12",
+          "source": "https://en.wikipedia.org/wiki/58th_British_Academy_Film_Awards"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Golden Globes",
+      "year": 2001,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2001-01-21",
+          "source": "https://en.wikipedia.org/wiki/58th_Golden_Globe_Awards"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Golden Globes",
+      "year": 2002,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2002-01-20",
+          "source": "https://en.wikipedia.org/wiki/59th_Golden_Globe_Awards"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Golden Globes",
+      "year": 2003,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2003-01-19",
+          "source": "https://en.wikipedia.org/wiki/60th_Golden_Globe_Awards"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Golden Globes",
+      "year": 2004,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2004-01-25",
+          "source": "https://en.wikipedia.org/wiki/61st_Golden_Globe_Awards"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Golden Globes",
+      "year": 2005,
+      "dates": [
+        {
+          "label": "Ceremony",
+          "start": "2005-01-16",
+          "source": "https://en.wikipedia.org/wiki/62nd_Golden_Globe_Awards"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Cannes",
+      "year": 2001,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2001-05-09",
+          "end": "2001-05-20",
+          "source": "https://en.wikipedia.org/wiki/2001_Cannes_Film_Festival"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Cannes",
+      "year": 2002,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2002-05-15",
+          "end": "2002-05-26",
+          "source": "https://en.wikipedia.org/wiki/2002_Cannes_Film_Festival"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Cannes",
+      "year": 2003,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2003-05-14",
+          "end": "2003-05-25",
+          "source": "https://en.wikipedia.org/wiki/2003_Cannes_Film_Festival"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Cannes",
+      "year": 2004,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2004-05-12",
+          "end": "2004-05-23",
+          "source": "https://en.wikipedia.org/wiki/2004_Cannes_Film_Festival"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Cannes",
+      "year": 2005,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2005-05-11",
+          "end": "2005-05-22",
+          "source": "https://en.wikipedia.org/wiki/2005_Cannes_Film_Festival"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Venice",
+      "year": 2001,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2001-08-29",
+          "end": "2001-09-08",
+          "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2001"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Venice",
+      "year": 2002,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2002-08-29",
+          "end": "2002-09-08",
+          "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2002"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Venice",
+      "year": 2003,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2003-08-27",
+          "end": "2003-09-06",
+          "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2003"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Venice",
+      "year": 2004,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2004-09-01",
+          "end": "2004-09-11",
+          "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2004"
+        },
+        {
+          "label": "Awards ceremony",
+          "start": "2004-09-11",
+          "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2004"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Venice",
+      "year": 2005,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2005-08-31",
+          "end": "2005-09-10",
+          "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2005"
+        },
+        {
+          "label": "Awards ceremony",
+          "start": "2005-09-10",
+          "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2005"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Berlinale",
+      "year": 2001,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2001-02-07",
+          "end": "2001-02-18",
+          "source": "https://www.berlinale.de/en/archive/yearbooks/2001.html"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Berlinale",
+      "year": 2002,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2002-02-06",
+          "end": "2002-02-17",
+          "source": "https://www.berlinale.de/en/archive/yearbooks/2002.html"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Berlinale",
+      "year": 2003,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2003-02-06",
+          "end": "2003-02-16",
+          "source": "https://www.berlinale.de/en/archive/yearbooks/2003.html"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Berlinale",
+      "year": 2004,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2004-02-05",
+          "end": "2004-02-15",
+          "source": "https://www.berlinale.de/en/archive/yearbooks/2004.html"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Berlinale",
+      "year": 2005,
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2005-02-10",
+          "end": "2005-02-20",
+          "source": "https://www.berlinale.de/en/archive/yearbooks/2005.html"
+        }
+      ]
     }
   ]
 }
