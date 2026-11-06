@@ -18044,31 +18044,32 @@
   ],
   "unresolved": [],
   "poster_recovery": [],
-  "unavailable_posters": [
+  "unavailable_posters": [],
+  "cover_sources": [
     {
       "id": 4847,
-      "title": "A Dog's Day",
-      "tmdb_id": 125809
+      "kind": "official-festival-release-poster",
+      "source": "https://www.festival-cannes.com/en/f/pattiyude-divasam/"
     },
     {
       "id": 4992,
-      "title": "Tirana Year Zero",
-      "tmdb_id": 49915
+      "kind": "cinematographer-film-still",
+      "source": "https://www.sunrisefilm.net/tyz-english.html"
     },
     {
       "id": 5010,
-      "title": "Lilly's Story",
-      "tmdb_id": 1238980
+      "kind": "official-distributor-release-poster",
+      "source": "https://www.casablanca.si/lilijina-zgodba.html"
     },
     {
       "id": 5144,
-      "title": "Temptations",
-      "tmdb_id": 263069
+      "kind": "archived-theatrical-poster",
+      "source": "https://www.filmposter-archiv.de/filmplakat.php?id=26412"
     },
     {
       "id": 5281,
-      "title": "September",
-      "tmdb_id": 385138
+      "kind": "official-festival-release-cover",
+      "source": "https://www.festival-cannes.com/en/f/september/"
     }
   ]
 }

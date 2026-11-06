@@ -153387,7 +153387,10 @@ window.CULTURE_FILM_DETAILS = {
     "tmdb_votes": 1,
     "imdb": {
       "url": "https://www.imdb.com/title/tt0286887/"
-    }
+    },
+    "poster": "assets/film-posters/4847.jpg",
+    "poster_source_url": "https://www.festival-cannes.com/en/f/pattiyude-divasam/",
+    "cover_image_kind": "official-festival-release-poster"
   },
   "4848": {
     "tmdb_id": 248624,
@@ -157958,7 +157961,10 @@ window.CULTURE_FILM_DETAILS = {
     "tmdb_votes": 6,
     "imdb": {
       "url": "https://www.imdb.com/title/tt0295661/"
-    }
+    },
+    "poster": "assets/film-posters/4992.jpg",
+    "poster_source_url": "https://www.sunrisefilm.net/tyz-english.html",
+    "cover_image_kind": "cinematographer-film-still"
   },
   "4993": {
     "tmdb_id": 77873,
@@ -158528,7 +158534,10 @@ window.CULTURE_FILM_DETAILS = {
     "tmdb_votes": 1,
     "imdb": {
       "url": "https://www.imdb.com/title/tt0333801/"
-    }
+    },
+    "poster": "assets/film-posters/5010.jpg",
+    "poster_source_url": "https://www.casablanca.si/lilijina-zgodba.html",
+    "cover_image_kind": "official-distributor-release-poster"
   },
   "5011": {
     "tmdb_id": 164635,
@@ -162664,7 +162673,10 @@ window.CULTURE_FILM_DETAILS = {
     "tmdb_votes": 1,
     "imdb": {
       "url": "https://www.imdb.com/title/tt0309781/"
-    }
+    },
+    "poster": "assets/film-posters/5144.jpg",
+    "poster_source_url": "https://www.filmposter-archiv.de/filmplakat.php?id=26412",
+    "cover_image_kind": "archived-theatrical-poster"
   },
   "5145": {
     "tmdb_id": 123825,
@@ -166990,6 +167002,9 @@ window.CULTURE_FILM_DETAILS = {
     "tmdb_votes": 7,
     "imdb": {
       "url": "https://www.imdb.com/title/tt0308865/"
-    }
+    },
+    "poster": "assets/film-posters/5281.jpg",
+    "poster_source_url": "https://www.festival-cannes.com/en/f/september/",
+    "cover_image_kind": "official-festival-release-cover"
   }
 };
