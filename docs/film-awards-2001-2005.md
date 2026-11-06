@@ -40,4 +40,11 @@ Baseline fingerprints protect every previously merged catalogue identity, detail
 
 The prior 2006–2010 batch was registered after PR #128 merged: 638 catalogue rows and 637 provider links, zero identity mismatches. Film, TV and book progress checksums remained unchanged. Live registration for this batch is deferred until this PR is merged.
 
-Final identity totals, metadata coverage and validation are recorded after the completed generation pass.
+## Completed identity and metadata audit
+
+All 921 source identities resolve to 700 distinct catalogue works, including 599 new entries. The catalogue grows from 4,681 to 5,280 films; award history grows from 126 to 156 editions. No source identities remain unresolved. Every new entry has a production year, synopsis and cover.
+
+Five missing provider covers are supplied from reviewed public film sources: Cannes release artwork for A Dog's Day and September, the cinematographer's official Tirana Year Zero still, Casablanca's Lilly's Story release poster, and the archived Temptations theatrical poster cross-checked against the Berlinale film identity. Source URLs and original image URLs are retained in `imports/film-awards-2001-2005-cover-sources.json`. Covers apply only to this batch's appended verified IDs.
+
+Validation compares all 30 editions with the normalized sources, checks historical category introductions and the shared 2002 Golden Bear, fingerprints all previously merged records, and executes registration twice in an isolated test database. The SQL preserves curated metadata and progress and aborts on provider conflicts. Final CI and Chromium review cover date visibility, winner filters, navigation, refresh and mobile layout.
+

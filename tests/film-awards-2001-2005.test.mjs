@@ -32,3 +32,15 @@ test('Main prizes use the correct historical editions and canonical films',()=>{
  const expected={'Golden Globes':['Gladiator','A Beautiful Mind','The Hours','The Lord of the Rings: The Return of the King','The Aviator'],Oscars:['Gladiator','A Beautiful Mind','Chicago','The Lord of the Rings: The Return of the King','Million Dollar Baby'],BAFTA:['Gladiator','The Lord of the Rings: The Fellowship of the Ring','The Pianist','The Lord of the Rings: The Return of the King','The Aviator'],Cannes:["The Son’s Room",'The Pianist','Elephant','Fahrenheit 9/11',"The Child"],Venice:['Monsoon Wedding','The Magdalene Sisters','The Return','Vera Drake','Brokeback Mountain']};
  for(const[event,titles]of Object.entries(expected))for(const[i,title]of titles.entries()){if(!title)continue;const e=events.find(e=>e.event===event&&e.year===2001+i),id=e.categories[0].winner;assert.equal(norm(films.find(f=>f.id===id)?.title),norm(title),event+' '+(2001+i));}
 });
+
+test('Historical category introductions, ties, feature scope and new metadata remain explicit',()=>{
+ const events=read('awards-2025.js','CULTURE_AWARDS'),audit=json('imports/film-awards-2001-2005-audit.json'),details=read('film-details.js','CULTURE_FILM_DETAILS');
+ const editions=name=>events.filter(e=>e.event===name&&e.year>=2001&&e.year<=2005).sort((a,b)=>a.year-b.year);
+ assert.deepEqual(editions('Oscars').map(e=>e.categories.length),[10,11,11,11,11]);assert.deepEqual(editions('Oscars').slice(1).map(e=>e.categories.find(c=>c.name==='Animated Feature Film').entries.length),[3,5,3,3]);
+ assert.deepEqual(editions('BAFTA').map(e=>e.categories.length),[10,10,10,10,10]);assert.deepEqual(editions('Golden Globes').map(e=>e.categories.length),[11,11,11,11,11]);
+ assert.deepEqual(editions('Venice').map(e=>e.categories.map(c=>c.name)),[['Venezia Competition','Cinema del Presente'],['Venezia Competition','Controcorrente'],['Venezia Competition','Controcorrente'],['Venezia Competition','Orizzonti'],['Venezia Competition','Orizzonti']]);
+ const berlin2002=editions('Berlinale')[1];const bears=berlin2002.categories[0].entries.filter(r=>r.prizes.some(p=>p.startsWith('Golden Bear for Best Film')));assert.equal(bears.length,2);
+ const excluded=json('imports/cannes-2001-2005-source.json').events.flatMap(e=>e.excluded_short_selections||[]);assert.deepEqual(excluded.map(f=>f.runtime),[27,25]);for(const f of excluded)assert.ok(!audit.verified.some(r=>r.key===f.source));
+ for(const f of audit.new_canonical_ids){assert.ok(Number.isInteger(f.year),'Missing production year '+f.id);assert.ok(details[f.id]?.overview?.trim(),'Missing synopsis '+f.id);assert.ok(details[f.id]?.poster,'Missing cover '+f.id);}
+ assert.deepEqual(audit.unavailable_posters,[]);
+});

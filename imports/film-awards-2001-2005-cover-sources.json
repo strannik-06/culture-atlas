@@ -1,0 +1,55 @@
+{
+  "films": [
+    {
+      "film_id": 4847,
+      "tmdb_id": 125809,
+      "imdb_id": "tt0286887",
+      "title": "A Dog's Day",
+      "source_page": "https://www.festival-cannes.com/en/f/pattiyude-divasam/",
+      "image_url": "https://cdn.festival-cannes.com/media/uploads/2023/03/19337.jpg",
+      "image_kind": "official-festival-release-poster",
+      "local_path": "assets/film-posters/4847.jpg"
+    },
+    {
+      "film_id": 4992,
+      "tmdb_id": 49915,
+      "imdb_id": "tt0295661",
+      "title": "Tirana Year Zero",
+      "source_page": "https://www.sunrisefilm.net/tyz-english.html",
+      "image_url": "https://www.sunrisefilm.net/uploads/1/0/1/7/101706208/01tirana-zero-013_1.jpg",
+      "image_kind": "cinematographer-film-still",
+      "local_path": "assets/film-posters/4992.jpg"
+    },
+    {
+      "film_id": 5010,
+      "tmdb_id": 1238980,
+      "imdb_id": "tt0333801",
+      "title": "Lilly's Story",
+      "source_page": "https://www.casablanca.si/lilijina-zgodba.html",
+      "image_url": "https://www.casablanca.si/uploads/5/7/3/4/57347391/plakat-lili_1.png",
+      "image_kind": "official-distributor-release-poster",
+      "local_path": "assets/film-posters/5010.jpg"
+    },
+    {
+      "film_id": 5144,
+      "tmdb_id": 263069,
+      "imdb_id": "tt0309781",
+      "title": "Temptations",
+      "source_page": "https://www.filmposter-archiv.de/filmplakat.php?id=26412",
+      "image_url": "https://www.filmposter-archiv.de/filmplakat/2002/versuchungen.jpg",
+      "image_kind": "archived-theatrical-poster",
+      "identity_source": "https://www.berlinale.de/en/2002/programme/20022717.html",
+      "local_path": "assets/film-posters/5144.jpg"
+    },
+    {
+      "film_id": 5281,
+      "tmdb_id": 385138,
+      "imdb_id": "tt0308865",
+      "title": "September",
+      "source_page": "https://www.festival-cannes.com/en/f/september/",
+      "image_url": "https://cdn.festival-cannes.com/media/uploads/2023/03/19479.jpg",
+      "image_kind": "official-festival-release-cover",
+      "local_path": "assets/film-posters/5281.jpg"
+    }
+  ]
+}

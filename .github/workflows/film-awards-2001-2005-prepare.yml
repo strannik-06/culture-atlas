@@ -23,6 +23,7 @@ jobs:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
           TMDB_READ_ACCESS_TOKEN: ${{ secrets.TMDB_READ_ACCESS_TOKEN }}
         run: node scripts/prepare-film-awards-history.mjs 2001-2005
+      - run: node scripts/apply-film-awards-2001-covers.mjs
       - run: node scripts/seed-media-catalogue.mjs
       - run: node scripts/prepare-film-awards-catalogue-sync.mjs 2001-2005
       - uses: actions/upload-artifact@v4
