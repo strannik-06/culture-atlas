@@ -25,9 +25,12 @@
       "Fa Yeung Nin Wa"
     ],
     "source_urls": [
-      "https://www.bafta.org/awards/film/?award-year=2001"
+      "https://www.bafta.org/awards/film/?award-year=2001",
+      "https://www.criterion.com/films/198-in-the-mood-for-love"
     ],
-    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+    "note": "BAFTA feature-film nomination is the complete Wong Kar-wai feature, not the separate 51-minute documentary provider record.",
+    "tmdb_id": 843,
+    "imdb_id": "tt0118694"
   },
   "BAFTA/2001/Last Resort": {
     "director_aliases": [
@@ -154,7 +157,12 @@
     "source_urls": [
       "https://www.bafta.org/awards/film/?award-year=2005"
     ],
-    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks.",
+    "actor_aliases": {
+      "Ziyi Zhang": [
+        "Zhang Ziyi"
+      ]
+    }
   },
   "BAFTA/2005/The Chorus (Les Choristes)": {
     "aliases": [
@@ -448,7 +456,10 @@
     "source_urls": [
       "https://www.berlinale.de/en/2005/programme/20052735.html"
     ],
-    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks.",
+    "director_aliases": [
+      "Aleksandr Sokurov"
+    ]
   },
   "https://www.festival-cannes.com/en/f/akai-hashi-noshitano-nurui-mizu/": {
     "aliases": [
@@ -521,19 +532,26 @@
       "17 Times Cécile Cassard"
     ],
     "source_urls": [
-      "https://www.festival-cannes.com/en/f/dix-sept-fois-cecile-cassard/"
+      "https://www.festival-cannes.com/en/f/dix-sept-fois-cecile-cassard/",
+      "https://dafilmfestival.com/en/movie/17-fois-cecile-cassard/",
+      "https://www.imdb.com/title/tt0296591/"
     ],
-    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks.",
+    "imdb_id": "tt0296591"
   },
   "https://www.festival-cannes.com/en/f/eli-eli-lema-sabachthani/": {
     "aliases": [
-      "Eli, Eli, Lema Sabachthani?",
-      "Eli, Eli, Lema Sabachthani"
+      "My God, My God, Why Hast Thou Forsaken Me?",
+      "Eri Eri rema sabakutani",
+      "エリ・エリ・レマ・サバクタニ"
     ],
     "source_urls": [
-      "https://www.festival-cannes.com/en/f/eli-eli-lema-sabachthani/"
+      "https://www.festival-cannes.com/en/f/eli-eli-lema-sabachthani/",
+      "https://www.viennale.at/en/films/eli-eli-lema-sabachthani",
+      "https://www.imdb.com/title/tt0461769/"
     ],
-    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks.",
+    "imdb_id": "tt0461769"
   },
   "https://www.festival-cannes.com/en/f/en-jouant-dans-la-compagnie-des-hommes/": {
     "aliases": [
@@ -552,7 +570,10 @@
     "source_urls": [
       "https://www.festival-cannes.com/en/f/farishtay-kitfi-rost/"
     ],
-    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks.",
+    "director_aliases": [
+      "Jamshed Usmonov"
+    ]
   },
   "https://www.festival-cannes.com/en/f/hatouna-mehuheret/": {
     "director_aliases": [
@@ -593,13 +614,19 @@
   },
   "https://www.festival-cannes.com/en/f/ku-qi-de-nu-ren/": {
     "aliases": [
-      "Crying Woman",
-      "The Crying Woman"
+      "Cry Woman",
+      "哭泣的女人"
     ],
     "source_urls": [
-      "https://www.festival-cannes.com/en/f/ku-qi-de-nu-ren/"
+      "https://www.festival-cannes.com/en/f/ku-qi-de-nu-ren/",
+      "https://www.kviff.com/en/programme/film/44/18118-cry-woman",
+      "https://iffr.com/en/iffr/2003/films/cry-woman"
     ],
-    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+    "note": "Cannes misidentifies director as Yuanjian Liu; KVIFF and IFFR identify the same title, synopsis, 2002 year and cast with director Liu Bingjian. Preserve raw archive name and verify the corrected filmmaker.",
+    "director_aliases": [
+      "Liu Bingjian",
+      "Bingjian Liu"
+    ]
   },
   "https://www.festival-cannes.com/en/f/lan-yu/": {
     "director_aliases": [
@@ -615,9 +642,10 @@
       "Jean-Pierre Dardenne, Luc Dardenne"
     ],
     "source_urls": [
-      "https://www.festival-cannes.com/en/f/le-fils/"
+      "https://www.festival-cannes.com/en/f/le-fils/",
+      "https://www.sonyclassics.com/theson/"
     ],
-    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+    "note": "Cannes retrospective wrongly attaches Bruce Brown as co-director. Sony Pictures Classics credits Jean-Pierre and Luc Dardenne; retain the raw archive credit while matching the verified directing pair."
   },
   "https://www.festival-cannes.com/en/f/les-mains-vides/": {
     "aliases": [
@@ -761,13 +789,19 @@
   },
   "https://www.festival-cannes.com/en/f/sunduq-al-dunya/": {
     "aliases": [
-      "The Box of Life",
-      "The Box"
+      "Sacrifices",
+      "Sunduq al-dunyâ"
     ],
     "source_urls": [
-      "https://www.festival-cannes.com/en/f/sunduq-al-dunya/"
+      "https://www.festival-cannes.com/en/f/sunduq-al-dunya/",
+      "https://iffr.com/en/iffr/2003/films/sacrifices",
+      "https://www.imdb.com/title/tt0303792/"
     ],
-    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+    "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks.",
+    "imdb_id": "tt0303792",
+    "director_aliases": [
+      "Ossama Mohammed"
+    ]
   },
   "https://www.festival-cannes.com/en/f/taurus/": {
     "director_aliases": [
@@ -920,5 +954,98 @@
       "https://www.oscars.org/oscars/ceremonies/2005"
     ],
     "note": "Reviewed source title, international title or filmmaker-name variant; full provider title/year/credit checks remain required. Exact pins distinguish duplicate provider records or different versions; provider identity must still pass all checks."
+  },
+  "https://asac.labiennale.org/attivita/cinema/510": {
+    "imdb_id": "tt0431720",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/510",
+      "https://filmfestival.gr/en/films/delivery/",
+      "https://www.imdb.com/title/tt0431720/"
+    ],
+    "note": "IMDb discovery pin paired with independent official festival, distributor or film-institute evidence; full title/director/year verification remains required."
+  },
+  "https://www.festival-cannes.com/en/f/hotel/": {
+    "imdb_id": "tt0415855",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/hotel/",
+      "https://filminstitut.at/filme/hotel",
+      "https://www.imdb.com/title/tt0415855/"
+    ],
+    "note": "IMDb discovery pin paired with independent official festival, distributor or film-institute evidence; full title/director/year verification remains required."
+  },
+  "https://www.festival-cannes.com/en/f/sangre/": {
+    "imdb_id": "tt0445694",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/sangre/",
+      "https://www.advitamdistribution.com/films/sangre/",
+      "https://www.imdb.com/title/tt0445694/"
+    ],
+    "note": "IMDb discovery pin paired with independent official festival, distributor or film-institute evidence; full title/director/year verification remains required.",
+    "aliases": [
+      "Blood"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/yek-shab/": {
+    "imdb_id": "tt0470612",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/yek-shab/",
+      "https://mk2films.com/en/film/une-nuit-yek-shab/",
+      "https://www.imdb.com/title/tt0470612/"
+    ],
+    "note": "IMDb discovery pin paired with independent official festival, distributor or film-institute evidence; full title/director/year verification remains required."
+  },
+  "https://asac.labiennale.org/attivita/cinema/206": {
+    "imdb_id": "tt0446602",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/206",
+      "https://www.fctp.it/movie_item.php?id=37",
+      "https://www.imdb.com/title/tt0446602/"
+    ],
+    "note": "Reviewed primary film/festival record and IMDb discovery crosswalk. Full provider title/director/release-window checks remain mandatory."
+  },
+  "https://asac.labiennale.org/attivita/cinema/581": {
+    "imdb_id": "tt0271017",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/581",
+      "https://www.amosgitai.net/feature-film/eden",
+      "https://kinolorber.com/film/eden",
+      "https://www.imdb.com/title/tt0271017/"
+    ],
+    "note": "Reviewed primary film/festival record and IMDb discovery crosswalk. Full provider title/director/release-window checks remain mandatory."
+  },
+  "https://www.festival-cannes.com/en/f/the-king/": {
+    "imdb_id": "tt0396688",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/the-king/",
+      "https://www.bfi.org.uk/film/c017dc11-4faf-5a53-b119-71f383f4de93/the-king",
+      "https://www.imdb.com/title/tt0396688/"
+    ],
+    "note": "Reviewed primary film/festival record and IMDb discovery crosswalk. Full provider title/director/release-window checks remain mandatory."
+  },
+  "Oscars/2001/Legacy": {
+    "imdb_id": "tt0188028",
+    "source_urls": [
+      "https://www.oscars.org/oscars/ceremonies/2001",
+      "https://catalog.afi.com/Film/61207-LEGACY",
+      "https://nomadicpictures.org/bio/",
+      "https://www.imdb.com/title/tt0188028/"
+    ],
+    "note": "Reviewed primary film/festival record and IMDb discovery crosswalk. Full provider title/director/release-window checks remain mandatory."
+  },
+  "https://www.festival-cannes.com/en/f/september/": {
+    "imdb_id": "tt0308865",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/september/",
+      "https://www.x-verleih.de/filme/september/",
+      "https://www.imdb.com/title/tt0308865/"
+    ],
+    "note": "Reviewed primary film/festival record and IMDb discovery crosswalk. Full provider title/director/release-window checks remain mandatory."
+  },
+  "https://www.festival-cannes.com/en/f/marock/": {
+    "runtime": 102,
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/marock/"
+    ],
+    "note": "Provider runtime is zero. Cannes official film record specifies 102 minutes; no curated existing metadata is overwritten."
   }
 }

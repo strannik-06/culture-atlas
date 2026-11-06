@@ -52,18 +52,16 @@ def collect(year):
     assert len(by_id) == len(ids)
     url = BASE + f'/attivita/cinema/annali?anno={year}'
     result = {'event': 'Venice', 'year': year, 'section': 'Official Selection', 'source': url, 'awardsSource': url, 'programmes': []}
-    for section in sorted(sections, key=lambda section: 0 if section['titolo'].startswith('Venezia') else 1):
+    for section in sorted(sections, key=lambda section: 0 if ('Concorso' in section['titolo'] and section['titolo'].startswith('Venezia')) else 1):
         name = 'Venezia Competition' if ('Concorso' in section['titolo'] and section['titolo'].startswith('Venezia')) else ('Orizzonti' if 'Orizzonti' in section['titolo'] else 'Controcorrente' if 'Controcorrente' in section['titolo'] else 'Cinema del Presente')
         selection = []
         selected_ids = {}
         for record in sorted(section['elenco_opere'], key=lambda record: record['titolo'].lower()):
             film = by_id[record['id']]
             runtime = int(re.search(r'\d+', film['durata'])[0]) if re.search(r'\d+',str(film.get('durata',''))) else 0
-            # Until 2009 the regular Orizzonti section consists entirely of
-            # competing features/docs, including the 60-minute Crossing the Line.
-            # In 2010 features and shorts/medium works share the archive section;
-            # use the actual feature list (21 records), not a >=40-minute cutoff.
-            feature = year <= 2009 or film.get('tipologia') == 'Lungometraggio'
+            # These historical second sections are competing features/docs.
+            # Two 2004 archive records omit runtime; provider verification must
+            # establish feature length before inclusion.
             if name != 'Venezia Competition' and runtime < 40:
                 continue
             assert runtime >= 40 or record['id'] in [7681,608], (year,record['id'],record['titolo'])
@@ -85,8 +83,6 @@ def collect(year):
             selection.append(item)
             selected_ids[record['id']] = item
         labels = {4:'Silver Lion — Grand Jury Prize',26:'Volpi Cup',31:'Special Mention',39:'Lion of the Future — Special Mention',40:'Orizzonti Award',41:'Orizzonti Jury Special Mention',45:'Special Osella',258:'Outstanding Individual Contribution',259:'San Marco Award',260:'Special Directing Award',261:'Controcorrente Award',656:'Silver Lion — Special Directing Award',664:'Grand Jury Prize',665:'Best Screenplay',669:'Cinema del Presente — Lion of the Year',1362:'Cinema del Presente Special Jury Prize',1363:'Lion of the Future',1364:'Controcorrente Special Mention',1366:'Lion of the Future — Special Mention',2: 'Marcello Mastroianni Award', 6: 'Best Actor', 7: 'Best Actress', 8: 'Best Technical Contribution', 18: 'Special Jury Prize', 20: 'Golden Lion', 23: 'Best Director', 28: 'Orizzonti Award for Best Film', 29: 'Orizzonti Documentary Award', 34: 'Lion of the Future', 47: 'Silver Lion — Revelation', 586: 'Best Screenplay', 587: 'Best Cinematography', 718: 'Special Orizzonti Jury Prize', 1077: 'Special Jury Prize', 1369: 'Best Technical Contribution', 1372: 'Special Mention — Orizzonti Jury', 1373: 'Special Lion for Cinematic Innovation', 1374: 'Orizzonti Documentary Award'}
-        # 2007/2008 special Golden Lions for overall work are personal honours,
-        # even though the archive attaches their recipients' competing film.
         prizes = []
         grouped = {}
         for prize in sorted(event['premi'], key=lambda prize: prize['ordine']):

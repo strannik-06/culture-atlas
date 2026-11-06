@@ -2221,7 +2221,9 @@
               "aliases": [],
               "director": "Laïla MARRAKCHI",
               "year": 2005,
-              "source": "https://www.festival-cannes.com/en/f/marock/"
+              "source": "https://www.festival-cannes.com/en/f/marock/",
+              "runtime": 102,
+              "runtime_source": "https://www.festival-cannes.com/en/f/marock/"
             },
             {
               "title": "MOARTEA DOMNULUI LAZARESCU",
