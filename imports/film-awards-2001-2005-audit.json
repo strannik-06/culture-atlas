@@ -4993,6 +4993,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://asac.labiennale.org/attivita/cinema/608",
+      "signature": "87f4b673f75fbd4fe18bac0c13c9c624bf4b0b0393d2d0f9cd626c8b19ab0870",
+      "title": "Ambasadori, cautam patrie",
+      "source": "https://asac.labiennale.org/attivita/cinema/608",
+      "id": 5282,
+      "tmdb_id": 625405,
+      "imdb_id": "tt0295159",
+      "director": "Mircea Daneliuc",
+      "provider_release_date": "2003-11-14",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://asac.labiennale.org/attivita/cinema/609",
       "signature": "5731ce3404d90781ff171a8ab75c0d28febfda49ad4b412ffae5a9e3e6740a5b",
       "title": "Les petits fils",
@@ -18039,6 +18051,17 @@
       "imdb_id": "tt0308865",
       "original_title": "September",
       "original_language": "de",
+      "alternate_titles": []
+    },
+    {
+      "id": 5282,
+      "title": "Ambassadors Seek Country",
+      "director": "Mircea Daneliuc",
+      "year": 2004,
+      "tmdb_id": 625405,
+      "imdb_id": "tt0295159",
+      "original_title": "Ambasadori, căutăm patrie",
+      "original_language": "ro",
       "alternate_titles": []
     }
   ],

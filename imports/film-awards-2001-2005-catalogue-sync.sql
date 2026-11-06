@@ -1,4 +1,4 @@
--- Film awards 2001-2005: 599 verified catalogue identities and provider links.
+-- Film awards 2001-2005: 600 verified catalogue identities and provider links.
 -- Apply after merging the catalogue PR. Existing rows are preserved.
 begin;
 do $$ begin
@@ -602,7 +602,8 @@ do $$ begin
 ('movie:203723','movie:5278','203723','tmdb_id'),
 ('movie:98246','movie:5279','98246','tmdb_id'),
 ('movie:62415','movie:5280','62415','tmdb_id'),
-('movie:385138','movie:5281','385138','tmdb_id')
+('movie:385138','movie:5281','385138','tmdb_id'),
+('movie:625405','movie:5282','625405','tmdb_id')
 ) as expected(provider_key,work_key,tmdb_id,metadata_field)
   left join public.media_provider_links p on p.provider_key=expected.provider_key
   left join public.media_catalogue c on c.work_key=expected.work_key
@@ -1209,6 +1210,7 @@ insert into public.media_catalogue(work_key,work_type,film_id,metadata,is_static
 insert into public.media_catalogue(work_key,work_type,film_id,metadata,is_static) values('movie:5279','movie',5279,'{"id":5279,"title":"The Sun","director":"Aleksandr Sokurov","year":2004,"tmdb_id":98246,"imdb_id":"tt0439817","original_title":"Солнце","original_language":"ru","alternate_titles":["Solnze","Die Sonne"]}'::jsonb,true) on conflict do nothing;
 insert into public.media_catalogue(work_key,work_type,film_id,metadata,is_static) values('movie:5280','movie',5280,'{"id":5280,"title":"17 fois Cécile Cassard","director":"Christophe Honoré","year":2002,"tmdb_id":62415,"imdb_id":"tt0296591","original_title":"17 fois Cécile Cassard","original_language":"fr","alternate_titles":["DIX-SEPT FOIS CECILE CASSARD","Seventeen Times Cécile Cassard","17 Times Cécile Cassard"]}'::jsonb,true) on conflict do nothing;
 insert into public.media_catalogue(work_key,work_type,film_id,metadata,is_static) values('movie:5281','movie',5281,'{"id":5281,"title":"September","director":"Max Färberböck","year":2003,"tmdb_id":385138,"imdb_id":"tt0308865","original_title":"September","original_language":"de","alternate_titles":[]}'::jsonb,true) on conflict do nothing;
+insert into public.media_catalogue(work_key,work_type,film_id,metadata,is_static) values('movie:5282','movie',5282,'{"id":5282,"title":"Ambassadors Seek Country","director":"Mircea Daneliuc","year":2004,"tmdb_id":625405,"imdb_id":"tt0295159","original_title":"Ambasadori, căutăm patrie","original_language":"ro","alternate_titles":[]}'::jsonb,true) on conflict do nothing;
 insert into public.media_provider_links values('movie:146','movie:4683') on conflict do nothing;
 insert into public.media_provider_links values('movie:1900','movie:4684') on conflict do nothing;
 insert into public.media_provider_links values('movie:5001','movie:4685') on conflict do nothing;
@@ -1808,4 +1810,5 @@ insert into public.media_provider_links values('movie:203723','movie:5278') on c
 insert into public.media_provider_links values('movie:98246','movie:5279') on conflict do nothing;
 insert into public.media_provider_links values('movie:62415','movie:5280') on conflict do nothing;
 insert into public.media_provider_links values('movie:385138','movie:5281') on conflict do nothing;
+insert into public.media_provider_links values('movie:625405','movie:5282') on conflict do nothing;
 commit;

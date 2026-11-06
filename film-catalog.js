@@ -56744,5 +56744,16 @@ window.CULTURE_CATALOG = [
     "original_title": "September",
     "original_language": "de",
     "alternate_titles": []
+  },
+  {
+    "id": 5282,
+    "title": "Ambassadors Seek Country",
+    "director": "Mircea Daneliuc",
+    "year": 2004,
+    "tmdb_id": 625405,
+    "imdb_id": "tt0295159",
+    "original_title": "Ambasadori, căutăm patrie",
+    "original_language": "ro",
+    "alternate_titles": []
   }
 ];

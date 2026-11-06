@@ -167006,5 +167006,35 @@ window.CULTURE_FILM_DETAILS = {
     "poster": "assets/film-posters/5281.jpg",
     "poster_source_url": "https://www.festival-cannes.com/en/f/september/",
     "cover_image_kind": "official-festival-release-cover"
+  },
+  "5282": {
+    "tmdb_id": 625405,
+    "title": "Ambassadors Seek Country",
+    "original_title": "Ambasadori, căutăm patrie",
+    "overview": "Titi and Marius, two friends who fought together during the revolution of 1989, follow very different social and political paths in its aftermath.",
+    "runtime": 116,
+    "release_date": "2003-11-14",
+    "genres": [
+      "Comedy"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "original_language": "ro",
+    "director": "Mircea Daneliuc",
+    "cast": [
+      "Cecilia Bârbora",
+      "Marius Stănescu",
+      "Horațiu Mălăele",
+      "Mircea Rusu",
+      "Coca Bloos"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/9yVlJO2wDEaOc9wrVzth2f2qOya.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/uvXD2nYYfCLG281uwvhSPSJKw9X.jpg",
+    "tmdb_rating": 7,
+    "tmdb_votes": 4,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0295159/"
+    }
   }
 };
