@@ -56549,5 +56549,174 @@ window.CULTURE_CATALOG = [
     "alternate_titles": [
       "Hongyan"
     ]
+  },
+  {
+    "id": 5266,
+    "title": "Legacy",
+    "director": "Tod Lending",
+    "year": 2000,
+    "tmdb_id": 26779,
+    "imdb_id": "tt0188028",
+    "original_title": "Legacy",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 5267,
+    "title": "Angel on the Right",
+    "director": "Jamshed Usmonov",
+    "year": 2002,
+    "tmdb_id": 125936,
+    "imdb_id": "tt0317476",
+    "original_title": "Фариштаи китфи рост",
+    "original_language": "tg",
+    "alternate_titles": [
+      "FARISHTAY KITFI ROST"
+    ]
+  },
+  {
+    "id": 5268,
+    "title": "Sacrifices",
+    "director": "Ossama Mohammed",
+    "year": 2002,
+    "tmdb_id": 342697,
+    "imdb_id": "tt0303792",
+    "original_title": "صندوق الدنيا",
+    "original_language": "ar",
+    "alternate_titles": [
+      "SUNDÛQ AL-DUNYÂ",
+      "Sunduq al-dunyâ"
+    ]
+  },
+  {
+    "id": 5269,
+    "title": "Hotel",
+    "director": "Jessica Hausner",
+    "year": 2004,
+    "tmdb_id": 52251,
+    "imdb_id": "tt0415855",
+    "original_title": "Hotel",
+    "original_language": "de",
+    "alternate_titles": []
+  },
+  {
+    "id": 5270,
+    "title": "Marock",
+    "director": "Laïla Marrakchi",
+    "year": 2005,
+    "tmdb_id": 61686,
+    "imdb_id": "tt0415147",
+    "original_title": "Marock",
+    "original_language": "fr",
+    "alternate_titles": []
+  },
+  {
+    "id": 5271,
+    "title": "Cry Woman",
+    "director": "Liu Bingjian",
+    "year": 2002,
+    "tmdb_id": 99333,
+    "imdb_id": "tt0317269",
+    "original_title": "哭泣的女人",
+    "original_language": "zh",
+    "alternate_titles": [
+      "KU QI DE NÜ REN"
+    ]
+  },
+  {
+    "id": 5272,
+    "title": "Blood",
+    "director": "Amat Escalante",
+    "year": 2005,
+    "tmdb_id": 84848,
+    "imdb_id": "tt0445694",
+    "original_title": "Sangre",
+    "original_language": "es",
+    "alternate_titles": []
+  },
+  {
+    "id": 5273,
+    "title": "My God, My God, Why Hast Thou Forsaken Me?",
+    "director": "Shinji Aoyama",
+    "year": 2005,
+    "tmdb_id": 95240,
+    "imdb_id": "tt0461769",
+    "original_title": "エリ・エリ・レマ・サバクタニ",
+    "original_language": "ja",
+    "alternate_titles": [
+      "ELI, ELI, LEMA SABACHTHANI?",
+      "Eri Eri rema sabakutani"
+    ]
+  },
+  {
+    "id": 5274,
+    "title": "The King",
+    "director": "James Marsh",
+    "year": 2005,
+    "tmdb_id": 20021,
+    "imdb_id": "tt0396688",
+    "original_title": "The King",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 5275,
+    "title": "Eden",
+    "director": "Amos Gitai",
+    "year": 2001,
+    "tmdb_id": 99637,
+    "imdb_id": "tt0271017",
+    "original_title": "Eden",
+    "original_language": "en",
+    "alternate_titles": []
+  },
+  {
+    "id": 5276,
+    "title": "One Night",
+    "director": "Niki Karimi",
+    "year": 2005,
+    "tmdb_id": 389486,
+    "imdb_id": "tt0470612",
+    "original_title": "یک شب",
+    "original_language": "fa",
+    "alternate_titles": [
+      "YEK SHAB"
+    ]
+  },
+  {
+    "id": 5277,
+    "title": "Texas",
+    "director": "Fausto Paravidino",
+    "year": 2005,
+    "tmdb_id": 82824,
+    "imdb_id": "tt0446602",
+    "original_title": "Texas",
+    "original_language": "it",
+    "alternate_titles": []
+  },
+  {
+    "id": 5278,
+    "title": "Delivery",
+    "director": "Nikos Panayotopoulos",
+    "year": 2004,
+    "tmdb_id": 203723,
+    "imdb_id": "tt0431720",
+    "original_title": "Delivery",
+    "original_language": "el",
+    "alternate_titles": []
+  },
+  {
+    "id": 5279,
+    "title": "The Sun",
+    "director": "Aleksandr Sokurov",
+    "year": 2004,
+    "tmdb_id": 98246,
+    "imdb_id": "tt0439817",
+    "original_title": "Солнце",
+    "original_language": "ru",
+    "alternate_titles": [
+      "Solnze",
+      "Die Sonne"
+    ]
   }
 ];

@@ -166502,5 +166502,436 @@ window.CULTURE_FILM_DETAILS = {
     "imdb": {
       "url": "https://www.imdb.com/title/tt0477719/"
     }
+  },
+  "5266": {
+    "tmdb_id": 26779,
+    "title": "Legacy",
+    "original_title": "Legacy",
+    "overview": "The unflinching chronicle of one family’s triumphant journey out of povery and despair. Touchingly narrated by Nickcole Collins, a teenage girl wise beyond her years, the film follows the Collins family over five years as they slowly pull themselves out of a haze of poverty, drug addiction, and violence that plagues their public housing project in Chicago.",
+    "runtime": 90,
+    "release_date": "2000-01-20",
+    "genres": [
+      "Documentary"
+    ],
+    "original_language": "en",
+    "director": "Tod Lending",
+    "poster": "https://image.tmdb.org/t/p/w500/pBu8Z6Uq2AY4yCjvo1RKlXBndji.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/wXlquz2lJwVqAAsYTSwiCi3UVK6.jpg",
+    "tmdb_rating": 6.4,
+    "tmdb_votes": 7,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0188028/"
+    }
+  },
+  "5267": {
+    "tmdb_id": 125936,
+    "title": "Angel on the Right",
+    "original_title": "Фариштаи китфи рост",
+    "overview": "An unrepentant prodigal son straight out of a Russian jail returns to his hometown, Asht, to help his mother die with dignity. But his debts in his hometown are many and long overdue, the townspeople are tough as nails, and he soon gets more than he expected from the quiet village. In this dark comedy, his third feature, writer-director Jamshed Usmonov cast the population of Asht as its own persuasive self and his own mother and brother as the fractured yet formidable domestic couple.",
+    "runtime": 91,
+    "release_date": "2002-05-24",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "countries": [
+      "TJ",
+      "IT",
+      "FR",
+      "CH"
+    ],
+    "original_language": "tg",
+    "director": "Jamshed Usmonov",
+    "cast": [
+      "Uktamoi Miyasarova",
+      "Maruf Pulodzoda",
+      "Kova Tilavpur",
+      "Mardonkul Kulbobo",
+      "Malohat Maqsumova"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/iltZDPeOcmoa3WpkCrmbdwHiGP2.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/ssMrbmz2C0wj6aA4k4xOU7M8LDT.jpg",
+    "tmdb_rating": 6.1,
+    "tmdb_votes": 11,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0317476/"
+    }
+  },
+  "5268": {
+    "tmdb_id": 342697,
+    "title": "Sacrifices",
+    "original_title": "صندوق الدنيا",
+    "overview": "As an elderly man on his deathbed looks to give his name to one of his newborn grandsons, he's unable to acknowledge any of them. The three boys grow up with no name in the Syrian mountains, as they struggle to survive in a war-torn country.",
+    "runtime": 112,
+    "release_date": "2002-05-01",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "FR",
+      "SY"
+    ],
+    "original_language": "ar",
+    "director": "Ossama Mohammed",
+    "cast": [
+      "Rafiq Subaie",
+      "Maha Saleh",
+      "Nihal Khateeb",
+      "Mustafa Sbeih",
+      "Muhammad Hamad"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/fZ4MOspkPop4uaQVEioK7jSLoyx.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/bha6oQPA0nH0B5F95KxLFbrG29m.jpg",
+    "tmdb_rating": 6.9,
+    "tmdb_votes": 9,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0303792/"
+    }
+  },
+  "5269": {
+    "tmdb_id": 52251,
+    "title": "Hotel",
+    "original_title": "Hotel",
+    "overview": "When Irene takes a position at a hotel deep in the woods of the Austrian Alps, she soon discovers the girl she replaced vanished without a trace.",
+    "runtime": 76,
+    "release_date": "2004-12-03",
+    "genres": [
+      "Horror",
+      "Drama",
+      "Mystery"
+    ],
+    "countries": [
+      "AT",
+      "DE"
+    ],
+    "original_language": "de",
+    "director": "Jessica Hausner",
+    "cast": [
+      "Franziska Weisz",
+      "Birgit Minichmayr",
+      "Marlene Streeruwitz",
+      "Rosa Waissnix",
+      "Christopher Schärf"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/opPhzc0wc6cW6om3lN6A01n4UBS.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/EwziCsDeSDopdAXtqW93yA68gw.jpg",
+    "tmdb_rating": 5.7,
+    "tmdb_votes": 60,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0415855/"
+    }
+  },
+  "5270": {
+    "tmdb_id": 61686,
+    "title": "Marock",
+    "original_title": "Marock",
+    "overview": "Casablanca, the year of the baccalaureate. The carefree life of Morocco's golden youth and all its excesses: car races, friendships, music, alcohol, but also first loves and the anxiety of transitioning to adulthood... Marock presents a side of Morocco that is often unknown, seen through the eyes of Rita, 17, who is determined to live life on her own terms.",
+    "runtime": 102,
+    "release_date": "2005-05-20",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "countries": [
+      "FR",
+      "MA"
+    ],
+    "original_language": "fr",
+    "director": "Laïla Marrakchi",
+    "cast": [
+      "Morjana Alaoui",
+      "Matthieu Boujenah",
+      "Razika Simozrag",
+      "Fatym Layachi",
+      "Assaad Bouab"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/kpLFVzw8UXz4SCiA76g4jaAiV24.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/lWolUFtLRN1bT7UkAikDY26lxlf.jpg",
+    "tmdb_rating": 5.9,
+    "tmdb_votes": 32,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0415147/"
+    }
+  },
+  "5271": {
+    "tmdb_id": 99333,
+    "title": "Cry Woman",
+    "original_title": "哭泣的女人",
+    "overview": "Desperate to support her family and earn enough money to get her husband out of jail, a woman with an unusual crying style becomes a professional mourner.",
+    "runtime": 90,
+    "release_date": "2002-09-08",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "countries": [
+      "KR",
+      "FR",
+      "CA",
+      "CN"
+    ],
+    "original_language": "zh",
+    "director": "Liu Bingjian",
+    "cast": [
+      "Longjun Li",
+      "Qin Liao",
+      "Xingkun Wei",
+      "Ging Wen",
+      "Jiayue Zhu"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/lr55RTMxdadi6O4s2suBQpmXOyd.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/dAM9p38rD4Wckqedo8jQ8U6laMr.jpg",
+    "tmdb_rating": 6,
+    "tmdb_votes": 7,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0317269/"
+    }
+  },
+  "5272": {
+    "tmdb_id": 84848,
+    "title": "Blood",
+    "original_title": "Sangre",
+    "overview": "Diego's job is counting people as they enter a large government building. After work, he and his wife Blanca lie on the couch...",
+    "runtime": 90,
+    "release_date": "2006-02-01",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "FR",
+      "MX"
+    ],
+    "original_language": "es",
+    "director": "Amat Escalante",
+    "cast": [
+      "Cirilo Recio Dávila",
+      "Claudia Orozco",
+      "Martha Preciado",
+      "Laura Saldaña Quintero"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/p1Uel5nXwnUQacSWTFvUmmL8Oyf.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/xwRCsPakZ7e2pFQlkRBviOIPODz.jpg",
+    "tmdb_rating": 5.1,
+    "tmdb_votes": 21,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0445694/"
+    }
+  },
+  "5273": {
+    "tmdb_id": 95240,
+    "title": "My God, My God, Why Hast Thou Forsaken Me?",
+    "original_title": "エリ・エリ・レマ・サバクタニ",
+    "overview": "A.D. 2015: A virus spreads in many cities globally, a suicidal disease infected by pictures. Once infected, the diseased will soon meet death. They have no way of fighting back, filled with fear and despair. The media calls it the 'Lemming Syndrome'.",
+    "runtime": 107,
+    "release_date": "2005-05-18",
+    "genres": [
+      "Science Fiction",
+      "Drama",
+      "Music"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "original_language": "ja",
+    "director": "Shinji Aoyama",
+    "cast": [
+      "Tadanobu Asano",
+      "Aoi Miyazaki",
+      "Masaya Nakahara",
+      "Masahiro Toda",
+      "Yasutaka Tsutsui"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/z9mgyCJjgB9cS5JqV0cktwQgLuK.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/pIxb2Y61yhqRtWYevQBBWzH6mhG.jpg",
+    "tmdb_rating": 7.4,
+    "tmdb_votes": 22,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0461769/"
+    }
+  },
+  "5274": {
+    "tmdb_id": 20021,
+    "title": "The King",
+    "original_title": "The King",
+    "overview": "When Elvis Valderez is honourably discharged from the Navy, he heads to the small Texas town of Corpus Christi, where he introduces himself to Pastor David Sandow, his long-lost father, soon becoming a stalwart member of the church.",
+    "runtime": 105,
+    "release_date": "2006-05-05",
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "countries": [
+      "GB",
+      "US"
+    ],
+    "original_language": "en",
+    "director": "James Marsh",
+    "cast": [
+      "Gael García Bernal",
+      "William Hurt",
+      "Pell James",
+      "Paul Dano",
+      "Laura Harring"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/936i1LOZJARcpCh3sdBch7wBXBx.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/z32qfa3XfKzDvIe73epuaqUtijk.jpg",
+    "tmdb_rating": 6,
+    "tmdb_votes": 74,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0396688/"
+    }
+  },
+  "5275": {
+    "tmdb_id": 99637,
+    "title": "Eden",
+    "original_title": "Eden",
+    "overview": "In 1939, Kalman, an ambitious young businessman, leaves Europe to join his sister Samantha in Palestine. She lives with Dov, an idealistic architect obsessed with the Bauhaus style. With their friends, they form a group, which discusses the future Israeli State.",
+    "runtime": 91,
+    "release_date": "2001-08-29",
+    "genres": [
+      "Drama",
+      "Romance",
+      "War"
+    ],
+    "countries": [
+      "FR",
+      "IL",
+      "IT"
+    ],
+    "original_language": "en",
+    "director": "Amos Gitai",
+    "cast": [
+      "Samantha Morton",
+      "Thomas Jane",
+      "Luke Holland",
+      "Daphna Kastner",
+      "Danny Huston"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/2j4ItcoPcly4hBSPNpghAWVu3vF.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/mRKNcOUdrkl976N5uGeFGveZZ6t.jpg",
+    "tmdb_rating": 3.1,
+    "tmdb_votes": 12,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0271017/"
+    }
+  },
+  "5276": {
+    "tmdb_id": 389486,
+    "title": "One Night",
+    "original_title": "یک شب",
+    "overview": "On her way home one night, a young working girl who lives alone with her mother is asked to go sleep at her friend's house. She wanders all night in Teheran and meets three men who have different stories.",
+    "runtime": 78,
+    "release_date": "2005-03-24",
+    "countries": [
+      "IR"
+    ],
+    "original_language": "fa",
+    "director": "Niki Karimi",
+    "cast": [
+      "Hanie Tavassoli",
+      "Saeed Ebrahimifar",
+      "Abdolreza Fakhar",
+      "Nader Torkaman"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/2lKFw4n8YjFPiTwjKiOfIVD0ry.jpg",
+    "tmdb_rating": 4.4,
+    "tmdb_votes": 9,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0470612/"
+    }
+  },
+  "5277": {
+    "tmdb_id": 82824,
+    "title": "Texas",
+    "original_title": "Texas",
+    "overview": "Enrico, Carlo, Davide, Cinzia, Elisa. Three Saturdays in the life of a group of friends in a quiet town in Piedmont. One night in November, one in December close to Christmas, the third in February. A look at their lives and their daily problems, more or less important, which will lead someone to make even an extreme gesture.",
+    "runtime": 103,
+    "release_date": "2005-10-14",
+    "genres": [
+      "Action"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "original_language": "it",
+    "director": "Fausto Paravidino",
+    "cast": [
+      "Fausto Paravidino",
+      "Riccardo Scamarcio",
+      "Valeria Golino",
+      "Valerio Binasco",
+      "Carlo Orlando"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/5WX2f3t8jNOwQoc2jdrkX53P8Hg.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/oJp0hntgJUIuvVkdsmH37hYsJRR.jpg",
+    "tmdb_rating": 5.6,
+    "tmdb_votes": 12,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0446602/"
+    }
+  },
+  "5278": {
+    "tmdb_id": 203723,
+    "title": "Delivery",
+    "original_title": "Delivery",
+    "overview": "Young man arrives in Athens to seek his fortune.",
+    "runtime": 100,
+    "release_date": "2004-06-26",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "GR"
+    ],
+    "original_language": "el",
+    "director": "Nikos Panayotopoulos",
+    "cast": [
+      "Thanos Samaras",
+      "Alexia Kaltsiki",
+      "Errikos Litsis",
+      "Dimitris Imellos",
+      "Spyros Stavrinidis"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/unNHMEXYXoLUWbnxqWnjntoLBlh.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/9M07bCHStH1d31jo6RDWKmlnmQ0.jpg",
+    "tmdb_rating": 4.9,
+    "tmdb_votes": 11,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0431720/"
+    }
+  },
+  "5279": {
+    "tmdb_id": 98246,
+    "title": "The Sun",
+    "original_title": "Солнце",
+    "overview": "A re-imagination of Japanese Emperor Hirohito’s final days in power as WWII draws to a close.",
+    "runtime": 111,
+    "release_date": "2005-02-17",
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "countries": [
+      "IT",
+      "RU",
+      "FR",
+      "CH"
+    ],
+    "original_language": "ru",
+    "director": "Aleksandr Sokurov",
+    "cast": [
+      "Issey Ogata",
+      "Robert Dawson",
+      "Kaori Momoi",
+      "Shiro Sano",
+      "Dmitriy Podnozov"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/23G0iEbmqhWkgfpBiY7mLd6zxge.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/1RNiQpOtr20vITxHOUj77DaLUI9.jpg",
+    "tmdb_rating": 6.7,
+    "tmdb_votes": 71,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0439817/"
+    }
   }
 };
