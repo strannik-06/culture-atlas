@@ -1,0 +1,67 @@
+[
+  {
+    "section": "films",
+    "event": "Cannes",
+    "year": 2006,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2006-05-17",
+        "end": "2006-05-28",
+        "source": "https://www.festival-cannes.com/2006/vincent-cassel-maitre-de-ceremonie-du-59eme-festival-de-cannes/"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Cannes",
+    "year": 2007,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2007-05-16",
+        "end": "2007-05-27",
+        "source": "https://www.festival-cannes.com/en/2007/diane-kruger-master-of-ceremonies-for-the-60th-festival-de-cannes/"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Cannes",
+    "year": 2008,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2008-05-14",
+        "end": "2008-05-25",
+        "source": "https://www.festival-cannes.com/en/2008/sean-penn-president-of-the-jury-of-the-61st-festival-de-cannes/"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Cannes",
+    "year": 2009,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2009-05-13",
+        "end": "2009-05-24",
+        "source": "https://www.festival-cannes.com/en/2009/isabelle-huppert-will-be-the-president-of-the-jury-of-the-62nd-festival-de-cannes/"
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Cannes",
+    "year": 2010,
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2010-05-12",
+        "end": "2010-05-23",
+        "source": "https://www.festival-cannes.com/en/2010/tim-burton-president-of-the-jury-of-the-63rd-festival-de-cannes/"
+      }
+    ]
+  }
+]

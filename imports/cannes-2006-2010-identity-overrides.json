@@ -1,0 +1,363 @@
+{
+  "https://www.festival-cannes.com/en/f/che/": {
+    "manual_complete_film": {
+      "identity_key": "festival:cannes:2008:che",
+      "title": "Che",
+      "year": 2008,
+      "director": "Steven Soderbergh",
+      "runtime": 268,
+      "release_date": "2008-05-21",
+      "overview": "Steven Soderbergh follows Ernesto Che Guevara through two revolutionary campaigns. The first part traces his involvement in overthrowing the Batista regime in Cuba; the second follows his attempt to build a guerrilla movement in Bolivia. Benicio Del Toro portrays Guevara across the complete two-part film.",
+      "genres": [
+        "Drama",
+        "History",
+        "War"
+      ],
+      "countries": [
+        "US",
+        "FR",
+        "ES"
+      ],
+      "cast": [
+        "Benicio Del Toro",
+        "Demian Bichir",
+        "Julia Ormond",
+        "Carlos Bardem",
+        "Victor Rasuk"
+      ],
+      "original_language": "es",
+      "poster": "https://s3.amazonaws.com/criterion-production/films/4c9d05c3a4e297288956d667b30332c7/hCINFPsLgP4ggTVxwTci7CxtXIy8Y8_large.jpg",
+      "poster_source_url": "https://www.criterion.com/films/20987-che",
+      "cover_image_kind": "official-complete-film-cover",
+      "sources": [
+        "https://www.festival-cannes.com/en/f/che/",
+        "https://cdn-media.festival-cannes.com/film_film/0001/89/c31dc22f36be410e543e5955d0a2ba97c407b8e9.pdf",
+        "https://www.festival-cannes.com/en/2008/competition-che-by-steven-soderbergh/",
+        "https://www.criterion.com/films/20987-che"
+      ],
+      "note": "Complete two-part Cannes competition feature, premiered 21 May 2008. Cannes lists 268 minutes(Part One 137 + Part Two 131); Criterion director-approved later release lists 271 minutes. The complete work has no verified combined TMDB/IMDb identity; neither Part One nor Part Two provider ID is assigned. Cover is Criterion complete-film artwork; Cannes retrospective image was inspected and rejected because its small print explicitly says CHE PART ONE."
+    },
+    "note": "Reviewed providerless complete-film identity; preserves Cannes whole-work selection and Benicio Del Toro BestActor prize without falsely reusing individual-part provider identities.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/che/",
+      "https://www.criterion.com/films/20987-che"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/paris-je-t-aime/": {
+    "director_aliases": [
+      "Gurinder CHADHA, Bruno PODALYDES, Gus VAN SANT, Joel COEN, Ethan COEN, Daniela THOMAS, Walter SALLES, Christopher DOYLE, Isabel COIXET, Nobuhiro SUWA, Sylvain CHOMET, Alfonso CUARON, Olivier ASSAYAS, Oliver Schmitz, Richard LAGRAVENESE, Vincenzo NATALI, Wes CRAVEN, Tom TYKWER, Frédéric AUBURTIN, Gérard DEPARDIEU, Alexander PAYNE",
+      "Gurinder CHADHA, Bruno PODALYDES, Gus VAN SANT, Joel COEN, Ethan COEN, Daniela THOMAS, Walter SALLES, Christopher DOYLE, Isabel COIXET, Nobuhiro SUWA, Sylvain CHOMET, Alfonso CUARON, Olivier ASSAYAS, Oliver Schmitz, Richard LAGRAVENESE, Vincenzo NATALI, Wes CRAVEN, Tom TYKWER, Frédéric AUBURTIN, Gérard DEPARDIEU, Alexander PAYNE, Emmanuel Benbihy"
+    ],
+    "note": "Cannes archival display truncates Oliver Schmitz to Oliver. The contemporary Cannes opening announcement and official Sony distributor biography identify Schmitz. San Sebastian lists the same complete film with Emmanuel Benbihy also credited for transitions. Both full director groups are reviewed rather than dropping credit verification.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/2006/63459/",
+      "https://www.sonyclassics.com/downloads/LifeAboveAll-Release.pdf",
+      "https://www.sansebastianfestival.com/2006/sections_and_films/pearls/7/540149/in",
+      "https://medias.unifrance.org/medias/152/134/34456/presse/paris-je-t-aime-presskit-french.pdf"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/alexandra/": {
+    "note": "Alexander Sokourov/Aleksandr Sokurov transliteration variant; official Cannes page uses both names in director/screenplay credits for the same Russian feature.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/alexandra/",
+      "https://www.imdb.com/title/tt1034427/"
+    ],
+    "imdb_id": "tt1034427",
+    "tmdb_id": 17479,
+    "director_aliases": [
+      "Aleksandr Sokurov"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/amintiri-din-epoca-de-aur/": {
+    "note": "Complete five-director anthology credit retained. Berlinale Talents project names Constantin Popescu jr; provider adds same suffix and Romanian diacritics.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/amintiri-din-epoca-de-aur/",
+      "https://www.berlinale-talents.de/bt/project/profile/64356",
+      "https://iffr.com/en/iffr/2010/films/tales-from-the-golden-age",
+      "https://www.imdb.com/title/tt1422122/"
+    ],
+    "imdb_id": "tt1422122",
+    "tmdb_id": 39376,
+    "director_aliases": [
+      "Cristian Mungiu, Ioana Uricaru, Constantin Popescu Jr., Răzvan Marculescu, Hanno Höfer"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/babel/": {
+    "note": "Professional abbreviated González initial; IMDb confirms Babel 2006 director and principal cast. Full and abbreviated names identify same filmmaker.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/babel/",
+      "https://www.imdb.com/title/tt0449467/"
+    ],
+    "imdb_id": "tt0449467",
+    "tmdb_id": 1164,
+    "director_aliases": [
+      "Alejandro G. Iñárritu"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/bihisht-faqat-baroi-murdagon/": {
+    "note": "Djamshed/Jamshed transliteration; IMDb confirms original Tajik title and 2006 feature.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/bihisht-faqat-baroi-murdagon/",
+      "https://www.imdb.com/title/tt0792988/"
+    ],
+    "imdb_id": "tt0792988",
+    "tmdb_id": 120393,
+    "aliases": [
+      "To Get to Heaven, First You Have to Die"
+    ],
+    "director_aliases": [
+      "Jamshed Usmonov"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/biutiful/": {
+    "note": "Professional abbreviation documented in contemporary production participant TVC page, which uses both González and G.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/biutiful/",
+      "https://www.3cat.cat/tv3/ficcio-i-cinema/bbiutifulb-participada-per-tvc-al-festival-de-canes/noticia/2722763/",
+      "https://www.imdb.com/title/tt1164999/"
+    ],
+    "imdb_id": "tt1164999",
+    "tmdb_id": 45958,
+    "director_aliases": [
+      "Alejandro G. Iñárritu"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/california-dreamin-nesfarsit/": {
+    "note": "IMDb confirms original subtitled name California Dreamin Nesfarsit and shorter international title for Cristian Nemescu 2007 feature.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/california-dreamin-nesfarsit/",
+      "https://www.imdb.com/title/tt0449573/"
+    ],
+    "imdb_id": "tt0449573",
+    "aliases": [
+      "California Dreamin'"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/cronica-de-una-fuga/": {
+    "note": "Israel Adrián Caetano/Adrián Caetano professional-name variant; IMDb confirms original Spanish title,2006 year and escape synopsis.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/cronica-de-una-fuga/",
+      "https://www.imdb.com/title/tt0479354/"
+    ],
+    "imdb_id": "tt0479354",
+    "tmdb_id": 25532,
+    "aliases": [
+      "Chronicle of an Escape",
+      "Buenos Aires,1977"
+    ],
+    "director_aliases": [
+      "Adrián Caetano"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/el-bano-del-papa/": {
+    "note": "ABC in Cannes César Charlone credit is cinematographers association membership, not an additional director. IMDb and MoMA confirm both actual directors.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/el-bano-del-papa/",
+      "https://www.moma.org/calendar/film/869",
+      "https://abcine.org.br/socios/cesar-charlone-abc-scu/",
+      "https://www.imdb.com/title/tt0482901/"
+    ],
+    "imdb_id": "tt0482901",
+    "tmdb_id": 8267,
+    "aliases": [
+      "The Pope's Toilet"
+    ],
+    "director_aliases": [
+      "César Charlone, Enrique Fernández"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/er-shi-si-cheng-ji/": {
+    "note": "IMDb original romanized title and IFFR identify Jia Zhangke 2008 feature under24 City English title.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/er-shi-si-cheng-ji/",
+      "https://iffr.com/nl/iffr/2009/films/24-city",
+      "https://www.imdb.com/title/tt1103963/"
+    ],
+    "imdb_id": "tt1103963",
+    "aliases": [
+      "24 City"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/gwai-wik/": {
+    "note": "Full Pang brothers professional-name variants. Unique IMDb identity confirms both brothers, original Gwai wik title and Angelica Lee lead; no director check is removed.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/gwai-wik/",
+      "https://www.imdb.com/title/tt0498311/fullcredits/",
+      "https://www.imdb.com/title/tt0498311/"
+    ],
+    "imdb_id": "tt0498311",
+    "tmdb_id": 13402,
+    "director_aliases": [
+      "Oxide Pang Chun, Danny Pang Phat",
+      "Oxide Chun Pang, Danny Pang"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/kinatay/": {
+    "note": "Brillante Ma Mendoza professional-name variant confirmed by Asia Pacific Screen Awards biography, specifically naming Kinatay 2009 directing award.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/kinatay/",
+      "https://www.asiapacificscreenawards.com/apsa-academy-members/brillante-ma-mendoza",
+      "https://www.imdb.com/title/tt1423592/"
+    ],
+    "imdb_id": "tt1423592",
+    "tmdb_id": 64450,
+    "aliases": [
+      "Butchered"
+    ],
+    "director_aliases": [
+      "Brillante Ma Mendoza"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/my-magic/": {
+    "note": "Cannes archival film listing truncates surname to Eric; contemporary festival article explicitly credits Eric Khoo and gives identical father/son/magician synopsis.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/my-magic/",
+      "https://www.festival-cannes.com/en/2008/competition-my-magic-by-eric-khoo/",
+      "https://www.sgfilmdb.com/features/my-magic"
+    ],
+    "tmdb_id": 8903,
+    "director_aliases": [
+      "Eric Khoo"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/octubre/": {
+    "note": "Full surnames for both Vega brothers, confirmed in IMDb director/writer credits for 2010 moneylender/newborn story.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/octubre/",
+      "https://www.imdb.com/title/tt1646118/"
+    ],
+    "imdb_id": "tt1646118",
+    "tmdb_id": 52322,
+    "director_aliases": [
+      "Daniel Vega Vidal, Diego Vega Vidal"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/precious/": {
+    "note": "Academy 2010 title supplies provider subtitle. IMDb disambiguates Lee Daniels 2009 feature from homonymous films.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/precious/",
+      "https://www.oscars.org/oscars/ceremonies/2010",
+      "https://www.imdb.com/title/tt0929632/"
+    ],
+    "imdb_id": "tt0929632",
+    "aliases": [
+      "Precious: Based on the Novel 'Push' by Sapphire"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/salvador/": {
+    "note": "IMDb supplies full original title and confirms Manuel Huerga 2006 biographical feature, not unrelated shorts or earlier Salvador.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/salvador/",
+      "https://www.imdb.com/title/tt0445691/"
+    ],
+    "imdb_id": "tt0445691",
+    "aliases": [
+      "Salvador (Puig Antich)"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/serbis/": {
+    "note": "Same Brillante Ma Mendoza professional-name variant documented by Asia Pacific Screen Awards; IMDb and TIFF official archive identify 2008 Serbis/Service.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/serbis/",
+      "https://www.asiapacificscreenawards.com/apsa-academy-members/brillante-ma-mendoza",
+      "https://www.tiff08.ca/filmsandschedules/films/serbis/",
+      "https://www.imdb.com/title/tt1225296/"
+    ],
+    "imdb_id": "tt1225296",
+    "tmdb_id": 8904,
+    "aliases": [
+      "Service"
+    ],
+    "director_aliases": [
+      "Brillante Ma Mendoza"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/ten-canoes/": {
+    "note": "Complete two-director credit includes Peter Djigirr, omitted from Cannes director list. Producer Vertigo explicitly credits Djigirr as co-director; NZIFF 2006 credits both.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/ten-canoes/",
+      "https://vertigoproductions.com.au/ten_canoes_overview.php",
+      "https://www1.nziff.co.nz/2006/archive/ten-canoes/"
+    ],
+    "tmdb_id": 14064,
+    "director_aliases": [
+      "Rolf de Heer, Peter Djigirr"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/the-terror-s-advocate/": {
+    "note": "Official director site gives title without leading The and original French title for 2007 Jacques Vergès documentary.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/the-terror-s-advocate/",
+      "https://barbet-schroeder.com/movies/terrors-advocate-2007/",
+      "https://www.imdb.com/title/tt1032854/"
+    ],
+    "imdb_id": "tt1032854",
+    "aliases": [
+      "Terror's Advocate",
+      "L'Avocat de la terreur"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/ting-che/": {
+    "note": "IMDb and Vesoul official festival archive identify Ting che as Parking, Chung Mong-hong 2008 feature with matching Taipei double-parking plot.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/ting-che/",
+      "https://archives.cinemas-asie.com/en/movies/item/3595-parking.html",
+      "https://www.imdb.com/title/tt1232827/"
+    ],
+    "imdb_id": "tt1232827",
+    "aliases": [
+      "Parking"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/tulpan/": {
+    "note": "Sergey/Sergei transliteration variant; IMDb and Eye Filmmuseum confirm 2008 Kazakhstan feature and Cannes UCR winner.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/tulpan/",
+      "https://www.eyefilm.nl/whats-on/tulpan/267903",
+      "https://www.imdb.com/title/tt0436854/"
+    ],
+    "imdb_id": "tt0436854",
+    "tmdb_id": 8939,
+    "director_aliases": [
+      "Sergei Dvortsevoy"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/two-thirty-7/": {
+    "note": "Numeric international title confirmed by IMDb for Murali K. Thalluri 2006 school ensemble drama; original Cannes uses written-out time.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/two-thirty-7/",
+      "https://www.imdb.com/title/tt0472582/"
+    ],
+    "imdb_id": "tt0472582",
+    "aliases": [
+      "2:37"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/tzar/": {
+    "note": "Tzar/Tsar title and Lounguine/Lungin transliteration variants; IMDb confirms 2009 Ivan the Terrible film and Pavel Lungin director.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/tzar/",
+      "https://www.imdb.com/title/tt1424431/"
+    ],
+    "imdb_id": "tt1424431",
+    "aliases": [
+      "Tsar"
+    ],
+    "director_aliases": [
+      "Pavel Lungin"
+    ]
+  },
+  "https://www.festival-cannes.com/en/f/utomlyonnye-solntsem-2-predstoyanie/": {
+    "note": "IMDb confirms original Predstoyanie title, Nikita Mikhalkov and 2010 EasternFront feature; distinct from 2011 sequel Citadel or TV re-edit.",
+    "source_urls": [
+      "https://www.festival-cannes.com/en/f/utomlyonnye-solntsem-2-predstoyanie/",
+      "https://www.imdb.com/title/tt0403645/"
+    ],
+    "imdb_id": "tt0403645",
+    "aliases": [
+      "Burnt by the Sun 2",
+      "Burnt by the Sun 2: Exodus",
+      "Utomlennye solntsem 2: Predstoyanie"
+    ]
+  }
+}

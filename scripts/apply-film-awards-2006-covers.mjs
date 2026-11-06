@@ -1,0 +1,8 @@
+// Apply reviewed public cover fallbacks to this batch's new identities only.
+import fs from 'node:fs';import vm from 'node:vm';
+const read=(p,k)=>{const c={window:{}};vm.runInNewContext(fs.readFileSync(p,'utf8'),c);return JSON.parse(JSON.stringify(c.window[k]));};
+const source=JSON.parse(fs.readFileSync('imports/film-awards-2006-2010-cover-sources.json')),audit=JSON.parse(fs.readFileSync('imports/film-awards-2006-2010-audit.json')),details=read('film-details.js','CULTURE_FILM_DETAILS'),films=read('film-catalog.js','CULTURE_CATALOG');
+for(const r of source.films){const f=audit.new_canonical_ids.find(f=>f.id===r.film_id);if(!f||f.tmdb_id!==r.tmdb_id||f.imdb_id!==r.imdb_id)throw Error('Cover identity mismatch');if(details[f.id]?.poster)continue;const poster=`assets/film-posters/${f.id}.jpg`;if(!fs.existsSync(poster))throw Error('Cover asset missing');Object.assign(details[f.id],{poster,poster_source_url:r.source_page,cover_image_kind:r.image_kind});}
+audit.unavailable_posters=audit.new_canonical_ids.filter(f=>!details[f.id]?.poster).map(f=>({id:f.id,title:f.title}));audit.cover_sources=source.films.map(r=>({id:r.film_id,kind:r.image_kind,source:r.source_page}));fs.writeFileSync('imports/film-awards-2006-2010-audit.json',JSON.stringify(audit,null,2)+'\n');fs.writeFileSync('film-details.js','window.CULTURE_FILM_DETAILS = '+JSON.stringify(details,null,2)+';\n');
+const report=JSON.parse(fs.readFileSync('imports/film-metadata-completion.json'));report.after.poster=films.filter(f=>details[f.id]?.poster).length;fs.writeFileSync('imports/film-metadata-completion.json',JSON.stringify(report,null,2)+'\n');
+console.log('Applied reviewed covers; unavailable:',audit.unavailable_posters.length);

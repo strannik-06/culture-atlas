@@ -48,6 +48,11 @@
     for (const film of films) {
       if (film.work_type !== undefined && film.work_type !== 'movie') throw new Error('Movie registry received another media type');
       if(film.tmdb_tv_id&&(film.tmdb_id||film.identity_status!=='reviewed_complete_film_tv_provider'||film.identity_scope!=='complete-film'||!film.imdb_id||!film.identity_sources?.length))throw new Error('TV-backed film requires reviewed complete-film identity');
+      if(film.identity_status==='reviewed_complete_film_official_source'){
+        if(film.tmdb_id||film.tmdb_tv_id||film.imdb_id||film.identity_scope!=='complete-film'||!/^festival:[a-z0-9-]+:\d{4}:[a-z0-9-]+$/.test(film.identity_key||'')||film.identity_sources?.length<2||!film.identity_sources||film.identity_sources.some(u=>!/^https:\/\//.test(u)))throw new Error('Official-source film requires reviewed complete-film evidence');
+        if(films.some(f=>f!==film&&f.identity_key===film.identity_key))throw new Error('Duplicate official-source identity');
+        add(film,movieKey(film.id),'movie',null);continue;
+      }
       add(film, movieKey(film.id), 'movie', film.tmdb_tv_id ? externalKey('tv',film.tmdb_tv_id) : externalKey('movie',film.tmdb_id));
     }
     for (const show of series) {

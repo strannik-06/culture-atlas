@@ -1,0 +1,1762 @@
+{
+  "scope": "Main Competition (final actual competitors) 2006–2010. Encounters did not yet exist. Official jury prizes and cross-section official prizes for selected films. Excludes out-of-competition screenings, withdrawn films, independent juries, other sections and honorary awards.",
+  "events": [
+    {
+      "event": "Berlinale",
+      "year": 2006,
+      "section": "Official Selection",
+      "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2006/o=asc/p=1/rp=200",
+      "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2006/o=desc/p=1/rp=40",
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2006-02-09",
+          "end": "2006-02-19",
+          "source": "https://www.berlinale.de/en/archive/yearbooks/2006.html"
+        }
+      ],
+      "date_source_text": "February 9 – 19, 2006",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2006/o=asc/p=1/rp=200",
+          "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2006/o=desc/p=1/rp=40",
+          "selection": [
+            {
+              "title": "A Prairie Home Companion",
+              "aliases": [],
+              "director": "Robert Altman",
+              "year": 2005,
+              "runtime": 100,
+              "source": "https://www.berlinale.de/en/2006/programme/20060251.html"
+            },
+            {
+              "title": "Candy",
+              "aliases": [],
+              "director": "Neil Armfield",
+              "year": 2005,
+              "runtime": 108,
+              "source": "https://www.berlinale.de/en/2006/programme/20061658.html"
+            },
+            {
+              "title": "Der freie Wille",
+              "aliases": [
+                "The Free Will"
+              ],
+              "director": "Matthias Glasner",
+              "year": 2006,
+              "runtime": 163,
+              "source": "https://www.berlinale.de/en/2006/programme/20061240.html"
+            },
+            {
+              "title": "El custodio",
+              "aliases": [
+                "Der Schatten"
+              ],
+              "director": "Rodrigo Moreno",
+              "year": 2005,
+              "runtime": 93,
+              "source": "https://www.berlinale.de/en/2006/programme/20061754.html"
+            },
+            {
+              "title": "Elementarteilchen",
+              "aliases": [
+                "The Elementary Particles"
+              ],
+              "director": "Oskar Roehler",
+              "year": 2005,
+              "runtime": 105,
+              "source": "https://www.berlinale.de/en/2006/programme/20063120.html"
+            },
+            {
+              "title": "En Soap",
+              "aliases": [
+                "A Soap",
+                "Eine Soap"
+              ],
+              "director": "Pernille Fischer Christensen",
+              "year": 2005,
+              "runtime": 102,
+              "source": "https://www.berlinale.de/en/2006/programme/20061803.html"
+            },
+            {
+              "title": "Find Me Guilty",
+              "aliases": [],
+              "director": "Sidney Lumet",
+              "year": 2005,
+              "runtime": 125,
+              "source": "https://www.berlinale.de/en/2006/programme/20062980.html"
+            },
+            {
+              "title": "Grbavica",
+              "aliases": [],
+              "director": "Jasmila Zbanic",
+              "year": 2005,
+              "runtime": 90,
+              "source": "https://www.berlinale.de/en/2006/programme/20060133.html"
+            },
+            {
+              "title": "Invisible Waves",
+              "aliases": [],
+              "director": "Pen-ek Ratanaruang",
+              "year": 2005,
+              "runtime": 115,
+              "source": "https://www.berlinale.de/en/2006/programme/20060018.html"
+            },
+            {
+              "title": "Isabella",
+              "aliases": [],
+              "director": "Pang Ho-cheung",
+              "year": 2006,
+              "runtime": 91,
+              "source": "https://www.berlinale.de/en/2006/programme/20063971.html"
+            },
+            {
+              "title": "L'ivresse du pouvoir",
+              "aliases": [
+                "Comedy Of Power",
+                "Geheime Staatsaffären"
+              ],
+              "director": "Claude Chabrol",
+              "year": 2005,
+              "runtime": 110,
+              "source": "https://www.berlinale.de/en/2006/programme/20062254.html"
+            },
+            {
+              "title": "Offside",
+              "aliases": [],
+              "director": "Jafar Panahi",
+              "year": 2005,
+              "runtime": 88,
+              "source": "https://www.berlinale.de/en/2006/programme/20064227.html"
+            },
+            {
+              "title": "Requiem",
+              "aliases": [],
+              "director": "Hans-Christian Schmid",
+              "year": 2006,
+              "runtime": 93,
+              "source": "https://www.berlinale.de/en/2006/programme/20060007.html"
+            },
+            {
+              "title": "Romanzo Criminale",
+              "aliases": [
+                "Crime Novel",
+                "Kriminalroman"
+              ],
+              "director": "Michele Placido",
+              "year": 2005,
+              "runtime": 146,
+              "source": "https://www.berlinale.de/en/2006/programme/20063028.html"
+            },
+            {
+              "title": "Sehnsucht",
+              "aliases": [
+                "Longing"
+              ],
+              "director": "Valeska Grisebach",
+              "year": 2005,
+              "runtime": 90,
+              "source": "https://www.berlinale.de/en/2006/programme/20062060.html"
+            },
+            {
+              "title": "Slumming",
+              "aliases": [],
+              "director": "Michael Glawogger",
+              "year": 2006,
+              "runtime": 96,
+              "source": "https://www.berlinale.de/en/2006/programme/20062597.html"
+            },
+            {
+              "title": "Snow Cake",
+              "aliases": [],
+              "director": "Marc Evans",
+              "year": 2006,
+              "runtime": 112,
+              "source": "https://www.berlinale.de/en/2006/programme/20061659.html"
+            },
+            {
+              "title": "The Road To Guantanamo",
+              "aliases": [],
+              "director": "Michael Winterbottom, Mat Whitecross",
+              "year": 2006,
+              "runtime": 95,
+              "source": "https://www.berlinale.de/en/2006/programme/20061707.html"
+            },
+            {
+              "title": "Zemestan",
+              "aliases": [
+                "It's Winter"
+              ],
+              "director": "Rafi Pitts",
+              "year": 2005,
+              "runtime": 86,
+              "source": "https://www.berlinale.de/en/2006/programme/20062389.html"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Bear for Best Film",
+              "source_name": "Golden Bear",
+              "jury": "International Jury 2006",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2006/o=desc/p=1/rp=40",
+              "source_text": "Grbavica by Jasmila Zbanic",
+              "entries": [
+                {
+                  "title": "Grbavica",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Grand Jury Prize",
+              "source_name": "Jury Grand Prix (Silver Bear)",
+              "jury": "International Jury 2006",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2006/o=desc/p=1/rp=40",
+              "source_text": "ex aequo En Soap by Pernille Fischer Christensen",
+              "entries": [
+                {
+                  "title": "En Soap",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Grand Jury Prize",
+              "source_name": "Jury Grand Prix (Silver Bear)",
+              "jury": "International Jury 2006",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2006/o=desc/p=1/rp=40",
+              "source_text": "ex aequo Offside by Jafar Panahi",
+              "entries": [
+                {
+                  "title": "Offside",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Director",
+              "source_name": "Silver Bear for Best Director",
+              "jury": "International Jury 2006",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2006/o=desc/p=1/rp=40",
+              "source_text": "Michael Winterbottom and Mat Whitecross The Road To Guantanamo by Michael Winterbottom, Mat Whitecross",
+              "entries": [
+                {
+                  "title": "The Road To Guantanamo",
+                  "winner": true,
+                  "people": [
+                    "Michael Winterbottom and Mat Whitecross"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actress",
+              "source_name": "Silver Bear for Best Actress",
+              "jury": "International Jury 2006",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2006/o=desc/p=1/rp=40",
+              "source_text": "Sandra Hüller Requiem by Hans-Christian Schmid",
+              "entries": [
+                {
+                  "title": "Requiem",
+                  "winner": true,
+                  "people": [
+                    "Sandra Hüller"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actor",
+              "source_name": "Silver Bear for Best Actor",
+              "jury": "International Jury 2006",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2006/o=desc/p=1/rp=40",
+              "source_text": "Moritz Bleibtreu Elementarteilchen by Oskar Roehler",
+              "entries": [
+                {
+                  "title": "Elementarteilchen",
+                  "winner": true,
+                  "people": [
+                    "Moritz Bleibtreu"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Outstanding Artistic Contribution",
+              "source_name": "Silver Bear for Outstanding Artistic Contribution",
+              "jury": "International Jury 2006",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2006/o=desc/p=1/rp=40",
+              "source_text": "Jürgen Vogel as Actor, Co-Author and Co-Producer of the film Der freie Wille by Matthias Glasner",
+              "entries": [
+                {
+                  "title": "Der freie Wille",
+                  "winner": true,
+                  "people": [
+                    "Jürgen Vogel"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for the Best Music",
+              "source_name": "Silver Bear for the Best Music",
+              "jury": "International Jury 2006",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2006/o=desc/p=1/rp=40",
+              "source_text": "Peter Kam Isabella by Pang Ho-cheung",
+              "entries": [
+                {
+                  "title": "Isabella",
+                  "winner": true,
+                  "people": [
+                    "Peter Kam"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Alfred Bauer Prize",
+              "source_name": "Alfred Bauer Prize",
+              "jury": "International Jury 2006",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2006/o=desc/p=1/rp=40",
+              "source_text": "El custodio by Rodrigo Moreno",
+              "entries": [
+                {
+                  "title": "El custodio",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "GWFF Best First Feature Award",
+              "source_name": "Best First Feature Award",
+              "jury": "Best First Feature Award Jury 2006",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2006/o=desc/p=1/rp=40",
+              "source_text": "En Soap by Pernille Fischer Christensen",
+              "entries": [
+                {
+                  "title": "En Soap",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "Berlinale",
+      "year": 2007,
+      "section": "Official Selection",
+      "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2007/o=asc/p=1/rp=200",
+      "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2007/o=desc/p=1/rp=40",
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2007-02-08",
+          "end": "2007-02-18",
+          "source": "https://www.berlinale.de/en/archive/yearbooks/2007.html"
+        }
+      ],
+      "date_source_text": "February 8 – 18, 2007",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2007/o=asc/p=1/rp=200",
+          "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2007/o=desc/p=1/rp=40",
+          "selection": [
+            {
+              "title": "Angel",
+              "aliases": [],
+              "director": "François Ozon",
+              "year": 2007,
+              "runtime": 137,
+              "source": "https://www.berlinale.de/en/2007/programme/20073709.html"
+            },
+            {
+              "title": "Beaufort",
+              "aliases": [],
+              "director": "Joseph Cedar",
+              "year": 2007,
+              "runtime": 120,
+              "source": "https://www.berlinale.de/en/2007/programme/20070583.html"
+            },
+            {
+              "title": "Bordertown",
+              "aliases": [],
+              "director": "Gregory Nava",
+              "year": 2006,
+              "runtime": 112,
+              "source": "https://www.berlinale.de/en/2007/programme/20070017.html"
+            },
+            {
+              "title": "Die Fälscher",
+              "aliases": [
+                "The Counterfeiters"
+              ],
+              "director": "Stefan Ruzowitzky",
+              "year": 2006,
+              "runtime": 99,
+              "source": "https://www.berlinale.de/en/2007/programme/20070915.html"
+            },
+            {
+              "title": "El otro",
+              "aliases": [
+                "The Other",
+                "Der Andere"
+              ],
+              "director": "Ariel Rotter",
+              "year": 2007,
+              "runtime": 83,
+              "source": "https://www.berlinale.de/en/2007/programme/20073700.html"
+            },
+            {
+              "title": "Goodbye Bafana",
+              "aliases": [],
+              "director": "Bille August",
+              "year": 2006,
+              "runtime": 117,
+              "source": "https://www.berlinale.de/en/2007/programme/20073501.html"
+            },
+            {
+              "title": "Hallam Foe",
+              "aliases": [],
+              "director": "David Mackenzie",
+              "year": 2007,
+              "runtime": 96,
+              "source": "https://www.berlinale.de/en/2007/programme/20070911.html"
+            },
+            {
+              "title": "Hyazgar",
+              "aliases": [
+                "Desert Dream"
+              ],
+              "director": "Zhang Lu",
+              "year": 2007,
+              "runtime": 123,
+              "source": "https://www.berlinale.de/en/2007/programme/20074527.html"
+            },
+            {
+              "title": "In memoria di me",
+              "aliases": [
+                "In Memory Of Myself"
+              ],
+              "director": "Saverio Costanzo",
+              "year": 2007,
+              "runtime": 118,
+              "source": "https://www.berlinale.de/en/2007/programme/20074669.html"
+            },
+            {
+              "title": "Irina Palm",
+              "aliases": [],
+              "director": "Sam Garbarski",
+              "year": 2006,
+              "runtime": 103,
+              "source": "https://www.berlinale.de/en/2007/programme/20070008.html"
+            },
+            {
+              "title": "La Môme",
+              "aliases": [
+                "La Vie en Rose"
+              ],
+              "director": "Olivier Dahan",
+              "year": 2006,
+              "runtime": 140,
+              "source": "https://www.berlinale.de/en/2007/programme/20070103.html"
+            },
+            {
+              "title": "Les Témoins",
+              "aliases": [
+                "The Witnesses",
+                "Die Zeugen"
+              ],
+              "director": "André Téchiné",
+              "year": 2006,
+              "runtime": 115,
+              "source": "https://www.berlinale.de/en/2007/programme/20073891.html"
+            },
+            {
+              "title": "Ne touchez pas la hache",
+              "aliases": [
+                "Don't Touch The Axe",
+                "Die Herzogin von Langeais"
+              ],
+              "director": "Jacques Rivette",
+              "year": 2006,
+              "runtime": 137,
+              "source": "https://www.berlinale.de/en/2007/programme/20074401.html"
+            },
+            {
+              "title": "O ano em que meus pais saíram de férias",
+              "aliases": [
+                "The Year My Parents Went On Vacation",
+                "Das Jahr als meine Eltern im Urlaub waren"
+              ],
+              "director": "Cao Hamburger",
+              "year": 2006,
+              "runtime": 104,
+              "source": "https://www.berlinale.de/en/2007/programme/20071496.html"
+            },
+            {
+              "title": "Obsluhoval jsem anglického krále",
+              "aliases": [
+                "I Served The King Of England",
+                "Ich habe den englischen König bedient"
+              ],
+              "director": "Jirí Menzel",
+              "year": 2006,
+              "runtime": 118,
+              "source": "https://www.berlinale.de/en/2007/programme/20070105.html"
+            },
+            {
+              "title": "Ping Guo",
+              "aliases": [
+                "Lost In Beijing"
+              ],
+              "director": "Li Yu",
+              "year": 2007,
+              "runtime": 112,
+              "source": "https://www.berlinale.de/en/2007/programme/20075056.html"
+            },
+            {
+              "title": "Sai bo gu ji man gwen chan a",
+              "aliases": [
+                "I'm A Cyborg, But That's Ok",
+                "Ich bin ein Cyborg, aber das macht nichts"
+              ],
+              "director": "Park Chan-wook",
+              "year": 2006,
+              "runtime": 105,
+              "source": "https://www.berlinale.de/en/2007/programme/20074102.html"
+            },
+            {
+              "title": "The Good German",
+              "aliases": [],
+              "director": "Steven Soderbergh",
+              "year": 2006,
+              "runtime": 108,
+              "source": "https://www.berlinale.de/en/2007/programme/20070098.html"
+            },
+            {
+              "title": "The Good Shepherd",
+              "aliases": [
+                "Der gute Hirte"
+              ],
+              "director": "Robert De Niro",
+              "year": 2006,
+              "runtime": 167,
+              "source": "https://www.berlinale.de/en/2007/programme/20070128.html"
+            },
+            {
+              "title": "Tu ya de hun shi",
+              "aliases": [
+                "Tuya's Marriage",
+                "Tuyas Ehe"
+              ],
+              "director": "Wang Quan'an",
+              "year": 2006,
+              "runtime": 96,
+              "source": "https://www.berlinale.de/en/2007/programme/20070854.html"
+            },
+            {
+              "title": "When A Man Falls In The Forest",
+              "aliases": [],
+              "director": "Ryan Eslinger",
+              "year": 2006,
+              "runtime": 85,
+              "source": "https://www.berlinale.de/en/2007/programme/20073122.html"
+            },
+            {
+              "title": "Yella",
+              "aliases": [],
+              "director": "Christian Petzold",
+              "year": 2007,
+              "runtime": 89,
+              "source": "https://www.berlinale.de/en/2007/programme/20071636.html"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Bear for Best Film",
+              "source_name": "Golden Bear for Best Film",
+              "jury": "International Jury 2007",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2007/o=desc/p=1/rp=40",
+              "source_text": "Tu ya de hun shi by Wang Quan'an",
+              "entries": [
+                {
+                  "title": "Tu ya de hun shi",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Grand Jury Prize",
+              "source_name": "Jury Grand Prix (Silver Bear)",
+              "jury": "International Jury 2007",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2007/o=desc/p=1/rp=40",
+              "source_text": "El otro by Ariel Rotter",
+              "entries": [
+                {
+                  "title": "El otro",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Director",
+              "source_name": "Silver Bear for Best Director",
+              "jury": "International Jury 2007",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2007/o=desc/p=1/rp=40",
+              "source_text": "Joseph Cedar Beaufort by Joseph Cedar",
+              "entries": [
+                {
+                  "title": "Beaufort",
+                  "winner": true,
+                  "people": [
+                    "Joseph Cedar"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actress",
+              "source_name": "Silver Bear for Best Actress",
+              "jury": "International Jury 2007",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2007/o=desc/p=1/rp=40",
+              "source_text": "Nina Hoss Yella by Christian Petzold",
+              "entries": [
+                {
+                  "title": "Yella",
+                  "winner": true,
+                  "people": [
+                    "Nina Hoss"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actor",
+              "source_name": "Silver Bear for Best Actor",
+              "jury": "International Jury 2007",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2007/o=desc/p=1/rp=40",
+              "source_text": "Julio Chavez El otro by Ariel Rotter",
+              "entries": [
+                {
+                  "title": "El otro",
+                  "winner": true,
+                  "people": [
+                    "Julio Chavez"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Outstanding Artistic Contribution",
+              "source_name": "Silver Bear for Outstanding Artistic Contribution",
+              "jury": "International Jury 2007",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2007/o=desc/p=1/rp=40",
+              "source_text": "for the ensemble cast The Good Shepherd by Robert De Niro",
+              "entries": [
+                {
+                  "title": "The Good Shepherd",
+                  "winner": true,
+                  "people": [
+                    "Ensemble cast"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for the Best Music",
+              "source_name": "Silver Bear for the Best Music",
+              "jury": "International Jury 2007",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2007/o=desc/p=1/rp=40",
+              "source_text": "David Mackenzie Hallam Foe by David Mackenzie",
+              "entries": [
+                {
+                  "title": "Hallam Foe",
+                  "winner": true,
+                  "people": [
+                    "David Mackenzie"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Alfred Bauer Prize",
+              "source_name": "Alfred Bauer Prize",
+              "jury": "International Jury 2007",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2007/o=desc/p=1/rp=40",
+              "source_text": "for a work of particular innovation Sai bo gu ji man gwen chan a by Park Chan-wook",
+              "entries": [
+                {
+                  "title": "Sai bo gu ji man gwen chan a",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "excluded_out_of_competition": [
+        {
+          "title": "Letters From Iwo Jima",
+          "source": "https://www.berlinale.de/en/2007/programme/20073930.html",
+          "evidence": "https://www.berlinale.de/media/download/presse/dossier/57ifb/pressedossier2007.pdf",
+          "reason": "The archive section tag omits the out-of-competition qualifier; the official 2007 press dossier explicitly lists this film under Außer Konkurrenz."
+        }
+      ]
+    },
+    {
+      "event": "Berlinale",
+      "year": 2008,
+      "section": "Official Selection",
+      "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2008/o=asc/p=1/rp=200",
+      "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2008/o=desc/p=1/rp=40",
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2008-02-07",
+          "end": "2008-02-17",
+          "source": "https://www.berlinale.de/en/archive/yearbooks/2008.html"
+        }
+      ],
+      "date_source_text": "February 7 – 17, 2008",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2008/o=asc/p=1/rp=200",
+          "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2008/o=desc/p=1/rp=40",
+          "selection": [
+            {
+              "title": "Avaze Gonjeshk-ha",
+              "aliases": [
+                "The Song Of Sparrows"
+              ],
+              "director": "Majid Majidi",
+              "year": 2008,
+              "runtime": 96,
+              "source": "https://www.berlinale.de/en/2008/programme/20085220.html"
+            },
+            {
+              "title": "Ballast",
+              "aliases": [],
+              "director": "Lance Hammer",
+              "year": 2007,
+              "runtime": 96,
+              "source": "https://www.berlinale.de/en/2008/programme/20081449.html"
+            },
+            {
+              "title": "Bam gua Nat",
+              "aliases": [
+                "Night And Day",
+                "Nacht und Tag"
+              ],
+              "director": "Hong Sangsoo",
+              "year": 2008,
+              "runtime": 145,
+              "source": "https://www.berlinale.de/en/2008/programme/20084899.html"
+            },
+            {
+              "title": "Caos calmo",
+              "aliases": [
+                "Quiet Chaos"
+              ],
+              "director": "Antonello Grimaldi",
+              "year": 2008,
+              "runtime": 105,
+              "source": "https://www.berlinale.de/en/2008/programme/20083103.html"
+            },
+            {
+              "title": "Elegy",
+              "aliases": [],
+              "director": "Isabel Coixet",
+              "year": 2007,
+              "runtime": 108,
+              "source": "https://www.berlinale.de/en/2008/programme/20080020.html"
+            },
+            {
+              "title": "Feuerherz",
+              "aliases": [
+                "Heart of Fire"
+              ],
+              "director": "Luigi Falorni",
+              "year": 2008,
+              "runtime": 92,
+              "source": "https://www.berlinale.de/en/2008/programme/20082004.html"
+            },
+            {
+              "title": "Gardens of the Night",
+              "aliases": [],
+              "director": "Damian Harris",
+              "year": 2007,
+              "runtime": 110,
+              "source": "https://www.berlinale.de/en/2008/programme/20081872.html"
+            },
+            {
+              "title": "Happy-Go-Lucky",
+              "aliases": [],
+              "director": "Mike Leigh",
+              "year": 2007,
+              "runtime": 118,
+              "source": "https://www.berlinale.de/en/2008/programme/20080075.html"
+            },
+            {
+              "title": "Il y a longtemps que je t'aime...",
+              "aliases": [
+                "I've Loved You So Long..."
+              ],
+              "director": "Philippe Claudel",
+              "year": 2007,
+              "runtime": 110,
+              "source": "https://www.berlinale.de/en/2008/programme/20084564.html"
+            },
+            {
+              "title": "Julia",
+              "aliases": [],
+              "director": "Erick Zonca",
+              "year": 2007,
+              "runtime": 138,
+              "source": "https://www.berlinale.de/en/2008/programme/20084694.html"
+            },
+            {
+              "title": "KABEI",
+              "aliases": [
+                "KABEI - Our Mother"
+              ],
+              "director": "Yoji Yamada",
+              "year": 2007,
+              "runtime": 132,
+              "source": "https://www.berlinale.de/en/2008/programme/20084227.html"
+            },
+            {
+              "title": "Kirschblüten - Hanami",
+              "aliases": [
+                "Cherry Blossoms - Hanami"
+              ],
+              "director": "Doris Dörrie",
+              "year": 2007,
+              "runtime": 122,
+              "source": "https://www.berlinale.de/en/2008/programme/20080122.html"
+            },
+            {
+              "title": "Lady Jane",
+              "aliases": [],
+              "director": "Robert Guédiguian",
+              "year": 2007,
+              "runtime": 104,
+              "source": "https://www.berlinale.de/en/2008/programme/20080030.html"
+            },
+            {
+              "title": "Lake Tahoe",
+              "aliases": [],
+              "director": "Fernando Eimbcke",
+              "year": 2008,
+              "runtime": 85,
+              "source": "https://www.berlinale.de/en/2008/programme/20082063.html"
+            },
+            {
+              "title": "Man Jeuk",
+              "aliases": [
+                "Sparrow"
+              ],
+              "director": "Johnnie To",
+              "year": 2007,
+              "runtime": 87,
+              "source": "https://www.berlinale.de/en/2008/programme/20084390.html"
+            },
+            {
+              "title": "Musta Jää",
+              "aliases": [
+                "Black Ice"
+              ],
+              "director": "Petri Kotwica",
+              "year": 2007,
+              "runtime": 100,
+              "source": "https://www.berlinale.de/en/2008/programme/20081360.html"
+            },
+            {
+              "title": "Restless",
+              "aliases": [],
+              "director": "Amos Kollek",
+              "year": 2007,
+              "runtime": 100,
+              "source": "https://www.berlinale.de/en/2008/programme/20082449.html"
+            },
+            {
+              "title": "Standard Operating Procedure",
+              "aliases": [],
+              "director": "Errol Morris",
+              "year": 2008,
+              "runtime": 118,
+              "source": "https://www.berlinale.de/en/2008/programme/20080351.html"
+            },
+            {
+              "title": "There Will Be Blood",
+              "aliases": [],
+              "director": "Paul Thomas Anderson",
+              "year": 2007,
+              "runtime": 158,
+              "source": "https://www.berlinale.de/en/2008/programme/20080019.html"
+            },
+            {
+              "title": "Tropa de elite",
+              "aliases": [
+                "The Elite Squad"
+              ],
+              "director": "José Padilha",
+              "year": 2007,
+              "runtime": 118,
+              "source": "https://www.berlinale.de/en/2008/programme/20080468.html"
+            },
+            {
+              "title": "Zuo You",
+              "aliases": [
+                "In Love We Trust"
+              ],
+              "director": "Wang Xiaoshuai",
+              "year": 2007,
+              "runtime": 115,
+              "source": "https://www.berlinale.de/en/2008/programme/20080017.html"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Bear for Best Film",
+              "source_name": "Golden Bear for Best Film",
+              "jury": "International Jury 2008",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2008/o=desc/p=1/rp=40",
+              "source_text": "Tropa de elite by José Padilha",
+              "entries": [
+                {
+                  "title": "Tropa de elite",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Grand Jury Prize",
+              "source_name": "Jury Grand Prix (Silver Bear)",
+              "jury": "International Jury 2008",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2008/o=desc/p=1/rp=40",
+              "source_text": "Standard Operating Procedure by Errol Morris",
+              "entries": [
+                {
+                  "title": "Standard Operating Procedure",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Director",
+              "source_name": "Silver Bear for Best Director",
+              "jury": "International Jury 2008",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2008/o=desc/p=1/rp=40",
+              "source_text": "Paul Thomas Anderson There Will Be Blood by Paul Thomas Anderson",
+              "entries": [
+                {
+                  "title": "There Will Be Blood",
+                  "winner": true,
+                  "people": [
+                    "Paul Thomas Anderson"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actress",
+              "source_name": "Silver Bear for Best Actress",
+              "jury": "International Jury 2008",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2008/o=desc/p=1/rp=40",
+              "source_text": "Sally Hawkins Happy-Go-Lucky by Mike Leigh",
+              "entries": [
+                {
+                  "title": "Happy-Go-Lucky",
+                  "winner": true,
+                  "people": [
+                    "Sally Hawkins"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actor",
+              "source_name": "Silver Bear for Best Actor",
+              "jury": "International Jury 2008",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2008/o=desc/p=1/rp=40",
+              "source_text": "Reza Najie Avaze Gonjeshk-ha by Majid Majidi",
+              "entries": [
+                {
+                  "title": "Avaze Gonjeshk-ha",
+                  "winner": true,
+                  "people": [
+                    "Reza Najie"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Screenplay",
+              "source_name": "Silver Bear for Best Script",
+              "jury": "International Jury 2008",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2008/o=desc/p=1/rp=40",
+              "source_text": "Wang Xiaoshuai Zou You by Wang Xiaoshuai",
+              "entries": [
+                {
+                  "title": "Zuo You",
+                  "winner": true,
+                  "people": [
+                    "Wang Xiaoshuai"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for an Outstanding Artistic Contribution (Music)",
+              "source_name": "Silver Bear for an Outstanding Artistic Contribution (Music)",
+              "jury": "International Jury 2008",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2008/o=desc/p=1/rp=40",
+              "source_text": "Jonny Greenwood There Will Be Blood by Paul Thomas Anderson",
+              "entries": [
+                {
+                  "title": "There Will Be Blood",
+                  "winner": true,
+                  "people": [
+                    "Jonny Greenwood"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Alfred Bauer Prize",
+              "source_name": "Alfred Bauer Prize",
+              "jury": "International Jury 2008",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2008/o=desc/p=1/rp=40",
+              "source_text": "Lake Tahoe by Fernando Eimbcke",
+              "entries": [
+                {
+                  "title": "Lake Tahoe",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "Berlinale",
+      "year": 2009,
+      "section": "Official Selection",
+      "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2009/o=asc/p=1/rp=200",
+      "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2009/o=desc/p=1/rp=40",
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2009-02-05",
+          "end": "2009-02-15",
+          "source": "https://www.berlinale.de/en/archive/yearbooks/2009.html"
+        }
+      ],
+      "date_source_text": "February 5 – 15, 2009",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2009/o=asc/p=1/rp=200",
+          "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2009/o=desc/p=1/rp=40",
+          "selection": [
+            {
+              "title": "Alle Anderen",
+              "aliases": [
+                "Everyone else"
+              ],
+              "director": "Maren Ade",
+              "year": 2009,
+              "runtime": 119,
+              "source": "https://www.berlinale.de/en/2009/programme/20090016.html"
+            },
+            {
+              "title": "Chéri",
+              "aliases": [],
+              "director": "Stephen Frears",
+              "year": 2009,
+              "runtime": 100,
+              "source": "https://www.berlinale.de/en/2009/programme/20090077.html"
+            },
+            {
+              "title": "Darbareye Elly",
+              "aliases": [
+                "About Elly",
+                "Alles über Elly"
+              ],
+              "director": "Asghar Farhadi",
+              "year": 2009,
+              "runtime": 119,
+              "source": "https://www.berlinale.de/en/2009/programme/20097475.html"
+            },
+            {
+              "title": "Forever Enthralled",
+              "aliases": [],
+              "director": "Chen Kaige",
+              "year": 2009,
+              "runtime": 147,
+              "source": "https://www.berlinale.de/en/2009/programme/20091172.html"
+            },
+            {
+              "title": "Gigante",
+              "aliases": [],
+              "director": "Adrián Biniez",
+              "year": 2008,
+              "runtime": 84,
+              "source": "https://www.berlinale.de/en/2009/programme/20091885.html"
+            },
+            {
+              "title": "Happy Tears",
+              "aliases": [],
+              "director": "Mitchell Lichtenstein",
+              "year": 2009,
+              "runtime": 95,
+              "source": "https://www.berlinale.de/en/2009/programme/20090871.html"
+            },
+            {
+              "title": "In The Electric Mist",
+              "aliases": [],
+              "director": "Bertrand Tavernier",
+              "year": 2008,
+              "runtime": 117,
+              "source": "https://www.berlinale.de/en/2009/programme/20096246.html"
+            },
+            {
+              "title": "Katalin Varga",
+              "aliases": [],
+              "director": "Peter Strickland",
+              "year": 2008,
+              "runtime": 84,
+              "source": "https://www.berlinale.de/en/2009/programme/20091070.html"
+            },
+            {
+              "title": "La teta asustada",
+              "aliases": [
+                "The Milk Of Sorrow"
+              ],
+              "director": "Claudia Llosa",
+              "year": 2008,
+              "runtime": 94,
+              "source": "https://www.berlinale.de/en/2009/programme/20090090.html"
+            },
+            {
+              "title": "Lille Soldat",
+              "aliases": [
+                "Little Soldier",
+                "Kleiner Soldat"
+              ],
+              "director": "Annette K. Olesen",
+              "year": 2008,
+              "runtime": 100,
+              "source": "https://www.berlinale.de/en/2009/programme/20090999.html"
+            },
+            {
+              "title": "London River",
+              "aliases": [],
+              "director": "Rachid Bouchareb",
+              "year": 2009,
+              "runtime": 87,
+              "source": "https://www.berlinale.de/en/2009/programme/20092220.html"
+            },
+            {
+              "title": "Mammoth",
+              "aliases": [],
+              "director": "Lukas Moodysson",
+              "year": 2009,
+              "runtime": 120,
+              "source": "https://www.berlinale.de/en/2009/programme/20090053.html"
+            },
+            {
+              "title": "My One And Only",
+              "aliases": [],
+              "director": "Richard Loncraine",
+              "year": 2008,
+              "runtime": 108,
+              "source": "https://www.berlinale.de/en/2009/programme/20097450.html"
+            },
+            {
+              "title": "Rage",
+              "aliases": [],
+              "director": "Sally Potter",
+              "year": 2008,
+              "runtime": 99,
+              "source": "https://www.berlinale.de/en/2009/programme/20091073.html"
+            },
+            {
+              "title": "Ricky",
+              "aliases": [],
+              "director": "François Ozon",
+              "year": 2009,
+              "runtime": 90,
+              "source": "https://www.berlinale.de/en/2009/programme/20090074.html"
+            },
+            {
+              "title": "Storm",
+              "aliases": [
+                "Sturm"
+              ],
+              "director": "Hans-Christian Schmid",
+              "year": 2009,
+              "runtime": 110,
+              "source": "https://www.berlinale.de/en/2009/programme/20097120.html"
+            },
+            {
+              "title": "Tatarak",
+              "aliases": [
+                "Sweet Rush",
+                "Der Kalmus"
+              ],
+              "director": "Andrzej Wajda",
+              "year": 2008,
+              "runtime": 85,
+              "source": "https://www.berlinale.de/en/2009/programme/20096932.html"
+            },
+            {
+              "title": "The Messenger",
+              "aliases": [],
+              "director": "Oren Moverman",
+              "year": 2008,
+              "runtime": 105,
+              "source": "https://www.berlinale.de/en/2009/programme/20090094.html"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Bear for Best Film",
+              "source_name": "Golden Bear for Best Film",
+              "jury": "International Jury 2009",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2009/o=desc/p=1/rp=40",
+              "source_text": "La teta asustada by Claudia Llosa",
+              "entries": [
+                {
+                  "title": "La teta asustada",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Grand Jury Prize",
+              "source_name": "Jury Grand Prix (Silver Bear)",
+              "jury": "International Jury 2009",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2009/o=desc/p=1/rp=40",
+              "source_text": "ex aequo Alle Anderen by Maren Ade",
+              "entries": [
+                {
+                  "title": "Alle Anderen",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Grand Jury Prize",
+              "source_name": "Jury Grand Prix (Silver Bear)",
+              "jury": "International Jury 2009",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2009/o=desc/p=1/rp=40",
+              "source_text": "ex aequo Gigante by Adrián Biniez",
+              "entries": [
+                {
+                  "title": "Gigante",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Director",
+              "source_name": "Silver Bear for Best Director",
+              "jury": "International Jury 2009",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2009/o=desc/p=1/rp=40",
+              "source_text": "Asghar Farhadi Darbareye Elly by Asghar Farhadi",
+              "entries": [
+                {
+                  "title": "Darbareye Elly",
+                  "winner": true,
+                  "people": [
+                    "Asghar Farhadi"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actress",
+              "source_name": "Silver Bear for Best Actress",
+              "jury": "International Jury 2009",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2009/o=desc/p=1/rp=40",
+              "source_text": "Birgit Minichmayr Alle Anderen by Maren Ade",
+              "entries": [
+                {
+                  "title": "Alle Anderen",
+                  "winner": true,
+                  "people": [
+                    "Birgit Minichmayr"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actor",
+              "source_name": "Silver Bear for Best Actor",
+              "jury": "International Jury 2009",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2009/o=desc/p=1/rp=40",
+              "source_text": "Sotigui Kouyate London River by Rachid Bouchareb",
+              "entries": [
+                {
+                  "title": "London River",
+                  "winner": true,
+                  "people": [
+                    "Sotigui Kouyate"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Screenplay",
+              "source_name": "Silver Bear for Best Script",
+              "jury": "International Jury 2009",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2009/o=desc/p=1/rp=40",
+              "source_text": "Oren Moverman, Alessandro Camon The Messenger by Oren Moverman",
+              "entries": [
+                {
+                  "title": "The Messenger",
+                  "winner": true,
+                  "people": [
+                    "Oren Moverman, Alessandro Camon"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Outstanding Artistic Contribution",
+              "source_name": "Silver Bear for Outstanding Artistic Contribution",
+              "jury": "International Jury 2009",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2009/o=desc/p=1/rp=40",
+              "source_text": "György Kovács, Gábor Erdély, Tamás Székely for the Sound-Design of Katalin Varga by Peter Strickland",
+              "entries": [
+                {
+                  "title": "Katalin Varga",
+                  "winner": true,
+                  "people": [
+                    "György Kovács, Gábor Erdély, Tamás Székely"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Alfred Bauer Prize",
+              "source_name": "Alfred Bauer Prize",
+              "jury": "International Jury 2009",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2009/o=desc/p=1/rp=40",
+              "source_text": "ex aequo Gigante by Adrián Biniez",
+              "entries": [
+                {
+                  "title": "Gigante",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Alfred Bauer Prize",
+              "source_name": "Alfred Bauer Prize",
+              "jury": "International Jury 2009",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2009/o=desc/p=1/rp=40",
+              "source_text": "ex aequo Tatarak by Andrzej Wajda",
+              "entries": [
+                {
+                  "title": "Tatarak",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "GWFF Best First Feature Award",
+              "source_name": "Best First Feature Award",
+              "jury": "Best First Feature Award Jury 2009",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2009/o=desc/p=1/rp=40",
+              "source_text": "Gigante by Adrián Biniez",
+              "entries": [
+                {
+                  "title": "Gigante",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "Berlinale",
+      "year": 2010,
+      "section": "Official Selection",
+      "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2010/o=asc/p=1/rp=200",
+      "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2010/o=desc/p=1/rp=40",
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2010-02-11",
+          "end": "2010-02-21",
+          "source": "https://www.berlinale.de/en/archive/yearbooks/2010.html"
+        }
+      ],
+      "date_source_text": "February 11 – 21, 2010",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2010/o=asc/p=1/rp=200",
+          "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2010/o=desc/p=1/rp=40",
+          "selection": [
+            {
+              "title": "Bal",
+              "aliases": [
+                "Honey"
+              ],
+              "director": "Semih Kaplanoglu",
+              "year": 2010,
+              "runtime": 104,
+              "source": "https://www.berlinale.de/en/2010/programme/20104005.html"
+            },
+            {
+              "title": "Caterpillar",
+              "aliases": [],
+              "director": "Koji Wakamatsu",
+              "year": 2010,
+              "runtime": 85,
+              "source": "https://www.berlinale.de/en/2010/programme/20106147.html"
+            },
+            {
+              "title": "Der Räuber",
+              "aliases": [
+                "The Robber"
+              ],
+              "director": "Benjamin Heisenberg",
+              "year": 2009,
+              "runtime": 96,
+              "source": "https://www.berlinale.de/en/2010/programme/20100010.html"
+            },
+            {
+              "title": "En Familie",
+              "aliases": [
+                "A Family",
+                "Eine Familie"
+              ],
+              "director": "Pernille Fischer Christensen",
+              "year": 2010,
+              "runtime": 102,
+              "source": "https://www.berlinale.de/en/2010/programme/20106433.html"
+            },
+            {
+              "title": "En ganske snill mann",
+              "aliases": [
+                "A Somewhat Gentle Man"
+              ],
+              "director": "Hans Petter Moland",
+              "year": 2009,
+              "runtime": 105,
+              "source": "https://www.berlinale.de/en/2010/programme/20103478.html"
+            },
+            {
+              "title": "Eu cand vreau sa fluier, fluier",
+              "aliases": [
+                "If I Want To Whistle, I Whistle"
+              ],
+              "director": "Florin Serban",
+              "year": 2009,
+              "runtime": 94,
+              "source": "https://www.berlinale.de/en/2010/programme/20103373.html"
+            },
+            {
+              "title": "Greenberg",
+              "aliases": [],
+              "director": "Noah Baumbach",
+              "year": 2009,
+              "runtime": 107,
+              "source": "https://www.berlinale.de/en/2010/programme/20100071.html"
+            },
+            {
+              "title": "Howl",
+              "aliases": [],
+              "director": "Rob Epstein, Jeffrey Friedman",
+              "year": 2009,
+              "runtime": 90,
+              "source": "https://www.berlinale.de/en/2010/programme/20103535.html"
+            },
+            {
+              "title": "Jud Süß - Film ohne Gewissen",
+              "aliases": [
+                "Jew Suss - Rise and Fall"
+              ],
+              "director": "Oskar Roehler",
+              "year": 2010,
+              "runtime": 114,
+              "source": "https://www.berlinale.de/en/2010/programme/20100390.html"
+            },
+            {
+              "title": "Kak ya provel etim letom",
+              "aliases": [
+                "How I Ended This Summer"
+              ],
+              "director": "Alexei Popogrebsky",
+              "year": 2010,
+              "runtime": 124,
+              "source": "https://www.berlinale.de/en/2010/programme/20104775.html"
+            },
+            {
+              "title": "Mammuth",
+              "aliases": [],
+              "director": "Benoit Delépine, Gustave de Kervern",
+              "year": 2010,
+              "runtime": 90,
+              "source": "https://www.berlinale.de/en/2010/programme/20105362.html"
+            },
+            {
+              "title": "Na putu",
+              "aliases": [
+                "On The Path"
+              ],
+              "director": "Jasmila Zbanic",
+              "year": 2010,
+              "runtime": 100,
+              "source": "https://www.berlinale.de/en/2010/programme/20100002.html"
+            },
+            {
+              "title": "Rompecabezas",
+              "aliases": [
+                "Puzzle"
+              ],
+              "director": "Natalia Smirnoff",
+              "year": 2010,
+              "runtime": 90,
+              "source": "https://www.berlinale.de/en/2010/programme/20106141.html"
+            },
+            {
+              "title": "San qiang pai an jing qi",
+              "aliases": [
+                "A Woman, A Gun And A Noodle Shop"
+              ],
+              "director": "Zhang Yimou",
+              "year": 2009,
+              "runtime": 90,
+              "source": "https://www.berlinale.de/en/2010/programme/20105853.html"
+            },
+            {
+              "title": "Shahada",
+              "aliases": [],
+              "director": "Burhan Qurbani",
+              "year": 2010,
+              "runtime": 90,
+              "source": "https://www.berlinale.de/en/2010/programme/20103879.html"
+            },
+            {
+              "title": "Shekarchi",
+              "aliases": [
+                "The Hunter",
+                "Zeit des Zorns"
+              ],
+              "director": "Rafi Pitts",
+              "year": 2010,
+              "runtime": 92,
+              "source": "https://www.berlinale.de/en/2010/programme/20100092.html"
+            },
+            {
+              "title": "Submarino",
+              "aliases": [],
+              "director": "Thomas Vinterberg",
+              "year": 2010,
+              "runtime": 110,
+              "source": "https://www.berlinale.de/en/2010/programme/20103564.html"
+            },
+            {
+              "title": "The Ghost Writer",
+              "aliases": [
+                "Der Ghostwriter"
+              ],
+              "director": "Roman Polanski",
+              "year": 2009,
+              "runtime": 128,
+              "source": "https://www.berlinale.de/en/2010/programme/20100164.html"
+            },
+            {
+              "title": "The Killer Inside Me",
+              "aliases": [],
+              "director": "Michael Winterbottom",
+              "year": 2009,
+              "runtime": 120,
+              "source": "https://www.berlinale.de/en/2010/programme/20104820.html"
+            },
+            {
+              "title": "Tuan Yuan",
+              "aliases": [
+                "Apart Together"
+              ],
+              "director": "Wang Quan'an",
+              "year": 2009,
+              "runtime": 93,
+              "source": "https://www.berlinale.de/en/2010/programme/20101594.html"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Golden Bear for Best Film",
+              "source_name": "Golden Bear for Best Film",
+              "jury": "International Jury 2010",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2010/o=desc/p=1/rp=40",
+              "source_text": "Bal by Semih Kaplanoglu",
+              "entries": [
+                {
+                  "title": "Bal",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Grand Jury Prize",
+              "source_name": "Jury Grand Prix (Silver Bear)",
+              "jury": "International Jury 2010",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2010/o=desc/p=1/rp=40",
+              "source_text": "Eu cand vreau sa fluier, fluier by Florin Serban",
+              "entries": [
+                {
+                  "title": "Eu cand vreau sa fluier, fluier",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Director",
+              "source_name": "Silver Bear for Best Director",
+              "jury": "International Jury 2010",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2010/o=desc/p=1/rp=40",
+              "source_text": "Roman Polanski The Ghost Writer by Roman Polanski",
+              "entries": [
+                {
+                  "title": "The Ghost Writer",
+                  "winner": true,
+                  "people": [
+                    "Roman Polanski"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actress",
+              "source_name": "Silver Bear for Best Actress",
+              "jury": "International Jury 2010",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2010/o=desc/p=1/rp=40",
+              "source_text": "Shinobu Terajima Caterpillar by Koji Wakamatsu",
+              "entries": [
+                {
+                  "title": "Caterpillar",
+                  "winner": true,
+                  "people": [
+                    "Shinobu Terajima"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actor",
+              "source_name": "Silver Bear for Best Actor",
+              "jury": "International Jury 2010",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2010/o=desc/p=1/rp=40",
+              "source_text": "ex aequo Grigori Dobrygin Kak ya provel etim letom by Alexei Popogrebsky",
+              "entries": [
+                {
+                  "title": "Kak ya provel etim letom",
+                  "winner": true,
+                  "people": [
+                    "Grigori Dobrygin"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Actor",
+              "source_name": "Silver Bear for Best Actor",
+              "jury": "International Jury 2010",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2010/o=desc/p=1/rp=40",
+              "source_text": "ex aequo Sergei Puskepalis Kak ya provel etim letom by Alexei Popogrebsky",
+              "entries": [
+                {
+                  "title": "Kak ya provel etim letom",
+                  "winner": true,
+                  "people": [
+                    "Sergei Puskepalis"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Best Screenplay",
+              "source_name": "Silver Bear for Best Script",
+              "jury": "International Jury 2010",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2010/o=desc/p=1/rp=40",
+              "source_text": "Wang Quan'an and Na Jin Tuan Yuan by Wang Quan'an",
+              "entries": [
+                {
+                  "title": "Tuan Yuan",
+                  "winner": true,
+                  "people": [
+                    "Wang Quan'an and Na Jin"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear for Outstanding Artistic Contribution",
+              "source_name": "Silver Bear for Outstanding Artistic Contribution",
+              "jury": "International Jury 2010",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2010/o=desc/p=1/rp=40",
+              "source_text": "Pavel Kostomarov for the camera in Kak ya provel etim letom by Alexei Popogrebsky",
+              "entries": [
+                {
+                  "title": "Kak ya provel etim letom",
+                  "winner": true,
+                  "people": [
+                    "Pavel Kostomarov"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Silver Bear Alfred Bauer Prize",
+              "source_name": "Alfred Bauer Prize",
+              "jury": "International Jury 2010",
+              "source": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2010/o=desc/p=1/rp=40",
+              "source_text": "Eu cand vreau sa fluier, fluier by Florin Serban",
+              "entries": [
+                {
+                  "title": "Eu cand vreau sa fluier, fluier",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

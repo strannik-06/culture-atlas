@@ -1,0 +1,145 @@
+{
+  "Golden Globes/2006/The Promise (Master of the Crimson Armor)": {
+    "aliases": [
+      "The Promise",
+      "无极"
+    ],
+    "director_aliases": [
+      "Chen Kaige"
+    ],
+    "source_urls": [
+      "https://goldenglobes.com/film/the-promise-master-of-the-crimson-armor/"
+    ],
+    "note": "Official Globes compound title and Chen Kaige credit identify the Chinese feature; alias uses its short English title."
+  },
+  "Golden Globes/2006/Joyeux Noel (Merry Christmas)": {
+    "aliases": [
+      "Joyeux Noël",
+      "Merry Christmas"
+    ],
+    "director_aliases": [
+      "Christian Carion"
+    ],
+    "source_urls": [
+      "https://goldenglobes.com/film/joyeux-noel-merry-christmas/"
+    ],
+    "note": "The official title supplies both the French and English titles and credits Christian Carion."
+  },
+  "Golden Globes/2007/Borat": {
+    "aliases": [
+      "Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan"
+    ],
+    "director_aliases": [
+      "Larry Charles"
+    ],
+    "source_urls": [
+      "https://goldenglobes.com/film/borat/"
+    ],
+    "note": "Short official Globes title belongs to the Larry Charles feature starring nominated Sacha Baron Cohen; expanded provider subtitle."
+  },
+  "Golden Globes/2010/Precious: Based on the novel Push by Sapphire": {
+    "aliases": [
+      "Precious"
+    ],
+    "director_aliases": [
+      "Lee Daniels"
+    ],
+    "source_urls": [
+      "https://goldenglobes.com/film/precious-based-on-the-novel-push-by-sapphire/",
+      "https://ir.paramount.com/static-files/0050ba1c-0090-4d55-b1d5-3becd2b038c9"
+    ],
+    "note": "Expanded official title identifies Precious starring Gabourey Sidibe and Mo'Nique."
+  },
+  "Golden Globes/2010/The Maid (La Nana)": {
+    "aliases": [
+      "The Maid",
+      "La nana"
+    ],
+    "director_aliases": [
+      "Sebastián Silva"
+    ],
+    "source_urls": [
+      "https://goldenglobes.com/film/the-maid-la-nana/"
+    ],
+    "note": "Official compound English/original title and director credit identify the Chilean feature, excluding unrelated films named The Maid."
+  },
+  "Golden Globes/2010/A Prophet (Un Prophete)": {
+    "aliases": [
+      "A Prophet",
+      "Un prophète"
+    ],
+    "director_aliases": [
+      "Jacques Audiard"
+    ],
+    "source_urls": [
+      "https://goldenglobes.com/film/a-prophet-un-prophete/"
+    ],
+    "note": "Official English/original title and Audiard director credit identify the French feature."
+  },
+  "Golden Globes/2010/The White Ribbon (Das weiße Band - Eine Deutsche Kindergeschichte)": {
+    "aliases": [
+      "The White Ribbon",
+      "Das weiße Band – Eine deutsche Kindergeschichte",
+      "Das weiße Band"
+    ],
+    "director_aliases": [
+      "Michael Haneke"
+    ],
+    "source_urls": [
+      "https://goldenglobes.com/film/the-white-ribbon-das-weise-band-eine-deutsche-kindergeschichte/"
+    ],
+    "note": "Official title combines English and German titles; official Haneke director credit distinguishes identity."
+  },
+  "Golden Globes/2007/Babel": {
+    "director_anchor_aliases": [
+      "Alejandro G. Iñárritu",
+      "Alejandro Iñárritu"
+    ],
+    "director_aliases": [
+      "Alejandro González Iñárritu",
+      "Alejandro G. Iñárritu",
+      "Alejandro Iñárritu"
+    ],
+    "note": "Provider abbreviates the nominated director’s middle name to G. The official Globes director biography identifies Alejandro González Iñárritu as Babel’s director; the film page also uses Alejandro Iñárritu. All nominated cast anchors remain required.",
+    "source_urls": [
+      "https://goldenglobes.com/film/babel/",
+      "https://goldenglobes.com/person/alejandro-inarritu/"
+    ]
+  },
+  "Golden Globes/2007/Dreamgirls": {
+    "actor_aliases": {
+      "Beyoncé Knowles": [
+        "Beyoncé"
+      ]
+    },
+    "director_aliases": [
+      "Bill Condon"
+    ],
+    "note": "The official Globes retrospective explicitly identifies Beyoncé as billed in this film as Beyoncé Knowles. Provider uses her stage name Beyoncé. This is a scoped cast-credit alias; Jennifer Hudson and Eddie Murphy nominated cast checks remain required.",
+    "source_urls": [
+      "https://goldenglobes.com/film/dreamgirls/",
+      "https://goldenglobes.com/articles/2007-musical-or-comedy-dreamgirls/",
+      "https://goldenglobes.com/person/beyonce/"
+    ]
+  },
+  "Golden Globes/2010/Nine": {
+    "imdb_id": "tt0875034",
+    "aliases": [
+      "9"
+    ],
+    "director_aliases": [
+      "Rob Marshall"
+    ],
+    "required_cast": [
+      "Daniel Day-Lewis",
+      "Marion Cotillard",
+      "Penélope Cruz"
+    ],
+    "note": "Pin the 2009 Rob Marshall musical to its IMDb identity rather than an unreliable generic Nine search. The award page and IMDb both credit Marshall and all three nominated performers. Numeric search/title alias is permitted only with this fixed IMDb identity and director/cast checks, excluding Shane Acker’s unrelated animated 9.",
+    "source_urls": [
+      "https://goldenglobes.com/film/nine/",
+      "https://www.imdb.com/title/tt0875034/",
+      "https://cdn-media.festival-cannes.com/film_film/0002/20/0db4cd5ba83cc3ee323096d1fda30502c8270e3e.pdf"
+    ]
+  }
+}

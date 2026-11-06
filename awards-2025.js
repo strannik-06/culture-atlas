@@ -50710,5 +50710,16275 @@ window.CULTURE_AWARDS = [
         "awards": []
       }
     ]
+  },
+  {
+    "event": "Oscars",
+    "year": 2006,
+    "section": "Major Film Categories",
+    "source": "https://www.oscars.org/oscars/ceremonies/2006",
+    "awardsSource": "https://www.oscars.org/oscars/ceremonies/2006",
+    "resultsUrl": "https://www.oscars.org/oscars/ceremonies/2006",
+    "categories": [
+      {
+        "id": "best-picture",
+        "name": "Best Picture",
+        "entries": [
+          {
+            "film_id": 4048,
+            "person": "Paul Haggis and Cathy Schulman, Producers",
+            "winner": true
+          },
+          {
+            "film_id": 1726,
+            "person": "Diana Ossana and James Schamus, Producers",
+            "winner": false
+          },
+          {
+            "film_id": 4045,
+            "person": "Caroline Baron, William Vince and Michael Ohoven, Producers",
+            "winner": false
+          },
+          {
+            "film_id": 4047,
+            "person": "Grant Heslov, Producer",
+            "winner": false
+          },
+          {
+            "film_id": 4046,
+            "person": "Kathleen Kennedy, Steven Spielberg and Barry Mendel, Producers",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4048,
+          1726,
+          4045,
+          4047,
+          4046
+        ],
+        "winners": [
+          4048
+        ],
+        "winner": 4048
+      },
+      {
+        "id": "directing",
+        "name": "Directing",
+        "entries": [
+          {
+            "film_id": 1726,
+            "person": "Ang Lee",
+            "winner": true
+          },
+          {
+            "film_id": 4045,
+            "person": "Bennett Miller",
+            "winner": false
+          },
+          {
+            "film_id": 4048,
+            "person": "Paul Haggis",
+            "winner": false
+          },
+          {
+            "film_id": 4047,
+            "person": "George Clooney",
+            "winner": false
+          },
+          {
+            "film_id": 4046,
+            "person": "Steven Spielberg",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          1726,
+          4045,
+          4048,
+          4047,
+          4046
+        ],
+        "winners": [
+          1726
+        ],
+        "winner": 1726
+      },
+      {
+        "id": "actor-in-a-leading-role",
+        "name": "Actor in a Leading Role",
+        "entries": [
+          {
+            "film_id": 4045,
+            "person": "Philip Seymour Hoffman",
+            "winner": true
+          },
+          {
+            "film_id": 4050,
+            "person": "Terrence Howard",
+            "winner": false
+          },
+          {
+            "film_id": 1726,
+            "person": "Heath Ledger",
+            "winner": false
+          },
+          {
+            "film_id": 4049,
+            "person": "Joaquin Phoenix",
+            "winner": false
+          },
+          {
+            "film_id": 4047,
+            "person": "David Strathairn",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4045,
+          4050,
+          1726,
+          4049,
+          4047
+        ],
+        "winners": [
+          4045
+        ],
+        "winner": 4045
+      },
+      {
+        "id": "actress-in-a-leading-role",
+        "name": "Actress in a Leading Role",
+        "entries": [
+          {
+            "film_id": 4049,
+            "person": "Reese Witherspoon",
+            "winner": true
+          },
+          {
+            "film_id": 4055,
+            "person": "Judi Dench",
+            "winner": false
+          },
+          {
+            "film_id": 4051,
+            "person": "Felicity Huffman",
+            "winner": false
+          },
+          {
+            "film_id": 4052,
+            "person": "Keira Knightley",
+            "winner": false
+          },
+          {
+            "film_id": 4065,
+            "person": "Charlize Theron",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4049,
+          4055,
+          4051,
+          4052,
+          4065
+        ],
+        "winners": [
+          4049
+        ],
+        "winner": 4049
+      },
+      {
+        "id": "actor-in-a-supporting-role",
+        "name": "Actor in a Supporting Role",
+        "entries": [
+          {
+            "film_id": 4053,
+            "person": "George Clooney",
+            "winner": true
+          },
+          {
+            "film_id": 4048,
+            "person": "Matt Dillon",
+            "winner": false
+          },
+          {
+            "film_id": 4060,
+            "person": "Paul Giamatti",
+            "winner": false
+          },
+          {
+            "film_id": 1726,
+            "person": "Jake Gyllenhaal",
+            "winner": false
+          },
+          {
+            "film_id": 4054,
+            "person": "William Hurt",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4053,
+          4048,
+          4060,
+          1726,
+          4054
+        ],
+        "winners": [
+          4053
+        ],
+        "winner": 4053
+      },
+      {
+        "id": "actress-in-a-supporting-role",
+        "name": "Actress in a Supporting Role",
+        "entries": [
+          {
+            "film_id": 4059,
+            "person": "Rachel Weisz",
+            "winner": true
+          },
+          {
+            "film_id": 4056,
+            "person": "Amy Adams",
+            "winner": false
+          },
+          {
+            "film_id": 4045,
+            "person": "Catherine Keener",
+            "winner": false
+          },
+          {
+            "film_id": 4065,
+            "person": "Frances McDormand",
+            "winner": false
+          },
+          {
+            "film_id": 1726,
+            "person": "Michelle Williams",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4059,
+          4056,
+          4045,
+          4065,
+          1726
+        ],
+        "winners": [
+          4059
+        ],
+        "winner": 4059
+      },
+      {
+        "id": "writing-original-screenplay",
+        "name": "Writing (Original Screenplay)",
+        "entries": [
+          {
+            "film_id": 4048,
+            "person": "Screenplay by Paul Haggis & Bobby Moresco; Story by Paul Haggis",
+            "winner": true
+          },
+          {
+            "film_id": 4047,
+            "person": "Screenplay by George Clooney & Grant Heslov",
+            "winner": false
+          },
+          {
+            "film_id": 775,
+            "person": "Written by Woody Allen",
+            "winner": false
+          },
+          {
+            "film_id": 4057,
+            "person": "Written by Noah Baumbach",
+            "winner": false
+          },
+          {
+            "film_id": 4053,
+            "person": "Written by Stephen Gaghan",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4048,
+          4047,
+          775,
+          4057,
+          4053
+        ],
+        "winners": [
+          4048
+        ],
+        "winner": 4048
+      },
+      {
+        "id": "writing-adapted-screenplay",
+        "name": "Writing (Adapted Screenplay)",
+        "entries": [
+          {
+            "film_id": 1726,
+            "person": "Screenplay by Larry McMurtry & Diana Ossana",
+            "winner": true
+          },
+          {
+            "film_id": 4045,
+            "person": "Screenplay by Dan Futterman",
+            "winner": false
+          },
+          {
+            "film_id": 4059,
+            "person": "Screenplay by Jeffrey Caine",
+            "winner": false
+          },
+          {
+            "film_id": 4054,
+            "person": "Screenplay by Josh Olson",
+            "winner": false
+          },
+          {
+            "film_id": 4046,
+            "person": "Screenplay by Tony Kushner and Eric Roth",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          1726,
+          4045,
+          4059,
+          4054,
+          4046
+        ],
+        "winners": [
+          1726
+        ],
+        "winner": 1726
+      },
+      {
+        "id": "international-feature-film",
+        "name": "International Feature Film",
+        "entries": [
+          {
+            "film_id": 4058,
+            "person": "South Africa",
+            "winner": true
+          },
+          {
+            "film_id": 4061,
+            "person": "Italy",
+            "winner": false
+          },
+          {
+            "film_id": 4063,
+            "person": "France",
+            "winner": false
+          },
+          {
+            "film_id": 4062,
+            "person": "The Palestinian Territories",
+            "winner": false
+          },
+          {
+            "film_id": 4067,
+            "person": "Germany",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4058,
+          4061,
+          4063,
+          4062,
+          4067
+        ],
+        "winners": [
+          4058
+        ],
+        "winner": 4058
+      },
+      {
+        "id": "documentary-feature-film",
+        "name": "Documentary Feature Film",
+        "entries": [
+          {
+            "film_id": 4064,
+            "person": "Luc Jacquet and Yves Darondeau",
+            "winner": true
+          },
+          {
+            "film_id": 4066,
+            "person": "Hubert Sauper",
+            "winner": false
+          },
+          {
+            "film_id": 4070,
+            "person": "Alex Gibney and Jason Kliot",
+            "winner": false
+          },
+          {
+            "film_id": 4071,
+            "person": "Henry-Alex Rubin and Dana Adam Shapiro",
+            "winner": false
+          },
+          {
+            "film_id": 4068,
+            "person": "Marshall Curry",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4064,
+          4066,
+          4070,
+          4071,
+          4068
+        ],
+        "winners": [
+          4064
+        ],
+        "winner": 4064
+      },
+      {
+        "id": "animated-feature-film",
+        "name": "Animated Feature Film",
+        "entries": [
+          {
+            "film_id": 4092,
+            "person": "Nick Park and Steve Box",
+            "winner": true
+          },
+          {
+            "film_id": 1752,
+            "person": "Hayao Miyazaki",
+            "winner": false
+          },
+          {
+            "film_id": 4069,
+            "person": "Mike Johnson and Tim Burton",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4092,
+          1752,
+          4069
+        ],
+        "winners": [
+          4092
+        ],
+        "winner": 4092
+      }
+    ],
+    "films": [
+      {
+        "id": 4048,
+        "awards": [
+          "Best Picture",
+          "Writing (Original Screenplay)"
+        ]
+      },
+      {
+        "id": 1726,
+        "awards": [
+          "Directing",
+          "Writing (Adapted Screenplay)"
+        ]
+      },
+      {
+        "id": 4045,
+        "awards": [
+          "Actor in a Leading Role"
+        ]
+      },
+      {
+        "id": 4047,
+        "awards": []
+      },
+      {
+        "id": 4046,
+        "awards": []
+      },
+      {
+        "id": 4050,
+        "awards": []
+      },
+      {
+        "id": 4049,
+        "awards": [
+          "Actress in a Leading Role"
+        ]
+      },
+      {
+        "id": 4055,
+        "awards": []
+      },
+      {
+        "id": 4051,
+        "awards": []
+      },
+      {
+        "id": 4052,
+        "awards": []
+      },
+      {
+        "id": 4065,
+        "awards": []
+      },
+      {
+        "id": 4053,
+        "awards": [
+          "Actor in a Supporting Role"
+        ]
+      },
+      {
+        "id": 4060,
+        "awards": []
+      },
+      {
+        "id": 4054,
+        "awards": []
+      },
+      {
+        "id": 4059,
+        "awards": [
+          "Actress in a Supporting Role"
+        ]
+      },
+      {
+        "id": 4056,
+        "awards": []
+      },
+      {
+        "id": 775,
+        "awards": []
+      },
+      {
+        "id": 4057,
+        "awards": []
+      },
+      {
+        "id": 4058,
+        "awards": [
+          "International Feature Film"
+        ]
+      },
+      {
+        "id": 4061,
+        "awards": []
+      },
+      {
+        "id": 4063,
+        "awards": []
+      },
+      {
+        "id": 4062,
+        "awards": []
+      },
+      {
+        "id": 4067,
+        "awards": []
+      },
+      {
+        "id": 4064,
+        "awards": [
+          "Documentary Feature Film"
+        ]
+      },
+      {
+        "id": 4066,
+        "awards": []
+      },
+      {
+        "id": 4070,
+        "awards": []
+      },
+      {
+        "id": 4071,
+        "awards": []
+      },
+      {
+        "id": 4068,
+        "awards": []
+      },
+      {
+        "id": 4092,
+        "awards": [
+          "Animated Feature Film"
+        ]
+      },
+      {
+        "id": 1752,
+        "awards": []
+      },
+      {
+        "id": 4069,
+        "awards": []
+      }
+    ]
+  },
+  {
+    "event": "Oscars",
+    "year": 2007,
+    "section": "Major Film Categories",
+    "source": "https://www.oscars.org/oscars/ceremonies/2007",
+    "awardsSource": "https://www.oscars.org/oscars/ceremonies/2007",
+    "resultsUrl": "https://www.oscars.org/oscars/ceremonies/2007",
+    "categories": [
+      {
+        "id": "best-picture",
+        "name": "Best Picture",
+        "entries": [
+          {
+            "film_id": 758,
+            "person": "Graham King, Producer",
+            "winner": true
+          },
+          {
+            "film_id": 768,
+            "person": "Alejandro González Iñárritu, Jon Kilik and Steve Golin, Producers",
+            "winner": false
+          },
+          {
+            "film_id": 1710,
+            "person": "Clint Eastwood, Steven Spielberg and Robert Lorenz, Producers",
+            "winner": false
+          },
+          {
+            "film_id": 4072,
+            "person": "David T. Friendly, Peter Saraf and Marc Turtletaub, Producers",
+            "winner": false
+          },
+          {
+            "film_id": 4073,
+            "person": "Andy Harries, Christine Langan and Tracey Seaward, Producers",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          758,
+          768,
+          1710,
+          4072,
+          4073
+        ],
+        "winners": [
+          758
+        ],
+        "winner": 758
+      },
+      {
+        "id": "directing",
+        "name": "Directing",
+        "entries": [
+          {
+            "film_id": 758,
+            "person": "Martin Scorsese",
+            "winner": true
+          },
+          {
+            "film_id": 768,
+            "person": "Alejandro González Iñárritu",
+            "winner": false
+          },
+          {
+            "film_id": 1710,
+            "person": "Clint Eastwood",
+            "winner": false
+          },
+          {
+            "film_id": 4073,
+            "person": "Stephen Frears",
+            "winner": false
+          },
+          {
+            "film_id": 4075,
+            "person": "Paul Greengrass",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          758,
+          768,
+          1710,
+          4073,
+          4075
+        ],
+        "winners": [
+          758
+        ],
+        "winner": 758
+      },
+      {
+        "id": "actor-in-a-leading-role",
+        "name": "Actor in a Leading Role",
+        "entries": [
+          {
+            "film_id": 4077,
+            "person": "Forest Whitaker",
+            "winner": true
+          },
+          {
+            "film_id": 4081,
+            "person": "Leonardo DiCaprio",
+            "winner": false
+          },
+          {
+            "film_id": 4074,
+            "person": "Ryan Gosling",
+            "winner": false
+          },
+          {
+            "film_id": 4086,
+            "person": "Peter O'Toole",
+            "winner": false
+          },
+          {
+            "film_id": 751,
+            "person": "Will Smith",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4077,
+          4081,
+          4074,
+          4086,
+          751
+        ],
+        "winners": [
+          4077
+        ],
+        "winner": 4077
+      },
+      {
+        "id": "actress-in-a-leading-role",
+        "name": "Actress in a Leading Role",
+        "entries": [
+          {
+            "film_id": 4073,
+            "person": "Helen Mirren",
+            "winner": true
+          },
+          {
+            "film_id": 4076,
+            "person": "Penélope Cruz",
+            "winner": false
+          },
+          {
+            "film_id": 4078,
+            "person": "Judi Dench",
+            "winner": false
+          },
+          {
+            "film_id": 766,
+            "person": "Meryl Streep",
+            "winner": false
+          },
+          {
+            "film_id": 4079,
+            "person": "Kate Winslet",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4073,
+          4076,
+          4078,
+          766,
+          4079
+        ],
+        "winners": [
+          4073
+        ],
+        "winner": 4073
+      },
+      {
+        "id": "actor-in-a-supporting-role",
+        "name": "Actor in a Supporting Role",
+        "entries": [
+          {
+            "film_id": 4072,
+            "person": "Alan Arkin",
+            "winner": true
+          },
+          {
+            "film_id": 4079,
+            "person": "Jackie Earle Haley",
+            "winner": false
+          },
+          {
+            "film_id": 4081,
+            "person": "Djimon Hounsou",
+            "winner": false
+          },
+          {
+            "film_id": 4080,
+            "person": "Eddie Murphy",
+            "winner": false
+          },
+          {
+            "film_id": 758,
+            "person": "Mark Wahlberg",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4072,
+          4079,
+          4081,
+          4080,
+          758
+        ],
+        "winners": [
+          4072
+        ],
+        "winner": 4072
+      },
+      {
+        "id": "actress-in-a-supporting-role",
+        "name": "Actress in a Supporting Role",
+        "entries": [
+          {
+            "film_id": 4080,
+            "person": "Jennifer Hudson",
+            "winner": true
+          },
+          {
+            "film_id": 768,
+            "person": "Adriana Barraza",
+            "winner": false
+          },
+          {
+            "film_id": 4078,
+            "person": "Cate Blanchett",
+            "winner": false
+          },
+          {
+            "film_id": 4072,
+            "person": "Abigail Breslin",
+            "winner": false
+          },
+          {
+            "film_id": 768,
+            "person": "Rinko Kikuchi",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4080,
+          768,
+          4078,
+          4072
+        ],
+        "winners": [
+          4080
+        ],
+        "winner": 4080
+      },
+      {
+        "id": "writing-original-screenplay",
+        "name": "Writing (Original Screenplay)",
+        "entries": [
+          {
+            "film_id": 4072,
+            "person": "Written by Michael Arndt",
+            "winner": true
+          },
+          {
+            "film_id": 768,
+            "person": "Written by Guillermo Arriaga",
+            "winner": false
+          },
+          {
+            "film_id": 1710,
+            "person": "Screenplay by Iris Yamashita; Story by Iris Yamashita & Paul Haggis",
+            "winner": false
+          },
+          {
+            "film_id": 4084,
+            "person": "Written by Guillermo del Toro",
+            "winner": false
+          },
+          {
+            "film_id": 4073,
+            "person": "Written by Peter Morgan",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4072,
+          768,
+          1710,
+          4084,
+          4073
+        ],
+        "winners": [
+          4072
+        ],
+        "winner": 4072
+      },
+      {
+        "id": "writing-adapted-screenplay",
+        "name": "Writing (Adapted Screenplay)",
+        "entries": [
+          {
+            "film_id": 758,
+            "person": "Screenplay by William Monahan",
+            "winner": true
+          },
+          {
+            "film_id": 4082,
+            "person": "Screenplay by Sacha Baron Cohen, Anthony Hines, Peter Baynham, & Dan Mazer; Story by Sacha Baron Cohen, Peter Baynham, Anthony Hines, & Todd Phillips",
+            "winner": false
+          },
+          {
+            "film_id": 4083,
+            "person": "Screenplay by Alfonso Cuarón, Timothy J. Sexton, David Arata, Mark Fergus and Hawk Ostby",
+            "winner": false
+          },
+          {
+            "film_id": 4079,
+            "person": "Screenplay by Todd Field & Tom Perrotta",
+            "winner": false
+          },
+          {
+            "film_id": 4078,
+            "person": "Screenplay by Patrick Marber",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          758,
+          4082,
+          4083,
+          4079,
+          4078
+        ],
+        "winners": [
+          758
+        ],
+        "winner": 758
+      },
+      {
+        "id": "international-feature-film",
+        "name": "International Feature Film",
+        "entries": [
+          {
+            "film_id": 4085,
+            "person": "Germany",
+            "winner": true
+          },
+          {
+            "film_id": 4089,
+            "person": "Denmark",
+            "winner": false
+          },
+          {
+            "film_id": 4221,
+            "person": "Algeria",
+            "winner": false
+          },
+          {
+            "film_id": 4084,
+            "person": "Mexico",
+            "winner": false
+          },
+          {
+            "film_id": 4610,
+            "person": "Canada",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4085,
+          4089,
+          4221,
+          4084,
+          4610
+        ],
+        "winners": [
+          4085
+        ],
+        "winner": 4085
+      },
+      {
+        "id": "documentary-feature-film",
+        "name": "Documentary Feature Film",
+        "entries": [
+          {
+            "film_id": 4087,
+            "person": "Davis Guggenheim",
+            "winner": true
+          },
+          {
+            "film_id": 4088,
+            "person": "Amy Berg and Frank Donner",
+            "winner": false
+          },
+          {
+            "film_id": 4090,
+            "person": "James Longley and John Sinno",
+            "winner": false
+          },
+          {
+            "film_id": 4093,
+            "person": "Heidi Ewing and Rachel Grady",
+            "winner": false
+          },
+          {
+            "film_id": 4091,
+            "person": "Laura Poitras and Jocelyn Glatzer",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4087,
+          4088,
+          4090,
+          4093,
+          4091
+        ],
+        "winners": [
+          4087
+        ],
+        "winner": 4087
+      },
+      {
+        "id": "animated-feature-film",
+        "name": "Animated Feature Film",
+        "entries": [
+          {
+            "film_id": 750,
+            "person": "George Miller",
+            "winner": true
+          },
+          {
+            "film_id": 744,
+            "person": "John Lasseter",
+            "winner": false
+          },
+          {
+            "film_id": 4094,
+            "person": "Gil Kenan",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          750,
+          744,
+          4094
+        ],
+        "winners": [
+          750
+        ],
+        "winner": 750
+      }
+    ],
+    "films": [
+      {
+        "id": 758,
+        "awards": [
+          "Best Picture",
+          "Directing",
+          "Writing (Adapted Screenplay)"
+        ]
+      },
+      {
+        "id": 768,
+        "awards": []
+      },
+      {
+        "id": 1710,
+        "awards": []
+      },
+      {
+        "id": 4072,
+        "awards": [
+          "Actor in a Supporting Role",
+          "Writing (Original Screenplay)"
+        ]
+      },
+      {
+        "id": 4073,
+        "awards": [
+          "Actress in a Leading Role"
+        ]
+      },
+      {
+        "id": 4075,
+        "awards": []
+      },
+      {
+        "id": 4077,
+        "awards": [
+          "Actor in a Leading Role"
+        ]
+      },
+      {
+        "id": 4081,
+        "awards": []
+      },
+      {
+        "id": 4074,
+        "awards": []
+      },
+      {
+        "id": 4086,
+        "awards": []
+      },
+      {
+        "id": 751,
+        "awards": []
+      },
+      {
+        "id": 4076,
+        "awards": []
+      },
+      {
+        "id": 4078,
+        "awards": []
+      },
+      {
+        "id": 766,
+        "awards": []
+      },
+      {
+        "id": 4079,
+        "awards": []
+      },
+      {
+        "id": 4080,
+        "awards": [
+          "Actress in a Supporting Role"
+        ]
+      },
+      {
+        "id": 4084,
+        "awards": []
+      },
+      {
+        "id": 4082,
+        "awards": []
+      },
+      {
+        "id": 4083,
+        "awards": []
+      },
+      {
+        "id": 4085,
+        "awards": [
+          "International Feature Film"
+        ]
+      },
+      {
+        "id": 4089,
+        "awards": []
+      },
+      {
+        "id": 4221,
+        "awards": []
+      },
+      {
+        "id": 4610,
+        "awards": []
+      },
+      {
+        "id": 4087,
+        "awards": [
+          "Documentary Feature Film"
+        ]
+      },
+      {
+        "id": 4088,
+        "awards": []
+      },
+      {
+        "id": 4090,
+        "awards": []
+      },
+      {
+        "id": 4093,
+        "awards": []
+      },
+      {
+        "id": 4091,
+        "awards": []
+      },
+      {
+        "id": 750,
+        "awards": [
+          "Animated Feature Film"
+        ]
+      },
+      {
+        "id": 744,
+        "awards": []
+      },
+      {
+        "id": 4094,
+        "awards": []
+      }
+    ]
+  },
+  {
+    "event": "Oscars",
+    "year": 2008,
+    "section": "Major Film Categories",
+    "source": "https://www.oscars.org/oscars/ceremonies/2008",
+    "awardsSource": "https://www.oscars.org/oscars/ceremonies/2008",
+    "resultsUrl": "https://www.oscars.org/oscars/ceremonies/2008",
+    "categories": [
+      {
+        "id": "best-picture",
+        "name": "Best Picture",
+        "entries": [
+          {
+            "film_id": 1697,
+            "person": "Scott Rudin, Ethan Coen and Joel Coen, Producers",
+            "winner": true
+          },
+          {
+            "film_id": 4097,
+            "person": "Tim Bevan, Eric Fellner and Paul Webster, Producers",
+            "winner": false
+          },
+          {
+            "film_id": 1703,
+            "person": "Lianne Halfon, Mason Novick and Russell Smith, Producers",
+            "winner": false
+          },
+          {
+            "film_id": 4095,
+            "person": "Sydney Pollack, Jennifer Fox and Kerry Orent, Producers",
+            "winner": false
+          },
+          {
+            "film_id": 698,
+            "person": "JoAnne Sellar, Paul Thomas Anderson and Daniel Lupi, Producers",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          1697,
+          4097,
+          1703,
+          4095,
+          698
+        ],
+        "winners": [
+          1697
+        ],
+        "winner": 1697
+      },
+      {
+        "id": "directing",
+        "name": "Directing",
+        "entries": [
+          {
+            "film_id": 1697,
+            "person": "Joel Coen and Ethan Coen",
+            "winner": true
+          },
+          {
+            "film_id": 4096,
+            "person": "Julian Schnabel",
+            "winner": false
+          },
+          {
+            "film_id": 1703,
+            "person": "Jason Reitman",
+            "winner": false
+          },
+          {
+            "film_id": 4095,
+            "person": "Tony Gilroy",
+            "winner": false
+          },
+          {
+            "film_id": 698,
+            "person": "Paul Thomas Anderson",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          1697,
+          4096,
+          1703,
+          4095,
+          698
+        ],
+        "winners": [
+          1697
+        ],
+        "winner": 1697
+      },
+      {
+        "id": "actor-in-a-leading-role",
+        "name": "Actor in a Leading Role",
+        "entries": [
+          {
+            "film_id": 698,
+            "person": "Daniel Day-Lewis",
+            "winner": true
+          },
+          {
+            "film_id": 4095,
+            "person": "George Clooney",
+            "winner": false
+          },
+          {
+            "film_id": 4098,
+            "person": "Johnny Depp",
+            "winner": false
+          },
+          {
+            "film_id": 4099,
+            "person": "Tommy Lee Jones",
+            "winner": false
+          },
+          {
+            "film_id": 4100,
+            "person": "Viggo Mortensen",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          698,
+          4095,
+          4098,
+          4099,
+          4100
+        ],
+        "winners": [
+          698
+        ],
+        "winner": 698
+      },
+      {
+        "id": "actress-in-a-leading-role",
+        "name": "Actress in a Leading Role",
+        "entries": [
+          {
+            "film_id": 722,
+            "person": "Marion Cotillard",
+            "winner": true
+          },
+          {
+            "film_id": 4105,
+            "person": "Cate Blanchett",
+            "winner": false
+          },
+          {
+            "film_id": 4101,
+            "person": "Julie Christie",
+            "winner": false
+          },
+          {
+            "film_id": 4102,
+            "person": "Laura Linney",
+            "winner": false
+          },
+          {
+            "film_id": 1703,
+            "person": "Ellen Page",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          722,
+          4105,
+          4101,
+          4102,
+          1703
+        ],
+        "winners": [
+          722
+        ],
+        "winner": 722
+      },
+      {
+        "id": "actor-in-a-supporting-role",
+        "name": "Actor in a Supporting Role",
+        "entries": [
+          {
+            "film_id": 1697,
+            "person": "Javier Bardem",
+            "winner": true
+          },
+          {
+            "film_id": 4108,
+            "person": "Casey Affleck",
+            "winner": false
+          },
+          {
+            "film_id": 4112,
+            "person": "Philip Seymour Hoffman",
+            "winner": false
+          },
+          {
+            "film_id": 4103,
+            "person": "Hal Holbrook",
+            "winner": false
+          },
+          {
+            "film_id": 4095,
+            "person": "Tom Wilkinson",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          1697,
+          4108,
+          4112,
+          4103,
+          4095
+        ],
+        "winners": [
+          1697
+        ],
+        "winner": 1697
+      },
+      {
+        "id": "actress-in-a-supporting-role",
+        "name": "Actress in a Supporting Role",
+        "entries": [
+          {
+            "film_id": 4095,
+            "person": "Tilda Swinton",
+            "winner": true
+          },
+          {
+            "film_id": 4104,
+            "person": "Cate Blanchett",
+            "winner": false
+          },
+          {
+            "film_id": 1704,
+            "person": "Ruby Dee",
+            "winner": false
+          },
+          {
+            "film_id": 4097,
+            "person": "Saoirse Ronan",
+            "winner": false
+          },
+          {
+            "film_id": 4107,
+            "person": "Amy Ryan",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4095,
+          4104,
+          1704,
+          4097,
+          4107
+        ],
+        "winners": [
+          4095
+        ],
+        "winner": 4095
+      },
+      {
+        "id": "writing-original-screenplay",
+        "name": "Writing (Original Screenplay)",
+        "entries": [
+          {
+            "film_id": 1703,
+            "person": "Written by Diablo Cody",
+            "winner": true
+          },
+          {
+            "film_id": 4106,
+            "person": "Written by Nancy Oliver",
+            "winner": false
+          },
+          {
+            "film_id": 4095,
+            "person": "Written by Tony Gilroy",
+            "winner": false
+          },
+          {
+            "film_id": 1692,
+            "person": "Screenplay by Brad Bird; Story by Jan Pinkava, Jim Capobianco, Brad Bird",
+            "winner": false
+          },
+          {
+            "film_id": 4102,
+            "person": "Written by Tamara Jenkins",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          1703,
+          4106,
+          4095,
+          1692,
+          4102
+        ],
+        "winners": [
+          1703
+        ],
+        "winner": 1703
+      },
+      {
+        "id": "writing-adapted-screenplay",
+        "name": "Writing (Adapted Screenplay)",
+        "entries": [
+          {
+            "film_id": 1697,
+            "person": "Written for the screen by Joel Coen & Ethan Coen",
+            "winner": true
+          },
+          {
+            "film_id": 4097,
+            "person": "Screenplay by Christopher Hampton",
+            "winner": false
+          },
+          {
+            "film_id": 4101,
+            "person": "Written by Sarah Polley",
+            "winner": false
+          },
+          {
+            "film_id": 4096,
+            "person": "Screenplay by Ronald Harwood",
+            "winner": false
+          },
+          {
+            "film_id": 698,
+            "person": "Written for the Screen by Paul Thomas Anderson",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          1697,
+          4097,
+          4101,
+          4096,
+          698
+        ],
+        "winners": [
+          1697
+        ],
+        "winner": 1697
+      },
+      {
+        "id": "international-feature-film",
+        "name": "International Feature Film",
+        "entries": [
+          {
+            "film_id": 4109,
+            "person": "Austria",
+            "winner": true
+          },
+          {
+            "film_id": 4110,
+            "person": "Israel",
+            "winner": false
+          },
+          {
+            "film_id": 4113,
+            "person": "Poland",
+            "winner": false
+          },
+          {
+            "film_id": 4115,
+            "person": "Kazakhstan",
+            "winner": false
+          },
+          {
+            "film_id": 708,
+            "person": "Russia",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4109,
+          4110,
+          4113,
+          4115,
+          708
+        ],
+        "winners": [
+          4109
+        ],
+        "winner": 4109
+      },
+      {
+        "id": "documentary-feature-film",
+        "name": "Documentary Feature Film",
+        "entries": [
+          {
+            "film_id": 4111,
+            "person": "Alex Gibney and Eva Orner",
+            "winner": true
+          },
+          {
+            "film_id": 4123,
+            "person": "Charles Ferguson and Audrey Marrs",
+            "winner": false
+          },
+          {
+            "film_id": 4117,
+            "person": "Richard E. Robbins",
+            "winner": false
+          },
+          {
+            "film_id": 4122,
+            "person": "Michael Moore and Meghan O'Hara",
+            "winner": false
+          },
+          {
+            "film_id": 4114,
+            "person": "Andrea Nix Fine and Sean Fine",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4111,
+          4123,
+          4117,
+          4122,
+          4114
+        ],
+        "winners": [
+          4111
+        ],
+        "winner": 4111
+      },
+      {
+        "id": "animated-feature-film",
+        "name": "Animated Feature Film",
+        "entries": [
+          {
+            "film_id": 1692,
+            "person": "Brad Bird",
+            "winner": true
+          },
+          {
+            "film_id": 709,
+            "person": "Marjane Satrapi and Vincent Paronnaud",
+            "winner": false
+          },
+          {
+            "film_id": 4116,
+            "person": "Ash Brannon and Chris Buck",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          1692,
+          709,
+          4116
+        ],
+        "winners": [
+          1692
+        ],
+        "winner": 1692
+      }
+    ],
+    "films": [
+      {
+        "id": 1697,
+        "awards": [
+          "Best Picture",
+          "Directing",
+          "Actor in a Supporting Role",
+          "Writing (Adapted Screenplay)"
+        ]
+      },
+      {
+        "id": 4097,
+        "awards": []
+      },
+      {
+        "id": 1703,
+        "awards": [
+          "Writing (Original Screenplay)"
+        ]
+      },
+      {
+        "id": 4095,
+        "awards": [
+          "Actress in a Supporting Role"
+        ]
+      },
+      {
+        "id": 698,
+        "awards": [
+          "Actor in a Leading Role"
+        ]
+      },
+      {
+        "id": 4096,
+        "awards": []
+      },
+      {
+        "id": 4098,
+        "awards": []
+      },
+      {
+        "id": 4099,
+        "awards": []
+      },
+      {
+        "id": 4100,
+        "awards": []
+      },
+      {
+        "id": 722,
+        "awards": [
+          "Actress in a Leading Role"
+        ]
+      },
+      {
+        "id": 4105,
+        "awards": []
+      },
+      {
+        "id": 4101,
+        "awards": []
+      },
+      {
+        "id": 4102,
+        "awards": []
+      },
+      {
+        "id": 4108,
+        "awards": []
+      },
+      {
+        "id": 4112,
+        "awards": []
+      },
+      {
+        "id": 4103,
+        "awards": []
+      },
+      {
+        "id": 4104,
+        "awards": []
+      },
+      {
+        "id": 1704,
+        "awards": []
+      },
+      {
+        "id": 4107,
+        "awards": []
+      },
+      {
+        "id": 4106,
+        "awards": []
+      },
+      {
+        "id": 1692,
+        "awards": [
+          "Animated Feature Film"
+        ]
+      },
+      {
+        "id": 4109,
+        "awards": [
+          "International Feature Film"
+        ]
+      },
+      {
+        "id": 4110,
+        "awards": []
+      },
+      {
+        "id": 4113,
+        "awards": []
+      },
+      {
+        "id": 4115,
+        "awards": []
+      },
+      {
+        "id": 708,
+        "awards": []
+      },
+      {
+        "id": 4111,
+        "awards": [
+          "Documentary Feature Film"
+        ]
+      },
+      {
+        "id": 4123,
+        "awards": []
+      },
+      {
+        "id": 4117,
+        "awards": []
+      },
+      {
+        "id": 4122,
+        "awards": []
+      },
+      {
+        "id": 4114,
+        "awards": []
+      },
+      {
+        "id": 709,
+        "awards": []
+      },
+      {
+        "id": 4116,
+        "awards": []
+      }
+    ]
+  },
+  {
+    "event": "Oscars",
+    "year": 2009,
+    "section": "Major Film Categories",
+    "source": "https://www.oscars.org/oscars/ceremonies/2009",
+    "awardsSource": "https://www.oscars.org/oscars/ceremonies/2009",
+    "resultsUrl": "https://www.oscars.org/oscars/ceremonies/2009",
+    "categories": [
+      {
+        "id": "best-picture",
+        "name": "Best Picture",
+        "entries": [
+          {
+            "film_id": 661,
+            "person": "Christian Colson, Producer",
+            "winner": true
+          },
+          {
+            "film_id": 4118,
+            "person": "Kathleen Kennedy, Frank Marshall and Ceán Chaffin, Producers",
+            "winner": false
+          },
+          {
+            "film_id": 4119,
+            "person": "Brian Grazer, Ron Howard and Eric Fellner, Producers",
+            "winner": false
+          },
+          {
+            "film_id": 4125,
+            "person": "Dan Jinks and Bruce Cohen, Producers",
+            "winner": false
+          },
+          {
+            "film_id": 4120,
+            "person": "Anthony Minghella, Sydney Pollack, Donna Gigliotti and Redmond Morris, Producers",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          661,
+          4118,
+          4119,
+          4125,
+          4120
+        ],
+        "winners": [
+          661
+        ],
+        "winner": 661
+      },
+      {
+        "id": "directing",
+        "name": "Directing",
+        "entries": [
+          {
+            "film_id": 661,
+            "person": "Danny Boyle",
+            "winner": true
+          },
+          {
+            "film_id": 4118,
+            "person": "David Fincher",
+            "winner": false
+          },
+          {
+            "film_id": 4119,
+            "person": "Ron Howard",
+            "winner": false
+          },
+          {
+            "film_id": 4125,
+            "person": "Gus Van Sant",
+            "winner": false
+          },
+          {
+            "film_id": 4120,
+            "person": "Stephen Daldry",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          661,
+          4118,
+          4119,
+          4125,
+          4120
+        ],
+        "winners": [
+          661
+        ],
+        "winner": 661
+      },
+      {
+        "id": "actor-in-a-leading-role",
+        "name": "Actor in a Leading Role",
+        "entries": [
+          {
+            "film_id": 4125,
+            "person": "Sean Penn",
+            "winner": true
+          },
+          {
+            "film_id": 4121,
+            "person": "Richard Jenkins",
+            "winner": false
+          },
+          {
+            "film_id": 4119,
+            "person": "Frank Langella",
+            "winner": false
+          },
+          {
+            "film_id": 4118,
+            "person": "Brad Pitt",
+            "winner": false
+          },
+          {
+            "film_id": 659,
+            "person": "Mickey Rourke",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4125,
+          4121,
+          4119,
+          4118,
+          659
+        ],
+        "winners": [
+          4125
+        ],
+        "winner": 4125
+      },
+      {
+        "id": "actress-in-a-leading-role",
+        "name": "Actress in a Leading Role",
+        "entries": [
+          {
+            "film_id": 4120,
+            "person": "Kate Winslet",
+            "winner": true
+          },
+          {
+            "film_id": 4126,
+            "person": "Anne Hathaway",
+            "winner": false
+          },
+          {
+            "film_id": 4132,
+            "person": "Angelina Jolie",
+            "winner": false
+          },
+          {
+            "film_id": 4124,
+            "person": "Melissa Leo",
+            "winner": false
+          },
+          {
+            "film_id": 4127,
+            "person": "Meryl Streep",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4120,
+          4126,
+          4132,
+          4124,
+          4127
+        ],
+        "winners": [
+          4120
+        ],
+        "winner": 4120
+      },
+      {
+        "id": "actor-in-a-supporting-role",
+        "name": "Actor in a Supporting Role",
+        "entries": [
+          {
+            "film_id": 674,
+            "person": "Heath Ledger",
+            "winner": true
+          },
+          {
+            "film_id": 4125,
+            "person": "Josh Brolin",
+            "winner": false
+          },
+          {
+            "film_id": 4128,
+            "person": "Robert Downey Jr.",
+            "winner": false
+          },
+          {
+            "film_id": 4127,
+            "person": "Philip Seymour Hoffman",
+            "winner": false
+          },
+          {
+            "film_id": 672,
+            "person": "Michael Shannon",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          674,
+          4125,
+          4128,
+          4127,
+          672
+        ],
+        "winners": [
+          674
+        ],
+        "winner": 674
+      },
+      {
+        "id": "actress-in-a-supporting-role",
+        "name": "Actress in a Supporting Role",
+        "entries": [
+          {
+            "film_id": 658,
+            "person": "Penélope Cruz",
+            "winner": true
+          },
+          {
+            "film_id": 4127,
+            "person": "Amy Adams",
+            "winner": false
+          },
+          {
+            "film_id": 4127,
+            "person": "Viola Davis",
+            "winner": false
+          },
+          {
+            "film_id": 4118,
+            "person": "Taraji P. Henson",
+            "winner": false
+          },
+          {
+            "film_id": 659,
+            "person": "Marisa Tomei",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          658,
+          4127,
+          4118,
+          659
+        ],
+        "winners": [
+          658
+        ],
+        "winner": 658
+      },
+      {
+        "id": "writing-original-screenplay",
+        "name": "Writing (Original Screenplay)",
+        "entries": [
+          {
+            "film_id": 4125,
+            "person": "Written by Dustin Lance Black",
+            "winner": true
+          },
+          {
+            "film_id": 4124,
+            "person": "Written by Courtney Hunt",
+            "winner": false
+          },
+          {
+            "film_id": 4129,
+            "person": "Written by Mike Leigh",
+            "winner": false
+          },
+          {
+            "film_id": 706,
+            "person": "Written by Martin McDonagh",
+            "winner": false
+          },
+          {
+            "film_id": 1685,
+            "person": "Screenplay by Andrew Stanton, Jim Reardon; Original story by Andrew Stanton, Pete Docter",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4125,
+          4124,
+          4129,
+          706,
+          1685
+        ],
+        "winners": [
+          4125
+        ],
+        "winner": 4125
+      },
+      {
+        "id": "writing-adapted-screenplay",
+        "name": "Writing (Adapted Screenplay)",
+        "entries": [
+          {
+            "film_id": 661,
+            "person": "Screenplay by Simon Beaufoy",
+            "winner": true
+          },
+          {
+            "film_id": 4118,
+            "person": "Screenplay by Eric Roth; Screen story by Eric Roth and Robin Swicord",
+            "winner": false
+          },
+          {
+            "film_id": 4127,
+            "person": "Written by John Patrick Shanley",
+            "winner": false
+          },
+          {
+            "film_id": 4119,
+            "person": "Screenplay by Peter Morgan",
+            "winner": false
+          },
+          {
+            "film_id": 4120,
+            "person": "Screenplay by David Hare",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          661,
+          4118,
+          4127,
+          4119,
+          4120
+        ],
+        "winners": [
+          661
+        ],
+        "winner": 661
+      },
+      {
+        "id": "international-feature-film",
+        "name": "International Feature Film",
+        "entries": [
+          {
+            "film_id": 4131,
+            "person": "Japan",
+            "winner": true
+          },
+          {
+            "film_id": 4130,
+            "person": "Germany",
+            "winner": false
+          },
+          {
+            "film_id": 4289,
+            "person": "France",
+            "winner": false
+          },
+          {
+            "film_id": 4137,
+            "person": "Austria",
+            "winner": false
+          },
+          {
+            "film_id": 4135,
+            "person": "Israel",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4131,
+          4130,
+          4289,
+          4137,
+          4135
+        ],
+        "winners": [
+          4131
+        ],
+        "winner": 4131
+      },
+      {
+        "id": "documentary-feature-film",
+        "name": "Documentary Feature Film",
+        "entries": [
+          {
+            "film_id": 4133,
+            "person": "James Marsh and Simon Chinn",
+            "winner": true
+          },
+          {
+            "film_id": 4134,
+            "person": "Ellen Kuras and Thavisouk Phrasavath",
+            "winner": false
+          },
+          {
+            "film_id": 4136,
+            "person": "Werner Herzog and Henry Kaiser",
+            "winner": false
+          },
+          {
+            "film_id": 4138,
+            "person": "Scott Hamilton Kennedy",
+            "winner": false
+          },
+          {
+            "film_id": 4140,
+            "person": "Tia Lessin and Carl Deal",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4133,
+          4134,
+          4136,
+          4138,
+          4140
+        ],
+        "winners": [
+          4133
+        ],
+        "winner": 4133
+      },
+      {
+        "id": "animated-feature-film",
+        "name": "Animated Feature Film",
+        "entries": [
+          {
+            "film_id": 1685,
+            "person": "Andrew Stanton",
+            "winner": true
+          },
+          {
+            "film_id": 4139,
+            "person": "Chris Williams and Byron Howard",
+            "winner": false
+          },
+          {
+            "film_id": 4141,
+            "person": "John Stevenson and Mark Osborne",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          1685,
+          4139,
+          4141
+        ],
+        "winners": [
+          1685
+        ],
+        "winner": 1685
+      }
+    ],
+    "films": [
+      {
+        "id": 661,
+        "awards": [
+          "Best Picture",
+          "Directing",
+          "Writing (Adapted Screenplay)"
+        ]
+      },
+      {
+        "id": 4118,
+        "awards": []
+      },
+      {
+        "id": 4119,
+        "awards": []
+      },
+      {
+        "id": 4125,
+        "awards": [
+          "Actor in a Leading Role",
+          "Writing (Original Screenplay)"
+        ]
+      },
+      {
+        "id": 4120,
+        "awards": [
+          "Actress in a Leading Role"
+        ]
+      },
+      {
+        "id": 4121,
+        "awards": []
+      },
+      {
+        "id": 659,
+        "awards": []
+      },
+      {
+        "id": 4126,
+        "awards": []
+      },
+      {
+        "id": 4132,
+        "awards": []
+      },
+      {
+        "id": 4124,
+        "awards": []
+      },
+      {
+        "id": 4127,
+        "awards": []
+      },
+      {
+        "id": 674,
+        "awards": [
+          "Actor in a Supporting Role"
+        ]
+      },
+      {
+        "id": 4128,
+        "awards": []
+      },
+      {
+        "id": 672,
+        "awards": []
+      },
+      {
+        "id": 658,
+        "awards": [
+          "Actress in a Supporting Role"
+        ]
+      },
+      {
+        "id": 4129,
+        "awards": []
+      },
+      {
+        "id": 706,
+        "awards": []
+      },
+      {
+        "id": 1685,
+        "awards": [
+          "Animated Feature Film"
+        ]
+      },
+      {
+        "id": 4131,
+        "awards": [
+          "International Feature Film"
+        ]
+      },
+      {
+        "id": 4130,
+        "awards": []
+      },
+      {
+        "id": 4289,
+        "awards": []
+      },
+      {
+        "id": 4137,
+        "awards": []
+      },
+      {
+        "id": 4135,
+        "awards": []
+      },
+      {
+        "id": 4133,
+        "awards": [
+          "Documentary Feature Film"
+        ]
+      },
+      {
+        "id": 4134,
+        "awards": []
+      },
+      {
+        "id": 4136,
+        "awards": []
+      },
+      {
+        "id": 4138,
+        "awards": []
+      },
+      {
+        "id": 4140,
+        "awards": []
+      },
+      {
+        "id": 4139,
+        "awards": []
+      },
+      {
+        "id": 4141,
+        "awards": []
+      }
+    ]
+  },
+  {
+    "event": "Oscars",
+    "year": 2010,
+    "section": "Major Film Categories",
+    "source": "https://www.oscars.org/oscars/ceremonies/2010",
+    "awardsSource": "https://www.oscars.org/oscars/ceremonies/2010",
+    "resultsUrl": "https://www.oscars.org/oscars/ceremonies/2010",
+    "categories": [
+      {
+        "id": "best-picture",
+        "name": "Best Picture",
+        "entries": [
+          {
+            "film_id": 4142,
+            "person": "Kathryn Bigelow, Mark Boal, Nicolas Chartier and Greg Shapiro, Producers",
+            "winner": true
+          },
+          {
+            "film_id": 1666,
+            "person": "James Cameron and Jon Landau, Producers",
+            "winner": false
+          },
+          {
+            "film_id": 1676,
+            "person": "Gil Netter, Andrew A. Kosove and Broderick Johnson, Producers",
+            "winner": false
+          },
+          {
+            "film_id": 4143,
+            "person": "Peter Jackson and Carolynne Cunningham, Producers",
+            "winner": false
+          },
+          {
+            "film_id": 4147,
+            "person": "Finola Dwyer and Amanda Posey, Producers",
+            "winner": false
+          },
+          {
+            "film_id": 641,
+            "person": "Lawrence Bender, Producer",
+            "winner": false
+          },
+          {
+            "film_id": 4144,
+            "person": "Lee Daniels, Sarah Siegel-Magness and Gary Magness, Producers",
+            "winner": false
+          },
+          {
+            "film_id": 1665,
+            "person": "Joel Coen and Ethan Coen, Producers",
+            "winner": false
+          },
+          {
+            "film_id": 1662,
+            "person": "Jonas Rivera, Producer",
+            "winner": false
+          },
+          {
+            "film_id": 1670,
+            "person": "Daniel Dubiecki, Ivan Reitman and Jason Reitman, Producers",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4142,
+          1666,
+          1676,
+          4143,
+          4147,
+          641,
+          4144,
+          1665,
+          1662,
+          1670
+        ],
+        "winners": [
+          4142
+        ],
+        "winner": 4142
+      },
+      {
+        "id": "directing",
+        "name": "Directing",
+        "entries": [
+          {
+            "film_id": 4142,
+            "person": "Kathryn Bigelow",
+            "winner": true
+          },
+          {
+            "film_id": 1666,
+            "person": "James Cameron",
+            "winner": false
+          },
+          {
+            "film_id": 641,
+            "person": "Quentin Tarantino",
+            "winner": false
+          },
+          {
+            "film_id": 4144,
+            "person": "Lee Daniels",
+            "winner": false
+          },
+          {
+            "film_id": 1670,
+            "person": "Jason Reitman",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4142,
+          1666,
+          641,
+          4144,
+          1670
+        ],
+        "winners": [
+          4142
+        ],
+        "winner": 4142
+      },
+      {
+        "id": "actor-in-a-leading-role",
+        "name": "Actor in a Leading Role",
+        "entries": [
+          {
+            "film_id": 4145,
+            "person": "Jeff Bridges",
+            "winner": true
+          },
+          {
+            "film_id": 1670,
+            "person": "George Clooney",
+            "winner": false
+          },
+          {
+            "film_id": 4146,
+            "person": "Colin Firth",
+            "winner": false
+          },
+          {
+            "film_id": 4151,
+            "person": "Morgan Freeman",
+            "winner": false
+          },
+          {
+            "film_id": 4142,
+            "person": "Jeremy Renner",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4145,
+          1670,
+          4146,
+          4151,
+          4142
+        ],
+        "winners": [
+          4145
+        ],
+        "winner": 4145
+      },
+      {
+        "id": "actress-in-a-leading-role",
+        "name": "Actress in a Leading Role",
+        "entries": [
+          {
+            "film_id": 1676,
+            "person": "Sandra Bullock",
+            "winner": true
+          },
+          {
+            "film_id": 4149,
+            "person": "Helen Mirren",
+            "winner": false
+          },
+          {
+            "film_id": 4147,
+            "person": "Carey Mulligan",
+            "winner": false
+          },
+          {
+            "film_id": 4144,
+            "person": "Gabourey Sidibe",
+            "winner": false
+          },
+          {
+            "film_id": 646,
+            "person": "Meryl Streep",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          1676,
+          4149,
+          4147,
+          4144,
+          646
+        ],
+        "winners": [
+          1676
+        ],
+        "winner": 1676
+      },
+      {
+        "id": "actor-in-a-supporting-role",
+        "name": "Actor in a Supporting Role",
+        "entries": [
+          {
+            "film_id": 641,
+            "person": "Christoph Waltz",
+            "winner": true
+          },
+          {
+            "film_id": 4151,
+            "person": "Matt Damon",
+            "winner": false
+          },
+          {
+            "film_id": 4150,
+            "person": "Woody Harrelson",
+            "winner": false
+          },
+          {
+            "film_id": 4149,
+            "person": "Christopher Plummer",
+            "winner": false
+          },
+          {
+            "film_id": 4148,
+            "person": "Stanley Tucci",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          641,
+          4151,
+          4150,
+          4149,
+          4148
+        ],
+        "winners": [
+          641
+        ],
+        "winner": 641
+      },
+      {
+        "id": "actress-in-a-supporting-role",
+        "name": "Actress in a Supporting Role",
+        "entries": [
+          {
+            "film_id": 4144,
+            "person": "Mo'Nique",
+            "winner": true
+          },
+          {
+            "film_id": 4611,
+            "person": "Penélope Cruz",
+            "winner": false
+          },
+          {
+            "film_id": 1670,
+            "person": "Vera Farmiga",
+            "winner": false
+          },
+          {
+            "film_id": 4145,
+            "person": "Maggie Gyllenhaal",
+            "winner": false
+          },
+          {
+            "film_id": 1670,
+            "person": "Anna Kendrick",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4144,
+          4611,
+          1670,
+          4145
+        ],
+        "winners": [
+          4144
+        ],
+        "winner": 4144
+      },
+      {
+        "id": "writing-original-screenplay",
+        "name": "Writing (Original Screenplay)",
+        "entries": [
+          {
+            "film_id": 4142,
+            "person": "Written by Mark Boal",
+            "winner": true
+          },
+          {
+            "film_id": 641,
+            "person": "Written by Quentin Tarantino",
+            "winner": false
+          },
+          {
+            "film_id": 4150,
+            "person": "Written by Alessandro Camon & Oren Moverman",
+            "winner": false
+          },
+          {
+            "film_id": 1665,
+            "person": "Written by Joel Coen & Ethan Coen",
+            "winner": false
+          },
+          {
+            "film_id": 1662,
+            "person": "Screenplay by Bob Peterson, Pete Docter; Story by Pete Docter, Bob Peterson, Tom McCarthy",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4142,
+          641,
+          4150,
+          1665,
+          1662
+        ],
+        "winners": [
+          4142
+        ],
+        "winner": 4142
+      },
+      {
+        "id": "writing-adapted-screenplay",
+        "name": "Writing (Adapted Screenplay)",
+        "entries": [
+          {
+            "film_id": 4144,
+            "person": "Screenplay by Geoffrey Fletcher",
+            "winner": true
+          },
+          {
+            "film_id": 4143,
+            "person": "Written by Neill Blomkamp and Terri Tatchell",
+            "winner": false
+          },
+          {
+            "film_id": 4147,
+            "person": "Screenplay by Nick Hornby",
+            "winner": false
+          },
+          {
+            "film_id": 4163,
+            "person": "Screenplay by Jesse Armstrong, Simon Blackwell, Armando Iannucci, Tony Roche",
+            "winner": false
+          },
+          {
+            "film_id": 1670,
+            "person": "Screenplay by Jason Reitman and Sheldon Turner",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4144,
+          4143,
+          4147,
+          4163,
+          1670
+        ],
+        "winners": [
+          4144
+        ],
+        "winner": 4144
+      },
+      {
+        "id": "international-feature-film",
+        "name": "International Feature Film",
+        "entries": [
+          {
+            "film_id": 3563,
+            "person": "Argentina",
+            "winner": true
+          },
+          {
+            "film_id": 4152,
+            "person": "Israel",
+            "winner": false
+          },
+          {
+            "film_id": 4153,
+            "person": "Peru",
+            "winner": false
+          },
+          {
+            "film_id": 4154,
+            "person": "France",
+            "winner": false
+          },
+          {
+            "film_id": 1673,
+            "person": "Germany",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          3563,
+          4152,
+          4153,
+          4154,
+          1673
+        ],
+        "winners": [
+          3563
+        ],
+        "winner": 3563
+      },
+      {
+        "id": "documentary-feature-film",
+        "name": "Documentary Feature Film",
+        "entries": [
+          {
+            "film_id": 4155,
+            "person": "Louie Psihoyos and Fisher Stevens",
+            "winner": true
+          },
+          {
+            "film_id": 4612,
+            "person": "Anders Østergaard and Lise Lense-Møller",
+            "winner": false
+          },
+          {
+            "film_id": 4156,
+            "person": "Robert Kenner and Elise Pearlstein",
+            "winner": false
+          },
+          {
+            "film_id": 4613,
+            "person": "Judith Ehrlich and Rick Goldsmith",
+            "winner": false
+          },
+          {
+            "film_id": 4158,
+            "person": "Rebecca Cammisa",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4155,
+          4612,
+          4156,
+          4613,
+          4158
+        ],
+        "winners": [
+          4155
+        ],
+        "winner": 4155
+      },
+      {
+        "id": "animated-feature-film",
+        "name": "Animated Feature Film",
+        "entries": [
+          {
+            "film_id": 1662,
+            "person": "Pete Docter",
+            "winner": true
+          },
+          {
+            "film_id": 4157,
+            "person": "Henry Selick",
+            "winner": false
+          },
+          {
+            "film_id": 620,
+            "person": "Wes Anderson",
+            "winner": false
+          },
+          {
+            "film_id": 630,
+            "person": "John Musker and Ron Clements",
+            "winner": false
+          },
+          {
+            "film_id": 4165,
+            "person": "Tomm Moore",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          1662,
+          4157,
+          620,
+          630,
+          4165
+        ],
+        "winners": [
+          1662
+        ],
+        "winner": 1662
+      }
+    ],
+    "films": [
+      {
+        "id": 4142,
+        "awards": [
+          "Best Picture",
+          "Directing",
+          "Writing (Original Screenplay)"
+        ]
+      },
+      {
+        "id": 1666,
+        "awards": []
+      },
+      {
+        "id": 1676,
+        "awards": [
+          "Actress in a Leading Role"
+        ]
+      },
+      {
+        "id": 4143,
+        "awards": []
+      },
+      {
+        "id": 4147,
+        "awards": []
+      },
+      {
+        "id": 641,
+        "awards": [
+          "Actor in a Supporting Role"
+        ]
+      },
+      {
+        "id": 4144,
+        "awards": [
+          "Actress in a Supporting Role",
+          "Writing (Adapted Screenplay)"
+        ]
+      },
+      {
+        "id": 1665,
+        "awards": []
+      },
+      {
+        "id": 1662,
+        "awards": [
+          "Animated Feature Film"
+        ]
+      },
+      {
+        "id": 1670,
+        "awards": []
+      },
+      {
+        "id": 4145,
+        "awards": [
+          "Actor in a Leading Role"
+        ]
+      },
+      {
+        "id": 4146,
+        "awards": []
+      },
+      {
+        "id": 4151,
+        "awards": []
+      },
+      {
+        "id": 4149,
+        "awards": []
+      },
+      {
+        "id": 646,
+        "awards": []
+      },
+      {
+        "id": 4150,
+        "awards": []
+      },
+      {
+        "id": 4148,
+        "awards": []
+      },
+      {
+        "id": 4611,
+        "awards": []
+      },
+      {
+        "id": 4163,
+        "awards": []
+      },
+      {
+        "id": 3563,
+        "awards": [
+          "International Feature Film"
+        ]
+      },
+      {
+        "id": 4152,
+        "awards": []
+      },
+      {
+        "id": 4153,
+        "awards": []
+      },
+      {
+        "id": 4154,
+        "awards": []
+      },
+      {
+        "id": 1673,
+        "awards": []
+      },
+      {
+        "id": 4155,
+        "awards": [
+          "Documentary Feature Film"
+        ]
+      },
+      {
+        "id": 4612,
+        "awards": []
+      },
+      {
+        "id": 4156,
+        "awards": []
+      },
+      {
+        "id": 4613,
+        "awards": []
+      },
+      {
+        "id": 4158,
+        "awards": []
+      },
+      {
+        "id": 4157,
+        "awards": []
+      },
+      {
+        "id": 620,
+        "awards": []
+      },
+      {
+        "id": 630,
+        "awards": []
+      },
+      {
+        "id": 4165,
+        "awards": []
+      }
+    ]
+  },
+  {
+    "event": "BAFTA",
+    "year": 2006,
+    "section": "Major Film Categories",
+    "source": "https://www.bafta.org/awards/film/?award-year=2006",
+    "awardsSource": "https://www.bafta.org/awards/film/?award-year=2006",
+    "resultsUrl": "https://www.bafta.org/awards/film/?award-year=2006",
+    "categories": [
+      {
+        "id": "best-film",
+        "name": "Best Film",
+        "entries": [
+          {
+            "film_id": 1726,
+            "person": "Diana Ossana, James Schamus",
+            "winner": true
+          },
+          {
+            "film_id": 4045,
+            "person": "Caroline Baron, William Vince, Michael Ohoven",
+            "winner": false
+          },
+          {
+            "film_id": 4059,
+            "person": "Simon Channing Williams",
+            "winner": false
+          },
+          {
+            "film_id": 4048,
+            "person": "Cathy Schulman, Don Cheadle, Bob Yari",
+            "winner": false
+          },
+          {
+            "film_id": 4047,
+            "person": "Grant Heslov",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          1726,
+          4045,
+          4059,
+          4048,
+          4047
+        ],
+        "winners": [
+          1726
+        ],
+        "winner": 1726
+      },
+      {
+        "id": "director",
+        "name": "Director",
+        "entries": [
+          {
+            "film_id": 1726,
+            "person": "Ang Lee",
+            "winner": true
+          },
+          {
+            "film_id": 4045,
+            "person": "Bennett Miller",
+            "winner": false
+          },
+          {
+            "film_id": 4059,
+            "person": "Fernando Meirelles",
+            "winner": false
+          },
+          {
+            "film_id": 4048,
+            "person": "Paul Haggis",
+            "winner": false
+          },
+          {
+            "film_id": 4047,
+            "person": "George Clooney",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          1726,
+          4045,
+          4059,
+          4048,
+          4047
+        ],
+        "winners": [
+          1726
+        ],
+        "winner": 1726
+      },
+      {
+        "id": "outstanding-british-film",
+        "name": "Outstanding British Film",
+        "entries": [
+          {
+            "film_id": 4092,
+            "person": "Claire Jennings, David Sproxton, Nick Park, Steve Box, Mark Burton, Bob Baker",
+            "winner": true
+          },
+          {
+            "film_id": 4159,
+            "person": "Andrew Eaton, Michael Winterbottom, Martin Hardy",
+            "winner": false
+          },
+          {
+            "film_id": 4059,
+            "person": "Simon Channing Williams, Fernando Meirelles, Jeffrey Caine",
+            "winner": false
+          },
+          {
+            "film_id": 4160,
+            "person": "Christopher Young, Annie Griffin",
+            "winner": false
+          },
+          {
+            "film_id": 4052,
+            "person": "Tim Bevan, Eric Fellner, Paul Webster, Joe Wright, Deborah Moggach",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4092,
+          4159,
+          4059,
+          4160,
+          4052
+        ],
+        "winners": [
+          4092
+        ],
+        "winner": 4092
+      },
+      {
+        "id": "leading-actor",
+        "name": "Leading Actor",
+        "entries": [
+          {
+            "film_id": 4045,
+            "person": "Philip Seymour Hoffman",
+            "winner": true
+          },
+          {
+            "film_id": 4059,
+            "person": "Ralph Fiennes",
+            "winner": false
+          },
+          {
+            "film_id": 1726,
+            "person": "Heath Ledger",
+            "winner": false
+          },
+          {
+            "film_id": 4049,
+            "person": "Joaquin Phoenix",
+            "winner": false
+          },
+          {
+            "film_id": 4047,
+            "person": "David Strathairn",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4045,
+          4059,
+          1726,
+          4049,
+          4047
+        ],
+        "winners": [
+          4045
+        ],
+        "winner": 4045
+      },
+      {
+        "id": "leading-actress",
+        "name": "Leading Actress",
+        "entries": [
+          {
+            "film_id": 4049,
+            "person": "Reese Witherspoon",
+            "winner": true
+          },
+          {
+            "film_id": 4055,
+            "person": "Judi Dench",
+            "winner": false
+          },
+          {
+            "film_id": 4065,
+            "person": "Charlize Theron",
+            "winner": false
+          },
+          {
+            "film_id": 4059,
+            "person": "Rachel Weisz",
+            "winner": false
+          },
+          {
+            "film_id": 4161,
+            "person": "Ziyi Zhang",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4049,
+          4055,
+          4065,
+          4059,
+          4161
+        ],
+        "winners": [
+          4049
+        ],
+        "winner": 4049
+      },
+      {
+        "id": "supporting-actor",
+        "name": "Supporting Actor",
+        "entries": [
+          {
+            "film_id": 1726,
+            "person": "Jake Gyllenhaal",
+            "winner": true
+          },
+          {
+            "film_id": 4048,
+            "person": "Don Cheadle",
+            "winner": false
+          },
+          {
+            "film_id": 4047,
+            "person": "George Clooney",
+            "winner": false
+          },
+          {
+            "film_id": 4053,
+            "person": "George Clooney",
+            "winner": false
+          },
+          {
+            "film_id": 4048,
+            "person": "Matt Dillon",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          1726,
+          4048,
+          4047,
+          4053
+        ],
+        "winners": [
+          1726
+        ],
+        "winner": 1726
+      },
+      {
+        "id": "supporting-actress",
+        "name": "Supporting Actress",
+        "entries": [
+          {
+            "film_id": 4048,
+            "person": "Thandie Newton",
+            "winner": true
+          },
+          {
+            "film_id": 1726,
+            "person": "Michelle Williams",
+            "winner": false
+          },
+          {
+            "film_id": 4052,
+            "person": "Brenda Blethyn",
+            "winner": false
+          },
+          {
+            "film_id": 4045,
+            "person": "Catherine Keener",
+            "winner": false
+          },
+          {
+            "film_id": 4065,
+            "person": "Frances McDormand",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4048,
+          1726,
+          4052,
+          4045,
+          4065
+        ],
+        "winners": [
+          4048
+        ],
+        "winner": 4048
+      },
+      {
+        "id": "original-screenplay",
+        "name": "Original Screenplay",
+        "entries": [
+          {
+            "film_id": 4048,
+            "person": "Paul Haggis, Bobby Moresco",
+            "winner": true
+          },
+          {
+            "film_id": 4060,
+            "person": "Cliff Hollingsworth, Akiva Goldsman",
+            "winner": false
+          },
+          {
+            "film_id": 4047,
+            "person": "George Clooney, Grant Heslov",
+            "winner": false
+          },
+          {
+            "film_id": 4164,
+            "person": "Keir Pearson, Terry George",
+            "winner": false
+          },
+          {
+            "film_id": 4055,
+            "person": "Martin Sherman",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4048,
+          4060,
+          4047,
+          4164,
+          4055
+        ],
+        "winners": [
+          4048
+        ],
+        "winner": 4048
+      },
+      {
+        "id": "adapted-screenplay",
+        "name": "Adapted Screenplay",
+        "entries": [
+          {
+            "film_id": 1726,
+            "person": "Larry McMurtry, Diana Ossana",
+            "winner": true
+          },
+          {
+            "film_id": 4045,
+            "person": "Dan Futterman",
+            "winner": false
+          },
+          {
+            "film_id": 4059,
+            "person": "Jeffrey Caine",
+            "winner": false
+          },
+          {
+            "film_id": 4054,
+            "person": "Josh Olson",
+            "winner": false
+          },
+          {
+            "film_id": 4052,
+            "person": "Deborah Moggach",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          1726,
+          4045,
+          4059,
+          4054,
+          4052
+        ],
+        "winners": [
+          1726
+        ],
+        "winner": 1726
+      },
+      {
+        "id": "film-not-in-the-english-language",
+        "name": "Film Not in the English Language",
+        "entries": [
+          {
+            "film_id": 4162,
+            "person": "Pascal Caucheteux, Jacques Audiard",
+            "winner": true
+          },
+          {
+            "film_id": 4058,
+            "person": "Peter Fudakowski, Gavin Hood",
+            "winner": false
+          },
+          {
+            "film_id": 4169,
+            "person": "Humbert Balsan, Ismaël Ferroukhi",
+            "winner": false
+          },
+          {
+            "film_id": 4063,
+            "person": "Christophe Rossignon, Christian Carion",
+            "winner": false
+          },
+          {
+            "film_id": 4166,
+            "person": "Stephen Chow, Chui Po Chu, Jeff Lau",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4162,
+          4058,
+          4169,
+          4063,
+          4166
+        ],
+        "winners": [
+          4162
+        ],
+        "winner": 4162
+      }
+    ],
+    "films": [
+      {
+        "id": 1726,
+        "awards": [
+          "Best Film",
+          "Director",
+          "Supporting Actor",
+          "Adapted Screenplay"
+        ]
+      },
+      {
+        "id": 4045,
+        "awards": [
+          "Leading Actor"
+        ]
+      },
+      {
+        "id": 4059,
+        "awards": []
+      },
+      {
+        "id": 4048,
+        "awards": [
+          "Supporting Actress",
+          "Original Screenplay"
+        ]
+      },
+      {
+        "id": 4047,
+        "awards": []
+      },
+      {
+        "id": 4092,
+        "awards": [
+          "Outstanding British Film"
+        ]
+      },
+      {
+        "id": 4159,
+        "awards": []
+      },
+      {
+        "id": 4160,
+        "awards": []
+      },
+      {
+        "id": 4052,
+        "awards": []
+      },
+      {
+        "id": 4049,
+        "awards": [
+          "Leading Actress"
+        ]
+      },
+      {
+        "id": 4055,
+        "awards": []
+      },
+      {
+        "id": 4065,
+        "awards": []
+      },
+      {
+        "id": 4161,
+        "awards": []
+      },
+      {
+        "id": 4053,
+        "awards": []
+      },
+      {
+        "id": 4060,
+        "awards": []
+      },
+      {
+        "id": 4164,
+        "awards": []
+      },
+      {
+        "id": 4054,
+        "awards": []
+      },
+      {
+        "id": 4162,
+        "awards": [
+          "Film Not in the English Language"
+        ]
+      },
+      {
+        "id": 4058,
+        "awards": []
+      },
+      {
+        "id": 4169,
+        "awards": []
+      },
+      {
+        "id": 4063,
+        "awards": []
+      },
+      {
+        "id": 4166,
+        "awards": []
+      }
+    ]
+  },
+  {
+    "event": "BAFTA",
+    "year": 2007,
+    "section": "Major Film Categories",
+    "source": "https://www.bafta.org/awards/film/?award-year=2007",
+    "awardsSource": "https://www.bafta.org/awards/film/?award-year=2007",
+    "resultsUrl": "https://www.bafta.org/awards/film/?award-year=2007",
+    "categories": [
+      {
+        "id": "best-film",
+        "name": "Best Film",
+        "entries": [
+          {
+            "film_id": 4073,
+            "person": "Andy Harries, Christine Langan, Tracey Seaward",
+            "winner": true
+          },
+          {
+            "film_id": 768,
+            "person": "Alejandro González Iñárritu, Jon Kilik, Steve Golin",
+            "winner": false
+          },
+          {
+            "film_id": 758,
+            "person": "Brad Pitt, Brad Grey, Graham King",
+            "winner": false
+          },
+          {
+            "film_id": 4077,
+            "person": "Andrea Calderwood, Lisa Bryer, Charles Steel",
+            "winner": false
+          },
+          {
+            "film_id": 4072,
+            "person": "Albert Berger, David T Friendly, Ron Yerxa",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4073,
+          768,
+          758,
+          4077,
+          4072
+        ],
+        "winners": [
+          4073
+        ],
+        "winner": 4073
+      },
+      {
+        "id": "director",
+        "name": "Director",
+        "entries": [
+          {
+            "film_id": 4075,
+            "person": "Paul Greengrass",
+            "winner": true
+          },
+          {
+            "film_id": 768,
+            "person": "Alejandro González Iñárritu",
+            "winner": false
+          },
+          {
+            "film_id": 758,
+            "person": "Martin Scorsese",
+            "winner": false
+          },
+          {
+            "film_id": 4072,
+            "person": "Jonathan Dayton, Valerie Faris",
+            "winner": false
+          },
+          {
+            "film_id": 4073,
+            "person": "Stephen Frears",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4075,
+          768,
+          758,
+          4072,
+          4073
+        ],
+        "winners": [
+          4075
+        ],
+        "winner": 4075
+      },
+      {
+        "id": "outstanding-british-film",
+        "name": "Outstanding British Film",
+        "entries": [
+          {
+            "film_id": 4077,
+            "person": "Andrea Calderwood, Lisa Bryer, Charles Steel, Kevin Macdonald, Peter Morgan, Jeremy Brock",
+            "winner": true
+          },
+          {
+            "film_id": 4075,
+            "person": "Tim Bevan, Lloyd Levin, Paul Greengrass",
+            "winner": false
+          },
+          {
+            "film_id": 743,
+            "person": "Michael G Wilson, Barbara Broccoli, Martin Campbell, Neal Purvis, Robert Wade, Paul Haggis",
+            "winner": false
+          },
+          {
+            "film_id": 4078,
+            "person": "Scott Rudin, Robert Fox, Richard Eyre, Patrick Marber",
+            "winner": false
+          },
+          {
+            "film_id": 4073,
+            "person": "Andy Harries, Christine Langan, Tracey Seaward, Stephen Frears, Peter Morgan",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4077,
+          4075,
+          743,
+          4078,
+          4073
+        ],
+        "winners": [
+          4077
+        ],
+        "winner": 4077
+      },
+      {
+        "id": "leading-actor",
+        "name": "Leading Actor",
+        "entries": [
+          {
+            "film_id": 4077,
+            "person": "Forest Whitaker",
+            "winner": true
+          },
+          {
+            "film_id": 743,
+            "person": "Daniel Craig",
+            "winner": false
+          },
+          {
+            "film_id": 758,
+            "person": "Leonardo DiCaprio",
+            "winner": false
+          },
+          {
+            "film_id": 4167,
+            "person": "Richard Griffiths",
+            "winner": false
+          },
+          {
+            "film_id": 4086,
+            "person": "Peter O'Toole",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4077,
+          743,
+          758,
+          4167,
+          4086
+        ],
+        "winners": [
+          4077
+        ],
+        "winner": 4077
+      },
+      {
+        "id": "leading-actress",
+        "name": "Leading Actress",
+        "entries": [
+          {
+            "film_id": 4073,
+            "person": "Helen Mirren",
+            "winner": true
+          },
+          {
+            "film_id": 4076,
+            "person": "Penélope Cruz",
+            "winner": false
+          },
+          {
+            "film_id": 4078,
+            "person": "Judi Dench",
+            "winner": false
+          },
+          {
+            "film_id": 766,
+            "person": "Meryl Streep",
+            "winner": false
+          },
+          {
+            "film_id": 4079,
+            "person": "Kate Winslet",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4073,
+          4076,
+          4078,
+          766,
+          4079
+        ],
+        "winners": [
+          4073
+        ],
+        "winner": 4073
+      },
+      {
+        "id": "supporting-actor",
+        "name": "Supporting Actor",
+        "entries": [
+          {
+            "film_id": 4072,
+            "person": "Alan Arkin",
+            "winner": true
+          },
+          {
+            "film_id": 4073,
+            "person": "Michael Sheen",
+            "winner": false
+          },
+          {
+            "film_id": 4077,
+            "person": "James McAvoy",
+            "winner": false
+          },
+          {
+            "film_id": 758,
+            "person": "Jack Nicholson",
+            "winner": false
+          },
+          {
+            "film_id": 4086,
+            "person": "Leslie Phillips",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4072,
+          4073,
+          4077,
+          758,
+          4086
+        ],
+        "winners": [
+          4072
+        ],
+        "winner": 4072
+      },
+      {
+        "id": "supporting-actress",
+        "name": "Supporting Actress",
+        "entries": [
+          {
+            "film_id": 4080,
+            "person": "Jennifer Hudson",
+            "winner": true
+          },
+          {
+            "film_id": 766,
+            "person": "Emily Blunt",
+            "winner": false
+          },
+          {
+            "film_id": 4072,
+            "person": "Abigail Breslin",
+            "winner": false
+          },
+          {
+            "film_id": 4072,
+            "person": "Toni Collette",
+            "winner": false
+          },
+          {
+            "film_id": 4167,
+            "person": "Frances De La Tour",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4080,
+          766,
+          4072,
+          4167
+        ],
+        "winners": [
+          4080
+        ],
+        "winner": 4080
+      },
+      {
+        "id": "original-screenplay",
+        "name": "Original Screenplay",
+        "entries": [
+          {
+            "film_id": 4072,
+            "person": "Michael Arndt",
+            "winner": true
+          },
+          {
+            "film_id": 768,
+            "person": "Guillermo Arriaga",
+            "winner": false
+          },
+          {
+            "film_id": 4084,
+            "person": "Guillermo Del Toro",
+            "winner": false
+          },
+          {
+            "film_id": 4073,
+            "person": "Peter Morgan",
+            "winner": false
+          },
+          {
+            "film_id": 4075,
+            "person": "Paul Greengrass",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4072,
+          768,
+          4084,
+          4073,
+          4075
+        ],
+        "winners": [
+          4072
+        ],
+        "winner": 4072
+      },
+      {
+        "id": "adapted-screenplay",
+        "name": "Adapted Screenplay",
+        "entries": [
+          {
+            "film_id": 4077,
+            "person": "Peter Morgan, Jeremy Brock",
+            "winner": true
+          },
+          {
+            "film_id": 743,
+            "person": "Neal Purvis, Robert Wade, Paul Haggis",
+            "winner": false
+          },
+          {
+            "film_id": 758,
+            "person": "William Monahan",
+            "winner": false
+          },
+          {
+            "film_id": 766,
+            "person": "Aline Brosh McKenna",
+            "winner": false
+          },
+          {
+            "film_id": 4078,
+            "person": "Patrick Marber",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4077,
+          743,
+          758,
+          766,
+          4078
+        ],
+        "winners": [
+          4077
+        ],
+        "winner": 4077
+      },
+      {
+        "id": "film-not-in-the-english-language",
+        "name": "Film Not in the English Language",
+        "entries": [
+          {
+            "film_id": 4084,
+            "person": "Alfonso Cuarón, Alvaro Augustin, Guillermo Del Toro",
+            "winner": true
+          },
+          {
+            "film_id": 4168,
+            "person": "Mel Gibson, Bruce Davey",
+            "winner": false
+          },
+          {
+            "film_id": 748,
+            "person": "Ronnie Screwvala, Rakeysh Omprakash Mehra",
+            "winner": false
+          },
+          {
+            "film_id": 4076,
+            "person": "Agustín Almodóvar, Pedro Almodóvar",
+            "winner": false
+          },
+          {
+            "film_id": 1708,
+            "person": "Teun Hilte, San Fu Maltha, Jens Meurer, Paul Verhoeven",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4084,
+          4168,
+          748,
+          4076,
+          1708
+        ],
+        "winners": [
+          4084
+        ],
+        "winner": 4084
+      },
+      {
+        "id": "animated-film",
+        "name": "Animated Film",
+        "entries": [
+          {
+            "film_id": 750,
+            "person": "George Miller",
+            "winner": true
+          },
+          {
+            "film_id": 744,
+            "person": "John Lasseter",
+            "winner": false
+          },
+          {
+            "film_id": 737,
+            "person": "David Bowers, Sam Fell",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          750,
+          744,
+          737
+        ],
+        "winners": [
+          750
+        ],
+        "winner": 750
+      }
+    ],
+    "films": [
+      {
+        "id": 4073,
+        "awards": [
+          "Best Film",
+          "Leading Actress"
+        ]
+      },
+      {
+        "id": 768,
+        "awards": []
+      },
+      {
+        "id": 758,
+        "awards": []
+      },
+      {
+        "id": 4077,
+        "awards": [
+          "Outstanding British Film",
+          "Leading Actor",
+          "Adapted Screenplay"
+        ]
+      },
+      {
+        "id": 4072,
+        "awards": [
+          "Supporting Actor",
+          "Original Screenplay"
+        ]
+      },
+      {
+        "id": 4075,
+        "awards": [
+          "Director"
+        ]
+      },
+      {
+        "id": 743,
+        "awards": []
+      },
+      {
+        "id": 4078,
+        "awards": []
+      },
+      {
+        "id": 4167,
+        "awards": []
+      },
+      {
+        "id": 4086,
+        "awards": []
+      },
+      {
+        "id": 4076,
+        "awards": []
+      },
+      {
+        "id": 766,
+        "awards": []
+      },
+      {
+        "id": 4079,
+        "awards": []
+      },
+      {
+        "id": 4080,
+        "awards": [
+          "Supporting Actress"
+        ]
+      },
+      {
+        "id": 4084,
+        "awards": [
+          "Film Not in the English Language"
+        ]
+      },
+      {
+        "id": 4168,
+        "awards": []
+      },
+      {
+        "id": 748,
+        "awards": []
+      },
+      {
+        "id": 1708,
+        "awards": []
+      },
+      {
+        "id": 750,
+        "awards": [
+          "Animated Film"
+        ]
+      },
+      {
+        "id": 744,
+        "awards": []
+      },
+      {
+        "id": 737,
+        "awards": []
+      }
+    ]
+  },
+  {
+    "event": "BAFTA",
+    "year": 2008,
+    "section": "Major Film Categories",
+    "source": "https://www.bafta.org/awards/film/?award-year=2008",
+    "awardsSource": "https://www.bafta.org/awards/film/?award-year=2008",
+    "resultsUrl": "https://www.bafta.org/awards/film/?award-year=2008",
+    "categories": [
+      {
+        "id": "best-film",
+        "name": "Best Film",
+        "entries": [
+          {
+            "film_id": 4097,
+            "person": "Tim Bevan, Eric Fellner, Paul Webster",
+            "winner": true
+          },
+          {
+            "film_id": 1704,
+            "person": "Brian Grazer, Ridley Scott",
+            "winner": false
+          },
+          {
+            "film_id": 4085,
+            "person": "Quirin Berg, Max Wiedemann",
+            "winner": false
+          },
+          {
+            "film_id": 1697,
+            "person": "Scott Rudin, Joel Coen, Ethan Coen",
+            "winner": false
+          },
+          {
+            "film_id": 698,
+            "person": "JoAnne Sellar, Paul Thomas Anderson, Daniel Lupi",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4097,
+          1704,
+          4085,
+          1697,
+          698
+        ],
+        "winners": [
+          4097
+        ],
+        "winner": 4097
+      },
+      {
+        "id": "director",
+        "name": "Director",
+        "entries": [
+          {
+            "film_id": 1697,
+            "person": "Joel Coen, Ethan Coen",
+            "winner": true
+          },
+          {
+            "film_id": 4085,
+            "person": "Florian Henckel von Donnersmarck",
+            "winner": false
+          },
+          {
+            "film_id": 1694,
+            "person": "Paul Greengrass",
+            "winner": false
+          },
+          {
+            "film_id": 698,
+            "person": "Paul Thomas Anderson",
+            "winner": false
+          },
+          {
+            "film_id": 4097,
+            "person": "Joe Wright",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          1697,
+          4085,
+          1694,
+          698,
+          4097
+        ],
+        "winners": [
+          1697
+        ],
+        "winner": 1697
+      },
+      {
+        "id": "outstanding-british-film",
+        "name": "Outstanding British Film",
+        "entries": [
+          {
+            "film_id": 4170,
+            "person": "Mark Herbert, Shane Meadows",
+            "winner": true
+          },
+          {
+            "film_id": 4100,
+            "person": "Paul Webster, Robert Lantos, David Cronenberg, Steve Knight",
+            "winner": false
+          },
+          {
+            "film_id": 4097,
+            "person": "Tim Bevan, Eric Fellner, Paul Webster, Joe Wright, Christopher Hampton",
+            "winner": false
+          },
+          {
+            "film_id": 1694,
+            "person": "Frank Marshall, Patrick Crowley, Paul L Sandberg, Paul Greengrass, Tony Gilroy, Scott Z Burns, George Nolfi",
+            "winner": false
+          },
+          {
+            "film_id": 4174,
+            "person": "Orian Williams, Todd Eckert, Anton Corbijn, Matt Greenhalgh",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4170,
+          4100,
+          4097,
+          1694,
+          4174
+        ],
+        "winners": [
+          4170
+        ],
+        "winner": 4170
+      },
+      {
+        "id": "leading-actor",
+        "name": "Leading Actor",
+        "entries": [
+          {
+            "film_id": 698,
+            "person": "Daniel Day-Lewis",
+            "winner": true
+          },
+          {
+            "film_id": 4100,
+            "person": "Viggo Mortensen",
+            "winner": false
+          },
+          {
+            "film_id": 4085,
+            "person": "Ulrich Mühe",
+            "winner": false
+          },
+          {
+            "film_id": 4095,
+            "person": "George Clooney",
+            "winner": false
+          },
+          {
+            "film_id": 4097,
+            "person": "James McAvoy",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          698,
+          4100,
+          4085,
+          4095,
+          4097
+        ],
+        "winners": [
+          698
+        ],
+        "winner": 698
+      },
+      {
+        "id": "leading-actress",
+        "name": "Leading Actress",
+        "entries": [
+          {
+            "film_id": 722,
+            "person": "Marion Cotillard",
+            "winner": true
+          },
+          {
+            "film_id": 4105,
+            "person": "Cate Blanchett",
+            "winner": false
+          },
+          {
+            "film_id": 4101,
+            "person": "Julie Christie",
+            "winner": false
+          },
+          {
+            "film_id": 4097,
+            "person": "Keira Knightley",
+            "winner": false
+          },
+          {
+            "film_id": 1703,
+            "person": "Elliot Page",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          722,
+          4105,
+          4101,
+          4097,
+          1703
+        ],
+        "winners": [
+          722
+        ],
+        "winner": 722
+      },
+      {
+        "id": "supporting-actor",
+        "name": "Supporting Actor",
+        "entries": [
+          {
+            "film_id": 1697,
+            "person": "Javier Bardem",
+            "winner": true
+          },
+          {
+            "film_id": 698,
+            "person": "Paul Dano",
+            "winner": false
+          },
+          {
+            "film_id": 1697,
+            "person": "Tommy Lee Jones",
+            "winner": false
+          },
+          {
+            "film_id": 4112,
+            "person": "Philip Seymour Hoffman",
+            "winner": false
+          },
+          {
+            "film_id": 4095,
+            "person": "Tom Wilkinson",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          1697,
+          698,
+          4112,
+          4095
+        ],
+        "winners": [
+          1697
+        ],
+        "winner": 1697
+      },
+      {
+        "id": "supporting-actress",
+        "name": "Supporting Actress",
+        "entries": [
+          {
+            "film_id": 4095,
+            "person": "Tilda Swinton",
+            "winner": true
+          },
+          {
+            "film_id": 4104,
+            "person": "Cate Blanchett",
+            "winner": false
+          },
+          {
+            "film_id": 1697,
+            "person": "Kelly MacDonald",
+            "winner": false
+          },
+          {
+            "film_id": 4174,
+            "person": "Samantha Morton",
+            "winner": false
+          },
+          {
+            "film_id": 4097,
+            "person": "Saoirse Ronan",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4095,
+          4104,
+          1697,
+          4174,
+          4097
+        ],
+        "winners": [
+          4095
+        ],
+        "winner": 4095
+      },
+      {
+        "id": "original-screenplay",
+        "name": "Original Screenplay",
+        "entries": [
+          {
+            "film_id": 1703,
+            "person": "Diablo Cody",
+            "winner": true
+          },
+          {
+            "film_id": 1704,
+            "person": "Steven Zaillian",
+            "winner": false
+          },
+          {
+            "film_id": 4085,
+            "person": "Florian Henckel von Donnersmarck",
+            "winner": false
+          },
+          {
+            "film_id": 4095,
+            "person": "Tony Gilroy",
+            "winner": false
+          },
+          {
+            "film_id": 4170,
+            "person": "Shane Meadows",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          1703,
+          1704,
+          4085,
+          4095,
+          4170
+        ],
+        "winners": [
+          1703
+        ],
+        "winner": 1703
+      },
+      {
+        "id": "adapted-screenplay",
+        "name": "Adapted Screenplay",
+        "entries": [
+          {
+            "film_id": 4096,
+            "person": "Ronald Harwood",
+            "winner": true
+          },
+          {
+            "film_id": 4171,
+            "person": "David Benioff",
+            "winner": false
+          },
+          {
+            "film_id": 1697,
+            "person": "Joel Coen, Ethan Coen",
+            "winner": false
+          },
+          {
+            "film_id": 698,
+            "person": "Paul Thomas Anderson",
+            "winner": false
+          },
+          {
+            "film_id": 4097,
+            "person": "Christopher Hampton",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4096,
+          4171,
+          1697,
+          698,
+          4097
+        ],
+        "winners": [
+          4096
+        ],
+        "winner": 4096
+      },
+      {
+        "id": "film-not-in-the-english-language",
+        "name": "Film Not in the English Language",
+        "entries": [
+          {
+            "film_id": 4085,
+            "person": "Quirin Berg, Max Wiedemann, Florian Henckel von Donnersmarck",
+            "winner": true
+          },
+          {
+            "film_id": 4096,
+            "person": "Kathleen Kennedy, Jon Kilik, Julian Schnabel",
+            "winner": false
+          },
+          {
+            "film_id": 4171,
+            "person": "William Horberg, Walter Parkes, Rebecca Yeldham, Marc Forster",
+            "winner": false
+          },
+          {
+            "film_id": 4172,
+            "person": "Bill Kong, James Schamus, Ang Lee",
+            "winner": false
+          },
+          {
+            "film_id": 722,
+            "person": "Alain Goldman, Olivier Dahan",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4085,
+          4096,
+          4171,
+          4172,
+          722
+        ],
+        "winners": [
+          4085
+        ],
+        "winner": 4085
+      },
+      {
+        "id": "animated-film",
+        "name": "Animated Film",
+        "entries": [
+          {
+            "film_id": 1692,
+            "person": "Brad Bird",
+            "winner": true
+          },
+          {
+            "film_id": 4173,
+            "person": "Chris Miller",
+            "winner": false
+          },
+          {
+            "film_id": 713,
+            "person": "David Silverman",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          1692,
+          4173,
+          713
+        ],
+        "winners": [
+          1692
+        ],
+        "winner": 1692
+      }
+    ],
+    "films": [
+      {
+        "id": 4097,
+        "awards": [
+          "Best Film"
+        ]
+      },
+      {
+        "id": 1704,
+        "awards": []
+      },
+      {
+        "id": 4085,
+        "awards": [
+          "Film Not in the English Language"
+        ]
+      },
+      {
+        "id": 1697,
+        "awards": [
+          "Director",
+          "Supporting Actor"
+        ]
+      },
+      {
+        "id": 698,
+        "awards": [
+          "Leading Actor"
+        ]
+      },
+      {
+        "id": 1694,
+        "awards": []
+      },
+      {
+        "id": 4170,
+        "awards": [
+          "Outstanding British Film"
+        ]
+      },
+      {
+        "id": 4100,
+        "awards": []
+      },
+      {
+        "id": 4174,
+        "awards": []
+      },
+      {
+        "id": 4095,
+        "awards": [
+          "Supporting Actress"
+        ]
+      },
+      {
+        "id": 722,
+        "awards": [
+          "Leading Actress"
+        ]
+      },
+      {
+        "id": 4105,
+        "awards": []
+      },
+      {
+        "id": 4101,
+        "awards": []
+      },
+      {
+        "id": 1703,
+        "awards": [
+          "Original Screenplay"
+        ]
+      },
+      {
+        "id": 4112,
+        "awards": []
+      },
+      {
+        "id": 4104,
+        "awards": []
+      },
+      {
+        "id": 4096,
+        "awards": [
+          "Adapted Screenplay"
+        ]
+      },
+      {
+        "id": 4171,
+        "awards": []
+      },
+      {
+        "id": 4172,
+        "awards": []
+      },
+      {
+        "id": 1692,
+        "awards": [
+          "Animated Film"
+        ]
+      },
+      {
+        "id": 4173,
+        "awards": []
+      },
+      {
+        "id": 713,
+        "awards": []
+      }
+    ]
+  },
+  {
+    "event": "BAFTA",
+    "year": 2009,
+    "section": "Major Film Categories",
+    "source": "https://www.bafta.org/awards/film/?award-year=2009",
+    "awardsSource": "https://www.bafta.org/awards/film/?award-year=2009",
+    "resultsUrl": "https://www.bafta.org/awards/film/?award-year=2009",
+    "categories": [
+      {
+        "id": "best-film",
+        "name": "Best Film",
+        "entries": [
+          {
+            "film_id": 661,
+            "person": "Christian Colson",
+            "winner": true
+          },
+          {
+            "film_id": 4125,
+            "person": "Dan Jinks, Bruce Cohen",
+            "winner": false
+          },
+          {
+            "film_id": 4120,
+            "person": "Anthony Minghella, Sydney Pollack, Donna Gigliotti, Redmond Morris",
+            "winner": false
+          },
+          {
+            "film_id": 4118,
+            "person": "Kathleen Kennedy, Frank Marshall, Céan Chaffin",
+            "winner": false
+          },
+          {
+            "film_id": 4119,
+            "person": "Tim Bevan, Eric Fellner, Brian Grazer, Ron Howard",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          661,
+          4125,
+          4120,
+          4118,
+          4119
+        ],
+        "winners": [
+          661
+        ],
+        "winner": 661
+      },
+      {
+        "id": "director",
+        "name": "Director",
+        "entries": [
+          {
+            "film_id": 661,
+            "person": "Danny Boyle",
+            "winner": true
+          },
+          {
+            "film_id": 4120,
+            "person": "Stephen Daldry",
+            "winner": false
+          },
+          {
+            "film_id": 4132,
+            "person": "Clint Eastwood",
+            "winner": false
+          },
+          {
+            "film_id": 4118,
+            "person": "David Fincher",
+            "winner": false
+          },
+          {
+            "film_id": 4119,
+            "person": "Ron Howard",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          661,
+          4120,
+          4132,
+          4118,
+          4119
+        ],
+        "winners": [
+          661
+        ],
+        "winner": 661
+      },
+      {
+        "id": "outstanding-british-film",
+        "name": "Outstanding British Film",
+        "entries": [
+          {
+            "film_id": 4133,
+            "person": "Simon Chinn, James Marsh",
+            "winner": true
+          },
+          {
+            "film_id": 4300,
+            "person": "Laura Hastings-Smith, Robin Gutch, Steve McQueen, Enda Walsh",
+            "winner": false
+          },
+          {
+            "film_id": 706,
+            "person": "Graham Broadbent, Pete Czernin, Martin McDonagh",
+            "winner": false
+          },
+          {
+            "film_id": 4176,
+            "person": "Judy Craymer, Gary Goetzman, Phyllida Lloyd, Catherine Johnson",
+            "winner": false
+          },
+          {
+            "film_id": 661,
+            "person": "Christian Colson, Danny Boyle, Simon Beaufoy",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4133,
+          4300,
+          706,
+          4176,
+          661
+        ],
+        "winners": [
+          4133
+        ],
+        "winner": 4133
+      },
+      {
+        "id": "leading-actor",
+        "name": "Leading Actor",
+        "entries": [
+          {
+            "film_id": 659,
+            "person": "Mickey Rourke",
+            "winner": true
+          },
+          {
+            "film_id": 4119,
+            "person": "Frank Langella",
+            "winner": false
+          },
+          {
+            "film_id": 661,
+            "person": "Dev Patel",
+            "winner": false
+          },
+          {
+            "film_id": 4125,
+            "person": "Sean Penn",
+            "winner": false
+          },
+          {
+            "film_id": 4118,
+            "person": "Brad Pitt",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          659,
+          4119,
+          661,
+          4125,
+          4118
+        ],
+        "winners": [
+          659
+        ],
+        "winner": 659
+      },
+      {
+        "id": "leading-actress",
+        "name": "Leading Actress",
+        "entries": [
+          {
+            "film_id": 4120,
+            "person": "Kate Winslet",
+            "winner": true
+          },
+          {
+            "film_id": 4186,
+            "person": "Kristin Scott Thomas",
+            "winner": false
+          },
+          {
+            "film_id": 4127,
+            "person": "Meryl Streep",
+            "winner": false
+          },
+          {
+            "film_id": 672,
+            "person": "Kate Winslet",
+            "winner": false
+          },
+          {
+            "film_id": 4132,
+            "person": "Angelina Jolie",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4120,
+          4186,
+          4127,
+          672,
+          4132
+        ],
+        "winners": [
+          4120
+        ],
+        "winner": 4120
+      },
+      {
+        "id": "supporting-actor",
+        "name": "Supporting Actor",
+        "entries": [
+          {
+            "film_id": 674,
+            "person": "Heath Ledger",
+            "winner": true
+          },
+          {
+            "film_id": 4128,
+            "person": "Robert Downey Jr.",
+            "winner": false
+          },
+          {
+            "film_id": 706,
+            "person": "Brendan Gleeson",
+            "winner": false
+          },
+          {
+            "film_id": 4127,
+            "person": "Philip Seymour Hoffman",
+            "winner": false
+          },
+          {
+            "film_id": 1681,
+            "person": "Brad Pitt",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          674,
+          4128,
+          706,
+          4127,
+          1681
+        ],
+        "winners": [
+          674
+        ],
+        "winner": 674
+      },
+      {
+        "id": "supporting-actress",
+        "name": "Supporting Actress",
+        "entries": [
+          {
+            "film_id": 658,
+            "person": "Penélope Cruz",
+            "winner": true
+          },
+          {
+            "film_id": 661,
+            "person": "Freida Pinto",
+            "winner": false
+          },
+          {
+            "film_id": 1681,
+            "person": "Tilda Swinton",
+            "winner": false
+          },
+          {
+            "film_id": 659,
+            "person": "Marisa Tomei",
+            "winner": false
+          },
+          {
+            "film_id": 4127,
+            "person": "Amy Adams",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          658,
+          661,
+          1681,
+          659,
+          4127
+        ],
+        "winners": [
+          658
+        ],
+        "winner": 658
+      },
+      {
+        "id": "original-screenplay",
+        "name": "Original Screenplay",
+        "entries": [
+          {
+            "film_id": 706,
+            "person": "Martin McDonagh",
+            "winner": true
+          },
+          {
+            "film_id": 1681,
+            "person": "Joel Coen, Ethan Coen",
+            "winner": false
+          },
+          {
+            "film_id": 4132,
+            "person": "J Michael Straczynski",
+            "winner": false
+          },
+          {
+            "film_id": 4186,
+            "person": "Philippe Claudel",
+            "winner": false
+          },
+          {
+            "film_id": 4125,
+            "person": "Dustin Lance Black",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          706,
+          1681,
+          4132,
+          4186,
+          4125
+        ],
+        "winners": [
+          706
+        ],
+        "winner": 706
+      },
+      {
+        "id": "adapted-screenplay",
+        "name": "Adapted Screenplay",
+        "entries": [
+          {
+            "film_id": 661,
+            "person": "Simon Beaufoy",
+            "winner": true
+          },
+          {
+            "film_id": 4118,
+            "person": "Eric Roth",
+            "winner": false
+          },
+          {
+            "film_id": 4119,
+            "person": "Peter Morgan",
+            "winner": false
+          },
+          {
+            "film_id": 4120,
+            "person": "David Hare",
+            "winner": false
+          },
+          {
+            "film_id": 672,
+            "person": "Justin Haythe",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          661,
+          4118,
+          4119,
+          4120,
+          672
+        ],
+        "winners": [
+          661
+        ],
+        "winner": 661
+      },
+      {
+        "id": "film-not-in-the-english-language",
+        "name": "Film Not in the English Language",
+        "entries": [
+          {
+            "film_id": 4186,
+            "person": "Yves Marmion, Philippe Claudel",
+            "winner": true
+          },
+          {
+            "film_id": 4175,
+            "person": "Domenico Procacci, Matteo Garrone",
+            "winner": false
+          },
+          {
+            "film_id": 709,
+            "person": "Marc-Antoine Robert, Xavier Rigault, Marjane Satrapi, Vincent Paronnaud",
+            "winner": false
+          },
+          {
+            "film_id": 4135,
+            "person": "Serge Lalou, Gerhard Meixner, Yael Nahlieli, Ari Folman",
+            "winner": false
+          },
+          {
+            "film_id": 4130,
+            "person": "Bernd Eichinger, Uli Edel",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4186,
+          4175,
+          709,
+          4135,
+          4130
+        ],
+        "winners": [
+          4186
+        ],
+        "winner": 4186
+      },
+      {
+        "id": "animated-film",
+        "name": "Animated Film",
+        "entries": [
+          {
+            "film_id": 1685,
+            "person": "Andrew Stanton",
+            "winner": true
+          },
+          {
+            "film_id": 709,
+            "person": "Marjane Satrapi, Vincent Paronnaud",
+            "winner": false
+          },
+          {
+            "film_id": 4135,
+            "person": "Ari Folman",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          1685,
+          709,
+          4135
+        ],
+        "winners": [
+          1685
+        ],
+        "winner": 1685
+      }
+    ],
+    "films": [
+      {
+        "id": 661,
+        "awards": [
+          "Best Film",
+          "Director",
+          "Adapted Screenplay"
+        ]
+      },
+      {
+        "id": 4125,
+        "awards": []
+      },
+      {
+        "id": 4120,
+        "awards": [
+          "Leading Actress"
+        ]
+      },
+      {
+        "id": 4118,
+        "awards": []
+      },
+      {
+        "id": 4119,
+        "awards": []
+      },
+      {
+        "id": 4132,
+        "awards": []
+      },
+      {
+        "id": 4133,
+        "awards": [
+          "Outstanding British Film"
+        ]
+      },
+      {
+        "id": 4300,
+        "awards": []
+      },
+      {
+        "id": 706,
+        "awards": [
+          "Original Screenplay"
+        ]
+      },
+      {
+        "id": 4176,
+        "awards": []
+      },
+      {
+        "id": 659,
+        "awards": [
+          "Leading Actor"
+        ]
+      },
+      {
+        "id": 4186,
+        "awards": [
+          "Film Not in the English Language"
+        ]
+      },
+      {
+        "id": 4127,
+        "awards": []
+      },
+      {
+        "id": 672,
+        "awards": []
+      },
+      {
+        "id": 674,
+        "awards": [
+          "Supporting Actor"
+        ]
+      },
+      {
+        "id": 4128,
+        "awards": []
+      },
+      {
+        "id": 1681,
+        "awards": []
+      },
+      {
+        "id": 658,
+        "awards": [
+          "Supporting Actress"
+        ]
+      },
+      {
+        "id": 4175,
+        "awards": []
+      },
+      {
+        "id": 709,
+        "awards": []
+      },
+      {
+        "id": 4135,
+        "awards": []
+      },
+      {
+        "id": 4130,
+        "awards": []
+      },
+      {
+        "id": 1685,
+        "awards": [
+          "Animated Film"
+        ]
+      }
+    ]
+  },
+  {
+    "event": "BAFTA",
+    "year": 2010,
+    "section": "Major Film Categories",
+    "source": "https://www.bafta.org/awards/film/?award-year=2010",
+    "awardsSource": "https://www.bafta.org/awards/film/?award-year=2010",
+    "resultsUrl": "https://www.bafta.org/awards/film/?award-year=2010",
+    "categories": [
+      {
+        "id": "best-film",
+        "name": "Best Film",
+        "entries": [
+          {
+            "film_id": 4142,
+            "person": "Kathryn Bigelow, Mark Boal, Nicolas Chartier, Greg Shapiro",
+            "winner": true
+          },
+          {
+            "film_id": 1666,
+            "person": "James Cameron, Jon Landau",
+            "winner": false
+          },
+          {
+            "film_id": 4147,
+            "person": "Finola Dwyer, Amanda Posey",
+            "winner": false
+          },
+          {
+            "film_id": 4144,
+            "person": "Lee Daniels, Sarah Siegel-Magness, Gary Magness",
+            "winner": false
+          },
+          {
+            "film_id": 1670,
+            "person": "Ivan Reitman, Jason Reitman, Daniel Dubiecki",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4142,
+          1666,
+          4147,
+          4144,
+          1670
+        ],
+        "winners": [
+          4142
+        ],
+        "winner": 4142
+      },
+      {
+        "id": "director",
+        "name": "Director",
+        "entries": [
+          {
+            "film_id": 4142,
+            "person": "Kathryn Bigelow",
+            "winner": true
+          },
+          {
+            "film_id": 4143,
+            "person": "Neill Blomkamp",
+            "winner": false
+          },
+          {
+            "film_id": 1666,
+            "person": "James Cameron",
+            "winner": false
+          },
+          {
+            "film_id": 4147,
+            "person": "Lone Scherfig",
+            "winner": false
+          },
+          {
+            "film_id": 641,
+            "person": "Quentin Tarantino",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4142,
+          4143,
+          1666,
+          4147,
+          641
+        ],
+        "winners": [
+          4142
+        ],
+        "winner": 4142
+      },
+      {
+        "id": "outstanding-british-film",
+        "name": "Outstanding British Film",
+        "entries": [
+          {
+            "film_id": 4177,
+            "person": "Kees Kasander, Nick Laws, Andrea Arnold",
+            "winner": true
+          },
+          {
+            "film_id": 4147,
+            "person": "Finola Dwyer, Amanda Posey, Lone Scherfig, Nick Hornby",
+            "winner": false
+          },
+          {
+            "film_id": 4163,
+            "person": "Kevin Loader, Adam Tandy, Armando Iannucci, Jesse Armstrong, Simon Blackwell, Tony Roche",
+            "winner": false
+          },
+          {
+            "film_id": 4179,
+            "person": "Stuart Fenegan, Trudie Styler, Duncan Jones, Nathan Parker",
+            "winner": false
+          },
+          {
+            "film_id": 4178,
+            "person": "Robert Bernstein, Douglas Rae, Kevin Loader, Sam Taylor-Wood, Matt Greenhalgh",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4177,
+          4147,
+          4163,
+          4179,
+          4178
+        ],
+        "winners": [
+          4177
+        ],
+        "winner": 4177
+      },
+      {
+        "id": "leading-actor",
+        "name": "Leading Actor",
+        "entries": [
+          {
+            "film_id": 4146,
+            "person": "Colin Firth",
+            "winner": true
+          },
+          {
+            "film_id": 4145,
+            "person": "Jeff Bridges",
+            "winner": false
+          },
+          {
+            "film_id": 1670,
+            "person": "George Clooney",
+            "winner": false
+          },
+          {
+            "film_id": 4142,
+            "person": "Jeremy Renner",
+            "winner": false
+          },
+          {
+            "film_id": 4180,
+            "person": "Andy Serkis",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4146,
+          4145,
+          1670,
+          4142,
+          4180
+        ],
+        "winners": [
+          4146
+        ],
+        "winner": 4146
+      },
+      {
+        "id": "leading-actress",
+        "name": "Leading Actress",
+        "entries": [
+          {
+            "film_id": 4147,
+            "person": "Carey Mulligan",
+            "winner": true
+          },
+          {
+            "film_id": 4182,
+            "person": "Audrey Tautou",
+            "winner": false
+          },
+          {
+            "film_id": 4148,
+            "person": "Saoirse Ronan",
+            "winner": false
+          },
+          {
+            "film_id": 4144,
+            "person": "Gabourey Sidibe",
+            "winner": false
+          },
+          {
+            "film_id": 646,
+            "person": "Meryl Streep",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4147,
+          4182,
+          4148,
+          4144,
+          646
+        ],
+        "winners": [
+          4147
+        ],
+        "winner": 4147
+      },
+      {
+        "id": "supporting-actor",
+        "name": "Supporting Actor",
+        "entries": [
+          {
+            "film_id": 641,
+            "person": "Christoph Waltz",
+            "winner": true
+          },
+          {
+            "film_id": 4181,
+            "person": "Alec Baldwin",
+            "winner": false
+          },
+          {
+            "film_id": 4185,
+            "person": "Christian McKay",
+            "winner": false
+          },
+          {
+            "film_id": 4147,
+            "person": "Alfred Molina",
+            "winner": false
+          },
+          {
+            "film_id": 4148,
+            "person": "Stanley Tucci",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          641,
+          4181,
+          4185,
+          4147,
+          4148
+        ],
+        "winners": [
+          641
+        ],
+        "winner": 641
+      },
+      {
+        "id": "supporting-actress",
+        "name": "Supporting Actress",
+        "entries": [
+          {
+            "film_id": 4144,
+            "person": "Mo'Nique",
+            "winner": true
+          },
+          {
+            "film_id": 1670,
+            "person": "Vera Farmiga",
+            "winner": false
+          },
+          {
+            "film_id": 1670,
+            "person": "Anna Kendrick",
+            "winner": false
+          },
+          {
+            "film_id": 4178,
+            "person": "Kristin Scott Thomas",
+            "winner": false
+          },
+          {
+            "film_id": 4178,
+            "person": "Anne-Marie Duff",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4144,
+          1670,
+          4178
+        ],
+        "winners": [
+          4144
+        ],
+        "winner": 4144
+      },
+      {
+        "id": "original-screenplay",
+        "name": "Original Screenplay",
+        "entries": [
+          {
+            "film_id": 4142,
+            "person": "Mark Boal",
+            "winner": true
+          },
+          {
+            "film_id": 1662,
+            "person": "Bob Peterson, Pete Docter",
+            "winner": false
+          },
+          {
+            "film_id": 642,
+            "person": "Jon Lucas, Scott Moore",
+            "winner": false
+          },
+          {
+            "film_id": 641,
+            "person": "Quentin Tarantino",
+            "winner": false
+          },
+          {
+            "film_id": 1665,
+            "person": "Joel Coen, Ethan Coen",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4142,
+          1662,
+          642,
+          641,
+          1665
+        ],
+        "winners": [
+          4142
+        ],
+        "winner": 4142
+      },
+      {
+        "id": "adapted-screenplay",
+        "name": "Adapted Screenplay",
+        "entries": [
+          {
+            "film_id": 1670,
+            "person": "Jason Reitman, Sheldon Turner",
+            "winner": true
+          },
+          {
+            "film_id": 4143,
+            "person": "Neill Blomkamp, Terri Tatchell",
+            "winner": false
+          },
+          {
+            "film_id": 4147,
+            "person": "Nick Hornby",
+            "winner": false
+          },
+          {
+            "film_id": 4163,
+            "person": "Jesse Armstrong, Simon Blackwell, Armando Iannucci, Tony Roche",
+            "winner": false
+          },
+          {
+            "film_id": 4144,
+            "person": "Geoffrey Fletcher",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          1670,
+          4143,
+          4147,
+          4163,
+          4144
+        ],
+        "winners": [
+          1670
+        ],
+        "winner": 1670
+      },
+      {
+        "id": "film-not-in-the-english-language",
+        "name": "Film Not in the English Language",
+        "entries": [
+          {
+            "film_id": 4154,
+            "person": "Pascal Caucheteux, Marco Cherqui, Alix Raynaud, Jacques Audiard",
+            "winner": true
+          },
+          {
+            "film_id": 1673,
+            "person": "Stefan Arndt, Veit Heiduschka, Margaret Menegoz, Michael Haneke",
+            "winner": false
+          },
+          {
+            "film_id": 4184,
+            "person": "Agustín Almodóvar, Pedro Almodóvar",
+            "winner": false
+          },
+          {
+            "film_id": 4182,
+            "person": "Carole Scotta, Caroline Benjo, Philippe Carcassonne, Anne Fontaine",
+            "winner": false
+          },
+          {
+            "film_id": 4183,
+            "person": "Carl Molinder, John Nordling, Tomas Alfredson",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4154,
+          1673,
+          4184,
+          4182,
+          4183
+        ],
+        "winners": [
+          4154
+        ],
+        "winner": 4154
+      },
+      {
+        "id": "animated-film",
+        "name": "Animated Film",
+        "entries": [
+          {
+            "film_id": 1662,
+            "person": "Pete Docter",
+            "winner": true
+          },
+          {
+            "film_id": 4157,
+            "person": "Henry Selick",
+            "winner": false
+          },
+          {
+            "film_id": 620,
+            "person": "Wes Anderson",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          1662,
+          4157,
+          620
+        ],
+        "winners": [
+          1662
+        ],
+        "winner": 1662
+      }
+    ],
+    "films": [
+      {
+        "id": 4142,
+        "awards": [
+          "Best Film",
+          "Director",
+          "Original Screenplay"
+        ]
+      },
+      {
+        "id": 1666,
+        "awards": []
+      },
+      {
+        "id": 4147,
+        "awards": [
+          "Leading Actress"
+        ]
+      },
+      {
+        "id": 4144,
+        "awards": [
+          "Supporting Actress"
+        ]
+      },
+      {
+        "id": 1670,
+        "awards": [
+          "Adapted Screenplay"
+        ]
+      },
+      {
+        "id": 4143,
+        "awards": []
+      },
+      {
+        "id": 641,
+        "awards": [
+          "Supporting Actor"
+        ]
+      },
+      {
+        "id": 4177,
+        "awards": [
+          "Outstanding British Film"
+        ]
+      },
+      {
+        "id": 4163,
+        "awards": []
+      },
+      {
+        "id": 4179,
+        "awards": []
+      },
+      {
+        "id": 4178,
+        "awards": []
+      },
+      {
+        "id": 4146,
+        "awards": [
+          "Leading Actor"
+        ]
+      },
+      {
+        "id": 4145,
+        "awards": []
+      },
+      {
+        "id": 4180,
+        "awards": []
+      },
+      {
+        "id": 4182,
+        "awards": []
+      },
+      {
+        "id": 4148,
+        "awards": []
+      },
+      {
+        "id": 646,
+        "awards": []
+      },
+      {
+        "id": 4181,
+        "awards": []
+      },
+      {
+        "id": 4185,
+        "awards": []
+      },
+      {
+        "id": 1662,
+        "awards": [
+          "Animated Film"
+        ]
+      },
+      {
+        "id": 642,
+        "awards": []
+      },
+      {
+        "id": 1665,
+        "awards": []
+      },
+      {
+        "id": 4154,
+        "awards": [
+          "Film Not in the English Language"
+        ]
+      },
+      {
+        "id": 1673,
+        "awards": []
+      },
+      {
+        "id": 4184,
+        "awards": []
+      },
+      {
+        "id": 4183,
+        "awards": []
+      },
+      {
+        "id": 4157,
+        "awards": []
+      },
+      {
+        "id": 620,
+        "awards": []
+      }
+    ]
+  },
+  {
+    "event": "Golden Globes",
+    "year": 2006,
+    "section": "Major Film Categories",
+    "source": "https://goldenglobes.com/winners-nominees/?year=2006",
+    "awardsSource": "https://goldenglobes.com/winners-nominees/?year=2006",
+    "resultsUrl": "https://goldenglobes.com/winners-nominees/?year=2006",
+    "note": "The Animated Feature category began in 2007 and was not awarded in this edition.",
+    "categories": [
+      {
+        "id": "best-motion-picture-drama",
+        "name": "Best Motion Picture - Drama",
+        "entries": [
+          {
+            "film_id": 1726,
+            "person": "",
+            "winner": true
+          },
+          {
+            "film_id": 4059,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 4047,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 4054,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 775,
+            "person": "",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          1726,
+          4059,
+          4047,
+          4054,
+          775
+        ],
+        "winners": [
+          1726
+        ],
+        "winner": 1726
+      },
+      {
+        "id": "best-motion-picture-musical-or-comedy",
+        "name": "Best Motion Picture - Musical or Comedy",
+        "entries": [
+          {
+            "film_id": 4055,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 4052,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 4187,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 4057,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 4049,
+            "person": "",
+            "winner": true
+          }
+        ],
+        "nominees": [
+          4055,
+          4052,
+          4187,
+          4057,
+          4049
+        ],
+        "winners": [
+          4049
+        ],
+        "winner": 4049
+      },
+      {
+        "id": "best-motion-picture-non-english-language",
+        "name": "Best Motion Picture – Non-English Language",
+        "entries": [
+          {
+            "film_id": 4058,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 4166,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 4192,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 4063,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 4062,
+            "person": "",
+            "winner": true
+          }
+        ],
+        "nominees": [
+          4058,
+          4166,
+          4192,
+          4063,
+          4062
+        ],
+        "winners": [
+          4062
+        ],
+        "winner": 4062
+      },
+      {
+        "id": "best-performance-by-a-female-actor-in-a-motion-picture-drama",
+        "name": "Best Performance by a Female Actor in a Motion Picture – Drama",
+        "entries": [
+          {
+            "film_id": 4054,
+            "person": "Maria Bello",
+            "winner": false
+          },
+          {
+            "film_id": 4051,
+            "person": "Felicity Huffman",
+            "winner": true
+          },
+          {
+            "film_id": 4188,
+            "person": "Gwyneth Paltrow",
+            "winner": false
+          },
+          {
+            "film_id": 4065,
+            "person": "Charlize Theron",
+            "winner": false
+          },
+          {
+            "film_id": 4161,
+            "person": "Ziyi Zhang",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4054,
+          4051,
+          4188,
+          4065,
+          4161
+        ],
+        "winners": [
+          4051
+        ],
+        "winner": 4051
+      },
+      {
+        "id": "best-performance-by-a-male-actor-in-a-motion-picture-drama",
+        "name": "Best Performance by a Male Actor in a Motion Picture – Drama",
+        "entries": [
+          {
+            "film_id": 4060,
+            "person": "Russell Crowe",
+            "winner": false
+          },
+          {
+            "film_id": 4045,
+            "person": "Philip Seymour Hoffman",
+            "winner": true
+          },
+          {
+            "film_id": 4050,
+            "person": "Terrence Howard",
+            "winner": false
+          },
+          {
+            "film_id": 1726,
+            "person": "Heath Ledger",
+            "winner": false
+          },
+          {
+            "film_id": 4047,
+            "person": "David Strathairn",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4060,
+          4045,
+          4050,
+          1726,
+          4047
+        ],
+        "winners": [
+          4045
+        ],
+        "winner": 4045
+      },
+      {
+        "id": "best-performance-by-a-female-actor-in-a-motion-picture-musical-or-comedy",
+        "name": "Best Performance by a Female Actor in a Motion Picture – Musical or Comedy",
+        "entries": [
+          {
+            "film_id": 4055,
+            "person": "Judi Dench",
+            "winner": false
+          },
+          {
+            "film_id": 4052,
+            "person": "Keira Knightley",
+            "winner": false
+          },
+          {
+            "film_id": 4057,
+            "person": "Laura Linney",
+            "winner": false
+          },
+          {
+            "film_id": 4191,
+            "person": "Sarah Jessica Parker",
+            "winner": false
+          },
+          {
+            "film_id": 4049,
+            "person": "Reese Witherspoon",
+            "winner": true
+          }
+        ],
+        "nominees": [
+          4055,
+          4052,
+          4057,
+          4191,
+          4049
+        ],
+        "winners": [
+          4049
+        ],
+        "winner": 4049
+      },
+      {
+        "id": "best-performance-by-a-male-actor-in-a-motion-picture-musical-or-comedy",
+        "name": "Best Performance by a Male Actor in a Motion Picture – Musical or Comedy",
+        "entries": [
+          {
+            "film_id": 4189,
+            "person": "Pierce Brosnan",
+            "winner": false
+          },
+          {
+            "film_id": 4057,
+            "person": "Jeff Daniels",
+            "winner": false
+          },
+          {
+            "film_id": 778,
+            "person": "Johnny Depp",
+            "winner": false
+          },
+          {
+            "film_id": 4187,
+            "person": "Nathan Lane",
+            "winner": false
+          },
+          {
+            "film_id": 4204,
+            "person": "Cillian Murphy",
+            "winner": false
+          },
+          {
+            "film_id": 4049,
+            "person": "Joaquin Phoenix",
+            "winner": true
+          }
+        ],
+        "nominees": [
+          4189,
+          4057,
+          778,
+          4187,
+          4204,
+          4049
+        ],
+        "winners": [
+          4049
+        ],
+        "winner": 4049
+      },
+      {
+        "id": "best-performance-by-a-female-actor-in-a-supporting-role-in-any-motion-picture",
+        "name": "Best Performance by a Female Actor in a Supporting Role in any Motion Picture",
+        "entries": [
+          {
+            "film_id": 775,
+            "person": "Scarlett Johansson",
+            "winner": false
+          },
+          {
+            "film_id": 4190,
+            "person": "Shirley MacLaine",
+            "winner": false
+          },
+          {
+            "film_id": 4065,
+            "person": "Frances McDormand",
+            "winner": false
+          },
+          {
+            "film_id": 4059,
+            "person": "Rachel Weisz",
+            "winner": true
+          },
+          {
+            "film_id": 1726,
+            "person": "Michelle Williams",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          775,
+          4190,
+          4065,
+          4059,
+          1726
+        ],
+        "winners": [
+          4059
+        ],
+        "winner": 4059
+      },
+      {
+        "id": "best-performance-by-a-male-actor-in-a-supporting-role-in-any-motion-picture",
+        "name": "Best Performance by a Male Actor in a Supporting Role in any Motion Picture",
+        "entries": [
+          {
+            "film_id": 4055,
+            "person": "Bob Hoskins",
+            "winner": false
+          },
+          {
+            "film_id": 4053,
+            "person": "George Clooney",
+            "winner": true
+          },
+          {
+            "film_id": 4048,
+            "person": "Matt Dillon",
+            "winner": false
+          },
+          {
+            "film_id": 4187,
+            "person": "Will Ferrell",
+            "winner": false
+          },
+          {
+            "film_id": 4060,
+            "person": "Paul Giamatti",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4055,
+          4053,
+          4048,
+          4187,
+          4060
+        ],
+        "winners": [
+          4053
+        ],
+        "winner": 4053
+      },
+      {
+        "id": "best-director-motion-picture",
+        "name": "Best Director - Motion Picture",
+        "entries": [
+          {
+            "film_id": 4193,
+            "person": "Peter Jackson",
+            "winner": false
+          },
+          {
+            "film_id": 775,
+            "person": "Woody Allen",
+            "winner": false
+          },
+          {
+            "film_id": 4047,
+            "person": "George Clooney",
+            "winner": false
+          },
+          {
+            "film_id": 1726,
+            "person": "Ang Lee",
+            "winner": true
+          },
+          {
+            "film_id": 4059,
+            "person": "Fernando Meirelles",
+            "winner": false
+          },
+          {
+            "film_id": 4046,
+            "person": "Steven Spielberg",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4193,
+          775,
+          4047,
+          1726,
+          4059,
+          4046
+        ],
+        "winners": [
+          1726
+        ],
+        "winner": 1726
+      },
+      {
+        "id": "best-screenplay-motion-picture",
+        "name": "Best Screenplay - Motion Picture",
+        "entries": [
+          {
+            "film_id": 1726,
+            "person": "Larry McMurtry, Diana Ossana",
+            "winner": true
+          },
+          {
+            "film_id": 775,
+            "person": "Woody Allen",
+            "winner": false
+          },
+          {
+            "film_id": 4047,
+            "person": "George Clooney, Grant Heslov",
+            "winner": false
+          },
+          {
+            "film_id": 4048,
+            "person": "Paul Haggis, Bobby Moresco",
+            "winner": false
+          },
+          {
+            "film_id": 4046,
+            "person": "Tony Kushner, Eric Roth",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          1726,
+          775,
+          4047,
+          4048,
+          4046
+        ],
+        "winners": [
+          1726
+        ],
+        "winner": 1726
+      }
+    ],
+    "films": [
+      {
+        "id": 1726,
+        "awards": [
+          "Best Motion Picture - Drama",
+          "Best Director - Motion Picture",
+          "Best Screenplay - Motion Picture"
+        ]
+      },
+      {
+        "id": 4059,
+        "awards": [
+          "Best Performance by a Female Actor in a Supporting Role in any Motion Picture"
+        ]
+      },
+      {
+        "id": 4047,
+        "awards": []
+      },
+      {
+        "id": 4054,
+        "awards": []
+      },
+      {
+        "id": 775,
+        "awards": []
+      },
+      {
+        "id": 4055,
+        "awards": []
+      },
+      {
+        "id": 4052,
+        "awards": []
+      },
+      {
+        "id": 4187,
+        "awards": []
+      },
+      {
+        "id": 4057,
+        "awards": []
+      },
+      {
+        "id": 4049,
+        "awards": [
+          "Best Motion Picture - Musical or Comedy",
+          "Best Performance by a Female Actor in a Motion Picture – Musical or Comedy",
+          "Best Performance by a Male Actor in a Motion Picture – Musical or Comedy"
+        ]
+      },
+      {
+        "id": 4058,
+        "awards": []
+      },
+      {
+        "id": 4166,
+        "awards": []
+      },
+      {
+        "id": 4192,
+        "awards": []
+      },
+      {
+        "id": 4063,
+        "awards": []
+      },
+      {
+        "id": 4062,
+        "awards": [
+          "Best Motion Picture – Non-English Language"
+        ]
+      },
+      {
+        "id": 4051,
+        "awards": [
+          "Best Performance by a Female Actor in a Motion Picture – Drama"
+        ]
+      },
+      {
+        "id": 4188,
+        "awards": []
+      },
+      {
+        "id": 4065,
+        "awards": []
+      },
+      {
+        "id": 4161,
+        "awards": []
+      },
+      {
+        "id": 4060,
+        "awards": []
+      },
+      {
+        "id": 4045,
+        "awards": [
+          "Best Performance by a Male Actor in a Motion Picture – Drama"
+        ]
+      },
+      {
+        "id": 4050,
+        "awards": []
+      },
+      {
+        "id": 4191,
+        "awards": []
+      },
+      {
+        "id": 4189,
+        "awards": []
+      },
+      {
+        "id": 778,
+        "awards": []
+      },
+      {
+        "id": 4204,
+        "awards": []
+      },
+      {
+        "id": 4190,
+        "awards": []
+      },
+      {
+        "id": 4053,
+        "awards": [
+          "Best Performance by a Male Actor in a Supporting Role in any Motion Picture"
+        ]
+      },
+      {
+        "id": 4048,
+        "awards": []
+      },
+      {
+        "id": 4193,
+        "awards": []
+      },
+      {
+        "id": 4046,
+        "awards": []
+      }
+    ]
+  },
+  {
+    "event": "Golden Globes",
+    "year": 2007,
+    "section": "Major Film Categories",
+    "source": "https://goldenglobes.com/winners-nominees/?year=2007",
+    "awardsSource": "https://goldenglobes.com/winners-nominees/?year=2007",
+    "resultsUrl": "https://goldenglobes.com/winners-nominees/?year=2007",
+    "categories": [
+      {
+        "id": "best-motion-picture-drama",
+        "name": "Best Motion Picture - Drama",
+        "entries": [
+          {
+            "film_id": 768,
+            "person": "",
+            "winner": true
+          },
+          {
+            "film_id": 4194,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 758,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 4079,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 4073,
+            "person": "",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          768,
+          4194,
+          758,
+          4079,
+          4073
+        ],
+        "winners": [
+          768
+        ],
+        "winner": 768
+      },
+      {
+        "id": "best-motion-picture-musical-or-comedy",
+        "name": "Best Motion Picture - Musical or Comedy",
+        "entries": [
+          {
+            "film_id": 4082,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 766,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 4080,
+            "person": "",
+            "winner": true
+          },
+          {
+            "film_id": 4072,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 1732,
+            "person": "",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4082,
+          766,
+          4080,
+          4072,
+          1732
+        ],
+        "winners": [
+          4080
+        ],
+        "winner": 4080
+      },
+      {
+        "id": "best-motion-picture-animated",
+        "name": "Best Motion Picture - Animated",
+        "entries": [
+          {
+            "film_id": 744,
+            "person": "",
+            "winner": true
+          },
+          {
+            "film_id": 750,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 4094,
+            "person": "",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          744,
+          750,
+          4094
+        ],
+        "winners": [
+          744
+        ],
+        "winner": 744
+      },
+      {
+        "id": "best-motion-picture-non-english-language",
+        "name": "Best Motion Picture – Non-English Language",
+        "entries": [
+          {
+            "film_id": 4168,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 1710,
+            "person": "",
+            "winner": true
+          },
+          {
+            "film_id": 4085,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 4084,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 4076,
+            "person": "",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4168,
+          1710,
+          4085,
+          4084,
+          4076
+        ],
+        "winners": [
+          1710
+        ],
+        "winner": 1710
+      },
+      {
+        "id": "best-performance-by-a-female-actor-in-a-motion-picture-drama",
+        "name": "Best Performance by a Female Actor in a Motion Picture – Drama",
+        "entries": [
+          {
+            "film_id": 4076,
+            "person": "Penélope Cruz",
+            "winner": false
+          },
+          {
+            "film_id": 4078,
+            "person": "Judi Dench",
+            "winner": false
+          },
+          {
+            "film_id": 4195,
+            "person": "Maggie Gyllenhaal",
+            "winner": false
+          },
+          {
+            "film_id": 4073,
+            "person": "Helen Mirren",
+            "winner": true
+          },
+          {
+            "film_id": 4079,
+            "person": "Kate Winslet",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4076,
+          4078,
+          4195,
+          4073,
+          4079
+        ],
+        "winners": [
+          4073
+        ],
+        "winner": 4073
+      },
+      {
+        "id": "best-performance-by-a-male-actor-in-a-motion-picture-drama",
+        "name": "Best Performance by a Male Actor in a Motion Picture – Drama",
+        "entries": [
+          {
+            "film_id": 751,
+            "person": "Will Smith",
+            "winner": false
+          },
+          {
+            "film_id": 4077,
+            "person": "Forest Whitaker",
+            "winner": true
+          },
+          {
+            "film_id": 4081,
+            "person": "Leonardo DiCaprio",
+            "winner": false
+          },
+          {
+            "film_id": 758,
+            "person": "Leonardo DiCaprio",
+            "winner": false
+          },
+          {
+            "film_id": 4086,
+            "person": "Peter O’Toole",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          751,
+          4077,
+          4081,
+          758,
+          4086
+        ],
+        "winners": [
+          4077
+        ],
+        "winner": 4077
+      },
+      {
+        "id": "best-performance-by-a-female-actor-in-a-motion-picture-musical-or-comedy",
+        "name": "Best Performance by a Female Actor in a Motion Picture – Musical or Comedy",
+        "entries": [
+          {
+            "film_id": 4197,
+            "person": "Annette Bening",
+            "winner": false
+          },
+          {
+            "film_id": 4072,
+            "person": "Toni Collette",
+            "winner": false
+          },
+          {
+            "film_id": 4080,
+            "person": "Beyoncé Knowles",
+            "winner": false
+          },
+          {
+            "film_id": 766,
+            "person": "Meryl Streep",
+            "winner": true
+          },
+          {
+            "film_id": 4196,
+            "person": "Renée Zellweger",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4197,
+          4072,
+          4080,
+          766,
+          4196
+        ],
+        "winners": [
+          766
+        ],
+        "winner": 766
+      },
+      {
+        "id": "best-performance-by-a-male-actor-in-a-motion-picture-musical-or-comedy",
+        "name": "Best Performance by a Male Actor in a Motion Picture – Musical or Comedy",
+        "entries": [
+          {
+            "film_id": 4201,
+            "person": "Chiwetel Ejiofor",
+            "winner": false
+          },
+          {
+            "film_id": 4199,
+            "person": "Will Ferrell",
+            "winner": false
+          },
+          {
+            "film_id": 4082,
+            "person": "Sacha Baron Cohen",
+            "winner": true
+          },
+          {
+            "film_id": 739,
+            "person": "Johnny Depp",
+            "winner": false
+          },
+          {
+            "film_id": 1732,
+            "person": "Aaron Eckhart",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4201,
+          4199,
+          4082,
+          739,
+          1732
+        ],
+        "winners": [
+          4082
+        ],
+        "winner": 4082
+      },
+      {
+        "id": "best-performance-by-a-female-actor-in-a-supporting-role-in-any-motion-picture",
+        "name": "Best Performance by a Female Actor in a Supporting Role in any Motion Picture",
+        "entries": [
+          {
+            "film_id": 4080,
+            "person": "Jennifer Hudson",
+            "winner": true
+          },
+          {
+            "film_id": 768,
+            "person": "Rinko Kikuchi",
+            "winner": false
+          },
+          {
+            "film_id": 768,
+            "person": "Adriana Barraza",
+            "winner": false
+          },
+          {
+            "film_id": 4078,
+            "person": "Cate Blanchett",
+            "winner": false
+          },
+          {
+            "film_id": 766,
+            "person": "Emily Blunt",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4080,
+          768,
+          4078,
+          766
+        ],
+        "winners": [
+          4080
+        ],
+        "winner": 4080
+      },
+      {
+        "id": "best-performance-by-a-male-actor-in-a-supporting-role-in-any-motion-picture",
+        "name": "Best Performance by a Male Actor in a Supporting Role in any Motion Picture",
+        "entries": [
+          {
+            "film_id": 4198,
+            "person": "Ben Affleck",
+            "winner": false
+          },
+          {
+            "film_id": 4080,
+            "person": "Eddie Murphy",
+            "winner": true
+          },
+          {
+            "film_id": 758,
+            "person": "Jack Nicholson",
+            "winner": false
+          },
+          {
+            "film_id": 768,
+            "person": "Brad Pitt",
+            "winner": false
+          },
+          {
+            "film_id": 758,
+            "person": "Mark Wahlberg",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4198,
+          4080,
+          758,
+          768
+        ],
+        "winners": [
+          4080
+        ],
+        "winner": 4080
+      },
+      {
+        "id": "best-director-motion-picture",
+        "name": "Best Director - Motion Picture",
+        "entries": [
+          {
+            "film_id": 768,
+            "person": "Alejandro González Iñárritu",
+            "winner": false
+          },
+          {
+            "film_id": 758,
+            "person": "Martin Scorsese",
+            "winner": true
+          },
+          {
+            "film_id": 1711,
+            "person": "Clint Eastwood",
+            "winner": false
+          },
+          {
+            "film_id": 1710,
+            "person": "Clint Eastwood",
+            "winner": false
+          },
+          {
+            "film_id": 4073,
+            "person": "Stephen Frears",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          768,
+          758,
+          1711,
+          1710,
+          4073
+        ],
+        "winners": [
+          758
+        ],
+        "winner": 758
+      },
+      {
+        "id": "best-screenplay-motion-picture",
+        "name": "Best Screenplay - Motion Picture",
+        "entries": [
+          {
+            "film_id": 4078,
+            "person": "Patrick Marber",
+            "winner": false
+          },
+          {
+            "film_id": 758,
+            "person": "William Monahan",
+            "winner": false
+          },
+          {
+            "film_id": 4073,
+            "person": "Peter Morgan",
+            "winner": true
+          },
+          {
+            "film_id": 768,
+            "person": "Guillermo Arriaga",
+            "winner": false
+          },
+          {
+            "film_id": 4079,
+            "person": "Todd Field, Tom Perrotta",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4078,
+          758,
+          4073,
+          768,
+          4079
+        ],
+        "winners": [
+          4073
+        ],
+        "winner": 4073
+      }
+    ],
+    "films": [
+      {
+        "id": 768,
+        "awards": [
+          "Best Motion Picture - Drama"
+        ]
+      },
+      {
+        "id": 4194,
+        "awards": []
+      },
+      {
+        "id": 758,
+        "awards": [
+          "Best Director - Motion Picture"
+        ]
+      },
+      {
+        "id": 4079,
+        "awards": []
+      },
+      {
+        "id": 4073,
+        "awards": [
+          "Best Performance by a Female Actor in a Motion Picture – Drama",
+          "Best Screenplay - Motion Picture"
+        ]
+      },
+      {
+        "id": 4082,
+        "awards": [
+          "Best Performance by a Male Actor in a Motion Picture – Musical or Comedy"
+        ]
+      },
+      {
+        "id": 766,
+        "awards": [
+          "Best Performance by a Female Actor in a Motion Picture – Musical or Comedy"
+        ]
+      },
+      {
+        "id": 4080,
+        "awards": [
+          "Best Motion Picture - Musical or Comedy",
+          "Best Performance by a Female Actor in a Supporting Role in any Motion Picture",
+          "Best Performance by a Male Actor in a Supporting Role in any Motion Picture"
+        ]
+      },
+      {
+        "id": 4072,
+        "awards": []
+      },
+      {
+        "id": 1732,
+        "awards": []
+      },
+      {
+        "id": 744,
+        "awards": [
+          "Best Motion Picture - Animated"
+        ]
+      },
+      {
+        "id": 750,
+        "awards": []
+      },
+      {
+        "id": 4094,
+        "awards": []
+      },
+      {
+        "id": 4168,
+        "awards": []
+      },
+      {
+        "id": 1710,
+        "awards": [
+          "Best Motion Picture – Non-English Language"
+        ]
+      },
+      {
+        "id": 4085,
+        "awards": []
+      },
+      {
+        "id": 4084,
+        "awards": []
+      },
+      {
+        "id": 4076,
+        "awards": []
+      },
+      {
+        "id": 4078,
+        "awards": []
+      },
+      {
+        "id": 4195,
+        "awards": []
+      },
+      {
+        "id": 751,
+        "awards": []
+      },
+      {
+        "id": 4077,
+        "awards": [
+          "Best Performance by a Male Actor in a Motion Picture – Drama"
+        ]
+      },
+      {
+        "id": 4081,
+        "awards": []
+      },
+      {
+        "id": 4086,
+        "awards": []
+      },
+      {
+        "id": 4197,
+        "awards": []
+      },
+      {
+        "id": 4196,
+        "awards": []
+      },
+      {
+        "id": 4201,
+        "awards": []
+      },
+      {
+        "id": 4199,
+        "awards": []
+      },
+      {
+        "id": 739,
+        "awards": []
+      },
+      {
+        "id": 4198,
+        "awards": []
+      },
+      {
+        "id": 1711,
+        "awards": []
+      }
+    ]
+  },
+  {
+    "event": "Golden Globes",
+    "year": 2008,
+    "section": "Major Film Categories",
+    "source": "https://goldenglobes.com/winners-nominees/?year=2008",
+    "awardsSource": "https://goldenglobes.com/winners-nominees/?year=2008",
+    "resultsUrl": "https://goldenglobes.com/winners-nominees/?year=2008",
+    "note": "The traditional ceremony was cancelled during the writers’ strike. Winners were announced at an HFPA press conference on 13 January 2008.",
+    "categories": [
+      {
+        "id": "best-motion-picture-drama",
+        "name": "Best Motion Picture - Drama",
+        "entries": [
+          {
+            "film_id": 4100,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 4200,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 4095,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 1697,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 698,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 1704,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 4097,
+            "person": "",
+            "winner": true
+          }
+        ],
+        "nominees": [
+          4100,
+          4200,
+          4095,
+          1697,
+          698,
+          1704,
+          4097
+        ],
+        "winners": [
+          4097
+        ],
+        "winner": 4097
+      },
+      {
+        "id": "best-motion-picture-musical-or-comedy",
+        "name": "Best Motion Picture - Musical or Comedy",
+        "entries": [
+          {
+            "film_id": 4202,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 4112,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 4203,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 1703,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 4098,
+            "person": "",
+            "winner": true
+          }
+        ],
+        "nominees": [
+          4202,
+          4112,
+          4203,
+          1703,
+          4098
+        ],
+        "winners": [
+          4098
+        ],
+        "winner": 4098
+      },
+      {
+        "id": "best-motion-picture-animated",
+        "name": "Best Motion Picture - Animated",
+        "entries": [
+          {
+            "film_id": 4207,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 1692,
+            "person": "",
+            "winner": true
+          },
+          {
+            "film_id": 713,
+            "person": "",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4207,
+          1692,
+          713
+        ],
+        "winners": [
+          1692
+        ],
+        "winner": 1692
+      },
+      {
+        "id": "best-motion-picture-non-english-language",
+        "name": "Best Motion Picture – Non-English Language",
+        "entries": [
+          {
+            "film_id": 1700,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 4096,
+            "person": "",
+            "winner": true
+          },
+          {
+            "film_id": 4171,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 4172,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 709,
+            "person": "",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          1700,
+          4096,
+          4171,
+          4172,
+          709
+        ],
+        "winners": [
+          4096
+        ],
+        "winner": 4096
+      },
+      {
+        "id": "best-performance-by-a-female-actor-in-a-motion-picture-drama",
+        "name": "Best Performance by a Female Actor in a Motion Picture – Drama",
+        "entries": [
+          {
+            "film_id": 4105,
+            "person": "Cate Blanchett",
+            "winner": false
+          },
+          {
+            "film_id": 4101,
+            "person": "Julie Christie",
+            "winner": true
+          },
+          {
+            "film_id": 4212,
+            "person": "Jodie Foster",
+            "winner": false
+          },
+          {
+            "film_id": 4205,
+            "person": "Angelina Jolie",
+            "winner": false
+          },
+          {
+            "film_id": 4097,
+            "person": "Keira Knightley",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4105,
+          4101,
+          4212,
+          4205,
+          4097
+        ],
+        "winners": [
+          4101
+        ],
+        "winner": 4101
+      },
+      {
+        "id": "best-performance-by-a-male-actor-in-a-motion-picture-drama",
+        "name": "Best Performance by a Male Actor in a Motion Picture – Drama",
+        "entries": [
+          {
+            "film_id": 698,
+            "person": "Daniel Day-Lewis",
+            "winner": true
+          },
+          {
+            "film_id": 4100,
+            "person": "Viggo Mortensen",
+            "winner": false
+          },
+          {
+            "film_id": 1704,
+            "person": "Denzel Washington",
+            "winner": false
+          },
+          {
+            "film_id": 4095,
+            "person": "George Clooney",
+            "winner": false
+          },
+          {
+            "film_id": 4097,
+            "person": "James McAvoy",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          698,
+          4100,
+          1704,
+          4095,
+          4097
+        ],
+        "winners": [
+          698
+        ],
+        "winner": 698
+      },
+      {
+        "id": "best-performance-by-a-female-actor-in-a-motion-picture-musical-or-comedy",
+        "name": "Best Performance by a Female Actor in a Motion Picture – Musical or Comedy",
+        "entries": [
+          {
+            "film_id": 4098,
+            "person": "Helena Bonham Carter",
+            "winner": false
+          },
+          {
+            "film_id": 722,
+            "person": "Marion Cotillard",
+            "winner": true
+          },
+          {
+            "film_id": 1703,
+            "person": "Elliot Page",
+            "winner": false
+          },
+          {
+            "film_id": 4203,
+            "person": "Nikki Blonsky",
+            "winner": false
+          },
+          {
+            "film_id": 727,
+            "person": "Amy Adams",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4098,
+          722,
+          1703,
+          4203,
+          727
+        ],
+        "winners": [
+          722
+        ],
+        "winner": 722
+      },
+      {
+        "id": "best-performance-by-a-male-actor-in-a-motion-picture-musical-or-comedy",
+        "name": "Best Performance by a Male Actor in a Motion Picture – Musical or Comedy",
+        "entries": [
+          {
+            "film_id": 4102,
+            "person": "Philip Seymour Hoffman",
+            "winner": false
+          },
+          {
+            "film_id": 4206,
+            "person": "John C. Reilly",
+            "winner": false
+          },
+          {
+            "film_id": 4098,
+            "person": "Johnny Depp",
+            "winner": true
+          },
+          {
+            "film_id": 4106,
+            "person": "Ryan Gosling",
+            "winner": false
+          },
+          {
+            "film_id": 4112,
+            "person": "Tom Hanks",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4102,
+          4206,
+          4098,
+          4106,
+          4112
+        ],
+        "winners": [
+          4098
+        ],
+        "winner": 4098
+      },
+      {
+        "id": "best-performance-by-a-female-actor-in-a-supporting-role-in-any-motion-picture",
+        "name": "Best Performance by a Female Actor in a Supporting Role in any Motion Picture",
+        "entries": [
+          {
+            "film_id": 4107,
+            "person": "Amy Ryan",
+            "winner": false
+          },
+          {
+            "film_id": 4095,
+            "person": "Tilda Swinton",
+            "winner": false
+          },
+          {
+            "film_id": 4104,
+            "person": "Cate Blanchett",
+            "winner": true
+          },
+          {
+            "film_id": 4112,
+            "person": "Julia Roberts",
+            "winner": false
+          },
+          {
+            "film_id": 4097,
+            "person": "Saoirse Ronan",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4107,
+          4095,
+          4104,
+          4112,
+          4097
+        ],
+        "winners": [
+          4104
+        ],
+        "winner": 4104
+      },
+      {
+        "id": "best-performance-by-a-male-actor-in-a-supporting-role-in-any-motion-picture",
+        "name": "Best Performance by a Male Actor in a Supporting Role in any Motion Picture",
+        "entries": [
+          {
+            "film_id": 4112,
+            "person": "Philip Seymour Hoffman",
+            "winner": false
+          },
+          {
+            "film_id": 4203,
+            "person": "John Travolta",
+            "winner": false
+          },
+          {
+            "film_id": 4095,
+            "person": "Tom Wilkinson",
+            "winner": false
+          },
+          {
+            "film_id": 4108,
+            "person": "Casey Affleck",
+            "winner": false
+          },
+          {
+            "film_id": 1697,
+            "person": "Javier Bardem",
+            "winner": true
+          }
+        ],
+        "nominees": [
+          4112,
+          4203,
+          4095,
+          4108,
+          1697
+        ],
+        "winners": [
+          1697
+        ],
+        "winner": 1697
+      },
+      {
+        "id": "best-director-motion-picture",
+        "name": "Best Director - Motion Picture",
+        "entries": [
+          {
+            "film_id": 4098,
+            "person": "Tim Burton",
+            "winner": false
+          },
+          {
+            "film_id": 1697,
+            "person": "Ethan Coen, Joel Coen",
+            "winner": false
+          },
+          {
+            "film_id": 4096,
+            "person": "Julian Schnabel",
+            "winner": true
+          },
+          {
+            "film_id": 1704,
+            "person": "Ridley Scott",
+            "winner": false
+          },
+          {
+            "film_id": 4097,
+            "person": "Joe Wright",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4098,
+          1697,
+          4096,
+          1704,
+          4097
+        ],
+        "winners": [
+          4096
+        ],
+        "winner": 4096
+      },
+      {
+        "id": "best-screenplay-motion-picture",
+        "name": "Best Screenplay - Motion Picture",
+        "entries": [
+          {
+            "film_id": 4112,
+            "person": "Aaron Sorkin",
+            "winner": false
+          },
+          {
+            "film_id": 1703,
+            "person": "Diablo Cody",
+            "winner": false
+          },
+          {
+            "film_id": 1697,
+            "person": "Joel Coen, Ethan Coen",
+            "winner": true
+          },
+          {
+            "film_id": 4097,
+            "person": "Christopher Hampton",
+            "winner": false
+          },
+          {
+            "film_id": 4096,
+            "person": "Ronald Harwood",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4112,
+          1703,
+          1697,
+          4097,
+          4096
+        ],
+        "winners": [
+          1697
+        ],
+        "winner": 1697
+      }
+    ],
+    "films": [
+      {
+        "id": 4100,
+        "awards": []
+      },
+      {
+        "id": 4200,
+        "awards": []
+      },
+      {
+        "id": 4095,
+        "awards": []
+      },
+      {
+        "id": 1697,
+        "awards": [
+          "Best Performance by a Male Actor in a Supporting Role in any Motion Picture",
+          "Best Screenplay - Motion Picture"
+        ]
+      },
+      {
+        "id": 698,
+        "awards": [
+          "Best Performance by a Male Actor in a Motion Picture – Drama"
+        ]
+      },
+      {
+        "id": 1704,
+        "awards": []
+      },
+      {
+        "id": 4097,
+        "awards": [
+          "Best Motion Picture - Drama"
+        ]
+      },
+      {
+        "id": 4202,
+        "awards": []
+      },
+      {
+        "id": 4112,
+        "awards": []
+      },
+      {
+        "id": 4203,
+        "awards": []
+      },
+      {
+        "id": 1703,
+        "awards": []
+      },
+      {
+        "id": 4098,
+        "awards": [
+          "Best Motion Picture - Musical or Comedy",
+          "Best Performance by a Male Actor in a Motion Picture – Musical or Comedy"
+        ]
+      },
+      {
+        "id": 4207,
+        "awards": []
+      },
+      {
+        "id": 1692,
+        "awards": [
+          "Best Motion Picture - Animated"
+        ]
+      },
+      {
+        "id": 713,
+        "awards": []
+      },
+      {
+        "id": 1700,
+        "awards": []
+      },
+      {
+        "id": 4096,
+        "awards": [
+          "Best Motion Picture – Non-English Language",
+          "Best Director - Motion Picture"
+        ]
+      },
+      {
+        "id": 4171,
+        "awards": []
+      },
+      {
+        "id": 4172,
+        "awards": []
+      },
+      {
+        "id": 709,
+        "awards": []
+      },
+      {
+        "id": 4105,
+        "awards": []
+      },
+      {
+        "id": 4101,
+        "awards": [
+          "Best Performance by a Female Actor in a Motion Picture – Drama"
+        ]
+      },
+      {
+        "id": 4212,
+        "awards": []
+      },
+      {
+        "id": 4205,
+        "awards": []
+      },
+      {
+        "id": 722,
+        "awards": [
+          "Best Performance by a Female Actor in a Motion Picture – Musical or Comedy"
+        ]
+      },
+      {
+        "id": 727,
+        "awards": []
+      },
+      {
+        "id": 4102,
+        "awards": []
+      },
+      {
+        "id": 4206,
+        "awards": []
+      },
+      {
+        "id": 4106,
+        "awards": []
+      },
+      {
+        "id": 4107,
+        "awards": []
+      },
+      {
+        "id": 4104,
+        "awards": [
+          "Best Performance by a Female Actor in a Supporting Role in any Motion Picture"
+        ]
+      },
+      {
+        "id": 4108,
+        "awards": []
+      }
+    ]
+  },
+  {
+    "event": "Golden Globes",
+    "year": 2009,
+    "section": "Major Film Categories",
+    "source": "https://goldenglobes.com/winners-nominees/?year=2009",
+    "awardsSource": "https://goldenglobes.com/winners-nominees/?year=2009",
+    "resultsUrl": "https://goldenglobes.com/winners-nominees/?year=2009",
+    "categories": [
+      {
+        "id": "best-motion-picture-drama",
+        "name": "Best Motion Picture - Drama",
+        "entries": [
+          {
+            "film_id": 4118,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 4119,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 4120,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 672,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 661,
+            "person": "",
+            "winner": true
+          }
+        ],
+        "nominees": [
+          4118,
+          4119,
+          4120,
+          672,
+          661
+        ],
+        "winners": [
+          661
+        ],
+        "winner": 661
+      },
+      {
+        "id": "best-motion-picture-musical-or-comedy",
+        "name": "Best Motion Picture - Musical or Comedy",
+        "entries": [
+          {
+            "film_id": 706,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 4176,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 658,
+            "person": "",
+            "winner": true
+          },
+          {
+            "film_id": 1681,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 4129,
+            "person": "",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          706,
+          4176,
+          658,
+          1681,
+          4129
+        ],
+        "winners": [
+          658
+        ],
+        "winner": 658
+      },
+      {
+        "id": "best-motion-picture-animated",
+        "name": "Best Motion Picture - Animated",
+        "entries": [
+          {
+            "film_id": 4139,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 4141,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 1685,
+            "person": "",
+            "winner": true
+          }
+        ],
+        "nominees": [
+          4139,
+          4141,
+          1685
+        ],
+        "winners": [
+          1685
+        ],
+        "winner": 1685
+      },
+      {
+        "id": "best-motion-picture-non-english-language",
+        "name": "Best Motion Picture – Non-English Language",
+        "entries": [
+          {
+            "film_id": 4208,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 4175,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 4186,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 4135,
+            "person": "",
+            "winner": true
+          },
+          {
+            "film_id": 4130,
+            "person": "",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4208,
+          4175,
+          4186,
+          4135,
+          4130
+        ],
+        "winners": [
+          4135
+        ],
+        "winner": 4135
+      },
+      {
+        "id": "best-performance-by-a-female-actor-in-a-motion-picture-drama",
+        "name": "Best Performance by a Female Actor in a Motion Picture – Drama",
+        "entries": [
+          {
+            "film_id": 4126,
+            "person": "Anne Hathaway",
+            "winner": false
+          },
+          {
+            "film_id": 4132,
+            "person": "Angelina Jolie",
+            "winner": false
+          },
+          {
+            "film_id": 4186,
+            "person": "Kristin Scott Thomas",
+            "winner": false
+          },
+          {
+            "film_id": 672,
+            "person": "Kate Winslet",
+            "winner": true
+          },
+          {
+            "film_id": 4127,
+            "person": "Meryl Streep",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4126,
+          4132,
+          4186,
+          672,
+          4127
+        ],
+        "winners": [
+          672
+        ],
+        "winner": 672
+      },
+      {
+        "id": "best-performance-by-a-male-actor-in-a-motion-picture-drama",
+        "name": "Best Performance by a Male Actor in a Motion Picture – Drama",
+        "entries": [
+          {
+            "film_id": 672,
+            "person": "Leonardo DiCaprio",
+            "winner": false
+          },
+          {
+            "film_id": 4119,
+            "person": "Frank Langella",
+            "winner": false
+          },
+          {
+            "film_id": 4125,
+            "person": "Sean Penn",
+            "winner": false
+          },
+          {
+            "film_id": 4118,
+            "person": "Brad Pitt",
+            "winner": false
+          },
+          {
+            "film_id": 659,
+            "person": "Mickey Rourke",
+            "winner": true
+          }
+        ],
+        "nominees": [
+          672,
+          4119,
+          4125,
+          4118,
+          659
+        ],
+        "winners": [
+          659
+        ],
+        "winner": 659
+      },
+      {
+        "id": "best-performance-by-a-female-actor-in-a-motion-picture-musical-or-comedy",
+        "name": "Best Performance by a Female Actor in a Motion Picture – Musical or Comedy",
+        "entries": [
+          {
+            "film_id": 4129,
+            "person": "Sally Hawkins",
+            "winner": true
+          },
+          {
+            "film_id": 1681,
+            "person": "Frances McDormand",
+            "winner": false
+          },
+          {
+            "film_id": 4176,
+            "person": "Meryl Streep",
+            "winner": false
+          },
+          {
+            "film_id": 4209,
+            "person": "Emma Thompson",
+            "winner": false
+          },
+          {
+            "film_id": 658,
+            "person": "Rebecca Hall",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4129,
+          1681,
+          4176,
+          4209,
+          658
+        ],
+        "winners": [
+          4129
+        ],
+        "winner": 4129
+      },
+      {
+        "id": "best-performance-by-a-male-actor-in-a-motion-picture-musical-or-comedy",
+        "name": "Best Performance by a Male Actor in a Motion Picture – Musical or Comedy",
+        "entries": [
+          {
+            "film_id": 658,
+            "person": "Javier Bardem",
+            "winner": false
+          },
+          {
+            "film_id": 706,
+            "person": "Colin Farrell",
+            "winner": true
+          },
+          {
+            "film_id": 4210,
+            "person": "James Franco",
+            "winner": false
+          },
+          {
+            "film_id": 706,
+            "person": "Brendan Gleeson",
+            "winner": false
+          },
+          {
+            "film_id": 4209,
+            "person": "Dustin Hoffman",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          658,
+          706,
+          4210,
+          4209
+        ],
+        "winners": [
+          706
+        ],
+        "winner": 706
+      },
+      {
+        "id": "best-performance-by-a-female-actor-in-a-supporting-role-in-any-motion-picture",
+        "name": "Best Performance by a Female Actor in a Supporting Role in any Motion Picture",
+        "entries": [
+          {
+            "film_id": 4127,
+            "person": "Amy Adams",
+            "winner": false
+          },
+          {
+            "film_id": 658,
+            "person": "Penélope Cruz",
+            "winner": false
+          },
+          {
+            "film_id": 4127,
+            "person": "Viola Davis",
+            "winner": false
+          },
+          {
+            "film_id": 659,
+            "person": "Marisa Tomei",
+            "winner": false
+          },
+          {
+            "film_id": 4120,
+            "person": "Kate Winslet",
+            "winner": true
+          }
+        ],
+        "nominees": [
+          4127,
+          658,
+          659,
+          4120
+        ],
+        "winners": [
+          4120
+        ],
+        "winner": 4120
+      },
+      {
+        "id": "best-performance-by-a-male-actor-in-a-supporting-role-in-any-motion-picture",
+        "name": "Best Performance by a Male Actor in a Supporting Role in any Motion Picture",
+        "entries": [
+          {
+            "film_id": 4128,
+            "person": "Robert Downey Jr.",
+            "winner": false
+          },
+          {
+            "film_id": 4211,
+            "person": "Ralph Fiennes",
+            "winner": false
+          },
+          {
+            "film_id": 4127,
+            "person": "Philip Seymour Hoffman",
+            "winner": false
+          },
+          {
+            "film_id": 674,
+            "person": "Heath Ledger",
+            "winner": true
+          },
+          {
+            "film_id": 4128,
+            "person": "Tom Cruise",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4128,
+          4211,
+          4127,
+          674
+        ],
+        "winners": [
+          674
+        ],
+        "winner": 674
+      },
+      {
+        "id": "best-director-motion-picture",
+        "name": "Best Director - Motion Picture",
+        "entries": [
+          {
+            "film_id": 661,
+            "person": "Danny Boyle",
+            "winner": true
+          },
+          {
+            "film_id": 4120,
+            "person": "Stephen Daldry",
+            "winner": false
+          },
+          {
+            "film_id": 4118,
+            "person": "David Fincher",
+            "winner": false
+          },
+          {
+            "film_id": 4119,
+            "person": "Ron Howard",
+            "winner": false
+          },
+          {
+            "film_id": 672,
+            "person": "Sam Mendes",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          661,
+          4120,
+          4118,
+          4119,
+          672
+        ],
+        "winners": [
+          661
+        ],
+        "winner": 661
+      },
+      {
+        "id": "best-screenplay-motion-picture",
+        "name": "Best Screenplay - Motion Picture",
+        "entries": [
+          {
+            "film_id": 4127,
+            "person": "John Patrick Shanley",
+            "winner": false
+          },
+          {
+            "film_id": 661,
+            "person": "Simon Beaufoy",
+            "winner": true
+          },
+          {
+            "film_id": 4120,
+            "person": "David Hare",
+            "winner": false
+          },
+          {
+            "film_id": 4119,
+            "person": "Peter Morgan",
+            "winner": false
+          },
+          {
+            "film_id": 4118,
+            "person": "Eric Roth",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4127,
+          661,
+          4120,
+          4119,
+          4118
+        ],
+        "winners": [
+          661
+        ],
+        "winner": 661
+      }
+    ],
+    "films": [
+      {
+        "id": 4118,
+        "awards": []
+      },
+      {
+        "id": 4119,
+        "awards": []
+      },
+      {
+        "id": 4120,
+        "awards": [
+          "Best Performance by a Female Actor in a Supporting Role in any Motion Picture"
+        ]
+      },
+      {
+        "id": 672,
+        "awards": [
+          "Best Performance by a Female Actor in a Motion Picture – Drama"
+        ]
+      },
+      {
+        "id": 661,
+        "awards": [
+          "Best Motion Picture - Drama",
+          "Best Director - Motion Picture",
+          "Best Screenplay - Motion Picture"
+        ]
+      },
+      {
+        "id": 706,
+        "awards": [
+          "Best Performance by a Male Actor in a Motion Picture – Musical or Comedy"
+        ]
+      },
+      {
+        "id": 4176,
+        "awards": []
+      },
+      {
+        "id": 658,
+        "awards": [
+          "Best Motion Picture - Musical or Comedy"
+        ]
+      },
+      {
+        "id": 1681,
+        "awards": []
+      },
+      {
+        "id": 4129,
+        "awards": [
+          "Best Performance by a Female Actor in a Motion Picture – Musical or Comedy"
+        ]
+      },
+      {
+        "id": 4139,
+        "awards": []
+      },
+      {
+        "id": 4141,
+        "awards": []
+      },
+      {
+        "id": 1685,
+        "awards": [
+          "Best Motion Picture - Animated"
+        ]
+      },
+      {
+        "id": 4208,
+        "awards": []
+      },
+      {
+        "id": 4175,
+        "awards": []
+      },
+      {
+        "id": 4186,
+        "awards": []
+      },
+      {
+        "id": 4135,
+        "awards": [
+          "Best Motion Picture – Non-English Language"
+        ]
+      },
+      {
+        "id": 4130,
+        "awards": []
+      },
+      {
+        "id": 4126,
+        "awards": []
+      },
+      {
+        "id": 4132,
+        "awards": []
+      },
+      {
+        "id": 4127,
+        "awards": []
+      },
+      {
+        "id": 4125,
+        "awards": []
+      },
+      {
+        "id": 659,
+        "awards": [
+          "Best Performance by a Male Actor in a Motion Picture – Drama"
+        ]
+      },
+      {
+        "id": 4209,
+        "awards": []
+      },
+      {
+        "id": 4210,
+        "awards": []
+      },
+      {
+        "id": 4128,
+        "awards": []
+      },
+      {
+        "id": 4211,
+        "awards": []
+      },
+      {
+        "id": 674,
+        "awards": [
+          "Best Performance by a Male Actor in a Supporting Role in any Motion Picture"
+        ]
+      }
+    ]
+  },
+  {
+    "event": "Golden Globes",
+    "year": 2010,
+    "section": "Major Film Categories",
+    "source": "https://goldenglobes.com/winners-nominees/?year=2010",
+    "awardsSource": "https://goldenglobes.com/winners-nominees/?year=2010",
+    "resultsUrl": "https://goldenglobes.com/winners-nominees/?year=2010",
+    "categories": [
+      {
+        "id": "best-motion-picture-drama",
+        "name": "Best Motion Picture - Drama",
+        "entries": [
+          {
+            "film_id": 1670,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 1666,
+            "person": "",
+            "winner": true
+          },
+          {
+            "film_id": 4142,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 641,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 4144,
+            "person": "",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          1670,
+          1666,
+          4142,
+          641,
+          4144
+        ],
+        "winners": [
+          1666
+        ],
+        "winner": 1666
+      },
+      {
+        "id": "best-motion-picture-musical-or-comedy",
+        "name": "Best Motion Picture - Musical or Comedy",
+        "entries": [
+          {
+            "film_id": 4611,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 4213,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 642,
+            "person": "",
+            "winner": true
+          },
+          {
+            "film_id": 4181,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 646,
+            "person": "",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4611,
+          4213,
+          642,
+          4181,
+          646
+        ],
+        "winners": [
+          642
+        ],
+        "winner": 642
+      },
+      {
+        "id": "best-motion-picture-animated",
+        "name": "Best Motion Picture - Animated",
+        "entries": [
+          {
+            "film_id": 633,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 4157,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 620,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 630,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 1662,
+            "person": "",
+            "winner": true
+          }
+        ],
+        "nominees": [
+          633,
+          4157,
+          620,
+          630,
+          1662
+        ],
+        "winners": [
+          1662
+        ],
+        "winner": 1662
+      },
+      {
+        "id": "best-motion-picture-non-english-language",
+        "name": "Best Motion Picture – Non-English Language",
+        "entries": [
+          {
+            "film_id": 4219,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 4184,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 4215,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 4154,
+            "person": "",
+            "winner": false
+          },
+          {
+            "film_id": 1673,
+            "person": "",
+            "winner": true
+          }
+        ],
+        "nominees": [
+          4219,
+          4184,
+          4215,
+          4154,
+          1673
+        ],
+        "winners": [
+          1673
+        ],
+        "winner": 1673
+      },
+      {
+        "id": "best-performance-by-a-female-actor-in-a-motion-picture-drama",
+        "name": "Best Performance by a Female Actor in a Motion Picture – Drama",
+        "entries": [
+          {
+            "film_id": 4214,
+            "person": "Emily Blunt",
+            "winner": false
+          },
+          {
+            "film_id": 1676,
+            "person": "Sandra Bullock",
+            "winner": true
+          },
+          {
+            "film_id": 4149,
+            "person": "Helen Mirren",
+            "winner": false
+          },
+          {
+            "film_id": 4147,
+            "person": "Carey Mulligan",
+            "winner": false
+          },
+          {
+            "film_id": 4144,
+            "person": "Gabourey Sidibe",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4214,
+          1676,
+          4149,
+          4147,
+          4144
+        ],
+        "winners": [
+          1676
+        ],
+        "winner": 1676
+      },
+      {
+        "id": "best-performance-by-a-male-actor-in-a-motion-picture-drama",
+        "name": "Best Performance by a Male Actor in a Motion Picture – Drama",
+        "entries": [
+          {
+            "film_id": 4145,
+            "person": "Jeff Bridges",
+            "winner": true
+          },
+          {
+            "film_id": 1670,
+            "person": "George Clooney",
+            "winner": false
+          },
+          {
+            "film_id": 4146,
+            "person": "Colin Firth",
+            "winner": false
+          },
+          {
+            "film_id": 4151,
+            "person": "Morgan Freeman",
+            "winner": false
+          },
+          {
+            "film_id": 4216,
+            "person": "Tobey Maguire",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4145,
+          1670,
+          4146,
+          4151,
+          4216
+        ],
+        "winners": [
+          4145
+        ],
+        "winner": 4145
+      },
+      {
+        "id": "best-performance-by-a-female-actor-in-a-motion-picture-musical-or-comedy",
+        "name": "Best Performance by a Female Actor in a Motion Picture – Musical or Comedy",
+        "entries": [
+          {
+            "film_id": 4611,
+            "person": "Marion Cotillard",
+            "winner": false
+          },
+          {
+            "film_id": 4217,
+            "person": "Julia Roberts",
+            "winner": false
+          },
+          {
+            "film_id": 4181,
+            "person": "Meryl Streep",
+            "winner": false
+          },
+          {
+            "film_id": 646,
+            "person": "Meryl Streep",
+            "winner": true
+          },
+          {
+            "film_id": 643,
+            "person": "Sandra Bullock",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4611,
+          4217,
+          4181,
+          646,
+          643
+        ],
+        "winners": [
+          646
+        ],
+        "winner": 646
+      },
+      {
+        "id": "best-performance-by-a-male-actor-in-a-motion-picture-musical-or-comedy",
+        "name": "Best Performance by a Male Actor in a Motion Picture – Musical or Comedy",
+        "entries": [
+          {
+            "film_id": 4218,
+            "person": "Matt Damon",
+            "winner": false
+          },
+          {
+            "film_id": 4611,
+            "person": "Daniel Day-Lewis",
+            "winner": false
+          },
+          {
+            "film_id": 1671,
+            "person": "Robert Downey Jr.",
+            "winner": true
+          },
+          {
+            "film_id": 4213,
+            "person": "Joseph Gordon-Levitt",
+            "winner": false
+          },
+          {
+            "film_id": 1665,
+            "person": "Michael Stuhlbarg",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4218,
+          4611,
+          1671,
+          4213,
+          1665
+        ],
+        "winners": [
+          1671
+        ],
+        "winner": 1671
+      },
+      {
+        "id": "best-performance-by-a-female-actor-in-a-supporting-role-in-any-motion-picture",
+        "name": "Best Performance by a Female Actor in a Supporting Role in any Motion Picture",
+        "entries": [
+          {
+            "film_id": 1670,
+            "person": "Vera Farmiga",
+            "winner": false
+          },
+          {
+            "film_id": 1670,
+            "person": "Anna Kendrick",
+            "winner": false
+          },
+          {
+            "film_id": 4144,
+            "person": "Mo'Nique",
+            "winner": true
+          },
+          {
+            "film_id": 4146,
+            "person": "Julianne Moore",
+            "winner": false
+          },
+          {
+            "film_id": 4611,
+            "person": "Penélope Cruz",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          1670,
+          4144,
+          4146,
+          4611
+        ],
+        "winners": [
+          4144
+        ],
+        "winner": 4144
+      },
+      {
+        "id": "best-performance-by-a-male-actor-in-a-supporting-role-in-any-motion-picture",
+        "name": "Best Performance by a Male Actor in a Supporting Role in any Motion Picture",
+        "entries": [
+          {
+            "film_id": 4151,
+            "person": "Matt Damon",
+            "winner": false
+          },
+          {
+            "film_id": 4150,
+            "person": "Woody Harrelson",
+            "winner": false
+          },
+          {
+            "film_id": 4149,
+            "person": "Christopher Plummer",
+            "winner": false
+          },
+          {
+            "film_id": 4148,
+            "person": "Stanley Tucci",
+            "winner": false
+          },
+          {
+            "film_id": 641,
+            "person": "Christoph Waltz",
+            "winner": true
+          }
+        ],
+        "nominees": [
+          4151,
+          4150,
+          4149,
+          4148,
+          641
+        ],
+        "winners": [
+          641
+        ],
+        "winner": 641
+      },
+      {
+        "id": "best-director-motion-picture",
+        "name": "Best Director - Motion Picture",
+        "entries": [
+          {
+            "film_id": 4151,
+            "person": "Clint Eastwood",
+            "winner": false
+          },
+          {
+            "film_id": 641,
+            "person": "Quentin Tarantino",
+            "winner": false
+          },
+          {
+            "film_id": 4142,
+            "person": "Kathryn Bigelow",
+            "winner": false
+          },
+          {
+            "film_id": 1666,
+            "person": "James Cameron",
+            "winner": true
+          },
+          {
+            "film_id": 1670,
+            "person": "Jason Reitman",
+            "winner": false
+          }
+        ],
+        "nominees": [
+          4151,
+          641,
+          4142,
+          1666,
+          1670
+        ],
+        "winners": [
+          1666
+        ],
+        "winner": 1666
+      },
+      {
+        "id": "best-screenplay-motion-picture",
+        "name": "Best Screenplay - Motion Picture",
+        "entries": [
+          {
+            "film_id": 641,
+            "person": "Quentin Tarantino",
+            "winner": false
+          },
+          {
+            "film_id": 4143,
+            "person": "Neill Blomkamp, Terri Tatchell",
+            "winner": false
+          },
+          {
+            "film_id": 4142,
+            "person": "Mark Boal",
+            "winner": false
+          },
+          {
+            "film_id": 4181,
+            "person": "Nancy Meyers",
+            "winner": false
+          },
+          {
+            "film_id": 1670,
+            "person": "Jason Reitman, Sheldon Turner",
+            "winner": true
+          }
+        ],
+        "nominees": [
+          641,
+          4143,
+          4142,
+          4181,
+          1670
+        ],
+        "winners": [
+          1670
+        ],
+        "winner": 1670
+      }
+    ],
+    "films": [
+      {
+        "id": 1670,
+        "awards": [
+          "Best Screenplay - Motion Picture"
+        ]
+      },
+      {
+        "id": 1666,
+        "awards": [
+          "Best Motion Picture - Drama",
+          "Best Director - Motion Picture"
+        ]
+      },
+      {
+        "id": 4142,
+        "awards": []
+      },
+      {
+        "id": 641,
+        "awards": [
+          "Best Performance by a Male Actor in a Supporting Role in any Motion Picture"
+        ]
+      },
+      {
+        "id": 4144,
+        "awards": [
+          "Best Performance by a Female Actor in a Supporting Role in any Motion Picture"
+        ]
+      },
+      {
+        "id": 4611,
+        "awards": []
+      },
+      {
+        "id": 4213,
+        "awards": []
+      },
+      {
+        "id": 642,
+        "awards": [
+          "Best Motion Picture - Musical or Comedy"
+        ]
+      },
+      {
+        "id": 4181,
+        "awards": []
+      },
+      {
+        "id": 646,
+        "awards": [
+          "Best Performance by a Female Actor in a Motion Picture – Musical or Comedy"
+        ]
+      },
+      {
+        "id": 633,
+        "awards": []
+      },
+      {
+        "id": 4157,
+        "awards": []
+      },
+      {
+        "id": 620,
+        "awards": []
+      },
+      {
+        "id": 630,
+        "awards": []
+      },
+      {
+        "id": 1662,
+        "awards": [
+          "Best Motion Picture - Animated"
+        ]
+      },
+      {
+        "id": 4219,
+        "awards": []
+      },
+      {
+        "id": 4184,
+        "awards": []
+      },
+      {
+        "id": 4215,
+        "awards": []
+      },
+      {
+        "id": 4154,
+        "awards": []
+      },
+      {
+        "id": 1673,
+        "awards": [
+          "Best Motion Picture – Non-English Language"
+        ]
+      },
+      {
+        "id": 4214,
+        "awards": []
+      },
+      {
+        "id": 1676,
+        "awards": [
+          "Best Performance by a Female Actor in a Motion Picture – Drama"
+        ]
+      },
+      {
+        "id": 4149,
+        "awards": []
+      },
+      {
+        "id": 4147,
+        "awards": []
+      },
+      {
+        "id": 4145,
+        "awards": [
+          "Best Performance by a Male Actor in a Motion Picture – Drama"
+        ]
+      },
+      {
+        "id": 4146,
+        "awards": []
+      },
+      {
+        "id": 4151,
+        "awards": []
+      },
+      {
+        "id": 4216,
+        "awards": []
+      },
+      {
+        "id": 4217,
+        "awards": []
+      },
+      {
+        "id": 643,
+        "awards": []
+      },
+      {
+        "id": 4218,
+        "awards": []
+      },
+      {
+        "id": 1671,
+        "awards": [
+          "Best Performance by a Male Actor in a Motion Picture – Musical or Comedy"
+        ]
+      },
+      {
+        "id": 1665,
+        "awards": []
+      },
+      {
+        "id": 4150,
+        "awards": []
+      },
+      {
+        "id": 4148,
+        "awards": []
+      },
+      {
+        "id": 4143,
+        "awards": []
+      }
+    ]
+  },
+  {
+    "event": "Cannes",
+    "year": 2006,
+    "section": "Official Selection",
+    "source": "https://www.festival-cannes.com/en/retrospective/2006/selection/",
+    "awardsSource": "https://www.festival-cannes.com/en/retrospective/2006/awards/",
+    "resultsUrl": "https://www.festival-cannes.com/en/retrospective/2006/awards/",
+    "categories": [
+      {
+        "id": "main-competition",
+        "name": "Main Competition",
+        "nomination_kind": "competition",
+        "source": "https://www.festival-cannes.com/en/retrospective/2006/selection/",
+        "awardsSource": "https://www.festival-cannes.com/en/retrospective/2006/awards/",
+        "entries": [
+          {
+            "film_id": 768,
+            "winner": true,
+            "prizes": [
+              "Award for Best Director · Alejandro González IÑÁRRITU"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 4615,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4084,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4224,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4226,
+            "winner": true,
+            "prizes": [
+              "Grand Prix"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 741,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4220,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4221,
+            "winner": true,
+            "prizes": [
+              "Award for Best Actor (Ex-Aequo) · Roschdy ZEM, Bernard BLANCAN, Jamel DEBBOUZE, Samy NACERI, Sami BOUAJILA"
+            ],
+            "prize_rank": 6
+          },
+          {
+            "film_id": 4222,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4223,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4225,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4227,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4232,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4241,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4228,
+            "winner": true,
+            "prizes": [
+              "Jury Prize"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 4230,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4229,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4231,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 746,
+            "winner": true,
+            "prizes": [
+              "Palme d'or"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 4076,
+            "winner": true,
+            "prizes": [
+              "Award for Best Screenplay · Pedro ALMODÓVAR",
+              "Award for Best Actress (Ex-Aequo) · Chus LAMPREAVE, Yohana COBO, Blanca PORTILLO, Lola DUEÑAS, Carmen MAURA, Penélope CRUZ"
+            ],
+            "prize_rank": 3
+          }
+        ],
+        "nominees": [
+          768,
+          4615,
+          4084,
+          4224,
+          4226,
+          741,
+          4220,
+          4221,
+          4222,
+          4223,
+          4225,
+          4227,
+          4232,
+          4241,
+          4228,
+          4230,
+          4229,
+          4231,
+          746,
+          4076
+        ],
+        "winners": [
+          746,
+          4226,
+          768,
+          4076,
+          4228,
+          4221
+        ],
+        "winner": 746
+      },
+      {
+        "id": "un-certain-regard",
+        "name": "Un Certain Regard",
+        "nomination_kind": "competition",
+        "source": "https://www.festival-cannes.com/en/retrospective/2006/selection/",
+        "awardsSource": "https://www.festival-cannes.com/en/retrospective/2006/awards/",
+        "entries": [
+          {
+            "film_id": 4234,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4233,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4614,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4242,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4236,
+            "winner": true,
+            "prizes": [
+              "Un Certain Regard Award for Best Actress · Dorotheea PETRE"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 4235,
+            "winner": true,
+            "prizes": [
+              "Un Certain Regard Award for Best Actor · Don Angel TAVIRA"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 4616,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4237,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4240,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4238,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4239,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4243,
+            "winner": true,
+            "prizes": [
+              "Un Certain Regard Prize - Groupama Gan Foundation for Cinema"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 4246,
+            "winner": true,
+            "prizes": [
+              "Prix du Président du Jury Un Certain Regard"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 1706,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4629,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4251,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4250,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4244,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4617,
+            "winner": true,
+            "prizes": [
+              "Un Certain Regard Special Jury Prize"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 4245,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4618,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4247,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4248,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4249,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          }
+        ],
+        "nominees": [
+          4234,
+          4233,
+          4614,
+          4242,
+          4236,
+          4235,
+          4616,
+          4237,
+          4240,
+          4238,
+          4239,
+          4243,
+          4246,
+          1706,
+          4629,
+          4251,
+          4250,
+          4244,
+          4617,
+          4245,
+          4618,
+          4247,
+          4248,
+          4249
+        ],
+        "winners": [
+          4243,
+          4236,
+          4617,
+          4235,
+          4246
+        ],
+        "winner": 4243
+      }
+    ],
+    "films": [
+      {
+        "id": 768,
+        "awards": [
+          "Award for Best Director · Alejandro González IÑÁRRITU"
+        ]
+      },
+      {
+        "id": 4615,
+        "awards": []
+      },
+      {
+        "id": 4084,
+        "awards": []
+      },
+      {
+        "id": 4224,
+        "awards": []
+      },
+      {
+        "id": 4226,
+        "awards": [
+          "Grand Prix"
+        ]
+      },
+      {
+        "id": 741,
+        "awards": []
+      },
+      {
+        "id": 4220,
+        "awards": []
+      },
+      {
+        "id": 4221,
+        "awards": [
+          "Award for Best Actor (Ex-Aequo) · Roschdy ZEM, Bernard BLANCAN, Jamel DEBBOUZE, Samy NACERI, Sami BOUAJILA"
+        ]
+      },
+      {
+        "id": 4222,
+        "awards": []
+      },
+      {
+        "id": 4223,
+        "awards": []
+      },
+      {
+        "id": 4225,
+        "awards": []
+      },
+      {
+        "id": 4227,
+        "awards": []
+      },
+      {
+        "id": 4232,
+        "awards": []
+      },
+      {
+        "id": 4241,
+        "awards": []
+      },
+      {
+        "id": 4228,
+        "awards": [
+          "Jury Prize"
+        ]
+      },
+      {
+        "id": 4230,
+        "awards": []
+      },
+      {
+        "id": 4229,
+        "awards": []
+      },
+      {
+        "id": 4231,
+        "awards": []
+      },
+      {
+        "id": 746,
+        "awards": [
+          "Palme d'or"
+        ]
+      },
+      {
+        "id": 4076,
+        "awards": [
+          "Award for Best Screenplay · Pedro ALMODÓVAR",
+          "Award for Best Actress (Ex-Aequo) · Chus LAMPREAVE, Yohana COBO, Blanca PORTILLO, Lola DUEÑAS, Carmen MAURA, Penélope CRUZ"
+        ]
+      },
+      {
+        "id": 4234,
+        "awards": []
+      },
+      {
+        "id": 4233,
+        "awards": []
+      },
+      {
+        "id": 4614,
+        "awards": []
+      },
+      {
+        "id": 4242,
+        "awards": []
+      },
+      {
+        "id": 4236,
+        "awards": [
+          "Un Certain Regard Award for Best Actress · Dorotheea PETRE"
+        ]
+      },
+      {
+        "id": 4235,
+        "awards": [
+          "Un Certain Regard Award for Best Actor · Don Angel TAVIRA"
+        ]
+      },
+      {
+        "id": 4616,
+        "awards": []
+      },
+      {
+        "id": 4237,
+        "awards": []
+      },
+      {
+        "id": 4240,
+        "awards": []
+      },
+      {
+        "id": 4238,
+        "awards": []
+      },
+      {
+        "id": 4239,
+        "awards": []
+      },
+      {
+        "id": 4243,
+        "awards": [
+          "Un Certain Regard Prize - Groupama Gan Foundation for Cinema"
+        ]
+      },
+      {
+        "id": 4246,
+        "awards": [
+          "Prix du Président du Jury Un Certain Regard"
+        ]
+      },
+      {
+        "id": 1706,
+        "awards": []
+      },
+      {
+        "id": 4629,
+        "awards": []
+      },
+      {
+        "id": 4251,
+        "awards": []
+      },
+      {
+        "id": 4250,
+        "awards": []
+      },
+      {
+        "id": 4244,
+        "awards": []
+      },
+      {
+        "id": 4617,
+        "awards": [
+          "Un Certain Regard Special Jury Prize"
+        ]
+      },
+      {
+        "id": 4245,
+        "awards": []
+      },
+      {
+        "id": 4618,
+        "awards": []
+      },
+      {
+        "id": 4247,
+        "awards": []
+      },
+      {
+        "id": 4248,
+        "awards": []
+      },
+      {
+        "id": 4249,
+        "awards": []
+      }
+    ]
+  },
+  {
+    "event": "Cannes",
+    "year": 2007,
+    "section": "Official Selection",
+    "source": "https://www.festival-cannes.com/en/retrospective/2007/selection/",
+    "awardsSource": "https://www.festival-cannes.com/en/retrospective/2007/awards/",
+    "resultsUrl": "https://www.festival-cannes.com/en/retrospective/2007/awards/",
+    "categories": [
+      {
+        "id": "main-competition",
+        "name": "Main Competition",
+        "nomination_kind": "competition",
+        "source": "https://www.festival-cannes.com/en/retrospective/2007/selection/",
+        "awardsSource": "https://www.festival-cannes.com/en/retrospective/2007/awards/",
+        "entries": [
+          {
+            "film_id": 1700,
+            "winner": true,
+            "prizes": [
+              "Palme d'or"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 4630,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4253,
+            "winner": true,
+            "prizes": [
+              "Award for Best Screenplay · Fatih AKIN"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 715,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4261,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4252,
+            "winner": true,
+            "prizes": [
+              "Award for Best Actor · Konstantin LAVRONENKO"
+            ],
+            "prize_rank": 7
+          },
+          {
+            "film_id": 4096,
+            "winner": true,
+            "prizes": [
+              "Award for Best Director · Julian SCHNABEL"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 4254,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4256,
+            "winner": true,
+            "prizes": [
+              "Grand Prix"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 4255,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 1697,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4257,
+            "winner": true,
+            "prizes": [
+              "60th Anniversary Prize"
+            ],
+            "prize_rank": 8
+          },
+          {
+            "film_id": 709,
+            "winner": true,
+            "prizes": [
+              "Jury Prize (Ex-Aequo)"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 4258,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4259,
+            "winner": true,
+            "prizes": [
+              "Award for Best Actress · Do-Yeon JEON"
+            ],
+            "prize_rank": 6
+          },
+          {
+            "film_id": 4268,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4265,
+            "winner": true,
+            "prizes": [
+              "Jury Prize (Ex-Aequo)"
+            ],
+            "prize_rank": 5
+          },
+          {
+            "film_id": 4263,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4260,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4264,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4262,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 718,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          }
+        ],
+        "nominees": [
+          1700,
+          4630,
+          4253,
+          715,
+          4261,
+          4252,
+          4096,
+          4254,
+          4256,
+          4255,
+          1697,
+          4257,
+          709,
+          4258,
+          4259,
+          4268,
+          4265,
+          4263,
+          4260,
+          4264,
+          4262,
+          718
+        ],
+        "winners": [
+          1700,
+          4256,
+          4096,
+          4253,
+          709,
+          4265,
+          4259,
+          4252,
+          4257
+        ],
+        "winner": 1700
+      },
+      {
+        "id": "un-certain-regard",
+        "name": "Un Certain Regard",
+        "nomination_kind": "competition",
+        "source": "https://www.festival-cannes.com/en/retrospective/2007/selection/",
+        "awardsSource": "https://www.festival-cannes.com/en/retrospective/2007/awards/",
+        "entries": [
+          {
+            "film_id": 4267,
+            "winner": true,
+            "prizes": [
+              "Un Certain Regard Special Jury Prize"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 4266,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4273,
+            "winner": true,
+            "prizes": [
+              "Un Certain Regard Jury's \"Coup de Coeur\""
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 4643,
+            "winner": true,
+            "prizes": [
+              "Un Certain Regard Prize - Groupama Gan Foundation for Cinema"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 4271,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4276,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4619,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4269,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4270,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4279,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4278,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4272,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4274,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4275,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4283,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4277,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4280,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4620,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4281,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4286,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          }
+        ],
+        "nominees": [
+          4267,
+          4266,
+          4273,
+          4643,
+          4271,
+          4276,
+          4619,
+          4269,
+          4270,
+          4279,
+          4278,
+          4272,
+          4274,
+          4275,
+          4283,
+          4277,
+          4280,
+          4620,
+          4281,
+          4286
+        ],
+        "winners": [
+          4643,
+          4267,
+          4273
+        ],
+        "winner": 4643
+      }
+    ],
+    "films": [
+      {
+        "id": 1700,
+        "awards": [
+          "Palme d'or"
+        ]
+      },
+      {
+        "id": 4630,
+        "awards": []
+      },
+      {
+        "id": 4253,
+        "awards": [
+          "Award for Best Screenplay · Fatih AKIN"
+        ]
+      },
+      {
+        "id": 715,
+        "awards": []
+      },
+      {
+        "id": 4261,
+        "awards": []
+      },
+      {
+        "id": 4252,
+        "awards": [
+          "Award for Best Actor · Konstantin LAVRONENKO"
+        ]
+      },
+      {
+        "id": 4096,
+        "awards": [
+          "Award for Best Director · Julian SCHNABEL"
+        ]
+      },
+      {
+        "id": 4254,
+        "awards": []
+      },
+      {
+        "id": 4256,
+        "awards": [
+          "Grand Prix"
+        ]
+      },
+      {
+        "id": 4255,
+        "awards": []
+      },
+      {
+        "id": 1697,
+        "awards": []
+      },
+      {
+        "id": 4257,
+        "awards": [
+          "60th Anniversary Prize"
+        ]
+      },
+      {
+        "id": 709,
+        "awards": [
+          "Jury Prize (Ex-Aequo)"
+        ]
+      },
+      {
+        "id": 4258,
+        "awards": []
+      },
+      {
+        "id": 4259,
+        "awards": [
+          "Award for Best Actress · Do-Yeon JEON"
+        ]
+      },
+      {
+        "id": 4268,
+        "awards": []
+      },
+      {
+        "id": 4265,
+        "awards": [
+          "Jury Prize (Ex-Aequo)"
+        ]
+      },
+      {
+        "id": 4263,
+        "awards": []
+      },
+      {
+        "id": 4260,
+        "awards": []
+      },
+      {
+        "id": 4264,
+        "awards": []
+      },
+      {
+        "id": 4262,
+        "awards": []
+      },
+      {
+        "id": 718,
+        "awards": []
+      },
+      {
+        "id": 4267,
+        "awards": [
+          "Un Certain Regard Special Jury Prize"
+        ]
+      },
+      {
+        "id": 4266,
+        "awards": []
+      },
+      {
+        "id": 4273,
+        "awards": [
+          "Un Certain Regard Jury's \"Coup de Coeur\""
+        ]
+      },
+      {
+        "id": 4643,
+        "awards": [
+          "Un Certain Regard Prize - Groupama Gan Foundation for Cinema"
+        ]
+      },
+      {
+        "id": 4271,
+        "awards": []
+      },
+      {
+        "id": 4276,
+        "awards": []
+      },
+      {
+        "id": 4619,
+        "awards": []
+      },
+      {
+        "id": 4269,
+        "awards": []
+      },
+      {
+        "id": 4270,
+        "awards": []
+      },
+      {
+        "id": 4279,
+        "awards": []
+      },
+      {
+        "id": 4278,
+        "awards": []
+      },
+      {
+        "id": 4272,
+        "awards": []
+      },
+      {
+        "id": 4274,
+        "awards": []
+      },
+      {
+        "id": 4275,
+        "awards": []
+      },
+      {
+        "id": 4283,
+        "awards": []
+      },
+      {
+        "id": 4277,
+        "awards": []
+      },
+      {
+        "id": 4280,
+        "awards": []
+      },
+      {
+        "id": 4620,
+        "awards": []
+      },
+      {
+        "id": 4281,
+        "awards": []
+      },
+      {
+        "id": 4286,
+        "awards": []
+      }
+    ]
+  },
+  {
+    "event": "Cannes",
+    "year": 2008,
+    "section": "Official Selection",
+    "source": "https://www.festival-cannes.com/en/retrospective/2008/selection/",
+    "awardsSource": "https://www.festival-cannes.com/en/retrospective/2008/awards/",
+    "resultsUrl": "https://www.festival-cannes.com/en/retrospective/2008/awards/",
+    "categories": [
+      {
+        "id": "main-competition",
+        "name": "Main Competition",
+        "nomination_kind": "competition",
+        "source": "https://www.festival-cannes.com/en/retrospective/2008/selection/",
+        "awardsSource": "https://www.festival-cannes.com/en/retrospective/2008/awards/",
+        "entries": [
+          {
+            "film_id": 4284,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4288,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4282,
+            "winner": true,
+            "prizes": [
+              "Award for Best Actor · Benicio DEL TORO"
+            ],
+            "prize_rank": 6
+          },
+          {
+            "film_id": 4285,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4289,
+            "winner": true,
+            "prizes": [
+              "Palme d'or"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 4621,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4175,
+            "winner": true,
+            "prizes": [
+              "Grand Prix"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 4287,
+            "winner": true,
+            "prizes": [
+              "Jury Prize"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 4132,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4290,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4291,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4292,
+            "winner": true,
+            "prizes": [
+              "Award for Best Screenplay · Jean-Pierre DARDENNE, Luc DARDENNE"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 4293,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4294,
+            "winner": true,
+            "prizes": [
+              "Award for Best Actress · Sandra CORVELONI"
+            ],
+            "prize_rank": 5
+          },
+          {
+            "film_id": 4622,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4296,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4623,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4295,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 1679,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4297,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4135,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 665,
+            "winner": true,
+            "prizes": [
+              "Award for Best Director · Nuri Bilge CEYLAN"
+            ],
+            "prize_rank": 2
+          }
+        ],
+        "nominees": [
+          4284,
+          4288,
+          4282,
+          4285,
+          4289,
+          4621,
+          4175,
+          4287,
+          4132,
+          4290,
+          4291,
+          4292,
+          4293,
+          4294,
+          4622,
+          4296,
+          4623,
+          4295,
+          1679,
+          4297,
+          4135,
+          665
+        ],
+        "winners": [
+          4289,
+          4175,
+          665,
+          4292,
+          4287,
+          4294,
+          4282
+        ],
+        "winner": 4289
+      },
+      {
+        "id": "un-certain-regard",
+        "name": "Un Certain Regard",
+        "nomination_kind": "competition",
+        "source": "https://www.festival-cannes.com/en/retrospective/2008/selection/",
+        "awardsSource": "https://www.festival-cannes.com/en/retrospective/2008/awards/",
+        "entries": [
+          {
+            "film_id": 4298,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4299,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4301,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4300,
+            "winner": true,
+            "prizes": [
+              "Caméra d'or"
+            ],
+            "prize_rank": 5
+          },
+          {
+            "film_id": 4305,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4303,
+            "winner": true,
+            "prizes": [
+              "Prize of Hope"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 4311,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4302,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4304,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4306,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4307,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4308,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4625,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4309,
+            "winner": true,
+            "prizes": [
+              "Jury's Prize - Un Certain Regard"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 4310,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4624,
+            "winner": true,
+            "prizes": [
+              "Un Certain Regard Prize - Groupama Gan Foundation for Cinema"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 4318,
+            "winner": true,
+            "prizes": [
+              "Knockout Prize"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 4312,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4313,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4322,
+            "winner": true,
+            "prizes": [
+              "Un Certain Regard Jury's \"Coup de Coeur\""
+            ],
+            "prize_rank": 4
+          }
+        ],
+        "nominees": [
+          4298,
+          4299,
+          4301,
+          4300,
+          4305,
+          4303,
+          4311,
+          4302,
+          4304,
+          4306,
+          4307,
+          4308,
+          4625,
+          4309,
+          4310,
+          4624,
+          4318,
+          4312,
+          4313,
+          4322
+        ],
+        "winners": [
+          4624,
+          4309,
+          4318,
+          4303,
+          4322,
+          4300
+        ],
+        "winner": 4624
+      }
+    ],
+    "films": [
+      {
+        "id": 4284,
+        "awards": []
+      },
+      {
+        "id": 4288,
+        "awards": []
+      },
+      {
+        "id": 4282,
+        "awards": [
+          "Award for Best Actor · Benicio DEL TORO"
+        ]
+      },
+      {
+        "id": 4285,
+        "awards": []
+      },
+      {
+        "id": 4289,
+        "awards": [
+          "Palme d'or"
+        ]
+      },
+      {
+        "id": 4621,
+        "awards": []
+      },
+      {
+        "id": 4175,
+        "awards": [
+          "Grand Prix"
+        ]
+      },
+      {
+        "id": 4287,
+        "awards": [
+          "Jury Prize"
+        ]
+      },
+      {
+        "id": 4132,
+        "awards": []
+      },
+      {
+        "id": 4290,
+        "awards": []
+      },
+      {
+        "id": 4291,
+        "awards": []
+      },
+      {
+        "id": 4292,
+        "awards": [
+          "Award for Best Screenplay · Jean-Pierre DARDENNE, Luc DARDENNE"
+        ]
+      },
+      {
+        "id": 4293,
+        "awards": []
+      },
+      {
+        "id": 4294,
+        "awards": [
+          "Award for Best Actress · Sandra CORVELONI"
+        ]
+      },
+      {
+        "id": 4622,
+        "awards": []
+      },
+      {
+        "id": 4296,
+        "awards": []
+      },
+      {
+        "id": 4623,
+        "awards": []
+      },
+      {
+        "id": 4295,
+        "awards": []
+      },
+      {
+        "id": 1679,
+        "awards": []
+      },
+      {
+        "id": 4297,
+        "awards": []
+      },
+      {
+        "id": 4135,
+        "awards": []
+      },
+      {
+        "id": 665,
+        "awards": [
+          "Award for Best Director · Nuri Bilge CEYLAN"
+        ]
+      },
+      {
+        "id": 4298,
+        "awards": []
+      },
+      {
+        "id": 4299,
+        "awards": []
+      },
+      {
+        "id": 4301,
+        "awards": []
+      },
+      {
+        "id": 4300,
+        "awards": [
+          "Caméra d'or"
+        ]
+      },
+      {
+        "id": 4305,
+        "awards": []
+      },
+      {
+        "id": 4303,
+        "awards": [
+          "Prize of Hope"
+        ]
+      },
+      {
+        "id": 4311,
+        "awards": []
+      },
+      {
+        "id": 4302,
+        "awards": []
+      },
+      {
+        "id": 4304,
+        "awards": []
+      },
+      {
+        "id": 4306,
+        "awards": []
+      },
+      {
+        "id": 4307,
+        "awards": []
+      },
+      {
+        "id": 4308,
+        "awards": []
+      },
+      {
+        "id": 4625,
+        "awards": []
+      },
+      {
+        "id": 4309,
+        "awards": [
+          "Jury's Prize - Un Certain Regard"
+        ]
+      },
+      {
+        "id": 4310,
+        "awards": []
+      },
+      {
+        "id": 4624,
+        "awards": [
+          "Un Certain Regard Prize - Groupama Gan Foundation for Cinema"
+        ]
+      },
+      {
+        "id": 4318,
+        "awards": [
+          "Knockout Prize"
+        ]
+      },
+      {
+        "id": 4312,
+        "awards": []
+      },
+      {
+        "id": 4313,
+        "awards": []
+      },
+      {
+        "id": 4322,
+        "awards": [
+          "Un Certain Regard Jury's \"Coup de Coeur\""
+        ]
+      }
+    ]
+  },
+  {
+    "event": "Cannes",
+    "year": 2009,
+    "section": "Official Selection",
+    "source": "https://www.festival-cannes.com/en/retrospective/2009/selection/",
+    "awardsSource": "https://www.festival-cannes.com/en/retrospective/2009/awards/",
+    "resultsUrl": "https://www.festival-cannes.com/en/retrospective/2009/awards/",
+    "categories": [
+      {
+        "id": "main-competition",
+        "name": "Main Competition",
+        "nomination_kind": "competition",
+        "source": "https://www.festival-cannes.com/en/retrospective/2009/selection/",
+        "awardsSource": "https://www.festival-cannes.com/en/retrospective/2009/awards/",
+        "entries": [
+          {
+            "film_id": 644,
+            "winner": true,
+            "prizes": [
+              "Award for Best Actress · Charlotte GAINSBOURG"
+            ],
+            "prize_rank": 6
+          },
+          {
+            "film_id": 4315,
+            "winner": true,
+            "prizes": [
+              "Jury Prize (Ex-Aequo)"
+            ],
+            "prize_rank": 5
+          },
+          {
+            "film_id": 4314,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4316,
+            "winner": true,
+            "prizes": [
+              "Award for Best Screenplay · LOU Ye"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 1673,
+            "winner": true,
+            "prizes": [
+              "Palme d'or"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 4317,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4177,
+            "winner": true,
+            "prizes": [
+              "Jury Prize (Ex-Aequo)"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 641,
+            "winner": true,
+            "prizes": [
+              "Award for Best Actor · Christoph WALTZ"
+            ],
+            "prize_rank": 7
+          },
+          {
+            "film_id": 4626,
+            "winner": true,
+            "prizes": [
+              "Award for Best Director · Brillante MENDOZA"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 4326,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4319,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4184,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4327,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4320,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4321,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4154,
+            "winner": true,
+            "prizes": [
+              "Grand Prix"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 4323,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4324,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4325,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4329,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          }
+        ],
+        "nominees": [
+          644,
+          4315,
+          4314,
+          4316,
+          1673,
+          4317,
+          4177,
+          641,
+          4626,
+          4326,
+          4319,
+          4184,
+          4327,
+          4320,
+          4321,
+          4154,
+          4323,
+          4324,
+          4325,
+          4329
+        ],
+        "winners": [
+          1673,
+          4154,
+          4626,
+          4316,
+          4177,
+          4315,
+          644,
+          641
+        ],
+        "winner": 1673
+      },
+      {
+        "id": "un-certain-regard",
+        "name": "Un Certain Regard",
+        "nomination_kind": "competition",
+        "source": "https://www.festival-cannes.com/en/retrospective/2009/selection/",
+        "awardsSource": "https://www.festival-cannes.com/en/retrospective/2009/awards/",
+        "entries": [
+          {
+            "film_id": 1669,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4338,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4331,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4328,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4332,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4330,
+            "winner": true,
+            "prizes": [
+              "Un Certain Regard Special Jury Prize (Ex-Aequo)"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 4335,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 631,
+            "winner": true,
+            "prizes": [
+              "Un Certain Regard Prize - Groupama Gan Foundation for Cinema"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 4334,
+            "winner": true,
+            "prizes": [
+              "Un Certain Regard Special Jury Prize (Ex-Aequo)"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 4333,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4337,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4336,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4341,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4339,
+            "winner": true,
+            "prizes": [
+              "Jury's Prize - Un Certain Regard"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 4144,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4340,
+            "winner": true,
+            "prizes": [
+              "Caméra d'or"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 4345,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4342,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4627,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4352,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          }
+        ],
+        "nominees": [
+          1669,
+          4338,
+          4331,
+          4328,
+          4332,
+          4330,
+          4335,
+          631,
+          4334,
+          4333,
+          4337,
+          4336,
+          4341,
+          4339,
+          4144,
+          4340,
+          4345,
+          4342,
+          4627,
+          4352
+        ],
+        "winners": [
+          631,
+          4339,
+          4334,
+          4330,
+          4340
+        ],
+        "winner": 631
+      }
+    ],
+    "films": [
+      {
+        "id": 644,
+        "awards": [
+          "Award for Best Actress · Charlotte GAINSBOURG"
+        ]
+      },
+      {
+        "id": 4315,
+        "awards": [
+          "Jury Prize (Ex-Aequo)"
+        ]
+      },
+      {
+        "id": 4314,
+        "awards": []
+      },
+      {
+        "id": 4316,
+        "awards": [
+          "Award for Best Screenplay · LOU Ye"
+        ]
+      },
+      {
+        "id": 1673,
+        "awards": [
+          "Palme d'or"
+        ]
+      },
+      {
+        "id": 4317,
+        "awards": []
+      },
+      {
+        "id": 4177,
+        "awards": [
+          "Jury Prize (Ex-Aequo)"
+        ]
+      },
+      {
+        "id": 641,
+        "awards": [
+          "Award for Best Actor · Christoph WALTZ"
+        ]
+      },
+      {
+        "id": 4626,
+        "awards": [
+          "Award for Best Director · Brillante MENDOZA"
+        ]
+      },
+      {
+        "id": 4326,
+        "awards": []
+      },
+      {
+        "id": 4319,
+        "awards": []
+      },
+      {
+        "id": 4184,
+        "awards": []
+      },
+      {
+        "id": 4327,
+        "awards": []
+      },
+      {
+        "id": 4320,
+        "awards": []
+      },
+      {
+        "id": 4321,
+        "awards": []
+      },
+      {
+        "id": 4154,
+        "awards": [
+          "Grand Prix"
+        ]
+      },
+      {
+        "id": 4323,
+        "awards": []
+      },
+      {
+        "id": 4324,
+        "awards": []
+      },
+      {
+        "id": 4325,
+        "awards": []
+      },
+      {
+        "id": 4329,
+        "awards": []
+      },
+      {
+        "id": 1669,
+        "awards": []
+      },
+      {
+        "id": 4338,
+        "awards": []
+      },
+      {
+        "id": 4331,
+        "awards": []
+      },
+      {
+        "id": 4328,
+        "awards": []
+      },
+      {
+        "id": 4332,
+        "awards": []
+      },
+      {
+        "id": 4330,
+        "awards": [
+          "Un Certain Regard Special Jury Prize (Ex-Aequo)"
+        ]
+      },
+      {
+        "id": 4335,
+        "awards": []
+      },
+      {
+        "id": 631,
+        "awards": [
+          "Un Certain Regard Prize - Groupama Gan Foundation for Cinema"
+        ]
+      },
+      {
+        "id": 4334,
+        "awards": [
+          "Un Certain Regard Special Jury Prize (Ex-Aequo)"
+        ]
+      },
+      {
+        "id": 4333,
+        "awards": []
+      },
+      {
+        "id": 4337,
+        "awards": []
+      },
+      {
+        "id": 4336,
+        "awards": []
+      },
+      {
+        "id": 4341,
+        "awards": []
+      },
+      {
+        "id": 4339,
+        "awards": [
+          "Jury's Prize - Un Certain Regard"
+        ]
+      },
+      {
+        "id": 4144,
+        "awards": []
+      },
+      {
+        "id": 4340,
+        "awards": [
+          "Caméra d'or"
+        ]
+      },
+      {
+        "id": 4345,
+        "awards": []
+      },
+      {
+        "id": 4342,
+        "awards": []
+      },
+      {
+        "id": 4627,
+        "awards": []
+      },
+      {
+        "id": 4352,
+        "awards": []
+      }
+    ]
+  },
+  {
+    "event": "Cannes",
+    "year": 2010,
+    "section": "Official Selection",
+    "source": "https://www.festival-cannes.com/en/retrospective/2010/selection/",
+    "awardsSource": "https://www.festival-cannes.com/en/retrospective/2010/awards/",
+    "resultsUrl": "https://www.festival-cannes.com/en/retrospective/2010/awards/",
+    "categories": [
+      {
+        "id": "main-competition",
+        "name": "Main Competition",
+        "nomination_kind": "competition",
+        "source": "https://www.festival-cannes.com/en/retrospective/2010/selection/",
+        "awardsSource": "https://www.festival-cannes.com/en/retrospective/2010/awards/",
+        "entries": [
+          {
+            "film_id": 3494,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 651,
+            "winner": true,
+            "prizes": [
+              "Award for Best Actor (Ex-Aequo) · Javier BARDEM"
+            ],
+            "prize_rank": 7
+          },
+          {
+            "film_id": 4343,
+            "winner": true,
+            "prizes": [
+              "Award for Best Actress · Juliette BINOCHE"
+            ],
+            "prize_rank": 5
+          },
+          {
+            "film_id": 3567,
+            "winner": true,
+            "prizes": [
+              "Grand Prix"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 4344,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4002,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4350,
+            "winner": true,
+            "prizes": [
+              "Award for Best Actor (Ex-Aequo) · Elio GERMANO"
+            ],
+            "prize_rank": 6
+          },
+          {
+            "film_id": 4351,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4346,
+            "winner": true,
+            "prizes": [
+              "Palme d'or"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 4347,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4348,
+            "winner": true,
+            "prizes": [
+              "Award for Best Screenplay · LEE Chang-Dong"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 4353,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4349,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4357,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4354,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4360,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4364,
+            "winner": true,
+            "prizes": [
+              "Award for Best Director · Mathieu AMALRIC"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 4355,
+            "winner": true,
+            "prizes": [
+              "Jury Prize"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 4632,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          }
+        ],
+        "nominees": [
+          3494,
+          651,
+          4343,
+          3567,
+          4344,
+          4002,
+          4350,
+          4351,
+          4346,
+          4347,
+          4348,
+          4353,
+          4349,
+          4357,
+          4354,
+          4360,
+          4364,
+          4355,
+          4632
+        ],
+        "winners": [
+          4346,
+          3567,
+          4364,
+          4348,
+          4355,
+          4343,
+          4350,
+          651
+        ],
+        "winner": 4346
+      },
+      {
+        "id": "un-certain-regard",
+        "name": "Un Certain Regard",
+        "nomination_kind": "competition",
+        "source": "https://www.festival-cannes.com/en/retrospective/2010/selection/",
+        "awardsSource": "https://www.festival-cannes.com/en/retrospective/2010/awards/",
+        "entries": [
+          {
+            "film_id": 4356,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 3491,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4358,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4359,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4361,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4362,
+            "winner": true,
+            "prizes": [
+              "Un Certain Regard Prize - Groupama Gan Foundation for Cinema"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 4368,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4375,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4363,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4365,
+            "winner": true,
+            "prizes": [
+              "Un Certain Regard Award for Best Actress · Adela SANCHEZ, Victoria RAPOSO, Eva BIANCO"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 4366,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4367,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4628,
+            "winner": true,
+            "prizes": [
+              "Jury's Prize - Un Certain Regard"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 4370,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4369,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4371,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4379,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4385,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4372,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          }
+        ],
+        "nominees": [
+          4356,
+          3491,
+          4358,
+          4359,
+          4361,
+          4362,
+          4368,
+          4375,
+          4363,
+          4365,
+          4366,
+          4367,
+          4628,
+          4370,
+          4369,
+          4371,
+          4379,
+          4385,
+          4372
+        ],
+        "winners": [
+          4362,
+          4628,
+          4365
+        ],
+        "winner": 4362
+      }
+    ],
+    "films": [
+      {
+        "id": 3494,
+        "awards": []
+      },
+      {
+        "id": 651,
+        "awards": [
+          "Award for Best Actor (Ex-Aequo) · Javier BARDEM"
+        ]
+      },
+      {
+        "id": 4343,
+        "awards": [
+          "Award for Best Actress · Juliette BINOCHE"
+        ]
+      },
+      {
+        "id": 3567,
+        "awards": [
+          "Grand Prix"
+        ]
+      },
+      {
+        "id": 4344,
+        "awards": []
+      },
+      {
+        "id": 4002,
+        "awards": []
+      },
+      {
+        "id": 4350,
+        "awards": [
+          "Award for Best Actor (Ex-Aequo) · Elio GERMANO"
+        ]
+      },
+      {
+        "id": 4351,
+        "awards": []
+      },
+      {
+        "id": 4346,
+        "awards": [
+          "Palme d'or"
+        ]
+      },
+      {
+        "id": 4347,
+        "awards": []
+      },
+      {
+        "id": 4348,
+        "awards": [
+          "Award for Best Screenplay · LEE Chang-Dong"
+        ]
+      },
+      {
+        "id": 4353,
+        "awards": []
+      },
+      {
+        "id": 4349,
+        "awards": []
+      },
+      {
+        "id": 4357,
+        "awards": []
+      },
+      {
+        "id": 4354,
+        "awards": []
+      },
+      {
+        "id": 4360,
+        "awards": []
+      },
+      {
+        "id": 4364,
+        "awards": [
+          "Award for Best Director · Mathieu AMALRIC"
+        ]
+      },
+      {
+        "id": 4355,
+        "awards": [
+          "Jury Prize"
+        ]
+      },
+      {
+        "id": 4632,
+        "awards": []
+      },
+      {
+        "id": 4356,
+        "awards": []
+      },
+      {
+        "id": 3491,
+        "awards": []
+      },
+      {
+        "id": 4358,
+        "awards": []
+      },
+      {
+        "id": 4359,
+        "awards": []
+      },
+      {
+        "id": 4361,
+        "awards": []
+      },
+      {
+        "id": 4362,
+        "awards": [
+          "Un Certain Regard Prize - Groupama Gan Foundation for Cinema"
+        ]
+      },
+      {
+        "id": 4368,
+        "awards": []
+      },
+      {
+        "id": 4375,
+        "awards": []
+      },
+      {
+        "id": 4363,
+        "awards": []
+      },
+      {
+        "id": 4365,
+        "awards": [
+          "Un Certain Regard Award for Best Actress · Adela SANCHEZ, Victoria RAPOSO, Eva BIANCO"
+        ]
+      },
+      {
+        "id": 4366,
+        "awards": []
+      },
+      {
+        "id": 4367,
+        "awards": []
+      },
+      {
+        "id": 4628,
+        "awards": [
+          "Jury's Prize - Un Certain Regard"
+        ]
+      },
+      {
+        "id": 4370,
+        "awards": []
+      },
+      {
+        "id": 4369,
+        "awards": []
+      },
+      {
+        "id": 4371,
+        "awards": []
+      },
+      {
+        "id": 4379,
+        "awards": []
+      },
+      {
+        "id": 4385,
+        "awards": []
+      },
+      {
+        "id": 4372,
+        "awards": []
+      }
+    ]
+  },
+  {
+    "event": "Venice",
+    "year": 2006,
+    "section": "Official Selection",
+    "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2006",
+    "awardsSource": "https://asac.labiennale.org/attivita/cinema/annali?anno=2006",
+    "resultsUrl": "https://asac.labiennale.org/attivita/cinema/annali?anno=2006",
+    "categories": [
+      {
+        "id": "venezia-competition",
+        "name": "Venezia Competition",
+        "nomination_kind": "competition",
+        "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2006",
+        "awardsSource": "https://asac.labiennale.org/attivita/cinema/annali?anno=2006",
+        "entries": [
+          {
+            "film_id": 4194,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4083,
+            "winner": true,
+            "prizes": [
+              "Best Technical Contribution · Emmanuel Lubezki"
+            ],
+            "prize_rank": 8
+          },
+          {
+            "film_id": 4374,
+            "winner": true,
+            "prizes": [
+              "Best Director · Alain Resnais"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 4373,
+            "winner": true,
+            "prizes": [
+              "Special Jury Prize"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 4631,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4634,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4378,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4377,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4198,
+            "winner": true,
+            "prizes": [
+              "Best Actor · Ben Affleck"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 4376,
+            "winner": true,
+            "prizes": [
+              "Marcello Mastroianni Award · Isild Le Besco"
+            ],
+            "prize_rank": 6
+          },
+          {
+            "film_id": 4388,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4380,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4381,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4383,
+            "winner": true,
+            "prizes": [
+              "Silver Lion — Revelation"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 4382,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4384,
+            "winner": true,
+            "prizes": [
+              "Special Lion for Cinematic Innovation · Danièle Huillet, Jean-Marie Straub"
+            ],
+            "prize_rank": 7
+          },
+          {
+            "film_id": 4633,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4386,
+            "winner": true,
+            "prizes": [
+              "Golden Lion"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 740,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 733,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4073,
+            "winner": true,
+            "prizes": [
+              "Best Actress · Helen Mirren",
+              "Best Screenplay · Peter Morgan"
+            ],
+            "prize_rank": 5
+          },
+          {
+            "film_id": 1708,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          }
+        ],
+        "nominees": [
+          4194,
+          4083,
+          4374,
+          4373,
+          4631,
+          4634,
+          4378,
+          4377,
+          4198,
+          4376,
+          4388,
+          4380,
+          4381,
+          4383,
+          4382,
+          4384,
+          4633,
+          4386,
+          740,
+          733,
+          4073,
+          1708
+        ],
+        "winners": [
+          4386,
+          4374,
+          4383,
+          4373,
+          4198,
+          4073,
+          4376,
+          4384,
+          4083
+        ],
+        "winner": 4386
+      },
+      {
+        "id": "orizzonti",
+        "name": "Orizzonti",
+        "nomination_kind": "competition",
+        "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2006",
+        "awardsSource": "https://asac.labiennale.org/attivita/cinema/annali?anno=2006",
+        "entries": [
+          {
+            "film_id": 4644,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4635,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4387,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4389,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4676,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4392,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4390,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4636,
+            "winner": true,
+            "prizes": [
+              "Orizzonti Award for Best Film"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 4642,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4391,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4393,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4637,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4397,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4396,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4638,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4640,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4394,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4395,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4639,
+            "winner": true,
+            "prizes": [
+              "Orizzonti Documentary Award"
+            ],
+            "prize_rank": 1
+          }
+        ],
+        "nominees": [
+          4644,
+          4635,
+          4387,
+          4389,
+          4676,
+          4392,
+          4390,
+          4636,
+          4642,
+          4391,
+          4393,
+          4637,
+          4397,
+          4396,
+          4638,
+          4640,
+          4394,
+          4395,
+          4639
+        ],
+        "winners": [
+          4636,
+          4639
+        ],
+        "winner": 4636
+      }
+    ],
+    "films": [
+      {
+        "id": 4194,
+        "awards": []
+      },
+      {
+        "id": 4083,
+        "awards": [
+          "Best Technical Contribution · Emmanuel Lubezki"
+        ]
+      },
+      {
+        "id": 4374,
+        "awards": [
+          "Best Director · Alain Resnais"
+        ]
+      },
+      {
+        "id": 4373,
+        "awards": [
+          "Special Jury Prize"
+        ]
+      },
+      {
+        "id": 4631,
+        "awards": []
+      },
+      {
+        "id": 4634,
+        "awards": []
+      },
+      {
+        "id": 4378,
+        "awards": []
+      },
+      {
+        "id": 4377,
+        "awards": []
+      },
+      {
+        "id": 4198,
+        "awards": [
+          "Best Actor · Ben Affleck"
+        ]
+      },
+      {
+        "id": 4376,
+        "awards": [
+          "Marcello Mastroianni Award · Isild Le Besco"
+        ]
+      },
+      {
+        "id": 4388,
+        "awards": []
+      },
+      {
+        "id": 4380,
+        "awards": []
+      },
+      {
+        "id": 4381,
+        "awards": []
+      },
+      {
+        "id": 4383,
+        "awards": [
+          "Silver Lion — Revelation"
+        ]
+      },
+      {
+        "id": 4382,
+        "awards": []
+      },
+      {
+        "id": 4384,
+        "awards": [
+          "Special Lion for Cinematic Innovation · Danièle Huillet, Jean-Marie Straub"
+        ]
+      },
+      {
+        "id": 4633,
+        "awards": []
+      },
+      {
+        "id": 4386,
+        "awards": [
+          "Golden Lion"
+        ]
+      },
+      {
+        "id": 740,
+        "awards": []
+      },
+      {
+        "id": 733,
+        "awards": []
+      },
+      {
+        "id": 4073,
+        "awards": [
+          "Best Actress · Helen Mirren",
+          "Best Screenplay · Peter Morgan"
+        ]
+      },
+      {
+        "id": 1708,
+        "awards": []
+      },
+      {
+        "id": 4644,
+        "awards": []
+      },
+      {
+        "id": 4635,
+        "awards": []
+      },
+      {
+        "id": 4387,
+        "awards": []
+      },
+      {
+        "id": 4389,
+        "awards": []
+      },
+      {
+        "id": 4676,
+        "awards": []
+      },
+      {
+        "id": 4392,
+        "awards": []
+      },
+      {
+        "id": 4390,
+        "awards": []
+      },
+      {
+        "id": 4636,
+        "awards": [
+          "Orizzonti Award for Best Film"
+        ]
+      },
+      {
+        "id": 4642,
+        "awards": []
+      },
+      {
+        "id": 4391,
+        "awards": []
+      },
+      {
+        "id": 4393,
+        "awards": []
+      },
+      {
+        "id": 4637,
+        "awards": []
+      },
+      {
+        "id": 4397,
+        "awards": []
+      },
+      {
+        "id": 4396,
+        "awards": []
+      },
+      {
+        "id": 4638,
+        "awards": []
+      },
+      {
+        "id": 4640,
+        "awards": []
+      },
+      {
+        "id": 4394,
+        "awards": []
+      },
+      {
+        "id": 4395,
+        "awards": []
+      },
+      {
+        "id": 4639,
+        "awards": [
+          "Orizzonti Documentary Award"
+        ]
+      }
+    ]
+  },
+  {
+    "event": "Venice",
+    "year": 2007,
+    "section": "Official Selection",
+    "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2007",
+    "awardsSource": "https://asac.labiennale.org/attivita/cinema/annali?anno=2007",
+    "resultsUrl": "https://asac.labiennale.org/attivita/cinema/annali?anno=2007",
+    "categories": [
+      {
+        "id": "venezia-competition",
+        "name": "Venezia Competition",
+        "nomination_kind": "competition",
+        "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2007",
+        "awardsSource": "https://asac.labiennale.org/attivita/cinema/annali?anno=2007",
+        "entries": [
+          {
+            "film_id": 708,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4097,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4641,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4398,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4658,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4104,
+            "winner": true,
+            "prizes": [
+              "Special Jury Prize",
+              "Best Actress · Cate Blanchett"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 4399,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4099,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4400,
+            "winner": true,
+            "prizes": [
+              "Best Screenplay · Paul Laverty"
+            ],
+            "prize_rank": 6
+          },
+          {
+            "film_id": 4402,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4650,
+            "winner": true,
+            "prizes": [
+              "Special Jury Prize",
+              "Marcello Mastroianni Award · Hafsia Herzi"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 4407,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4095,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4401,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4403,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4404,
+            "winner": true,
+            "prizes": [
+              "Best Director · Brian De Palma"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 4406,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4172,
+            "winner": true,
+            "prizes": [
+              "Golden Lion",
+              "Best Cinematography · Rodrigo Prieto"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 4405,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4408,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4662,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4108,
+            "winner": true,
+            "prizes": [
+              "Best Actor · Brad Pitt"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 699,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          }
+        ],
+        "nominees": [
+          708,
+          4097,
+          4641,
+          4398,
+          4658,
+          4104,
+          4399,
+          4099,
+          4400,
+          4402,
+          4650,
+          4407,
+          4095,
+          4401,
+          4403,
+          4404,
+          4406,
+          4172,
+          4405,
+          4408,
+          4662,
+          4108,
+          699
+        ],
+        "winners": [
+          4172,
+          4404,
+          4104,
+          4650,
+          4108,
+          4400
+        ],
+        "winner": 4172
+      },
+      {
+        "id": "orizzonti",
+        "name": "Orizzonti",
+        "nomination_kind": "competition",
+        "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2007",
+        "awardsSource": "https://asac.labiennale.org/attivita/cinema/annali?anno=2007",
+        "entries": [
+          {
+            "film_id": 4678,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4410,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4409,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4411,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4412,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4413,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4645,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4421,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4646,
+            "winner": true,
+            "prizes": [
+              "Special Mention — Orizzonti Jury"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 4424,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4414,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4680,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4415,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4419,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4416,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4417,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4647,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4418,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4425,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4420,
+            "winner": true,
+            "prizes": [
+              "Orizzonti Award for Best Film"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 4422,
+            "winner": true,
+            "prizes": [
+              "Orizzonti Documentary Award"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 4426,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          }
+        ],
+        "nominees": [
+          4678,
+          4410,
+          4409,
+          4411,
+          4412,
+          4413,
+          4645,
+          4421,
+          4646,
+          4424,
+          4414,
+          4680,
+          4415,
+          4419,
+          4416,
+          4417,
+          4647,
+          4418,
+          4425,
+          4420,
+          4422,
+          4426
+        ],
+        "winners": [
+          4420,
+          4422,
+          4646
+        ],
+        "winner": 4420
+      }
+    ],
+    "films": [
+      {
+        "id": 708,
+        "awards": []
+      },
+      {
+        "id": 4097,
+        "awards": []
+      },
+      {
+        "id": 4641,
+        "awards": []
+      },
+      {
+        "id": 4398,
+        "awards": []
+      },
+      {
+        "id": 4658,
+        "awards": []
+      },
+      {
+        "id": 4104,
+        "awards": [
+          "Special Jury Prize",
+          "Best Actress · Cate Blanchett"
+        ]
+      },
+      {
+        "id": 4399,
+        "awards": []
+      },
+      {
+        "id": 4099,
+        "awards": []
+      },
+      {
+        "id": 4400,
+        "awards": [
+          "Best Screenplay · Paul Laverty"
+        ]
+      },
+      {
+        "id": 4402,
+        "awards": []
+      },
+      {
+        "id": 4650,
+        "awards": [
+          "Special Jury Prize",
+          "Marcello Mastroianni Award · Hafsia Herzi"
+        ]
+      },
+      {
+        "id": 4407,
+        "awards": []
+      },
+      {
+        "id": 4095,
+        "awards": []
+      },
+      {
+        "id": 4401,
+        "awards": []
+      },
+      {
+        "id": 4403,
+        "awards": []
+      },
+      {
+        "id": 4404,
+        "awards": [
+          "Best Director · Brian De Palma"
+        ]
+      },
+      {
+        "id": 4406,
+        "awards": []
+      },
+      {
+        "id": 4172,
+        "awards": [
+          "Golden Lion",
+          "Best Cinematography · Rodrigo Prieto"
+        ]
+      },
+      {
+        "id": 4405,
+        "awards": []
+      },
+      {
+        "id": 4408,
+        "awards": []
+      },
+      {
+        "id": 4662,
+        "awards": []
+      },
+      {
+        "id": 4108,
+        "awards": [
+          "Best Actor · Brad Pitt"
+        ]
+      },
+      {
+        "id": 699,
+        "awards": []
+      },
+      {
+        "id": 4678,
+        "awards": []
+      },
+      {
+        "id": 4410,
+        "awards": []
+      },
+      {
+        "id": 4409,
+        "awards": []
+      },
+      {
+        "id": 4411,
+        "awards": []
+      },
+      {
+        "id": 4412,
+        "awards": []
+      },
+      {
+        "id": 4413,
+        "awards": []
+      },
+      {
+        "id": 4645,
+        "awards": []
+      },
+      {
+        "id": 4421,
+        "awards": []
+      },
+      {
+        "id": 4646,
+        "awards": [
+          "Special Mention — Orizzonti Jury"
+        ]
+      },
+      {
+        "id": 4424,
+        "awards": []
+      },
+      {
+        "id": 4414,
+        "awards": []
+      },
+      {
+        "id": 4680,
+        "awards": []
+      },
+      {
+        "id": 4415,
+        "awards": []
+      },
+      {
+        "id": 4419,
+        "awards": []
+      },
+      {
+        "id": 4416,
+        "awards": []
+      },
+      {
+        "id": 4417,
+        "awards": []
+      },
+      {
+        "id": 4647,
+        "awards": []
+      },
+      {
+        "id": 4418,
+        "awards": []
+      },
+      {
+        "id": 4425,
+        "awards": []
+      },
+      {
+        "id": 4420,
+        "awards": [
+          "Orizzonti Award for Best Film"
+        ]
+      },
+      {
+        "id": 4422,
+        "awards": [
+          "Orizzonti Documentary Award"
+        ]
+      },
+      {
+        "id": 4426,
+        "awards": []
+      }
+    ]
+  },
+  {
+    "event": "Venice",
+    "year": 2008,
+    "section": "Official Selection",
+    "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2008",
+    "awardsSource": "https://asac.labiennale.org/attivita/cinema/annali?anno=2008",
+    "resultsUrl": "https://asac.labiennale.org/attivita/cinema/annali?anno=2008",
+    "categories": [
+      {
+        "id": "venezia-competition",
+        "name": "Venezia Competition",
+        "nomination_kind": "competition",
+        "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2008",
+        "awardsSource": "https://asac.labiennale.org/attivita/cinema/annali?anno=2008",
+        "entries": [
+          {
+            "film_id": 4648,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4423,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 663,
+            "winner": true,
+            "prizes": [
+              "Best Director · Aleksei German Jr.",
+              "Best Cinematography · Alisher Khamidkhodjaev, Maksim Drozdov"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 4439,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4433,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4436,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4428,
+            "winner": true,
+            "prizes": [
+              "Best Actor · Silvio Orlando"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 4427,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4429,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4430,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4649,
+            "winner": true,
+            "prizes": [
+              "Best Actress · Dominique Blanc"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 4431,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4126,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4432,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4434,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4437,
+            "winner": true,
+            "prizes": [
+              "Special Jury Prize",
+              "Best Screenplay · Haile Gerima"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 4435,
+            "winner": true,
+            "prizes": [
+              "Marcello Mastroianni Award · Jennifer Lawrence"
+            ],
+            "prize_rank": 5
+          },
+          {
+            "film_id": 4142,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 659,
+            "winner": true,
+            "prizes": [
+              "Golden Lion"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 4458,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4438,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          }
+        ],
+        "nominees": [
+          4648,
+          4423,
+          663,
+          4439,
+          4433,
+          4436,
+          4428,
+          4427,
+          4429,
+          4430,
+          4649,
+          4431,
+          4126,
+          4432,
+          4434,
+          4437,
+          4435,
+          4142,
+          659,
+          4458,
+          4438
+        ],
+        "winners": [
+          659,
+          663,
+          4437,
+          4428,
+          4649,
+          4435
+        ],
+        "winner": 659
+      },
+      {
+        "id": "orizzonti",
+        "name": "Orizzonti",
+        "nomination_kind": "competition",
+        "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2008",
+        "awardsSource": "https://asac.labiennale.org/attivita/cinema/annali?anno=2008",
+        "entries": [
+          {
+            "film_id": 4441,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4440,
+            "winner": true,
+            "prizes": [
+              "Orizzonti Documentary Award"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 4442,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4444,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4443,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4677,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4445,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4651,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4448,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4452,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4447,
+            "winner": true,
+            "prizes": [
+              "Orizzonti Award for Best Film"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 4446,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4449,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4656,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4451,
+            "winner": true,
+            "prizes": [
+              "Special Mention — Orizzonti Jury"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 4450,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4453,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4460,
+            "winner": true,
+            "prizes": [
+              "Special Mention — Orizzonti Jury"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 4454,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4455,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          }
+        ],
+        "nominees": [
+          4441,
+          4440,
+          4442,
+          4444,
+          4443,
+          4677,
+          4445,
+          4651,
+          4448,
+          4452,
+          4447,
+          4446,
+          4449,
+          4656,
+          4451,
+          4450,
+          4453,
+          4460,
+          4454,
+          4455
+        ],
+        "winners": [
+          4447,
+          4440,
+          4451,
+          4460
+        ],
+        "winner": 4447
+      }
+    ],
+    "films": [
+      {
+        "id": 4648,
+        "awards": []
+      },
+      {
+        "id": 4423,
+        "awards": []
+      },
+      {
+        "id": 663,
+        "awards": [
+          "Best Director · Aleksei German Jr.",
+          "Best Cinematography · Alisher Khamidkhodjaev, Maksim Drozdov"
+        ]
+      },
+      {
+        "id": 4439,
+        "awards": []
+      },
+      {
+        "id": 4433,
+        "awards": []
+      },
+      {
+        "id": 4436,
+        "awards": []
+      },
+      {
+        "id": 4428,
+        "awards": [
+          "Best Actor · Silvio Orlando"
+        ]
+      },
+      {
+        "id": 4427,
+        "awards": []
+      },
+      {
+        "id": 4429,
+        "awards": []
+      },
+      {
+        "id": 4430,
+        "awards": []
+      },
+      {
+        "id": 4649,
+        "awards": [
+          "Best Actress · Dominique Blanc"
+        ]
+      },
+      {
+        "id": 4431,
+        "awards": []
+      },
+      {
+        "id": 4126,
+        "awards": []
+      },
+      {
+        "id": 4432,
+        "awards": []
+      },
+      {
+        "id": 4434,
+        "awards": []
+      },
+      {
+        "id": 4437,
+        "awards": [
+          "Special Jury Prize",
+          "Best Screenplay · Haile Gerima"
+        ]
+      },
+      {
+        "id": 4435,
+        "awards": [
+          "Marcello Mastroianni Award · Jennifer Lawrence"
+        ]
+      },
+      {
+        "id": 4142,
+        "awards": []
+      },
+      {
+        "id": 659,
+        "awards": [
+          "Golden Lion"
+        ]
+      },
+      {
+        "id": 4458,
+        "awards": []
+      },
+      {
+        "id": 4438,
+        "awards": []
+      },
+      {
+        "id": 4441,
+        "awards": []
+      },
+      {
+        "id": 4440,
+        "awards": [
+          "Orizzonti Documentary Award"
+        ]
+      },
+      {
+        "id": 4442,
+        "awards": []
+      },
+      {
+        "id": 4444,
+        "awards": []
+      },
+      {
+        "id": 4443,
+        "awards": []
+      },
+      {
+        "id": 4677,
+        "awards": []
+      },
+      {
+        "id": 4445,
+        "awards": []
+      },
+      {
+        "id": 4651,
+        "awards": []
+      },
+      {
+        "id": 4448,
+        "awards": []
+      },
+      {
+        "id": 4452,
+        "awards": []
+      },
+      {
+        "id": 4447,
+        "awards": [
+          "Orizzonti Award for Best Film"
+        ]
+      },
+      {
+        "id": 4446,
+        "awards": []
+      },
+      {
+        "id": 4449,
+        "awards": []
+      },
+      {
+        "id": 4656,
+        "awards": []
+      },
+      {
+        "id": 4451,
+        "awards": [
+          "Special Mention — Orizzonti Jury"
+        ]
+      },
+      {
+        "id": 4450,
+        "awards": []
+      },
+      {
+        "id": 4453,
+        "awards": []
+      },
+      {
+        "id": 4460,
+        "awards": [
+          "Special Mention — Orizzonti Jury"
+        ]
+      },
+      {
+        "id": 4454,
+        "awards": []
+      },
+      {
+        "id": 4455,
+        "awards": []
+      }
+    ]
+  },
+  {
+    "event": "Venice",
+    "year": 2009,
+    "section": "Official Selection",
+    "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2009",
+    "awardsSource": "https://asac.labiennale.org/attivita/cinema/annali?anno=2009",
+    "resultsUrl": "https://asac.labiennale.org/attivita/cinema/annali?anno=2009",
+    "categories": [
+      {
+        "id": "venezia-competition",
+        "name": "Venezia Competition",
+        "nomination_kind": "competition",
+        "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2009",
+        "awardsSource": "https://asac.labiennale.org/attivita/cinema/annali?anno=2009",
+        "entries": [
+          {
+            "film_id": 4456,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4146,
+            "winner": true,
+            "prizes": [
+              "Best Actor · Colin Firth"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 4461,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4457,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4219,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4459,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4463,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4466,
+            "winner": true,
+            "prizes": [
+              "Marcello Mastroianni Award · Jasmine Trinca"
+            ],
+            "prize_rank": 5
+          },
+          {
+            "film_id": 4462,
+            "winner": true,
+            "prizes": [
+              "Best Actress · Kseniya Rappoport"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 4467,
+            "winner": true,
+            "prizes": [
+              "Golden Lion"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 4465,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4464,
+            "winner": true,
+            "prizes": [
+              "Best Screenplay · Todd Solondz"
+            ],
+            "prize_rank": 6
+          },
+          {
+            "film_id": 4469,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4652,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4468,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 624,
+            "winner": true,
+            "prizes": [
+              "Best Technical Contribution · Sylvie Olivé"
+            ],
+            "prize_rank": 7
+          },
+          {
+            "film_id": 4471,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4474,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4470,
+            "winner": true,
+            "prizes": [
+              "Special Jury Prize"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 4473,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4472,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4475,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4476,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4653,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4654,
+            "winner": true,
+            "prizes": [
+              "Best Director · Shirin Neshat"
+            ],
+            "prize_rank": 1
+          }
+        ],
+        "nominees": [
+          4456,
+          4146,
+          4461,
+          4457,
+          4219,
+          4459,
+          4463,
+          4466,
+          4462,
+          4467,
+          4465,
+          4464,
+          4469,
+          4652,
+          4468,
+          624,
+          4471,
+          4474,
+          4470,
+          4473,
+          4472,
+          4475,
+          4476,
+          4653,
+          4654
+        ],
+        "winners": [
+          4467,
+          4654,
+          4470,
+          4146,
+          4462,
+          4466,
+          4464,
+          624
+        ],
+        "winner": 4467
+      },
+      {
+        "id": "orizzonti",
+        "name": "Orizzonti",
+        "nomination_kind": "competition",
+        "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2009",
+        "awardsSource": "https://asac.labiennale.org/attivita/cinema/annali?anno=2009",
+        "entries": [
+          {
+            "film_id": 4477,
+            "winner": true,
+            "prizes": [
+              "Orizzonti Documentary Award"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 4480,
+            "winner": true,
+            "prizes": [
+              "Special Mention — Orizzonti Jury"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 4488,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4655,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4478,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4481,
+            "winner": true,
+            "prizes": [
+              "Orizzonti Award for Best Film",
+              "Lion of the Future"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 4479,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4679,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4482,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 3564,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4674,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4485,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4483,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4484,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4487,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4657,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4667,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4664,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4486,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4659,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4490,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4489,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4660,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4492,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          }
+        ],
+        "nominees": [
+          4477,
+          4480,
+          4488,
+          4655,
+          4478,
+          4481,
+          4479,
+          4679,
+          4482,
+          3564,
+          4674,
+          4485,
+          4483,
+          4484,
+          4487,
+          4657,
+          4667,
+          4664,
+          4486,
+          4659,
+          4490,
+          4489,
+          4660,
+          4492
+        ],
+        "winners": [
+          4481,
+          4477,
+          4480
+        ],
+        "winner": 4481
+      }
+    ],
+    "films": [
+      {
+        "id": 4456,
+        "awards": []
+      },
+      {
+        "id": 4146,
+        "awards": [
+          "Best Actor · Colin Firth"
+        ]
+      },
+      {
+        "id": 4461,
+        "awards": []
+      },
+      {
+        "id": 4457,
+        "awards": []
+      },
+      {
+        "id": 4219,
+        "awards": []
+      },
+      {
+        "id": 4459,
+        "awards": []
+      },
+      {
+        "id": 4463,
+        "awards": []
+      },
+      {
+        "id": 4466,
+        "awards": [
+          "Marcello Mastroianni Award · Jasmine Trinca"
+        ]
+      },
+      {
+        "id": 4462,
+        "awards": [
+          "Best Actress · Kseniya Rappoport"
+        ]
+      },
+      {
+        "id": 4467,
+        "awards": [
+          "Golden Lion"
+        ]
+      },
+      {
+        "id": 4465,
+        "awards": []
+      },
+      {
+        "id": 4464,
+        "awards": [
+          "Best Screenplay · Todd Solondz"
+        ]
+      },
+      {
+        "id": 4469,
+        "awards": []
+      },
+      {
+        "id": 4652,
+        "awards": []
+      },
+      {
+        "id": 4468,
+        "awards": []
+      },
+      {
+        "id": 624,
+        "awards": [
+          "Best Technical Contribution · Sylvie Olivé"
+        ]
+      },
+      {
+        "id": 4471,
+        "awards": []
+      },
+      {
+        "id": 4474,
+        "awards": []
+      },
+      {
+        "id": 4470,
+        "awards": [
+          "Special Jury Prize"
+        ]
+      },
+      {
+        "id": 4473,
+        "awards": []
+      },
+      {
+        "id": 4472,
+        "awards": []
+      },
+      {
+        "id": 4475,
+        "awards": []
+      },
+      {
+        "id": 4476,
+        "awards": []
+      },
+      {
+        "id": 4653,
+        "awards": []
+      },
+      {
+        "id": 4654,
+        "awards": [
+          "Best Director · Shirin Neshat"
+        ]
+      },
+      {
+        "id": 4477,
+        "awards": [
+          "Orizzonti Documentary Award"
+        ]
+      },
+      {
+        "id": 4480,
+        "awards": [
+          "Special Mention — Orizzonti Jury"
+        ]
+      },
+      {
+        "id": 4488,
+        "awards": []
+      },
+      {
+        "id": 4655,
+        "awards": []
+      },
+      {
+        "id": 4478,
+        "awards": []
+      },
+      {
+        "id": 4481,
+        "awards": [
+          "Orizzonti Award for Best Film",
+          "Lion of the Future"
+        ]
+      },
+      {
+        "id": 4479,
+        "awards": []
+      },
+      {
+        "id": 4679,
+        "awards": []
+      },
+      {
+        "id": 4482,
+        "awards": []
+      },
+      {
+        "id": 3564,
+        "awards": []
+      },
+      {
+        "id": 4674,
+        "awards": []
+      },
+      {
+        "id": 4485,
+        "awards": []
+      },
+      {
+        "id": 4483,
+        "awards": []
+      },
+      {
+        "id": 4484,
+        "awards": []
+      },
+      {
+        "id": 4487,
+        "awards": []
+      },
+      {
+        "id": 4657,
+        "awards": []
+      },
+      {
+        "id": 4667,
+        "awards": []
+      },
+      {
+        "id": 4664,
+        "awards": []
+      },
+      {
+        "id": 4486,
+        "awards": []
+      },
+      {
+        "id": 4659,
+        "awards": []
+      },
+      {
+        "id": 4490,
+        "awards": []
+      },
+      {
+        "id": 4489,
+        "awards": []
+      },
+      {
+        "id": 4660,
+        "awards": []
+      },
+      {
+        "id": 4492,
+        "awards": []
+      }
+    ]
+  },
+  {
+    "event": "Venice",
+    "year": 2010,
+    "section": "Official Selection",
+    "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2010",
+    "awardsSource": "https://asac.labiennale.org/attivita/cinema/annali?anno=2010",
+    "resultsUrl": "https://asac.labiennale.org/attivita/cinema/annali?anno=2010",
+    "categories": [
+      {
+        "id": "venezia-competition",
+        "name": "Venezia Competition",
+        "nomination_kind": "competition",
+        "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2010",
+        "awardsSource": "https://asac.labiennale.org/attivita/cinema/annali?anno=2010",
+        "entries": [
+          {
+            "film_id": 4493,
+            "winner": true,
+            "prizes": [
+              "Best Actress · Ariane Labed"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 4491,
+            "winner": true,
+            "prizes": [
+              "Best Director · Álex de la Iglesia",
+              "Best Screenplay · Álex de la Iglesia"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 3609,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 586,
+            "winner": true,
+            "prizes": [
+              "Marcello Mastroianni Award · Mila Kunis"
+            ],
+            "prize_rank": 5
+          },
+          {
+            "film_id": 4504,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4494,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4496,
+            "winner": true,
+            "prizes": [
+              "Special Jury Prize",
+              "Best Actor · Vincent Gallo"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 4495,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4497,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4506,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4498,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4499,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4661,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4501,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4500,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4503,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4502,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4507,
+            "winner": true,
+            "prizes": [
+              "Best Cinematography · Mikhail Krichman"
+            ],
+            "prize_rank": 7
+          },
+          {
+            "film_id": 4505,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 3571,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4513,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4511,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4508,
+            "winner": true,
+            "prizes": [
+              "Golden Lion"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 4509,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          }
+        ],
+        "nominees": [
+          4493,
+          4491,
+          3609,
+          586,
+          4504,
+          4494,
+          4496,
+          4495,
+          4497,
+          4506,
+          4498,
+          4499,
+          4661,
+          4501,
+          4500,
+          4503,
+          4502,
+          4507,
+          4505,
+          3571,
+          4513,
+          4511,
+          4508,
+          4509
+        ],
+        "winners": [
+          4508,
+          4491,
+          4496,
+          4493,
+          586,
+          4507
+        ],
+        "winner": 4508
+      },
+      {
+        "id": "orizzonti",
+        "name": "Orizzonti",
+        "nomination_kind": "competition",
+        "source": "https://asac.labiennale.org/attivita/cinema/annali?anno=2010",
+        "awardsSource": "https://asac.labiennale.org/attivita/cinema/annali?anno=2010",
+        "entries": [
+          {
+            "film_id": 4510,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4515,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4512,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4663,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4514,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4518,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4516,
+            "winner": true,
+            "prizes": [
+              "Special Mention — Orizzonti Jury"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 4520,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4530,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4517,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4673,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4519,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4681,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4521,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4665,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4523,
+            "winner": true,
+            "prizes": [
+              "Special Orizzonti Jury Prize"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 4522,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4526,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4528,
+            "winner": true,
+            "prizes": [
+              "Orizzonti Award for Best Film"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 4682,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4671,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          }
+        ],
+        "nominees": [
+          4510,
+          4515,
+          4512,
+          4663,
+          4514,
+          4518,
+          4516,
+          4520,
+          4530,
+          4517,
+          4673,
+          4519,
+          4681,
+          4521,
+          4665,
+          4523,
+          4522,
+          4526,
+          4528,
+          4682,
+          4671
+        ],
+        "winners": [
+          4528,
+          4523,
+          4516
+        ],
+        "winner": 4528
+      }
+    ],
+    "films": [
+      {
+        "id": 4493,
+        "awards": [
+          "Best Actress · Ariane Labed"
+        ]
+      },
+      {
+        "id": 4491,
+        "awards": [
+          "Best Director · Álex de la Iglesia",
+          "Best Screenplay · Álex de la Iglesia"
+        ]
+      },
+      {
+        "id": 3609,
+        "awards": []
+      },
+      {
+        "id": 586,
+        "awards": [
+          "Marcello Mastroianni Award · Mila Kunis"
+        ]
+      },
+      {
+        "id": 4504,
+        "awards": []
+      },
+      {
+        "id": 4494,
+        "awards": []
+      },
+      {
+        "id": 4496,
+        "awards": [
+          "Special Jury Prize",
+          "Best Actor · Vincent Gallo"
+        ]
+      },
+      {
+        "id": 4495,
+        "awards": []
+      },
+      {
+        "id": 4497,
+        "awards": []
+      },
+      {
+        "id": 4506,
+        "awards": []
+      },
+      {
+        "id": 4498,
+        "awards": []
+      },
+      {
+        "id": 4499,
+        "awards": []
+      },
+      {
+        "id": 4661,
+        "awards": []
+      },
+      {
+        "id": 4501,
+        "awards": []
+      },
+      {
+        "id": 4500,
+        "awards": []
+      },
+      {
+        "id": 4503,
+        "awards": []
+      },
+      {
+        "id": 4502,
+        "awards": []
+      },
+      {
+        "id": 4507,
+        "awards": [
+          "Best Cinematography · Mikhail Krichman"
+        ]
+      },
+      {
+        "id": 4505,
+        "awards": []
+      },
+      {
+        "id": 3571,
+        "awards": []
+      },
+      {
+        "id": 4513,
+        "awards": []
+      },
+      {
+        "id": 4511,
+        "awards": []
+      },
+      {
+        "id": 4508,
+        "awards": [
+          "Golden Lion"
+        ]
+      },
+      {
+        "id": 4509,
+        "awards": []
+      },
+      {
+        "id": 4510,
+        "awards": []
+      },
+      {
+        "id": 4515,
+        "awards": []
+      },
+      {
+        "id": 4512,
+        "awards": []
+      },
+      {
+        "id": 4663,
+        "awards": []
+      },
+      {
+        "id": 4514,
+        "awards": []
+      },
+      {
+        "id": 4518,
+        "awards": []
+      },
+      {
+        "id": 4516,
+        "awards": [
+          "Special Mention — Orizzonti Jury"
+        ]
+      },
+      {
+        "id": 4520,
+        "awards": []
+      },
+      {
+        "id": 4530,
+        "awards": []
+      },
+      {
+        "id": 4517,
+        "awards": []
+      },
+      {
+        "id": 4673,
+        "awards": []
+      },
+      {
+        "id": 4519,
+        "awards": []
+      },
+      {
+        "id": 4681,
+        "awards": []
+      },
+      {
+        "id": 4521,
+        "awards": []
+      },
+      {
+        "id": 4665,
+        "awards": []
+      },
+      {
+        "id": 4523,
+        "awards": [
+          "Special Orizzonti Jury Prize"
+        ]
+      },
+      {
+        "id": 4522,
+        "awards": []
+      },
+      {
+        "id": 4526,
+        "awards": []
+      },
+      {
+        "id": 4528,
+        "awards": [
+          "Orizzonti Award for Best Film"
+        ]
+      },
+      {
+        "id": 4682,
+        "awards": []
+      },
+      {
+        "id": 4671,
+        "awards": []
+      }
+    ]
+  },
+  {
+    "event": "Berlinale",
+    "year": 2006,
+    "section": "Official Selection",
+    "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2006/o=asc/p=1/rp=200",
+    "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2006/o=desc/p=1/rp=40",
+    "resultsUrl": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2006/o=desc/p=1/rp=40",
+    "categories": [
+      {
+        "id": "main-competition",
+        "name": "Main Competition",
+        "nomination_kind": "competition",
+        "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2006/o=asc/p=1/rp=200",
+        "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2006/o=desc/p=1/rp=40",
+        "entries": [
+          {
+            "film_id": 4524,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4525,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4527,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Outstanding Artistic Contribution · Jürgen Vogel"
+            ],
+            "prize_rank": 6
+          },
+          {
+            "film_id": 4531,
+            "winner": true,
+            "prizes": [
+              "Silver Bear Alfred Bauer Prize"
+            ],
+            "prize_rank": 8
+          },
+          {
+            "film_id": 754,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Best Actor · Moritz Bleibtreu"
+            ],
+            "prize_rank": 5
+          },
+          {
+            "film_id": 4535,
+            "winner": true,
+            "prizes": [
+              "Silver Bear Grand Jury Prize",
+              "GWFF Best First Feature Award"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 1714,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4529,
+            "winner": true,
+            "prizes": [
+              "Golden Bear for Best Film"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 4532,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4666,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for the Best Music · Peter Kam"
+            ],
+            "prize_rank": 7
+          },
+          {
+            "film_id": 4533,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4537,
+            "winner": true,
+            "prizes": [
+              "Silver Bear Grand Jury Prize"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 4534,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Best Actress · Sandra Hüller"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 4539,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4547,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4542,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4536,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4538,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Best Director · Michael Winterbottom and Mat Whitecross"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 4540,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          }
+        ],
+        "nominees": [
+          4524,
+          4525,
+          4527,
+          4531,
+          754,
+          4535,
+          1714,
+          4529,
+          4532,
+          4666,
+          4533,
+          4537,
+          4534,
+          4539,
+          4547,
+          4542,
+          4536,
+          4538,
+          4540
+        ],
+        "winners": [
+          4529,
+          4535,
+          4537,
+          4538,
+          4534,
+          754,
+          4527,
+          4666,
+          4531
+        ],
+        "winner": 4529
+      }
+    ],
+    "films": [
+      {
+        "id": 4524,
+        "awards": []
+      },
+      {
+        "id": 4525,
+        "awards": []
+      },
+      {
+        "id": 4527,
+        "awards": [
+          "Silver Bear for Outstanding Artistic Contribution · Jürgen Vogel"
+        ]
+      },
+      {
+        "id": 4531,
+        "awards": [
+          "Silver Bear Alfred Bauer Prize"
+        ]
+      },
+      {
+        "id": 754,
+        "awards": [
+          "Silver Bear for Best Actor · Moritz Bleibtreu"
+        ]
+      },
+      {
+        "id": 4535,
+        "awards": [
+          "Silver Bear Grand Jury Prize",
+          "GWFF Best First Feature Award"
+        ]
+      },
+      {
+        "id": 1714,
+        "awards": []
+      },
+      {
+        "id": 4529,
+        "awards": [
+          "Golden Bear for Best Film"
+        ]
+      },
+      {
+        "id": 4532,
+        "awards": []
+      },
+      {
+        "id": 4666,
+        "awards": [
+          "Silver Bear for the Best Music · Peter Kam"
+        ]
+      },
+      {
+        "id": 4533,
+        "awards": []
+      },
+      {
+        "id": 4537,
+        "awards": [
+          "Silver Bear Grand Jury Prize"
+        ]
+      },
+      {
+        "id": 4534,
+        "awards": [
+          "Silver Bear for Best Actress · Sandra Hüller"
+        ]
+      },
+      {
+        "id": 4539,
+        "awards": []
+      },
+      {
+        "id": 4547,
+        "awards": []
+      },
+      {
+        "id": 4542,
+        "awards": []
+      },
+      {
+        "id": 4536,
+        "awards": []
+      },
+      {
+        "id": 4538,
+        "awards": [
+          "Silver Bear for Best Director · Michael Winterbottom and Mat Whitecross"
+        ]
+      },
+      {
+        "id": 4540,
+        "awards": []
+      }
+    ]
+  },
+  {
+    "event": "Berlinale",
+    "year": 2007,
+    "section": "Official Selection",
+    "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2007/o=asc/p=1/rp=200",
+    "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2007/o=desc/p=1/rp=40",
+    "resultsUrl": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2007/o=desc/p=1/rp=40",
+    "categories": [
+      {
+        "id": "main-competition",
+        "name": "Main Competition",
+        "nomination_kind": "competition",
+        "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2007/o=asc/p=1/rp=200",
+        "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2007/o=desc/p=1/rp=40",
+        "entries": [
+          {
+            "film_id": 4672,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4110,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Best Director · Joseph Cedar"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 4541,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4109,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4545,
+            "winner": true,
+            "prizes": [
+              "Silver Bear Grand Jury Prize",
+              "Silver Bear for Best Actor · Julio Chavez"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 4543,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4544,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for the Best Music · David Mackenzie"
+            ],
+            "prize_rank": 6
+          },
+          {
+            "film_id": 4551,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4546,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4549,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 722,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4548,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4550,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4559,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4554,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4556,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4553,
+            "winner": true,
+            "prizes": [
+              "Silver Bear Alfred Bauer Prize"
+            ],
+            "prize_rank": 7
+          },
+          {
+            "film_id": 4552,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4555,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Outstanding Artistic Contribution · Ensemble cast"
+            ],
+            "prize_rank": 5
+          },
+          {
+            "film_id": 4558,
+            "winner": true,
+            "prizes": [
+              "Golden Bear for Best Film"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 4557,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4560,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Best Actress · Nina Hoss"
+            ],
+            "prize_rank": 3
+          }
+        ],
+        "nominees": [
+          4672,
+          4110,
+          4541,
+          4109,
+          4545,
+          4543,
+          4544,
+          4551,
+          4546,
+          4549,
+          722,
+          4548,
+          4550,
+          4559,
+          4554,
+          4556,
+          4553,
+          4552,
+          4555,
+          4558,
+          4557,
+          4560
+        ],
+        "winners": [
+          4558,
+          4545,
+          4110,
+          4560,
+          4555,
+          4544,
+          4553
+        ],
+        "winner": 4558
+      }
+    ],
+    "films": [
+      {
+        "id": 4672,
+        "awards": []
+      },
+      {
+        "id": 4110,
+        "awards": [
+          "Silver Bear for Best Director · Joseph Cedar"
+        ]
+      },
+      {
+        "id": 4541,
+        "awards": []
+      },
+      {
+        "id": 4109,
+        "awards": []
+      },
+      {
+        "id": 4545,
+        "awards": [
+          "Silver Bear Grand Jury Prize",
+          "Silver Bear for Best Actor · Julio Chavez"
+        ]
+      },
+      {
+        "id": 4543,
+        "awards": []
+      },
+      {
+        "id": 4544,
+        "awards": [
+          "Silver Bear for the Best Music · David Mackenzie"
+        ]
+      },
+      {
+        "id": 4551,
+        "awards": []
+      },
+      {
+        "id": 4546,
+        "awards": []
+      },
+      {
+        "id": 4549,
+        "awards": []
+      },
+      {
+        "id": 722,
+        "awards": []
+      },
+      {
+        "id": 4548,
+        "awards": []
+      },
+      {
+        "id": 4550,
+        "awards": []
+      },
+      {
+        "id": 4559,
+        "awards": []
+      },
+      {
+        "id": 4554,
+        "awards": []
+      },
+      {
+        "id": 4556,
+        "awards": []
+      },
+      {
+        "id": 4553,
+        "awards": [
+          "Silver Bear Alfred Bauer Prize"
+        ]
+      },
+      {
+        "id": 4552,
+        "awards": []
+      },
+      {
+        "id": 4555,
+        "awards": [
+          "Silver Bear for Outstanding Artistic Contribution · Ensemble cast"
+        ]
+      },
+      {
+        "id": 4558,
+        "awards": [
+          "Golden Bear for Best Film"
+        ]
+      },
+      {
+        "id": 4557,
+        "awards": []
+      },
+      {
+        "id": 4560,
+        "awards": [
+          "Silver Bear for Best Actress · Nina Hoss"
+        ]
+      }
+    ]
+  },
+  {
+    "event": "Berlinale",
+    "year": 2008,
+    "section": "Official Selection",
+    "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2008/o=asc/p=1/rp=200",
+    "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2008/o=desc/p=1/rp=40",
+    "resultsUrl": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2008/o=desc/p=1/rp=40",
+    "categories": [
+      {
+        "id": "main-competition",
+        "name": "Main Competition",
+        "nomination_kind": "competition",
+        "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2008/o=asc/p=1/rp=200",
+        "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2008/o=desc/p=1/rp=40",
+        "entries": [
+          {
+            "film_id": 4562,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Best Actor · Reza Najie"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 4561,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4574,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4567,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4570,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4563,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4564,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4129,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Best Actress · Sally Hawkins"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 4186,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4565,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4566,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4568,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4569,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4571,
+            "winner": true,
+            "prizes": [
+              "Silver Bear Alfred Bauer Prize"
+            ],
+            "prize_rank": 7
+          },
+          {
+            "film_id": 4576,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4573,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4668,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4572,
+            "winner": true,
+            "prizes": [
+              "Silver Bear Grand Jury Prize"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 698,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Best Director · Paul Thomas Anderson",
+              "Silver Bear for an Outstanding Artistic Contribution (Music) · Jonny Greenwood"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 4578,
+            "winner": true,
+            "prizes": [
+              "Golden Bear for Best Film"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 4583,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Best Screenplay · Wang Xiaoshuai"
+            ],
+            "prize_rank": 5
+          }
+        ],
+        "nominees": [
+          4562,
+          4561,
+          4574,
+          4567,
+          4570,
+          4563,
+          4564,
+          4129,
+          4186,
+          4565,
+          4566,
+          4568,
+          4569,
+          4571,
+          4576,
+          4573,
+          4668,
+          4572,
+          698,
+          4578,
+          4583
+        ],
+        "winners": [
+          4578,
+          4572,
+          698,
+          4129,
+          4562,
+          4583,
+          4571
+        ],
+        "winner": 4578
+      }
+    ],
+    "films": [
+      {
+        "id": 4562,
+        "awards": [
+          "Silver Bear for Best Actor · Reza Najie"
+        ]
+      },
+      {
+        "id": 4561,
+        "awards": []
+      },
+      {
+        "id": 4574,
+        "awards": []
+      },
+      {
+        "id": 4567,
+        "awards": []
+      },
+      {
+        "id": 4570,
+        "awards": []
+      },
+      {
+        "id": 4563,
+        "awards": []
+      },
+      {
+        "id": 4564,
+        "awards": []
+      },
+      {
+        "id": 4129,
+        "awards": [
+          "Silver Bear for Best Actress · Sally Hawkins"
+        ]
+      },
+      {
+        "id": 4186,
+        "awards": []
+      },
+      {
+        "id": 4565,
+        "awards": []
+      },
+      {
+        "id": 4566,
+        "awards": []
+      },
+      {
+        "id": 4568,
+        "awards": []
+      },
+      {
+        "id": 4569,
+        "awards": []
+      },
+      {
+        "id": 4571,
+        "awards": [
+          "Silver Bear Alfred Bauer Prize"
+        ]
+      },
+      {
+        "id": 4576,
+        "awards": []
+      },
+      {
+        "id": 4573,
+        "awards": []
+      },
+      {
+        "id": 4668,
+        "awards": []
+      },
+      {
+        "id": 4572,
+        "awards": [
+          "Silver Bear Grand Jury Prize"
+        ]
+      },
+      {
+        "id": 698,
+        "awards": [
+          "Silver Bear for Best Director · Paul Thomas Anderson",
+          "Silver Bear for an Outstanding Artistic Contribution (Music) · Jonny Greenwood"
+        ]
+      },
+      {
+        "id": 4578,
+        "awards": [
+          "Golden Bear for Best Film"
+        ]
+      },
+      {
+        "id": 4583,
+        "awards": [
+          "Silver Bear for Best Screenplay · Wang Xiaoshuai"
+        ]
+      }
+    ]
+  },
+  {
+    "event": "Berlinale",
+    "year": 2009,
+    "section": "Official Selection",
+    "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2009/o=asc/p=1/rp=200",
+    "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2009/o=desc/p=1/rp=40",
+    "resultsUrl": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2009/o=desc/p=1/rp=40",
+    "categories": [
+      {
+        "id": "main-competition",
+        "name": "Main Competition",
+        "nomination_kind": "competition",
+        "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2009/o=asc/p=1/rp=200",
+        "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2009/o=desc/p=1/rp=40",
+        "entries": [
+          {
+            "film_id": 4575,
+            "winner": true,
+            "prizes": [
+              "Silver Bear Grand Jury Prize",
+              "Silver Bear for Best Actress · Birgit Minichmayr"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 4577,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4592,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Best Director · Asghar Farhadi"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 4588,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4579,
+            "winner": true,
+            "prizes": [
+              "Silver Bear Grand Jury Prize",
+              "Silver Bear Alfred Bauer Prize",
+              "GWFF Best First Feature Award"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 4580,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4581,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4582,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Outstanding Artistic Contribution · György Kovács, Gábor Erdély, Tamás Székely"
+            ],
+            "prize_rank": 7
+          },
+          {
+            "film_id": 4153,
+            "winner": true,
+            "prizes": [
+              "Golden Bear for Best Film"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 4597,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4584,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Best Actor · Sotigui Kouyate"
+            ],
+            "prize_rank": 5
+          },
+          {
+            "film_id": 4585,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4587,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4586,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4589,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4669,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4595,
+            "winner": true,
+            "prizes": [
+              "Silver Bear Alfred Bauer Prize"
+            ],
+            "prize_rank": 9
+          },
+          {
+            "film_id": 4150,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Best Screenplay · Oren Moverman, Alessandro Camon"
+            ],
+            "prize_rank": 6
+          }
+        ],
+        "nominees": [
+          4575,
+          4577,
+          4592,
+          4588,
+          4579,
+          4580,
+          4581,
+          4582,
+          4153,
+          4597,
+          4584,
+          4585,
+          4587,
+          4586,
+          4589,
+          4669,
+          4595,
+          4150
+        ],
+        "winners": [
+          4153,
+          4575,
+          4579,
+          4592,
+          4584,
+          4150,
+          4582,
+          4595
+        ],
+        "winner": 4153
+      }
+    ],
+    "films": [
+      {
+        "id": 4575,
+        "awards": [
+          "Silver Bear Grand Jury Prize",
+          "Silver Bear for Best Actress · Birgit Minichmayr"
+        ]
+      },
+      {
+        "id": 4577,
+        "awards": []
+      },
+      {
+        "id": 4592,
+        "awards": [
+          "Silver Bear for Best Director · Asghar Farhadi"
+        ]
+      },
+      {
+        "id": 4588,
+        "awards": []
+      },
+      {
+        "id": 4579,
+        "awards": [
+          "Silver Bear Grand Jury Prize",
+          "Silver Bear Alfred Bauer Prize",
+          "GWFF Best First Feature Award"
+        ]
+      },
+      {
+        "id": 4580,
+        "awards": []
+      },
+      {
+        "id": 4581,
+        "awards": []
+      },
+      {
+        "id": 4582,
+        "awards": [
+          "Silver Bear for Outstanding Artistic Contribution · György Kovács, Gábor Erdély, Tamás Székely"
+        ]
+      },
+      {
+        "id": 4153,
+        "awards": [
+          "Golden Bear for Best Film"
+        ]
+      },
+      {
+        "id": 4597,
+        "awards": []
+      },
+      {
+        "id": 4584,
+        "awards": [
+          "Silver Bear for Best Actor · Sotigui Kouyate"
+        ]
+      },
+      {
+        "id": 4585,
+        "awards": []
+      },
+      {
+        "id": 4587,
+        "awards": []
+      },
+      {
+        "id": 4586,
+        "awards": []
+      },
+      {
+        "id": 4589,
+        "awards": []
+      },
+      {
+        "id": 4669,
+        "awards": []
+      },
+      {
+        "id": 4595,
+        "awards": [
+          "Silver Bear Alfred Bauer Prize"
+        ]
+      },
+      {
+        "id": 4150,
+        "awards": [
+          "Silver Bear for Best Screenplay · Oren Moverman, Alessandro Camon"
+        ]
+      }
+    ]
+  },
+  {
+    "event": "Berlinale",
+    "year": 2010,
+    "section": "Official Selection",
+    "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2010/o=asc/p=1/rp=200",
+    "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2010/o=desc/p=1/rp=40",
+    "resultsUrl": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2010/o=desc/p=1/rp=40",
+    "categories": [
+      {
+        "id": "main-competition",
+        "name": "Main Competition",
+        "nomination_kind": "competition",
+        "source": "https://www.berlinale.de/en/archive/programme/programme-archive.html/y=2010/o=asc/p=1/rp=200",
+        "awardsSource": "https://www.berlinale.de/en/archive/awards-juries/awards.html/y=2010/o=desc/p=1/rp=40",
+        "entries": [
+          {
+            "film_id": 4590,
+            "winner": true,
+            "prizes": [
+              "Golden Bear for Best Film"
+            ],
+            "prize_rank": 0
+          },
+          {
+            "film_id": 4591,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Best Actress · Shinobu Terajima"
+            ],
+            "prize_rank": 3
+          },
+          {
+            "film_id": 4593,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4594,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4596,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4598,
+            "winner": true,
+            "prizes": [
+              "Silver Bear Grand Jury Prize",
+              "Silver Bear Alfred Bauer Prize"
+            ],
+            "prize_rank": 1
+          },
+          {
+            "film_id": 4602,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4599,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4608,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4670,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Best Actor · Grigori Dobrygin",
+              "Silver Bear for Best Actor · Sergei Puskepalis",
+              "Silver Bear for Outstanding Artistic Contribution · Pavel Kostomarov"
+            ],
+            "prize_rank": 4
+          },
+          {
+            "film_id": 4675,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4600,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4601,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4603,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4604,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4605,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4606,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 2168,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Best Director · Roman Polanski"
+            ],
+            "prize_rank": 2
+          },
+          {
+            "film_id": 4609,
+            "winner": false,
+            "prizes": [],
+            "prize_rank": -1
+          },
+          {
+            "film_id": 4607,
+            "winner": true,
+            "prizes": [
+              "Silver Bear for Best Screenplay · Wang Quan'an and Na Jin"
+            ],
+            "prize_rank": 6
+          }
+        ],
+        "nominees": [
+          4590,
+          4591,
+          4593,
+          4594,
+          4596,
+          4598,
+          4602,
+          4599,
+          4608,
+          4670,
+          4675,
+          4600,
+          4601,
+          4603,
+          4604,
+          4605,
+          4606,
+          2168,
+          4609,
+          4607
+        ],
+        "winners": [
+          4590,
+          4598,
+          2168,
+          4591,
+          4670,
+          4607
+        ],
+        "winner": 4590
+      }
+    ],
+    "films": [
+      {
+        "id": 4590,
+        "awards": [
+          "Golden Bear for Best Film"
+        ]
+      },
+      {
+        "id": 4591,
+        "awards": [
+          "Silver Bear for Best Actress · Shinobu Terajima"
+        ]
+      },
+      {
+        "id": 4593,
+        "awards": []
+      },
+      {
+        "id": 4594,
+        "awards": []
+      },
+      {
+        "id": 4596,
+        "awards": []
+      },
+      {
+        "id": 4598,
+        "awards": [
+          "Silver Bear Grand Jury Prize",
+          "Silver Bear Alfred Bauer Prize"
+        ]
+      },
+      {
+        "id": 4602,
+        "awards": []
+      },
+      {
+        "id": 4599,
+        "awards": []
+      },
+      {
+        "id": 4608,
+        "awards": []
+      },
+      {
+        "id": 4670,
+        "awards": [
+          "Silver Bear for Best Actor · Grigori Dobrygin",
+          "Silver Bear for Best Actor · Sergei Puskepalis",
+          "Silver Bear for Outstanding Artistic Contribution · Pavel Kostomarov"
+        ]
+      },
+      {
+        "id": 4675,
+        "awards": []
+      },
+      {
+        "id": 4600,
+        "awards": []
+      },
+      {
+        "id": 4601,
+        "awards": []
+      },
+      {
+        "id": 4603,
+        "awards": []
+      },
+      {
+        "id": 4604,
+        "awards": []
+      },
+      {
+        "id": 4605,
+        "awards": []
+      },
+      {
+        "id": 4606,
+        "awards": []
+      },
+      {
+        "id": 2168,
+        "awards": [
+          "Silver Bear for Best Director · Roman Polanski"
+        ]
+      },
+      {
+        "id": 4609,
+        "awards": []
+      },
+      {
+        "id": 4607,
+        "awards": [
+          "Silver Bear for Best Screenplay · Wang Quan'an and Na Jin"
+        ]
+      }
+    ]
   }
 ];

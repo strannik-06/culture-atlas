@@ -1,0 +1,1662 @@
+{
+  "scope": "Established major feature-film categories as awarded in each ceremony year; Documentary absent throughout; Animated Film introduced in 2007",
+  "events": [
+    {
+      "event": "BAFTA",
+      "year": 2006,
+      "section": "Major Film Categories",
+      "source": "https://www.bafta.org/awards/film/?award-year=2006",
+      "categories": [
+        {
+          "name": "Best Film",
+          "source_name": "Film",
+          "entries": [
+            {
+              "title": "Brokeback Mountain",
+              "person": "Diana Ossana, James Schamus",
+              "winner": true
+            },
+            {
+              "title": "Capote",
+              "person": "Caroline Baron, William Vince, Michael Ohoven",
+              "winner": false
+            },
+            {
+              "title": "The Constant Gardener",
+              "person": "Simon Channing Williams",
+              "winner": false
+            },
+            {
+              "title": "Crash",
+              "person": "Cathy Schulman, Don Cheadle, Bob Yari",
+              "winner": false
+            },
+            {
+              "title": "Good Night, And Good Luck",
+              "person": "Grant Heslov",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Director",
+          "source_name": "David Lean Award for Achievement in Direction",
+          "entries": [
+            {
+              "title": "Brokeback Mountain",
+              "person": "Ang Lee",
+              "winner": true
+            },
+            {
+              "title": "Capote",
+              "person": "Bennett Miller",
+              "winner": false
+            },
+            {
+              "title": "The Constant Gardener",
+              "person": "Fernando Meirelles",
+              "winner": false
+            },
+            {
+              "title": "Crash",
+              "person": "Paul Haggis",
+              "winner": false
+            },
+            {
+              "title": "Good Night, And Good Luck",
+              "person": "George Clooney",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Outstanding British Film",
+          "source_name": "Alexander Korda Award for the outstanding British Film of the Year",
+          "entries": [
+            {
+              "title": "Wallace And Gromit: The Curse Of The Were-Rabbit",
+              "person": "Claire Jennings, David Sproxton, Nick Park, Steve Box, Mark Burton, Bob Baker",
+              "winner": true
+            },
+            {
+              "title": "A Cock And Bull Story",
+              "person": "Andrew Eaton, Michael Winterbottom, Martin Hardy",
+              "winner": false
+            },
+            {
+              "title": "The Constant Gardener",
+              "person": "Simon Channing Williams, Fernando Meirelles, Jeffrey Caine",
+              "winner": false
+            },
+            {
+              "title": "Festival",
+              "person": "Christopher Young, Annie Griffin",
+              "winner": false
+            },
+            {
+              "title": "Pride And Prejudice",
+              "person": "Tim Bevan, Eric Fellner, Paul Webster, Joe Wright, Deborah Moggach",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Leading Actor",
+          "entries": [
+            {
+              "title": "Capote",
+              "person": "Philip Seymour Hoffman",
+              "winner": true
+            },
+            {
+              "title": "The Constant Gardener",
+              "person": "Ralph Fiennes",
+              "winner": false
+            },
+            {
+              "title": "Brokeback Mountain",
+              "person": "Heath Ledger",
+              "winner": false
+            },
+            {
+              "title": "Walk The Line",
+              "person": "Joaquin Phoenix",
+              "winner": false
+            },
+            {
+              "title": "Good Night, And Good Luck",
+              "person": "David Strathairn",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Leading Actress",
+          "entries": [
+            {
+              "title": "Walk The Line",
+              "person": "Reese Witherspoon",
+              "winner": true
+            },
+            {
+              "title": "Mrs Henderson Presents",
+              "person": "Judi Dench",
+              "winner": false
+            },
+            {
+              "title": "North Country",
+              "person": "Charlize Theron",
+              "winner": false
+            },
+            {
+              "title": "The Constant Gardener",
+              "person": "Rachel Weisz",
+              "winner": false
+            },
+            {
+              "title": "Memoirs Of A Geisha",
+              "person": "Ziyi Zhang",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Supporting Actor",
+          "entries": [
+            {
+              "title": "Brokeback Mountain",
+              "person": "Jake Gyllenhaal",
+              "winner": true
+            },
+            {
+              "title": "Crash",
+              "person": "Don Cheadle",
+              "winner": false
+            },
+            {
+              "title": "Good Night, And Good Luck",
+              "person": "George Clooney",
+              "winner": false
+            },
+            {
+              "title": "Syriana",
+              "person": "George Clooney",
+              "winner": false
+            },
+            {
+              "title": "Crash",
+              "person": "Matt Dillon",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Supporting Actress",
+          "entries": [
+            {
+              "title": "Crash",
+              "person": "Thandie Newton",
+              "winner": true
+            },
+            {
+              "title": "Brokeback Mountain",
+              "person": "Michelle Williams",
+              "winner": false
+            },
+            {
+              "title": "Pride And Prejudice",
+              "person": "Brenda Blethyn",
+              "winner": false
+            },
+            {
+              "title": "Capote",
+              "person": "Catherine Keener",
+              "winner": false
+            },
+            {
+              "title": "North Country",
+              "person": "Frances McDormand",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Original Screenplay",
+          "entries": [
+            {
+              "title": "Crash",
+              "person": "Paul Haggis, Bobby Moresco",
+              "winner": true
+            },
+            {
+              "title": "Cinderella Man",
+              "person": "Cliff Hollingsworth, Akiva Goldsman",
+              "winner": false
+            },
+            {
+              "title": "Good Night, And Good Luck",
+              "person": "George Clooney, Grant Heslov",
+              "winner": false
+            },
+            {
+              "title": "Hotel Rwanda",
+              "person": "Keir Pearson, Terry George",
+              "winner": false
+            },
+            {
+              "title": "Mrs Henderson Presents",
+              "person": "Martin Sherman",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Adapted Screenplay",
+          "entries": [
+            {
+              "title": "Brokeback Mountain",
+              "person": "Larry McMurtry, Diana Ossana",
+              "winner": true
+            },
+            {
+              "title": "Capote",
+              "person": "Dan Futterman",
+              "winner": false
+            },
+            {
+              "title": "The Constant Gardener",
+              "person": "Jeffrey Caine",
+              "winner": false
+            },
+            {
+              "title": "A History Of Violence",
+              "person": "Josh Olson",
+              "winner": false
+            },
+            {
+              "title": "Pride And Prejudice",
+              "person": "Deborah Moggach",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Film Not in the English Language",
+          "entries": [
+            {
+              "title": "The Beat That My Heart Skipped (De Battre Mon Coeur S’Est Arrêté)",
+              "person": "Pascal Caucheteux, Jacques Audiard",
+              "winner": true
+            },
+            {
+              "title": "Tsotsi",
+              "person": "Peter Fudakowski, Gavin Hood",
+              "winner": false
+            },
+            {
+              "title": "The Grand Voyage (Le Grand Voyage)",
+              "person": "Humbert Balsan, Ismaël Ferroukhi",
+              "winner": false
+            },
+            {
+              "title": "Merry Christmas (Joyeux Noël)",
+              "person": "Christophe Rossignon, Christian Carion",
+              "winner": false
+            },
+            {
+              "title": "Kung Fu Hustle",
+              "person": "Stephen Chow, Chui Po Chu, Jeff Lau",
+              "winner": false
+            }
+          ]
+        }
+      ],
+      "ceremony_date": "2006-02-19",
+      "date_source": "https://www.gettyimages.co.uk/detail/news-photo/film-director-ang-lee-poses-for-photographs-after-winning-news-photo/56886491"
+    },
+    {
+      "event": "BAFTA",
+      "year": 2007,
+      "section": "Major Film Categories",
+      "source": "https://www.bafta.org/awards/film/?award-year=2007",
+      "categories": [
+        {
+          "name": "Best Film",
+          "source_name": "Film",
+          "entries": [
+            {
+              "title": "The Queen",
+              "person": "Andy Harries, Christine Langan, Tracey Seaward",
+              "winner": true
+            },
+            {
+              "title": "Babel",
+              "person": "Alejandro González Iñárritu, Jon Kilik, Steve Golin",
+              "winner": false,
+              "source_person": "Alejandro GGonzález Iñárritu, Jon Kilik, Steve Golin",
+              "source": "https://www.bafta.org/awards/film/?award-year=2007"
+            },
+            {
+              "title": "The Departed",
+              "person": "Brad Pitt, Brad Grey, Graham King",
+              "winner": false
+            },
+            {
+              "title": "The Last King Of Scotland",
+              "person": "Andrea Calderwood, Lisa Bryer, Charles Steel",
+              "winner": false
+            },
+            {
+              "title": "Little Miss Sunshine",
+              "person": "Albert Berger, David T Friendly, Ron Yerxa",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Director",
+          "source_name": "David Lean Award for Achievement in Direction",
+          "entries": [
+            {
+              "title": "United 93",
+              "person": "Paul Greengrass",
+              "winner": true
+            },
+            {
+              "title": "Babel",
+              "person": "Alejandro González Iñárritu",
+              "winner": false
+            },
+            {
+              "title": "The Departed",
+              "person": "Martin Scorsese",
+              "winner": false
+            },
+            {
+              "title": "Little Miss Sunshine",
+              "person": "Jonathan Dayton, Valerie Faris",
+              "winner": false
+            },
+            {
+              "title": "The Queen",
+              "person": "Stephen Frears",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Outstanding British Film",
+          "source_name": "Alexander Korda Award for the outstanding British Film of the Year",
+          "entries": [
+            {
+              "title": "The Last King Of Scotland",
+              "person": "Andrea Calderwood, Lisa Bryer, Charles Steel, Kevin Macdonald, Peter Morgan, Jeremy Brock",
+              "winner": true
+            },
+            {
+              "title": "United 93",
+              "person": "Tim Bevan, Lloyd Levin, Paul Greengrass",
+              "winner": false
+            },
+            {
+              "title": "Casino Royale",
+              "person": "Michael G Wilson, Barbara Broccoli, Martin Campbell, Neal Purvis, Robert Wade, Paul Haggis",
+              "winner": false
+            },
+            {
+              "title": "Notes On A Scandal",
+              "person": "Scott Rudin, Robert Fox, Richard Eyre, Patrick Marber",
+              "winner": false
+            },
+            {
+              "title": "The Queen",
+              "person": "Andy Harries, Christine Langan, Tracey Seaward, Stephen Frears, Peter Morgan",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Leading Actor",
+          "entries": [
+            {
+              "title": "The Last King Of Scotland",
+              "person": "Forest Whitaker",
+              "winner": true
+            },
+            {
+              "title": "Casino Royale",
+              "person": "Daniel Craig",
+              "winner": false
+            },
+            {
+              "title": "The Departed",
+              "person": "Leonardo DiCaprio",
+              "winner": false
+            },
+            {
+              "title": "The History Boys",
+              "person": "Richard Griffiths",
+              "winner": false
+            },
+            {
+              "title": "Venus",
+              "person": "Peter O'Toole",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Leading Actress",
+          "entries": [
+            {
+              "title": "The Queen",
+              "person": "Helen Mirren",
+              "winner": true
+            },
+            {
+              "title": "Volver",
+              "person": "Penélope Cruz",
+              "winner": false
+            },
+            {
+              "title": "Notes On A Scandal",
+              "person": "Judi Dench",
+              "winner": false
+            },
+            {
+              "title": "The Devil Wears Prada",
+              "person": "Meryl Streep",
+              "winner": false
+            },
+            {
+              "title": "Little Children",
+              "person": "Kate Winslet",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Supporting Actor",
+          "entries": [
+            {
+              "title": "Little Miss Sunshine",
+              "person": "Alan Arkin",
+              "winner": true
+            },
+            {
+              "title": "The Queen",
+              "person": "Michael Sheen",
+              "winner": false
+            },
+            {
+              "title": "The Last King Of Scotland",
+              "person": "James McAvoy",
+              "winner": false
+            },
+            {
+              "title": "The Departed",
+              "person": "Jack Nicholson",
+              "winner": false
+            },
+            {
+              "title": "Venus",
+              "person": "Leslie Phillips",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Supporting Actress",
+          "entries": [
+            {
+              "title": "Dreamgirls",
+              "person": "Jennifer Hudson",
+              "winner": true
+            },
+            {
+              "title": "The Devil Wears Prada",
+              "person": "Emily Blunt",
+              "winner": false
+            },
+            {
+              "title": "Little Miss Sunshine",
+              "person": "Abigail Breslin",
+              "winner": false
+            },
+            {
+              "title": "Little Miss Sunshine",
+              "person": "Toni Collette",
+              "winner": false
+            },
+            {
+              "title": "The History Boys",
+              "person": "Frances De La Tour",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Original Screenplay",
+          "entries": [
+            {
+              "title": "Little Miss Sunshine",
+              "person": "Michael Arndt",
+              "winner": true
+            },
+            {
+              "title": "Babel",
+              "person": "Guillermo Arriaga",
+              "winner": false
+            },
+            {
+              "title": "Pan's Labyrinth",
+              "person": "Guillermo Del Toro",
+              "winner": false
+            },
+            {
+              "title": "The Queen",
+              "person": "Peter Morgan",
+              "winner": false
+            },
+            {
+              "title": "United 93",
+              "person": "Paul Greengrass",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Adapted Screenplay",
+          "entries": [
+            {
+              "title": "The Last King Of Scotland",
+              "person": "Peter Morgan, Jeremy Brock",
+              "winner": true
+            },
+            {
+              "title": "Casino Royale",
+              "person": "Neal Purvis, Robert Wade, Paul Haggis",
+              "winner": false
+            },
+            {
+              "title": "The Departed",
+              "person": "William Monahan",
+              "winner": false
+            },
+            {
+              "title": "The Devil Wears Prada",
+              "person": "Aline Brosh McKenna",
+              "winner": false
+            },
+            {
+              "title": "Notes On A Scandal",
+              "person": "Patrick Marber",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Film Not in the English Language",
+          "entries": [
+            {
+              "title": "Pan's Labyrinth",
+              "person": "Alfonso Cuarón, Alvaro Augustin, Guillermo Del Toro",
+              "winner": true
+            },
+            {
+              "title": "Apocalypto",
+              "person": "Mel Gibson, Bruce Davey",
+              "winner": false
+            },
+            {
+              "title": "Paint It Yellow (Rang De Basanti)",
+              "person": "Ronnie Screwvala, Rakeysh Omprakash Mehra",
+              "winner": false
+            },
+            {
+              "title": "Volver",
+              "person": "Agustín Almodóvar, Pedro Almodóvar",
+              "winner": false
+            },
+            {
+              "title": "Black Book (Zwartboek)",
+              "person": "Teun Hilte, San Fu Maltha, Jens Meurer, Paul Verhoeven",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Animated Film",
+          "entries": [
+            {
+              "title": "Happy Feet",
+              "person": "George Miller",
+              "winner": true
+            },
+            {
+              "title": "Cars",
+              "person": "John Lasseter",
+              "winner": false
+            },
+            {
+              "title": "Flushed Away",
+              "person": "David Bowers, Sam Fell",
+              "winner": false
+            }
+          ]
+        }
+      ],
+      "corrections": [
+        {
+          "category": "Best Film",
+          "title": "Babel",
+          "reason": "Removed the duplicate G in archive producer credit Alejandro GGonzález Iñárritu; the same official edition correctly names Alejandro González Iñárritu in its directing nomination.",
+          "source": "https://www.bafta.org/awards/film/?award-year=2007"
+        }
+      ],
+      "ceremony_date": "2007-02-11",
+      "date_source": "https://static.bafta.org/files/bafta-ar-2006-07-79.pdf",
+      "contemporary_source": "https://static.bafta.org/files/bafta-ar-2006-07-79.pdf"
+    },
+    {
+      "event": "BAFTA",
+      "year": 2008,
+      "section": "Major Film Categories",
+      "source": "https://www.bafta.org/awards/film/?award-year=2008",
+      "categories": [
+        {
+          "name": "Best Film",
+          "source_name": "Film",
+          "entries": [
+            {
+              "title": "Atonement",
+              "person": "Tim Bevan, Eric Fellner, Paul Webster",
+              "winner": true
+            },
+            {
+              "title": "American Gangster",
+              "person": "Brian Grazer, Ridley Scott",
+              "winner": false
+            },
+            {
+              "title": "The Lives Of Others",
+              "person": "Quirin Berg, Max Wiedemann",
+              "winner": false
+            },
+            {
+              "title": "No Country For Old Men",
+              "person": "Scott Rudin, Joel Coen, Ethan Coen",
+              "winner": false
+            },
+            {
+              "title": "There Will Be Blood",
+              "person": "JoAnne Sellar, Paul Thomas Anderson, Daniel Lupi",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Director",
+          "entries": [
+            {
+              "title": "No Country For Old Men",
+              "person": "Joel Coen, Ethan Coen",
+              "winner": true
+            },
+            {
+              "title": "The Lives Of Others",
+              "person": "Florian Henckel von Donnersmarck",
+              "winner": false
+            },
+            {
+              "title": "The Bourne Ultimatum",
+              "person": "Paul Greengrass",
+              "winner": false
+            },
+            {
+              "title": "There Will Be Blood",
+              "person": "Paul Thomas Anderson",
+              "winner": false
+            },
+            {
+              "title": "Atonement",
+              "person": "Joe Wright",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Outstanding British Film",
+          "source_name": "British Film",
+          "entries": [
+            {
+              "title": "This Is England",
+              "person": "Mark Herbert, Shane Meadows",
+              "winner": true
+            },
+            {
+              "title": "Eastern Promises",
+              "person": "Paul Webster, Robert Lantos, David Cronenberg, Steve Knight",
+              "winner": false
+            },
+            {
+              "title": "Atonement",
+              "person": "Tim Bevan, Eric Fellner, Paul Webster, Joe Wright, Christopher Hampton",
+              "winner": false
+            },
+            {
+              "title": "The Bourne Ultimatum",
+              "person": "Frank Marshall, Patrick Crowley, Paul L Sandberg, Paul Greengrass, Tony Gilroy, Scott Z Burns, George Nolfi",
+              "winner": false
+            },
+            {
+              "title": "Control",
+              "person": "Orian Williams, Todd Eckert, Anton Corbijn, Matt Greenhalgh",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Leading Actor",
+          "entries": [
+            {
+              "title": "There Will Be Blood",
+              "person": "Daniel Day-Lewis",
+              "winner": true
+            },
+            {
+              "title": "Eastern Promises",
+              "person": "Viggo Mortensen",
+              "winner": false
+            },
+            {
+              "title": "The Lives Of Others",
+              "person": "Ulrich Mühe",
+              "winner": false
+            },
+            {
+              "title": "Michael Clayton",
+              "person": "George Clooney",
+              "winner": false
+            },
+            {
+              "title": "Atonement",
+              "person": "James McAvoy",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Leading Actress",
+          "entries": [
+            {
+              "title": "La Vie En Rose",
+              "person": "Marion Cotillard",
+              "winner": true
+            },
+            {
+              "title": "Elizabeth: The Golden Age",
+              "person": "Cate Blanchett",
+              "winner": false
+            },
+            {
+              "title": "Away From Her",
+              "person": "Julie Christie",
+              "winner": false
+            },
+            {
+              "title": "Atonement",
+              "person": "Keira Knightley",
+              "winner": false
+            },
+            {
+              "title": "Juno",
+              "person": "Elliot Page",
+              "winner": false,
+              "source_title": "Juno *Nomination originally submitted under Elliot Page's prior name and changed at the request of the nominee",
+              "note": "BAFTA's archive confirms the nominee's name was updated at his request; the archive footnote is not part of the film title."
+            }
+          ]
+        },
+        {
+          "name": "Supporting Actor",
+          "entries": [
+            {
+              "title": "No Country For Old Men",
+              "person": "Javier Bardem",
+              "winner": true
+            },
+            {
+              "title": "There Will Be Blood",
+              "person": "Paul Dano",
+              "winner": false
+            },
+            {
+              "title": "No Country For Old Men",
+              "person": "Tommy Lee Jones",
+              "winner": false
+            },
+            {
+              "title": "Charlie Wilson's War",
+              "person": "Philip Seymour Hoffman",
+              "winner": false
+            },
+            {
+              "title": "Michael Clayton",
+              "person": "Tom Wilkinson",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Supporting Actress",
+          "entries": [
+            {
+              "title": "Michael Clayton",
+              "person": "Tilda Swinton",
+              "winner": true
+            },
+            {
+              "title": "I'm Not There",
+              "person": "Cate Blanchett",
+              "winner": false
+            },
+            {
+              "title": "No Country For Old Men",
+              "person": "Kelly MacDonald",
+              "winner": false
+            },
+            {
+              "title": "Control",
+              "person": "Samantha Morton",
+              "winner": false
+            },
+            {
+              "title": "Atonement",
+              "person": "Saoirse Ronan",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Original Screenplay",
+          "entries": [
+            {
+              "title": "Juno",
+              "person": "Diablo Cody",
+              "winner": true
+            },
+            {
+              "title": "American Gangster",
+              "person": "Steven Zaillian",
+              "winner": false
+            },
+            {
+              "title": "The Lives Of Others",
+              "person": "Florian Henckel von Donnersmarck",
+              "winner": false
+            },
+            {
+              "title": "Michael Clayton",
+              "person": "Tony Gilroy",
+              "winner": false
+            },
+            {
+              "title": "This Is England",
+              "person": "Shane Meadows",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Adapted Screenplay",
+          "entries": [
+            {
+              "title": "The Diving Bell And The Butterfly",
+              "person": "Ronald Harwood",
+              "winner": true
+            },
+            {
+              "title": "The Kite Runner",
+              "person": "David Benioff",
+              "winner": false
+            },
+            {
+              "title": "No Country For Old Men",
+              "person": "Joel Coen, Ethan Coen",
+              "winner": false
+            },
+            {
+              "title": "There Will Be Blood",
+              "person": "Paul Thomas Anderson",
+              "winner": false
+            },
+            {
+              "title": "Atonement",
+              "person": "Christopher Hampton",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Film Not in the English Language",
+          "entries": [
+            {
+              "title": "The Lives Of Others",
+              "person": "Quirin Berg, Max Wiedemann, Florian Henckel von Donnersmarck",
+              "winner": true
+            },
+            {
+              "title": "The Diving Bell And The Butterfly",
+              "person": "Kathleen Kennedy, Jon Kilik, Julian Schnabel",
+              "winner": false
+            },
+            {
+              "title": "The Kite Runner",
+              "person": "William Horberg, Walter Parkes, Rebecca Yeldham, Marc Forster",
+              "winner": false
+            },
+            {
+              "title": "Lust, Caution",
+              "person": "Bill Kong, James Schamus, Ang Lee",
+              "winner": false
+            },
+            {
+              "title": "La Vie En Rose",
+              "person": "Alain Goldman, Olivier Dahan",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Animated Film",
+          "entries": [
+            {
+              "title": "Ratatouille",
+              "person": "Brad Bird",
+              "winner": true
+            },
+            {
+              "title": "Shrek The Third",
+              "person": "Chris Miller",
+              "winner": false
+            },
+            {
+              "title": "The Simpsons Movie",
+              "person": "David Silverman",
+              "winner": false
+            }
+          ]
+        }
+      ],
+      "ceremony_date": "2008-02-10",
+      "date_source": "https://www.bafta.org/media-centre/press-releases/winners-announced/",
+      "contemporary_source": "https://static.bafta.org/files/film-noms-2008-77.pdf"
+    },
+    {
+      "event": "BAFTA",
+      "year": 2009,
+      "section": "Major Film Categories",
+      "source": "https://www.bafta.org/awards/film/?award-year=2009",
+      "categories": [
+        {
+          "name": "Best Film",
+          "source_name": "Film",
+          "entries": [
+            {
+              "title": "Slumdog Millionaire",
+              "person": "Christian Colson",
+              "winner": true
+            },
+            {
+              "title": "Milk",
+              "person": "Dan Jinks, Bruce Cohen",
+              "winner": false
+            },
+            {
+              "title": "The Reader",
+              "person": "Anthony Minghella, Sydney Pollack, Donna Gigliotti, Redmond Morris",
+              "winner": false
+            },
+            {
+              "title": "The Curious Case Of Benjamin Button",
+              "person": "Kathleen Kennedy, Frank Marshall, Céan Chaffin",
+              "winner": false
+            },
+            {
+              "title": "Frost/Nixon",
+              "person": "Tim Bevan, Eric Fellner, Brian Grazer, Ron Howard",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Director",
+          "entries": [
+            {
+              "title": "Slumdog Millionaire",
+              "person": "Danny Boyle",
+              "winner": true
+            },
+            {
+              "title": "The Reader",
+              "person": "Stephen Daldry",
+              "winner": false
+            },
+            {
+              "title": "Changeling",
+              "person": "Clint Eastwood",
+              "winner": false
+            },
+            {
+              "title": "The Curious Case Of Benjamin Button",
+              "person": "David Fincher",
+              "winner": false
+            },
+            {
+              "title": "Frost/Nixon",
+              "person": "Ron Howard",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Outstanding British Film",
+          "entries": [
+            {
+              "title": "Man On Wire",
+              "person": "Simon Chinn, James Marsh",
+              "winner": true
+            },
+            {
+              "title": "Hunger",
+              "person": "Laura Hastings-Smith, Robin Gutch, Steve McQueen, Enda Walsh",
+              "winner": false
+            },
+            {
+              "title": "In Bruges",
+              "person": "Graham Broadbent, Pete Czernin, Martin McDonagh",
+              "winner": false
+            },
+            {
+              "title": "Mamma Mia!",
+              "person": "Judy Craymer, Gary Goetzman, Phyllida Lloyd, Catherine Johnson",
+              "winner": false
+            },
+            {
+              "title": "Slumdog Millionaire",
+              "person": "Christian Colson, Danny Boyle, Simon Beaufoy",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Leading Actor",
+          "entries": [
+            {
+              "title": "The Wrestler",
+              "person": "Mickey Rourke",
+              "winner": true
+            },
+            {
+              "title": "Frost/Nixon",
+              "person": "Frank Langella",
+              "winner": false
+            },
+            {
+              "title": "Slumdog Millionaire",
+              "person": "Dev Patel",
+              "winner": false
+            },
+            {
+              "title": "Milk",
+              "person": "Sean Penn",
+              "winner": false
+            },
+            {
+              "title": "The Curious Case Of Benjamin Button",
+              "person": "Brad Pitt",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Leading Actress",
+          "entries": [
+            {
+              "title": "The Reader",
+              "person": "Kate Winslet",
+              "winner": true
+            },
+            {
+              "title": "I've Loved You So Long",
+              "person": "Kristin Scott Thomas",
+              "winner": false
+            },
+            {
+              "title": "Doubt",
+              "person": "Meryl Streep",
+              "winner": false
+            },
+            {
+              "title": "Revolutionary Road",
+              "person": "Kate Winslet",
+              "winner": false
+            },
+            {
+              "title": "Changeling",
+              "person": "Angelina Jolie",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Supporting Actor",
+          "entries": [
+            {
+              "title": "The Dark Knight",
+              "person": "Heath Ledger",
+              "winner": true,
+              "source_person": "Heath Ledger (Posthumous)"
+            },
+            {
+              "title": "Tropic Thunder",
+              "person": "Robert Downey Jr.",
+              "winner": false
+            },
+            {
+              "title": "In Bruges",
+              "person": "Brendan Gleeson",
+              "winner": false
+            },
+            {
+              "title": "Doubt",
+              "person": "Philip Seymour Hoffman",
+              "winner": false
+            },
+            {
+              "title": "Burn After Reading",
+              "person": "Brad Pitt",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Supporting Actress",
+          "entries": [
+            {
+              "title": "Vicky Cristina Barcelona",
+              "person": "Penélope Cruz",
+              "winner": true
+            },
+            {
+              "title": "Slumdog Millionaire",
+              "person": "Freida Pinto",
+              "winner": false
+            },
+            {
+              "title": "Burn After Reading",
+              "person": "Tilda Swinton",
+              "winner": false
+            },
+            {
+              "title": "The Wrestler",
+              "person": "Marisa Tomei",
+              "winner": false
+            },
+            {
+              "title": "Doubt",
+              "person": "Amy Adams",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Original Screenplay",
+          "entries": [
+            {
+              "title": "In Bruges",
+              "person": "Martin McDonagh",
+              "winner": true
+            },
+            {
+              "title": "Burn After Reading",
+              "person": "Joel Coen, Ethan Coen",
+              "winner": false
+            },
+            {
+              "title": "Changeling",
+              "person": "J Michael Straczynski",
+              "winner": false
+            },
+            {
+              "title": "I've Loved You So Long",
+              "person": "Philippe Claudel",
+              "winner": false
+            },
+            {
+              "title": "Milk",
+              "person": "Dustin Lance Black",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Adapted Screenplay",
+          "entries": [
+            {
+              "title": "Slumdog Millionaire",
+              "person": "Simon Beaufoy",
+              "winner": true
+            },
+            {
+              "title": "The Curious Case Of Benjamin Button",
+              "person": "Eric Roth",
+              "winner": false
+            },
+            {
+              "title": "Frost/Nixon",
+              "person": "Peter Morgan",
+              "winner": false
+            },
+            {
+              "title": "The Reader",
+              "person": "David Hare",
+              "winner": false
+            },
+            {
+              "title": "Revolutionary Road",
+              "person": "Justin Haythe",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Film Not in the English Language",
+          "entries": [
+            {
+              "title": "I've Loved You So Long",
+              "person": "Yves Marmion, Philippe Claudel",
+              "winner": true
+            },
+            {
+              "title": "Gomorrah",
+              "person": "Domenico Procacci, Matteo Garrone",
+              "winner": false
+            },
+            {
+              "title": "Persepolis",
+              "person": "Marc-Antoine Robert, Xavier Rigault, Marjane Satrapi, Vincent Paronnaud",
+              "winner": false
+            },
+            {
+              "title": "Waltz With Bashir",
+              "person": "Serge Lalou, Gerhard Meixner, Yael Nahlieli, Ari Folman",
+              "winner": false
+            },
+            {
+              "title": "The Baader Meinhof Complex",
+              "person": "Bernd Eichinger, Uli Edel",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Animated Film",
+          "entries": [
+            {
+              "title": "WALL-E",
+              "person": "Andrew Stanton",
+              "winner": true
+            },
+            {
+              "title": "Persepolis",
+              "person": "Marjane Satrapi, Vincent Paronnaud",
+              "winner": false
+            },
+            {
+              "title": "Waltz With Bashir",
+              "person": "Ari Folman",
+              "winner": false
+            }
+          ]
+        }
+      ],
+      "ceremony_date": "2009-02-08",
+      "date_source": "https://www.bafta.org/media-centre/press-releases/film-awards-in-2009-winners-announced/",
+      "contemporary_source": "https://static.bafta.org/files/film09sweepstakes-240.pdf"
+    },
+    {
+      "event": "BAFTA",
+      "year": 2010,
+      "section": "Major Film Categories",
+      "source": "https://www.bafta.org/awards/film/?award-year=2010",
+      "categories": [
+        {
+          "name": "Best Film",
+          "source_name": "Film",
+          "entries": [
+            {
+              "title": "The Hurt Locker",
+              "person": "Kathryn Bigelow, Mark Boal, Nicolas Chartier, Greg Shapiro",
+              "winner": true
+            },
+            {
+              "title": "Avatar",
+              "person": "James Cameron, Jon Landau",
+              "winner": false
+            },
+            {
+              "title": "An Education",
+              "person": "Finola Dwyer, Amanda Posey",
+              "winner": false
+            },
+            {
+              "title": "Precious: Based On The Novel Push By Sapphire",
+              "person": "Lee Daniels, Sarah Siegel-Magness, Gary Magness",
+              "winner": false
+            },
+            {
+              "title": "Up In The Air",
+              "person": "Ivan Reitman, Jason Reitman, Daniel Dubiecki",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Director",
+          "entries": [
+            {
+              "title": "The Hurt Locker",
+              "person": "Kathryn Bigelow",
+              "winner": true
+            },
+            {
+              "title": "District 9",
+              "person": "Neill Blomkamp",
+              "winner": false
+            },
+            {
+              "title": "Avatar",
+              "person": "James Cameron",
+              "winner": false
+            },
+            {
+              "title": "An Education",
+              "person": "Lone Scherfig",
+              "winner": false
+            },
+            {
+              "title": "Inglourious Basterds",
+              "person": "Quentin Tarantino",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Outstanding British Film",
+          "entries": [
+            {
+              "title": "Fish Tank",
+              "person": "Kees Kasander, Nick Laws, Andrea Arnold",
+              "winner": true
+            },
+            {
+              "title": "An Education",
+              "person": "Finola Dwyer, Amanda Posey, Lone Scherfig, Nick Hornby",
+              "winner": false
+            },
+            {
+              "title": "In The Loop",
+              "person": "Kevin Loader, Adam Tandy, Armando Iannucci, Jesse Armstrong, Simon Blackwell, Tony Roche",
+              "winner": false
+            },
+            {
+              "title": "Moon",
+              "person": "Stuart Fenegan, Trudie Styler, Duncan Jones, Nathan Parker",
+              "winner": false
+            },
+            {
+              "title": "Nowhere Boy",
+              "person": "Robert Bernstein, Douglas Rae, Kevin Loader, Sam Taylor-Wood, Matt Greenhalgh",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Leading Actor",
+          "entries": [
+            {
+              "title": "A Single Man",
+              "person": "Colin Firth",
+              "winner": true
+            },
+            {
+              "title": "Crazy Heart",
+              "person": "Jeff Bridges",
+              "winner": false
+            },
+            {
+              "title": "Up In The Air",
+              "person": "George Clooney",
+              "winner": false
+            },
+            {
+              "title": "The Hurt Locker",
+              "person": "Jeremy Renner",
+              "winner": false
+            },
+            {
+              "title": "Sex And Drugs And Rock And Roll",
+              "person": "Andy Serkis",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Leading Actress",
+          "entries": [
+            {
+              "title": "An Education",
+              "person": "Carey Mulligan",
+              "winner": true
+            },
+            {
+              "title": "Coco Before Chanel",
+              "person": "Audrey Tautou",
+              "winner": false
+            },
+            {
+              "title": "The Lovely Bones",
+              "person": "Saoirse Ronan",
+              "winner": false
+            },
+            {
+              "title": "Precious: Based On The Novel Push By Sapphire",
+              "person": "Gabourey Sidibe",
+              "winner": false
+            },
+            {
+              "title": "Julie And Julia",
+              "person": "Meryl Streep",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Supporting Actor",
+          "entries": [
+            {
+              "title": "Inglourious Basterds",
+              "person": "Christoph Waltz",
+              "winner": true
+            },
+            {
+              "title": "It's Complicated",
+              "person": "Alec Baldwin",
+              "winner": false
+            },
+            {
+              "title": "Me And Orson Welles",
+              "person": "Christian McKay",
+              "winner": false
+            },
+            {
+              "title": "An Education",
+              "person": "Alfred Molina",
+              "winner": false
+            },
+            {
+              "title": "The Lovely Bones",
+              "person": "Stanley Tucci",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Supporting Actress",
+          "entries": [
+            {
+              "title": "Precious: Based On The Novel Push By Sapphire",
+              "person": "Mo'Nique",
+              "winner": true
+            },
+            {
+              "title": "Up In The Air",
+              "person": "Vera Farmiga",
+              "winner": false
+            },
+            {
+              "title": "Up In The Air",
+              "person": "Anna Kendrick",
+              "winner": false
+            },
+            {
+              "title": "Nowhere Boy",
+              "person": "Kristin Scott Thomas",
+              "winner": false
+            },
+            {
+              "title": "Nowhere Boy",
+              "person": "Anne-Marie Duff",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Original Screenplay",
+          "entries": [
+            {
+              "title": "The Hurt Locker",
+              "person": "Mark Boal",
+              "winner": true
+            },
+            {
+              "title": "Up",
+              "person": "Bob Peterson, Pete Docter",
+              "winner": false
+            },
+            {
+              "title": "The Hangover",
+              "person": "Jon Lucas, Scott Moore",
+              "winner": false
+            },
+            {
+              "title": "Inglourious Basterds",
+              "person": "Quentin Tarantino",
+              "winner": false
+            },
+            {
+              "title": "A Serious Man",
+              "person": "Joel Coen, Ethan Coen",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Adapted Screenplay",
+          "entries": [
+            {
+              "title": "Up In The Air",
+              "person": "Jason Reitman, Sheldon Turner",
+              "winner": true
+            },
+            {
+              "title": "District 9",
+              "person": "Neill Blomkamp, Terri Tatchell",
+              "winner": false
+            },
+            {
+              "title": "An Education",
+              "person": "Nick Hornby",
+              "winner": false
+            },
+            {
+              "title": "In The Loop",
+              "person": "Jesse Armstrong, Simon Blackwell, Armando Iannucci, Tony Roche",
+              "winner": false
+            },
+            {
+              "title": "Precious: Based On The Novel Push By Sapphire",
+              "person": "Geoffrey Fletcher",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Film Not in the English Language",
+          "entries": [
+            {
+              "title": "A Prophet",
+              "person": "Pascal Caucheteux, Marco Cherqui, Alix Raynaud, Jacques Audiard",
+              "winner": true
+            },
+            {
+              "title": "The White Ribbon",
+              "person": "Stefan Arndt, Veit Heiduschka, Margaret Menegoz, Michael Haneke",
+              "winner": false
+            },
+            {
+              "title": "Broken Embraces",
+              "person": "Agustín Almodóvar, Pedro Almodóvar",
+              "winner": false
+            },
+            {
+              "title": "Coco Before Chanel",
+              "person": "Carole Scotta, Caroline Benjo, Philippe Carcassonne, Anne Fontaine",
+              "winner": false
+            },
+            {
+              "title": "Let The Right One In",
+              "person": "Carl Molinder, John Nordling, Tomas Alfredson",
+              "winner": false
+            }
+          ]
+        },
+        {
+          "name": "Animated Film",
+          "entries": [
+            {
+              "title": "Up",
+              "person": "Pete Docter",
+              "winner": true
+            },
+            {
+              "title": "Coraline",
+              "person": "Henry Selick",
+              "winner": false
+            },
+            {
+              "title": "Fantastic Mr Fox",
+              "person": "Wes Anderson",
+              "winner": false
+            }
+          ]
+        }
+      ],
+      "ceremony_date": "2010-02-21",
+      "date_source": "https://static.bafta.org/static/site/reviewoftheyear10/BAFTA_Review_of_the_Year_2009_2010.pdf",
+      "contemporary_source": "https://static.bafta.org/files/film-0910-nominations-424.pdf"
+    }
+  ]
+}

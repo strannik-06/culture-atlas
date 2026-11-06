@@ -1,0 +1,2436 @@
+{
+  "events": [
+    {
+      "event": "Cannes",
+      "year": 2006,
+      "section": "Official Selection",
+      "source": "https://www.festival-cannes.com/en/retrospective/2006/selection/",
+      "awardsSource": "https://www.festival-cannes.com/en/retrospective/2006/awards/",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.festival-cannes.com/en/retrospective/2006/selection/",
+          "awardsSource": "https://www.festival-cannes.com/en/retrospective/2006/awards/",
+          "selection": [
+            {
+              "title": "BABEL",
+              "aliases": [],
+              "director": "Alejandro González IÑÁRRITU",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/babel/"
+            },
+            {
+              "title": "CRÓNICA DE UNA FUGA",
+              "aliases": [
+                "BUENOS AIRES, 1977 (CRÓNICA DE UNA FUGA)"
+              ],
+              "director": "Israel Adrián CAETANO",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/cronica-de-una-fuga/"
+            },
+            {
+              "title": "EL LABERINTO DEL FAUNO",
+              "aliases": [
+                "PAN'S LABYRINTH"
+              ],
+              "director": "Guillermo DEL TORO",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/el-laberinto-del-fauno/"
+            },
+            {
+              "title": "FAST FOOD NATION",
+              "aliases": [],
+              "director": "Richard LINKLATER",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/fast-food-nation/"
+            },
+            {
+              "title": "FLANDRES",
+              "aliases": [
+                "FLANDERS"
+              ],
+              "director": "Bruno DUMONT",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/flandres/"
+            },
+            {
+              "title": "IKLIMLER",
+              "aliases": [
+                "CLIMATES"
+              ],
+              "director": "Nuri Bilge CEYLAN",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/iklimler/"
+            },
+            {
+              "title": "IL CAIMANO",
+              "aliases": [
+                "THE CAIMAN"
+              ],
+              "director": "Nanni MORETTI",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/il-caimano/"
+            },
+            {
+              "title": "INDIGÈNES",
+              "aliases": [
+                "DAYS OF GLORY"
+              ],
+              "director": "Rachid BOUCHAREB",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/indigenes/"
+            },
+            {
+              "title": "JUVENTUDE EM MARCHA",
+              "aliases": [
+                "COLOSSAL YOUTH"
+              ],
+              "director": "Pedro COSTA",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/juventude-em-marcha/"
+            },
+            {
+              "title": "L’AMICO DI FAMIGLIA",
+              "aliases": [
+                "THE FAMILY FRIEND"
+              ],
+              "director": "Paolo SORRENTINO",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/l-amico-di-famiglia/"
+            },
+            {
+              "title": "LA RAISON DU PLUS FAIBLE",
+              "aliases": [
+                "THE RIGHT OF THE WEAKEST"
+              ],
+              "director": "Lucas BELVAUX",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/la-raison-du-plus-faible/"
+            },
+            {
+              "title": "LAITAKAUPUNGIN VALOT",
+              "aliases": [
+                "LIGHTS IN THE DUSK"
+              ],
+              "director": "Aki KAURISMAKI",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/laitakaupungin-valot/"
+            },
+            {
+              "title": "MARIE ANTOINETTE",
+              "aliases": [],
+              "director": "Sofia COPPOLA",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/marie-antoinette/"
+            },
+            {
+              "title": "QUAND J’ÉTAIS CHANTEUR",
+              "aliases": [
+                "THE SINGER"
+              ],
+              "director": "Xavier GIANNOLI",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/quand-j-etais-chanteur/"
+            },
+            {
+              "title": "RED ROAD",
+              "aliases": [],
+              "director": "Andrea ARNOLD",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/red-road/"
+            },
+            {
+              "title": "SELON CHARLIE",
+              "aliases": [
+                "CHARLIE SAYS"
+              ],
+              "director": "Nicole GARCIA",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/selon-charlie/"
+            },
+            {
+              "title": "SOUTHLAND TALES",
+              "aliases": [],
+              "director": "Richard KELLY",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/southland-tales/"
+            },
+            {
+              "title": "SUMMER PALACE",
+              "aliases": [],
+              "director": "LOU Ye",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/summer-palace/"
+            },
+            {
+              "title": "THE WIND THAT SHAKES THE BARLEY",
+              "aliases": [],
+              "director": "Ken LOACH",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/the-wind-that-shakes-the-barley/"
+            },
+            {
+              "title": "VOLVER",
+              "aliases": [],
+              "director": "Pedro ALMODÓVAR",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/volver/"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Palme d'or",
+              "entries": [
+                {
+                  "title": "THE WIND THAT SHAKES THE BARLEY",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Grand Prix",
+              "entries": [
+                {
+                  "title": "FLANDRES",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Director",
+              "entries": [
+                {
+                  "title": "BABEL",
+                  "winner": true,
+                  "people": [
+                    "Alejandro González IÑÁRRITU"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Screenplay",
+              "entries": [
+                {
+                  "title": "VOLVER",
+                  "winner": true,
+                  "people": [
+                    "Pedro ALMODÓVAR"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Jury Prize",
+              "entries": [
+                {
+                  "title": "RED ROAD",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Actress (Ex-Aequo)",
+              "entries": [
+                {
+                  "title": "VOLVER",
+                  "winner": true,
+                  "people": [
+                    "Chus LAMPREAVE, Yohana COBO, Blanca PORTILLO, Lola DUEÑAS, Carmen MAURA, Penélope CRUZ"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Actor (Ex-Aequo)",
+              "entries": [
+                {
+                  "title": "INDIGÈNES",
+                  "winner": true,
+                  "people": [
+                    "Roschdy ZEM, Bernard BLANCAN, Jamel DEBBOUZE, Samy NACERI, Sami BOUAJILA"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Un Certain Regard",
+          "source": "https://www.festival-cannes.com/en/retrospective/2006/selection/",
+          "awardsSource": "https://www.festival-cannes.com/en/retrospective/2006/awards/",
+          "selection": [
+            {
+              "title": "977 (NINE SEVEN SEVEN)",
+              "aliases": [
+                "977"
+              ],
+              "director": "Nikolay KHOMERIKI",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/977-nine-seven-seven/"
+            },
+            {
+              "title": "A SCANNER DARKLY",
+              "aliases": [],
+              "director": "Richard LINKLATER",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/a-scanner-darkly/"
+            },
+            {
+              "title": "BIHISHT FAQAT BAROI MURDAGON",
+              "aliases": [
+                "TO GET TO HEAVEN FIRST YOU HAVE TO DIE"
+              ],
+              "director": "Djamshed USMONOV",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/bihisht-faqat-baroi-murdagon/"
+            },
+            {
+              "title": "BLED NUMBER ONE",
+              "aliases": [],
+              "director": "Rabah AMEUR-ZAIMECHE",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/bled-number-one/"
+            },
+            {
+              "title": "CUM MI-AM PETRECUT SFÂRSITUL LUMII",
+              "aliases": [
+                "THE WAY I SPENT THE END OF THE WORLD"
+              ],
+              "director": "Catalin MITULESCU",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/cum-mi-am-petrecut-sfarsitul-lumii/"
+            },
+            {
+              "title": "EL VIOLIN",
+              "aliases": [
+                "THE VIOLIN"
+              ],
+              "director": "Francisco VARGAS",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/el-violin-2/"
+            },
+            {
+              "title": "GWAÏ WIK",
+              "aliases": [
+                "RE-CYCLE"
+              ],
+              "director": "Danny PANG, Oxide PANG",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/gwai-wik/"
+            },
+            {
+              "title": "HAMACA PARAGUAYA",
+              "aliases": [],
+              "director": "Paz ENCINA",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/hamaca-paraguaya/"
+            },
+            {
+              "title": "IL REGISTA DI MATRIMONI",
+              "aliases": [],
+              "director": "Marco BELLOCCHIO",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/il-regista-di-matrimoni/"
+            },
+            {
+              "title": "LA CALIFORNIE",
+              "aliases": [],
+              "director": "Jacques FIESCHI",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/la-californie/"
+            },
+            {
+              "title": "LA TOURNEUSE DE PAGES",
+              "aliases": [],
+              "director": "Denis DERCOURT",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/la-tourneuse-de-pages/"
+            },
+            {
+              "title": "LUXURY CAR",
+              "aliases": [],
+              "director": "WANG Chao",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/luxury-car/"
+            },
+            {
+              "title": "MEURTRIERES",
+              "aliases": [
+                "MURDERERS"
+              ],
+              "director": "Grandperret PATRICK",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/meurtrieres/"
+            },
+            {
+              "title": "PARIS, JE T’AIME",
+              "aliases": [],
+              "director": "Gurinder CHADHA, Bruno PODALYDES, Gus VAN SANT, Joel COEN, Ethan COEN, Daniela THOMAS, Walter SALLES, Christopher DOYLE, Isabel COIXET, Nobuhiro SUWA, Sylvain CHOMET, Alfonso CUARON, Olivier ASSAYAS, Oliver, Richard LAGRAVENESE, Vincenzo NATALI, Wes CRAVEN, Tom TYKWER, Frédéric AUBURTIN, Gérard DEPARDIEU, Alexander PAYNE",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/paris-je-t-aime/"
+            },
+            {
+              "title": "SALVADOR",
+              "aliases": [],
+              "director": "Manuel HUERGA",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/salvador/"
+            },
+            {
+              "title": "SERAMBI",
+              "aliases": [],
+              "director": "Garin NUGROHO, Viva WESTI, Lianto LUSENO, Tonny TRIMARSANTO",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/serambi/"
+            },
+            {
+              "title": "SUBURBAN MAYHEM",
+              "aliases": [],
+              "director": "Paul GOLDMAN",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/suburban-mayhem/"
+            },
+            {
+              "title": "TAXIDERMIA",
+              "aliases": [],
+              "director": "György PALFI",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/taxidermia/"
+            },
+            {
+              "title": "TEN CANOES",
+              "aliases": [],
+              "director": "Rolf DE HEER",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/ten-canoes/"
+            },
+            {
+              "title": "THE UNFORGIVEN",
+              "aliases": [],
+              "director": "YOON Jong-Bin",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/the-unforgiven/"
+            },
+            {
+              "title": "TWO THIRTY 7",
+              "aliases": [],
+              "director": "Murali K. THALLURI",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/two-thirty-7/"
+            },
+            {
+              "title": "URO",
+              "aliases": [],
+              "director": "Stefan FALDBAKKEN",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/uro/"
+            },
+            {
+              "title": "YOU AM I",
+              "aliases": [],
+              "director": "Kristijonas VILDZIUNAS",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/you-am-i/"
+            },
+            {
+              "title": "Z ODZYSKU",
+              "aliases": [
+                "RETRIEVAL"
+              ],
+              "director": "Slawomir FABICKI",
+              "year": 2006,
+              "source": "https://www.festival-cannes.com/en/f/z-odzysku/"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Un Certain Regard Prize - Groupama Gan Foundation for Cinema",
+              "entries": [
+                {
+                  "title": "LUXURY CAR",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Un Certain Regard Award for Best Actress",
+              "entries": [
+                {
+                  "title": "CUM MI-AM PETRECUT SFÂRSITUL LUMII",
+                  "winner": true,
+                  "people": [
+                    "Dorotheea PETRE"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Un Certain Regard Special Jury Prize",
+              "entries": [
+                {
+                  "title": "TEN CANOES",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Un Certain Regard Award for Best Actor",
+              "entries": [
+                {
+                  "title": "EL VIOLIN",
+                  "winner": true,
+                  "people": [
+                    "Don Angel TAVIRA"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Prix du Président du Jury Un Certain Regard",
+              "entries": [
+                {
+                  "title": "MEURTRIERES",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "Cannes",
+      "year": 2007,
+      "section": "Official Selection",
+      "source": "https://www.festival-cannes.com/en/retrospective/2007/selection/",
+      "awardsSource": "https://www.festival-cannes.com/en/retrospective/2007/awards/",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.festival-cannes.com/en/retrospective/2007/selection/",
+          "awardsSource": "https://www.festival-cannes.com/en/retrospective/2007/awards/",
+          "selection": [
+            {
+              "title": "4 LUNI, 3 SAPTAMINI SI 2 ZILE",
+              "aliases": [
+                "4 MONTHS, 3 WEEKS AND 2 DAYS"
+              ],
+              "director": "Cristian MUNGIU",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/4-luni-3-saptamini-si-2-zile/"
+            },
+            {
+              "title": "ALEXANDRA",
+              "aliases": [],
+              "director": "Alexander SOKOUROV",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/alexandra/"
+            },
+            {
+              "title": "AUF DER ANDEREN SEITE",
+              "aliases": [
+                "THE EDGE OF HEAVEN"
+              ],
+              "director": "Fatih AKIN",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/auf-der-anderen-seite/"
+            },
+            {
+              "title": "DEATH PROOF",
+              "aliases": [],
+              "director": "Quentin TARANTINO",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/death-proof/"
+            },
+            {
+              "title": "IMPORT EXPORT",
+              "aliases": [],
+              "director": "Ulrich SEIDL",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/import-export/"
+            },
+            {
+              "title": "IZGNANIE",
+              "aliases": [
+                "THE BANISHMENT"
+              ],
+              "director": "Andrey ZVYAGINTSEV",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/izgnanie/"
+            },
+            {
+              "title": "LE SCAPHANDRE ET LE PAPILLON",
+              "aliases": [],
+              "director": "Julian SCHNABEL",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/le-scaphandre-et-le-papillon/"
+            },
+            {
+              "title": "LES CHANSONS D’AMOUR",
+              "aliases": [],
+              "director": "Christophe HONORÉ",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/les-chansons-d-amour/"
+            },
+            {
+              "title": "MOGARI NO MORI",
+              "aliases": [
+                "THE MOURNING FOREST"
+              ],
+              "director": "Naomi KAWASE",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/mogari-no-mori/"
+            },
+            {
+              "title": "MY BLUEBERRY NIGHTS",
+              "aliases": [],
+              "director": "WONG Kar Wai",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/my-blueberry-nights/"
+            },
+            {
+              "title": "NO COUNTRY FOR OLD MEN",
+              "aliases": [],
+              "director": "Ethan COEN, Joel COEN",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/no-country-for-old-men/"
+            },
+            {
+              "title": "PARANOID PARK",
+              "aliases": [],
+              "director": "Gus VAN SANT",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/paranoid-park/"
+            },
+            {
+              "title": "PERSEPOLIS",
+              "aliases": [],
+              "director": "Marjane SATRAPI, Vincent PARONNAUD",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/persepolis/"
+            },
+            {
+              "title": "PROMISE ME THIS",
+              "aliases": [],
+              "director": "Emir KUSTURICA",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/promise-me-this/"
+            },
+            {
+              "title": "SECRET SUNSHINE",
+              "aliases": [],
+              "director": "LEE Chang-Dong",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/secret-sunshine/"
+            },
+            {
+              "title": "SOOM",
+              "aliases": [
+                "BREATH"
+              ],
+              "director": "Ki-Duk KIM",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/soom-2/"
+            },
+            {
+              "title": "STELLET LICHT",
+              "aliases": [
+                "SILENT LIGHT"
+              ],
+              "director": "Carlos REYGADAS",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/stellet-licht/"
+            },
+            {
+              "title": "TEHILIM",
+              "aliases": [],
+              "director": "Raphaël NADJARI",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/tehilim/"
+            },
+            {
+              "title": "THE MAN FROM LONDON",
+              "aliases": [],
+              "director": "Béla TARR",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/the-man-from-london/"
+            },
+            {
+              "title": "UNE VIEILLE MAÎTRESSE",
+              "aliases": [],
+              "director": "Catherine BREILLAT",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/une-vieille-maitresse/"
+            },
+            {
+              "title": "WE OWN THE NIGHT",
+              "aliases": [],
+              "director": "James GRAY",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/we-own-the-night/"
+            },
+            {
+              "title": "ZODIAC",
+              "aliases": [],
+              "director": "David FINCHER",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/zodiac/"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Palme d'or",
+              "entries": [
+                {
+                  "title": "4 LUNI, 3 SAPTAMINI SI 2 ZILE",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Grand Prix",
+              "entries": [
+                {
+                  "title": "MOGARI NO MORI",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Director",
+              "entries": [
+                {
+                  "title": "LE SCAPHANDRE ET LE PAPILLON",
+                  "winner": true,
+                  "people": [
+                    "Julian SCHNABEL"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Screenplay",
+              "entries": [
+                {
+                  "title": "AUF DER ANDEREN SEITE",
+                  "winner": true,
+                  "people": [
+                    "Fatih AKIN"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Jury Prize (Ex-Aequo)",
+              "entries": [
+                {
+                  "title": "PERSEPOLIS",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Jury Prize (Ex-Aequo)",
+              "entries": [
+                {
+                  "title": "STELLET LICHT",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Actress",
+              "entries": [
+                {
+                  "title": "SECRET SUNSHINE",
+                  "winner": true,
+                  "people": [
+                    "Do-Yeon JEON"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Actor",
+              "entries": [
+                {
+                  "title": "IZGNANIE",
+                  "winner": true,
+                  "people": [
+                    "Konstantin LAVRONENKO"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "60th Anniversary Prize",
+              "entries": [
+                {
+                  "title": "PARANOID PARK",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Un Certain Regard",
+          "source": "https://www.festival-cannes.com/en/retrospective/2007/selection/",
+          "awardsSource": "https://www.festival-cannes.com/en/retrospective/2007/awards/",
+          "selection": [
+            {
+              "title": "ACTRICES",
+              "aliases": [
+                "ACTRESSES (DREAMS OF THE NIGHT BEFORE)"
+              ],
+              "director": "Valeria BRUNI TEDESCHI",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/actrices/"
+            },
+            {
+              "title": "AM ENDE KOMMEN TOURISTEN",
+              "aliases": [
+                "AND ALONG COME TOURISTS"
+              ],
+              "director": "Robert THALHEIM",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/am-ende-kommen-touristen/"
+            },
+            {
+              "title": "BIKUR HATIZMORET",
+              "aliases": [
+                "THE BAND'S VISIT"
+              ],
+              "director": "Eran KOLIRIN",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/bikur-hatizmoret/"
+            },
+            {
+              "title": "CALIFORNIA DREAMIN’ (NESFARSIT)",
+              "aliases": [
+                "CALIFORNIA DREAMIN' (ENDLESS)"
+              ],
+              "director": "Cristian NEMESCU",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/california-dreamin-nesfarsit/"
+            },
+            {
+              "title": "CALLE SANTA FE",
+              "aliases": [
+                "SANTA FE STREET"
+              ],
+              "director": "Carmen CASTILLO",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/calle-santa-fe/"
+            },
+            {
+              "title": "DU LEVANDE",
+              "aliases": [
+                "YOU, THE LIVING"
+              ],
+              "director": "Roy ANDERSSON",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/du-levande/"
+            },
+            {
+              "title": "EL BAÑO DEL PAPA",
+              "aliases": [],
+              "director": "César CHARLONE, ABC, Enrique FERNANDEZ",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/el-bano-del-papa/"
+            },
+            {
+              "title": "ET TOI, T’ES SUR QUI?",
+              "aliases": [
+                "JUST ABOUT LOVE ?"
+              ],
+              "director": "Lola DOILLON",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/et-toi-t-es-sur-qui/"
+            },
+            {
+              "title": "KUAILE GONGCHANG",
+              "aliases": [
+                "PLEASURE FACTORY"
+              ],
+              "director": "Ekachai UEKRONGTHAM",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/kuaile-gongchang/"
+            },
+            {
+              "title": "LA SOLEDAD",
+              "aliases": [
+                "SOLITARY FRAGMENTS"
+              ],
+              "director": "Jaime ROSALES",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/la-soledad/"
+            },
+            {
+              "title": "LE VOYAGE DU BALLON ROUGE",
+              "aliases": [
+                "THE FLIGHT OF THE RED BALLOON"
+              ],
+              "director": "HOU Hsiao-Hsien",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/le-voyage-du-ballon-rouge/"
+            },
+            {
+              "title": "MAGNUS",
+              "aliases": [],
+              "director": "Kadri KOUSAAR",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/magnus/"
+            },
+            {
+              "title": "MANG SHAN",
+              "aliases": [
+                "BLIND MOUNTAIN"
+              ],
+              "director": "Yang LI",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/mang-shan/"
+            },
+            {
+              "title": "MIO FRATELLO È FIGLIO UNICO",
+              "aliases": [
+                "MY BROTHER IS AN ONLY CHILD"
+              ],
+              "director": "Daniele LUCHETTI",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/mio-fratello-e-figlio-unico/"
+            },
+            {
+              "title": "MISTER LONELY",
+              "aliases": [],
+              "director": "Harmony KORINE",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/mister-lonely/"
+            },
+            {
+              "title": "MUNYURANGABO",
+              "aliases": [],
+              "director": "Lee Isaac CHUNG",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/munyurangabo/"
+            },
+            {
+              "title": "NAISSANCE DES PIEUVRES",
+              "aliases": [
+                "WATER LILIES"
+              ],
+              "director": "Céline SCIAMMA",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/naissance-des-pieuvres/"
+            },
+            {
+              "title": "THE TERROR’S ADVOCATE",
+              "aliases": [],
+              "director": "Barbet SCHROEDER",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/the-terror-s-advocate/"
+            },
+            {
+              "title": "UNA NOVIA ERRANTE",
+              "aliases": [
+                "A WANDERING BRIDE"
+              ],
+              "director": "Ana KATZ",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/una-novia-errante/"
+            },
+            {
+              "title": "YE CHE",
+              "aliases": [
+                "NIGHT TRAIN"
+              ],
+              "director": "DIAO Yinan",
+              "year": 2007,
+              "source": "https://www.festival-cannes.com/en/f/ye-che/"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Un Certain Regard Prize - Groupama Gan Foundation for Cinema",
+              "entries": [
+                {
+                  "title": "CALIFORNIA DREAMIN’ (NESFARSIT)",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Un Certain Regard Special Jury Prize",
+              "entries": [
+                {
+                  "title": "ACTRICES",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Un Certain Regard Jury's \"Coup de Coeur\"",
+              "entries": [
+                {
+                  "title": "BIKUR HATIZMORET",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "Cannes",
+      "year": 2008,
+      "section": "Official Selection",
+      "source": "https://www.festival-cannes.com/en/retrospective/2008/selection/",
+      "awardsSource": "https://www.festival-cannes.com/en/retrospective/2008/awards/",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.festival-cannes.com/en/retrospective/2008/selection/",
+          "awardsSource": "https://www.festival-cannes.com/en/retrospective/2008/awards/",
+          "selection": [
+            {
+              "title": "ADORATION",
+              "aliases": [],
+              "director": "Atom EGOYAN",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/adoration/"
+            },
+            {
+              "title": "BLINDNESS",
+              "aliases": [],
+              "director": "Fernando MEIRELLES",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/blindness/"
+            },
+            {
+              "title": "CHE",
+              "aliases": [],
+              "director": "Steven SODERBERGH",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/che/",
+              "runtime": 268
+            },
+            {
+              "title": "DELTA",
+              "aliases": [],
+              "director": "Kornél MUNDRUCZÓ",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/delta/"
+            },
+            {
+              "title": "ENTRE LES MURS",
+              "aliases": [
+                "THE CLASS"
+              ],
+              "director": "Laurent CANTET",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/entre-les-murs/"
+            },
+            {
+              "title": "ER SHI SI CHENG JI",
+              "aliases": [],
+              "director": "JIA Zhang-Ke",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/er-shi-si-cheng-ji/"
+            },
+            {
+              "title": "GOMORRA",
+              "aliases": [
+                "GOMORRAH"
+              ],
+              "director": "Matteo GARRONE",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/gomorra/"
+            },
+            {
+              "title": "IL DIVO",
+              "aliases": [],
+              "director": "Paolo SORRENTINO",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/il-divo/"
+            },
+            {
+              "title": "L’ÉCHANGE",
+              "aliases": [
+                "CHANGELING"
+              ],
+              "director": "Clint EASTWOOD",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/l-echange-2/"
+            },
+            {
+              "title": "LA FRONTIÈRE DE L’AUBE",
+              "aliases": [
+                "FRONTIER OF DAWN"
+              ],
+              "director": "Philippe GARREL",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/la-frontiere-de-l-aube/"
+            },
+            {
+              "title": "LA MUJER SIN CABEZA",
+              "aliases": [
+                "THE HEADLESS WOMAN"
+              ],
+              "director": "Lucrecia MARTEL",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/la-mujer-sin-cabeza/"
+            },
+            {
+              "title": "LE SILENCE DE LORNA",
+              "aliases": [
+                "LORNA’S SILENCE"
+              ],
+              "director": "Jean-Pierre DARDENNE, Luc DARDENNE",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/le-silence-de-lorna/"
+            },
+            {
+              "title": "LEONERA",
+              "aliases": [],
+              "director": "Pablo TRAPERO",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/leonera/"
+            },
+            {
+              "title": "LINHA DE PASSE",
+              "aliases": [],
+              "director": "Daniela THOMAS, Walter SALLES",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/linha-de-passe/"
+            },
+            {
+              "title": "MY MAGIC",
+              "aliases": [],
+              "director": "Eric",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/my-magic/"
+            },
+            {
+              "title": "PALERMO SHOOTING",
+              "aliases": [],
+              "director": "Wim WENDERS",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/palermo-shooting/"
+            },
+            {
+              "title": "SERBIS",
+              "aliases": [],
+              "director": "Brillante MENDOZA",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/serbis/"
+            },
+            {
+              "title": "SYNECDOCHE, NEW YORK",
+              "aliases": [],
+              "director": "Charlie KAUFMAN",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/synecdoche-new-york/"
+            },
+            {
+              "title": "TWO LOVERS",
+              "aliases": [],
+              "director": "James GRAY",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/two-lovers/"
+            },
+            {
+              "title": "UN CONTE DE NOËL",
+              "aliases": [
+                "A CHRISTMAS TALE"
+              ],
+              "director": "Arnaud DESPLECHIN",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/un-conte-de-noel/"
+            },
+            {
+              "title": "WALTZ WITH BASHIR",
+              "aliases": [],
+              "director": "Ari FOLMAN",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/waltz-with-bashir/"
+            },
+            {
+              "title": "ÜÇ MAYMUN",
+              "aliases": [
+                "THREE MONKEYS"
+              ],
+              "director": "Nuri Bilge CEYLAN",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/uc-maymun/"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Palme d'or",
+              "entries": [
+                {
+                  "title": "ENTRE LES MURS",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Grand Prix",
+              "entries": [
+                {
+                  "title": "GOMORRA",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Director",
+              "entries": [
+                {
+                  "title": "ÜÇ MAYMUN",
+                  "winner": true,
+                  "people": [
+                    "Nuri Bilge CEYLAN"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Screenplay",
+              "entries": [
+                {
+                  "title": "LE SILENCE DE LORNA",
+                  "winner": true,
+                  "people": [
+                    "Jean-Pierre DARDENNE, Luc DARDENNE"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Jury Prize",
+              "entries": [
+                {
+                  "title": "IL DIVO",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Actress",
+              "entries": [
+                {
+                  "title": "LINHA DE PASSE",
+                  "winner": true,
+                  "people": [
+                    "Sandra CORVELONI"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Actor",
+              "entries": [
+                {
+                  "title": "CHE",
+                  "winner": true,
+                  "people": [
+                    "Benicio DEL TORO"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Un Certain Regard",
+          "source": "https://www.festival-cannes.com/en/retrospective/2008/selection/",
+          "awardsSource": "https://www.festival-cannes.com/en/retrospective/2008/awards/",
+          "selection": [
+            {
+              "title": "A FESTA DA MENINA MORTA",
+              "aliases": [
+                "THE DEAD GIRL'S FEAST"
+              ],
+              "director": "Matheus NACHTERGAELE",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/a-festa-da-menina-morta/"
+            },
+            {
+              "title": "AFTERSCHOOL",
+              "aliases": [],
+              "director": "Antonio CAMPOS",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/afterschool/"
+            },
+            {
+              "title": "DE OFRIVILLIGA",
+              "aliases": [
+                "INVOLUNTARY"
+              ],
+              "director": "Ruben ÖSTLUND",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/de-ofrivilliga/"
+            },
+            {
+              "title": "HUNGER",
+              "aliases": [],
+              "director": "Steve MCQUEEN",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/hunger/"
+            },
+            {
+              "title": "JE VEUX VOIR",
+              "aliases": [
+                "I WANT TO SEE"
+              ],
+              "director": "Joana HADJITHOMAS, Khalil JOREIGE",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/je-veux-voir/"
+            },
+            {
+              "title": "JOHNNY MAD DOG",
+              "aliases": [],
+              "director": "Jean-Stéphane SAUVAIRE",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/johnny-mad-dog/"
+            },
+            {
+              "title": "LA VIE MODERNE",
+              "aliases": [
+                "MODERN LIFE"
+              ],
+              "director": "Raymond DEPARDON",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/la-vie-moderne/"
+            },
+            {
+              "title": "LOS BASTARDOS",
+              "aliases": [],
+              "director": "Amat ESCALANTE",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/los-bastardos/"
+            },
+            {
+              "title": "MILH HADHA AL-BAHR",
+              "aliases": [
+                "SALT OF THIS SEA"
+              ],
+              "director": "Annemarie JACIR",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/milh-hadha-al-bahr/"
+            },
+            {
+              "title": "O’ HORTEN",
+              "aliases": [],
+              "director": "Bent HAMER",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/o-horten/"
+            },
+            {
+              "title": "OCEAN FLAME",
+              "aliases": [],
+              "director": "Fen Dou LIU",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/ocean-flame/"
+            },
+            {
+              "title": "SOI COWBOY",
+              "aliases": [],
+              "director": "Thomas CLAY",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/soi-cowboy/"
+            },
+            {
+              "title": "TING CHE",
+              "aliases": [],
+              "director": "Mong-Hong CHUNG",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/ting-che/"
+            },
+            {
+              "title": "TOKYO SONATA",
+              "aliases": [],
+              "director": "KUROSAWA Kiyoshi",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/tokyo-sonata/"
+            },
+            {
+              "title": "TOKYO!",
+              "aliases": [],
+              "director": "Leos CARAX, Michel GONDRY, BONG Joon Ho",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/tokyo/"
+            },
+            {
+              "title": "TULPAN",
+              "aliases": [],
+              "director": "Sergey DVORTSEVOY",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/tulpan/"
+            },
+            {
+              "title": "TYSON",
+              "aliases": [],
+              "director": "James TOBACK",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/tyson/"
+            },
+            {
+              "title": "VERSAILLES",
+              "aliases": [],
+              "director": "Pierre SCHOELLER",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/versailles/"
+            },
+            {
+              "title": "WENDY AND LUCY",
+              "aliases": [
+                "WENDY ET LUCY"
+              ],
+              "director": "Kelly REICHARDT",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/wendy-and-lucy/"
+            },
+            {
+              "title": "WOLKE 9",
+              "aliases": [
+                "CLOUD 9"
+              ],
+              "director": "Andreas DRESEN",
+              "year": 2008,
+              "source": "https://www.festival-cannes.com/en/f/wolke-9/"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Un Certain Regard Prize - Groupama Gan Foundation for Cinema",
+              "entries": [
+                {
+                  "title": "TULPAN",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Jury's Prize - Un Certain Regard",
+              "entries": [
+                {
+                  "title": "TOKYO SONATA",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Knockout Prize",
+              "entries": [
+                {
+                  "title": "TYSON",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Prize of Hope",
+              "entries": [
+                {
+                  "title": "JOHNNY MAD DOG",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Un Certain Regard Jury's \"Coup de Coeur\"",
+              "entries": [
+                {
+                  "title": "WOLKE 9",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Caméra d'or",
+              "entries": [
+                {
+                  "title": "HUNGER",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "Cannes",
+      "year": 2009,
+      "section": "Official Selection",
+      "source": "https://www.festival-cannes.com/en/retrospective/2009/selection/",
+      "awardsSource": "https://www.festival-cannes.com/en/retrospective/2009/awards/",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.festival-cannes.com/en/retrospective/2009/selection/",
+          "awardsSource": "https://www.festival-cannes.com/en/retrospective/2009/awards/",
+          "selection": [
+            {
+              "title": "ANTICHRIST",
+              "aliases": [],
+              "director": "Lars VON TRIER",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/antichrist/"
+            },
+            {
+              "title": "BAK-JWI",
+              "aliases": [
+                "THIRST"
+              ],
+              "director": "PARK Chan-Wook",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/bak-jwi/"
+            },
+            {
+              "title": "BRIGHT STAR",
+              "aliases": [],
+              "director": "Jane CAMPION",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/bright-star/"
+            },
+            {
+              "title": "CHUN FENG CHEN ZUI DE YE WAN",
+              "aliases": [
+                "SPRING FEVER"
+              ],
+              "director": "LOU Ye",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/chun-feng-chen-zui-de-ye-wan/"
+            },
+            {
+              "title": "DAS WEISSE BAND",
+              "aliases": [
+                "THE WHITE RIBBON"
+              ],
+              "director": "Michael HANEKE",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/das-weisse-band/"
+            },
+            {
+              "title": "ENTER THE VOID",
+              "aliases": [],
+              "director": "Gaspar NOE",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/enter-the-void/"
+            },
+            {
+              "title": "FISH TANK",
+              "aliases": [],
+              "director": "Andrea ARNOLD",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/fish-tank/"
+            },
+            {
+              "title": "INGLOURIOUS BASTERDS",
+              "aliases": [],
+              "director": "Quentin TARANTINO",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/inglourious-basterds/"
+            },
+            {
+              "title": "KINATAY",
+              "aliases": [],
+              "director": "Brillante MENDOZA",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/kinatay/"
+            },
+            {
+              "title": "LES HERBES FOLLES",
+              "aliases": [
+                "WILD GRASS"
+              ],
+              "director": "Alain RESNAIS",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/les-herbes-folles/"
+            },
+            {
+              "title": "LOOKING FOR ERIC",
+              "aliases": [],
+              "director": "Ken LOACH",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/looking-for-eric/"
+            },
+            {
+              "title": "LOS ABRAZOS ROTOS",
+              "aliases": [
+                "BROKEN EMBRACES"
+              ],
+              "director": "Pedro ALMODÓVAR",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/los-abrazos-rotos/"
+            },
+            {
+              "title": "MAP OF THE SOUNDS OF TOKYO",
+              "aliases": [],
+              "director": "Isabel COIXET",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/map-of-the-sounds-of-tokyo/"
+            },
+            {
+              "title": "TAKING WOODSTOCK",
+              "aliases": [],
+              "director": "Ang LEE",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/taking-woodstock/"
+            },
+            {
+              "title": "THE TIME THAT REMAINS",
+              "aliases": [],
+              "director": "Elia SULEIMAN",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/the-time-that-remains/"
+            },
+            {
+              "title": "UN PROPHÈTE",
+              "aliases": [
+                "A PROPHET"
+              ],
+              "director": "Jacques AUDIARD",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/un-prophete/"
+            },
+            {
+              "title": "VENGEANCE",
+              "aliases": [],
+              "director": "Johnnie TO",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/vengeance/"
+            },
+            {
+              "title": "VINCERE",
+              "aliases": [],
+              "director": "Marco BELLOCCHIO",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/vincere/"
+            },
+            {
+              "title": "VISAGE",
+              "aliases": [
+                "FACE"
+              ],
+              "director": "Ming-Liang TSAI",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/visage/"
+            },
+            {
+              "title": "À L’ORIGINE",
+              "aliases": [
+                "IN THE BEGINNING"
+              ],
+              "director": "Xavier GIANNOLI",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/a-l-origine/"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Palme d'or",
+              "entries": [
+                {
+                  "title": "DAS WEISSE BAND",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Grand Prix",
+              "entries": [
+                {
+                  "title": "UN PROPHÈTE",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Director",
+              "entries": [
+                {
+                  "title": "KINATAY",
+                  "winner": true,
+                  "people": [
+                    "Brillante MENDOZA"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Screenplay",
+              "entries": [
+                {
+                  "title": "CHUN FENG CHEN ZUI DE YE WAN",
+                  "winner": true,
+                  "people": [
+                    "LOU Ye"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Jury Prize (Ex-Aequo)",
+              "entries": [
+                {
+                  "title": "FISH TANK",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Jury Prize (Ex-Aequo)",
+              "entries": [
+                {
+                  "title": "BAK-JWI",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Actress",
+              "entries": [
+                {
+                  "title": "ANTICHRIST",
+                  "winner": true,
+                  "people": [
+                    "Charlotte GAINSBOURG"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Actor",
+              "entries": [
+                {
+                  "title": "INGLOURIOUS BASTERDS",
+                  "winner": true,
+                  "people": [
+                    "Christoph WALTZ"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Un Certain Regard",
+          "source": "https://www.festival-cannes.com/en/retrospective/2009/selection/",
+          "awardsSource": "https://www.festival-cannes.com/en/retrospective/2009/awards/",
+          "selection": [
+            {
+              "title": "AMINTIRI DIN EPOCA DE AUR",
+              "aliases": [
+                "TALES FROM THE GOLDEN AGE"
+              ],
+              "director": "Hanno HÖFER, Razvan MARCULESCU, Cristian MUNGIU, Constantin POPESCU, Ioana URICARU",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/amintiri-din-epoca-de-aur/"
+            },
+            {
+              "title": "DEMAIN DÈS L’AUBE",
+              "aliases": [
+                "TOMORROW AT DAWN"
+              ],
+              "director": "Denis DERCOURT",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/demain-des-l-aube/"
+            },
+            {
+              "title": "EYES WIDE OPEN (EINAYM PKUHOT)",
+              "aliases": [
+                "EYES WIDE OPEN"
+              ],
+              "director": "Haim TABAKMAN",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/eyes-wide-open-einaym-pkuhot/"
+            },
+            {
+              "title": "INDEPENDENCIA",
+              "aliases": [],
+              "director": "Raya MARTIN",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/independencia/"
+            },
+            {
+              "title": "IRÈNE",
+              "aliases": [
+                "IRENE"
+              ],
+              "director": "Alain CAVALIER",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/irene/"
+            },
+            {
+              "title": "KASI AZ GORBEHAYE IRANI KHABAR NADAREH",
+              "aliases": [
+                "NO ONE KNOWS ABOUT PERSIAN CATS"
+              ],
+              "director": "Bahman GHOBADI",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/kasi-az-gorbehaye-irani-khabar-nadareh/"
+            },
+            {
+              "title": "KUKI NINGYO",
+              "aliases": [
+                "AIR DOLL"
+              ],
+              "director": "KOREEDA Hirokazu",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/kuki-ningyo/"
+            },
+            {
+              "title": "KYNODONTAS",
+              "aliases": [
+                "DOGTOOTH"
+              ],
+              "director": "Yorgos LANTHIMOS",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/kynodontas/"
+            },
+            {
+              "title": "LE PÈRE DE MES ENFANTS",
+              "aliases": [
+                "FATHER OF MY CHILDREN"
+              ],
+              "director": "Mia HANSEN-LOVE",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/le-pere-de-mes-enfants/"
+            },
+            {
+              "title": "LOS VIAJES DEL VIENTO",
+              "aliases": [
+                "THE WIND JOURNEYS"
+              ],
+              "director": "Ciro GUERRA",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/los-viajes-del-viento/"
+            },
+            {
+              "title": "MORRER COMO UM HOMEM",
+              "aliases": [
+                "TO DIE LIKE A MAN"
+              ],
+              "director": "João Pedro RODRIGUES",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/morrer-como-um-homem/"
+            },
+            {
+              "title": "MOTHER",
+              "aliases": [],
+              "director": "BONG Joon Ho",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/mother-2/"
+            },
+            {
+              "title": "NANG MAI",
+              "aliases": [
+                "NYMPH"
+              ],
+              "director": "Pen-Ek RATANARUANG",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/nang-mai/"
+            },
+            {
+              "title": "POLITIST, ADJECTIV",
+              "aliases": [
+                "POLICE, ADJECTIVE"
+              ],
+              "director": "Corneliu PORUMBOIU",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/politist-adjectiv/"
+            },
+            {
+              "title": "PRECIOUS",
+              "aliases": [],
+              "director": "Lee DANIELS",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/precious/"
+            },
+            {
+              "title": "SAMSON AND DELILAH",
+              "aliases": [],
+              "director": "Warwick THORNTON",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/samson-and-delilah/"
+            },
+            {
+              "title": "SKAZKA PRO TEMNOTU",
+              "aliases": [
+                "TALE IN THE DARKNESS"
+              ],
+              "director": "Nikolay KHOMERIKI",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/skazka-pro-temnotu/"
+            },
+            {
+              "title": "THE SILENT ARMY",
+              "aliases": [],
+              "director": "Jean VAN DE VELDE",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/the-silent-army/"
+            },
+            {
+              "title": "TZAR",
+              "aliases": [],
+              "director": "Pavel LOUNGUINE",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/tzar/"
+            },
+            {
+              "title": "À DERIVA",
+              "aliases": [
+                "ADRIFT"
+              ],
+              "director": "Heitor DHALIA",
+              "year": 2009,
+              "source": "https://www.festival-cannes.com/en/f/a-deriva/"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Un Certain Regard Prize - Groupama Gan Foundation for Cinema",
+              "entries": [
+                {
+                  "title": "KYNODONTAS",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Jury's Prize - Un Certain Regard",
+              "entries": [
+                {
+                  "title": "POLITIST, ADJECTIV",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Un Certain Regard Special Jury Prize (Ex-Aequo)",
+              "entries": [
+                {
+                  "title": "LE PÈRE DE MES ENFANTS",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Un Certain Regard Special Jury Prize (Ex-Aequo)",
+              "entries": [
+                {
+                  "title": "KASI AZ GORBEHAYE IRANI KHABAR NADAREH",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Caméra d'or",
+              "entries": [
+                {
+                  "title": "SAMSON AND DELILAH",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "Cannes",
+      "year": 2010,
+      "section": "Official Selection",
+      "source": "https://www.festival-cannes.com/en/retrospective/2010/selection/",
+      "awardsSource": "https://www.festival-cannes.com/en/retrospective/2010/awards/",
+      "programmes": [
+        {
+          "name": "Main Competition",
+          "source": "https://www.festival-cannes.com/en/retrospective/2010/selection/",
+          "awardsSource": "https://www.festival-cannes.com/en/retrospective/2010/awards/",
+          "selection": [
+            {
+              "title": "ANOTHER YEAR",
+              "aliases": [],
+              "director": "Mike LEIGH",
+              "year": 2010,
+              "source": "https://www.festival-cannes.com/en/f/another-year/"
+            },
+            {
+              "title": "BIUTIFUL",
+              "aliases": [],
+              "director": "Alejandro González IÑÁRRITU",
+              "year": 2010,
+              "source": "https://www.festival-cannes.com/en/f/biutiful/"
+            },
+            {
+              "title": "COPIE CONFORME",
+              "aliases": [
+                "CERTIFIED COPY"
+              ],
+              "director": "Abbas KIAROSTAMI",
+              "year": 2010,
+              "source": "https://www.festival-cannes.com/en/f/copie-conforme/"
+            },
+            {
+              "title": "DES HOMMES ET DES DIEUX",
+              "aliases": [
+                "OF GODS AND MEN"
+              ],
+              "director": "Xavier BEAUVOIS",
+              "year": 2010,
+              "source": "https://www.festival-cannes.com/en/f/des-hommes-et-des-dieux/"
+            },
+            {
+              "title": "FAIR GAME",
+              "aliases": [],
+              "director": "Doug LIMAN",
+              "year": 2010,
+              "source": "https://www.festival-cannes.com/en/f/fair-game/"
+            },
+            {
+              "title": "HORS LA LOI",
+              "aliases": [
+                "OUTSIDE OF THE LAW"
+              ],
+              "director": "Rachid BOUCHAREB",
+              "year": 2010,
+              "source": "https://www.festival-cannes.com/en/f/hors-la-loi/"
+            },
+            {
+              "title": "LA NOSTRA VITA",
+              "aliases": [
+                "OUR LIFE"
+              ],
+              "director": "Daniele LUCHETTI",
+              "year": 2010,
+              "source": "https://www.festival-cannes.com/en/f/la-nostra-vita/"
+            },
+            {
+              "title": "LA PRINCESSE DE MONTPENSIER",
+              "aliases": [
+                "THE PRINCESS OF MONTPENSIER"
+              ],
+              "director": "Bertrand TAVERNIER",
+              "year": 2010,
+              "source": "https://www.festival-cannes.com/en/f/la-princesse-de-montpensier/"
+            },
+            {
+              "title": "LUNG BOONMEE RALUEK CHAT",
+              "aliases": [
+                "UNCLE BOONMEE WHO CAN RECALL HIS PAST LIVES"
+              ],
+              "director": "Apichatpong WEERASETHAKUL",
+              "year": 2010,
+              "source": "https://www.festival-cannes.com/en/f/lung-boonmee-raluek-chat/"
+            },
+            {
+              "title": "OUTRAGE",
+              "aliases": [],
+              "director": "Takeshi KITANO",
+              "year": 2010,
+              "source": "https://www.festival-cannes.com/en/f/outrage/"
+            },
+            {
+              "title": "POETRY",
+              "aliases": [],
+              "director": "LEE Chang-Dong",
+              "year": 2010,
+              "source": "https://www.festival-cannes.com/en/f/poetry/"
+            },
+            {
+              "title": "RIZHAO CHONGQING",
+              "aliases": [
+                "CHONGQING BLUES"
+              ],
+              "director": "Xiaoshuai WANG",
+              "year": 2010,
+              "source": "https://www.festival-cannes.com/en/f/rizhao-chongqing/"
+            },
+            {
+              "title": "ROUTE IRISH",
+              "aliases": [],
+              "director": "Ken LOACH",
+              "year": 2010,
+              "source": "https://www.festival-cannes.com/en/f/route-irish/"
+            },
+            {
+              "title": "SCHASTYE MOE",
+              "aliases": [
+                "MY JOY"
+              ],
+              "director": "Sergei LOZNITSA",
+              "year": 2010,
+              "source": "https://www.festival-cannes.com/en/f/schastye-moe/"
+            },
+            {
+              "title": "SZELÍD TEREMTÉS – A FRANKENSTEIN TERV",
+              "aliases": [
+                "TENDER SON - THE FRANKENSTEIN PROJECT"
+              ],
+              "director": "Kornél MUNDRUCZÓ",
+              "year": 2010,
+              "source": "https://www.festival-cannes.com/en/f/szelid-teremtes-a-frankenstein-terv/"
+            },
+            {
+              "title": "THE HOUSEMAID",
+              "aliases": [],
+              "director": "Sang-Soo IM",
+              "year": 2010,
+              "source": "https://www.festival-cannes.com/en/f/the-housemaid/"
+            },
+            {
+              "title": "TOURNÉE",
+              "aliases": [
+                "ON TOUR"
+              ],
+              "director": "Mathieu AMALRIC",
+              "year": 2010,
+              "source": "https://www.festival-cannes.com/en/f/tournee/"
+            },
+            {
+              "title": "UN HOMME QUI CRIE",
+              "aliases": [
+                "A SCREAMING MAN"
+              ],
+              "director": "Mahamat-Saleh HAROUN",
+              "year": 2010,
+              "source": "https://www.festival-cannes.com/en/f/un-homme-qui-crie/"
+            },
+            {
+              "title": "UTOMLYONNYE SOLNTSEM 2: PREDSTOYANIE",
+              "aliases": [
+                "THE EXODUS - BURNT BY THE SUN 2"
+              ],
+              "director": "Nikita MIKHALKOV",
+              "year": 2010,
+              "source": "https://www.festival-cannes.com/en/f/utomlyonnye-solntsem-2-predstoyanie/"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Palme d'or",
+              "entries": [
+                {
+                  "title": "LUNG BOONMEE RALUEK CHAT",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Grand Prix",
+              "entries": [
+                {
+                  "title": "DES HOMMES ET DES DIEUX",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Director",
+              "entries": [
+                {
+                  "title": "TOURNÉE",
+                  "winner": true,
+                  "people": [
+                    "Mathieu AMALRIC"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Screenplay",
+              "entries": [
+                {
+                  "title": "POETRY",
+                  "winner": true,
+                  "people": [
+                    "LEE Chang-Dong"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Jury Prize",
+              "entries": [
+                {
+                  "title": "UN HOMME QUI CRIE",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Actress",
+              "entries": [
+                {
+                  "title": "COPIE CONFORME",
+                  "winner": true,
+                  "people": [
+                    "Juliette BINOCHE"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Actor (Ex-Aequo)",
+              "entries": [
+                {
+                  "title": "LA NOSTRA VITA",
+                  "winner": true,
+                  "people": [
+                    "Elio GERMANO"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Award for Best Actor (Ex-Aequo)",
+              "entries": [
+                {
+                  "title": "BIUTIFUL",
+                  "winner": true,
+                  "people": [
+                    "Javier BARDEM"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Un Certain Regard",
+          "source": "https://www.festival-cannes.com/en/retrospective/2010/selection/",
+          "awardsSource": "https://www.festival-cannes.com/en/retrospective/2010/awards/",
+          "selection": [
+            {
+              "title": "AURORA",
+              "aliases": [],
+              "director": "Cristi PUIU",
+              "year": 2010,
+              "source": "https://www.festival-cannes.com/en/f/aurora/"
+            },
+            {
+              "title": "BLUE VALENTINE",
+              "aliases": [],
+              "director": "Derek CIANFRANCE",
+              "year": 2010,
+              "source": "https://www.festival-cannes.com/en/f/blue-valentine/"
+            },
+            {
+              "title": "CARANCHO",
+              "aliases": [],
+              "director": "Pablo TRAPERO",
+              "year": 2010,
+              "source": "https://www.festival-cannes.com/en/f/carancho/"
+            },
+            {
+              "title": "CHATROOM",
+              "aliases": [],
+              "director": "Hideo NAKATA",
+              "year": 2010,
+              "source": "https://www.festival-cannes.com/en/f/chatroom/"
+            },
+            {
+              "title": "FILM SOCIALISME",
+              "aliases": [],
+              "director": "Jean-Luc GODARD",
+              "year": 2010,
+              "source": "https://www.festival-cannes.com/en/f/film-socialisme/"
+            },
+            {
+              "title": "HAHAHA",
+              "aliases": [],
+              "director": "Sangsoo HONG",
+              "year": 2010,
+              "source": "https://www.festival-cannes.com/en/f/hahaha/"
+            },
+            {
+              "title": "HAI SHANG CHUAN QI",
+              "aliases": [
+                "I WISH I KNEW"
+              ],
+              "director": "JIA Zhang-Ke",
+              "year": 2010,
+              "source": "https://www.festival-cannes.com/en/f/hai-shang-chuan-qi/"
+            },
+            {
+              "title": "LES AMOURS IMAGINAIRES",
+              "aliases": [
+                "HEARTBEATS"
+              ],
+              "director": "Xavier DOLAN",
+              "year": 2010,
+              "source": "https://www.festival-cannes.com/en/f/les-amours-imaginaires/"
+            },
+            {
+              "title": "LIFE, ABOVE ALL",
+              "aliases": [],
+              "director": "Oliver SCHMITZ",
+              "year": 2010,
+              "source": "https://www.festival-cannes.com/en/f/life-above-all/"
+            },
+            {
+              "title": "LOS LABIOS",
+              "aliases": [
+                "THE LIPS"
+              ],
+              "director": "Iván FUND, Santiago LOZA",
+              "year": 2010,
+              "source": "https://www.festival-cannes.com/en/f/los-labios/"
+            },
+            {
+              "title": "MARTI, DUPA CRACIUN",
+              "aliases": [
+                "TUESDAY, AFTER CHRISTMAS"
+              ],
+              "director": "Radu MUNTEAN",
+              "year": 2010,
+              "source": "https://www.festival-cannes.com/en/f/marti-dupa-craciun/"
+            },
+            {
+              "title": "O ESTRANHO CASO DE ANGÉLICA",
+              "aliases": [
+                "THE STRANGE CASE OF ANGELICA"
+              ],
+              "director": "Manoel DE OLIVEIRA",
+              "year": 2010,
+              "source": "https://www.festival-cannes.com/en/f/o-estranho-caso-de-angelica/"
+            },
+            {
+              "title": "OCTUBRE",
+              "aliases": [
+                "OCTOBER"
+              ],
+              "director": "Daniel VEGA, Diego VEGA",
+              "year": 2010,
+              "source": "https://www.festival-cannes.com/en/f/octubre/"
+            },
+            {
+              "title": "PÁL ADRIENN",
+              "aliases": [
+                "ADRIENN PÁL"
+              ],
+              "director": "Agnes KOCSIS",
+              "year": 2010,
+              "source": "https://www.festival-cannes.com/en/f/pal-adrienn/"
+            },
+            {
+              "title": "R U THERE",
+              "aliases": [],
+              "director": "David VERBEEK",
+              "year": 2010,
+              "source": "https://www.festival-cannes.com/en/f/r-u-there/"
+            },
+            {
+              "title": "REBECCA H. ( RETURN TO THE DOGS)",
+              "aliases": [],
+              "director": "Lodge KERRIGAN",
+              "year": 2010,
+              "source": "https://www.festival-cannes.com/en/f/rebecca-h-return-to-the-dogs/"
+            },
+            {
+              "title": "SIMON WERNER A DISPARU…",
+              "aliases": [
+                "LIGHTS OUT"
+              ],
+              "director": "Fabrice GOBERT",
+              "year": 2010,
+              "source": "https://www.festival-cannes.com/en/f/simon-werner-a-disparu/"
+            },
+            {
+              "title": "UDAAN",
+              "aliases": [],
+              "director": "Vikramaditya MOTWANE",
+              "year": 2010,
+              "source": "https://www.festival-cannes.com/en/f/udaan/"
+            },
+            {
+              "title": "UNTER DIR DIE STADT",
+              "aliases": [
+                "THE CITY BELOW"
+              ],
+              "director": "Christoph HOCHHÄUSLER",
+              "year": 2010,
+              "source": "https://www.festival-cannes.com/en/f/unter-dir-die-stadt/"
+            }
+          ],
+          "prizes": [
+            {
+              "name": "Un Certain Regard Prize - Groupama Gan Foundation for Cinema",
+              "entries": [
+                {
+                  "title": "HAHAHA",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Jury's Prize - Un Certain Regard",
+              "entries": [
+                {
+                  "title": "OCTUBRE",
+                  "winner": true,
+                  "people": []
+                }
+              ]
+            },
+            {
+              "name": "Un Certain Regard Award for Best Actress",
+              "entries": [
+                {
+                  "title": "LOS LABIOS",
+                  "winner": true,
+                  "people": [
+                    "Adela SANCHEZ, Victoria RAPOSO, Eva BIANCO"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

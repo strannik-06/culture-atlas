@@ -1,0 +1,28 @@
+{
+  "films": [
+    {
+      "id": 4371,
+      "tmdb_id": 123889,
+      "imdb_id": "tt1646121",
+      "title": "Rebecca H. (Return to the Dogs)",
+      "source_url": "https://www.festival-cannes.com/en/f/rebecca-h-return-to-the-dogs/",
+      "image_url": "https://cdn.festival-cannes.com/media/uploads/2023/03/69785.jpg",
+      "image_kind": "official-festival-film-still",
+      "local_path": "assets/film-posters/4371.jpg",
+      "film_id": 4371,
+      "source_page": "https://www.festival-cannes.com/en/f/rebecca-h-return-to-the-dogs/"
+    },
+    {
+      "id": 4453,
+      "tmdb_id": 247483,
+      "imdb_id": "tt1510857",
+      "title": "Perfect Life",
+      "source_url": "https://www.sansebastianfestival.com/2011/sections_and_films/digital_shadows/7/590096/in",
+      "image_url": "https://www.sansebastianfestival.com/admin_img/peliculas/59g/fp_590096_16599.jpg",
+      "image_kind": "official-festival-film-still",
+      "local_path": "assets/film-posters/4453.jpg",
+      "film_id": 4453,
+      "source_page": "https://www.sansebastianfestival.com/2011/sections_and_films/digital_shadows/7/590096/in"
+    }
+  ]
+}

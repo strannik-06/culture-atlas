@@ -1,0 +1,581 @@
+{
+  "https://asac.labiennale.org/attivita/cinema/11292": {
+    "aliases": [
+      "When the Levees Broke: A Requiem in Four Acts",
+      "When the Levees Broke"
+    ],
+    "director_aliases": [
+      "Spike Lee"
+    ],
+    "imdb_id": "tt0783612",
+    "required_runtime_range": [
+      250,
+      260
+    ],
+    "required_release_year": 2006,
+    "note": "Complete original four-act 2006 documentary, 255 minutes, excludes later 2007 epilogue. Movie 58923 returns HTTP 404; TV 16468 is the complete original work provider fallback. TV episode count 4 must be API verified.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/11292",
+      "https://www.moma.org/calendar/events/10759",
+      "https://www.imdb.com/title/tt0783612/releaseinfo/",
+      "https://www.betaseries.com/en/movie/60922-when-the-levees-broke-a-requiem-in-four-acts",
+      "https://www.themoviedb.org/movie/58923"
+    ],
+    "complete_film_tv": {
+      "id": 16468,
+      "year": 2006,
+      "episodes": 4,
+      "runtime": 255,
+      "release_date": "2006-08-16",
+      "director": "Spike Lee",
+      "scope_note": "Original four acts, excludes later epilogue",
+      "sources": [
+        "https://asac.labiennale.org/attivita/cinema/11292",
+        "https://www.moma.org/calendar/events/10759",
+        "https://www.imdb.com/title/tt0783612/releaseinfo/",
+        "https://jephmann.com/movies/tv.php?id=16468"
+      ]
+    }
+  },
+  "https://asac.labiennale.org/attivita/cinema/112266": {
+    "aliases": [
+      "The Other One"
+    ],
+    "director_aliases": [],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/112266",
+      "https://www.imdb.com/title/tt1171704/"
+    ],
+    "imdb_id": "tt1171704"
+  },
+  "https://asac.labiennale.org/attivita/cinema/112271": {
+    "aliases": [
+      "Paper Soldier",
+      "Бумажный солдат"
+    ],
+    "director_aliases": [
+      "Aleksey German Jr.",
+      "Aleksei Alekseivich German",
+      "Alexey German Jr."
+    ],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/112271",
+      "https://www.imdb.com/title/tt1284576/"
+    ],
+    "imdb_id": "tt1284576"
+  },
+  "https://asac.labiennale.org/attivita/cinema/112301": {
+    "aliases": [
+      "Achilles and the Tortoise",
+      "Akiresu to kame",
+      "アキレスと亀"
+    ],
+    "director_aliases": [],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/112301",
+      "https://www.imdb.com/title/tt1217243/"
+    ],
+    "imdb_id": "tt1217243"
+  },
+  "https://asac.labiennale.org/attivita/cinema/112376": {
+    "aliases": [],
+    "director_aliases": [
+      "Ross McElwee, Marilyn Levine"
+    ],
+    "note": "Ross McElwee alone directs, films and edits according to his own film page; provider adds Marilyn Levine incorrectly. Retain authoritative sole director. Provider full credit string is allowed only to identify the same work; authoritative_director supplies the verified display credit.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/112376",
+      "https://www.imdb.com/title/tt1270651/",
+      "https://rossmcelwee.com/in-paraguay-1"
+    ],
+    "imdb_id": "tt1270651",
+    "authoritative_director": "Ross McElwee"
+  },
+  "https://asac.labiennale.org/attivita/cinema/112415": {
+    "aliases": [
+      "Puisque nous sommes nés"
+    ],
+    "director_aliases": [
+      "Jean-Pierre Duret, Andrea Santana"
+    ],
+    "note": "IFFR verifies both Jean-Pierre Duret and Andréa Santana; ASAC omitted Duret.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/112415",
+      "https://iffr.com/en/iffr/2009/films/puisque-nous-sommes-n%C3%A9s"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/11270": {
+    "aliases": [
+      "I Am the One Who Brings Flowers to Her Grave",
+      "I Am the One Who Carries Flowers to Her Grave"
+    ],
+    "director_aliases": [
+      "Ammar Al Beik, Hala Alabdalla",
+      "Ammar Al Beik, Hala Abdallah"
+    ],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/11270",
+      "https://www.imdb.com/title/tt0921777/"
+    ],
+    "imdb_id": "tt0921777"
+  },
+  "https://asac.labiennale.org/attivita/cinema/11271": {
+    "aliases": [],
+    "director_aliases": [],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/11271"
+    ],
+    "runtime": 180
+  },
+  "https://asac.labiennale.org/attivita/cinema/11275": {
+    "aliases": [
+      "Heimat-Fragmente: Die Frauen"
+    ],
+    "director_aliases": [
+      "Edgar Reitz, Christian Reitz"
+    ],
+    "note": "Sales agent and distributor Arthaus credit Edgar Reitz alone as director; provider adds producer/cinematographer Christian Reitz. Retain authoritative sole director. Provider full credit string is allowed only to identify the same work; authoritative_director supplies the verified display credit.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/11275",
+      "https://www.imdb.com/title/tt0810894/",
+      "https://www.playmaker.de/films/heimat-fragments-the-women/"
+    ],
+    "imdb_id": "tt0810894",
+    "authoritative_director": "Edgar Reitz"
+  },
+  "https://asac.labiennale.org/attivita/cinema/11280": {
+    "aliases": [
+      "Courthouse on Horseback",
+      "Ma bei shang de fa ting"
+    ],
+    "director_aliases": [
+      "Liu Jie",
+      "Jie Liu"
+    ],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/11280",
+      "https://www.imdb.com/title/tt1064775/"
+    ],
+    "imdb_id": "tt1064775"
+  },
+  "https://asac.labiennale.org/attivita/cinema/11281": {
+    "aliases": [],
+    "director_aliases": [],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/11281"
+    ],
+    "runtime": 96
+  },
+  "https://asac.labiennale.org/attivita/cinema/11284": {
+    "aliases": [],
+    "director_aliases": [],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/11284"
+    ],
+    "runtime": 75
+  },
+  "https://asac.labiennale.org/attivita/cinema/11288": {
+    "aliases": [
+      "Tachigui: The Amazing Lives of the Fast Food Grifters",
+      "Tachiguishi",
+      "Tachiguishi-Retsuden"
+    ],
+    "director_aliases": [],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/11288",
+      "https://www.imdb.com/title/tt0480586/"
+    ],
+    "imdb_id": "tt0480586"
+  },
+  "https://asac.labiennale.org/attivita/cinema/11289": {
+    "aliases": [
+      "Rain Dogs"
+    ],
+    "director_aliases": [],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/11289",
+      "https://www.imdb.com/title/tt0851579/"
+    ],
+    "imdb_id": "tt0851579"
+  },
+  "https://asac.labiennale.org/attivita/cinema/11338": {
+    "aliases": [],
+    "director_aliases": [
+      "Ivan Vyrypaev"
+    ],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/11338"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/11339": {
+    "aliases": [
+      "Falling"
+    ],
+    "director_aliases": [],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/11339",
+      "https://www.imdb.com/title/tt0832347/"
+    ],
+    "imdb_id": "tt0832347"
+  },
+  "https://asac.labiennale.org/attivita/cinema/11350": {
+    "aliases": [
+      "Syndromes and a Century"
+    ],
+    "director_aliases": [],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/11350",
+      "https://www.imdb.com/title/tt0477731/"
+    ],
+    "imdb_id": "tt0477731"
+  },
+  "https://asac.labiennale.org/attivita/cinema/123500": {
+    "aliases": [
+      "Tedium",
+      "Khastegi",
+      "Sex My Life"
+    ],
+    "director_aliases": [
+      "Bahman Motamedian"
+    ],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/123500",
+      "https://www.imdb.com/title/tt1284579/"
+    ],
+    "imdb_id": "tt1284579"
+  },
+  "https://asac.labiennale.org/attivita/cinema/179313": {
+    "aliases": [],
+    "director_aliases": [
+      "Soi Cheang"
+    ],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/179313"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/179314": {
+    "aliases": [],
+    "director_aliases": [
+      "Shoja Azari, Shirin Neshat"
+    ],
+    "note": "Official press kit credits Shirin Neshat in collaboration with Shoja Azari; IFFR lists both directors, matching provider.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/179314",
+      "https://www.imdb.com/title/tt1498887/",
+      "https://coproductionoffice.eu/assets/films/women-without-men/presskit/WOMEN_BD310809.pdf"
+    ],
+    "imdb_id": "tt1498887"
+  },
+  "https://asac.labiennale.org/attivita/cinema/179351": {
+    "aliases": [],
+    "director_aliases": [],
+    "note": "Viennale confirms Germany 2009, Romuald Karmakar, 110 minutes; fills missing ASAC production year.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/179351",
+      "https://www.imdb.com/title/tt1500762/",
+      "https://www.viennale.at/en/films/villalobos"
+    ],
+    "imdb_id": "tt1500762"
+  },
+  "https://asac.labiennale.org/attivita/cinema/179356": {
+    "aliases": [],
+    "director_aliases": [
+      "Kirill Serebrennikov, Pyotr Buslov, Boris Khlebnikov, Ivan Vyrypaev, Aleksei German Jr."
+    ],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/179356"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/179357": {
+    "aliases": [],
+    "director_aliases": [
+      "Liu Jie"
+    ],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/179357"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/179364": {
+    "aliases": [],
+    "director_aliases": [
+      "Marco S. Puccioni"
+    ],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks. Provider runtime is zero; use exact official ASAC feature runtime 70 minutes.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/179364"
+    ],
+    "runtime": 70
+  },
+  "https://asac.labiennale.org/attivita/cinema/179367": {
+    "aliases": [
+      "Toto",
+      "Totó"
+    ],
+    "director_aliases": [],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/179367",
+      "https://www.imdb.com/title/tt1499697/"
+    ],
+    "imdb_id": "tt1499697"
+  },
+  "https://asac.labiennale.org/attivita/cinema/179373": {
+    "aliases": [
+      "Bets & Wedding Dresses"
+    ],
+    "director_aliases": [],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/179373"
+    ],
+    "runtime": 138
+  },
+  "https://asac.labiennale.org/attivita/cinema/179378": {
+    "aliases": [
+      "Once Upon a Time Proletarian",
+      "Once Upon a Time Proletarian: 12 Tales of a Country"
+    ],
+    "director_aliases": [],
+    "note": "Contemporaneous Hamburg programme verifies international title, Xiaolu Guo, 2009 and 76 minutes.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/179378",
+      "https://www.filmfesthamburg.de/en/film-info/once-upon-a-time-proletarian-12-tales-of-a-country/"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/179381": {
+    "aliases": [
+      "Cow",
+      "斗牛"
+    ],
+    "director_aliases": [],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/179381",
+      "https://www.imdb.com/title/tt1500703/"
+    ],
+    "imdb_id": "tt1500703"
+  },
+  "https://asac.labiennale.org/attivita/cinema/180185": {
+    "aliases": [],
+    "director_aliases": [
+      "Brillante Ma Mendoza"
+    ],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/180185"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/216594": {
+    "aliases": [],
+    "director_aliases": [
+      "Isabella Sandri, Giuseppe M. Gaudino"
+    ],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks. Provider runtime is zero; use exact official ASAC feature runtime 90 minutes.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/216594"
+    ],
+    "runtime": 90
+  },
+  "https://asac.labiennale.org/attivita/cinema/216599": {
+    "aliases": [
+      "Reconstructing Faith",
+      "西方去此不遠",
+      "西方去此不远"
+    ],
+    "director_aliases": [
+      "Wenhai Huang",
+      "Wen Hai",
+      "Huang Wenhai"
+    ],
+    "note": "Chinese Independent Film Archive verifies international title and filmmaker Wen Hai/Huang Wenhai. No IMDb ID discovered after English/romanized/Chinese-title searches. Primary archive confirms complete work, director Wen Hai and 2010; its archival runtime79 differs by1minute from Venice78. Provider identity must remain explicitly reviewed without a fabricated IMDb identifier. Exact TMDB634323 discovered from Letterboxd More at TMDB link. ASAC and Chinese Independent Film Archive independently anchor title/director/complete documentary scope. Scoped missing-IMDb allowance retains verified TMDB identity; runtime constrained70–90.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/216599",
+      "https://chinaindiefilm.com/films/reconstructing-faith/",
+      "https://letterboxd.com/film/reconstructing-faith/",
+      "https://www.themoviedb.org/movie/634323/"
+    ],
+    "tmdb_id": 634323,
+    "allow_missing_imdb": true,
+    "required_runtime_range": [
+      70,
+      90
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/216617": {
+    "aliases": [],
+    "director_aliases": [
+      "Paul Morrissey"
+    ],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/216617"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/216621": {
+    "aliases": [],
+    "director_aliases": [
+      "F.J. Ossang"
+    ],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/216621"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/216634": {
+    "aliases": [
+      "We Were Communists",
+      "When We Were Communists",
+      "Nous étions communistes"
+    ],
+    "director_aliases": [],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/216634"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/216665": {
+    "aliases": [],
+    "director_aliases": [
+      "Mustapha Hasnaoui, Marianne Khoury"
+    ],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/216665"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/217200": {
+    "aliases": [],
+    "director_aliases": [
+      "Wang Bing"
+    ],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/217200"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/52683": {
+    "aliases": [
+      "Chaos, This Is?"
+    ],
+    "director_aliases": [
+      "Youssef Chahine, Khaled Youssef"
+    ],
+    "note": "Filmmaker confirms co-signed Youssef Chahine/Khaled Youssef work.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/52683",
+      "https://khaledyoussef.com/films/heya-fawda/"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/52703": {
+    "aliases": [],
+    "director_aliases": [
+      "Jiang Wen"
+    ],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/52703"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/52708": {
+    "aliases": [
+      "Help Me, Eros",
+      "Help Me Eros"
+    ],
+    "director_aliases": [],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/52708",
+      "https://www.imdb.com/title/tt1076251/"
+    ],
+    "imdb_id": "tt1076251"
+  },
+  "https://asac.labiennale.org/attivita/cinema/52713": {
+    "aliases": [
+      "Mothers"
+    ],
+    "director_aliases": [],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks. Provider runtime is zero; use exact official ASAC feature runtime 90 minutes.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/52713"
+    ],
+    "runtime": 90
+  },
+  "https://asac.labiennale.org/attivita/cinema/52715": {
+    "aliases": [],
+    "director_aliases": [],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/52715",
+      "https://www.imdb.com/title/tt1094643/"
+    ],
+    "imdb_id": "tt1094643"
+  },
+  "https://asac.labiennale.org/attivita/cinema/52751": {
+    "aliases": [],
+    "director_aliases": [
+      "Abdellatif Kechiche"
+    ],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/52751"
+    ]
+  },
+  "https://asac.labiennale.org/attivita/cinema/52818": {
+    "aliases": [
+      "Anabazys: O Terceiro Testamento de Glauber Rocha"
+    ],
+    "director_aliases": [],
+    "note": "Exact provider expanded title reconciled using IMDb tt1094235, both directors and 2007. Venice ASAC records 140 minutes; official Rosario 2012 festival programme independently confirms the same documentary at 140 minutes. Provider runtime100 is discrepant and does not establish a separately selected work or version. Retain source festival runtime140 as evidence; do not invent a100-minute Venice cut.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/52818",
+      "https://www.imdb.com/title/tt1094235/",
+      "https://www.flvr2012.centroaudiovisual.gob.ar/page/fuera_de_competencia/id/9/title/El-cine-de-Glauber-Rocha",
+      "https://flvr2012.centroaudiovisual.gob.ar/uploadsarchivos/catalogo2012.pdf"
+    ],
+    "imdb_id": "tt1094235",
+    "authoritative_runtime": 140,
+    "version_note": "Venice ASAC and official Rosario2012 programme specify140-minute complete documentary; provider100-minute runtime is discrepant. Retain the140-minute festival runtime, same IMDb/work and directing credits."
+  },
+  "https://asac.labiennale.org/attivita/cinema/52859": {
+    "aliases": [
+      "With a Girl of Black Soil"
+    ],
+    "director_aliases": [
+      "Jeon Soo-il"
+    ],
+    "note": "KVIFF confirms international title and Jeon Soo-il.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/52859",
+      "https://www.imdb.com/title/tt1094635/",
+      "https://www.kviff.com/en/programme/film/14/3967-with-a-girl-of-black-soil"
+    ],
+    "imdb_id": "tt1094635"
+  },
+  "https://asac.labiennale.org/attivita/cinema/52868": {
+    "aliases": [],
+    "director_aliases": [],
+    "note": "Reviewed official ASAC work identity; alternate international title and/or credited director spelling reconciled with provider identity. IMDb pin is a discovered identity anchor and must be verified through provider /find, title, year and director checks.",
+    "source_urls": [
+      "https://asac.labiennale.org/attivita/cinema/52868",
+      "https://www.imdb.com/title/tt1094655/"
+    ],
+    "imdb_id": "tt1094655"
+  }
+}

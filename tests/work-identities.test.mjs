@@ -69,3 +69,10 @@ test('A reviewed complete cinema film can use a TV provider without inventing a 
  const f={id:99999,title:'A complete documentary',tmdb_id:null,tmdb_tv_id:43107,imdb_id:'tt1113829',identity_status:'reviewed_complete_film_tv_provider',identity_scope:'complete-film',identity_sources:['https://publisher.test/film']};
  const r=identities.createRegistry([f],[]);assert.equal(r.byExternalId('tv',43107).work_key,'movie:99999');assert.throws(()=>identities.createRegistry([{...f,identity_status:undefined}],[]),/reviewed complete-film/);
 });
+
+test('A complete festival work keeps its own identity when providers only catalogue its parts',()=>{
+ const f={id:99998,title:'Complete festival work',tmdb_id:null,imdb_id:null,identity_status:'reviewed_complete_film_official_source',identity_scope:'complete-film',identity_key:'festival:cannes:2008:che',identity_sources:['https://festival.test/complete','https://distributor.test/complete']};
+ const r=identities.createRegistry([f],[]);assert.equal(r.get('movie:99998').identity_key,f.identity_key);
+ for(const invalid of [{...f,tmdb_id:8881},{...f,imdb_id:'tt0892255'},{...f,identity_sources:[]},{...f,identity_scope:'part'},{...f,identity_key:undefined}])assert.throws(()=>identities.createRegistry([invalid],[]),/complete-film/);
+ assert.throws(()=>identities.createRegistry([f,{...f,id:99997}],[]),/Duplicate official-source/);
+});
