@@ -8665,6 +8665,18 @@
       "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
     },
     {
+      "key": "https://www.festival-cannes.com/en/f/september/",
+      "signature": "c8353e684f2772b43396c74803be6954aa7d3325614aeb13db96fea794343e8b",
+      "title": "SEPTEMBER",
+      "source": "https://www.festival-cannes.com/en/f/september/",
+      "id": 5281,
+      "tmdb_id": 385138,
+      "imdb_id": "tt0308865",
+      "director": "Max Färberböck",
+      "provider_release_date": "2003-06-26",
+      "method": "Official title/alias, festival director or all nominated acting/directing credits, feature runtime, release window and unique provider identity"
+    },
+    {
       "key": "https://www.festival-cannes.com/en/f/shanghai-dreams/",
       "signature": "fc925df19898b3669c9cf653e510239f7cd0ebe1bb638ede7ff7de1785124716",
       "title": "SHANGHAI DREAMS",
@@ -18017,23 +18029,20 @@
         "Seventeen Times Cécile Cassard",
         "17 Times Cécile Cassard"
       ]
-    }
-  ],
-  "unresolved": [
+    },
     {
-      "key": "https://www.festival-cannes.com/en/f/september/",
-      "event": "Cannes",
+      "id": 5281,
+      "title": "September",
+      "director": "Max Färberböck",
       "year": 2003,
-      "title": "SEPTEMBER",
-      "aliases": [],
-      "director": "Max FAERBERBOECK",
-      "source": "https://www.festival-cannes.com/en/f/september/",
-      "runtime": 112,
-      "runtime_source": "https://www.festival-cannes.com/en/f/september/",
-      "festival": true,
-      "reason": "Expected one title/year/credit match; found 0; candidates [{\"tmdb_id\":385138,\"title\":\"September\",\"year\":\"2003-06-26\",\"director\":\"Max Färberböck\",\"runtime\":0,\"imdb_id\":\"tt0308865\",\"genres\":[\"Drama\"]}]"
+      "tmdb_id": 385138,
+      "imdb_id": "tt0308865",
+      "original_title": "September",
+      "original_language": "de",
+      "alternate_titles": []
     }
   ],
+  "unresolved": [],
   "poster_recovery": [],
   "unavailable_posters": [
     {
@@ -18055,6 +18064,11 @@
       "id": 5144,
       "title": "Temptations",
       "tmdb_id": 263069
+    },
+    {
+      "id": 5281,
+      "title": "September",
+      "tmdb_id": 385138
     }
   ]
 }

@@ -166963,5 +166963,33 @@ window.CULTURE_FILM_DETAILS = {
     "imdb": {
       "url": "https://www.imdb.com/title/tt0296591/"
     }
+  },
+  "5281": {
+    "tmdb_id": 385138,
+    "title": "September",
+    "original_title": "September",
+    "overview": "Couples and families in the days after September 11, 2001. All relationships become complictaed, but only one of the four nested stories surrounding a German who condemns the attack, and her husband, a Muslim who advocates it, offers approximate a discussion approach to the attack. The remaining episodes are poorly staged, construction-looking relationship tragedies.",
+    "runtime": 112,
+    "release_date": "2003-06-26",
+    "genres": [
+      "Drama"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "original_language": "de",
+    "director": "Max Färberböck",
+    "cast": [
+      "Justus von Dohnányi",
+      "Nina Proll",
+      "Jörg Schüttauf",
+      "Stefanie Stappenbeck",
+      "Anja Kling"
+    ],
+    "tmdb_rating": 5.3,
+    "tmdb_votes": 7,
+    "imdb": {
+      "url": "https://www.imdb.com/title/tt0308865/"
+    }
   }
 };
