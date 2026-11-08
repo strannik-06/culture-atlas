@@ -8,12 +8,13 @@ const globalFrom=(file,key)=>{const c={window:{}};vm.runInNewContext(fs.readFile
 const editions=globalFrom('awards-2026.js','CULTURE_AWARDS_2026');
 const spec=JSON.parse(fs.readFileSync(new URL('../imports/awards-2026-source.json',import.meta.url),'utf8'));
 const tick=()=>new Promise(r=>setTimeout(r,20));
-async function boot(hash='#/films/awards'){
+async function boot(hash='#/films/awards',signedIn=false){
  const w=new Window({url:'https://example.test/culture-atlas/'+hash,settings:{disableCSSFileLoading:true,disableJavaScriptFileLoading:true,enableJavaScriptEvaluation:true,suppressInsecureJavaScriptEnvironmentWarning:true}});
  w.document.write(html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,''));w.HTMLElement.prototype.scrollIntoView=()=>{};
  w.HTMLDialogElement.prototype.showModal=function(){this.open=true;};w.HTMLDialogElement.prototype.close=function(){this.open=false;};
  for(const[,name]of html.matchAll(/<script src="([^"]+)"/g))if(!/^https?:/.test(name))w.eval(fs.readFileSync(new URL('../'+name,import.meta.url),'utf8'));
- w.eval([...html.matchAll(/<script>([\s\S]*?)<\/script>/g)].at(-1)[1]);await tick();return {w,$:id=>w.document.getElementById(id),close:()=>w.happyDOM.close()};
+ w.__testSignedIn=signedIn?{id:'widget-test-owner'}:null;
+ w.eval([...html.matchAll(/<script>([\s\S]*?)<\/script>/g)].at(-1)[1].replace('let signedInUser=null;', 'let signedInUser=window.__testSignedIn;'));await tick();return {w,$:id=>w.document.getElementById(id),close:()=>w.happyDOM.close()};
 }
 test('2026: every award, complete selected feature scope, winners and canonical references match source records',()=>{
  assert.equal(editions.length,6);const films=globalFrom('film-catalog.js','CULTURE_CATALOG'),known=new Map(films.map(f=>[f.id,f]));
@@ -58,7 +59,9 @@ test('Festivals show one card per film per section and aggregate every prize and
  }
 });
 test('Ceremony performer nominations still repeat and share one rating',async()=>{
- const a=await boot('#/films/awards?event=Oscars&year=2026');try{
+ const a=await boot('#/films/awards?event=Oscars&year=2026',true);try{
+  // Rating controls are account-only; this test isolates shared widget state.
+  await a.w.CultureLists.setSession({id:'widget-test-owner'});
   const{w,$}=a,groups=$('awards-grid').querySelectorAll('.award-category'),id=groups[0].querySelector('article').dataset.filmId;
   const first=$('awards-grid').querySelector(`[data-film-id="${id}"]`);first.querySelector('[data-open-stars]').click();const stars=$('star-picker')||w.document.querySelector('.star-picker:not([hidden])');assert.ok(stars);
   for(let i=0;i<16;i++)stars.dispatchEvent(new w.KeyboardEvent('keydown',{key:'ArrowRight',bubbles:true}));stars.dispatchEvent(new w.KeyboardEvent('keydown',{key:'Enter',bubbles:true}));stars.querySelector('.rating-save').click();

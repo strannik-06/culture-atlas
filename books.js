@@ -98,6 +98,7 @@
     return awards.length?'<div class="book-award-label">'+awards.map(a=>`<div><a href="${escape(a.url)}">${a.winner?'★ ':''}${escape(a.event)} ${a.year} · ${escape(a.category==='Selected works'?a.label:a.label+' · '+a.category)}</a></div>`).join('')+'</div>':'';
   }
   function editMode(value) {
+    if(value&&!user){window.CultureLists?.signIn();return;}
     editing=value;closeBookStars();$('book-rating-form').hidden=!value;$('book-detail-personal').hidden=value;
     $('book-detail-edit').textContent=value?'Save':'Edit';$('book-detail-edit').classList.toggle('detail-save',value);
   }
@@ -253,7 +254,7 @@
     message('book-save-status',user?'': 'Sign in using Account to save this book.');
     $('book-editor').hidden=false;
     if(!$('book-editor').open)$('book-editor').showModal();
-    editMode(!selected.id);$('book-detail-edit').disabled=saving||loading;
+    editMode(!!user&&!selected.id);$('book-detail-edit').disabled=saving||loading;
     if(selected.open_library_work_id&&!descriptions.has(workId)){
       descriptions.set(workId,'Synopsis unavailable.');
       fetch(`https://openlibrary.org${selected.open_library_work_id}.json`,{signal:AbortSignal.timeout(12000)}).then(r=>r.ok?r.json():null).then(doc=>{const text=typeof doc?.description==='string'?doc.description:doc?.description?.value;if(typeof text==='string'&&text.trim()){descriptions.set(workId,text);if(sequence===detailSequence)$('book-synopsis').textContent=text;}}).catch(()=>{});
