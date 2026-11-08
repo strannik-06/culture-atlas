@@ -331,7 +331,7 @@ test('Prepared import UI previews before applying, supports local books and clea
     assert.match($('book-ratings-grid').textContent,/Collection/);
     assert.equal($('book-ratings-grid').querySelector('h3 a').getAttribute('href'),'#/books/local-99');
     $('book-ratings-grid').querySelector('button').click();
-    assert.equal($('book-editor').open,true);assert.match($('book-reading-history').textContent,/July 2022/);assert.match($('book-reading-history').textContent,/<Private historical note>/);
+    assert.equal($('book-editor').open,true);assert.match($('book-reading-history').textContent,/Loading reading history/);await flush();assert.match($('book-reading-history').textContent,/July 2022/);assert.match($('book-reading-history').textContent,/<Private historical note>/);
     assert.equal($('book-reading-history').querySelector('private'),null);
     $('book-rating-form').dispatchEvent(new window.Event('submit',{cancelable:true}));await flush();
     assert.equal(state.calls.at(-1).name,'update_book_rating');assert.equal(state.calls.at(-1).payload.p_book_id,99);
