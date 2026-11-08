@@ -38,11 +38,21 @@ try{
   await page.waitForTimeout(100);assert.equal(await button.getAttribute('aria-pressed'),'true');
  }
  assert.equal(await page.evaluate(()=>window.__previewRows.length),3);
- await page.locator('#personal-list-open').click();assert.equal(await page.locator('#personal-list-items .saved-list-row').count(),3);
- await page.locator('#personal-list-kind').selectOption('book');assert.equal(await page.locator('#personal-list-items .saved-list-row').count(),1);
- await page.locator('#personal-list-items [data-list-remove]').click();await page.waitForFunction(()=>window.__previewRows.length===2);
- await page.locator('#personal-list-kind').selectOption('all');await page.screenshot({path:'docs/previews/private-lists-saved-desktop.png'});
- await page.evaluate(()=>{window.__previewUser=null;window.__previewAuth('SIGNED_OUT',null);});await page.waitForFunction(()=>!document.getElementById('personal-lists').open);
- assert.equal(await page.locator('#personal-list-items .saved-list-row').count(),0);
- assert.deepEqual(errors,[]);console.log('Guest prompts, all mobile layouts, authenticated saves for all three media, filtering, removal and sign-out passed.');
+ assert.equal(await page.locator('#personal-list-open').count(),0);
+ for(const [section,grid]of [['films','#ratings-grid'],['tv','#tv-grid'],['books','#book-watchlist-grid']]){
+  await page.evaluate(section=>window.CultureRouter.navigate({section,view:'watchlist',params:{}}),section);
+  assert.equal(await page.locator(grid+' article').count(),1);assert.ok(await page.locator(grid+' article').first().isVisible());
+  assert.match(page.url(),new RegExp(section+'/watchlist'));
+  await page.setViewportSize({width:390,height:1000});assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),section+' list mobile overflow');
+  await page.screenshot({path:'docs/previews/private-lists-'+section+'-saved-mobile.png'});await page.setViewportSize({width:1440,height:1100});
+ }
+ await page.evaluate(()=>window.CultureRouter.navigate({section:'films',view:'watchlist',params:{}}));
+ await page.locator('#ratings-grid [data-open-stars]').click();await page.locator('.star-picker:not([hidden]) .star-choice').nth(7).click();await page.locator('.star-picker:not([hidden]) .rating-save').click();await page.waitForFunction(()=>window.__previewRows.length===2);
+ assert.equal(await page.locator('#ratings-grid article').count(),0);
+ await page.evaluate(()=>window.CultureRouter.navigate({section:'films',view:'awards',params:{}}));await page.locator('article:visible [data-list-toggle]').first().click();await page.waitForFunction(()=>window.__previewRows.length===3);
+ await page.evaluate(()=>window.CultureRouter.navigate({section:'books',view:'watchlist',params:{}}));
+ await page.locator('#book-list-search').fill('no such saved book');assert.equal(await page.locator('#book-watchlist-grid article').count(),0);await page.locator('#book-list-search').fill('');assert.equal(await page.locator('#book-watchlist-grid article').count(),1);
+ await page.locator('#book-watchlist-grid [data-list-toggle]').click();await page.waitForFunction(()=>window.__previewRows.length===2);
+ await page.evaluate(()=>{window.__previewUser=null;window.__previewAuth('SIGNED_OUT',null);});await page.waitForFunction(()=>document.getElementById('book-watchlist-grid').children.length===0);
+ assert.deepEqual(errors,[]);console.log('Guest prompts, all mobile layouts, authenticated saves for all three media, native list navigation, automatic removal, re-adding, search and sign-out passed.');
 }finally{await browser.close();await new Promise(resolve=>server.close(resolve));}

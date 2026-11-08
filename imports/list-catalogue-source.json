@@ -1,0 +1,135 @@
+[
+  {
+    "type": "movie",
+    "title": "Ali G: Who Iz I?",
+    "year": 2026,
+    "director": "Sacha Baron Cohen"
+  },
+  {
+    "type": "movie",
+    "title": "Musk",
+    "year": 2026,
+    "director": "Alex Gibney"
+  },
+  {
+    "type": "movie",
+    "title": "Dune: Part Three",
+    "year": 2026,
+    "director": "Denis Villeneuve"
+  },
+  {
+    "type": "movie",
+    "title": "The Debut",
+    "year": 2026,
+    "director": "Jesse Eisenberg"
+  },
+  {
+    "type": "movie",
+    "title": "You Can See Everything",
+    "year": 2026,
+    "director": "Nathan Fielder"
+  },
+  {
+    "type": "movie",
+    "title": "Spider-Man: Brand New Day",
+    "year": 2026,
+    "director": "Destin Daniel Cretton"
+  },
+  {
+    "type": "movie",
+    "title": "Josephine",
+    "year": 2026,
+    "director": "Beth de Araújo"
+  },
+  {
+    "type": "movie",
+    "title": "Elsinore",
+    "year": 2026,
+    "director": "Simon Stone"
+  },
+  {
+    "type": "movie",
+    "title": "Alpha Gang",
+    "year": 2026,
+    "director": "David Zellner"
+  },
+  {
+    "type": "movie",
+    "title": "Yes",
+    "year": 2025,
+    "director": "Nadav Lapid"
+  },
+  {
+    "type": "movie",
+    "title": "Amrum",
+    "year": 2025,
+    "director": "Fatih Akin"
+  },
+  {
+    "type": "movie",
+    "title": "Memory",
+    "year": 2025,
+    "director": "Vladlena Sandu",
+    "aliases": [
+      "Память",
+      "Pamyat"
+    ]
+  },
+  {
+    "type": "tv",
+    "title": "The Gentlemen",
+    "year": 2024
+  },
+  {
+    "type": "tv",
+    "title": "The Beast in Me",
+    "year": 2025
+  },
+  {
+    "type": "tv",
+    "title": "Margo's Got Money Troubles",
+    "year": 2026,
+    "aliases": [
+      "Margo’s Got Money Troubles"
+    ]
+  },
+  {
+    "type": "tv",
+    "title": "When They See Us",
+    "year": 2019
+  },
+  {
+    "type": "tv",
+    "title": "The Diplomat",
+    "year": 2023,
+    "creator": "Debora Cahn"
+  },
+  {
+    "type": "tv",
+    "title": "Slow Horses",
+    "year": 2022
+  },
+  {
+    "type": "tv",
+    "title": "Peaky Blinders",
+    "year": 2013
+  },
+  {
+    "type": "tv",
+    "title": "The Expanse",
+    "year": 2015
+  },
+  {
+    "type": "tv",
+    "title": "Shōgun",
+    "year": 2024,
+    "aliases": [
+      "Shogun"
+    ]
+  },
+  {
+    "type": "tv",
+    "title": "Mr. Robot",
+    "year": 2015
+  }
+]

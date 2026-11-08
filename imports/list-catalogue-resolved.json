@@ -1,0 +1,1169 @@
+{
+  "records": [
+    {
+      "requested": "Ali G: Who Iz I?",
+      "type": "movie",
+      "provider_key": "movie:1727734",
+      "metadata": {
+        "title": "Ali G: Who Iz I?",
+        "original_title": "Ali G: Who Iz I?",
+        "year": 2026,
+        "tmdb_id": 1727734,
+        "imdb_id": "tt43655467",
+        "overview": "After twenty years spent \"chillin', tokin' and bonin'\", Ali G is shocked to discover that his long-term girlfriend, Julie, is 8 months pregnant. Faced with an extra mouth to feed, he gets off his batty and heads to America to reclaim his former glory… but soon encounters adversaries who will ultimately threaten his and his child's very existence.",
+        "poster_path": "/uTyVxPeWX8Ai30IQoyDDQONNcq.jpg",
+        "cast": [
+          "Sacha Baron Cohen",
+          "Morgana Robinson",
+          "Alpha Miknas",
+          "Clive Russell",
+          "A$AP Rocky",
+          "Rihanna",
+          "Tiffany Haddish",
+          "DJ Jazzy Jeff"
+        ],
+        "genres": [
+          "Comedy"
+        ],
+        "countries": [
+          "GB",
+          "US"
+        ],
+        "tmdb_rating": 5.712,
+        "release_date": "2026-10-22",
+        "runtime": 89,
+        "director": "Sacha Baron Cohen"
+      },
+      "evidence": "https://www.themoviedb.org/movie/1727734"
+    },
+    {
+      "requested": "Musk",
+      "type": "movie",
+      "provider_key": "movie:1096228",
+      "metadata": {
+        "title": "Musk",
+        "original_title": "Musk",
+        "year": 2026,
+        "tmdb_id": 1096228,
+        "imdb_id": "tt27041231",
+        "overview": "An incisive look behind the legend of Elon Musk, the world's most heralded \"inventor-entrepreneur\" who has enormous influence on the world in which we all live.",
+        "poster_path": "/kTOeFV92c3QHJ3bEkT660P7BcWN.jpg",
+        "cast": [
+          "Elon Musk",
+          "Alex Gibney",
+          "Justine Musk",
+          "Ashley St. Clair",
+          "Kara Swisher",
+          "Martin Eberhard",
+          "Zoë Schiffer",
+          "Geoffrey Hinton"
+        ],
+        "genres": [
+          "Documentary"
+        ],
+        "countries": [
+          "US"
+        ],
+        "tmdb_rating": 6.318,
+        "release_date": "2026-10-09",
+        "runtime": 238,
+        "director": "Alex Gibney"
+      },
+      "evidence": "https://www.themoviedb.org/movie/1096228"
+    },
+    {
+      "requested": "Dune: Part Three",
+      "type": "movie",
+      "provider_key": "movie:1170608",
+      "metadata": {
+        "title": "Dune: Part Three",
+        "original_title": "Dune: Part Three",
+        "year": 2026,
+        "tmdb_id": 1170608,
+        "imdb_id": "tt31378509",
+        "overview": "Nearly two decades after he seized control of the Imperium, Paul Atreides is now a ruthless Emperor, and must face the consequences of his reign as old allies return, terrifying new threats emerge, and betrayal lurks in every shadow. Haunted by visions of Imperial collapse and the reappearance of his long-lost love, Paul is drawn into a sweeping conspiracy, with Chani at the heart of its unfolding mystery. As enemies close in, Paul must confront the true cost of power and the fate of those he loves the most.",
+        "poster_path": "/glt0v4I89rMWstDNCaFXc5SNyO1.jpg",
+        "cast": [
+          "Timothée Chalamet",
+          "Zendaya",
+          "Jason Momoa",
+          "Florence Pugh",
+          "Rebecca Ferguson",
+          "Isaach de Bankolé",
+          "Charlotte Rampling",
+          "Anya Taylor-Joy"
+        ],
+        "genres": [
+          "Science Fiction",
+          "Adventure"
+        ],
+        "countries": [
+          "US",
+          "AE"
+        ],
+        "tmdb_rating": null,
+        "release_date": "2026-12-15",
+        "runtime": 150,
+        "director": "Denis Villeneuve"
+      },
+      "evidence": "https://www.themoviedb.org/movie/1170608"
+    },
+    {
+      "requested": "The Debut",
+      "type": "movie",
+      "provider_key": "movie:1391239",
+      "metadata": {
+        "title": "The Debut",
+        "original_title": "The Debut",
+        "year": 2026,
+        "tmdb_id": 1391239,
+        "imdb_id": "tt34718200",
+        "overview": "When Mona Friedman is cast in a bit part at a small community theater, she transforms from a shy, unassuming housewife into a zealous method actor willing to do anything to protect the artistic integrity of her marginal role—even if it means waging war against the show’s domineering director.",
+        "poster_path": "/5CZdxLiBpYMBXwo0rur6YzZTVP4.jpg",
+        "cast": [
+          "Julianne Moore",
+          "Paul Giamatti",
+          "Halle Bailey",
+          "Colton Ryan",
+          "Eldar Isgandarov",
+          "K. Todd Freeman",
+          "Susan Blommaert",
+          "Jesse Eisenberg"
+        ],
+        "genres": [
+          "Music",
+          "Comedy",
+          "Drama"
+        ],
+        "countries": [
+          "US"
+        ],
+        "tmdb_rating": null,
+        "release_date": "2026-12-10",
+        "runtime": 105,
+        "director": "Jesse Eisenberg"
+      },
+      "evidence": "https://www.themoviedb.org/movie/1391239"
+    },
+    {
+      "requested": "You Can See Everything",
+      "type": "movie",
+      "provider_key": "movie:1765072",
+      "metadata": {
+        "title": "You Can See Everything",
+        "original_title": "You Can See Everything",
+        "year": 2026,
+        "tmdb_id": 1765072,
+        "imdb_id": "tt45368240",
+        "overview": "Thirty-four days before she's sent to prison, notorious Silicon Valley founder Elizabeth Holmes invites a skeptical film crew to document her every move. What begins as an intimate portrait of an enigmatic felon becomes a mind-bending three-year journey into the abyss.",
+        "poster_path": "/Ap8QwmKfSjYbWC4XIP8w9pdn72O.jpg",
+        "cast": [
+          "Elizabeth Holmes",
+          "Nathan Fielder",
+          "Billy Evans",
+          "Amanda Seyfried",
+          "Christopher Abbott",
+          "Lance Oppenheim",
+          "Christian Rasmus Holmes IV",
+          "Noel Anne Holmes"
+        ],
+        "genres": [
+          "Documentary"
+        ],
+        "countries": [
+          "US"
+        ],
+        "tmdb_rating": 8.9,
+        "release_date": "2026-10-16",
+        "runtime": 174,
+        "director": "Nathan Fielder, Lance Oppenheim"
+      },
+      "evidence": "https://www.themoviedb.org/movie/1765072"
+    },
+    {
+      "requested": "Spider-Man: Brand New Day",
+      "type": "movie",
+      "provider_key": "movie:969681",
+      "metadata": {
+        "title": "Spider-Man: Brand New Day",
+        "original_title": "Spider-Man: Brand New Day",
+        "year": 2026,
+        "tmdb_id": 969681,
+        "imdb_id": "tt22084616",
+        "overview": "Fighting crime full-time as Spider-Man in a world that doesn't remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
+        "poster_path": "/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
+        "cast": [
+          "Tom Holland",
+          "Sadie Sink",
+          "Tramell Tillman",
+          "Zendaya",
+          "Jacob Batalon",
+          "Jon Bernthal",
+          "Mark Ruffalo",
+          "Florence Pugh"
+        ],
+        "genres": [
+          "Science Fiction",
+          "Action",
+          "Adventure"
+        ],
+        "countries": [
+          "US"
+        ],
+        "tmdb_rating": 8.478,
+        "release_date": "2026-07-29",
+        "runtime": 145,
+        "director": "Destin Daniel Cretton"
+      },
+      "evidence": "https://www.themoviedb.org/movie/969681"
+    },
+    {
+      "requested": "Josephine",
+      "type": "movie",
+      "provider_key": "movie:1299329",
+      "metadata": {
+        "title": "Josephine",
+        "original_title": "Josephine",
+        "year": 2026,
+        "tmdb_id": 1299329,
+        "imdb_id": "tt32321285",
+        "overview": "After eight-year-old Josephine accidentally witnesses a brutal assault, she begins acting out violently to protect herself. This emotional trauma leads to conflicts between her parents as they search for justice and a way to feel safe again.",
+        "poster_path": "/8KTcbsdz2PcyA58puJMA3CUnZeA.jpg",
+        "cast": [
+          "Mason Reeves",
+          "Channing Tatum",
+          "Gemma Chan",
+          "Philip Ettinger",
+          "Syra McCarthy",
+          "Eleanore Pienta",
+          "Dana Millican",
+          "Michael Angelo Covino"
+        ],
+        "genres": [
+          "Drama",
+          "Crime"
+        ],
+        "countries": [
+          "US"
+        ],
+        "tmdb_rating": null,
+        "release_date": "2026-11-19",
+        "runtime": 119,
+        "director": "Beth de Araújo"
+      },
+      "evidence": "https://www.themoviedb.org/movie/1299329"
+    },
+    {
+      "requested": "Elsinore",
+      "type": "movie",
+      "provider_key": "movie:1599230",
+      "metadata": {
+        "title": "Elsinore",
+        "original_title": "Elsinore",
+        "year": 2026,
+        "tmdb_id": 1599230,
+        "imdb_id": "tt37363222",
+        "overview": "The deeply emotional and inspirational true story of Ian Charleson, a gifted actor whose greatest challenge becomes his greatest triumph. Facing his own mortality with unflinching honesty, wit, and grace, Charleson delivers a courageous performance that becomes a source of healing and inspiration for those around him.",
+        "poster_path": "/kohUtEueIVyDXC30MaOdi36aAwn.jpg",
+        "cast": [
+          "Andrew Scott",
+          "Olivia Colman",
+          "Billie Piper",
+          "Johnny Flynn",
+          "Luke Thompson",
+          "David Dawson",
+          "Matthew Beard",
+          "Joe Locke"
+        ],
+        "genres": [
+          "Drama"
+        ],
+        "countries": [
+          "IT",
+          "GB",
+          "US"
+        ],
+        "tmdb_rating": null,
+        "release_date": "2026-11-20",
+        "runtime": 111,
+        "director": "Simon Stone"
+      },
+      "evidence": "https://www.themoviedb.org/movie/1599230"
+    },
+    {
+      "requested": "Alpha Gang",
+      "type": "movie",
+      "provider_key": "movie:717041",
+      "metadata": {
+        "title": "Alpha Gang",
+        "original_title": "Alpha Gang",
+        "year": 2026,
+        "tmdb_id": 717041,
+        "imdb_id": "tt32321564",
+        "overview": "The Alpha Gang are alien invaders sent on a mission to conquer Earth. Disguised in human form, armed and dangerous, and clad in 1950’s leather biker get-up, they show no mercy… until they catch the most toxic, contagious human disease of all: emotion.",
+        "poster_path": "/lCMMf7RgnPX0TVOXvCZuR3r92Ek.jpg",
+        "cast": [
+          "Léa Seydoux",
+          "Dave Bautista",
+          "Kelvin Harrison Jr.",
+          "Lily-Rose Depp",
+          "Bae Doona",
+          "Riley Keough",
+          "Cate Blanchett",
+          "Chris Pine"
+        ],
+        "genres": [
+          "Comedy",
+          "Science Fiction"
+        ],
+        "countries": [
+          "GB",
+          "US"
+        ],
+        "tmdb_rating": 4,
+        "release_date": "2026-09-05",
+        "runtime": 109,
+        "director": "David Zellner, Nathan Zellner"
+      },
+      "evidence": "https://www.themoviedb.org/movie/717041"
+    },
+    {
+      "requested": "Yes",
+      "type": "movie",
+      "provider_key": "movie:1149614",
+      "metadata": {
+        "title": "Yes",
+        "original_title": "כן",
+        "year": 2025,
+        "tmdb_id": 1149614,
+        "imdb_id": "tt36667493",
+        "overview": "In the days following October 7, Y., a jazz musician, and his wife Yasmin, a dancer, resolve to say yes to everything. Y. and Yasmin sell their bodies and souls to the highest bidder, surrendering themselves and their art to Israel’s social, political and military elite. Soon, Y. is entrusted with a mission of the utmost importance: to compose the music for a rousing, ruthless new national anthem.",
+        "poster_path": "/5YCX8gMtto9j45sF8f4hHeEWlLS.jpg",
+        "cast": [
+          "Ariel Bronz",
+          "Efrat Dor",
+          "Naama Preis",
+          "Aleksey Serebryakov",
+          "Sharon Alexander",
+          "Pablo Pillaud-Vivien",
+          "Idit Teperson",
+          "Shira Shaish"
+        ],
+        "genres": [
+          "Drama",
+          "Comedy"
+        ],
+        "countries": [
+          "IL",
+          "FR",
+          "CY",
+          "DE"
+        ],
+        "tmdb_rating": 6.3,
+        "release_date": "2025-09-17",
+        "runtime": 152,
+        "director": "Nadav Lapid"
+      },
+      "evidence": "https://www.themoviedb.org/movie/1149614"
+    },
+    {
+      "requested": "Amrum",
+      "type": "movie",
+      "provider_key": "movie:1269644",
+      "metadata": {
+        "title": "Amrum",
+        "original_title": "Amrum",
+        "year": 2025,
+        "tmdb_id": 1269644,
+        "imdb_id": "tt22507216",
+        "overview": "On Amrum Island in spring 1945, twelve-year-old Nanning hunts seals, fishes at night, and works the fields to help feed his family. When the war ends, his mother sinks into depression, and he must navigate new conflicts while struggling to find his own path.",
+        "poster_path": "/z87OLGYXojP3bJjp0EpbutpvGTy.jpg",
+        "cast": [
+          "Jasper Billerbeck",
+          "Laura Tonke",
+          "Lisa Hagmeister",
+          "Kian Köppke",
+          "Lars Jessen",
+          "Detlev Buck",
+          "Jan Georg Schütte",
+          "Matthias Schweighöfer"
+        ],
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "countries": [
+          "DE",
+          "BE"
+        ],
+        "tmdb_rating": 7.207,
+        "release_date": "2025-10-09",
+        "runtime": 93,
+        "director": "Fatih Akin"
+      },
+      "evidence": "https://www.themoviedb.org/movie/1269644"
+    },
+    {
+      "requested": "Memory",
+      "type": "movie",
+      "provider_key": "movie:838301",
+      "metadata": {
+        "title": "Memory",
+        "original_title": "Память",
+        "year": 2026,
+        "tmdb_id": 838301,
+        "imdb_id": "tt37814864",
+        "overview": "After her parents’ divorce, six-year-old Vladlena moves from Crimea to Grozny, not yet aware of the changes that lie ahead. When war breaks out in Chechnya, it deeply affects her city and family. Years later, filmmaker Sandu reflects on her childhood in this poetic, autobiographical hybrid film, exploring how cycles of violence shape children—and how healing and change are possible.",
+        "poster_path": "/uB2aIF3BVBpOZA6hkVrEyFJjeD5.jpg",
+        "cast": [
+          "Amina Taisumova",
+          "Selima Agamirzaeva",
+          "Vladlena Sandu"
+        ],
+        "genres": [
+          "Documentary",
+          "Drama",
+          "War"
+        ],
+        "countries": [
+          "FR",
+          "NL",
+          "RU"
+        ],
+        "tmdb_rating": 6.3,
+        "release_date": "2026-03-03",
+        "runtime": 98,
+        "director": "Vladlena Sandu"
+      },
+      "evidence": "https://www.themoviedb.org/movie/838301"
+    },
+    {
+      "requested": "The Gentlemen",
+      "type": "tv",
+      "provider_key": "tv:236235",
+      "metadata": {
+        "title": "The Gentlemen",
+        "original_title": "The Gentlemen",
+        "year": 2024,
+        "tmdb_id": 236235,
+        "imdb_id": "tt13210838",
+        "overview": "When aristocratic Eddie inherits the family estate, he discovers that it's home to an enormous weed empire — and its proprietors aren't going anywhere.",
+        "poster_path": "/tw3tzfXaSpmUZIB8ZNqNEGzMBCy.jpg",
+        "cast": [
+          "Theo James",
+          "Kaya Scodelario",
+          "Daniel Ings",
+          "Joely Richardson",
+          "Vinnie Jones",
+          "Giancarlo Esposito",
+          "Benedetta Porcaroli"
+        ],
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Crime"
+        ],
+        "countries": [
+          "GB",
+          "US"
+        ],
+        "tmdb_rating": 7.884,
+        "release_date": "2024-03-07",
+        "runtime": null,
+        "id": "tv:236235",
+        "series_kind": "series",
+        "tmdb_media_type": "tv",
+        "creators": [
+          {
+            "id": 956,
+            "credit_id": "655cf96b53866e00e2964980",
+            "name": "Guy Ritchie",
+            "original_name": "Guy Ritchie",
+            "gender": 2,
+            "profile_path": "/9pLUnjMgIEWXi0mlHYzie9cKUTD.jpg"
+          }
+        ],
+        "directors": [],
+        "credit_names": [
+          "Guy Ritchie"
+        ],
+        "seasons": [
+          {
+            "number": 1,
+            "name": "Season 1",
+            "date": "2024-03-07"
+          },
+          {
+            "number": 2,
+            "name": "Season 2",
+            "date": "2026-09-03"
+          },
+          {
+            "number": 3,
+            "name": "Season 3",
+            "date": null
+          }
+        ],
+        "first_air_date": "2024-03-07",
+        "last_air_date": "2026-09-03",
+        "status": "Returning Series"
+      },
+      "evidence": "https://www.themoviedb.org/tv/236235"
+    },
+    {
+      "requested": "The Beast in Me",
+      "type": "tv",
+      "provider_key": "tv:250504",
+      "metadata": {
+        "title": "The Beast in Me",
+        "original_title": "The Beast in Me",
+        "year": 2025,
+        "tmdb_id": 250504,
+        "imdb_id": "tt31974367",
+        "overview": "A famous author is pulled into a twisted mind game with her rich, powerful new neighbor — who might be a murderer.",
+        "poster_path": "/jxf7JCfIMvGONWTNUIJ068sFixK.jpg",
+        "cast": [
+          "Claire Danes",
+          "Matthew Rhys",
+          "Brittany Snow",
+          "Natalie Morales"
+        ],
+        "genres": [
+          "Drama",
+          "Mystery"
+        ],
+        "countries": [
+          "US"
+        ],
+        "tmdb_rating": 7.1,
+        "release_date": "2025-11-13",
+        "runtime": null,
+        "id": "tv:250504",
+        "series_kind": "series",
+        "tmdb_media_type": "tv",
+        "creators": [
+          {
+            "id": 1961940,
+            "credit_id": "691209041c6955a1a5ce8bd2",
+            "name": "Gabe Rotter",
+            "original_name": "Gabe Rotter",
+            "gender": 2,
+            "profile_path": "/hCmljQJCJJ5XLbxLlZZt1KrUdB6.jpg"
+          }
+        ],
+        "directors": [],
+        "credit_names": [
+          "Gabe Rotter"
+        ],
+        "seasons": [
+          {
+            "number": 1,
+            "name": "Season 1",
+            "date": "2025-11-13"
+          }
+        ],
+        "first_air_date": "2025-11-13",
+        "last_air_date": "2025-11-13",
+        "status": "Returning Series"
+      },
+      "evidence": "https://www.themoviedb.org/tv/250504"
+    },
+    {
+      "requested": "Margo's Got Money Troubles",
+      "type": "tv",
+      "provider_key": "tv:245318",
+      "metadata": {
+        "title": "Margo's Got Money Troubles",
+        "original_title": "Margo's Got Money Troubles",
+        "year": 2026,
+        "tmdb_id": 245318,
+        "imdb_id": "tt31137273",
+        "overview": "The daughter of a former Hooter's waitress and an ex-pro wrestler, Margo is a recent college dropout and aspiring writer. Faced with a new baby, mounting pile of bills, and dwindling number of ways to pay them, Margo must find a way forward.",
+        "poster_path": "/fRR0Ho2c1nFJQiXWg4LNIgRPbg0.jpg",
+        "cast": [
+          "Elle Fanning",
+          "Michelle Pfeiffer",
+          "Nick Offerman",
+          "Greg Kinnear",
+          "Thaddea Graham"
+        ],
+        "genres": [
+          "Drama",
+          "Comedy"
+        ],
+        "countries": [
+          "US"
+        ],
+        "tmdb_rating": 7.875,
+        "release_date": "2026-04-14",
+        "runtime": null,
+        "id": "tv:245318",
+        "series_kind": "series",
+        "tmdb_media_type": "tv",
+        "creators": [
+          {
+            "id": 59650,
+            "credit_id": "69d2ccb1be9c5f19cf3b0fe4",
+            "name": "David E. Kelley",
+            "original_name": "David E. Kelley",
+            "gender": 2,
+            "profile_path": "/rn8r38XqBV4yNhm9AJY93i9Jf6m.jpg"
+          }
+        ],
+        "directors": [],
+        "credit_names": [
+          "David E. Kelley"
+        ],
+        "seasons": [
+          {
+            "number": 1,
+            "name": "Season 1",
+            "date": "2026-04-14"
+          }
+        ],
+        "first_air_date": "2026-04-14",
+        "last_air_date": "2026-05-19",
+        "status": "Returning Series"
+      },
+      "evidence": "https://www.themoviedb.org/tv/245318"
+    },
+    {
+      "requested": "When They See Us",
+      "type": "tv",
+      "provider_key": "tv:81355",
+      "metadata": {
+        "title": "When They See Us",
+        "original_title": "When They See Us",
+        "year": 2019,
+        "tmdb_id": 81355,
+        "imdb_id": "tt7137906",
+        "overview": "Five teens from Harlem become trapped in a nightmare when they're falsely accused of a brutal attack in Central Park.",
+        "poster_path": "/oPv3nNtkuc6EPEql5lgdOuQNHuG.jpg",
+        "cast": [
+          "Asante Blackk",
+          "Jharrel Jerome",
+          "Ethan Herisse",
+          "Marquis Rodriguez",
+          "Caleel Harris",
+          "Marsha Stephanie Blake",
+          "Michael Kenneth Williams",
+          "John Leguizamo"
+        ],
+        "genres": [
+          "Drama"
+        ],
+        "countries": [
+          "US"
+        ],
+        "tmdb_rating": 8.202,
+        "release_date": "2019-05-31",
+        "runtime": null,
+        "id": "tv:81355",
+        "series_kind": "miniseries",
+        "tmdb_media_type": "tv",
+        "creators": [
+          {
+            "id": 929825,
+            "credit_id": "5b6578710e0a267ef1072691",
+            "name": "Ava DuVernay",
+            "original_name": "Ava DuVernay",
+            "gender": 1,
+            "profile_path": "/84rc8I3Wf5zkCWGMNeTtmRekHW0.jpg"
+          }
+        ],
+        "directors": [],
+        "credit_names": [
+          "Ava DuVernay"
+        ],
+        "seasons": [
+          {
+            "number": 1,
+            "name": "Limited Series",
+            "date": "2019-05-31"
+          }
+        ],
+        "first_air_date": "2019-05-31",
+        "last_air_date": "2019-05-31",
+        "status": "Ended"
+      },
+      "evidence": "https://www.themoviedb.org/tv/81355"
+    },
+    {
+      "requested": "The Diplomat",
+      "type": "tv",
+      "provider_key": "tv:203857",
+      "metadata": {
+        "title": "The Diplomat",
+        "original_title": "The Diplomat",
+        "year": 2023,
+        "tmdb_id": 203857,
+        "imdb_id": "tt17491088",
+        "overview": "Amid an international crisis, a US diplomat contends with her high-profile job as ambassador to the UK and her strained marriage to a political star.",
+        "poster_path": "/cUy0ZYme43lop08nOtbQLWL0dX.jpg",
+        "cast": [
+          "Keri Russell",
+          "Rufus Sewell",
+          "Ali Ahn",
+          "Rory Kinnear",
+          "Ato Essandoh",
+          "Bradley Whitford",
+          "Allison Janney",
+          "Nana Mensah"
+        ],
+        "genres": [
+          "Drama",
+          "War & Politics"
+        ],
+        "countries": [
+          "US"
+        ],
+        "tmdb_rating": 7.657,
+        "release_date": "2023-04-20",
+        "runtime": null,
+        "id": "tv:203857",
+        "series_kind": "series",
+        "tmdb_media_type": "tv",
+        "creators": [
+          {
+            "id": 1219520,
+            "credit_id": "62c9f31805f9cf004c83c7f6",
+            "name": "Debora Cahn",
+            "original_name": "Debora Cahn",
+            "gender": 1,
+            "profile_path": "/h2kLzLBFQh5LugBl9kf3ucmD9u2.jpg"
+          }
+        ],
+        "directors": [],
+        "credit_names": [
+          "Debora Cahn"
+        ],
+        "seasons": [
+          {
+            "number": 1,
+            "name": "Season 1",
+            "date": "2023-04-20"
+          },
+          {
+            "number": 2,
+            "name": "Season 2",
+            "date": "2024-10-31"
+          },
+          {
+            "number": 3,
+            "name": "Season 3",
+            "date": "2025-10-16"
+          },
+          {
+            "number": 4,
+            "name": "Season 4",
+            "date": "2026-10-15"
+          }
+        ],
+        "first_air_date": "2023-04-20",
+        "last_air_date": "2026-10-15",
+        "status": "Returning Series"
+      },
+      "evidence": "https://www.themoviedb.org/tv/203857"
+    },
+    {
+      "requested": "Slow Horses",
+      "type": "tv",
+      "provider_key": "tv:95480",
+      "metadata": {
+        "title": "Slow Horses",
+        "original_title": "Slow Horses",
+        "year": 2022,
+        "tmdb_id": 95480,
+        "imdb_id": "tt5875444",
+        "overview": "Follow a dysfunctional team of MI5 agents—and their obnoxious boss, the notorious Jackson Lamb—as they navigate the espionage world's smoke and mirrors to defend England from sinister forces.",
+        "poster_path": "/AdYr4DjOgXvDUMwu6vEhZy1Rnxk.jpg",
+        "cast": [
+          "Gary Oldman",
+          "Jack Lowden",
+          "Kristin Scott Thomas",
+          "Hugo Weaving",
+          "Saskia Reeves",
+          "Christopher Chung",
+          "Aimee-Ffion Edwards"
+        ],
+        "genres": [
+          "Crime",
+          "Drama",
+          "Mystery"
+        ],
+        "countries": [
+          "GB",
+          "US"
+        ],
+        "tmdb_rating": 8.1,
+        "release_date": "2022-04-01",
+        "runtime": null,
+        "id": "tv:95480",
+        "series_kind": "series",
+        "tmdb_media_type": "tv",
+        "creators": [],
+        "directors": [],
+        "credit_names": [],
+        "seasons": [
+          {
+            "number": 1,
+            "name": "Season 1",
+            "date": "2022-04-01"
+          },
+          {
+            "number": 2,
+            "name": "Season 2",
+            "date": "2022-12-02"
+          },
+          {
+            "number": 3,
+            "name": "Season 3",
+            "date": "2023-11-29"
+          },
+          {
+            "number": 4,
+            "name": "Season 4",
+            "date": "2024-09-04"
+          },
+          {
+            "number": 5,
+            "name": "Season 5",
+            "date": "2025-09-24"
+          },
+          {
+            "number": 6,
+            "name": "Season 6",
+            "date": "2026-09-16"
+          }
+        ],
+        "first_air_date": "2022-04-01",
+        "last_air_date": "2026-10-21",
+        "status": "Returning Series"
+      },
+      "evidence": "https://www.themoviedb.org/tv/95480"
+    },
+    {
+      "requested": "Peaky Blinders",
+      "type": "tv",
+      "provider_key": "tv:60574",
+      "metadata": {
+        "title": "Peaky Blinders",
+        "original_title": "Peaky Blinders",
+        "year": 2013,
+        "tmdb_id": 60574,
+        "imdb_id": "tt2442560",
+        "overview": "A gangster family epic set in 1919 Birmingham, England and centered on a gang who sew razor blades in the peaks of their caps, and their fierce boss Tommy Shelby, who means to move up in the world.",
+        "poster_path": "/vUUqzWa2LnHIVqkaKVlVGkVcZIW.jpg",
+        "cast": [
+          "Cillian Murphy",
+          "Paul Anderson",
+          "Sophie Rundle",
+          "Natasha O'Keeffe"
+        ],
+        "genres": [
+          "Drama",
+          "Crime"
+        ],
+        "countries": [
+          "GB"
+        ],
+        "tmdb_rating": 8.5,
+        "release_date": "2013-09-12",
+        "runtime": null,
+        "id": "tv:60574",
+        "series_kind": "series",
+        "tmdb_media_type": "tv",
+        "creators": [
+          {
+            "id": 23227,
+            "credit_id": "52fe6452c3a36818d600b632",
+            "name": "Steven Knight",
+            "original_name": "Steven Knight",
+            "gender": 2,
+            "profile_path": "/vmM9j2yXI8A3AccX3YgOEZHQWcO.jpg"
+          }
+        ],
+        "directors": [],
+        "credit_names": [
+          "Steven Knight"
+        ],
+        "seasons": [
+          {
+            "number": 1,
+            "name": "Series 1",
+            "date": "2013-09-12"
+          },
+          {
+            "number": 2,
+            "name": "Series 2",
+            "date": "2014-10-02"
+          },
+          {
+            "number": 3,
+            "name": "Series 3",
+            "date": "2016-05-05"
+          },
+          {
+            "number": 4,
+            "name": "Series 4",
+            "date": "2017-11-15"
+          },
+          {
+            "number": 5,
+            "name": "Series 5",
+            "date": "2019-08-25"
+          },
+          {
+            "number": 6,
+            "name": "Series 6",
+            "date": "2022-02-27"
+          }
+        ],
+        "first_air_date": "2013-09-12",
+        "last_air_date": "2022-04-03",
+        "status": "Ended"
+      },
+      "evidence": "https://www.themoviedb.org/tv/60574"
+    },
+    {
+      "requested": "The Expanse",
+      "type": "tv",
+      "provider_key": "tv:63639",
+      "metadata": {
+        "title": "The Expanse",
+        "original_title": "The Expanse",
+        "year": 2015,
+        "tmdb_id": 63639,
+        "imdb_id": "tt3230854",
+        "overview": "A thriller set two hundred years in the future following the case of a missing young woman who brings a hardened detective and a rogue ship's captain together in a race across the solar system to expose the greatest conspiracy in human history.",
+        "poster_path": "/5vQlVWkIMPhZ88OWchJsgwGEK9.jpg",
+        "cast": [
+          "Steven Strait",
+          "Dominique Tipper",
+          "Wes Chatham",
+          "Shohreh Aghdashloo",
+          "Frankie Adams",
+          "Cara Gee",
+          "Nadine Nicole",
+          "Keon Alexander"
+        ],
+        "genres": [
+          "Drama",
+          "Mystery",
+          "Sci-Fi & Fantasy"
+        ],
+        "countries": [
+          "US"
+        ],
+        "tmdb_rating": 8.075,
+        "release_date": "2015-12-14",
+        "runtime": null,
+        "id": "tv:63639",
+        "series_kind": "series",
+        "tmdb_media_type": "tv",
+        "creators": [
+          {
+            "id": 79207,
+            "credit_id": "5c466e839251410e224fc777",
+            "name": "Mark Fergus",
+            "original_name": "Mark Fergus",
+            "gender": 2,
+            "profile_path": "/d4KsPbLTyDiudrBVjTfVm82WATA.jpg"
+          },
+          {
+            "id": 79209,
+            "credit_id": "5c466e8c9251410e0e4fb8ca",
+            "name": "Hawk Ostby",
+            "original_name": "Hawk Ostby",
+            "gender": 2,
+            "profile_path": "/w34js6H3uW0TZxp33Bne39V1g7v.jpg"
+          }
+        ],
+        "directors": [],
+        "credit_names": [
+          "Mark Fergus",
+          "Hawk Ostby"
+        ],
+        "seasons": [
+          {
+            "number": 1,
+            "name": "Season 1",
+            "date": "2015-12-14"
+          },
+          {
+            "number": 2,
+            "name": "Season 2",
+            "date": "2017-02-01"
+          },
+          {
+            "number": 3,
+            "name": "Season 3",
+            "date": "2018-04-11"
+          },
+          {
+            "number": 4,
+            "name": "Season 4",
+            "date": "2019-12-13"
+          },
+          {
+            "number": 5,
+            "name": "Season 5",
+            "date": "2020-12-16"
+          },
+          {
+            "number": 6,
+            "name": "Season 6",
+            "date": "2021-12-09"
+          }
+        ],
+        "first_air_date": "2015-12-14",
+        "last_air_date": "2022-01-13",
+        "status": "Ended"
+      },
+      "evidence": "https://www.themoviedb.org/tv/63639"
+    },
+    {
+      "requested": "Shōgun",
+      "type": "tv",
+      "provider_key": "tv:126308",
+      "metadata": {
+        "title": "Shōgun",
+        "original_title": "Shōgun",
+        "year": 2024,
+        "tmdb_id": 126308,
+        "imdb_id": "tt2788316",
+        "overview": "In Japan in the year 1600, at the dawn of a century-defining civil war, Lord Yoshii Toranaga is fighting for his life as his enemies on the Council of Regents unite against him, when a mysterious European ship is found marooned in a nearby fishing village.",
+        "poster_path": "/7O4iVfOMQmdCSxhOg1WnzG1AgYT.jpg",
+        "cast": [
+          "Hiroyuki Sanada",
+          "Cosmo Jarvis",
+          "Anna Sawai",
+          "Tadanobu Asano",
+          "Takehiro Hira",
+          "Tommy Bastow",
+          "Fumi Nikaido"
+        ],
+        "genres": [
+          "Drama",
+          "War & Politics"
+        ],
+        "countries": [
+          "US"
+        ],
+        "tmdb_rating": 8.43,
+        "release_date": "2024-02-27",
+        "runtime": null,
+        "id": "tv:126308",
+        "series_kind": "series",
+        "tmdb_media_type": "tv",
+        "creators": [
+          {
+            "id": 3102407,
+            "credit_id": "660a15345aadc4016362526f",
+            "name": "Rachel Kondo",
+            "original_name": "Rachel Kondo",
+            "gender": 1,
+            "profile_path": "/1W265VLdnqVzx5ZoWxtV6mv2uxM.jpg"
+          },
+          {
+            "id": 78428,
+            "credit_id": "6544cbfd1ac292013b61d244",
+            "name": "Justin Marks",
+            "original_name": "Justin Marks",
+            "gender": 2,
+            "profile_path": "/dwUvMbNyljjafUzANkFWE64BNCu.jpg"
+          }
+        ],
+        "directors": [],
+        "credit_names": [
+          "Rachel Kondo",
+          "Justin Marks"
+        ],
+        "seasons": [
+          {
+            "number": 1,
+            "name": "Season 1",
+            "date": "2024-02-27"
+          }
+        ],
+        "first_air_date": "2024-02-27",
+        "last_air_date": "2024-04-23",
+        "status": "Returning Series"
+      },
+      "evidence": "https://www.themoviedb.org/tv/126308"
+    },
+    {
+      "requested": "Mr. Robot",
+      "type": "tv",
+      "provider_key": "tv:62560",
+      "metadata": {
+        "title": "Mr. Robot",
+        "original_title": "Mr. Robot",
+        "year": 2015,
+        "tmdb_id": 62560,
+        "imdb_id": "tt4158110",
+        "overview": "A young programmer, Elliot, suffers from a debilitating anti-social disorder and decides that he can only connect to people by hacking them. He wields his skills as a weapon to protect the people that he cares about. Elliot finds himself in the intersection between a cybersecurity firm he works for and the underworld organizations that are recruiting him to bring down corporate America.",
+        "poster_path": "/kv1nRqgebSsREnd7vdC2pSGjpLo.jpg",
+        "cast": [
+          "Rami Malek",
+          "Christian Slater",
+          "Carly Chaikin"
+        ],
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "countries": [
+          "US"
+        ],
+        "tmdb_rating": 8.268,
+        "release_date": "2015-06-24",
+        "runtime": null,
+        "id": "tv:62560",
+        "series_kind": "series",
+        "tmdb_media_type": "tv",
+        "creators": [
+          {
+            "id": 1331163,
+            "credit_id": "556d1030c3a3686a9a00065b",
+            "name": "Sam Esmail",
+            "original_name": "Sam Esmail",
+            "gender": 2,
+            "profile_path": "/mej39wMtNDsOI5HklLb65QAiM6K.jpg"
+          }
+        ],
+        "directors": [],
+        "credit_names": [
+          "Sam Esmail"
+        ],
+        "seasons": [
+          {
+            "number": 1,
+            "name": "season_1.0",
+            "date": "2015-06-24"
+          },
+          {
+            "number": 2,
+            "name": "season_2.0",
+            "date": "2016-07-13"
+          },
+          {
+            "number": 3,
+            "name": "season_3.0",
+            "date": "2017-10-11"
+          },
+          {
+            "number": 4,
+            "name": "season_4.0",
+            "date": "2019-10-06"
+          }
+        ],
+        "first_air_date": "2015-06-24",
+        "last_air_date": "2019-12-22",
+        "status": "Ended"
+      },
+      "evidence": "https://www.themoviedb.org/tv/62560"
+    }
+  ],
+  "unresolved": []
+}

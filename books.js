@@ -194,6 +194,9 @@
     return `<article class="film book-card ${entry?.winner?'award-winner ':''}${p?'watched':''}" tabindex="0" role="button" aria-label="View details for ${escape(book.title)}" data-book-work="${escape(bookKey(book))}"><div class="poster"><span class="cover-fallback">Cover unavailable</span>${coverUrl?`<img loading="lazy" src="${escape(coverUrl)}" alt="Cover of ${escape(book.title)}">`:''}${entry?`<span class="award-entry-label award-entry-badge">${entry.winner?'★ ':''}${escape(entry.label)}</span>`:''}</div><div class="body"><h3>${book.id||book.open_library_work_id||book.award_key?`<a href="#/books/${escape(bookKey(book).split('/').pop())}">${escape(title)}</a>`:escape(title)}</h3><p class="meta">${escape(authors.join(', '))} · ${escape(book.first_publish_year??'Year unavailable')}</p>${result&&book.search_match?`<p class="meta">${escape(book.search_match)}</p>`:''}${book.work_scope==='collection'?'<p class="meta">Collection</p>':''}${entry?.translator?`<div class="book-award-translator">Translated by ${escape(entry.translator)}</div>`:''}${bookAwardsMarkup(book)}<div class="controls"><button type="button" class="star-trigger" data-book-rate="${escape(bookKey(book))}" aria-label="Edit personal rating for ${escape(book.title)}">${p?'★':'☆'} <span class="value">${p?Number(p.rating).toFixed(1)+'/10':'Rate'}</span></button></div></div></article>`;
   }
   function render() {
+    let listed=(window.CultureLists?.entries('book')||[]).map(r=>findBook(r.work_key)||r.metadata.book||{title:r.metadata.title,authors:[r.metadata.subtitle?.split(' · ')[0]||'Author unknown'],open_library_work_id:r.work_key.startsWith('/works/')?r.work_key:null,award_key:r.work_key.startsWith('award-')?r.work_key.slice(6):null});
+    const listQuery=$('book-list-search').value.trim().toLocaleLowerCase();listed=listed.filter(b=>[b.title,...b.authors||[]].join(' ').toLocaleLowerCase().includes(listQuery));listed.sort((a,b)=>$('book-list-sort').value==='year'?(b.first_publish_year||0)-(a.first_publish_year||0)||a.title.localeCompare(b.title):a.title.localeCompare(b.title));
+    $('book-watchlist-grid').innerHTML=listed.slice(0,visible).map(b=>card(b)).join('');$('book-watchlist-count').textContent=listed.length+' saved books';$('book-watchlist-empty').hidden=!!listed.length;
     const rated=books.filter(b=>progress.has(bookKey(b))).sort((a,b)=>new Date(progress.get(bookKey(b)).updated_at)-new Date(progress.get(bookKey(a)).updated_at));
     $('book-ratings-grid').innerHTML=rated.slice(0,visible).map(b=>card(b)).join('');
     $('book-catalogue-grid').innerHTML=catalogueBooks().slice(0,visible).map(b=>card(b)).join('');
@@ -204,11 +207,11 @@
     message('book-ratings-count',`${rated.length} rated book${rated.length===1?'':'s'}`);
     message('book-catalogue-count',`${catalogueBooks().length} book${catalogueBooks().length===1?'':'s'} in the catalogue`);
     awardBrowser?.render();
-    $('book-more').hidden=['search','awards'].includes(activeTab)||(activeTab==='ratings'?rated.length:catalogueBooks().length)<=visible;
+    $('book-more').hidden=['search','awards'].includes(activeTab)||(activeTab==='ratings'?rated.length:activeTab==='watchlist'?listed.length:catalogueBooks().length)<=visible;
   }
   function switchTab(tab) {
-    activeTab=tab; visible=48;
-    const awards=tab==='awards';$('books-view').querySelector('.hero h1').textContent=awards?'Literary awards.':'Books worth keeping.';$('books-view').querySelector('.hero p').textContent=awards?'Explore shortlists, winners and the works of Nobel laureates. Your ratings follow each book across the atlas.':'Find your next catalogue entry, rate what you have read, and keep your reading notes in one place.';
+    activeTab=tab; visible=48;window.CultureLists?.render();
+    const awards=tab==='awards';$('books-view').querySelector('.hero h1').textContent=awards?'Literary awards.':tab==='watchlist'?'My read list.':'Books worth keeping.';$('books-view').querySelector('.hero p').textContent=awards?'Explore shortlists, winners and the works of Nobel laureates. Your ratings follow each book across the atlas.':'Find your next catalogue entry, rate what you have read, and keep your reading notes in one place.';
     $('book-sync-status').hidden=awards;$('books-view').querySelector('details.book-import').hidden=awards;
     for (const el of document.querySelectorAll('[data-book-tab]')) {
       el.classList.toggle('active',el.dataset.bookTab===tab);
@@ -354,7 +357,7 @@
     if(loading) { message('book-save-status','Your account is still loading. Please try saving again in a moment.');return; }
     const rating=Number($('book-rating').value),format=$('book-format').value,notes=$('book-notes').value;
     if(!validRating(rating)||!Object.hasOwn(formats,format)||notes.length>10000) { message('book-save-status','Choose a rating and reading format, with notes up to 10,000 characters.');return; }
-    const version=generation,book=selected;
+    const version=generation,book=selected,owner=user.id;
     if(!book.id&&!book.open_library_work_id&&!book.goodreads_id){message('book-save-status','This book’s catalogue registration is not available yet. Refresh after the catalogue update; your form has been kept.');return;}
     closeBookStars();saving=true;
     $('book-detail-edit').disabled=true;
@@ -365,6 +368,7 @@
       if(version!==generation) return;
       if(error) throw error;
       if(!data?.book||!data?.progress) throw Error('The server did not confirm the save. Refresh your ratings before trying again.');
+      await window.CultureLists?.rated('book',[bookKey(book),bookKey(data.book)],owner);if(version!==generation)return;
       books=[data.book,...books.filter(b=>b.id!==data.book.id)];
       progress.set(bookKey(data.book),data.progress);
       message('book-sync-status',`Saved “${data.book.title}” to the catalogue and your ratings.`);
@@ -468,6 +472,7 @@
       results=results.filter(b=>bookKey(b)!==bookKey(book));results.push(book);render();choose(bookKey(book));
       message('book-goodreads-status','Choose your rating, format and notes below, then save to add this book.');
     });
+    $('book-list-search').addEventListener('input',render);$('book-list-sort').addEventListener('change',render);
     $('book-search-form').addEventListener('submit',search);
     $('book-rating-form').addEventListener('submit',save);
     $('book-cancel').addEventListener('click',()=>{if(!saving&&selected)showDetails();});
@@ -488,8 +493,8 @@
     });
     render();
   }
-  window.CultureBooks={init,setSession,normaliseBook,validRating,rankBooks,
-    route:{switchTab,closeEditor,choose,ensureWork,needsHydration:()=>!!(selected&&!editorHydrated&&!loading),has:id=>!!findBook(id),title:()=>selected?.title,
+  window.CultureBooks={init,setSession,listBook:key=>findBook(key),normaliseBook,validRating,rankBooks,
+    route:{render,switchTab,closeEditor,choose,ensureWork,needsHydration:()=>!!(selected&&!editorHydrated&&!loading),has:id=>!!findBook(id),title:()=>selected?.title,
       awardCategories:()=>awardBrowser?.configureCategories(),renderAwards:()=>awardBrowser?.render(),getVisible:()=>visible,setVisible:n=>{visible=n;render();},search:()=>search({preventDefault(){}})}
   };
 })();
