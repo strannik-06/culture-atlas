@@ -74,14 +74,19 @@
   picker.style.left=Math.max(10,Math.min(innerWidth-width-10,r.left))+'px';picker.style.top=(r.top>height+12?r.top-height-8:Math.max(10,Math.min(innerHeight-height-10,r.bottom+8)))+'px';
   picker.querySelectorAll('[data-star]')[Math.max(0,Math.ceil(card.draft.rating||1)-1)].focus();
  }
+ function paintListButton(card,saved){
+  const button=card.element.querySelector('[data-watchlist]');
+  button.innerHTML=`<svg width="20" height="22" viewBox="0 0 20 22" aria-hidden="true"><path d="M4 2h12v18l-6-4-6 4z" fill="${saved?'currentColor':'none'}" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>`;
+  button.setAttribute('aria-pressed',String(saved));button.setAttribute('aria-label',saved?'On watch list':'Add to watch list');button.title=button.getAttribute('aria-label');
+ }
  function renderEditor(card){
   const {metadata:m,progress:p,seasons=[]}=card.data,d=card.draft,season=card.season;
   const credits=m.director||(m.creators||[]).map(x=>x.name).join(', ')||'Credits not listed';
   card.element.querySelector('[data-credit]').textContent=credits;
   card.element.querySelector('[data-title]').textContent=m.title;
-  card.element.querySelector('[data-editor]').innerHTML=`${type==='tv'?`<label class="media-target">Rate<select data-season aria-label="Series or season for ${esc(m.title)}"><option value="">${d.scope==='unspecified'?'Series (scope not specified)':'Whole series'}</option>${seasons.map(s=>`<option value="${s.number}" ${season===s.number?'selected':''}>${esc(s.name)}${s.date?' · '+esc(s.date.slice(0,4)):''}</option>`).join('')}</select></label>`:''}<form class="media-rating-form"><fieldset><legend class="sr-only">Your rating for ${esc(m.title)}</legend><div class="media-quick-fields"><button data-watchlist type="button" class="action">Add to watch list</button><button data-stars type="button" class="star-trigger" aria-label="Set personal rating for ${esc(m.title)}" aria-haspopup="dialog" aria-controls="media-star-picker" aria-expanded="false"></button><label>Watched<input data-date type="date" value="${esc(d.date||'')}" aria-label="Watched date for ${esc(m.title)}"></label><button data-save type="submit" class="action">${p?.rating?'Save changes':'Save rating'}</button></div><details class="media-notes"><summary>${p?.notes?'Notes (saved)':'Add notes'}</summary><label><span class="sr-only">Your notes for ${esc(m.title)}</span><textarea data-notes maxlength="10000" placeholder="Your thoughts…">${esc(d.notes)}</textarea></label></details></fieldset></form>`;
+  card.element.querySelector('[data-editor]').innerHTML=`${type==='tv'?`<label class="media-target">Rate<select data-season aria-label="Series or season for ${esc(m.title)}"><option value="">${d.scope==='unspecified'?'Series (scope not specified)':'Whole series'}</option>${seasons.map(s=>`<option value="${s.number}" ${season===s.number?'selected':''}>${esc(s.name)}${s.date?' · '+esc(s.date.slice(0,4)):''}</option>`).join('')}</select></label>`:''}<form class="media-rating-form"><fieldset><legend class="sr-only">Your rating for ${esc(m.title)}</legend><div class="media-quick-fields"><button data-watchlist type="button" class="action list-toggle"></button><button data-stars type="button" class="star-trigger" aria-label="Set personal rating for ${esc(m.title)}" aria-haspopup="dialog" aria-controls="media-star-picker" aria-expanded="false"></button><label>Watched<input data-date type="date" value="${esc(d.date||'')}" aria-label="Watched date for ${esc(m.title)}"></label><button data-save type="submit" class="action">${p?.rating?'Save changes':'Save rating'}</button></div><details class="media-notes"><summary>${p?.notes?'Notes (saved)':'Add notes'}</summary><label><span class="sr-only">Your notes for ${esc(m.title)}</span><textarea data-notes maxlength="10000" placeholder="Your thoughts…">${esc(d.notes)}</textarea></label></details></fieldset></form>`;
   card.element.querySelector('[data-source]').href='https://www.themoviedb.org/'+type+'/'+card.id+(season?'/season/'+season:'');
-  const listButton=card.element.querySelector('[data-watchlist]');listButton.textContent=window.CultureLists?.has(card.data.existing?.work_type==='movie'?'film':'tv',card.data.existing?.work_key)?'On watch list':'Add to watch list';listButton.onclick=()=>saveToList(card);
+  const listButton=card.element.querySelector('[data-watchlist]');paintListButton(card,!!window.CultureLists?.has(card.data.existing?.work_type==='movie'?'film':'tv',card.data.existing?.work_key));listButton.onclick=()=>saveToList(card);
   setRating(card,d.rating);notice(card,p?.rating?'Edit your existing rating here.':'Choose stars and save.');
   card.element.querySelector('[data-stars]').onclick=()=>openStars(card);
   card.element.querySelector('[data-date]').oninput=()=>{d.dateEdited=true;};
@@ -118,7 +123,7 @@
    window.CultureLists.acceptSaved(data.entry,owner);
    if(card.season===null)card.data.existing={work_key:data.work_key,work_type:data.entry.kind==='film'?'movie':'tv'};
    await loadCatalogue();if(!alive(turn,serial)||version!==card.version)return;
-   notice(card,'Added to catalogue and watch list.');card.element.querySelector('[data-watchlist]').textContent='On watch list';
+   notice(card,'Added to catalogue and watch list.');paintListButton(card,true);
   }catch(e){if(alive(turn,serial)&&version===card.version)notice(card,e.message);}
   finally{if(alive(turn,serial)&&version===card.version){card.busy=false;card.element.querySelector('fieldset').disabled=false;if(seasonSelect)seasonSelect.disabled=false;}}
  }
