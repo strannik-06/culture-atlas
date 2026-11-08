@@ -107,8 +107,8 @@ async function setup() {
   window.HTMLElement.prototype.scrollIntoView=()=>{};
   const state={books:[],ratings:[],history:[],calls:[],fail:false,pending:null};
   const client={from(table) {
-    let id;
-    const q={select(){return q;},order(){return q;},range(){return q;},in(){return q;},eq(_field,value){id=value;return q;},then(resolve,reject){return Promise.resolve({data:table==='books'?state.books:(table==='book_readings'?state.history:state.ratings).filter(r=>r.user_id===id),error:null}).then(resolve,reject);}};
+    const filters={};
+    const q={select(){return q;},order(){return q;},range(){return q;},in(){return q;},eq(field,value){filters[field]=value;return q;},then(resolve,reject){return Promise.resolve({data:table==='books'?state.books:(table==='book_readings'?state.history:state.ratings).filter(r=>Object.entries(filters).every(([field,value])=>r[field]===value)),error:null}).then(resolve,reject);}};
     return q;
   },async rpc(name,payload){
     state.calls.push({name,payload});
