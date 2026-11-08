@@ -155,6 +155,7 @@ function filmScores(f){const d=filmDetails[f.id]||{},ratings=externalRatings[f.i
  const reference=!tmdb&&d.tmdb_id?'<a href="https://www.themoviedb.org/movie/'+encodeURIComponent(d.tmdb_id)+'" target="_blank" rel="noopener noreferrer">TMDB ↗</a>':'';
  return tmdb||sources||imdb||reference?'<div class="sources">'+tmdb+reference+imdb+sources+'</div>':'<p class="meta">No verified website ratings or links yet.</p>';
 }
+const renderedMarkup=new WeakMap();function setMarkup(el,html){if(renderedMarkup.get(el)!==html){renderedMarkup.set(el,html);el.innerHTML=html;}}
 function render(){
  const q=$('search').value.toLocaleLowerCase(),year=$('year').value,tier=$('tier').value,genre=$('genre').value,status=$('status').value;
  const selected=films.filter(f=>!year||String(f.year)===year);
@@ -164,11 +165,11 @@ function render(){
  const ratings=selected.map(f=>Number(progress[f.id]?.rating)).filter(n=>n>=0.5&&n<=10);
  $('total').textContent=selected.length;$('seen').textContent=watched;$('progress').style.width=(selected.length?100*watched/selected.length:0)+'%';$('avg').textContent=ratings.length?(ratings.reduce((a,b)=>a+b,0)/ratings.length).toFixed(1):'—';
  $('empty').hidden=shown.length>0;
- $('grid').innerHTML=shown.map(f=>{const p=progress[f.id]||{},d=filmDetails[f.id]||{},cast=Array.isArray(d.cast)?d.cast.slice(0,3).join(', '):'',poster=filmPoster(d);
+ setMarkup($('grid'),shown.map(f=>{const p=progress[f.id]||{},d=filmDetails[f.id]||{},cast=Array.isArray(d.cast)?d.cast.slice(0,3).join(', '):'',poster=filmPoster(d);
  const rating=Number(p.rating)||0;
 
- return '<article tabindex="0" role="button" aria-label="View details for '+escapeHTML(f.title)+'" data-film-id="'+f.id+'" class="film '+((p.watched||p.rating)?'watched':'')+'"><div class="poster"><span class="tier">'+escapeHTML(tiers[f.tier])+'</span>'+(poster?'<img loading="lazy" alt="Poster for '+escapeHTML(f.title)+'" src="'+escapeHTML(poster)+'">':'<span class="initial" aria-hidden="true">'+escapeHTML(f.title[0])+'</span>')+'</div><div class="body"><h3><a href="#/films/'+f.id+'">'+escapeHTML(f.title)+'</a></h3><div class="meta">'+escapeHTML(f.director)+' · '+displayReleaseYear(f)+'</div>'+(cast?'<div class="cast">'+escapeHTML(cast)+'</div>':'')+filmPrizes(f)+'<div class="controls"><div class="star-control"><button type="button" class="star-trigger" aria-label="Set personal rating for '+escapeHTML(f.title)+'" aria-expanded="false" data-open-stars="'+f.id+'">'+(rating?'★ <span class="value">'+rating.toFixed(1)+'/10</span>':'☆ <span class="value">Rate</span>')+'</button></div></div></div></article>'}).join('');
- renderAwards();
+ return '<article tabindex="0" role="button" aria-label="View details for '+escapeHTML(f.title)+'" data-film-id="'+f.id+'" class="film '+((p.watched||p.rating)?'watched':'')+'"><div class="poster"><span class="tier">'+escapeHTML(tiers[f.tier])+'</span>'+(poster?'<img loading="lazy" alt="Poster for '+escapeHTML(f.title)+'" src="'+escapeHTML(poster)+'">':'<span class="initial" aria-hidden="true">'+escapeHTML(f.title[0])+'</span>')+'</div><div class="body"><h3><a href="#/films/'+f.id+'">'+escapeHTML(f.title)+'</a></h3><div class="meta">'+escapeHTML(f.director)+' · '+displayReleaseYear(f)+'</div>'+(cast?'<div class="cast">'+escapeHTML(cast)+'</div>':'')+filmPrizes(f)+'<div class="controls"><div class="star-control"><button type="button" class="star-trigger" aria-label="Set personal rating for '+escapeHTML(f.title)+'" aria-expanded="false" data-open-stars="'+f.id+'">'+(rating?'★ <span class="value">'+rating.toFixed(1)+'/10</span>':'☆ <span class="value">Rate</span>')+'</button></div></div></div></article>'}).join(''));
+ if(currentView==='awards')renderAwards();
  renderMyRatings();
  window.CultureRouter?.refresh();
 }
@@ -194,10 +195,10 @@ function renderMyRatings(){
  pagination.innerHTML=rows.length<=RATINGS_PAGE_SIZE?'':'<button type="button" data-ratings-page="prev" '+(ratingsPage===1?'disabled':'')+'>← Previous</button><span>Page '+ratingsPage+' of '+totalPages+'</span><button type="button" data-ratings-page="next" '+(ratingsPage===totalPages?'disabled':'')+'>Next →</button>';
  const visibleRows=rows.slice((ratingsPage-1)*RATINGS_PAGE_SIZE,ratingsPage*RATINGS_PAGE_SIZE);
  $('ratings-empty').hidden=rows.length!==0;
- $('ratings-grid').innerHTML=visibleRows.map(f=>{
+ setMarkup($('ratings-grid'),visibleRows.map(f=>{
   const d=filmDetails[f.id]||{},rating=Number(progress[f.id]?.rating)||0,poster=filmPoster(d);
   return '<article tabindex="0" role="button" aria-label="View details for '+escapeHTML(f.title)+'" data-film-id="'+f.id+'" class="film '+(rating?'watched':'')+'"><div class="poster">'+(poster?'<img loading="lazy" alt="Poster for '+escapeHTML(f.title)+'" src="'+escapeHTML(poster)+'">':'<span class="initial" aria-hidden="true">'+escapeHTML(f.title[0])+'</span>')+'</div><div class="body"><h3><a href="#/films/'+f.id+'">'+escapeHTML(f.title)+'</a></h3><div class="meta">'+escapeHTML(f.director)+' · '+escapeHTML(displayReleaseYear(f))+'</div>'+(Array.isArray(d.cast)&&d.cast.length?'<div class="cast">'+escapeHTML(d.cast.slice(0,3).join(', '))+'</div>':'')+filmPrizes(f)+'<div class="controls"><div class="star-control"><button type="button" class="star-trigger" data-open-stars="'+f.id+'" aria-label="Change rating for '+escapeHTML(f.title)+'">'+(rating?'★':'☆')+' <span class="value">'+(rating?rating.toFixed(1)+'/10':'Rate')+'</span></button></div></div></div></article>';
- }).join('');
+ }).join(''));
 }
 let filmDetailState=null,filmEditing=false,filmDetailBusy=false,filmSessionGeneration=0;
 function openFilmDetails(id){
@@ -468,6 +469,6 @@ window.CultureRouter=window.CultureRoutes.start({
  getPage:()=>ratingsPage,setPage:value=>{ratingsPage=value;},
  books:window.CultureBooks,tv:window.CultureTV,media:window.CultureMedia
 });
-document.addEventListener('culture-lists-changed',()=>{renderMyRatings();window.CultureTV.route.render();window.CultureBooks.route.render();});
+document.addEventListener('culture-lists-changed',event=>{const kind=event.detail?.kind,route=window.CultureRouter?.current;if(kind){if(route?.view!=='watchlist')return;const section={film:'films',tv:'tv',book:'books'}[kind];if(route.section!==section)return;if(kind==='film')renderMyRatings();else if(kind==='tv')window.CultureTV.route.render();else window.CultureBooks.route.render();return;}renderMyRatings();window.CultureTV.route.render();window.CultureBooks.route.render();});
 render();initAuth();
 </script></body></html>
