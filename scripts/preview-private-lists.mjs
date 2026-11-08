@@ -15,6 +15,7 @@ try{
   await page.goto('http://127.0.0.1:8765/#/'+section+'/awards');
   const card=page.locator('article:visible').filter({has:page.locator(selector)}).first();await card.waitFor();
   await page.waitForFunction(s=>document.querySelector(s)?.textContent.includes('Sign in to rate'),selector);
+  assert.ok(await card.evaluate((card,selector)=>{const rate=card.querySelector(selector).getBoundingClientRect(),list=card.querySelector('[data-list-toggle]').getBoundingClientRect(),bounds=card.getBoundingClientRect();return rate.right<=list.left&&list.right<=bounds.right;},selector),section+' card controls overlap');
   await card.locator(selector).click();await page.waitForFunction(()=>!document.getElementById('account').hidden);
   await page.locator('#account-toggle').click();
   await card.locator('[data-list-toggle]').click();await page.waitForFunction(()=>!document.getElementById('account').hidden);
