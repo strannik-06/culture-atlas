@@ -1,0 +1,31 @@
+name: Resolve new catalogue titles
+on:
+  push:
+    branches: [feat/list-pages]
+    paths: [scripts/prepare-list-catalogue.mjs, imports/list-catalogue-source.json, .github/workflows/list-catalogue-prepare.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify provider identities
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          TMDB_READ_ACCESS_TOKEN: ${{ secrets.TMDB_READ_ACCESS_TOKEN }}
+        run: node scripts/prepare-list-catalogue.mjs
+      - name: Save public catalogue metadata
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add imports/list-catalogue-resolved.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Resolve catalogue titles against TMDB"
+            git push origin HEAD:"$GITHUB_REF_NAME"
+          fi
