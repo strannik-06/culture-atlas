@@ -111,7 +111,7 @@
   function historyFor(book) {return [...(readingHistory.get(book.id)?.rows||[])].sort((a,b)=>(b.read_year||0)-(a.read_year||0)||String(b.read_date||'').localeCompare(a.read_date||''));}
   function paintHistory(book,sequence){
     if(sequence!==detailSequence||selected?.id!==book.id)return;
-    const state=readingHistory.get(book.id),el=$('book-reading-history');
+    const state=readingHistory.get(book.id),el=$('book-reading-history');if(!el)return;
     if(state?.error){el.innerHTML='<p role="status">Reading history could not load.</p><button type="button" class="action">Retry history</button>';el.querySelector('button').onclick=()=>{readingHistory.delete(book.id);loadHistory(book,sequence);};return;}
     if(state?.pending){el.innerHTML='<p role="status">Loading reading history…</p>';return;}
     $('book-reading-history').innerHTML=historyFor(book).length?'<h3>Reading history</h3><p class="meta">Imported readings are preserved when you edit your current rating.</p><ul>'+historyFor(book).map(r=>`<li>${escape(readingDate(r))} · ${escape(r.rating)}/10 · ${escape(formats[r.reading_format])}${r.notes?`<p class="book-notes">${escape(r.notes)}</p>`:''}</li>`).join('')+'</ul>':'';

@@ -33,3 +33,5 @@ The cold-start inventory is approximately 10.31 MB of local JavaScript before co
 The next bundle optimization should prioritize splitting film detail payloads from the lightweight card metadata and loading detail data when opening a film, across all sections. Book award lazy loading also needs a small eagerly loaded identity/recognition index so existing ratings and bookmarked award URLs keep their canonical IDs.
 
 `node scripts/benchmark-book-startup.mjs` compares fresh Chromium contexts against the pre-change books module, with an explicitly simulated 600 ms reading-history delay and isolated fake account. It reports cold readiness and history request counts. It makes no production database requests; timing is diagnostic, not an estimate of a user's real connection.
+
+In the initial CI Chromium run, the simulated baseline became ready at 994 ms versus 371 ms with deferred history. History requests during startup fell from one to zero. This comparison deliberately injects a 600 ms history delay and uses a localhost server with uncompressed scripts; it is not a production speed estimate.
