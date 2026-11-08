@@ -14,6 +14,8 @@
   'tv/watchlist':{q:['tv-search',''],kind:['tv-kind',''],sort:['tv-sort','title']},
   'tv/ratings':{q:['tv-search',''],kind:['tv-kind',''],sort:['tv-sort','year']},
   'books/awards':{event:['book-award-event',null],year:['book-award-year',null],category:['book-award-category','all'],result:['book-award-filter','all']},
+  'books/ratings':{q:['book-ratings-search','']},
+  'books/catalogue':{q:['book-catalogue-search','']},
   'books/watchlist':{q:['book-list-search',''],sort:['book-list-sort','title']},
   'books/search':{q:['book-query',''],author:['book-author','']},
   'films/search':{q:['media-query','']},'tv/search':{q:['media-query','']}

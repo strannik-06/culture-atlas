@@ -197,22 +197,24 @@
     let listed=(window.CultureLists?.entries('book')||[]).map(r=>findBook(r.work_key)||r.metadata.book||{title:r.metadata.title,authors:[r.metadata.subtitle?.split(' · ')[0]||'Author unknown'],open_library_work_id:r.work_key.startsWith('/works/')?r.work_key:null,award_key:r.work_key.startsWith('award-')?r.work_key.slice(6):null});
     const listQuery=$('book-list-search').value.trim().toLocaleLowerCase();listed=listed.filter(b=>[b.title,...b.authors||[]].join(' ').toLocaleLowerCase().includes(listQuery));listed.sort((a,b)=>$('book-list-sort').value==='year'?(b.first_publish_year||0)-(a.first_publish_year||0)||a.title.localeCompare(b.title):a.title.localeCompare(b.title));
     $('book-watchlist-grid').innerHTML=listed.slice(0,visible).map(b=>card(b)).join('');$('book-watchlist-count').textContent=listed.length+' saved books';$('book-watchlist-empty').hidden=!!listed.length;
-    const rated=books.filter(b=>progress.has(bookKey(b))).sort((a,b)=>new Date(progress.get(bookKey(b)).updated_at)-new Date(progress.get(bookKey(a)).updated_at));
+    const matches=(b,q)=>[b.title,...b.authors||[]].join(' ').toLocaleLowerCase().includes(q.trim().toLocaleLowerCase());
+    const catalogue=catalogueBooks().filter(b=>matches(b,$('book-catalogue-search').value));
+    const rated=books.filter(b=>progress.has(bookKey(b))&&matches(b,$('book-ratings-search').value)).sort((a,b)=>new Date(progress.get(bookKey(b)).updated_at)-new Date(progress.get(bookKey(a)).updated_at));
     $('book-ratings-grid').innerHTML=rated.slice(0,visible).map(b=>card(b)).join('');
-    $('book-catalogue-grid').innerHTML=catalogueBooks().slice(0,visible).map(b=>card(b)).join('');
+    $('book-catalogue-grid').innerHTML=catalogue.slice(0,visible).map(b=>card(b)).join('');
     $('book-search-results').innerHTML=results.map(b=>card(b,true)).join('');
     $('book-ratings-empty').hidden=!!rated.length;
     $('book-ratings-empty').textContent=user?'No rated books yet. Find a book in Add book to get started.':'Sign in to see your book ratings. You can search for books in Add book.';
-    $('book-catalogue-empty').hidden=!!catalogueBooks().length;
+    $('book-catalogue-empty').hidden=!!catalogue.length;
     message('book-ratings-count',`${rated.length} rated book${rated.length===1?'':'s'}`);
-    message('book-catalogue-count',`${catalogueBooks().length} book${catalogueBooks().length===1?'':'s'} in the catalogue`);
+    message('book-catalogue-count',`${catalogue.length} book${catalogueBooks().length===1?'':'s'} in the catalogue`);
     awardBrowser?.render();
-    $('book-more').hidden=['search','awards'].includes(activeTab)||(activeTab==='ratings'?rated.length:activeTab==='watchlist'?listed.length:catalogueBooks().length)<=visible;
+    $('book-more').hidden=['search','awards'].includes(activeTab)||(activeTab==='ratings'?rated.length:activeTab==='watchlist'?listed.length:catalogue.length)<=visible;
   }
   function switchTab(tab) {
     activeTab=tab; visible=48;window.CultureLists?.render();
     const awards=tab==='awards';$('books-view').querySelector('.hero h1').textContent=awards?'Literary awards.':tab==='watchlist'?'My read list.':'Books worth keeping.';$('books-view').querySelector('.hero p').textContent=awards?'Explore shortlists, winners and the works of Nobel laureates. Your ratings follow each book across the atlas.':'Find your next catalogue entry, rate what you have read, and keep your reading notes in one place.';
-    $('book-sync-status').hidden=awards;$('books-view').querySelector('details.book-import').hidden=awards;
+    $('book-sync-status').hidden=awards;$('books-view').querySelector('details.book-import').hidden=tab!=='search';
     for (const el of document.querySelectorAll('[data-book-tab]')) {
       el.classList.toggle('active',el.dataset.bookTab===tab);
       el.setAttribute('aria-pressed',String(el.dataset.bookTab===tab));
@@ -473,6 +475,7 @@
       message('book-goodreads-status','Choose your rating, format and notes below, then save to add this book.');
     });
     $('book-list-search').addEventListener('input',render);$('book-list-sort').addEventListener('change',render);
+    for(const id of ['book-ratings-search','book-catalogue-search'])$(id).addEventListener('input',()=>{visible=48;render();});
     $('book-search-form').addEventListener('submit',search);
     $('book-rating-form').addEventListener('submit',save);
     $('book-cancel').addEventListener('click',()=>{if(!saving&&selected)showDetails();});
