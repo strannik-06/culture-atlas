@@ -2,7 +2,7 @@
 (() => {
  'use strict';
  const defaults={films:'top100',tv:'catalogue',books:'ratings'};
- const views={films:['top100','awards','ratings','catalogue','search'],tv:['catalogue','ratings','awards','search'],books:['ratings','awards','catalogue','search']};
+ const views={films:['top100','awards','ratings','watchlist','catalogue','search'],tv:['catalogue','ratings','watchlist','awards','search'],books:['ratings','watchlist','awards','catalogue','search']};
  const fields={
   'films/top100':{q:['search',''],year:['year','2025'],tier:['tier',''],genre:['genre',''],status:['status','']},
   'films/awards':{event:['award-event',null],year:['award-year',null],category:['award-category','all'],result:['award-filter','all']},
@@ -10,8 +10,11 @@
   'films/catalogue':{q:['ratings-search',''],sort:['ratings-sort','rating']},
   'tv/awards':{event:['tv-award-event',null],year:['tv-award-year',null],category:['tv-award-category','all'],result:['tv-award-filter','all']},
   'tv/catalogue':{q:['tv-search',''],kind:['tv-kind',''],sort:['tv-sort','year']},
+  'films/watchlist':{q:['ratings-search',''],sort:['ratings-sort','title']},
+  'tv/watchlist':{q:['tv-search',''],kind:['tv-kind',''],sort:['tv-sort','title']},
   'tv/ratings':{q:['tv-search',''],kind:['tv-kind',''],sort:['tv-sort','year']},
   'books/awards':{event:['book-award-event',null],year:['book-award-year',null],category:['book-award-category','all'],result:['book-award-filter','all']},
+  'books/watchlist':{q:['book-list-search',''],sort:['book-list-sort','title']},
   'books/search':{q:['book-query',''],author:['book-author','']},
   'films/search':{q:['media-query','']},'tv/search':{q:['media-query','']}
  };
@@ -32,7 +35,7 @@
    else if(parts.length||!views[section].includes(view))return null;
    if(entity)view=views[section].includes(params.from)&&params.from!=='search'?params.from:defaults[section];
    const allowed=new Set(Object.keys(fields[section+'/'+view]||{}));
-   if(['ratings','catalogue'].includes(view))allowed.add('page');
+   if(['ratings','watchlist','catalogue'].includes(view))allowed.add('page');
    if(view==='search'&&section!=='books'){allowed.add('director');allowed.add('year');}
    const clean={};
    for(const k of allowed)if(typeof params[k]==='string'&&params[k].length<=300){
@@ -63,7 +66,7 @@
   const schema=r=>fields[r.section+'/'+r.view]||{};
   function selectValue(el,value){if(el.tagName==='SELECT'&&![...el.options].some(o=>o.value===value))return;el.value=value;}
   function setFilters(r){for(const[k,[id,fallback]]of Object.entries(schema(r))){const el=$(id);if(!el)continue;if(r.view==='awards'&&['event','year'].includes(k)&&r.params[k]!==undefined&&![...el.options].some(o=>o.value===r.params[k])){const option=document.createElement('option');option.value=r.params[k];option.textContent=r.params[k];el.append(option);}const requested=r.params[k]??fallback??el.options[0]?.value??'';const numericCategory=r.view==='awards'&&k==='category'&&/^\d+$/.test(requested)?el.options[Number(requested)+1]?.value:undefined;selectValue(el,numericCategory??requested);if(k==='year'&&r.view==='awards'){if(r.section==='books')app.books.route.awardCategories();else if(r.section==='tv')app.tv.route.awardCategories();else app.awardCategories();}}}
-  function title(r){const name={films:'Films',tv:'TV Series',books:'Books'}[r.section];document.title='Culture Atlas · '+name+' · '+({top100:'Top 100',ratings:'My ratings',catalogue:'Catalogue',search:'Search',awards:'Awards'}[r.view]);}
+  function title(r){const name={films:'Films',tv:'TV Series',books:'Books'}[r.section];document.title='Culture Atlas · '+name+' · '+({top100:'Top 100',ratings:'My ratings',watchlist:r.section==='books'?'Read list':'Watch list',catalogue:'Catalogue',search:'Search',awards:'Awards'}[r.view]);}
   function showEntity(r,force=false){
    if(!r.entity)return;
    const hydrate=r.section==='tv'?app.tv.route.needsHydration():r.section==='books'?app.books.route.needsHydration():false;
@@ -129,7 +132,7 @@
    if(applying||authPending||!current)return;
    const params={...current.params};
    for(const[k,[id,fallback]]of Object.entries(schema(current))){const el=$(id);if(!el)continue;const value=el.value;delete params[k];if(value!==fallback)params[k]=value;}
-   if(['ratings','catalogue'].includes(current.view)){
+   if(['ratings','watchlist','catalogue'].includes(current.view)){
     const page=current.section==='films'?app.getPage():current.section==='books'?Math.ceil(app.books.route.getVisible()/48):1;
     if(page>1)params.page=String(page);else delete params.page;
    }
@@ -150,7 +153,7 @@
    closeDetail:kind=>{if(!applying&&current?.entity&&{film:'films',tv:'tv',book:'books'}[kind]===current.section)closeOverlay();},
    closeSearch:()=>{if(!applying&&current?.view==='search'&&current.section!=='books')closeOverlay();},
    searchChanged:body=>{if(applying||current?.view!=='search')return;const params=body.mode==='director'?{director:String(body.person_id),...(body.year?{year:String(body.year)}:{})}:{q:body.query||''};const r={...current,params};history.replaceState({...history.state,atlas:true},'',format(r));current=parse(location.hash);lastLocation=location.href;},
-   refresh:()=>{if(refreshQueued)return;refreshQueued=true;queueMicrotask(()=>{refreshQueued=false;if(!current||authPending)return;applying=true;try{if(current.section==='films'&&['ratings','catalogue'].includes(current.view)){app.setPage(Number(current.params.page)||1);app.renderRatings();}showEntity(current,current.section==='films');if(current.view==='search'&&current.section!=='books')app.media.route.restore(current.params);}finally{applying=false;}});},
+   refresh:()=>{if(refreshQueued)return;refreshQueued=true;queueMicrotask(()=>{refreshQueued=false;if(!current||authPending)return;applying=true;try{if(current.section==='films'&&['ratings','watchlist','catalogue'].includes(current.view)){app.setPage(Number(current.params.page)||1);app.renderRatings();}showEntity(current,current.section==='films');if(current.view==='search'&&current.section!=='books')app.media.route.restore(current.params);}finally{applying=false;}});},
    authRedirect:()=>{try{sessionStorage.setItem('culture-atlas:return-route',location.hash);}catch{}return location.origin+location.pathname;},
    authReady:()=>{if(!authPending)return;authPending=false;let hash;try{hash=sessionStorage.getItem('culture-atlas:return-route');sessionStorage.removeItem('culture-atlas:return-route');}catch{}const route=parse(hash)||{section:'films',view:'top100'};history.replaceState({atlas:true},'',format(route));lastLocation=location.href;apply(parse(location.hash));},
    get current(){return current;},get applying(){return applying;}

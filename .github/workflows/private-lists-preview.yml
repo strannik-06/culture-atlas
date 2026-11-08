@@ -1,7 +1,7 @@
 name: Review private lists in Chromium
 on:
   push:
-    branches: [feat/private-lists]
+    branches: [feat/private-lists, feat/list-pages]
 permissions:
   contents: read
 jobs:

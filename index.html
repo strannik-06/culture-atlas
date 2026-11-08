@@ -26,7 +26,7 @@
 <div class="count" id="count" aria-live="polite"></div><div class="grid" id="grid"></div><div class="empty" id="empty" hidden>No films match these filters.</div></div><section id="awards-view" hidden><div class="hero"><div class="eyebrow">Festivals & prizes</div><h1>Awards atlas.</h1><p>Explore official selections, winners and nominees. Your ratings are shared with the film collection.</p></div><nav id="award-tabs" class="award-tabs" aria-label="Film awards"></nav><div class="award-edition-bar"><h2 id="award-edition-title"></h2><nav id="award-year-nav" class="award-year-nav" aria-label="Award editions"></nav></div><nav id="award-years" class="award-years" aria-label="Available award years"></nav><div hidden><select id="award-event" aria-label="Award event"></select><select id="award-year" aria-label="Award year"></select><select id="award-category" aria-label="Award category"><option value="all">All major categories</option></select><select id="award-filter" aria-label="Award result"><option value="all">All nominees / selections</option><option value="winners">Winners only</option></select></div><p class="count" id="awards-count"></p><p class="meta" id="awards-event-details" aria-live="polite"></p><div id="awards-grid"></div><p class="meta" id="awards-source"></p></section><section id="ratings-view" hidden><div class="hero"><div class="eyebrow">Your personal collection</div><h1>My ratings.</h1><p>Every film you have rated, including films from the Awards section.</p></div><div class="filters"><input id="ratings-search" type="search" placeholder="Search rated films or directors…" aria-label="Search my ratings"><select id="ratings-sort" aria-label="Sort ratings"><option value="rating">Highest rated first</option><option value="title">Title A–Z</option><option value="year">Year newest first</option></select></div><div class="count" id="ratings-count"></div><div class="grid" id="ratings-grid"></div><nav id="ratings-pagination" class="ratings-pagination" aria-label="Rated films pages" hidden></nav><div class="empty" id="ratings-empty" hidden>No rated films yet. Rate a film in Top 100 or Awards to see it here.</div></section>
 </div><section id="books-view" hidden aria-label="Books">
 <div class="hero"><div class="eyebrow">Your reading collection</div><h1>Books worth keeping.</h1><p>Find your next catalogue entry, rate what you have read, and keep your reading notes in one place.</p></div>
-<nav class="books-tabs" aria-label="Books sections"><button type="button" data-book-tab="ratings" class="active" aria-pressed="true">My ratings</button><button type="button" data-book-tab="awards" aria-pressed="false">Awards</button><button type="button" data-book-tab="catalogue" aria-pressed="false">Catalogue</button><button type="button" data-book-tab="search" aria-pressed="false">Add book</button></nav>
+<nav class="books-tabs" aria-label="Books sections"><button type="button" data-book-tab="ratings" class="active" aria-pressed="true">My ratings</button><button type="button" data-book-tab="awards" aria-pressed="false">Awards</button><button type="button" data-book-tab="catalogue" aria-pressed="false">Catalogue</button><button type="button" data-book-tab="search" aria-pressed="false">Add book</button></nav><section class="book-panel" id="book-watchlist-view" data-book-panel="watchlist" hidden><h2>My read list</h2><div class="filters"><input id="book-list-search" type="search" placeholder="Search saved books or authors…" aria-label="Search my read list"><select id="book-list-sort" aria-label="Sort my read list"><option value="title">Title</option><option value="year">Newest publication</option></select></div><p id="book-watchlist-count" class="meta"></p><div id="book-watchlist-grid" class="grid"></div><p id="book-watchlist-empty" class="meta">No saved books yet. Use the bookmark beside a rating to add one.</p></section>
 <p id="book-sync-status" class="book-message" role="status" aria-live="polite"></p>
 <details class="book-import"><summary>Import reading history</summary><p>Choose books-import.json from your prepared package to preview the import. Existing app ratings are preserved.</p><label>Prepared books file <input id="book-import-file" type="file" accept=".json,application/json"></label><p id="book-import-status" role="status" aria-live="polite"></p><div id="book-import-preview"></div><button id="book-import-apply" class="action" type="button" hidden>Import these books &amp; readings</button></details>
 <dialog id="book-editor" class="book-editor media-detail-dialog" hidden aria-labelledby="book-selected-title"><div class="detail-toolbar"><button id="book-detail-edit" type="button" class="action">Edit</button><button id="book-detail-close" type="button" class="action">Close ×</button></div><div id="book-detail-summary"></div><h2 id="book-selected-title"></h2><p id="book-selected-author" class="meta"></p>
@@ -136,8 +136,8 @@ const $=id=>document.getElementById(id),tiers={1:'Must See',2:'Strong Recommenda
 const escapeHTML=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const genres=[...new Set(films.map(f=>f.genre))].sort();genres.forEach(g=>{const o=document.createElement('option');o.value=g;o.textContent=g[0].toUpperCase()+g.slice(1);$('genre').append(o)});
 async function save(id){try{localStorage.setItem(key,JSON.stringify(Object.fromEntries(Object.entries(progress).map(([id,p])=>[id,{watched:p.watched,rating:p.rating}]))))}catch{setAuthMessage('Browser storage is unavailable.')}render();if(!signedInUser||!supabaseClient)return;
- const p=progress[id]||{};const {error}=await supabaseClient.from('film_progress').upsert({user_id:signedInUser.id,film_id:Number(id),watched:!!p.watched,rating:p.rating||null},{onConflict:'user_id,film_id'});
- if(error)setAuthMessage('Cloud save failed: '+error.message);else setAuthMessage('Saved to your account.');}
+ const p=progress[id]||{},owner=signedInUser.id;const {error}=await supabaseClient.from('film_progress').upsert({user_id:signedInUser.id,film_id:Number(id),watched:!!p.watched,rating:p.rating||null},{onConflict:'user_id,film_id'});
+ if(error)setAuthMessage('Cloud save failed: '+error.message);else {if(p.rating)await window.CultureLists.rated('film','movie:'+id,owner);setAuthMessage('Saved to your account.');}}
 function filmPoster(d){const p=d.poster;return typeof p==='string'&&(p.startsWith('https://image.tmdb.org/t/p/')||/^assets\/film-posters\/[1-9][0-9]*\.jpg$/.test(p))?p:null;}
 function filmPrizes(f,context=''){const d=filmDetails[f.id]||{},label=awardHighlights.get(f.id)||(window.CULTURE_FILM_RECOGNITION||{})[f.id]||d.recognition||d.awards||'';return context||(label?'<div class="recognition">'+escapeHTML(label)+'</div>':'');}
 function curatedReviews(f){
@@ -184,11 +184,11 @@ configureAwardSelectors();
 configureAwardCategories();
 function renderMyRatings(){
  const q=$('ratings-search').value.trim().toLocaleLowerCase(),sort=$('ratings-sort').value;
- const rows=allRateableFilms.filter(f=>{const rating=Number(progress[f.id]?.rating);return (currentView==='catalogue'||rating>=0.5&&rating<=10)&&(!q||(f.title+' '+f.director).toLocaleLowerCase().includes(q))});
+ const rows=allRateableFilms.filter(f=>{const rating=Number(progress[f.id]?.rating);return (currentView==='watchlist'?window.CultureLists.has('film','movie:'+f.id):currentView==='catalogue'||rating>=0.5&&rating<=10)&&(!q||(f.title+' '+f.director).toLocaleLowerCase().includes(q))});
  rows.sort((a,b)=>sort==='title'?a.title.localeCompare(b.title):sort==='year'?(Number(displayReleaseYear(b)||0)-Number(displayReleaseYear(a)||0)||a.title.localeCompare(b.title)):(Number(progress[b.id]?.rating)-Number(progress[a.id]?.rating)||a.title.localeCompare(b.title)));
  const totalPages=Math.max(1,Math.ceil(rows.length/RATINGS_PAGE_SIZE));
  ratingsPage=Math.max(1,Math.min(ratingsPage,totalPages));
- $('ratings-count').textContent=rows.length+(currentView==='catalogue'?' film':' rated film')+(rows.length===1?'':'s');
+ $('ratings-count').textContent=rows.length+(currentView==='catalogue'?' film':currentView==='watchlist'?' saved film':' rated film')+(rows.length===1?'':'s');
  const pagination=$('ratings-pagination');
  pagination.hidden=rows.length<=RATINGS_PAGE_SIZE;
  pagination.innerHTML=rows.length<=RATINGS_PAGE_SIZE?'':'<button type="button" data-ratings-page="prev" '+(ratingsPage===1?'disabled':'')+'>← Previous</button><span>Page '+ratingsPage+' of '+totalPages+'</span><button type="button" data-ratings-page="next" '+(ratingsPage===totalPages?'disabled':'')+'>Next →</button>';
@@ -242,7 +242,7 @@ async function saveFilmDetails(event){
   if(generation!==filmSessionGeneration)return;
   if(error)throw Error(error.code==='23505'?'This rating changed. Close and reopen details before saving.':error.message);
   if(!data)throw Error('This rating changed. Close and reopen details before saving.');
-  progress[state.id]=data;filmEditing=false;render();
+  progress[state.id]=data;await window.CultureLists.rated('film','movie:'+state.id,owner);if(generation!==filmSessionGeneration)return;filmEditing=false;render();
   if(filmDetailState===state){displayFilmDetails(state.id);$('film-detail-status').textContent='Saved to your account.';}
  }catch(error){message(error.message||'Could not save. Your draft is still here.');}
  finally{filmDetailBusy=false;$('film-detail-edit').disabled=false;for(const el of $('film-detail-form')?.elements||[])el.disabled=false;}
@@ -269,12 +269,13 @@ function switchView(view){
  $('films-view').hidden=view!=='films';
  $('films-hero').hidden=view!=='films';
  $('awards-view').hidden=view!=='awards';
- $('ratings-view').hidden=!['ratings','catalogue'].includes(view);
- $('ratings-view').querySelector('h1').textContent=view==='catalogue'?'Film catalogue.':'My ratings.';
- $('ratings-view').querySelector('.hero p').textContent=view==='catalogue'?'All catalogue films, including titles you add.':'Every film you have rated.';
+ $('ratings-view').hidden=!['ratings','watchlist','catalogue'].includes(view);
+ window.CultureLists.render();
+ $('ratings-view').querySelector('h1').textContent=view==='catalogue'?'Film catalogue.':view==='watchlist'?'My watch list.':'My ratings.';
+ $('ratings-view').querySelector('.hero p').textContent=view==='catalogue'?'All catalogue films, including titles you add.':view==='watchlist'?'Films to watch or revisit. Rating a film removes it; you can add it again anytime.':'Every film you have rated.';
  $('ratings-search').placeholder=view==='catalogue'?'Search catalogue titles or directors…':'Search rated films or directors…';
  $('ratings-search').setAttribute('aria-label',view==='catalogue'?'Search film catalogue':'Search my ratings');
- $('ratings-empty').textContent=view==='catalogue'?'No catalogue films match your search.':'No rated films match your search.';
+ $('ratings-empty').textContent=view==='catalogue'?'No catalogue films match your search.':view==='watchlist'?'No saved films match. Use the bookmark beside a rating to add one.':'No rated films match your search.';
  ratingsPage=1;
  document.querySelectorAll('[data-view]').forEach(tab=>tab.classList.toggle('active',tab.dataset.view===view));
  closeRatingPopover();
@@ -446,9 +447,9 @@ $('import-ratings').addEventListener('change',async e=>{
 $('google-login').addEventListener('click',async()=>{if(!supabaseClient)return;setAuthMessage('Redirecting to Google…');const {error}=await supabaseClient.auth.signInWithOAuth({provider:'google',options:{redirectTo:window.CultureRouter.authRedirect()}});if(error)setAuthMessage('Google sign-in failed: '+error.message);});
 $('login-form').addEventListener('submit',async e=>{e.preventDefault();if(!supabaseClient)return;const email=$('email').value.trim();const {error}=await supabaseClient.auth.signInWithOtp({email,options:{emailRedirectTo:window.CultureRouter.authRedirect()}});setAuthMessage(error?error.message:'Check your email for the sign-in link. Google sign-in is also available above.');});
 $('logout').addEventListener('click',async()=>{if(supabaseClient)await supabaseClient.auth.signOut();progress={};try{localStorage.removeItem(key)}catch{}render();setAuthMessage('Signed out. Local account progress cleared from this browser.');});
-window.CultureLists.init(supabaseClient);
 window.CultureBooks.init(supabaseClient);
 window.CultureTV.init(supabaseClient,{onFilmProgressChanged:()=>signedInUser?loadCloudProgress(signedInUser):undefined,onOpenFilm:id=>openFilmDetails(id)});
+window.CultureLists.init(supabaseClient);
 window.CultureMedia.init(supabaseClient,{
  onCatalogue:entries=>{
   for(const row of entries)if(row.work_type==='movie'){
@@ -467,5 +468,6 @@ window.CultureRouter=window.CultureRoutes.start({
  getPage:()=>ratingsPage,setPage:value=>{ratingsPage=value;},
  books:window.CultureBooks,tv:window.CultureTV,media:window.CultureMedia
 });
+document.addEventListener('culture-lists-changed',()=>{renderMyRatings();window.CultureTV.route.render();window.CultureBooks.route.render();});
 render();initAuth();
 </script></body></html>
