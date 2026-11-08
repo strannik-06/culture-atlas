@@ -404,6 +404,40 @@
       "evidence": "https://www.themoviedb.org/movie/1269644"
     },
     {
+      "requested": "Memory",
+      "type": "movie",
+      "provider_key": "movie:838301",
+      "metadata": {
+        "title": "Memory",
+        "original_title": "Память",
+        "year": 2026,
+        "tmdb_id": 838301,
+        "imdb_id": "tt37814864",
+        "overview": "After her parents’ divorce, six-year-old Vladlena moves from Crimea to Grozny, not yet aware of the changes that lie ahead. When war breaks out in Chechnya, it deeply affects her city and family. Years later, filmmaker Sandu reflects on her childhood in this poetic, autobiographical hybrid film, exploring how cycles of violence shape children—and how healing and change are possible.",
+        "poster_path": "/uB2aIF3BVBpOZA6hkVrEyFJjeD5.jpg",
+        "cast": [
+          "Amina Taisumova",
+          "Selima Agamirzaeva",
+          "Vladlena Sandu"
+        ],
+        "genres": [
+          "Documentary",
+          "Drama",
+          "War"
+        ],
+        "countries": [
+          "FR",
+          "NL",
+          "RU"
+        ],
+        "tmdb_rating": 6.3,
+        "release_date": "2026-03-03",
+        "runtime": 98,
+        "director": "Vladlena Sandu"
+      },
+      "evidence": "https://www.themoviedb.org/movie/838301"
+    },
+    {
       "requested": "The Gentlemen",
       "type": "tv",
       "provider_key": "tv:236235",
@@ -653,6 +687,83 @@
         "status": "Ended"
       },
       "evidence": "https://www.themoviedb.org/tv/81355"
+    },
+    {
+      "requested": "The Diplomat",
+      "type": "tv",
+      "provider_key": "tv:203857",
+      "metadata": {
+        "title": "The Diplomat",
+        "original_title": "The Diplomat",
+        "year": 2023,
+        "tmdb_id": 203857,
+        "imdb_id": "tt17491088",
+        "overview": "Amid an international crisis, a US diplomat contends with her high-profile job as ambassador to the UK and her strained marriage to a political star.",
+        "poster_path": "/cUy0ZYme43lop08nOtbQLWL0dX.jpg",
+        "cast": [
+          "Keri Russell",
+          "Rufus Sewell",
+          "Ali Ahn",
+          "Rory Kinnear",
+          "Ato Essandoh",
+          "Bradley Whitford",
+          "Allison Janney",
+          "Nana Mensah"
+        ],
+        "genres": [
+          "Drama",
+          "War & Politics"
+        ],
+        "countries": [
+          "US"
+        ],
+        "tmdb_rating": 7.657,
+        "release_date": "2023-04-20",
+        "runtime": null,
+        "id": "tv:203857",
+        "series_kind": "series",
+        "tmdb_media_type": "tv",
+        "creators": [
+          {
+            "id": 1219520,
+            "credit_id": "62c9f31805f9cf004c83c7f6",
+            "name": "Debora Cahn",
+            "original_name": "Debora Cahn",
+            "gender": 1,
+            "profile_path": "/h2kLzLBFQh5LugBl9kf3ucmD9u2.jpg"
+          }
+        ],
+        "directors": [],
+        "credit_names": [
+          "Debora Cahn"
+        ],
+        "seasons": [
+          {
+            "number": 1,
+            "name": "Season 1",
+            "date": "2023-04-20"
+          },
+          {
+            "number": 2,
+            "name": "Season 2",
+            "date": "2024-10-31"
+          },
+          {
+            "number": 3,
+            "name": "Season 3",
+            "date": "2025-10-16"
+          },
+          {
+            "number": 4,
+            "name": "Season 4",
+            "date": "2026-10-15"
+          }
+        ],
+        "first_air_date": "2023-04-20",
+        "last_air_date": "2026-10-15",
+        "status": "Returning Series"
+      },
+      "evidence": "https://www.themoviedb.org/tv/203857"
     },
     {
       "requested": "Slow Horses",
@@ -1054,14 +1165,5 @@
       "evidence": "https://www.themoviedb.org/tv/62560"
     }
   ],
-  "unresolved": [
-    {
-      "title": "Memory",
-      "error": "Expected one title/year/director match; got 0"
-    },
-    {
-      "title": "The Diplomat",
-      "error": "Expected one title/year/director match; got 2"
-    }
-  ]
+  "unresolved": []
 }
