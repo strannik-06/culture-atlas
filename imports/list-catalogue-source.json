@@ -69,7 +69,11 @@
     "type": "movie",
     "title": "Memory",
     "year": 2025,
-    "director": "Vladlena Sandu"
+    "director": "Vladlena Sandu",
+    "aliases": [
+      "Память",
+      "Pamyat"
+    ]
   },
   {
     "type": "tv",
@@ -97,7 +101,8 @@
   {
     "type": "tv",
     "title": "The Diplomat",
-    "year": 2023
+    "year": 2023,
+    "creator": "Debora Cahn"
   },
   {
     "type": "tv",
