@@ -29,6 +29,8 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          node scripts/build-film-detail-assets.mjs
+          git add film-cards.js assets/film-details
           git add film-catalog.js film-details.js awards-2026.js imports/awards-2026-audit.json supabase/migrations/20261021_media_catalogue_seed.sql
           if ! git diff --cached --quiet; then
             git commit -m "Resolve 2026 award films against verified TMDB director credits"

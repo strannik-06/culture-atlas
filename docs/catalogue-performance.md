@@ -35,3 +35,13 @@ The next bundle optimization should prioritize splitting film detail payloads fr
 `node scripts/benchmark-book-startup.mjs` compares fresh Chromium contexts against the pre-change books module, with an explicitly simulated 600 ms reading-history delay and isolated fake account. It reports cold readiness and history request counts. It makes no production database requests; timing is diagnostic, not an estimate of a user's real connection.
 
 In the initial CI Chromium run, the simulated baseline became ready at 994 ms versus 371 ms with deferred history. History requests during startup fell from one to zero. This comparison deliberately injects a 600 ms history delay and uses a localhost server with uncompressed scripts; it is not a production speed estimate.
+
+## Deferred film details
+
+`film-details.js` remains the complete, unchanged metadata source for preparation scripts, audits and backups. The website loads generated `film-cards.js` instead: posters and credits, release dates, recognition text, and the first three cast names. Full public metadata is stored losslessly in 53 content-hashed JSON chunks (100 film IDs per group), requested only when opening details. A chunk request is shared/cached, with failure/retry UI. Dynamic database films continue using their existing metadata.
+
+Initial film metadata changes from 5,616,454 raw bytes (1,666,827 local gzip bytes) to 899,130 card bytes plus a small loader (about 294 KB combined gzip). This removes roughly 4.72 MB raw / 1.37 MB gzip from every initial section load. These compression figures are estimates; the Chromium diagnostic reports actual localhost resource sizes and readiness separately.
+
+Late responses update only public metadata and score regions. Rating/note drafts and review controls remain mounted; closing, switching films, or switching accounts prevents stale responses from changing the current view. Full record reconstruction and loading/cache/retry behavior are tested.
+
+After changing `film-details.js`, run `node scripts/build-film-detail-assets.mjs`. Preparation workflows regenerate and commit the assets automatically, and CI uses `--check` to reject stale generated files. Run `node scripts/benchmark-film-startup.mjs` after installing Playwright/Chromium for an isolated before/after startup comparison and cache/deep-link smoke tests. No database migration is involved.
