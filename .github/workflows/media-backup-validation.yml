@@ -15,9 +15,10 @@ jobs:
           node-version: '22'
           cache: npm
       - run: npm ci --ignore-scripts
+      - run: node scripts/build-film-detail-assets.mjs --check
       - run: node scripts/prepare-award-dates.mjs
       - run: git diff --exit-code -- award-dates-data.js
-      - run: node --test tests/book-indexes.test.mjs tests/watchlist-pages.test.mjs tests/personal-lists.test.mjs tests/personal-list-security.test.mjs tests/film-awards-2001-2005.test.mjs tests/film-awards-2011-2015.test.mjs tests/film-awards-2006-2010.test.mjs tests/film-reviews.test.mjs tests/film-awards-history.test.mjs tests/award-dates.test.mjs tests/media.test.mjs tests/routes.test.mjs tests/details.test.mjs tests/awards.test.mjs tests/oscars-history.test.mjs tests/bafta-history.test.mjs tests/globes-history.test.mjs tests/cannes-history.test.mjs tests/venice-history.test.mjs tests/berlinale-history.test.mjs
+      - run: node --test tests/film-detail-loader.test.mjs tests/book-indexes.test.mjs tests/watchlist-pages.test.mjs tests/personal-lists.test.mjs tests/personal-list-security.test.mjs tests/film-awards-2001-2005.test.mjs tests/film-awards-2011-2015.test.mjs tests/film-awards-2006-2010.test.mjs tests/film-reviews.test.mjs tests/film-awards-history.test.mjs tests/award-dates.test.mjs tests/media.test.mjs tests/routes.test.mjs tests/details.test.mjs tests/awards.test.mjs tests/oscars-history.test.mjs tests/bafta-history.test.mjs tests/globes-history.test.mjs tests/cannes-history.test.mjs tests/venice-history.test.mjs tests/berlinale-history.test.mjs
       - name: Ensure canonical identity seed is current
         run: |
           node scripts/seed-media-catalogue.mjs

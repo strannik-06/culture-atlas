@@ -1,7 +1,7 @@
 name: Review private lists in Chromium
 on:
   push:
-    branches: [feat/private-lists, feat/list-pages, perf/catalogue-rendering, perf/lazy-book-history]
+    branches: [feat/private-lists, feat/list-pages, perf/catalogue-rendering, perf/lazy-book-history, perf/lazy-film-details]
 permissions:
   contents: read
 jobs:
@@ -20,6 +20,7 @@ jobs:
       - run: npx playwright install --with-deps chromium
       - run: node scripts/preview-private-lists.mjs
       - run: node scripts/benchmark-book-startup.mjs
+      - run: node scripts/benchmark-film-startup.mjs
       - uses: actions/upload-artifact@v4
         if: always()
         with:

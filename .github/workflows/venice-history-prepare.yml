@@ -30,6 +30,8 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          node scripts/build-film-detail-assets.mjs
+          git add film-cards.js assets/film-details
           git add imports/film-metadata-completion.json film-catalog.js film-details.js awards-2025.js imports/venice-2021-2025-audit.json supabase/migrations/20261021_media_catalogue_seed.sql
           if test -f imports/venice-2021-2025-catalogue-sync.sql; then git add imports/venice-2021-2025-catalogue-sync.sql; fi
           if ! git diff --cached --quiet; then
