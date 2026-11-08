@@ -1,6 +1,8 @@
 /* TV ratings: reviewed work identities; private progress; explicit, insert-only imports. */
 (() => {
   'use strict';
+  const renderedMarkup=new WeakMap();function setMarkup(el,html){if(renderedMarkup.get(el)!==html){renderedMarkup.set(el,html);el.innerHTML=html;}}
+
   const $=id=>document.getElementById(id);
   const escape=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const scopes={whole_work:'Whole work / series',unspecified:'Seasons or parts not specified'};
@@ -170,7 +172,7 @@
     const sort=$('tv-sort').value;visible.sort((a,b)=>sort==='title'?a.title.localeCompare(b.title):sort==='year'?b.year-a.year:((Number((b.linked?linked:rows).get(b.id)?.rating)||0)-(Number((a.linked?linked:rows).get(a.id)?.rating)||0)||a.title.localeCompare(b.title)));
     const tvCount=shows.filter(w=>rows.has(w.id)).length,linkedCount=aliases.filter(w=>validRating(Number(linked.get(w.work_key)?.rating))).length;
     $('tv-count').textContent=`${tvCount} TV ratings · ${linkedCount} linked film ratings · ${visible.length} works shown`;
-    $('tv-grid').innerHTML=visible.map(w=>card(w)).join('');
+    setMarkup($('tv-grid'),visible.map(w=>card(w)).join(''));
     $('tv-tools').hidden=tab==='awards';
     $('tv-list-view').hidden=tab==='awards';$('tv-awards-view').hidden=tab!=='awards';
     if(tab==='awards')awardBrowser?.render();
