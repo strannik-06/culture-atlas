@@ -346,7 +346,7 @@
       books=catalogue;readings=history;
       const byId=new Map(books.map(b=>[b.id,bookKey(b)]));
       progress=new Map(ratings.filter(p=>byId.has(p.book_id)).map(p=>[byId.get(p.book_id),p]));
-      message('book-sync-status',user?'Books and ratings synced to your account.':'Sign in using Account to save ratings, reading format and notes.');
+      message('book-sync-status',user?'':'Sign in using Account to save ratings, reading format and notes.');
       render();
       window.CultureRouter?.refresh();
     } catch(error) { if(version===generation) message('book-sync-status',errorMessage(error)); }
