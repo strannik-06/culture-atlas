@@ -32,6 +32,14 @@ class BackupTests(unittest.TestCase):
         self.assertEqual(payload['manifest']['counts']['book_readings'],1)
         self.assertEqual(payload['database']['book_readings'],self.snapshot['book_readings'])
         self.assertIn('insert into public.book_readings',restore.make_sql(payload['database']))
+    def test_saved_lists_roundtrip_and_recovery(self):
+        self.snapshot['personal_lists']=[{'user_id':'00000000-0000-0000-0000-000000000002','kind':'book','work_key':'book:1','metadata':{'title':'To read'}}]
+        payload=backup.unpack(backup.pack(self.snapshot,{},self.key),self.key)
+        self.assertEqual(payload['manifest']['counts']['personal_lists'],1)
+        self.assertEqual(payload['database']['personal_lists'],self.snapshot['personal_lists'])
+        sql=restore.make_sql(payload['database'])
+        self.assertIn('insert into public.personal_lists',sql)
+        self.assertIn('00000000-0000-0000-0000-000000000002',sql)
     def test_storage_readback_required_and_unique_upload_guard(self):
         blob=backup.pack(self.snapshot,{},self.key)
         class Storage:

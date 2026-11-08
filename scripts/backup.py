@@ -15,7 +15,7 @@ from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 
 MAGIC = b'CULTURE-ATLAS-BACKUP-v1\n'
 TABLES = ('film_progress','tv_progress','book_progress','books','media_catalogue','media_provider_links')
-OPTIONAL_TABLES = ('book_readings',)
+OPTIONAL_TABLES = ('book_readings','personal_lists')
 ROOT = Path(__file__).resolve().parent.parent
 
 def key():
@@ -36,7 +36,7 @@ def pack(snapshot, files, encryption_key):
     if not all(isinstance(snapshot.get(t),list) for t in TABLES):
         raise ValueError('Snapshot is missing required tables. Nothing uploaded.')
     if any(t in snapshot and not isinstance(snapshot[t],list) for t in OPTIONAL_TABLES):
-        raise ValueError('Invalid reading history table.')
+        raise ValueError('Invalid optional table.')
     payload={'format':'culture-atlas-backup-v1','created_at':datetime.now(timezone.utc).isoformat(),
              'commit':os.environ.get('GITHUB_SHA','local'),'database':snapshot,'files':files}
     payload['manifest']={'database_sha256':digest(canonical(snapshot)),
@@ -74,7 +74,7 @@ def backup():
     token=os.environ['SUPABASE_SERVICE_ROLE_KEY']
     req=urllib.request.Request(url+'/rest/v1/rpc/culture_backup_snapshot',data=b'{}',method='POST',headers={'apikey':token,'Authorization':'Bearer '+token,'Content-Type':'application/json'})
     with urllib.request.urlopen(req,timeout=120) as response: snapshot=json.load(response)
-    paths=[ROOT/'film-catalog.js',ROOT/'film-details.js',ROOT/'tv-catalog.js',ROOT/'tv-film-aliases.js',ROOT/'work-identities.js',ROOT/'supabase/schema.sql',*sorted((ROOT/'supabase/migrations').glob('*.sql'))]
+    paths=[ROOT/'film-catalog.js',ROOT/'film-details.js',ROOT/'tv-catalog.js',ROOT/'tv-film-aliases.js',ROOT/'work-identities.js',ROOT/'supabase/schema.sql',*sorted((ROOT/'supabase/migrations').glob('*.sql')),*sorted((ROOT/'supabase/changes').glob('*.sql'))]
     files={str(p.relative_to(ROOT)):p.read_text() for p in paths}
     blob=pack(snapshot,files,encryption_key)
     import boto3

@@ -98,6 +98,7 @@
     return awards.length?'<div class="book-award-label">'+awards.map(a=>`<div><a href="${escape(a.url)}">${a.winner?'★ ':''}${escape(a.event)} ${a.year} · ${escape(a.category==='Selected works'?a.label:a.label+' · '+a.category)}</a></div>`).join('')+'</div>':'';
   }
   function editMode(value) {
+    if(value&&!user){window.CultureLists?.signIn();return;}
     editing=value;closeBookStars();$('book-rating-form').hidden=!value;$('book-detail-personal').hidden=value;
     $('book-detail-edit').textContent=value?'Save':'Edit';$('book-detail-edit').classList.toggle('detail-save',value);
   }
