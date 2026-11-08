@@ -196,7 +196,7 @@ function renderMyRatings(){
  $('ratings-empty').hidden=rows.length!==0;
  $('ratings-grid').innerHTML=visibleRows.map(f=>{
   const d=filmDetails[f.id]||{},rating=Number(progress[f.id]?.rating)||0,poster=filmPoster(d);
-  return '<article tabindex="0" role="button" aria-label="View details for '+escapeHTML(f.title)+'" data-film-id="'+f.id+'" class="film '+(rating?'watched':'')+'"><div class="poster">'+(poster?'<img loading="lazy" alt="Poster for '+escapeHTML(f.title)+'" src="'+escapeHTML(poster)+'">':'<span class="initial" aria-hidden="true">'+escapeHTML(f.title[0])+'</span>')+'</div><div class="body"><h3><a href="#/films/'+f.id+'">'+escapeHTML(f.title)+'</a></h3><div class="meta">'+escapeHTML(f.director)+' · '+escapeHTML(displayReleaseYear(f))+'</div>'+(Array.isArray(d.cast)&&d.cast.length?'<div class="cast">'+escapeHTML(d.cast.slice(0,3).join(', '))+'</div>':'')+filmPrizes(f)+'<div class="controls"><div class="star-control"><button type="button" class="star-trigger" data-open-stars="'+f.id+'" aria-label="Change rating for '+escapeHTML(f.title)+'">★ <span class="value">'+(rating?rating.toFixed(1)+'/10':'Rate')+'</span></button></div></div></div></article>';
+  return '<article tabindex="0" role="button" aria-label="View details for '+escapeHTML(f.title)+'" data-film-id="'+f.id+'" class="film '+(rating?'watched':'')+'"><div class="poster">'+(poster?'<img loading="lazy" alt="Poster for '+escapeHTML(f.title)+'" src="'+escapeHTML(poster)+'">':'<span class="initial" aria-hidden="true">'+escapeHTML(f.title[0])+'</span>')+'</div><div class="body"><h3><a href="#/films/'+f.id+'">'+escapeHTML(f.title)+'</a></h3><div class="meta">'+escapeHTML(f.director)+' · '+escapeHTML(displayReleaseYear(f))+'</div>'+(Array.isArray(d.cast)&&d.cast.length?'<div class="cast">'+escapeHTML(d.cast.slice(0,3).join(', '))+'</div>':'')+filmPrizes(f)+'<div class="controls"><div class="star-control"><button type="button" class="star-trigger" data-open-stars="'+f.id+'" aria-label="Change rating for '+escapeHTML(f.title)+'">'+(rating?'★':'☆')+' <span class="value">'+(rating?rating.toFixed(1)+'/10':'Rate')+'</span></button></div></div></div></article>';
  }).join('');
 }
 let filmDetailState=null,filmEditing=false,filmDetailBusy=false,filmSessionGeneration=0;
@@ -273,8 +273,8 @@ function switchView(view){
  window.CultureLists.render();
  $('ratings-view').querySelector('h1').textContent=view==='catalogue'?'Film catalogue.':view==='watchlist'?'My watch list.':'My ratings.';
  $('ratings-view').querySelector('.hero p').textContent=view==='catalogue'?'All catalogue films, including titles you add.':view==='watchlist'?'Films to watch or revisit. Rating a film removes it; you can add it again anytime.':'Every film you have rated.';
- $('ratings-search').placeholder=view==='catalogue'?'Search catalogue titles or directors…':'Search rated films or directors…';
- $('ratings-search').setAttribute('aria-label',view==='catalogue'?'Search film catalogue':'Search my ratings');
+ $('ratings-search').placeholder=view==='catalogue'?'Search catalogue titles or directors…':view==='watchlist'?'Search saved films or directors…':'Search rated films or directors…';
+ $('ratings-search').setAttribute('aria-label',view==='catalogue'?'Search film catalogue':view==='watchlist'?'Search my watch list':'Search my ratings');
  $('ratings-empty').textContent=view==='catalogue'?'No catalogue films match your search.':view==='watchlist'?'No saved films match. Use the bookmark beside a rating to add one.':'No rated films match your search.';
  ratingsPage=1;
  document.querySelectorAll('[data-view]').forEach(tab=>tab.classList.toggle('active',tab.dataset.view===view));

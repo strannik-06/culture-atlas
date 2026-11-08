@@ -47,7 +47,7 @@ try{
   await page.screenshot({path:'docs/previews/private-lists-'+section+'-saved-mobile.png'});await page.setViewportSize({width:1440,height:1100});
  }
  await page.evaluate(()=>window.CultureRouter.navigate({section:'films',view:'watchlist',params:{}}));
- await page.locator('#ratings-grid [data-open-stars]').click();await page.locator('.star-picker:not([hidden])').press('ArrowRight');await page.locator('.star-picker:not([hidden]) .rating-save').click();await page.waitForFunction(()=>window.__previewRows.length===2);
+ await page.locator('#ratings-grid [data-open-stars]').click();await page.locator('.star-picker:not([hidden])').press('ArrowRight');await page.locator('.star-picker:not([hidden])').press('Enter');await page.locator('.star-picker:not([hidden]) .rating-save').click();await page.waitForFunction(()=>window.__previewRows.length===2);
  assert.equal(await page.locator('#ratings-grid article').count(),0);
  await page.evaluate(()=>window.CultureRouter.navigate({section:'films',view:'awards',params:{}}));await page.locator('article:visible [data-list-toggle]').first().click();await page.waitForFunction(()=>window.__previewRows.length===3);
  await page.evaluate(()=>window.CultureRouter.navigate({section:'books',view:'watchlist',params:{}}));
