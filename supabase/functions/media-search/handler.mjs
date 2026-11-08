@@ -21,10 +21,10 @@ export function createHandler(env, fetcher=fetch) {
    if(!authorization.startsWith('Bearer '))return respond({error:'Sign in to search and rate.'},401);
    const auth=await fetcher(base+'/auth/v1/user',{headers:{apikey:anon,Authorization:authorization}});
    if(!auth.ok)return respond({error:'Sign in again to continue.'},401);
-   const user=await auth.json();if(!user.id)return respond({error:'Sign in again.'},401);
+   const user=await auth.json();if(!user.id||user.is_anonymous)return respond({error:'Sign in again.'},401);
    const raw=await request.text();if(raw.length>30000)return respond({error:'Request too large'},413);
    const body=JSON.parse(raw),type=body.type;
-   if(!['movie','tv'].includes(type)||!['search','details','save'].includes(body.action))return respond({error:'Invalid request'},400);
+   if(!['movie','tv'].includes(type)||!['search','details','save','watchlist'].includes(body.action))return respond({error:'Invalid request'},400);
    const db=async(path,options={})=>{const r=await fetcher(base+'/rest/v1/'+path,{...options,headers:{apikey:service,Authorization:'Bearer '+service,'Content-Type':'application/json',...options.headers}});if(!r.ok){const err=await r.json().catch(()=>({}));throw new SafeError(err.code==='40001'?'This rating changed. Select the result again before saving.':'Unable to save or load the catalogue. Check the media migrations and try again.');}return r.json();};
    const tmdb=async(path,query={})=>{const token=env('TMDB_READ_ACCESS_TOKEN'),key=env('TMDB_API_KEY');if(!token&&!key)throw new SafeError('Film and TV search needs its TMDB server key configured.');const url=new URL('https://api.themoviedb.org/3/'+path);for(const[k,v]of Object.entries(query))url.searchParams.set(k,String(v));if(!token)url.searchParams.set('api_key',key);const r=await fetcher(url,{headers:token?{Authorization:'Bearer '+token}:{},signal:AbortSignal.timeout(15000)});if(!r.ok)throw new SafeError(r.status===429?'Search is busy. Try again shortly.':'TMDB could not load this title. Try again.');return r.json();};
    if(body.action==='search'){
@@ -83,6 +83,7 @@ export function createHandler(env, fetcher=fetch) {
     return respond({kind:'works',page,total_pages:Math.min(500,result.total_pages||1),results:(result.results||[]).slice(0,20).map(x=>({id:x.id,title:x.title||x.name,original_title:x.original_title||x.original_name,date:x.release_date||x.first_air_date,poster_path:x.poster_path,overview:x.overview}))});
    }
    if(!Number.isSafeInteger(body.id)||body.id<1||body.season!=null&&(!Number.isSafeInteger(body.season)||body.season<1||type!=='tv'))return respond({error:'Invalid title or season'},400);
+   if(body.action==='watchlist'&&body.season!=null)return respond({error:'Save the whole series to your watch list.'},400);
    const detail=await tmdb(type+'/'+body.id,{append_to_response:'credits,external_ids'});
    const seasons=(detail.seasons||[]).filter(s=>s.season_number>0).map(s=>({number:s.season_number,name:s.name,date:s.air_date,episodes:s.episode_count}));
    let provider=type+':'+body.id,season=null;
@@ -97,6 +98,7 @@ export function createHandler(env, fetcher=fetch) {
    const parent={work_type:type,title:detail.title||detail.name,original_title:detail.original_title||detail.original_name,tmdb_id:body.id,imdb_id:detail.imdb_id||detail.external_ids?.imdb_id||null,year:Number((detail.release_date||detail.first_air_date||'').slice(0,4))||null,release_date:detail.release_date,first_air_date:detail.first_air_date,director:credits.map(p=>p.name).join(', '),directors:credits,creators:detail.created_by||[],poster_path:detail.poster_path,series_kind:detail.type==='Miniseries'?'miniseries':'series'};
    Object.assign(parent,{overview:detail.overview||'',cast:(detail.credits?.cast||[]).slice(0,8).map(p=>p.name),tmdb_rating:detail.vote_average||null,runtime:detail.runtime||null,genres:(detail.genres||[]).map(g=>g.name)});
    const metadata=season?{...parent,title:parent.title+' — Season '+body.season,series_kind:'season',season_number:body.season,imdb_id:null,year:Number((season.air_date||'').slice(0,4))||parent.year,overview:season.overview||parent.overview,parent}:parent;
+   if(body.action==='watchlist')return respond(await db('rpc/save_media_to_list',{method:'POST',body:JSON.stringify({p_user:user.id,p_provider:provider,p_metadata:metadata})}));
    if(body.action==='save'){
     if(typeof body.rating!=='number'||body.rating<.5||body.rating>10||!Number.isInteger(body.rating*2)||typeof body.notes!=='string'||body.notes.length>10000||!['whole_work','unspecified'].includes(body.scope)||body.date!=null&&!/^\d{4}-\d{2}-\d{2}$/.test(body.date))return respond({error:'Choose a half-point rating and valid notes, date and scope.'},400);
     return respond(await db('rpc/save_media_rating',{method:'POST',body:JSON.stringify({p_user:user.id,p_provider:provider,p_metadata:metadata,p_rating:body.rating,p_notes:body.notes,p_date:body.date,p_scope:body.scope,p_expected:body.expected_updated_at||null})}));

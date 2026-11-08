@@ -439,6 +439,14 @@
       finally{importing=false;$('book-import-apply').disabled=false;$('book-import-file').disabled=false;}
     });
   }
+  async function saveToList(key){
+    if(!user||loading)throw Error('Sign in and wait for your account to load.');
+    const book=findBook(key),version=generation;if(!book)throw Error('Book unavailable. Search again.');
+    const {data,error}=await client.rpc('save_book_to_list',{p_metadata:book,p_work_key:bookKey(book)});
+    if(error)throw error;if(version!==generation)throw Error('Your account changed. Sign in again.');
+    if(!data?.book||!data?.entry)throw Error('The server did not confirm the save.');
+    books=[data.book,...books.filter(b=>b.id!==data.book.id)];render();return data.entry;
+  }
   const workLoads=new Map();
   // A shared URL can name a book which has not been saved to our catalogue yet.
   // Resolve public metadata only; selecting or opening a URL never saves a rating.
@@ -512,7 +520,7 @@
     });
     render();
   }
-  window.CultureBooks={init,setSession,listBook:key=>findBook(key),normaliseBook,validRating,rankBooks,
+  window.CultureBooks={saveToList,init,setSession,listBook:key=>findBook(key),normaliseBook,validRating,rankBooks,
     route:{render,switchTab,closeEditor,choose,ensureWork,needsHydration:()=>!!(selected&&!editorHydrated&&!loading),has:id=>!!findBook(id),title:()=>selected?.title,
       awardCategories:()=>awardBrowser?.configureCategories(),renderAwards:()=>awardBrowser?.render(),getVisible:()=>visible,setVisible:n=>{visible=n;render();},search:()=>search({preventDefault(){}})}
   };
