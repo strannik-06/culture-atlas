@@ -74,7 +74,7 @@
     return [...searchVariants(query).map(text=>({params:{q:'title_suggest:'+quote(text),...(author?{author}: {})},text})),{params:{q:query,...(author?{author}: {})},text:query}];
   }
   let client, user=null, generation=0, books=[], progress=new Map(), results=[], selected=null;
-  let editorHydrated=false, readings=[], importDraft=null, importing=false, editing=false;
+  let editorHydrated=false, importDraft=null, importing=false, editing=false;
   const descriptions=new Map();let detailSequence=0;
   let awardBrowser;
   let indexedBooks,byWork=new Map(),catalogueCache=[];
@@ -107,7 +107,25 @@
     const date=new Date(r.read_date+'T12:00:00Z');
     return date.toLocaleDateString('en-GB',{timeZone:'UTC',year:'numeric',month:'long',...(r.read_date_precision==='day'?{day:'numeric'}:{})});
   }
-  function historyFor(book) {return readings.filter(r=>r.book_id===book.id).sort((a,b)=>(b.read_year||0)-(a.read_year||0)||String(b.read_date||'').localeCompare(a.read_date||''));}
+  const readingHistory=new Map();
+  function historyFor(book) {return [...(readingHistory.get(book.id)?.rows||[])].sort((a,b)=>(b.read_year||0)-(a.read_year||0)||String(b.read_date||'').localeCompare(a.read_date||''));}
+  function paintHistory(book,sequence){
+    if(sequence!==detailSequence||selected?.id!==book.id)return;
+    const state=readingHistory.get(book.id),el=$('book-reading-history');if(!el)return;
+    if(state?.error){el.innerHTML='<p role="status">Reading history could not load.</p><button type="button" class="action">Retry history</button>';el.querySelector('button').onclick=()=>{readingHistory.delete(book.id);loadHistory(book,sequence);};return;}
+    if(state?.pending){el.innerHTML='<p role="status">Loading reading history…</p>';return;}
+    $('book-reading-history').innerHTML=historyFor(book).length?'<h3>Reading history</h3><p class="meta">Imported readings are preserved when you edit your current rating.</p><ul>'+historyFor(book).map(r=>`<li>${escape(readingDate(r))} · ${escape(r.rating)}/10 · ${escape(formats[r.reading_format])}${r.notes?`<p class="book-notes">${escape(r.notes)}</p>`:''}</li>`).join('')+'</ul>':'';
+  }
+  function loadHistory(book,sequence){
+    if(!user||!client||!book.id){$('book-reading-history').replaceChildren();return;}
+    const owner=user.id,version=generation;
+    let state=readingHistory.get(book.id);
+    if(!state){state={pending:true,rows:[]};readingHistory.set(book.id,state);
+      state.promise=(async()=>{try{const rows=[];for(let offset=0;;offset+=500){const {data,error}=await client.from('book_readings').select('book_id,source_key,rating,reading_format,notes,read_date,read_date_precision,read_year,read_year_end,started_date').eq('user_id',owner).eq('book_id',book.id).order('source_key').range(offset,offset+499);if(version!==generation||user?.id!==owner)return;if(error)throw error;rows.push(...data);if(data.length<500)break;}state.rows=rows;}catch(error){if(version!==generation)return;state.error=true;}finally{if(version===generation)state.pending=false;}})();
+    }
+    paintHistory(book,sequence);
+    state.promise?.then(()=>{if(version===generation&&user?.id===owner)paintHistory(book,sequence);});
+  }
   function resetImport() {importDraft=null;$('book-import-file').value='';$('book-import-preview').replaceChildren();$('book-import-apply').hidden=true;message('book-import-status','');}
 
   let searchController, searchSequence=0, saving=false, loading=false, activeTab='ratings', visible=48;
@@ -253,7 +271,7 @@
     $('book-detail-summary').innerHTML=`<div class="film-detail-layout"><div>${cover?`<img class="film-detail-poster" src="${escape(cover)}" alt="Cover of ${escape(selected.title)}">`:'<div class="detail-poster-empty">Cover unavailable</div>'}</div><div><h3>Synopsis</h3><p id="book-synopsis">${escape(descriptions.get(workId)||selected.description||'Synopsis unavailable.')}</p><h3>Awards</h3>${bookAwardsMarkup(selected)||'<p class="meta">No recorded awards in the loaded editions.</p>'}<h3>Website ratings & links</h3>${(window.CultureBookAwards?.find(selected)?.sources||[]).slice(0,1).map(url=>`<p class="meta"><a href="${escape(url)}" target="_blank" rel="noopener noreferrer">Award book information ↗</a></p>`).join('')}${goodreadsMarkup(selected)}${selected.open_library_work_id?`<p class="meta"><a href="https://openlibrary.org${escape(selected.open_library_work_id)}" target="_blank" rel="noopener noreferrer">Open Library ↗</a></p>`:''}<h3>Critics’ reviews</h3><p class="meta">No verified critic reviews yet.</p></div></div>`;
     authorNode.textContent=selected.authors.join(', ')+' · '+(selected.first_publish_year??'Year unavailable');
     $('book-detail-summary').querySelector('.film-detail-layout>div:last-child').prepend(titleNode,authorNode);
-    $('book-reading-history').innerHTML=historyFor(selected).length?'<h3>Reading history</h3><p class="meta">Imported readings are preserved when you edit your current rating.</p><ul>'+historyFor(selected).map(r=>`<li>${escape(readingDate(r))} · ${escape(r.rating)}/10 · ${escape(formats[r.reading_format])}${r.notes?`<p class="book-notes">${escape(r.notes)}</p>`:''}</li>`).join('')+'</ul>':'';
+    loadHistory(selected,sequence);
     message('book-save-status',user?'': 'Sign in using Account to save this book.');
     $('book-editor').hidden=false;
     if(!$('book-editor').open)$('book-editor').showModal();
@@ -327,11 +345,11 @@
   async function setSession(nextUser) {
     const changed=user?.id!==nextUser?.id;
     user=nextUser||null; const version=++generation;
-    loading=true;
+    loading=true;readingHistory.clear();
     if(changed) {
       if(!saving)closeEditor();else{$('book-editor').close();detailSequence++;}
       closeBookStars();
-      progress=new Map(); readings=[];selected=null;resetImport();$('book-reading-history').replaceChildren();
+      progress=new Map();selected=null;resetImport();$('book-reading-history').replaceChildren();
       $('book-editor').hidden=true; $('book-rating-form').reset(); $('book-rating').value=''; message('book-save-status','');
       updateRatingTrigger();
     }
@@ -339,9 +357,9 @@
     if(!client) { loading=false;message('book-sync-status','Cloud connection is unavailable. Reload the page to try again.');return; }
     message('book-sync-status','Loading books…');
     try {
-      const [catalogue,ratings,history]=await Promise.all([readAll('books','id,source_key,open_library_work_id,title,authors,first_publish_year,cover_id,work_scope,cover_url,goodreads_id,goodreads_rating,goodreads_ratings_count,goodreads_observed_on,goodreads_rating_source,goodreads_source_url'),user?readAll('book_progress','book_id,rating,reading_format,notes,updated_at',user.id):Promise.resolve([]),user?readAll('book_readings','book_id,source_key,rating,reading_format,notes,read_date,read_date_precision,read_year,read_year_end,started_date',user.id):Promise.resolve([])]);
+      const [catalogue,ratings]=await Promise.all([readAll('books','id,source_key,open_library_work_id,title,authors,first_publish_year,cover_id,work_scope,cover_url,goodreads_id,goodreads_rating,goodreads_ratings_count,goodreads_observed_on,goodreads_rating_source,goodreads_source_url'),user?readAll('book_progress','book_id,rating,reading_format,notes,updated_at',user.id):Promise.resolve([])]);
       if(version!==generation) return;
-      books=catalogue;readings=history;
+      books=catalogue;
       const byId=new Map(books.map(b=>[b.id,bookKey(b)]));
       progress=new Map(ratings.filter(p=>byId.has(p.book_id)).map(p=>[byId.get(p.book_id),p]));
       message('book-sync-status',user?'':'Sign in using Account to save ratings, reading format and notes.');
