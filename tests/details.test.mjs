@@ -10,7 +10,7 @@ async function setup(options={}){
  const w=new Window({url:'https://example.test/',settings:{disableCSSFileLoading:true,disableJavaScriptFileLoading:true,enableJavaScriptEvaluation:true,suppressInsecureJavaScriptEnvironmentWarning:true}});
  w.document.write(markup.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,''));w.HTMLElement.prototype.scrollIntoView=()=>{};
  w.HTMLDialogElement.prototype.showModal=function(){this.open=true;};w.HTMLDialogElement.prototype.close=function(){this.open=false;this.dispatchEvent(new w.Event('close'));};
- const state={user:{id:'owner-a',email:'reader@example.test'},fail:false,writes:[],film:{film_id:229,watched:true,rating:8,notes:'<em>My private note</em>',watched_date:'2026-09-01',updated_at:'2026-10-22T10:00:00Z'}};
+ const state={user:{id:'owner-a',email:'reader@example.test'},fail:false,writes:[],film:{film_id:229,watched:true,rating:8,notes:'<em>My private note</em>',watched_date:'2026-09-01',updated_at:'2026-10-22T10:00:00Z'}};if(options.film)Object.assign(state.film,options.film);
  const client={auth:{onAuthStateChange(_callback){state.authCallback=_callback;},getSession:async()=>({data:{session:state.user?{user:state.user}:null}})},from(table){let mutation,values,filters={};
   const q={select(){return q;},eq(k,v){filters[k]=v;return q;},in(){return q;},order(){return q;},range(){return q;},upsert(v){mutation='upsert';values=v;return q;},update(v){mutation='update';values=v;return q;},insert(v){mutation='insert';values=v;return q;},single(){return q;},maybeSingle(){return q;},then(resolve,reject){
    if(mutation){state.writes.push({table,mutation,values});if(state.fail)return Promise.resolve({error:{message:'Save unavailable'}}).then(resolve,reject);state.film={...state.film,...values};return Promise.resolve({data:state.film}).then(resolve,reject);}
@@ -54,10 +54,13 @@ test('History errors retry and late private history is ignored after sign-out',a
 test('Late full film metadata hydrates public details without changing drafts or a different film',async()=>{let finish;const a=await setup({filmDetails:()=>new Promise(r=>finish=r)});try{a.w.CultureRouter.openFilm(229);a.$('film-detail-edit').click();a.$('film-detail-notes').value='Draft to preserve';const file=a.w.CULTURE_FILM_DETAIL_FILES[2],data=JSON.parse(await readFile(new URL('assets/film-details/'+file,root),'utf8'));finish({ok:true,json:async()=>data});await tick();assert.equal(a.$('film-detail-notes').value,'Draft to preserve');assert.equal(a.$('film-detail-edit').textContent,'Save');assert.ok(a.$('film-detail-content').querySelector('[data-film-public]').textContent.includes(data.films[229].overview));a.w.CultureRouter.openFilm(1);await tick();a.w.CultureRouter.openFilm(2);finish({ok:true,json:async()=>JSON.parse(await readFile(new URL('assets/film-details/'+a.w.CULTURE_FILM_DETAIL_FILES[0],root),'utf8'))});await tick();assert.match(a.$('film-detail-content').textContent,/Sentimental Value/);assert.doesNotMatch(a.$('film-detail-content').textContent,/Draft to preserve/);}finally{await a.close()}});
 
 test('Film quick ratings send a date for first ratings and preserve known and unknown dates on edits',async()=>{
- const a=await setup();try{
-  a.w.eval('progress={};activeFilm=1;filmRatingDraft=false;commitRating(8)');await tick();
-  assert.match(a.state.writes.at(-1).values.watched_date,/^\d{4}-\d{2}-\d{2}$/);
-  a.w.eval("progress[1]={rating:8,watched:true,watched_date:'2024-03-02'};activeFilm=1;commitRating(9)");await tick();assert.equal(a.state.writes.at(-1).values.watched_date,'2024-03-02');
-  a.w.eval('progress[1]={rating:8,watched:true,watched_date:null};activeFilm=1;commitRating(9)');await tick();assert.equal(a.state.writes.at(-1).values.watched_date,null);
+ for(const [rating,date] of [[null,null],[8,'2024-03-02'],[8,null]]){
+ const a=await setup({film:{rating,watched_date:date}});try{
+  a.w.CultureRouter.navigate({section:'films',view:'catalogue',params:{q:'Dreams'}});
+  a.$('ratings-grid').querySelector('[data-open-stars="229"]').click();
+  const picker=a.w.document.body.querySelector(':scope > .star-picker');picker.querySelector('[data-index="8"]').click();picker.querySelector('.rating-save').click();await tick();
+  const saved=a.state.writes.at(-1).values.watched_date;
+  if(rating===null)assert.match(saved,/^\d{4}-\d{2}-\d{2}$/);else assert.equal(saved,date);
  }finally{await a.close();}
+ }
 });
