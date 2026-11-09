@@ -1,7 +1,7 @@
 /* Public navigation state only. No ratings, notes, credentials or drafts in URLs. */
 (() => {
  'use strict';
- const defaults={films:'top100',tv:'catalogue',books:'ratings'};
+ const defaults={films:'top100',tv:'catalogue',books:'catalogue'};
  const views={films:['top100','awards','ratings','watchlist','catalogue','search'],tv:['catalogue','ratings','watchlist','awards','search'],books:['ratings','watchlist','awards','catalogue','search']};
  const fields={
   'films/top100':{q:['search',''],year:['year','2025'],tier:['tier',''],genre:['genre',''],status:['status','']},
@@ -81,7 +81,10 @@
    error.hidden=exists;error.textContent=exists?'':'This item is not available in the loaded catalogue. It may still be loading; try refreshing or return to the catalogue.';
    entityShown=exists?key:null;
   }
+  function publicRoute(r){return window.CultureLists?.sessionReady?.()&&!window.CultureLists.canRate()&&['ratings','watchlist','statistics'].includes(r.view)?{...r,view:'catalogue',params:{}}:r;}
   function apply(r){
+   const allowed=publicRoute(r);if(allowed!==r){r=allowed;history.replaceState({...history.state,atlas:true},'',format(r));lastLocation=location.href;}
+
    applying=true;
    try{
     const previous=current;current=r;error.hidden=true;
@@ -155,7 +158,7 @@
    closeDetail:kind=>{if(!applying&&current?.entity&&{film:'films',tv:'tv',book:'books'}[kind]===current.section)closeOverlay();},
    closeSearch:()=>{if(!applying&&current?.view==='search'&&current.section!=='books')closeOverlay();},
    searchChanged:body=>{if(applying||current?.view!=='search')return;const params=body.mode==='director'?{director:String(body.person_id),...(body.year?{year:String(body.year)}:{})}:{q:body.query||''};const r={...current,params};history.replaceState({...history.state,atlas:true},'',format(r));current=parse(location.hash);lastLocation=location.href;},
-   refresh:()=>{if(refreshQueued)return;refreshQueued=true;queueMicrotask(()=>{refreshQueued=false;if(!current||authPending)return;applying=true;try{if(current.section==='films'&&['ratings','watchlist','catalogue'].includes(current.view)){app.setPage(Number(current.params.page)||1);app.renderRatings();}showEntity(current,current.section==='films');if(current.view==='search'&&current.section!=='books')app.media.route.restore(current.params);}finally{applying=false;}});},
+   refresh:()=>{if(refreshQueued)return;refreshQueued=true;queueMicrotask(()=>{refreshQueued=false;if(!current||authPending)return;if(publicRoute(current)!==current){apply(current);return;}applying=true;try{if(current.section==='films'&&['ratings','watchlist','catalogue'].includes(current.view)){app.setPage(Number(current.params.page)||1);app.renderRatings();}showEntity(current,current.section==='films');if(current.view==='search'&&current.section!=='books')app.media.route.restore(current.params);}finally{applying=false;}});},
    authRedirect:()=>{try{sessionStorage.setItem('culture-atlas:return-route',location.hash);}catch{}return location.origin+location.pathname;},
    authReady:()=>{if(!authPending)return;authPending=false;let hash;try{hash=sessionStorage.getItem('culture-atlas:return-route');sessionStorage.removeItem('culture-atlas:return-route');}catch{}const route=parse(hash)||{section:'films',view:'top100'};history.replaceState({atlas:true},'',format(route));lastLocation=location.href;apply(parse(location.hash));},
    get current(){return current;},get applying(){return applying;}
