@@ -107,12 +107,13 @@
     quickPicker.querySelectorAll('.star-choice').forEach((b,i)=>b.querySelector('.star-fill').style.width=`${Math.max(0,Math.min(1,(quickState.value||0)-i))*100}%`);quickPicker.querySelector('.rating-preview').textContent=quickState.value?quickState.value.toFixed(1)+' / 10':'Not rated';
     const r=trigger.getBoundingClientRect();quickState.anchor=trigger;quickState.anchorTop=r.top;const height=quickPicker.offsetHeight,width=Math.min(300,innerWidth-20);quickPicker.style.left=Math.max(10,Math.min(innerWidth-width-10,r.left))+'px';quickPicker.style.top=Math.max(10,Math.min(innerHeight-height-10,r.top>=height+12?r.top-height-8:r.bottom+8))+'px';
   }
+  function localWatchDate(){const d=new Date();return [d.getFullYear(),String(d.getMonth()+1).padStart(2,'0'),String(d.getDate()).padStart(2,'0')].join('-');}
   async function saveQuick(){
     const draft=quickState;if(!draft||draft.saving||!validRating(draft.value)||draft.value===draft.original)return;
     draft.saving=true;quickPicker.querySelectorAll('button').forEach(b=>b.disabled=true);quickPicker.querySelector('.rating-popup-status').textContent='Saving…';
     try{await checkSession(draft.generation);if(user.id!==draft.owner)throw Error('Your account changed. Reopen the rating popup.');
       const old=draft.old;
-      const {data,error}=await client.rpc('save_tv_rating',{p_work_key:draft.key,p_rating:draft.value,p_scope:old?.rating_scope||'whole_work',p_notes:old?.notes||'',p_watched_date:old?.watched_date||null,p_expected_updated_at:old?.updated_at||null});if(error)throw error;
+      const {data,error}=await client.rpc('save_tv_rating',{p_work_key:draft.key,p_rating:draft.value,p_scope:old?.rating_scope||'whole_work',p_notes:old?.notes||'',p_watched_date:old?.rating?old.watched_date??null:localWatchDate(),p_expected_updated_at:old?.updated_at||null});if(error)throw error;
       if(generation!==draft.generation)return;await window.CultureLists?.rated('tv',draft.key,draft.owner);if(generation!==draft.generation)return;rows.set(draft.key,data);draft.saving=false;closeQuick();render();if(current&&!editing){renderDetails();editorVersion=rows.get(current.id)?.updated_at||null;}message('TV rating saved to your account.');
     }catch(error){if(quickState===draft)quickPicker.querySelector('.rating-popup-status').textContent=error.message||'Could not save rating.';}
     finally{draft.saving=false;if(quickPicker)quickPicker.querySelectorAll('button').forEach(b=>b.disabled=false);}
@@ -208,7 +209,7 @@
     $('tv-target-label').hidden=targets.length<2;
     $('tv-target').innerHTML=targets.map(t=>`<option value="${escape(t.id)}">${t.series_kind==='season'?'Season '+t.season_number:'Whole series'}</option>`).join('');$('tv-target').value=w.id;
     $('tv-scope').querySelector('[value="whole_work"]').textContent=wholeScope(w);
-    const p=rows.get(key);editorVersion=p?.updated_at||null;$('tv-editor').hidden=false;$('tv-selected-title').textContent=w.title;$('tv-scope').value=p?.rating_scope||(w.series_kind==='season'?'whole_work':'unspecified');$('tv-notes').value=p?.notes||'';$('tv-date').value=p?.watched_date||'';setRating(Number(p?.rating)||null);$('tv-remove').hidden=!p;$('tv-editor-status').textContent='';if(!$('tv-editor').open)$('tv-editor').showModal();renderDetails();editMode(false);
+    const p=rows.get(key);editorVersion=p?.updated_at||null;$('tv-editor').hidden=false;$('tv-selected-title').textContent=w.title;$('tv-scope').value=p?.rating_scope||(w.series_kind==='season'?'whole_work':'unspecified');$('tv-notes').value=p?.notes||'';$('tv-date').value=p?.rating?(p.watched_date||''):localWatchDate();setRating(Number(p?.rating)||null);$('tv-remove').hidden=!p;$('tv-editor-status').textContent='';if(!$('tv-editor').open)$('tv-editor').showModal();renderDetails();editMode(false);
     if(user&&w.tmdb_id&&!detailMetadata.has(key)&&window.CultureMedia?.details){const version=generation;detailMetadata.set(key,true);window.CultureMedia.details(w.tmdb_media_type==='movie'?'movie':'tv',w.tmdb_id,w.series_kind==='season'?w.season_number:null).then(data=>{if(version!==generation)return;if(data.metadata?.overview)w.overview=data.metadata.overview;if(Array.isArray(data.metadata?.cast))w.cast=data.metadata.cast;if(typeof data.metadata?.tmdb_rating==='number')w.tmdb_rating=data.metadata.tmdb_rating;render();if(current?.id===key)renderDetails();}).catch(()=>{detailMetadata.delete(key);});}
     for(const el of $('tv-rating-form').elements)el.disabled=busy||loading||!ready||!user;
     if(!user)$('tv-editor-status').textContent='Sign in using Account to rate this work.';
