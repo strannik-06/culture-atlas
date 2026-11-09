@@ -334,7 +334,7 @@ test('Prepared import UI previews before applying, supports local books and clea
     assert.equal($('book-editor').open,true);assert.match($('book-reading-history').textContent,/Loading reading history/);await flush();assert.match($('book-reading-history').textContent,/July 2022/);assert.match($('book-reading-history').textContent,/<Private historical note>/);
     assert.equal($('book-reading-history').querySelector('private'),null);
     $('book-rating-form').dispatchEvent(new window.Event('submit',{cancelable:true}));await flush();
-    assert.equal(state.calls.at(-1).name,'update_book_rating');assert.equal(state.calls.at(-1).payload.p_book_id,99);
+    assert.equal(state.calls.at(-1).name,'save_book_review');assert.equal(state.calls.at(-1).payload.p_metadata.id,99);
     await window.CultureBooks.setSession(null);
     assert.equal($('book-reading-history').textContent,'');assert.equal($('book-import-preview').textContent,'');
     assert.equal($('book-import-apply').hidden,true);
@@ -369,10 +369,10 @@ test('Goodreads manual fallback selects before saving and uses the shared star, 
   $('book-rating').value='8.5';$('book-format').value='audio';$('book-notes').value='My note';
   client.rpc=async(name,payload)=>{state.calls.push({name,payload});return {data:{book:{id:99,...payload.p_metadata},progress:{book_id:99,rating:payload.p_rating,reading_format:payload.p_format,notes:payload.p_notes}}};};
   submit('book-rating-form');await flush();
-  assert.equal(state.calls[0].name,'save_goodreads_book');assert.equal(state.calls[0].payload.p_metadata.goodreads_id,'222519102');assert.equal(state.calls[0].payload.p_notes,'My note');
+  assert.equal(state.calls[0].name,'save_book_review');assert.equal(state.calls[0].payload.p_metadata.goodreads_id,'222519102');assert.equal(state.calls[0].payload.p_notes,'My note');assert.match(state.calls[0].payload.p_read_date,/^\d{4}-\d{2}-\d{2}$/);
   assert.match($('book-ratings-grid').textContent,/8.5\/10/);assert.equal($('book-ratings-grid').querySelector('h3 a').getAttribute('href'),'#/books/local-99');
   $('book-goodreads-url').value='https://www.goodreads.com/book/show/333';submit('book-goodreads-form');
   assert.equal($('book-selected-title').textContent,'New book');assert.match($('book-goodreads-status').textContent,/already in the catalogue/);
-  $('book-ratings-grid').querySelector('button').click();submit('book-rating-form');await flush();assert.equal(state.calls.at(-1).name,'update_book_rating');
+  $('book-ratings-grid').querySelector('button').click();submit('book-rating-form');await flush();assert.equal(state.calls.at(-1).name,'save_book_review');
  }finally{await window.happyDOM.close();}
 });

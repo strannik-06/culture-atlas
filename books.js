@@ -114,7 +114,7 @@
     const state=readingHistory.get(book.id),el=$('book-reading-history');if(!el)return;
     if(state?.error){el.innerHTML='<p role="status">Reading history could not load.</p><button type="button" class="action">Retry history</button>';el.querySelector('button').onclick=()=>{readingHistory.delete(book.id);loadHistory(book,sequence);};return;}
     if(state?.pending){el.innerHTML='<p role="status">Loading reading history…</p>';return;}
-    $('book-reading-history').innerHTML=historyFor(book).length?'<h3>Reading history</h3><p class="meta">Imported readings are preserved when you edit your current rating.</p><ul>'+historyFor(book).map(r=>`<li>${escape(readingDate(r))} · ${escape(r.rating)}/10 · ${escape(formats[r.reading_format])}${r.notes?`<p class="book-notes">${escape(r.notes)}</p>`:''}</li>`).join('')+'</ul>':'';
+    $('book-reading-history').innerHTML=historyFor(book).length?'<h3>Reading history</h3><p class="meta">Your current review uses the same reading date. Earlier rereads remain here.</p><ul>'+historyFor(book).map(r=>`<li>${escape(readingDate(r))} · ${escape(r.rating)}/10 · ${escape(formats[r.reading_format])}${r.notes?`<p class="book-notes">${escape(r.notes)}</p>`:''}</li>`).join('')+'</ul>':'';
   }
   function loadHistory(book,sequence){
     if(!user||!client||!book.id){$('book-reading-history').replaceChildren();return;}
@@ -264,8 +264,8 @@
     $('book-rating').value=p?String(p.rating):'';
     updateRatingTrigger();
     $('book-format').value=p?.reading_format||'';
-    $('book-notes').value=p?.notes||'';
-    $('book-detail-personal').innerHTML=`<h3>Your rating</h3><p class="detail-rating">${p?'★ '+Number(p.rating).toFixed(1)+'/10':'Not rated yet'}</p><p class="meta">Reading format: ${escape(formats[p?.reading_format]||formats.unknown)}</p><h3>Your notes</h3><p class="detail-notes">${escape(p?.notes||'No notes yet.')}</p>`;
+    $('book-notes').value=p?.notes||'';const now=new Date();$('book-read-date').value=p?(p.read_date||''):[now.getFullYear(),String(now.getMonth()+1).padStart(2,'0'),String(now.getDate()).padStart(2,'0')].join('-');
+    $('book-detail-personal').innerHTML=`<h3>Your rating</h3><p class="detail-rating">${p?'★ '+Number(p.rating).toFixed(1)+'/10':'Not rated yet'}</p><p class="meta">Reading format: ${escape(formats[p?.reading_format]||formats.unknown)}</p>${p?.read_date?`<p class="meta">Read: ${escape(p.read_date)}</p>`:''}<h3>Your notes</h3><p class="detail-notes">${escape(p?.notes||'No notes yet.')}</p>`;
     const cover=bookCover(selected,'L');
     const titleNode=$('book-selected-title'),authorNode=$('book-selected-author');
     $('book-detail-summary').innerHTML=`<div class="film-detail-layout"><div>${cover?`<img class="film-detail-poster" src="${escape(cover)}" alt="Cover of ${escape(selected.title)}">`:'<div class="detail-poster-empty">Cover unavailable</div>'}</div><div><h3>Synopsis</h3><p id="book-synopsis">${escape(descriptions.get(workId)||selected.description||'Synopsis unavailable.')}</p><h3>Awards</h3>${bookAwardsMarkup(selected)||'<p class="meta">No recorded awards in the loaded editions.</p>'}<h3>Website ratings & links</h3>${(window.CultureBookAwards?.find(selected)?.sources||[]).slice(0,1).map(url=>`<p class="meta"><a href="${escape(url)}" target="_blank" rel="noopener noreferrer">Award book information ↗</a></p>`).join('')}${goodreadsMarkup(selected)}${selected.open_library_work_id?`<p class="meta"><a href="https://openlibrary.org${escape(selected.open_library_work_id)}" target="_blank" rel="noopener noreferrer">Open Library ↗</a></p>`:''}<h3>Critics’ reviews</h3><p class="meta">No verified critic reviews yet.</p></div></div>`;
@@ -358,7 +358,7 @@
     if(!client) { loading=false;message('book-sync-status','Cloud connection is unavailable. Reload the page to try again.');return; }
     message('book-sync-status','Loading books…');
     try {
-      const [catalogue,ratings]=await Promise.all([readAll('books','id,source_key,open_library_work_id,title,authors,first_publish_year,cover_id,work_scope,cover_url,goodreads_id,goodreads_rating,goodreads_ratings_count,goodreads_observed_on,goodreads_rating_source,goodreads_source_url'),user?readAll('book_progress','book_id,rating,reading_format,notes,updated_at',user.id):Promise.resolve([])]);
+      const [catalogue,ratings]=await Promise.all([readAll('books','id,source_key,open_library_work_id,title,authors,first_publish_year,cover_id,work_scope,cover_url,goodreads_id,goodreads_rating,goodreads_ratings_count,goodreads_observed_on,goodreads_rating_source,goodreads_source_url'),user?readAll('book_progress','book_id,rating,reading_format,notes,updated_at,read_date',user.id):Promise.resolve([])]);
       if(version!==generation) return;
       books=catalogue;
       const byId=new Map(books.map(b=>[b.id,bookKey(b)]));
@@ -383,11 +383,12 @@
     for(const el of $('book-rating-form').elements) el.disabled=true;
     message('book-save-status','Saving book and rating…');
     try {
-      const {data,error}=await client.rpc(!book.id&&book.goodreads_id?'save_goodreads_book':book.open_library_work_id?'save_book_rating':'update_book_rating',!book.id&&book.goodreads_id?{p_metadata:book,p_rating:rating,p_format:format,p_notes:notes}:book.open_library_work_id?{p_work_id:book.open_library_work_id,p_title:book.title,p_authors:book.authors,p_year:book.first_publish_year,p_cover_id:book.cover_id,p_rating:rating,p_format:format,p_notes:notes}:{p_book_id:book.id,p_rating:rating,p_format:format,p_notes:notes});
+      const {data,error}=await client.rpc('save_book_review',{p_metadata:book,p_rating:rating,p_format:format,p_notes:notes,p_read_date:$('book-read-date').value||null});
       if(version!==generation) return;
       if(error) throw error;
       if(!data?.book||!data?.progress) throw Error('The server did not confirm the save. Refresh your ratings before trying again.');
       await window.CultureLists?.rated('book',[bookKey(book),bookKey(data.book)],owner);if(version!==generation)return;
+      readingHistory.delete(data.book.id);
       books=[data.book,...books.filter(b=>b.id!==data.book.id)];
       progress.set(bookKey(data.book),data.progress);
       message('book-sync-status',`Saved “${data.book.title}” to the catalogue and your ratings.`);
