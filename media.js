@@ -10,7 +10,7 @@
  const status=s=>$('media-status').textContent=s;
  const alive=(turn,serial)=>turn===generation&&serial===request;
  async function call(body){
-  if(!user)throw Error('Sign in using the account menu to search and save.');
+  if(!user&&['save','watchlist'].includes(body.action))throw Error('Sign in using the account menu to save.');
   if(!client?.functions)throw Error('Search is unavailable. Reload the page and try again.');
   const {data,error}=await client.functions.invoke('media-search',{body});
   if(error){let message;try{message=(await error.context.json()).error;}catch{}throw Error(message||'Unable to complete this request. Please try again.');}
@@ -31,7 +31,7 @@
   if(window.CultureRouter?.openSearch(kind))return;
   type=kind;reset();$('media-search-form').reset();
   $('media-heading').textContent=kind==='movie'?'Find a film':'Find a TV series';$('media-query').placeholder=kind==='movie'?'Title or director, e.g. Dune 2021':'Series title and year…';
-  $('media-dialog').showModal();status(user?(kind==='movie'?'Search a title or director; add a release year if you like.':'Search a series title; add a release year if you like.'):'Sign in using the account menu to search and save.');$('media-query').focus();
+  $('media-dialog').showModal();status(kind==='movie'?'Search a title or director; add a release year if you like.':'Search a series title; add a release year if you like.');$('media-query').focus();
  }
  function capture(card){
   if(!card.draft)return;
@@ -84,6 +84,10 @@
   const credits=m.director||(m.creators||[]).map(x=>x.name).join(', ')||'Credits not listed';
   card.element.querySelector('[data-credit]').textContent=credits;
   card.element.querySelector('[data-title]').textContent=m.title;
+  if(!user){
+   const editor=card.element.querySelector('[data-editor]');editor.innerHTML='<p class="meta"></p><button type="button" class="action">Sign in to rate or save</button>';editor.querySelector('p').textContent=m.overview||'';editor.querySelector('button').onclick=()=>window.CultureLists?.signIn();
+   card.element.querySelector('[data-source]').href='https://www.themoviedb.org/'+type+'/'+card.id;notice(card,'');return;
+  }
   card.element.querySelector('[data-editor]').innerHTML=`${type==='tv'?`<label class="media-target">Rate<select data-season aria-label="Series or season for ${esc(m.title)}"><option value="">${d.scope==='unspecified'?'Series (scope not specified)':'Whole series'}</option>${seasons.map(s=>`<option value="${s.number}" ${season===s.number?'selected':''}>${esc(s.name)}${s.date?' · '+esc(s.date.slice(0,4)):''}</option>`).join('')}</select></label>`:''}<form class="media-rating-form"><fieldset><legend class="sr-only">Your rating for ${esc(m.title)}</legend><div class="media-quick-fields"><button data-watchlist type="button" class="action list-toggle"></button><button data-stars type="button" class="star-trigger" aria-label="Set personal rating for ${esc(m.title)}" aria-haspopup="dialog" aria-controls="media-star-picker" aria-expanded="false"></button><label>Watched<input data-date type="date" value="${esc(d.date||'')}" aria-label="Watched date for ${esc(m.title)}"></label><button data-save type="submit" class="action">${p?.rating?'Save changes':'Save rating'}</button></div><details class="media-notes"><summary>${p?.notes?'Notes (saved)':'Add notes'}</summary><label><span class="sr-only">Your notes for ${esc(m.title)}</span><textarea data-notes maxlength="10000" placeholder="Your thoughts…">${esc(d.notes)}</textarea></label></details></fieldset></form>`;
   card.element.querySelector('[data-source]').href='https://www.themoviedb.org/'+type+'/'+card.id+(season?'/season/'+season:'');
   const listButton=card.element.querySelector('[data-watchlist]');paintListButton(card,!!window.CultureLists?.has(card.data.existing?.work_type==='movie'?'film':'tv',card.data.existing?.work_key));listButton.onclick=()=>saveToList(card);
@@ -169,18 +173,18 @@
   client=c;hooks=callbacks;const dialog=document.createElement('dialog');dialog.id='media-dialog';dialog.setAttribute('aria-labelledby','media-heading');
   dialog.innerHTML='<button id="media-close" type="button" class="action">Close</button><h2 id="media-heading"></h2><form id="media-search-form" class="media-search-fields"><input id="media-query" type="search" required minlength="2" maxlength="200" placeholder="Title…" aria-label="Film, TV title or director"><button id="media-search-submit" type="submit" class="action">Search</button></form><p id="media-status" role="status" aria-live="polite"></p><div id="media-results"></div><button id="media-more" type="button" class="action" hidden>Show more results</button><p class="meta media-attribution"><a href="https://www.themoviedb.org" target="_blank" rel="noopener noreferrer"><img src="assets/tmdb-logo.svg" width="80" alt="TMDB"></a> This product uses the TMDB API but is not endorsed or certified by TMDB.</p>';
   document.body.append(dialog);initStars(dialog);
-  for(const[k,container,label]of [['movie','#cinema-area .film-subnav','Add film'],['tv','#tv-view .film-subnav','Add series']]){const b=document.createElement('button');b.type='button';b.className='film-subtab';b.dataset.mediaType=k;b.textContent=label;b.onclick=()=>open(k);document.querySelector(container)?.append(b);}
+  for(const[k,container,label]of [['movie','#cinema-area .film-subnav','Search films'],['tv','#tv-view .film-subnav','Search series']]){const b=document.createElement('button');b.type='button';b.className='film-subtab';b.dataset.mediaType=k;b.textContent=label;b.onclick=()=>open(k);const nav=document.querySelector(container);(nav?.querySelector('.nav-public')||nav)?.append(b);}
   $('media-close').onclick=()=>{if(window.CultureRouter)window.CultureRouter.closeSearch();else{dialog.close();reset();}};dialog.addEventListener('cancel',event=>{if(window.CultureRouter){event.preventDefault();window.CultureRouter.closeSearch();}else reset();});
   $('media-search-form').onsubmit=e=>{e.preventDefault();search({mode:'smart',query:$('media-query').value,page:1});};
   $('media-more').onclick=()=>search({...searchBody,page:page+1},true);
 
   if(client)loadCatalogue().catch(e=>console.warn(e.message));
  }
- function setSession(next){user=next;generation++;reset();status(user?'Ready to search.':'Sign in to search and save.');window.CultureRouter?.refresh();}
+ function setSession(next){user=next&&!next.is_anonymous?next:null;generation++;reset();status('Ready to search.');window.CultureRouter?.refresh();}
  window.CultureMedia={init,setSession,details:(type,id,season=null)=>call({action:'details',type,id,season}),route:{open,getType:()=>type,close:()=>{closeStars();$('media-dialog').close();reset();},
-  restore:params=>{const query=params.q||'',person=Number(params.director)||0;const signature=JSON.stringify([type,query,person,params.year||null]);
+  restore:params=>{if(window.CultureLists?.sessionReady&&!window.CultureLists.sessionReady())return;const query=params.q||'',person=Number(params.director)||0;const signature=JSON.stringify([type,query,person,params.year||null]);
    $('media-query').value=query;
-   if(user&&(query.length>=2||person)&&signature!==routeSignature){
+   if((query.length>=2||person)&&signature!==routeSignature){
     if(searchBusy)reset();
     search(person?{mode:'director',person_id:person,year:params.year||null,page:1}:{mode:'smart',query,page:1});
    }

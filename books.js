@@ -128,7 +128,7 @@
   }
   function resetImport() {importDraft=null;$('book-import-file').value='';$('book-import-preview').replaceChildren();$('book-import-apply').hidden=true;message('book-import-status','');}
 
-  let searchController, searchSequence=0, saving=false, loading=false, activeTab='ratings', visible=48;
+  let searchController, searchSequence=0, saving=false, loading=false, activeTab='catalogue', visible=48;
   const cache = new Map();
   let starPicker, starPreview=null;
   function paintBookStars(value) {
@@ -230,7 +230,7 @@
   function switchTab(tab) {
     activeTab=tab; visible=48;window.CultureLists?.render();
     const awards=tab==='awards';$('books-view').querySelector('.hero h1').textContent=awards?'Literary awards.':tab==='watchlist'?'My read list.':'Books worth keeping.';$('books-view').querySelector('.hero p').textContent=awards?'Explore shortlists, winners and the works of Nobel laureates. Your ratings follow each book across the atlas.':'Find your next catalogue entry, rate what you have read, and keep your reading notes in one place.';
-    $('book-sync-status').hidden=awards;$('books-view').querySelector('details.book-import').hidden=tab!=='search';
+    $('book-sync-status').hidden=awards;$('books-view').querySelector('details.book-import').hidden=tab!=='search'||!user;
     for (const el of document.querySelectorAll('[data-book-tab]')) {
       el.classList.toggle('active',el.dataset.bookTab===tab);
       el.setAttribute('aria-pressed',String(el.dataset.bookTab===tab));
@@ -343,6 +343,7 @@
     }
   }
   async function setSession(nextUser) {
+    $('book-goodreads-form').hidden=!nextUser||!!nextUser.is_anonymous;
     const changed=user?.id!==nextUser?.id;
     user=nextUser||null; const version=++generation;
     loading=true;readingHistory.clear();
@@ -483,7 +484,7 @@
     $('book-editor').addEventListener('scroll',()=>closeBookStars(),{passive:true});
     $('book-editor').addEventListener('error',event=>{if(event.target.tagName==='IMG')event.target.hidden=true;},true);
     $('book-goodreads-form').addEventListener('submit',event=>{
-      event.preventDefault();if(saving)return;
+      event.preventDefault();if(saving)return;if(!user){window.CultureLists?.signIn();return;}
       const url=$('book-goodreads-url').value.trim();
       const match=url.match(/^https:\/\/(?:www\.)?goodreads\.com\/(?:[a-z]{2}\/)?book\/show\/([1-9]\d{0,19})(?:[.\-/?#].*)?$/);
       const title=$('book-goodreads-title').value.trim(),author=$('book-goodreads-author').value.trim();
