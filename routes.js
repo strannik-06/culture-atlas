@@ -2,7 +2,7 @@
 (() => {
  'use strict';
  const defaults={films:'top100',tv:'catalogue',books:'catalogue'};
- const views={films:['top100','awards','ratings','watchlist','catalogue','search'],tv:['catalogue','ratings','watchlist','awards','search'],books:['ratings','watchlist','awards','catalogue','search']};
+ const views={films:['top100','awards','ratings','watchlist','statistics','catalogue','search'],tv:['catalogue','ratings','watchlist','awards','search'],books:['ratings','watchlist','awards','catalogue','search']};
  const fields={
   'films/top100':{q:['search',''],year:['year','2025'],tier:['tier',''],genre:['genre',''],status:['status','']},
   'films/awards':{event:['award-event',null],year:['award-year',null],category:['award-category','all'],result:['award-filter','all']},
@@ -68,7 +68,7 @@
   const schema=r=>fields[r.section+'/'+r.view]||{};
   function selectValue(el,value){if(el.tagName==='SELECT'&&![...el.options].some(o=>o.value===value))return;el.value=value;}
   function setFilters(r){for(const[k,[id,fallback]]of Object.entries(schema(r))){const el=$(id);if(!el)continue;if(r.view==='awards'&&['event','year'].includes(k)&&r.params[k]!==undefined&&![...el.options].some(o=>o.value===r.params[k])){const option=document.createElement('option');option.value=r.params[k];option.textContent=r.params[k];el.append(option);}const requested=r.params[k]??fallback??el.options[0]?.value??'';const numericCategory=r.view==='awards'&&k==='category'&&/^\d+$/.test(requested)?el.options[Number(requested)+1]?.value:undefined;selectValue(el,numericCategory??requested);if(k==='year'&&r.view==='awards'){if(r.section==='books')app.books.route.awardCategories();else if(r.section==='tv')app.tv.route.awardCategories();else app.awardCategories();}}}
-  function title(r){const name={films:'Films',tv:'TV Series',books:'Books'}[r.section];document.title='Culture Atlas · '+name+' · '+({top100:'Top 100',ratings:'My ratings',watchlist:r.section==='books'?'Read list':'Watch list',catalogue:'Catalogue',search:'Search',awards:'Awards'}[r.view]);}
+  function title(r){const name={films:'Films',tv:'TV Series',books:'Books'}[r.section];document.title='Culture Atlas · '+name+' · '+({top100:'Top 100',statistics:'Statistics',ratings:'My ratings',watchlist:r.section==='books'?'Read list':'Watch list',catalogue:'Catalogue',search:'Search',awards:'Awards'}[r.view]);}
   function showEntity(r,force=false){
    if(!r.entity)return;
    const hydrate=r.section==='tv'?app.tv.route.needsHydration():r.section==='books'?app.books.route.needsHydration():false;
