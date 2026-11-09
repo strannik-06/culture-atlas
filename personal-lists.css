@@ -2,3 +2,6 @@
 
 .nav-group{display:flex;align-items:center;gap:4px;flex-wrap:wrap}.nav-group-label{font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#777f92;padding:0 8px}.nav-personal{border-left:1px solid #303646;padding-left:12px;margin-left:auto}.nav-group[hidden],.nav-group [hidden]{display:none!important}.books-tabs .nav-group button{white-space:nowrap}body:not(.is-signed-in) [data-book-panel="ratings"],body:not(.is-signed-in) #book-watchlist-view,body:not(.is-signed-in) #tv-tools,body:not(.is-signed-in) .book-import{display:none!important}
 @media(max-width:600px){.nav-personal{margin-left:0;padding-left:0;border-left:0;width:100%;border-top:1px solid #303646}.nav-group-label{min-width:72px}}
+
+/* Keep section navigation below the wrapping main header, above scrolling cards. */
+.film-subnav{position:sticky;top:var(--atlas-header-height,73px);z-index:9;background:#10131c;isolation:isolate}header{z-index:10}html{scroll-padding-top:calc(var(--atlas-header-height,73px) + 80px)}
