@@ -17,14 +17,16 @@ export function createHandler(env, fetcher=fetch) {
   if(request.method==='OPTIONS')return new Response(null,{status:204,headers});
   if(request.method!=='POST')return respond({error:'Use POST'},405);
   try{
-   const authorization=request.headers.get('authorization')||'';
-   if(!authorization.startsWith('Bearer '))return respond({error:'Sign in to search and rate.'},401);
-   const auth=await fetcher(base+'/auth/v1/user',{headers:{apikey:anon,Authorization:authorization}});
-   if(!auth.ok)return respond({error:'Sign in again to continue.'},401);
-   const user=await auth.json();if(!user.id||user.is_anonymous)return respond({error:'Sign in again.'},401);
    const raw=await request.text();if(raw.length>30000)return respond({error:'Request too large'},413);
    const body=JSON.parse(raw),type=body.type;
    if(!['movie','tv'].includes(type)||!['search','details','save','watchlist'].includes(body.action))return respond({error:'Invalid request'},400);
+   const authorization=request.headers.get('authorization')||'';
+   let user=null;
+   if(authorization.startsWith('Bearer ')){
+    const auth=await fetcher(base+'/auth/v1/user',{headers:{apikey:anon,Authorization:authorization}});
+    if(auth.ok){const account=await auth.json();if(account.id&&!account.is_anonymous)user=account;}
+   }
+   if(!user&&['save','watchlist'].includes(body.action))return respond({error:'Sign in to save titles or ratings.'},401);
    const db=async(path,options={})=>{const r=await fetcher(base+'/rest/v1/'+path,{...options,headers:{apikey:service,Authorization:'Bearer '+service,'Content-Type':'application/json',...options.headers}});if(!r.ok){const err=await r.json().catch(()=>({}));throw new SafeError(err.code==='40001'?'This rating changed. Select the result again before saving.':'Unable to save or load the catalogue. Check the media migrations and try again.');}return r.json();};
    const tmdb=async(path,query={})=>{const token=env('TMDB_READ_ACCESS_TOKEN'),key=env('TMDB_API_KEY');if(!token&&!key)throw new SafeError('Film and TV search needs its TMDB server key configured.');const url=new URL('https://api.themoviedb.org/3/'+path);for(const[k,v]of Object.entries(query))url.searchParams.set(k,String(v));if(!token)url.searchParams.set('api_key',key);const r=await fetcher(url,{headers:token?{Authorization:'Bearer '+token}:{},signal:AbortSignal.timeout(15000)});if(!r.ok)throw new SafeError(r.status===429?'Search is busy. Try again shortly.':'TMDB could not load this title. Try again.');return r.json();};
    if(body.action==='search'){
@@ -106,7 +108,7 @@ export function createHandler(env, fetcher=fetch) {
    let links=await db('media_provider_links?select=work_key&provider_key=eq.'+encodeURIComponent(provider)),record=null;
    if(links.length)record=(await db('media_catalogue?select=*&work_key=eq.'+encodeURIComponent(links[0].work_key)))[0];
    if(!record&&!season&&parent.imdb_id){const matches=await db('media_catalogue?select=*&metadata->>imdb_id=eq.'+encodeURIComponent(parent.imdb_id)+'&order=is_static.desc,work_key.asc');record=matches.find(x=>!x.work_key.includes(':season:'));}
-   let progress=null;if(record){const table=record.work_type==='movie'?'film_progress':'tv_progress',column=record.work_type==='movie'?'film_id':'work_key',key=record.film_id||record.work_key;progress=(await db(table+'?select=*&user_id=eq.'+encodeURIComponent(user.id)+'&'+column+'=eq.'+encodeURIComponent(key)))[0]||null;}
+   let progress=null;if(record&&user){const table=record.work_type==='movie'?'film_progress':'tv_progress',column=record.work_type==='movie'?'film_id':'work_key',key=record.film_id||record.work_key;progress=(await db(table+'?select=*&user_id=eq.'+encodeURIComponent(user.id)+'&'+column+'=eq.'+encodeURIComponent(key)))[0]||null;}
    return respond({provider,metadata,seasons,existing:record,progress});
   }catch(error){return respond({error:error instanceof SyntaxError?'Invalid request':error instanceof SafeError?error.message:'Unable to complete this request. Please try again.'},400);}
  };
