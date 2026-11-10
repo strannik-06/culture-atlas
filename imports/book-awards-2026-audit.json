@@ -443,7 +443,7 @@
   "coverage": [
     {
       "event": "Booker Prize",
-      "status": "shortlist",
+      "status": "awarded",
       "books": 6,
       "categories": 1
     },
@@ -473,7 +473,7 @@
     },
     {
       "event": "Prix Goncourt",
-      "status": "second-selection",
+      "status": "awarded",
       "books": 8,
       "categories": 1
     }
