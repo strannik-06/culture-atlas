@@ -1133,9 +1133,9 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       "event": "Booker Prize",
       "year": 2026,
       "source": "https://thebookerprizes.com/the-booker-library/prize-years/2026",
-      "status": "shortlist",
-      "verified_on": "2026-10-23",
-      "note": "Six shortlisted novels. Winner to be announced on 9 November 2026.",
+      "status": "awarded",
+      "verified_on": "2026-11-10",
+      "note": "Winner announced on 9 November 2026. Six shortlisted novels.",
       "categories": [
         {
           "id": "shortlist",
@@ -1144,8 +1144,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
           "entries": [
             {
               "item_id": "the-end-of-everything-m-john-harrison",
-              "winner": false,
-              "label": "Shortlisted"
+              "winner": true,
+              "label": "Winner"
             },
             {
               "item_id": "the-disappearers-marlon-james",
@@ -1196,7 +1196,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
           "id": "john-of-john-douglas-stuart"
         }
       ],
-      "announcement_date": "2026-11-09"
+      "announcement_date": "2026-11-09",
+      "awardsSource": "https://thebookerprizes.com/media-centre/press-releases/the-end-of-everything-by-m-john-harrison-wins-the-booker-prize-2026"
     },
     {
       "event": "International Booker",
@@ -1812,9 +1813,9 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       "event": "Prix Goncourt",
       "year": 2026,
       "source": "https://www.academiegoncourt.com/home",
-      "status": "second-selection",
-      "verified_on": "2026-10-23",
-      "note": "Eight-book second selection announced on 6 October. Final four due 27 October; winner due 3 November 2026.",
+      "status": "awarded",
+      "verified_on": "2026-11-10",
+      "note": "Winner announced on 3 November 2026. The eight-book second selection is retained below; it is not the final shortlist.",
       "categories": [
         {
           "id": "second-selection",
@@ -1843,8 +1844,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
             },
             {
               "item_id": "linconnue-du-quai-de-javel-philippe-jaenada",
-              "winner": false,
-              "label": "Selected"
+              "winner": true,
+              "label": "Winner"
             },
             {
               "item_id": "choses-que-je-croyais-perdues-clementine-melois",
@@ -1896,7 +1897,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       "corroborating_sources": [
         "https://www.livreshebdo.fr/article/la-deuxieme-selection-du-prix-goncourt-2026",
         "https://www.gallimard.fr/actualites-entretiens/premieres-selections-des-prix-litteraires-2026"
-      ]
+      ],
+      "awardsSource": "https://www.academiegoncourt.com/prix-goncourt-2026"
     }
   ]
 };
