@@ -189,10 +189,10 @@
         {
           "label": "Ceremony",
           "start": "2026-11-09",
-          "source": "https://thebookerprizes.com/the-booker-library/prize-years/2026",
-          "scheduled": true
+          "source": "https://thebookerprizes.com/the-booker-library/prize-years/2026"
         }
-      ]
+      ],
+      "verified_on": "2026-11-10"
     },
     {
       "section": "books",
@@ -1037,10 +1037,10 @@
         {
           "label": "Winner announcement",
           "start": "2026-11-03",
-          "source": "https://www.academiegoncourt.com/calendrier-des-reunions",
-          "scheduled": true
+          "source": "https://www.academiegoncourt.com/calendrier-des-reunions"
         }
-      ]
+      ],
+      "verified_on": "2026-11-10"
     },
     {
       "section": "books",
@@ -3280,6 +3280,123 @@
           "start": "2005-02-10",
           "end": "2005-02-20",
           "source": "https://www.berlinale.de/en/archive/yearbooks/2005.html"
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Golden Globes",
+      "year": 2027,
+      "status": "scheduled",
+      "verified_on": "2026-11-10",
+      "note": "Nominations have not yet been announced. Ceremony edition 2027 honours work from 2026.",
+      "dates": [
+        {
+          "label": "Nominations",
+          "start": "2026-12-07",
+          "source": "https://goldenglobes.com/media-info/",
+          "scheduled": true
+        },
+        {
+          "label": "Ceremony",
+          "start": "2027-01-10",
+          "source": "https://goldenglobes.com/media-info/",
+          "scheduled": true
+        }
+      ]
+    },
+    {
+      "section": "tv",
+      "event": "Golden Globes",
+      "year": 2027,
+      "status": "scheduled",
+      "verified_on": "2026-11-10",
+      "note": "Nominations have not yet been announced. Ceremony edition 2027 honours work from 2026.",
+      "dates": [
+        {
+          "label": "Nominations",
+          "start": "2026-12-07",
+          "source": "https://goldenglobes.com/media-info/",
+          "scheduled": true
+        },
+        {
+          "label": "Ceremony",
+          "start": "2027-01-10",
+          "source": "https://goldenglobes.com/media-info/",
+          "scheduled": true
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Oscars",
+      "year": 2027,
+      "status": "scheduled",
+      "verified_on": "2026-11-10",
+      "note": "Nominations have not yet been announced. The 99th Oscars ceremony in 2027 honours films from 2026.",
+      "dates": [
+        {
+          "label": "Shortlists",
+          "start": "2026-12-15",
+          "source": "https://www.oscars.org/99th-oscars-and-academy-key-dates",
+          "scheduled": true
+        },
+        {
+          "label": "Nominations",
+          "start": "2027-01-21",
+          "source": "https://www.oscars.org/99th-oscars-and-academy-key-dates",
+          "scheduled": true
+        },
+        {
+          "label": "Ceremony",
+          "start": "2027-03-14",
+          "source": "https://www.oscars.org/99th-oscars-and-academy-key-dates",
+          "scheduled": true
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "BAFTA",
+      "year": 2027,
+      "status": "scheduled",
+      "verified_on": "2026-11-10",
+      "note": "Nominations have not yet been announced. Ceremony edition 2027; film eligibility follows BAFTA rules.",
+      "dates": [
+        {
+          "label": "Longlists",
+          "start": "2027-01-07",
+          "source": "https://www.bafta.org/media-centre/press-releases/2027-film-awards-opens-for-entries/",
+          "scheduled": true
+        },
+        {
+          "label": "Nominations",
+          "start": "2027-01-19",
+          "source": "https://www.bafta.org/media-centre/press-releases/2027-film-awards-opens-for-entries/",
+          "scheduled": true
+        },
+        {
+          "label": "Ceremony",
+          "start": "2027-02-21",
+          "source": "https://www.bafta.org/media-centre/press-releases/2027-film-awards-opens-for-entries/",
+          "scheduled": true
+        }
+      ]
+    },
+    {
+      "section": "films",
+      "event": "Berlinale",
+      "year": 2027,
+      "status": "scheduled",
+      "verified_on": "2026-11-10",
+      "note": "The 2027 festival dates are confirmed. Competition selections have not yet been announced.",
+      "dates": [
+        {
+          "label": "Festival",
+          "start": "2027-02-10",
+          "source": "https://www.berlinale.de/en/dates.html",
+          "scheduled": true,
+          "end": "2027-02-21"
         }
       ]
     }
