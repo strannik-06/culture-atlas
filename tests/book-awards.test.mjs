@@ -16,13 +16,13 @@ test('2026 book coverage is complete, sourced and honest about announced results
  assert.equal(data.events.find(e=>e.event==='International Booker').categories[0].entries.filter(r=>r.winner).length,1);
 });
 test('Book award tabs, stage labels, Nobel profile and shareable detail navigation survive refresh',async()=>{
- const a=await boot();try{const{w,$}=a;assert.equal($('book-award-tabs').querySelectorAll('a').length,6);assert.equal($('book-award-edition-title').textContent,'Booker Prize 2026');assert.match($('book-awards-event-details').textContent,/9 November/);assert.equal($('book-awards-grid').querySelectorAll('.award-winner').length,0);assert.equal($('book-more').hidden,true);
+ const a=await boot();try{const{w,$}=a;assert.equal($('book-award-tabs').querySelectorAll('a').length,6);assert.equal($('book-award-edition-title').textContent,'Booker Prize 2026');assert.match($('book-awards-event-details').textContent,/9 November/);assert.equal($('book-awards-grid').querySelectorAll('.award-winner').length,1);assert.equal($('book-more').hidden,true);
   $('book-award-tabs').querySelector('a[href*="International"]').click();assert.equal($('book-awards-grid').querySelectorAll('article').length,6);assert.equal($('book-awards-grid').querySelectorAll('.award-winner').length,1);assert.match($('book-awards-grid').querySelector('article').textContent,/Taiwan Travelogue/);assert.match($('book-awards-grid').textContent,/Lin King/);
   $('book-award-tabs').querySelector('a[href*="Nobel"]').click();assert.match($('book-award-intro').textContent,/Anne Carson/);assert.equal($('book-awards-grid').querySelectorAll('.award-winner').length,0);assert.match($('book-awards-event-details').textContent,/Anne Carson’s body of work/);
   const first=$('book-awards-grid').querySelector('article');first.querySelector('h3 a').click();assert.equal($('book-editor').open,true);assert.match(w.location.hash,/from=awards/);assert.match(w.location.hash,/event=Nobel/);
   const reload=await boot(w.location.hash);try{assert.equal(reload.$('book-editor').open,true);assert.equal(reload.$('book-award-edition-title').textContent,'Nobel Literature 2026');reload.$('book-detail-close').click();assert.equal(reload.$('book-editor').open,false);assert.match(reload.w.location.hash,/books\/awards/);}finally{await reload.close();}
   w.history.back();await tick();assert.equal($('book-editor').open,false);assert.equal($('book-award-edition-title').textContent,'Nobel Literature 2026');
-  w.CultureRouter.navigate({section:'books',view:'awards',params:{event:'Prix Goncourt',year:'2026'}});assert.equal($('book-awards-grid').querySelectorAll('article').length,8);assert.match($('book-awards-event-details').textContent,/27 October/);
+  w.CultureRouter.navigate({section:'books',view:'awards',params:{event:'Prix Goncourt',year:'2026'}});assert.equal($('book-awards-grid').querySelectorAll('article').length,8);assert.match($('book-awards-event-details').textContent,/3 November/);
   w.CultureRouter.navigate({section:'books',view:'awards',params:{event:'Booker Prize',year:'2010'}});assert.match($('book-awards-grid').textContent,/not been added/);
  }finally{await a.close();}
 });
