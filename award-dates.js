@@ -18,5 +18,5 @@
   if(!e)return edition.dates?`<span class="award-date-entry">${esc(edition.dates)}</span>`:'';
   return e.dates.map(d=>`<span class="award-date-entry"><span class="award-date-label">${d.scheduled?'Scheduled ':''}${esc(d.label)}:</span> <span>${range(d.start,d.end)}</span> <a class="award-date-source" href="${esc(d.source)}" target="_blank" rel="noopener noreferrer" aria-label="Date source: ${esc(edition.event)} ${edition.year}, ${esc(d.label)}">Source ↗</a></span>`).join('');
  }
- window.CultureAwardDates={render,range,find:(section,event,year)=>editions.get(key(section,event,year))};
+ window.CultureAwardDates={render,range,scheduled:section=>[...editions.values()].filter(e=>e.section===section&&e.status==='scheduled'),find:(section,event,year)=>editions.get(key(section,event,year))};
 })();
