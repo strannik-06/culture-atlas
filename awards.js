@@ -5,6 +5,7 @@
  const brands={Cannes:{icon:'cannes',title:'Cannes',prize:'Palme d’Or',main:/palme d.or/i},Venice:{icon:'venice',title:'Venice',prize:'Golden Lion',main:/golden lion/i},Berlinale:{icon:'berlinale',title:'Berlinale',prize:'Golden Bear',main:/golden bear/i},Oscars:{icon:'oscars',title:'Oscars'},BAFTA:{icon:'bafta',title:'BAFTA'},'Golden Globes':{icon:'globes',title:'Golden Globes'}};
  const slug=s=>s.normalize('NFKD').replace(/\p{M}/gu,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
  function categories(event){
+  if(event.status==='scheduled')return [];
   if(event.categories?.length)return event.categories;
   // Older editions only contain a main selection; prizes belong on its cards.
   return [{id:'main-competition',name:event.event==='Venice'?'Venezia Competition':'Main Competition',nomination_kind:'competition',entries:(event.films||[]).map(f=>({film_id:f.id,winner:!!f.awards?.length,prizes:f.awards||[],prize_rank:f.awards?.some(label=>brands[event.event]?.main?.test(label))?0:1}))}];
@@ -14,12 +15,17 @@
   return rows.map((row,index)=>({...row,index})).sort((a,b)=>Number(b.winner)-Number(a.winner)||(a.prize_rank??0)-(b.prize_rank??0)||a.index-b.index);
  }
  function create({events,renderCard,brands:customBrands,section='films',prefix='',getCategories=categories,getItems=e=>e.films,itemNoun='films',renderIntro=()=>''}){
+  // Calendar-only editions stay reachable until real nominations replace them.
+  events=[...events];
+  for(const e of window.CultureAwardDates?.scheduled(section)||[])if(!events.some(x=>x.event===e.event&&x.year===e.year))events.push({...e,source:e.dates[0].source,categories:[],films:[],books:[],works:[],section:section==='films'&&!brands[e.event]?.prize?'Major Film Categories':undefined});
   const awardBrands=customBrands||brands,$=id=>document.getElementById(prefix+id),names=Object.keys(awardBrands).filter(name=>events.some(e=>e.event===name));
   const url=(event,year,extra={})=>window.CultureRoutes.format({section,view:'awards',params:{event,year:String(year),...extra}});
   const years=name=>[...new Set(events.filter(e=>e.event===name).map(e=>e.year))].sort((a,b)=>b-a);
   function configure(){
    $('award-event').innerHTML=names.map(name=>`<option>${esc(name)}</option>`).join('');
    $('award-year').innerHTML=[...new Set(events.map(e=>e.year))].sort((a,b)=>b-a).map(year=>`<option value="${year}">${year}</option>`).join('');
+   $('award-year').dataset.awardYears=JSON.stringify(Object.fromEntries(names.map(name=>[name,years(name)])));
+   $('award-year').value=String(years($('award-event').value)[0]);
   }
   function configureCategories(){
    const event=events.find(e=>e.event===$('award-event').value&&String(e.year)===$('award-year').value),previous=$('award-category').value;
@@ -42,11 +48,11 @@
    dateLine.innerHTML=window.CultureAwardDates?.render(section,edition)||'';dateLine.hidden=!dateLine.innerHTML;
    const festival=section==='films'&&!!awardBrands[name].prize,groups=getCategories(edition),selected=$('award-category').value,winnersOnly=$('award-filter').value==='winners',byId=new Map(getItems(edition).map(f=>[f.id,f]));
    const shown=selected==='all'?groups:groups.filter((c,i)=>(c.id||String(i))===selected||String(i)===selected);
-   $('awards-count').textContent=edition.status==='not-held'?'No prize this year':`${getItems(edition).length} ${edition.item_noun||itemNoun} · ${groups.length} ${groups.length===1?(festival?'section':'category'):(festival?'sections':'categories')}`+(winnersOnly?' · Winners only':'');
+   $('awards-count').textContent=edition.status==='scheduled'?'Awaiting nominations':edition.status==='not-held'?'No prize this year':`${getItems(edition).length} ${edition.item_noun||itemNoun} · ${groups.length} ${groups.length===1?(festival?'section':'category'):(festival?'sections':'categories')}`+(winnersOnly?' · Winners only':'');
    $('awards-event-details').textContent=(!window.CultureAwardDates&&edition.dates?edition.dates+' · ':'')+(edition.note||(section==='books'?'Prize edition year; books may have been published earlier.':festival?'Festival selections, with prizes shown on each winning film.':'Ceremony year; films may have premiered in the previous year.'));
    if($('award-intro'))$('award-intro').innerHTML=renderIntro(edition);
    $('awards-source').innerHTML=`Official sources: <a href="${esc(edition.source)}" target="_blank" rel="noopener noreferrer">${section==='books'?'Award information':section==='tv'?'Nominees and results':edition.section==='Major Film Categories'?'Nominees and results':'Competition selection'}</a>`+(edition.awardsSource&&edition.awardsSource!==edition.source?` · <a href="${esc(edition.awardsSource)}" target="_blank" rel="noopener noreferrer">Prize results</a>`:'');
-   $('awards-grid').innerHTML=edition.status==='not-held'?`<p class="empty">${esc(edition.note)}</p>`:shown.map((c,i)=>{
+   $('awards-grid').innerHTML=edition.status==='scheduled'?`<p class="empty">${esc(edition.note)}</p>`:edition.status==='not-held'?`<p class="empty">${esc(edition.note)}</p>`:shown.map((c,i)=>{
     const rows=entries(c).filter(row=>!winnersOnly||row.winner);if(!rows.length)return '';
     const win=rows.filter(r=>r.winner).length,kind=c.nomination_kind==='competition'?'In competition':c.nomination_kind==='winners_only'?'Prize recipients':'Nominees';
     return `<section class="award-category${i===0?' award-category-main':''}" aria-labelledby="${esc(prefix)}award-heading-${i}"><header class="award-category-heading"><div><p class="eyebrow">${esc(c.eyebrow||(festival?(i===0?'Main section':'Section'):(i===0?'Main category':'Category')))}</p><h3 id="${esc(prefix)}award-heading-${i}">${esc(c.name)}</h3></div><span class="meta">${section==='books'&&!win?rows.length+' '+(c.item_noun||(c.name==='Selected works'?'selected works':'books')):`${win} ${win===1?'winner':'winners'}${rows.length>win?' · '+(rows.length-win)+' '+(kind==='In competition'?'other selected films':'nominees'):''}`}</span></header>${c.source?`<p class="meta award-section-sources"><a href="${esc(c.source)}" target="_blank" rel="noopener noreferrer">${esc(c.source_label||(section==='books'?'Official list':section==='tv'?'Nominees and results':'Official selection'))}</a>${c.awardsSource?` · <a href="${esc(c.awardsSource)}" target="_blank" rel="noopener noreferrer">Prize results</a>`:''}</p>`:''}<div class="grid award-category-grid">${rows.map(row=>{const film=byId.get(row.item_id??row.film_id);if(!film)return '';return renderCard(film,{...row,person:/actor|actress|performance|leading|supporting|screenplay/i.test(c.name)?row.person:undefined,label:row.label||(row.winner?(festival?'Winner':win>1?'Joint winner':'Winner'):kind==='In competition'?'Selected':'Nominee')});}).join('')}</div></section>`;
