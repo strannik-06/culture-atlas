@@ -31,9 +31,9 @@
 .entity-layout-switch button[aria-pressed=true] {background:#eeb66c;color:#21180e}
 
 [data-entity-layout] {
- --entity-poster-height:clamp(188px, 21vw, 280px);
- --entity-card-height:calc(var(--entity-poster-height) + 158px);
- --entity-row-height:84px;
+ --entity-poster-height:clamp(164px, 18vw, 196px);
+ --entity-card-height:calc(var(--entity-poster-height) + 250px);
+ --entity-row-height:100px;
 }
 [data-entity-layout] .film {
  min-height:var(--entity-card-height);
@@ -43,8 +43,18 @@
  flex:none;
  height:var(--entity-poster-height);
  aspect-ratio:auto;
+ isolation:isolate;
 }
-[data-entity-layout] .film > .poster img {object-fit:contain}
+[data-entity-layout] .film > .poster img {object-fit:cover;object-position:center 35%}
+[data-entity-layout] .film > .poster :is(.tier,.award-entry-badge) {
+ z-index:1;
+ max-width:calc(100% - 20px);
+ overflow:hidden;
+ text-overflow:ellipsis;
+ white-space:nowrap;
+}
+[data-entity-layout] .poster:has(.award-entry-badge) .tier {top:auto;bottom:10px}
+[data-entity-layout] .award-author-emblem > img {object-fit:contain}
 [data-entity-layout] .film > .body {
  min-width:0;
  min-height:0;
@@ -64,42 +74,55 @@
  margin:0;
 }
 [data-entity-layout] .body > .meta,
-.entity-summary-preview > :not(.awards, .book-award-label),
-.entity-summary-preview .awards > div,
-.entity-summary-preview .book-award-label > div {
+.entity-card-credit {
+ min-width:0;
  overflow:hidden;
  text-overflow:ellipsis;
  white-space:nowrap;
 }
 [data-entity-layout] .body > .meta {
- min-width:0;
  margin:0;
  flex:none;
  line-height:18px;
 }
+.entity-card-meta > span {display:block}
+.entity-card-facts {color:#c6cbd6}
 .entity-summary {
  display:flex;
  align-items:center;
- gap:4px;
+ gap:6px;
  min-width:0;
- min-height:0;
  flex:none;
 }
 .entity-summary-preview {
  flex:1;
  min-width:0;
- max-height:36px;
+ max-height:80px;
  overflow:hidden;
+ overflow-wrap:anywhere;
  font-size:12px;
- line-height:18px;
+ line-height:16px;
 }
 .entity-summary-preview > :is(.cast, .recognition, .awards, .book-award-label, .award-person, .book-award-translator, .meta) {
  margin:0;
  min-height:0;
  padding:0;
- line-height:18px;
+ line-height:16px;
 }
-.entity-summary-preview :is(.awards, .book-award-label) > div {line-height:18px}
+.entity-summary-preview > :is(.cast,.recognition,.awards,.book-award-label) {
+ display:-webkit-box;
+ -webkit-box-orient:vertical;
+ -webkit-line-clamp:3;
+ overflow:hidden;
+}
+.entity-summary-preview > .cast {-webkit-line-clamp:2}
+.entity-summary-preview :is(.awards,.book-award-label) > div {line-height:16px;margin:0}
+[data-entity-layout=cards] .entity-summary {
+ flex-direction:column;
+ align-items:stretch;
+ gap:0;
+}
+[data-entity-layout=cards] .entity-more {align-self:flex-end;padding-block:0}
 .entity-more {
  flex:none;
  border:0;
@@ -154,7 +177,7 @@
 [data-entity-layout=list] .poster .cover-fallback {font-size:12px}
 [data-entity-layout=list] .film > .body {
  display:grid;
- grid-template-columns:minmax(0, 1.2fr) minmax(0, 1fr) auto;
+ grid-template-columns:minmax(0, 1fr) minmax(0, 1.9fr) auto;
  grid-template-rows:auto auto;
  column-gap:12px;
  row-gap:2px;
@@ -163,7 +186,7 @@
 }
 [data-entity-layout=list] .body > h3 {grid-area:1 / 1;height:auto;margin:0;font-size:15px}
 [data-entity-layout=list] .body > .meta {grid-area:2 / 1}
-[data-entity-layout=list] .body > .entity-summary {grid-area:1 / 2 / span 2;align-self:center}
+[data-entity-layout=list] .body > :is(.entity-summary,.entity-result-credits) {grid-area:1 / 2 / span 2;align-self:center}
 [data-entity-layout=list] .film .controls {
  grid-area:1 / 3 / span 2;
  align-self:center;
@@ -172,16 +195,24 @@
 
 @media(max-width:650px) {
  [data-entity-layout] {
-  --entity-poster-height:clamp(152px, 53vw, 222px);
-  --entity-card-height:calc(var(--entity-poster-height) + 149px);
+  --entity-card-height:230px;
   --entity-row-height:76px;
  }
  .entity-layout-switch button {width:44px;height:44px}
- [data-entity-layout] .film > .body {padding:8px}
+ .grid[data-entity-layout=cards],
+ [data-entity-layout=cards] .award-category-grid {grid-template-columns:minmax(0,1fr)}
+ [data-entity-layout=cards] .film {flex-direction:row}
+ [data-entity-layout=cards] .film > .poster {
+  width:34%;
+  height:calc(var(--entity-card-height) - 2px);
+  padding:0;
+ }
+ [data-entity-layout=cards] .film > .body {padding:8px 10px}
+ [data-entity-layout=list] .entity-card-credit {display:none}
  [data-entity-layout=list] .film {padding:6px 7px;gap:8px}
  [data-entity-layout=list] .film > .poster {width:36px;height:54px}
  [data-entity-layout=list] .film > .body {grid-template-columns:minmax(0,1fr) auto;column-gap:5px;padding:0}
- [data-entity-layout=list] .body > .entity-summary,
+ [data-entity-layout=list] .body > :is(.entity-summary,.entity-result-credits),
  .entity-more {display:none}
  [data-entity-layout=list] .film .controls {grid-column:2}
  [data-entity-layout=list] .controls .list-toggle {width:36px}
@@ -190,13 +221,14 @@
 #media-results.grid[data-entity-layout=list] {grid-template-columns:minmax(0,1fr);gap:5px}
 #media-results[data-entity-layout] > .media-card {display:flex;padding:0;gap:0}
 #media-results[data-entity-layout=list] > .media-card {padding:7px 10px;gap:12px}
-#media-results[data-entity-layout] .media-poster {width:100%;margin:0}
+#media-results[data-entity-layout] .media-poster {width:100%;margin:0;align-self:center}
 #media-results[data-entity-layout=list] .media-poster {width:44px}
 [data-entity-layout=list] .award-author-card .body > a {grid-area:1 / 2 / span 2;align-self:center}
 .fs-film-score, [data-search-rating] {color:#eeb66c;white-space:nowrap;font-size:13px}
 #film-statistics-view .fs-film-result h3 {margin:0}
 @media(max-width:650px) {
- #media-results.grid[data-entity-layout=cards] {grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ #media-results.grid[data-entity-layout=cards] {grid-template-columns:minmax(0,1fr)}
+ #media-results[data-entity-layout=cards] .media-poster {width:34%;height:calc(var(--entity-card-height) - 2px)}
  #media-results[data-entity-layout=list] > .media-card {padding:6px 7px;gap:8px}
  #media-results[data-entity-layout=list] .media-poster {width:36px}
  [data-entity-layout=list] .award-author-card .body > a {max-width:90px;font-size:11px}

@@ -70,7 +70,7 @@ function create(app){
    const extra = (cast ? `<div class="cast">${esc(cast)}</div>` : '') + (app.getPrizes?.(f) || '');
    return `<article class="film fs-film-result">
     <div class="poster">${poster ? `<img src="${esc(poster)}" alt="" loading="lazy">` : `<span class="initial" aria-hidden="true">${esc(f.title[0])}</span>`}</div>
-    <div class="body"><h3>${filmLink(f)}</h3><p class="meta">${esc([f.year, f.directors.join(', ')].filter(Boolean).join(' · ') + watchDate)}</p>
+    <div class="body"><h3>${filmLink(f)}</h3>${app.getCardMeta?.(f, f.directors.join(', ') + watchDate, f.year) || `<p class="meta">${esc([f.year, f.directors.join(', ')].filter(Boolean).join(' · ') + watchDate)}</p>`}
      ${window.CultureLayouts?.summary(extra) ?? extra}
      <div class="controls"><span class="fs-film-score">${f.rating === null ? 'Unrated' : '★ ' + f.rating.toFixed(1) + '/10'}</span></div>
     </div></article>`;
