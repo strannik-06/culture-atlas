@@ -97,6 +97,11 @@ test('UI: cards show posters, directors and existing ratings; star saves keep ot
  try{
   await search();const rated=card(10),fresh=card(11);
   assert.equal(d.querySelectorAll('.media-card').length,2);assert.match(rated.querySelector('img').src,/image.tmdb.org/);assert.equal(rated.querySelector('[data-credit]').textContent,'A director');assert.equal(rated.querySelector('[data-badge]'),null);assert.match(rated.querySelector('[data-stars]').textContent,/7.0/);
+  assert.equal(rated.querySelector('dialog').open,false);
+  rated.querySelector('[data-title]').click();
+  assert.equal(rated.querySelector('dialog').open,true);
+  rated.querySelector('[data-close-result]').click();
+  assert.equal(rated.querySelector('dialog').open,false);
   assert.equal(rated.querySelector('[data-notes]').value,'existing private note');assert.equal(rated.querySelector('details').open,false);
   assert.equal(rated.querySelector('[data-date]').value,''); // An old unknown viewing date is preserved.
   assert.equal(d.querySelectorAll('[data-season], [data-scope], select[data-rating]').length,0);
