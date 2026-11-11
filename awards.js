@@ -22,6 +22,7 @@
   const url=(event,year,extra={})=>window.CultureRoutes.format({section,view:'awards',params:{event,year:String(year),...extra}});
   const years=name=>[...new Set(events.filter(e=>e.event===name).map(e=>e.year))].sort((a,b)=>b-a);
   function configure(){
+   window.CultureLayouts?.mount($('awards-grid'),$('awards-count'),section+'/awards');
    $('award-event').innerHTML=names.map(name=>`<option>${esc(name)}</option>`).join('');
    $('award-year').innerHTML=[...new Set(events.map(e=>e.year))].sort((a,b)=>b-a).map(year=>`<option value="${year}">${year}</option>`).join('');
    $('award-year').dataset.awardYears=JSON.stringify(Object.fromEntries(names.map(name=>[name,years(name)])));
@@ -35,7 +36,7 @@
    $('award-category').value=[...$('award-category').options].some(o=>o.value===previous)?previous:/^\d+$/.test(previous)&&list[Number(previous)]?String(list[Number(previous)].id||previous):'all';
   }
   function render(){
-   let dateLine=$('award-event-dates');if(!dateLine){dateLine=document.createElement('p');dateLine.id=prefix+'award-event-dates';dateLine.className='award-event-dates';dateLine.setAttribute('aria-live','polite');$('awards-count').before(dateLine);}
+   let dateLine=$('award-event-dates');if(!dateLine){dateLine=document.createElement('p');dateLine.id=prefix+'award-event-dates';dateLine.className='award-event-dates';dateLine.setAttribute('aria-live','polite');($('awards-count').closest('.entity-layout-toolbar')||$('awards-count')).before(dateLine);}
    dateLine.replaceChildren();dateLine.hidden=true;
    const name=$('award-event').value,year=Number($('award-year').value),edition=events.find(e=>e.event===name&&e.year===year),available=years(name),index=available.indexOf(year);
    $('award-tabs').innerHTML=names.map(n=>`<a class="award-tab${n===name?' active':''}" href="${esc(url(n,years(n)[0]))}" ${n===name?'aria-current="page"':''}><img src="${esc(awardBrands[n].icon.includes('/')?awardBrands[n].icon:'assets/awards/'+awardBrands[n].icon+'.svg')}" alt="" width="32" height="32"><span>${esc(n)}</span></a>`).join('');

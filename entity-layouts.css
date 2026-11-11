@@ -1,0 +1,203 @@
+.entity-layout-toolbar {
+ display:flex;
+ align-items:center;
+ justify-content:space-between;
+ gap:12px;
+ margin:8px 0 12px;
+}
+.entity-layout-toolbar > :first-child {min-width:0;margin:0}
+.entity-layout-switch {
+ display:flex;
+ flex:none;
+ gap:2px;
+ padding:2px;
+ margin-left:auto;
+ border:1px solid #353b4c;
+ border-radius:9px;
+ background:#191e2b;
+}
+.entity-layout-switch[hidden] {display:none}
+.entity-layout-switch button {
+ display:grid;
+ place-items:center;
+ width:36px;
+ height:36px;
+ border:0;
+ border-radius:6px;
+ background:transparent;
+ color:#b7bcc9;
+}
+.entity-layout-switch button:hover {background:#292f3e;color:#fff}
+.entity-layout-switch button[aria-pressed=true] {background:#eeb66c;color:#21180e}
+
+[data-entity-layout] {
+ --entity-poster-height:clamp(188px, 21vw, 280px);
+ --entity-card-height:calc(var(--entity-poster-height) + 158px);
+ --entity-row-height:84px;
+}
+[data-entity-layout] .film {
+ min-height:var(--entity-card-height);
+ max-height:var(--entity-card-height);
+}
+[data-entity-layout] .film > .poster {
+ flex:none;
+ height:var(--entity-poster-height);
+ aspect-ratio:auto;
+}
+[data-entity-layout] .film > .poster img {object-fit:contain}
+[data-entity-layout] .film > .body {
+ min-width:0;
+ min-height:0;
+ padding:9px 12px;
+ gap:3px;
+ overflow:hidden;
+}
+[data-entity-layout] .body > h3 {
+ display:-webkit-box;
+ -webkit-box-orient:vertical;
+ -webkit-line-clamp:2;
+ overflow:hidden;
+ overflow-wrap:anywhere;
+ flex:none;
+ line-height:1.25;
+ height:2.5em;
+ margin:0;
+}
+[data-entity-layout] .body > .meta,
+.entity-summary-preview > :not(.awards, .book-award-label),
+.entity-summary-preview .awards > div,
+.entity-summary-preview .book-award-label > div {
+ overflow:hidden;
+ text-overflow:ellipsis;
+ white-space:nowrap;
+}
+[data-entity-layout] .body > .meta {
+ min-width:0;
+ margin:0;
+ flex:none;
+ line-height:18px;
+}
+.entity-summary {
+ display:flex;
+ align-items:center;
+ gap:4px;
+ min-width:0;
+ min-height:0;
+ flex:none;
+}
+.entity-summary-preview {
+ flex:1;
+ min-width:0;
+ max-height:36px;
+ overflow:hidden;
+ font-size:12px;
+ line-height:18px;
+}
+.entity-summary-preview > :is(.cast, .recognition, .awards, .book-award-label, .award-person, .book-award-translator, .meta) {
+ margin:0;
+ min-height:0;
+ padding:0;
+ line-height:18px;
+}
+.entity-summary-preview :is(.awards, .book-award-label) > div {line-height:18px}
+.entity-more {
+ flex:none;
+ border:0;
+ border-radius:4px;
+ background:none;
+ color:#eeb66c;
+ font-size:12px;
+ padding:5px 2px;
+}
+.entity-more:hover {text-decoration:underline}
+[data-entity-layout] .film .controls {
+ min-height:36px;
+ flex:none;
+ flex-wrap:nowrap;
+ gap:4px;
+ padding-top:0;
+}
+[data-entity-layout] .controls .star-trigger {white-space:nowrap;font-size:12px}
+[data-entity-layout] .controls .list-toggle {width:34px}
+.entity-summary-dialog {width:min(520px, calc(100vw - 28px))}
+.entity-summary-close {display:flex;justify-content:flex-end;margin-bottom:12px}
+.entity-summary-content > * {margin:8px 0;white-space:normal;overflow-wrap:anywhere}
+.entity-search-title {padding:0;border:0;background:none;color:inherit;font:inherit;text-align:left}
+.entity-search-title:hover {text-decoration:underline}
+.entity-search-editor {width:min(620px, calc(100vw - 28px))}
+[data-entity-layout] > .media-person {grid-column:1 / -1}
+
+.grid[data-entity-layout=list],
+[data-entity-layout=list] .award-category-grid {
+ grid-template-columns:minmax(0,1fr);
+ gap:5px;
+}
+[data-entity-layout=list] .film {
+ display:flex;
+ flex-direction:row;
+ align-items:center;
+ min-height:var(--entity-row-height);
+ max-height:var(--entity-row-height);
+ border-radius:8px;
+ padding:7px 10px;
+ gap:12px;
+}
+[data-entity-layout=list] .film > .poster {
+ width:44px;
+ height:64px;
+ border-radius:4px;
+ padding:0;
+ overflow:hidden;
+}
+[data-entity-layout=list] .poster :is(.tier,.award-entry-badge) {display:none}
+[data-entity-layout=list] .poster .initial,
+[data-entity-layout=list] .poster .cover-fallback {font-size:12px}
+[data-entity-layout=list] .film > .body {
+ display:grid;
+ grid-template-columns:minmax(0, 1.2fr) minmax(0, 1fr) auto;
+ grid-template-rows:auto auto;
+ column-gap:12px;
+ row-gap:2px;
+ align-content:center;
+ padding:0;
+}
+[data-entity-layout=list] .body > h3 {grid-area:1 / 1;height:auto;margin:0;font-size:15px}
+[data-entity-layout=list] .body > .meta {grid-area:2 / 1}
+[data-entity-layout=list] .body > .entity-summary {grid-area:1 / 2 / span 2;align-self:center}
+[data-entity-layout=list] .film .controls {
+ grid-area:1 / 3 / span 2;
+ align-self:center;
+ margin:0;
+}
+
+@media(max-width:650px) {
+ [data-entity-layout] {
+  --entity-poster-height:clamp(152px, 53vw, 222px);
+  --entity-card-height:calc(var(--entity-poster-height) + 149px);
+  --entity-row-height:76px;
+ }
+ .entity-layout-switch button {width:44px;height:44px}
+ [data-entity-layout] .film > .body {padding:8px}
+ [data-entity-layout=list] .film {padding:6px 7px;gap:8px}
+ [data-entity-layout=list] .film > .poster {width:36px;height:54px}
+ [data-entity-layout=list] .film > .body {grid-template-columns:minmax(0,1fr) auto;column-gap:5px;padding:0}
+ [data-entity-layout=list] .body > .entity-summary,
+ .entity-more {display:none}
+ [data-entity-layout=list] .film .controls {grid-column:2}
+ [data-entity-layout=list] .controls .list-toggle {width:36px}
+}
+#media-results.grid[data-entity-layout=cards] {grid-template-columns:repeat(auto-fill,minmax(min(100%,185px),1fr))}
+#media-results.grid[data-entity-layout=list] {grid-template-columns:minmax(0,1fr);gap:5px}
+#media-results[data-entity-layout] > .media-card {display:flex;padding:0;gap:0}
+#media-results[data-entity-layout=list] > .media-card {padding:7px 10px;gap:12px}
+#media-results[data-entity-layout] .media-poster {width:100%;margin:0}
+#media-results[data-entity-layout=list] .media-poster {width:44px}
+[data-entity-layout=list] .award-author-card .body > a {grid-area:1 / 2 / span 2;align-self:center}
+.fs-film-score, [data-search-rating] {color:#eeb66c;white-space:nowrap;font-size:13px}
+#film-statistics-view .fs-film-result h3 {margin:0}
+@media(max-width:650px) {
+ #media-results.grid[data-entity-layout=cards] {grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ #media-results[data-entity-layout=list] > .media-card {padding:6px 7px;gap:8px}
+ #media-results[data-entity-layout=list] .media-poster {width:36px}
+ [data-entity-layout=list] .award-author-card .body > a {max-width:90px;font-size:11px}
+}

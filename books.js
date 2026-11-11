@@ -207,7 +207,11 @@
     indexBooks();book={...book,...byWork.get(bookKey(book))};
     const p=progress.get(bookKey(book));
     const coverUrl=bookCover(book),authors=window.CultureBookAwards?.find(book)?.authors||book.authors,title=entry?.display_title||(entry?book.title.split(':')[0]:book.title);
-    return `<article class="film book-card ${entry?.winner?'award-winner ':''}${p?'watched':''}" tabindex="0" role="button" aria-label="View details for ${escape(book.title)}" data-book-work="${escape(bookKey(book))}"><div class="poster"><span class="cover-fallback">Cover unavailable</span>${coverUrl?`<img loading="lazy" src="${escape(coverUrl)}" alt="Cover of ${escape(book.title)}">`:''}${entry?`<span class="award-entry-label award-entry-badge">${entry.winner?'★ ':''}${escape(entry.label)}</span>`:''}</div><div class="body"><h3>${book.id||book.open_library_work_id||book.award_key?`<a href="#/books/${escape(bookKey(book).split('/').pop())}">${escape(title)}</a>`:escape(title)}</h3><p class="meta">${escape(authors.join(', '))} · ${escape(book.first_publish_year??'Year unavailable')}</p>${result&&book.search_match?`<p class="meta">${escape(book.search_match)}</p>`:''}${book.work_scope==='collection'?'<p class="meta">Collection</p>':''}${entry?.translator?`<div class="book-award-translator">Translated by ${escape(entry.translator)}</div>`:''}${bookAwardsMarkup(book)}<div class="controls"><button type="button" class="star-trigger" data-book-rate="${escape(bookKey(book))}" aria-label="Edit personal rating for ${escape(book.title)}">${p?'★':'☆'} <span class="value">${p?Number(p.rating).toFixed(1)+'/10':'Rate'}</span></button></div></div></article>`;
+    const extra = (result && book.search_match ? `<p class="meta">${escape(book.search_match)}</p>` : '') +
+      (book.work_scope === 'collection' ? '<p class="meta">Collection</p>' : '') +
+      (entry?.translator ? `<div class="book-award-translator">Translated by ${escape(entry.translator)}</div>` : '') +
+      bookAwardsMarkup(book);
+    return `<article class="film book-card ${entry?.winner?'award-winner ':''}${p?'watched':''}" tabindex="0" role="button" aria-label="View details for ${escape(book.title)}" data-book-work="${escape(bookKey(book))}"><div class="poster"><span class="cover-fallback">Cover unavailable</span>${coverUrl?`<img loading="lazy" src="${escape(coverUrl)}" alt="Cover of ${escape(book.title)}">`:''}${entry?`<span class="award-entry-label award-entry-badge">${entry.winner?'★ ':''}${escape(entry.label)}</span>`:''}</div><div class="body"><h3>${book.id||book.open_library_work_id||book.award_key?`<a href="#/books/${escape(bookKey(book).split('/').pop())}">${escape(title)}</a>`:escape(title)}</h3><p class="meta">${escape(authors.join(', '))} · ${escape(book.first_publish_year??'Year unavailable')}</p>${window.CultureLayouts?.summary(extra) ?? extra}<div class="controls"><button type="button" class="star-trigger" data-book-rate="${escape(bookKey(book))}" aria-label="Edit personal rating for ${escape(book.title)}">${p?'★':'☆'} <span class="value">${p?Number(p.rating).toFixed(1)+'/10':'Rate'}</span></button></div></div></article>`;
   }
   function render() {
     let listed=(window.CultureLists?.entries('book')||[]).map(r=>findBook(r.work_key)||r.metadata.book||{title:r.metadata.title,authors:[r.metadata.subtitle?.split(' · ')[0]||'Author unknown'],open_library_work_id:r.work_key.startsWith('/works/')?r.work_key:null,award_key:r.work_key.startsWith('award-')?r.work_key.slice(6):null});
@@ -470,6 +474,11 @@
     })();workLoads.set(workId,pending);return pending;
   }
   function init(supabaseClient) {
+    for (const page of ['catalogue','ratings','watchlist','search']) {
+      const grid = $(page === 'search' ? 'book-search-results' : 'book-'+page+'-grid');
+      const count = $(page === 'search' ? 'book-search-status' : 'book-'+page+'-count');
+      window.CultureLayouts?.mount(grid, count, 'books/'+page);
+    }
     client=supabaseClient;
     if(window.CultureBookAwards){awardBrowser=window.CultureBookAwards.create({renderCard:(ref,entry)=>{const work=window.CultureBookAwards.books().find(b=>b.key===ref.id);return work?card(awardBook(work),false,entry):'';}});awardBrowser.configure();awardBrowser.configureCategories();}
     // Account UI must remain reachable while the Films area is hidden.
@@ -508,7 +517,7 @@
     $('books-view').addEventListener('click',event=>{
       const tab=event.target.closest('[data-book-tab]'); if(tab) { if(!saving) { closeEditor();switchTab(tab.dataset.bookTab); }return; }
       const rate=event.target.closest('[data-book-rate]');if(rate){choose(rate.dataset.bookRate);editMode(true);return;}
-      const choice=event.target.closest('[data-book-work]'); if(choice&&!event.target.closest('a')) choose(choice.dataset.bookWork);
+      const choice=event.target.closest('[data-book-work]'); if(choice&&!event.target.closest('a,button')) choose(choice.dataset.bookWork);
     });
     $('books-view').addEventListener('keydown',event=>{if(['Enter',' '].includes(event.key)&&event.target.matches('article[data-book-work]')){event.preventDefault();choose(event.target.dataset.bookWork);}});
     $('books-view').addEventListener('error',event=>{if(event.target.tagName==='IMG') event.target.hidden=true;},true);
