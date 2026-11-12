@@ -9,7 +9,7 @@
   'films/ratings':{q:['ratings-search',''],sort:['ratings-sort','rating']},
   'films/catalogue':{q:['ratings-search',''],sort:['ratings-sort','rating']},
   'tv/awards':{event:['tv-award-event',null],year:['tv-award-year',null],category:['tv-award-category','all'],result:['tv-award-filter','all']},
-  'tv/catalogue':{q:['tv-search',''],kind:['tv-kind',''],sort:['tv-sort','year']},
+  'tv/catalogue':{q:['tv-search',''],kind:['tv-kind',''],sort:['tv-sort','title']},
   'films/watchlist':{q:['ratings-search',''],sort:['ratings-sort','title']},
   'tv/watchlist':{q:['tv-search',''],kind:['tv-kind',''],sort:['tv-sort','title']},
   'tv/ratings':{q:['tv-search',''],kind:['tv-kind',''],sort:['tv-sort','year']},

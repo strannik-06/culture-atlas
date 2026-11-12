@@ -8,11 +8,9 @@ This adds a top-level TV Series section with Catalogue/My ratings tabs, series/m
 
 1. Review and merge the application PR; let Pages deployment finish.
 2. Run the complete [TV setup SQL](../supabase/migrations/20261019_tv_ratings.sql) in the project's Supabase SQL Editor. Installation creates TV storage and functions but does not import ratings, alter film progress or delete Decalogue V.
-3. Reload Culture Atlas and open **TV Series → Refresh**. Sign in in your own browser. No account credentials or Google account access are needed by the development assistant.
-4. Review the private 43-row TV proposal and use **Import TV ratings** in the TV section. This is a different format from the Films import. The confirmation lists missing, existing and differing records, and explicitly describes the optional Dekalog correction.
-5. Verify the TV count, film count and Dekalog after the import. Export TV ratings as a private backup if desired.
+3. Reload Culture Atlas, sign in, and open **TV Series → My ratings**.
 
-No production migration or import is run by this PR. After setup, authenticated users can save deliberate changes through the TV rating editor. A missing migration leaves catalogue browsing available, with saving/import disabled and a setup message.
+The historical import instructions below document the file format and database behavior. The legacy import and export controls have been removed from TV Catalogue and My ratings.
 
 ## Storage and privacy
 
@@ -26,7 +24,7 @@ The migration does not require a service-role key, an authentication change, or 
 
 The format is `culture-atlas-tv-progress-v1`, with a `ratings` array of `work_key`, `rating`, `rating_scope`, `notes` and `watched_date`. The optional `replace_dekalog_episode` flag is accepted only when the client file contains the whole-cycle TV/42699 rating of 10.0.
 
-Client validation rejects unknown catalogue keys, film aliases, duplicate work keys, invalid half-points, oversized notes and invalid dates. It refreshes current progress before confirmation and checks the current account again before sending the write. The database validates the whole batch, inserts missing rows with `ON CONFLICT DO NOTHING`, and reports actual inserted keys. Existing TV ratings, notes, dates and scopes are never updated by an import, including concurrent inserts after the preview. A failing statement or correction rolls the entire batch back.
+The legacy importer validated catalogue keys, film aliases, duplicate work keys, half-point ratings, note lengths and dates. It refreshed progress before confirmation and checked the current account before sending the write. The database validates the whole batch, inserts missing rows with `ON CONFLICT DO NOTHING`, and reports actual inserted keys. Existing TV ratings, notes, dates and scopes are never updated by an import, including concurrent inserts after the preview. A failing statement or correction rolls the entire batch back.
 
 `rating_scope` is either `whole_work` or `unspecified`. An unspecified scope does not mean all seasons have been watched. The private source proposal contains **6 owner-confirmed whole-work ratings and 37 unspecified scopes**. All historical watched dates remain null. Original notes and exact half-point scores are preserved. The final historical extension supports explicitly reviewed season, installment and opening cards. Their whole-work scope refers to the selected card, not a wider parent.
 

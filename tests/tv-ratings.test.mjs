@@ -77,12 +77,12 @@ async function setupUI(){
  const window=new Window({url:'https://example.test/',settings:{disableCSSFileLoading:true,disableJavaScriptFileLoading:true,enableJavaScriptEvaluation:true}});
  window.document.write(markup.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,''));window.HTMLElement.prototype.scrollIntoView=()=>{};
  for(const name of ['film-catalog.js','tv-catalog.js','tv-film-aliases.js','work-identities.js','books.js'])window.eval(await fs.readFile(new URL(name,root),'utf8'));
- const writes=[];let currentUser={id:a};let persisted=[];let filmRefresh=0;
+ const writes=[];let currentUser={id:a};let persisted=[];
  const client={auth:{getSession:async()=>({data:{session:{user:currentUser}},error:null})},from(table){
   const query={select(){return this;},eq(){return this;},in(){return this;},order(){return this;},range:async()=>({data:table==='tv_progress'?persisted:table==='film_progress'?[{film_id:1955,rating:8}]:[],error:null})};return query;
- },async rpc(name,args){writes.push({name,args});if(name==='save_tv_rating'){const row={work_key:args.p_work_key,rating:args.p_rating,rating_scope:args.p_scope,notes:args.p_notes,watched_date:args.p_watched_date,updated_at:'2026-10-19T18:00:00Z'};persisted=[row];return {data:row,error:null};}if(name==='import_tv_ratings'||name==='import_tv_ratings_reviewed'){const added=args.p_entries.filter(p=>!persisted.some(old=>old.work_key===p.work_key));persisted.push(...added.map(p=>({...p,updated_at:'2026-10-19T18:00:00Z'})));for(const c of args.p_rating_corrections||[]){const row=persisted.find(p=>p.work_key===c.work_key);row.rating=c.rating;}return {data:{inserted_keys:added.map(p=>p.work_key),skipped_existing:args.p_entries.length-added.length,dekalog_episode_removed:args.p_replace_dekalog,corrected_keys:(args.p_rating_corrections||[]).map(c=>c.work_key)},error:null};}return {data:true,error:null};}};
- window.CultureBooks.init(client);window.eval(source);window.CultureTV.init(client,{onFilmProgressChanged:()=>{filmRefresh++;}});
- return {window,client,writes,get filmRefresh(){return filmRefresh;},setUser(user){currentUser=user;},setPersisted(data){persisted=data;}};
+ },async rpc(name,args){writes.push({name,args});if(name==='save_tv_rating'){const row={work_key:args.p_work_key,rating:args.p_rating,rating_scope:args.p_scope,notes:args.p_notes,watched_date:args.p_watched_date,updated_at:'2026-10-19T18:00:00Z'};persisted=[row];return {data:row,error:null};}return {data:true,error:null};}};
+ window.CultureBooks.init(client);window.eval(source);window.CultureTV.init(client);
+ return {window,client,writes,setUser(user){currentUser=user;},setPersisted(data){persisted=data;}};
 }
 const openEditor=(w,key)=>{w.CultureTV.route.choose(key);w.document.querySelector('#tv-detail-edit').click();};
 const settle=async()=>{for(let i=0;i<10;i++)await new Promise(resolve=>setTimeout(resolve,0));};
@@ -94,7 +94,7 @@ test('UI: navigation, catalogue aliases, half-point stars and private save',asyn
   d.querySelector('[data-section="tv"]').click();assert.equal(d.querySelector('#tv-view').hidden,false);assert.equal(d.querySelector('#cinema-area').hidden,true);assert.equal(d.querySelector('#books-view').hidden,true);
   d.querySelector('[data-section="books"]').click();assert.equal(d.querySelector('#tv-view').hidden,true);assert.equal(d.querySelector('#books-view').hidden,false);
   d.querySelector('[data-section="tv"]').click();await w.CultureTV.setSession({id:a});
-  assert.match(d.querySelector('#tv-count').textContent,/1 linked film ratings/);
+  assert.match(d.querySelector('#tv-count').textContent,/^\d+ TV works$/);
   openEditor(w,'tv:42699');d.querySelector('#tv-star-trigger').click();
   for(let i=0;i<15;i++)d.querySelector('#tv-star-picker').dispatchEvent(new w.KeyboardEvent('keydown',{key:'ArrowRight',bubbles:true}));
   d.querySelector('#tv-star-picker').dispatchEvent(new w.KeyboardEvent('keydown',{key:'Enter',bubbles:true}));d.querySelector('#tv-star-picker .rating-save').click();assert.equal(d.querySelector('#tv-rating').value,'7.5');
@@ -105,7 +105,7 @@ test('UI: navigation, catalogue aliases, half-point stars and private save',asyn
  }finally{await w.happyDOM.close();}
 });
 
-test('UI/import: unknown identities, aliases, duplicate rows and invalid ratings fail before writes',async()=>{
+test('Import validation rejects unknown identities, aliases, duplicate rows and invalid ratings',async()=>{
  const h=await setupUI(),w=h.window,known=w.CULTURE_TV_CATALOG;
  try{
   const input={format:'culture-atlas-tv-progress-v1',ratings:[entry('tv:42699',10,'whole_work')],replace_dekalog_episode:true};
@@ -113,10 +113,6 @@ test('UI/import: unknown identities, aliases, duplicate rows and invalid ratings
   for(const invalid of [entry('movie:1920'),entry('tv:5904'),entry('tv:987654321'),entry('tv:42699',7.25),{...entry('tv:42699'),watched_date:'2024-02-31'}])assert.throws(()=>w.CultureTV.validateImport({...input,ratings:[invalid]},known));
   assert.throws(()=>w.CultureTV.validateImport({...input,ratings:[input.ratings[0],input.ratings[0]]},known));
   const preview=w.CultureTV.previewImport(p.ratings,new Map([['tv:42699',entry('tv:42699',9,'whole_work')]]));assert.equal(preview.missing,0);assert.equal(preview.conflicts,1);assert.equal(h.writes.length,0);
-  // Exercise the file handler and its explicit confirmation.
-  await w.CultureTV.setSession({id:a});w.confirm=()=>true;const file=new w.File([JSON.stringify(input)],'ratings.json',{type:'application/json'});
-  Object.defineProperty(w.document.querySelector('#tv-import'),'files',{value:[file],configurable:true});w.document.querySelector('#tv-import').dispatchEvent(new w.Event('change',{bubbles:true}));await settle();
-  assert.equal(h.writes[0]?.name,'import_tv_ratings');assert.equal(h.writes[0].args.p_replace_dekalog,true);assert.equal(h.filmRefresh,1);
  }finally{await w.happyDOM.close();}
 });
 
@@ -230,14 +226,13 @@ test('series and season editors keep independent scores and navigation is Films,
  }finally{await w.happyDOM.close();}
 });
 
-test('v2 file preview names approved score correction and uses the current row version',async()=>{
- const h=await setupUI(),w=h.window,d=w.document;
+test('V2 validation accepts reviewed score corrections and rejects invalid batches',async()=>{
+ const h=await setupUI(),w=h.window;
  try{
-  h.setPersisted([{...entry('tv:147050',7),notes:'Existing private note',updated_at:'2026-10-19T18:00:00Z'}]);await w.CultureTV.setSession({id:a});
   const input={format:'culture-atlas-tv-progress-v2',ratings:[entry('tv:147050',7.5),entry('tv:247718:season:1',8)],rating_corrections:[{work_key:'tv:147050',expected_rating:7,rating:7.5}]};
-  let prompt='';w.confirm=text=>{prompt=text;return true;};
-  const file=new w.File([JSON.stringify(input)],'series.json',{type:'application/json'});Object.defineProperty(d.querySelector('#tv-import'),'files',{value:[file],configurable:true});d.querySelector('#tv-import').dispatchEvent(new w.Event('change',{bubbles:true}));await settle();
-  assert.match(prompt,/Disclaimer 7.0 → 7.5/);assert.equal(h.writes[0].name,'import_tv_ratings_reviewed');assert.equal(h.writes[0].args.p_rating_corrections[0].expected_updated_at,'2026-10-19T18:00:00Z');
+  const proposal=w.CultureTV.validateImport(input,w.CULTURE_TV_CATALOG);
+  assert.equal(proposal.corrections.length,1);
+  assert.equal(proposal.corrections[0].expected_rating,7);
   assert.throws(()=>w.CultureTV.validateImport({...input,format:'culture-atlas-tv-progress-v1'},w.CULTURE_TV_CATALOG),/Invalid reviewed/);
   assert.throws(()=>w.CultureTV.validateImport({...input,rating_corrections:[...input.rating_corrections,...input.rating_corrections]},w.CULTURE_TV_CATALOG),/duplicate/);
  }finally{await w.happyDOM.close();}

@@ -31,8 +31,35 @@ test('2025 TV pilot preserves all ten complete official category lists and canon
  assert.equal(a.$('tv-award-tabs').children.length,3);assert.equal(a.$('tv-awards-grid').querySelectorAll('article').length,21);assert.equal(a.$('tv-list-view').hidden,true);assert.equal(a.state.rpcCalls.length,0);
  }finally{await a.close();}
 });
+test('TV Catalogue includes unrated and newly added public series; My ratings includes only rated works',async()=>{
+ const added={id:'tv:999901',title:'Added public series',series_kind:'series',year:2026};
+ const media=[{work_type:'tv',metadata:added}];
+ const signedIn=await boot('#/tv/ratings?sort=rating',{user:{id:'u'},media,tvRows:[
+  {work_key:'tv:83867',rating:8.5,rating_scope:'whole_work',notes:'',updated_at:'v1'}
+ ]});
+ try{
+  const {w,$}=signedIn,grid=$('tv-grid');
+  const works=()=>Array.from(grid.querySelectorAll('[data-tv-work]'),card=>card.dataset.tvWork);
+  assert.deepEqual(works(),['tv:83867']);
+  assert.equal($('tv-count').textContent,'1 rated TV work');
+  w.document.querySelector('[data-tv-tab="catalogue"]').click();
+  assert.equal(w.location.hash,'#/tv/catalogue');
+  assert.equal($('tv-sort').value,'title');
+  assert.match($('tv-view').querySelector('h1').textContent,/TV catalogue/);
+  assert.ok(works().length>100);
+  assert.ok(works().includes(added.id));
+  assert.ok(works().includes('tv:83867'));
+  assert.equal($('tv-count').textContent,works().length+' TV works');
+  assert.equal($('tv-message').textContent,'');
+  assert.equal(w.document.querySelector('#tv-tools, #tv-import-button, #tv-export, #tv-refresh'),null);
+  const catalogue=works();
+  await w.CultureTV.setSession(null);
+  assert.deepEqual(works(),catalogue);
+ }finally{await signedIn.close();}
+});
 test('TV award tabs, winners, category URLs, details refresh and browser Back preserve the award list',async()=>{
  const a=await boot('#/tv/awards?event=Golden+Globes&year=2025');try{const {w,$}=a;
+ assert.equal($('tv-awards-grid').querySelector('[data-entity-more]'),null);
  assert.equal($('tv-award-edition-title').textContent,'Golden Globes 2025');assert.equal($('tv-awards-grid').querySelector('.award-category article').classList.contains('award-winner'),true);
  $('tv-awards-grid').querySelector('h3 a').click();assert.equal($('tv-editor').open,true);assert.match(w.location.hash,/from=awards/);assert.match(w.location.hash,/event=Golden/);
  const b=await boot(w.location.hash);try{assert.equal(b.$('tv-editor').open,true);b.$('tv-detail-close').click();assert.equal(b.$('tv-awards-view').hidden,false);assert.equal(b.$('tv-award-edition-title').textContent,'Golden Globes 2025');}finally{await b.close();}
