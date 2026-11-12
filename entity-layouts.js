@@ -138,9 +138,10 @@
   return Number.isInteger(minutes) && minutes > 0 ? minutes + ' min' : '';
  }
 
- function summary(markup) {
-  return markup ? '<div class="entity-summary"><div class="entity-summary-preview" inert>' + markup +
-   '</div><button class="entity-more" type="button" data-entity-more aria-haspopup="dialog" aria-label="Show more credits and awards">More</button></div>' : '';
+ function summary(markup, {showMore = true} = {}) {
+  if (!markup) return '';
+  const button = showMore ? '<button class="entity-more" type="button" data-entity-more aria-haspopup="dialog" aria-label="Show more credits and awards">More</button>' : '';
+  return '<div class="entity-summary"><div class="entity-summary-preview" inert>' + markup + '</div>' + button + '</div>';
  }
 
  document.addEventListener('click', event => {
