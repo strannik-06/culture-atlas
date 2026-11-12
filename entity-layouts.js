@@ -134,6 +134,10 @@
   return view.group;
  }
 
+ function formatRuntime(minutes) {
+  return Number.isInteger(minutes) && minutes > 0 ? minutes + ' min' : '';
+ }
+
  function summary(markup) {
   return markup ? '<div class="entity-summary"><div class="entity-summary-preview" inert>' + markup +
    '</div><button class="entity-more" type="button" data-entity-more aria-haspopup="dialog" aria-label="Show more credits and awards">More</button></div>' : '';
@@ -177,5 +181,5 @@
  window.addEventListener('online', () => {
   for (const key of account.choices.keys()) void sync(account, key);
  });
- window.CultureLayouts = {init(value) { client = value; }, mount, setSession, summary};
+ window.CultureLayouts = {init(value) { client = value; }, mount, setSession, summary, formatRuntime};
 })();
