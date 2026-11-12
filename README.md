@@ -1,8 +1,19 @@
-# culture-atlas
-Curated exploration of cinema, literature and music
+# Culture Atlas
 
-Film/TV search, dynamic catalogue additions and encrypted weekly R2 backups: see [setup and recovery guide](docs/media-search-and-backups.md). Installation requires the listed SQL migrations, Edge Function deployment and private backup secrets; merging alone does not activate these services.
+A catalogue and private reading and viewing journal for films, TV series and books.
 
-Database deployment status: [27 October 2026 audit](docs/database-deployment-audit-2026-10-27.md). All catalogue SQL through the Venice 2021–2025 batch has been applied and verified. Future catalogue PRs require a separate reviewed database registration after merge; follow the audit checklist.
+| Service | Where to look |
+| --- | --- |
+| Live site | [Culture Atlas on GitHub Pages](https://strannik-06.github.io/culture-atlas/) |
+| Code, PRs and issues | [GitHub repository](https://github.com/strannik-06/culture-atlas) |
+| CI, Pages, deploys and backups | [GitHub Actions](https://github.com/strannik-06/culture-atlas/actions) |
+| Database, Auth and Edge Functions | [Culture Atlas on Supabase](https://supabase.com/dashboard/project/ufqaidyshfkbymbrzdff) |
 
-Private watch/read lists and account-only ratings: see [behavior and deployment](docs/private-lists.md).
+## Working on Culture Atlas
+
+- [Product specification](docs/spec.md) describes expected behavior.
+- [Repository instructions](AGENTS.md) cover development and validation.
+- [Deployment checklist](docs/deployment.md) covers Pages, SQL, catalogue registration, and Edge Functions.
+- [Search, backup and recovery](docs/media-search-and-backups.md) documents the Supabase and R2 setup.
+- [Awards maintenance](docs/awards-maintenance.md) documents the scheduled awards workflow.
+- [Database deployment audit](docs/database-deployment-audit-2026-10-27.md) records the state verified on 27 October 2026.
