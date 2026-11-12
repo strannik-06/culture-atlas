@@ -25,7 +25,7 @@ async function boot(hash='',options={}){
 }
 const official=JSON.parse(await readFile(new URL('../imports/tv-awards-2025-source.json',import.meta.url),'utf8'));
 test('2025 TV pilot preserves all ten complete official category lists and canonical programme references',async()=>{
- const a=await boot('#/tv/awards');try{
+ const a=await boot('#/tv/awards?event=Emmys&year=2025');try{
  const events=a.w.CULTURE_TV_AWARDS,shows=a.w.CULTURE_TV_CATALOG;assert.equal(events.length,3);assert.equal(events.flatMap(e=>e.categories).length,10);assert.equal(events.flatMap(e=>e.categories.flatMap(c=>c.entries)).length,57);
  for(const e of events){const src=official.events.find(x=>x.event===e.event);assert.equal(e.year,2025);assert.match(e.note,/eligible run/);for(const c of e.categories){const expected=src.categories.find(x=>x.name===c.name);assert.equal(c.entries.length,expected.entries.length);assert.equal(c.entries.filter(r=>r.winner).length,1);for(const r of c.entries){const original=expected.entries.find(x=>(x.display_title||x.title)===r.display_title);assert.ok(original);assert.equal(r.winner,original.winner);assert.equal(shows.filter(w=>w.id===r.item_id).length,1);}}}
  assert.equal(a.$('tv-award-tabs').children.length,3);assert.equal(a.$('tv-awards-grid').querySelectorAll('article').length,21);assert.equal(a.$('tv-list-view').hidden,true);assert.equal(a.state.rpcCalls.length,0);
@@ -47,8 +47,29 @@ test('Award cards reuse whole-series ratings and preserve separately rated seaso
  a.w.CultureRouter.navigate({section:'tv',view:'catalogue'});const normal=a.$('tv-grid').querySelector('[data-tv-work="tv:83867"]');assert.match(normal.querySelector('.star-trigger').textContent,/8.5/);assert.equal(a.state.rpcCalls.length,0);
  }finally{await a.close();}
 });
-test('TV catalogue registration is idempotent, preserves private progress and rejects provider conflicts',async()=>{
- const {PGlite}=await import('@electric-sql/pglite');const db=new PGlite(),sql=await readFile(new URL('../imports/tv-awards-2025-catalogue-sync.sql',import.meta.url),'utf8');
+test('2026 TV editions show complete tracked categories and award badges on their own routes',async()=>{
+ const src=JSON.parse(await readFile(new URL('../imports/tv-awards-2026-source.json',import.meta.url),'utf8'));
+ const a=await boot('#/tv/awards?event=Emmys&year=2026');try{
+  const events=a.w.CULTURE_TV_AWARDS_2026;
+  assert.deepEqual(Array.from(events,e=>e.categories.map(c=>c.entries.length).join(',')),['8,8,5','6,6,6','4,4,4,6']);
+  for(const e of events){
+   const original=src.events.find(s=>s.event===e.event);
+   a.w.CultureRouter.navigate({section:'tv',view:'awards',params:{event:e.event,year:'2026'}});
+   assert.equal(a.$('tv-award-edition-title').textContent,e.event+' 2026');
+   const grid=a.$('tv-awards-grid'),winners=[...grid.querySelectorAll('.award-winner')];
+   assert.equal(grid.querySelectorAll('article').length,e.categories.flatMap(c=>c.entries).length);
+   assert.equal(winners.length,e.categories.length);
+   for(const [i,c] of e.categories.entries()){
+    assert.equal(c.entries.filter(r=>r.winner).length,1);
+    assert.ok(winners[i].textContent.includes(original.categories[i].entries.find(r=>r.winner).title));
+    for(const r of c.entries)assert.equal(a.w.CULTURE_TV_CATALOG.filter(w=>w.id===r.item_id).length,1);
+   }
+  }
+  assert.equal(a.state.rpcCalls.length,0);
+ }finally{await a.close();}
+});
+for(const year of [2025,2026])test(`TV ${year} catalogue registration is idempotent, preserves private progress and rejects provider conflicts`,async()=>{
+ const {PGlite}=await import('@electric-sql/pglite');const db=new PGlite(),sql=await readFile(new URL(`../imports/tv-awards-${year}-catalogue-sync.sql`,import.meta.url),'utf8');
  try{await db.exec("create table media_catalogue(work_key text primary key,work_type text,metadata jsonb,is_static boolean);create table media_provider_links(provider_key text primary key,work_key text);create table tv_progress(work_key text,rating numeric,notes text);insert into tv_progress values('tv:83867',8.5,'Preserved private note');");await db.exec(sql);const first=(await db.query('select * from media_catalogue order by work_key')).rows;assert.ok(first.length>0);await db.exec(sql);assert.deepEqual((await db.query('select * from media_catalogue order by work_key')).rows,first);assert.equal((await db.query('select notes from tv_progress')).rows[0].notes,'Preserved private note');
  const link=(await db.query('select * from media_provider_links limit 1')).rows[0];await db.query('update media_provider_links set work_key=$1 where provider_key=$2',['tv:999999',link.provider_key]);await assert.rejects(db.exec(sql),/Conflicting provider identity/);await db.exec('rollback');
  }finally{await db.close();}

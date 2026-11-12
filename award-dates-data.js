@@ -186,12 +186,22 @@ window.CULTURE_AWARD_EVENT_DATES = [
     "year": 2026,
     "dates": [
       {
+        "label": "Longlist",
+        "start": "2026-07-28",
+        "source": "https://thebookerprizes.com/booker-prize/enter-the-booker-prize"
+      },
+      {
+        "label": "Shortlist",
+        "start": "2026-09-22",
+        "source": "https://thebookerprizes.com/booker-prize/enter-the-booker-prize"
+      },
+      {
         "label": "Ceremony",
         "start": "2026-11-09",
         "source": "https://thebookerprizes.com/the-booker-library/prize-years/2026"
       }
     ],
-    "verified_on": "2026-11-10"
+    "verified_on": "2026-11-12"
   },
   {
     "section": "books",
@@ -846,7 +856,8 @@ window.CULTURE_AWARD_EVENT_DATES = [
         "source": "https://www.nobelprize.org/ceremonies/",
         "scheduled": true
       }
-    ]
+    ],
+    "verified_on": "2026-11-12"
   },
   {
     "section": "books",
@@ -1034,12 +1045,27 @@ window.CULTURE_AWARD_EVENT_DATES = [
     "year": 2026,
     "dates": [
       {
+        "label": "First selection",
+        "start": "2026-09-02",
+        "source": "https://www.academiegoncourt.com/home"
+      },
+      {
+        "label": "Second selection",
+        "start": "2026-10-06",
+        "source": "https://www.academiegoncourt.com/home"
+      },
+      {
+        "label": "Final shortlist",
+        "start": "2026-10-27",
+        "source": "https://www.academiegoncourt.com/home"
+      },
+      {
         "label": "Winner announcement",
         "start": "2026-11-03",
         "source": "https://www.academiegoncourt.com/calendrier-des-reunions"
       }
     ],
-    "verified_on": "2026-11-10"
+    "verified_on": "2026-11-12"
   },
   {
     "section": "books",
@@ -1534,11 +1560,17 @@ window.CULTURE_AWARD_EVENT_DATES = [
     "year": 2026,
     "dates": [
       {
+        "label": "Nominations",
+        "start": "2025-12-08",
+        "source": "https://goldenglobes.com/articles/nominations-announced-for-the-83rd-annual-golden-globes/"
+      },
+      {
         "label": "Ceremony",
         "start": "2026-01-11",
-        "source": "https://goldenglobes.com/nominations/2026"
+        "source": "https://goldenglobes.com/articles/nominations-announced-for-the-83rd-annual-golden-globes/"
       }
-    ]
+    ],
+    "verified_on": "2026-11-12"
   },
   {
     "section": "films",
@@ -3387,15 +3419,190 @@ window.CULTURE_AWARD_EVENT_DATES = [
     "event": "Berlinale",
     "year": 2027,
     "status": "scheduled",
-    "verified_on": "2026-11-10",
+    "verified_on": "2026-11-12",
     "note": "The 2027 festival dates are confirmed. Competition selections have not yet been announced.",
     "dates": [
+      {
+        "label": "Programme press conference",
+        "start": "2027-01-20",
+        "source": "https://www.berlinale.de/en/dates.html",
+        "scheduled": true
+      },
       {
         "label": "Festival",
         "start": "2027-02-10",
         "source": "https://www.berlinale.de/en/dates.html",
         "scheduled": true,
         "end": "2027-02-21"
+      }
+    ]
+  },
+  {
+    "section": "books",
+    "event": "International Booker",
+    "year": 2027,
+    "status": "scheduled",
+    "verified_on": "2026-11-12",
+    "note": "The 2027 edition is officially named the Bukhman International Booker Prize. The longlist has not yet been announced. The day of the ceremony is pending.",
+    "dates": [
+      {
+        "label": "Longlist",
+        "start": "2027-03-16",
+        "source": "https://thebookerprizes.com/the-booker-library/prize-years/international/2027",
+        "scheduled": true
+      },
+      {
+        "label": "Shortlist",
+        "start": "2027-04-15",
+        "source": "https://thebookerprizes.com/the-booker-library/prize-years/international/2027",
+        "scheduled": true
+      },
+      {
+        "label": "Ceremony",
+        "start": "2027-05",
+        "source": "https://thebookerprizes.com/the-booker-library/prize-years/international/2027",
+        "scheduled": true
+      }
+    ]
+  },
+  {
+    "section": "books",
+    "event": "Prix Goncourt",
+    "year": 2027,
+    "status": "scheduled",
+    "verified_on": "2026-11-12",
+    "note": "The Académie Goncourt has scheduled the 2027 winner announcement. The selections have not yet been announced.",
+    "dates": [
+      {
+        "label": "Winner announcement",
+        "start": "2027-11-04",
+        "source": "https://www.academiegoncourt.com/calendrier-des-reunions",
+        "scheduled": true
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Cannes",
+    "year": 2027,
+    "status": "scheduled",
+    "verified_on": "2026-11-12",
+    "note": "The 80th festival is scheduled. Competition selections have not yet been announced.",
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2027-05-11",
+        "end": "2027-05-22",
+        "source": "https://www.festival-cannes.com/en/accueil-evenement/",
+        "scheduled": true
+      }
+    ]
+  },
+  {
+    "section": "films",
+    "event": "Venice",
+    "year": 2027,
+    "status": "scheduled",
+    "verified_on": "2026-11-12",
+    "note": "La Biennale confirms the 84th festival in September. Exact dates and competition selections have not yet been announced.",
+    "dates": [
+      {
+        "label": "Festival",
+        "start": "2027-09",
+        "source": "https://static.labiennale.org/files/cinema/2026/Documenti/83miac-brochure-a.pdf",
+        "scheduled": true
+      }
+    ]
+  },
+  {
+    "section": "tv",
+    "event": "BAFTA Television",
+    "year": 2027,
+    "status": "scheduled",
+    "verified_on": "2026-11-12",
+    "note": "The 2027 ceremony honours eligible UK transmissions from 2026. Nominations have not yet been announced.",
+    "dates": [
+      {
+        "label": "Nominations",
+        "start": "2027-03-22",
+        "source": "https://www.bafta.org/awards/television-rules/",
+        "scheduled": true
+      },
+      {
+        "label": "Ceremony",
+        "start": "2027-05-09",
+        "source": "https://www.bafta.org/awards/television-rules/",
+        "scheduled": true
+      }
+    ]
+  },
+  {
+    "section": "tv",
+    "event": "Emmys",
+    "year": 2027,
+    "status": "scheduled",
+    "verified_on": "2026-11-12",
+    "note": "The Television Academy has confirmed a September ceremony. The exact date and nominations have not yet been announced.",
+    "dates": [
+      {
+        "label": "Ceremony",
+        "start": "2027-09",
+        "source": "https://www.televisionacademy.com/features/news/awards-news/261006-emmy-prime-video-announcement-release",
+        "scheduled": true
+      }
+    ]
+  },
+  {
+    "section": "tv",
+    "event": "Emmys",
+    "year": 2026,
+    "verified_on": "2026-11-12",
+    "dates": [
+      {
+        "label": "Nominations",
+        "start": "2026-07-08",
+        "source": "https://www.televisionacademy.com/features/news/awards-news/260708-nominations"
+      },
+      {
+        "label": "Ceremony",
+        "start": "2026-09-14",
+        "source": "https://www.televisionacademy.com/features/news/awards-news/78th-emmy-awards-release"
+      }
+    ]
+  },
+  {
+    "section": "tv",
+    "event": "Golden Globes",
+    "year": 2026,
+    "verified_on": "2026-11-12",
+    "dates": [
+      {
+        "label": "Nominations",
+        "start": "2025-12-08",
+        "source": "https://goldenglobes.com/articles/nominations-announced-for-the-83rd-annual-golden-globes/"
+      },
+      {
+        "label": "Ceremony",
+        "start": "2026-01-11",
+        "source": "https://goldenglobes.com/articles/nominations-announced-for-the-83rd-annual-golden-globes/"
+      }
+    ]
+  },
+  {
+    "section": "tv",
+    "event": "BAFTA Television",
+    "year": 2026,
+    "verified_on": "2026-11-12",
+    "dates": [
+      {
+        "label": "Nominations",
+        "start": "2026-03-24",
+        "source": "https://www.bafta.org/media-centre/press-releases/nominations-announced-for-2026-tv-craft-awards-and-tv-awards/"
+      },
+      {
+        "label": "Ceremony",
+        "start": "2026-05-10",
+        "source": "https://www.bafta.org/media-centre/press-releases/winners-2026-tv-awards/"
       }
     ]
   }

@@ -11,7 +11,7 @@ const dates=JSON.parse(fs.readFileSync(new URL('imports/award-event-dates.json',
 test('Every loaded award edition has sourced dates or an explicit non-edition, with no invented calendar years',()=>{
  const films=[...read('awards-2025.js','CULTURE_AWARDS'),...read('awards-2026.js','CULTURE_AWARDS_2026')];
  const books=[...read('book-awards-2026.js','CULTURE_BOOK_AWARDS_2026').events,...read('book-awards-history.js','CULTURE_BOOK_AWARDS_HISTORY').events];
- const tv=read('tv-awards-2025.js','CULTURE_TV_AWARDS');const expected=[...films.map(e=>['films',e]),...books.map(e=>['books',e]),...tv.map(e=>['tv',e])];assert.equal(expected.length,255);assert.equal(dates.editions.length,260);
+ const tv=[...read('tv-awards-2025.js','CULTURE_TV_AWARDS'),...read('tv-awards-2026.js','CULTURE_TV_AWARDS_2026')];const expected=[...films.map(e=>['films',e]),...books.map(e=>['books',e]),...tv.map(e=>['tv',e])];assert.equal(expected.length,258);assert.equal(dates.editions.length,269);
  const w={};vm.runInNewContext(fs.readFileSync(new URL('award-dates-data.js',root),'utf8'),{window:w});vm.runInNewContext(fs.readFileSync(new URL('award-dates.js',root),'utf8'),{window:w});
  for(const [section,e]of expected){const m=w.CultureAwardDates.find(section,e.event,e.year);assert.ok(m,section+'/'+e.event+'/'+e.year);const html=w.CultureAwardDates.render(section,e);if(e.status==='not-held'){assert.equal(m.dates.length,0);assert.match(html,/Not held/);assert.doesNotMatch(html,/<time/);}else{assert.ok(m.dates.length);assert.match(html,/<time datetime="\d{4}-\d{2}-\d{2}">/);for(const d of m.dates){assert.match(d.source,/^https:\/\//);assert.equal(new Date(d.start+'T00:00:00Z').toISOString().slice(0,10),d.start);assert.ok(!d.end||d.end>=d.start);}}}
  const nobel=w.CultureAwardDates.find('books','Nobel Literature',2018);assert.equal(nobel.dates[0].start,'2019-10-10');assert.equal(nobel.dates[1].start,'2019-12-10');
@@ -32,10 +32,28 @@ test('Dates are visible across media on deep links and refresh, while unavailabl
  }finally{await a.close();}
 });
 
-test('Scheduled editions are reachable across film and TV, survive refresh and preserve announced results',async()=>{
+test('Scheduled editions are reachable across film, TV and books, survive refresh and preserve announced results',async()=>{
  for(const [section,event] of [['films','Oscars'],['films','Golden Globes'],['films','BAFTA'],['films','Berlinale'],['tv','Golden Globes']]){
   const hash=`#/${section}/awards?event=${encodeURIComponent(event)}&year=2027`,a=await boot(hash),prefix=section==='tv'?'tv-':'';
-  try {assert.equal(a.$(prefix+'award-edition-title').textContent,event+' 2027');assert.match(a.$(prefix+'awards-count').textContent,/Awaiting nominations/);assert.ok(a.$(prefix+'award-years').querySelector('[aria-current="page"]'));assert.equal(a.$(prefix+'awards-grid').querySelectorAll('article').length,0);assert.match(a.$(prefix+'awards-grid').textContent,/not yet been announced/);assert.match(a.$(prefix+'award-event-dates').textContent,/Scheduled/);assert.match(a.$(prefix+'awards-source').innerHTML,/https:/);}finally{await a.close();}
+  try {assert.equal(a.$(prefix+'award-edition-title').textContent,event+' 2027');assert.match(a.$(prefix+'awards-count').textContent,/Awaiting (nominations|selections)/);assert.ok(a.$(prefix+'award-years').querySelector('[aria-current="page"]'));assert.equal(a.$(prefix+'awards-grid').querySelectorAll('article').length,0);assert.match(a.$(prefix+'awards-grid').textContent,/not yet been announced/);assert.match(a.$(prefix+'award-event-dates').textContent,/Scheduled/);assert.match(a.$(prefix+'awards-source').innerHTML,/https:/);}finally{await a.close();}
+ }
+ for(const [section,event,prefix,date] of [
+  ['films','Cannes','','11–22 May 2027'],
+  ['films','Venice','','September 2027'],
+  ['books','International Booker','book-','16 March 2027'],
+  ['books','Prix Goncourt','book-','4 November 2027'],
+  ['tv','BAFTA Television','tv-','9 May 2027'],
+  ['tv','Emmys','tv-','September 2027'],
+ ]){
+  const a=await boot(`#/${section}/awards?event=${encodeURIComponent(event)}&year=2027`);
+  try{
+   assert.equal(a.$(prefix+'award-edition-title').textContent,event+' 2027');
+   assert.ok(a.$(prefix+'award-years').querySelector('[aria-current="page"]'));
+   assert.ok(a.$(prefix+'award-event-dates').textContent.includes(date));
+   assert.match(a.$(prefix+'award-event-dates').textContent,/Scheduled/);
+   assert.match(a.$(prefix+'awards-grid').textContent,/not yet been announced/);
+   assert.equal(a.$(prefix+'awards-grid').querySelectorAll('article').length,0);
+  }finally{await a.close();}
  }
  const a=await boot('#/books/awards?event=Booker+Prize&year=2026');try{assert.match(a.$('book-awards-grid').querySelector('.award-winner').textContent,/The End of Everything/);assert.doesNotMatch(a.$('book-award-event-dates').textContent,/Scheduled/);a.w.CultureRouter.navigate({section:'books',view:'awards',params:{event:'Prix Goncourt',year:'2026'}});assert.match(a.$('book-awards-grid').querySelector('.award-winner').textContent,/inconnue du quai de Javel/i);}finally{await a.close();}
 });

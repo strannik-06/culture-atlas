@@ -1,0 +1,376 @@
+{
+  "verified": [
+    {
+      "title": "The Pitt",
+      "work_key": "tv:250307",
+      "tmdb_id": 250307,
+      "imdb_id": "tt31938062",
+      "year": 2025,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": null
+    },
+    {
+      "title": "The Diplomat",
+      "work_key": "tv:203857",
+      "tmdb_id": 203857,
+      "imdb_id": "tt17491088",
+      "year": 2023,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": null
+    },
+    {
+      "title": "The Gilded Age",
+      "work_key": "tv:81723",
+      "tmdb_id": 81723,
+      "imdb_id": "tt4406178",
+      "year": 2022,
+      "method": "Reviewed award programme and TMDB identity",
+      "credit_anchor": null
+    },
+    {
+      "title": "A Knight of the Seven Kingdoms",
+      "work_key": "tv:224372",
+      "tmdb_id": 224372,
+      "imdb_id": "tt27497448",
+      "year": 2026,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": null
+    },
+    {
+      "title": "Paradise",
+      "work_key": "tv:245927",
+      "tmdb_id": 245927,
+      "imdb_id": "tt27444205",
+      "year": 2025,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": null
+    },
+    {
+      "title": "Pluribus",
+      "work_key": "tv:225171",
+      "tmdb_id": 225171,
+      "imdb_id": "tt22202452",
+      "year": 2025,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": null
+    },
+    {
+      "title": "Slow Horses",
+      "work_key": "tv:95480",
+      "tmdb_id": 95480,
+      "imdb_id": "tt5875444",
+      "year": 2022,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": null
+    },
+    {
+      "title": "Your Friends & Neighbors",
+      "work_key": "tv:241609",
+      "tmdb_id": 241609,
+      "imdb_id": "tt30459041",
+      "year": 2025,
+      "method": "Reviewed award programme and TMDB identity",
+      "credit_anchor": null
+    },
+    {
+      "title": "Widow's Bay",
+      "work_key": "tv:270476",
+      "tmdb_id": 270476,
+      "imdb_id": "tt33332385",
+      "year": 2026,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": null
+    },
+    {
+      "title": "Abbott Elementary",
+      "work_key": "tv:125935",
+      "tmdb_id": 125935,
+      "imdb_id": "tt14218830",
+      "year": 2021,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": null
+    },
+    {
+      "title": "The Bear",
+      "work_key": "tv:136315",
+      "tmdb_id": 136315,
+      "imdb_id": "tt14452776",
+      "year": 2022,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": null
+    },
+    {
+      "title": "Hacks",
+      "work_key": "tv:124101",
+      "tmdb_id": 124101,
+      "imdb_id": "tt11815682",
+      "year": 2021,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": null
+    },
+    {
+      "title": "Margo's Got Money Troubles",
+      "work_key": "tv:245318",
+      "tmdb_id": 245318,
+      "imdb_id": "tt31137273",
+      "year": 2026,
+      "method": "Reviewed award programme and TMDB identity",
+      "credit_anchor": null
+    },
+    {
+      "title": "Nobody Wants This",
+      "work_key": "tv:250923",
+      "tmdb_id": 250923,
+      "imdb_id": "tt26933824",
+      "year": 2024,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": null
+    },
+    {
+      "title": "Only Murders in the Building",
+      "work_key": "tv:107113",
+      "tmdb_id": 107113,
+      "imdb_id": "tt11691774",
+      "year": 2021,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": null
+    },
+    {
+      "title": "Shrinking",
+      "work_key": "tv:136311",
+      "tmdb_id": 136311,
+      "imdb_id": "tt15677150",
+      "year": 2023,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": null
+    },
+    {
+      "title": "DTF St. Louis",
+      "work_key": "tv:206828",
+      "tmdb_id": 206828,
+      "imdb_id": "tt34385331",
+      "year": 2026,
+      "method": "Reviewed award programme and TMDB identity",
+      "credit_anchor": null
+    },
+    {
+      "title": "All Her Fault",
+      "work_key": "tv:246386",
+      "tmdb_id": 246386,
+      "imdb_id": "tt31314751",
+      "year": 2025,
+      "method": "Reviewed award programme and TMDB identity",
+      "credit_anchor": null
+    },
+    {
+      "title": "The Beast in Me",
+      "work_key": "tv:250504",
+      "tmdb_id": 250504,
+      "imdb_id": "tt31974367",
+      "year": 2025,
+      "method": "Reviewed award programme and TMDB identity",
+      "credit_anchor": null
+    },
+    {
+      "title": "BEEF",
+      "work_key": "tv:154385",
+      "tmdb_id": 154385,
+      "imdb_id": "tt14403178",
+      "year": 2023,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": null
+    },
+    {
+      "title": "Love Story: John F. Kennedy Jr. & Carolyn Bessette",
+      "work_key": "tv:131142",
+      "tmdb_id": 131142,
+      "imdb_id": "tt15232564",
+      "year": 2026,
+      "method": "Reviewed award programme and TMDB identity",
+      "credit_anchor": null
+    },
+    {
+      "title": "Severance",
+      "work_key": "tv:95396",
+      "tmdb_id": 95396,
+      "imdb_id": "tt11280740",
+      "year": 2022,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": null
+    },
+    {
+      "title": "The White Lotus",
+      "work_key": "tv:111803",
+      "tmdb_id": 111803,
+      "imdb_id": "tt13406094",
+      "year": 2021,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": null
+    },
+    {
+      "title": "The Studio",
+      "work_key": "tv:247767",
+      "tmdb_id": 247767,
+      "imdb_id": "tt23649128",
+      "year": 2025,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": null
+    },
+    {
+      "title": "Adolescence",
+      "work_key": "tv:249042",
+      "tmdb_id": 249042,
+      "imdb_id": "tt31806037",
+      "year": 2025,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": null
+    },
+    {
+      "title": "Black Mirror",
+      "work_key": "tv:42009",
+      "tmdb_id": 42009,
+      "imdb_id": "tt2085059",
+      "year": 2011,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": null
+    },
+    {
+      "title": "Dying for Sex",
+      "work_key": "tv:241405",
+      "tmdb_id": 241405,
+      "imdb_id": "tt30252752",
+      "year": 2025,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": null
+    },
+    {
+      "title": "The Girlfriend",
+      "work_key": "tv:253376",
+      "tmdb_id": 253376,
+      "imdb_id": "tt32267726",
+      "year": 2025,
+      "method": "Reviewed award programme and TMDB identity",
+      "credit_anchor": null
+    },
+    {
+      "title": "Code of Silence",
+      "work_key": "tv:287355",
+      "tmdb_id": 287355,
+      "imdb_id": "tt30249123",
+      "year": 2025,
+      "method": "Reviewed award programme and TMDB identity",
+      "credit_anchor": null
+    },
+    {
+      "title": "Blue Lights",
+      "work_key": "tv:218344",
+      "tmdb_id": 218344,
+      "imdb_id": "tt14466018",
+      "year": 2023,
+      "method": "Existing reviewed canonical title and premiere year",
+      "credit_anchor": null
+    },
+    {
+      "title": "This City Is Ours",
+      "work_key": "tv:255570",
+      "tmdb_id": 255570,
+      "imdb_id": "tt31438328",
+      "year": 2025,
+      "method": "Reviewed award programme and TMDB identity",
+      "credit_anchor": null
+    },
+    {
+      "title": "A Thousand Blows",
+      "work_key": "tv:208851",
+      "tmdb_id": 208851,
+      "imdb_id": "tt21874900",
+      "year": 2025,
+      "method": "Reviewed award programme and TMDB identity",
+      "credit_anchor": null
+    },
+    {
+      "title": "I Fought the Law",
+      "work_key": "tv:299095",
+      "tmdb_id": 299095,
+      "imdb_id": "tt32263148",
+      "year": 2025,
+      "method": "Reviewed award programme and TMDB identity",
+      "credit_anchor": null
+    },
+    {
+      "title": "Trespasses",
+      "work_key": "tv:260650",
+      "tmdb_id": 260650,
+      "imdb_id": "tt33059458",
+      "year": 2025,
+      "method": "Reviewed award programme and TMDB identity",
+      "credit_anchor": null
+    },
+    {
+      "title": "What It Feels Like for a Girl",
+      "work_key": "tv:286654",
+      "tmdb_id": 286654,
+      "imdb_id": "tt28131282",
+      "year": 2025,
+      "method": "Reviewed award programme and TMDB identity",
+      "credit_anchor": null
+    },
+    {
+      "title": "Amandaland",
+      "work_key": "tv:255355",
+      "tmdb_id": 255355,
+      "imdb_id": "tt33305711",
+      "year": 2025,
+      "method": "Reviewed award programme and TMDB identity",
+      "credit_anchor": null
+    },
+    {
+      "title": "Big Boys",
+      "work_key": "tv:202851",
+      "tmdb_id": 202851,
+      "imdb_id": "tt13683866",
+      "year": 2022,
+      "method": "Reviewed award programme and TMDB identity",
+      "credit_anchor": null
+    },
+    {
+      "title": "How Are You? It's Alan (Partridge)",
+      "work_key": "tv:246111",
+      "tmdb_id": 246111,
+      "imdb_id": "tt32410998",
+      "year": 2025,
+      "method": "Reviewed award programme and TMDB identity",
+      "credit_anchor": null
+    },
+    {
+      "title": "Things You Should Have Done",
+      "work_key": "tv:246394",
+      "tmdb_id": 246394,
+      "imdb_id": "tt29427309",
+      "year": 2024,
+      "method": "Reviewed award programme and TMDB identity",
+      "credit_anchor": null
+    }
+  ],
+  "added": [
+    "tv:81723",
+    "tv:241609",
+    "tv:245318",
+    "tv:206828",
+    "tv:246386",
+    "tv:250504",
+    "tv:131142",
+    "tv:253376",
+    "tv:287355",
+    "tv:255570",
+    "tv:208851",
+    "tv:299095",
+    "tv:260650",
+    "tv:286654",
+    "tv:255355",
+    "tv:202851",
+    "tv:246111",
+    "tv:246394"
+  ],
+  "unresolved": []
+}
