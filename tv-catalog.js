@@ -11170,5 +11170,1085 @@ window.CULTURE_TV_CATALOG = [
       "https://www.themoviedb.org/movie/1238400"
     ],
     "scope_label": "Documentary programme"
+  },
+  {
+    "id": "tv:81723",
+    "work_type": "tv",
+    "series_kind": "series",
+    "title": "The Gilded Age",
+    "original_title": "The Gilded Age",
+    "year": 2022,
+    "first_air_date": "2022-01-24",
+    "tmdb_id": 81723,
+    "tmdb_media_type": "tv",
+    "imdb_id": "tt4406178",
+    "original_language": "en",
+    "cast": [
+      {
+        "id": 1308445,
+        "name": "Carrie Coon"
+      },
+      {
+        "id": 937913,
+        "name": "Morgan Spector"
+      },
+      {
+        "id": 2527631,
+        "name": "Louisa Jacobson"
+      },
+      {
+        "id": 1631771,
+        "name": "Denée Benton"
+      },
+      {
+        "id": 527313,
+        "name": "Taissa Farmiga"
+      },
+      {
+        "id": 1545288,
+        "name": "Harry Richardson"
+      },
+      {
+        "id": 80154,
+        "name": "Blake Ritson"
+      },
+      {
+        "id": 37891,
+        "name": "Simon Jones"
+      },
+      {
+        "id": 77023,
+        "name": "Jack Gilpin"
+      }
+    ],
+    "poster_path": "/tdsuFe0JVLqjxfptElRA9YFJcUE.jpg",
+    "overview": "It's 1882 and the Gilded Age is in full swing when Marian Brook moves in with her rigidly conventional aunts in New York City. With the help of Peggy Scott, an African-American woman masquerading as her maid, Marian gets caught up in the dazzling lives of her rich neighbors as she struggles to decide between adhering to the rules or forging her own path.",
+    "tmdb_rating": 7.7,
+    "identity_status": "provider_verified",
+    "evidence_urls": [
+      "https://www.televisionacademy.com/78thnoms-list",
+      "https://www.themoviedb.org/tv/81723-the-gilded-age",
+      "https://www.imdb.com/title/tt4406178"
+    ],
+    "scope_label": "Whole series; season ratings remain separate"
+  },
+  {
+    "id": "tv:241609",
+    "work_type": "tv",
+    "series_kind": "series",
+    "title": "Your Friends & Neighbors",
+    "original_title": "Your Friends & Neighbors",
+    "year": 2025,
+    "first_air_date": "2025-04-10",
+    "tmdb_id": 241609,
+    "tmdb_media_type": "tv",
+    "imdb_id": "tt30459041",
+    "original_language": "en",
+    "cast": [
+      {
+        "id": 65717,
+        "name": "Jon Hamm"
+      },
+      {
+        "id": 2956,
+        "name": "Amanda Peet"
+      },
+      {
+        "id": 81364,
+        "name": "Olivia Munn"
+      },
+      {
+        "id": 1255311,
+        "name": "Hoon Lee"
+      },
+      {
+        "id": 1344380,
+        "name": "Mark Tallman"
+      },
+      {
+        "id": 1545427,
+        "name": "Lena Hall"
+      },
+      {
+        "id": 1224238,
+        "name": "Aimee Carrero"
+      },
+      {
+        "id": 3264033,
+        "name": "Eunice Bae"
+      },
+      {
+        "id": 1775560,
+        "name": "Isabel Gravitt"
+      }
+    ],
+    "poster_path": "/lcp63INKEsVHUly9eayx7gEEOcG.jpg",
+    "overview": "When a financial titan suddenly finds himself divorced and jobless, he starts robbing his wealthy neighbors to stay afloat. Stealing from his own social circle strangely exhilarates him—but he gradually gets tangled in a deadly web.",
+    "tmdb_rating": 7.7,
+    "identity_status": "provider_verified",
+    "evidence_urls": [
+      "https://www.televisionacademy.com/78thnoms-list",
+      "https://www.themoviedb.org/tv/241609-your-friends-and-neighbors",
+      "https://www.imdb.com/title/tt30459041"
+    ],
+    "scope_label": "Whole series; season ratings remain separate"
+  },
+  {
+    "id": "tv:245318",
+    "work_type": "tv",
+    "series_kind": "series",
+    "title": "Margo's Got Money Troubles",
+    "original_title": "Margo's Got Money Troubles",
+    "year": 2026,
+    "first_air_date": "2026-04-14",
+    "tmdb_id": 245318,
+    "tmdb_media_type": "tv",
+    "imdb_id": "tt31137273",
+    "original_language": "en",
+    "cast": [
+      {
+        "id": 18050,
+        "name": "Elle Fanning"
+      },
+      {
+        "id": 1160,
+        "name": "Michelle Pfeiffer"
+      },
+      {
+        "id": 17039,
+        "name": "Nick Offerman"
+      },
+      {
+        "id": 17141,
+        "name": "Greg Kinnear"
+      },
+      {
+        "id": 2515060,
+        "name": "Thaddea Graham"
+      },
+      {
+        "id": 6141987,
+        "name": "Graham Hendrix"
+      },
+      {
+        "id": 6151353,
+        "name": "River Cabrera-Kelley"
+      },
+      {
+        "id": 11665,
+        "name": "Michael Angarano"
+      },
+      {
+        "id": 4726,
+        "name": "Marcia Gay Harden"
+      }
+    ],
+    "poster_path": "/fRR0Ho2c1nFJQiXWg4LNIgRPbg0.jpg",
+    "overview": "The daughter of a former Hooter's waitress and an ex-pro wrestler, Margo is a recent college dropout and aspiring writer. Faced with a new baby, mounting pile of bills, and dwindling number of ways to pay them, Margo must find a way forward.",
+    "tmdb_rating": 7.9,
+    "identity_status": "provider_verified",
+    "evidence_urls": [
+      "https://www.televisionacademy.com/78thnoms-list",
+      "https://www.themoviedb.org/tv/245318-margo-s-got-money-troubles",
+      "https://www.imdb.com/title/tt31137273"
+    ],
+    "scope_label": "Whole series; season ratings remain separate"
+  },
+  {
+    "id": "tv:206828",
+    "work_type": "tv",
+    "series_kind": "miniseries",
+    "title": "DTF St. Louis",
+    "original_title": "DTF St. Louis",
+    "year": 2026,
+    "first_air_date": "2026-03-01",
+    "tmdb_id": 206828,
+    "tmdb_media_type": "tv",
+    "imdb_id": "tt34385331",
+    "original_language": "en",
+    "cast": [
+      {
+        "id": 35029,
+        "name": "David Harbour"
+      },
+      {
+        "id": 23532,
+        "name": "Jason Bateman"
+      },
+      {
+        "id": 1817,
+        "name": "Linda Cardellini"
+      },
+      {
+        "id": 28633,
+        "name": "Richard Jenkins"
+      },
+      {
+        "id": 2189049,
+        "name": "Joy Sunday"
+      },
+      {
+        "id": 5014159,
+        "name": "Arlan Ruf"
+      },
+      {
+        "id": 133,
+        "name": "Peter Sarsgaard"
+      },
+      {
+        "id": 203734,
+        "name": "Wynn Everett"
+      },
+      {
+        "id": 6186007,
+        "name": "Aizley Ford"
+      }
+    ],
+    "poster_path": "/xHfafw9UmomDc7jO25s9MpiL4Zs.jpg",
+    "overview": "A love triangle among three adults experiencing middle-age malaise leads to one of them ending up dead.",
+    "tmdb_rating": 7,
+    "identity_status": "provider_verified",
+    "evidence_urls": [
+      "https://www.televisionacademy.com/78thnoms-list",
+      "https://www.themoviedb.org/tv/206828-my-dentist-s-murder-trial",
+      "https://www.imdb.com/title/tt34385331"
+    ],
+    "scope_label": "Whole series; season ratings remain separate"
+  },
+  {
+    "id": "tv:246386",
+    "work_type": "tv",
+    "series_kind": "miniseries",
+    "title": "All Her Fault",
+    "original_title": "All Her Fault",
+    "year": 2025,
+    "first_air_date": "2025-11-07",
+    "tmdb_id": 246386,
+    "tmdb_media_type": "tv",
+    "imdb_id": "tt31314751",
+    "original_language": "en",
+    "cast": [
+      {
+        "id": 235416,
+        "name": "Sarah Snook"
+      },
+      {
+        "id": 496470,
+        "name": "Jake Lacy"
+      },
+      {
+        "id": 1481238,
+        "name": "Sophia Lillis"
+      },
+      {
+        "id": 454,
+        "name": "Michael Peña"
+      },
+      {
+        "id": 501,
+        "name": "Dakota Fanning"
+      },
+      {
+        "id": 1240486,
+        "name": "Abby Elliott"
+      },
+      {
+        "id": 151680,
+        "name": "Jay Ellis"
+      },
+      {
+        "id": 4898225,
+        "name": "Duke McCloud"
+      },
+      {
+        "id": 5839786,
+        "name": "Tayden Jax Ryan"
+      }
+    ],
+    "poster_path": "/o8vZKZlc8H4OcgpbJuqP0iK4B2.jpg",
+    "overview": "In Chicago, Marissa Irvine arrives at 14 Arthur Avenue, expecting to pick up her young son Milo from his first playdate with a boy at his new school. But the woman who answers the door isn't a mother she recognizes. She isn't the nanny. She doesn't have Milo. And so begins every parent's worst nightmare.",
+    "tmdb_rating": 8,
+    "identity_status": "provider_verified",
+    "evidence_urls": [
+      "https://www.televisionacademy.com/78thnoms-list",
+      "https://www.themoviedb.org/tv/246386-all-her-fault",
+      "https://www.imdb.com/title/tt31314751",
+      "https://goldenglobes.com/nominations/2026"
+    ],
+    "scope_label": "Whole series; season ratings remain separate"
+  },
+  {
+    "id": "tv:250504",
+    "work_type": "tv",
+    "series_kind": "series",
+    "title": "The Beast in Me",
+    "original_title": "The Beast in Me",
+    "year": 2025,
+    "first_air_date": "2025-11-13",
+    "tmdb_id": 250504,
+    "tmdb_media_type": "tv",
+    "imdb_id": "tt31974367",
+    "original_language": "en",
+    "cast": [
+      {
+        "id": 6194,
+        "name": "Claire Danes"
+      },
+      {
+        "id": 29528,
+        "name": "Matthew Rhys"
+      },
+      {
+        "id": 29221,
+        "name": "Brittany Snow"
+      },
+      {
+        "id": 118752,
+        "name": "Natalie Morales"
+      },
+      {
+        "id": 40275,
+        "name": "Tim Guinee"
+      },
+      {
+        "id": 1218184,
+        "name": "Hettienne Park"
+      },
+      {
+        "id": 783,
+        "name": "Jonathan Banks"
+      },
+      {
+        "id": 76941,
+        "name": "David Lyons"
+      },
+      {
+        "id": 1779913,
+        "name": "Bubba Weiler"
+      }
+    ],
+    "poster_path": "/jxf7JCfIMvGONWTNUIJ068sFixK.jpg",
+    "overview": "A famous author is pulled into a twisted mind game with her rich, powerful new neighbor — who might be a murderer.",
+    "tmdb_rating": 7.1,
+    "identity_status": "provider_verified",
+    "evidence_urls": [
+      "https://www.televisionacademy.com/78thnoms-list",
+      "https://www.themoviedb.org/tv/250504-the-beast-in-me",
+      "https://www.imdb.com/title/tt31974367",
+      "https://goldenglobes.com/nominations/2026"
+    ],
+    "scope_label": "Whole series; season ratings remain separate"
+  },
+  {
+    "id": "tv:131142",
+    "work_type": "tv",
+    "series_kind": "series",
+    "title": "Love Story",
+    "original_title": "Love Story",
+    "year": 2026,
+    "first_air_date": "2026-02-12",
+    "tmdb_id": 131142,
+    "tmdb_media_type": "tv",
+    "imdb_id": "tt15232564",
+    "original_language": "en",
+    "cast": [
+      {
+        "id": 2286541,
+        "name": "Sarah Pidgeon"
+      },
+      {
+        "id": 5436564,
+        "name": "Paul Anthony Kelly"
+      },
+      {
+        "id": 504787,
+        "name": "Grace Gummer"
+      },
+      {
+        "id": 6437,
+        "name": "Ben Shenkman"
+      },
+      {
+        "id": 4941,
+        "name": "Alessandro Nivola"
+      },
+      {
+        "id": 1192928,
+        "name": "Erich Bergen"
+      },
+      {
+        "id": 995514,
+        "name": "Michael Nathanson"
+      },
+      {
+        "id": 1303156,
+        "name": "Sydney Lemmon"
+      },
+      {
+        "id": 1594098,
+        "name": "Tonatiuh"
+      }
+    ],
+    "poster_path": "/qp67ixTkVd4MEhMZhGorFoOXRxl.jpg",
+    "overview": "An anthology of sweeping true love stories that captured the world’s attention.",
+    "tmdb_rating": 8.2,
+    "identity_status": "provider_verified",
+    "evidence_urls": [
+      "https://www.televisionacademy.com/78thnoms-list",
+      "https://www.themoviedb.org/tv/131142-american-love-story",
+      "https://www.imdb.com/title/tt15232564"
+    ],
+    "scope_label": "Whole series; season ratings remain separate"
+  },
+  {
+    "id": "tv:253376",
+    "work_type": "tv",
+    "series_kind": "miniseries",
+    "title": "The Girlfriend",
+    "original_title": "The Girlfriend",
+    "year": 2025,
+    "first_air_date": "2025-09-10",
+    "tmdb_id": 253376,
+    "tmdb_media_type": "tv",
+    "imdb_id": "tt32267726",
+    "original_language": "en",
+    "cast": [
+      {
+        "id": 32,
+        "name": "Robin Wright"
+      },
+      {
+        "id": 1173984,
+        "name": "Olivia Cooke"
+      },
+      {
+        "id": 1800302,
+        "name": "Laurie Davidson"
+      },
+      {
+        "id": 94431,
+        "name": "Waleed Zuaiter"
+      },
+      {
+        "id": 1198661,
+        "name": "Karen Henthorn"
+      },
+      {
+        "id": 31427,
+        "name": "Tanya Moodie"
+      },
+      {
+        "id": 1687354,
+        "name": "Shalom Brune-Franklin"
+      },
+      {
+        "id": 10731,
+        "name": "Anna Chancellor"
+      },
+      {
+        "id": 2329463,
+        "name": "Marina Bye"
+      }
+    ],
+    "poster_path": "/ktrp3tdZ5IQpFux4nLy8z70bt3n.jpg",
+    "overview": "Laura has it all: a glittering career, a loving husband, and her precious son, Daniel. But her perfect life unravels when Daniel brings home Cherry, a girlfriend who changes everything. After a tense introduction, Laura becomes convinced Cherry is hiding something. Is she a manipulative social climber, or is Laura just paranoid? The truth is a matter of perspective.",
+    "tmdb_rating": 7.1,
+    "identity_status": "provider_verified",
+    "evidence_urls": [
+      "https://goldenglobes.com/nominations/2026",
+      "https://www.themoviedb.org/tv/253376-the-girlfriend",
+      "https://www.imdb.com/title/tt32267726"
+    ],
+    "scope_label": "Whole series; season ratings remain separate"
+  },
+  {
+    "id": "tv:287355",
+    "work_type": "tv",
+    "series_kind": "series",
+    "title": "Code of Silence",
+    "original_title": "Code of Silence",
+    "year": 2025,
+    "first_air_date": "2025-05-18",
+    "tmdb_id": 287355,
+    "tmdb_media_type": "tv",
+    "imdb_id": "tt30249123",
+    "original_language": "en",
+    "cast": [
+      {
+        "id": 3191053,
+        "name": "Rose Ayling-Ellis"
+      },
+      {
+        "id": 2511084,
+        "name": "Kieron Moore"
+      },
+      {
+        "id": 1488056,
+        "name": "Charlotte Ritchie"
+      },
+      {
+        "id": 1235008,
+        "name": "Andrew Buchan"
+      },
+      {
+        "id": 97430,
+        "name": "Joe Absolom"
+      },
+      {
+        "id": 2926690,
+        "name": "Nathan Armarkwei-Laryea"
+      },
+      {
+        "id": 5641239,
+        "name": "Rolf Choutan"
+      },
+      {
+        "id": 5256831,
+        "name": "Fifi Garfield"
+      },
+      {
+        "id": 1211881,
+        "name": "Beth Goddard"
+      }
+    ],
+    "poster_path": "/6IR1HJeu301r01DbYLthuhXZ4j9.jpg",
+    "overview": "A deaf catering worker who is struggling to make ends meet is called upon by a police detective superintendent to lip-read the conversations of criminals.",
+    "tmdb_rating": 6.6,
+    "identity_status": "provider_verified",
+    "evidence_urls": [
+      "https://www.bafta.org/awards/television/",
+      "https://www.themoviedb.org/tv/287355-code-of-silence",
+      "https://www.imdb.com/title/tt30249123"
+    ],
+    "scope_label": "Whole series; season ratings remain separate"
+  },
+  {
+    "id": "tv:255570",
+    "work_type": "tv",
+    "series_kind": "series",
+    "title": "This City Is Ours",
+    "original_title": "This City Is Ours",
+    "year": 2025,
+    "first_air_date": "2025-03-23",
+    "tmdb_id": 255570,
+    "tmdb_media_type": "tv",
+    "imdb_id": "tt31438328",
+    "original_language": "en",
+    "cast": [
+      {
+        "id": 1803196,
+        "name": "James Nelson-Joyce"
+      },
+      {
+        "id": 3260026,
+        "name": "Hannah Onslow"
+      },
+      {
+        "id": 233093,
+        "name": "Jack McMullen"
+      },
+      {
+        "id": 1218392,
+        "name": "Mike Noble"
+      },
+      {
+        "id": 47735,
+        "name": "Julie Graham"
+      },
+      {
+        "id": 1660888,
+        "name": "Saoirse-Monica Jackson"
+      },
+      {
+        "id": 82638,
+        "name": "Laura Aikman"
+      },
+      {
+        "id": 63311,
+        "name": "Shaun Evans"
+      },
+      {
+        "id": 1340020,
+        "name": "Álvaro Morte"
+      }
+    ],
+    "poster_path": "/75BwofwAZbf6GlhP2m6NPpP3bW2.jpg",
+    "overview": "After trying to leave a world of crime, Michael is dragged back into the fold to answer questions. Back in Liverpool tensions continue to bubble amongst the remaining members of the gang, and a gangster who's just been let out of prison wants answers.",
+    "tmdb_rating": 7.5,
+    "identity_status": "provider_verified",
+    "evidence_urls": [
+      "https://www.bafta.org/awards/television/",
+      "https://www.themoviedb.org/tv/255570-this-city-is-ours",
+      "https://www.imdb.com/title/tt31438328"
+    ],
+    "scope_label": "Whole series; season ratings remain separate"
+  },
+  {
+    "id": "tv:208851",
+    "work_type": "tv",
+    "series_kind": "series",
+    "title": "A Thousand Blows",
+    "original_title": "A Thousand Blows",
+    "year": 2025,
+    "first_air_date": "2025-02-21",
+    "tmdb_id": 208851,
+    "tmdb_media_type": "tv",
+    "imdb_id": "tt21874900",
+    "original_language": "en",
+    "cast": [
+      {
+        "id": 1145665,
+        "name": "Malachi Kirby"
+      },
+      {
+        "id": 2121856,
+        "name": "Erin Doherty"
+      },
+      {
+        "id": 1115,
+        "name": "Stephen Graham"
+      },
+      {
+        "id": 1914302,
+        "name": "Caoilfhionn Dunne"
+      },
+      {
+        "id": 5264500,
+        "name": "Morgan Hilaire"
+      },
+      {
+        "id": 3732661,
+        "name": "Jemma Carlton"
+      },
+      {
+        "id": 1803196,
+        "name": "James Nelson-Joyce"
+      },
+      {
+        "id": 1252521,
+        "name": "Hannah Walters"
+      },
+      {
+        "id": 2021992,
+        "name": "Darci Shaw"
+      }
+    ],
+    "poster_path": "/598wQ3wr0fxpGemkR7ZVFTuHPXg.jpg",
+    "overview": "Hezekiah and Alec, two friends from Jamaica, finds themselves thrust into the criminal underbelly of London's East End. Here they meet Mary Carr, Queen of an all-female criminal gang known as the Forty Elephants, and run afoul of Sugar Goodson, criminal kingpin and notorious boxer.",
+    "tmdb_rating": 6.7,
+    "identity_status": "provider_verified",
+    "evidence_urls": [
+      "https://www.bafta.org/awards/television/",
+      "https://www.themoviedb.org/tv/208851-a-thousand-blows",
+      "https://www.imdb.com/title/tt21874900"
+    ],
+    "scope_label": "Whole series; season ratings remain separate"
+  },
+  {
+    "id": "tv:299095",
+    "work_type": "tv",
+    "series_kind": "miniseries",
+    "title": "I Fought the Law",
+    "original_title": "I Fought the Law",
+    "year": 2025,
+    "first_air_date": "2025-08-31",
+    "tmdb_id": 299095,
+    "tmdb_media_type": "tv",
+    "imdb_id": "tt32263148",
+    "original_language": "en",
+    "cast": [
+      {
+        "id": 110080,
+        "name": "Sheridan Smith"
+      },
+      {
+        "id": 19874,
+        "name": "Daniel York Loh"
+      },
+      {
+        "id": 4979358,
+        "name": "Victoria Wyant"
+      },
+      {
+        "id": 2640168,
+        "name": "Jack James Ryan"
+      },
+      {
+        "id": 3200703,
+        "name": "Marlowe Chan-Reeves"
+      },
+      {
+        "id": 5646768,
+        "name": "Olivia Ng"
+      },
+      {
+        "id": 1412288,
+        "name": "Jake Davies"
+      },
+      {
+        "id": 5920273,
+        "name": "Buddy Wignall-Ho"
+      },
+      {
+        "id": 91494,
+        "name": "Enzo Cilenti"
+      }
+    ],
+    "poster_path": "/4GYFm59BY10qBoU73Qzs3woeUp1.jpg",
+    "overview": "Ann Ming is distraught when her 22-year-old daughter Julie goes missing. The police suggest that Julie must have fled to London to reunite with Julie's estranged husband, but Ann knows that Julie would never leave 5-year-old Kevin behind.",
+    "tmdb_rating": 6.9,
+    "identity_status": "provider_verified",
+    "evidence_urls": [
+      "https://www.bafta.org/awards/television/",
+      "https://www.themoviedb.org/tv/299095-i-fought-the-law",
+      "https://www.imdb.com/title/tt32263148"
+    ],
+    "scope_label": "Whole series; season ratings remain separate"
+  },
+  {
+    "id": "tv:260650",
+    "work_type": "tv",
+    "series_kind": "miniseries",
+    "title": "Trespasses",
+    "original_title": "Trespasses",
+    "year": 2025,
+    "first_air_date": "2025-11-09",
+    "tmdb_id": 260650,
+    "tmdb_media_type": "tv",
+    "imdb_id": "tt33059458",
+    "original_language": "en",
+    "cast": [
+      {
+        "id": 1969732,
+        "name": "Lola Petticrew"
+      },
+      {
+        "id": 586000,
+        "name": "Tom Cullen"
+      },
+      {
+        "id": 12214,
+        "name": "Gillian Anderson"
+      },
+      {
+        "id": 76104,
+        "name": "Martin McCann"
+      },
+      {
+        "id": 1370602,
+        "name": "Emily Taaffe"
+      },
+      {
+        "id": 5750546,
+        "name": "Oisín Thompson"
+      },
+      {
+        "id": 1307013,
+        "name": "Barry Ward"
+      },
+      {
+        "id": 5617502,
+        "name": "Conlaoch Gough-Cunningham"
+      },
+      {
+        "id": 1990998,
+        "name": "Andrew Porter"
+      }
+    ],
+    "poster_path": "/ucwjasSOz2pr4TsRycK7Muegsh2.jpg",
+    "overview": "When young Catholic teacher Cushla falls for a married Protestant man, their secret passion ignites a dangerous love that defies the Troubles divide.",
+    "tmdb_rating": 6.4,
+    "identity_status": "provider_verified",
+    "evidence_urls": [
+      "https://www.bafta.org/awards/television/",
+      "https://www.themoviedb.org/tv/260650-the-trespasses",
+      "https://www.imdb.com/title/tt33059458"
+    ],
+    "scope_label": "Whole series; season ratings remain separate"
+  },
+  {
+    "id": "tv:286654",
+    "work_type": "tv",
+    "series_kind": "miniseries",
+    "title": "What It Feels Like for a Girl",
+    "original_title": "What It Feels Like for a Girl",
+    "year": 2025,
+    "first_air_date": "2025-06-03",
+    "tmdb_id": 286654,
+    "tmdb_media_type": "tv",
+    "imdb_id": "tt28131282",
+    "original_language": "en",
+    "cast": [
+      {
+        "id": 1826549,
+        "name": "Calam Lynch"
+      },
+      {
+        "id": 3037852,
+        "name": "Ellis Howard"
+      },
+      {
+        "id": 1252521,
+        "name": "Hannah Walters"
+      },
+      {
+        "id": 209578,
+        "name": "Laura Haddock"
+      },
+      {
+        "id": 126171,
+        "name": "Michael Socha"
+      },
+      {
+        "id": 5455128,
+        "name": "Laquarn Lewis"
+      },
+      {
+        "id": 5455129,
+        "name": "Hannah Jones"
+      },
+      {
+        "id": 3204809,
+        "name": "Adam Ali"
+      },
+      {
+        "id": 2882966,
+        "name": "Alex Thomas-Smith"
+      }
+    ],
+    "poster_path": "/ycHMy83cCswVyqYEOBQAH2feKzT.jpg",
+    "overview": "To find yourself, sometimes you need to lose yourself. It's Y2K, and Byron's flirting with discovery and destruction, love and anarchy. Inspired by Paris Lees's raw, riotous memoir.",
+    "tmdb_rating": 4.8,
+    "identity_status": "provider_verified",
+    "evidence_urls": [
+      "https://www.bafta.org/awards/television/",
+      "https://www.themoviedb.org/tv/286654-what-it-feels-like-for-a-girl",
+      "https://www.imdb.com/title/tt28131282"
+    ],
+    "scope_label": "Whole series; season ratings remain separate"
+  },
+  {
+    "id": "tv:255355",
+    "work_type": "tv",
+    "series_kind": "series",
+    "title": "Amandaland",
+    "original_title": "Amandaland",
+    "year": 2025,
+    "first_air_date": "2025-02-05",
+    "tmdb_id": 255355,
+    "tmdb_media_type": "tv",
+    "imdb_id": "tt33305711",
+    "original_language": "en",
+    "cast": [
+      {
+        "id": 66446,
+        "name": "Lucy Punch"
+      },
+      {
+        "id": 34901,
+        "name": "Joanna Lumley"
+      },
+      {
+        "id": 1677578,
+        "name": "Phillipa Dunne"
+      },
+      {
+        "id": 55465,
+        "name": "Samuel Anderson"
+      },
+      {
+        "id": 1742631,
+        "name": "Siobhán McSweeney"
+      },
+      {
+        "id": 1903700,
+        "name": "Rochenda Sandall"
+      },
+      {
+        "id": 1797012,
+        "name": "Ekow Quartey"
+      },
+      {
+        "id": 5958324,
+        "name": "Archie Smith"
+      },
+      {
+        "id": 1972389,
+        "name": "Jack Veal"
+      }
+    ],
+    "poster_path": "/4QDYK4EpwuLb54TmRPZioKJwUtE.jpg",
+    "overview": "Post her divorce, Amanda has had to downsize and up sticks to South Harlesden, or as the Estate Agent calls it SoHa (definitely not the area around Wormwood Scrubs prison). With both Manus and Georgie now at secondary school, Amanda has to try and get her head around raising teenagers, dealing with modern motherhood horrors like teenage drinking, fake Instagram accounts and eco anxiety. Spin off from Motherland.",
+    "tmdb_rating": 6.8,
+    "identity_status": "provider_verified",
+    "evidence_urls": [
+      "https://www.bafta.org/awards/television/",
+      "https://www.themoviedb.org/tv/255355-amandaland",
+      "https://www.imdb.com/title/tt33305711"
+    ],
+    "scope_label": "Whole series; season ratings remain separate"
+  },
+  {
+    "id": "tv:202851",
+    "work_type": "tv",
+    "series_kind": "series",
+    "title": "Big Boys",
+    "original_title": "Big Boys",
+    "year": 2022,
+    "first_air_date": "2022-05-26",
+    "tmdb_id": 202851,
+    "tmdb_media_type": "tv",
+    "imdb_id": "tt13683866",
+    "original_language": "en",
+    "cast": [
+      {
+        "id": 2534768,
+        "name": "Jack Rooke"
+      },
+      {
+        "id": 1312166,
+        "name": "Dylan Llewellyn"
+      },
+      {
+        "id": 2021396,
+        "name": "Jon Pointing"
+      },
+      {
+        "id": 1903400,
+        "name": "Izuka Hoyle"
+      },
+      {
+        "id": 26071,
+        "name": "Camille Coduri"
+      },
+      {
+        "id": 62975,
+        "name": "Katy Wix"
+      },
+      {
+        "id": 2403046,
+        "name": "Harriet Webb"
+      },
+      {
+        "id": 1835574,
+        "name": "Olisa Odele"
+      },
+      {
+        "id": 30320,
+        "name": "Annette Badland"
+      }
+    ],
+    "poster_path": "/wByI6Yg7Jtofb6H9xFlzk8w4IrQ.jpg",
+    "overview": "Two boys from very different ends of the 'spectrum of masculinity' become best friends at Brent University freshers' week; in their first year of uni, they explore, experiment and try to discover themselves, helping one another along the way.",
+    "tmdb_rating": 7.6,
+    "identity_status": "provider_verified",
+    "evidence_urls": [
+      "https://www.bafta.org/awards/television/",
+      "https://www.themoviedb.org/tv/202851-big-boys",
+      "https://www.imdb.com/title/tt13683866"
+    ],
+    "scope_label": "Whole series; season ratings remain separate"
+  },
+  {
+    "id": "tv:246111",
+    "work_type": "tv",
+    "series_kind": "series",
+    "title": "How Are You? It's Alan (Partridge)",
+    "original_title": "How Are You? It's Alan (Partridge)",
+    "year": 2025,
+    "first_air_date": "2025-10-03",
+    "tmdb_id": 246111,
+    "tmdb_media_type": "tv",
+    "imdb_id": "tt32410998",
+    "original_language": "en",
+    "cast": [
+      {
+        "id": 4581,
+        "name": "Steve Coogan"
+      },
+      {
+        "id": 9143,
+        "name": "Felicity Montagu"
+      },
+      {
+        "id": 543632,
+        "name": "Katherine Kelly"
+      },
+      {
+        "id": 5932768,
+        "name": "Joseph Edwards"
+      }
+    ],
+    "poster_path": "/qk5OdMApS2rY2SrBYdunKPjtGG5.jpg",
+    "overview": "The beloved and, to be fair, revered broadcaster returns to Britain after a year in Saudi Arabia to ask some important questions.",
+    "tmdb_rating": 6.2,
+    "identity_status": "provider_verified",
+    "evidence_urls": [
+      "https://www.bafta.org/awards/television/",
+      "https://www.themoviedb.org/tv/246111-and-did-those-feet-with-alan-partridge",
+      "https://www.imdb.com/title/tt32410998"
+    ],
+    "scope_label": "Whole series; season ratings remain separate"
+  },
+  {
+    "id": "tv:246394",
+    "work_type": "tv",
+    "series_kind": "series",
+    "title": "Things You Should Have Done",
+    "original_title": "Things You Should Have Done",
+    "year": 2024,
+    "first_air_date": "2024-02-29",
+    "tmdb_id": 246394,
+    "tmdb_media_type": "tv",
+    "imdb_id": "tt29427309",
+    "original_language": "en",
+    "cast": [
+      {
+        "id": 3624209,
+        "name": "Lucia Keskin"
+      },
+      {
+        "id": 1214691,
+        "name": "Martha Cope"
+      },
+      {
+        "id": 1602898,
+        "name": "Darren Strange"
+      },
+      {
+        "id": 1525322,
+        "name": "Daniel Fearn"
+      },
+      {
+        "id": 4565644,
+        "name": "Jamie Bisping"
+      },
+      {
+        "id": 1256214,
+        "name": "Selin Hizli"
+      },
+      {
+        "id": 1785462,
+        "name": "Bridget Christie"
+      },
+      {
+        "id": 36668,
+        "name": "Sinéad Matthews"
+      },
+      {
+        "id": 3002842,
+        "name": "Sunil Patel"
+      }
+    ],
+    "poster_path": "/tcp6ykLjtB4jW84XAsvCvZJZno5.jpg",
+    "overview": "Get a job! Pay the bills! Clueless Chi is forced to fend for herself when her parents die. To get her inheritance, the ultimate stay-at-home daughter has to step it up.",
+    "tmdb_rating": 6.6,
+    "identity_status": "provider_verified",
+    "evidence_urls": [
+      "https://www.bafta.org/awards/television/",
+      "https://www.themoviedb.org/tv/246394-things-you-should-have-done",
+      "https://www.imdb.com/title/tt29427309"
+    ],
+    "scope_label": "Whole series; season ratings remain separate"
   }
 ];

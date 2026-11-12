@@ -28,7 +28,7 @@ test('All six awards cover every year from 2011 through 2025 with the correct hi
 });
 test('Historic book URLs render all award types and distinguish author awards, non-editions and shared prizes',async()=>{
  for(const [name,year]of [['Booker Prize',2019],['Pulitzer Prize',2012],['Nobel Literature',2018],['National Book Awards',2011],['Prix Goncourt',2025],['International Booker',2011],['International Booker',2012]]){
-  const a=await boot(`#/books/awards?event=${encodeURIComponent(name)}&year=${year}`);try{assert.equal(a.$('book-award-edition-title').textContent,`${name} ${year}`);assert.equal(a.$('book-award-years').querySelectorAll('a').length,16);
+  const a=await boot(`#/books/awards?event=${encodeURIComponent(name)}&year=${year}`);try{assert.equal(a.$('book-award-edition-title').textContent,`${name} ${year}`);assert.equal(a.$('book-award-years').querySelectorAll('a').length,['International Booker','Prix Goncourt'].includes(name)?17:16);
    if(name==='International Booker'&&year===2011){assert.equal(a.$('book-awards-grid').querySelectorAll('.award-author-card').length,13);assert.equal(a.$('book-awards-grid').querySelectorAll('.award-author-card [data-book-rate]').length,0);assert.match(a.$('book-award-intro').textContent,/Philip Roth/);}
    if(name==='International Booker'&&year===2012)assert.match(a.$('book-awards-grid').textContent,/No prize was awarded/);
    if(name==='Nobel Literature'){assert.match(a.$('book-award-intro').textContent,/Olga Tokarczuk/);assert.match(a.$('book-awards-event-details').textContent,/2019/);assert.doesNotMatch(a.$('book-award-intro').textContent,/Anne Carson/);}

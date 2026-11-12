@@ -4,7 +4,10 @@
  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const key=(section,event,year)=>JSON.stringify([section,event,Number(year)]);
  const editions=new Map((window.CULTURE_AWARD_EVENT_DATES||[]).map(e=>[key(e.section,e.event,e.year),e]));
- const day=s=>new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'}).format(new Date(s+'T00:00:00Z'));
+ const day=s=>{
+  const monthOnly=s.length===7;
+  return new Intl.DateTimeFormat('en-GB',{...(monthOnly?{}:{day:'numeric'}),month:'long',year:'numeric',timeZone:'UTC'}).format(new Date(s+(monthOnly?'-01':'')+'T00:00:00Z'));
+ };
  const time=(iso,text=day(iso))=>`<time datetime="${esc(iso)}">${esc(text)}</time>`;
  function range(start,end){
   if(!end||end===start)return time(start);

@@ -34,7 +34,7 @@ test('2026: every award, complete selected feature scope, winners and canonical 
 });
 test('Award tabs, latest editions, year history, category repeats and winner-first cards survive refresh',async()=>{
  const a=await boot();try{
-  const{w,$}=a;assert.equal($('award-tabs').querySelectorAll('a').length,6);assert.equal($('award-year').value,'2026');assert.equal($('award-event').closest('[hidden]').hidden,true);
+  const{w,$}=a;assert.equal($('award-tabs').querySelectorAll('a').length,6);assert.equal($('award-year').value,'2027');assert.equal($('award-event').closest('[hidden]').hidden,true);
   $('award-tabs').querySelector('a[href*="event=Oscars"]').click();assert.equal($('award-edition-title').textContent,'Oscars 2027');assert.match($('awards-count').textContent,/Awaiting nominations/);$('award-year-nav').querySelector('[rel="prev"]').click();assert.equal($('award-edition-title').textContent,'Oscars 2026');
   const groups=$('awards-grid').querySelectorAll('.award-category');assert.equal(groups.length,11);assert.equal(groups[0].querySelector('h3').textContent,'Best Picture');assert.match(groups[0].querySelector('article').textContent,/One Battle After Another|One Battle after Another/);assert.match(groups[0].querySelector('article').className,/award-winner/);
   const id=groups[0].querySelector('article').dataset.filmId;assert.ok($('awards-grid').querySelectorAll(`[data-film-id="${id}"]`).length>1);
@@ -71,7 +71,7 @@ test('Ceremony performer nominations still repeat and share one rating',async()=
 test('Award URLs preserve older category/winners bookmarks and reject unavailable editions honestly',async()=>{
  const a=await boot('#/films/awards?event=Oscars&year=2025&category=0&result=winners');try{
   assert.equal(a.$('awards-grid').querySelectorAll('.award-category').length,1);assert.equal(a.$('awards-grid').querySelectorAll('article').length,1);
-  a.w.CultureRouter.navigate({section:'films',view:'awards',params:{event:'Cannes',year:'2000'}});assert.match(a.$('awards-grid').textContent,/not been added/);assert.equal(a.$('award-years').querySelectorAll('a').length,26);
+  a.w.CultureRouter.navigate({section:'films',view:'awards',params:{event:'Cannes',year:'2000'}});assert.match(a.$('awards-grid').textContent,/not been added/);assert.equal(a.$('award-years').querySelectorAll('a').length,27);
  }finally{await a.close();}
 });
 
@@ -124,11 +124,11 @@ test('Golden Globes historical editions preserve twelve categories, year navigat
 });
 
 test('Historical Cannes editions display two complete sections and aggregate prizes without duplicate cards',async()=>{
- for(const year of [2021,2022,2023,2024,2025]){const a=await boot(`#/films/awards?event=Cannes&year=${year}`);try{assert.equal(a.$('award-edition-title').textContent,`Cannes ${year}`);assert.equal(a.$('awards-grid').querySelectorAll('.award-category').length,2);assert.equal(a.$('award-years').querySelectorAll('a').length,26);for(const section of a.$('awards-grid').querySelectorAll('.award-category')){const cards=[...section.querySelectorAll('article')];assert.equal(new Set(cards.map(c=>c.dataset.filmId)).size,cards.length);assert.match(cards[0].textContent,/Winner/);}}finally{await a.close();}}
+ for(const year of [2021,2022,2023,2024,2025]){const a=await boot(`#/films/awards?event=Cannes&year=${year}`);try{assert.equal(a.$('award-edition-title').textContent,`Cannes ${year}`);assert.equal(a.$('awards-grid').querySelectorAll('.award-category').length,2);assert.equal(a.$('award-years').querySelectorAll('a').length,27);for(const section of a.$('awards-grid').querySelectorAll('.award-category')){const cards=[...section.querySelectorAll('article')];assert.equal(new Set(cards.map(c=>c.dataset.filmId)).size,cards.length);assert.match(cards[0].textContent,/Winner/);}}finally{await a.close();}}
 });
 
 test('Historical Venice editions display two complete sections and aggregate prizes without duplicate cards',async()=>{
- for(const year of [2021,2022,2023,2024,2025]){const a=await boot(`#/films/awards?event=Venice&year=${year}`);try{assert.equal(a.$('award-edition-title').textContent,`Venice ${year}`);assert.equal(a.$('awards-grid').querySelectorAll('.award-category').length,2);assert.equal(a.$('award-years').querySelectorAll('a').length,26);for(const section of a.$('awards-grid').querySelectorAll('.award-category')){const cards=[...section.querySelectorAll('article')];assert.equal(new Set(cards.map(c=>c.dataset.filmId)).size,cards.length);assert.match(cards[0].textContent,/Winner/);}}finally{await a.close();}}
+ for(const year of [2021,2022,2023,2024,2025]){const a=await boot(`#/films/awards?event=Venice&year=${year}`);try{assert.equal(a.$('award-edition-title').textContent,`Venice ${year}`);assert.equal(a.$('awards-grid').querySelectorAll('.award-category').length,2);assert.equal(a.$('award-years').querySelectorAll('a').length,27);for(const section of a.$('awards-grid').querySelectorAll('.award-category')){const cards=[...section.querySelectorAll('article')];assert.equal(new Set(cards.map(c=>c.dataset.filmId)).size,cards.length);assert.match(cards[0].textContent,/Winner/);}}finally{await a.close();}}
 });
 
 test('Historical Berlinale editions display two complete sections and aggregate prizes without duplicate cards',async()=>{
