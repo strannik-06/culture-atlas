@@ -97,7 +97,7 @@
   const cast=(m.cast||[]).map(person=>typeof person==='string'?person:person.name).filter(Boolean);
   card.dialog.querySelector('[data-cast]').textContent=cast.length?'Cast · '+cast.join(', '):'';
   card.element.querySelector('[data-result-credits]').innerHTML=cast.length
-   ? window.CultureLayouts?.summary('<div class="cast">'+esc(cast.join(', '))+'</div>') || ''
+   ? window.CultureLayouts?.summary('<div class="cast">'+esc(cast.join(', '))+'</div>', {showMore:type!=='movie'}) || ''
    : '';
   card.element.querySelector('[data-search-rating]').textContent=user&&p?.rating?'★ '+Number(p.rating).toFixed(1)+'/10':'';
 
