@@ -87,11 +87,18 @@
   const {metadata:m,progress:p,seasons=[]}=card.data,d=card.draft,season=card.season;
   const credits=m.director||(m.creators||[]).map(x=>x.name).join(', ')||'Credits not listed';
   card.element.querySelector('[data-credit]').textContent=credits;
+  const runtime=type==='movie' ? window.CultureLayouts?.formatRuntime(m.runtime) : '';
+  const facts=[card.year,runtime].filter(Boolean).join(' · ');
+  card.element.querySelector('[data-result-facts]').textContent=facts;
+  card.dialog.querySelector('[data-result-facts]').textContent=facts;
   card.element.querySelector('[data-title]').textContent=m.title;
   card.dialog.querySelector('h2').textContent=m.title;
   card.dialog.querySelector('[data-overview]').textContent=m.overview||'';
   const cast=(m.cast||[]).map(person=>typeof person==='string'?person:person.name).filter(Boolean);
   card.dialog.querySelector('[data-cast]').textContent=cast.length?'Cast · '+cast.join(', '):'';
+  card.element.querySelector('[data-result-credits]').innerHTML=cast.length
+   ? window.CultureLayouts?.summary('<div class="cast">'+esc(cast.join(', '))+'</div>', {showMore:type!=='movie'}) || ''
+   : '';
   card.element.querySelector('[data-search-rating]').textContent=user&&p?.rating?'★ '+Number(p.rating).toFixed(1)+'/10':'';
 
   if(!user){
@@ -130,20 +137,21 @@
    : `<span class="initial" aria-hidden="true">${esc((result.title || '?')[0])}</span>`}</div>
    <div class="body">
     <h3><button type="button" class="entity-search-title" data-title aria-haspopup="dialog">${esc(result.title)}</button></h3>
-    <p class="meta">${esc(year)} · <span data-credit>${esc(result.director || 'Loading credits…')}</span></p>
+    <p class="meta entity-card-meta"><span class="entity-card-credit" data-credit>${esc(result.director || 'Loading credits…')}</span><span class="entity-card-facts" data-result-facts>${esc(year)}</span></p>
+    <div class="entity-result-credits" data-result-credits></div>
     <div class="controls"><span data-search-rating></span></div>
    </div>
    <dialog class="media-detail-dialog entity-search-editor" aria-labelledby="${titleId}">
     <div class="detail-toolbar"><button type="button" data-close-result>Close ×</button></div>
     <h2 id="${titleId}">${esc(result.title)}</h2>
-    <p class="meta">${esc(year)}${result.original_title && result.original_title !== result.title ? ' · '+esc(result.original_title) : ''}</p>
+    <p class="meta"><span data-result-facts>${esc(year)}</span>${result.original_title && result.original_title !== result.title ? ' · '+esc(result.original_title) : ''}</p>
     <p data-overview></p><p data-cast class="meta"></p>
     <div data-editor></div><p data-status class="meta" role="status" aria-live="polite"></p>
     <a data-source target="_blank" rel="noopener noreferrer" class="meta" href="https://www.themoviedb.org/${type}/${esc(result.id)}">TMDB ↗</a>
    </dialog>`;
   element.querySelector('img')?.addEventListener('error', e => { e.target.hidden = true; });
   const dialog = element.querySelector('dialog');
-  const card = {id:result.id, element, dialog, season:null, busy:false, version:0, data:null, draft:null, drafts:new Map()};
+  const card = {id:result.id, element, dialog, year, season:null, busy:false, version:0, data:null, draft:null, drafts:new Map()};
   element.querySelector('[data-title]').onclick = () => {
    openResult = card;
    dialog.showModal();

@@ -41,7 +41,14 @@ test('Award tabs, latest editions, year history, category repeats and winner-fir
   const previous=$('award-year-nav').querySelector('[rel="prev"]');assert.ok(previous);previous.click();assert.equal($('award-year').value,'2025');
   w.history.back();await tick();assert.equal($('award-year').value,'2026');
   const reload=await boot(w.location.hash);try{assert.equal(reload.$('award-edition-title').textContent,'Oscars 2026');assert.equal(reload.$('awards-grid').querySelectorAll('.award-category').length,11);}finally{await reload.close();}
-  const card=$('awards-grid').querySelector('article');card.querySelector('h3 a').click();assert.equal($('film-detail-dialog').open,true);w.history.back();await tick();assert.equal($('film-detail-dialog').open,false);assert.equal($('award-edition-title').textContent,'Oscars 2026');
+  const card=$('awards-grid').querySelector('article');
+  for(const layout of ['cards','list']){
+   $('awards-view').querySelector(`[data-layout-choice="${layout}"]`).click();
+   assert.equal($('awards-grid').dataset.entityLayout,layout);
+   assert.ok(card.querySelector('.entity-summary-preview').textContent.trim());
+   assert.equal($('awards-grid').querySelector('[data-entity-more]'),null);
+  }
+  card.querySelector('h3 a').click();assert.equal($('film-detail-dialog').open,true);w.history.back();await tick();assert.equal($('film-detail-dialog').open,false);assert.equal($('award-edition-title').textContent,'Oscars 2026');
  }finally{await a.close();}
 });
 test('Festivals show one card per film per section and aggregate every prize and shared performer',async()=>{
