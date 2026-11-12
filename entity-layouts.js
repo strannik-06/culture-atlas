@@ -10,7 +10,6 @@
  };
  let client;
  let account = {id:null, choices:read(null), syncing:new Set(), changed:new Set()};
- let summaryDialog;
 
  function valid(layout) {
   return layout === 'cards' || layout === 'list';
@@ -138,46 +137,9 @@
   return Number.isInteger(minutes) && minutes > 0 ? minutes + ' min' : '';
  }
 
- function summary(markup, {showMore = true} = {}) {
-  if (!markup) return '';
-  const button = showMore ? '<button class="entity-more" type="button" data-entity-more aria-haspopup="dialog" aria-label="Show more credits and awards">More</button>' : '';
-  return '<div class="entity-summary"><div class="entity-summary-preview" inert>' + markup + '</div>' + button + '</div>';
+ function summary(markup) {
+  return markup ? '<div class="entity-summary"><div class="entity-summary-preview" inert>' + markup + '</div></div>' : '';
  }
-
- document.addEventListener('click', event => {
-  const button = event.target.closest('[data-entity-more]');
-  if (!button) return;
-  const card = button.closest('article');
-  const content = card?.querySelector('.entity-summary-preview');
-  if (!content) return;
-  if (!summaryDialog) {
-   summaryDialog = document.createElement('dialog');
-   summaryDialog.className = 'media-detail-dialog entity-summary-dialog';
-   summaryDialog.setAttribute('aria-labelledby', 'entity-summary-title');
-   summaryDialog.innerHTML = '<form method="dialog" class="entity-summary-close"><button type="button" class="action">Close ×</button></form><h2 id="entity-summary-title"></h2><div class="entity-summary-content"></div>';
-   summaryDialog.querySelector('button').addEventListener('click', () => summaryDialog.close());
-   summaryDialog.addEventListener('click', event => {
-    if (event.target === summaryDialog || event.target.closest('a')) summaryDialog.close();
-   });
-   document.body.append(summaryDialog);
-  }
-  summaryDialog.querySelector('h2').textContent = card.querySelector('h3').textContent;
-  const expanded = summaryDialog.querySelector('.entity-summary-content');
-  expanded.replaceChildren();
-  let hasAwardsHeading = false;
-  for (const child of content.children) {
-   const cast = child.classList.contains('cast');
-   const award = child.matches('.recognition, .awards, .book-award-label, .award-person');
-   if (cast || (award && !hasAwardsHeading)) {
-    const heading = document.createElement('h3');
-    heading.textContent = cast ? 'Cast' : 'Awards';
-    expanded.append(heading);
-    if (award) hasAwardsHeading = true;
-   }
-   expanded.append(child.cloneNode(true));
-  }
-  summaryDialog.showModal();
- });
 
  window.addEventListener('online', () => {
   for (const key of account.choices.keys()) void sync(account, key);
