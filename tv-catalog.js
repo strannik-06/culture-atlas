@@ -11183,6 +11183,8 @@ window.CULTURE_TV_CATALOG = [
     "tmdb_media_type": "tv",
     "imdb_id": "tt4406178",
     "original_language": "en",
+    "creators": [],
+    "directors": [],
     "cast": [
       {
         "id": 1308445,
@@ -11244,6 +11246,8 @@ window.CULTURE_TV_CATALOG = [
     "tmdb_media_type": "tv",
     "imdb_id": "tt30459041",
     "original_language": "en",
+    "creators": [],
+    "directors": [],
     "cast": [
       {
         "id": 65717,
@@ -11305,6 +11309,8 @@ window.CULTURE_TV_CATALOG = [
     "tmdb_media_type": "tv",
     "imdb_id": "tt31137273",
     "original_language": "en",
+    "creators": [],
+    "directors": [],
     "cast": [
       {
         "id": 18050,
@@ -11366,6 +11372,8 @@ window.CULTURE_TV_CATALOG = [
     "tmdb_media_type": "tv",
     "imdb_id": "tt34385331",
     "original_language": "en",
+    "creators": [],
+    "directors": [],
     "cast": [
       {
         "id": 35029,
@@ -11427,6 +11435,8 @@ window.CULTURE_TV_CATALOG = [
     "tmdb_media_type": "tv",
     "imdb_id": "tt31314751",
     "original_language": "en",
+    "creators": [],
+    "directors": [],
     "cast": [
       {
         "id": 235416,
@@ -11489,6 +11499,8 @@ window.CULTURE_TV_CATALOG = [
     "tmdb_media_type": "tv",
     "imdb_id": "tt31974367",
     "original_language": "en",
+    "creators": [],
+    "directors": [],
     "cast": [
       {
         "id": 6194,
@@ -11551,6 +11563,8 @@ window.CULTURE_TV_CATALOG = [
     "tmdb_media_type": "tv",
     "imdb_id": "tt15232564",
     "original_language": "en",
+    "creators": [],
+    "directors": [],
     "cast": [
       {
         "id": 2286541,
@@ -11612,6 +11626,8 @@ window.CULTURE_TV_CATALOG = [
     "tmdb_media_type": "tv",
     "imdb_id": "tt32267726",
     "original_language": "en",
+    "creators": [],
+    "directors": [],
     "cast": [
       {
         "id": 32,
@@ -11673,6 +11689,8 @@ window.CULTURE_TV_CATALOG = [
     "tmdb_media_type": "tv",
     "imdb_id": "tt30249123",
     "original_language": "en",
+    "creators": [],
+    "directors": [],
     "cast": [
       {
         "id": 3191053,
@@ -11734,6 +11752,8 @@ window.CULTURE_TV_CATALOG = [
     "tmdb_media_type": "tv",
     "imdb_id": "tt31438328",
     "original_language": "en",
+    "creators": [],
+    "directors": [],
     "cast": [
       {
         "id": 1803196,
@@ -11795,6 +11815,8 @@ window.CULTURE_TV_CATALOG = [
     "tmdb_media_type": "tv",
     "imdb_id": "tt21874900",
     "original_language": "en",
+    "creators": [],
+    "directors": [],
     "cast": [
       {
         "id": 1145665,
@@ -11856,6 +11878,8 @@ window.CULTURE_TV_CATALOG = [
     "tmdb_media_type": "tv",
     "imdb_id": "tt32263148",
     "original_language": "en",
+    "creators": [],
+    "directors": [],
     "cast": [
       {
         "id": 110080,
@@ -11917,6 +11941,8 @@ window.CULTURE_TV_CATALOG = [
     "tmdb_media_type": "tv",
     "imdb_id": "tt33059458",
     "original_language": "en",
+    "creators": [],
+    "directors": [],
     "cast": [
       {
         "id": 1969732,
@@ -11978,6 +12004,8 @@ window.CULTURE_TV_CATALOG = [
     "tmdb_media_type": "tv",
     "imdb_id": "tt28131282",
     "original_language": "en",
+    "creators": [],
+    "directors": [],
     "cast": [
       {
         "id": 1826549,
@@ -12039,6 +12067,8 @@ window.CULTURE_TV_CATALOG = [
     "tmdb_media_type": "tv",
     "imdb_id": "tt33305711",
     "original_language": "en",
+    "creators": [],
+    "directors": [],
     "cast": [
       {
         "id": 66446,
@@ -12100,6 +12130,8 @@ window.CULTURE_TV_CATALOG = [
     "tmdb_media_type": "tv",
     "imdb_id": "tt13683866",
     "original_language": "en",
+    "creators": [],
+    "directors": [],
     "cast": [
       {
         "id": 2534768,
@@ -12161,6 +12193,8 @@ window.CULTURE_TV_CATALOG = [
     "tmdb_media_type": "tv",
     "imdb_id": "tt32410998",
     "original_language": "en",
+    "creators": [],
+    "directors": [],
     "cast": [
       {
         "id": 4581,
@@ -12202,6 +12236,8 @@ window.CULTURE_TV_CATALOG = [
     "tmdb_media_type": "tv",
     "imdb_id": "tt29427309",
     "original_language": "en",
+    "creators": [],
+    "directors": [],
     "cast": [
       {
         "id": 3624209,
