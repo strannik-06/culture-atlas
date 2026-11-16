@@ -174,11 +174,22 @@ window.CULTURE_AWARD_EVENT_DATES = [
     "year": 2025,
     "dates": [
       {
+        "label": "Longlist",
+        "start": "2025-07-29",
+        "source": "https://thebookerprizes.com/media-centre/press-releases/most-global-booker-prize-longlist-in-a-decade-leaves-judges-feeling-elated"
+      },
+      {
+        "label": "Shortlist",
+        "start": "2025-09-23",
+        "source": "https://thebookerprizes.com/media-centre/press-releases/brilliantly-human-booker-prize-2025-shortlist"
+      },
+      {
         "label": "Ceremony",
         "start": "2025-11-10",
         "source": "https://thebookerprizes.com/media-centre/press-releases/flesh-by-david-szalay-wins-the-booker-prize-2025"
       }
-    ]
+    ],
+    "verified_on": "2026-11-16"
   },
   {
     "section": "books",
@@ -198,10 +209,10 @@ window.CULTURE_AWARD_EVENT_DATES = [
       {
         "label": "Ceremony",
         "start": "2026-11-09",
-        "source": "https://thebookerprizes.com/the-booker-library/prize-years/2026"
+        "source": "https://thebookerprizes.com/the-booker-library/features/everything-you-need-to-know-about-the-end-of-everything-booker-prize-2026"
       }
     ],
-    "verified_on": "2026-11-12"
+    "verified_on": "2026-11-16"
   },
   {
     "section": "books",
@@ -374,11 +385,22 @@ window.CULTURE_AWARD_EVENT_DATES = [
     "year": 2025,
     "dates": [
       {
+        "label": "Longlist",
+        "start": "2025-02-25",
+        "source": "https://thebookerprizes.com/media-centre/press-releases/heart-lamp-wins-the-international-booker-prize-2025"
+      },
+      {
+        "label": "Shortlist",
+        "start": "2025-04-08",
+        "source": "https://thebookerprizes.com/media-centre/press-releases/heart-lamp-wins-the-international-booker-prize-2025"
+      },
+      {
         "label": "Ceremony",
         "start": "2025-05-20",
         "source": "https://thebookerprizes.com/the-booker-library/prize-years/international/2025"
       }
-    ]
+    ],
+    "verified_on": "2026-11-16"
   },
   {
     "section": "books",
@@ -386,11 +408,22 @@ window.CULTURE_AWARD_EVENT_DATES = [
     "year": 2026,
     "dates": [
       {
+        "label": "Longlist",
+        "start": "2026-02-24",
+        "source": "https://thebookerprizes.com/media-centre/press-releases/longlist-announced-for-the-international-booker-prize-2026"
+      },
+      {
+        "label": "Shortlist",
+        "start": "2026-03-31",
+        "source": "https://thebookerprizes.com/media-centre/press-releases/shortlist-announced-for-the-international-booker-prize-2026"
+      },
+      {
         "label": "Ceremony",
         "start": "2026-05-19",
         "source": "https://thebookerprizes.com/the-booker-library/prize-years/international/2026"
       }
-    ]
+    ],
+    "verified_on": "2026-11-16"
   },
   {
     "section": "books",
@@ -566,11 +599,23 @@ window.CULTURE_AWARD_EVENT_DATES = [
     "year": 2025,
     "dates": [
       {
+        "label": "Longlists",
+        "start": "2025-09-09",
+        "source": "https://www.nationalbook.org/2025-national-book-awards-online-entry-form-is-now-open/",
+        "end": "2025-09-12"
+      },
+      {
+        "label": "Finalists",
+        "start": "2025-10-07",
+        "source": "https://www.nationalbook.org/2025-national-book-awards-finalists-announced/"
+      },
+      {
         "label": "Ceremony",
         "start": "2025-11-19",
         "source": "https://www.nationalbook.org/awards2025/"
       }
-    ]
+    ],
+    "verified_on": "2026-11-16"
   },
   {
     "section": "books",
@@ -578,12 +623,24 @@ window.CULTURE_AWARD_EVENT_DATES = [
     "year": 2026,
     "dates": [
       {
+        "label": "Longlists",
+        "start": "2026-09-15",
+        "source": "https://www.nationalbook.org/national-book-awards/submissions/",
+        "end": "2026-09-17"
+      },
+      {
+        "label": "Finalists",
+        "start": "2026-10-06",
+        "source": "https://www.nationalbook.org/2026-national-book-award-finalists-announced/"
+      },
+      {
         "label": "Ceremony",
         "start": "2026-11-18",
         "source": "https://www.nationalbook.org/awards2026/",
         "scheduled": true
       }
-    ]
+    ],
+    "verified_on": "2026-11-16"
   },
   {
     "section": "books",
@@ -1244,8 +1301,14 @@ window.CULTURE_AWARD_EVENT_DATES = [
         "label": "Winner announcement",
         "start": "2025-05-05",
         "source": "https://www.pulitzer.org/node/2025-pulitzer-prize-announcement"
+      },
+      {
+        "label": "Ceremony",
+        "start": "2025-10-30",
+        "source": "https://www.pulitzer.org/node/2025-pulitzer-prize-awards-ceremony"
       }
-    ]
+    ],
+    "verified_on": "2026-11-16"
   },
   {
     "section": "books",
@@ -1256,8 +1319,14 @@ window.CULTURE_AWARD_EVENT_DATES = [
         "label": "Winner announcement",
         "start": "2026-05-04",
         "source": "https://www.pulitzer.org/news/2026-pulitzer-prize-announcement"
+      },
+      {
+        "label": "Ceremony",
+        "start": "2026-10-29",
+        "source": "https://www.pulitzer.org/news/2026-pulitzer-prize-awards-ceremony"
       }
-    ]
+    ],
+    "verified_on": "2026-11-16"
   },
   {
     "section": "films",
@@ -1400,8 +1469,14 @@ window.CULTURE_AWARD_EVENT_DATES = [
         "start": "2025-02-13",
         "source": "https://digital-strategy.ec.europa.eu/en/news/european-commission-berlinale-2025",
         "end": "2025-02-23"
+      },
+      {
+        "label": "Ceremony",
+        "start": "2025-02-22",
+        "source": "https://www.berlinale.de/en/2025/news-press-releases/266165.html"
       }
-    ]
+    ],
+    "verified_on": "2026-11-16"
   },
   {
     "section": "films",
@@ -1413,8 +1488,14 @@ window.CULTURE_AWARD_EVENT_DATES = [
         "start": "2026-02-12",
         "source": "https://www.berlinale.de/en/2026/topics/competition-2026.html",
         "end": "2026-02-22"
+      },
+      {
+        "label": "Ceremony",
+        "start": "2026-02-21",
+        "source": "https://www.berlinale.de/en/2026/news-press-releases/277999.html"
       }
-    ]
+    ],
+    "verified_on": "2026-11-16"
   },
   {
     "section": "films",
@@ -3419,7 +3500,7 @@ window.CULTURE_AWARD_EVENT_DATES = [
     "event": "Berlinale",
     "year": 2027,
     "status": "scheduled",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-16",
     "note": "The 2027 festival dates are confirmed. Competition selections have not yet been announced.",
     "dates": [
       {
@@ -3434,6 +3515,12 @@ window.CULTURE_AWARD_EVENT_DATES = [
         "source": "https://www.berlinale.de/en/dates.html",
         "scheduled": true,
         "end": "2027-02-21"
+      },
+      {
+        "label": "Ceremony",
+        "start": "2027-02-19",
+        "source": "https://www.berlinale.de/en/2027/news-press-releases/278428.html",
+        "scheduled": true
       }
     ]
   },
@@ -3603,6 +3690,28 @@ window.CULTURE_AWARD_EVENT_DATES = [
         "label": "Ceremony",
         "start": "2026-05-10",
         "source": "https://www.bafta.org/media-centre/press-releases/winners-2026-tv-awards/"
+      }
+    ]
+  },
+  {
+    "section": "books",
+    "event": "Booker Prize",
+    "year": 2027,
+    "status": "scheduled",
+    "verified_on": "2026-11-16",
+    "note": "The longlist and shortlist have not yet been announced. The organizer has named the announcement months. Exact dates and the ceremony schedule are pending.",
+    "dates": [
+      {
+        "label": "Longlist",
+        "start": "2027-07",
+        "source": "https://thebookerprizes.com/booker-prize/enter-the-booker-prize",
+        "scheduled": true
+      },
+      {
+        "label": "Shortlist",
+        "start": "2027-09",
+        "source": "https://thebookerprizes.com/booker-prize/enter-the-booker-prize",
+        "scheduled": true
       }
     ]
   }
