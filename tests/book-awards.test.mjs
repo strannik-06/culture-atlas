@@ -16,7 +16,10 @@ test('2026 book coverage is complete, sourced and honest about announced results
  assert.equal(data.events.find(e=>e.event==='International Booker').categories[0].entries.filter(r=>r.winner).length,1);
 });
 test('Book award tabs, stage labels, Nobel profile and shareable detail navigation survive refresh',async()=>{
- const a=await boot();try{const{w,$}=a;assert.equal($('book-award-tabs').querySelectorAll('a').length,6);assert.equal($('book-award-edition-title').textContent,'Booker Prize 2026');assert.match($('book-awards-event-details').textContent,/9 November/);assert.equal($('book-awards-grid').querySelectorAll('.award-winner').length,1);assert.equal($('book-more').hidden,true);
+ const a=await boot();try{const{w,$}=a;assert.equal($('book-award-tabs').querySelectorAll('a').length,6);
+  assert.equal($('book-award-edition-title').textContent,'Booker Prize 2027');
+  $('book-award-year-nav').querySelector('a[rel="prev"]').click();
+  assert.equal($('book-award-edition-title').textContent,'Booker Prize 2026');assert.match($('book-awards-event-details').textContent,/9 November/);assert.equal($('book-awards-grid').querySelectorAll('.award-winner').length,1);assert.equal($('book-more').hidden,true);
   w.CultureRouter.navigate({section:'books',view:'awards',params:{event:'International Booker',year:'2026'}});assert.equal($('book-awards-grid').querySelectorAll('article').length,6);assert.equal($('book-awards-grid').querySelectorAll('.award-winner').length,1);assert.match($('book-awards-grid').querySelector('article').textContent,/Taiwan Travelogue/);assert.match($('book-awards-grid').textContent,/Lin King/);
   $('book-award-tabs').querySelector('a[href*="Nobel"]').click();assert.match($('book-award-intro').textContent,/Anne Carson/);assert.equal($('book-awards-grid').querySelectorAll('.award-winner').length,0);assert.match($('book-awards-event-details').textContent,/Anne Carson’s body of work/);
   assert.equal($('book-awards-grid').querySelector('[data-entity-more]'),null);
