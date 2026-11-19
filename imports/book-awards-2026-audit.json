@@ -1,5 +1,5 @@
 {
-  "verified_on": "2026-10-23",
+  "verified_on": "2026-11-19",
   "total_books": 69,
   "reused_catalogue": [
     {
@@ -467,7 +467,7 @@
     },
     {
       "event": "National Book Awards",
-      "status": "finalists",
+      "status": "awarded",
       "books": 25,
       "categories": 5
     },

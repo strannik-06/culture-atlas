@@ -1,6 +1,6 @@
 window.CULTURE_BOOK_AWARDS_2026 = {
   "format": "culture-atlas-book-awards-v1",
-  "verified_on": "2026-10-23",
+  "verified_on": "2026-11-19",
   "books": [
     {
       "key": "the-end-of-everything-m-john-harrison",
@@ -620,7 +620,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       ],
       "first_publish_year": 2026,
       "sources": [
-        "https://www.nationalbook.org/awards-prizes/national-book-awards-2026/?cat=fiction"
+        "https://www.nationalbook.org/awards-prizes/national-book-awards-2026/?cat=fiction",
+        "https://www.nationalbook.org/books/paradiso-17/"
       ],
       "open_library_work_id": "/works/OL45986595W",
       "cover_id": 15255668,
@@ -729,7 +730,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       ],
       "first_publish_year": 2026,
       "sources": [
-        "https://www.nationalbook.org/awards-prizes/national-book-awards-2026/?cat=nonfiction"
+        "https://www.nationalbook.org/awards-prizes/national-book-awards-2026/?cat=nonfiction",
+        "https://www.nationalbook.org/books/huna-a-memoir-of-revolution-prison-and-becoming/"
       ],
       "open_library_work_id": "/works/OL45148209W",
       "source_key": "book-awards:huna-a-memoir-of-revolution-prison-and-becoming-abdelrahman-elgendy",
@@ -820,7 +822,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       ],
       "first_publish_year": 2026,
       "sources": [
-        "https://www.nationalbook.org/awards-prizes/national-book-awards-2026/?cat=poetry"
+        "https://www.nationalbook.org/awards-prizes/national-book-awards-2026/?cat=poetry",
+        "https://www.nationalbook.org/books/still-house-in-the-desert-an-eco-contemplation/"
       ],
       "source_key": "book-awards:still-house-in-the-desert-an-eco-contemplation-brenda-hillman",
       "cover_source_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/03.-Brenda-Hillman_Still-House-in-the-Desert-An-eco-contemplation_Finalist-Medallion.jpg",
@@ -880,7 +883,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       ],
       "first_publish_year": 2020,
       "sources": [
-        "https://www.nationalbook.org/awards-prizes/national-book-awards-2026/?cat=translated-literature"
+        "https://www.nationalbook.org/awards-prizes/national-book-awards-2026/?cat=translated-literature",
+        "https://www.nationalbook.org/books/centroeuropa/"
       ],
       "open_library_work_id": "/works/OL22129524W",
       "cover_id": 10443855,
@@ -993,7 +997,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       ],
       "first_publish_year": 2026,
       "sources": [
-        "https://www.nationalbook.org/awards-prizes/national-book-awards-2026/?cat=ypl"
+        "https://www.nationalbook.org/awards-prizes/national-book-awards-2026/?cat=ypl",
+        "https://www.nationalbook.org/books/the-fight-of-our-lives-aids-in-america/"
       ],
       "source_key": "book-awards:the-fight-of-our-lives-aids-in-america-david-levithan-gabriel-duckels",
       "cover_source_url": "https://www.nationalbook.org/wp-content/uploads/2026/10/04.-David-Levithan-and-Gabriel-Duckels_The-Fight-of-Our-Lives-AIDS-in-America_Finalist-Medallion.jpg",
@@ -1555,9 +1560,9 @@ window.CULTURE_BOOK_AWARDS_2026 = {
       "event": "National Book Awards",
       "year": 2026,
       "source": "https://www.nationalbook.org/awards-prizes/national-book-awards-2026/",
-      "status": "finalists",
-      "verified_on": "2026-10-23",
-      "note": "Five finalists in each of five categories. Winners to be announced on 18 November 2026.",
+      "status": "awarded",
+      "verified_on": "2026-11-19",
+      "note": "Winners announced on 18 November 2026. All 25 finalists are retained across five categories.",
       "categories": [
         {
           "id": "fiction",
@@ -1566,8 +1571,9 @@ window.CULTURE_BOOK_AWARDS_2026 = {
           "entries": [
             {
               "item_id": "paradiso-17-hannah-lillith-assadi",
-              "winner": false,
-              "label": "Finalist"
+              "winner": true,
+              "label": "Winner",
+              "source": "https://www.nationalbook.org/books/paradiso-17/"
             },
             {
               "item_id": "dey-edwidge-danticat",
@@ -1590,7 +1596,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
               "label": "Finalist"
             }
           ],
-          "eyebrow": "Prize category"
+          "eyebrow": "Prize category",
+          "verified_on": "2026-11-19"
         },
         {
           "id": "nonfiction",
@@ -1604,8 +1611,9 @@ window.CULTURE_BOOK_AWARDS_2026 = {
             },
             {
               "item_id": "huna-a-memoir-of-revolution-prison-and-becoming-abdelrahman-elgendy",
-              "winner": false,
-              "label": "Finalist"
+              "winner": true,
+              "label": "Winner",
+              "source": "https://www.nationalbook.org/books/huna-a-memoir-of-revolution-prison-and-becoming/"
             },
             {
               "item_id": "let-the-poets-govern-a-declaration-of-freedom-camonghne-felix",
@@ -1623,7 +1631,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
               "label": "Finalist"
             }
           ],
-          "eyebrow": "Prize category"
+          "eyebrow": "Prize category",
+          "verified_on": "2026-11-19"
         },
         {
           "id": "poetry",
@@ -1642,8 +1651,9 @@ window.CULTURE_BOOK_AWARDS_2026 = {
             },
             {
               "item_id": "still-house-in-the-desert-an-eco-contemplation-brenda-hillman",
-              "winner": false,
-              "label": "Finalist"
+              "winner": true,
+              "label": "Winner",
+              "source": "https://www.nationalbook.org/books/still-house-in-the-desert-an-eco-contemplation/"
             },
             {
               "item_id": "exhibit-g-poems-essays-and-photographs-of-gaza-fady-joudah",
@@ -1656,7 +1666,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
               "label": "Finalist"
             }
           ],
-          "eyebrow": "Prize category"
+          "eyebrow": "Prize category",
+          "verified_on": "2026-11-19"
         },
         {
           "id": "translated-literature",
@@ -1671,9 +1682,10 @@ window.CULTURE_BOOK_AWARDS_2026 = {
             },
             {
               "item_id": "centroeuropa-vicente-luis-mora",
-              "winner": false,
+              "winner": true,
               "translator": "Rahul Bery",
-              "label": "Finalist"
+              "label": "Winner",
+              "source": "https://www.nationalbook.org/books/centroeuropa/"
             },
             {
               "item_id": "night-of-a-thousand-hells-intan-paramaditha",
@@ -1694,7 +1706,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
               "label": "Finalist"
             }
           ],
-          "eyebrow": "Prize category"
+          "eyebrow": "Prize category",
+          "verified_on": "2026-11-19"
         },
         {
           "id": "young-peoples-literature",
@@ -1718,8 +1731,9 @@ window.CULTURE_BOOK_AWARDS_2026 = {
             },
             {
               "item_id": "the-fight-of-our-lives-aids-in-america-david-levithan-gabriel-duckels",
-              "winner": false,
-              "label": "Finalist"
+              "winner": true,
+              "label": "Winner",
+              "source": "https://www.nationalbook.org/books/the-fight-of-our-lives-aids-in-america/"
             },
             {
               "item_id": "shook-julian-randall",
@@ -1727,7 +1741,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
               "label": "Finalist"
             }
           ],
-          "eyebrow": "Prize category"
+          "eyebrow": "Prize category",
+          "verified_on": "2026-11-19"
         }
       ],
       "books": [
@@ -1807,7 +1822,8 @@ window.CULTURE_BOOK_AWARDS_2026 = {
           "id": "shook-julian-randall"
         }
       ],
-      "announcement_date": "2026-11-18"
+      "announcement_date": "2026-11-18",
+      "awardsSource": "https://www.nationalbook.org/winners-of-the-2026-national-book-awards-announced/"
     },
     {
       "event": "Prix Goncourt",
