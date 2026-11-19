@@ -52,3 +52,53 @@ The 2026 editions contain all 57 nominee entries and ten winners in the ten prog
 After review and merge, apply `imports/tv-awards-2026-catalogue-sync.sql` and verify all 39 public work keys resolve. The insert-only batch is expected to register 16 missing public works. It preserves existing rows and aborts on a conflicting provider link or IMDb identity. The calendar and book date changes require no database registration.
 
 Regenerate with `node scripts/prepare-tv-awards.mjs 2026` and `node scripts/prepare-award-dates.mjs`.
+
+## Verification: 19 November 2026
+
+The review used current main at `41de514`, including merged calendar PR #153, and found no open awards-maintenance PR. The 120-day window ends on 19 March 2027. The 2025 and 2026 organizer result pages were consulted for every tracked family. National Book Awards 2026 was the only explicitly unannounced result in the result imports. Completed editions, losing nominees, Nobel selected works and historical non-editions retain their recorded semantics.
+
+### National Book Awards results
+
+The Foundation's [winner announcement](https://www.nationalbook.org/winners-of-the-2026-national-book-awards-announced/) is dated 18 November 2026. Its accessible announcement text contains only the heading and publication date. Each result below was verified separately through the Foundation's book page on 19 November.
+
+| Category | Confirmed winner and primary source |
+| --- | --- |
+| Fiction | [Paradiso 17, Hannah Lillith Assadi](https://www.nationalbook.org/books/paradiso-17/) |
+| Nonfiction | [Huna: A Memoir of Revolution, Prison, and Becoming, Abdelrahman ElGendy](https://www.nationalbook.org/books/huna-a-memoir-of-revolution-prison-and-becoming/) |
+| Poetry | [Still House in the Desert: An eco-contemplation, Brenda Hillman](https://www.nationalbook.org/books/still-house-in-the-desert-an-eco-contemplation/) |
+| Translated Literature | [Centroeuropa, Vicente Luis Mora, translated by Rahul Bery](https://www.nationalbook.org/books/centroeuropa/) |
+| Young People's Literature | [The Fight of Our Lives: AIDS in America, David Levithan and Gabriel Duckels](https://www.nationalbook.org/books/the-fight-of-our-lives-aids-in-america/) |
+
+The source, generated result asset and generated audit now record the awarded stage. All 25 finalist records and their canonical keys are retained. The ceremony date is confirmed as completed. The existing insert-only book registration SQL regenerates identically because this update adds no catalogue identities.
+
+### Source and edition inventory
+
+The loaded film result assets cover 2001–2026, book results cover 2011–2026, and TV results cover 2025–2026. Scheduled calendar editions extend the available year selectors. The shared browser in `awards.js` combines actual results with calendar-only editions from `award-dates-data.js`; `index.html` loads those assets. `book-awards.js` and `tv-awards.js` adapt the shared browser for their media.
+
+| Data | Imports, generators and outputs |
+| --- | --- |
+| Recent films | `imports/awards-2026-source.json`, identity overrides, `scripts/prepare-awards-2026.mjs`, `awards-2026.js`, canonical film metadata and `imports/awards-2026-catalogue-sync.sql`. The six family history generators maintain the 2021–2025 sources in `imports/{oscars,globes,bafta,cannes,venice,berlinale}-2021-2025-*` and `awards-2025.js`. Earlier batches use `scripts/prepare-film-awards-history.mjs` and their batch imports. |
+| Books | `imports/book-awards-2026-source.json` and `scripts/prepare-book-awards.mjs` generate `book-awards-2026.js`, the audit and insert-only registration SQL. The corresponding historical source and `scripts/prepare-book-awards-history.mjs` maintain 2011–2025. |
+| TV | `imports/tv-awards-{2025,2026}-source.json` and `scripts/prepare-tv-awards.mjs YEAR` maintain the result assets, canonical TV catalogue, audits and insert-only registration SQL. |
+| Dates and scheduled pages | `imports/award-event-dates.json` and `scripts/prepare-award-dates.mjs` generate `award-dates-data.js`. `award-dates.js` renders sourced dates with their confirmed precision. |
+
+### Next-edition review
+
+The organizer calendars below were checked on 19 November. No new nominee lists or date corrections were verified for these editions.
+
+| Tracked family | Official next-edition status |
+| --- | --- |
+| Oscars | [2027 calendar](https://www.oscars.org/99th-oscars-and-academy-key-dates), shortlists 15 December 2026, nominations 21 January and ceremony 14 March 2027. |
+| Golden Globes, film and TV | [2027 timetable](https://goldenglobes.com/award-rules-and-entry-forms/), nominations 7 December 2026 and ceremony 10 January 2027. |
+| BAFTA Film | [2027 rules and calendar](https://www.bafta.org/awards/film-rules/), longlists 7 January, nominations 19 January and ceremony 21 February 2027. |
+| Cannes | [2027 festival](https://www.festival-cannes.com/en/accueil-evenement/), 11–22 May. Selections pending. |
+| Venice | [84th festival](https://www.labiennale.org/en/cinema/2026/faq-bcc-15) confirmed for September 2027. Exact dates and selections pending. |
+| Berlinale | [2027 calendar](https://www.berlinale.de/en/dates.html), programme press conference 20 January, festival 10–21 February. The [awards ceremony](https://www.berlinale.de/en/2027/news-press-releases/278428.html) is on 19 February. |
+| Emmys | [2027 ceremony](https://www.televisionacademy.com/features/news/awards-news/261006-emmy-prime-video-announcement-release) confirmed for September. Exact date and nominations pending. |
+| BAFTA Television | [2027 calendar](https://www.bafta.org/awards/television-rules/), nominations 22 March and ceremony 9 May. |
+| Booker Prize | [2027 eligibility and announcement months](https://thebookerprizes.com/booker-prize/enter-the-booker-prize), July longlist and September shortlist. Exact dates and ceremony pending. The [2026 winner and 9 November date](https://thebookerprizes.com/booker-prize) still match the site. |
+| International Booker | [2027 edition](https://thebookerprizes.com/the-booker-library/prize-years/international/2027), longlist 16 March, shortlist 15 April, ceremony in May. Exact ceremony day pending. |
+| Pulitzer Prize | [2027 book cycle](https://www.pulitzer.org/page/books-submission-faq-guidelines-and-requirements) confirmed for eligible 2026 publications. Exact winner-announcement and ceremony dates were not verified. |
+| Nobel Literature | [Organizer announcement calendar](https://www.nobelprize.org/prizes/about/prize-announcement-dates/) still concerns 2026. A 2027 Literature announcement date was not verified. The Swedish Academy confirms the [2025](https://www.svenskaakademien.se/nobelpriset/2025) and [2026](https://www.svenskaakademien.se/nobelpriset/2026) laureates where NobelPrize.org result pages could not be retrieved. |
+| National Book Awards | The [Foundation calendar](https://www.nationalbook.org/national-book-awards/submissions/) still concerns 2026. A 2027 awards calendar was not verified. |
+| Prix Goncourt | [2027 calendar](https://www.academiegoncourt.com/calendrier-des-reunions), winner announcement 4 November. The [2026 winner](https://www.academiegoncourt.com/prix-goncourt-2026) still matches the site. The complete four-title final shortlist could not be verified from an accessible primary announcement, so the labeled eight-title second selection is retained. |

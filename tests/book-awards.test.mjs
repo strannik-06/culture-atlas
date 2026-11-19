@@ -14,6 +14,18 @@ test('2026 book coverage is complete, sourced and honest about announced results
  for(const e of data.events){assert.deepEqual([e.books.length,e.categories.length],counts[e.event]);for(const c of e.categories){assert.ok(c.source);const ids=c.entries.map(r=>r.item_id);assert.equal(new Set(ids).size,ids.length);for(const id of ids)assert.ok(known.has(id));if(e.status!=='awarded')assert.ok(c.entries.every(r=>!r.winner));}if(e.laureate){assert.equal(e.laureate.name,'Anne Carson');assert.ok(e.categories.every(c=>c.entries.every(r=>!r.winner)));}}
  assert.ok(data.events.find(e=>e.event==='International Booker').categories[0].entries.every(r=>r.translator));assert.ok(data.events.find(e=>e.event==='National Book Awards').categories.find(c=>c.name==='Translated Literature').entries.every(r=>r.translator));
  assert.equal(data.events.find(e=>e.event==='International Booker').categories[0].entries.filter(r=>r.winner).length,1);
+ const national = data.events.find(e => e.event === 'National Book Awards');
+ assert.equal(national.status, 'awarded');
+ assert.equal(national.books.length, 25);
+ assert.deepEqual(national.categories.map(category => category.entries.filter(row => row.winner).map(row => row.item_id)), [
+  ['paradiso-17-hannah-lillith-assadi'],
+  ['huna-a-memoir-of-revolution-prison-and-becoming-abdelrahman-elgendy'],
+  ['still-house-in-the-desert-an-eco-contemplation-brenda-hillman'],
+  ['centroeuropa-vicente-luis-mora'],
+  ['the-fight-of-our-lives-aids-in-america-david-levithan-gabriel-duckels'],
+ ]);
+ assert.ok(national.categories.every(category => category.entries.length === 5 && category.entries.every(row => row.label === (row.winner ? 'Winner' : 'Finalist'))));
+
 });
 test('Book award tabs, stage labels, Nobel profile and shareable detail navigation survive refresh',async()=>{
  const a=await boot();try{const{w,$}=a;assert.equal($('book-award-tabs').querySelectorAll('a').length,6);
@@ -26,6 +38,19 @@ test('Book award tabs, stage labels, Nobel profile and shareable detail navigati
   const first=$('book-awards-grid').querySelector('article');first.querySelector('h3 a').click();assert.equal($('book-editor').open,true);assert.match(w.location.hash,/from=awards/);assert.match(w.location.hash,/event=Nobel/);
   const reload=await boot(w.location.hash);try{assert.equal(reload.$('book-editor').open,true);assert.equal(reload.$('book-award-edition-title').textContent,'Nobel Literature 2026');reload.$('book-detail-close').click();assert.equal(reload.$('book-editor').open,false);assert.match(reload.w.location.hash,/books\/awards/);}finally{await reload.close();}
   w.history.back();await tick();assert.equal($('book-editor').open,false);assert.equal($('book-award-edition-title').textContent,'Nobel Literature 2026');
+
+  w.CultureRouter.navigate({section:'books',view:'awards',params:{event:'National Book Awards',year:'2026'}});
+  assert.equal($('book-awards-grid').querySelectorAll('article').length, 25);
+  assert.equal($('book-awards-grid').querySelectorAll('.award-winner').length, 5);
+  assert.match($('book-awards-grid').querySelector('.award-winner').textContent, /Paradiso 17/);
+  assert.doesNotMatch($('book-award-event-dates').textContent, /Scheduled Ceremony/);
+  const nationalReload = await boot(w.location.hash);
+  try {
+   assert.equal(nationalReload.$('book-awards-grid').querySelectorAll('.award-winner').length, 5);
+   assert.match(nationalReload.$('book-awards-event-details').textContent, /Winners announced on 18 November 2026/);
+  } finally {
+   await nationalReload.close();
+  }
   w.CultureRouter.navigate({section:'books',view:'awards',params:{event:'Prix Goncourt',year:'2026'}});assert.equal($('book-awards-grid').querySelectorAll('article').length,8);assert.match($('book-awards-event-details').textContent,/3 November/);
   w.CultureRouter.navigate({section:'books',view:'awards',params:{event:'Booker Prize',year:'2010'}});assert.match($('book-awards-grid').textContent,/not been added/);
  }finally{await a.close();}

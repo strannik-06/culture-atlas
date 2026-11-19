@@ -636,11 +636,10 @@ window.CULTURE_AWARD_EVENT_DATES = [
       {
         "label": "Ceremony",
         "start": "2026-11-18",
-        "source": "https://www.nationalbook.org/awards2026/",
-        "scheduled": true
+        "source": "https://www.nationalbook.org/winners-of-the-2026-national-book-awards-announced/"
       }
     ],
-    "verified_on": "2026-11-16"
+    "verified_on": "2026-11-19"
   },
   {
     "section": "books",
