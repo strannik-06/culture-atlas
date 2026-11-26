@@ -40,7 +40,7 @@ test('Scheduled editions are reachable across film, TV and books, survive refres
  for(const [section,event,prefix,date] of [
   ['films','Berlinale','','Scheduled Ceremony: 19 February 2027'],
   ['films','Cannes','','11–22 May 2027'],
-  ['films','Venice','','September 2027'],
+  ['films','Venice','','1–11 September 2027'],
   ['books','Booker Prize','book-','Scheduled Longlist: July 2027'],
   ['books','International Booker','book-','16 March 2027'],
   ['books','Prix Goncourt','book-','4 November 2027'],
