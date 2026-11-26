@@ -365,11 +365,20 @@ test('Goodreads manual fallback selects before saving and uses the shared star, 
   await window.CultureBooks.setSession({id:userA});
   $('book-goodreads-url').value='https://www.goodreads.com/book/show/222519102-a-book';
   $('book-goodreads-title').value='New book';$('book-goodreads-author').value='Author';$('book-goodreads-year').value='2024';
+  $('book-goodreads-cover').value='https://m.media-amazon.com/images/I/unrelated.jpg';
+  submit('book-goodreads-form');
+  assert.equal($('book-editor').hidden,true);
+  assert.match($('book-goodreads-status').textContent,/leave the cover field blank/);
+
+  const cover='https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1720544114i/216286733.jpg';
+  $('book-goodreads-url').value='https://www.goodreads.com/book/show/216286733';
+  $('book-goodreads-cover').value=cover;
   submit('book-goodreads-form');assert.equal(state.calls.length,0);assert.equal($('book-editor').hidden,false);
+  assert.equal($('book-detail-summary').querySelector('img').src,cover);
   $('book-rating').value='8.5';$('book-format').value='audio';$('book-notes').value='My note';
   client.rpc=async(name,payload)=>{state.calls.push({name,payload});return {data:{book:{id:99,...payload.p_metadata},progress:{book_id:99,rating:payload.p_rating,reading_format:payload.p_format,notes:payload.p_notes}}};};
   submit('book-rating-form');await flush();
-  assert.equal(state.calls[0].name,'save_book_review');assert.equal(state.calls[0].payload.p_metadata.goodreads_id,'222519102');assert.equal(state.calls[0].payload.p_notes,'My note');assert.match(state.calls[0].payload.p_read_date,/^\d{4}-\d{2}-\d{2}$/);
+  assert.equal(state.calls[0].name,'save_book_review');assert.equal(state.calls[0].payload.p_metadata.goodreads_id,'216286733');assert.equal(state.calls[0].payload.p_metadata.cover_url,cover);assert.equal(state.calls[0].payload.p_notes,'My note');assert.match(state.calls[0].payload.p_read_date,/^\d{4}-\d{2}-\d{2}$/);
   assert.match($('book-ratings-grid').textContent,/8.5\/10/);assert.equal($('book-ratings-grid').querySelector('h3 a').getAttribute('href'),'#/books/local-99');
   $('book-goodreads-url').value='https://www.goodreads.com/book/show/333';submit('book-goodreads-form');
   assert.equal($('book-selected-title').textContent,'New book');assert.match($('book-goodreads-status').textContent,/already in the catalogue/);

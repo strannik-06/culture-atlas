@@ -15,7 +15,16 @@
   }
   function fallbackCover(value) {
     if(typeof value!=='string')return null;
-    try {const url=new URL(value);return url.protocol==='https:'&&!url.username&&!url.password&&!url.port&&['i.gr-assets.com','images.gr-assets.com'].includes(url.hostname)?url.href:null;}catch{return null;}
+    try {
+      const url = new URL(value);
+      if (url.protocol !== 'https:' || url.username || url.password || url.port || url.href.length > 2000) return null;
+      const legacyHost = ['i.gr-assets.com', 'images.gr-assets.com'].includes(url.hostname);
+      const amazonCover = url.hostname === 'm.media-amazon.com' &&
+        /^\/images\/S\/compressed[.]photo[.]goodreads[.]com\/books\/[^/]+/.test(url.pathname);
+      return legacyHost || amazonCover ? url.href : null;
+    } catch {
+      return null;
+    }
   }
   function goodreadsMarkup(book) {
     const id=goodreadsId(book.goodreads_id),rating=book.goodreads_rating;
@@ -499,13 +508,19 @@
       const match=url.match(/^https:\/\/(?:www\.)?goodreads\.com\/(?:[a-z]{2}\/)?book\/show\/([1-9]\d{0,19})(?:[.\-/?#].*)?$/);
       const title=$('book-goodreads-title').value.trim(),author=$('book-goodreads-author').value.trim();
       const year=$('book-goodreads-year').value?Number($('book-goodreads-year').value):null;
-      const cover=$('book-goodreads-cover').value.trim();
-      if(!match||!title||!author||(year!==null&&(!Number.isInteger(year)||year< -5000||year>3000))||(cover&&!fallbackCover(cover))){message('book-goodreads-status','Enter a Goodreads book link, title and author. An optional cover must use a Goodreads image URL.');return;}
+      const coverInput=$('book-goodreads-cover').value.trim();
+      const cover=fallbackCover(coverInput);
+      if(!match||!title||!author||(year!==null&&(!Number.isInteger(year)||year< -5000||year>3000))){message('book-goodreads-status','Enter a Goodreads book link, title and author, and check the publication year.');return;}
+      if(coverInput&&!cover){
+        message('book-goodreads-status','Use a Goodreads cover image URL or leave the cover field blank.');
+        $('book-goodreads-cover').focus();
+        return;
+      }
       const existing=books.find(b=>b.goodreads_id===match[1]);
       if(existing){choose(bookKey(existing));return;}
       const duplicate=books.find(b=>normaliseText(b.title)===normaliseText(title)&&normaliseText(b.authors.join(' '))===normaliseText(author));
       if(duplicate){choose(bookKey(duplicate));message('book-goodreads-status','This title and author are already in the catalogue. Opened the existing book for rating.');return;}
-      const book={goodreads_id:match[1],title,authors:[author],first_publish_year:year,cover_url:cover||null,goodreads_source_url:`https://www.goodreads.com/book/show/${match[1]}`};
+      const book={goodreads_id:match[1],title,authors:[author],first_publish_year:year,cover_url:cover,goodreads_source_url:`https://www.goodreads.com/book/show/${match[1]}`};
       results=results.filter(b=>bookKey(b)!==bookKey(book));results.push(book);render();choose(bookKey(book));
       message('book-goodreads-status','Choose your rating, format and notes below, then save to add this book.');
     });

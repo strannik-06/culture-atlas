@@ -26,3 +26,33 @@ test('Reviews and imported history share dates, preserve rereads and reject unau
  await db.query("select set_config('request.jwt.claim.sub',$1,false)",[other]);await save({id},'2026-11-01');assert.equal((await db.query('select * from book_readings')).rows.length,1);
  await db.exec('set role anon');await assert.rejects(save(meta,'2026-11-09'),/permission denied/);
 }finally{await db.close();}});
+
+test('Review saves accept the Goodreads Amazon cover path for a new book', async()=>{
+ const db=await setup();
+ try {
+  const cover='https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1720544114i/216286733.jpg';
+  const metadata={
+   goodreads_id:'216286733',
+   goodreads_source_url:'https://www.goodreads.com/book/show/216286733',
+   title:'Кажется, у меня СДВГ. Признаки, причины и скрытые выгоды синдрома третьего тысячелетия у взрослых',
+   authors:['Анастасия Афанасьева'],
+   first_publish_year:2024,
+   cover_url:cover,
+  };
+  for(const file of ['book_review_reading_dates.sql','goodreads_cover_urls.sql']){
+   await db.exec(await readFile(new URL('../supabase/changes/'+file,import.meta.url),'utf8'));
+  }
+  await db.exec(`set role authenticated;set request.jwt.claim.sub='${uid}'`);
+  const save=book=>db.query("select public.save_book_review($1::jsonb,8,'kindle','','2026-11-26') result",[JSON.stringify(book)]);
+  await assert.rejects(save({...metadata,cover_url:'https://m.media-amazon.com/images/I/unrelated.jpg'}),/Invalid Goodreads/);
+  const result=(await save(metadata)).rows[0].result;
+  assert.equal(result.book.cover_url,cover);
+  assert.equal(result.book.title,metadata.title);
+  assert.deepEqual(result.book.authors,metadata.authors);
+  assert.equal(result.progress.rating,8);
+  assert.equal(result.progress.read_date,'2026-11-26');
+  assert.equal((await save(metadata)).rows[0].result.book.id,result.book.id);
+ } finally {
+  await db.close();
+ }
+});
