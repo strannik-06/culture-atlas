@@ -3589,13 +3589,14 @@ window.CULTURE_AWARD_EVENT_DATES = [
     "event": "Venice",
     "year": 2027,
     "status": "scheduled",
-    "verified_on": "2026-11-12",
-    "note": "La Biennale confirms the 84th festival in September. Exact dates and competition selections have not yet been announced.",
+    "verified_on": "2026-11-26",
+    "note": "The 84th Venice International Film Festival is scheduled for 1–11 September 2027. Competition selections have not yet been announced.",
     "dates": [
       {
         "label": "Festival",
-        "start": "2027-09",
-        "source": "https://static.labiennale.org/files/cinema/2026/Documenti/83miac-brochure-a.pdf",
+        "start": "2027-09-01",
+        "end": "2027-09-11",
+        "source": "https://www.labiennale.org/en/news/save-dates-2027",
         "scheduled": true
       }
     ]
